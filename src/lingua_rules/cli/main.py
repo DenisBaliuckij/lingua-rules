@@ -9,8 +9,10 @@ from lingua_rules.engine.features import (
     load_feature_vocabulary,
     validate_features,
 )
+from lingua_rules.engine.lint import lint_language
 from lingua_rules.engine.paradigm_tests import run_paradigm_tests
 from lingua_rules.engine.runner import InvalidLemmaError, NoRuleMatchedError, generate_form
+from lingua_rules.engine.templates import append_rule
 
 app = typer.Typer(help="Author, browse, and test natural language grammar rules.")
 
@@ -69,6 +71,44 @@ def run_tests(
     typer.echo(f"{len(results) - failed}/{len(results)} passed")
     if failed:
         raise typer.Exit(code=1)
+
+
+@app.command()
+def lint(
+    lang: str,
+    rules_dir: Path = typer.Option(Path("rules"), "--rules-dir"),
+) -> None:
+    """Validate LANG's rule files: Clingo parse errors and undeclared feature usage."""
+    issues = lint_language(rules_dir, lang)
+    if not issues:
+        typer.echo(f"{lang}: no issues found")
+        return
+    for issue in issues:
+        typer.echo(f"[{issue.category}] {issue.message}")
+    raise typer.Exit(code=1)
+
+
+@app.command(name="new-rule")
+def new_rule(
+    lang: str,
+    category: str,
+    template: str = typer.Option(..., "--template", help="regular-affix or exception-override"),
+    feature_key: str = typer.Option(..., "--feature-key", help='e.g. "number=plural"'),
+    suffix: str = typer.Option("", "--suffix"),
+    lemma: str = typer.Option("", "--lemma"),
+    form: str = typer.Option("", "--form"),
+    rules_dir: Path = typer.Option(Path("rules"), "--rules-dir"),
+) -> None:
+    """Append a rule scaffold from TEMPLATE to CATEGORY's rule file for LANG."""
+    try:
+        path = append_rule(
+            rules_dir, lang, category, template,
+            feature_key=feature_key, suffix=suffix, lemma=lemma, form=form,
+        )
+    except ValueError as exc:
+        typer.echo(f"error: {exc}")
+        raise typer.Exit(code=1)
+    typer.echo(f"appended {template} scaffold to {path}")
 
 
 if __name__ == "__main__":
