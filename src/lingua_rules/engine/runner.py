@@ -13,6 +13,10 @@ class NoRuleMatchedError(Exception):
     """Raised when no rule in the category produces a form for the request."""
 
 
+class InvalidLemmaError(Exception):
+    """Raised when a lemma contains characters that can't appear in a Clingo string literal."""
+
+
 def _escape(value: str) -> str:
     return value.replace("\\", "\\\\").replace('"', '\\"')
 
@@ -24,6 +28,11 @@ def generate_form(
     lemma: str,
     features: dict[str, str],
 ) -> str:
+    if "\n" in lemma or "\r" in lemma:
+        raise InvalidLemmaError(
+            f"lemma {lemma!r} contains a newline, which cannot appear in a "
+            "Clingo string literal"
+        )
     rule_path = category_rule_path(rules_dir, lang_code, category)
     source = rule_path.read_text(encoding="utf-8")
     program = f'input_lemma("{_escape(lemma)}").\n{source}'
