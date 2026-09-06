@@ -120,5 +120,16 @@ def new_rule(
     typer.echo(f"appended {template} scaffold to {path}")
 
 
+@app.command()
+def serve(
+    host: str = typer.Option("127.0.0.1", "--host"),
+    port: int = typer.Option(8000, "--port"),
+) -> None:
+    """Launch the local web UI."""
+    import uvicorn
+
+    uvicorn.run("lingua_rules.web.app:app", host=host, port=port)
+
+
 if __name__ == "__main__":
     app()
