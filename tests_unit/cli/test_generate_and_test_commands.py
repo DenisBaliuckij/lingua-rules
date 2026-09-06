@@ -33,6 +33,21 @@ def test_generate_reports_an_unknown_feature_and_exits_nonzero():
     assert "unknown feature dimension" in result.stdout
 
 
+def test_generate_reports_an_invalid_lemma_with_newline_and_exits_nonzero():
+    result = runner.invoke(
+        app,
+        [
+            "generate", "en", "nouns", "ca\nt",
+            "--features", "number=plural",
+            "--rules-dir", "rules",
+        ],
+    )
+
+    assert result.exit_code == 1
+    assert "error:" in result.stdout
+    assert "newline" in result.stdout
+
+
 def test_test_command_reports_all_english_fixtures_passing():
     result = runner.invoke(
         app, ["test", "en", "--rules-dir", "rules", "--tests-dir", "tests"]

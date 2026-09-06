@@ -10,7 +10,7 @@ from lingua_rules.engine.features import (
     validate_features,
 )
 from lingua_rules.engine.paradigm_tests import run_paradigm_tests
-from lingua_rules.engine.runner import NoRuleMatchedError, generate_form
+from lingua_rules.engine.runner import InvalidLemmaError, NoRuleMatchedError, generate_form
 
 app = typer.Typer(help="Author, browse, and test natural language grammar rules.")
 
@@ -43,7 +43,7 @@ def generate(
         vocab = load_feature_vocabulary(rules_dir, lang)
         validate_features(vocab, parsed)
         form = generate_form(rules_dir, lang, category, lemma, parsed)
-    except (UnknownFeatureError, NoRuleMatchedError) as exc:
+    except (UnknownFeatureError, NoRuleMatchedError, InvalidLemmaError) as exc:
         typer.echo(f"error: {exc}")
         raise typer.Exit(code=1)
     typer.echo(form)
