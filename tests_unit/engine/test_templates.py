@@ -2,7 +2,7 @@ from pathlib import Path
 
 import pytest
 
-from lingua_rules.engine.templates import append_rule
+from lingua_rules.engine.templates import MissingTemplateFieldError, append_rule
 
 
 def _write_minimal_category(tmp_path: Path) -> Path:
@@ -47,3 +47,29 @@ def test_append_rule_rejects_an_unknown_template(tmp_path):
 
     with pytest.raises(ValueError):
         append_rule(rules_dir, "xx", "nouns", "not-a-real-template")
+
+
+def test_append_rule_rejects_a_missing_required_field(tmp_path):
+    rules_dir = _write_minimal_category(tmp_path)
+
+    with pytest.raises(MissingTemplateFieldError):
+        append_rule(
+            rules_dir, "xx", "nouns", "regular-affix",
+            feature_key="number=plural",
+        )
+
+    content = (rules_dir / "xx" / "nouns.lp").read_text(encoding="utf-8")
+    assert content == "% existing rules\n"
+
+
+def test_append_rule_treats_an_empty_string_field_as_missing(tmp_path):
+    rules_dir = _write_minimal_category(tmp_path)
+
+    with pytest.raises(MissingTemplateFieldError):
+        append_rule(
+            rules_dir, "xx", "nouns", "regular-affix",
+            feature_key="number=plural", suffix="",
+        )
+
+    content = (rules_dir / "xx" / "nouns.lp").read_text(encoding="utf-8")
+    assert content == "% existing rules\n"

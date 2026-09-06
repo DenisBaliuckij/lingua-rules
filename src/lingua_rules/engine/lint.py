@@ -25,7 +25,15 @@ class LintIssue:
 def lint_language(rules_dir: Path, lang_code: str) -> list[LintIssue]:
     issues: list[LintIssue] = []
     language = load_language(rules_dir, lang_code)
-    vocab = load_feature_vocabulary(rules_dir, lang_code)
+    try:
+        vocab = load_feature_vocabulary(rules_dir, lang_code)
+    except Exception as exc:
+        return [
+            LintIssue(
+                category="<all>",
+                message=f"could not load feature vocabulary: {exc}",
+            )
+        ]
 
     for category in language.categories:
         rule_path = category_rule_path(rules_dir, lang_code, category)

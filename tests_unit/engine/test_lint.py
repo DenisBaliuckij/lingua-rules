@@ -45,3 +45,20 @@ def test_lint_language_flags_a_clingo_parse_error(tmp_path):
     issues = lint_language(rules_dir, "xx")
 
     assert any("parse error" in issue.message for issue in issues)
+
+
+def test_lint_language_reports_an_issue_when_features_yaml_is_missing(tmp_path):
+    lang_dir = tmp_path / "xx"
+    lang_dir.mkdir()
+    (lang_dir / "lang.yaml").write_text(
+        "name: Test\ncategories: [nouns]\n", encoding="utf-8"
+    )
+    (lang_dir / "nouns.lp").write_text(
+        'form(Lemma, "number=plural", @suffix(Lemma, "s")) :- input_lemma(Lemma).\n',
+        encoding="utf-8",
+    )
+
+    issues = lint_language(tmp_path, "xx")
+
+    assert len(issues) == 1
+    assert "feature vocabulary" in issues[0].message

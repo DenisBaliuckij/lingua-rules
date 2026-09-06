@@ -22,6 +22,15 @@ _TEMPLATES = {
     "exception-override": EXCEPTION_OVERRIDE_TEMPLATE,
 }
 
+_TEMPLATE_REQUIRED_FIELDS = {
+    "regular-affix": ("feature_key", "suffix"),
+    "exception-override": ("lemma", "feature_key", "form"),
+}
+
+
+class MissingTemplateFieldError(Exception):
+    """Raised when append_rule is called without a field its template requires."""
+
 
 def append_rule(
     rules_dir: Path, lang_code: str, category: str, template_name: str, **kwargs: str
@@ -30,6 +39,14 @@ def append_rule(
     if template is None:
         known = ", ".join(_TEMPLATES)
         raise ValueError(f"unknown template '{template_name}' (known: {known})")
+
+    required = _TEMPLATE_REQUIRED_FIELDS.get(template_name, ())
+    missing = [field for field in required if not kwargs.get(field)]
+    if missing:
+        raise MissingTemplateFieldError(
+            f"template '{template_name}' requires field(s) {missing} "
+            f"(got: {list(kwargs)})"
+        )
 
     rule_path = category_rule_path(rules_dir, lang_code, category)
     block = template.format(**kwargs)
