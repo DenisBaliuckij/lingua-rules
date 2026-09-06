@@ -123,6 +123,10 @@ def test_runner_view(
     rules_dir: Path = Depends(get_rules_dir),
     tests_dir: Path = Depends(get_tests_dir),
 ):
+    try:
+        load_language(rules_dir, lang)
+    except LanguageNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=str(exc))
     results = run_paradigm_tests(rules_dir, tests_dir, lang)
     passed = sum(1 for r in results if r.passed)
     return templates.TemplateResponse(
