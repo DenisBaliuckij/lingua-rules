@@ -75,8 +75,9 @@ def try_it_form(
     rules_dir: Path = Depends(get_rules_dir),
 ):
     try:
+        category_rule_path(rules_dir, lang, category)
         vocab = load_feature_vocabulary(rules_dir, lang)
-    except LanguageNotFoundError as exc:
+    except (LanguageNotFoundError, CategoryNotFoundError) as exc:
         raise HTTPException(status_code=404, detail=str(exc))
     return templates.TemplateResponse(
         request,
