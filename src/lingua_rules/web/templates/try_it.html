@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Try it: {{ lang }} / {{ category }}</h1>
+<form hx-post="/{{ lang }}/category/{{ category }}/try" hx-target="#result">
+  <label>Lemma <input type="text" name="lemma"></label>
+  {% for dimension, values in vocab.dimensions.items() %}
+  <label>{{ dimension }}
+    <select name="{{ dimension }}">
+      {% for value in values %}<option value="{{ value }}">{{ value }}</option>{% endfor %}
+    </select>
+  </label>
+  {% endfor %}
+  <button type="submit">Generate</button>
+</form>
+<div id="result"></div>
+{% endblock %}

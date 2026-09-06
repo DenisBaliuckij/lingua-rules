@@ -3,16 +3,21 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
-from fastapi import Depends, FastAPI, HTTPException, Request
+from fastapi import Depends, FastAPI, Form, HTTPException, Request
 from fastapi.templating import Jinja2Templates
 
-from lingua_rules.engine.features import load_feature_vocabulary
+from lingua_rules.engine.features import (
+    UnknownFeatureError,
+    load_feature_vocabulary,
+    validate_features,
+)
 from lingua_rules.engine.loader import (
     CategoryNotFoundError,
     LanguageNotFoundError,
     category_rule_path,
     load_language,
 )
+from lingua_rules.engine.runner import NoRuleMatchedError, generate_form
 
 app = FastAPI(title="lingua-rules")
 
@@ -59,4 +64,51 @@ def category_page(
         request,
         "category.html",
         {"lang": lang, "category": category, "source": source, "vocab": vocab},
+    )
+
+
+@app.get("/{lang}/category/{category}/try")
+def try_it_form(
+    request: Request,
+    lang: str,
+    category: str,
+    rules_dir: Path = Depends(get_rules_dir),
+):
+    try:
+        vocab = load_feature_vocabulary(rules_dir, lang)
+    except LanguageNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=str(exc))
+    return templates.TemplateResponse(
+        request,
+        "try_it.html",
+        {"lang": lang, "category": category, "vocab": vocab},
+    )
+
+
+@app.post("/{lang}/category/{category}/try")
+async def try_it_submit(
+    request: Request,
+    lang: str,
+    category: str,
+    lemma: str = Form(...),
+    rules_dir: Path = Depends(get_rules_dir),
+):
+    form_data = await request.form()
+    features = {
+        key: value for key, value in form_data.items() if key != "lemma"
+    }
+    result: str | None = None
+    error: str | None = None
+    try:
+        vocab = load_feature_vocabulary(rules_dir, lang)
+        validate_features(vocab, features)
+        result = generate_form(rules_dir, lang, category, lemma, features)
+    except (LanguageNotFoundError, CategoryNotFoundError) as exc:
+        raise HTTPException(status_code=404, detail=str(exc))
+    except (UnknownFeatureError, NoRuleMatchedError) as exc:
+        error = str(exc)
+    return templates.TemplateResponse(
+        request,
+        "try_it_result.html",
+        {"lemma": lemma, "features": features, "result": result, "error": error},
     )
