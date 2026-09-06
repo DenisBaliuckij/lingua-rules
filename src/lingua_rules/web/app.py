@@ -4,6 +4,7 @@ import os
 from pathlib import Path
 
 from fastapi import Depends, FastAPI, Form, HTTPException, Request
+from fastapi.responses import RedirectResponse
 from fastapi.templating import Jinja2Templates
 
 from lingua_rules.engine.features import (
@@ -19,6 +20,7 @@ from lingua_rules.engine.loader import (
 )
 from lingua_rules.engine.paradigm_tests import run_paradigm_tests
 from lingua_rules.engine.runner import NoRuleMatchedError, generate_form
+from lingua_rules.engine.templates import MissingTemplateFieldError, append_rule
 
 app = FastAPI(title="lingua-rules")
 
@@ -134,3 +136,43 @@ def test_runner_view(
         "test_results.html",
         {"lang": lang, "results": results, "passed": passed, "total": len(results)},
     )
+
+
+@app.get("/{lang}/category/{category}/new-rule")
+def new_rule_form(
+    request: Request,
+    lang: str,
+    category: str,
+    rules_dir: Path = Depends(get_rules_dir),
+):
+    try:
+        category_rule_path(rules_dir, lang, category)
+    except (LanguageNotFoundError, CategoryNotFoundError) as exc:
+        raise HTTPException(status_code=404, detail=str(exc))
+    return templates.TemplateResponse(
+        request, "new_rule.html", {"lang": lang, "category": category, "error": None}
+    )
+
+
+@app.post("/{lang}/category/{category}/new-rule")
+def new_rule_submit(
+    request: Request,
+    lang: str,
+    category: str,
+    feature_key: str = Form(""),
+    suffix: str = Form(""),
+    rules_dir: Path = Depends(get_rules_dir),
+):
+    try:
+        append_rule(
+            rules_dir, lang, category, "regular-affix", feature_key=feature_key, suffix=suffix
+        )
+    except (LanguageNotFoundError, CategoryNotFoundError) as exc:
+        raise HTTPException(status_code=404, detail=str(exc))
+    except MissingTemplateFieldError as exc:
+        return templates.TemplateResponse(
+            request,
+            "new_rule.html",
+            {"lang": lang, "category": category, "error": str(exc)},
+        )
+    return RedirectResponse(url=f"/{lang}/category/{category}", status_code=303)

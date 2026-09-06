@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>New rule (regular-affix): {{ lang }} / {{ category }}</h1>
+{% if error %}
+<p class="error">error: {{ error }}</p>
+{% endif %}
+<form method="post">
+  <label>Feature key (e.g. number=plural) <input type="text" name="feature_key"></label>
+  <label>Suffix to add <input type="text" name="suffix"></label>
+  <button type="submit">Add rule</button>
+</form>
+{% endblock %}
