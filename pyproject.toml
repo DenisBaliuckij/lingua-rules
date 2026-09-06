@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lingua-rules"
+version = "0.1.0"
+description = "A system for linguists to author, browse, and test natural language grammar rules."
+requires-python = ">=3.11"
+dependencies = [
+    "clingo>=5.7",
+    "typer>=0.12",
+    "fastapi>=0.110",
+    "jinja2>=3.1",
+    "uvicorn>=0.29",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "httpx>=0.27",
+]
+
+[project.scripts]
+lingua-rules = "lingua_rules.cli.main:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lingua_rules"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests_unit"]
