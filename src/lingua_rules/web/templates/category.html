@@ -1,6 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
 <h1>{{ lang }} / {{ category }}</h1>
+<nav>
+  <a href="/">All languages</a> |
+  <a href="/{{ lang }}/category/{{ category }}/try">Try it</a> |
+  <a href="/{{ lang }}/category/{{ category }}/new-rule">Add a rule</a> |
+  <a href="/{{ lang }}/tests">Run tests</a>
+</nav>
 <h2>Feature vocabulary</h2>
 <ul>
   {% for dimension, values in vocab.dimensions.items() %}

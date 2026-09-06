@@ -2,9 +2,11 @@ from pathlib import Path
 
 import pytest
 
+from lingua_rules.engine.features import load_feature_vocabulary
 from lingua_rules.engine.loader import (
     CategoryNotFoundError,
     LanguageNotFoundError,
+    MalformedLanguageConfigError,
     category_rule_path,
     load_language,
 )
@@ -50,3 +52,67 @@ def test_category_rule_path_raises_for_undeclared_category(tmp_path):
 
     with pytest.raises(CategoryNotFoundError):
         category_rule_path(rules_dir, "xx", "verbs")
+
+
+# --- I5: a malformed language config is a named error, not a raw crash ---
+
+
+def test_load_language_reports_a_missing_lang_yaml(tmp_path):
+    (tmp_path / "__pycache__").mkdir()
+
+    with pytest.raises(MalformedLanguageConfigError) as excinfo:
+        load_language(tmp_path, "__pycache__")
+
+    assert "__pycache__" in str(excinfo.value)
+    assert "lang.yaml" in str(excinfo.value)
+
+
+def test_load_language_reports_unparseable_yaml(tmp_path):
+    lang_dir = tmp_path / "xx"
+    lang_dir.mkdir()
+    (lang_dir / "lang.yaml").write_text("name: [unclosed\n", encoding="utf-8")
+
+    with pytest.raises(MalformedLanguageConfigError) as excinfo:
+        load_language(tmp_path, "xx")
+
+    assert "not valid YAML" in str(excinfo.value)
+
+
+def test_load_language_reports_a_missing_name_key(tmp_path):
+    lang_dir = tmp_path / "xx"
+    lang_dir.mkdir()
+    (lang_dir / "lang.yaml").write_text("categories: [nouns]\n", encoding="utf-8")
+
+    with pytest.raises(MalformedLanguageConfigError) as excinfo:
+        load_language(tmp_path, "xx")
+
+    assert "name" in str(excinfo.value)
+
+
+def test_load_feature_vocabulary_reports_a_missing_features_yaml(tmp_path):
+    lang_dir = tmp_path / "xx"
+    lang_dir.mkdir()
+    (lang_dir / "lang.yaml").write_text(
+        "name: Test\ncategories: [nouns]\n", encoding="utf-8"
+    )
+
+    with pytest.raises(MalformedLanguageConfigError) as excinfo:
+        load_feature_vocabulary(tmp_path, "xx")
+
+    assert "features.yaml" in str(excinfo.value)
+
+
+def test_load_feature_vocabulary_reports_a_dimension_with_no_values(tmp_path):
+    lang_dir = tmp_path / "xx"
+    lang_dir.mkdir()
+    (lang_dir / "lang.yaml").write_text(
+        "name: Test\ncategories: [nouns]\n", encoding="utf-8"
+    )
+    (lang_dir / "features.yaml").write_text(
+        "dimensions:\n  number: singular\n", encoding="utf-8"
+    )
+
+    with pytest.raises(MalformedLanguageConfigError) as excinfo:
+        load_feature_vocabulary(tmp_path, "xx")
+
+    assert "values" in str(excinfo.value)

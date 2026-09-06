@@ -62,3 +62,27 @@ def test_lint_language_reports_an_issue_when_features_yaml_is_missing(tmp_path):
 
     assert len(issues) == 1
     assert "feature vocabulary" in issues[0].message
+
+
+# --- I3: a declared-but-unwritten category is a lint issue, not a crash ---
+
+
+def test_lint_reports_a_declared_category_with_no_rule_file(tmp_path):
+    lang_dir = tmp_path / "xx"
+    lang_dir.mkdir()
+    (lang_dir / "lang.yaml").write_text(
+        "name: Test\ncategories: [nouns, verbs]\n", encoding="utf-8"
+    )
+    (lang_dir / "features.yaml").write_text(
+        "dimensions:\n  number:\n    values: [singular, plural]\n", encoding="utf-8"
+    )
+    # nouns.lp exists; verbs.lp was declared but never written
+    (lang_dir / "nouns.lp").write_text(
+        'form(Lemma, "number=singular", Lemma) :- input_lemma(Lemma).\n',
+        encoding="utf-8",
+    )
+
+    issues = lint_language(tmp_path, "xx")
+
+    assert [i.category for i in issues] == ["verbs"]
+    assert "does not exist yet" in issues[0].message

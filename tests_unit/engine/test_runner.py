@@ -2,7 +2,12 @@ from pathlib import Path
 
 import pytest
 
-from lingua_rules.engine.runner import InvalidLemmaError, NoRuleMatchedError, generate_form
+from lingua_rules.engine.runner import (
+    InvalidLemmaError,
+    NoRuleMatchedError,
+    RuleFileParseError,
+    generate_form,
+)
 
 RULES_DIR = Path("rules")
 
@@ -57,3 +62,30 @@ def test_generate_form_does_not_execute_an_injection_attempt_as_asp(identity_rul
 def test_generate_form_rejects_a_lemma_containing_a_newline(identity_rules_dir):
     with pytest.raises(InvalidLemmaError):
         generate_form(identity_rules_dir, "zz", "nouns", "x\ninput_lemma(\"y", {"number": "singular"})
+
+
+# --- I4: parse errors name the file and Clingo's own message ---
+
+
+def _write_language_with_source(tmp_path, source):
+    lang_dir = tmp_path / "xx"
+    lang_dir.mkdir()
+    (lang_dir / "lang.yaml").write_text(
+        "name: Test\ncategories: [nouns]\n", encoding="utf-8"
+    )
+    (lang_dir / "features.yaml").write_text(
+        "dimensions:\n  number:\n    values: [singular, plural]\n", encoding="utf-8"
+    )
+    (lang_dir / "nouns.lp").write_text(source, encoding="utf-8")
+    return tmp_path
+
+
+def test_generate_form_raises_a_named_error_naming_the_file_on_a_parse_error(tmp_path):
+    rules_dir = _write_language_with_source(tmp_path, 'form(Lemma, "number=plural"\n')
+
+    with pytest.raises(RuleFileParseError) as excinfo:
+        generate_form(rules_dir, "xx", "nouns", "cat", {"number": "plural"})
+
+    message = str(excinfo.value)
+    assert "nouns.lp" in message
+    assert "parsing failed" in message

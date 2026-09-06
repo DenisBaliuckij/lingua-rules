@@ -3,9 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 
-import yaml
-
-from .loader import language_dir
+from .loader import MalformedLanguageConfigError, load_language_yaml, language_dir
 
 
 class UnknownFeatureError(Exception):
@@ -19,10 +17,23 @@ class FeatureVocabulary:
 
 def load_feature_vocabulary(rules_dir: Path, lang_code: str) -> FeatureVocabulary:
     lang_dir = language_dir(rules_dir, lang_code)
-    data = yaml.safe_load((lang_dir / "features.yaml").read_text(encoding="utf-8"))
-    dimensions = {
-        name: list(spec["values"]) for name, spec in data["dimensions"].items()
-    }
+    data = load_language_yaml(lang_dir, lang_code, "features.yaml")
+
+    raw_dimensions = data.get("dimensions")
+    if not isinstance(raw_dimensions, dict):
+        raise MalformedLanguageConfigError(
+            f"language '{lang_code}': features.yaml must have a 'dimensions' "
+            "mapping of dimension name -> {values: [...]}"
+        )
+
+    dimensions: dict[str, list[str]] = {}
+    for name, spec in raw_dimensions.items():
+        if not isinstance(spec, dict) or not isinstance(spec.get("values"), list):
+            raise MalformedLanguageConfigError(
+                f"language '{lang_code}': features.yaml dimension '{name}' "
+                "must declare a 'values' list"
+            )
+        dimensions[name] = list(spec["values"])
     return FeatureVocabulary(dimensions=dimensions)
 
 

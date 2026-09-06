@@ -36,8 +36,22 @@ def lint_language(rules_dir: Path, lang_code: str) -> list[LintIssue]:
         ]
 
     for category in language.categories:
-        rule_path = category_rule_path(rules_dir, lang_code, category)
-        source = rule_path.read_text(encoding="utf-8")
+        # Declaring a category in lang.yaml before writing its .lp file is a
+        # normal authoring state, not a crash.
+        try:
+            rule_path = category_rule_path(rules_dir, lang_code, category)
+            source = rule_path.read_text(encoding="utf-8")
+        except FileNotFoundError:
+            issues.append(
+                LintIssue(
+                    category=category,
+                    message=(
+                        f"rule file for category '{category}' does not exist yet "
+                        f"(expected at {rules_dir / lang_code / f'{category}.lp'})"
+                    ),
+                )
+            )
+            continue
 
         for match in _FEATURE_KEY_RE.finditer(source):
             pairs = dict(pair.split("=", 1) for pair in match.group(1).split(";"))

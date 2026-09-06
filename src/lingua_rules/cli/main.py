@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 import typer
@@ -11,12 +12,25 @@ from lingua_rules.engine.features import (
     validate_features,
 )
 from lingua_rules.engine.lint import lint_language
-from lingua_rules.engine.loader import CategoryNotFoundError, LanguageNotFoundError
-from lingua_rules.engine.paradigm_tests import run_paradigm_tests
-from lingua_rules.engine.runner import InvalidLemmaError, NoRuleMatchedError, generate_form
+from lingua_rules.engine.loader import (
+    CategoryNotFoundError,
+    LanguageNotFoundError,
+    MalformedLanguageConfigError,
+)
+from lingua_rules.engine.paradigm_tests import ParadigmCaseResult, run_paradigm_tests
+from lingua_rules.engine.runner import (
+    InvalidLemmaError,
+    NoRuleMatchedError,
+    RuleFileParseError,
+    generate_form,
+)
 from lingua_rules.engine.templates import MissingTemplateFieldError, append_rule
 
 app = typer.Typer(help="Author, browse, and test natural language grammar rules.")
+
+# Errors that mean "the language you named isn't usable" -- reported as a
+# one-line `error: ...`, never a traceback.
+_LANGUAGE_ERRORS = (LanguageNotFoundError, MalformedLanguageConfigError)
 
 
 def _parse_features(raw: str) -> dict[str, str]:
@@ -29,6 +43,13 @@ def _parse_features(raw: str) -> dict[str, str]:
             raise typer.BadParameter(f"malformed feature '{pair}', expected key=value")
         features[key.strip()] = value.strip()
     return features
+
+
+def _language_codes(directory: Path) -> list[str]:
+    """Every language directory under a rules/ or tests/ root, sorted."""
+    if not directory.is_dir():
+        return []
+    return sorted(p.name for p in directory.iterdir() if p.is_dir())
 
 
 @app.command()
@@ -47,20 +68,21 @@ def generate(
         vocab = load_feature_vocabulary(rules_dir, lang)
         validate_features(vocab, parsed)
         form = generate_form(rules_dir, lang, category, lemma, parsed)
-    except (UnknownFeatureError, NoRuleMatchedError, InvalidLemmaError) as exc:
+    except (
+        UnknownFeatureError,
+        NoRuleMatchedError,
+        InvalidLemmaError,
+        RuleFileParseError,
+        CategoryNotFoundError,
+        *_LANGUAGE_ERRORS,
+    ) as exc:
         typer.echo(f"error: {exc}")
         raise typer.Exit(code=1)
     typer.echo(form)
 
 
-@app.command(name="test")
-def run_tests(
-    lang: str,
-    rules_dir: Path = typer.Option(Path("rules"), "--rules-dir"),
-    tests_dir: Path = typer.Option(Path("tests"), "--tests-dir"),
-) -> None:
-    """Run golden-file paradigm tests for LANG."""
-    results = run_paradigm_tests(rules_dir, tests_dir, lang)
+def _report_results(results: list[ParadigmCaseResult]) -> int:
+    """Print one line per case plus a summary; return the failure count."""
     failed = 0
     for result in results:
         status = "PASS" if result.passed else "FAIL"
@@ -71,7 +93,36 @@ def run_tests(
             f"expected={result.expected!r} actual={result.actual!r}"
         )
     typer.echo(f"{len(results) - failed}/{len(results)} passed")
-    if failed:
+    return failed
+
+
+@app.command(name="test")
+def run_tests(
+    lang: str = typer.Argument(None, help="language code; omit to test every language"),
+    category: str = typer.Option(
+        None, "--category", help="only run cases for this word category"
+    ),
+    rules_dir: Path = typer.Option(Path("rules"), "--rules-dir"),
+    tests_dir: Path = typer.Option(Path("tests"), "--tests-dir"),
+) -> None:
+    """Run golden-file paradigm tests for LANG, or for every language if omitted."""
+    languages = [lang] if lang else _language_codes(tests_dir)
+    if not languages:
+        typer.echo(f"no language test directories found under {tests_dir}")
+        return
+
+    total_failed = 0
+    for index, code in enumerate(languages):
+        results = run_paradigm_tests(rules_dir, tests_dir, code)
+        if category is not None:
+            results = [r for r in results if r.category == category]
+        if len(languages) > 1 or not lang:
+            if index:
+                typer.echo("")
+            typer.echo(f"== {code} ==")
+        total_failed += _report_results(results)
+
+    if total_failed:
         raise typer.Exit(code=1)
 
 
@@ -83,7 +134,7 @@ def lint(
     """Validate LANG's rule files: Clingo parse errors and undeclared feature usage."""
     try:
         issues = lint_language(rules_dir, lang)
-    except LanguageNotFoundError as exc:
+    except _LANGUAGE_ERRORS as exc:
         typer.echo(f"error: {exc}")
         raise typer.Exit(code=1)
     if not issues:
@@ -115,8 +166,8 @@ def new_rule(
         MissingTemplateFieldError,
         UnsafeFieldValueError,
         UnknownFeatureError,
-        LanguageNotFoundError,
         CategoryNotFoundError,
+        *_LANGUAGE_ERRORS,
     ) as exc:
         typer.echo(f"error: {exc}")
         raise typer.Exit(code=1)
@@ -127,10 +178,16 @@ def new_rule(
 def serve(
     host: str = typer.Option("127.0.0.1", "--host"),
     port: int = typer.Option(8000, "--port"),
+    rules_dir: Path = typer.Option(Path("rules"), "--rules-dir"),
+    tests_dir: Path = typer.Option(Path("tests"), "--tests-dir"),
 ) -> None:
     """Launch the local web UI."""
     import uvicorn
 
+    # The web layer resolves these per request from the environment, so they
+    # have to be set before the app is imported by uvicorn.
+    os.environ["LINGUA_RULES_DIR"] = str(rules_dir)
+    os.environ["LINGUA_TESTS_DIR"] = str(tests_dir)
     uvicorn.run("lingua_rules.web.app:app", host=host, port=port)
 
 

@@ -4,6 +4,7 @@
 <ul>
   {% for language in languages %}
   <li>{{ language.name }} ({{ language.code }})
+    &mdash; <a href="/{{ language.code }}/tests">run tests</a>
     <ul>
       {% for category in language.categories %}
       <li><a href="/{{ language.code }}/category/{{ category }}">{{ category }}</a></li>
