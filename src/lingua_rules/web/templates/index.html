@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Languages</h1>
+<ul>
+  {% for language in languages %}
+  <li>{{ language.name }} ({{ language.code }})
+    <ul>
+      {% for category in language.categories %}
+      <li><a href="/{{ language.code }}/category/{{ category }}">{{ category }}</a></li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}

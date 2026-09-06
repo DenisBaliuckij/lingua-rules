@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ lang }} / {{ category }}</h1>
+<h2>Feature vocabulary</h2>
+<ul>
+  {% for dimension, values in vocab.dimensions.items() %}
+  <li>{{ dimension }}: {{ values|join(", ") }}</li>
+  {% endfor %}
+</ul>
+<h2>Rule source</h2>
+<pre>{{ source }}</pre>
+{% endblock %}
