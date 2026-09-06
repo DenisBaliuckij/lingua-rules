@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ lang }} paradigm tests</h1>
+<p>{{ passed }}/{{ total }} passed</p>
+<table>
+  <tr><th>Lemma</th><th>Features</th><th>Expected</th><th>Actual</th><th>Status</th></tr>
+  {% for r in results %}
+  <tr>
+    <td>{{ r.lemma }}</td>
+    <td>{{ r.features }}</td>
+    <td>{{ r.expected }}</td>
+    <td>{{ r.actual if r.actual is not none else r.error }}</td>
+    <td>{{ "PASS" if r.passed else "FAIL" }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}

@@ -17,6 +17,7 @@ from lingua_rules.engine.loader import (
     category_rule_path,
     load_language,
 )
+from lingua_rules.engine.paradigm_tests import run_paradigm_tests
 from lingua_rules.engine.runner import NoRuleMatchedError, generate_form
 
 app = FastAPI(title="lingua-rules")
@@ -112,4 +113,20 @@ async def try_it_submit(
         request,
         "try_it_result.html",
         {"lemma": lemma, "features": features, "result": result, "error": error},
+    )
+
+
+@app.get("/{lang}/tests")
+def test_runner_view(
+    request: Request,
+    lang: str,
+    rules_dir: Path = Depends(get_rules_dir),
+    tests_dir: Path = Depends(get_tests_dir),
+):
+    results = run_paradigm_tests(rules_dir, tests_dir, lang)
+    passed = sum(1 for r in results if r.passed)
+    return templates.TemplateResponse(
+        request,
+        "test_results.html",
+        {"lang": lang, "results": results, "passed": passed, "total": len(results)},
     )
