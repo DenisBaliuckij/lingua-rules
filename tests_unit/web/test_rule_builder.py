@@ -76,3 +76,45 @@ def test_new_rule_post_reports_a_missing_template_field(tmp_path, monkeypatch):
     assert "Traceback" not in response.text
     # nothing was appended to the rule file when the field was missing
     assert (rules_dir / "en" / "nouns.lp").read_text(encoding="utf-8") == original
+
+
+def test_new_rule_post_rejects_an_injection_payload_without_writing(tmp_path, monkeypatch):
+    """The rule-builder form feeds append_rule straight from HTTP fields.
+
+    A suffix that closes its Clingo string literal must be refused in-page,
+    with nothing written to the executed .lp file (final-review finding C3).
+    """
+    rules_dir = tmp_path / "rules"
+    shutil.copytree(Path("rules"), rules_dir)
+    monkeypatch.setenv("LINGUA_RULES_DIR", str(rules_dir))
+    original = (rules_dir / "en" / "nouns.lp").read_text(encoding="utf-8")
+
+    response = client.post(
+        "/en/category/nouns/new-rule",
+        data={
+            "feature_key": "number=plural",
+            "suffix": 's")) :- input_lemma(Lemma).\nform("cat", "number=plural", "PWNED").\n%',
+        },
+    )
+
+    assert response.status_code == 200
+    assert "error" in response.text.lower()
+    assert "Traceback" not in response.text
+    assert (rules_dir / "en" / "nouns.lp").read_text(encoding="utf-8") == original
+
+
+def test_new_rule_post_rejects_an_undeclared_feature_key(tmp_path, monkeypatch):
+    rules_dir = tmp_path / "rules"
+    shutil.copytree(Path("rules"), rules_dir)
+    monkeypatch.setenv("LINGUA_RULES_DIR", str(rules_dir))
+    original = (rules_dir / "en" / "nouns.lp").read_text(encoding="utf-8")
+
+    response = client.post(
+        "/en/category/nouns/new-rule",
+        data={"feature_key": "numbre=plural", "suffix": "s"},
+    )
+
+    assert response.status_code == 200
+    assert "unknown feature dimension" in response.text
+    assert "Traceback" not in response.text
+    assert (rules_dir / "en" / "nouns.lp").read_text(encoding="utf-8") == original

@@ -8,6 +8,7 @@ from fastapi.responses import RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
+from lingua_rules.engine.escaping import UnsafeFieldValueError
 from lingua_rules.engine.features import (
     UnknownFeatureError,
     load_feature_vocabulary,
@@ -173,7 +174,7 @@ def new_rule_submit(
         )
     except (LanguageNotFoundError, CategoryNotFoundError) as exc:
         raise HTTPException(status_code=404, detail=str(exc))
-    except MissingTemplateFieldError as exc:
+    except (MissingTemplateFieldError, UnsafeFieldValueError, UnknownFeatureError) as exc:
         return templates.TemplateResponse(
             request,
             "new_rule.html",

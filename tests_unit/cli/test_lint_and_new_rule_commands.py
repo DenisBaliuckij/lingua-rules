@@ -101,3 +101,50 @@ def test_new_rule_on_an_unknown_category_exits_cleanly():
     assert "error:" in result.stdout
     assert isinstance(result.exception, SystemExit)
     assert "Traceback" not in result.stdout
+
+
+def test_new_rule_rejects_an_undeclared_feature_key_cleanly(tmp_path):
+    rules_dir = tmp_path / "rules"
+    shutil.copytree(Path("rules"), rules_dir)
+    nouns_path = rules_dir / "en" / "nouns.lp"
+    before = nouns_path.read_text(encoding="utf-8")
+
+    result = runner.invoke(
+        app,
+        [
+            "new-rule", "en", "nouns",
+            "--template", "regular-affix",
+            "--feature-key", "numbre=plural",
+            "--suffix", "s",
+            "--rules-dir", str(rules_dir),
+        ],
+    )
+
+    assert result.exit_code == 1
+    assert "error:" in result.stdout
+    assert "unknown feature dimension" in result.stdout
+    assert "Traceback" not in result.stdout
+    assert nouns_path.read_text(encoding="utf-8") == before
+
+
+def test_new_rule_rejects_an_injection_payload_cleanly(tmp_path):
+    rules_dir = tmp_path / "rules"
+    shutil.copytree(Path("rules"), rules_dir)
+    nouns_path = rules_dir / "en" / "nouns.lp"
+    before = nouns_path.read_text(encoding="utf-8")
+
+    result = runner.invoke(
+        app,
+        [
+            "new-rule", "en", "nouns",
+            "--template", "regular-affix",
+            "--feature-key", "number=plural",
+            "--suffix", 's")) :- input_lemma(Lemma).\nform("cat", "number=plural", "PWNED").\n%',
+            "--rules-dir", str(rules_dir),
+        ],
+    )
+
+    assert result.exit_code == 1
+    assert "error:" in result.stdout
+    assert "Traceback" not in result.stdout
+    assert nouns_path.read_text(encoding="utf-8") == before

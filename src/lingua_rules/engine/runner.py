@@ -4,6 +4,11 @@ from pathlib import Path
 
 import clingo
 
+from .escaping import (
+    UnsafeFieldValueError,
+    escape_clingo_string,
+    reject_unsafe_characters,
+)
 from .features import feature_key
 from .loader import category_rule_path
 from .transforms import RuleContext
@@ -13,12 +18,20 @@ class NoRuleMatchedError(Exception):
     """Raised when no rule in the category produces a form for the request."""
 
 
-class InvalidLemmaError(Exception):
-    """Raised when a lemma contains characters that can't appear in a Clingo string literal."""
+class InvalidLemmaError(UnsafeFieldValueError):
+    """Raised when a lemma contains characters that can't appear in a Clingo string literal.
+
+    Subclasses the shared UnsafeFieldValueError so callers may catch either the
+    general "unsafe field" case or this lemma-specific one.
+    """
 
 
-def _escape(value: str) -> str:
-    return value.replace("\\", "\\\\").replace('"', '\\"')
+class RuleFileParseError(Exception):
+    """Raised when Clingo cannot parse a rule file.
+
+    Carries the offending file's path alongside Clingo's own parse message, so
+    the linguist is told which file to go fix.
+    """
 
 
 def generate_form(
@@ -28,19 +41,24 @@ def generate_form(
     lemma: str,
     features: dict[str, str],
 ) -> str:
-    if "\n" in lemma or "\r" in lemma:
-        raise InvalidLemmaError(
-            f"lemma {lemma!r} contains a newline, which cannot appear in a "
-            "Clingo string literal"
-        )
+    try:
+        reject_unsafe_characters(lemma, "lemma")
+    except UnsafeFieldValueError as exc:
+        raise InvalidLemmaError(str(exc)) from exc
+
     rule_path = category_rule_path(rules_dir, lang_code, category)
     source = rule_path.read_text(encoding="utf-8")
-    program = f'input_lemma("{_escape(lemma)}").\n{source}'
+    program = f'input_lemma("{escape_clingo_string(lemma)}").\n{source}'
     target_key = feature_key(features)
 
     ctl = clingo.Control()
-    ctl.add("base", [], program)
-    ctl.ground([("base", [])], context=RuleContext())
+    try:
+        ctl.add("base", [], program)
+        ctl.ground([("base", [])], context=RuleContext())
+    except RuntimeError as exc:
+        raise RuleFileParseError(
+            f"could not parse rule file {rule_path}: {exc}"
+        ) from exc
 
     matches: list[str] = []
     with ctl.solve(yield_=True) as handle:

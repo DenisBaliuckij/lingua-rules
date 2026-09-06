@@ -4,6 +4,7 @@ from pathlib import Path
 
 import typer
 
+from lingua_rules.engine.escaping import UnsafeFieldValueError
 from lingua_rules.engine.features import (
     UnknownFeatureError,
     load_feature_vocabulary,
@@ -112,6 +113,8 @@ def new_rule(
     except (
         ValueError,
         MissingTemplateFieldError,
+        UnsafeFieldValueError,
+        UnknownFeatureError,
         LanguageNotFoundError,
         CategoryNotFoundError,
     ) as exc:
