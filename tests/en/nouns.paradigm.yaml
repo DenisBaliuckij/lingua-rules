@@ -1,0 +1,13 @@
+lemma: cat
+category: nouns
+cases:
+  - features: {number: plural}
+    expected: cats
+  - features: {number: singular}
+    expected: cat
+---
+lemma: child
+category: nouns
+cases:
+  - features: {number: plural}
+    expected: children
