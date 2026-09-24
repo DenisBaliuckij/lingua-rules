@@ -127,8 +127,10 @@ async def try_it_submit(
     rules_dir: Path = Depends(get_rules_dir),
 ):
     form_data = await request.form()
+    # A dimension left at "not set" arrives as an empty value and is omitted, so
+    # a category that uses only some of the language's dimensions still matches.
     features = {
-        key: value for key, value in form_data.items() if key != "lemma"
+        key: value for key, value in form_data.items() if key != "lemma" and value != ""
     }
     result: str | None = None
     error: str | None = None

@@ -94,3 +94,62 @@ def test_try_it_post_reports_no_rule_matched(gap_rules_dir):
     assert response.status_code == 200
     assert "error" in response.text
     assert "Traceback" not in response.text
+
+
+def _two_dimension_language(tmp_path):
+    lang_dir = tmp_path / "xx"
+    lang_dir.mkdir()
+    (lang_dir / "lang.yaml").write_text(
+        "name: Test\ncategories: [nouns]\n", encoding="utf-8"
+    )
+    (lang_dir / "features.yaml").write_text(
+        "dimensions:\n"
+        "  number:\n    values: [singular, plural]\n"
+        "  tense:\n    values: [present, past]\n",
+        encoding="utf-8",
+    )
+    # nouns only use `number`; `tense` belongs to other categories
+    (lang_dir / "nouns.lp").write_text(
+        'form(L, "number=plural", @suffix(L, "s")) :- input_lemma(L).\n',
+        encoding="utf-8",
+    )
+    return tmp_path
+
+
+def test_try_it_form_offers_a_not_set_choice_for_every_dimension(tmp_path):
+    rules_dir = _two_dimension_language(tmp_path)
+    app.dependency_overrides[get_rules_dir] = lambda: rules_dir
+    try:
+        response = client.get("/xx/category/nouns/try")
+    finally:
+        app.dependency_overrides.clear()
+
+    assert response.status_code == 200
+    assert response.text.count('<option value="">') == 2
+
+
+def test_try_it_form_still_preselects_the_first_value(tmp_path):
+    rules_dir = _two_dimension_language(tmp_path)
+    app.dependency_overrides[get_rules_dir] = lambda: rules_dir
+    try:
+        response = client.get("/xx/category/nouns/try")
+    finally:
+        app.dependency_overrides.clear()
+
+    assert '<option value="singular" selected>' in response.text
+    assert '<option value="present" selected>' in response.text
+
+
+def test_try_it_post_ignores_dimensions_left_unset(tmp_path):
+    rules_dir = _two_dimension_language(tmp_path)
+    app.dependency_overrides[get_rules_dir] = lambda: rules_dir
+    try:
+        response = client.post(
+            "/xx/category/nouns/try",
+            data={"lemma": "cat", "number": "plural", "tense": ""},
+        )
+    finally:
+        app.dependency_overrides.clear()
+
+    assert response.status_code == 200
+    assert "<strong>cats</strong>" in response.text

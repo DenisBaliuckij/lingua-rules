@@ -6,7 +6,12 @@ from pathlib import Path
 
 import clingo
 
-from .features import UnknownFeatureError, load_feature_vocabulary, validate_features
+from .features import (
+    UnknownFeatureError,
+    feature_key,
+    load_feature_vocabulary,
+    validate_features,
+)
 from .loader import category_rule_path, load_language
 from .transforms import RuleContext
 
@@ -59,6 +64,19 @@ def lint_language(rules_dir: Path, lang_code: str) -> list[LintIssue]:
                 validate_features(vocab, pairs)
             except UnknownFeatureError as exc:
                 issues.append(LintIssue(category=category, message=str(exc)))
+                continue
+            # Forms are looked up by the sorted key; any other order never matches.
+            canonical = feature_key(pairs)
+            if match.group(1) != canonical:
+                issues.append(
+                    LintIssue(
+                        category=category,
+                        message=(
+                            f"feature key '{match.group(1)}' is not in canonical "
+                            f"order and will never match; write '{canonical}'"
+                        ),
+                    )
+                )
 
         try:
             ctl = clingo.Control()

@@ -8,9 +8,17 @@ external service.
 See `docs/superpowers/specs/2026-09-05-lingua-rules-design.md` for the full
 design.
 
+**New here? Start with the [usage guide](docs/USAGE.md)** — running everything
+with plain `python -m` (no aliases), the rule templates and how to change them,
+a step-by-step example with screenshots, and the languages included
+(English, German, Russian, Finnish).
+
 ## Setup
 
     pip install -e ".[dev]"
+
+Without the `lingua-rules` command on your `PATH`, every command below also
+runs as `python -m lingua_rules.cli.main <command> ...`.
 
 ## CLI
 
