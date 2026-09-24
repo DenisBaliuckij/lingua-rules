@@ -5,8 +5,8 @@
 A system for linguists to author, browse, and test natural language grammar
 rules. Rules are written as Clingo (Answer Set Programming) files, organized
 per language and word category, and executed locally — no database, no
-external service. Rules for **English, German, Russian and Finnish** nouns are
-included.
+external service. Rules for **English, German, Russian and Finnish** —
+nouns, verbs, adjectives, pronouns and (German) articles — are included.
 
 The full design is in `docs/superpowers/specs/2026-09-05-lingua-rules-design.md`.
 
@@ -107,7 +107,7 @@ cats
 > python -m lingua_rules.cli.main generate en nouns child --features number=plural
 children
 
-> python -m lingua_rules.cli.main test en
+> python -m lingua_rules.cli.main test en --category nouns
 [PASS] cat {'number': 'plural'} expected='cats' actual='cats'
 [PASS] cat {'number': 'singular'} expected='cat' actual='cat'
 [PASS] child {'number': 'plural'} expected='children' actual='children'
@@ -135,7 +135,7 @@ Cyrillic work everywhere — in a console window, redirected to a file, or piped
 to another program — including on Windows with a legacy code page such as 1251:
 
 ```
-python -m lingua_rules.cli.main generate de nouns Mann --features number=plural > result.txt
+python -m lingua_rules.cli.main generate de nouns Mann --features case=nominative,number=plural > result.txt
 ```
 
 `result.txt` contains `Männer` (UTF-8). Open such files as UTF-8 in your editor.
@@ -173,10 +173,12 @@ to *Try it*, *Add a rule* and *Run tests*.
 
 ![Category page](docs/images/02-category-before.png)
 
-**Try it** — type a lemma, pick feature values, press *Generate*. Each
-feature also offers *— not set —*: choose it for a feature the category does
-not use (for example `tense` when trying a noun), and it is left out of the
-request.
+**Try it** — type a lemma, pick feature values, press *Generate*. The form
+shows only the features that category's rules use. Features that every rule of
+the category uses are preselected; the others start at *— not set —* and are
+left out of the request unless you pick a value (for Russian verbs, for
+example, `verb_form` is preselected while `person`, `number` and `gender`
+start unset, because the present and the past use different ones).
 
 ![Try it](docs/images/06-try-it-regular.png)
 
@@ -202,6 +204,9 @@ name: English
 iso639_3: eng
 categories:
   - nouns
+  - verbs
+  - adjectives
+  - pronouns
 ```
 
 ```yaml
@@ -209,6 +214,12 @@ categories:
 dimensions:
   number:
     values: [singular, plural]
+  verb_form:
+    values: [base, present_3sg, past, past_participle, present_participle]
+  degree:
+    values: [positive, comparative, superlative]
+  case:
+    values: [subject, object, possessive_determiner, possessive_pronoun, reflexive]
 ```
 
 ```prolog
@@ -513,22 +524,34 @@ and `src/lingua_rules/web/templates/new_rule.html`.
 
 ## 8. Languages included
 
-| Code | Language | Category | Dimensions | Golden cases |
-|---|---|---|---|---|
-| `en` | English | nouns | number | 21 |
-| `de` | German | nouns | number | 15 |
-| `ru` | Russian | nouns | case (6) × number | 84 |
-| `fi` | Finnish | nouns | case (11) × number | 110 |
+Four languages, every major inflecting part of speech. Each rule file starts
+with a comment that lists its classes and what it does **not** cover.
 
-**English and German** follow the template pattern: one regular rule
-(`-s`, `-e`), exceptions written with `exception-override`, and a few
-spelling-driven plurals written by hand with `@suffix` / `@strip_suffix_add`
-(`city` → `cities`, `knife` → `knives`, `Museum` → `Museen`).
+| Language | Category | Features | Classes | Irregular words | Golden cases |
+|---|---|---|---|---|---|
+| English (`en`) | nouns | number | template rules + spelling rules | 18 | 21 |
+| | verbs | verb_form (base, 3sg, past, past participle, -ing) | 4 + doubled consonant | 58 | 105 |
+| | adjectives | degree | 3 + doubled consonant | 6 | 42 |
+| | pronouns | case, number | listed | — | 40 |
+| German (`de`) | nouns | case (4) × number | 10 declension classes | 12 | 128 |
+| | verbs | infinitive, present, past, participle, imperative × person, number | 3 weak classes | 24 strong/modal | 206 |
+| | adjectives | degree; strong/weak/mixed declension × case × gender × number | regular + stem classes | 13 | 145 |
+| | articles | case × gender × number | der; ein-words; der-words | — | 92 |
+| | pronouns | case, number | listed | — | 36 |
+| Russian (`ru`) | nouns | case (6) × number, animacy | 16 declension classes | 14 | 372 |
+| | adjectives | case × gender × number, animacy; comparative | 4 (hard, soft, velar, hushing) | 10 comparatives | 161 |
+| | verbs | infinitive, present, past (by gender), imperative; future of быть | 4 conjugation classes | 18 | 165 |
+| | pronouns | case, number | listed | — | 48 |
+| Finnish (`fi`) | nouns | case (12, incl. accusative) × number | 15 inflection classes | 8 | 480 |
+| | verbs | infinitive, present, past, imperative × person, number | 12 (types 1, 3, 4, 5) | 15 | 270 |
+| | adjectives | degree | 4 | 10 | 33 |
+| | pronouns | case (12), number | listed | — | 72 |
 
-**Russian and Finnish** have a full paradigm per lemma, so their rules work by
-**inflection class**. Because a rule cannot look at how a lemma is spelled,
-each lemma is assigned a class with a fact, and every class has one rule per
-case/number form:
+**How the rules are organised.** English and German regular words need no
+entry at all (the template-style rules cover them). Where the right ending
+depends on how a word is spelled or which class it belongs to — which a rule
+cannot see — each word is given its class with one fact, and every class has
+one rule per form:
 
 ```prolog
 noun_class("школа", f_a).
@@ -536,25 +559,31 @@ noun_class("школа", f_a).
 form(L, "case=genitive;number=plural", @strip_suffix_add(L, 1, "")) :- input_lemma(L), noun_class(L, f_a).
 ```
 
-To add a word of an existing class, add one `noun_class(...)` line. A lemma
-with no class produces no forms (`generate` reports `no rule ... produced a
-form`). Irregular words (`ребёнок` → `дети`, Finnish `vesi`) are marked
-`irregular(...)` and list all their forms. The classes are described at the
-top of each `nouns.lp`:
+To add a word of an existing class, add one fact such as `noun_class(...)`,
+`verb_class(...)` or `adj_class(...)` to the right file. A word without a class
+(in the languages that need one) produces no forms, and `generate` reports
+`no rule ... produced a form`. Truly irregular words are marked
+`irregular(...)` and list all their forms.
 
-- Russian: `m_hard` (стол), `f_a` (лампа), `n_o` (слово) — inanimate nouns.
-- Finnish: `back_o` (talo, auto, kello), `front_ae` (kynä, päivä, kylä) — with
-  vowel harmony, no consonant gradation.
-
-Every Russian and Finnish rule uses both dimensions, so *Try it* works for
-them:
+*Try it* shows each category only the features its rules use:
 
 ![Try it: Russian](docs/images/09-try-it-russian.png)
 
 ```
 > python -m lingua_rules.cli.main generate fi nouns talo --features case=inessive,number=plural
 taloissa
+> python -m lingua_rules.cli.main generate ru verbs рисовать --features number=plural,person=third,verb_form=present
+рисуют
+> python -m lingua_rules.cli.main generate de adjectives klein --features case=dative,declension=strong,gender=masculine,number=singular
+kleinem
 ```
+
+**Regenerating the rules.** The larger rule files are produced from tables by
+`tools/gen_en.py`, `tools/gen_de.py`, `tools/gen_ru.py` and `tools/gen_fi.py`
+(run from the repository root). To add many words or a new class, edit the
+tables there and re-run the script; the golden tests are regenerated from
+separately typed-out word forms. Small additions can also be made directly in
+the `.lp` files.
 
 ---
 
@@ -597,9 +626,10 @@ The unit tests of the tool itself run with `python -m pytest`.
   order, for example:
   `[verbs] feature key 'tense=past;number=plural' is not in canonical order and will never match; write 'number=plural;tense=past'`.
 - **`irregular` is all-or-nothing** per lemma (see section 5).
-- **Try it with several dimensions.** In a language whose categories use
-  different dimensions (say `number` for nouns, `number` and `tense` for verbs),
-  set the dimensions a category does not use to *— not set —*.
+- **Try it with forms that use different features.** Where some forms of a
+  category use features others don't (Russian verbs: `person` in the present,
+  `gender` in the past), those features start at *— not set —*; set exactly the
+  ones the form you want needs.
 - **The web form only adds `regular-affix` rules**; use `new-rule` for
   `exception-override`.
 - **No undo.** Templates append to the file; remove unwanted blocks by editing
