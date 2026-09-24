@@ -22,6 +22,9 @@ dev = [
     "pytest>=8.0",
     "httpx>=0.27",
 ]
+docs = [
+    "selenium>=4.20",
+]
 
 [project.scripts]
 lingua-rules = "lingua_rules.cli.main:app"
