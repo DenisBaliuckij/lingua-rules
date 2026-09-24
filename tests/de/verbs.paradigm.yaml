@@ -1,0 +1,463 @@
+lemma: machen
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: machen
+  - features: {number: singular, person: first, verb_form: present}
+    expected: mache
+  - features: {number: singular, person: second, verb_form: present}
+    expected: machst
+  - features: {number: singular, person: third, verb_form: present}
+    expected: macht
+  - features: {number: plural, person: first, verb_form: present}
+    expected: machen
+  - features: {number: plural, person: second, verb_form: present}
+    expected: macht
+  - features: {number: plural, person: third, verb_form: present}
+    expected: machen
+  - features: {number: singular, person: first, verb_form: past}
+    expected: machte
+  - features: {number: singular, person: second, verb_form: past}
+    expected: machtest
+  - features: {number: singular, person: third, verb_form: past}
+    expected: machte
+  - features: {number: plural, person: first, verb_form: past}
+    expected: machten
+  - features: {number: plural, person: second, verb_form: past}
+    expected: machtet
+  - features: {number: plural, person: third, verb_form: past}
+    expected: machten
+  - features: {verb_form: past_participle}
+    expected: gemacht
+  - features: {number: singular, verb_form: imperative}
+    expected: mach
+  - features: {number: plural, verb_form: imperative}
+    expected: macht
+---
+lemma: spielen
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: spielen
+  - features: {number: singular, person: first, verb_form: present}
+    expected: spiele
+  - features: {number: singular, person: second, verb_form: present}
+    expected: spielst
+  - features: {number: singular, person: third, verb_form: present}
+    expected: spielt
+  - features: {number: plural, person: first, verb_form: present}
+    expected: spielen
+  - features: {number: plural, person: second, verb_form: present}
+    expected: spielt
+  - features: {number: plural, person: third, verb_form: present}
+    expected: spielen
+  - features: {number: singular, person: first, verb_form: past}
+    expected: spielte
+  - features: {number: singular, person: second, verb_form: past}
+    expected: spieltest
+  - features: {number: singular, person: third, verb_form: past}
+    expected: spielte
+  - features: {number: plural, person: first, verb_form: past}
+    expected: spielten
+  - features: {number: plural, person: second, verb_form: past}
+    expected: spieltet
+  - features: {number: plural, person: third, verb_form: past}
+    expected: spielten
+  - features: {verb_form: past_participle}
+    expected: gespielt
+  - features: {number: singular, verb_form: imperative}
+    expected: spiel
+  - features: {number: plural, verb_form: imperative}
+    expected: spielt
+---
+lemma: arbeiten
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: arbeiten
+  - features: {number: singular, person: first, verb_form: present}
+    expected: arbeite
+  - features: {number: singular, person: second, verb_form: present}
+    expected: arbeitest
+  - features: {number: singular, person: third, verb_form: present}
+    expected: arbeitet
+  - features: {number: plural, person: first, verb_form: present}
+    expected: arbeiten
+  - features: {number: plural, person: second, verb_form: present}
+    expected: arbeitet
+  - features: {number: plural, person: third, verb_form: present}
+    expected: arbeiten
+  - features: {number: singular, person: first, verb_form: past}
+    expected: arbeitete
+  - features: {number: singular, person: second, verb_form: past}
+    expected: arbeitetest
+  - features: {number: singular, person: third, verb_form: past}
+    expected: arbeitete
+  - features: {number: plural, person: first, verb_form: past}
+    expected: arbeiteten
+  - features: {number: plural, person: second, verb_form: past}
+    expected: arbeitetet
+  - features: {number: plural, person: third, verb_form: past}
+    expected: arbeiteten
+  - features: {verb_form: past_participle}
+    expected: gearbeitet
+  - features: {number: singular, verb_form: imperative}
+    expected: arbeite
+  - features: {number: plural, verb_form: imperative}
+    expected: arbeitet
+---
+lemma: öffnen
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: öffnen
+  - features: {number: singular, person: first, verb_form: present}
+    expected: öffne
+  - features: {number: singular, person: second, verb_form: present}
+    expected: öffnest
+  - features: {number: singular, person: third, verb_form: present}
+    expected: öffnet
+  - features: {number: plural, person: first, verb_form: present}
+    expected: öffnen
+  - features: {number: plural, person: second, verb_form: present}
+    expected: öffnet
+  - features: {number: plural, person: third, verb_form: present}
+    expected: öffnen
+  - features: {number: singular, person: first, verb_form: past}
+    expected: öffnete
+  - features: {number: singular, person: second, verb_form: past}
+    expected: öffnetest
+  - features: {number: singular, person: third, verb_form: past}
+    expected: öffnete
+  - features: {number: plural, person: first, verb_form: past}
+    expected: öffneten
+  - features: {number: plural, person: second, verb_form: past}
+    expected: öffnetet
+  - features: {number: plural, person: third, verb_form: past}
+    expected: öffneten
+  - features: {verb_form: past_participle}
+    expected: geöffnet
+  - features: {number: singular, verb_form: imperative}
+    expected: öffne
+  - features: {number: plural, verb_form: imperative}
+    expected: öffnet
+---
+lemma: studieren
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: studieren
+  - features: {number: singular, person: first, verb_form: present}
+    expected: studiere
+  - features: {number: singular, person: second, verb_form: present}
+    expected: studierst
+  - features: {number: singular, person: third, verb_form: present}
+    expected: studiert
+  - features: {number: plural, person: first, verb_form: present}
+    expected: studieren
+  - features: {number: plural, person: second, verb_form: present}
+    expected: studiert
+  - features: {number: plural, person: third, verb_form: present}
+    expected: studieren
+  - features: {number: singular, person: first, verb_form: past}
+    expected: studierte
+  - features: {number: singular, person: second, verb_form: past}
+    expected: studiertest
+  - features: {number: singular, person: third, verb_form: past}
+    expected: studierte
+  - features: {number: plural, person: first, verb_form: past}
+    expected: studierten
+  - features: {number: plural, person: second, verb_form: past}
+    expected: studiertet
+  - features: {number: plural, person: third, verb_form: past}
+    expected: studierten
+  - features: {verb_form: past_participle}
+    expected: studiert
+  - features: {number: singular, verb_form: imperative}
+    expected: studier
+  - features: {number: plural, verb_form: imperative}
+    expected: studiert
+---
+lemma: besuchen
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: besuchen
+  - features: {number: singular, person: first, verb_form: present}
+    expected: besuche
+  - features: {number: singular, person: second, verb_form: present}
+    expected: besuchst
+  - features: {number: singular, person: third, verb_form: present}
+    expected: besucht
+  - features: {number: plural, person: first, verb_form: present}
+    expected: besuchen
+  - features: {number: plural, person: second, verb_form: present}
+    expected: besucht
+  - features: {number: plural, person: third, verb_form: present}
+    expected: besuchen
+  - features: {number: singular, person: first, verb_form: past}
+    expected: besuchte
+  - features: {number: singular, person: second, verb_form: past}
+    expected: besuchtest
+  - features: {number: singular, person: third, verb_form: past}
+    expected: besuchte
+  - features: {number: plural, person: first, verb_form: past}
+    expected: besuchten
+  - features: {number: plural, person: second, verb_form: past}
+    expected: besuchtet
+  - features: {number: plural, person: third, verb_form: past}
+    expected: besuchten
+  - features: {verb_form: past_participle}
+    expected: besucht
+  - features: {number: singular, verb_form: imperative}
+    expected: besuch
+  - features: {number: plural, verb_form: imperative}
+    expected: besucht
+---
+lemma: sein
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: sein
+  - features: {number: singular, person: first, verb_form: present}
+    expected: bin
+  - features: {number: singular, person: second, verb_form: present}
+    expected: bist
+  - features: {number: singular, person: third, verb_form: present}
+    expected: ist
+  - features: {number: plural, person: first, verb_form: present}
+    expected: sind
+  - features: {number: plural, person: second, verb_form: present}
+    expected: seid
+  - features: {number: plural, person: third, verb_form: present}
+    expected: sind
+  - features: {number: singular, person: first, verb_form: past}
+    expected: war
+  - features: {number: singular, person: second, verb_form: past}
+    expected: warst
+  - features: {number: singular, person: third, verb_form: past}
+    expected: war
+  - features: {number: plural, person: first, verb_form: past}
+    expected: waren
+  - features: {number: plural, person: second, verb_form: past}
+    expected: wart
+  - features: {number: plural, person: third, verb_form: past}
+    expected: waren
+  - features: {verb_form: past_participle}
+    expected: gewesen
+  - features: {number: singular, verb_form: imperative}
+    expected: sei
+  - features: {number: plural, verb_form: imperative}
+    expected: seid
+---
+lemma: haben
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: haben
+  - features: {number: singular, person: first, verb_form: present}
+    expected: habe
+  - features: {number: singular, person: second, verb_form: present}
+    expected: hast
+  - features: {number: singular, person: third, verb_form: present}
+    expected: hat
+  - features: {number: plural, person: first, verb_form: present}
+    expected: haben
+  - features: {number: plural, person: second, verb_form: present}
+    expected: habt
+  - features: {number: plural, person: third, verb_form: present}
+    expected: haben
+  - features: {number: singular, person: first, verb_form: past}
+    expected: hatte
+  - features: {number: singular, person: second, verb_form: past}
+    expected: hattest
+  - features: {number: singular, person: third, verb_form: past}
+    expected: hatte
+  - features: {number: plural, person: first, verb_form: past}
+    expected: hatten
+  - features: {number: plural, person: second, verb_form: past}
+    expected: hattet
+  - features: {number: plural, person: third, verb_form: past}
+    expected: hatten
+  - features: {verb_form: past_participle}
+    expected: gehabt
+  - features: {number: singular, verb_form: imperative}
+    expected: hab
+  - features: {number: plural, verb_form: imperative}
+    expected: habt
+---
+lemma: fahren
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: fahren
+  - features: {number: singular, person: first, verb_form: present}
+    expected: fahre
+  - features: {number: singular, person: second, verb_form: present}
+    expected: fährst
+  - features: {number: singular, person: third, verb_form: present}
+    expected: fährt
+  - features: {number: plural, person: first, verb_form: present}
+    expected: fahren
+  - features: {number: plural, person: second, verb_form: present}
+    expected: fahrt
+  - features: {number: plural, person: third, verb_form: present}
+    expected: fahren
+  - features: {number: singular, person: first, verb_form: past}
+    expected: fuhr
+  - features: {number: singular, person: second, verb_form: past}
+    expected: fuhrst
+  - features: {number: singular, person: third, verb_form: past}
+    expected: fuhr
+  - features: {number: plural, person: first, verb_form: past}
+    expected: fuhren
+  - features: {number: plural, person: second, verb_form: past}
+    expected: fuhrt
+  - features: {number: plural, person: third, verb_form: past}
+    expected: fuhren
+  - features: {verb_form: past_participle}
+    expected: gefahren
+  - features: {number: singular, verb_form: imperative}
+    expected: fahr
+  - features: {number: plural, verb_form: imperative}
+    expected: fahrt
+---
+lemma: sprechen
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: sprechen
+  - features: {number: singular, person: first, verb_form: present}
+    expected: spreche
+  - features: {number: singular, person: second, verb_form: present}
+    expected: sprichst
+  - features: {number: singular, person: third, verb_form: present}
+    expected: spricht
+  - features: {number: plural, person: first, verb_form: present}
+    expected: sprechen
+  - features: {number: plural, person: second, verb_form: present}
+    expected: sprecht
+  - features: {number: plural, person: third, verb_form: present}
+    expected: sprechen
+  - features: {number: singular, person: first, verb_form: past}
+    expected: sprach
+  - features: {number: singular, person: second, verb_form: past}
+    expected: sprachst
+  - features: {number: singular, person: third, verb_form: past}
+    expected: sprach
+  - features: {number: plural, person: first, verb_form: past}
+    expected: sprachen
+  - features: {number: plural, person: second, verb_form: past}
+    expected: spracht
+  - features: {number: plural, person: third, verb_form: past}
+    expected: sprachen
+  - features: {verb_form: past_participle}
+    expected: gesprochen
+  - features: {number: singular, verb_form: imperative}
+    expected: sprich
+  - features: {number: plural, verb_form: imperative}
+    expected: sprecht
+---
+lemma: lesen
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: lesen
+  - features: {number: singular, person: first, verb_form: present}
+    expected: lese
+  - features: {number: singular, person: second, verb_form: present}
+    expected: liest
+  - features: {number: singular, person: third, verb_form: present}
+    expected: liest
+  - features: {number: plural, person: first, verb_form: present}
+    expected: lesen
+  - features: {number: plural, person: second, verb_form: present}
+    expected: lest
+  - features: {number: plural, person: third, verb_form: present}
+    expected: lesen
+  - features: {number: singular, person: first, verb_form: past}
+    expected: las
+  - features: {number: singular, person: second, verb_form: past}
+    expected: last
+  - features: {number: singular, person: third, verb_form: past}
+    expected: las
+  - features: {number: plural, person: first, verb_form: past}
+    expected: lasen
+  - features: {number: plural, person: second, verb_form: past}
+    expected: last
+  - features: {number: plural, person: third, verb_form: past}
+    expected: lasen
+  - features: {verb_form: past_participle}
+    expected: gelesen
+  - features: {number: singular, verb_form: imperative}
+    expected: lies
+  - features: {number: plural, verb_form: imperative}
+    expected: lest
+---
+lemma: wissen
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: wissen
+  - features: {number: singular, person: first, verb_form: present}
+    expected: weiß
+  - features: {number: singular, person: second, verb_form: present}
+    expected: weißt
+  - features: {number: singular, person: third, verb_form: present}
+    expected: weiß
+  - features: {number: plural, person: first, verb_form: present}
+    expected: wissen
+  - features: {number: plural, person: second, verb_form: present}
+    expected: wisst
+  - features: {number: plural, person: third, verb_form: present}
+    expected: wissen
+  - features: {number: singular, person: first, verb_form: past}
+    expected: wusste
+  - features: {number: singular, person: second, verb_form: past}
+    expected: wusstest
+  - features: {number: singular, person: third, verb_form: past}
+    expected: wusste
+  - features: {number: plural, person: first, verb_form: past}
+    expected: wussten
+  - features: {number: plural, person: second, verb_form: past}
+    expected: wusstet
+  - features: {number: plural, person: third, verb_form: past}
+    expected: wussten
+  - features: {verb_form: past_participle}
+    expected: gewusst
+  - features: {number: singular, verb_form: imperative}
+    expected: wisse
+  - features: {number: plural, verb_form: imperative}
+    expected: wisst
+---
+lemma: können
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: können
+  - features: {number: singular, person: first, verb_form: present}
+    expected: kann
+  - features: {number: singular, person: second, verb_form: present}
+    expected: kannst
+  - features: {number: singular, person: third, verb_form: present}
+    expected: kann
+  - features: {number: plural, person: first, verb_form: present}
+    expected: können
+  - features: {number: plural, person: second, verb_form: present}
+    expected: könnt
+  - features: {number: plural, person: third, verb_form: present}
+    expected: können
+  - features: {number: singular, person: first, verb_form: past}
+    expected: konnte
+  - features: {number: singular, person: second, verb_form: past}
+    expected: konntest
+  - features: {number: singular, person: third, verb_form: past}
+    expected: konnte
+  - features: {number: plural, person: first, verb_form: past}
+    expected: konnten
+  - features: {number: plural, person: second, verb_form: past}
+    expected: konntet
+  - features: {number: plural, person: third, verb_form: past}
+    expected: konnten
+  - features: {verb_form: past_participle}
+    expected: gekonnt

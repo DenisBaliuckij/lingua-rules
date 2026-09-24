@@ -1,81 +1,319 @@
 lemma: Hund
 category: nouns
 cases:
-  - features: {number: singular}
+  - features: {case: nominative, number: singular}
     expected: Hund
-  - features: {number: plural}
+  - features: {case: accusative, number: singular}
+    expected: Hund
+  - features: {case: dative, number: singular}
+    expected: Hund
+  - features: {case: genitive, number: singular}
+    expected: Hundes
+  - features: {case: nominative, number: plural}
+    expected: Hunde
+  - features: {case: accusative, number: plural}
+    expected: Hunde
+  - features: {case: dative, number: plural}
+    expected: Hunden
+  - features: {case: genitive, number: plural}
     expected: Hunde
 ---
-lemma: Tag
+lemma: Jahr
 category: nouns
 cases:
-  - features: {number: singular}
-    expected: Tag
-  - features: {number: plural}
-    expected: Tage
----
-lemma: Mann
-category: nouns
-cases:
-  - features: {number: plural}
-    expected: Männer
+  - features: {case: nominative, number: singular}
+    expected: Jahr
+  - features: {case: accusative, number: singular}
+    expected: Jahr
+  - features: {case: dative, number: singular}
+    expected: Jahr
+  - features: {case: genitive, number: singular}
+    expected: Jahres
+  - features: {case: nominative, number: plural}
+    expected: Jahre
+  - features: {case: accusative, number: plural}
+    expected: Jahre
+  - features: {case: dative, number: plural}
+    expected: Jahren
+  - features: {case: genitive, number: plural}
+    expected: Jahre
 ---
 lemma: Kind
 category: nouns
 cases:
-  - features: {number: plural}
+  - features: {case: nominative, number: singular}
+    expected: Kind
+  - features: {case: accusative, number: singular}
+    expected: Kind
+  - features: {case: dative, number: singular}
+    expected: Kind
+  - features: {case: genitive, number: singular}
+    expected: Kindes
+  - features: {case: nominative, number: plural}
     expected: Kinder
----
-lemma: Buch
-category: nouns
-cases:
-  - features: {number: plural}
-    expected: Bücher
----
-lemma: Haus
-category: nouns
-cases:
-  - features: {number: plural}
-    expected: Häuser
----
-lemma: Frau
-category: nouns
-cases:
-  - features: {number: plural}
-    expected: Frauen
----
-lemma: Blume
-category: nouns
-cases:
-  - features: {number: plural}
-    expected: Blumen
----
-lemma: Auto
-category: nouns
-cases:
-  - features: {number: plural}
-    expected: Autos
----
-lemma: Apfel
-category: nouns
-cases:
-  - features: {number: plural}
-    expected: Äpfel
+  - features: {case: accusative, number: plural}
+    expected: Kinder
+  - features: {case: dative, number: plural}
+    expected: Kindern
+  - features: {case: genitive, number: plural}
+    expected: Kinder
 ---
 lemma: Lehrer
 category: nouns
 cases:
-  - features: {number: plural}
+  - features: {case: nominative, number: singular}
+    expected: Lehrer
+  - features: {case: accusative, number: singular}
+    expected: Lehrer
+  - features: {case: dative, number: singular}
+    expected: Lehrer
+  - features: {case: genitive, number: singular}
+    expected: Lehrers
+  - features: {case: nominative, number: plural}
+    expected: Lehrer
+  - features: {case: accusative, number: plural}
+    expected: Lehrer
+  - features: {case: dative, number: plural}
+    expected: Lehrern
+  - features: {case: genitive, number: plural}
     expected: Lehrer
 ---
 lemma: Mädchen
 category: nouns
 cases:
-  - features: {number: plural}
+  - features: {case: nominative, number: singular}
     expected: Mädchen
+  - features: {case: accusative, number: singular}
+    expected: Mädchen
+  - features: {case: dative, number: singular}
+    expected: Mädchen
+  - features: {case: genitive, number: singular}
+    expected: Mädchens
+  - features: {case: nominative, number: plural}
+    expected: Mädchen
+  - features: {case: accusative, number: plural}
+    expected: Mädchen
+  - features: {case: dative, number: plural}
+    expected: Mädchen
+  - features: {case: genitive, number: plural}
+    expected: Mädchen
+---
+lemma: Auto
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: Auto
+  - features: {case: accusative, number: singular}
+    expected: Auto
+  - features: {case: dative, number: singular}
+    expected: Auto
+  - features: {case: genitive, number: singular}
+    expected: Autos
+  - features: {case: nominative, number: plural}
+    expected: Autos
+  - features: {case: accusative, number: plural}
+    expected: Autos
+  - features: {case: dative, number: plural}
+    expected: Autos
+  - features: {case: genitive, number: plural}
+    expected: Autos
+---
+lemma: Frau
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: Frau
+  - features: {case: accusative, number: singular}
+    expected: Frau
+  - features: {case: dative, number: singular}
+    expected: Frau
+  - features: {case: genitive, number: singular}
+    expected: Frau
+  - features: {case: nominative, number: plural}
+    expected: Frauen
+  - features: {case: accusative, number: plural}
+    expected: Frauen
+  - features: {case: dative, number: plural}
+    expected: Frauen
+  - features: {case: genitive, number: plural}
+    expected: Frauen
+---
+lemma: Blume
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: Blume
+  - features: {case: accusative, number: singular}
+    expected: Blume
+  - features: {case: dative, number: singular}
+    expected: Blume
+  - features: {case: genitive, number: singular}
+    expected: Blume
+  - features: {case: nominative, number: plural}
+    expected: Blumen
+  - features: {case: accusative, number: plural}
+    expected: Blumen
+  - features: {case: dative, number: plural}
+    expected: Blumen
+  - features: {case: genitive, number: plural}
+    expected: Blumen
+---
+lemma: Lehrerin
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: Lehrerin
+  - features: {case: accusative, number: singular}
+    expected: Lehrerin
+  - features: {case: dative, number: singular}
+    expected: Lehrerin
+  - features: {case: genitive, number: singular}
+    expected: Lehrerin
+  - features: {case: nominative, number: plural}
+    expected: Lehrerinnen
+  - features: {case: accusative, number: plural}
+    expected: Lehrerinnen
+  - features: {case: dative, number: plural}
+    expected: Lehrerinnen
+  - features: {case: genitive, number: plural}
+    expected: Lehrerinnen
+---
+lemma: Student
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: Student
+  - features: {case: accusative, number: singular}
+    expected: Studenten
+  - features: {case: dative, number: singular}
+    expected: Studenten
+  - features: {case: genitive, number: singular}
+    expected: Studenten
+  - features: {case: nominative, number: plural}
+    expected: Studenten
+  - features: {case: accusative, number: plural}
+    expected: Studenten
+  - features: {case: dative, number: plural}
+    expected: Studenten
+  - features: {case: genitive, number: plural}
+    expected: Studenten
+---
+lemma: Junge
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: Junge
+  - features: {case: accusative, number: singular}
+    expected: Jungen
+  - features: {case: dative, number: singular}
+    expected: Jungen
+  - features: {case: genitive, number: singular}
+    expected: Jungen
+  - features: {case: nominative, number: plural}
+    expected: Jungen
+  - features: {case: accusative, number: plural}
+    expected: Jungen
+  - features: {case: dative, number: plural}
+    expected: Jungen
+  - features: {case: genitive, number: plural}
+    expected: Jungen
+---
+lemma: Mann
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: Mann
+  - features: {case: accusative, number: singular}
+    expected: Mann
+  - features: {case: dative, number: singular}
+    expected: Mann
+  - features: {case: genitive, number: singular}
+    expected: Mannes
+  - features: {case: nominative, number: plural}
+    expected: Männer
+  - features: {case: accusative, number: plural}
+    expected: Männer
+  - features: {case: dative, number: plural}
+    expected: Männern
+  - features: {case: genitive, number: plural}
+    expected: Männer
+---
+lemma: Apfel
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: Apfel
+  - features: {case: accusative, number: singular}
+    expected: Apfel
+  - features: {case: dative, number: singular}
+    expected: Apfel
+  - features: {case: genitive, number: singular}
+    expected: Apfels
+  - features: {case: nominative, number: plural}
+    expected: Äpfel
+  - features: {case: accusative, number: plural}
+    expected: Äpfel
+  - features: {case: dative, number: plural}
+    expected: Äpfeln
+  - features: {case: genitive, number: plural}
+    expected: Äpfel
+---
+lemma: Mutter
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: Mutter
+  - features: {case: accusative, number: singular}
+    expected: Mutter
+  - features: {case: dative, number: singular}
+    expected: Mutter
+  - features: {case: genitive, number: singular}
+    expected: Mutter
+  - features: {case: nominative, number: plural}
+    expected: Mütter
+  - features: {case: accusative, number: plural}
+    expected: Mütter
+  - features: {case: dative, number: plural}
+    expected: Müttern
+  - features: {case: genitive, number: plural}
+    expected: Mütter
 ---
 lemma: Museum
 category: nouns
 cases:
-  - features: {number: plural}
+  - features: {case: nominative, number: singular}
+    expected: Museum
+  - features: {case: accusative, number: singular}
+    expected: Museum
+  - features: {case: dative, number: singular}
+    expected: Museum
+  - features: {case: genitive, number: singular}
+    expected: Museums
+  - features: {case: nominative, number: plural}
     expected: Museen
+  - features: {case: accusative, number: plural}
+    expected: Museen
+  - features: {case: dative, number: plural}
+    expected: Museen
+  - features: {case: genitive, number: plural}
+    expected: Museen
+---
+lemma: Herr
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: Herr
+  - features: {case: accusative, number: singular}
+    expected: Herrn
+  - features: {case: dative, number: singular}
+    expected: Herrn
+  - features: {case: genitive, number: singular}
+    expected: Herrn
+  - features: {case: nominative, number: plural}
+    expected: Herren
+  - features: {case: accusative, number: plural}
+    expected: Herren
+  - features: {case: dative, number: plural}
+    expected: Herren
+  - features: {case: genitive, number: plural}
+    expected: Herren

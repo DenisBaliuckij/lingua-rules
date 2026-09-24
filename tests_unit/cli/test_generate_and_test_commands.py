@@ -24,7 +24,7 @@ def test_generate_reports_an_unknown_feature_and_exits_nonzero():
         app,
         [
             "generate", "en", "nouns", "cat",
-            "--features", "case=genitive",
+            "--features", "tense=past",
             "--rules-dir", "rules",
         ],
     )
@@ -54,4 +54,4 @@ def test_test_command_reports_all_english_fixtures_passing():
     )
 
     assert result.exit_code == 0
-    assert "21/21 passed" in result.stdout
+    assert "208/208 passed" in result.stdout

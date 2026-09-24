@@ -1,5 +1,11 @@
 dimensions:
   case:
-    values: [nominative, genitive, partitive, inessive, elative, illative, adessive, ablative, allative, essive, translative]
+    values: [nominative, genitive, partitive, accusative, inessive, elative, illative, adessive, ablative, allative, essive, translative]
   number:
     values: [singular, plural]
+  person:
+    values: [first, second, third]
+  verb_form:
+    values: [infinitive, present, past, imperative]
+  degree:
+    values: [positive, comparative, superlative]

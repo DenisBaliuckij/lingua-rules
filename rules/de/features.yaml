@@ -1,3 +1,15 @@
 dimensions:
+  case:
+    values: [nominative, accusative, dative, genitive]
   number:
     values: [singular, plural]
+  gender:
+    values: [masculine, feminine, neuter]
+  person:
+    values: [first, second, third]
+  verb_form:
+    values: [infinitive, present, past, past_participle, imperative]
+  degree:
+    values: [positive, comparative, superlative]
+  declension:
+    values: [strong, weak, mixed]

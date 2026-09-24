@@ -45,54 +45,114 @@ cases:
     expected: taloina
   - features: {case: translative, number: plural}
     expected: taloiksi
+  - features: {case: accusative, number: singular}
+    expected: talon
+  - features: {case: accusative, number: plural}
+    expected: talot
 ---
-lemma: auto
+lemma: aamu
 category: nouns
 cases:
   - features: {case: nominative, number: singular}
-    expected: auto
+    expected: aamu
   - features: {case: genitive, number: singular}
-    expected: auton
+    expected: aamun
   - features: {case: partitive, number: singular}
-    expected: autoa
+    expected: aamua
   - features: {case: inessive, number: singular}
-    expected: autossa
+    expected: aamussa
   - features: {case: elative, number: singular}
-    expected: autosta
+    expected: aamusta
   - features: {case: illative, number: singular}
-    expected: autoon
+    expected: aamuun
   - features: {case: adessive, number: singular}
-    expected: autolla
+    expected: aamulla
   - features: {case: ablative, number: singular}
-    expected: autolta
+    expected: aamulta
   - features: {case: allative, number: singular}
-    expected: autolle
+    expected: aamulle
   - features: {case: essive, number: singular}
-    expected: autona
+    expected: aamuna
   - features: {case: translative, number: singular}
-    expected: autoksi
+    expected: aamuksi
   - features: {case: nominative, number: plural}
-    expected: autot
+    expected: aamut
   - features: {case: genitive, number: plural}
-    expected: autojen
+    expected: aamujen
   - features: {case: partitive, number: plural}
-    expected: autoja
+    expected: aamuja
   - features: {case: inessive, number: plural}
-    expected: autoissa
+    expected: aamuissa
   - features: {case: elative, number: plural}
-    expected: autoista
+    expected: aamuista
   - features: {case: illative, number: plural}
-    expected: autoihin
+    expected: aamuihin
   - features: {case: adessive, number: plural}
-    expected: autoilla
+    expected: aamuilla
   - features: {case: ablative, number: plural}
-    expected: autoilta
+    expected: aamuilta
   - features: {case: allative, number: plural}
-    expected: autoille
+    expected: aamuille
   - features: {case: essive, number: plural}
-    expected: autoina
+    expected: aamuina
   - features: {case: translative, number: plural}
-    expected: autoiksi
+    expected: aamuiksi
+  - features: {case: accusative, number: singular}
+    expected: aamun
+  - features: {case: accusative, number: plural}
+    expected: aamut
+---
+lemma: pöly
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: pöly
+  - features: {case: genitive, number: singular}
+    expected: pölyn
+  - features: {case: partitive, number: singular}
+    expected: pölyä
+  - features: {case: inessive, number: singular}
+    expected: pölyssä
+  - features: {case: elative, number: singular}
+    expected: pölystä
+  - features: {case: illative, number: singular}
+    expected: pölyyn
+  - features: {case: adessive, number: singular}
+    expected: pölyllä
+  - features: {case: ablative, number: singular}
+    expected: pölyltä
+  - features: {case: allative, number: singular}
+    expected: pölylle
+  - features: {case: essive, number: singular}
+    expected: pölynä
+  - features: {case: translative, number: singular}
+    expected: pölyksi
+  - features: {case: nominative, number: plural}
+    expected: pölyt
+  - features: {case: genitive, number: plural}
+    expected: pölyjen
+  - features: {case: partitive, number: plural}
+    expected: pölyjä
+  - features: {case: inessive, number: plural}
+    expected: pölyissä
+  - features: {case: elative, number: plural}
+    expected: pölyistä
+  - features: {case: illative, number: plural}
+    expected: pölyihin
+  - features: {case: adessive, number: plural}
+    expected: pölyillä
+  - features: {case: ablative, number: plural}
+    expected: pölyiltä
+  - features: {case: allative, number: plural}
+    expected: pölyille
+  - features: {case: essive, number: plural}
+    expected: pölyinä
+  - features: {case: translative, number: plural}
+    expected: pölyiksi
+  - features: {case: accusative, number: singular}
+    expected: pölyn
+  - features: {case: accusative, number: plural}
+    expected: pölyt
 ---
 lemma: kynä
 category: nouns
@@ -141,54 +201,582 @@ cases:
     expected: kyninä
   - features: {case: translative, number: plural}
     expected: kyniksi
+  - features: {case: accusative, number: singular}
+    expected: kynän
+  - features: {case: accusative, number: plural}
+    expected: kynät
 ---
-lemma: päivä
+lemma: kala
 category: nouns
 cases:
   - features: {case: nominative, number: singular}
-    expected: päivä
+    expected: kala
   - features: {case: genitive, number: singular}
-    expected: päivän
+    expected: kalan
   - features: {case: partitive, number: singular}
-    expected: päivää
+    expected: kalaa
   - features: {case: inessive, number: singular}
-    expected: päivässä
+    expected: kalassa
   - features: {case: elative, number: singular}
-    expected: päivästä
+    expected: kalasta
   - features: {case: illative, number: singular}
-    expected: päivään
+    expected: kalaan
   - features: {case: adessive, number: singular}
-    expected: päivällä
+    expected: kalalla
   - features: {case: ablative, number: singular}
-    expected: päivältä
+    expected: kalalta
   - features: {case: allative, number: singular}
-    expected: päivälle
+    expected: kalalle
   - features: {case: essive, number: singular}
-    expected: päivänä
+    expected: kalana
   - features: {case: translative, number: singular}
-    expected: päiväksi
+    expected: kalaksi
   - features: {case: nominative, number: plural}
-    expected: päivät
+    expected: kalat
   - features: {case: genitive, number: plural}
-    expected: päivien
+    expected: kalojen
   - features: {case: partitive, number: plural}
-    expected: päiviä
+    expected: kaloja
   - features: {case: inessive, number: plural}
-    expected: päivissä
+    expected: kaloissa
   - features: {case: elative, number: plural}
-    expected: päivistä
+    expected: kaloista
   - features: {case: illative, number: plural}
-    expected: päiviin
+    expected: kaloihin
   - features: {case: adessive, number: plural}
-    expected: päivillä
+    expected: kaloilla
   - features: {case: ablative, number: plural}
-    expected: päiviltä
+    expected: kaloilta
   - features: {case: allative, number: plural}
-    expected: päiville
+    expected: kaloille
   - features: {case: essive, number: plural}
-    expected: päivinä
+    expected: kaloina
   - features: {case: translative, number: plural}
-    expected: päiviksi
+    expected: kaloiksi
+  - features: {case: accusative, number: singular}
+    expected: kalan
+  - features: {case: accusative, number: plural}
+    expected: kalat
+---
+lemma: koira
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: koira
+  - features: {case: genitive, number: singular}
+    expected: koiran
+  - features: {case: partitive, number: singular}
+    expected: koiraa
+  - features: {case: inessive, number: singular}
+    expected: koirassa
+  - features: {case: elative, number: singular}
+    expected: koirasta
+  - features: {case: illative, number: singular}
+    expected: koiraan
+  - features: {case: adessive, number: singular}
+    expected: koiralla
+  - features: {case: ablative, number: singular}
+    expected: koiralta
+  - features: {case: allative, number: singular}
+    expected: koiralle
+  - features: {case: essive, number: singular}
+    expected: koirana
+  - features: {case: translative, number: singular}
+    expected: koiraksi
+  - features: {case: nominative, number: plural}
+    expected: koirat
+  - features: {case: genitive, number: plural}
+    expected: koirien
+  - features: {case: partitive, number: plural}
+    expected: koiria
+  - features: {case: inessive, number: plural}
+    expected: koirissa
+  - features: {case: elative, number: plural}
+    expected: koirista
+  - features: {case: illative, number: plural}
+    expected: koiriin
+  - features: {case: adessive, number: plural}
+    expected: koirilla
+  - features: {case: ablative, number: plural}
+    expected: koirilta
+  - features: {case: allative, number: plural}
+    expected: koirille
+  - features: {case: essive, number: plural}
+    expected: koirina
+  - features: {case: translative, number: plural}
+    expected: koiriksi
+  - features: {case: accusative, number: singular}
+    expected: koiran
+  - features: {case: accusative, number: plural}
+    expected: koirat
+---
+lemma: maa
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: maa
+  - features: {case: genitive, number: singular}
+    expected: maan
+  - features: {case: partitive, number: singular}
+    expected: maata
+  - features: {case: inessive, number: singular}
+    expected: maassa
+  - features: {case: elative, number: singular}
+    expected: maasta
+  - features: {case: illative, number: singular}
+    expected: maahan
+  - features: {case: adessive, number: singular}
+    expected: maalla
+  - features: {case: ablative, number: singular}
+    expected: maalta
+  - features: {case: allative, number: singular}
+    expected: maalle
+  - features: {case: essive, number: singular}
+    expected: maana
+  - features: {case: translative, number: singular}
+    expected: maaksi
+  - features: {case: nominative, number: plural}
+    expected: maat
+  - features: {case: genitive, number: plural}
+    expected: maiden
+  - features: {case: partitive, number: plural}
+    expected: maita
+  - features: {case: inessive, number: plural}
+    expected: maissa
+  - features: {case: elative, number: plural}
+    expected: maista
+  - features: {case: illative, number: plural}
+    expected: maihin
+  - features: {case: adessive, number: plural}
+    expected: mailla
+  - features: {case: ablative, number: plural}
+    expected: mailta
+  - features: {case: allative, number: plural}
+    expected: maille
+  - features: {case: essive, number: plural}
+    expected: maina
+  - features: {case: translative, number: plural}
+    expected: maiksi
+  - features: {case: accusative, number: singular}
+    expected: maan
+  - features: {case: accusative, number: plural}
+    expected: maat
+---
+lemma: puu
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: puu
+  - features: {case: genitive, number: singular}
+    expected: puun
+  - features: {case: partitive, number: singular}
+    expected: puuta
+  - features: {case: inessive, number: singular}
+    expected: puussa
+  - features: {case: elative, number: singular}
+    expected: puusta
+  - features: {case: illative, number: singular}
+    expected: puuhun
+  - features: {case: adessive, number: singular}
+    expected: puulla
+  - features: {case: ablative, number: singular}
+    expected: puulta
+  - features: {case: allative, number: singular}
+    expected: puulle
+  - features: {case: essive, number: singular}
+    expected: puuna
+  - features: {case: translative, number: singular}
+    expected: puuksi
+  - features: {case: nominative, number: plural}
+    expected: puut
+  - features: {case: genitive, number: plural}
+    expected: puiden
+  - features: {case: partitive, number: plural}
+    expected: puita
+  - features: {case: inessive, number: plural}
+    expected: puissa
+  - features: {case: elative, number: plural}
+    expected: puista
+  - features: {case: illative, number: plural}
+    expected: puihin
+  - features: {case: adessive, number: plural}
+    expected: puilla
+  - features: {case: ablative, number: plural}
+    expected: puilta
+  - features: {case: allative, number: plural}
+    expected: puille
+  - features: {case: essive, number: plural}
+    expected: puina
+  - features: {case: translative, number: plural}
+    expected: puiksi
+  - features: {case: accusative, number: singular}
+    expected: puun
+  - features: {case: accusative, number: plural}
+    expected: puut
+---
+lemma: pää
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: pää
+  - features: {case: genitive, number: singular}
+    expected: pään
+  - features: {case: partitive, number: singular}
+    expected: päätä
+  - features: {case: inessive, number: singular}
+    expected: päässä
+  - features: {case: elative, number: singular}
+    expected: päästä
+  - features: {case: illative, number: singular}
+    expected: päähän
+  - features: {case: adessive, number: singular}
+    expected: päällä
+  - features: {case: ablative, number: singular}
+    expected: päältä
+  - features: {case: allative, number: singular}
+    expected: päälle
+  - features: {case: essive, number: singular}
+    expected: päänä
+  - features: {case: translative, number: singular}
+    expected: pääksi
+  - features: {case: nominative, number: plural}
+    expected: päät
+  - features: {case: genitive, number: plural}
+    expected: päiden
+  - features: {case: partitive, number: plural}
+    expected: päitä
+  - features: {case: inessive, number: plural}
+    expected: päissä
+  - features: {case: elative, number: plural}
+    expected: päistä
+  - features: {case: illative, number: plural}
+    expected: päihin
+  - features: {case: adessive, number: plural}
+    expected: päillä
+  - features: {case: ablative, number: plural}
+    expected: päiltä
+  - features: {case: allative, number: plural}
+    expected: päille
+  - features: {case: essive, number: plural}
+    expected: päinä
+  - features: {case: translative, number: plural}
+    expected: päiksi
+  - features: {case: accusative, number: singular}
+    expected: pään
+  - features: {case: accusative, number: plural}
+    expected: päät
+---
+lemma: nainen
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: nainen
+  - features: {case: genitive, number: singular}
+    expected: naisen
+  - features: {case: partitive, number: singular}
+    expected: naista
+  - features: {case: inessive, number: singular}
+    expected: naisessa
+  - features: {case: elative, number: singular}
+    expected: naisesta
+  - features: {case: illative, number: singular}
+    expected: naiseen
+  - features: {case: adessive, number: singular}
+    expected: naisella
+  - features: {case: ablative, number: singular}
+    expected: naiselta
+  - features: {case: allative, number: singular}
+    expected: naiselle
+  - features: {case: essive, number: singular}
+    expected: naisena
+  - features: {case: translative, number: singular}
+    expected: naiseksi
+  - features: {case: nominative, number: plural}
+    expected: naiset
+  - features: {case: genitive, number: plural}
+    expected: naisten
+  - features: {case: partitive, number: plural}
+    expected: naisia
+  - features: {case: inessive, number: plural}
+    expected: naisissa
+  - features: {case: elative, number: plural}
+    expected: naisista
+  - features: {case: illative, number: plural}
+    expected: naisiin
+  - features: {case: adessive, number: plural}
+    expected: naisilla
+  - features: {case: ablative, number: plural}
+    expected: naisilta
+  - features: {case: allative, number: plural}
+    expected: naisille
+  - features: {case: essive, number: plural}
+    expected: naisina
+  - features: {case: translative, number: plural}
+    expected: naisiksi
+  - features: {case: accusative, number: singular}
+    expected: naisen
+  - features: {case: accusative, number: plural}
+    expected: naiset
+---
+lemma: ihminen
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: ihminen
+  - features: {case: genitive, number: singular}
+    expected: ihmisen
+  - features: {case: partitive, number: singular}
+    expected: ihmistä
+  - features: {case: inessive, number: singular}
+    expected: ihmisessä
+  - features: {case: elative, number: singular}
+    expected: ihmisestä
+  - features: {case: illative, number: singular}
+    expected: ihmiseen
+  - features: {case: adessive, number: singular}
+    expected: ihmisellä
+  - features: {case: ablative, number: singular}
+    expected: ihmiseltä
+  - features: {case: allative, number: singular}
+    expected: ihmiselle
+  - features: {case: essive, number: singular}
+    expected: ihmisenä
+  - features: {case: translative, number: singular}
+    expected: ihmiseksi
+  - features: {case: nominative, number: plural}
+    expected: ihmiset
+  - features: {case: genitive, number: plural}
+    expected: ihmisten
+  - features: {case: partitive, number: plural}
+    expected: ihmisiä
+  - features: {case: inessive, number: plural}
+    expected: ihmisissä
+  - features: {case: elative, number: plural}
+    expected: ihmisistä
+  - features: {case: illative, number: plural}
+    expected: ihmisiin
+  - features: {case: adessive, number: plural}
+    expected: ihmisillä
+  - features: {case: ablative, number: plural}
+    expected: ihmisiltä
+  - features: {case: allative, number: plural}
+    expected: ihmisille
+  - features: {case: essive, number: plural}
+    expected: ihmisinä
+  - features: {case: translative, number: plural}
+    expected: ihmisiksi
+  - features: {case: accusative, number: singular}
+    expected: ihmisen
+  - features: {case: accusative, number: plural}
+    expected: ihmiset
+---
+lemma: ovi
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: ovi
+  - features: {case: genitive, number: singular}
+    expected: oven
+  - features: {case: partitive, number: singular}
+    expected: ovea
+  - features: {case: inessive, number: singular}
+    expected: ovessa
+  - features: {case: elative, number: singular}
+    expected: ovesta
+  - features: {case: illative, number: singular}
+    expected: oveen
+  - features: {case: adessive, number: singular}
+    expected: ovella
+  - features: {case: ablative, number: singular}
+    expected: ovelta
+  - features: {case: allative, number: singular}
+    expected: ovelle
+  - features: {case: essive, number: singular}
+    expected: ovena
+  - features: {case: translative, number: singular}
+    expected: oveksi
+  - features: {case: nominative, number: plural}
+    expected: ovet
+  - features: {case: genitive, number: plural}
+    expected: ovien
+  - features: {case: partitive, number: plural}
+    expected: ovia
+  - features: {case: inessive, number: plural}
+    expected: ovissa
+  - features: {case: elative, number: plural}
+    expected: ovista
+  - features: {case: illative, number: plural}
+    expected: oviin
+  - features: {case: adessive, number: plural}
+    expected: ovilla
+  - features: {case: ablative, number: plural}
+    expected: ovilta
+  - features: {case: allative, number: plural}
+    expected: oville
+  - features: {case: essive, number: plural}
+    expected: ovina
+  - features: {case: translative, number: plural}
+    expected: oviksi
+  - features: {case: accusative, number: singular}
+    expected: oven
+  - features: {case: accusative, number: plural}
+    expected: ovet
+---
+lemma: kivi
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: kivi
+  - features: {case: genitive, number: singular}
+    expected: kiven
+  - features: {case: partitive, number: singular}
+    expected: kiveä
+  - features: {case: inessive, number: singular}
+    expected: kivessä
+  - features: {case: elative, number: singular}
+    expected: kivestä
+  - features: {case: illative, number: singular}
+    expected: kiveen
+  - features: {case: adessive, number: singular}
+    expected: kivellä
+  - features: {case: ablative, number: singular}
+    expected: kiveltä
+  - features: {case: allative, number: singular}
+    expected: kivelle
+  - features: {case: essive, number: singular}
+    expected: kivenä
+  - features: {case: translative, number: singular}
+    expected: kiveksi
+  - features: {case: nominative, number: plural}
+    expected: kivet
+  - features: {case: genitive, number: plural}
+    expected: kivien
+  - features: {case: partitive, number: plural}
+    expected: kiviä
+  - features: {case: inessive, number: plural}
+    expected: kivissä
+  - features: {case: elative, number: plural}
+    expected: kivistä
+  - features: {case: illative, number: plural}
+    expected: kiviin
+  - features: {case: adessive, number: plural}
+    expected: kivillä
+  - features: {case: ablative, number: plural}
+    expected: kiviltä
+  - features: {case: allative, number: plural}
+    expected: kiville
+  - features: {case: essive, number: plural}
+    expected: kivinä
+  - features: {case: translative, number: plural}
+    expected: kiviksi
+  - features: {case: accusative, number: singular}
+    expected: kiven
+  - features: {case: accusative, number: plural}
+    expected: kivet
+---
+lemma: bussi
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: bussi
+  - features: {case: genitive, number: singular}
+    expected: bussin
+  - features: {case: partitive, number: singular}
+    expected: bussia
+  - features: {case: inessive, number: singular}
+    expected: bussissa
+  - features: {case: elative, number: singular}
+    expected: bussista
+  - features: {case: illative, number: singular}
+    expected: bussiin
+  - features: {case: adessive, number: singular}
+    expected: bussilla
+  - features: {case: ablative, number: singular}
+    expected: bussilta
+  - features: {case: allative, number: singular}
+    expected: bussille
+  - features: {case: essive, number: singular}
+    expected: bussina
+  - features: {case: translative, number: singular}
+    expected: bussiksi
+  - features: {case: nominative, number: plural}
+    expected: bussit
+  - features: {case: genitive, number: plural}
+    expected: bussien
+  - features: {case: partitive, number: plural}
+    expected: busseja
+  - features: {case: inessive, number: plural}
+    expected: busseissa
+  - features: {case: elative, number: plural}
+    expected: busseista
+  - features: {case: illative, number: plural}
+    expected: busseihin
+  - features: {case: adessive, number: plural}
+    expected: busseilla
+  - features: {case: ablative, number: plural}
+    expected: busseilta
+  - features: {case: allative, number: plural}
+    expected: busseille
+  - features: {case: essive, number: plural}
+    expected: busseina
+  - features: {case: translative, number: plural}
+    expected: busseiksi
+  - features: {case: accusative, number: singular}
+    expected: bussin
+  - features: {case: accusative, number: plural}
+    expected: bussit
+---
+lemma: keksi
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: keksi
+  - features: {case: genitive, number: singular}
+    expected: keksin
+  - features: {case: partitive, number: singular}
+    expected: keksiä
+  - features: {case: inessive, number: singular}
+    expected: keksissä
+  - features: {case: elative, number: singular}
+    expected: keksistä
+  - features: {case: illative, number: singular}
+    expected: keksiin
+  - features: {case: adessive, number: singular}
+    expected: keksillä
+  - features: {case: ablative, number: singular}
+    expected: keksiltä
+  - features: {case: allative, number: singular}
+    expected: keksille
+  - features: {case: essive, number: singular}
+    expected: keksinä
+  - features: {case: translative, number: singular}
+    expected: keksiksi
+  - features: {case: nominative, number: plural}
+    expected: keksit
+  - features: {case: genitive, number: plural}
+    expected: keksien
+  - features: {case: partitive, number: plural}
+    expected: keksejä
+  - features: {case: inessive, number: plural}
+    expected: kekseissä
+  - features: {case: elative, number: plural}
+    expected: kekseistä
+  - features: {case: illative, number: plural}
+    expected: kekseihin
+  - features: {case: adessive, number: plural}
+    expected: kekseillä
+  - features: {case: ablative, number: plural}
+    expected: kekseiltä
+  - features: {case: allative, number: plural}
+    expected: kekseille
+  - features: {case: essive, number: plural}
+    expected: kekseinä
+  - features: {case: translative, number: plural}
+    expected: kekseiksi
+  - features: {case: accusative, number: singular}
+    expected: keksin
+  - features: {case: accusative, number: plural}
+    expected: keksit
 ---
 lemma: vesi
 category: nouns
@@ -237,3 +825,215 @@ cases:
     expected: vesinä
   - features: {case: translative, number: plural}
     expected: vesiksi
+  - features: {case: accusative, number: singular}
+    expected: veden
+  - features: {case: accusative, number: plural}
+    expected: vedet
+---
+lemma: mies
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: mies
+  - features: {case: genitive, number: singular}
+    expected: miehen
+  - features: {case: partitive, number: singular}
+    expected: miestä
+  - features: {case: inessive, number: singular}
+    expected: miehessä
+  - features: {case: elative, number: singular}
+    expected: miehestä
+  - features: {case: illative, number: singular}
+    expected: mieheen
+  - features: {case: adessive, number: singular}
+    expected: miehellä
+  - features: {case: ablative, number: singular}
+    expected: mieheltä
+  - features: {case: allative, number: singular}
+    expected: miehelle
+  - features: {case: essive, number: singular}
+    expected: miehenä
+  - features: {case: translative, number: singular}
+    expected: mieheksi
+  - features: {case: nominative, number: plural}
+    expected: miehet
+  - features: {case: genitive, number: plural}
+    expected: miesten
+  - features: {case: partitive, number: plural}
+    expected: miehiä
+  - features: {case: inessive, number: plural}
+    expected: miehissä
+  - features: {case: elative, number: plural}
+    expected: miehistä
+  - features: {case: illative, number: plural}
+    expected: miehiin
+  - features: {case: adessive, number: plural}
+    expected: miehillä
+  - features: {case: ablative, number: plural}
+    expected: miehiltä
+  - features: {case: allative, number: plural}
+    expected: miehille
+  - features: {case: essive, number: plural}
+    expected: miehinä
+  - features: {case: translative, number: plural}
+    expected: miehiksi
+  - features: {case: accusative, number: singular}
+    expected: miehen
+  - features: {case: accusative, number: plural}
+    expected: miehet
+---
+lemma: lapsi
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: lapsi
+  - features: {case: genitive, number: singular}
+    expected: lapsen
+  - features: {case: partitive, number: singular}
+    expected: lasta
+  - features: {case: inessive, number: singular}
+    expected: lapsessa
+  - features: {case: elative, number: singular}
+    expected: lapsesta
+  - features: {case: illative, number: singular}
+    expected: lapseen
+  - features: {case: adessive, number: singular}
+    expected: lapsella
+  - features: {case: ablative, number: singular}
+    expected: lapselta
+  - features: {case: allative, number: singular}
+    expected: lapselle
+  - features: {case: essive, number: singular}
+    expected: lapsena
+  - features: {case: translative, number: singular}
+    expected: lapseksi
+  - features: {case: nominative, number: plural}
+    expected: lapset
+  - features: {case: genitive, number: plural}
+    expected: lasten
+  - features: {case: partitive, number: plural}
+    expected: lapsia
+  - features: {case: inessive, number: plural}
+    expected: lapsissa
+  - features: {case: elative, number: plural}
+    expected: lapsista
+  - features: {case: illative, number: plural}
+    expected: lapsiin
+  - features: {case: adessive, number: plural}
+    expected: lapsilla
+  - features: {case: ablative, number: plural}
+    expected: lapsilta
+  - features: {case: allative, number: plural}
+    expected: lapsille
+  - features: {case: essive, number: plural}
+    expected: lapsina
+  - features: {case: translative, number: plural}
+    expected: lapsiksi
+  - features: {case: accusative, number: singular}
+    expected: lapsen
+  - features: {case: accusative, number: plural}
+    expected: lapset
+---
+lemma: katu
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: katu
+  - features: {case: genitive, number: singular}
+    expected: kadun
+  - features: {case: partitive, number: singular}
+    expected: katua
+  - features: {case: inessive, number: singular}
+    expected: kadussa
+  - features: {case: elative, number: singular}
+    expected: kadusta
+  - features: {case: illative, number: singular}
+    expected: katuun
+  - features: {case: adessive, number: singular}
+    expected: kadulla
+  - features: {case: ablative, number: singular}
+    expected: kadulta
+  - features: {case: allative, number: singular}
+    expected: kadulle
+  - features: {case: essive, number: singular}
+    expected: katuna
+  - features: {case: translative, number: singular}
+    expected: kaduksi
+  - features: {case: nominative, number: plural}
+    expected: kadut
+  - features: {case: genitive, number: plural}
+    expected: katujen
+  - features: {case: partitive, number: plural}
+    expected: katuja
+  - features: {case: inessive, number: plural}
+    expected: kaduissa
+  - features: {case: elative, number: plural}
+    expected: kaduista
+  - features: {case: illative, number: plural}
+    expected: katuihin
+  - features: {case: adessive, number: plural}
+    expected: kaduilla
+  - features: {case: ablative, number: plural}
+    expected: kaduilta
+  - features: {case: allative, number: plural}
+    expected: kaduille
+  - features: {case: essive, number: plural}
+    expected: katuina
+  - features: {case: translative, number: plural}
+    expected: kaduiksi
+  - features: {case: accusative, number: singular}
+    expected: kadun
+  - features: {case: accusative, number: plural}
+    expected: kadut
+---
+lemma: poika
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: poika
+  - features: {case: genitive, number: singular}
+    expected: pojan
+  - features: {case: partitive, number: singular}
+    expected: poikaa
+  - features: {case: inessive, number: singular}
+    expected: pojassa
+  - features: {case: elative, number: singular}
+    expected: pojasta
+  - features: {case: illative, number: singular}
+    expected: poikaan
+  - features: {case: adessive, number: singular}
+    expected: pojalla
+  - features: {case: ablative, number: singular}
+    expected: pojalta
+  - features: {case: allative, number: singular}
+    expected: pojalle
+  - features: {case: essive, number: singular}
+    expected: poikana
+  - features: {case: translative, number: singular}
+    expected: pojaksi
+  - features: {case: nominative, number: plural}
+    expected: pojat
+  - features: {case: genitive, number: plural}
+    expected: poikien
+  - features: {case: partitive, number: plural}
+    expected: poikia
+  - features: {case: inessive, number: plural}
+    expected: pojissa
+  - features: {case: elative, number: plural}
+    expected: pojista
+  - features: {case: illative, number: plural}
+    expected: poikiin
+  - features: {case: adessive, number: plural}
+    expected: pojilla
+  - features: {case: ablative, number: plural}
+    expected: pojilta
+  - features: {case: allative, number: plural}
+    expected: pojille
+  - features: {case: essive, number: plural}
+    expected: poikina
+  - features: {case: translative, number: plural}
+    expected: pojiksi
+  - features: {case: accusative, number: singular}
+    expected: pojan
+  - features: {case: accusative, number: plural}
+    expected: pojat

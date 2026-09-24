@@ -54,6 +54,286 @@ cases:
   - features: {case: prepositional, number: plural}
     expected: журналах
 ---
+lemma: студент
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: студент
+  - features: {case: genitive, number: singular}
+    expected: студента
+  - features: {case: dative, number: singular}
+    expected: студенту
+  - features: {case: accusative, number: singular}
+    expected: студента
+  - features: {case: instrumental, number: singular}
+    expected: студентом
+  - features: {case: prepositional, number: singular}
+    expected: студенте
+  - features: {case: nominative, number: plural}
+    expected: студенты
+  - features: {case: genitive, number: plural}
+    expected: студентов
+  - features: {case: dative, number: plural}
+    expected: студентам
+  - features: {case: accusative, number: plural}
+    expected: студентов
+  - features: {case: instrumental, number: plural}
+    expected: студентами
+  - features: {case: prepositional, number: plural}
+    expected: студентах
+---
+lemma: урок
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: урок
+  - features: {case: genitive, number: singular}
+    expected: урока
+  - features: {case: dative, number: singular}
+    expected: уроку
+  - features: {case: accusative, number: singular}
+    expected: урок
+  - features: {case: instrumental, number: singular}
+    expected: уроком
+  - features: {case: prepositional, number: singular}
+    expected: уроке
+  - features: {case: nominative, number: plural}
+    expected: уроки
+  - features: {case: genitive, number: plural}
+    expected: уроков
+  - features: {case: dative, number: plural}
+    expected: урокам
+  - features: {case: accusative, number: plural}
+    expected: уроки
+  - features: {case: instrumental, number: plural}
+    expected: уроками
+  - features: {case: prepositional, number: plural}
+    expected: уроках
+---
+lemma: мальчик
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: мальчик
+  - features: {case: genitive, number: singular}
+    expected: мальчика
+  - features: {case: dative, number: singular}
+    expected: мальчику
+  - features: {case: accusative, number: singular}
+    expected: мальчика
+  - features: {case: instrumental, number: singular}
+    expected: мальчиком
+  - features: {case: prepositional, number: singular}
+    expected: мальчике
+  - features: {case: nominative, number: plural}
+    expected: мальчики
+  - features: {case: genitive, number: plural}
+    expected: мальчиков
+  - features: {case: dative, number: plural}
+    expected: мальчикам
+  - features: {case: accusative, number: plural}
+    expected: мальчиков
+  - features: {case: instrumental, number: plural}
+    expected: мальчиками
+  - features: {case: prepositional, number: plural}
+    expected: мальчиках
+---
+lemma: нож
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: нож
+  - features: {case: genitive, number: singular}
+    expected: ножа
+  - features: {case: dative, number: singular}
+    expected: ножу
+  - features: {case: accusative, number: singular}
+    expected: нож
+  - features: {case: instrumental, number: singular}
+    expected: ножом
+  - features: {case: prepositional, number: singular}
+    expected: ноже
+  - features: {case: nominative, number: plural}
+    expected: ножи
+  - features: {case: genitive, number: plural}
+    expected: ножей
+  - features: {case: dative, number: plural}
+    expected: ножам
+  - features: {case: accusative, number: plural}
+    expected: ножи
+  - features: {case: instrumental, number: plural}
+    expected: ножами
+  - features: {case: prepositional, number: plural}
+    expected: ножах
+---
+lemma: врач
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: врач
+  - features: {case: genitive, number: singular}
+    expected: врача
+  - features: {case: dative, number: singular}
+    expected: врачу
+  - features: {case: accusative, number: singular}
+    expected: врача
+  - features: {case: instrumental, number: singular}
+    expected: врачом
+  - features: {case: prepositional, number: singular}
+    expected: враче
+  - features: {case: nominative, number: plural}
+    expected: врачи
+  - features: {case: genitive, number: plural}
+    expected: врачей
+  - features: {case: dative, number: plural}
+    expected: врачам
+  - features: {case: accusative, number: plural}
+    expected: врачей
+  - features: {case: instrumental, number: plural}
+    expected: врачами
+  - features: {case: prepositional, number: plural}
+    expected: врачах
+---
+lemma: портфель
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: портфель
+  - features: {case: genitive, number: singular}
+    expected: портфеля
+  - features: {case: dative, number: singular}
+    expected: портфелю
+  - features: {case: accusative, number: singular}
+    expected: портфель
+  - features: {case: instrumental, number: singular}
+    expected: портфелем
+  - features: {case: prepositional, number: singular}
+    expected: портфеле
+  - features: {case: nominative, number: plural}
+    expected: портфели
+  - features: {case: genitive, number: plural}
+    expected: портфелей
+  - features: {case: dative, number: plural}
+    expected: портфелям
+  - features: {case: accusative, number: plural}
+    expected: портфели
+  - features: {case: instrumental, number: plural}
+    expected: портфелями
+  - features: {case: prepositional, number: plural}
+    expected: портфелях
+---
+lemma: гость
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: гость
+  - features: {case: genitive, number: singular}
+    expected: гостя
+  - features: {case: dative, number: singular}
+    expected: гостю
+  - features: {case: accusative, number: singular}
+    expected: гостя
+  - features: {case: instrumental, number: singular}
+    expected: гостем
+  - features: {case: prepositional, number: singular}
+    expected: госте
+  - features: {case: nominative, number: plural}
+    expected: гости
+  - features: {case: genitive, number: plural}
+    expected: гостей
+  - features: {case: dative, number: plural}
+    expected: гостям
+  - features: {case: accusative, number: plural}
+    expected: гостей
+  - features: {case: instrumental, number: plural}
+    expected: гостями
+  - features: {case: prepositional, number: plural}
+    expected: гостях
+---
+lemma: словарь
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: словарь
+  - features: {case: genitive, number: singular}
+    expected: словаря
+  - features: {case: dative, number: singular}
+    expected: словарю
+  - features: {case: accusative, number: singular}
+    expected: словарь
+  - features: {case: instrumental, number: singular}
+    expected: словарём
+  - features: {case: prepositional, number: singular}
+    expected: словаре
+  - features: {case: nominative, number: plural}
+    expected: словари
+  - features: {case: genitive, number: plural}
+    expected: словарей
+  - features: {case: dative, number: plural}
+    expected: словарям
+  - features: {case: accusative, number: plural}
+    expected: словари
+  - features: {case: instrumental, number: plural}
+    expected: словарями
+  - features: {case: prepositional, number: plural}
+    expected: словарях
+---
+lemma: музей
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: музей
+  - features: {case: genitive, number: singular}
+    expected: музея
+  - features: {case: dative, number: singular}
+    expected: музею
+  - features: {case: accusative, number: singular}
+    expected: музей
+  - features: {case: instrumental, number: singular}
+    expected: музеем
+  - features: {case: prepositional, number: singular}
+    expected: музее
+  - features: {case: nominative, number: plural}
+    expected: музеи
+  - features: {case: genitive, number: plural}
+    expected: музеев
+  - features: {case: dative, number: plural}
+    expected: музеям
+  - features: {case: accusative, number: plural}
+    expected: музеи
+  - features: {case: instrumental, number: plural}
+    expected: музеями
+  - features: {case: prepositional, number: plural}
+    expected: музеях
+---
+lemma: герой
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: герой
+  - features: {case: genitive, number: singular}
+    expected: героя
+  - features: {case: dative, number: singular}
+    expected: герою
+  - features: {case: accusative, number: singular}
+    expected: героя
+  - features: {case: instrumental, number: singular}
+    expected: героем
+  - features: {case: prepositional, number: singular}
+    expected: герое
+  - features: {case: nominative, number: plural}
+    expected: герои
+  - features: {case: genitive, number: plural}
+    expected: героев
+  - features: {case: dative, number: plural}
+    expected: героям
+  - features: {case: accusative, number: plural}
+    expected: героев
+  - features: {case: instrumental, number: plural}
+    expected: героями
+  - features: {case: prepositional, number: plural}
+    expected: героях
+---
 lemma: лампа
 category: nouns
 cases:
@@ -110,6 +390,230 @@ cases:
   - features: {case: prepositional, number: plural}
     expected: школах
 ---
+lemma: мама
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: мама
+  - features: {case: genitive, number: singular}
+    expected: мамы
+  - features: {case: dative, number: singular}
+    expected: маме
+  - features: {case: accusative, number: singular}
+    expected: маму
+  - features: {case: instrumental, number: singular}
+    expected: мамой
+  - features: {case: prepositional, number: singular}
+    expected: маме
+  - features: {case: nominative, number: plural}
+    expected: мамы
+  - features: {case: genitive, number: plural}
+    expected: мам
+  - features: {case: dative, number: plural}
+    expected: мамам
+  - features: {case: accusative, number: plural}
+    expected: мам
+  - features: {case: instrumental, number: plural}
+    expected: мамами
+  - features: {case: prepositional, number: plural}
+    expected: мамах
+---
+lemma: книга
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: книга
+  - features: {case: genitive, number: singular}
+    expected: книги
+  - features: {case: dative, number: singular}
+    expected: книге
+  - features: {case: accusative, number: singular}
+    expected: книгу
+  - features: {case: instrumental, number: singular}
+    expected: книгой
+  - features: {case: prepositional, number: singular}
+    expected: книге
+  - features: {case: nominative, number: plural}
+    expected: книги
+  - features: {case: genitive, number: plural}
+    expected: книг
+  - features: {case: dative, number: plural}
+    expected: книгам
+  - features: {case: accusative, number: plural}
+    expected: книги
+  - features: {case: instrumental, number: plural}
+    expected: книгами
+  - features: {case: prepositional, number: plural}
+    expected: книгах
+---
+lemma: собака
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: собака
+  - features: {case: genitive, number: singular}
+    expected: собаки
+  - features: {case: dative, number: singular}
+    expected: собаке
+  - features: {case: accusative, number: singular}
+    expected: собаку
+  - features: {case: instrumental, number: singular}
+    expected: собакой
+  - features: {case: prepositional, number: singular}
+    expected: собаке
+  - features: {case: nominative, number: plural}
+    expected: собаки
+  - features: {case: genitive, number: plural}
+    expected: собак
+  - features: {case: dative, number: plural}
+    expected: собакам
+  - features: {case: accusative, number: plural}
+    expected: собак
+  - features: {case: instrumental, number: plural}
+    expected: собаками
+  - features: {case: prepositional, number: plural}
+    expected: собаках
+---
+lemma: задача
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: задача
+  - features: {case: genitive, number: singular}
+    expected: задачи
+  - features: {case: dative, number: singular}
+    expected: задаче
+  - features: {case: accusative, number: singular}
+    expected: задачу
+  - features: {case: instrumental, number: singular}
+    expected: задачей
+  - features: {case: prepositional, number: singular}
+    expected: задаче
+  - features: {case: nominative, number: plural}
+    expected: задачи
+  - features: {case: genitive, number: plural}
+    expected: задач
+  - features: {case: dative, number: plural}
+    expected: задачам
+  - features: {case: accusative, number: plural}
+    expected: задачи
+  - features: {case: instrumental, number: plural}
+    expected: задачами
+  - features: {case: prepositional, number: plural}
+    expected: задачах
+---
+lemma: неделя
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: неделя
+  - features: {case: genitive, number: singular}
+    expected: недели
+  - features: {case: dative, number: singular}
+    expected: неделе
+  - features: {case: accusative, number: singular}
+    expected: неделю
+  - features: {case: instrumental, number: singular}
+    expected: неделей
+  - features: {case: prepositional, number: singular}
+    expected: неделе
+  - features: {case: nominative, number: plural}
+    expected: недели
+  - features: {case: genitive, number: plural}
+    expected: недель
+  - features: {case: dative, number: plural}
+    expected: неделям
+  - features: {case: accusative, number: plural}
+    expected: недели
+  - features: {case: instrumental, number: plural}
+    expected: неделями
+  - features: {case: prepositional, number: plural}
+    expected: неделях
+---
+lemma: станция
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: станция
+  - features: {case: genitive, number: singular}
+    expected: станции
+  - features: {case: dative, number: singular}
+    expected: станции
+  - features: {case: accusative, number: singular}
+    expected: станцию
+  - features: {case: instrumental, number: singular}
+    expected: станцией
+  - features: {case: prepositional, number: singular}
+    expected: станции
+  - features: {case: nominative, number: plural}
+    expected: станции
+  - features: {case: genitive, number: plural}
+    expected: станций
+  - features: {case: dative, number: plural}
+    expected: станциям
+  - features: {case: accusative, number: plural}
+    expected: станции
+  - features: {case: instrumental, number: plural}
+    expected: станциями
+  - features: {case: prepositional, number: plural}
+    expected: станциях
+---
+lemma: дверь
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: дверь
+  - features: {case: genitive, number: singular}
+    expected: двери
+  - features: {case: dative, number: singular}
+    expected: двери
+  - features: {case: accusative, number: singular}
+    expected: дверь
+  - features: {case: instrumental, number: singular}
+    expected: дверью
+  - features: {case: prepositional, number: singular}
+    expected: двери
+  - features: {case: nominative, number: plural}
+    expected: двери
+  - features: {case: genitive, number: plural}
+    expected: дверей
+  - features: {case: dative, number: plural}
+    expected: дверям
+  - features: {case: accusative, number: plural}
+    expected: двери
+  - features: {case: instrumental, number: plural}
+    expected: дверями
+  - features: {case: prepositional, number: plural}
+    expected: дверях
+---
+lemma: ночь
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: ночь
+  - features: {case: genitive, number: singular}
+    expected: ночи
+  - features: {case: dative, number: singular}
+    expected: ночи
+  - features: {case: accusative, number: singular}
+    expected: ночь
+  - features: {case: instrumental, number: singular}
+    expected: ночью
+  - features: {case: prepositional, number: singular}
+    expected: ночи
+  - features: {case: nominative, number: plural}
+    expected: ночи
+  - features: {case: genitive, number: plural}
+    expected: ночей
+  - features: {case: dative, number: plural}
+    expected: ночам
+  - features: {case: accusative, number: plural}
+    expected: ночи
+  - features: {case: instrumental, number: plural}
+    expected: ночами
+  - features: {case: prepositional, number: plural}
+    expected: ночах
+---
 lemma: слово
 category: nouns
 cases:
@@ -138,33 +642,61 @@ cases:
   - features: {case: prepositional, number: plural}
     expected: словах
 ---
-lemma: место
+lemma: море
 category: nouns
 cases:
   - features: {case: nominative, number: singular}
-    expected: место
+    expected: море
   - features: {case: genitive, number: singular}
-    expected: места
+    expected: моря
   - features: {case: dative, number: singular}
-    expected: месту
+    expected: морю
   - features: {case: accusative, number: singular}
-    expected: место
+    expected: море
   - features: {case: instrumental, number: singular}
-    expected: местом
+    expected: морем
   - features: {case: prepositional, number: singular}
-    expected: месте
+    expected: море
   - features: {case: nominative, number: plural}
-    expected: места
+    expected: моря
   - features: {case: genitive, number: plural}
-    expected: мест
+    expected: морей
   - features: {case: dative, number: plural}
-    expected: местам
+    expected: морям
   - features: {case: accusative, number: plural}
-    expected: места
+    expected: моря
   - features: {case: instrumental, number: plural}
-    expected: местами
+    expected: морями
   - features: {case: prepositional, number: plural}
-    expected: местах
+    expected: морях
+---
+lemma: здание
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: здание
+  - features: {case: genitive, number: singular}
+    expected: здания
+  - features: {case: dative, number: singular}
+    expected: зданию
+  - features: {case: accusative, number: singular}
+    expected: здание
+  - features: {case: instrumental, number: singular}
+    expected: зданием
+  - features: {case: prepositional, number: singular}
+    expected: здании
+  - features: {case: nominative, number: plural}
+    expected: здания
+  - features: {case: genitive, number: plural}
+    expected: зданий
+  - features: {case: dative, number: plural}
+    expected: зданиям
+  - features: {case: accusative, number: plural}
+    expected: здания
+  - features: {case: instrumental, number: plural}
+    expected: зданиями
+  - features: {case: prepositional, number: plural}
+    expected: зданиях
 ---
 lemma: ребёнок
 category: nouns
@@ -193,3 +725,143 @@ cases:
     expected: детьми
   - features: {case: prepositional, number: plural}
     expected: детях
+---
+lemma: мать
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: мать
+  - features: {case: genitive, number: singular}
+    expected: матери
+  - features: {case: dative, number: singular}
+    expected: матери
+  - features: {case: accusative, number: singular}
+    expected: мать
+  - features: {case: instrumental, number: singular}
+    expected: матерью
+  - features: {case: prepositional, number: singular}
+    expected: матери
+  - features: {case: nominative, number: plural}
+    expected: матери
+  - features: {case: genitive, number: plural}
+    expected: матерей
+  - features: {case: dative, number: plural}
+    expected: матерям
+  - features: {case: accusative, number: plural}
+    expected: матерей
+  - features: {case: instrumental, number: plural}
+    expected: матерями
+  - features: {case: prepositional, number: plural}
+    expected: матерях
+---
+lemma: время
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: время
+  - features: {case: genitive, number: singular}
+    expected: времени
+  - features: {case: dative, number: singular}
+    expected: времени
+  - features: {case: accusative, number: singular}
+    expected: время
+  - features: {case: instrumental, number: singular}
+    expected: временем
+  - features: {case: prepositional, number: singular}
+    expected: времени
+  - features: {case: nominative, number: plural}
+    expected: времена
+  - features: {case: genitive, number: plural}
+    expected: времён
+  - features: {case: dative, number: plural}
+    expected: временам
+  - features: {case: accusative, number: plural}
+    expected: времена
+  - features: {case: instrumental, number: plural}
+    expected: временами
+  - features: {case: prepositional, number: plural}
+    expected: временах
+---
+lemma: день
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: день
+  - features: {case: genitive, number: singular}
+    expected: дня
+  - features: {case: dative, number: singular}
+    expected: дню
+  - features: {case: accusative, number: singular}
+    expected: день
+  - features: {case: instrumental, number: singular}
+    expected: днём
+  - features: {case: prepositional, number: singular}
+    expected: дне
+  - features: {case: nominative, number: plural}
+    expected: дни
+  - features: {case: genitive, number: plural}
+    expected: дней
+  - features: {case: dative, number: plural}
+    expected: дням
+  - features: {case: accusative, number: plural}
+    expected: дни
+  - features: {case: instrumental, number: plural}
+    expected: днями
+  - features: {case: prepositional, number: plural}
+    expected: днях
+---
+lemma: брат
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: брат
+  - features: {case: genitive, number: singular}
+    expected: брата
+  - features: {case: dative, number: singular}
+    expected: брату
+  - features: {case: accusative, number: singular}
+    expected: брата
+  - features: {case: instrumental, number: singular}
+    expected: братом
+  - features: {case: prepositional, number: singular}
+    expected: брате
+  - features: {case: nominative, number: plural}
+    expected: братья
+  - features: {case: genitive, number: plural}
+    expected: братьев
+  - features: {case: dative, number: plural}
+    expected: братьям
+  - features: {case: accusative, number: plural}
+    expected: братьев
+  - features: {case: instrumental, number: plural}
+    expected: братьями
+  - features: {case: prepositional, number: plural}
+    expected: братьях
+---
+lemma: окно
+category: nouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: окно
+  - features: {case: genitive, number: singular}
+    expected: окна
+  - features: {case: dative, number: singular}
+    expected: окну
+  - features: {case: accusative, number: singular}
+    expected: окно
+  - features: {case: instrumental, number: singular}
+    expected: окном
+  - features: {case: prepositional, number: singular}
+    expected: окне
+  - features: {case: nominative, number: plural}
+    expected: окна
+  - features: {case: genitive, number: plural}
+    expected: окон
+  - features: {case: dative, number: plural}
+    expected: окнам
+  - features: {case: accusative, number: plural}
+    expected: окна
+  - features: {case: instrumental, number: plural}
+    expected: окнами
+  - features: {case: prepositional, number: plural}
+    expected: окнах

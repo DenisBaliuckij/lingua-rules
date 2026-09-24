@@ -1,0 +1,611 @@
+lemma: puhua
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: puhua
+  - features: {number: singular, person: first, verb_form: present}
+    expected: puhun
+  - features: {number: singular, person: second, verb_form: present}
+    expected: puhut
+  - features: {number: singular, person: third, verb_form: present}
+    expected: puhuu
+  - features: {number: plural, person: first, verb_form: present}
+    expected: puhumme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: puhutte
+  - features: {number: plural, person: third, verb_form: present}
+    expected: puhuvat
+  - features: {number: singular, person: first, verb_form: past}
+    expected: puhuin
+  - features: {number: singular, person: second, verb_form: past}
+    expected: puhuit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: puhui
+  - features: {number: plural, person: first, verb_form: past}
+    expected: puhuimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: puhuitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: puhuivat
+  - features: {number: singular, verb_form: imperative}
+    expected: puhu
+  - features: {number: plural, verb_form: imperative}
+    expected: puhukaa
+---
+lemma: sanoa
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: sanoa
+  - features: {number: singular, person: first, verb_form: present}
+    expected: sanon
+  - features: {number: singular, person: second, verb_form: present}
+    expected: sanot
+  - features: {number: singular, person: third, verb_form: present}
+    expected: sanoo
+  - features: {number: plural, person: first, verb_form: present}
+    expected: sanomme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: sanotte
+  - features: {number: plural, person: third, verb_form: present}
+    expected: sanovat
+  - features: {number: singular, person: first, verb_form: past}
+    expected: sanoin
+  - features: {number: singular, person: second, verb_form: past}
+    expected: sanoit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: sanoi
+  - features: {number: plural, person: first, verb_form: past}
+    expected: sanoimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: sanoitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: sanoivat
+  - features: {number: singular, verb_form: imperative}
+    expected: sano
+  - features: {number: plural, verb_form: imperative}
+    expected: sanokaa
+---
+lemma: kysyä
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: kysyä
+  - features: {number: singular, person: first, verb_form: present}
+    expected: kysyn
+  - features: {number: singular, person: second, verb_form: present}
+    expected: kysyt
+  - features: {number: singular, person: third, verb_form: present}
+    expected: kysyy
+  - features: {number: plural, person: first, verb_form: present}
+    expected: kysymme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: kysytte
+  - features: {number: plural, person: third, verb_form: present}
+    expected: kysyvät
+  - features: {number: singular, person: first, verb_form: past}
+    expected: kysyin
+  - features: {number: singular, person: second, verb_form: past}
+    expected: kysyit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: kysyi
+  - features: {number: plural, person: first, verb_form: past}
+    expected: kysyimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: kysyitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: kysyivät
+  - features: {number: singular, verb_form: imperative}
+    expected: kysy
+  - features: {number: plural, verb_form: imperative}
+    expected: kysykää
+---
+lemma: etsiä
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: etsiä
+  - features: {number: singular, person: first, verb_form: present}
+    expected: etsin
+  - features: {number: singular, person: second, verb_form: present}
+    expected: etsit
+  - features: {number: singular, person: third, verb_form: present}
+    expected: etsii
+  - features: {number: plural, person: first, verb_form: present}
+    expected: etsimme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: etsitte
+  - features: {number: plural, person: third, verb_form: present}
+    expected: etsivät
+  - features: {number: singular, person: first, verb_form: past}
+    expected: etsin
+  - features: {number: singular, person: second, verb_form: past}
+    expected: etsit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: etsi
+  - features: {number: plural, person: first, verb_form: past}
+    expected: etsimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: etsitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: etsivät
+  - features: {number: singular, verb_form: imperative}
+    expected: etsi
+  - features: {number: plural, verb_form: imperative}
+    expected: etsikää
+---
+lemma: ostaa
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: ostaa
+  - features: {number: singular, person: first, verb_form: present}
+    expected: ostan
+  - features: {number: singular, person: second, verb_form: present}
+    expected: ostat
+  - features: {number: singular, person: third, verb_form: present}
+    expected: ostaa
+  - features: {number: plural, person: first, verb_form: present}
+    expected: ostamme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: ostatte
+  - features: {number: plural, person: third, verb_form: present}
+    expected: ostavat
+  - features: {number: singular, person: first, verb_form: past}
+    expected: ostin
+  - features: {number: singular, person: second, verb_form: past}
+    expected: ostit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: osti
+  - features: {number: plural, person: first, verb_form: past}
+    expected: ostimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: ostitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: ostivat
+  - features: {number: singular, verb_form: imperative}
+    expected: osta
+  - features: {number: plural, verb_form: imperative}
+    expected: ostakaa
+---
+lemma: maksaa
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: maksaa
+  - features: {number: singular, person: first, verb_form: present}
+    expected: maksan
+  - features: {number: singular, person: second, verb_form: present}
+    expected: maksat
+  - features: {number: singular, person: third, verb_form: present}
+    expected: maksaa
+  - features: {number: plural, person: first, verb_form: present}
+    expected: maksamme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: maksatte
+  - features: {number: plural, person: third, verb_form: present}
+    expected: maksavat
+  - features: {number: singular, person: first, verb_form: past}
+    expected: maksoin
+  - features: {number: singular, person: second, verb_form: past}
+    expected: maksoit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: maksoi
+  - features: {number: plural, person: first, verb_form: past}
+    expected: maksoimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: maksoitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: maksoivat
+  - features: {number: singular, verb_form: imperative}
+    expected: maksa
+  - features: {number: plural, verb_form: imperative}
+    expected: maksakaa
+---
+lemma: tulla
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: tulla
+  - features: {number: singular, person: first, verb_form: present}
+    expected: tulen
+  - features: {number: singular, person: second, verb_form: present}
+    expected: tulet
+  - features: {number: singular, person: third, verb_form: present}
+    expected: tulee
+  - features: {number: plural, person: first, verb_form: present}
+    expected: tulemme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: tulette
+  - features: {number: plural, person: third, verb_form: present}
+    expected: tulevat
+  - features: {number: singular, person: first, verb_form: past}
+    expected: tulin
+  - features: {number: singular, person: second, verb_form: past}
+    expected: tulit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: tuli
+  - features: {number: plural, person: first, verb_form: past}
+    expected: tulimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: tulitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: tulivat
+  - features: {number: singular, verb_form: imperative}
+    expected: tule
+  - features: {number: plural, verb_form: imperative}
+    expected: tulkaa
+---
+lemma: mennä
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: mennä
+  - features: {number: singular, person: first, verb_form: present}
+    expected: menen
+  - features: {number: singular, person: second, verb_form: present}
+    expected: menet
+  - features: {number: singular, person: third, verb_form: present}
+    expected: menee
+  - features: {number: plural, person: first, verb_form: present}
+    expected: menemme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: menette
+  - features: {number: plural, person: third, verb_form: present}
+    expected: menevät
+  - features: {number: singular, person: first, verb_form: past}
+    expected: menin
+  - features: {number: singular, person: second, verb_form: past}
+    expected: menit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: meni
+  - features: {number: plural, person: first, verb_form: past}
+    expected: menimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: menitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: menivät
+  - features: {number: singular, verb_form: imperative}
+    expected: mene
+  - features: {number: plural, verb_form: imperative}
+    expected: menkää
+---
+lemma: kävellä
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: kävellä
+  - features: {number: singular, person: first, verb_form: present}
+    expected: kävelen
+  - features: {number: singular, person: second, verb_form: present}
+    expected: kävelet
+  - features: {number: singular, person: third, verb_form: present}
+    expected: kävelee
+  - features: {number: plural, person: first, verb_form: present}
+    expected: kävelemme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: kävelette
+  - features: {number: plural, person: third, verb_form: present}
+    expected: kävelevät
+  - features: {number: singular, person: first, verb_form: past}
+    expected: kävelin
+  - features: {number: singular, person: second, verb_form: past}
+    expected: kävelit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: käveli
+  - features: {number: plural, person: first, verb_form: past}
+    expected: kävelimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: kävelitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: kävelivät
+  - features: {number: singular, verb_form: imperative}
+    expected: kävele
+  - features: {number: plural, verb_form: imperative}
+    expected: kävelkää
+---
+lemma: haluta
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: haluta
+  - features: {number: singular, person: first, verb_form: present}
+    expected: haluan
+  - features: {number: singular, person: second, verb_form: present}
+    expected: haluat
+  - features: {number: singular, person: third, verb_form: present}
+    expected: haluaa
+  - features: {number: plural, person: first, verb_form: present}
+    expected: haluamme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: haluatte
+  - features: {number: plural, person: third, verb_form: present}
+    expected: haluavat
+  - features: {number: singular, person: first, verb_form: past}
+    expected: halusin
+  - features: {number: singular, person: second, verb_form: past}
+    expected: halusit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: halusi
+  - features: {number: plural, person: first, verb_form: past}
+    expected: halusimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: halusitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: halusivat
+  - features: {number: singular, verb_form: imperative}
+    expected: halua
+  - features: {number: plural, verb_form: imperative}
+    expected: halutkaa
+---
+lemma: tarvita
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: tarvita
+  - features: {number: singular, person: first, verb_form: present}
+    expected: tarvitsen
+  - features: {number: singular, person: second, verb_form: present}
+    expected: tarvitset
+  - features: {number: singular, person: third, verb_form: present}
+    expected: tarvitsee
+  - features: {number: plural, person: first, verb_form: present}
+    expected: tarvitsemme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: tarvitsette
+  - features: {number: plural, person: third, verb_form: present}
+    expected: tarvitsevat
+  - features: {number: singular, person: first, verb_form: past}
+    expected: tarvitsin
+  - features: {number: singular, person: second, verb_form: past}
+    expected: tarvitsit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: tarvitsi
+  - features: {number: plural, person: first, verb_form: past}
+    expected: tarvitsimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: tarvitsitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: tarvitsivat
+  - features: {number: singular, verb_form: imperative}
+    expected: tarvitse
+  - features: {number: plural, verb_form: imperative}
+    expected: tarvitkaa
+---
+lemma: häiritä
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: häiritä
+  - features: {number: singular, person: first, verb_form: present}
+    expected: häiritsen
+  - features: {number: singular, person: second, verb_form: present}
+    expected: häiritset
+  - features: {number: singular, person: third, verb_form: present}
+    expected: häiritsee
+  - features: {number: plural, person: first, verb_form: present}
+    expected: häiritsemme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: häiritsette
+  - features: {number: plural, person: third, verb_form: present}
+    expected: häiritsevät
+  - features: {number: singular, person: first, verb_form: past}
+    expected: häiritsin
+  - features: {number: singular, person: second, verb_form: past}
+    expected: häiritsit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: häiritsi
+  - features: {number: plural, person: first, verb_form: past}
+    expected: häiritsimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: häiritsitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: häiritsivät
+  - features: {number: singular, verb_form: imperative}
+    expected: häiritse
+  - features: {number: plural, verb_form: imperative}
+    expected: häiritkää
+---
+lemma: olla
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: olla
+  - features: {number: singular, person: first, verb_form: present}
+    expected: olen
+  - features: {number: singular, person: second, verb_form: present}
+    expected: olet
+  - features: {number: singular, person: third, verb_form: present}
+    expected: "on"
+  - features: {number: plural, person: first, verb_form: present}
+    expected: olemme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: olette
+  - features: {number: plural, person: third, verb_form: present}
+    expected: ovat
+  - features: {number: singular, person: first, verb_form: past}
+    expected: olin
+  - features: {number: singular, person: second, verb_form: past}
+    expected: olit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: oli
+  - features: {number: plural, person: first, verb_form: past}
+    expected: olimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: olitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: olivat
+  - features: {number: singular, verb_form: imperative}
+    expected: ole
+  - features: {number: plural, verb_form: imperative}
+    expected: olkaa
+---
+lemma: syödä
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: syödä
+  - features: {number: singular, person: first, verb_form: present}
+    expected: syön
+  - features: {number: singular, person: second, verb_form: present}
+    expected: syöt
+  - features: {number: singular, person: third, verb_form: present}
+    expected: syö
+  - features: {number: plural, person: first, verb_form: present}
+    expected: syömme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: syötte
+  - features: {number: plural, person: third, verb_form: present}
+    expected: syövät
+  - features: {number: singular, person: first, verb_form: past}
+    expected: söin
+  - features: {number: singular, person: second, verb_form: past}
+    expected: söit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: söi
+  - features: {number: plural, person: first, verb_form: past}
+    expected: söimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: söitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: söivät
+  - features: {number: singular, verb_form: imperative}
+    expected: syö
+  - features: {number: plural, verb_form: imperative}
+    expected: syökää
+---
+lemma: tehdä
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: tehdä
+  - features: {number: singular, person: first, verb_form: present}
+    expected: teen
+  - features: {number: singular, person: second, verb_form: present}
+    expected: teet
+  - features: {number: singular, person: third, verb_form: present}
+    expected: tekee
+  - features: {number: plural, person: first, verb_form: present}
+    expected: teemme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: teette
+  - features: {number: plural, person: third, verb_form: present}
+    expected: tekevät
+  - features: {number: singular, person: first, verb_form: past}
+    expected: tein
+  - features: {number: singular, person: second, verb_form: past}
+    expected: teit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: teki
+  - features: {number: plural, person: first, verb_form: past}
+    expected: teimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: teitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: tekivät
+  - features: {number: singular, verb_form: imperative}
+    expected: tee
+  - features: {number: plural, verb_form: imperative}
+    expected: tehkää
+---
+lemma: ottaa
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: ottaa
+  - features: {number: singular, person: first, verb_form: present}
+    expected: otan
+  - features: {number: singular, person: second, verb_form: present}
+    expected: otat
+  - features: {number: singular, person: third, verb_form: present}
+    expected: ottaa
+  - features: {number: plural, person: first, verb_form: present}
+    expected: otamme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: otatte
+  - features: {number: plural, person: third, verb_form: present}
+    expected: ottavat
+  - features: {number: singular, person: first, verb_form: past}
+    expected: otin
+  - features: {number: singular, person: second, verb_form: past}
+    expected: otit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: otti
+  - features: {number: plural, person: first, verb_form: past}
+    expected: otimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: otitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: ottivat
+  - features: {number: singular, verb_form: imperative}
+    expected: ota
+  - features: {number: plural, verb_form: imperative}
+    expected: ottakaa
+---
+lemma: antaa
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: antaa
+  - features: {number: singular, person: first, verb_form: present}
+    expected: annan
+  - features: {number: singular, person: second, verb_form: present}
+    expected: annat
+  - features: {number: singular, person: third, verb_form: present}
+    expected: antaa
+  - features: {number: plural, person: first, verb_form: present}
+    expected: annamme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: annatte
+  - features: {number: plural, person: third, verb_form: present}
+    expected: antavat
+  - features: {number: singular, person: first, verb_form: past}
+    expected: annoin
+  - features: {number: singular, person: second, verb_form: past}
+    expected: annoit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: antoi
+  - features: {number: plural, person: first, verb_form: past}
+    expected: annoimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: annoitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: antoivat
+  - features: {number: singular, verb_form: imperative}
+    expected: anna
+  - features: {number: plural, verb_form: imperative}
+    expected: antakaa
+---
+lemma: lukea
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: lukea
+  - features: {number: singular, person: first, verb_form: present}
+    expected: luen
+  - features: {number: singular, person: second, verb_form: present}
+    expected: luet
+  - features: {number: singular, person: third, verb_form: present}
+    expected: lukee
+  - features: {number: plural, person: first, verb_form: present}
+    expected: luemme
+  - features: {number: plural, person: second, verb_form: present}
+    expected: luette
+  - features: {number: plural, person: third, verb_form: present}
+    expected: lukevat
+  - features: {number: singular, person: first, verb_form: past}
+    expected: luin
+  - features: {number: singular, person: second, verb_form: past}
+    expected: luit
+  - features: {number: singular, person: third, verb_form: past}
+    expected: luki
+  - features: {number: plural, person: first, verb_form: past}
+    expected: luimme
+  - features: {number: plural, person: second, verb_form: past}
+    expected: luitte
+  - features: {number: plural, person: third, verb_form: past}
+    expected: lukivat
+  - features: {number: singular, verb_form: imperative}
+    expected: lue
+  - features: {number: plural, verb_form: imperative}
+    expected: lukekaa

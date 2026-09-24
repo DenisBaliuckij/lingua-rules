@@ -9,7 +9,7 @@ TESTS_DIR = Path("tests")
 def test_run_paradigm_tests_reports_all_cases_for_the_english_fixture():
     results = run_paradigm_tests(RULES_DIR, TESTS_DIR, "en")
 
-    assert len(results) == 21
+    assert len(results) == 208
     assert all(r.passed for r in results)
 
 

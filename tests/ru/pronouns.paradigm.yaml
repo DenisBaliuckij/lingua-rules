@@ -1,0 +1,127 @@
+lemma: я
+category: pronouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: я
+  - features: {case: genitive, number: singular}
+    expected: меня
+  - features: {case: dative, number: singular}
+    expected: мне
+  - features: {case: accusative, number: singular}
+    expected: меня
+  - features: {case: instrumental, number: singular}
+    expected: мной
+  - features: {case: prepositional, number: singular}
+    expected: мне
+---
+lemma: ты
+category: pronouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: ты
+  - features: {case: genitive, number: singular}
+    expected: тебя
+  - features: {case: dative, number: singular}
+    expected: тебе
+  - features: {case: accusative, number: singular}
+    expected: тебя
+  - features: {case: instrumental, number: singular}
+    expected: тобой
+  - features: {case: prepositional, number: singular}
+    expected: тебе
+---
+lemma: он
+category: pronouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: он
+  - features: {case: genitive, number: singular}
+    expected: его
+  - features: {case: dative, number: singular}
+    expected: ему
+  - features: {case: accusative, number: singular}
+    expected: его
+  - features: {case: instrumental, number: singular}
+    expected: им
+  - features: {case: prepositional, number: singular}
+    expected: нём
+---
+lemma: она
+category: pronouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: она
+  - features: {case: genitive, number: singular}
+    expected: её
+  - features: {case: dative, number: singular}
+    expected: ей
+  - features: {case: accusative, number: singular}
+    expected: её
+  - features: {case: instrumental, number: singular}
+    expected: ей
+  - features: {case: prepositional, number: singular}
+    expected: ней
+---
+lemma: оно
+category: pronouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: оно
+  - features: {case: genitive, number: singular}
+    expected: его
+  - features: {case: dative, number: singular}
+    expected: ему
+  - features: {case: accusative, number: singular}
+    expected: его
+  - features: {case: instrumental, number: singular}
+    expected: им
+  - features: {case: prepositional, number: singular}
+    expected: нём
+---
+lemma: мы
+category: pronouns
+cases:
+  - features: {case: nominative, number: plural}
+    expected: мы
+  - features: {case: genitive, number: plural}
+    expected: нас
+  - features: {case: dative, number: plural}
+    expected: нам
+  - features: {case: accusative, number: plural}
+    expected: нас
+  - features: {case: instrumental, number: plural}
+    expected: нами
+  - features: {case: prepositional, number: plural}
+    expected: нас
+---
+lemma: вы
+category: pronouns
+cases:
+  - features: {case: nominative, number: plural}
+    expected: вы
+  - features: {case: genitive, number: plural}
+    expected: вас
+  - features: {case: dative, number: plural}
+    expected: вам
+  - features: {case: accusative, number: plural}
+    expected: вас
+  - features: {case: instrumental, number: plural}
+    expected: вами
+  - features: {case: prepositional, number: plural}
+    expected: вас
+---
+lemma: они
+category: pronouns
+cases:
+  - features: {case: nominative, number: plural}
+    expected: они
+  - features: {case: genitive, number: plural}
+    expected: их
+  - features: {case: dative, number: plural}
+    expected: им
+  - features: {case: accusative, number: plural}
+    expected: их
+  - features: {case: instrumental, number: plural}
+    expected: ими
+  - features: {case: prepositional, number: plural}
+    expected: них
