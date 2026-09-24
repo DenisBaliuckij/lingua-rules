@@ -1,0 +1,381 @@
+lemma: читать
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: читать
+  - features: {number: singular, person: first, verb_form: present}
+    expected: читаю
+  - features: {number: singular, person: second, verb_form: present}
+    expected: читаешь
+  - features: {number: singular, person: third, verb_form: present}
+    expected: читает
+  - features: {number: plural, person: first, verb_form: present}
+    expected: читаем
+  - features: {number: plural, person: second, verb_form: present}
+    expected: читаете
+  - features: {number: plural, person: third, verb_form: present}
+    expected: читают
+  - features: {gender: masculine, number: singular, verb_form: past}
+    expected: читал
+  - features: {gender: feminine, number: singular, verb_form: past}
+    expected: читала
+  - features: {gender: neuter, number: singular, verb_form: past}
+    expected: читало
+  - features: {number: plural, verb_form: past}
+    expected: читали
+  - features: {number: singular, verb_form: imperative}
+    expected: читай
+  - features: {number: plural, verb_form: imperative}
+    expected: читайте
+---
+lemma: гулять
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: гулять
+  - features: {number: singular, person: first, verb_form: present}
+    expected: гуляю
+  - features: {number: singular, person: second, verb_form: present}
+    expected: гуляешь
+  - features: {number: singular, person: third, verb_form: present}
+    expected: гуляет
+  - features: {number: plural, person: first, verb_form: present}
+    expected: гуляем
+  - features: {number: plural, person: second, verb_form: present}
+    expected: гуляете
+  - features: {number: plural, person: third, verb_form: present}
+    expected: гуляют
+  - features: {gender: masculine, number: singular, verb_form: past}
+    expected: гулял
+  - features: {gender: feminine, number: singular, verb_form: past}
+    expected: гуляла
+  - features: {gender: neuter, number: singular, verb_form: past}
+    expected: гуляло
+  - features: {number: plural, verb_form: past}
+    expected: гуляли
+  - features: {number: singular, verb_form: imperative}
+    expected: гуляй
+  - features: {number: plural, verb_form: imperative}
+    expected: гуляйте
+---
+lemma: уметь
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: уметь
+  - features: {number: singular, person: first, verb_form: present}
+    expected: умею
+  - features: {number: singular, person: second, verb_form: present}
+    expected: умеешь
+  - features: {number: singular, person: third, verb_form: present}
+    expected: умеет
+  - features: {number: plural, person: first, verb_form: present}
+    expected: умеем
+  - features: {number: plural, person: second, verb_form: present}
+    expected: умеете
+  - features: {number: plural, person: third, verb_form: present}
+    expected: умеют
+  - features: {gender: masculine, number: singular, verb_form: past}
+    expected: умел
+  - features: {gender: feminine, number: singular, verb_form: past}
+    expected: умела
+  - features: {gender: neuter, number: singular, verb_form: past}
+    expected: умело
+  - features: {number: plural, verb_form: past}
+    expected: умели
+  - features: {number: singular, verb_form: imperative}
+    expected: умей
+  - features: {number: plural, verb_form: imperative}
+    expected: умейте
+---
+lemma: рисовать
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: рисовать
+  - features: {number: singular, person: first, verb_form: present}
+    expected: рисую
+  - features: {number: singular, person: second, verb_form: present}
+    expected: рисуешь
+  - features: {number: singular, person: third, verb_form: present}
+    expected: рисует
+  - features: {number: plural, person: first, verb_form: present}
+    expected: рисуем
+  - features: {number: plural, person: second, verb_form: present}
+    expected: рисуете
+  - features: {number: plural, person: third, verb_form: present}
+    expected: рисуют
+  - features: {gender: masculine, number: singular, verb_form: past}
+    expected: рисовал
+  - features: {gender: feminine, number: singular, verb_form: past}
+    expected: рисовала
+  - features: {gender: neuter, number: singular, verb_form: past}
+    expected: рисовало
+  - features: {number: plural, verb_form: past}
+    expected: рисовали
+  - features: {number: singular, verb_form: imperative}
+    expected: рисуй
+  - features: {number: plural, verb_form: imperative}
+    expected: рисуйте
+---
+lemma: говорить
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: говорить
+  - features: {number: singular, person: first, verb_form: present}
+    expected: говорю
+  - features: {number: singular, person: second, verb_form: present}
+    expected: говоришь
+  - features: {number: singular, person: third, verb_form: present}
+    expected: говорит
+  - features: {number: plural, person: first, verb_form: present}
+    expected: говорим
+  - features: {number: plural, person: second, verb_form: present}
+    expected: говорите
+  - features: {number: plural, person: third, verb_form: present}
+    expected: говорят
+  - features: {gender: masculine, number: singular, verb_form: past}
+    expected: говорил
+  - features: {gender: feminine, number: singular, verb_form: past}
+    expected: говорила
+  - features: {gender: neuter, number: singular, verb_form: past}
+    expected: говорило
+  - features: {number: plural, verb_form: past}
+    expected: говорили
+  - features: {number: singular, verb_form: imperative}
+    expected: говори
+  - features: {number: plural, verb_form: imperative}
+    expected: говорите
+---
+lemma: смотреть
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: смотреть
+  - features: {number: singular, person: first, verb_form: present}
+    expected: смотрю
+  - features: {number: singular, person: second, verb_form: present}
+    expected: смотришь
+  - features: {number: singular, person: third, verb_form: present}
+    expected: смотрит
+  - features: {number: plural, person: first, verb_form: present}
+    expected: смотрим
+  - features: {number: plural, person: second, verb_form: present}
+    expected: смотрите
+  - features: {number: plural, person: third, verb_form: present}
+    expected: смотрят
+  - features: {gender: masculine, number: singular, verb_form: past}
+    expected: смотрел
+  - features: {gender: feminine, number: singular, verb_form: past}
+    expected: смотрела
+  - features: {gender: neuter, number: singular, verb_form: past}
+    expected: смотрело
+  - features: {number: plural, verb_form: past}
+    expected: смотрели
+  - features: {number: singular, verb_form: imperative}
+    expected: смотри
+  - features: {number: plural, verb_form: imperative}
+    expected: смотрите
+---
+lemma: учить
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: учить
+  - features: {number: singular, person: first, verb_form: present}
+    expected: учу
+  - features: {number: singular, person: second, verb_form: present}
+    expected: учишь
+  - features: {number: singular, person: third, verb_form: present}
+    expected: учит
+  - features: {number: plural, person: first, verb_form: present}
+    expected: учим
+  - features: {number: plural, person: second, verb_form: present}
+    expected: учите
+  - features: {number: plural, person: third, verb_form: present}
+    expected: учат
+  - features: {gender: masculine, number: singular, verb_form: past}
+    expected: учил
+  - features: {gender: feminine, number: singular, verb_form: past}
+    expected: учила
+  - features: {gender: neuter, number: singular, verb_form: past}
+    expected: учило
+  - features: {number: plural, verb_form: past}
+    expected: учили
+  - features: {number: singular, verb_form: imperative}
+    expected: учи
+  - features: {number: plural, verb_form: imperative}
+    expected: учите
+---
+lemma: хотеть
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: хотеть
+  - features: {number: singular, person: first, verb_form: present}
+    expected: хочу
+  - features: {number: singular, person: second, verb_form: present}
+    expected: хочешь
+  - features: {number: singular, person: third, verb_form: present}
+    expected: хочет
+  - features: {number: plural, person: first, verb_form: present}
+    expected: хотим
+  - features: {number: plural, person: second, verb_form: present}
+    expected: хотите
+  - features: {number: plural, person: third, verb_form: present}
+    expected: хотят
+  - features: {gender: masculine, number: singular, verb_form: past}
+    expected: хотел
+  - features: {gender: feminine, number: singular, verb_form: past}
+    expected: хотела
+  - features: {gender: neuter, number: singular, verb_form: past}
+    expected: хотело
+  - features: {number: plural, verb_form: past}
+    expected: хотели
+---
+lemma: идти
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: идти
+  - features: {number: singular, person: first, verb_form: present}
+    expected: иду
+  - features: {number: singular, person: second, verb_form: present}
+    expected: идёшь
+  - features: {number: singular, person: third, verb_form: present}
+    expected: идёт
+  - features: {number: plural, person: first, verb_form: present}
+    expected: идём
+  - features: {number: plural, person: second, verb_form: present}
+    expected: идёте
+  - features: {number: plural, person: third, verb_form: present}
+    expected: идут
+  - features: {gender: masculine, number: singular, verb_form: past}
+    expected: шёл
+  - features: {gender: feminine, number: singular, verb_form: past}
+    expected: шла
+  - features: {gender: neuter, number: singular, verb_form: past}
+    expected: шло
+  - features: {number: plural, verb_form: past}
+    expected: шли
+  - features: {number: singular, verb_form: imperative}
+    expected: иди
+  - features: {number: plural, verb_form: imperative}
+    expected: идите
+---
+lemma: писать
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: писать
+  - features: {number: singular, person: first, verb_form: present}
+    expected: пишу
+  - features: {number: singular, person: second, verb_form: present}
+    expected: пишешь
+  - features: {number: singular, person: third, verb_form: present}
+    expected: пишет
+  - features: {number: plural, person: first, verb_form: present}
+    expected: пишем
+  - features: {number: plural, person: second, verb_form: present}
+    expected: пишете
+  - features: {number: plural, person: third, verb_form: present}
+    expected: пишут
+  - features: {gender: masculine, number: singular, verb_form: past}
+    expected: писал
+  - features: {gender: feminine, number: singular, verb_form: past}
+    expected: писала
+  - features: {gender: neuter, number: singular, verb_form: past}
+    expected: писало
+  - features: {number: plural, verb_form: past}
+    expected: писали
+  - features: {number: singular, verb_form: imperative}
+    expected: пиши
+  - features: {number: plural, verb_form: imperative}
+    expected: пишите
+---
+lemma: пить
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: пить
+  - features: {number: singular, person: first, verb_form: present}
+    expected: пью
+  - features: {number: singular, person: second, verb_form: present}
+    expected: пьёшь
+  - features: {number: singular, person: third, verb_form: present}
+    expected: пьёт
+  - features: {number: plural, person: first, verb_form: present}
+    expected: пьём
+  - features: {number: plural, person: second, verb_form: present}
+    expected: пьёте
+  - features: {number: plural, person: third, verb_form: present}
+    expected: пьют
+  - features: {gender: masculine, number: singular, verb_form: past}
+    expected: пил
+  - features: {gender: feminine, number: singular, verb_form: past}
+    expected: пила
+  - features: {gender: neuter, number: singular, verb_form: past}
+    expected: пило
+  - features: {number: plural, verb_form: past}
+    expected: пили
+  - features: {number: singular, verb_form: imperative}
+    expected: пей
+  - features: {number: plural, verb_form: imperative}
+    expected: пейте
+---
+lemma: мочь
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: мочь
+  - features: {number: singular, person: first, verb_form: present}
+    expected: могу
+  - features: {number: singular, person: second, verb_form: present}
+    expected: можешь
+  - features: {number: singular, person: third, verb_form: present}
+    expected: может
+  - features: {number: plural, person: first, verb_form: present}
+    expected: можем
+  - features: {number: plural, person: second, verb_form: present}
+    expected: можете
+  - features: {number: plural, person: third, verb_form: present}
+    expected: могут
+  - features: {gender: masculine, number: singular, verb_form: past}
+    expected: мог
+  - features: {gender: feminine, number: singular, verb_form: past}
+    expected: могла
+  - features: {gender: neuter, number: singular, verb_form: past}
+    expected: могло
+  - features: {number: plural, verb_form: past}
+    expected: могли
+---
+lemma: быть
+category: verbs
+cases:
+  - features: {verb_form: infinitive}
+    expected: быть
+  - features: {number: singular, person: first, verb_form: future}
+    expected: буду
+  - features: {number: singular, person: second, verb_form: future}
+    expected: будешь
+  - features: {number: singular, person: third, verb_form: future}
+    expected: будет
+  - features: {number: plural, person: first, verb_form: future}
+    expected: будем
+  - features: {number: plural, person: second, verb_form: future}
+    expected: будете
+  - features: {number: plural, person: third, verb_form: future}
+    expected: будут
+  - features: {gender: masculine, number: singular, verb_form: past}
+    expected: был
+  - features: {gender: feminine, number: singular, verb_form: past}
+    expected: была
+  - features: {gender: neuter, number: singular, verb_form: past}
+    expected: было
+  - features: {number: plural, verb_form: past}
+    expected: были
+  - features: {number: singular, verb_form: imperative}
+    expected: будь
+  - features: {number: plural, verb_form: imperative}
+    expected: будьте

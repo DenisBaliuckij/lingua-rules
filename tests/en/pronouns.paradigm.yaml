@@ -1,0 +1,111 @@
+lemma: I
+category: pronouns
+cases:
+  - features: {case: subject, number: singular}
+    expected: I
+  - features: {case: object, number: singular}
+    expected: me
+  - features: {case: possessive_determiner, number: singular}
+    expected: my
+  - features: {case: possessive_pronoun, number: singular}
+    expected: mine
+  - features: {case: reflexive, number: singular}
+    expected: myself
+---
+lemma: you
+category: pronouns
+cases:
+  - features: {case: subject, number: singular}
+    expected: you
+  - features: {case: object, number: singular}
+    expected: you
+  - features: {case: possessive_determiner, number: singular}
+    expected: your
+  - features: {case: possessive_pronoun, number: singular}
+    expected: yours
+  - features: {case: reflexive, number: singular}
+    expected: yourself
+---
+lemma: you
+category: pronouns
+cases:
+  - features: {case: subject, number: plural}
+    expected: you
+  - features: {case: object, number: plural}
+    expected: you
+  - features: {case: possessive_determiner, number: plural}
+    expected: your
+  - features: {case: possessive_pronoun, number: plural}
+    expected: yours
+  - features: {case: reflexive, number: plural}
+    expected: yourselves
+---
+lemma: he
+category: pronouns
+cases:
+  - features: {case: subject, number: singular}
+    expected: he
+  - features: {case: object, number: singular}
+    expected: him
+  - features: {case: possessive_determiner, number: singular}
+    expected: his
+  - features: {case: possessive_pronoun, number: singular}
+    expected: his
+  - features: {case: reflexive, number: singular}
+    expected: himself
+---
+lemma: she
+category: pronouns
+cases:
+  - features: {case: subject, number: singular}
+    expected: she
+  - features: {case: object, number: singular}
+    expected: her
+  - features: {case: possessive_determiner, number: singular}
+    expected: her
+  - features: {case: possessive_pronoun, number: singular}
+    expected: hers
+  - features: {case: reflexive, number: singular}
+    expected: herself
+---
+lemma: it
+category: pronouns
+cases:
+  - features: {case: subject, number: singular}
+    expected: it
+  - features: {case: object, number: singular}
+    expected: it
+  - features: {case: possessive_determiner, number: singular}
+    expected: its
+  - features: {case: possessive_pronoun, number: singular}
+    expected: its
+  - features: {case: reflexive, number: singular}
+    expected: itself
+---
+lemma: we
+category: pronouns
+cases:
+  - features: {case: subject, number: plural}
+    expected: we
+  - features: {case: object, number: plural}
+    expected: us
+  - features: {case: possessive_determiner, number: plural}
+    expected: our
+  - features: {case: possessive_pronoun, number: plural}
+    expected: ours
+  - features: {case: reflexive, number: plural}
+    expected: ourselves
+---
+lemma: they
+category: pronouns
+cases:
+  - features: {case: subject, number: plural}
+    expected: they
+  - features: {case: object, number: plural}
+    expected: them
+  - features: {case: possessive_determiner, number: plural}
+    expected: their
+  - features: {case: possessive_pronoun, number: plural}
+    expected: theirs
+  - features: {case: reflexive, number: plural}
+    expected: themselves

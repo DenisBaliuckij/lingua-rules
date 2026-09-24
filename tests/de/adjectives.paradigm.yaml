@@ -1,0 +1,333 @@
+lemma: klein
+category: adjectives
+cases:
+  - features: {degree: positive}
+    expected: klein
+  - features: {degree: comparative}
+    expected: kleiner
+  - features: {degree: superlative}
+    expected: am kleinsten
+  - features: {case: nominative, declension: strong, gender: masculine, number: singular}
+    expected: kleiner
+  - features: {case: accusative, declension: strong, gender: masculine, number: singular}
+    expected: kleinen
+  - features: {case: dative, declension: strong, gender: masculine, number: singular}
+    expected: kleinem
+  - features: {case: genitive, declension: strong, gender: masculine, number: singular}
+    expected: kleinen
+  - features: {case: nominative, declension: strong, gender: feminine, number: singular}
+    expected: kleine
+  - features: {case: accusative, declension: strong, gender: feminine, number: singular}
+    expected: kleine
+  - features: {case: dative, declension: strong, gender: feminine, number: singular}
+    expected: kleiner
+  - features: {case: genitive, declension: strong, gender: feminine, number: singular}
+    expected: kleiner
+  - features: {case: nominative, declension: strong, gender: neuter, number: singular}
+    expected: kleines
+  - features: {case: accusative, declension: strong, gender: neuter, number: singular}
+    expected: kleines
+  - features: {case: dative, declension: strong, gender: neuter, number: singular}
+    expected: kleinem
+  - features: {case: genitive, declension: strong, gender: neuter, number: singular}
+    expected: kleinen
+  - features: {case: nominative, declension: strong, number: plural}
+    expected: kleine
+  - features: {case: accusative, declension: strong, number: plural}
+    expected: kleine
+  - features: {case: dative, declension: strong, number: plural}
+    expected: kleinen
+  - features: {case: genitive, declension: strong, number: plural}
+    expected: kleiner
+  - features: {case: nominative, declension: weak, gender: masculine, number: singular}
+    expected: kleine
+  - features: {case: accusative, declension: weak, gender: masculine, number: singular}
+    expected: kleinen
+  - features: {case: dative, declension: weak, gender: masculine, number: singular}
+    expected: kleinen
+  - features: {case: genitive, declension: weak, gender: masculine, number: singular}
+    expected: kleinen
+  - features: {case: nominative, declension: weak, gender: feminine, number: singular}
+    expected: kleine
+  - features: {case: accusative, declension: weak, gender: feminine, number: singular}
+    expected: kleine
+  - features: {case: dative, declension: weak, gender: feminine, number: singular}
+    expected: kleinen
+  - features: {case: genitive, declension: weak, gender: feminine, number: singular}
+    expected: kleinen
+  - features: {case: nominative, declension: weak, gender: neuter, number: singular}
+    expected: kleine
+  - features: {case: accusative, declension: weak, gender: neuter, number: singular}
+    expected: kleine
+  - features: {case: dative, declension: weak, gender: neuter, number: singular}
+    expected: kleinen
+  - features: {case: genitive, declension: weak, gender: neuter, number: singular}
+    expected: kleinen
+  - features: {case: nominative, declension: weak, number: plural}
+    expected: kleinen
+  - features: {case: accusative, declension: weak, number: plural}
+    expected: kleinen
+  - features: {case: dative, declension: weak, number: plural}
+    expected: kleinen
+  - features: {case: genitive, declension: weak, number: plural}
+    expected: kleinen
+  - features: {case: nominative, declension: mixed, gender: masculine, number: singular}
+    expected: kleiner
+  - features: {case: accusative, declension: mixed, gender: masculine, number: singular}
+    expected: kleinen
+  - features: {case: dative, declension: mixed, gender: masculine, number: singular}
+    expected: kleinen
+  - features: {case: genitive, declension: mixed, gender: masculine, number: singular}
+    expected: kleinen
+  - features: {case: nominative, declension: mixed, gender: feminine, number: singular}
+    expected: kleine
+  - features: {case: accusative, declension: mixed, gender: feminine, number: singular}
+    expected: kleine
+  - features: {case: dative, declension: mixed, gender: feminine, number: singular}
+    expected: kleinen
+  - features: {case: genitive, declension: mixed, gender: feminine, number: singular}
+    expected: kleinen
+  - features: {case: nominative, declension: mixed, gender: neuter, number: singular}
+    expected: kleines
+  - features: {case: accusative, declension: mixed, gender: neuter, number: singular}
+    expected: kleines
+  - features: {case: dative, declension: mixed, gender: neuter, number: singular}
+    expected: kleinen
+  - features: {case: genitive, declension: mixed, gender: neuter, number: singular}
+    expected: kleinen
+  - features: {case: nominative, declension: mixed, number: plural}
+    expected: kleinen
+  - features: {case: accusative, declension: mixed, number: plural}
+    expected: kleinen
+  - features: {case: dative, declension: mixed, number: plural}
+    expected: kleinen
+  - features: {case: genitive, declension: mixed, number: plural}
+    expected: kleinen
+---
+lemma: schön
+category: adjectives
+cases:
+  - features: {degree: positive}
+    expected: schön
+  - features: {degree: comparative}
+    expected: schöner
+  - features: {degree: superlative}
+    expected: am schönsten
+---
+lemma: neu
+category: adjectives
+cases:
+  - features: {degree: positive}
+    expected: neu
+  - features: {degree: comparative}
+    expected: neuer
+  - features: {degree: superlative}
+    expected: am neuesten
+---
+lemma: leicht
+category: adjectives
+cases:
+  - features: {degree: positive}
+    expected: leicht
+  - features: {degree: comparative}
+    expected: leichter
+  - features: {degree: superlative}
+    expected: am leichtesten
+---
+lemma: dunkel
+category: adjectives
+cases:
+  - features: {degree: positive}
+    expected: dunkel
+  - features: {degree: comparative}
+    expected: dunkler
+  - features: {degree: superlative}
+    expected: am dunkelsten
+  - features: {case: nominative, declension: weak, gender: masculine, number: singular}
+    expected: dunkle
+  - features: {case: accusative, declension: weak, gender: masculine, number: singular}
+    expected: dunklen
+  - features: {case: dative, declension: weak, gender: masculine, number: singular}
+    expected: dunklen
+  - features: {case: genitive, declension: weak, gender: masculine, number: singular}
+    expected: dunklen
+  - features: {case: nominative, declension: weak, gender: feminine, number: singular}
+    expected: dunkle
+  - features: {case: accusative, declension: weak, gender: feminine, number: singular}
+    expected: dunkle
+  - features: {case: dative, declension: weak, gender: feminine, number: singular}
+    expected: dunklen
+  - features: {case: genitive, declension: weak, gender: feminine, number: singular}
+    expected: dunklen
+  - features: {case: nominative, declension: weak, gender: neuter, number: singular}
+    expected: dunkle
+  - features: {case: accusative, declension: weak, gender: neuter, number: singular}
+    expected: dunkle
+  - features: {case: dative, declension: weak, gender: neuter, number: singular}
+    expected: dunklen
+  - features: {case: genitive, declension: weak, gender: neuter, number: singular}
+    expected: dunklen
+  - features: {case: nominative, declension: weak, number: plural}
+    expected: dunklen
+  - features: {case: accusative, declension: weak, number: plural}
+    expected: dunklen
+  - features: {case: dative, declension: weak, number: plural}
+    expected: dunklen
+  - features: {case: genitive, declension: weak, number: plural}
+    expected: dunklen
+---
+lemma: teuer
+category: adjectives
+cases:
+  - features: {degree: positive}
+    expected: teuer
+  - features: {degree: comparative}
+    expected: teurer
+  - features: {degree: superlative}
+    expected: am teuersten
+  - features: {case: nominative, declension: mixed, gender: masculine, number: singular}
+    expected: teurer
+  - features: {case: accusative, declension: mixed, gender: masculine, number: singular}
+    expected: teuren
+  - features: {case: dative, declension: mixed, gender: masculine, number: singular}
+    expected: teuren
+  - features: {case: genitive, declension: mixed, gender: masculine, number: singular}
+    expected: teuren
+  - features: {case: nominative, declension: mixed, gender: feminine, number: singular}
+    expected: teure
+  - features: {case: accusative, declension: mixed, gender: feminine, number: singular}
+    expected: teure
+  - features: {case: dative, declension: mixed, gender: feminine, number: singular}
+    expected: teuren
+  - features: {case: genitive, declension: mixed, gender: feminine, number: singular}
+    expected: teuren
+  - features: {case: nominative, declension: mixed, gender: neuter, number: singular}
+    expected: teures
+  - features: {case: accusative, declension: mixed, gender: neuter, number: singular}
+    expected: teures
+  - features: {case: dative, declension: mixed, gender: neuter, number: singular}
+    expected: teuren
+  - features: {case: genitive, declension: mixed, gender: neuter, number: singular}
+    expected: teuren
+  - features: {case: nominative, declension: mixed, number: plural}
+    expected: teuren
+  - features: {case: accusative, declension: mixed, number: plural}
+    expected: teuren
+  - features: {case: dative, declension: mixed, number: plural}
+    expected: teuren
+  - features: {case: genitive, declension: mixed, number: plural}
+    expected: teuren
+---
+lemma: gut
+category: adjectives
+cases:
+  - features: {degree: positive}
+    expected: gut
+  - features: {degree: comparative}
+    expected: besser
+  - features: {degree: superlative}
+    expected: am besten
+  - features: {case: nominative, declension: strong, gender: masculine, number: singular}
+    expected: guter
+  - features: {case: accusative, declension: strong, gender: masculine, number: singular}
+    expected: guten
+  - features: {case: dative, declension: strong, gender: masculine, number: singular}
+    expected: gutem
+  - features: {case: genitive, declension: strong, gender: masculine, number: singular}
+    expected: guten
+  - features: {case: nominative, declension: strong, gender: feminine, number: singular}
+    expected: gute
+  - features: {case: accusative, declension: strong, gender: feminine, number: singular}
+    expected: gute
+  - features: {case: dative, declension: strong, gender: feminine, number: singular}
+    expected: guter
+  - features: {case: genitive, declension: strong, gender: feminine, number: singular}
+    expected: guter
+  - features: {case: nominative, declension: strong, gender: neuter, number: singular}
+    expected: gutes
+  - features: {case: accusative, declension: strong, gender: neuter, number: singular}
+    expected: gutes
+  - features: {case: dative, declension: strong, gender: neuter, number: singular}
+    expected: gutem
+  - features: {case: genitive, declension: strong, gender: neuter, number: singular}
+    expected: guten
+  - features: {case: nominative, declension: strong, number: plural}
+    expected: gute
+  - features: {case: accusative, declension: strong, number: plural}
+    expected: gute
+  - features: {case: dative, declension: strong, number: plural}
+    expected: guten
+  - features: {case: genitive, declension: strong, number: plural}
+    expected: guter
+---
+lemma: groß
+category: adjectives
+cases:
+  - features: {degree: positive}
+    expected: groß
+  - features: {degree: comparative}
+    expected: größer
+  - features: {degree: superlative}
+    expected: am größten
+---
+lemma: alt
+category: adjectives
+cases:
+  - features: {degree: positive}
+    expected: alt
+  - features: {degree: comparative}
+    expected: älter
+  - features: {degree: superlative}
+    expected: am ältesten
+---
+lemma: hoch
+category: adjectives
+cases:
+  - features: {degree: positive}
+    expected: hoch
+  - features: {degree: comparative}
+    expected: höher
+  - features: {degree: superlative}
+    expected: am höchsten
+  - features: {case: nominative, declension: strong, gender: masculine, number: singular}
+    expected: hoher
+  - features: {case: accusative, declension: strong, gender: masculine, number: singular}
+    expected: hohen
+  - features: {case: dative, declension: strong, gender: masculine, number: singular}
+    expected: hohem
+  - features: {case: genitive, declension: strong, gender: masculine, number: singular}
+    expected: hohen
+  - features: {case: nominative, declension: strong, gender: feminine, number: singular}
+    expected: hohe
+  - features: {case: accusative, declension: strong, gender: feminine, number: singular}
+    expected: hohe
+  - features: {case: dative, declension: strong, gender: feminine, number: singular}
+    expected: hoher
+  - features: {case: genitive, declension: strong, gender: feminine, number: singular}
+    expected: hoher
+  - features: {case: nominative, declension: strong, gender: neuter, number: singular}
+    expected: hohes
+  - features: {case: accusative, declension: strong, gender: neuter, number: singular}
+    expected: hohes
+  - features: {case: dative, declension: strong, gender: neuter, number: singular}
+    expected: hohem
+  - features: {case: genitive, declension: strong, gender: neuter, number: singular}
+    expected: hohen
+  - features: {case: nominative, declension: strong, number: plural}
+    expected: hohe
+  - features: {case: accusative, declension: strong, number: plural}
+    expected: hohe
+  - features: {case: dative, declension: strong, number: plural}
+    expected: hohen
+  - features: {case: genitive, declension: strong, number: plural}
+    expected: hoher
+---
+lemma: viel
+category: adjectives
+cases:
+  - features: {degree: positive}
+    expected: viel
+  - features: {degree: comparative}
+    expected: mehr
+  - features: {degree: superlative}
+    expected: am meisten

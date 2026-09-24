@@ -1,0 +1,167 @@
+lemma: minä
+category: pronouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: minä
+  - features: {case: genitive, number: singular}
+    expected: minun
+  - features: {case: partitive, number: singular}
+    expected: minua
+  - features: {case: accusative, number: singular}
+    expected: minut
+  - features: {case: inessive, number: singular}
+    expected: minussa
+  - features: {case: elative, number: singular}
+    expected: minusta
+  - features: {case: illative, number: singular}
+    expected: minuun
+  - features: {case: adessive, number: singular}
+    expected: minulla
+  - features: {case: ablative, number: singular}
+    expected: minulta
+  - features: {case: allative, number: singular}
+    expected: minulle
+  - features: {case: essive, number: singular}
+    expected: minuna
+  - features: {case: translative, number: singular}
+    expected: minuksi
+---
+lemma: sinä
+category: pronouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: sinä
+  - features: {case: genitive, number: singular}
+    expected: sinun
+  - features: {case: partitive, number: singular}
+    expected: sinua
+  - features: {case: accusative, number: singular}
+    expected: sinut
+  - features: {case: inessive, number: singular}
+    expected: sinussa
+  - features: {case: elative, number: singular}
+    expected: sinusta
+  - features: {case: illative, number: singular}
+    expected: sinuun
+  - features: {case: adessive, number: singular}
+    expected: sinulla
+  - features: {case: ablative, number: singular}
+    expected: sinulta
+  - features: {case: allative, number: singular}
+    expected: sinulle
+  - features: {case: essive, number: singular}
+    expected: sinuna
+  - features: {case: translative, number: singular}
+    expected: sinuksi
+---
+lemma: hän
+category: pronouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: hän
+  - features: {case: genitive, number: singular}
+    expected: hänen
+  - features: {case: partitive, number: singular}
+    expected: häntä
+  - features: {case: accusative, number: singular}
+    expected: hänet
+  - features: {case: inessive, number: singular}
+    expected: hänessä
+  - features: {case: elative, number: singular}
+    expected: hänestä
+  - features: {case: illative, number: singular}
+    expected: häneen
+  - features: {case: adessive, number: singular}
+    expected: hänellä
+  - features: {case: ablative, number: singular}
+    expected: häneltä
+  - features: {case: allative, number: singular}
+    expected: hänelle
+  - features: {case: essive, number: singular}
+    expected: hänenä
+  - features: {case: translative, number: singular}
+    expected: häneksi
+---
+lemma: me
+category: pronouns
+cases:
+  - features: {case: nominative, number: plural}
+    expected: me
+  - features: {case: genitive, number: plural}
+    expected: meidän
+  - features: {case: partitive, number: plural}
+    expected: meitä
+  - features: {case: accusative, number: plural}
+    expected: meidät
+  - features: {case: inessive, number: plural}
+    expected: meissä
+  - features: {case: elative, number: plural}
+    expected: meistä
+  - features: {case: illative, number: plural}
+    expected: meihin
+  - features: {case: adessive, number: plural}
+    expected: meillä
+  - features: {case: ablative, number: plural}
+    expected: meiltä
+  - features: {case: allative, number: plural}
+    expected: meille
+  - features: {case: essive, number: plural}
+    expected: meinä
+  - features: {case: translative, number: plural}
+    expected: meiksi
+---
+lemma: te
+category: pronouns
+cases:
+  - features: {case: nominative, number: plural}
+    expected: te
+  - features: {case: genitive, number: plural}
+    expected: teidän
+  - features: {case: partitive, number: plural}
+    expected: teitä
+  - features: {case: accusative, number: plural}
+    expected: teidät
+  - features: {case: inessive, number: plural}
+    expected: teissä
+  - features: {case: elative, number: plural}
+    expected: teistä
+  - features: {case: illative, number: plural}
+    expected: teihin
+  - features: {case: adessive, number: plural}
+    expected: teillä
+  - features: {case: ablative, number: plural}
+    expected: teiltä
+  - features: {case: allative, number: plural}
+    expected: teille
+  - features: {case: essive, number: plural}
+    expected: teinä
+  - features: {case: translative, number: plural}
+    expected: teiksi
+---
+lemma: he
+category: pronouns
+cases:
+  - features: {case: nominative, number: plural}
+    expected: he
+  - features: {case: genitive, number: plural}
+    expected: heidän
+  - features: {case: partitive, number: plural}
+    expected: heitä
+  - features: {case: accusative, number: plural}
+    expected: heidät
+  - features: {case: inessive, number: plural}
+    expected: heissä
+  - features: {case: elative, number: plural}
+    expected: heistä
+  - features: {case: illative, number: plural}
+    expected: heihin
+  - features: {case: adessive, number: plural}
+    expected: heillä
+  - features: {case: ablative, number: plural}
+    expected: heiltä
+  - features: {case: allative, number: plural}
+    expected: heille
+  - features: {case: essive, number: plural}
+    expected: heinä
+  - features: {case: translative, number: plural}
+    expected: heiksi

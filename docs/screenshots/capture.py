@@ -1,7 +1,7 @@
-"""Regenerate the screenshots used in docs/USAGE.md.
+"""Regenerate the screenshots used in README.md.
 
 Builds a throw-away workspace (a copy of rules/ and tests/ plus the Dutch
-walkthrough from the guide), starts the web UI on it, and drives a headless
+walkthrough from README.md), starts the web UI on it, and drives a headless
 browser through the pages with Selenium. The repository's own rules/ and
 tests/ are never modified.
 
@@ -84,7 +84,7 @@ cases:
 
 
 def cli(workspace: Path, *args: str) -> None:
-    """Run the CLI exactly as the guide does: python -m lingua_rules.cli.main ..."""
+    """Run the CLI exactly as README.md does: python -m lingua_rules.cli.main ..."""
     subprocess.run(
         [sys.executable, "-m", "lingua_rules.cli.main", *args], cwd=workspace, check=True
     )
@@ -98,7 +98,7 @@ def build_workspace(workspace: Path) -> None:
     (nl_rules / "lang.yaml").write_text(NL_LANG, encoding="utf-8")
     (nl_rules / "features.yaml").write_text(NL_FEATURES, encoding="utf-8")
     (nl_rules / "nouns.lp").write_text(NL_NOUNS, encoding="utf-8")
-    # Exceptions via the CLI template, as in the guide. The regular plural rule is
+    # Exceptions via the CLI template, as in README.md. The regular plural rule is
     # added through the web form below, so that step can be screenshotted.
     for lemma, form in (("kind", "kinderen"), ("stad", "steden")):
         cli(workspace, "new-rule", "nl", "nouns", "--template", "exception-override",

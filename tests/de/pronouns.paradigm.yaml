@@ -1,0 +1,107 @@
+lemma: ich
+category: pronouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: ich
+  - features: {case: accusative, number: singular}
+    expected: mich
+  - features: {case: dative, number: singular}
+    expected: mir
+  - features: {case: genitive, number: singular}
+    expected: meiner
+---
+lemma: du
+category: pronouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: du
+  - features: {case: accusative, number: singular}
+    expected: dich
+  - features: {case: dative, number: singular}
+    expected: dir
+  - features: {case: genitive, number: singular}
+    expected: deiner
+---
+lemma: er
+category: pronouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: er
+  - features: {case: accusative, number: singular}
+    expected: ihn
+  - features: {case: dative, number: singular}
+    expected: ihm
+  - features: {case: genitive, number: singular}
+    expected: seiner
+---
+lemma: sie
+category: pronouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: sie
+  - features: {case: accusative, number: singular}
+    expected: sie
+  - features: {case: dative, number: singular}
+    expected: ihr
+  - features: {case: genitive, number: singular}
+    expected: ihrer
+---
+lemma: es
+category: pronouns
+cases:
+  - features: {case: nominative, number: singular}
+    expected: es
+  - features: {case: accusative, number: singular}
+    expected: es
+  - features: {case: dative, number: singular}
+    expected: ihm
+  - features: {case: genitive, number: singular}
+    expected: seiner
+---
+lemma: wir
+category: pronouns
+cases:
+  - features: {case: nominative, number: plural}
+    expected: wir
+  - features: {case: accusative, number: plural}
+    expected: uns
+  - features: {case: dative, number: plural}
+    expected: uns
+  - features: {case: genitive, number: plural}
+    expected: unser
+---
+lemma: ihr
+category: pronouns
+cases:
+  - features: {case: nominative, number: plural}
+    expected: ihr
+  - features: {case: accusative, number: plural}
+    expected: euch
+  - features: {case: dative, number: plural}
+    expected: euch
+  - features: {case: genitive, number: plural}
+    expected: euer
+---
+lemma: sie
+category: pronouns
+cases:
+  - features: {case: nominative, number: plural}
+    expected: sie
+  - features: {case: accusative, number: plural}
+    expected: sie
+  - features: {case: dative, number: plural}
+    expected: ihnen
+  - features: {case: genitive, number: plural}
+    expected: ihrer
+---
+lemma: Sie
+category: pronouns
+cases:
+  - features: {case: nominative, number: plural}
+    expected: Sie
+  - features: {case: accusative, number: plural}
+    expected: Sie
+  - features: {case: dative, number: plural}
+    expected: Ihnen
+  - features: {case: genitive, number: plural}
+    expected: Ihrer

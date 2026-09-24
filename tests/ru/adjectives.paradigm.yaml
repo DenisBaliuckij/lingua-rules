@@ -1,0 +1,345 @@
+lemma: новый
+category: adjectives
+cases:
+  - features: {case: nominative, gender: masculine, number: singular}
+    expected: новый
+  - features: {case: genitive, gender: masculine, number: singular}
+    expected: нового
+  - features: {case: dative, gender: masculine, number: singular}
+    expected: новому
+  - features: {animacy: inanimate, case: accusative, gender: masculine, number: singular}
+    expected: новый
+  - features: {animacy: animate, case: accusative, gender: masculine, number: singular}
+    expected: нового
+  - features: {case: instrumental, gender: masculine, number: singular}
+    expected: новым
+  - features: {case: prepositional, gender: masculine, number: singular}
+    expected: новом
+  - features: {case: nominative, gender: feminine, number: singular}
+    expected: новая
+  - features: {case: genitive, gender: feminine, number: singular}
+    expected: новой
+  - features: {case: dative, gender: feminine, number: singular}
+    expected: новой
+  - features: {case: accusative, gender: feminine, number: singular}
+    expected: новую
+  - features: {case: instrumental, gender: feminine, number: singular}
+    expected: новой
+  - features: {case: prepositional, gender: feminine, number: singular}
+    expected: новой
+  - features: {case: nominative, gender: neuter, number: singular}
+    expected: новое
+  - features: {case: genitive, gender: neuter, number: singular}
+    expected: нового
+  - features: {case: dative, gender: neuter, number: singular}
+    expected: новому
+  - features: {case: accusative, gender: neuter, number: singular}
+    expected: новое
+  - features: {case: instrumental, gender: neuter, number: singular}
+    expected: новым
+  - features: {case: prepositional, gender: neuter, number: singular}
+    expected: новом
+  - features: {case: nominative, number: plural}
+    expected: новые
+  - features: {case: genitive, number: plural}
+    expected: новых
+  - features: {case: dative, number: plural}
+    expected: новым
+  - features: {animacy: inanimate, case: accusative, number: plural}
+    expected: новые
+  - features: {animacy: animate, case: accusative, number: plural}
+    expected: новых
+  - features: {case: instrumental, number: plural}
+    expected: новыми
+  - features: {case: prepositional, number: plural}
+    expected: новых
+  - features: {degree: comparative}
+    expected: новее
+---
+lemma: молодой
+category: adjectives
+cases:
+  - features: {case: nominative, gender: masculine, number: singular}
+    expected: молодой
+  - features: {case: genitive, gender: masculine, number: singular}
+    expected: молодого
+  - features: {case: dative, gender: masculine, number: singular}
+    expected: молодому
+  - features: {animacy: inanimate, case: accusative, gender: masculine, number: singular}
+    expected: молодой
+  - features: {animacy: animate, case: accusative, gender: masculine, number: singular}
+    expected: молодого
+  - features: {case: instrumental, gender: masculine, number: singular}
+    expected: молодым
+  - features: {case: prepositional, gender: masculine, number: singular}
+    expected: молодом
+  - features: {case: nominative, gender: feminine, number: singular}
+    expected: молодая
+  - features: {case: genitive, gender: feminine, number: singular}
+    expected: молодой
+  - features: {case: dative, gender: feminine, number: singular}
+    expected: молодой
+  - features: {case: accusative, gender: feminine, number: singular}
+    expected: молодую
+  - features: {case: instrumental, gender: feminine, number: singular}
+    expected: молодой
+  - features: {case: prepositional, gender: feminine, number: singular}
+    expected: молодой
+  - features: {case: nominative, gender: neuter, number: singular}
+    expected: молодое
+  - features: {case: genitive, gender: neuter, number: singular}
+    expected: молодого
+  - features: {case: dative, gender: neuter, number: singular}
+    expected: молодому
+  - features: {case: accusative, gender: neuter, number: singular}
+    expected: молодое
+  - features: {case: instrumental, gender: neuter, number: singular}
+    expected: молодым
+  - features: {case: prepositional, gender: neuter, number: singular}
+    expected: молодом
+  - features: {case: nominative, number: plural}
+    expected: молодые
+  - features: {case: genitive, number: plural}
+    expected: молодых
+  - features: {case: dative, number: plural}
+    expected: молодым
+  - features: {animacy: inanimate, case: accusative, number: plural}
+    expected: молодые
+  - features: {animacy: animate, case: accusative, number: plural}
+    expected: молодых
+  - features: {case: instrumental, number: plural}
+    expected: молодыми
+  - features: {case: prepositional, number: plural}
+    expected: молодых
+  - features: {degree: comparative}
+    expected: моложе
+---
+lemma: синий
+category: adjectives
+cases:
+  - features: {case: nominative, gender: masculine, number: singular}
+    expected: синий
+  - features: {case: genitive, gender: masculine, number: singular}
+    expected: синего
+  - features: {case: dative, gender: masculine, number: singular}
+    expected: синему
+  - features: {animacy: inanimate, case: accusative, gender: masculine, number: singular}
+    expected: синий
+  - features: {animacy: animate, case: accusative, gender: masculine, number: singular}
+    expected: синего
+  - features: {case: instrumental, gender: masculine, number: singular}
+    expected: синим
+  - features: {case: prepositional, gender: masculine, number: singular}
+    expected: синем
+  - features: {case: nominative, gender: feminine, number: singular}
+    expected: синяя
+  - features: {case: genitive, gender: feminine, number: singular}
+    expected: синей
+  - features: {case: dative, gender: feminine, number: singular}
+    expected: синей
+  - features: {case: accusative, gender: feminine, number: singular}
+    expected: синюю
+  - features: {case: instrumental, gender: feminine, number: singular}
+    expected: синей
+  - features: {case: prepositional, gender: feminine, number: singular}
+    expected: синей
+  - features: {case: nominative, gender: neuter, number: singular}
+    expected: синее
+  - features: {case: genitive, gender: neuter, number: singular}
+    expected: синего
+  - features: {case: dative, gender: neuter, number: singular}
+    expected: синему
+  - features: {case: accusative, gender: neuter, number: singular}
+    expected: синее
+  - features: {case: instrumental, gender: neuter, number: singular}
+    expected: синим
+  - features: {case: prepositional, gender: neuter, number: singular}
+    expected: синем
+  - features: {case: nominative, number: plural}
+    expected: синие
+  - features: {case: genitive, number: plural}
+    expected: синих
+  - features: {case: dative, number: plural}
+    expected: синим
+  - features: {animacy: inanimate, case: accusative, number: plural}
+    expected: синие
+  - features: {animacy: animate, case: accusative, number: plural}
+    expected: синих
+  - features: {case: instrumental, number: plural}
+    expected: синими
+  - features: {case: prepositional, number: plural}
+    expected: синих
+  - features: {degree: comparative}
+    expected: синее
+---
+lemma: русский
+category: adjectives
+cases:
+  - features: {case: nominative, gender: masculine, number: singular}
+    expected: русский
+  - features: {case: genitive, gender: masculine, number: singular}
+    expected: русского
+  - features: {case: dative, gender: masculine, number: singular}
+    expected: русскому
+  - features: {animacy: inanimate, case: accusative, gender: masculine, number: singular}
+    expected: русский
+  - features: {animacy: animate, case: accusative, gender: masculine, number: singular}
+    expected: русского
+  - features: {case: instrumental, gender: masculine, number: singular}
+    expected: русским
+  - features: {case: prepositional, gender: masculine, number: singular}
+    expected: русском
+  - features: {case: nominative, gender: feminine, number: singular}
+    expected: русская
+  - features: {case: genitive, gender: feminine, number: singular}
+    expected: русской
+  - features: {case: dative, gender: feminine, number: singular}
+    expected: русской
+  - features: {case: accusative, gender: feminine, number: singular}
+    expected: русскую
+  - features: {case: instrumental, gender: feminine, number: singular}
+    expected: русской
+  - features: {case: prepositional, gender: feminine, number: singular}
+    expected: русской
+  - features: {case: nominative, gender: neuter, number: singular}
+    expected: русское
+  - features: {case: genitive, gender: neuter, number: singular}
+    expected: русского
+  - features: {case: dative, gender: neuter, number: singular}
+    expected: русскому
+  - features: {case: accusative, gender: neuter, number: singular}
+    expected: русское
+  - features: {case: instrumental, gender: neuter, number: singular}
+    expected: русским
+  - features: {case: prepositional, gender: neuter, number: singular}
+    expected: русском
+  - features: {case: nominative, number: plural}
+    expected: русские
+  - features: {case: genitive, number: plural}
+    expected: русских
+  - features: {case: dative, number: plural}
+    expected: русским
+  - features: {animacy: inanimate, case: accusative, number: plural}
+    expected: русские
+  - features: {animacy: animate, case: accusative, number: plural}
+    expected: русских
+  - features: {case: instrumental, number: plural}
+    expected: русскими
+  - features: {case: prepositional, number: plural}
+    expected: русских
+---
+lemma: большой
+category: adjectives
+cases:
+  - features: {case: nominative, gender: masculine, number: singular}
+    expected: большой
+  - features: {case: genitive, gender: masculine, number: singular}
+    expected: большого
+  - features: {case: dative, gender: masculine, number: singular}
+    expected: большому
+  - features: {animacy: inanimate, case: accusative, gender: masculine, number: singular}
+    expected: большой
+  - features: {animacy: animate, case: accusative, gender: masculine, number: singular}
+    expected: большого
+  - features: {case: instrumental, gender: masculine, number: singular}
+    expected: большим
+  - features: {case: prepositional, gender: masculine, number: singular}
+    expected: большом
+  - features: {case: nominative, gender: feminine, number: singular}
+    expected: большая
+  - features: {case: genitive, gender: feminine, number: singular}
+    expected: большой
+  - features: {case: dative, gender: feminine, number: singular}
+    expected: большой
+  - features: {case: accusative, gender: feminine, number: singular}
+    expected: большую
+  - features: {case: instrumental, gender: feminine, number: singular}
+    expected: большой
+  - features: {case: prepositional, gender: feminine, number: singular}
+    expected: большой
+  - features: {case: nominative, gender: neuter, number: singular}
+    expected: большое
+  - features: {case: genitive, gender: neuter, number: singular}
+    expected: большого
+  - features: {case: dative, gender: neuter, number: singular}
+    expected: большому
+  - features: {case: accusative, gender: neuter, number: singular}
+    expected: большое
+  - features: {case: instrumental, gender: neuter, number: singular}
+    expected: большим
+  - features: {case: prepositional, gender: neuter, number: singular}
+    expected: большом
+  - features: {case: nominative, number: plural}
+    expected: большие
+  - features: {case: genitive, number: plural}
+    expected: больших
+  - features: {case: dative, number: plural}
+    expected: большим
+  - features: {animacy: inanimate, case: accusative, number: plural}
+    expected: большие
+  - features: {animacy: animate, case: accusative, number: plural}
+    expected: больших
+  - features: {case: instrumental, number: plural}
+    expected: большими
+  - features: {case: prepositional, number: plural}
+    expected: больших
+  - features: {degree: comparative}
+    expected: больше
+---
+lemma: хороший
+category: adjectives
+cases:
+  - features: {case: nominative, gender: masculine, number: singular}
+    expected: хороший
+  - features: {case: genitive, gender: masculine, number: singular}
+    expected: хорошего
+  - features: {case: dative, gender: masculine, number: singular}
+    expected: хорошему
+  - features: {animacy: inanimate, case: accusative, gender: masculine, number: singular}
+    expected: хороший
+  - features: {animacy: animate, case: accusative, gender: masculine, number: singular}
+    expected: хорошего
+  - features: {case: instrumental, gender: masculine, number: singular}
+    expected: хорошим
+  - features: {case: prepositional, gender: masculine, number: singular}
+    expected: хорошем
+  - features: {case: nominative, gender: feminine, number: singular}
+    expected: хорошая
+  - features: {case: genitive, gender: feminine, number: singular}
+    expected: хорошей
+  - features: {case: dative, gender: feminine, number: singular}
+    expected: хорошей
+  - features: {case: accusative, gender: feminine, number: singular}
+    expected: хорошую
+  - features: {case: instrumental, gender: feminine, number: singular}
+    expected: хорошей
+  - features: {case: prepositional, gender: feminine, number: singular}
+    expected: хорошей
+  - features: {case: nominative, gender: neuter, number: singular}
+    expected: хорошее
+  - features: {case: genitive, gender: neuter, number: singular}
+    expected: хорошего
+  - features: {case: dative, gender: neuter, number: singular}
+    expected: хорошему
+  - features: {case: accusative, gender: neuter, number: singular}
+    expected: хорошее
+  - features: {case: instrumental, gender: neuter, number: singular}
+    expected: хорошим
+  - features: {case: prepositional, gender: neuter, number: singular}
+    expected: хорошем
+  - features: {case: nominative, number: plural}
+    expected: хорошие
+  - features: {case: genitive, number: plural}
+    expected: хороших
+  - features: {case: dative, number: plural}
+    expected: хорошим
+  - features: {animacy: inanimate, case: accusative, number: plural}
+    expected: хорошие
+  - features: {animacy: animate, case: accusative, number: plural}
+    expected: хороших
+  - features: {case: instrumental, number: plural}
+    expected: хорошими
+  - features: {case: prepositional, number: plural}
+    expected: хороших
+  - features: {degree: comparative}
+    expected: лучше

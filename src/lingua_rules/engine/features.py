@@ -1,9 +1,24 @@
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
 from pathlib import Path
 
 from .loader import MalformedLanguageConfigError, load_language_yaml, language_dir
+
+# A quoted feature key in a rule file: "dim=value" or "dim=value;dim=value;...".
+FEATURE_KEY_RE = re.compile(
+    r'"([a-zA-Z_][a-zA-Z0-9_]*=[a-zA-Z_][a-zA-Z0-9_]*'
+    r'(?:;[a-zA-Z_][a-zA-Z0-9_]*=[a-zA-Z_][a-zA-Z0-9_]*)*)"'
+)
+
+
+def key_dimensions(source: str) -> list[set[str]]:
+    """The set of dimensions of every feature key written in a rule file."""
+    return [
+        {pair.split("=", 1)[0] for pair in match.group(1).split(";")}
+        for match in FEATURE_KEY_RE.finditer(source)
+    ]
 
 
 class UnknownFeatureError(Exception):

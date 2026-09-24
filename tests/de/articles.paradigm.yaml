@@ -1,0 +1,207 @@
+lemma: der
+category: articles
+cases:
+  - features: {case: nominative, gender: masculine, number: singular}
+    expected: der
+  - features: {case: accusative, gender: masculine, number: singular}
+    expected: den
+  - features: {case: dative, gender: masculine, number: singular}
+    expected: dem
+  - features: {case: genitive, gender: masculine, number: singular}
+    expected: des
+  - features: {case: nominative, gender: feminine, number: singular}
+    expected: die
+  - features: {case: accusative, gender: feminine, number: singular}
+    expected: die
+  - features: {case: dative, gender: feminine, number: singular}
+    expected: der
+  - features: {case: genitive, gender: feminine, number: singular}
+    expected: der
+  - features: {case: nominative, gender: neuter, number: singular}
+    expected: das
+  - features: {case: accusative, gender: neuter, number: singular}
+    expected: das
+  - features: {case: dative, gender: neuter, number: singular}
+    expected: dem
+  - features: {case: genitive, gender: neuter, number: singular}
+    expected: des
+  - features: {case: nominative, number: plural}
+    expected: die
+  - features: {case: accusative, number: plural}
+    expected: die
+  - features: {case: dative, number: plural}
+    expected: den
+  - features: {case: genitive, number: plural}
+    expected: der
+---
+lemma: ein
+category: articles
+cases:
+  - features: {case: nominative, gender: masculine, number: singular}
+    expected: ein
+  - features: {case: accusative, gender: masculine, number: singular}
+    expected: einen
+  - features: {case: dative, gender: masculine, number: singular}
+    expected: einem
+  - features: {case: genitive, gender: masculine, number: singular}
+    expected: eines
+  - features: {case: nominative, gender: feminine, number: singular}
+    expected: eine
+  - features: {case: accusative, gender: feminine, number: singular}
+    expected: eine
+  - features: {case: dative, gender: feminine, number: singular}
+    expected: einer
+  - features: {case: genitive, gender: feminine, number: singular}
+    expected: einer
+  - features: {case: nominative, gender: neuter, number: singular}
+    expected: ein
+  - features: {case: accusative, gender: neuter, number: singular}
+    expected: ein
+  - features: {case: dative, gender: neuter, number: singular}
+    expected: einem
+  - features: {case: genitive, gender: neuter, number: singular}
+    expected: eines
+---
+lemma: kein
+category: articles
+cases:
+  - features: {case: nominative, gender: masculine, number: singular}
+    expected: kein
+  - features: {case: accusative, gender: masculine, number: singular}
+    expected: keinen
+  - features: {case: dative, gender: masculine, number: singular}
+    expected: keinem
+  - features: {case: genitive, gender: masculine, number: singular}
+    expected: keines
+  - features: {case: nominative, gender: feminine, number: singular}
+    expected: keine
+  - features: {case: accusative, gender: feminine, number: singular}
+    expected: keine
+  - features: {case: dative, gender: feminine, number: singular}
+    expected: keiner
+  - features: {case: genitive, gender: feminine, number: singular}
+    expected: keiner
+  - features: {case: nominative, gender: neuter, number: singular}
+    expected: kein
+  - features: {case: accusative, gender: neuter, number: singular}
+    expected: kein
+  - features: {case: dative, gender: neuter, number: singular}
+    expected: keinem
+  - features: {case: genitive, gender: neuter, number: singular}
+    expected: keines
+  - features: {case: nominative, number: plural}
+    expected: keine
+  - features: {case: accusative, number: plural}
+    expected: keine
+  - features: {case: dative, number: plural}
+    expected: keinen
+  - features: {case: genitive, number: plural}
+    expected: keiner
+---
+lemma: unser
+category: articles
+cases:
+  - features: {case: nominative, gender: masculine, number: singular}
+    expected: unser
+  - features: {case: accusative, gender: masculine, number: singular}
+    expected: unseren
+  - features: {case: dative, gender: masculine, number: singular}
+    expected: unserem
+  - features: {case: genitive, gender: masculine, number: singular}
+    expected: unseres
+  - features: {case: nominative, gender: feminine, number: singular}
+    expected: unsere
+  - features: {case: accusative, gender: feminine, number: singular}
+    expected: unsere
+  - features: {case: dative, gender: feminine, number: singular}
+    expected: unserer
+  - features: {case: genitive, gender: feminine, number: singular}
+    expected: unserer
+  - features: {case: nominative, gender: neuter, number: singular}
+    expected: unser
+  - features: {case: accusative, gender: neuter, number: singular}
+    expected: unser
+  - features: {case: dative, gender: neuter, number: singular}
+    expected: unserem
+  - features: {case: genitive, gender: neuter, number: singular}
+    expected: unseres
+  - features: {case: nominative, number: plural}
+    expected: unsere
+  - features: {case: accusative, number: plural}
+    expected: unsere
+  - features: {case: dative, number: plural}
+    expected: unseren
+  - features: {case: genitive, number: plural}
+    expected: unserer
+---
+lemma: dieser
+category: articles
+cases:
+  - features: {case: nominative, gender: masculine, number: singular}
+    expected: dieser
+  - features: {case: accusative, gender: masculine, number: singular}
+    expected: diesen
+  - features: {case: dative, gender: masculine, number: singular}
+    expected: diesem
+  - features: {case: genitive, gender: masculine, number: singular}
+    expected: dieses
+  - features: {case: nominative, gender: feminine, number: singular}
+    expected: diese
+  - features: {case: accusative, gender: feminine, number: singular}
+    expected: diese
+  - features: {case: dative, gender: feminine, number: singular}
+    expected: dieser
+  - features: {case: genitive, gender: feminine, number: singular}
+    expected: dieser
+  - features: {case: nominative, gender: neuter, number: singular}
+    expected: dieses
+  - features: {case: accusative, gender: neuter, number: singular}
+    expected: dieses
+  - features: {case: dative, gender: neuter, number: singular}
+    expected: diesem
+  - features: {case: genitive, gender: neuter, number: singular}
+    expected: dieses
+  - features: {case: nominative, number: plural}
+    expected: diese
+  - features: {case: accusative, number: plural}
+    expected: diese
+  - features: {case: dative, number: plural}
+    expected: diesen
+  - features: {case: genitive, number: plural}
+    expected: dieser
+---
+lemma: welcher
+category: articles
+cases:
+  - features: {case: nominative, gender: masculine, number: singular}
+    expected: welcher
+  - features: {case: accusative, gender: masculine, number: singular}
+    expected: welchen
+  - features: {case: dative, gender: masculine, number: singular}
+    expected: welchem
+  - features: {case: genitive, gender: masculine, number: singular}
+    expected: welches
+  - features: {case: nominative, gender: feminine, number: singular}
+    expected: welche
+  - features: {case: accusative, gender: feminine, number: singular}
+    expected: welche
+  - features: {case: dative, gender: feminine, number: singular}
+    expected: welcher
+  - features: {case: genitive, gender: feminine, number: singular}
+    expected: welcher
+  - features: {case: nominative, gender: neuter, number: singular}
+    expected: welches
+  - features: {case: accusative, gender: neuter, number: singular}
+    expected: welches
+  - features: {case: dative, gender: neuter, number: singular}
+    expected: welchem
+  - features: {case: genitive, gender: neuter, number: singular}
+    expected: welches
+  - features: {case: nominative, number: plural}
+    expected: welche
+  - features: {case: accusative, number: plural}
+    expected: welche
+  - features: {case: dative, number: plural}
+    expected: welchen
+  - features: {case: genitive, number: plural}
+    expected: welcher

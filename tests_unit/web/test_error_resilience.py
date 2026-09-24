@@ -90,7 +90,7 @@ def test_category_page_404s_when_the_rule_file_is_not_written_yet(
 ):
     _override_rules_dir(rules_with_an_unwritten_category)
 
-    response = client.get("/en/category/verbs")
+    response = client.get("/en/category/adverbs")
 
     assert response.status_code == 404
     assert response.status_code != 500
