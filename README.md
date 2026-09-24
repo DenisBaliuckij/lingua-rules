@@ -1,5 +1,7 @@
 # lingua-rules
 
+**English** | [Русский](README.ru.md)
+
 A system for linguists to author, browse, and test natural language grammar
 rules. Rules are written as Clingo (Answer Set Programming) files, organized
 per language and word category, and executed locally — no database, no
