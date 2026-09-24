@@ -118,21 +118,17 @@ error: unknown value 'dual' for dimension 'number' (declared: singular, plural)
 > **Note.** `python -m lingua_rules` (without `.cli.main`) does **not** work:
 > the package has no `__main__.py`. Always use `lingua_rules.cli.main`.
 
-### Windows: letters such as ä, ö, ü, ß
+### Output encoding
 
-On Windows with a non-UTF-8 system code page (for example a Russian Windows,
-code page 1251), a command whose output contains such letters **fails with
-`UnicodeEncodeError`** whenever its output is not shown directly in a console
-window — redirected to a file (`> out.txt`), piped, or run from a script. Add
-`-X utf8` right after `python` to avoid this:
+The CLI always writes its output as UTF-8, so letters such as ä, ö, ü, ß or
+Cyrillic work everywhere — in a console window, redirected to a file, or piped
+to another program — including on Windows with a legacy code page such as 1251:
 
 ```
-python -X utf8 -m lingua_rules.cli.main generate de nouns Mann --features number=plural
-python -X utf8 -m lingua_rules.cli.main test de > results.txt
+python -m lingua_rules.cli.main generate de nouns Mann --features number=plural > result.txt
 ```
 
-Setting the environment variable `PYTHONUTF8=1` once has the same effect for
-every command.
+`result.txt` contains `Männer` (UTF-8). Open such files as UTF-8 in your editor.
 
 ---
 
@@ -167,7 +163,10 @@ to *Try it*, *Add a rule* and *Run tests*.
 
 ![Category page](images/02-category-before.png)
 
-**Try it** — type a lemma, pick feature values, press *Generate*.
+**Try it** — type a lemma, pick feature values, press *Generate*. Each
+feature also offers *— not set —*: choose it for a feature the category does
+not use (for example `tense` when trying a noun), and it is left out of the
+request.
 
 ![Try it](images/06-try-it-regular.png)
 
@@ -218,7 +217,10 @@ How a rule file is evaluated:
   `Form` whose `Lemma` and `FeatureKey` match the request.
 - The **feature key** is a string: `dimension=value` pairs, **sorted
   alphabetically by dimension** and joined with `;` — for example
-  `number=plural`, or `case=gen;number=plural` when there are two dimensions.
+  `number=plural`, or `case=genitive;number=plural` when there are two
+  dimensions. `new-rule` and the web form write keys in this order for you, in
+  whatever order you type them; `lint` reports a hand-written key in any other
+  order and prints the correct one.
 - `irregular("x")` marks a lemma as an exception. Rules that end with
   `not irregular(Lemma)` then skip it, so its forms must be given explicitly.
 - A category needs its `.lp` file to exist before the category page will open.
@@ -540,7 +542,7 @@ them:
 ![Try it: Russian](images/09-try-it-russian.png)
 
 ```
-> python -X utf8 -m lingua_rules.cli.main generate fi nouns talo --features case=inessive,number=plural
+> python -m lingua_rules.cli.main generate fi nouns talo --features case=inessive,number=plural
 taloissa
 ```
 
@@ -579,20 +581,17 @@ The unit tests of the tool itself run with `python -m pytest`.
 
 ## 10. Pitfalls and known limitations
 
-- **Feature-key order.** With more than one dimension, write the key sorted by
-  dimension name: `number=plural;tense=past`, not `tense=past;number=plural`.
-  `new-rule` accepts both, but a rule with an unsorted key never matches, and
-  `generate` reports `no rule ... produced a form`.
+- **Feature-key order in hand-written rules.** Keys must be sorted by
+  dimension name (`number=plural;tense=past`). Templates sort them for you;
+  for rules you type yourself, run `lint`, which reports any key in another
+  order, for example:
+  `[verbs] feature key 'tense=past;number=plural' is not in canonical order and will never match; write 'number=plural;tense=past'`.
 - **`irregular` is all-or-nothing** per lemma (see section 5).
-- **Try it with several dimensions.** The *Try it* form always sends a value for
-  every dimension of the language. In a language with, say, `number` and
-  `tense`, a request for a noun therefore carries both and matches no
-  one-dimension rule. Use `generate` on the command line with only the features
-  you need.
+- **Try it with several dimensions.** In a language whose categories use
+  different dimensions (say `number` for nouns, `number` and `tense` for verbs),
+  set the dimensions a category does not use to *— not set —*.
 - **The web form only adds `regular-affix` rules**; use `new-rule` for
   `exception-override`.
-- **Non-ASCII output on Windows** needs `python -X utf8` when the output is
-  redirected or piped (section 2).
 - **No undo.** Templates append to the file; remove unwanted blocks by editing
   the `.lp` file.
 - A language whose file has no `irregular(...)` facts yet prints a harmless

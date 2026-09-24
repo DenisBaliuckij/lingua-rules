@@ -7,7 +7,7 @@ from .escaping import (
     escape_clingo_string,
     reject_unsafe_characters,
 )
-from .features import load_feature_vocabulary, validate_features
+from .features import feature_key, load_feature_vocabulary, validate_features
 from .loader import category_rule_path
 
 REGULAR_AFFIX_TEMPLATE = (
@@ -82,7 +82,11 @@ def append_rule(
     feature_key_value = kwargs.get("feature_key")
     if feature_key_value is not None:
         vocab = load_feature_vocabulary(rules_dir, lang_code)
-        validate_features(vocab, _parse_feature_key(feature_key_value))
+        parsed = _parse_feature_key(feature_key_value)
+        validate_features(vocab, parsed)
+        # The runner looks forms up by the canonical (sorted) key, so write that
+        # form -- "tense=past;number=plural" would otherwise never match.
+        kwargs["feature_key"] = feature_key(parsed)
 
     safe_kwargs = {
         field: escape_clingo_string(value) for field, value in kwargs.items()

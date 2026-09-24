@@ -170,3 +170,50 @@ def test_append_rule_rejects_a_malformed_feature_key(tmp_path):
 
     content = (rules_dir / "xx" / "nouns.lp").read_text(encoding="utf-8")
     assert content == "% existing rules\n"
+
+
+def _write_two_dimension_category(tmp_path: Path) -> Path:
+    lang_dir = tmp_path / "xx"
+    lang_dir.mkdir()
+    (lang_dir / "lang.yaml").write_text(
+        "name: Test\ncategories: [verbs]\n", encoding="utf-8"
+    )
+    (lang_dir / "features.yaml").write_text(
+        "dimensions:\n"
+        "  number:\n    values: [singular, plural]\n"
+        "  tense:\n    values: [present, past]\n",
+        encoding="utf-8",
+    )
+    (lang_dir / "verbs.lp").write_text("% existing rules\n", encoding="utf-8")
+    return tmp_path
+
+
+def test_append_rule_writes_the_feature_key_in_canonical_order(tmp_path):
+    # The runner looks forms up by the sorted key, so an unsorted key written
+    # to disk would silently never match.
+    rules_dir = _write_two_dimension_category(tmp_path)
+
+    path = append_rule(
+        rules_dir, "xx", "verbs", "regular-affix",
+        feature_key="tense=past;number=plural", suffix="ed",
+    )
+
+    content = path.read_text(encoding="utf-8")
+    assert '"number=plural;tense=past"' in content
+    assert "tense=past;number=plural" not in content
+
+
+def test_a_rule_appended_with_an_unsorted_key_is_found_by_generate(tmp_path):
+    from lingua_rules.engine.runner import generate_form
+
+    rules_dir = _write_two_dimension_category(tmp_path)
+    append_rule(
+        rules_dir, "xx", "verbs", "regular-affix",
+        feature_key="tense=past;number=plural", suffix="ed",
+    )
+
+    form = generate_form(
+        rules_dir, "xx", "verbs", "walk", {"tense": "past", "number": "plural"}
+    )
+
+    assert form == "walked"

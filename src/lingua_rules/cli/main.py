@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import io
 import os
+import sys
 from pathlib import Path
 
 import typer
@@ -31,6 +33,30 @@ app = typer.Typer(help="Author, browse, and test natural language grammar rules.
 # Errors that mean "the language you named isn't usable" -- reported as a
 # one-line `error: ...`, never a traceback.
 _LANGUAGE_ERRORS = (LanguageNotFoundError, MalformedLanguageConfigError)
+
+
+def _force_utf8_output() -> None:
+    """Write stdout/stderr as UTF-8.
+
+    On Windows with a legacy code page (e.g. cp1251), redirected or piped output
+    is encoded with that code page, which cannot represent letters such as "ä"
+    and crashes the command with UnicodeEncodeError. Console windows are not
+    affected either way.
+    """
+    for stream in (sys.stdout, sys.stderr):
+        encoding = (getattr(stream, "encoding", None) or "").lower().replace("-", "")
+        if encoding == "utf8":
+            continue
+        try:
+            stream.reconfigure(encoding="utf-8")
+        except (AttributeError, ValueError, io.UnsupportedOperation):
+            pass
+
+
+@app.callback()
+def _main() -> None:
+    """Author, browse, and test natural language grammar rules."""
+    _force_utf8_output()
 
 
 def _parse_features(raw: str) -> dict[str, str]:

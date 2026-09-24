@@ -86,3 +86,47 @@ def test_lint_reports_a_declared_category_with_no_rule_file(tmp_path):
 
     assert [i.category for i in issues] == ["verbs"]
     assert "does not exist yet" in issues[0].message
+
+
+def test_lint_language_flags_a_feature_key_in_non_canonical_order(tmp_path):
+    lang_dir = tmp_path / "xx"
+    lang_dir.mkdir()
+    (lang_dir / "lang.yaml").write_text(
+        "name: Test\ncategories: [nouns]\n", encoding="utf-8"
+    )
+    (lang_dir / "features.yaml").write_text(
+        "dimensions:\n"
+        "  case:\n    values: [nominative, genitive]\n"
+        "  number:\n    values: [singular, plural]\n",
+        encoding="utf-8",
+    )
+    (lang_dir / "nouns.lp").write_text(
+        'form(L, "number=plural;case=genitive", L) :- input_lemma(L).\n',
+        encoding="utf-8",
+    )
+
+    issues = lint_language(tmp_path, "xx")
+
+    assert len(issues) == 1
+    assert "number=plural;case=genitive" in issues[0].message
+    assert "case=genitive;number=plural" in issues[0].message
+
+
+def test_lint_language_accepts_a_feature_key_in_canonical_order(tmp_path):
+    lang_dir = tmp_path / "xx"
+    lang_dir.mkdir()
+    (lang_dir / "lang.yaml").write_text(
+        "name: Test\ncategories: [nouns]\n", encoding="utf-8"
+    )
+    (lang_dir / "features.yaml").write_text(
+        "dimensions:\n"
+        "  case:\n    values: [nominative, genitive]\n"
+        "  number:\n    values: [singular, plural]\n",
+        encoding="utf-8",
+    )
+    (lang_dir / "nouns.lp").write_text(
+        'form(L, "case=genitive;number=plural", L) :- input_lemma(L).\n',
+        encoding="utf-8",
+    )
+
+    assert lint_language(tmp_path, "xx") == []
