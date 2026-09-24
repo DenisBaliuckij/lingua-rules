@@ -116,28 +116,56 @@ def _two_dimension_language(tmp_path):
     return tmp_path
 
 
-def test_try_it_form_offers_a_not_set_choice_for_every_dimension(tmp_path):
-    rules_dir = _two_dimension_language(tmp_path)
+def _get_try_form(rules_dir, category="nouns"):
     app.dependency_overrides[get_rules_dir] = lambda: rules_dir
     try:
-        response = client.get("/xx/category/nouns/try")
+        return client.get(f"/xx/category/{category}/try")
     finally:
         app.dependency_overrides.clear()
+
+
+def test_try_it_form_shows_only_the_dimensions_the_category_uses(tmp_path):
+    response = _get_try_form(_two_dimension_language(tmp_path))
 
     assert response.status_code == 200
-    assert response.text.count('<option value="">') == 2
+    assert '<select name="number">' in response.text
+    assert '<select name="tense">' not in response.text
 
 
-def test_try_it_form_still_preselects_the_first_value(tmp_path):
-    rules_dir = _two_dimension_language(tmp_path)
-    app.dependency_overrides[get_rules_dir] = lambda: rules_dir
-    try:
-        response = client.get("/xx/category/nouns/try")
-    finally:
-        app.dependency_overrides.clear()
+def test_try_it_form_preselects_a_dimension_every_rule_uses(tmp_path):
+    response = _get_try_form(_two_dimension_language(tmp_path))
 
+    assert '<option value="">— not set —</option>' in response.text
     assert '<option value="singular" selected>' in response.text
+
+
+def test_try_it_form_leaves_dimensions_only_some_rules_use_unset(tmp_path):
+    # verbs: every rule uses tense, only some use number
+    rules_dir = _two_dimension_language(tmp_path)
+    (rules_dir / "xx" / "lang.yaml").write_text(
+        "name: Test\ncategories: [nouns, verbs]\n", encoding="utf-8"
+    )
+    (rules_dir / "xx" / "verbs.lp").write_text(
+        'form(L, "tense=present", L) :- input_lemma(L).\n'
+        'form(L, "number=plural;tense=past", @suffix(L, "ed")) :- input_lemma(L).\n',
+        encoding="utf-8",
+    )
+
+    response = _get_try_form(rules_dir, "verbs")
+
     assert '<option value="present" selected>' in response.text
+    assert '<option value="singular" selected>' not in response.text
+    assert '<select name="number">' in response.text
+
+
+def test_try_it_form_shows_every_dimension_when_the_rule_file_has_no_keys(tmp_path):
+    rules_dir = _two_dimension_language(tmp_path)
+    (rules_dir / "xx" / "nouns.lp").write_text("% nothing yet\n", encoding="utf-8")
+
+    response = _get_try_form(rules_dir)
+
+    assert '<select name="number">' in response.text
+    assert '<select name="tense">' in response.text
 
 
 def test_try_it_post_ignores_dimensions_left_unset(tmp_path):

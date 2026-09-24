@@ -11,6 +11,7 @@ from fastapi.templating import Jinja2Templates
 from lingua_rules.engine.escaping import UnsafeFieldValueError
 from lingua_rules.engine.features import (
     UnknownFeatureError,
+    key_dimensions,
     load_feature_vocabulary,
     validate_features,
 )
@@ -107,14 +108,29 @@ def try_it_form(
     rules_dir: Path = Depends(get_rules_dir),
 ):
     try:
-        category_rule_path(rules_dir, lang, category)
+        rule_path = category_rule_path(rules_dir, lang, category)
         vocab = load_feature_vocabulary(rules_dir, lang)
     except _NOT_FOUND_ERRORS as exc:
         raise HTTPException(status_code=404, detail=str(exc))
+    try:
+        keys = key_dimensions(rule_path.read_text(encoding="utf-8"))
+    except OSError:
+        keys = []
+    # Show only the dimensions this category's rules use, and preselect a value
+    # only for dimensions that every rule uses: a language's features are
+    # shared by all its categories, and a request carrying a dimension the
+    # matching rule doesn't have finds no form.
+    used = set().union(*keys) if keys else set(vocab.dimensions)
+    always = set.intersection(*keys) if keys else set(vocab.dimensions)
+    dimensions = [
+        (name, values, name in always)
+        for name, values in vocab.dimensions.items()
+        if name in used
+    ]
     return templates.TemplateResponse(
         request,
         "try_it.html",
-        {"lang": lang, "category": category, "vocab": vocab},
+        {"lang": lang, "category": category, "dimensions": dimensions},
     )
 
 

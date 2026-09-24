@@ -3,13 +3,13 @@
 <h1>Try it: {{ lang }} / {{ category }}</h1>
 <form hx-post="/{{ lang }}/category/{{ category }}/try" hx-target="#result">
   <label>Lemma <input type="text" name="lemma"></label>
-  {% for dimension, values in vocab.dimensions.items() %}
+  {# Only the dimensions this category's rules use. "not set" leaves a dimension
+     out of the request; it is the default for dimensions only some rules use. #}
+  {% for dimension, values, preselect in dimensions %}
   <label>{{ dimension }}
-    {# "not set" leaves the dimension out of the request, for categories that
-       don't use every dimension the language declares #}
     <select name="{{ dimension }}">
       <option value="">— not set —</option>
-      {% for value in values %}<option value="{{ value }}"{% if loop.first %} selected{% endif %}>{{ value }}</option>{% endfor %}
+      {% for value in values %}<option value="{{ value }}"{% if preselect and loop.first %} selected{% endif %}>{{ value }}</option>{% endfor %}
     </select>
   </label>
   {% endfor %}

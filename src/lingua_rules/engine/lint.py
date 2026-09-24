@@ -1,12 +1,12 @@
 from __future__ import annotations
 
-import re
 from dataclasses import dataclass
 from pathlib import Path
 
 import clingo
 
 from .features import (
+    FEATURE_KEY_RE as _FEATURE_KEY_RE,
     UnknownFeatureError,
     feature_key,
     load_feature_vocabulary,
@@ -14,11 +14,6 @@ from .features import (
 )
 from .loader import category_rule_path, load_language
 from .transforms import RuleContext
-
-_FEATURE_KEY_RE = re.compile(
-    r'"([a-zA-Z_][a-zA-Z0-9_]*=[a-zA-Z_][a-zA-Z0-9_]*'
-    r'(?:;[a-zA-Z_][a-zA-Z0-9_]*=[a-zA-Z_][a-zA-Z0-9_]*)*)"'
-)
 
 
 @dataclass(frozen=True)
