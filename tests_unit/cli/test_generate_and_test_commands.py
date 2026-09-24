@@ -54,4 +54,4 @@ def test_test_command_reports_all_english_fixtures_passing():
     )
 
     assert result.exit_code == 0
-    assert "3/3 passed" in result.stdout
+    assert "21/21 passed" in result.stdout

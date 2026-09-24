@@ -189,7 +189,7 @@ def test_test_with_no_language_exits_nonzero_if_any_language_fails(tmp_path):
     assert result.exit_code == 1
     # the healthy language still got reported
     assert "== en ==" in result.stdout
-    assert "3/3 passed" in result.stdout
+    assert "21/21 passed" in result.stdout
 
 
 def test_test_category_option_filters_cases(tmp_path):
