@@ -582,8 +582,11 @@ kleinem
 `tools/gen_en.py`, `tools/gen_de.py`, `tools/gen_ru.py` and `tools/gen_fi.py`
 (run from the repository root). To add many words or a new class, edit the
 tables there and re-run the script; the golden tests are regenerated from
-separately typed-out word forms. Small additions can also be made directly in
-the `.lp` files.
+separately typed-out word forms. A script rewrites all rule and test files of
+its language, so edits made directly in a generated `.lp` file (including
+rules added with templates) are lost the next time it runs: make them in the
+script. Only `rules/en/nouns.lp`, its tests and newly added languages are
+written by hand.
 
 ---
 
