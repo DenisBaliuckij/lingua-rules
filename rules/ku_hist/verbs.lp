@@ -1,0 +1,20 @@
+% rules/ku_hist/verbs.lp
+% Northern Kurdish (Kurmanji) (historical stage) verbs: generated from grammars in the DocumentCatalog (tools/grammar_rules; LLM-
+% extracted paradigms, classes induced from them). Review before relying on it.
+%
+% Sources (document id in the DocumentCatalog):
+%   doc 292691: Grammatica e vocabolario della lingua Kurda (1787), pages 13, 17, 19, 20, 21, 22, 23, 24, 25
+%
+% Classes (verb_class/2 in data/verbs.lexicon.tsv, affixes in data/verbs.paradigms.tsv):
+%   second_conjugation           bahhkavum — grammar: "second conjugation"
+%   brindar_type                 brindar
+%   bu_type                      bu
+%   debit_type                   debit
+%   fourth_conjugation           em — grammar: "fourth conjugation"
+%   ferito_type                  ferito
+%
+% Not covered: anything the selected grammar pages do not show as a full paradigm;
+% a class is only as complete as the forms the grammar printed for its members.
+
+form(L, Key, @affix(L, Front, Prefix, Strip, Ending)) :- input_lemma(L),
+    verb_class(L, Class), paradigm_affix(Class, Key, Front, Prefix, Strip, Ending), not irregular(L).
