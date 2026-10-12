@@ -9,6 +9,8 @@
 %   periphrastic  beautiful -> more beautiful, most beautiful
 % Adjectives that double their final consonant: big -> bigger, biggest
 % (double_consonant/2). Irregular comparison is listed explicitly.
+% Data (rules/en/data/): adjectives.lexicon.tsv (adj_class and
+% double_consonant per lemma), adjectives.exceptions.tsv (irregular comparison).
 
 form(L, "degree=positive", L) :- input_lemma(L).
 
@@ -30,15 +32,3 @@ form(L, "degree=superlative", @prefix(L, "most ")) :- input_lemma(L), adj_class(
 
 form(L, "degree=comparative", @suffix(S, "er")) :- input_lemma(L), double_consonant(L, C), S = @suffix(L, C).
 form(L, "degree=superlative", @suffix(S, "est")) :- input_lemma(L), double_consonant(L, C), S = @suffix(L, C).
-
-adj_class("large", e_final). adj_class("nice", e_final). adj_class("late", e_final). adj_class("wide", e_final). adj_class("safe", e_final). adj_class("simple", e_final). adj_class("close", e_final). adj_class("strange", e_final).
-adj_class("happy", y_final). adj_class("easy", y_final). adj_class("busy", y_final). adj_class("early", y_final). adj_class("heavy", y_final). adj_class("pretty", y_final). adj_class("funny", y_final). adj_class("angry", y_final).
-adj_class("beautiful", periphrastic). adj_class("important", periphrastic). adj_class("interesting", periphrastic). adj_class("expensive", periphrastic). adj_class("difficult", periphrastic). adj_class("careful", periphrastic). adj_class("modern", periphrastic). adj_class("famous", periphrastic).
-double_consonant("big", "g"). double_consonant("hot", "t"). double_consonant("thin", "n"). double_consonant("sad", "d"). double_consonant("fat", "t"). double_consonant("wet", "t"). double_consonant("red", "d").
-
-irregular("good"). form("good", "degree=comparative", "better"). form("good", "degree=superlative", "best").
-irregular("bad"). form("bad", "degree=comparative", "worse"). form("bad", "degree=superlative", "worst").
-irregular("far"). form("far", "degree=comparative", "farther"). form("far", "degree=superlative", "farthest").
-irregular("little"). form("little", "degree=comparative", "less"). form("little", "degree=superlative", "least").
-irregular("many"). form("many", "degree=comparative", "more"). form("many", "degree=superlative", "most").
-irregular("much"). form("much", "degree=comparative", "more"). form("much", "degree=superlative", "most").

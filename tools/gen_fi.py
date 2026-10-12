@@ -7,7 +7,10 @@ Run from the repository root: python tools/gen_fi.py
 
 from pathlib import Path
 
+from tables import members, write_table
+
 R = Path("rules/fi")
+D = R / "data"
 T = Path("tests/fi")
 CASES = ["nominative", "genitive", "partitive", "inessive", "elative", "illative",
          "adessive", "ablative", "allative", "essive", "translative"]
@@ -18,9 +21,6 @@ PERSONS = [("first", "singular"), ("second", "singular"), ("third", "singular"),
 def w(path: Path, text: str) -> None:
     path.write_text(text, encoding="utf-8", newline="\n")
 
-
-def facts(pred: str, table: dict) -> str:
-    return "".join(" ".join(f'{pred}("{l}", {c}).' for l in ls) + "\n" for c, ls in table.items())
 
 
 def head(strip: int, end: str) -> str:
@@ -151,6 +151,8 @@ n = ["""% rules/fi/nouns.lp
 % stem changes (katu/kadun, käsi/käden, mies/miehen) are listed as irregular.
 % The accusative equals the genitive in the singular and the nominative in the
 % plural (for every noun, including irregular ones).
+% Data (rules/fi/data/): nouns.lexicon.tsv (noun_class per lemma),
+% nouns.exceptions.tsv (irregular nouns, all forms except the accusative).
 %
 % Not covered: comitative, abessive and instructive; possessive suffixes;
 % clitics; consonant gradation as a rule.
@@ -167,17 +169,16 @@ for cls, (sg, pl) in NOUN_CLASSES.items():
 n.append("""% --- accusative (all nouns)
 form(L, "case=accusative;number=singular", F) :- input_lemma(L), form(L, "case=genitive;number=singular", F).
 form(L, "case=accusative;number=plural", F) :- input_lemma(L), form(L, "case=nominative;number=plural", F).
-
-% --- class membership
 """)
-n.append(facts("noun_class", NOUN_MEMBERS))
-n.append("\n% --- irregular nouns (all forms except the accusative listed)\n")
+w(R / "nouns.lp", "".join(n))
+write_table(D / "nouns.lexicon.tsv", ["lemma", "noun_class"],
+            [[lemma, cls] for lemma, cls in members(NOUN_MEMBERS)])
+exc = []
 for lemma, forms in IRREGULAR_NOUNS.items():
     sg, pl = (p.split() for p in forms.split("|"))
-    n.append(f'irregular("{lemma}").\n')
     for number, fs in (("singular", sg), ("plural", pl)):
-        n.append(" ".join(f'form("{lemma}", "case={c};number={number}", "{f}").' for c, f in zip(CASES, fs)) + "\n")
-w(R / "nouns.lp", "".join(n))
+        exc += [[lemma, f"case={c};number={number}", f] for c, f in zip(CASES, fs)]
+write_table(D / "nouns.exceptions.tsv", ["lemma", "features", "form"], exc)
 
 # ============================================================================= verbs
 # class: present (6), past (6), imperative (sg, pl) as "strip:ending" on the infinitive
@@ -239,6 +240,8 @@ v = ["""% rules/fi/verbs.lp
 % "_back"/"_front" follow vowel harmony. None of these classes has consonant
 % gradation; type 2 verbs (syödä, juoda, tehdä ...) and verbs with gradation
 % (ottaa -> otan, lukea -> luen) are listed as irregular.
+% Data (rules/fi/data/): verbs.lexicon.tsv (verb_class per lemma),
+% verbs.exceptions.tsv (irregular verbs).
 %
 % Not covered: negative forms (en puhu), passive, conditional and potential
 % moods, perfect tenses, participles and infinitives other than the first.
@@ -256,16 +259,18 @@ for cls, (pres, past, imp) in VERB_CLASSES.items():
         strip, end = spec(e)
         v.append(f'form(L, "number={number};verb_form=imperative", {head(strip, end)}) :- input_lemma(L), verb_class(L, {cls}).\n')
     v.append("\n")
-v.append("% --- class membership\n" + facts("verb_class", VERB_MEMBERS))
-v.append("\n% --- irregular verbs (all forms listed)\n")
+w(R / "verbs.lp", "".join(v).rstrip("\n") + "\n")
+write_table(D / "verbs.lexicon.tsv", ["lemma", "verb_class"],
+            [[lemma, cls] for lemma, cls in members(VERB_MEMBERS)])
+exc = []
 for lemma, forms in IRREGULAR_VERBS.items():
     pres, past, imp = (p.split() for p in forms.split("|"))
-    v.append(f'irregular("{lemma}").\n')
     for tense, fs in (("present", pres), ("past", past)):
-        v.append(" ".join(f'form("{lemma}", "{pkey(p, nb, tense)}", "{f}").' for (p, nb), f in zip(PERSONS, fs)) + "\n")
+        exc += [[lemma, pkey(p, nb, tense), f] for (p, nb), f in zip(PERSONS, fs)]
     if imp != ["-"]:
-        v.append(f'form("{lemma}", "number=singular;verb_form=imperative", "{imp[0]}"). form("{lemma}", "number=plural;verb_form=imperative", "{imp[1]}").\n')
-w(R / "verbs.lp", "".join(v))
+        exc += [[lemma, "number=singular;verb_form=imperative", imp[0]],
+                [lemma, "number=plural;verb_form=imperative", imp[1]]]
+write_table(D / "verbs.exceptions.tsv", ["lemma", "features", "form"], exc)
 
 # ============================================================================= adjectives
 ADJ_CLASSES = {  # comparative, superlative
@@ -289,6 +294,8 @@ a = ["""% rules/fi/adjectives.lp
 % Irregular comparison is listed (hyvä -> parempi, paras).
 %
 % Adjectives with consonant gradation (helppo -> helpompi) are listed too.
+% Data (rules/fi/data/): adjectives.lexicon.tsv (adj_class per lemma),
+% adjectives.exceptions.tsv (irregular comparison).
 %
 % Not covered: case inflection of adjectives (they inflect like nouns; see
 % nouns.lp).
@@ -300,10 +307,12 @@ for cls, (comp, sup) in ADJ_CLASSES.items():
     for key, e in (("comparative", comp), ("superlative", sup)):
         strip, end = spec(e)
         a.append(f'form(L, "degree={key}", {head(strip, end)}) :- input_lemma(L), adj_class(L, {cls}).\n')
-a.append("\n" + facts("adj_class", ADJ_MEMBERS) + "\n")
-for lemma, (comp, sup) in IRREGULAR_ADJ.items():
-    a.append(f'irregular("{lemma}"). form("{lemma}", "degree=comparative", "{comp}"). form("{lemma}", "degree=superlative", "{sup}").\n')
 w(R / "adjectives.lp", "".join(a))
+write_table(D / "adjectives.lexicon.tsv", ["lemma", "adj_class"],
+            [[lemma, cls] for lemma, cls in members(ADJ_MEMBERS)])
+write_table(D / "adjectives.exceptions.tsv", ["lemma", "features", "form"],
+            [[lemma, f"degree={d}", f] for lemma, (comp, sup) in IRREGULAR_ADJ.items()
+             for d, f in (("comparative", comp), ("superlative", sup))])
 
 # ============================================================================= pronouns
 PRON_CASES = CASES[:3] + ["accusative"] + CASES[3:]
@@ -317,12 +326,13 @@ PRON = [
 ]
 pr = ["""% rules/fi/pronouns.lp
 % Finnish personal pronouns (features: case, number); personal pronouns have a
-% distinct accusative (minut, hänet). Every form is listed.
-
+% distinct accusative (minut, hänet). Every form is listed in
+% data/pronouns.exceptions.tsv; there are no rules.
 """]
-for lemma, number, forms in PRON:
-    pr.append(" ".join(f'form("{lemma}", "case={c};number={number}", "{f}").' for c, f in zip(PRON_CASES, forms.split())) + "\n")
 w(R / "pronouns.lp", "".join(pr))
+write_table(D / "pronouns.exceptions.tsv", ["lemma", "features", "form"],
+            [[lemma, f"case={c};number={number}", f]
+             for lemma, number, forms in PRON for c, f in zip(PRON_CASES, forms.split())])
 
 
 # ============================================================================= golden tests (typed separately)

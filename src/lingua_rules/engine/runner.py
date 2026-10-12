@@ -4,6 +4,7 @@ from pathlib import Path
 
 import clingo
 
+from .datasets import DatasetError, dataset_program
 from .escaping import (
     UnsafeFieldValueError,
     escape_clingo_string,
@@ -27,10 +28,10 @@ class InvalidLemmaError(UnsafeFieldValueError):
 
 
 class RuleFileParseError(Exception):
-    """Raised when Clingo cannot parse a rule file.
+    """Raised when Clingo cannot parse a rule file, or a dataset file is malformed.
 
-    Carries the offending file's path alongside Clingo's own parse message, so
-    the linguist is told which file to go fix.
+    Carries the offending file's path alongside the parse message, so the
+    linguist is told which file to go fix.
     """
 
 
@@ -48,10 +49,18 @@ def generate_form(
 
     rule_path = category_rule_path(rules_dir, lang_code, category)
     source = rule_path.read_text(encoding="utf-8")
-    program = f'input_lemma("{escape_clingo_string(lemma)}").\n{source}'
+    try:
+        # Only the requested lemma's rows of lemma-keyed tables are loaded.
+        data = dataset_program(rules_dir, lang_code, category, lemma)
+    except DatasetError as exc:
+        raise RuleFileParseError(f"could not load dataset {exc}") from exc
+    program = f'input_lemma("{escape_clingo_string(lemma)}").\n{data}{source}'
     target_key = feature_key(features)
 
-    ctl = clingo.Control()
+    # Only one lemma's rows are loaded, so predicates such as irregular/1 or a
+    # lexicon column are often empty; Clingo's "atom does not occur in any rule
+    # head" notes are expected here, not problems (lint still reports real ones).
+    ctl = clingo.Control(["--warn=none"])
     try:
         ctl.add("base", [], program)
         ctl.ground([("base", [])], context=RuleContext())

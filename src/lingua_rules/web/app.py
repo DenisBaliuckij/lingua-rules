@@ -8,6 +8,7 @@ from fastapi.responses import RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
+from lingua_rules.engine.datasets import dataset_key_dimensions, load_datasets
 from lingua_rules.engine.escaping import UnsafeFieldValueError
 from lingua_rules.engine.features import (
     UnknownFeatureError,
@@ -41,6 +42,9 @@ _NOT_FOUND_ERRORS = (
 )
 
 app = FastAPI(title="lingua-rules")
+
+# Rows of each dataset table shown on the category page.
+_PREVIEW_ROWS = 50
 
 _TEMPLATES_DIR = Path(__file__).parent / "templates"
 _STATIC_DIR = Path(__file__).parent / "static"
@@ -93,10 +97,20 @@ def category_page(
             status_code=404,
             detail=f"rule file for category '{category}' does not exist yet",
         )
+    errors: list[str] = []
+    datasets = load_datasets(rules_dir, lang, category, errors)
     return templates.TemplateResponse(
         request,
         "category.html",
-        {"lang": lang, "category": category, "source": source, "vocab": vocab},
+        {
+            "lang": lang,
+            "category": category,
+            "source": source,
+            "vocab": vocab,
+            "datasets": datasets,
+            "dataset_errors": errors,
+            "preview_rows": _PREVIEW_ROWS,
+        },
     )
 
 
@@ -116,6 +130,8 @@ def try_it_form(
         keys = key_dimensions(rule_path.read_text(encoding="utf-8"))
     except OSError:
         keys = []
+    # Forms listed in tables (exceptions, paradigm endings) use feature keys too.
+    keys += dataset_key_dimensions(rules_dir, lang, category)
     # Show only the dimensions this category's rules use, and preselect a value
     # only for dimensions that every rule uses: a language's features are
     # shared by all its categories, and a request carrying a dimension the

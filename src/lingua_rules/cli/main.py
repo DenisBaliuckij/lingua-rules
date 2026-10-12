@@ -26,7 +26,13 @@ from lingua_rules.engine.runner import (
     RuleFileParseError,
     generate_form,
 )
-from lingua_rules.engine.templates import MissingTemplateFieldError, append_rule
+from lingua_rules.engine.datasets import DatasetError
+from lingua_rules.engine.templates import (
+    TEMPLATE_NAMES,
+    DuplicateEntryError,
+    MissingTemplateFieldError,
+    append_rule,
+)
 
 app = typer.Typer(help="Author, browse, and test natural language grammar rules.")
 
@@ -175,21 +181,49 @@ def lint(
 def new_rule(
     lang: str,
     category: str,
-    template: str = typer.Option(..., "--template", help="regular-affix or exception-override"),
-    feature_key: str = typer.Option(..., "--feature-key", help='e.g. "number=plural"'),
+    template: str = typer.Option(..., "--template", help=", ".join(TEMPLATE_NAMES)),
+    feature_key: str = typer.Option(None, "--feature-key", help='e.g. "number=plural"'),
     suffix: str = typer.Option(None, "--suffix"),
+    prefix: str = typer.Option(None, "--prefix"),
     lemma: str = typer.Option(None, "--lemma"),
     form: str = typer.Option(None, "--form"),
+    class_predicate: str = typer.Option(
+        None, "--class-predicate", help="class-paradigm: e.g. noun_class"
+    ),
+    class_name: str = typer.Option(None, "--class", help="paradigm-ending: e.g. m_hard"),
+    strip: str = typer.Option(None, "--strip", help="paradigm-ending: letters to drop"),
+    ending: str = typer.Option(None, "--ending", help="paradigm-ending: ending to add"),
+    predicate: str = typer.Option(None, "--predicate", help="lexicon-entry: e.g. noun_class"),
+    value: str = typer.Option(None, "--value", help="lexicon-entry: e.g. m_hard"),
+    value_type: str = typer.Option(
+        None, "--value-type", help="lexicon-entry: constant (default), string, number, flag"
+    ),
     rules_dir: Path = typer.Option(Path("rules"), "--rules-dir"),
 ) -> None:
-    """Append a rule scaffold from TEMPLATE to CATEGORY's rule file for LANG."""
-    fields = {"feature_key": feature_key, "suffix": suffix, "lemma": lemma, "form": form}
+    """Apply TEMPLATE to CATEGORY of LANG: a rule goes to the .lp file, an exception,
+    paradigm ending or lexicon entry goes to a table under rules/LANG/data/."""
+    fields = {
+        "feature_key": feature_key,
+        "suffix": suffix,
+        "prefix": prefix,
+        "lemma": lemma,
+        "form": form,
+        "class_predicate": class_predicate,
+        "class_name": class_name,
+        "strip": strip,
+        "ending": ending,
+        "predicate": predicate,
+        "value": value,
+        "value_type": value_type,
+    }
     kwargs = {key: value for key, value in fields.items() if value is not None}
     try:
         path = append_rule(rules_dir, lang, category, template, **kwargs)
     except (
         ValueError,
         MissingTemplateFieldError,
+        DuplicateEntryError,
+        DatasetError,
         UnsafeFieldValueError,
         UnknownFeatureError,
         CategoryNotFoundError,
@@ -197,7 +231,10 @@ def new_rule(
     ) as exc:
         typer.echo(f"error: {exc}")
         raise typer.Exit(code=1)
-    typer.echo(f"appended {template} scaffold to {path}")
+    if path.suffix == ".tsv":
+        typer.echo(f"added {template} row to {path}")
+    else:
+        typer.echo(f"appended {template} scaffold to {path}")
 
 
 @app.command()

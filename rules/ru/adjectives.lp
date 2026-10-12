@@ -12,6 +12,8 @@
 % "animacy=inanimate;..." (новый). The neuter accusative equals the nominative.
 % Comparative: hard and soft adjectives take -ее (новее, синее); others are
 % listed (хороший -> лучше).
+% Data: adjectives.lexicon.tsv gives adj_class and the listed comparative
+% (comparative/2) per lemma.
 %
 % Not covered: short forms (нов, нова), superlative (новейший, самый новый),
 % the alternative instrumental -ою/-ею.
@@ -120,10 +122,3 @@ listed_comparative(L) :- comparative(L, _).
 form(L, "degree=comparative", F) :- input_lemma(L), comparative(L, F).
 form(L, "degree=comparative", @strip_suffix_add(L, 2, "ее")) :- input_lemma(L), adj_class(L, hard), not listed_comparative(L).
 form(L, "degree=comparative", @strip_suffix_add(L, 2, "ее")) :- input_lemma(L), adj_class(L, soft), not listed_comparative(L).
-
-% --- class membership
-adj_class("новый", hard). adj_class("красивый", hard). adj_class("старый", hard). adj_class("белый", hard). adj_class("молодой", hard). adj_class("простой", hard). adj_class("интересный", hard).
-adj_class("синий", soft). adj_class("последний", soft). adj_class("летний", soft). adj_class("зимний", soft).
-adj_class("русский", velar). adj_class("маленький", velar). adj_class("высокий", velar). adj_class("лёгкий", velar). adj_class("дорогой", velar). adj_class("большой", velar). adj_class("другой", velar).
-adj_class("хороший", hush). adj_class("свежий", hush). adj_class("общий", hush).
-comparative("хороший", "лучше"). comparative("плохой", "хуже"). comparative("большой", "больше"). comparative("маленький", "меньше"). comparative("молодой", "моложе"). comparative("старый", "старше"). comparative("высокий", "выше"). comparative("дорогой", "дороже"). comparative("простой", "проще"). comparative("лёгкий", "легче").

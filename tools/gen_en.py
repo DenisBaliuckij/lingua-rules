@@ -7,7 +7,10 @@ Run from the repository root: python tools/gen_en.py
 
 from pathlib import Path
 
+from tables import lexicon, members, write_table
+
 R = Path("rules/en")
+D = R / "data"
 T = Path("tests/en")
 
 
@@ -119,6 +122,8 @@ v = ["""% rules/en/verbs.lp
 % Verbs that double their final consonant are listed with
 % double_consonant/2: stop -> stopped, stopping.
 % Irregular verbs are marked irregular/1 and list all four non-base forms.
+% Data (rules/en/data/): verbs.lexicon.tsv (verb_class and double_consonant
+% per lemma), verbs.exceptions.tsv (irregular verbs).
 %
 % Not covered: the forms of "be" by person (am, are, were), modal verbs, and
 % British/American variants (only one form each, e.g. "got" not "gotten").
@@ -164,20 +169,15 @@ form(L, "verb_form=present_3sg", @suffix(L, "s")) :- input_lemma(L), double_cons
 form(L, "verb_form=past", @suffix(S, "ed")) :- input_lemma(L), double_consonant(L, C), S = @suffix(L, C).
 form(L, "verb_form=past_participle", @suffix(S, "ed")) :- input_lemma(L), double_consonant(L, C), S = @suffix(L, C).
 form(L, "verb_form=present_participle", @suffix(S, "ing")) :- input_lemma(L), double_consonant(L, C), S = @suffix(L, C).
-
-% --- class membership --------------------------------------------------------
 """]
-for cls, lemmas in VERB_CLASSES.items():
-    v.append(" ".join(f'verb_class("{l}", {cls}).' for l in lemmas) + "\n")
-v.append(" ".join(f'double_consonant("{l}", "{c}").' for l, c in DOUBLE_VERBS.items()) + "\n")
-v.append("\n% --- irregular verbs ---------------------------------------------------------\n")
-for base, s3, past, pp, ing in IRREGULAR_VERBS:
-    v.append(
-        f'irregular("{base}"). '
-        f'form("{base}", "verb_form=present_3sg", "{s3}"). form("{base}", "verb_form=past", "{past}").\n'
-        f'  form("{base}", "verb_form=past_participle", "{pp}"). form("{base}", "verb_form=present_participle", "{ing}").\n'
-    )
 w(R / "verbs.lp", "".join(v))
+write_table(D / "verbs.lexicon.tsv", ["lemma", "verb_class", "double_consonant:string"], lexicon(
+    ["verb_class", "double_consonant"],
+    {"verb_class": dict(members(VERB_CLASSES)), "double_consonant": DOUBLE_VERBS}))
+VERB_FORMS = ["present_3sg", "past", "past_participle", "present_participle"]
+write_table(D / "verbs.exceptions.tsv", ["lemma", "features", "form"],
+            [[base, f"verb_form={vf}", f] for base, *forms in IRREGULAR_VERBS
+             for vf, f in zip(VERB_FORMS, forms)])
 
 # ----------------------------------------------------------------------------- adjectives
 ADJ_CLASSES = {
@@ -202,6 +202,8 @@ a = ["""% rules/en/adjectives.lp
 %   periphrastic  beautiful -> more beautiful, most beautiful
 % Adjectives that double their final consonant: big -> bigger, biggest
 % (double_consonant/2). Irregular comparison is listed explicitly.
+% Data (rules/en/data/): adjectives.lexicon.tsv (adj_class and
+% double_consonant per lemma), adjectives.exceptions.tsv (irregular comparison).
 
 form(L, "degree=positive", L) :- input_lemma(L).
 
@@ -223,14 +225,14 @@ form(L, "degree=superlative", @prefix(L, "most ")) :- input_lemma(L), adj_class(
 
 form(L, "degree=comparative", @suffix(S, "er")) :- input_lemma(L), double_consonant(L, C), S = @suffix(L, C).
 form(L, "degree=superlative", @suffix(S, "est")) :- input_lemma(L), double_consonant(L, C), S = @suffix(L, C).
-
 """]
-for cls, lemmas in ADJ_CLASSES.items():
-    a.append(" ".join(f'adj_class("{l}", {cls}).' for l in lemmas) + "\n")
-a.append(" ".join(f'double_consonant("{l}", "{c}").' for l, c in DOUBLE_ADJ.items()) + "\n\n")
-for pos, comp, sup in IRREGULAR_ADJ:
-    a.append(f'irregular("{pos}"). form("{pos}", "degree=comparative", "{comp}"). form("{pos}", "degree=superlative", "{sup}").\n')
 w(R / "adjectives.lp", "".join(a))
+write_table(D / "adjectives.lexicon.tsv", ["lemma", "adj_class", "double_consonant:string"], lexicon(
+    ["adj_class", "double_consonant"],
+    {"adj_class": dict(members(ADJ_CLASSES)), "double_consonant": DOUBLE_ADJ}))
+write_table(D / "adjectives.exceptions.tsv", ["lemma", "features", "form"],
+            [[pos, f"degree={d}", f] for pos, comp, sup in IRREGULAR_ADJ
+             for d, f in (("comparative", comp), ("superlative", sup))])
 
 # ----------------------------------------------------------------------------- pronouns
 PRONOUNS = [  # lemma, number, subject, object, poss. determiner, poss. pronoun, reflexive
@@ -247,14 +249,12 @@ CASES = ["subject", "object", "possessive_determiner", "possessive_pronoun", "re
 p = ["""% rules/en/pronouns.lp
 % English personal pronouns (features: case, number). The lemma is the subject
 % form; "you" has both a singular and a plural paradigm (yourself/yourselves).
-% Every form is listed; there are no general rules.
-
+% Every form is listed in data/pronouns.exceptions.tsv; there are no rules.
 """]
-for lemma, number, *forms in PRONOUNS:
-    p.append(f"% {lemma} ({number})\n")
-    for case, f in zip(CASES, forms):
-        p.append(f'form("{lemma}", "case={case};number={number}", "{f}").\n')
 w(R / "pronouns.lp", "".join(p))
+write_table(D / "pronouns.exceptions.tsv", ["lemma", "features", "form"],
+            [[lemma, f"case={case};number={number}", f]
+             for lemma, number, *forms in PRONOUNS for case, f in zip(CASES, forms)])
 
 # ----------------------------------------------------------------------------- golden tests
 EXPECTED_VERBS = {  # typed out by hand: 3sg, past, past participle, -ing
