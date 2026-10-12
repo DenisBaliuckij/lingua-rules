@@ -1,0 +1,59 @@
+lemma: bello
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: belle
+- features:
+    gender: feminine
+    number: singular
+  expected: bella
+- features:
+    gender: masculine
+    number: plural
+  expected: bei
+- features:
+    gender: masculine
+    number: singular
+  expected: bel
+---
+lemma: buono
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: buone
+- features:
+    gender: feminine
+    number: singular
+  expected: buona
+- features:
+    gender: masculine
+    number: plural
+  expected: buoni
+- features:
+    gender: masculine
+    number: singular
+  expected: buon
+---
+lemma: grande
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: grandi
+- features:
+    gender: feminine
+    number: singular
+  expected: grande
+- features:
+    gender: masculine
+    number: plural
+  expected: grandi
+- features:
+    gender: masculine
+    number: singular
+  expected: gran
