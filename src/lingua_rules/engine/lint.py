@@ -152,11 +152,16 @@ def _dataset_issues(
                         f"but line {previous[0]} gives {previous[1]!r}"
                     )
 
-        if dataset.kind == PARADIGMS and "paradigm_ending" not in rule_words:
-            messages.append(
-                f"{dataset.path}: no rule reads paradigm_ending/4; add one with the "
-                "class-paradigm template"
+        if dataset.kind == PARADIGMS:
+            pred, arity, template = (
+                ("paradigm_affix", 6, "class-paradigm-affix") if dataset.has_prefixes
+                else ("paradigm_ending", 4, "class-paradigm")
             )
+            if pred not in rule_words:
+                messages.append(
+                    f"{dataset.path}: no rule reads {pred}/{arity}; add one with the "
+                    f"{template} template"
+                )
 
         if dataset.kind != FACTS:
             continue

@@ -16,6 +16,10 @@ when a form is generated:
     Paradigm tables: ``class``, ``features``, ``strip``, ``ending``. Each row
     becomes ``paradigm_ending(class, "key", strip, "ending").``; the rule
     written by the ``class-paradigm`` template turns these into forms.
+    A table that also has the columns ``strip_front`` and ``prefix`` (for
+    languages that inflect at the front of the word: Swahili m-tu / wa-tu)
+    becomes ``paradigm_affix(class, "key", strip_front, "prefix", strip,
+    "ending").`` instead, read by the ``class-paradigm-affix`` rule.
 
 ``<category>.<anything>.tsv``
     Fact tables. The first column is the key (a lemma, or a class); every other
@@ -49,9 +53,10 @@ FACTS = "facts"
 
 EXCEPTION_COLUMNS = ("lemma", "features", "form")
 PARADIGM_COLUMNS = ("class", "features", "strip", "ending")
+PREFIX_COLUMNS = ("strip_front", "prefix")  # optional in a paradigm table, together
 METADATA_COLUMNS = frozenset({"source", "note"})
 TYPES = ("string", "constant", "number", "flag")
-RESERVED_PREDICATES = frozenset({"form", "input_lemma", "paradigm_ending"})
+RESERVED_PREDICATES = frozenset({"form", "input_lemma", "paradigm_ending", "paradigm_affix"})
 FLAG_TRUE = frozenset({"yes", "true", "1", "x"})
 FLAG_FALSE = frozenset({"", "no", "false", "0"})
 
@@ -100,6 +105,13 @@ class Dataset:
         """Rows describe one lemma each, so only the requested lemma's rows matter."""
         return self.kind == EXCEPTIONS or (self.kind == FACTS and self.key.name == "lemma")
 
+    @property
+    def has_prefixes(self) -> bool:
+        """A paradigm table with strip_front/prefix columns (facts paradigm_affix/6)."""
+        return self.kind == PARADIGMS and all(
+            any(c.name == p for c in self.columns) for p in PREFIX_COLUMNS
+        )
+
     def cell(self, row: Row, column: str) -> str:
         for index, col in enumerate(self.columns):
             if col.name == column:
@@ -126,10 +138,15 @@ class Dataset:
         elif self.kind == PARADIGMS:
             for row in rows:
                 cls, key, strip, ending = (self.cell(row, c) for c in PARADIGM_COLUMNS)
-                out.append(
-                    f'paradigm_ending({cls}, "{normalize_key(key)}", {strip or 0}, '
-                    f'"{escape_clingo_string(ending)}").'
-                )
+                key, ending = normalize_key(key), escape_clingo_string(ending)
+                if self.has_prefixes:
+                    front, prefix = (self.cell(row, c) for c in PREFIX_COLUMNS)
+                    out.append(
+                        f'paradigm_affix({cls}, "{key}", {front or 0}, '
+                        f'"{escape_clingo_string(prefix)}", {strip or 0}, "{ending}").'
+                    )
+                else:
+                    out.append(f'paradigm_ending({cls}, "{key}", {strip or 0}, "{ending}").')
         else:
             for row in rows:
                 key = render_value(row.cells[0], self.key.type)
@@ -220,13 +237,18 @@ def _parse_header(path: Path, kind: str, cells: list[str]) -> list[Column]:
         raise DatasetError(f"{path}: duplicate column(s) {duplicates}")
     if kind in (EXCEPTIONS, PARADIGMS):
         expected = EXCEPTION_COLUMNS if kind == EXCEPTIONS else PARADIGM_COLUMNS
+        optional = PREFIX_COLUMNS if kind == PARADIGMS else ()
         missing = [c for c in expected if c not in names]
-        extra = [c for c in names if c not in expected and c not in METADATA_COLUMNS]
+        extra = [c for c in names
+                 if c not in expected and c not in optional and c not in METADATA_COLUMNS]
         if missing or extra:
             raise DatasetError(
                 f"{path}: a {kind} table needs the columns {list(expected)} "
-                f"(plus optional source/note); missing {missing}, unexpected {extra}"
+                f"(plus optional {'strip_front/prefix, ' if optional else ''}source/note); "
+                f"missing {missing}, unexpected {extra}"
             )
+        if optional and sum(c in names for c in optional) == 1:
+            raise DatasetError(f"{path}: strip_front and prefix go together")
     elif len([c for c in columns if not c.is_meta]) < 2:
         raise DatasetError(f"{path}: a fact table needs a key column and at least one predicate")
     return columns
@@ -262,6 +284,12 @@ def _check_row(dataset: Dataset, row: Row) -> None:
             raise DatasetError(f"{where}: class {cls!r} is not a constant")
         if strip and not re.fullmatch(r"[0-9]+", strip):
             raise DatasetError(f"{where}: strip {strip!r} must be a number of letters (0, 1, 2 ...)")
+        if dataset.has_prefixes:
+            front = dataset.cell(row, "strip_front")
+            if front and not re.fullmatch(r"[0-9]+", front):
+                raise DatasetError(
+                    f"{where}: strip_front {front!r} must be a number of letters (0, 1, 2 ...)"
+                )
 
 
 def read_dataset(path: Path, errors: list[str] | None = None) -> Dataset:

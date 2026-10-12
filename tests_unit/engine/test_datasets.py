@@ -13,6 +13,7 @@ from lingua_rules.engine.datasets import (
 )
 from lingua_rules.engine.lint import lint_language
 from lingua_rules.engine.runner import NoRuleMatchedError, RuleFileParseError, generate_form
+from lingua_rules.engine.escaping import UnsafeFieldValueError
 from lingua_rules.engine.templates import DuplicateEntryError, append_rule
 
 
@@ -184,4 +185,38 @@ def test_a_category_without_a_data_folder_has_no_datasets(tmp_path):
 def test_a_table_without_a_header_is_an_error(tmp_path):
     rules_dir = _language(tmp_path, "% nouns\n", {"nouns.lexicon.tsv": "# only a comment\n"})
     with pytest.raises(DatasetError, match="no header"):
+        load_datasets(rules_dir, "xx", "nouns")
+
+
+def test_affix_paradigm_table_changes_the_front_of_the_word(tmp_path):
+    """Swahili-style class prefixes: m-tu -> wa-tu, with an ending in the same table."""
+    rules_dir = _language(tmp_path, "% nouns\n", {})
+    append_rule(rules_dir, "xx", "nouns", "class-paradigm-affix", class_predicate="noun_class")
+    append_rule(rules_dir, "xx", "nouns", "paradigm-ending", class_name="m_wa",
+                feature_key="case=nominative;number=plural", strip_front="1", prefix="wa")
+    append_rule(rules_dir, "xx", "nouns", "paradigm-ending", class_name="m_wa",
+                feature_key="case=genitive;number=plural", strip_front="1", prefix="wa",
+                strip="1", ending="ini")
+    append_rule(rules_dir, "xx", "nouns", "lexicon-entry", lemma="mtu",
+                predicate="noun_class", value="m_wa")
+    table = (rules_dir / "xx" / "data" / "nouns.paradigms.tsv").read_text(encoding="utf-8")
+    assert table.splitlines()[0] == "class\tfeatures\tstrip_front\tprefix\tstrip\tending"
+    assert generate_form(
+        rules_dir, "xx", "nouns", "mtu", {"case": "nominative", "number": "plural"}
+    ) == "watu"
+    assert generate_form(
+        rules_dir, "xx", "nouns", "mtu", {"case": "genitive", "number": "plural"}
+    ) == "watini"
+    assert lint_language(rules_dir, "xx") == []
+
+
+def test_prefix_needs_an_affix_table_and_both_columns(tmp_path):
+    rules_dir = _language(tmp_path, "% nouns\n", {})
+    append_rule(rules_dir, "xx", "nouns", "class-paradigm", class_predicate="noun_class")
+    with pytest.raises(UnsafeFieldValueError, match="class-paradigm-affix"):
+        append_rule(rules_dir, "xx", "nouns", "paradigm-ending", class_name="m_wa",
+                    feature_key="number=plural", strip_front="1", prefix="wa")
+    (rules_dir / "xx" / "data" / "nouns.paradigms.tsv").write_text(
+        "class\tfeatures\tprefix\tstrip\tending\n", encoding="utf-8")
+    with pytest.raises(DatasetError, match="go together"):
         load_datasets(rules_dir, "xx", "nouns")

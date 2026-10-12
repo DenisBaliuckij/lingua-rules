@@ -15,6 +15,7 @@ from .datasets import (
     EXCEPTION_COLUMNS,
     IDENTIFIER_RE,
     PARADIGM_COLUMNS,
+    PREFIX_COLUMNS,
     RESERVED_PREDICATES,
     TYPES,
     DatasetError,
@@ -52,10 +53,21 @@ CLASS_PARADIGM_TEMPLATE = (
     " not irregular(Lemma).\n"
 )
 
+CLASS_PARADIGM_AFFIX_TEMPLATE = (
+    "\n"
+    "% Paradigm tables with prefixes: a lemma with {class_predicate}(Lemma, Class) gets one form per\n"
+    "% row of data/{category}.paradigms.tsv for its class (drop `strip_front` letters at the start and\n"
+    "% `strip` at the end, add `prefix` and `ending`).\n"
+    "form(Lemma, Key, @affix(Lemma, Front, Prefix, Strip, Ending)) :- input_lemma(Lemma),\n"
+    "    {class_predicate}(Lemma, Class), paradigm_affix(Class, Key, Front, Prefix, Strip, Ending),"
+    " not irregular(Lemma).\n"
+)
+
 _RULE_TEMPLATES = {
     "regular-affix": REGULAR_AFFIX_TEMPLATE,
     "regular-prefix": REGULAR_PREFIX_TEMPLATE,
     "class-paradigm": CLASS_PARADIGM_TEMPLATE,
+    "class-paradigm-affix": CLASS_PARADIGM_AFFIX_TEMPLATE,
 }
 
 # Templates that add a dataset row instead of Clingo text.
@@ -65,6 +77,7 @@ _TEMPLATE_REQUIRED_FIELDS = {
     "regular-affix": ("feature_key", "suffix"),
     "regular-prefix": ("feature_key", "prefix"),
     "class-paradigm": ("class_predicate",),
+    "class-paradigm-affix": ("class_predicate",),
     "exception-override": ("lemma", "feature_key", "form"),
     "paradigm-ending": ("class_name", "feature_key"),
     "lexicon-entry": ("lemma", "predicate", "value"),
@@ -143,11 +156,12 @@ def append_rule(
     if template_name in _DATA_TEMPLATES:
         return _append_data(rules_dir, lang_code, category, template_name, kwargs)
 
-    if template_name == "class-paradigm":
+    if template_name in ("class-paradigm", "class-paradigm-affix"):
         _check_identifier(kwargs["class_predicate"], "class_predicate")
-        _ensure_table(
-            _table_path(rules_dir, lang_code, category, "paradigms"), PARADIGM_COLUMNS
-        )
+        header = PARADIGM_COLUMNS
+        if template_name == "class-paradigm-affix":
+            header = ("class", "features", *PREFIX_COLUMNS, "strip", "ending")
+        _ensure_table(_table_path(rules_dir, lang_code, category, "paradigms"), header)
         kwargs["category"] = category
 
     safe_kwargs = {
@@ -216,6 +230,14 @@ def _append_data(
         path = _table_path(rules_dir, lang_code, category, "paradigms")
         _ensure_table(path, PARADIGM_COLUMNS)
         dataset = read_dataset(path)
+        front = kwargs.get("strip_front") or "0"
+        if not front.isdigit():
+            raise UnsafeFieldValueError(f"strip_front {front!r} must be a number of letters")
+        if (front != "0" or kwargs.get("prefix")) and not dataset.has_prefixes:
+            raise UnsafeFieldValueError(
+                f"{path} has no strip_front/prefix columns; start it with the "
+                "class-paradigm-affix template to use prefixes"
+            )
         cls, key = kwargs["class_name"], kwargs["feature_key"]
         for row in dataset.rows:
             if _same_key(dataset, row, "class", cls, key):
@@ -223,7 +245,8 @@ def _append_data(
                     f"{path}:{row.line} already has an ending for {cls} {key}; "
                     "edit that row instead"
                 )
-        values = {"class": cls, "features": key, "strip": strip, "ending": kwargs.get("ending", "")}
+        values = {"class": cls, "features": key, "strip": strip, "ending": kwargs.get("ending", ""),
+                  "strip_front": front, "prefix": kwargs.get("prefix", "")}
         _append_row(path, [c.name for c in dataset.columns], values)
         return path
 

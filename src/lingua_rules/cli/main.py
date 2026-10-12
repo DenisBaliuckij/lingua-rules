@@ -191,7 +191,10 @@ def new_rule(
         None, "--class-predicate", help="class-paradigm: e.g. noun_class"
     ),
     class_name: str = typer.Option(None, "--class", help="paradigm-ending: e.g. m_hard"),
-    strip: str = typer.Option(None, "--strip", help="paradigm-ending: letters to drop"),
+    strip: str = typer.Option(None, "--strip", help="paradigm-ending: letters to drop at the end"),
+    strip_front: str = typer.Option(
+        None, "--strip-front", help="paradigm-ending (affix tables): letters to drop at the start"
+    ),
     ending: str = typer.Option(None, "--ending", help="paradigm-ending: ending to add"),
     predicate: str = typer.Option(None, "--predicate", help="lexicon-entry: e.g. noun_class"),
     value: str = typer.Option(None, "--value", help="lexicon-entry: e.g. m_hard"),
@@ -211,6 +214,7 @@ def new_rule(
         "class_predicate": class_predicate,
         "class_name": class_name,
         "strip": strip,
+        "strip_front": strip_front,
         "ending": ending,
         "predicate": predicate,
         "value": value,

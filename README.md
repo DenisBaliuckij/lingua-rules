@@ -262,6 +262,7 @@ these are Python functions called with `@`):
 | `@suffix(Lemma, "s")` | lemma + suffix | `cat` → `cats` |
 | `@prefix(Lemma, "un")` | prefix + lemma | `happy` → `unhappy` |
 | `@strip_suffix_add(Lemma, 2, "en")` | drop the last N letters, then add a string | `Museum` → `Museen` |
+| `@affix(Lemma, 1, "wa", 0, "")` | drop letters at the start and at the end, add a prefix and an ending | `mtu` → `watu` |
 
 ### 4.1 Datasets: exceptions and other lists
 
@@ -284,6 +285,7 @@ There are three kinds of table, chosen by the file name:
 |---|---|---|
 | `<category>.exceptions.tsv` | `lemma`, `features`, `form` | `irregular("lemma").` once per lemma, and `form("lemma", "key", "form").` per row |
 | `<category>.paradigms.tsv` | `class`, `features`, `strip`, `ending` | `paradigm_ending(class, "key", strip, "ending").` — used by the `class-paradigm` rule (section 5) |
+| ... with `strip_front` and `prefix` columns too | `class`, `features`, `strip_front`, `prefix`, `strip`, `ending` | `paradigm_affix(class, "key", strip_front, "prefix", strip, "ending").` — for languages that inflect at the front of the word (Swahili `mtu` → `watu`), used by the `class-paradigm-affix` rule |
 | `<category>.<anything else>.tsv` (e.g. `lexicon`, `classes`) | a key column, then one column per predicate | one fact per filled cell (below) |
 
 In a **fact table** the first column is the key — usually `lemma`, or `class`
@@ -362,8 +364,9 @@ the line to edit instead.
 | `regular-affix` | `.lp` | A regular rule that adds a suffix to every non-exception lemma (also in the web UI, *Add a rule*) | feature key, suffix | `--feature-key`, `--suffix` |
 | `regular-prefix` | `.lp` | The same with a prefix (`happy` → `unhappy`) | feature key, prefix | `--feature-key`, `--prefix` |
 | `class-paradigm` | `.lp` (+ creates `paradigms.tsv`) | One rule that builds every form of a class from a paradigm table | class predicate | `--class-predicate` |
+| `class-paradigm-affix` | `.lp` (+ creates `paradigms.tsv` with `strip_front`, `prefix`) | The same for prefixes and suffixes together (`@affix`) | class predicate | `--class-predicate` |
 | `exception-override` | `exceptions.tsv` | One irregular lemma with an explicit form | lemma, feature key, form | `--lemma`, `--feature-key`, `--form` |
-| `paradigm-ending` | `paradigms.tsv` | One cell of a paradigm table: a class's ending for a feature key | class, feature key (strip, ending optional) | `--class`, `--feature-key`, `--strip`, `--ending` |
+| `paradigm-ending` | `paradigms.tsv` | One cell of a paradigm table: a class's ending (and, in an affix table, prefix) for a feature key | class, feature key (the rest optional) | `--class`, `--feature-key`, `--strip`, `--ending`, `--strip-front`, `--prefix` |
 | `lexicon-entry` | `lexicon.tsv` | A word's value for one predicate, e.g. its class or a flag | lemma, predicate, value | `--lemma`, `--predicate`, `--value`, `--value-type` |
 
 **`regular-affix`**

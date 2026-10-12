@@ -275,6 +275,7 @@ child	number=plural	children
 | `@suffix(Lemma, "s")` | лемма + суффикс | `cat` → `cats` |
 | `@prefix(Lemma, "un")` | префикс + лемма | `happy` → `unhappy` |
 | `@strip_suffix_add(Lemma, 2, "en")` | отбросить последние N букв и добавить строку | `Museum` → `Museen` |
+| `@affix(Lemma, 1, "wa", 0, "")` | отбросить буквы в начале и в конце, добавить приставку и окончание | `mtu` → `watu` |
 
 ### 4.1 Наборы данных: исключения и другие списки
 
@@ -299,6 +300,7 @@ UTF-8*). Пустые строки и строки, начинающиеся с 
 |---|---|---|
 | `<часть_речи>.exceptions.tsv` | `lemma`, `features`, `form` | `irregular("лемма").` один раз на лемму и `form("лемма", "ключ", "форма").` на каждую строку |
 | `<часть_речи>.paradigms.tsv` | `class`, `features`, `strip`, `ending` | `paradigm_ending(класс, "ключ", strip, "окончание").` — для правила из шаблона `class-paradigm` (раздел 5) |
+| ... со столбцами `strip_front` и `prefix` | `class`, `features`, `strip_front`, `prefix`, `strip`, `ending` | `paradigm_affix(класс, "ключ", strip_front, "префикс", strip, "окончание").` — для языков, где слово изменяется в начале (суахили `mtu` → `watu`); для правила из шаблона `class-paradigm-affix` |
 | `<часть_речи>.<любое другое имя>.tsv` (например, `lexicon`, `classes`) | ключевой столбец, затем по столбцу на предикат | по факту на каждую заполненную ячейку (ниже) |
 
 В **таблице фактов** первый столбец — ключ (обычно `lemma`, или `class` для
@@ -378,8 +380,9 @@ lemma	features	form
 | `regular-affix` | `.lp` | Регулярное правило: суффикс ко всем леммам, кроме исключений (есть и в веб-интерфейсе, *Add a rule*) | ключ признаков, суффикс | `--feature-key`, `--suffix` |
 | `regular-prefix` | `.lp` | То же с префиксом (`happy` → `unhappy`) | ключ признаков, префикс | `--feature-key`, `--prefix` |
 | `class-paradigm` | `.lp` (+ создаёт `paradigms.tsv`) | Одно правило, строящее все формы класса по таблице парадигмы | предикат класса | `--class-predicate` |
+| `class-paradigm-affix` | `.lp` (+ создаёт `paradigms.tsv` со `strip_front`, `prefix`) | То же для приставок и окончаний вместе (`@affix`) | предикат класса | `--class-predicate` |
 | `exception-override` | `exceptions.tsv` | Одна нерегулярная лемма с явно заданной формой | лемма, ключ признаков, форма | `--lemma`, `--feature-key`, `--form` |
-| `paradigm-ending` | `paradigms.tsv` | Одна клетка таблицы парадигмы: окончание класса для ключа признаков | класс, ключ признаков (strip и окончание — по желанию) | `--class`, `--feature-key`, `--strip`, `--ending` |
+| `paradigm-ending` | `paradigms.tsv` | Одна клетка таблицы парадигмы: окончание (а в таблице с приставками — и приставка) класса для ключа признаков | класс, ключ признаков (остальное — по желанию) | `--class`, `--feature-key`, `--strip`, `--ending`, `--strip-front`, `--prefix` |
 | `lexicon-entry` | `lexicon.tsv` | Значение предиката для слова, например его класс или флаг | лемма, предикат, значение | `--lemma`, `--predicate`, `--value`, `--value-type` |
 
 **`regular-affix`**
