@@ -1,0 +1,117 @@
+lemma: em
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: em
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: me
+---
+lemma: ev
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: ev
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ev
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+    person: third
+  expected: vê
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+    person: third
+  expected: vî
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: van
+---
+lemma: ew
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: ew
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ew
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+    person: third
+  expected: wê
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+    person: third
+  expected: wî
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: wan
+---
+lemma: ez
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ez
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: min
+---
+lemma: hun
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: hun
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: we
+---
+lemma: tu
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: tu
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: te
