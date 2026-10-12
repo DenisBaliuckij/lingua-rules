@@ -1,0 +1,19 @@
+lemma: elle
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: ellas
+- features:
+    gender: feminine
+    number: singular
+  expected: ella
+- features:
+    gender: masculine
+    number: plural
+  expected: elles
+- features:
+    gender: masculine
+    number: singular
+  expected: elle

@@ -1,0 +1,31 @@
+lemma: arbor
+category: nouns
+cases:
+- features:
+    case: dative
+    number: plural
+  expected: arborbis
+- features:
+    case: genitive
+    number: plural
+  expected: nrbor-sam
+- features:
+    case: nominative
+    number: plural
+  expected: arbor.ses
+- features:
+    case: nominative
+    number: singular
+  expected: arbor
+---
+lemma: hora
+category: nouns
+cases:
+- features:
+    case: genitive
+    number: singular
+  expected: hora.is
+- features:
+    case: nominative
+    number: singular
+  expected: hora
