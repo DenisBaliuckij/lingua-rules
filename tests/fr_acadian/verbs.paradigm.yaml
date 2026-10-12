@@ -1,0 +1,418 @@
+lemma: faire
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+  expected: faiserais
+- features:
+    mood: imperative
+    number: plural
+  expected: faisez
+- features:
+    mood: subjunctive
+    tense: imperfect
+  expected: fessis
+---
+lemma: il faut
+category: verbs
+cases:
+- features:
+    mood: indicative
+    tense: imperfect
+  expected: foulait
+- features:
+    mood: indicative
+    tense: present
+  expected: faut
+- features:
+    mood: subjunctive
+    tense: present
+  expected: falle
+---
+lemma: mourir
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: conditional_tense
+  expected: meurrai
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: meurez
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: mouront
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: mourirai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: meurais
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: mourit
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: moure
+- features:
+    verb_form: past_participle
+  expected: mouri
+---
+lemma: s’assir
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: asire
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: present
+  expected: asire
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: present
+  expected: asire
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: assis-toi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: assisons
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: assisez
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: s’assisont
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: asir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: assis
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: assis
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: s’assit
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: s’assise
+- features:
+    verb_form: infinitive
+  expected: assir
+---
+lemma: venir
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: venions
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: venons
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: vînmes
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: veniez
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: venez
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: vîntes
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: venaient
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: viennent
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: vinrent
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: venais
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: vienne
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: vins
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: venais
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: viennes
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: vin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: venait
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: vient
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: vint
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: venions
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: veniez
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: viennent
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: vienne
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: viennes
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: vienne
+---
+lemma: voir
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: voirai
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: vurent
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: oie
+- features:
+    verb_form: past_participle
+  expected: vi
+---
+lemma: vouloir
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: voulont
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: voule
+---
+lemma: écrire
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: conditional_tense
+  expected: écriverais
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: écrisions
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: écrisons
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: écrisiez
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: écrisont
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: écrisiont
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: écrisais
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: écrisais
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: écrisait
+---
+lemma: être
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: re
+- features:
+    verb_form: infinitive
+  expected: être
