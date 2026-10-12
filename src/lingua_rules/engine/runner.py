@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from dataclasses import dataclass, field
 from pathlib import Path
 
 import clingo
@@ -35,6 +36,15 @@ class RuleFileParseError(Exception):
     """
 
 
+@dataclass(frozen=True)
+class Generated:
+    """The standard form, plus the forms admitted next to it: (variety, form) pairs
+    from the category's variants table (or from rules that derive admit/4)."""
+
+    form: str
+    admitted: list[tuple[str, str]] = field(default_factory=list)
+
+
 def generate_form(
     rules_dir: Path,
     lang_code: str,
@@ -42,6 +52,16 @@ def generate_form(
     lemma: str,
     features: dict[str, str],
 ) -> str:
+    return generate_forms(rules_dir, lang_code, category, lemma, features).form
+
+
+def generate_forms(
+    rules_dir: Path,
+    lang_code: str,
+    category: str,
+    lemma: str,
+    features: dict[str, str],
+) -> Generated:
     try:
         reject_unsafe_characters(lemma, "lemma")
     except UnsafeFieldValueError as exc:
@@ -70,6 +90,7 @@ def generate_form(
         ) from exc
 
     matches: list[str] = []
+    admitted: list[tuple[str, str]] = []
     with ctl.solve(yield_=True) as handle:
         for model in handle:
             for atom in model.symbols(atoms=True):
@@ -77,6 +98,10 @@ def generate_form(
                     atom_lemma, atom_key, atom_form = atom.arguments
                     if atom_lemma.string == lemma and atom_key.string == target_key:
                         matches.append(atom_form.string)
+                elif atom.name == "admit" and len(atom.arguments) == 4:
+                    atom_lemma, atom_key, atom_form, variety = atom.arguments
+                    if atom_lemma.string == lemma and atom_key.string == target_key:
+                        admitted.append((str(variety), atom_form.string))
             break  # rule files are expected to be deterministic: one model is enough
 
     if not matches:
@@ -84,4 +109,4 @@ def generate_form(
             f"no rule in {lang_code}/{category} produced a form for "
             f"lemma={lemma!r} features={features!r}"
         )
-    return matches[0]
+    return Generated(matches[0], sorted(set(admitted)))

@@ -12,7 +12,13 @@ from lingua_rules.engine.datasets import (
     read_dataset,
 )
 from lingua_rules.engine.lint import lint_language
-from lingua_rules.engine.runner import NoRuleMatchedError, RuleFileParseError, generate_form
+from lingua_rules.engine.paradigm_tests import run_paradigm_tests
+from lingua_rules.engine.runner import (
+    NoRuleMatchedError,
+    RuleFileParseError,
+    generate_form,
+    generate_forms,
+)
 from lingua_rules.engine.escaping import UnsafeFieldValueError
 from lingua_rules.engine.templates import DuplicateEntryError, append_rule
 
@@ -220,3 +226,54 @@ def test_prefix_needs_an_affix_table_and_both_columns(tmp_path):
         "class\tfeatures\tprefix\tstrip\tending\n", encoding="utf-8")
     with pytest.raises(DatasetError, match="go together"):
         load_datasets(rules_dir, "xx", "nouns")
+
+
+PLURAL_S = (
+    'form(L, "case=nominative;number=plural", @suffix(L, "s")) :- '
+    "input_lemma(L), not irregular(L).\n"
+)
+VARIANTS = ("lemma\tfeatures\tform\tvariety\tsource\n"
+            "cat\tcase=nominative;number=plural\tcatz\tnorthern\tdoc 7, p. 3\n"
+            "cat\tcase=nominative;number=plural\tcaten\tsouthern\n"
+            "dog\tcase=nominative;number=plural\tdogz\tnorthern\n")
+
+
+def test_variants_table_admits_dialect_forms_next_to_the_standard_one(tmp_path):
+    rules_dir = _language(tmp_path, PLURAL_S, {"nouns.variants.tsv": VARIANTS})
+    plural = {"case": "nominative", "number": "plural"}
+    generated = generate_forms(rules_dir, "xx", "nouns", "cat", plural)
+    assert generated.form == "cats"  # the standard form is still the answer
+    assert generated.admitted == [("northern", "catz"), ("southern", "caten")]
+    assert generate_forms(rules_dir, "xx", "nouns", "cow", plural).admitted == []
+    assert 'admit("dog", "case=nominative;number=plural", "dogz", northern).' in dataset_program(
+        rules_dir, "xx", "nouns")
+
+
+def test_variant_rows_need_a_constant_variety(tmp_path):
+    rules_dir = _language(tmp_path, PLURAL_S, {
+        "nouns.variants.tsv": "lemma\tfeatures\tform\tvariety\ncat\tnumber=plural\tcatz\tNorth Side\n"})
+    with pytest.raises(DatasetError, match="variety 'North Side' is not a constant"):
+        load_datasets(rules_dir, "xx", "nouns")
+
+
+def test_admitted_variant_template_and_golden_tests(tmp_path):
+    rules_dir = _language(tmp_path, PLURAL_S, {})
+    for _ in range(2):  # the second call finds the row already listed
+        path = append_rule(rules_dir, "xx", "nouns", "admitted-variant", lemma="cat",
+                           feature_key="number=plural;case=nominative", form="catz", variety="northern")
+    assert path.read_text(encoding="utf-8").splitlines() == [
+        "lemma\tfeatures\tform\tvariety", "cat\tcase=nominative;number=plural\tcatz\tnorthern"]
+
+    tests_dir = tmp_path / "tests" / "xx"
+    tests_dir.mkdir(parents=True)
+    (tests_dir / "nouns.paradigm.yaml").write_text(
+        "lemma: cat\ncategory: nouns\ncases:\n"
+        "  - features: {case: nominative, number: plural}\n    expected: cats\n"
+        "    admitted: {northern: catz}\n"
+        "  - features: {case: nominative, number: plural}\n    expected: cats\n"
+        "    admitted: {southern: [caten]}\n",
+        encoding="utf-8",
+    )
+    passed, missing = run_paradigm_tests(rules_dir, tmp_path / "tests", "xx")
+    assert passed.passed
+    assert not missing.passed and missing.missing_admitted == ("southern: caten",)

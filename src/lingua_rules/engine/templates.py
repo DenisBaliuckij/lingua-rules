@@ -13,6 +13,7 @@ from pathlib import Path
 from .datasets import (
     DATA_DIRNAME,
     EXCEPTION_COLUMNS,
+    VARIANT_COLUMNS,
     IDENTIFIER_RE,
     PARADIGM_COLUMNS,
     PREFIX_COLUMNS,
@@ -71,7 +72,7 @@ _RULE_TEMPLATES = {
 }
 
 # Templates that add a dataset row instead of Clingo text.
-_DATA_TEMPLATES = ("exception-override", "paradigm-ending", "lexicon-entry")
+_DATA_TEMPLATES = ("exception-override", "admitted-variant", "paradigm-ending", "lexicon-entry")
 
 _TEMPLATE_REQUIRED_FIELDS = {
     "regular-affix": ("feature_key", "suffix"),
@@ -79,6 +80,7 @@ _TEMPLATE_REQUIRED_FIELDS = {
     "class-paradigm": ("class_predicate",),
     "class-paradigm-affix": ("class_predicate",),
     "exception-override": ("lemma", "feature_key", "form"),
+    "admitted-variant": ("lemma", "feature_key", "form", "variety"),
     "paradigm-ending": ("class_name", "feature_key"),
     "lexicon-entry": ("lemma", "predicate", "value"),
 }
@@ -219,6 +221,21 @@ def _append_data(
                     f"{dataset.cell(row, 'form')!r}; edit that row instead"
                 )
         values = {"lemma": lemma, "features": key, "form": form}
+        _append_row(path, [c.name for c in dataset.columns], values)
+        return path
+
+    if template_name == "admitted-variant":
+        _check_identifier(kwargs["variety"], "variety")
+        path = _table_path(rules_dir, lang_code, category, "variants")
+        _ensure_table(path, VARIANT_COLUMNS)
+        dataset = read_dataset(path)
+        values = {"lemma": kwargs["lemma"], "features": kwargs["feature_key"],
+                  "form": kwargs["form"], "variety": kwargs["variety"]}
+        for row in dataset.rows:
+            if (_same_key(dataset, row, "lemma", values["lemma"], values["features"])
+                    and dataset.cell(row, "form") == values["form"]
+                    and dataset.cell(row, "variety") == values["variety"]):
+                return path  # already listed
         _append_row(path, [c.name for c in dataset.columns], values)
         return path
 

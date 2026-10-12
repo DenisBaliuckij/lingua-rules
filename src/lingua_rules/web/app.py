@@ -28,7 +28,7 @@ from lingua_rules.engine.runner import (
     InvalidLemmaError,
     NoRuleMatchedError,
     RuleFileParseError,
-    generate_form,
+    generate_forms,
 )
 from lingua_rules.engine.templates import MissingTemplateFieldError, append_rule
 
@@ -165,11 +165,13 @@ async def try_it_submit(
         key: value for key, value in form_data.items() if key != "lemma" and value != ""
     }
     result: str | None = None
+    admitted: list[tuple[str, str]] = []
     error: str | None = None
     try:
         vocab = load_feature_vocabulary(rules_dir, lang)
         validate_features(vocab, features)
-        result = generate_form(rules_dir, lang, category, lemma, features)
+        generated = generate_forms(rules_dir, lang, category, lemma, features)
+        result, admitted = generated.form, generated.admitted
     except _NOT_FOUND_ERRORS as exc:
         raise HTTPException(status_code=404, detail=str(exc))
     except (
@@ -182,7 +184,8 @@ async def try_it_submit(
     return templates.TemplateResponse(
         request,
         "try_it_result.html",
-        {"lemma": lemma, "features": features, "result": result, "error": error},
+        {"lemma": lemma, "features": features, "result": result, "admitted": admitted,
+         "error": error},
     )
 
 

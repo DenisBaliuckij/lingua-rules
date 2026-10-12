@@ -279,14 +279,30 @@ so they can be edited in any editor or in a spreadsheet (save as *Tab-delimited
 text, UTF-8*). Blank lines and lines starting with `#` are ignored. Cells are
 never quoted.
 
-There are three kinds of table, chosen by the file name:
+There are four kinds of table, chosen by the file name:
 
 | File | Columns | Becomes |
 |---|---|---|
 | `<category>.exceptions.tsv` | `lemma`, `features`, `form` | `irregular("lemma").` once per lemma, and `form("lemma", "key", "form").` per row |
 | `<category>.paradigms.tsv` | `class`, `features`, `strip`, `ending` | `paradigm_ending(class, "key", strip, "ending").` — used by the `class-paradigm` rule (section 5) |
 | ... with `strip_front` and `prefix` columns too | `class`, `features`, `strip_front`, `prefix`, `strip`, `ending` | `paradigm_affix(class, "key", strip_front, "prefix", strip, "ending").` — for languages that inflect at the front of the word (Swahili `mtu` → `watu`), used by the `class-paradigm-affix` rule |
+| `<category>.variants.tsv` | `lemma`, `features`, `form`, `variety` | `admit("lemma", "key", "form", variety).` — a form a dialect uses next to the standard one (below) |
 | `<category>.<anything else>.tsv` (e.g. `lexicon`, `classes`) | a key column, then one column per predicate | one fact per filled cell (below) |
+
+**Dialects.** A dialect whose grammar differs from the standard language (other
+endings, other classes) is described as a language of its own, e.g.
+`rules/fr_acadian/`. A dialect that only uses some other forms of the same
+grammar stays in the main language: its forms go to `<category>.variants.tsv`,
+one row per form, with the dialect's name in `variety`. The rules still
+generate the standard form; `generate` and the web *Try it* page list the
+admitted forms under it (`parlent`, then `also admitted (acadian): parlont`), and a golden test
+case can require them:
+
+```yaml
+  - features: {person: "3", number: plural, tense: present}   # parler
+    expected: parlent
+    admitted: {acadian: parlont}   # or a list: {acadian: [parlont, parlant]}
+```
 
 In a **fact table** the first column is the key — usually `lemma`, or `class`
 for a table of class properties — and every other column header names a
@@ -366,6 +382,7 @@ the line to edit instead.
 | `class-paradigm` | `.lp` (+ creates `paradigms.tsv`) | One rule that builds every form of a class from a paradigm table | class predicate | `--class-predicate` |
 | `class-paradigm-affix` | `.lp` (+ creates `paradigms.tsv` with `strip_front`, `prefix`) | The same for prefixes and suffixes together (`@affix`) | class predicate | `--class-predicate` |
 | `exception-override` | `exceptions.tsv` | One irregular lemma with an explicit form | lemma, feature key, form | `--lemma`, `--feature-key`, `--form` |
+| `admitted-variant` | `variants.tsv` | A dialect form admitted next to the standard one | lemma, feature key, form, variety | `--lemma`, `--feature-key`, `--form`, `--variety` |
 | `paradigm-ending` | `paradigms.tsv` | One cell of a paradigm table: a class's ending (and, in an affix table, prefix) for a feature key | class, feature key (the rest optional) | `--class`, `--feature-key`, `--strip`, `--ending`, `--strip-front`, `--prefix` |
 | `lexicon-entry` | `lexicon.tsv` | A word's value for one predicate, e.g. its class or a flag | lemma, predicate, value | `--lemma`, `--predicate`, `--value`, `--value-type` |
 

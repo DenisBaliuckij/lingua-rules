@@ -24,7 +24,7 @@ from lingua_rules.engine.runner import (
     InvalidLemmaError,
     NoRuleMatchedError,
     RuleFileParseError,
-    generate_form,
+    generate_forms,
 )
 from lingua_rules.engine.datasets import DatasetError
 from lingua_rules.engine.templates import (
@@ -99,7 +99,7 @@ def generate(
     try:
         vocab = load_feature_vocabulary(rules_dir, lang)
         validate_features(vocab, parsed)
-        form = generate_form(rules_dir, lang, category, lemma, parsed)
+        generated = generate_forms(rules_dir, lang, category, lemma, parsed)
     except (
         UnknownFeatureError,
         NoRuleMatchedError,
@@ -110,7 +110,9 @@ def generate(
     ) as exc:
         typer.echo(f"error: {exc}")
         raise typer.Exit(code=1)
-    typer.echo(form)
+    typer.echo(generated.form)
+    for variety, form in generated.admitted:
+        typer.echo(f"  also admitted ({variety}): {form}")
 
 
 def _report_results(results: list[ParadigmCaseResult]) -> int:
@@ -123,6 +125,7 @@ def _report_results(results: list[ParadigmCaseResult]) -> int:
         typer.echo(
             f"[{status}] {result.lemma} {result.features} "
             f"expected={result.expected!r} actual={result.actual!r}"
+            + (f" missing admitted: {', '.join(result.missing_admitted)}" if result.missing_admitted else "")
         )
     typer.echo(f"{len(results) - failed}/{len(results)} passed")
     return failed
@@ -187,6 +190,7 @@ def new_rule(
     prefix: str = typer.Option(None, "--prefix"),
     lemma: str = typer.Option(None, "--lemma"),
     form: str = typer.Option(None, "--form"),
+    variety: str = typer.Option(None, "--variety", help="admitted-variant: e.g. acadian"),
     class_predicate: str = typer.Option(
         None, "--class-predicate", help="class-paradigm: e.g. noun_class"
     ),
@@ -204,13 +208,14 @@ def new_rule(
     rules_dir: Path = typer.Option(Path("rules"), "--rules-dir"),
 ) -> None:
     """Apply TEMPLATE to CATEGORY of LANG: a rule goes to the .lp file, an exception,
-    paradigm ending or lexicon entry goes to a table under rules/LANG/data/."""
+    admitted variant, paradigm ending or lexicon entry goes to a table under rules/LANG/data/."""
     fields = {
         "feature_key": feature_key,
         "suffix": suffix,
         "prefix": prefix,
         "lemma": lemma,
         "form": form,
+        "variety": variety,
         "class_predicate": class_predicate,
         "class_name": class_name,
         "strip": strip,

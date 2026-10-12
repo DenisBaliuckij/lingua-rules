@@ -21,6 +21,13 @@ when a form is generated:
     becomes ``paradigm_affix(class, "key", strip_front, "prefix", strip,
     "ending").`` instead, read by the ``class-paradigm-affix`` rule.
 
+``<category>.variants.tsv``
+    Admitted variants: ``lemma``, ``features``, ``form``, ``variety``. A form that
+    a dialect (or another variety that has not changed the grammar enough to be
+    a language of its own) uses next to the standard one. Each row becomes
+    ``admit("lemma", "key", "form", variety).``; the standard form stays the one
+    the rules generate, and the runner reports the admitted ones beside it.
+
 ``<category>.<anything>.tsv``
     Fact tables. The first column is the key (a lemma, or a class); every other
     column names a predicate and its type, e.g. ``noun_class`` or
@@ -49,14 +56,16 @@ from .loader import language_dir
 DATA_DIRNAME = "data"
 EXCEPTIONS = "exceptions"
 PARADIGMS = "paradigms"
+VARIANTS = "variants"
 FACTS = "facts"
 
 EXCEPTION_COLUMNS = ("lemma", "features", "form")
 PARADIGM_COLUMNS = ("class", "features", "strip", "ending")
+VARIANT_COLUMNS = ("lemma", "features", "form", "variety")
 PREFIX_COLUMNS = ("strip_front", "prefix")  # optional in a paradigm table, together
 METADATA_COLUMNS = frozenset({"source", "note"})
 TYPES = ("string", "constant", "number", "flag")
-RESERVED_PREDICATES = frozenset({"form", "input_lemma", "paradigm_ending", "paradigm_affix"})
+RESERVED_PREDICATES = frozenset({"form", "input_lemma", "paradigm_ending", "paradigm_affix", "admit"})
 FLAG_TRUE = frozenset({"yes", "true", "1", "x"})
 FLAG_FALSE = frozenset({"", "no", "false", "0"})
 
@@ -103,7 +112,7 @@ class Dataset:
     @property
     def lemma_keyed(self) -> bool:
         """Rows describe one lemma each, so only the requested lemma's rows matter."""
-        return self.kind == EXCEPTIONS or (self.kind == FACTS and self.key.name == "lemma")
+        return self.kind in (EXCEPTIONS, VARIANTS) or (self.kind == FACTS and self.key.name == "lemma")
 
     @property
     def has_prefixes(self) -> bool:
@@ -135,6 +144,13 @@ class Dataset:
                 out.append(
                     f'form("{q}", "{normalize_key(key)}", "{escape_clingo_string(form)}").'
                 )
+        elif self.kind == VARIANTS:
+            for row in rows:
+                lem, key, form, variety = (self.cell(row, c) for c in VARIANT_COLUMNS)
+                out.append(
+                    f'admit("{escape_clingo_string(lem)}", "{normalize_key(key)}", '
+                    f'"{escape_clingo_string(form)}", {variety}).'
+                )
         elif self.kind == PARADIGMS:
             for row in rows:
                 cls, key, strip, ending = (self.cell(row, c) for c in PARADIGM_COLUMNS)
@@ -162,7 +178,7 @@ class Dataset:
 
     def feature_keys(self) -> list[tuple[int, str]]:
         """(line, key as written) for every row of a table that has a features column."""
-        if self.kind not in (EXCEPTIONS, PARADIGMS):
+        if self.kind not in (EXCEPTIONS, PARADIGMS, VARIANTS):
             return []
         return [(row.line, self.cell(row, "features")) for row in self.rows]
 
@@ -204,7 +220,7 @@ def dataset_paths(rules_dir: Path, lang_code: str, category: str) -> list[Path]:
 
 def kind_of(path: Path) -> str:
     table = path.name.split(".")[-2] if path.name.count(".") >= 2 else ""
-    return {EXCEPTIONS: EXCEPTIONS, PARADIGMS: PARADIGMS}.get(table, FACTS)
+    return {EXCEPTIONS: EXCEPTIONS, PARADIGMS: PARADIGMS, VARIANTS: VARIANTS}.get(table, FACTS)
 
 
 def _parse_header(path: Path, kind: str, cells: list[str]) -> list[Column]:
@@ -235,8 +251,9 @@ def _parse_header(path: Path, kind: str, cells: list[str]) -> list[Column]:
     duplicates = sorted({n for n in names if names.count(n) > 1})
     if duplicates:
         raise DatasetError(f"{path}: duplicate column(s) {duplicates}")
-    if kind in (EXCEPTIONS, PARADIGMS):
-        expected = EXCEPTION_COLUMNS if kind == EXCEPTIONS else PARADIGM_COLUMNS
+    if kind in (EXCEPTIONS, PARADIGMS, VARIANTS):
+        expected = {EXCEPTIONS: EXCEPTION_COLUMNS, PARADIGMS: PARADIGM_COLUMNS,
+                    VARIANTS: VARIANT_COLUMNS}[kind]
         optional = PREFIX_COLUMNS if kind == PARADIGMS else ()
         missing = [c for c in expected if c not in names]
         extra = [c for c in names
@@ -268,16 +285,21 @@ def _check_row(dataset: Dataset, row: Row) -> None:
             raise DatasetError(f"{where}: {col.name} {value!r} is not a whole number")
         if col.type == "flag" and value.lower() not in FLAG_TRUE | FLAG_FALSE:
             raise DatasetError(f"{where}: {col.name} {value!r} is not a flag (yes / empty)")
-    key_column = "lemma" if dataset.kind == EXCEPTIONS else dataset.key.name
+    key_column = "lemma" if dataset.kind in (EXCEPTIONS, VARIANTS) else dataset.key.name
     if not dataset.cell(row, key_column):
         raise DatasetError(f"{where}: the key column '{key_column}' is empty")
-    if dataset.kind in (EXCEPTIONS, PARADIGMS):
+    if dataset.kind in (EXCEPTIONS, PARADIGMS, VARIANTS):
         try:
             parse_key(dataset.cell(row, "features"))
         except ValueError as exc:
             raise DatasetError(f"{where}: {exc}") from exc
-    if dataset.kind == EXCEPTIONS and not dataset.cell(row, "form"):
+    if dataset.kind in (EXCEPTIONS, VARIANTS) and not dataset.cell(row, "form"):
         raise DatasetError(f"{where}: the form is empty")
+    if dataset.kind == VARIANTS and not IDENTIFIER_RE.match(dataset.cell(row, "variety")):
+        raise DatasetError(
+            f"{where}: variety {dataset.cell(row, 'variety')!r} is not a constant "
+            "(e.g. acadian, lowercase letter first)"
+        )
     if dataset.kind == PARADIGMS:
         cls, strip = dataset.cell(row, "class"), dataset.cell(row, "strip")
         if not IDENTIFIER_RE.match(cls):
