@@ -1,0 +1,536 @@
+lemma: avere
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: avréi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: future
+  expected: ave
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: avrò
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: avéssimo
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: avessi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: abbia
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: avéssi
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: reba
+---
+lemma: cogliere
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: cogliemmo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: cogliamo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: coglierete
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: cogliete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: coglieranno
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: cogliono
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: coglierò
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: coglierò
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: coglio
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: coglierai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: cogli
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: coglierà
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: coglie
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: cogliamo
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: cogliete
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: coglino
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: cogli
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: cogli
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: cogli
+- features:
+    verb_form: infinitive
+  expected: cogliere
+- features:
+    verb_form: past_participle
+  expected: cogliuto
+---
+lemma: dire
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: pirÉI
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: dicémmo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: dicéste
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: pfssERo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: dicerò
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: viset
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: dicésti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: pissr
+---
+lemma: offrire
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: offerirei
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: offriti
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: offerimmo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: offeriste
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: offerirono
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: offerirò
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: offriva
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: offerisco
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: offertati
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: offerti
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: offerissi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: offerisca
+---
+lemma: rimanere
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: rimanémmo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: rimanidmo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: rimanéste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: rimandte
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: rIMASERO
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: rIMANGONO
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: rimarrò
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: niMANGo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: rimanésti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: rimdni
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: rimane
+---
+lemma: riédere
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: riédono
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: riédo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: riédi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: riéde
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: riédano
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: riéda
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: riéda
+- features:
+    verb_form: infinitive
+  expected: riédere
+---
+lemma: seguire
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: séguano
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ies
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: ségua
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: segudmo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: seguite
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: séguono
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: séguo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ségui
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ségue
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: seguidmo
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: seguidie
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: seguo
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: sguay
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: ségua
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: ségua
+- features:
+    verb_form: infinitive
+  expected: segutre
+- features:
+    verb_form: past_participle
+  expected: seguito
+---
+lemma: sérpere
+category: verbs
+cases:
+- features:
+    verb_form: gerund
+  expected: sérpendo
+- features:
+    verb_form: infinitive
+  expected: sérpere
