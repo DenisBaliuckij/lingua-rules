@@ -1,0 +1,404 @@
+lemma: je
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: bizden
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: sizden
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: onlardan
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: benden
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: senden
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: ondan
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: bizi
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: sizi
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: onları
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: beni
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: seni
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: onu
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: bize
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: size
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: onlara
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: bana
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: sana
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: ona
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: bizim
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: sizin
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: onların
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: benim
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: senin
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: onun
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: biz
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: siz
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: onlar
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ben
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: sen
+- features:
+    number: plural
+    person: first
+  expected: biz
+- features:
+    number: plural
+    person: second
+  expected: siz
+- features:
+    number: plural
+    person: third
+  expected: onlar
+- features:
+    number: singular
+    person: first
+  expected: ben
+- features:
+    number: singular
+    person: second
+  expected: sen
+---
+lemma: kendi
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: kendimizden
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: kendinizden
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: kendilerinden
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: kendimden
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: kendinden
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: kendinden
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: kendimizi
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: kendinizi
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: kendilerini
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: kendimi
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: kendini
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: kendini
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: kendimize
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: kendinize
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: kendilerine
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: kendime
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: kendine
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: kendine
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: kendimizlik
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: kendinizlik
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: kendilerilik
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: kendimlik
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: kendinlik
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: kendilik
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: kendimizde
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: kendinizde
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: kendilerinde
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: kendimde
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: kendinde
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: kendinde
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: kendimiz
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: kendiniz
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: kendileri
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: kendim
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: kendin
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: kendi
+- features:
+    number: plural
+    person: first
+  expected: kendimiz
+- features:
+    number: plural
+    person: second
+  expected: kendiniz
+- features:
+    number: plural
+    person: third
+  expected: kendileri
+- features:
+    number: singular
+    person: first
+  expected: kendim
+- features:
+    number: singular
+    person: second
+  expected: kendin
+- features:
+    number: singular
+    person: third
+  expected: kendi
+---
+lemma: kendü
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kendümüz
+- features:
+    number: plural
+    person: second
+  expected: kendünüz
+- features:
+    number: plural
+    person: third
+  expected: kendüleri
+- features:
+    number: singular
+    person: first
+  expected: kendüm
+- features:
+    number: singular
+    person: second
+  expected: kendük
+- features:
+    number: singular
+    person: third
+  expected: kendüsi
