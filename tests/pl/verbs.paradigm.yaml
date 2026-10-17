@@ -1,0 +1,6377 @@
+lemma: biegnàç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: biegnijmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: biegnijcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: biegnij
+---
+lemma: biegnąć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: biegniemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: biegniecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: biegli
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: biegną
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: biegłem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: biegnę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: biegniesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: biegł
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: biegnie
+---
+lemma: brać
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: braliśmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: braliście
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: brali
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: brałem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: brałeś
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: brał
+---
+lemma: brzmieç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: brzmijmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: brzmijcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: brzmij
+---
+lemma: bywać
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: bywamy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: bywacie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bywają
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bywam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: bywasz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: bywa
+---
+lemma: być
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: będący
+- features:
+    animacy: inanimate
+    number: plural
+  expected: będące
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: bądźmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bądźcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bądź
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: byliśmy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: jesteśmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: byliście
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: jesteście
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: byli
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: są
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: byłem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: jestem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: byłeś
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: jesteś
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: był
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: jest
+- features:
+    number: singular
+  expected: będący
+---
+lemma: chcieć
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: gerund
+  expected: chcąc
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: conditional_tense
+  expected: chcieliby
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: conditional_tense
+  expected: chciałbym
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: conditional_tense
+  expected: chciałby
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: chciejmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: chciejcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: chciej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: chcieliśmy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: chcemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: chcieliście
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: chcecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: chcieli
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: chcą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: chciałem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: chcę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: chciałeś
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: chcesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: chciał
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: chce
+- features:
+    number: plural
+    verb_form: present_participle
+  expected: chcący
+- features:
+    number: singular
+    verb_form: present_participle
+  expected: chcący
+---
+lemma: chodzić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: chodźmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: chodźcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: chodź
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: chodzimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: chodzicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: chodzą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: chodzę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: chodzisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: chodzi
+- features:
+    verb_form: infinitive
+  expected: chodzić
+---
+lemma: chrzciç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: chrzcijmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: chrzcijcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: chrzcij
+---
+lemma: chwalić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: chwalmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: chwalcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: chwal
+---
+lemma: cieszyć się
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: cieszymy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: cieszycie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: cieszą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: cieszę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: cieszysz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cieszy
+---
+lemma: ciągnąć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ciągnęliśmy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ciągniemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ciągnęliście
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ciągniecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ciągnęli
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ciągną
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ciągnąłem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ciągnę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ciągnąłeś
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ciągniesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ciągnął
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ciągnie
+---
+lemma: czciç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: czcijmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: czcijcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: czcij
+---
+lemma: czekaç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: czekajmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: czekajcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: czekaj
+---
+lemma: czuć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: czujemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: czujecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: czują
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: czuję
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: czujesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: czuje
+---
+lemma: czytać
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: czytający
+- features:
+    animacy: inanimate
+    number: plural
+  expected: czytające
+- features:
+    number: singular
+  expected: czytający
+---
+lemma: czyścić
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: czyszczymy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: czyścicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: czyszczą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: czyszczę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: czyścisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: czyści
+---
+lemma: dokonywać
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: dokonywaliśmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: dokonywaliście
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: dokonywali
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: dokonywałem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: dokonywałeś
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: dokonywał
+---
+lemma: drwiç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: drwijmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: drwijcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: drwij
+---
+lemma: drzeç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: drzyjmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: drzyjcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: drzyj
+---
+lemma: drżeć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: drżymy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: drżycie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: drżą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: drżę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: drżysz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: drży
+---
+lemma: dzieć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: dzialiśmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: dzialiście
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: dziali
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: działem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: działeś
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: dział
+---
+lemma: dziękować
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: dziękowaliśmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: dziękowaliście
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: dziękowali
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: dziękowałem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: dziękowałeś
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: dziękował
+---
+lemma: dzwonić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: dzwoń
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dzwoni
+- features:
+    verb_form: infinitive
+  expected: dzwonić
+---
+lemma: ginąć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: giniemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: giniecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: giną
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ginę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: giniesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ginie
+---
+lemma: gnieść
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: gnieciemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: gnieciecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: gniota
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: gniotę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: gnieciesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: gniecie
+---
+lemma: grozić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: groź
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: grozi
+- features:
+    verb_form: infinitive
+  expected: grozić
+---
+lemma: gryêç
+category: verbs
+cases:
+- features:
+    gender: neuter
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gryz∏
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: gryêliÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: gryêliÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: gryêli
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: gryz∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: gryz∏am
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gryz∏
+---
+lemma: głodzić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: głodźmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: głodźcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: głodź
+---
+lemma: iść
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: idący
+- features:
+    animacy: inanimate
+    number: plural
+  expected: idące
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: idź
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: idziemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: idziecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: idą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: idę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: idziesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: idzie
+- features:
+    number: singular
+  expected: idący
+- features:
+    verb_form: infinitive
+  expected: iść
+---
+lemma: jechać
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: jechaliśmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: jechaliście
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: jechali
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: jechałem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: jechałeś
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: jechał
+- features:
+    verb_form: infinitive
+  expected: jechać
+---
+lemma: jeÊç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: jedzmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: jedzcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: jedz
+---
+lemma: jeêdziç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: jeêdêmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: jeêdêcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: jeêdê
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: jeêdzi∏yÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: jeêdziliÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: jeêdzi∏yÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: jeêdziliÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: jeêdzi∏y
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: jeêdzili
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: jeêdzi∏am
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: jeêdzi∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: jeêdzi∏aÊ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: jeêdzi∏eÊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: jeêdzi∏a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: jeêdzi∏
+---
+lemma: jeździć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: jeździcie
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: jeździsz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: jeździ
+---
+lemma: karać
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: karzemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: karzecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: karzą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: karzę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: karzesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: karze
+---
+lemma: kleić
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kleimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kleicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kleją
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kleję
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kleisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: klei
+---
+lemma: kopnąć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kopniemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kopniecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kopną
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kopnę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kopniesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kopnie
+---
+lemma: kończyć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kończymy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kończycie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kończą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kończę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kończysz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kończy
+---
+lemma: kpiç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kpijmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kpijcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kpij
+---
+lemma: kraÊç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kradnijjmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kradnijcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kradnij
+---
+lemma: kraść
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kradniemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kradniecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kradli
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kradną
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kradłem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kradnę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kradniesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kradł
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kradnie
+---
+lemma: kroić
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kroimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kroicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kroją
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kroję
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kroisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kroi
+---
+lemma: krzyczeć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: krzyczymy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: krzyczycie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: krzyczą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: krzyczę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: krzyczysz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: krzyczy
+---
+lemma: krzyknąć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: krzykniemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: krzykniecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: krzykną
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: krzyknę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: krzykniesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: krzyknie
+---
+lemma: kuleć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kulejemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kulejecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kuleją
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kuleję
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kulejesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kuleje
+---
+lemma: kupiç
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: kupi∏yÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kupiliÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kupi∏yÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kupiliÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: kupi∏y
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kupili
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: kupi∏am
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kupi∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: kupi∏aÊ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kupi∏eÊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: kupi∏a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kupi∏
+---
+lemma: kupić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kupmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kupcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kup
+---
+lemma: kwitnąć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kwitniemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kwitniecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kwitną
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kwitnę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kwitniesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kwitnie
+---
+lemma: kąpać
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kąpmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kąpcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kąp
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kąpiemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kąpiecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kąpią
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kąpię
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kąpiesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kąpie
+---
+lemma: kłamać
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kłamiemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kłamiecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kłamią
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kłamie
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kłamiesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kłamie
+---
+lemma: kłaść
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kładź
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kładziemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kładaszcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kładą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kładę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kładasz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kładzie
+- features:
+    verb_form: infinitive
+  expected: kłaść
+---
+lemma: lać
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: lejmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: lejcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: lej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: lejemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lejecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: leją
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: leję
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: lejesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: leje
+---
+lemma: lecieć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: lecimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lecicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: lecą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: lecę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: leczysz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: leci
+---
+lemma: leżeć
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: leżmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: leżcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: leż
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: leżymy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: leżycie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: leżą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: leżę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: leżysz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: leży
+---
+lemma: le˝eç
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: le˝a∏yÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: le˝eliÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: le˝a∏yÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: le˝eliÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: le˝a∏y
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: le˝eli
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: le˝a∏am
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: le˝a∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: le˝a∏aÊ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: le˝a∏eÊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: le˝a∏a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: le˝a∏
+---
+lemma: liczyć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: liczymy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: liczycie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: liczą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: liczę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: liczysz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: liczy
+---
+lemma: lubić
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: lubimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lubicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: lubią
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: lubię
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: lubisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: lubi
+---
+lemma: martwić
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: martwimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: martwicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: martwią
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: martwię
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: martwisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: martwi
+---
+lemma: marznàç
+category: verbs
+cases:
+- features:
+    gender: neuter
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: marz∏
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: marzliÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: marzliÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: marzli
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: marz∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: marz∏am
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: marz∏
+---
+lemma: mazać
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: maszaliśmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: maszaliście
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: maszali
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: masłem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: maszałeś
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: maszał
+---
+lemma: mdleć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: mdleliśmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mdleliście
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: mdleli
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: mdlałem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mdlałeś
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: mdlał
+---
+lemma: moknąć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: mokli
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: mokłem
+---
+lemma: musieć
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: gerund
+  expected: musząc
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: conditional_tense
+  expected: musieliby
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: conditional_tense
+  expected: musiałbym
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: conditional_tense
+  expected: musiałby
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: musimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: musicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: musieli
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: muszą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: musiałem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: muszę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: musisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: musiał
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: musi
+---
+lemma: myć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: myliśmy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: myjemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: myliście
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: myjecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: myli
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: myją
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: myłem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: myję
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: myłeś
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: myjesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: mył
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: myje
+---
+lemma: myśleć
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: myślmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: myślcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: myśl
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: myślimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: myślicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: myślą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: myślę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: myślisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: myśli
+---
+lemma: mÊciç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: mÊcijmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: mÊcijcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: mÊcij
+---
+lemma: móc
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: możemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: możecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: mogą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: mogę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: możesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: może
+---
+lemma: mówić
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: mówimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mówicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: mówią
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: mówię
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mówisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mówi
+---
+lemma: napisaç
+category: verbs
+cases:
+- features:
+    animacy: animate
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: napisaliÊmy
+- features:
+    animacy: animate
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: napisaliÊcie
+- features:
+    animacy: animate
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: napisali
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: napisa∏yÊmy
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: napisa∏yÊcie
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: napisa∏y
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: napiszmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: napiszcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: napisz
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: napiszemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: napiszecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: napiszà
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: napisa∏em
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: napisz´
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: napisa∏eÊ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: napiszesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: napisa∏
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: napisze
+---
+lemma: nieÊç
+category: verbs
+cases:
+- features:
+    gender: neuter
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: nios∏
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: nieÊliÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: nieÊliÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: nieÊli
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nios∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: nios∏am
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: niós∏
+---
+lemma: nieść
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: nieśmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: nieście
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: nieś
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: nieśliśmy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: niesiemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: nieśliście
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: niesiecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: nieśli
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: niosą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: niosłem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: niosę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: niosłeś
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: niesiesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: niósł
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: niesie
+- features:
+    verb_form: infinitive
+  expected: nieść
+---
+lemma: nosić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: nośmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: noście
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: noś
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nosimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nosicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: noszą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: noszę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nosisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nosi
+- features:
+    verb_form: infinitive
+  expected: nosić
+---
+lemma: obejrzeç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: obejrzyjmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: obejrzyjcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: obejrzyj
+---
+lemma: obudzić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: obudź
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: obudzi
+- features:
+    verb_form: infinitive
+  expected: obudzić
+---
+lemma: odmłodzić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: odmłodźmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: odmłodźcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: odmłodź
+---
+lemma: otworzyć
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: otwórzmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: otwórzcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: otwórz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: otworzy
+- features:
+    verb_form: infinitive
+  expected: otworzyć
+---
+lemma: patrzeć
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: patrzmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: patrzcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: patrz
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: patrzymy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: patrzycie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: patrzą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: patrzę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: patrzysz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: patrzy
+---
+lemma: paÊç
+category: verbs
+cases:
+- features:
+    gender: neuter
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: pad∏
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: padliÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: padliÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: padli
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: pad∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: pad∏am
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: pad∏
+---
+lemma: piec
+category: verbs
+cases:
+- features:
+    gender: neuter
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: piek∏
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: piekliÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: piekliÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: piekli
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: piek∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: piek∏am
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: piek∏
+---
+lemma: pisaç
+category: verbs
+cases:
+- features:
+    animacy: animate
+    mood: conditional
+    number: plural
+    person: first
+  expected: pisalibyÊmy
+- features:
+    animacy: animate
+    mood: conditional
+    number: plural
+    person: second
+  expected: pisalibyÊcie
+- features:
+    animacy: animate
+    mood: conditional
+    number: plural
+    person: third
+  expected: pisaliby
+- features:
+    animacy: animate
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: pisaliÊmy
+- features:
+    animacy: animate
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: pisaliÊcie
+- features:
+    animacy: animate
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: pisali
+- features:
+    animacy: inanimate
+    mood: conditional
+    number: plural
+    person: first
+  expected: pisa∏ybyÊmy
+- features:
+    animacy: inanimate
+    mood: conditional
+    number: plural
+    person: second
+  expected: pisa∏ybyÊcie
+- features:
+    animacy: inanimate
+    mood: conditional
+    number: plural
+    person: third
+  expected: pisa∏yby
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: pisa∏yÊmy
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: pisa∏yÊcie
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: pisa∏y
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: pisa∏bym
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: pisa∏byÊ
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: pisa∏by
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: pisa∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: pisa∏eÊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: pisa∏
+---
+lemma: pisać
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: piszmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: piszcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pisz
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: piszemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: piszecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: piszą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: piszę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: piszesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pisze
+---
+lemma: pić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: pijmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: pijcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pij
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: piliśmy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: pijemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: piliście
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: pijecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: pili
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: piją
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: piłem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: piję
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: piłeś
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: pijesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: pił
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pije
+---
+lemma: pleÊç
+category: verbs
+cases:
+- features:
+    gender: neuter
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: plot∏
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: plotliÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: plotliÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: pletli
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: plot∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: plot∏am
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: plót∏
+---
+lemma: pluć
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: plujmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: plujcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pluj
+---
+lemma: pomnieç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: pomnijjmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: pomnijcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pomnij
+---
+lemma: pomóc
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pomóż
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pomoże
+- features:
+    verb_form: infinitive
+  expected: pomóc
+---
+lemma: poprosić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: poproś
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: poprosi
+- features:
+    verb_form: infinitive
+  expected: poprosić
+---
+lemma: posłodzić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: posłódź
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: posłodzi
+- features:
+    verb_form: infinitive
+  expected: posłodzić
+---
+lemma: powiedzieç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: powiedzmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: powiedzcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: powiedz
+---
+lemma: pozwolić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: pozwólmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: pozwólcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pozwól
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pozwoli
+- features:
+    verb_form: infinitive
+  expected: pozwolić
+---
+lemma: położyć
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: połóż
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: położy
+- features:
+    verb_form: infinitive
+  expected: położyć
+---
+lemma: pracować
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: pracujmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: pracujcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pracuj
+---
+lemma: prosić
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: prosimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: prosicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: proszą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: prosze
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: prosisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: prosi
+---
+lemma: przyjść
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: przyjdź
+- features:
+    verb_form: infinitive
+  expected: przyjść
+---
+lemma: pytaç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: pytajmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: pytajcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pytaj
+---
+lemma: pójść
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pójdź
+- features:
+    verb_form: infinitive
+  expected: pójść
+---
+lemma: pęknąć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: pękniemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: pękniecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: pękną
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: pęknę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: pękniesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pęknie
+---
+lemma: płacić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: płać
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: płaci
+- features:
+    verb_form: infinitive
+  expected: płacić
+---
+lemma: płynąć
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: płyń
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: płyniemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: płyniecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: płyną
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: płynę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: płyniesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: płynie
+- features:
+    verb_form: infinitive
+  expected: płynąć
+---
+lemma: robić
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: robimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: robicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: robią
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: robię
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: robisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: robi
+- features:
+    verb_form: infinitive
+  expected: robić
+---
+lemma: rodzić
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: rodzi
+- features:
+    verb_form: infinitive
+  expected: rodzić
+---
+lemma: rozluêniç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: rozluênijmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: rozluênijcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: rozluênij
+---
+lemma: rzucić
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: rzucimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: rzucicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: rzucą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: rzucę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: rzucisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: rzuci
+---
+lemma: siedzieć
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: siedzący
+- features:
+    animacy: inanimate
+    number: plural
+  expected: siedzące
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: siedzimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: siedzicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: siedzą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: siedzę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: siedzisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: siedzi
+- features:
+    number: singular
+  expected: siedzący
+---
+lemma: skakać
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: skaczemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: skaczecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: skaczą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: skaczę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: skaczesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: skacze
+---
+lemma: spaç
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: spa∏yÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: spaliÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: spa∏yÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: spaliÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: spa∏y
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: spali
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: spa∏am
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: spa∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: spa∏aÊ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: spa∏eÊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: spa∏a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: spa∏
+---
+lemma: sprawdzić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: sprawdź
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: sprawdzi
+- features:
+    verb_form: infinitive
+  expected: sprawdzić
+---
+lemma: stanąć
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: stań
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: staniemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: staniecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: staną
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: stanę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: staniesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: stanie
+- features:
+    verb_form: infinitive
+  expected: stanąć
+---
+lemma: staç
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: sta∏yÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: staliÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: sta∏yÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: staliÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: sta∏y
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: stali
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: sta∏am
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: sta∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: sta∏aÊ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: sta∏eÊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: sta∏a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: sta∏
+---
+lemma: stać
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: stojący
+- features:
+    animacy: inanimate
+    number: plural
+  expected: stojące
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: stójmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: stójcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: stój
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: stoimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: stoicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: stoją
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: stoję
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: stoisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: stoi
+- features:
+    number: singular
+  expected: stojący
+---
+lemma: stroiç
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: stroi∏yÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: stroiliÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: stroi∏yÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: stroiliÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: stroi∏y
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: stroili
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: stroi∏am
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: stroi∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: stroi∏aÊ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: stroi∏eÊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: stroi∏a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: stroi∏
+---
+lemma: stroić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: strójmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: strójcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: strój
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: stroimy
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: stroję
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: stroisz
+---
+lemma: studiować
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: studiujący
+- features:
+    animacy: inanimate
+    number: plural
+  expected: studiujące
+- features:
+    number: singular
+  expected: studiujący
+---
+lemma: szepnąć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: szepniemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: szepniecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: szepną
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: szepnę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: szepniesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: szepnie
+---
+lemma: słuchać
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: słuchający
+- features:
+    animacy: inanimate
+    number: plural
+  expected: słuchające
+- features:
+    number: singular
+  expected: słuchający
+---
+lemma: słyszeć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: słyszymy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: słyszycie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: słyszą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: słyszę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: słyszysz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: słyszy
+---
+lemma: uciec
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: uciekliśmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: uciekliście
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: uciekli
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: uciekłem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: uciekłeś
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: uciekł
+---
+lemma: uczyç
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: uczy∏yÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: uczyliÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: uczy∏yÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: uczyliÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: uczy∏y
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: uczyli
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: uczy∏am
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: uczy∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: uczy∏aÊ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: uczy∏eÊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: uczy∏a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: uczy∏
+---
+lemma: umieç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: umiejmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: umiejcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: umiej
+---
+lemma: upaść
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: upadli
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: upadłem
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: upadł
+---
+lemma: uspokoić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: uspokójmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: uspokójcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: uspokój
+---
+lemma: wejść
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: wejdź
+- features:
+    verb_form: infinitive
+  expected: wejść
+---
+lemma: widzieć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: widzimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: widzicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: widzą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: widzę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: widzisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: widzi
+---
+lemma: wieźć
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: wieź
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: wieziemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: wieziecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wiozą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wiozę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: wieziesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wiezie
+- features:
+    verb_form: infinitive
+  expected: wieźć
+---
+lemma: wi´dnàç
+category: verbs
+cases:
+- features:
+    gender: neuter
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wi´d∏
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: wi´dliÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: wi´dliÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wi´dli
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: wi´d∏am
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wi´d∏a
+---
+lemma: wodzić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: wodźmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: wodźcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: wodź
+---
+lemma: woleç
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: wola∏yÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: woleliÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: wola∏yÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: woleliÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: wola∏y
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: woleli
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: wola∏am
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: wola∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: wola∏aÊ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: wola∏eÊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: wola∏a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wola∏
+---
+lemma: woleć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: wolimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: wolicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wolą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wolę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: wolisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: woli
+---
+lemma: wozić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: woźmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: woźcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: woź
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: wozimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: wozicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wożą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wożę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: wozisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wozi
+- features:
+    verb_form: infinitive
+  expected: wozić
+---
+lemma: wrzeszczeć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: wrzeszczymy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: wrzeszczycie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wrzeszczą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wrzeszczę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: wrzeszczysz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wrzeszczy
+---
+lemma: wrócić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: wróćmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: wróćcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: wróć
+---
+lemma: wstawać
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: wstawajcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: wstawaj
+---
+lemma: wyczyścić
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: wyczyść
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wyczyści
+- features:
+    verb_form: infinitive
+  expected: wyczyścić
+---
+lemma: wyjść
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: wyjdź
+- features:
+    verb_form: infinitive
+  expected: wyjść
+---
+lemma: wytrzeç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: wytrzyjmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: wytrzyjcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: wytrzyj
+---
+lemma: wziàç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: weêmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: weêcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: weê
+---
+lemma: wziąć
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: weźmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: weźcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: weź
+---
+lemma: wàtpiç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: wàtpmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: wàtpcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: wàtp
+---
+lemma: wątpić
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: wątpimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: wątpicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wątpią
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wątpię
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: wątpisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wątpi
+---
+lemma: zaczàç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: zacznijmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zacznijcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: zacznij
+---
+lemma: zajmowaç
+category: verbs
+cases:
+- features:
+    animacy: animate
+    mood: conditional
+    number: plural
+  expected: zaj´libyÊmy
+- features:
+    animacy: animate
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: zaj´liÊmy
+- features:
+    animacy: animate
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: zaj´liÊcie
+- features:
+    animacy: animate
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: zaj´li
+- features:
+    animacy: inanimate
+    mood: conditional
+    number: plural
+  expected: zaj´∏ybyÊmy
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: zaj´∏yÊcie
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: zaj´∏y
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: plural
+    tense: past
+  expected: zaj´∏yÊmy
+- features:
+    mood: conditional
+    number: singular
+  expected: zajà∏bym
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: zajmijmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zajmijcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: zajmij
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: zajmiemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: zajmiecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: zajmà
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: zajm´
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: zajà∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: zajmiesz
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: zajà∏eÊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: zajmie
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: zajà∏
+---
+lemma: zajmować
+category: verbs
+cases:
+- features:
+    animacy: animate
+    mood: conditional
+    number: plural
+    person: first
+  expected: zajmowalibyśmy
+- features:
+    animacy: animate
+    mood: conditional
+    number: plural
+    person: second
+  expected: zajmowalibyście
+- features:
+    animacy: animate
+    mood: conditional
+    number: plural
+    person: third
+  expected: zajmowaliby
+- features:
+    animacy: animate
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: zajmowaliśmy
+- features:
+    animacy: animate
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: zajmowaliście
+- features:
+    animacy: animate
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: zajmowali
+- features:
+    animacy: inanimate
+    mood: conditional
+    number: plural
+    person: first
+  expected: zajmowałybyśmy
+- features:
+    animacy: inanimate
+    mood: conditional
+    number: plural
+    person: second
+  expected: zajmowałybyście
+- features:
+    animacy: inanimate
+    mood: conditional
+    number: plural
+    person: third
+  expected: zajmowałyby
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: zajmowałyśmy
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: zajmowałyście
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: zajmowały
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: zajmowałbym
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: zajmowałbyś
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: zajmowałby
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: zajmujmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zajmujcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: zajmuj
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: zajmujemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: zajmujecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: zajmują
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: zajmowałem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: zajmuję
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: zajmowałeś
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: zajmujesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: zajmował
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: zajmuje
+---
+lemma: zająć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: zajmiemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: zajmiecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: zajmą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: zajmę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: zajmiesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: zajmie
+---
+lemma: zamieszkać
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: zamieszkamy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: zamieszkacie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: zamieszkają
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: zamieszkam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: zamieszkasz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: zamieszka
+---
+lemma: zapomnieç
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: zapomnia∏yÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: zapomnieliÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: zapomnia∏yÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: zapomnieliÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: zapomnia∏y
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: zapomnieli
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: zapomnia∏am
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: zapomnia∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: zapomnia∏aÊ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: zapomnia∏eÊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: zapomnia∏a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: zapomnia∏
+---
+lemma: zdejm´
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: zdejmijmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zdejmijcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: zdejmij
+---
+lemma: zdjąć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: zdejmiemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: zdejmiecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: zdejmą
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: zdejmę
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: zdejmiesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: zdejmie
+---
+lemma: znaleźć
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: znajdź
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: znajdzie
+- features:
+    verb_form: infinitive
+  expected: znaleźć
+---
+lemma: zniknàç
+category: verbs
+cases:
+- features:
+    gender: neuter
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: znik∏
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: znikliÊmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: znikliÊcie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: znikli
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: znik∏em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: znik∏am
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: znik∏
+---
+lemma: zostać
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: zostańmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zostańcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: zostań
+---
+lemma: êmieç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: êmiejmy
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: êmiejcie
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: êmiej
+---
+lemma: łajać
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: łajaliśmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: łajaliście
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: łajali
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: łajałem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: łajałeś
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: łajał
+---
+lemma: łamać
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: łamiemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: łamiecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: łamią
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: łamię
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: łamiesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: łamie
+---
+lemma: łapać
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: łapiemy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: łapiecie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: łapią
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: łapię
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: łapiesz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: łapie
+---
+lemma: śnić
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: śnimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: śnicie
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: śnię
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: śnisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: śni
+---
+lemma: żenić się
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: żenimy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: żenicie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: żenią
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: żenię
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: żenisz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: żeni
+---
+lemma: żuć
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: żuliśmy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: żuliście
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: żuli
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: żułem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: żułeś
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: żuł
