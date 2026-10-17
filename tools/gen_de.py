@@ -7,7 +7,10 @@ Run from the repository root: python tools/gen_de.py
 
 from pathlib import Path
 
+from tables import lexicon, members, write_table
+
 R = Path("rules/de")
+D = R / "data"
 T = Path("tests/de")
 CASES = ["nominative", "accusative", "dative", "genitive"]
 GENDERS = ["masculine", "feminine", "neuter"]
@@ -18,9 +21,6 @@ PERSONS = [("first", "singular"), ("second", "singular"), ("third", "singular"),
 def w(path: Path, text: str) -> None:
     path.write_text(text, encoding="utf-8", newline="\n")
 
-
-def facts(pred: str, table: dict) -> str:
-    return "".join(" ".join(f'{pred}("{l}", {c}).' for l in ls) + "\n" for c, ls in table.items())
 
 
 w(R / "lang.yaml", """name: German
@@ -110,6 +110,8 @@ n = ["""% rules/de/nouns.lp
 %   weak_n         Junge  -> Jungen in every form except the nominative singular
 % Nouns with an umlaut or other stem change in the plural (Mann -> Männer) are
 % listed as irregular with all eight forms.
+% Data (rules/de/data/): nouns.lexicon.tsv (noun_class per lemma),
+% nouns.exceptions.tsv (irregular nouns).
 %
 % Not covered: the optional dative singular -e (dem Tage), genitive variants
 % (-s vs -es), and mixed-declension nouns such as Name/Namens.
@@ -122,14 +124,15 @@ for cls, (sg, pl) in NOUN_RULES.items():
             head = "L" if end == "" else f'@suffix(L, "{end}")'
             n.append(f'form(L, "case={case};number={number}", {head}) :- input_lemma(L), noun_class(L, {cls}).\n')
     n.append("\n")
-n.append("% --- class membership\n" + facts("noun_class", NOUN_CLASSES))
-n.append("\n% --- irregular nouns (all forms listed)\n")
+w(R / "nouns.lp", "".join(n).rstrip("\n") + "\n")
+write_table(D / "nouns.lexicon.tsv", ["lemma", "noun_class"],
+            [[lemma, cls] for lemma, cls in members(NOUN_CLASSES)])
+exc = []
 for lemma, forms in IRREGULAR_NOUNS.items():
     sg, pl = (part.split() for part in forms.split("|"))
-    n.append(f'irregular("{lemma}").\n')
     for number, fs in (("singular", sg), ("plural", pl)):
-        n.append(" ".join(f'form("{lemma}", "case={c};number={number}", "{f}").' for c, f in zip(CASES, fs)) + "\n")
-w(R / "nouns.lp", "".join(n))
+        exc += [[lemma, f"case={c};number={number}", f] for c, f in zip(CASES, fs)]
+write_table(D / "nouns.exceptions.tsv", ["lemma", "features", "form"], exc)
 
 # ============================================================================= verbs
 VERB_CLASSES = {
@@ -190,6 +193,8 @@ v = ["""% rules/de/verbs.lp
 %   weak_no_ge  studieren -> studiert; besuchen -> besucht
 %               (verbs in -ieren and with an inseparable prefix have no "ge-")
 % Strong, mixed and modal verbs are irregular and list all their forms.
+% Data (rules/de/data/): verbs.lexicon.tsv (verb_class per lemma),
+% verbs.exceptions.tsv (strong, mixed and modal verbs).
 %
 % Not covered: separable verbs (anrufen -> ruft an), verbs in -eln/-ern
 % (sammeln), the subjunctive (Konjunktiv I/II) and the formal imperative.
@@ -212,19 +217,19 @@ for cls, e in VERB_ENDINGS.items():
         head = "S" if end == "" else f'@suffix(S, "{end}")'
         v.append(f'form(L, "number={number};verb_form=imperative", {head}) :- verb_class(L, {cls}), stem(L, S).\n')
     v.append("\n")
-v.append("% --- class membership\n" + facts("verb_class", VERB_CLASSES))
-v.append("\n% --- strong, mixed and modal verbs (all forms listed)\n")
+w(R / "verbs.lp", "".join(v).rstrip("\n") + "\n")
+write_table(D / "verbs.lexicon.tsv", ["lemma", "verb_class"],
+            [[lemma, cls] for lemma, cls in members(VERB_CLASSES)])
+exc = []
 for lemma, forms in IRREGULAR_VERBS.items():
     pres, past, pp, imp = (part.split() for part in forms.split("|"))
-    v.append(f'irregular("{lemma}").\n')
     for tense, fs in (("present", pres), ("past", past)):
-        v.append(" ".join(f'form("{lemma}", "{pkey(p, nb, tense)}", "{f}").' for (p, nb), f in zip(PERSONS, fs)) + "\n")
-    line = f'form("{lemma}", "verb_form=past_participle", "{pp[0]}").'
+        exc += [[lemma, pkey(p, nb, tense), f] for (p, nb), f in zip(PERSONS, fs)]
+    exc.append([lemma, "verb_form=past_participle", pp[0]])
     if imp != ["-"]:
-        line += f' form("{lemma}", "number=singular;verb_form=imperative", "{imp[0]}").'
-        line += f' form("{lemma}", "number=plural;verb_form=imperative", "{imp[1]}").'
-    v.append(line + "\n")
-w(R / "verbs.lp", "".join(v))
+        exc += [[lemma, "number=singular;verb_form=imperative", imp[0]],
+                [lemma, "number=plural;verb_form=imperative", imp[1]]]
+write_table(D / "verbs.exceptions.tsv", ["lemma", "features", "form"], exc)
 
 # ============================================================================= adjectives
 ADJ_REGULAR = ["klein", "schön", "schnell", "billig", "langsam", "freundlich", "wichtig", "schwer", "reich", "tief"]
@@ -258,9 +263,11 @@ a = ["""% rules/de/adjectives.lp
 % Declension keys: "case=...;declension=...;gender=...;number=singular" and
 % "case=...;declension=...;number=plural".
 %
-% Not covered: declension of comparative/superlative forms (der kleinere),
-% and the stem change of "hoch" in declension (hohe) -- use the positive "hoh-"
-% via adj_stem if needed.
+% Data (rules/de/data/): adjectives.lexicon.tsv (adj_class, adj_stem per
+% lemma; "hoch" declines on "hoh-"), adjectives.exceptions.tsv (irregular
+% comparison).
+%
+% Not covered: declension of comparative/superlative forms (der kleinere).
 
 form(L, "degree=positive", L) :- input_lemma(L).
 
@@ -282,14 +289,15 @@ for decl, (m, f, nt, pl) in DECL.items():
     for case, end in zip(CASES, pl):
         a.append(f'form(L, "case={case};declension={decl};number=plural", @suffix(S, "{end}")) :- stem(L, S).\n')
     a.append("\n")
-a.append("% --- classes\n")
-a.append(" ".join(f'adj_class("{l}", est).' for l in ADJ_EST) + "\n")
-a.append(" ".join(f'adj_stem("{l}", "{s}").' for l, s in ADJ_STEM.items()) + "\n")
-a.append("% hoch declines on hoh- (hohe, hoher)\nadj_stem(\"hoch\", \"hoh\").\n")
-a.append("\n% --- irregular comparison\n")
-for lemma, (comp, sup) in IRREGULAR_DEGREE.items():
-    a.append(f'irregular("{lemma}"). form("{lemma}", "degree=comparative", "{comp}"). form("{lemma}", "degree=superlative", "{sup}").\n')
-w(R / "adjectives.lp", "".join(a))
+w(R / "adjectives.lp", "".join(a).rstrip("\n") + "\n")
+write_table(D / "adjectives.lexicon.tsv", ["lemma", "adj_class", "adj_stem:string", "note"], lexicon(
+    ["adj_class", "adj_stem", "note"],
+    {"adj_class": {l: "est" for l in ADJ_EST},
+     "adj_stem": {**ADJ_STEM, "hoch": "hoh"},
+     "note": {"hoch": "declines on hoh- (hohe, hoher)"}}))
+write_table(D / "adjectives.exceptions.tsv", ["lemma", "features", "form"],
+            [[lemma, f"degree={d}", f] for lemma, (comp, sup) in IRREGULAR_DEGREE.items()
+             for d, f in (("comparative", comp), ("superlative", sup))])
 
 # ============================================================================= articles & determiners
 DER = {"masculine": "der den dem des", "feminine": "die die der der", "neuter": "das das dem des", "plural": "die die den der"}
@@ -304,14 +312,18 @@ ar = ["""% rules/de/articles.lp
 %   der-words (der_word)      dieser, jeder, welcher: stem (lemma minus -er) + ending
 % Keys: "case=...;gender=...;number=singular" and "case=...;number=plural".
 %
+% Data (rules/de/data/): articles.exceptions.tsv (der), articles.lexicon.tsv
+% (det_class and singular_only per lemma).
+%
 % Not covered: "euer" (stem change eure), "ihr" (identical to other forms).
 
 """]
+der_rows = []
 for gender, forms in DER.items():
     for case, f in zip(CASES, forms.split()):
         key = f"case={case};number=plural" if gender == "plural" else f"case={case};gender={gender};number=singular"
-        ar.append(f'form("der", "{key}", "{f}").\n')
-ar.append("\n")
+        der_rows.append(["der", key, f])
+write_table(D / "articles.exceptions.tsv", ["lemma", "features", "form"], der_rows)
 for cls, table, stem_expr in (("ein_word", EIN_WORD, "L"), ("der_word", DER_WORD, '@strip_suffix_add(L, 2, "")')):
     ar.append(f"% --- {cls}\n")
     ar.append(f"stem(L, {stem_expr}) :- input_lemma(L), det_class(L, {cls}).\n")
@@ -322,10 +334,12 @@ for cls, table, stem_expr in (("ein_word", EIN_WORD, "L"), ("der_word", DER_WORD
             guard = ', not singular_only(L)' if gender == "plural" else ""
             ar.append(f'form(L, "{key}", {head}) :- det_class(L, {cls}), stem(L, S){guard}.\n')
     ar.append("\n")
-ar.append(" ".join(f'det_class("{l}", ein_word).' for l in ["ein", "kein", "mein", "dein", "sein", "unser"]) + "\n")
-ar.append(" ".join(f'det_class("{l}", der_word).' for l in ["dieser", "jeder", "welcher"]) + "\n")
-ar.append('singular_only("ein").\n')
-w(R / "articles.lp", "".join(ar))
+w(R / "articles.lp", "".join(ar).rstrip("\n") + "\n")
+write_table(D / "articles.lexicon.tsv", ["lemma", "det_class", "singular_only:flag"], lexicon(
+    ["det_class", "singular_only"],
+    {"det_class": dict(members({"ein_word": ["ein", "kein", "mein", "dein", "sein", "unser"],
+                                "der_word": ["dieser", "jeder", "welcher"]})),
+     "singular_only": {"ein": "yes"}}))
 
 # ============================================================================= pronouns
 PRON = [  # lemma, number, nom acc dat gen
@@ -338,12 +352,13 @@ PRON = [  # lemma, number, nom acc dat gen
 pr = ["""% rules/de/pronouns.lp
 % German personal pronouns (features: case, number). The lemma is the
 % nominative; "sie" has a singular (she) and a plural (they) paradigm, "Sie" is
-% the formal address. Every form is listed.
-
+% the formal address. Every form is listed in data/pronouns.exceptions.tsv;
+% there are no rules.
 """]
-for lemma, number, forms in PRON:
-    pr.append(" ".join(f'form("{lemma}", "case={c};number={number}", "{f}").' for c, f in zip(CASES, forms.split())) + "\n")
 w(R / "pronouns.lp", "".join(pr))
+write_table(D / "pronouns.exceptions.tsv", ["lemma", "features", "form"],
+            [[lemma, f"case={c};number={number}", f]
+             for lemma, number, forms in PRON for c, f in zip(CASES, forms.split())])
 
 # ============================================================================= golden tests (typed separately)
 

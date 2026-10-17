@@ -1,0 +1,778 @@
+lemma: Doktor
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: Doktoruz
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: Doktorsunuz
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: Doktor
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: Doktorum
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: Doktorsun
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: Doktor
+---
+lemma: arka
+category: nouns
+cases:
+- features:
+    case: ablative
+  expected: arkasından
+- features:
+    case: allative
+  expected: arkasına
+- features:
+    case: locative
+  expected: arkasında
+---
+lemma: ben
+category: nouns
+cases:
+- features:
+    case: ablative
+  expected: benden
+- features:
+    case: accusative
+  expected: beni
+- features:
+    case: dative
+  expected: ban-a
+- features:
+    case: genitive
+  expected: benim
+- features:
+    case: instrumental
+  expected: benle
+- features:
+    case: locative
+  expected: bende
+- features:
+    case: nominative
+  expected: ben
+---
+lemma: benzinci
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: benzinciyla
+- features:
+    number: plural
+    person: second
+  expected: benzincisiniz
+- features:
+    number: plural
+    person: third
+  expected: benzir
+- features:
+    number: singular
+    person: first
+  expected: benzincivim
+- features:
+    number: singular
+    person: second
+  expected: benzincisin
+- features:
+    number: singular
+    person: third
+  expected: benzinci
+---
+lemma: doktor
+category: nouns
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: doktorduk
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: doktordunuz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: doktordular
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: doktordum
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: doktordun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: doktordu
+---
+lemma: kahve
+category: nouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: kahvelerden
+- features:
+    case: ablative
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: kahvelerimizden
+- features:
+    case: ablative
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: kahvelerinizden
+- features:
+    case: ablative
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: kahvelerinden
+- features:
+    case: ablative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: kahvelerimden
+- features:
+    case: ablative
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: kahvelerinden
+- features:
+    case: ablative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: kahvelerinden
+- features:
+    case: ablative
+    number: singular
+  expected: kahveden
+- features:
+    case: ablative
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: kahvemizden
+- features:
+    case: ablative
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: kahvenizden
+- features:
+    case: ablative
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: kahvelerinden
+- features:
+    case: ablative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: kahvemden
+- features:
+    case: ablative
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: kahvenden
+- features:
+    case: ablative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: kahvesinden
+- features:
+    case: accusative
+    number: plural
+  expected: kahveleri
+- features:
+    case: accusative
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: kahvelerimizi
+- features:
+    case: accusative
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: kahvelerinizi
+- features:
+    case: accusative
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: kahvelerini
+- features:
+    case: accusative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: kahvelerimi
+- features:
+    case: accusative
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: kahvelerini
+- features:
+    case: accusative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: kahvelerini
+- features:
+    case: accusative
+    number: singular
+  expected: kahveyi
+- features:
+    case: accusative
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: kahvemizi
+- features:
+    case: accusative
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: kahvenizi
+- features:
+    case: accusative
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: kahvelerini
+- features:
+    case: accusative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: kahvemi
+- features:
+    case: accusative
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: kahveni
+- features:
+    case: accusative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: kahvesini
+- features:
+    case: comitative
+    number: plural
+  expected: kahvelerle
+- features:
+    case: comitative
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: kahvelerimizle
+- features:
+    case: comitative
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: kahvelerinizle
+- features:
+    case: comitative
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: kahvelerinle
+- features:
+    case: comitative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: kahvelerimle
+- features:
+    case: comitative
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: kahvelerinle
+- features:
+    case: comitative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: kahvelerinle
+- features:
+    case: comitative
+    number: singular
+  expected: kahveyle
+- features:
+    case: comitative
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: kahvemizle
+- features:
+    case: comitative
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: kahvenizle
+- features:
+    case: comitative
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: kahveleriyle
+- features:
+    case: comitative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: kahvemle
+- features:
+    case: comitative
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: kahvenle
+- features:
+    case: comitative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: kahvesiyle
+- features:
+    case: dative
+    number: plural
+  expected: kahvelere
+- features:
+    case: dative
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: kahvelerimize
+- features:
+    case: dative
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: kahvelerinize
+- features:
+    case: dative
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: kahvelerine
+- features:
+    case: dative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: kahvelerime
+- features:
+    case: dative
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: kahvelerine
+- features:
+    case: dative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: kahvelerine
+- features:
+    case: dative
+    number: singular
+  expected: kahveye
+- features:
+    case: dative
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: kahvemize
+- features:
+    case: dative
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: kahvenize
+- features:
+    case: dative
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: kahvelerine
+- features:
+    case: dative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: kahveme
+- features:
+    case: dative
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: kahvene
+- features:
+    case: dative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: kahvesine
+- features:
+    case: genitive
+    number: plural
+  expected: kahvelerin
+- features:
+    case: genitive
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: kahvelerimizin
+- features:
+    case: genitive
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: kahvelerininiz
+- features:
+    case: genitive
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: kahvelerinin
+- features:
+    case: genitive
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: kahvelerimin
+- features:
+    case: genitive
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: kahve-ler-in-in
+- features:
+    case: genitive
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: kahvelerinin
+- features:
+    case: genitive
+    number: singular
+  expected: kahvenin
+- features:
+    case: genitive
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: kahvemizin
+- features:
+    case: genitive
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: kahvenizin
+- features:
+    case: genitive
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: kahvelerinin
+- features:
+    case: genitive
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: kahvemin
+- features:
+    case: genitive
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: kahvenin
+- features:
+    case: genitive
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: kahvesinin
+- features:
+    case: locative
+    number: plural
+  expected: kahvelerde
+- features:
+    case: locative
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: kahvelerimizde
+- features:
+    case: locative
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: kahvelerinizde
+- features:
+    case: locative
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: kahvelerinde
+- features:
+    case: locative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: kahvelerimde
+- features:
+    case: locative
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: kahvelerinde
+- features:
+    case: locative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: kahvelerinde
+- features:
+    case: locative
+    number: singular
+  expected: kahvede
+- features:
+    case: locative
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: kahvemizde
+- features:
+    case: locative
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: kahvenizde
+- features:
+    case: locative
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: kahvelerinde
+- features:
+    case: locative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: kahvemde
+- features:
+    case: locative
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: kahvende
+- features:
+    case: locative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: kahvesinde
+- features:
+    case: nominative
+    number: plural
+  expected: kahveler
+- features:
+    case: nominative
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: kahvelerimiz
+- features:
+    case: nominative
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: kahveleriniz
+- features:
+    case: nominative
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: kahveleri
+- features:
+    case: nominative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: kahvelerim
+- features:
+    case: nominative
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: kahvelerin
+- features:
+    case: nominative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: kahveleri
+- features:
+    case: nominative
+    number: singular
+  expected: kahve
+- features:
+    case: nominative
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: kahvemiz
+- features:
+    case: nominative
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: kahveniz
+- features:
+    case: nominative
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: kahveleri
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: kahvem
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: kahven
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: kahvesi
+---
+lemma: kitap
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kitablmaz
+- features:
+    number: plural
+    person: second
+  expected: kitabinlz
+- features:
+    number: plural
+    person: third
+  expected: kitaplari
+- features:
+    number: singular
+    person: first
+  expected: kitabim
+- features:
+    number: singular
+    person: second
+  expected: kitabin
+- features:
+    number: singular
+    person: third
+  expected: kitabi
+---
+lemma: masa
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: masamiz
+- features:
+    number: plural
+    person: second
+  expected: masaniz
+- features:
+    number: plural
+    person: third
+  expected: masalari
+- features:
+    number: singular
+    person: first
+  expected: masam
+- features:
+    number: singular
+    person: second
+  expected: masan
+- features:
+    number: singular
+    person: third
+  expected: masasi
+---
+lemma: üzer
+category: nouns
+cases:
+- features:
+    case: ablative
+  expected: üzerinden
+- features:
+    case: allative
+  expected: üzerine
+- features:
+    case: locative
+  expected: üzerinde

@@ -1,0 +1,89 @@
+lemma: cahir
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: cahimos
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: caio
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: caes
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cáe
+---
+lemma: cobrir
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: cubro
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: cobres
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cobre
+---
+lemma: frigir
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: frigimos
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: frigis
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: fregem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: frijo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: frgees
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: frege

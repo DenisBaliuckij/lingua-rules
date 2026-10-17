@@ -1,0 +1,1071 @@
+lemma: bazı
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: bazımız
+- features:
+    number: plural
+    person: second
+  expected: bazınız
+- features:
+    number: plural
+    person: third
+  expected: bazıları
+---
+lemma: ben
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: biz-den
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: benden
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: biz-i
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: beni
+- features:
+    case: comitative
+    number: singular
+    person: first
+  expected: benimle
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: biz-e
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: ban-a
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: biz-im
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: benim
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: biz-de
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: bende
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: biz
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ben
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: bizim
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: bɛnim
+---
+lemma: bir
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: biri-miz
+- features:
+    number: plural
+    person: second
+  expected: biri-niz
+- features:
+    number: plural
+    person: third
+  expected: biri-leri
+---
+lemma: birbirimiz
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: birbirimizden
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: birbirinizden
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: birbirIerinden
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: birbirimizi
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: birbirinizi
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: birbirIerini
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: birbirimize
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: birbirinize
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: birbirIerine
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: birbirimizin
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: birbirinizin
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: birbirIerinin
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: birbirimizde
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: birbirinizde
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: birbirIerinde
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: birbirimiz
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: birbiriniz
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: birbirIeri
+---
+lemma: biz
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: bizden
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: bizi
+- features:
+    case: comitative
+    number: plural
+    person: first
+  expected: bizimle
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: bize
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: bizim
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: bizde
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: biz
+---
+lemma: boyle-si
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: boyle-Ier-in-den
+- features:
+    case: ablative
+    number: singular
+  expected: boyle-sin-den
+- features:
+    case: accusative
+    number: plural
+  expected: boyle-Ier-in-i
+- features:
+    case: accusative
+    number: singular
+  expected: boyle-sin-i
+- features:
+    case: dative
+    number: plural
+  expected: boyle-Ier-in-e
+- features:
+    case: dative
+    number: singular
+  expected: boyle-sin-e
+- features:
+    case: genitive
+    number: plural
+  expected: boyle-Ier-in-in
+- features:
+    case: genitive
+    number: singular
+  expected: boyle-sin-in
+- features:
+    case: locative
+    number: plural
+  expected: boyle-Ier-in-de
+- features:
+    case: locative
+    number: singular
+  expected: boyle-sin-de
+- features:
+    case: nominative
+    number: plural
+  expected: boyle-Ier-i
+- features:
+    case: nominative
+    number: singular
+  expected: boyle-si
+---
+lemma: bu
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: bundan
+- features:
+    case: ablative
+    number: plural
+  expected: bun -lar -dan
+- features:
+    case: ablative
+    number: singular
+  expected: bun-dan
+- features:
+    case: accusative
+  expected: bunu
+- features:
+    case: accusative
+    number: plural
+  expected: bun -lar-l
+- features:
+    case: accusative
+    number: singular
+  expected: bunu
+- features:
+    case: dative
+  expected: buna
+- features:
+    case: dative
+    number: plural
+  expected: bun -lar-a
+- features:
+    case: dative
+    number: singular
+  expected: bun-a
+- features:
+    case: genitive
+  expected: bunun
+- features:
+    case: genitive
+    number: plural
+  expected: bun -lar -In
+- features:
+    case: genitive
+    number: singular
+  expected: bun-un
+- features:
+    case: instrumental
+  expected: bununla
+- features:
+    case: locative
+  expected: bunda
+- features:
+    case: locative
+    number: plural
+  expected: bun -lar -da
+- features:
+    case: locative
+    number: singular
+  expected: bun-da
+- features:
+    case: nominative
+  expected: bu
+- features:
+    case: nominative
+    number: plural
+  expected: bun -lar
+- features:
+    case: nominative
+    number: singular
+  expected: bu
+---
+lemma: bunlar
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: bunlardan
+- features:
+    case: accusative
+  expected: bunları
+- features:
+    case: dative
+  expected: bunlara
+- features:
+    case: genitive
+  expected: bunların
+- features:
+    case: instrumental
+  expected: bunlarla
+- features:
+    case: locative
+  expected: bunlarda
+- features:
+    case: nominative
+  expected: bunlar
+---
+lemma: bura
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: buradan
+- features:
+    case: accusative
+  expected: burayı
+- features:
+    case: dative
+  expected: buraya
+- features:
+    case: genitive
+  expected: buranın
+- features:
+    case: instrumental
+  expected: burayla
+- features:
+    case: locative
+  expected: burada
+- features:
+    case: nominative
+  expected: burası
+---
+lemma: kendi
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: kendinden
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: kendimizden
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: kendi -niz-den
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: kendiIerinden
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: kendimden
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: kendinden
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: kendin-den
+- features:
+    case: accusative
+  expected: kendini
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: kendimizi
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: kendinizi
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: kendiIerini
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: kendimi
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: kendini
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: kendini
+- features:
+    case: dative
+  expected: kendine
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: kendimize
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: kendi -lerin-e
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: kendiIerine
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: kendime
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: kendine
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: kendin-e
+- features:
+    case: genitive
+  expected: kendinin
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: kendimizin
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: kendinizin
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: kendiIerinin
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: kendimin
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: kendinin
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: kendin-in
+- features:
+    case: locative
+  expected: kendinde
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: kendimizde
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: kendinizde
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: kendiIerinde
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: kendimde
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: kendinde
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: kendin-de
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: kendimiz
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: kendiniz
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: kendiIeri
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: kendim
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: kendin
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: kendi
+- features:
+    number: plural
+    person: first
+  expected: kendimiz
+- features:
+    number: plural
+    person: second
+  expected: kendiniz
+- features:
+    number: plural
+    person: third
+  expected: kendileri
+- features:
+    number: singular
+    person: first
+  expected: kendim
+- features:
+    number: singular
+    person: second
+  expected: kendin
+- features:
+    number: singular
+    person: third
+  expected: kendi
+---
+lemma: kimi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kimimiz
+- features:
+    number: plural
+    person: second
+  expected: kiminiz
+- features:
+    number: plural
+    person: third
+  expected: kimileri
+---
+lemma: ne
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: nelerden
+- features:
+    case: ablative
+    number: singular
+  expected: neden
+- features:
+    case: accusative
+    number: plural
+  expected: neler
+- features:
+    case: accusative
+    number: singular
+  expected: ne
+- features:
+    case: dative
+    number: plural
+  expected: nelere
+- features:
+    case: dative
+    number: singular
+  expected: neye
+- features:
+    case: genitive
+    number: plural
+  expected: nelerin
+- features:
+    case: genitive
+    number: singular
+  expected: neyIn
+- features:
+    case: locative
+    number: plural
+  expected: nelerde
+- features:
+    case: locative
+    number: singular
+  expected: nede
+- features:
+    case: nominative
+    number: plural
+  expected: neler
+- features:
+    case: nominative
+    number: singular
+  expected: ne
+---
+lemma: onlar
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: onlardan
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: onlardan
+- features:
+    case: accusative
+  expected: onları
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: onları
+- features:
+    case: comitative
+    number: plural
+    person: third
+  expected: onlarla
+- features:
+    case: dative
+  expected: onlara
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: onlara
+- features:
+    case: genitive
+  expected: onların
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: onların
+- features:
+    case: instrumental
+  expected: onlarla
+- features:
+    case: locative
+  expected: onlarda
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: onlarda
+- features:
+    case: nominative
+  expected: onlar
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: onlar
+---
+lemma: ora
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: oradan
+- features:
+    case: accusative
+  expected: orayı
+- features:
+    case: dative
+  expected: oraya
+- features:
+    case: genitive
+  expected: oranın
+- features:
+    case: instrumental
+  expected: orayla
+- features:
+    case: locative
+  expected: orada
+- features:
+    case: nominative
+  expected: orası
+---
+lemma: oyle-si
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: oyle-Ier-in-den
+- features:
+    case: ablative
+    number: singular
+  expected: oyle-sin-den
+- features:
+    case: accusative
+    number: plural
+  expected: oyle-Ier-in-i
+- features:
+    case: accusative
+    number: singular
+  expected: oyle-sin-i
+- features:
+    case: dative
+    number: plural
+  expected: oyle-Ier-in-e
+- features:
+    case: dative
+    number: singular
+  expected: oyle-sin-e
+- features:
+    case: genitive
+    number: plural
+  expected: oyle-Ier-in-in
+- features:
+    case: genitive
+    number: singular
+  expected: oyle-sin-in
+- features:
+    case: locative
+    number: plural
+  expected: oyle-Ier-in-de
+- features:
+    case: locative
+    number: singular
+  expected: oyle-sin-de
+- features:
+    case: nominative
+    number: plural
+  expected: oyle-Ier-i
+- features:
+    case: nominative
+    number: singular
+  expected: oyle-si
+---
+lemma: sen
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: siz-den
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: senden
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: sIZ-I
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: senI
+- features:
+    case: comitative
+    number: singular
+    person: second
+  expected: seninle
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: sIz-e
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: san-a
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: sIZ-In
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: senIn
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: siz-de
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: sende
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: slZ
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: sen
+- features:
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: sizin
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: sɛnim
+---
+lemma: siz
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: sizden
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: sizi
+- features:
+    case: comitative
+    number: plural
+    person: second
+  expected: sizinle
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: size
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: sizin
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: sizde
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: siz
+---
+lemma: şu
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: şundan
+- features:
+    case: ablative
+    number: singular
+  expected: şundan
+- features:
+    case: accusative
+  expected: şunu
+- features:
+    case: accusative
+    number: singular
+  expected: şunu
+- features:
+    case: dative
+  expected: şuna
+- features:
+    case: dative
+    number: singular
+  expected: şuna
+- features:
+    case: genitive
+  expected: şunun
+- features:
+    case: genitive
+    number: singular
+  expected: şunun
+- features:
+    case: instrumental
+  expected: şununla
+- features:
+    case: locative
+  expected: şunda
+- features:
+    case: locative
+    number: singular
+  expected: şunda
+- features:
+    case: nominative
+  expected: şu
+- features:
+    case: nominative
+    number: plural
+  expected: şunlar
+- features:
+    case: nominative
+    number: singular
+  expected: şu
+---
+lemma: şunlar
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: şunlardan
+- features:
+    case: accusative
+  expected: şunları
+- features:
+    case: dative
+  expected: şunlara
+- features:
+    case: genitive
+  expected: şunların
+- features:
+    case: instrumental
+  expected: şunlarla
+- features:
+    case: locative
+  expected: şunlarda
+- features:
+    case: nominative
+  expected: şunlar
+---
+lemma: şura
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: şuradan
+- features:
+    case: accusative
+  expected: şurayı
+- features:
+    case: dative
+  expected: şuraya
+- features:
+    case: genitive
+  expected: şuranın
+- features:
+    case: instrumental
+  expected: şurayla
+- features:
+    case: locative
+  expected: şurada
+- features:
+    case: nominative
+  expected: şurası

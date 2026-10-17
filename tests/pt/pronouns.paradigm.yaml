@@ -1,0 +1,91 @@
+lemma: me
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nos
+- features:
+    number: plural
+    person: second
+  expected: vos
+- features:
+    number: plural
+    person: third
+  expected: os
+- features:
+    number: singular
+    person: first
+  expected: me
+- features:
+    number: singular
+    person: second
+  expected: te
+- features:
+    number: singular
+    person: third
+  expected: a
+---
+lemma: meu
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: minhas
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: tuas
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: suas
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: minha
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: tua
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: sua
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: meus
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: teus
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: seus
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: meu
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: teu
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: seu

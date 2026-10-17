@@ -21,3 +21,13 @@ class RuleContext:
 
     def prefix(self, lemma: Symbol, prefix_str: Symbol) -> Symbol:
         return String(prefix_str.string + lemma.string)
+
+    def affix(
+        self, lemma: Symbol, strip_front: Symbol, prefix_str: Symbol, strip: Symbol, ending: Symbol
+    ) -> Symbol:
+        """Drop strip_front letters at the start and strip letters at the end, then add the
+        prefix and the ending (Swahili m-tu -> wa-tu: @affix(L, 1, "wa", 0, ""))."""
+        word = lemma.string
+        front, back = strip_front.number, strip.number
+        core = word[front: len(word) - back] if back > 0 else word[front:]
+        return String(prefix_str.string + core + ending.string)

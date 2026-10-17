@@ -1,0 +1,31 @@
+lemma: buono
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: huone
+- features:
+    gender: feminine
+    number: singular
+  expected: huona
+- features:
+    gender: masculine
+    number: plural
+  expected: huoni
+- features:
+    gender: masculine
+    number: singular
+  expected: buono
+---
+lemma: grande
+category: adjectives
+cases:
+- features:
+    gender: masculine
+    number: plural
+  expected: grandi
+- features:
+    gender: masculine
+    number: singular
+  expected: grande

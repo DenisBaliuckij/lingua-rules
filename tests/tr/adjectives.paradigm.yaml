@@ -1,0 +1,103 @@
+lemma: amerikalı
+category: adjectives
+cases:
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: amerikalıyız
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: amerikalısınız
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: amerikalı
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: amerikalıyım
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: amerikalısın
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: amerikalı
+---
+lemma: iyi
+category: adjectives
+cases:
+- features:
+    number: plural
+    person: first
+  expected: iyiviz
+- features:
+    number: plural
+    person: second
+  expected: iyisiniz
+- features:
+    number: singular
+    person: first
+  expected: iyiyim
+- features:
+    number: singular
+    person: second
+  expected: iyisin
+- features:
+    number: singular
+    person: third
+  expected: iYi
+---
+lemma: yaşlı
+category: adjectives
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: yaşlıydık
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: yaşlıydınız
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: yaşlıydılar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: yaşlıydım
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: yaşlıydın
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: yaşlıydı

@@ -24,9 +24,15 @@ from lingua_rules.engine.runner import (
     InvalidLemmaError,
     NoRuleMatchedError,
     RuleFileParseError,
-    generate_form,
+    generate_forms,
 )
-from lingua_rules.engine.templates import MissingTemplateFieldError, append_rule
+from lingua_rules.engine.datasets import DatasetError
+from lingua_rules.engine.templates import (
+    TEMPLATE_NAMES,
+    DuplicateEntryError,
+    MissingTemplateFieldError,
+    append_rule,
+)
 
 app = typer.Typer(help="Author, browse, and test natural language grammar rules.")
 
@@ -93,7 +99,7 @@ def generate(
     try:
         vocab = load_feature_vocabulary(rules_dir, lang)
         validate_features(vocab, parsed)
-        form = generate_form(rules_dir, lang, category, lemma, parsed)
+        generated = generate_forms(rules_dir, lang, category, lemma, parsed)
     except (
         UnknownFeatureError,
         NoRuleMatchedError,
@@ -104,7 +110,9 @@ def generate(
     ) as exc:
         typer.echo(f"error: {exc}")
         raise typer.Exit(code=1)
-    typer.echo(form)
+    typer.echo(generated.form)
+    for variety, form in generated.admitted:
+        typer.echo(f"  also admitted ({variety}): {form}")
 
 
 def _report_results(results: list[ParadigmCaseResult]) -> int:
@@ -117,6 +125,7 @@ def _report_results(results: list[ParadigmCaseResult]) -> int:
         typer.echo(
             f"[{status}] {result.lemma} {result.features} "
             f"expected={result.expected!r} actual={result.actual!r}"
+            + (f" missing admitted: {', '.join(result.missing_admitted)}" if result.missing_admitted else "")
         )
     typer.echo(f"{len(results) - failed}/{len(results)} passed")
     return failed
@@ -175,21 +184,55 @@ def lint(
 def new_rule(
     lang: str,
     category: str,
-    template: str = typer.Option(..., "--template", help="regular-affix or exception-override"),
-    feature_key: str = typer.Option(..., "--feature-key", help='e.g. "number=plural"'),
+    template: str = typer.Option(..., "--template", help=", ".join(TEMPLATE_NAMES)),
+    feature_key: str = typer.Option(None, "--feature-key", help='e.g. "number=plural"'),
     suffix: str = typer.Option(None, "--suffix"),
+    prefix: str = typer.Option(None, "--prefix"),
     lemma: str = typer.Option(None, "--lemma"),
     form: str = typer.Option(None, "--form"),
+    variety: str = typer.Option(None, "--variety", help="admitted-variant: e.g. acadian"),
+    class_predicate: str = typer.Option(
+        None, "--class-predicate", help="class-paradigm: e.g. noun_class"
+    ),
+    class_name: str = typer.Option(None, "--class", help="paradigm-ending: e.g. m_hard"),
+    strip: str = typer.Option(None, "--strip", help="paradigm-ending: letters to drop at the end"),
+    strip_front: str = typer.Option(
+        None, "--strip-front", help="paradigm-ending (affix tables): letters to drop at the start"
+    ),
+    ending: str = typer.Option(None, "--ending", help="paradigm-ending: ending to add"),
+    predicate: str = typer.Option(None, "--predicate", help="lexicon-entry: e.g. noun_class"),
+    value: str = typer.Option(None, "--value", help="lexicon-entry: e.g. m_hard"),
+    value_type: str = typer.Option(
+        None, "--value-type", help="lexicon-entry: constant (default), string, number, flag"
+    ),
     rules_dir: Path = typer.Option(Path("rules"), "--rules-dir"),
 ) -> None:
-    """Append a rule scaffold from TEMPLATE to CATEGORY's rule file for LANG."""
-    fields = {"feature_key": feature_key, "suffix": suffix, "lemma": lemma, "form": form}
+    """Apply TEMPLATE to CATEGORY of LANG: a rule goes to the .lp file, an exception,
+    admitted variant, paradigm ending or lexicon entry goes to a table under rules/LANG/data/."""
+    fields = {
+        "feature_key": feature_key,
+        "suffix": suffix,
+        "prefix": prefix,
+        "lemma": lemma,
+        "form": form,
+        "variety": variety,
+        "class_predicate": class_predicate,
+        "class_name": class_name,
+        "strip": strip,
+        "strip_front": strip_front,
+        "ending": ending,
+        "predicate": predicate,
+        "value": value,
+        "value_type": value_type,
+    }
     kwargs = {key: value for key, value in fields.items() if value is not None}
     try:
         path = append_rule(rules_dir, lang, category, template, **kwargs)
     except (
         ValueError,
         MissingTemplateFieldError,
+        DuplicateEntryError,
+        DatasetError,
         UnsafeFieldValueError,
         UnknownFeatureError,
         CategoryNotFoundError,
@@ -197,7 +240,10 @@ def new_rule(
     ) as exc:
         typer.echo(f"error: {exc}")
         raise typer.Exit(code=1)
-    typer.echo(f"appended {template} scaffold to {path}")
+    if path.suffix == ".tsv":
+        typer.echo(f"added {template} row to {path}")
+    else:
+        typer.echo(f"appended {template} scaffold to {path}")
 
 
 @app.command()

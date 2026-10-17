@@ -9,7 +9,7 @@
     <td>{{ r.lemma }}</td>
     <td>{{ r.features }}</td>
     <td>{{ r.expected }}</td>
-    <td>{{ r.actual if r.actual is not none else r.error }}</td>
+    <td>{{ r.actual if r.actual is not none else r.error }}{% if r.missing_admitted %} (missing admitted: {{ r.missing_admitted | join(", ") }}){% endif %}</td>
     <td>{{ "PASS" if r.passed else "FAIL" }}</td>
   </tr>
   {% endfor %}

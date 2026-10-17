@@ -1,0 +1,405 @@
+lemma: alguno
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: algunos
+- features:
+    number: singular
+  expected: alguno
+---
+lemma: aquel
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: aquellos
+- features:
+    number: singular
+  expected: aquel
+---
+lemma: aquel otro
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: aquellos otros
+- features:
+    number: singular
+  expected: aquel otro
+---
+lemma: aquese
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: aquesos
+- features:
+    number: singular
+  expected: aquese
+---
+lemma: aqueste
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: aquestos
+- features:
+    number: singular
+  expected: aqueste
+---
+lemma: cual
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: cuales
+- features:
+    number: singular
+  expected: cual
+---
+lemma: cuyo
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: cuyos
+- features:
+    number: singular
+  expected: cuyo
+---
+lemma: el cual
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: los cuales
+- features:
+    number: singular
+  expected: el cual
+---
+lemma: el de
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: los de
+- features:
+    number: singular
+  expected: el de
+---
+lemma: el que
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: los que
+- features:
+    number: singular
+  expected: el que
+---
+lemma: el uno
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: los unos
+- features:
+    number: singular
+  expected: el uno
+---
+lemma: ese
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: esos
+- features:
+    number: singular
+  expected: ese
+---
+lemma: esotro
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: esotros
+- features:
+    number: singular
+  expected: esotro
+---
+lemma: este
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: estos
+- features:
+    number: singular
+  expected: este
+---
+lemma: estotro
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: estotros
+- features:
+    number: singular
+  expected: estotro
+---
+lemma: mío
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mis
+- features:
+    number: singular
+    person: first
+  expected: mi
+---
+lemma: otro
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: otros
+- features:
+    number: singular
+  expected: otro
+---
+lemma: que
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: que
+- features:
+    number: singular
+  expected: que
+---
+lemma: quien
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: quienes
+- features:
+    number: singular
+  expected: quien
+---
+lemma: suyo
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: sus
+- features:
+    number: singular
+    person: third
+  expected: su
+---
+lemma: tuyo
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: tus
+- features:
+    number: singular
+    person: second
+  expected: tu
+---
+lemma: tú
+category: pronouns
+cases:
+- features:
+    case: comitative
+    number: singular
+    person: second
+  expected: contigo
+- features:
+    case: direct
+    number: plural
+    person: second
+  expected: os
+- features:
+    case: direct
+    number: singular
+    person: second
+  expected: te
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: vosotros
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: tú
+- features:
+    case: prepositional
+    number: plural
+    person: second
+  expected: vosotros
+- features:
+    case: prepositional
+    number: singular
+    person: second
+  expected: ti
+- features:
+    number: plural
+    person: second
+  expected: vosotros
+- features:
+    number: singular
+    person: second
+  expected: tú
+---
+lemma: uno
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: unos
+- features:
+    number: singular
+  expected: uno
+---
+lemma: uno y otro
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: unos y otros
+- features:
+    number: singular
+  expected: uno y otro
+---
+lemma: yo
+category: pronouns
+cases:
+- features:
+    case: comitative
+    number: singular
+    person: first
+  expected: conmigo
+- features:
+    case: direct
+    number: plural
+    person: first
+  expected: nos
+- features:
+    case: direct
+    number: singular
+    person: first
+  expected: me
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nosotros
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: yo
+- features:
+    case: prepositional
+    number: plural
+    person: first
+  expected: nosotros
+- features:
+    case: prepositional
+    number: singular
+    person: first
+  expected: mi
+- features:
+    number: plural
+    person: first
+  expected: nosotros
+- features:
+    number: singular
+    person: first
+  expected: yo
+---
+lemma: él
+category: pronouns
+cases:
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+    person: third
+  expected: le
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: les
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: le
+- features:
+    case: direct
+    gender: neuter
+    number: singular
+    person: third
+  expected: lo
+- features:
+    case: direct
+    number: plural
+    person: third
+  expected: los
+- features:
+    case: direct
+    number: singular
+    person: third
+  expected: le
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+    person: third
+  expected: ello
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: ellos
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: él
+- features:
+    case: prepositional
+    gender: neuter
+    number: singular
+    person: third
+  expected: ello
+- features:
+    case: prepositional
+    number: plural
+    person: third
+  expected: ellos
+- features:
+    case: prepositional
+    number: singular
+    person: third
+  expected: el
+- features:
+    number: plural
+    person: third
+  expected: ellos
+- features:
+    number: singular
+    person: third
+  expected: él

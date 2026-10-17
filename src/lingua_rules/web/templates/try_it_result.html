@@ -2,4 +2,7 @@
 <p class="error">error: {{ error }}</p>
 {% else %}
 <p>{{ lemma }} + {{ features }} = <strong>{{ result }}</strong></p>
+{% if admitted %}
+<p>also admitted: {% for variety, form in admitted %}<strong>{{ form }}</strong> ({{ variety }}){% if not loop.last %}, {% endif %}{% endfor %}</p>
+{% endif %}
 {% endif %}

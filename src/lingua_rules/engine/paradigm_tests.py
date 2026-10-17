@@ -6,7 +6,7 @@ from pathlib import Path
 import yaml
 
 from .features import load_feature_vocabulary, validate_features
-from .runner import generate_form
+from .runner import generate_forms
 
 
 @dataclass(frozen=True)
@@ -18,6 +18,8 @@ class ParadigmCaseResult:
     actual: str | None
     passed: bool
     error: str | None = None
+    # admitted variants the case expects but the rules did not produce: "variety: form"
+    missing_admitted: tuple[str, ...] = ()
 
 
 def load_paradigm_fixtures(tests_dir: Path, lang_code: str) -> list[dict]:
@@ -43,6 +45,19 @@ def _failure(
         passed=False,
         error=error,
     )
+
+
+def _admitted(raw: object) -> list[tuple[str, str]]:
+    """A case's ``admitted:`` mapping, ``{variety: form}`` or ``{variety: [form, ...]}``."""
+    if raw is None:
+        return []
+    if not isinstance(raw, dict):
+        raise TypeError("'admitted' must map a variety to a form or a list of forms")
+    pairs = []
+    for variety, forms in raw.items():
+        for form in forms if isinstance(forms, list) else [forms]:
+            pairs.append((str(variety), str(form)))
+    return pairs
 
 
 def run_paradigm_tests(
@@ -85,6 +100,7 @@ def run_paradigm_tests(
             try:
                 features = case["features"]
                 expected = case["expected"]
+                wanted = _admitted(case.get("admitted"))
             except (KeyError, TypeError) as exc:
                 results.append(
                     _failure(
@@ -98,21 +114,27 @@ def run_paradigm_tests(
                 if vocab_error is not None:
                     raise ValueError(vocab_error)
                 validate_features(vocab, features)
-                actual = generate_form(rules_dir, lang_code, category, lemma, features)
+                generated = generate_forms(rules_dir, lang_code, category, lemma, features)
             except Exception as exc:
                 results.append(
                     _failure(lemma, category, features, expected, str(exc))
                 )
                 continue
 
+            missing = tuple(
+                f"{variety}: {form}" for variety, form in wanted
+                if (variety, form) not in generated.admitted
+            )
             results.append(
                 ParadigmCaseResult(
                     lemma=lemma,
                     category=category,
                     features=features,
                     expected=expected,
-                    actual=actual,
-                    passed=actual == expected,
+                    actual=generated.form,
+                    passed=generated.form == expected and not missing,
+                    error=f"admitted variant(s) not produced: {', '.join(missing)}" if missing else None,
+                    missing_admitted=missing,
                 )
             )
     return results

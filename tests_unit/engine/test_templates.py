@@ -36,7 +36,9 @@ def test_append_rule_writes_a_regular_affix_block(tmp_path):
     assert '"number=plural"' in content
 
 
-def test_append_rule_writes_an_exception_override_block(tmp_path):
+def test_append_rule_writes_an_exception_override_row_to_the_exceptions_table(tmp_path):
+    from lingua_rules.engine.runner import generate_form
+
     rules_dir = _write_minimal_category(tmp_path)
 
     path = append_rule(
@@ -44,9 +46,13 @@ def test_append_rule_writes_an_exception_override_block(tmp_path):
         lemma="child", feature_key="number=plural", form="children",
     )
 
-    content = path.read_text(encoding="utf-8")
-    assert 'irregular("child")' in content
-    assert 'form("child", "number=plural", "children")' in content
+    assert path == rules_dir / "xx" / "data" / "nouns.exceptions.tsv"
+    assert path.read_text(encoding="utf-8") == (
+        "lemma\tfeatures\tform\nchild\tnumber=plural\tchildren\n"
+    )
+    # the rule file is untouched: exceptions are data, not code
+    assert (rules_dir / "xx" / "nouns.lp").read_text(encoding="utf-8") == "% existing rules\n"
+    assert generate_form(rules_dir, "xx", "nouns", "child", {"number": "plural"}) == "children"
 
 
 def test_append_rule_rejects_an_unknown_template(tmp_path):
@@ -129,8 +135,10 @@ def test_append_rule_escapes_a_quote_in_a_lemma_rather_than_breaking_out(tmp_pat
         lemma='o"clock', feature_key="number=plural", form="forms",
     )
 
-    content = path.read_text(encoding="utf-8")
-    assert r'irregular("o\"clock")' in content
+    from lingua_rules.engine.runner import generate_form
+
+    assert 'o"clock' in path.read_text(encoding="utf-8")
+    assert generate_form(rules_dir, "xx", "nouns", 'o"clock', {"number": "plural"}) == "forms"
 
 
 def test_append_rule_rejects_an_undeclared_feature_key(tmp_path):

@@ -5,7 +5,8 @@
 A system for linguists to author, browse, and test natural language grammar
 rules. Rules are written as Clingo (Answer Set Programming) files, organized
 per language and word category, and executed locally — no database, no
-external service. Rules for **English, German, Russian and Finnish** —
+external service. The rule files hold only logic; exceptions, word lists and
+other lexical data are kept in tab-separated datasets next to them. Rules for **English, German, Russian and Finnish** —
 nouns, verbs, adjectives, pronouns and (German) articles — are included.
 
 The full design is in `docs/superpowers/specs/2026-09-05-lingua-rules-design.md`.
@@ -19,6 +20,7 @@ own. Every command and output below was run against this repository.
 - [2. Run the tools with `python -m`](#2-run-the-tools-with-python--m)
 - [3. The web UI](#3-the-web-ui)
 - [4. Rule files](#4-rule-files)
+  - [4.1 Datasets: exceptions and other lists](#41-datasets-exceptions-and-other-lists)
 - [5. Rule templates](#5-rule-templates)
 - [6. Worked example: adding a language (Dutch)](#6-worked-example-adding-a-language-dutch)
 - [7. Changing templates](#7-changing-templates)
@@ -95,8 +97,8 @@ python -m lingua_rules.cli.main <command> --help
 |---|---|
 | `generate LANG CATEGORY LEMMA --features k=v[,k=v]` | Produce one word form |
 | `test [LANG] [--category C]` | Run golden-file tests (all languages if `LANG` is omitted) |
-| `lint LANG` | Check rule files for Clingo parse errors and undeclared features |
-| `new-rule LANG CATEGORY --template T ...` | Append a rule written from a template (section 5) |
+| `lint LANG` | Check rule files and datasets: Clingo parse errors, undeclared features, malformed or inconsistent tables |
+| `new-rule LANG CATEGORY --template T ...` | Add a rule or a dataset row written from a template (section 5) |
 | `serve [--host H] [--port P]` | Start the web UI (section 3) |
 
 Examples with their real output:
@@ -196,7 +198,8 @@ Each language is a folder `rules/<code>/`:
 |---|---|
 | `lang.yaml` | `name`, optional `iso639_3`, and the list of `categories` |
 | `features.yaml` | `dimensions`: each feature and its allowed values |
-| `<category>.lp` | Clingo (Answer Set Programming) rules for that category |
+| `<category>.lp` | Clingo (Answer Set Programming) rules for that category — **logic only** |
+| `data/<category>.<table>.tsv` | **Datasets**: exceptions, word lists, class properties, paradigm tables (section 4.1) |
 
 ```yaml
 # rules/en/lang.yaml
@@ -223,17 +226,22 @@ dimensions:
 ```
 
 ```prolog
-% rules/en/nouns.lp
+% rules/en/nouns.lp (shortened)
 form(Lemma, "number=singular", Lemma) :- input_lemma(Lemma).
-form(Lemma, "number=plural", @suffix(Lemma, "s")) :- input_lemma(Lemma), not irregular(Lemma).
+form(Lemma, "number=plural", @suffix(Lemma, "s")) :- input_lemma(Lemma), not irregular(Lemma), not has_class(Lemma).
+```
 
-irregular("child").
-form("child", "number=plural", "children").
+```
+# rules/en/data/nouns.exceptions.tsv (tab-separated)
+lemma	features	form
+child	number=plural	children
 ```
 
 How a rule file is evaluated:
 
 - The lemma you ask for arrives as the fact `input_lemma("cat")`.
+- The category's datasets (section 4.1) are added as facts: the row above
+  becomes `irregular("child"). form("child", "number=plural", "children").`
 - Every rule derives `form(Lemma, FeatureKey, Form)`. The tool returns the
   `Form` whose `Lemma` and `FeatureKey` match the request.
 - The **feature key** is a string: `dimension=value` pairs, **sorted
@@ -254,25 +262,129 @@ these are Python functions called with `@`):
 | `@suffix(Lemma, "s")` | lemma + suffix | `cat` → `cats` |
 | `@prefix(Lemma, "un")` | prefix + lemma | `happy` → `unhappy` |
 | `@strip_suffix_add(Lemma, 2, "en")` | drop the last N letters, then add a string | `Museum` → `Museen` |
+| `@affix(Lemma, 1, "wa", 0, "")` | drop letters at the start and at the end, add a prefix and an ending | `mtu` → `watu` |
+
+### 4.1 Datasets: exceptions and other lists
+
+A rule file holds **logic only**: how a class of words forms its plural, when
+the accusative equals the genitive, and so on. Everything that is a *list*
+rather than a rule — irregular forms, which class a word belongs to, which
+nouns are animate, a class's gender, the endings of a paradigm table — is kept
+in **datasets**: tab-separated tables under `rules/<code>/data/`, one set per
+category. They are turned into Clingo facts every time a form is generated, so
+the rules read them exactly as if they were written in the `.lp` file.
+
+Tables are plain text (UTF-8, one row per line, cells separated by a **tab**),
+so they can be edited in any editor or in a spreadsheet (save as *Tab-delimited
+text, UTF-8*). Blank lines and lines starting with `#` are ignored. Cells are
+never quoted.
+
+There are four kinds of table, chosen by the file name:
+
+| File | Columns | Becomes |
+|---|---|---|
+| `<category>.exceptions.tsv` | `lemma`, `features`, `form` | `irregular("lemma").` once per lemma, and `form("lemma", "key", "form").` per row |
+| `<category>.paradigms.tsv` | `class`, `features`, `strip`, `ending` | `paradigm_ending(class, "key", strip, "ending").` — used by the `class-paradigm` rule (section 5) |
+| ... with `strip_front` and `prefix` columns too | `class`, `features`, `strip_front`, `prefix`, `strip`, `ending` | `paradigm_affix(class, "key", strip_front, "prefix", strip, "ending").` — for languages that inflect at the front of the word (Swahili `mtu` → `watu`), used by the `class-paradigm-affix` rule |
+| `<category>.variants.tsv` | `lemma`, `features`, `form`, `variety` | `admit("lemma", "key", "form", variety).` — a form a dialect uses next to the standard one (below) |
+| `<category>.<anything else>.tsv` (e.g. `lexicon`, `classes`) | a key column, then one column per predicate | one fact per filled cell (below) |
+
+**Dialects.** A dialect whose grammar differs from the standard language (other
+endings, other classes) is described as a language of its own, e.g.
+`rules/fr_acadian/`. A dialect that only uses some other forms of the same
+grammar stays in the main language: its forms go to `<category>.variants.tsv`,
+one row per form, with the dialect's name in `variety`. The rules still
+generate the standard form; `generate` and the web *Try it* page list the
+admitted forms under it (`parlent`, then `also admitted (acadian): parlont`), and a golden test
+case can require them:
+
+```yaml
+  - features: {person: "3", number: plural, tense: present}   # parler
+    expected: parlent
+    admitted: {acadian: parlont}   # or a list: {acadian: [parlont, parlant]}
+```
+
+In a **fact table** the first column is the key — usually `lemma`, or `class`
+for a table of class properties — and every other column header names a
+predicate, optionally with a type after a colon:
+
+| Type | Header example | Cell | Fact |
+|---|---|---|---|
+| `constant` (default) | `noun_class` | `m_hard` | `noun_class("стол", m_hard).` |
+| `string` | `adj_stem:string` | `dunkl` | `adj_stem("dunkel", "dunkl").` |
+| `number` | `syllables:number` | `2` | `syllables("Hund", 2).` |
+| `flag` | `animate:flag` | `yes` (empty = no) | `animate("студент").` |
+
+The key column is a string when it is called `lemma`, otherwise a constant;
+write `class:constant` or `lemma:string` to be explicit. A row may leave cells
+empty, and the same lemma may appear in several rows (facts add up — e.g. a
+word in two classes). Columns named `source` and `note` are for people (where a
+row comes from, a comment) and produce no facts. Feature keys may be written in
+any order (`number=plural;case=genitive` or with `,`); they are sorted when
+the table is read.
+
+Examples from the repository (`rules/ru/data/`):
+
+```
+# nouns.lexicon.tsv
+lemma	noun_class	animate:flag
+стол	m_hard
+студент	m_hard	yes
+
+# nouns.classes.tsv
+class:constant	class_gender	acc_from_nominative:flag
+m_hard	masculine	yes
+f_a	feminine
+
+# nouns.exceptions.tsv
+lemma	features	form
+ребёнок	case=nominative;number=plural	дети
+```
+
+**Loading.** For a lemma-keyed table (exceptions, and fact tables whose key is
+`lemma`) only the requested lemma's rows are loaded, so tables can grow to
+thousands of words without slowing down `generate`. Class-keyed tables and
+paradigm tables are always loaded whole.
+
+**Checks.** `lint` reads every table and reports, with file and line:
+malformed headers and cells (a class name with a capital letter, an unknown
+type, a flag that is not `yes`), undeclared features, the same lemma and key
+listed with two different forms, a predicate column that no rule uses (usually
+a typo in the header), and constants that no rule, table or feature value
+knows (usually a misspelt class name). `generate` and `test` report a broken
+table instead of a form.
+
+The web UI's category page shows each table below the rule source.
 
 ---
 
 ## 5. Rule templates
 
-A template is a ready-made rule block that the tool fills in and **appends to
-the end** of `rules/<lang>/<category>.lp`. After that it is ordinary text: you
-can edit or delete it like any other line in the file.
+A template is a ready-made piece of grammar that the tool fills in for you.
+**Rule templates** append a block to the end of `rules/<lang>/<category>.lp`;
+**data templates** add a row to a table in `rules/<lang>/data/` (creating the
+file with its header if needed). After that it is ordinary text: you can edit
+or delete it like any other line.
 
 Before writing, the tool checks that all required fields are present, that
 feature dimensions and values are declared in `features.yaml`, and that no value
-contains a line break. Quotes and backslashes are escaped automatically.
+contains a line break (or, in a table, a tab). Quotes and backslashes are
+escaped automatically. A data template refuses to add a row that contradicts
+one already in the table (the same lemma and key with another form) and names
+the line to edit instead.
 
 ### Available templates
 
-| Template | Use it for | Required fields | CLI flags | Web UI |
+| Template | Writes to | Use it for | Required fields | CLI flags |
 |---|---|---|---|---|
-| `regular-affix` | A regular rule that adds a suffix to every non-exception lemma | feature key, suffix | `--feature-key`, `--suffix` | yes (*Add a rule*) |
-| `exception-override` | One irregular lemma with an explicit form | lemma, feature key, form | `--lemma`, `--feature-key`, `--form` | no |
+| `regular-affix` | `.lp` | A regular rule that adds a suffix to every non-exception lemma (also in the web UI, *Add a rule*) | feature key, suffix | `--feature-key`, `--suffix` |
+| `regular-prefix` | `.lp` | The same with a prefix (`happy` → `unhappy`) | feature key, prefix | `--feature-key`, `--prefix` |
+| `class-paradigm` | `.lp` (+ creates `paradigms.tsv`) | One rule that builds every form of a class from a paradigm table | class predicate | `--class-predicate` |
+| `class-paradigm-affix` | `.lp` (+ creates `paradigms.tsv` with `strip_front`, `prefix`) | The same for prefixes and suffixes together (`@affix`) | class predicate | `--class-predicate` |
+| `exception-override` | `exceptions.tsv` | One irregular lemma with an explicit form | lemma, feature key, form | `--lemma`, `--feature-key`, `--form` |
+| `admitted-variant` | `variants.tsv` | A dialect form admitted next to the standard one | lemma, feature key, form, variety | `--lemma`, `--feature-key`, `--form`, `--variety` |
+| `paradigm-ending` | `paradigms.tsv` | One cell of a paradigm table: a class's ending (and, in an affix table, prefix) for a feature key | class, feature key (the rest optional) | `--class`, `--feature-key`, `--strip`, `--ending`, `--strip-front`, `--prefix` |
+| `lexicon-entry` | `lexicon.tsv` | A word's value for one predicate, e.g. its class or a flag | lemma, predicate, value | `--lemma`, `--predicate`, `--value`, `--value-type` |
 
 **`regular-affix`**
 
@@ -296,39 +408,80 @@ Replace the comment line with a short description of the paradigm.
 python -m lingua_rules.cli.main new-rule nl nouns --template exception-override --feature-key number=plural --lemma kind --form kinderen
 ```
 
-appends:
+adds a row to `rules/nl/data/nouns.exceptions.tsv` (the rule file is not
+touched):
 
-```prolog
-
-irregular("kind").
-form("kind", "number=plural", "kinderen").
+```
+lemma	features	form
+kind	number=plural	kinderen
 ```
 
+which the rules see as `irregular("kind"). form("kind", "number=plural", "kinderen").`
 `irregular("kind")` switches off **every** rule ending in
 `not irregular(Lemma)` for `kind`, not only the plural one. If a language has
 several regular rules, give each irregular lemma all the forms those rules would
-have produced (repeat the command with other feature keys, or add `form(...)`
-lines by hand).
+have produced (repeat the command with other feature keys, or add rows by hand).
+
+**`class-paradigm`, `paradigm-ending`, `lexicon-entry`** — a declension or
+conjugation class written as a table instead of one rule per form. This is the
+natural shape for a grammar's paradigm tables:
+
+```
+python -m lingua_rules.cli.main new-rule pl nouns --template class-paradigm --class-predicate noun_class
+python -m lingua_rules.cli.main new-rule pl nouns --template paradigm-ending --class f_a --feature-key "case=genitive;number=singular" --strip 1 --ending y
+python -m lingua_rules.cli.main new-rule pl nouns --template paradigm-ending --class f_a --feature-key "case=nominative;number=singular"
+python -m lingua_rules.cli.main new-rule pl nouns --template lexicon-entry --lemma lampa --predicate noun_class --value f_a
+```
+
+The first command appends one rule to `nouns.lp`:
+
+```prolog
+form(Lemma, Key, @strip_suffix_add(Lemma, Strip, Ending)) :- input_lemma(Lemma),
+    noun_class(Lemma, Class), paradigm_ending(Class, Key, Strip, Ending), not irregular(Lemma).
+```
+
+the next two fill `data/nouns.paradigms.tsv` (`strip` = letters dropped from
+the lemma, `ending` = what is added; an empty ending is allowed):
+
+```
+class	features	strip	ending
+f_a	case=genitive;number=singular	1	y
+f_a	case=nominative;number=singular	0
+```
+
+and the last one puts `lampa` into class `f_a` in `data/nouns.lexicon.tsv`
+(`lampa` → genitive `lampy`). `lexicon-entry` adds the column if the table
+does not have it yet; `--value-type string|number|flag` sets its type
+(default `constant`).
 
 ### Rules without a template
 
 Anything the templates don't cover is written by hand in the `.lp` file, using
-the helpers from section 4. For example, a stem change:
+the helpers from section 4. Keep the rule general and put the words it applies
+to in a table. For example, a stem change shared by several nouns:
 
 ```prolog
-% "Museum" -> "Museen": drop the last two letters ("um"), add "en".
-irregular("Museum").
-form("Museum", "number=plural", @strip_suffix_add("Museum", 2, "en")).
+% "-um" -> "-en": drop the last two letters, add "en" (Museum -> Museen)
+form(L, "number=plural", @strip_suffix_add(L, 2, "en")) :- input_lemma(L), noun_class(L, um_en).
 ```
 
-Run `python -m lingua_rules.cli.main lint <lang>` after editing by hand.
+```
+# data/nouns.lexicon.tsv
+lemma	noun_class
+Museum	um_en
+Zentrum	um_en
+```
+
+A word that is irregular in its own way goes to `exceptions.tsv` with its
+forms. Run `python -m lingua_rules.cli.main lint <lang>` after editing by hand.
 
 ---
 
 ## 6. Worked example: adding a language (Dutch)
 
 This walkthrough adds a new language, Dutch (`nl`), with one category, and
-uses both templates plus one hand-written rule. It is exactly what
+uses three templates (an exception, a lexicon entry, a regular rule) and one
+hand-written class rule. It is exactly what
 `docs/screenshots/capture.py` does (in a temporary copy) to produce the
 screenshots; Dutch is only an example and is not part of the repository's
 rules.
@@ -368,17 +521,25 @@ python -m lingua_rules.cli.main new-rule nl nouns --template exception-override 
 python -m lingua_rules.cli.main new-rule nl nouns --template exception-override --feature-key number=plural --lemma stad --form steden
 ```
 
-Each prints `appended exception-override scaffold to rules\nl\nouns.lp`.
+Each prints `added exception-override row to rules\nl\data\nouns.exceptions.tsv`;
+`nouns.lp` itself is unchanged.
 
-**Step 3 — add a hand-written rule** at the end of `rules/nl/nouns.lp`:
+**Step 3 — add a hand-written class rule** at the end of `rules/nl/nouns.lp`,
+and put the words it applies to in the lexicon:
 
 ```prolog
-% "museum" -> "musea": drop the last two letters ("um"), add "a".
-irregular("museum").
-form("museum", "number=plural", @strip_suffix_add("museum", 2, "a")).
+% "-um" -> "-a" (museum -> musea, centrum -> centra). These nouns are kept
+% away from the regular plural rule, which skips irregular lemmas.
+irregular(L) :- noun_class(L, um_a).
+form(L, "number=plural", @strip_suffix_add(L, 2, "a")) :- input_lemma(L), noun_class(L, um_a).
 ```
 
-The category page now shows the file so far:
+```
+python -m lingua_rules.cli.main new-rule nl nouns --template lexicon-entry --lemma museum --predicate noun_class --value um_a
+python -m lingua_rules.cli.main new-rule nl nouns --template lexicon-entry --lemma centrum --predicate noun_class --value um_a
+```
+
+The category page now shows the rule file and, below it, the two tables:
 
 ![Category page before the regular rule](docs/images/02-category-before.png)
 
@@ -425,16 +586,17 @@ section 9) and run them — on the command line with
 
 There are two different things you may want to change.
 
-### 7.1 Change a rule that a template has already written
+### 7.1 Change a rule or a row that a template has already written
 
-Open `rules/<lang>/<category>.lp` in any text editor and edit the block. The
-template is not remembered anywhere; the file is the only source of truth. Then
-run `lint` and `test`.
+Open `rules/<lang>/<category>.lp` (rules) or the table in `rules/<lang>/data/`
+(rows) in any text editor and edit it. The template is not remembered anywhere;
+the file is the only source of truth. Then run `lint` and `test`.
 
 ### 7.2 Change what a template writes, or add a new template
 
-Templates live in `src/lingua_rules/engine/templates.py`. Each one is a Python
-string with `{field}` placeholders, plus a list of required fields:
+Templates live in `src/lingua_rules/engine/templates.py`. A **rule template** is
+a Python string with `{field}` placeholders, registered in `_RULE_TEMPLATES`,
+plus a list of required fields:
 
 ```python
 REGULAR_AFFIX_TEMPLATE = (
@@ -444,73 +606,74 @@ REGULAR_AFFIX_TEMPLATE = (
     "input_lemma(Lemma), not irregular(Lemma).\n"
 )
 
-_TEMPLATES = {
+_RULE_TEMPLATES = {
     "regular-affix": REGULAR_AFFIX_TEMPLATE,
-    "exception-override": EXCEPTION_OVERRIDE_TEMPLATE,
+    "regular-prefix": REGULAR_PREFIX_TEMPLATE,
+    "class-paradigm": CLASS_PARADIGM_TEMPLATE,
 }
 
 _TEMPLATE_REQUIRED_FIELDS = {
     "regular-affix": ("feature_key", "suffix"),
-    "exception-override": ("lemma", "feature_key", "form"),
+    ...
 }
 ```
 
-**To change an existing template**, edit its string — for example the comment
-line. Keep the `{...}` placeholders and keep every placeholder inside `"..."`
-quotes in the Clingo text (values are escaped for use inside a quoted string).
-Only rules added from then on are affected; existing `.lp` files are not
-rewritten.
+**Data templates** (`exception-override`, `paradigm-ending`, `lexicon-entry`)
+are listed in `_DATA_TEMPLATES` and written by `_append_data()` in the same
+file, which picks the table, creates it with its header and adds the row.
 
-**To add a template**, e.g. `regular-prefix` for `happy` → `unhappy`:
+**To change an existing rule template**, edit its string — for example the
+comment line. Keep the `{...}` placeholders and keep every placeholder inside
+`"..."` quotes in the Clingo text (values are escaped for use inside a quoted
+string). Only rules added from then on are affected; existing `.lp` files are
+not rewritten.
+
+**To add a rule template**, e.g. `circumfix` for a prefix and a suffix added
+together (Indonesian `adil` → `keadilan`):
 
 1. In `src/lingua_rules/engine/templates.py`, add the text and register it:
 
    ```python
-   REGULAR_PREFIX_TEMPLATE = (
+   CIRCUMFIX_TEMPLATE = (
        "\n"
        "% describe the paradigm this rule covers here\n"
-       'form(Lemma, "{feature_key}", @prefix(Lemma, "{prefix}")) :- '
-       "input_lemma(Lemma), not irregular(Lemma).\n"
+       'form(Lemma, "{feature_key}", @prefix(S, "{prefix}")) :- input_lemma(Lemma),\n'
+       '    not irregular(Lemma), S = @suffix(Lemma, "{suffix}").\n'
    )
 
-   _TEMPLATES = {
-       "regular-affix": REGULAR_AFFIX_TEMPLATE,
-       "exception-override": EXCEPTION_OVERRIDE_TEMPLATE,
-       "regular-prefix": REGULAR_PREFIX_TEMPLATE,
+   _RULE_TEMPLATES = {
+       ...
+       "circumfix": CIRCUMFIX_TEMPLATE,
    }
 
    _TEMPLATE_REQUIRED_FIELDS = {
-       "regular-affix": ("feature_key", "suffix"),
-       "exception-override": ("lemma", "feature_key", "form"),
-       "regular-prefix": ("feature_key", "prefix"),
+       ...
+       "circumfix": ("feature_key", "prefix", "suffix"),
    }
    ```
 
-2. In `src/lingua_rules/cli/main.py`, give `new-rule` a flag for the new field
-   and pass it on:
+2. In `src/lingua_rules/cli/main.py`, `new-rule` already has `--prefix` and
+   `--suffix` flags, so this template needs nothing more. A template with a
+   new field needs a new option and an entry in the `fields` dictionary:
 
    ```python
-       suffix: str = typer.Option(None, "--suffix"),
-       prefix: str = typer.Option(None, "--prefix"),
+       infix: str = typer.Option(None, "--infix"),
    ```
 
    ```python
        fields = {
-           "feature_key": feature_key,
-           "suffix": suffix,
-           "prefix": prefix,
-           "lemma": lemma,
-           "form": form,
+           ...
+           "infix": infix,
        }
    ```
 
 3. Use it:
 
    ```
-   > python -m lingua_rules.cli.main new-rule demo adjectives --template regular-prefix --feature-key polarity=negative --prefix un
-   appended regular-prefix scaffold to rules\demo\adjectives.lp
-   > python -m lingua_rules.cli.main generate demo adjectives happy --features polarity=negative
-   unhappy
+   > python -m lingua_rules.cli.main new-rule demo nouns --template circumfix --feature-key derivation=abstract --prefix ke --suffix an
+   appended circumfix scaffold to rules\demo\nouns.lp
+   > python -m lingua_rules.cli.main generate demo nouns adil --features derivation=abstract
+   keadilan
    ```
 
 4. Run `python -m pytest` and add a test for the new template under
@@ -550,20 +713,33 @@ with a comment that lists its classes and what it does **not** cover.
 **How the rules are organised.** English and German regular words need no
 entry at all (the template-style rules cover them). Where the right ending
 depends on how a word is spelled or which class it belongs to — which a rule
-cannot see — each word is given its class with one fact, and every class has
-one rule per form:
+cannot see — each word is given its class in a table, and every class has one
+rule per form:
+
+```
+# rules/ru/data/nouns.lexicon.tsv
+lemma	noun_class	animate:flag
+школа	f_a
+```
 
 ```prolog
-noun_class("школа", f_a).
-
+% rules/ru/nouns.lp
 form(L, "case=genitive;number=plural", @strip_suffix_add(L, 1, "")) :- input_lemma(L), noun_class(L, f_a).
 ```
 
-To add a word of an existing class, add one fact such as `noun_class(...)`,
-`verb_class(...)` or `adj_class(...)` to the right file. A word without a class
-(in the languages that need one) produces no forms, and `generate` reports
-`no rule ... produced a form`. Truly irregular words are marked
-`irregular(...)` and list all their forms.
+To add a word of an existing class, add one row to the category's
+`lexicon.tsv` (column `noun_class`, `verb_class` or `adj_class`). A word
+without a class (in the languages that need one) produces no forms, and
+`generate` reports `no rule ... produced a form`. Truly irregular words are
+listed with all their forms in `exceptions.tsv`. The `.lp` files of the four
+languages contain no words at all; every list is under `rules/<code>/data/`:
+
+| Language | Tables |
+|---|---|
+| `en` | `{nouns,verbs,adjectives}.lexicon.tsv`, `{nouns,verbs,adjectives,pronouns}.exceptions.tsv` |
+| `de` | `{nouns,verbs,adjectives,articles}.lexicon.tsv`, `{nouns,verbs,adjectives,articles,pronouns}.exceptions.tsv` |
+| `ru` | `{nouns,verbs,adjectives}.lexicon.tsv`, `nouns.classes.tsv` (gender, accusative), `{nouns,verbs,pronouns}.exceptions.tsv` |
+| `fi` | `{nouns,verbs,adjectives}.lexicon.tsv`, `{nouns,verbs,adjectives,pronouns}.exceptions.tsv` |
 
 *Try it* shows each category only the features its rules use:
 
@@ -578,14 +754,15 @@ taloissa
 kleinem
 ```
 
-**Regenerating the rules.** The larger rule files are produced from tables by
-`tools/gen_en.py`, `tools/gen_de.py`, `tools/gen_ru.py` and `tools/gen_fi.py`
-(run from the repository root). To add many words or a new class, edit the
-tables there and re-run the script; the golden tests are regenerated from
-separately typed-out word forms. A script rewrites all rule and test files of
-its language, so edits made directly in a generated `.lp` file (including
-rules added with templates) are lost the next time it runs: make them in the
-script. Only `rules/en/nouns.lp`, its tests and newly added languages are
+**Regenerating the rules.** The larger rule files and their datasets are
+produced from tables by `tools/gen_en.py`, `tools/gen_de.py`, `tools/gen_ru.py`
+and `tools/gen_fi.py` (run from the repository root). To add many words or a
+new class, edit the tables there and re-run the script; the golden tests are
+regenerated from separately typed-out word forms. A script rewrites all rule
+files, datasets and test files of its language, so edits made directly in a
+generated `.lp` or `.tsv` file (including rules and rows added with templates)
+are lost the next time it runs: make them in the script. Only
+`rules/en/nouns.lp`, its two tables, its tests and newly added languages are
 written by hand.
 
 ---
@@ -633,13 +810,21 @@ The unit tests of the tool itself run with `python -m pytest`.
   category use features others don't (Russian verbs: `person` in the present,
   `gender` in the past), those features start at *— not set —*; set exactly the
   ones the form you want needs.
-- **The web form only adds `regular-affix` rules**; use `new-rule` for
-  `exception-override`.
-- **No undo.** Templates append to the file; remove unwanted blocks by editing
-  the `.lp` file.
-- A language whose file has no `irregular(...)` facts yet prints a harmless
-  Clingo note (`info: atom does not occur in any rule head: irregular(Lemma)`)
-  before the result.
+- **The web form only adds `regular-affix` rules**; use `new-rule` for the
+  other templates.
+- **No undo.** Templates append to the file; remove unwanted blocks or rows by
+  editing the `.lp` file or the table.
+- **Tabs, not spaces, in tables.** Editors that turn a tab into spaces break a
+  row; `lint` then reports it (`... cells but the header has ... columns`, or a
+  value that is not a constant). In a spreadsheet, save as tab-delimited UTF-8
+  text, not CSV.
+- **Tables are read per lemma.** A rule that compares one lemma with another
+  (`... :- noun_class(L, C), noun_class(Other, C)`) only sees the requested
+  lemma's rows of a lemma-keyed table; put such cross-word data in a
+  class-keyed table.
+- `lint` (not `generate`) prints Clingo's notes such as
+  `info: atom does not occur in any rule head: irregular(Lemma)` for a category
+  with no exceptions yet; they are harmless.
 
 ---
 

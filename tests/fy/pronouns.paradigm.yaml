@@ -1,0 +1,621 @@
+lemma: dat
+category: pronouns
+cases:
+- features:
+    gender: neuter
+  expected: dat
+---
+lemma: do
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: jim
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: dy
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: jim
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: dy
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: jim
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: do
+- features:
+    number: singular
+    person: second
+  expected: do
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: dyn
+---
+lemma: dy
+category: pronouns
+cases:
+- features:
+    gender: common
+  expected: dy
+- features:
+    gender: common
+    number: singular
+  expected: dy
+- features:
+    gender: neuter
+    number: singular
+  expected: dat
+- features:
+    number: plural
+  expected: dy
+---
+lemma: er
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: him
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+    person: third
+  expected: him
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: er
+---
+lemma: har
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: har
+- features:
+    number: plural
+    person: third
+  expected: har
+---
+lemma: hja
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: har
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: se
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: se
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: hja
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: hja
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: hja
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: har
+- features:
+    number: plural
+    person: third
+  expected: hja
+- features:
+    number: plural
+    person: third
+    possessor_number: plural
+    possessor_person: third
+  expected: har
+---
+lemma: hy
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: him
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: hy
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: syn
+---
+lemma: ik
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: him
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ús
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: jim
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: se
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: my
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: dy
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: him
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: ús
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: jim
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: my
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: dy
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: se
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: er
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: wy
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: jim
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: hja
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ik
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: do
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: hy
+- features:
+    number: singular
+    person: first
+  expected: ik
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: myn
+---
+lemma: it
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+    person: third
+  expected: it
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: it
+- features:
+    gender: neuter
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: syn
+- features:
+    number: singular
+    person: third
+  expected: it
+---
+lemma: jim
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: jim
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: jim
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: jim
+- features:
+    number: plural
+    person: second
+  expected: jim
+---
+lemma: jimme
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: jimme
+- features:
+    number: plural
+    person: second
+  expected: jimme
+- features:
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: jimme
+---
+lemma: jo
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: jo
+- features:
+    number: plural
+    person: second
+  expected: jo
+- features:
+    number: singular
+    person: second
+  expected: jo
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: jo
+- features:
+    number: singular
+    person: third
+  expected: jin
+- features:
+    person: second
+  expected: jo
+---
+lemma: men
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: jin
+- features:
+    number: singular
+    person: third
+  expected: men
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: jins
+---
+lemma: myn
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: har
+- features:
+    gender: feminine
+    number: singular
+    possessor_person: third
+  expected: har
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: sines
+- features:
+    gender: masculine
+    number: singular
+    possessor_person: third
+  expected: sines
+- features:
+    number: plural
+    person: first
+  expected: ús
+- features:
+    number: plural
+    person: first
+    possessor_person: first
+  expected: ús
+- features:
+    number: plural
+    person: second
+  expected: jim
+- features:
+    number: plural
+    person: second
+    possessor_person: second
+  expected: jim
+- features:
+    number: plural
+    person: third
+  expected: har
+- features:
+    number: plural
+    person: third
+    possessor_person: third
+  expected: har
+- features:
+    number: plural
+    possessor_person: first
+  expected: ús
+- features:
+    number: plural
+    possessor_person: second
+  expected: jim
+- features:
+    number: plural
+    possessor_person: third
+  expected: har
+- features:
+    number: singular
+    person: first
+  expected: my
+- features:
+    number: singular
+    person: first
+    possessor_person: first
+  expected: my
+- features:
+    number: singular
+    person: second
+  expected: dyn
+- features:
+    number: singular
+    person: third
+  expected: syn
+- features:
+    number: singular
+    person: third
+    possessor_person: third
+  expected: sines
+- features:
+    number: singular
+    possessor_person: first
+  expected: myn
+- features:
+    number: singular
+    possessor_person: second
+  expected: dyn
+---
+lemma: se
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: se
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: se
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: se
+---
+lemma: sines
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: sines
+---
+lemma: sokke
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: sokke
+---
+lemma: syn
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: syn
+- features:
+    number: plural
+    person: first
+  expected: ús
+- features:
+    number: plural
+    person: second
+  expected: jim
+- features:
+    number: singular
+    person: third
+  expected: syn
+---
+lemma: wy
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ús
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: jim
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: se
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: ús
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: wy
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: jim
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: se
+- features:
+    number: plural
+    person: first
+  expected: wy
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: ûs
+---
+lemma: ús
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ús
+- features:
+    number: plural
+    person: second
+  expected: jim
+- features:
+    number: plural
+    person: third
+  expected: har

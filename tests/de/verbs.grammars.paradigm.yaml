@@ -1,0 +1,643 @@
+# Paradigms from grammars in the DocumentCatalog (tools/grammar_rules/merge_existing.py)
+lemma: abtragen
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    verb_form: present
+  expected: trage
+- features:
+    number: singular
+    person: second
+    verb_form: present
+  expected: trägst
+- features:
+    number: singular
+    person: third
+    verb_form: present
+  expected: trägt
+---
+lemma: befehlen
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: befehlen
+- features:
+    verb_form: past_participle
+  expected: befohlen
+---
+lemma: brennen
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: brannte
+- features:
+    verb_form: infinitive
+  expected: brennen
+- features:
+    verb_form: past_participle
+  expected: gebrannt
+---
+lemma: bringen
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: brachte
+- features:
+    verb_form: infinitive
+  expected: bringen
+- features:
+    verb_form: past_participle
+  expected: gebracht
+---
+lemma: dürfen
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    verb_form: present
+  expected: dürfen
+- features:
+    number: plural
+    person: second
+    verb_form: present
+  expected: dürft
+- features:
+    number: plural
+    person: third
+    verb_form: present
+  expected: dürfen
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: durfte
+- features:
+    number: singular
+    person: first
+    verb_form: present
+  expected: darf
+- features:
+    number: singular
+    person: second
+    verb_form: past
+  expected: durftest
+- features:
+    number: singular
+    person: second
+    verb_form: present
+  expected: darfst
+- features:
+    number: singular
+    person: third
+    verb_form: past
+  expected: durfte
+- features:
+    number: singular
+    person: third
+    verb_form: present
+  expected: darf
+---
+lemma: essen
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: aß
+- features:
+    verb_form: infinitive
+  expected: essen
+- features:
+    verb_form: past_participle
+  expected: gegessen
+---
+lemma: haben
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    verb_form: past
+  expected: hatten
+- features:
+    number: plural
+    person: first
+    verb_form: present
+  expected: haben
+- features:
+    number: plural
+    person: second
+    verb_form: past
+  expected: hattet
+- features:
+    number: plural
+    person: second
+    verb_form: present
+  expected: habt
+- features:
+    number: plural
+    person: third
+    verb_form: past
+  expected: hatten
+- features:
+    number: plural
+    person: third
+    verb_form: present
+  expected: haben
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: hatte
+- features:
+    number: singular
+    person: first
+    verb_form: present
+  expected: habe
+- features:
+    number: singular
+    person: second
+    verb_form: present
+  expected: hast
+- features:
+    number: singular
+    person: third
+    verb_form: present
+  expected: hat
+---
+lemma: helfen
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: half
+- features:
+    verb_form: infinitive
+  expected: helfen
+- features:
+    verb_form: past_participle
+  expected: geholfen
+---
+lemma: können
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    verb_form: present
+  expected: können
+- features:
+    number: plural
+    person: second
+    verb_form: present
+  expected: könnt
+- features:
+    number: plural
+    person: third
+    verb_form: present
+  expected: können
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: konnte
+- features:
+    number: singular
+    person: first
+    verb_form: present
+  expected: kann
+- features:
+    number: singular
+    person: second
+    verb_form: past
+  expected: konntest
+- features:
+    number: singular
+    person: second
+    verb_form: present
+  expected: kannst
+- features:
+    number: singular
+    person: third
+    verb_form: past
+  expected: konnte
+- features:
+    number: singular
+    person: third
+    verb_form: present
+  expected: kann
+---
+lemma: laufen
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: laufen
+- features:
+    verb_form: past_participle
+  expected: gelaufen
+---
+lemma: lieben
+category: verbs
+cases:
+- features:
+    number: singular
+    person: second
+    verb_form: past
+  expected: liebtest
+- features:
+    number: singular
+    person: second
+    verb_form: present
+  expected: liebst
+---
+lemma: loben
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    verb_form: past
+  expected: lobten
+- features:
+    number: plural
+    person: second
+    verb_form: past
+  expected: lobtet
+- features:
+    number: plural
+    person: third
+    verb_form: past
+  expected: lobten
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: lobte
+---
+lemma: mögen
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    verb_form: past
+  expected: mochten
+- features:
+    number: plural
+    person: first
+    verb_form: present
+  expected: mögen
+- features:
+    number: plural
+    person: second
+    verb_form: present
+  expected: mögt
+- features:
+    number: plural
+    person: third
+    verb_form: past
+  expected: mochten
+- features:
+    number: plural
+    person: third
+    verb_form: present
+  expected: mögen
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: mochte
+- features:
+    number: singular
+    person: first
+    verb_form: present
+  expected: mag
+- features:
+    number: singular
+    person: second
+    verb_form: past
+  expected: mochtest
+- features:
+    number: singular
+    person: second
+    verb_form: present
+  expected: magst
+- features:
+    number: singular
+    person: third
+    verb_form: past
+  expected: mochte
+- features:
+    number: singular
+    person: third
+    verb_form: present
+  expected: mag
+---
+lemma: nehmen
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: nahm
+- features:
+    verb_form: infinitive
+  expected: nehmen
+- features:
+    verb_form: past_participle
+  expected: genommen
+---
+lemma: nennen
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: nannte
+- features:
+    verb_form: infinitive
+  expected: nennen
+- features:
+    verb_form: past_participle
+  expected: genannt
+---
+lemma: rufen
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: rufen
+- features:
+    verb_form: past_participle
+  expected: gerufen
+---
+lemma: sein
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    verb_form: past
+  expected: waren
+- features:
+    number: plural
+    person: first
+    verb_form: present
+  expected: sind
+- features:
+    number: plural
+    person: second
+    verb_form: past
+  expected: wart
+- features:
+    number: plural
+    person: second
+    verb_form: present
+  expected: seid
+- features:
+    number: plural
+    person: third
+    verb_form: past
+  expected: waren
+- features:
+    number: plural
+    person: third
+    verb_form: present
+  expected: sind
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: war
+- features:
+    number: singular
+    person: first
+    verb_form: present
+  expected: bin
+- features:
+    number: singular
+    person: second
+    verb_form: present
+  expected: bist
+- features:
+    number: singular
+    person: third
+    verb_form: present
+  expected: ist
+---
+lemma: sollen
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    verb_form: present
+  expected: sollen
+- features:
+    number: plural
+    person: second
+    verb_form: present
+  expected: sollt
+- features:
+    number: plural
+    person: third
+    verb_form: present
+  expected: sollen
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: sollte
+- features:
+    number: singular
+    person: first
+    verb_form: present
+  expected: soll
+- features:
+    number: singular
+    person: second
+    verb_form: past
+  expected: solltest
+- features:
+    number: singular
+    person: second
+    verb_form: present
+  expected: sollst
+- features:
+    number: singular
+    person: third
+    verb_form: past
+  expected: sollte
+- features:
+    number: singular
+    person: third
+    verb_form: present
+  expected: soll
+---
+lemma: stehlen
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: stahl
+- features:
+    verb_form: infinitive
+  expected: stehlen
+- features:
+    verb_form: past_participle
+  expected: gestohlen
+---
+lemma: streiten
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: streiten
+- features:
+    verb_form: past_participle
+  expected: gestritten
+---
+lemma: treffen
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: traf
+- features:
+    verb_form: infinitive
+  expected: treffen
+- features:
+    verb_form: past_participle
+  expected: getroffen
+---
+lemma: werden
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    verb_form: past
+  expected: wurden
+- features:
+    number: plural
+    person: first
+    verb_form: present
+  expected: werden
+- features:
+    number: plural
+    person: second
+    verb_form: past
+  expected: wurdet
+- features:
+    number: plural
+    person: second
+    verb_form: present
+  expected: werdet
+- features:
+    number: plural
+    person: third
+    verb_form: past
+  expected: wurden
+- features:
+    number: plural
+    person: third
+    verb_form: present
+  expected: werden
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: wurde
+- features:
+    number: singular
+    person: first
+    verb_form: present
+  expected: werde
+---
+lemma: wissen
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    verb_form: present
+  expected: wissen
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: wusste
+- features:
+    number: singular
+    person: first
+    verb_form: present
+  expected: weiß
+---
+lemma: wollen
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    verb_form: present
+  expected: wollen
+- features:
+    number: plural
+    person: second
+    verb_form: present
+  expected: wollt
+- features:
+    number: plural
+    person: third
+    verb_form: present
+  expected: wollen
+- features:
+    number: singular
+    person: first
+    verb_form: past
+  expected: wollte
+- features:
+    number: singular
+    person: first
+    verb_form: present
+  expected: will
+- features:
+    number: singular
+    person: second
+    verb_form: past
+  expected: wolltest
+- features:
+    number: singular
+    person: second
+    verb_form: present
+  expected: willst
+- features:
+    number: singular
+    person: third
+    verb_form: past
+  expected: wollte
+- features:
+    number: singular
+    person: third
+    verb_form: present
+  expected: will
