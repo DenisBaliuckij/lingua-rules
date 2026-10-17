@@ -1,0 +1,242 @@
+lemma: kupata
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    noun_class: class_3
+    number: singular
+    polarity: affirmative
+  expected: upate
+- features:
+    mood: subjunctive
+    noun_class: class_3
+    number: singular
+    polarity: affirmative
+    tense: past
+  expected: ukapate
+- features:
+    mood: subjunctive
+    noun_class: class_3
+    number: singular
+    polarity: negative
+  expected: usipate
+- features:
+    mood: subjunctive
+    noun_class: class_4
+    number: singular
+    polarity: affirmative
+  expected: ipate
+- features:
+    mood: subjunctive
+    noun_class: class_4
+    number: singular
+    polarity: affirmative
+    tense: past
+  expected: ikapate
+- features:
+    mood: subjunctive
+    noun_class: class_4
+    number: singular
+    polarity: negative
+  expected: isipate
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: tupate
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: tukapate
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+  expected: tusipate
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: mpate
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: mkapate
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+  expected: msipate
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: wapate
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: wakapate
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+  expected: wasipate
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: nipate
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: nikapate
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+  expected: nisipate
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: upate
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: ukapate
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+  expected: usipate
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: apate
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: akapate
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+  expected: asipate
+---
+lemma: kuwa
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    polarity: affirmative
+  expected: huwa
+- features:
+    aspect: habitual
+    mood: indicative
+    polarity: negative
+  expected: huwa
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: affirmative
+    tense: present
+  expected: nakuwa
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: affirmative
+  expected: mekuwa
+- features:
+    aspect: progressive
+    mood: indicative
+    polarity: affirmative
+  expected: kiwa
+- features:
+    aspect: progressive
+    mood: indicative
+    polarity: negative
+  expected: kiwa
+- features:
+    mood: conditional
+    polarity: affirmative
+  expected: ngekuwa
+- features:
+    mood: conditional
+    polarity: negative
+  expected: ngekuwa
+- features:
+    mood: indicative
+    polarity: affirmative
+  expected: kawa
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: takuwa
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: likuwa
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: present
+  expected: nakuwa
+- features:
+    mood: indicative
+    polarity: negative
+  expected: kawa
+- features:
+    mood: indicative
+    polarity: negative
+    tense: future
+  expected: ha-takuwa
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: hakuwa
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: nakuwa
+- features:
+    polarity: affirmative
+  expected: ngawa
+- features:
+    polarity: negative
+  expected: ngawa

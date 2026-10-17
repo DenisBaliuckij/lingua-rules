@@ -1,0 +1,119 @@
+lemma: baba
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: babaetu
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: babaenu
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: babaangu
+---
+lemma: kisu
+category: nouns
+cases:
+- features:
+    noun_class: class_7
+    number: singular
+  expected: kisu
+- features:
+    noun_class: class_8
+    number: plural
+  expected: visu
+---
+lemma: mri
+category: nouns
+cases:
+- features:
+    noun_class: class_3
+    number: singular
+  expected: mri
+- features:
+    noun_class: class_4
+    number: plural
+  expected: miti
+---
+lemma: mtu
+category: nouns
+cases:
+- features:
+    noun_class: class_1
+    number: singular
+  expected: mtu
+- features:
+    noun_class: class_2
+    number: plural
+  expected: watu
+---
+lemma: mwenzi
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: mwenzetu
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: mwenzenu
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: mwenziangu
+---
+lemma: nyota
+category: nouns
+cases:
+- features:
+    noun_class: class_10
+    number: plural
+  expected: nyota
+- features:
+    noun_class: class_9
+    number: singular
+  expected: nyota
+---
+lemma: tawi
+category: nouns
+cases:
+- features:
+    noun_class: class_5
+    number: singular
+  expected: tawi
+- features:
+    noun_class: class_6
+    number: plural
+  expected: matawi
+---
+lemma: wembe
+category: nouns
+cases:
+- features:
+    noun_class: class_10
+    number: plural
+  expected: nyembe
+- features:
+    noun_class: class_11
+    number: singular
+  expected: wembe
+---
+lemma: wenzi
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: wenzetu
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: wenzenu
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: wenzangu
