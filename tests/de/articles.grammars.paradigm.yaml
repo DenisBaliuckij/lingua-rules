@@ -1,0 +1,80 @@
+# Paradigms from grammars in the DocumentCatalog (tools/grammar_rules/merge_existing.py)
+lemma: der
+category: articles
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: die
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: den
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: das
+- features:
+    case: accusative
+    number: plural
+  expected: die
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: der
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: dem
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: dem
+- features:
+    case: dative
+    number: plural
+  expected: den
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: der
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: des
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: des
+- features:
+    case: genitive
+    number: plural
+  expected: der
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: die
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: der
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: das
+- features:
+    case: nominative
+    number: plural
+  expected: die
