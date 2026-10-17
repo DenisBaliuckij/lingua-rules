@@ -1,0 +1,119 @@
+lemma: mio
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: mie
+- features:
+    gender: feminine
+    number: singular
+  expected: mia
+- features:
+    gender: masculine
+    number: plural
+  expected: miei
+- features:
+    gender: masculine
+    number: singular
+  expected: mio
+---
+lemma: nostro
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: nostre
+- features:
+    gender: feminine
+    number: singular
+  expected: nostra
+- features:
+    gender: masculine
+    number: plural
+  expected: nostri
+- features:
+    gender: masculine
+    number: singular
+  expected: nostro
+---
+lemma: quello
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: quelle
+- features:
+    gender: feminine
+    number: singular
+  expected: quella
+- features:
+    gender: masculine
+    number: plural
+  expected: quei
+- features:
+    gender: masculine
+    number: singular
+  expected: quel
+---
+lemma: suo
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: sue
+- features:
+    gender: feminine
+    number: singular
+  expected: sua
+- features:
+    gender: masculine
+    number: plural
+  expected: suoi
+- features:
+    gender: masculine
+    number: singular
+  expected: suo
+---
+lemma: tuo
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: tue
+- features:
+    gender: feminine
+    number: singular
+  expected: tua
+- features:
+    gender: masculine
+    number: plural
+  expected: tuoi
+- features:
+    gender: masculine
+    number: singular
+  expected: tuo
+---
+lemma: vostro
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: vostre
+- features:
+    gender: feminine
+    number: singular
+  expected: vostra
+- features:
+    gender: masculine
+    number: plural
+  expected: vostri
+- features:
+    gender: masculine
+    number: singular
+  expected: vostro
