@@ -1,0 +1,1931 @@
+lemma: anîn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: tînin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: naynin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: tînin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: naynin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: tînin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: naynin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: tînim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: naynim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: tînî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: naynî
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: tîne
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: nayne
+---
+lemma: axivîn
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: bíaxivin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: bíaxivin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: bíaxivin
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: bíaxivim
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: bíaxivî
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: bíaxive
+---
+lemma: bûn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: bûna
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: bûn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: nébûn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: bûna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: bûn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: nébûn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: bûna
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: bûn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: nébûn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: bûma
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: bûm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: nébûm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: bûya
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: bûyî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: nébûyî
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: bûya
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: bû
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: nébû
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: nébin
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: bin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: nébin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: bin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: nébin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: bin
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: nébim
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: bim
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: nébî
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: bî
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: nébe
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: be
+---
+lemma: dîtin
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: bidîtana
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: dîtibûn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+  expected: nedîtana
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: bidîtana
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: dîtibûn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+  expected: nedîtana
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: bidîtana
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+  expected: nedîtana
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: dîtibûm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: dîtibûyî
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: bidîtama
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+  expected: nedîtama
+---
+lemma: hatin
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: nedihatin
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: díhatin
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: nedihatin
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: díhatin
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: nedihatin
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: díhatin
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: nedihatim
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: díhatim
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: nedihatî
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: díhatî
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: nedihat
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: díhat
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: bíhatibûna
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: néhatibûna
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: bíhatibûna
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: néhatibûna
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: bíhatibûma
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: néhatibûma
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: bíhatibûya
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: néhatibûya
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: bihatana
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: hatin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: hatine
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: hatibûn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: tên
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+  expected: nehatana
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: néhatin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: nehatine
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: pluperfect
+  expected: nehatibûn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: nayên
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: bihatana
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: hatin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: hatine
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: hatibûn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: tên
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+  expected: nehatana
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: néhatin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: nehatine
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: pluperfect
+  expected: nehatibûn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: nayên
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: bihatana
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: hatin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: hatine
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: tên
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+  expected: nehatana
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: néhatin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: nehatine
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: nayên
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: bihatama
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: hatim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: hatime
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: hatibûm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: têm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: nehatama
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: néhatim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: nehatime
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: pluperfect
+  expected: nehatibûm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: nayêm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: bihatayî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: hatî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: hatiye
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: hatibûyî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: teyî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+  expected: nehatayî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: néhatî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: nehatiye
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: pluperfect
+  expected: nehatibûyî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: nayeyî
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: bihata
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: hat
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: hatiye
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: tê
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+  expected: nehatta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: néhat
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: nehatiye
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: nayê
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: néwerin
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: werin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: néwerin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: werin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: néwerin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: werin
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: néwerim
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: werim
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: néwerî
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: werî
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: néwere
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: were
+---
+lemma: hebûn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: hébûn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: hébûn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: hébûn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: hébûm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: hébûyî
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: hébû
+---
+lemma: herim
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: néherin
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: herin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: néherin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: herin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: néherin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: herin
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: néherim
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: herim
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: néherî
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: herî
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: néhere
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: here
+---
+lemma: hildan
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: hilnédin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: hilnédin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: hilnédin
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: hilnédim
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: hilnédî
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: hilnéde
+---
+lemma: karîn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: nikarin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: nikarin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: nikarin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: nikarim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: nikarî
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: nikare
+---
+lemma: man
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: man
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: néman
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: man
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: néman
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: man
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: néman
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: mam
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: némam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: mayî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: némayî
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ma
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: néma
+---
+lemma: tirsîn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: tirsîn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: nétirsîn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: tirsîn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: nétirsîn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: tirsîn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: nétirsîn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: tirsîm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: nétirsîm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: tirsiyî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: nétirsiyî
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: tirsî
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: nétirsî
+---
+lemma: zanîn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: nizanin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: nizanin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: nizanin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: nizanim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: nizanî
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: nizane
+---
+lemma: çim
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: néçin
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: biçin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: néçin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: biçin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: néçin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: biçin
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: néçim
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: biçim
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: néçî
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: biçî
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: néçe
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: biçe
+---
+lemma: çûn
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: nediçûn
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: díçûn
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: nediçûn
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: díçûn
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: nediçûn
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: díçûn
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: nediçûm
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: díçûm
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: nediçûyî
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: díçûyî
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: nediçû
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: díçû
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: çûne
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: çûbûn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: díçin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: neçûne
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: pluperfect
+  expected: neçûbûn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: náçin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: çûne
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: çûbûn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: díçin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: neçûne
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: pluperfect
+  expected: neçûbûn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: náçin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: çûne
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: díçin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: neçûne
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: náçin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: çûme
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: çûbûm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: díçim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: neçûme
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: pluperfect
+  expected: neçûbûm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: náçim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: çûye
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: çûbûyî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: díçî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: neçûye
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: pluperfect
+  expected: neçûbûyî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: náçî
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: çûye
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: díçe
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: neçûye
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: náçe
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: néçin
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: bíçin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: néçin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: bíçin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: néçin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: bíçin
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: néçim
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: bíçim
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: néçî
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: bíçî
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: néçe
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: bíçe
