@@ -1,0 +1,2346 @@
+lemma: acmak
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: actik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: actiniz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: acti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: actim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: actin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: acti
+---
+lemma: al
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: aorist
+  expected: alırız
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: aorist
+  expected: almayız
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: aorist
+  expected: alırsınız
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: aorist
+  expected: almazsınız
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: aorist
+  expected: alırlar
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: aorist
+  expected: almazlar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: aorist
+  expected: alırım
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: aorist
+  expected: almam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: aorist
+  expected: alırsın
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: aorist
+  expected: almazsın
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: aorist
+  expected: alır
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: aorist
+  expected: almaz
+---
+lemma: almak
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: alin
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: al
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: aliniz
+- features:
+    number: plural
+    person: first
+    verb_form: participle
+  expected: alacagiz
+- features:
+    number: plural
+    person: second
+    verb_form: participle
+  expected: alacksiniz
+- features:
+    number: plural
+    person: third
+    verb_form: participle
+  expected: alacaklar
+- features:
+    number: singular
+    person: first
+    verb_form: participle
+  expected: alacagim
+- features:
+    number: singular
+    person: second
+    verb_form: participle
+  expected: alacagsan
+- features:
+    number: singular
+    person: third
+    verb_form: participle
+  expected: alacak
+---
+lemma: ara
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: arasak
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: present
+  expected: arıyorsak
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: arasanız
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: present
+  expected: arıyorsanız
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: ararlarsa
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: present
+  expected: arıyorlarsa
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: arasam
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: arıyorsam
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: arasan
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: present
+  expected: arıyorsan
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: arasa
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: present
+  expected: arıyorsa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: arardık
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: aramazdık
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: arardınız
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: aramazdınız
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ararlardı
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: aramazlardı
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: arardım
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: aramazdım
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: arardın
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: aramazdın
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: arardı
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: aramazdı
+---
+lemma: bilmek
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: bilmeyiz
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: bilmersiniz
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: bilmezler
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: bilmem
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: bilmersin
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: bilmez
+---
+lemma: birakmak
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: birakin
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: birak
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: birakiniz
+---
+lemma: bulmak
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bulun
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bul
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: bulanuz
+---
+lemma: dema
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: diyin
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: de
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: diyiniz
+---
+lemma: etma
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: edin
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: et
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: ediniz
+---
+lemma: gelmek
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: gelin
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: gel
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: geldik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: geldiniz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: geldi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: geldim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: geldin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: geldi
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: gelinez
+---
+lemma: git
+category: verbs
+cases:
+- features:
+    formality: formal
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: gidiniz
+- features:
+    formality: formal
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: gitmeyiniz
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: gidin
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: gitmeyin
+- features:
+    mood: imperative
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: gitsinler
+- features:
+    mood: imperative
+    number: plural
+    person: third
+    polarity: negative
+  expected: gitmesinler
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: git
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: gitme
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: gitsin
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: negative
+  expected: gitmesin
+- features:
+    mood: optative
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: gidelim
+- features:
+    mood: optative
+    number: plural
+    person: first
+    polarity: negative
+  expected: gitmeyelim
+- features:
+    mood: optative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: gidesiniz
+- features:
+    mood: optative
+    number: plural
+    person: second
+    polarity: negative
+  expected: gitmeyesiniz
+- features:
+    mood: optative
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: gideler
+- features:
+    mood: optative
+    number: plural
+    person: third
+    polarity: negative
+  expected: gitmeyeler
+- features:
+    mood: optative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: gideyim
+- features:
+    mood: optative
+    number: singular
+    person: first
+    polarity: negative
+  expected: gitmeyeyim
+- features:
+    mood: optative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: gidesin
+- features:
+    mood: optative
+    number: singular
+    person: second
+    polarity: negative
+  expected: gitmeyesin
+- features:
+    mood: optative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: gide
+- features:
+    mood: optative
+    number: singular
+    person: third
+    polarity: negative
+  expected: gitmeye
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: gidelim
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: gitmeyelim
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: gidin
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: gitmeyin
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: gitsinler
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: gitmesinler
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: gideyim
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: gitmeyeyim
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: git
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: gitme
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: gitsin
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: gitmesin
+---
+lemma: gitmek
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: gitmeZdik
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: gitmeZdiniz
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: gitmezlerdi
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: gitmeZdim
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: gitmeZdin
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: gitmezdi
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: gidin
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: git
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: future
+  expected: gitmeyiz
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: gittik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: future
+  expected: gitmersiniz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: gittiniz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: future
+  expected: gitmezler
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: gittiler
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: gitmem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: gittim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: future
+  expected: gitmersin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: gittin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: future
+  expected: gitmez
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gitti
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: gidiniz
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: gitsinler
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: gitsin
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: gitmeyiz
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: gitmeZsiniz
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: gitmezler
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: gitmem
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: gitmersin
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: gitmez
+---
+lemma: istemek
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: istememişiz
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: istememişsiniz
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: istememiş
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: istememişim
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: istememişsin
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: istememiş
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: istiyoruz
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: istemiyoruz
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: istiyoruz
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: istiyorsunuz
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: istemiyoruz
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: istiyorsunuz
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: istiyor
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: istemiyor
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: istiyor
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: istiyorum
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: istemiyorum
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: istiyorum
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: istiyorsun
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: istemiyorsun
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: istiyorsun
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: istiyor
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: istemiyor
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: istiyor
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: istesek
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: isteseniz
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: isteseler
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: istesem
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: istesen
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: istese
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: i̇steyeceğiz
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: istemedik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: future
+  expected: i̇stemeyeceğiz
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: isteceğiz
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: isteriz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: i̇steyeceksiniz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: istemediniz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: future
+  expected: i̇stemeyeceksiniz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: isteceksiniz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: istersiniz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: i̇steyecekler
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: istemediler
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: future
+  expected: i̇stemeyecekler
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: istecek
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ister
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: i̇steyeceğim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: istemedim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: i̇stemeyeceğim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: isteceğim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: isterim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: i̇steyeceksin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: istemedin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: future
+  expected: i̇stemeyeceksin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: isteceksin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: istersin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: i̇steyecek
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: istemedi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: future
+  expected: i̇stemeyecek
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: istecek
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ister
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: istemeliyiz
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: istemelisiniz
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: istemeliler
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: istemeliyim
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: istemelisin
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: istemeli
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: istemisiz
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: istememesiz
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: istemissiniz
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: istememesiniz
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: istemisler
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: istememesler
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: istemisim
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: istememisim
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: istemissin
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: istememessin
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: istemis
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: istememis
+---
+lemma: içmek
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: içmedik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: içmediniz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: içmediler
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: içmedim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: içmedin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: içmedi
+---
+lemma: jaralamak
+category: verbs
+cases:
+- features:
+    case: dative
+  expected: jaràlannaghà
+- features:
+    case: genitive
+  expected: jaralamaghgr
+- features:
+    case: nominative
+  expected: jaràlarnåk
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: jaralajajyagholarsalt
+- features:
+    verb_form: infinitive
+  expected: jaràlarnàk
+---
+lemma: kapamak
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kapa
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: kapayiniz
+---
+lemma: kesmek
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: kestik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: kestiniz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: kesti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: kestim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: kestin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: kesti
+---
+lemma: konuqmak
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: konu§un
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: konu§
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: konu§unuz
+---
+lemma: konuşmak
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: konuşmadık
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: konuşmadınız
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: konuşmadılar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: konuşmadım
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: konuşmadın
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: konuşmadı
+---
+lemma: koşmak
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: koşmamaktayız
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: koşmamaktasınız
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: koşmamaktadırlar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: koşmamaktayım
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: koşmamaktasın
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: koşmamaktadır
+---
+lemma: oku
+category: verbs
+cases:
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: okuyahm
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: okuyasilliz
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: okusunlar
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: okuyaYlm
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: okuyasln
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: okusun
+---
+lemma: okumak
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: okuyun
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: oku
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: okuduk
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: okudunuz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: okudular
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: okudum
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: okudun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: okudu
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: okuyunuz
+---
+lemma: olmak
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: olun
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: olunuz
+---
+lemma: opmek
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: optuk
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: optunuz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: optu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: optum
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: optun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: optu
+---
+lemma: orada olmak
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: oradaysak
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: oradaysanaz
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: oradalarsa
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: oradaysam
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: oradaysan
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: oradaysa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: oradaydik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: oradayiz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: oradaydiniz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: oradasiniz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: oradaydilar
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: oradalar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: oradaydim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: oradayim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: oradaydin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: oradasin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: oradaydi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: orada
+---
+lemma: seçmek
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: seçtik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: seçtiniz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: seçtiler
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: seçtim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: seçtin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: seçti
+---
+lemma: soylemek
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: soyledik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: soylediniz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: soyledi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: soyledim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: soyledin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: soyledi
+---
+lemma: tekrarlamak
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tekrarlayin
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tekrarla
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: tekrarlayiniz
+---
+lemma: tutmak
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: tuttuk
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: tuttunuz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: tuttu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: tuttum
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: tuttun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: tuttu
+---
+lemma: uyumak
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: uyuduk
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: uyudunuz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: uyudu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: uyudum
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: uyudun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: uyudu
+---
+lemma: vermek
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: verin
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ver
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: vermemekteyiz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: vermemektesiniz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: vermemektedirler
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: vermemekteyim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: vermemektesin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: vermemektedir
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: veriniz
+---
+lemma: yapmak
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: yapsaniz
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: yapsalar
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: yapsan
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: yapsa
+---
+lemma: yazmak
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: yazmaktaydık
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: yazmaktaydınız
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: yazmaktaydılar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: yazmaktaydım
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: yazmaktaydın
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: yazmaktaydı
+---
+lemma: yok olmak
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: yoksak
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: yoksaniz
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: yoklarsa
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: yoksam
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: yoksan
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: yoksa
+---
+lemma: yuzmek
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: yuzduk
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: yuzdunuz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: yuzdu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: yuzdum
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: yuzdun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: yuzdu
+---
+lemma: yürümek
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: yürümekteydik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: yürümekteydiniz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: yürümekteydiler
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: yürümekteydim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: yürümekteydin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: yürümekteydi
