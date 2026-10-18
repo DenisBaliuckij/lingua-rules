@@ -1,0 +1,559 @@
+lemma: '!k'
+category: pronouns
+cases:
+- features:
+    case: abessive
+    number: singular
+    person: second
+  expected: úk-an
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: úk-a
+- features:
+    case: adessive
+    number: singular
+    person: second
+  expected: úk-a
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: úk-a
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: '!k'
+- features:
+    case: instrumental
+    number: singular
+    person: second
+  expected: úk-as
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: '!'
+- features:
+    number: singular
+    person: second
+  expected: úk-ata
+---
+lemma: b!
+category: pronouns
+cases:
+- features:
+    case: abessive
+    gender: feminine
+    number: singular
+    person: third
+  expected: bú--an
+- features:
+    case: abessive
+    gender: masculine
+    number: singular
+    person: third
+  expected: bú--an
+- features:
+    case: abessive
+    number: plural
+    person: third
+  expected: bú
+- features:
+    case: ablative
+    gender: feminine
+    number: singular
+    person: third
+  expected: bú-di
+- features:
+    case: ablative
+    gender: masculine
+    number: singular
+    person: third
+  expected: bú-da
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: bú
+- features:
+    case: adessive
+    gender: feminine
+    number: singular
+    person: third
+  expected: bú-di
+- features:
+    case: adessive
+    gender: masculine
+    number: singular
+    person: third
+  expected: bú-da
+- features:
+    case: adessive
+    number: plural
+    person: third
+  expected: bú
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+    person: third
+  expected: bú-di
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+    person: third
+  expected: bú-da
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: bú
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+    person: third
+  expected: bú-di
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+    person: third
+  expected: bú-da
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: bú
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+    person: third
+  expected: bú--as
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+    person: third
+  expected: bú--as
+- features:
+    case: instrumental
+    number: plural
+    person: third
+  expected: bú
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: b!
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: b!
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: b!
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: bú-dita
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: bú-data
+- features:
+    number: plural
+    person: third
+  expected: bú
+---
+lemma: b–n
+category: pronouns
+cases:
+- features:
+    case: abessive
+    gender: feminine
+    number: singular
+    person: third
+  expected: bín-da-an
+- features:
+    case: abessive
+    gender: masculine
+    number: singular
+    person: third
+  expected: bín-du-an
+- features:
+    case: abessive
+    number: singular
+    person: first
+  expected: bín-di-an
+- features:
+    case: abessive
+    number: singular
+    person: second
+  expected: bín-ku-an
+- features:
+    case: ablative
+    gender: feminine
+    number: singular
+    person: third
+  expected: bín-da-di
+- features:
+    case: ablative
+    gender: masculine
+    number: singular
+    person: third
+  expected: bín-du-da
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: bín-da
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: bín-ka
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: bín-a
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: bín-di-ba
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: bín-ku-ka
+- features:
+    case: adessive
+    gender: feminine
+    number: singular
+    person: third
+  expected: bín-da-di
+- features:
+    case: adessive
+    gender: masculine
+    number: singular
+    person: third
+  expected: bín-du-da
+- features:
+    case: adessive
+    number: plural
+    person: first
+  expected: bín-da
+- features:
+    case: adessive
+    number: plural
+    person: second
+  expected: bín-ka
+- features:
+    case: adessive
+    number: plural
+    person: third
+  expected: bín-a
+- features:
+    case: adessive
+    number: singular
+    person: first
+  expected: bín-di-ba
+- features:
+    case: adessive
+    number: singular
+    person: second
+  expected: bín-ku-ka
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+    person: third
+  expected: bín-da-di
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+    person: third
+  expected: bín-du-da
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: bín-da
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: bín-ka
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: bín-a
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: bín-di-ba
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: bín-ku-ka
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+    person: third
+  expected: bín-da-di
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+    person: third
+  expected: bín-du-da
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: bín-da
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: bín-ka
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: bín-a
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: bín-di-ba
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: bín-ku-k
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+    person: third
+  expected: bín-da-as
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+    person: third
+  expected: bín-du-as
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: bín-di-as
+- features:
+    case: instrumental
+    number: singular
+    person: second
+  expected: bín-ku-as
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: b–n
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: b–n
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: bín-da
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: bín-ka
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: bín-a
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: b–n
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: b–n
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: bín-da-dita
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: bín-du-data
+- features:
+    number: singular
+    person: first
+  expected: bín-di-bata
+- features:
+    number: singular
+    person: second
+  expected: bín-ku-kata
+---
+lemma: ´k
+category: pronouns
+cases:
+- features:
+    case: abessive
+    number: plural
+    person: second
+  expected: ´k
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: ´k
+- features:
+    case: adessive
+    number: plural
+    person: second
+  expected: ´k
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: ´k
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: ´k
+- features:
+    case: instrumental
+    number: plural
+    person: second
+  expected: ´k
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: ´k
+- features:
+    number: plural
+    person: second
+  expected: ´k
+---
+lemma: ´tn
+category: pronouns
+cases:
+- features:
+    case: abessive
+    number: plural
+    person: first
+  expected: ´tnan
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: ´tnna
+- features:
+    case: adessive
+    number: plural
+    person: first
+  expected: ´tnna
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: ´tnna
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: ´tnna
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: ´tnas
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ´tn
+- features:
+    number: plural
+    person: first
+  expected: ´tnnata
+---
+lemma: ƒd
+category: pronouns
+cases:
+- features:
+    case: abessive
+    number: singular
+    person: first
+  expected: ád-an
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: áb-a
+- features:
+    case: adessive
+    number: singular
+    person: first
+  expected: áb-a
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: áb-a
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ƒb
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: ád-as
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ƒd
+- features:
+    number: singular
+    person: first
+  expected: áb-ata

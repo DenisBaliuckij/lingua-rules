@@ -1,0 +1,543 @@
+lemma: biti
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: bio
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: budite
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: bismo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: bijasmo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: jesmo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: biste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: bijaste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: jeste
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: biše
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: bijahu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: jesu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: bih
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: bijah
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: jesam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: bi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: bijaše
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: jesi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: bi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: bijaše
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: jest
+- features:
+    mood: potential
+    number: plural
+    person: first
+    tense: future
+  expected: budemo
+- features:
+    mood: potential
+    number: plural
+    person: first
+    tense: present
+  expected: bismo
+- features:
+    mood: potential
+    number: plural
+    person: second
+    tense: future
+  expected: budete
+- features:
+    mood: potential
+    number: plural
+    person: second
+    tense: present
+  expected: biste
+- features:
+    mood: potential
+    number: plural
+    person: third
+    tense: future
+  expected: budu
+- features:
+    mood: potential
+    number: plural
+    person: third
+    tense: present
+  expected: bi
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: future
+  expected: budem
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: present
+  expected: bih
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: future
+  expected: budeš
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: present
+  expected: bi
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: future
+  expected: bude
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: present
+  expected: bi
+- features:
+    tense: past
+    verb_form: participle
+  expected: bivši
+- features:
+    tense: present
+    verb_form: infinitive
+  expected: biti
+- features:
+    verb_form: gerund
+    voice: passive
+  expected: bivši
+- features:
+    verb_form: participle
+    voice: passive
+  expected: bijen
+---
+lemma: hvali-ti
+category: verbs
+cases:
+- features:
+    gender: feminine
+    verb_form: participle
+  expected: hvali-la
+- features:
+    gender: masculine
+    verb_form: participle
+  expected: hvali
+- features:
+    gender: masculine
+    verb_form: participle
+    voice: passive
+  expected: hvalj-en
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: hvalite
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: hvalem
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: hvali-smo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: hvalj-asmo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: hvalimo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: hvali-ste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: hvalj-aste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: hvalite
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: hvali-še
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: hvalj-ahu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hvale
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: hvali-h
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: hvalj-ah
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: hvalem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: hvali
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: hvalj-aše
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hvališ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: hvali
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: hvalj-aše
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hvali
+- features:
+    verb_form: infinitive
+  expected: hvali-ti
+- features:
+    verb_form: past_participle
+  expected: hvali-vši
+- features:
+    verb_form: present_participle
+  expected: hvale-ći
+---
+lemma: hvaliti
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: gerund
+  expected: hvaleć
+- features:
+    aspect: imperfective
+    verb_form: participle
+  expected: hvaleći
+- features:
+    aspect: perfective
+    verb_form: gerund
+  expected: hvalivši
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: hvalimo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: hvalite
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: hvali
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: hvali
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: hvalismo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: hvaljasmo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: hvalimo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: hvaliste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: hvaljaste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: hvalite
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: hvališe
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: hvaljahu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hvale
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: hvalih
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: hvaljah
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: hvalim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: hvali
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: hvaljaše
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hvalis
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: hvali
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: hvaljaše
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hvali
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: hvalili
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: hvalili
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: hvalili
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: hvatio
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: hvalio
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: hvalio
+- features:
+    verb_form: infinitive
+  expected: hvatio
+- features:
+    verb_form: participle
+  expected: hvalio
+- features:
+    verb_form: participle
+    voice: passive
+  expected: hvaljen
+- features:
+    verb_form: past_participle
+  expected: hvalivši
+- features:
+    verb_form: past_participle
+    voice: passive
+  expected: hvaljen

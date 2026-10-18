@@ -1,0 +1,77 @@
+lemma: ayT
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: plural
+    person: third
+  expected: kassdm
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: anc
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: kassa
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: ank
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: kassu
+- features:
+    number: plural
+    person: second
+  expected: dnnakum
+- features:
+    number: singular
+    person: first
+  expected: ayT
+---
+lemma: yay
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: plural
+    person: third
+  expected: ydkassdm
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: yan^
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ydkassa
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: yank
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ydkdssu
+- features:
+    number: plural
+    person: first
+  expected: yanna
+- features:
+    number: plural
+    person: second
+  expected: yannakum
+- features:
+    number: singular
+    person: first
+  expected: yay

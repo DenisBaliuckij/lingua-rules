@@ -1,0 +1,107 @@
+lemma: administrateur
+category: nouns
+cases:
+- features:
+    noun_class: class_1
+    number: singular
+  expected: umadministrateur
+- features:
+    noun_class: class_2
+    number: plural
+  expected: baadministrateur
+---
+lemma: arrondissement
+category: nouns
+cases:
+- features:
+    noun_class: class_10
+    number: plural
+  expected: zaaarrondissements
+- features:
+    noun_class: class_6
+    number: plural
+  expected: amaarrondissements
+- features:
+    noun_class: class_9
+    number: singular
+  expected: arrondissement
+---
+lemma: bourgmestre
+category: nouns
+cases:
+- features:
+    noun_class: class_1
+    number: singular
+  expected: umbourgmestre
+- features:
+    noun_class: class_2
+    number: plural
+  expected: baabourgmestre
+---
+lemma: commune
+category: nouns
+cases:
+- features:
+    noun_class: class_10
+    number: plural
+  expected: zaacommmunes
+- features:
+    noun_class: class_10
+    number: singular
+  expected: commune
+- features:
+    noun_class: class_6
+    number: plural
+  expected: amacommunes
+---
+lemma: gouverneur
+category: nouns
+cases:
+- features:
+    noun_class: class_1
+    number: singular
+  expected: umugouverneur
+- features:
+    noun_class: class_2
+    number: plural
+  expected: baagouverneur
+---
+lemma: ministre
+category: nouns
+cases:
+- features:
+    noun_class: class_1
+    number: singular
+  expected: uministre
+- features:
+    noun_class: class_2
+    number: plural
+  expected: baaministre
+---
+lemma: province
+category: nouns
+cases:
+- features:
+    noun_class: class_10
+    number: plural
+  expected: zaaprovinces
+- features:
+    noun_class: class_10
+    number: singular
+  expected: province
+- features:
+    noun_class: class_6
+    number: plural
+  expected: amaprovinces
+---
+lemma: ukuuntu
+category: nouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: ukuuntu
+- features:
+    case: nominative
+    number: singular
+  expected: ukuuntu

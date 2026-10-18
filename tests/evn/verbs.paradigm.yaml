@@ -1,0 +1,227 @@
+lemma: baka
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: present
+  expected: baka-mcha-vun
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: present
+  expected: baka-mcha-sun
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: present
+  expected: baka-mcha-tyn
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: baka-mcha-v
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: present
+  expected: baka-mcha-s
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: present
+  expected: bakamcha
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: baka
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bakakallu
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: bakaktyn
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: bakakta
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bakakal
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: bakagin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: baka-d'ara-v
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: baka-ra-v
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: baka-d'ara-v
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: baka-d'a-s
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: baka-ra-s
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: baka-d'ara-s
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: bakad'ara
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: bakara
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bakad'ara
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: baka-d'a-m
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: baka-d'a-m
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: baka-d'a-nni
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: baka-d'a-nni
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: baka-d'a-n
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: baka-ra-n
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: baka-d'ara-n
+---
+lemma: baka- 'find
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: baka-kta-vun
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: baka-kallu
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: baka-ktyn
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: baka-kta
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: baka-kal
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: baka-gin
+---
+lemma: ga
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ga-na-re-v
+- features:
+    number: plural
+    person: second
+  expected: ga-na-s
+- features:
+    number: plural
+    person: third
+  expected: ga-na-re
+- features:
+    number: singular
+    person: first
+  expected: ga-na-m
+- features:
+    number: singular
+    person: second
+  expected: ga-na-nni
+- features:
+    number: singular
+    person: third
+  expected: ga-na-n

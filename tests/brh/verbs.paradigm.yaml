@@ -1,0 +1,946 @@
+lemma: das-ing
+category: verbs
+cases:
+- features:
+    number: singular
+    person: second
+  expected: daslpa
+- features:
+    verb_form: infinitive
+  expected: das-ing
+- features:
+    verb_form: past_participle
+  expected: dasa
+---
+lemma: dushdy-ing
+category: verbs
+cases:
+- features:
+    number: singular
+    person: second
+  expected: dushapa
+- features:
+    verb_form: infinitive
+  expected: dushdy-ing
+- features:
+    verb_form: past_participle
+  expected: dushdyd
+---
+lemma: gaf-ing
+category: verbs
+cases:
+- features:
+    number: singular
+    person: second
+  expected: gafpa
+- features:
+    verb_form: infinitive
+  expected: gaf-ing
+- features:
+    verb_form: past_participle
+  expected: gafa
+---
+lemma: gidr-ing
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: gidring
+- features:
+    number: singular
+    person: second
+  expected: gidringpa
+- features:
+    verb_form: infinitive
+  expected: gidr-ing
+- features:
+    verb_form: past_participle
+  expected: gidringa
+---
+lemma: hal-ing
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: halth
+- features:
+    number: singular
+    person: second
+  expected: halpa
+- features:
+    verb_form: infinitive
+  expected: hal-ing
+- features:
+    verb_form: past_participle
+  expected: halh
+---
+lemma: har-ing
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: har
+- features:
+    number: singular
+    person: second
+  expected: harrpa
+- features:
+    verb_form: infinitive
+  expected: har-ing
+- features:
+    verb_form: past_participle
+  expected: hard
+---
+lemma: hars-ing
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: horsing
+- features:
+    number: singular
+    person: second
+  expected: harsingpa
+- features:
+    verb_form: infinitive
+  expected: hars-ing
+- features:
+    verb_form: past_participle
+  expected: harsingd
+---
+lemma: hatar-ing
+category: verbs
+cases:
+- features:
+    number: singular
+    person: second
+  expected: hatpa
+- features:
+    verb_form: infinitive
+  expected: hatar-ing
+---
+lemma: hin-ing
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: hinak
+- features:
+    verb_form: infinitive
+  expected: hin-ing
+---
+lemma: hir-ing
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: hir
+- features:
+    number: singular
+    person: second
+  expected: hiripa
+- features:
+    verb_form: infinitive
+  expected: hir-ing
+---
+lemma: hun-ing
+category: verbs
+cases:
+- features:
+    number: singular
+    person: second
+  expected: hunpa
+- features:
+    verb_form: infinitive
+  expected: hun-ing
+---
+lemma: kah-ing
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kah
+- features:
+    number: singular
+    person: second
+  expected: kahipa
+- features:
+    verb_form: infinitive
+  expected: kah-ing
+---
+lemma: kash-ing
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kash
+- features:
+    number: singular
+    person: second
+  expected: kashpa
+- features:
+    verb_form: infinitive
+  expected: kash-ing
+- features:
+    verb_form: past_participle
+  expected: kasha
+---
+lemma: khalk
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: khalk-un-ut
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: khalkasut
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: khalk-un-us
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: khalkasus
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: khalk-un-e
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: khalkasat
+---
+lemma: khan-ing
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: khanak
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: khano-n
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future_perfect
+  expected: khano-sun
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: khdn-ina
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: khano-re
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: khan-ire
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: khan-par
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: khano-t
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future_perfect
+  expected: khano-sut
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: khdn-iva
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: khanos
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: khdn-isa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: khano-e
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kh&n-ik
+- features:
+    mood: potential
+    number: plural
+    person: first
+    tense: present
+  expected: khdn-in
+- features:
+    mood: potential
+    number: plural
+    person: third
+    tense: present
+  expected: khdn-ir
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: present
+  expected: khdn-is
+- features:
+    number: singular
+    person: second
+  expected: khanpa
+- features:
+    verb_form: infinitive
+  expected: khan-ing
+- features:
+    verb_form: past_participle
+  expected: khand
+---
+lemma: khan-t-dv-afa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: khan-t-dv-ana
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: khan-t-dv-ire
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: khan-t-dv-asa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: khan-t-dv-afa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: khan-t-dv-isa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: khan-t-dv-aha
+---
+lemma: khan-t-dv-asuf
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: pluperfect
+  expected: khan-t-dv-asun
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: pluperfect
+  expected: khan-t-dv-dsure
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: pluperfect
+  expected: khan-t-dv-asur
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: pluperfect
+  expected: khan-t-dv-asuf
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: pluperfect
+  expected: khan-t-dv-asua
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: pluperfect
+  expected: khan-t-dv-asas
+---
+lemma: khana
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: khand-n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: khanare
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: khanar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: khana-t-a
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: khanat
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: khand-n
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: khana-s-a
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: khanas
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: khanar
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: khand-ka
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: khana
+---
+lemma: khand
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: khandsut
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: khana-sus
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: khandsas
+---
+lemma: khdlk
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: khdlkun
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: khdlkure
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: khdlkur
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: khdlkut
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: khdlkus
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: khdlk
+---
+lemma: khdn-ta-n-ut
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: khdn-ta-n-un
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: khan-td-n-wel
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: khan-ta-n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: khdn-ta-n-ut
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: khdn-ta-n-us
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: khdn-ta-n-e
+---
+lemma: khul-ing
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: khullpa
+- features:
+    number: singular
+    person: second
+  expected: khulls
+- features:
+    verb_form: infinitive
+  expected: khul-ing
+---
+lemma: khvdh-ing
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: khvdh
+- features:
+    number: singular
+    person: second
+  expected: khvdhipa
+- features:
+    verb_form: infinitive
+  expected: khvdh-ing
+- features:
+    verb_form: past_participle
+  expected: khvdhd
+---
+lemma: khvdnif-ing
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: khvanif
+- features:
+    number: singular
+    person: second
+  expected: khvdnifpa
+- features:
+    verb_form: infinitive
+  expected: khvdnif-ing
+- features:
+    verb_form: past_participle
+  expected: khvdnifd
+---
+lemma: kun-ing
+category: verbs
+cases:
+- features:
+    number: singular
+    person: second
+  expected: kunpa
+- features:
+    verb_form: infinitive
+  expected: kun-ing
+- features:
+    verb_form: past_participle
+  expected: kune
+---
+lemma: lor-ing
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: lor
+- features:
+    number: singular
+    person: second
+  expected: lorlpa
+- features:
+    verb_form: infinitive
+  expected: lor-ing
+- features:
+    verb_form: past_participle
+  expected: lora
+---
+lemma: mar
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: future
+  expected: ma-far-on
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: maron
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: ma-far-ot
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: marot
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future_perfect
+  expected: mar
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: maros
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: mar
+---
+lemma: mdr
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: md-fa-bo
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: md-fa-n
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: mdren
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: md-f-ire
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: mdrere
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: md-fa-s
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: mdrer
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: md-fa-r
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: mdrev
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: md-fi-s
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: mdres
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: mafi
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: mdre
+---
+lemma: mds
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: ofkma-t-dv-ar-a
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: mdfar
+---
+lemma: nir-ing
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: nir
+- features:
+    number: singular
+    person: second
+  expected: nirwa
+- features:
+    verb_form: infinitive
+  expected: nir-ing
+- features:
+    verb_form: past_participle
+  expected: nira
+---
+lemma: pa-r
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: pa-r
+- features:
+    number: plural
+    person: third
+  expected: pa-r
+- features:
+    number: singular
+    person: first
+  expected: pa-r
+- features:
+    number: singular
+    person: second
+  expected: pa-r
+---
+lemma: rasing-ing
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: rasing
+- features:
+    number: singular
+    person: second
+  expected: rasmgpa
+- features:
+    verb_form: infinitive
+  expected: rasing-ing
+- features:
+    verb_form: past_participle
+  expected: rasingd
+---
+lemma: shdy-ing
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: shdy-ing
+- features:
+    verb_form: past_participle
+  expected: shdpa
+---
+lemma: sil-ing
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: sil-ing
+- features:
+    verb_form: past_participle
+  expected: sild

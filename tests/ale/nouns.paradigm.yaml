@@ -1,0 +1,79 @@
+lemma: Адакъ
+category: nouns
+cases:
+- features:
+    case: dative
+  expected: Адаманъ
+- features:
+    case: genitive
+  expected: Адамъ
+- features:
+    case: nominative
+  expected: Адакъ
+---
+lemma: адагиль
+category: nouns
+cases:
+- features:
+    polarity: negative
+    possessor_number: singular
+    possessor_person: first
+  expected: адагилякакшгъ
+- features:
+    polarity: negative
+    possessor_number: singular
+    possessor_person: second
+  expected: адагилякахтхинъ
+- features:
+    polarity: negative
+    possessor_number: singular
+    possessor_person: third
+  expected: адагилякакъ
+---
+lemma: адахтак
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: адахтахтхйчи
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: адахтанъ
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: адахтахтхинъ
+- features:
+    possessor_person: first
+  expected: адахтахтхйдикъ
+---
+lemma: аягахтанакъ
+category: nouns
+cases:
+- features:
+    case: accusative
+  expected: аягахтанамъ
+- features:
+    case: dative
+  expected: аягахтанаганъ
+- features:
+    case: instrumental
+  expected: аягахтананъ
+- features:
+    case: locative
+  expected: аягахтананйнъ
+- features:
+    case: nominative
+  expected: аягахтанакъ
+---
+lemma: кидакъ
+category: nouns
+cases:
+- features:
+    case: dative
+  expected: кидаганъ
+- features:
+    case: nominative
+  expected: кидакъ

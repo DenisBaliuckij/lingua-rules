@@ -1,0 +1,65 @@
+lemma: ce
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: ces
+- features:
+    number: singular
+  expected: ce
+---
+lemma: je
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nous
+- features:
+    number: plural
+    person: second
+  expected: vous
+- features:
+    number: plural
+    person: third
+  expected: ils
+- features:
+    number: singular
+    person: first
+  expected: je
+- features:
+    number: singular
+    person: second
+  expected: tu
+- features:
+    number: singular
+    person: third
+  expected: il
+---
+lemma: moy
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nous
+- features:
+    number: plural
+    person: second
+  expected: vous
+- features:
+    number: plural
+    person: third
+  expected: eux
+- features:
+    number: singular
+    person: first
+  expected: moy
+- features:
+    number: singular
+    person: second
+  expected: toy
+- features:
+    number: singular
+    person: third
+  expected: soy

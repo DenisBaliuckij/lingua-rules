@@ -1,0 +1,41 @@
+lemma: heman
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: homañt
+- features:
+    gender: masculine
+    number: singular
+  expected: hemant
+- features:
+    number: plural
+  expected: ar reman
+---
+lemma: henhont
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: honhont
+- features:
+    gender: masculine
+    number: singular
+  expected: henhont
+- features:
+    number: plural
+  expected: ar rehont
+---
+lemma: hennezh
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: honnnez
+- features:
+    gender: masculine
+    number: singular
+  expected: hennezh

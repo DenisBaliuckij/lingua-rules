@@ -1,0 +1,242 @@
+lemma: dukora
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: conditional
+    polarity: negative
+    tense: future
+  expected: ntitwaakorana
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: ntidukorânye
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: ntidukorâna
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    polarity: negative
+    tense: future
+  expected: ntitùzaakorana
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    polarity: negative
+    tense: present
+  expected: twiikoràna
+- features:
+    aspect: imperfective
+    polarity: negative
+    tense: present
+    verb_form: infinitive
+  expected: kudâkorâna
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: ntitugikorana
+---
+lemma: fite
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: imperfect
+  expected: war'uùfite
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: preterite
+  expected: war'ûufite
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: imperfect
+  expected: yar'aàfite
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: preterite
+  expected: yar'âafite
+---
+lemma: gukora
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    polarity: negative
+  expected: twiikorâ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: mwiikorâ
+- features:
+    mood: imperative
+    number: plural
+    person: third
+    polarity: negative
+  expected: biikorâ
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: wiikorâ
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: negative
+  expected: yiikorâ
+---
+lemma: gusoma
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: conditional
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: baasoma
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: baasoma
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+    verb_form: participle
+  expected: báasoma
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: basoma
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: básoma
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: baásoma
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+    verb_form: participle
+  expected: báásoma
+---
+lemma: vuga
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tuvuga
+- features:
+    number: plural
+    person: second
+  expected: muvuga
+- features:
+    number: plural
+    person: third
+  expected: bavuga
+- features:
+    number: singular
+    person: first
+  expected: mvuga
+- features:
+    number: singular
+    person: second
+  expected: uvuga
+- features:
+    number: singular
+    person: third
+  expected: avuga
+---
+lemma: zi
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: imperfect
+  expected: war'uùzi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: preterite
+  expected: war'ùuzi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: imperfect
+  expected: yar'aâzi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: preterite
+  expected: yar'âazi

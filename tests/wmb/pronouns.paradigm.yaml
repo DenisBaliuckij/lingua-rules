@@ -1,0 +1,554 @@
+lemma: gayini
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    case: accusative
+    number: singular
+  expected: gayini
+- features:
+    animacy: animate
+    case: dative
+    number: singular
+  expected: gayinini-nka
+- features:
+    animacy: animate
+    case: locative
+    number: singular
+  expected: gayininini
+- features:
+    animacy: animate
+    case: nominative
+    number: singular
+  expected: gayini
+- features:
+    animacy: inanimate
+    case: accusative
+    number: singular
+  expected: gayinirna
+- features:
+    animacy: inanimate
+    case: dative
+    number: singular
+  expected: gayininga-nka
+- features:
+    animacy: inanimate
+    case: locative
+    number: singular
+  expected: gayiningani
+- features:
+    animacy: inanimate
+    case: nominative
+    number: singular
+  expected: gayinirna
+---
+lemma: gurlu
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: gurlu-gan-ji
+---
+lemma: ini
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: ini
+- features:
+    case: dative
+    number: singular
+  expected: ninaga
+- features:
+    case: locative
+    number: singular
+  expected: ninki
+- features:
+    case: nominative
+    number: singular
+  expected: ini
+---
+lemma: inigùnji
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: inigùnji
+- features:
+    case: nominative
+    number: plural
+  expected: inigùnji
+---
+lemma: inuwulu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+  expected: inuwulu
+- features:
+    case: dative
+    number: dual
+  expected: ninagawulija
+- features:
+    case: locative
+    number: dual
+  expected: ninkiwuliji
+- features:
+    case: nominative
+    number: dual
+  expected: inuwulu
+---
+lemma: irri
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: irri-gan-ji
+---
+lemma: mama
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: mama
+- features:
+    case: nominative
+    number: singular
+  expected: mama
+---
+lemma: mamagunyma
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: mamagunyma
+- features:
+    case: nominative
+    number: plural
+  expected: mamagunyma
+---
+lemma: mamawulu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+  expected: mamawulu
+- features:
+    case: nominative
+    number: dual
+  expected: mamawulu
+---
+lemma: mamiyaga
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: mamiyaga
+- features:
+    case: nominative
+    number: singular
+  expected: mamiyaga
+---
+lemma: mirndi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: mirndi-gan-ji
+---
+lemma: nana
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: nana
+- features:
+    case: dative
+    number: singular
+  expected: nganaga
+- features:
+    case: locative
+    number: singular
+  expected: nganki
+- features:
+    case: nominative
+    number: singular
+  expected: nana
+---
+lemma: nanagunya
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: nanagunya
+- features:
+    case: dative
+    number: plural
+  expected: nganagagunyanka
+- features:
+    case: locative
+    number: plural
+  expected: ngankagunyani
+- features:
+    case: nominative
+    number: plural
+  expected: nanagunya
+---
+lemma: nanawulu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+  expected: nanawulu
+- features:
+    case: dative
+    number: dual
+  expected: nganagawulija
+- features:
+    case: locative
+    number: dual
+  expected: ngankawuliji
+- features:
+    case: nominative
+    number: dual
+  expected: nanawulu
+---
+lemma: nangi
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: nangiØ
+---
+lemma: naniyaga
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: naniyaga
+- features:
+    case: dative
+    number: singular
+  expected: nganagiyaga
+- features:
+    case: locative
+    number: singular
+  expected: ngankiyaga
+- features:
+    case: nominative
+    number: singular
+  expected: naniyaga
+---
+lemma: ngangi
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: ngangiØ
+---
+lemma: ngarri
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    noun_class: class_1
+    number: singular
+    person: third
+  expected: ngayanji
+- features:
+    case: nominative
+    gender: feminine
+    noun_class: class_2
+    number: singular
+    person: third
+  expected: ngayanga
+- features:
+    case: nominative
+    gender: feminine
+    noun_class: class_4
+    number: singular
+    person: third
+  expected: ngayangga
+- features:
+    case: nominative
+    noun_class: class_1
+    number: plural
+    person: first
+  expected: ngirriganji
+- features:
+    case: nominative
+    noun_class: class_1
+    number: plural
+    person: second
+  expected: girriganji
+- features:
+    case: nominative
+    noun_class: class_1
+    number: plural
+    person: third
+  expected: irriganji
+- features:
+    case: nominative
+    noun_class: class_1
+    number: singular
+    person: first
+  expected: ngarri
+- features:
+    case: nominative
+    noun_class: class_1
+    number: singular
+    person: second
+  expected: ngangi
+- features:
+    case: nominative
+    noun_class: class_2
+    number: dual
+    person: first
+  expected: mirndigarna
+- features:
+    case: nominative
+    noun_class: class_2
+    number: dual
+    person: second
+  expected: gurlugarna
+- features:
+    case: nominative
+    noun_class: class_2
+    number: dual
+    person: third
+  expected: wurlugarna
+- features:
+    case: nominative
+    noun_class: class_2
+    number: plural
+    person: first
+  expected: ngurrugarna
+- features:
+    case: nominative
+    noun_class: class_2
+    number: plural
+    person: second
+  expected: girrigarna
+- features:
+    case: nominative
+    noun_class: class_2
+    number: plural
+    person: third
+  expected: irrigarna
+- features:
+    case: nominative
+    noun_class: class_2
+    number: singular
+    person: first
+  expected: ngarrirna
+- features:
+    case: nominative
+    noun_class: class_2
+    number: singular
+    person: second
+  expected: ngangirna
+- features:
+    case: nominative
+    noun_class: class_3
+    number: singular
+    person: first
+  expected: ngarrima
+- features:
+    case: nominative
+    noun_class: class_3
+    number: singular
+    person: second
+  expected: ngangima
+- features:
+    case: nominative
+    noun_class: class_4
+    number: plural
+    person: first
+  expected: ngirrigangga
+- features:
+    case: nominative
+    noun_class: class_4
+    number: plural
+    person: second
+  expected: girrigangga
+- features:
+    case: nominative
+    noun_class: class_4
+    number: plural
+    person: third
+  expected: irrigangga
+- features:
+    case: nominative
+    noun_class: class_4
+    number: singular
+    person: first
+  expected: ngarrga
+- features:
+    case: nominative
+    noun_class: class_4
+    number: singular
+    person: second
+  expected: ngangga
+- features:
+    number: singular
+    person: first
+  expected: ngarriØ
+---
+lemma: ngarrima
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ngayanga
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: nangima
+- features:
+    number: dual
+    person: first
+  expected: mîrndigarna
+- features:
+    number: dual
+    person: second
+  expected: gurlugarna
+- features:
+    number: dual
+    person: third
+  expected: wurlugarna
+- features:
+    number: plural
+    person: first
+  expected: ngîrrigarna
+- features:
+    number: plural
+    person: second
+  expected: girrîgarna
+- features:
+    number: plural
+    person: third
+  expected: irriganza
+- features:
+    number: singular
+    person: first
+  expected: ngarrima
+- features:
+    number: singular
+    person: second
+  expected: ngangima
+---
+lemma: ngayang
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: ngayanji
+---
+lemma: yana
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: yana
+- features:
+    case: nominative
+    number: singular
+  expected: yana
+---
+lemma: yanagunja
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: yanagunja
+- features:
+    case: nominative
+    number: plural
+  expected: yanagunja
+---
+lemma: yanawulu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+  expected: yanawulu
+- features:
+    case: nominative
+    number: dual
+  expected: yanawulu
+---
+lemma: yaniyaga
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: yaniyaga
+- features:
+    case: nominative
+    number: singular
+  expected: yaniyaga
+---
+lemma: îni
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: îni
+- features:
+    case: dative
+    number: singular
+  expected: nunaga
+- features:
+    case: locative
+    number: singular
+  expected: ninki
+- features:
+    case: nominative
+    number: singular
+  expected: îni
+---
+lemma: îniyaga
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: îniyaga
+- features:
+    case: dative
+    number: singular
+  expected: ninagiyaga
+- features:
+    case: locative
+    number: singular
+  expected: ninkiyaga
+- features:
+    case: nominative
+    number: singular
+  expected: îniyaga

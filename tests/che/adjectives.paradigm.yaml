@@ -1,0 +1,71 @@
+lemma: дика
+category: adjectives
+cases:
+- features:
+    case: genitive
+    number: singular
+  expected: дикачу
+- features:
+    case: nominative
+    number: singular
+  expected: дика
+---
+lemma: лекханиг
+category: adjectives
+cases:
+- features:
+    case: dative
+    number: plural
+  expected: лекхачарна
+- features:
+    case: dative
+    number: singular
+  expected: лекхачунна
+- features:
+    case: ergative
+    number: plural
+  expected: лекхачара
+- features:
+    case: ergative
+    number: singular
+  expected: лекхачо
+- features:
+    case: genitive
+    number: plural
+  expected: лекхачеран
+- features:
+    case: genitive
+    number: singular
+  expected: лекхачун
+- features:
+    case: instrumental
+    number: plural
+  expected: лекхачаьрца
+- features:
+    case: instrumental
+    number: singular
+  expected: лекхачуьнца
+- features:
+    case: locative
+    number: plural
+  expected: лекхачарах
+- features:
+    case: locative
+    number: singular
+  expected: лекхачух
+- features:
+    case: nominative
+    number: plural
+  expected: лекханаш
+- features:
+    case: nominative
+    number: singular
+  expected: лекханиг
+- features:
+    degree: comparative
+    number: plural
+  expected: лекхачарал
+- features:
+    degree: comparative
+    number: singular
+  expected: лекхачул

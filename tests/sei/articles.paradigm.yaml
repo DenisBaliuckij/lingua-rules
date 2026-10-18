@@ -1,0 +1,31 @@
+lemma: himcop
+category: articles
+cases:
+- features:
+    definiteness: definite
+    number: dual
+  expected: himcop
+- features:
+    definiteness: definite
+    number: plural
+  expected: himcoyolca
+- features:
+    definiteness: definite
+    number: singular
+  expected: himcop
+---
+lemma: ticop
+category: articles
+cases:
+- features:
+    definiteness: definite
+    number: dual
+  expected: tacop
+- features:
+    definiteness: definite
+    number: plural
+  expected: tacoyolca
+- features:
+    definiteness: definite
+    number: singular
+  expected: ticop

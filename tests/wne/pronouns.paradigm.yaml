@@ -1,0 +1,85 @@
+lemma: day
+category: pronouns
+cases:
+- features:
+    case: direct
+    gender: feminine
+    number: singular
+    person: third
+  expected: dā
+- features:
+    case: direct
+    gender: masculine
+    number: singular
+    person: third
+  expected: day
+- features:
+    case: direct
+    number: plural
+    person: third
+  expected: duy
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+    person: third
+  expected: de
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+    person: third
+  expected: də
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: dío
+---
+lemma: tə
+category: pronouns
+cases:
+- features:
+    case: direct
+    number: plural
+    person: second
+  expected: tā́si
+- features:
+    case: direct
+    number: singular
+    person: second
+  expected: tə
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: tā́so
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: tā
+---
+lemma: zə
+category: pronouns
+cases:
+- features:
+    case: direct
+    number: plural
+    person: first
+  expected: munẓ
+- features:
+    case: direct
+    number: singular
+    person: first
+  expected: zə
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: munẓə
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: mā

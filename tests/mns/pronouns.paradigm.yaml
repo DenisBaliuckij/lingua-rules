@@ -1,0 +1,498 @@
+lemma: am
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: first
+  expected: mēnmennal
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: mānawnəl
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: ānəmnəl
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: mēnmβn
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: mānaw
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ānəm
+- features:
+    case: comitative
+    number: dual
+    person: first
+  expected: mēnmentel
+- features:
+    case: comitative
+    number: plural
+    person: first
+  expected: mānawtəl
+- features:
+    case: comitative
+    number: singular
+    person: first
+  expected: ānəmfəl
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: mēnmenn
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: mānawn
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: ānəmn
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: mēn
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: mān
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: am
+---
+lemma: amki
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: mēnki
+- features:
+    number: plural
+    person: first
+  expected: mānki
+- features:
+    number: singular
+    person: first
+  expected: amki
+---
+lemma: amkinam
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: first
+  expected: mēnkinamennəl
+- features:
+    case: ablative
+    number: dual
+    person: second
+  expected: nēnkinannəl
+- features:
+    case: ablative
+    number: dual
+    person: third
+  expected: tēnkinatennəl
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: mðnkinawnal
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: nānkinannəl
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: tānkinanəlnal
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: amkinamnsl
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: naŋkinannəl
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: mēnkinamen
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: nēnkinan
+- features:
+    case: accusative
+    number: dual
+    person: third
+  expected: tēnkinaten
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: mānkinaw
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: nānkinan
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: tānkinanət
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: amkinam
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: naŋkinan
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: tahr̄inate
+- features:
+    case: comitative
+    number: dual
+    person: first
+  expected: mēnkinamentsl
+- features:
+    case: comitative
+    number: dual
+    person: second
+  expected: nēnkinantəl
+- features:
+    case: comitative
+    number: dual
+    person: third
+  expected: tēnkinatentəl
+- features:
+    case: comitative
+    number: plural
+    person: second
+  expected: nānkinantəl
+- features:
+    case: comitative
+    number: plural
+    person: third
+  expected: tðnkinanəltəl
+- features:
+    case: comitative
+    number: singular
+    person: first
+  expected: amkinamtəl
+- features:
+    case: comitative
+    number: singular
+    person: second
+  expected: naŋkinantəl
+- features:
+    case: comitative
+    number: singular
+    person: third
+  expected: tatCinatetə!
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: mēnkinamerm
+- features:
+    case: dative
+    number: dual
+    person: second
+  expected: nēnkinann
+- features:
+    case: dative
+    number: dual
+    person: third
+  expected: tēnkinatenn
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: mānkinawn
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: nānkinann
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: tānkinanəln
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: amkinamn
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: naŋkinann
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: tatcinaten
+---
+lemma: amkkem
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: mēnkkemen
+- features:
+    number: dual
+    person: second
+  expected: nēnkken
+- features:
+    number: dual
+    person: third
+  expected: tēnkketen
+- features:
+    number: plural
+    person: first
+  expected: mānkkew
+- features:
+    number: plural
+    person: second
+  expected: nānkken
+- features:
+    number: plural
+    person: third
+  expected: tānkkenəl
+- features:
+    number: singular
+    person: first
+  expected: amkkem
+- features:
+    number: singular
+    person: second
+  expected: naŋkken
+- features:
+    number: singular
+    person: third
+  expected: takkete
+---
+lemma: naŋ
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: second
+  expected: nēnannəl
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: rtānannal
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: naŋənnəl
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: nēnan
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: nānan
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: naŋən
+- features:
+    case: comitative
+    number: dual
+    person: second
+  expected: nēnantəl
+- features:
+    case: comitative
+    number: plural
+    person: second
+  expected: nānantəl
+- features:
+    case: comitative
+    number: singular
+    person: second
+  expected: naŋəntəl
+- features:
+    case: dative
+    number: dual
+    person: second
+  expected: nēnann
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: nānann
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: naŋənn
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: nēn
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: nān
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: naŋ
+---
+lemma: naŋki
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: nēnki
+- features:
+    number: plural
+    person: second
+  expected: nānki
+- features:
+    number: singular
+    person: second
+  expected: naŋki
+---
+lemma: tatťi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: tēnki
+- features:
+    number: plural
+    person: third
+  expected: tānki
+- features:
+    number: singular
+    person: third
+  expected: tatťi
+---
+lemma: taw
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: third
+  expected: tēntennəl
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: tānanəlnal
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: tawenəl
+- features:
+    case: accusative
+    number: dual
+    person: third
+  expected: tēnten
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: tananal
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: fa we
+- features:
+    case: comitative
+    number: dual
+    person: third
+  expected: tðntentəl
+- features:
+    case: comitative
+    number: plural
+    person: third
+  expected: tānanəlìəl
+- features:
+    case: comitative
+    number: singular
+    person: third
+  expected: tawetəl
+- features:
+    case: dative
+    number: dual
+    person: third
+  expected: tēntenn
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: tānanəln
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: tawen
+- features:
+    case: nominative
+    number: dual
+    person: third
+  expected: tēn
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: tān
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: taw

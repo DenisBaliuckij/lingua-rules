@@ -1,0 +1,663 @@
+lemma: bitti-se
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: biásce-se
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ble-se
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: bí-se
+---
+lemma: daſcdjeti
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: daſcdjásce
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: dajcdj
+---
+lemma: hotiti
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    verb_form: participle
+  expected: hotijúchi
+- features:
+    tense: past
+    verb_form: infinitive
+  expected: hotil
+- features:
+    tense: present
+    verb_form: infinitive
+  expected: hotiti
+---
+lemma: im
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: ismo
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: iste
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: isce
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: ib
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: oje
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: lismo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: osam
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: cbjemo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ahomo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: chjete
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: āhote
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: cbje
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ābu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: chja
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: āh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: cbjesc
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: āsce
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: cbje
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: asce
+---
+lemma: imàti
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: present
+  expected: imali-bismo
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: present
+  expected: imali-biste
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: present
+  expected: imali-bi
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: imáo-bib
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: present
+  expected: imáo-bi
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: present
+  expected: imáo-bi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: imati-cbjemo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: imali-smo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: imàsmo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: imati-chjete
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: imali-ste
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: imati-chjē
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: imali-sa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: imásce
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: imati-chju
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: imao-sam
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: imab
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: imati-chjesc
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: imao-si
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: imà
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: imati-cbje
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: imao-je
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: imà
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: imāli
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: perfect
+  expected: imali
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: imámo
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: imali
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: perfect
+  expected: imali
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: imáte
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: imali
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: perfect
+  expected: imali
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: imaju
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: imào
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: perfect
+  expected: imao
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: imáo
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: imám
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: imáo
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: perfect
+  expected: imào
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: imào
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: imàsc
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: imáo
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: perfect
+  expected: imao
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: imáo
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: imá
+---
+lemma: mochi
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    gender: feminine
+    verb_form: participle
+  expected: mogúchja
+- features:
+    aspect: imperfective
+    gender: masculine
+    verb_form: participle
+  expected: moguchi
+- features:
+    aspect: imperfective
+    gender: neuter
+    verb_form: participle
+  expected: mogúchje
+- features:
+    aspect: perfective
+    gender: feminine
+    verb_form: participle
+  expected: moghla
+- features:
+    aspect: perfective
+    gender: masculine
+    verb_form: participle
+  expected: mogáo
+- features:
+    aspect: perfective
+    gender: neuter
+    verb_form: participle
+  expected: mogblo
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: moſcemo
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: moſcete
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: mogú
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: mogáo
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mogó
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: moſce
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: moſcem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: moſcesc
+---
+lemma: orare
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: gerund
+  expected: orúchi
+- features:
+    aspect: imperfective
+    verb_form: infinitive
+  expected: orati
+- features:
+    aspect: imperfective
+    verb_form: participle
+  expected: orúcbi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: oråsmo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: oráste
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: orásce
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: oráh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: orà
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: orà
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: perfect
+  expected: oráli
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: perfect
+  expected: oráli
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: perfect
+  expected: oráli
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: perfect
+  expected: oráli
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: perfect
+  expected: oráli
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: perfect
+  expected: oráli
+- features:
+    tense: perfect
+    verb_form: gerund
+  expected: oráusci
+- features:
+    tense: perfect
+    verb_form: participle
+  expected: oráo
+---
+lemma: oti
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: iscli-smo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: igbjósmo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: hajdete
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: ighjosce
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: ighjòh

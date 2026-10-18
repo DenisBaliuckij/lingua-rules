@@ -1,0 +1,91 @@
+lemma: mayika
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: biayike
+- features:
+    number: plural
+    person: second
+  expected: midyike
+- features:
+    number: plural
+    person: third
+  expected: bayike
+- features:
+    number: singular
+    person: first
+  expected: mayika
+- features:
+    number: singular
+    person: second
+  expected: wayike
+- features:
+    number: singular
+    person: third
+  expected: ayike
+---
+lemma: me
+category: pronouns
+cases:
+- features:
+    noun_class: class_1
+    number: singular
+    person: third
+  expected: a
+- features:
+    noun_class: class_3
+    number: singular
+    person: third
+  expected: d
+- features:
+    noun_class: class_4
+    number: singular
+    person: third
+  expected: s
+- features:
+    noun_class: class_5
+    number: singular
+    person: third
+  expected: e
+- features:
+    number: plural
+    person: first
+  expected: biä
+- features:
+    number: plural
+    person: second
+  expected: miä
+- features:
+    number: singular
+    person: first
+  expected: ma
+- features:
+    number: singular
+    person: second
+  expected: wa
+---
+lemma: men
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: bi bsbtn
+- features:
+    number: plural
+    person: second
+  expected: min bébén
+- features:
+    number: singular
+    person: first
+  expected: maa mén
+- features:
+    number: singular
+    person: second
+  expected: waa mén
+- features:
+    number: singular
+    person: third
+  expected: nde mén
