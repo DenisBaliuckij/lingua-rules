@@ -1,0 +1,31 @@
+lemma: sèro
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: subjunctive
+  expected: pe-se-sèro-an
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    voice: active
+  expected: me-se-sèro
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    voice: passive
+  expected: pe-se-sèro-en
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: pa-sèro-an
+- features:
+    aspect: perfective
+    mood: indicative
+    voice: active
+  expected: masèro
+- features:
+    aspect: perfective
+    mood: indicative
+    voice: passive
+  expected: pa-sèro-en

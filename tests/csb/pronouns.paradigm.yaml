@@ -1,0 +1,311 @@
+lemma: jo
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+  expected: naju
+- features:
+    case: accusative
+    number: plural
+  expected: nas
+- features:
+    case: accusative
+    number: singular
+  expected: mnie
+- features:
+    case: dative
+    number: dual
+  expected: nama
+- features:
+    case: dative
+    number: plural
+  expected: nóm
+- features:
+    case: dative
+    number: singular
+  expected: mnie
+- features:
+    case: genitive
+    number: dual
+  expected: naju
+- features:
+    case: genitive
+    number: plural
+  expected: nas
+- features:
+    case: genitive
+    number: singular
+  expected: mnie
+- features:
+    case: instrumental
+    number: dual
+  expected: nama
+- features:
+    case: instrumental
+    number: plural
+  expected: nami
+- features:
+    case: instrumental
+    number: singular
+  expected: mną
+- features:
+    case: nominative
+    number: dual
+  expected: ma
+- features:
+    case: nominative
+    number: plural
+  expected: me
+- features:
+    case: nominative
+    number: singular
+  expected: jo
+---
+lemma: 'on'
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: jego
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: jemu
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: jego
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: nim
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: 'on'
+---
+lemma: ona
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: j?
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: ji
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: ji» je
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: nią
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: ona
+---
+lemma: one
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: je
+- features:
+    animacy: animate
+    case: dative
+    gender: feminine
+    number: plural
+  expected: jim
+- features:
+    animacy: animate
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: jich
+- features:
+    animacy: animate
+    case: instrumental
+    gender: feminine
+    number: plural
+  expected: nimi
+- features:
+    animacy: animate
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: one
+---
+lemma: oni
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: jich
+- features:
+    animacy: animate
+    case: dative
+    gender: masculine
+    number: plural
+  expected: jim
+- features:
+    animacy: animate
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: jich
+- features:
+    animacy: animate
+    case: instrumental
+    gender: masculine
+    number: plural
+  expected: nimi
+- features:
+    animacy: animate
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: oni
+---
+lemma: ono
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: je
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: ji
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: ji» je
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: nią
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: ono
+---
+lemma: sebie
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: sebie
+- features:
+    case: dative
+    number: singular
+  expected: sobie
+- features:
+    case: genitive
+    number: singular
+  expected: sebie
+- features:
+    case: locative
+    number: singular
+  expected: о sebie
+---
+lemma: te
+category: pronouns
+cases:
+- features:
+    case: accusative
+    definiteness: definite
+    number: plural
+  expected: was
+- features:
+    case: accusative
+    number: plural
+  expected: waju
+- features:
+    case: accusative
+    number: singular
+  expected: cebie
+- features:
+    case: dative
+    definiteness: definite
+    number: plural
+  expected: wóm
+- features:
+    case: dative
+    number: plural
+  expected: wama
+- features:
+    case: dative
+    number: singular
+  expected: tobie
+- features:
+    case: genitive
+    definiteness: definite
+    number: plural
+  expected: was
+- features:
+    case: genitive
+    number: plural
+  expected: waju
+- features:
+    case: genitive
+    number: singular
+  expected: cebie
+- features:
+    case: instrumental
+    definiteness: definite
+    number: plural
+  expected: wami
+- features:
+    case: instrumental
+    number: plural
+  expected: wama
+- features:
+    case: instrumental
+    number: singular
+  expected: tobą
+- features:
+    case: locative
+    number: plural
+  expected: о waju
+- features:
+    case: nominative
+    definiteness: definite
+    number: plural
+  expected: we
+- features:
+    case: nominative
+    number: plural
+  expected: wa
+- features:
+    case: nominative
+    number: singular
+  expected: te

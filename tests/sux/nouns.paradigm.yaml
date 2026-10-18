@@ -1,0 +1,32 @@
+lemma: diĝir
+category: nouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: diĝirenē
+- features:
+    number: singular
+  expected: diĝir
+---
+lemma: engar
+category: nouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: engar-engar
+- features:
+    number: singular
+  expected: engar
+---
+lemma: é
+category: nouns
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+  expected: é-é
+- features:
+    number: singular
+  expected: é

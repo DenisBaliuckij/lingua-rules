@@ -1,0 +1,447 @@
+lemma: ach
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: chale
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: che
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: chal
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: achi
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: chalah
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: chah
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: chalah
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: chalahu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: chi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: chalahu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: chi
+---
+lemma: bais
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: bais-al-ahu
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: bais-at-ah
+---
+lemma: deb
+category: verbs
+cases:
+- features:
+    verb_form: past_participle
+  expected: stdel
+- features:
+    verb_form: present_participle
+  expected: dad
+---
+lemma: dekh'na
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dekh'bainh
+- features:
+    gender: masculine
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: dekhitalin
+- features:
+    gender: masculine
+    mood: conditional
+    number: singular
+    person: second
+    tense: past
+  expected: dekhitah’h
+- features:
+    gender: masculine
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: dekfntath
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: first
+  expected: dekhuf
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: dekhu
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: third
+  expected: dekhath
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: dekhiainh
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: dekhiainh
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: dekh’thunh
+---
+lemma: dekhab
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+    voice: active
+  expected: deklu
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: present
+    voice: active
+  expected: dekld
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: dekhath
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+    voice: active
+  expected: dekhab
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+    voice: active
+  expected: dekhab
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+    voice: active
+  expected: dekli'tdh
+---
+lemma: dekhal
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: dekh’lah’h
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: dekh’lah’n
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: dekh’lanh
+---
+lemma: dekhitia
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: dekhitiai
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: dekhitiau
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: dekhitah
+---
+lemma: paul
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: paulain
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: paulah'n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: paulanti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: paulak
+---
+lemma: rah
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: rdht
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: rahiainhV
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: rah'th'mh
+---
+lemma: sut
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: suti
+- features:
+    gender: masculine
+    mood: conditional
+    number: singular
+    person: second
+    tense: present
+  expected: sutah
+- features:
+    gender: masculine
+    mood: conditional
+    number: singular
+    person: third
+    tense: present
+  expected: sutau
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: first
+  expected: sotu
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: sutah
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: third
+  expected: sutau
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: sutah
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: bah
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: sutat
+---
+lemma: sutal
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: sut'lah'n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+    voice: active
+  expected: sut'lah'hachh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: sut'lah'n
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+    voice: active
+  expected: sut'lah'nachh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: sut'ldh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+    voice: active
+  expected: sut'ldhachh

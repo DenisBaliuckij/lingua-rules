@@ -1,0 +1,210 @@
+lemma: aco
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: acon^co^nacon^ta
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: aco
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: sa acon^ canacon
+---
+lemma: ako
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: sa aton
+- features:
+    number: plural
+    person: first
+  expected: sa amon
+- features:
+    number: plural
+    person: second
+  expected: sa inyo
+- features:
+    number: plural
+    person: third
+  expected: sa ila
+- features:
+    number: singular
+    person: first
+  expected: sa akon
+- features:
+    number: singular
+    person: second
+  expected: sa imo
+- features:
+    number: singular
+    person: third
+  expected: sa iya
+---
+lemma: ano
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: ano
+---
+lemma: aquel
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: aquel
+---
+lemma: ese
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: ese
+- features:
+    case: oblique
+  expected: de
+---
+lemma: hain?
+category: pronouns
+cases:
+- features:
+    case: oblique
+  expected: hain?
+---
+lemma: icao
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: icao^ ó ca
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: sa imo^ canimo
+---
+lemma: quita
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: aton^ naton^ ta
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: quita
+---
+lemma: sanda
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: nanda
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: sanda
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: sa anda
+---
+lemma: si va
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: iva
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: si va
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: sa iva
+---
+lemma: silá
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: silá
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: sa ila
+---
+lemma: sin
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: sin
+- features:
+    case: oblique
+  expected: cay sin
+---
+lemma: tana
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: ana
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: tana
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: cana
+---
+lemma: yadto
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: yadto
+- features:
+    case: oblique
+  expected: sadto
+---
+lemma: yana
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: yana
+- features:
+    case: oblique
+  expected: sana

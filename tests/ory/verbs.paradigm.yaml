@@ -1,0 +1,184 @@
+lemma: al
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: qg
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: us
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: qt
+- features:
+    formality: formal
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ss
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: gs
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: aq
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: m
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: al
+---
+lemma: be
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ଅଛୁ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ଅଛନ୍ତି
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ଅଛି
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: q
+---
+lemma: ଗାଈ
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: al
+- features:
+    aspect: progressive
+    verb_form: participle
+  expected: a
+- features:
+    mood: conditional
+    tense: past
+    verb_form: participle
+  expected: as
+- features:
+    mood: conditional
+    tense: present
+    verb_form: participle
+  expected: as
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: ga
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: all
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: aqua
+- features:
+    verb_form: past_participle
+  expected: I
+- features:
+    verb_form: present_participle
+  expected: al
+---
+lemma: ଥାଆନ୍ତୁ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ଥାଆନ୍ତୁ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ଥାଆନ୍ତୁ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ଥାଆନ୍ତୁ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ଥାଆନ୍ତି
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ଥାଆନ୍ତି
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ଥାଆନ୍ତି
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ଥାଆନ୍ତି
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ଥାଆନ୍ତି
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ଥାଆନ୍ତି

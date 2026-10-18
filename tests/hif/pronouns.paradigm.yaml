@@ -1,0 +1,59 @@
+lemma: aap
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: aap ke
+- features:
+    number: singular
+    person: second
+  expected: aapan ke
+---
+lemma: ham
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ham log ke
+- features:
+    number: singular
+    person: first
+  expected: ham ke
+---
+lemma: ii
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ii log ke
+- features:
+    number: singular
+    person: third
+  expected: is ke
+---
+lemma: turn
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: turn log ke
+- features:
+    number: singular
+    person: second
+  expected: turn ke
+---
+lemma: uu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: uu log ke
+- features:
+    number: singular
+    person: third
+  expected: us ke

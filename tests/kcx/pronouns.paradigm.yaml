@@ -1,0 +1,754 @@
+lemma: béna
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: béna
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: béna
+- features:
+    number: plural
+    person: third
+  expected: béna
+---
+lemma: há
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: feminine
+    number: plural
+  expected: há-nn-i e-t
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: há-nná-t
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: masculine
+    number: plural
+  expected: is-i e-z-a
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: isá-z-a
+- features:
+    case: absolutive
+    definiteness: indefinite
+    gender: feminine
+    number: plural
+  expected: há-nn-i e
+- features:
+    case: absolutive
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+  expected: hánn
+- features:
+    case: absolutive
+    definiteness: indefinite
+    gender: masculine
+    number: plural
+  expected: is-i e
+- features:
+    case: absolutive
+    definiteness: indefinite
+    gender: masculine
+    number: singular
+  expected: isa
+- features:
+    case: nominative
+    definiteness: definite
+    gender: feminine
+    number: plural
+  expected: há-nn-i e-t-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: há-nná-t-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: masculine
+    number: plural
+  expected: is-i e-z-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: isá-z-i
+- features:
+    case: nominative
+    definiteness: indefinite
+    gender: feminine
+    number: plural
+  expected: há-nn-i e
+- features:
+    case: nominative
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+  expected: há-nn-i
+- features:
+    case: nominative
+    definiteness: indefinite
+    gender: masculine
+    number: plural
+  expected: is-i i e
+- features:
+    case: nominative
+    definiteness: indefinite
+    gender: masculine
+    number: singular
+  expected: is-i
+---
+lemma: tan-a
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    gender: masculine
+    number: singular
+    person: third
+  expected: es-a
+- features:
+    case: absolutive
+    number: plural
+    person: first
+  expected: nun-a
+- features:
+    case: absolutive
+    number: plural
+    person: second
+  expected: inen-a
+- features:
+    case: absolutive
+    number: plural
+    person: third
+  expected: usun-a
+- features:
+    case: absolutive
+    number: singular
+    person: first
+  expected: tan-a
+- features:
+    case: absolutive
+    number: singular
+    person: second
+  expected: nen-a
+---
+lemma: tan-i
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: is-i
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: es-i
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nun-i
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: inin-i
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: usin-i
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: tan-i
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: nen-i
+---
+lemma: taná
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: núná
+- features:
+    number: plural
+    person: second
+  expected: ínená
+- features:
+    number: plural
+    person: third
+  expected: úsúná
+- features:
+    number: singular
+    person: first
+  expected: taná
+- features:
+    number: singular
+    person: second
+  expected: néná
+---
+lemma: tá
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: í
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: é
+- features:
+    number: plural
+    person: first
+  expected: nú
+- features:
+    number: plural
+    person: second
+  expected: íní
+- features:
+    number: plural
+    person: third
+  expected: ú
+- features:
+    number: singular
+    person: first
+  expected: tá
+- features:
+    number: singular
+    person: second
+  expected: né
+---
+lemma: tání
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: núní
+- features:
+    number: plural
+    person: second
+  expected: íníní
+- features:
+    number: plural
+    person: third
+  expected: úsíní
+- features:
+    number: singular
+    person: first
+  expected: tání
+- features:
+    number: singular
+    person: second
+  expected: néní
+---
+lemma: táá
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ísi
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ési
+- features:
+    number: plural
+    person: first
+  expected: núú
+- features:
+    number: plural
+    person: second
+  expected: íní
+- features:
+    number: plural
+    person: third
+  expected: úsí
+- features:
+    number: singular
+    person: first
+  expected: táá
+- features:
+    number: singular
+    person: second
+  expected: néé
+---
+lemma: táá-r-íe
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: feminine
+    number: plural
+    person: third
+  expected: ísí-r-ié-z-a
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: masculine
+    number: plural
+    person: third
+  expected: esí-r-ié-z-a
+- features:
+    case: absolutive
+    definiteness: definite
+    number: plural
+    person: first
+  expected: táá-r-ié-z-a
+- features:
+    case: absolutive
+    definiteness: definite
+    number: plural
+    person: second
+  expected: néé-r-ié-z-a
+- features:
+    case: absolutive
+    definiteness: definite
+    number: plural
+    person: third
+  expected: úsí-r-ié-z-a
+- features:
+    case: nominative
+    definiteness: definite
+    gender: feminine
+    number: plural
+    person: third
+  expected: ísí-r-ié-z-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: masculine
+    number: plural
+    person: third
+  expected: esí-r-ié-z-i
+- features:
+    case: nominative
+    definiteness: definite
+    number: plural
+    person: first
+  expected: táá-r-ié-z-i
+- features:
+    case: nominative
+    definiteness: definite
+    number: plural
+    person: second
+  expected: néé-r-ié-z-i
+- features:
+    case: nominative
+    definiteness: definite
+    number: plural
+    person: third
+  expected: úsí-r-ié-z-i
+- features:
+    definiteness: indefinite
+    gender: feminine
+    number: plural
+    person: third
+  expected: ísí-r-íe
+- features:
+    definiteness: indefinite
+    gender: masculine
+    number: plural
+    person: third
+  expected: esí-r-íe
+- features:
+    definiteness: indefinite
+    number: plural
+    person: first
+  expected: táá-r-íe
+- features:
+    definiteness: indefinite
+    number: plural
+    person: second
+  expected: néé-r-íe
+- features:
+    definiteness: indefinite
+    number: plural
+    person: third
+  expected: úsí -r-íe
+---
+lemma: táá-ra
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    gender: feminine
+    number: singular
+    person: third
+  expected: ísí-ra
+- features:
+    case: absolutive
+    gender: masculine
+    number: singular
+    person: third
+  expected: ésí-ra
+- features:
+    case: absolutive
+    number: plural
+    person: first
+  expected: nú-ra
+- features:
+    case: absolutive
+    number: plural
+    person: second
+  expected: íní-ra
+- features:
+    case: absolutive
+    number: plural
+    person: third
+  expected: úsí-ra
+- features:
+    case: absolutive
+    number: singular
+    person: first
+  expected: táá-ra
+- features:
+    case: absolutive
+    number: singular
+    person: second
+  expected: néé-ra
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: táá-ri
+---
+lemma: táá-rá-t
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: feminine
+    number: plural
+    person: first
+  expected: nú-rá-t
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: feminine
+    number: plural
+    person: second
+  expected: íní-rá-t
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: feminine
+    number: plural
+    person: third
+  expected: úsí–rá-t
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: feminine
+    number: singular
+    person: first
+  expected: táá-rá-t
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: feminine
+    number: singular
+    person: second
+  expected: néé-rá-t
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: feminine
+    number: singular
+    person: third
+  expected: ísí-rá-t
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: masculine
+    number: singular
+    person: third
+  expected: ésí-rá-t
+- features:
+    case: nominative
+    definiteness: definite
+    gender: feminine
+    number: plural
+    person: first
+  expected: nú-rá-t-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: feminine
+    number: plural
+    person: second
+  expected: íní-rá-t-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: feminine
+    number: plural
+    person: third
+  expected: úsí–rá-t-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: feminine
+    number: singular
+    person: first
+  expected: táá-rá-t-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: feminine
+    number: singular
+    person: second
+  expected: néé-rá-t-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: feminine
+    number: singular
+    person: third
+  expected: ísí-rá-t-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: masculine
+    number: singular
+    person: third
+  expected: ésí-rá-t-i
+---
+lemma: táá-rá-z-a
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: feminine
+    number: singular
+    person: third
+  expected: ísí-rá-z-a
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: masculine
+    number: plural
+    person: first
+  expected: nú-rá-z-a
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: masculine
+    number: plural
+    person: second
+  expected: íní-rá-z-a
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: masculine
+    number: plural
+    person: third
+  expected: úsí -rá-z-a
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: masculine
+    number: singular
+    person: first
+  expected: táá-rá-z-a
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: masculine
+    number: singular
+    person: second
+  expected: néé-rá-z-a
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: masculine
+    number: singular
+    person: third
+  expected: ésí-rá-z-a
+- features:
+    case: nominative
+    definiteness: definite
+    gender: feminine
+    number: singular
+    person: third
+  expected: ísí-rá-z-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: masculine
+    number: plural
+    person: first
+  expected: nú-rá-z-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: masculine
+    number: plural
+    person: second
+  expected: íní-rá-z-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: masculine
+    number: plural
+    person: third
+  expected: úsí –rá-z-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: masculine
+    number: singular
+    person: first
+  expected: táá-rá-z-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: masculine
+    number: singular
+    person: second
+  expected: néé-rá-z-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: masculine
+    number: singular
+    person: third
+  expected: ésí-rá-z-i
+---
+lemma: yéé
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: feminine
+    number: plural
+  expected: yéé-nn-i é-t
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: yéé-nná-t
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: masculine
+    number: plural
+  expected: is-i é-z
+- features:
+    case: absolutive
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: isá-z-a
+- features:
+    case: absolutive
+    definiteness: indefinite
+    gender: feminine
+    number: plural
+  expected: yéé-nn-i e
+- features:
+    case: absolutive
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+  expected: yéénn
+- features:
+    case: absolutive
+    definiteness: indefinite
+    gender: masculine
+    number: plural
+  expected: is-i e
+- features:
+    case: absolutive
+    definiteness: indefinite
+    gender: masculine
+    number: singular
+  expected: is-a
+- features:
+    case: nominative
+    definiteness: definite
+    gender: feminine
+    number: plural
+  expected: yéé-nn-i é-t-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: yéé-nná-t-i
+- features:
+    case: nominative
+    definiteness: definite
+    gender: masculine
+    number: plural
+  expected: is-i è-z
+- features:
+    case: nominative
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: isá-z-i
+- features:
+    case: nominative
+    definiteness: indefinite
+    gender: feminine
+    number: plural
+  expected: yéé-nn-i e
+- features:
+    case: nominative
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+  expected: yéé-nn-i
+- features:
+    case: nominative
+    definiteness: indefinite
+    gender: masculine
+    number: plural
+  expected: is-i e
+- features:
+    case: nominative
+    definiteness: indefinite
+    gender: masculine
+    number: singular
+  expected: is-i

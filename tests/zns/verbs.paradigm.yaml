@@ -1,0 +1,436 @@
+lemma: at
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: dual
+    person: first
+  expected: atnuwamen
+- features:
+    mood: conditional
+    number: dual
+    person: second
+  expected: atnuwen
+- features:
+    mood: conditional
+    number: dual
+    person: third
+  expected: atnuwiy
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: atnuwuw
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: atnuwen
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: atnuwat
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: atnuwam
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: atnuwan
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: atnuw
+---
+lemma: f
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: fey
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: tey-luw
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: t
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: fey-lam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: fey
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: fey-fe
+---
+lemma: jozt
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: jozt-as-amen
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: jozt-as-an
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: jozt-as-iy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: jozt-as-uw
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: jozt-&s-an
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: jozt-as-af
+---
+lemma: min
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: minimen
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: mineyan
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: miney
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: minew
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mineyan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: mineyat
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: mineyam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mineyan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mini
+---
+lemma: rupit
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: rupit-as-amen
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: rupit-as-an
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: rupit-as-iy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: rupit-as-uw
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: rupif-as-an
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: rupif-as-at
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: rupif-as-am
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: rupif-as-an
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: rupif-as
+---
+lemma: sopit
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: sopit-a-slamen
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: sopit-a-s
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: sopit-a-sten
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: sopit-a-sluw
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: sopit-a-slan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: sopit-a-sanal
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: sopit-a-slam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: sopit-a-slan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: sopit-a-ste
+---
+lemma: tot
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: tote
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tote
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: toteln
+---
+lemma: wör
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: dual
+    person: first
+  expected: wörnuwlamen
+- features:
+    mood: conditional
+    number: dual
+    person: second
+  expected: wörnuwlen
+- features:
+    mood: conditional
+    number: dual
+    person: third
+  expected: wörnuwten
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: wörnuwluw
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: wörnuwlen
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: wörnuwanal
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: wörnuwlam
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: wörnuwlan
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: wörnuwte
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: wörnemen
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: wörnen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: wörnew
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: wörnen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wörnem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: wörnen

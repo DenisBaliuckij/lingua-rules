@@ -1,0 +1,107 @@
+lemma: aga
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: a-ga-ni-e-tu
+- features:
+    gender: feminine
+    number: singular
+  expected: a-ga-tu
+- features:
+    gender: masculine
+    number: plural
+  expected: a-ga-nu-ut
+- features:
+    gender: masculine
+    number: singular
+  expected: a-ga-a
+---
+lemma: an-nu
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: an-na
+- features:
+    gender: masculine
+    number: singular
+  expected: an-nu
+---
+lemma: sa-su
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: sa-a-si-na
+- features:
+    gender: feminine
+    number: singular
+  expected: sa-a-si
+- features:
+    gender: masculine
+    number: plural
+  expected: sa-su-nu
+- features:
+    gender: masculine
+    number: singular
+  expected: sa-su
+---
+lemma: su-a-tu
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: sa-a-tu
+- features:
+    gender: masculine
+    number: plural
+  expected: su-a-tu-nu
+- features:
+    gender: masculine
+    number: singular
+  expected: su-a-tu
+---
+lemma: sum
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: su - um - nu
+- features:
+    number: plural
+    person: second
+  expected: su - um - ku - nu
+- features:
+    number: singular
+    person: first
+  expected: su - um - ya
+- features:
+    number: singular
+    person: second
+  expected: su - um - ka
+- features:
+    number: singular
+    person: third
+  expected: su - um - su
+---
+lemma: sumi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: su - mi - ya
+- features:
+    number: plural
+    person: second
+  expected: su - mi - ka
+- features:
+    number: plural
+    person: third
+  expected: su - mi - su

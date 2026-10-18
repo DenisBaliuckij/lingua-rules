@@ -1,0 +1,31 @@
+lemma: ecac
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+  expected: qar+ecac.+zr
+- features:
+    number: singular
+    person: first
+  expected: s-ecac.-i
+- features:
+    number: singular
+    person: second
+  expected: r--ecar.+ir
+- features:
+    number: singular
+    person: third
+  expected: z+ecac
+---
+lemma: ko?
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: sko?
+- features:
+    number: singular
+    person: second
+  expected: ko?oi

@@ -1,0 +1,179 @@
+lemma: do
+category: pronouns
+cases:
+- features:
+    noun_class: class_5
+    number: plural
+    person: third
+  expected: mo
+- features:
+    noun_class: class_5
+    number: singular
+    person: third
+  expected: do
+- features:
+    noun_class: class_9
+    number: plural
+    person: third
+  expected: dzó
+- features:
+    noun_class: class_9
+    number: singular
+    person: third
+  expected: do
+---
+lemma: e-do
+category: pronouns
+cases:
+- features:
+    noun_class: class_9
+    number: plural
+    person: third
+  expected: é-dzo
+- features:
+    noun_class: class_9
+    number: singular
+    person: third
+  expected: e-do
+---
+lemma: ma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: bí
+- features:
+    number: singular
+    person: first
+  expected: ma
+---
+lemma: mayo
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: mayo
+---
+lemma: mà
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: mà
+- features:
+    number: singular
+    person: second
+  expected: wò
+---
+lemma: wo
+category: pronouns
+cases:
+- features:
+    noun_class: class_3
+    number: plural
+    person: third
+  expected: myo
+- features:
+    noun_class: class_3
+    number: singular
+    person: third
+  expected: wo
+---
+lemma: wá
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: mina
+- features:
+    number: singular
+    person: second
+  expected: wá
+---
+lemma: zo
+category: pronouns
+cases:
+- features:
+    noun_class: class_7
+    number: plural
+    person: third
+  expected: byo
+- features:
+    noun_class: class_7
+    number: singular
+    person: third
+  expected: zo
+---
+lemma: é-do
+category: pronouns
+cases:
+- features:
+    noun_class: class_5
+    number: plural
+    person: third
+  expected: é-mo
+- features:
+    noun_class: class_5
+    number: singular
+    person: third
+  expected: é-do
+---
+lemma: é-wo
+category: pronouns
+cases:
+- features:
+    noun_class: class_3
+    number: plural
+    person: third
+  expected: é-myo
+- features:
+    noun_class: class_3
+    number: singular
+    person: third
+  expected: é-wo
+---
+lemma: é-zo
+category: pronouns
+cases:
+- features:
+    noun_class: class_7
+    number: plural
+    person: third
+  expected: é-byo
+- features:
+    noun_class: class_7
+    number: singular
+    person: third
+  expected: é-zo
+---
+lemma: é-ñe
+category: pronouns
+cases:
+- features:
+    noun_class: class_1
+    number: plural
+    person: third
+  expected: é-bo
+- features:
+    noun_class: class_1
+    number: singular
+    person: third
+  expected: é-ñe
+---
+lemma: ñe
+category: pronouns
+cases:
+- features:
+    noun_class: class_1
+    number: plural
+    person: third
+  expected: bó
+- features:
+    noun_class: class_1
+    number: singular
+    person: third
+  expected: ñe

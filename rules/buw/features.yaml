@@ -1,0 +1,15 @@
+dimensions:
+  number:
+    values: [singular, plural]
+  case:
+    values: [nominative, accusative, genitive, dative, ablative]
+  person:
+    values: [first, second, third]
+  tense:
+    values: [present, past, future, future_perfect]
+  mood:
+    values: [indicative, imperative]
+  aspect:
+    values: [perfective, imperfective, habitual]
+  polarity:
+    values: [affirmative, negative]

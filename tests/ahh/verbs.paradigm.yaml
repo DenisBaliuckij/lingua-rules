@@ -1,0 +1,614 @@
+lemma: adi
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: àd-oa-ne
+- features:
+    number: plural
+    person: third
+  expected: àdi-na-ne
+- features:
+    number: singular
+    person: first
+  expected: àdu
+- features:
+    number: singular
+    person: third
+  expected: àdi-ne
+---
+lemma: afi
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: afi-naŋ-gè
+- features:
+    number: plural
+    person: first
+  expected: afi-oaŋ-gè
+- features:
+    number: plural
+    person: third
+  expected: afì-na-ne
+- features:
+    number: singular
+    person: first
+  expected: afikè
+- features:
+    number: singular
+    person: third
+  expected: àfi-ne
+---
+lemma: aike
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nig-aionaŋge
+- features:
+    number: plural
+    person: third
+  expected: nig-ainaŋge
+- features:
+    number: singular
+    person: first
+  expected: nigaike
+- features:
+    number: singular
+    person: third
+  expected: nig-āke
+---
+lemma: ajü
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ajü-naŋ-gè
+- features:
+    number: plural
+    person: first
+  expected: ajü-oaŋ-gè
+- features:
+    number: singular
+    person: first
+  expected: ajükè
+---
+lemma: atü
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: àtü
+- features:
+    number: singular
+    person: third
+  expected: àtü-ne
+---
+lemma: boke
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ü-boxenaŋge
+- features:
+    number: singular
+    person: third
+  expected: üboke
+---
+lemma: bèje
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: bèj-oa-ne
+- features:
+    number: plural
+    person: third
+  expected: bèje-na-ne
+- features:
+    number: singular
+    person: first
+  expected: bèjo
+- features:
+    number: singular
+    person: third
+  expected: bèjene
+---
+lemma: bē
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: bē-kāk-oã
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: bē-kāk-enã
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: bē-kāk-u
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: bē-kāk-ĩ
+---
+lemma: bēje
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: bēje-naŋ-gè
+- features:
+    number: plural
+    person: first
+  expected: bēj-oaŋ-gè
+- features:
+    number: singular
+  expected: bējā-kè
+- features:
+    number: singular
+    person: first
+  expected: bējekè
+---
+lemma: da
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: do
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: da-dk-oã
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: dā-ke-nã
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: dadke
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: dā-ki
+- features:
+    number: plural
+    person: first
+  expected: da-d-oã
+- features:
+    number: plural
+    person: third
+  expected: da-ke-nã
+- features:
+    number: singular
+    person: first
+  expected: dade
+- features:
+    number: singular
+    person: third
+  expected: dā-ke
+---
+lemma: ede
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ede-dk-oã
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: edā-ke-nã
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ededke
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: edā-ki
+- features:
+    number: plural
+    person: first
+  expected: ede-d-oã
+- features:
+    number: plural
+    person: third
+  expected: ed-oxe-nã
+- features:
+    number: singular
+    person: first
+  expected: edede
+- features:
+    number: singular
+    person: third
+  expected: edoxe
+---
+lemma: fi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: fi-dk-oã
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: fiā-ke-nã
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: fidke
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: fiā-ki
+- features:
+    number: plural
+    person: first
+  expected: fi-d-oã
+- features:
+    number: plural
+    person: third
+  expected: fi-oxe-nã
+- features:
+    number: singular
+    person: first
+  expected: fide
+- features:
+    number: singular
+    person: third
+  expected: fioxe
+---
+lemma: fimi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: fimi-dk-oã
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: fimā-ke-nã
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: fimidke
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: fimā-ki
+- features:
+    number: plural
+    person: first
+  expected: fimi-d-oã
+- features:
+    number: plural
+    person: third
+  expected: fim-oxe-nã
+- features:
+    number: singular
+    person: first
+  expected: fimide
+- features:
+    number: singular
+    person: third
+  expected: fimoxe
+---
+lemma: i
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: i-dk-oã
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ī-ke-nã
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: idke
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ī-ki
+- features:
+    number: plural
+    person: first
+  expected: i-d-oã
+- features:
+    number: plural
+    person: third
+  expected: i-ge-nã
+- features:
+    number: singular
+    person: first
+  expected: ide
+- features:
+    number: singular
+    person: third
+  expected: ige
+---
+lemma: ieke
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: nig-ienaŋge
+- features:
+    number: singular
+    person: first
+  expected: nigieke
+- features:
+    number: singular
+    person: third
+  expected: nig-iāke
+---
+lemma: kũ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ku-n-koã
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kuŋ-ke-nã
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ku-nke
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kuŋ-ki
+- features:
+    number: plural
+    person: first
+  expected: ku-noã
+- features:
+    number: plural
+    person: third
+  expected: kuŋ-ge-nã
+- features:
+    number: singular
+    person: first
+  expected: ku-ne
+- features:
+    number: singular
+    person: third
+  expected: kuŋ-ge
+---
+lemma: tame
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: tam-kāk-oã
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: tam-kāk-enã
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tam-kāk-u
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: tam-kāk-ĩ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tame-dk-oã
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tamā-ke-nã
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tamedke
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tamā-ki
+- features:
+    number: plural
+    person: first
+  expected: tame-d-oã
+- features:
+    number: plural
+    person: third
+  expected: tam-oxe-nã
+- features:
+    number: singular
+    person: first
+  expected: tamede
+- features:
+    number: singular
+    person: third
+  expected: tamoxe
+---
+lemma: õ
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: oŋ-kāk-oã
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: oŋ-kāk-enã
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: oŋ-kāk-u
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: oŋ-kāk-ĩ
+---
+lemma: üfü
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: üfü-dk-oã
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: üfüā-ke-nã
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: üfüdke
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: üfüā-ki
+- features:
+    number: plural
+    person: first
+  expected: üfü-d-oã
+- features:
+    number: plural
+    person: third
+  expected: üfü-oxe-nã
+- features:
+    number: singular
+    person: first
+  expected: üfüde
+- features:
+    number: singular
+    person: third
+  expected: üfüoxe
+---
+lemma: āke
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: üainaŋge
+- features:
+    number: singular
+    person: third
+  expected: üāke

@@ -1,0 +1,143 @@
+lemma: carry
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: kanyili
+- features:
+    mood: optative
+  expected: kantjata
+- features:
+    tense: future
+  expected: kangi
+- features:
+    tense: past
+  expected: kanyimu
+- features:
+    tense: present
+  expected: kanyi
+---
+lemma: give
+category: verbs
+cases:
+- features:
+    mood: optative
+  expected: nguntjata
+- features:
+    tense: future
+  expected: ngungi
+- features:
+    tense: past
+  expected: ngunku
+- features:
+    tense: present
+  expected: ngunyi
+---
+lemma: go
+category: verbs
+cases:
+- features:
+    mood: optative
+  expected: nganintjata
+- features:
+    tense: future
+  expected: ngani
+- features:
+    tense: past
+  expected: nganku
+- features:
+    tense: present
+  expected: ngana
+---
+lemma: hit
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: ngapa
+- features:
+    mood: optative
+  expected: waniyi
+- features:
+    tense: future
+  expected: wani
+- features:
+    tense: present
+  expected: wana
+---
+lemma: leave
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: wali
+- features:
+    mood: optative
+  expected: walati
+- features:
+    tense: future
+  expected: walami
+- features:
+    tense: past
+  expected: walamu
+- features:
+    tense: present
+  expected: walama
+---
+lemma: nanyi
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: nangi
+- features:
+    tense: past
+  expected: nanga
+- features:
+    tense: present
+  expected: nanyi
+---
+lemma: ngunyi
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: ngungi
+- features:
+    tense: past
+  expected: ngunga
+- features:
+    tense: present
+  expected: ngunyi
+---
+lemma: run
+category: verbs
+cases:
+- features:
+    mood: optative
+  expected: thantjata
+- features:
+    tense: past
+  expected: thanganku
+- features:
+    tense: present
+  expected: thangana
+---
+lemma: see
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: nanyili
+- features:
+    mood: optative
+  expected: nantjata
+- features:
+    tense: future
+  expected: nangi
+- features:
+    tense: past
+  expected: nanku
+- features:
+    tense: present
+  expected: nanyi
