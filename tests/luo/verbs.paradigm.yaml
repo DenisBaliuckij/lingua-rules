@@ -1,0 +1,39 @@
+lemma: N
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: wan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: un
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: gin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: an
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: in
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: en

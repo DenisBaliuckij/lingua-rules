@@ -1,0 +1,301 @@
+lemma: nga-ya
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: first
+  expected: nga-ya
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: nga-nya
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: nga-japa
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: nga-ja
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: nga-nu
+---
+lemma: ngali
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ngalinya
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: ngalila
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: ngali-nu-nga
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngali
+---
+lemma: ngaliya
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ngaliyanya
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: ngaliyala
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: ngaliyanga
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngaliya
+---
+lemma: nganarna
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nganarnanya
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: nganarnala
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: nganarnanga
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nganarna
+---
+lemma: nganyjarra
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nganyjarranya
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: nganyjarrala
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: nganyjarranga
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nganyjarra
+---
+lemma: ngaya
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ngaliya
+- features:
+    number: dual
+    person: third
+  expected: ngunyipiyalu
+- features:
+    number: plural
+    person: first
+  expected: nganarna
+- features:
+    number: plural
+    person: third
+  expected: ngunyipanyalu
+- features:
+    number: singular
+    person: first
+  expected: ngaya
+- features:
+    number: singular
+    person: third
+  expected: ngunyi
+---
+lemma: nyi-npa
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: second
+  expected: nyi-npa
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: nyi-na#
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: nyi-ntapa
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: nyi-nta
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: nyi-nu
+---
+lemma: nyumpa-lu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: nyumpa-la-nya
+- features:
+    case: dative
+    number: dual
+    person: second
+  expected: nyumpa-la-la
+- features:
+    case: genitive
+    number: dual
+    person: second
+  expected: nyumpa-la-nga
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: nyumpa-lu
+---
+lemma: nyurra
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: nyurranya
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: nyurrala
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: nyurranga
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: nyurra
+---
+lemma: pa-lura
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: third
+  expected: pa-lura
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: pa-rnu-nya
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: pa-ra
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: pa-rnu-nga
+---
+lemma: pana-lu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: pana-nya
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: pana-lala
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: pana-nga
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: pana-lu
+---
+lemma: piya-lu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: third
+  expected: piya-nya
+- features:
+    case: dative
+    number: dual
+    person: third
+  expected: piya-lala
+- features:
+    case: genitive
+    number: dual
+    person: third
+  expected: piya-nga
+- features:
+    case: nominative
+    number: dual
+    person: third
+  expected: piya-lu

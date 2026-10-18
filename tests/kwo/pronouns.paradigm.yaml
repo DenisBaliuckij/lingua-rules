@@ -1,0 +1,87 @@
+lemma: mene
+category: pronouns
+cases:
+- features:
+    case: accusative
+    person: first
+    possessor_number: singular
+  expected: menane
+- features:
+    case: genitive
+    person: first
+    possessor_number: singular
+  expected: menanu
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: mena
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: mene
+---
+lemma: nali
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: nali
+---
+lemma: nanu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    person: third
+    possessor_number: singular
+  expected: nanule
+- features:
+    case: genitive
+    person: third
+    possessor_number: singular
+  expected: nanulu
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: nanulu
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: nanu
+---
+lemma: nia
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: nia
+---
+lemma: une
+category: pronouns
+cases:
+- features:
+    case: accusative
+    person: second
+    possessor_number: singular
+  expected: unane
+- features:
+    case: genitive
+    person: second
+    possessor_number: singular
+  expected: unanu
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: una
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: une

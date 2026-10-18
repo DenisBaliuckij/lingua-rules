@@ -1,0 +1,73 @@
+lemma: kwau
+category: verbs
+cases:
+- features:
+    gender: common
+    number: dual
+    person: first
+  expected: kepikwapu
+- features:
+    gender: common
+    number: dual
+    person: second
+  expected: koropukwapu
+- features:
+    gender: common
+    number: dual
+    person: third
+  expected: kerekwapu
+- features:
+    gender: common
+    number: plural
+    person: first
+  expected: kelJkwamu
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: keevekwaru
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: kerekwaru
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: kelJkwanu
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: kolJkwamu
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: kokwaru
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: kopukwapu
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: kHwapu
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: kaDllkwanu
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: kamakwamu
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: kakwaru

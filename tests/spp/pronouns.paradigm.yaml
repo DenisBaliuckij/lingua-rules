@@ -1,0 +1,19 @@
+lemma: aa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: wu
+- features:
+    number: plural
+    person: second
+  expected: yi
+- features:
+    number: singular
+    person: first
+  expected: aa
+- features:
+    number: singular
+    person: second
+  expected: ma

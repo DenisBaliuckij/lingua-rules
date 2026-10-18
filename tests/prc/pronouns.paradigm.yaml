@@ -1,0 +1,111 @@
+lemma: an
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ma mun
+- features:
+    case: direct
+    number: singular
+    person: first
+  expected: an
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: man
+- features:
+    number: singular
+    person: first
+  expected: m
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: manan
+---
+lemma: ma
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ma ma
+- features:
+    case: direct
+    number: plural
+    person: first
+  expected: ma
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: ma
+- features:
+    number: plural
+    person: first
+  expected: an
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: mak-an
+---
+lemma: tii
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: ma to
+- features:
+    case: direct
+    number: singular
+    person: second
+  expected: tii
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: t
+- features:
+    number: singular
+    person: second
+  expected: a
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: i-an
+---
+lemma: wa
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: ma wa
+- features:
+    case: direct
+    number: plural
+    person: second
+  expected: wa
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: wa
+- features:
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: wale-an

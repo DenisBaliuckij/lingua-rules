@@ -1,0 +1,56 @@
+lemma: hi
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: hi
+---
+lemma: kei
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: keima
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: nungma
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: ama
+- features:
+    number: plural
+    person: first
+  expected: keiho
+- features:
+    number: plural
+    person: second
+  expected: nungho
+- features:
+    number: plural
+    person: third
+  expected: hihd
+- features:
+    number: singular
+    person: first
+  expected: kei
+- features:
+    number: singular
+    person: second
+  expected: nung
+- features:
+    number: singular
+    person: third
+  expected: hipa
+---
+lemma: koi
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: koi

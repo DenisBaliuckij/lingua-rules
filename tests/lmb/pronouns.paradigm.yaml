@@ -1,0 +1,183 @@
+lemma: ai-sa-nie
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: ai-sa-ire
+- features:
+    definiteness: definite
+    number: singular
+  expected: ai-sa-nie
+---
+lemma: get-nie
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: get-ire
+- features:
+    definiteness: definite
+    number: singular
+  expected: get-nie
+---
+lemma: gu
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: da rua
+- features:
+    number: dual
+    person: second
+  expected: mi rua
+- features:
+    number: dual
+    person: third
+  expected: ra rua
+- features:
+    number: plural
+    person: first
+  expected: mau
+- features:
+    number: plural
+    person: second
+  expected: mi
+- features:
+    number: plural
+    person: third
+  expected: ra
+- features:
+    number: singular
+    person: first
+  expected: gu
+- features:
+    number: singular
+    person: second
+  expected: m
+- features:
+    number: singular
+    person: third
+  expected: na
+---
+lemma: iau
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: da rua
+- features:
+    number: dual
+    person: second
+  expected: mi rua
+- features:
+    number: dual
+    person: third
+  expected: ra rua
+- features:
+    number: plural
+    person: first
+  expected: mau
+- features:
+    number: plural
+    person: second
+  expected: mi
+- features:
+    number: plural
+    person: third
+  expected: ra
+- features:
+    number: singular
+    person: first
+  expected: iau
+- features:
+    number: singular
+    person: second
+  expected: ko
+- features:
+    number: singular
+    person: third
+  expected: ø
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tera
+- features:
+    number: dual
+    person: second
+  expected: kamra
+- features:
+    number: dual
+    person: third
+  expected: ø
+- features:
+    number: plural
+    person: first
+  expected: kama
+- features:
+    number: plural
+    person: second
+  expected: kam
+- features:
+    number: plural
+    person: third
+  expected: ø
+- features:
+    number: singular
+    person: first
+  expected: na
+- features:
+    number: singular
+    person: second
+  expected: ko
+- features:
+    number: singular
+    person: third
+  expected: ø
+---
+lemma: nao
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: de rua
+- features:
+    number: dual
+    person: second
+  expected: gami rua
+- features:
+    number: dual
+    person: third
+  expected: ire rua
+- features:
+    number: plural
+    person: first
+  expected: gamau
+- features:
+    number: plural
+    person: second
+  expected: gami
+- features:
+    number: plural
+    person: third
+  expected: ire
+- features:
+    number: singular
+    person: first
+  expected: nao
+- features:
+    number: singular
+    person: second
+  expected: go
+- features:
+    number: singular
+    person: third
+  expected: nie

@@ -1,0 +1,165 @@
+lemma: akon
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: dianakon
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: dianakon
+- features:
+    number: singular
+    person: first
+  expected: akon
+---
+lemma: ami
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: dianami
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: dianami
+- features:
+    number: plural
+    person: first
+  expected: ami
+---
+lemma: amu
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: dianiu
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: dianiu
+- features:
+    number: plural
+    person: second
+  expected: amu
+---
+lemma: glawas
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: glawas nami
+- features:
+    number: plural
+    person: second
+  expected: glawas niu
+- features:
+    number: plural
+    person: third
+  expected: glawas nilan
+- features:
+    number: singular
+    person: second
+  expected: glawas mu
+- features:
+    number: singular
+    person: third
+  expected: glawas non
+---
+lemma: ika
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: dianika
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: dianika
+- features:
+    number: plural
+    person: second
+  expected: amu
+- features:
+    number: singular
+    person: second
+  expected: ika
+---
+lemma: ilan
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: dianilan
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: dianilan
+- features:
+    number: plural
+    person: third
+  expected: ilan
+---
+lemma: ion
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: dianon
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: dianon
+- features:
+    number: singular
+    person: third
+  expected: ion
+---
+lemma: ita
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: dianita
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: dianita
+- features:
+    number: plural
+    person: first
+  expected: ita
+---
+lemma: nika
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: niu
+- features:
+    number: singular
+    person: second
+  expected: nika

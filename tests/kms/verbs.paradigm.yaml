@@ -1,0 +1,33 @@
+lemma: as
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: r-is
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: was
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: mas
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: nas
+- features:
+    gender: neuter
+    number: plural
+    person: third
+  expected: vis
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: kus

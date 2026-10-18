@@ -1,0 +1,27 @@
+lemma: osp
+category: nouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: ospq
+- features:
+    case: ablative
+    number: singular
+  expected: osp[
+- features:
+    case: direct
+    number: plural
+  expected: ospqn
+- features:
+    case: direct
+    number: singular
+  expected: osp
+- features:
+    case: oblique
+    number: plural
+  expected: ospq
+- features:
+    case: partitive
+    number: plural
+  expected: ospg

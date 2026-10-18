@@ -1,0 +1,107 @@
+lemma: ar
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: arantant
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: artaru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: arandati
+- features:
+    verb_form: participle
+  expected: arant
+---
+lemma: ifa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ifaljlyut
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: aru)
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ifattati
+---
+lemma: ki
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: kittaru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kifan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kittat
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kita
+---
+lemma: kis
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: kisaru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kisantati
+- features:
+    verb_form: participle
+  expected: kisant
+---
+lemma: uesk
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: uiskantaru
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: uiskittaru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: uiskanta

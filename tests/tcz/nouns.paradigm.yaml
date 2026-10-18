@@ -1,0 +1,64 @@
+lemma: Chapung
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: Chapungho
+- features:
+    number: singular
+  expected: Chapung
+---
+lemma: Chem
+category: nouns
+cases:
+- features:
+    case: ablative
+  expected: Chema
+- features:
+    case: accusative
+  expected: Chem
+- features:
+    case: dative
+  expected: Chemkhi
+- features:
+    case: genitive
+  expected: Chem
+- features:
+    case: instrumental
+  expected: Chemin
+- features:
+    case: locative
+  expected: Chema
+- features:
+    case: nominative
+  expected: Chem
+---
+lemma: Kel
+category: nouns
+cases:
+- features:
+    gender: feminine
+  expected: Kélnoo
+- features:
+    gender: masculine
+  expected: Kéichul
+---
+lemma: Mi
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: Miho
+- features:
+    number: singular
+  expected: Mi
+---
+lemma: Nitimei
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: Nitmeiho
+- features:
+    number: singular
+  expected: Nitimei

@@ -1,0 +1,283 @@
+lemma: ahse
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: a:khwsehsti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ka?sehiha
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: hahse:ka
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: aihsdhihoi^i
+---
+lemma: ati:htha
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: a:kwatirhthahsti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: katir’thahska
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: hati:htha
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: u:ti:hthahe:?i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: a:ti:hthahsko:?i
+---
+lemma: hne
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: ta:khine:tso?i
+- features:
+    aspect: imperfective
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: te:tsi?ne:ke?i
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: te:tsi?ne:ke:sti
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: te:tsi?ne:kv:ki
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: te:tsi?ne:ko?i
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: nite:tsi’ne:’ktf:na
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: te:tsi’ne:’kv:i
+- features:
+    aspect: perfective
+    mood: conditional
+    number: singular
+    person: first
+    tense: perfect
+  expected: ta:khine:tse’i
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future_perfect
+  expected: ta:khine:tse:sti
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tsi’ne:ki
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: ta:khine:tsv:ki
+- features:
+    aspect: perfective
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: nitarkhine:?tstf:na
+- features:
+    aspect: perfective
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: perfect
+  expected: ta:khine:tstfhi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: te:tsi?ne:ka
+---
+lemma: nohski
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kanohski:sko?i
+- features:
+    aspect: perfective
+    mood: imperative
+    number: singular
+    person: first
+  expected: arkinohski:sti
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tatsino’skii’si
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: hinohski
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: u:nohsk£:se?i
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tsino^skir’a
+---
+lemma: oolihka
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: kooliɟka
+- features:
+    number: singular
+    person: third
+  expected: kolhka
+---
+lemma: steeliha
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: aasteeliiiskvvi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: aasteeliha
+- features:
+    number: singular
+    person: third
+    verb_form: infinitive
+  expected: uustehlti
+---
+lemma: ye:?wska
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tsi:ye:?wska
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: hi:ye:wa
+---
+lemma: yv
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: arkiyytrhsti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tatsiyfr’li
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tsiyfr’iha
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: hiyvhd:’ka

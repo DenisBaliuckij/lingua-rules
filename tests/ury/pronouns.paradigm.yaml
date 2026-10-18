@@ -1,0 +1,111 @@
+lemma: abe hap
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: abe nik hip
+- features:
+    number: dual
+    person: second
+  expected: ebe nik hip
+- features:
+    number: dual
+    person: third
+  expected: zëbe nik hip
+- features:
+    number: plural
+    person: first
+  expected: abe mae hap
+- features:
+    number: plural
+    person: second
+  expected: ebe mae hap
+- features:
+    number: plural
+    person: third
+  expected: zëbe mae hap
+- features:
+    number: singular
+    person: first
+  expected: abe hap
+- features:
+    number: singular
+    person: second
+  expected: ebe hap
+- features:
+    number: singular
+    person: third
+  expected: zëbe hap
+---
+lemma: aenaka
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nënaka
+- features:
+    number: plural
+    person: first
+  expected: nënaka
+- features:
+    number: singular
+    person: first
+  expected: aenaka
+- features:
+    number: singular
+    person: second
+  expected: enaka
+- features:
+    number: singular
+    person: third
+  expected: zënaka
+---
+lemma: asa
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nësa
+- features:
+    number: plural
+    person: first
+  expected: nësa
+- features:
+    number: singular
+    person: first
+  expected: asa
+- features:
+    number: singular
+    person: second
+  expected: emsa
+- features:
+    number: singular
+    person: third
+  expected: desa
+---
+lemma: ëe
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nen
+- features:
+    number: plural
+    person: first
+  expected: nen
+- features:
+    number: singular
+    person: first
+  expected: ëe
+- features:
+    number: singular
+    person: second
+  expected: em
+- features:
+    number: singular
+    person: third
+  expected: zen

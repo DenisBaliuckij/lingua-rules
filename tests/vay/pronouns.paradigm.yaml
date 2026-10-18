@@ -1,0 +1,162 @@
+lemma: mío
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: la nuestra
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: la vuestra
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: las suyas
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: la mía
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: la tuya
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: la suya
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: el nuestro
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: el vuestro
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: los suyos
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: el mío
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: el tuyo
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: el suyo
+- features:
+    gender: neuter
+    number: singular
+    person: first
+  expected: lo mío
+- features:
+    gender: neuter
+    number: singular
+    person: second
+  expected: lo tuyo
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: lo suyo
+- features:
+    number: plural
+    person: first
+  expected: nuestro
+- features:
+    number: plural
+    person: second
+  expected: tuyos
+- features:
+    number: plural
+    person: third
+  expected: suyos
+- features:
+    number: singular
+    person: first
+  expected: mió
+- features:
+    number: singular
+    person: second
+  expected: tuyo
+- features:
+    number: singular
+    person: third
+  expected: suyo
+---
+lemma: tú
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ustedes
+- features:
+    number: singular
+    person: second
+  expected: tú
+---
+lemma: yo
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nosotros
+- features:
+    number: singular
+    person: first
+  expected: yo
+---
+lemma: él
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ellos
+- features:
+    number: singular
+    person: third
+  expected: él
+---
+lemma: éste
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: éstas
+- features:
+    gender: feminine
+    number: singular
+  expected: ésta
+- features:
+    gender: masculine
+    number: plural
+  expected: éstos
+- features:
+    gender: masculine
+    number: singular
+  expected: éste
+- features:
+    gender: neuter
+    number: singular
+  expected: esto

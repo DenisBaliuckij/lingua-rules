@@ -1,0 +1,83 @@
+lemma: ga-gu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ga-ra
+- features:
+    number: plural
+    person: second
+  expected: ga-mi
+- features:
+    number: plural
+    person: third
+  expected: ga-ri
+- features:
+    number: singular
+    person: first
+  expected: ga-gu
+- features:
+    number: singular
+    person: second
+  expected: ga-mu
+- features:
+    number: singular
+    person: third
+  expected: ga-na
+---
+lemma: ge-gu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ge-ra
+- features:
+    number: plural
+    person: second
+  expected: ge-mi
+- features:
+    number: plural
+    person: third
+  expected: ge-ri
+- features:
+    number: singular
+    person: first
+  expected: ge-gu
+- features:
+    number: singular
+    person: second
+  expected: ge-mu
+- features:
+    number: singular
+    person: third
+  expected: ge-na
+---
+lemma: tau-ge-gu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tau-ge-ra
+- features:
+    number: plural
+    person: second
+  expected: tau-ge-mi
+- features:
+    number: plural
+    person: third
+  expected: tau-ge-ri
+- features:
+    number: singular
+    person: first
+  expected: tau-ge-gu
+- features:
+    number: singular
+    person: second
+  expected: tau-ge-mu
+- features:
+    number: singular
+    person: third
+  expected: tau-ge-na
