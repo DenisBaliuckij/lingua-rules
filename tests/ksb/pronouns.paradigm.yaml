@@ -1,0 +1,23 @@
+lemma: kau
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: kai
+- features:
+    number: plural
+    person: third
+  expected: kazi
+- features:
+    number: singular
+    person: first
+  expected: kau
+- features:
+    number: singular
+    person: second
+  expected: kai
+- features:
+    number: singular
+    person: third
+  expected: kaji

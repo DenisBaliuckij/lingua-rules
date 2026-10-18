@@ -1,0 +1,79 @@
+lemma: nyawe
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: itwe
+- features:
+    number: plural
+    person: second
+  expected: imwe
+- features:
+    number: singular
+    person: first
+  expected: nyawe
+- features:
+    number: singular
+    person: second
+  expected: iwe
+- features:
+    number: singular
+    person: third
+  expected: we
+---
+lemma: onka
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: twenka
+- features:
+    number: plural
+    person: second
+  expected: mwenka
+- features:
+    number: plural
+    person: third
+  expected: bonka
+- features:
+    number: singular
+    person: first
+  expected: nyenka
+- features:
+    number: singular
+    person: second
+  expected: wenka
+- features:
+    number: singular
+    person: third
+  expected: wenka
+---
+lemma: óna
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: twêna
+- features:
+    number: plural
+    person: second
+  expected: mwêna
+- features:
+    number: plural
+    person: third
+  expected: bóona
+- features:
+    number: singular
+    person: first
+  expected: nyéena
+- features:
+    number: singular
+    person: second
+  expected: wéena
+- features:
+    number: singular
+    person: third
+  expected: wéena

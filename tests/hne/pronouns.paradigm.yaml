@@ -1,0 +1,15 @@
+lemma: eft
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+  expected: ^s
+- features:
+    case: locative
+    number: plural
+  expected: sW &
+- features:
+    case: nominative
+    number: singular
+  expected: cF

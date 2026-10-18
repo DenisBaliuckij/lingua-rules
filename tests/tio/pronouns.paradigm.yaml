@@ -1,0 +1,39 @@
+lemma: bona
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: bona
+---
+lemma: naa
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nam
+- features:
+    number: plural
+    person: first
+  expected: nam
+- features:
+    number: plural
+    person: second
+  expected: am
+- features:
+    number: plural
+    person: third
+  expected: ori
+- features:
+    number: singular
+    person: first
+  expected: naa
+- features:
+    number: singular
+    person: second
+  expected: an
+- features:
+    number: singular
+    person: third
+  expected: e

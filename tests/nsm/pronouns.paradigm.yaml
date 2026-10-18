@@ -1,0 +1,123 @@
+lemma: hi
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: singular
+    person: third
+  expected: hi
+- features:
+    number: singular
+    person: third
+  expected: hi
+---
+lemma: li
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: li
+- features:
+    number: dual
+    person: third
+  expected: pama
+- features:
+    number: plural
+    person: third
+  expected: panonu
+---
+lemma: m
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ikuzo
+- features:
+    number: plural
+    person: first
+  expected: runu
+- features:
+    number: singular
+    person: first
+  expected: mi
+---
+lemma: ni
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: ni
+- features:
+    case: oblique
+  expected: i
+- features:
+    number: dual
+    person: second
+  expected: nokuzo
+- features:
+    number: plural
+    person: second
+  expected: nonu
+- features:
+    number: singular
+    person: second
+  expected: ni
+---
+lemma: 'no'
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: 'no'
+- features:
+    number: dual
+    person: second
+  expected: okuzo
+- features:
+    number: plural
+    person: second
+  expected: nonu
+- features:
+    number: singular
+    person: second
+  expected: 'no'
+---
+lemma: pa
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: pa
+- features:
+    number: dual
+    person: third
+  expected: pama
+- features:
+    number: plural
+    person: third
+  expected: panonu
+- features:
+    number: singular
+    person: third
+  expected: pa
+---
+lemma: sin
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nikuzo
+- features:
+    number: plural
+    person: first
+  expected: mnu
+- features:
+    number: singular
+    person: first
+  expected: sin

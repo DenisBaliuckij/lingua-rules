@@ -1,0 +1,83 @@
+lemma: alpat
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: k-iš-alpat
+- features:
+    number: dual
+    person: second
+  expected: p-iš-alpat
+- features:
+    number: dual
+    person: third
+  expected: š-iš-alpat
+- features:
+    number: plural
+    person: first
+  expected: k-iy-alpat
+- features:
+    number: plural
+    person: second
+  expected: p-iy-alpat
+- features:
+    number: plural
+    person: third
+  expected: s-iy-alpat
+- features:
+    number: singular
+    person: first
+  expected: kalpat
+- features:
+    number: singular
+    person: second
+  expected: palpat
+- features:
+    number: singular
+    person: third
+  expected: salpat
+---
+lemma: expeč
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: k-iš-expeč
+- features:
+    number: dual
+    person: second
+  expected: p-iš-expeč
+- features:
+    number: dual
+    person: third
+  expected: s-iš-expeč
+- features:
+    number: plural
+    person: first
+  expected: k-iy-expeč
+- features:
+    number: plural
+    person: second
+  expected: p-iy-expeč
+- features:
+    number: plural
+    person: third
+  expected: š-iy-expeč
+---
+lemma: itaq
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: k-iy-itaq
+- features:
+    number: plural
+    person: second
+  expected: p-iy-itaq
+- features:
+    number: plural
+    person: third
+  expected: s-iy-itaq

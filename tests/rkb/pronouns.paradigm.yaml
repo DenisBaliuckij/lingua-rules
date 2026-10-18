@@ -1,0 +1,168 @@
+lemma: hã
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: ta
+- features:
+    animacy: animate
+    number: singular
+  expected: ta
+- features:
+    animacy: inanimate
+  expected: na
+- features:
+    gender: feminine
+    number: plural
+  expected: a
+- features:
+    gender: feminine
+    number: singular
+  expected: tata
+---
+lemma: ik
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: a-sia
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: a-tatsa
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: a-sa
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: a-ta
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: ikiaha-ka
+- features:
+    gender: neuter
+    number: plural
+    person: second
+  expected: ikiaha-tsa
+- features:
+    number: plural
+    person: first
+  expected: uta
+- features:
+    number: singular
+    person: first
+  expected: ika
+- features:
+    number: singular
+    person: second
+  expected: ikia
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    definiteness: definite
+    gender: common
+    number: singular
+  expected: na
+---
+lemma: ta
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    definiteness: definite
+    gender: common
+    number: plural
+  expected: ʃa
+- features:
+    animacy: animate
+    definiteness: definite
+    gender: common
+    number: singular
+  expected: ta
+---
+lemma: tatʃa
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: tatʃa
+---
+lemma: uta
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: katsa
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: ikiahaka
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: kykyry
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: ikiza
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: ikia
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: tatsa
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: katsa
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: ikiahatsa
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: kytsa
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: uta
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: ikia
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ta

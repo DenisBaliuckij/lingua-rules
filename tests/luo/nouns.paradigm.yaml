@@ -1,0 +1,63 @@
+lemma: Lowo
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: Lopewa
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: Lopeu
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: Lopegi
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: Lopena
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: lopeni
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: lopene
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: lopwa
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: lopu
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: lopgi
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: Lopa
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: lopi
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: lope
