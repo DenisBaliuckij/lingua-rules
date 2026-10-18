@@ -1,0 +1,116 @@
+lemma: ao
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: aro
+- features:
+    number: singular
+  expected: ao
+---
+lemma: ge
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: gepa
+- features:
+    number: plural
+    person: first
+  expected: gehati
+- features:
+    person: first
+  expected: getilo
+---
+lemma: go
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: gopa
+- features:
+    number: plural
+    person: second
+  expected: gotilo
+- features:
+    person: second
+  expected: gotilo
+---
+lemma: igne
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: igne
+- features:
+    number: plural
+  expected: igre
+- features:
+    number: singular
+  expected: igne
+---
+lemma: igno
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: igno
+---
+lemma: mare
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: phiamare
+- features:
+    number: plural
+    person: third
+  expected: hatimare
+- features:
+    person: third
+  expected: thilomare
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: re
+- features:
+    number: singular
+  expected: na
+---
+lemma: re
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: repa
+- features:
+    number: plural
+    person: third
+  expected: rehati
+- features:
+    person: third
+  expected: retilo
+---
+lemma: ta
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tapa
+- features:
+    number: plural
+    person: first
+  expected: tahati
+- features:
+    person: first
+  expected: tatilo

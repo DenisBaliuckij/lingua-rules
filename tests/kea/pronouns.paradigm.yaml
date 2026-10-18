@@ -1,0 +1,101 @@
+lemma: N
+category: pronouns
+cases:
+- features:
+    formality: formal
+    number: singular
+    person: third
+  expected: nho
+- features:
+    number: plural
+    person: first
+  expected: nu
+- features:
+    number: plural
+    person: second
+  expected: nhos
+- features:
+    number: plural
+    person: third
+  expected: es
+- features:
+    number: singular
+    person: first
+  expected: N
+- features:
+    number: singular
+    person: second
+  expected: bu
+- features:
+    number: singular
+    person: third
+  expected: e
+---
+lemma: m
+category: pronouns
+cases:
+- features:
+    formality: formal
+    number: singular
+    person: third
+  expected: nho
+- features:
+    number: plural
+    person: first
+  expected: nu
+- features:
+    number: plural
+    person: second
+  expected: nhos
+- features:
+    number: plural
+    person: third
+  expected: s
+- features:
+    number: singular
+    person: first
+  expected: m
+- features:
+    number: singular
+    person: second
+  expected: bu
+- features:
+    number: singular
+    person: third
+  expected: l
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nos
+- features:
+    number: plural
+    person: second
+  expected: nhos
+- features:
+    number: plural
+    person: third
+  expected: es
+- features:
+    number: singular
+    person: first
+  expected: mi
+- features:
+    number: singular
+    person: second
+  expected: bo
+- features:
+    number: singular
+    person: third
+  expected: el
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: nA

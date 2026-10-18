@@ -1,0 +1,70 @@
+lemma: am
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: riam
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ram
+- features:
+    number: plural
+    person: first
+  expected: vam
+- features:
+    number: plural
+    person: second
+  expected: yam
+- features:
+    number: plural
+    person: third
+  expected: nam
+- features:
+    number: singular
+    person: first
+  expected: nam
+- features:
+    number: singular
+    person: second
+  expected: pam
+---
+lemma: kwe
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: kwori
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: kwore
+- features:
+    number: plural
+    person: first
+  expected: kwovi
+- features:
+    number: plural
+    person: second
+  expected: kwoiy
+- features:
+    number: plural
+    person: third
+  expected: kwone
+- features:
+    number: singular
+  expected: kwe
+- features:
+    number: singular
+    person: first
+  expected: kwoni
+- features:
+    number: singular
+    person: second
+  expected: kwovi

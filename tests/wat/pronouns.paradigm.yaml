@@ -1,0 +1,79 @@
+lemma: kaku
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kata
+- features:
+    number: plural
+    person: second
+  expected: kami
+- features:
+    number: plural
+    person: third
+  expected: kasi
+- features:
+    number: singular
+    person: first
+  expected: kaku
+- features:
+    number: singular
+    person: second
+  expected: ka
+- features:
+    number: singular
+    person: third
+  expected: kana
+---
+lemma: tauḡu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tututauki
+- features:
+    number: plural
+    person: second
+  expected: tututausi
+- features:
+    number: singular
+    person: first
+  expected: tauḡu
+- features:
+    number: singular
+    person: second
+  expected: tauna
+- features:
+    number: singular
+    person: third
+  expected: tututauta
+---
+lemma: yaku
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yata
+- features:
+    number: plural
+    person: second
+  expected: yami
+- features:
+    number: plural
+    person: third
+  expected: yasi
+- features:
+    number: singular
+    person: first
+  expected: yaku
+- features:
+    number: singular
+    person: second
+  expected: ya
+- features:
+    number: singular
+    person: third
+  expected: yana

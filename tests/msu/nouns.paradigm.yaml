@@ -1,0 +1,101 @@
+lemma: ho
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: hong
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: hom
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ha-n
+---
+lemma: mo
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: mong
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: mom
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ma-n
+---
+lemma: rai
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: raing
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: raim
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: rain
+---
+lemma: ramo
+category: nouns
+cases:
+- features:
+    case: vocative
+  expected: ala
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ramong
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: ramom
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: rama-n
+---
+lemma: ringo
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ringong
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: ringom
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ringga-n
+---
+lemma: rino
+category: nouns
+cases:
+- features:
+    case: vocative
+  expected: anong
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: rinong
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: rinom
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: rina-m

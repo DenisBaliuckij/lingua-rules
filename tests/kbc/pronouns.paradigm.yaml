@@ -1,0 +1,60 @@
+lemma: amiini
+category: pronouns
+cases:
+- features:
+    gender: masculine
+  expected: amiida
+---
+lemma: e:m
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: oqom:Go:qo
+- features:
+    number: singular
+    person: first
+  expected: e:m:Ga
+- features:
+    number: singular
+    person: second
+  expected: aqa:m:iGa:qa:m:i
+---
+lemma: ee
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ajoa
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ijoa
+- features:
+    number: dual
+    person: first
+  expected: okomodi
+- features:
+    number: plural
+    person: first
+  expected: oko
+- features:
+    number: plural
+    person: second
+  expected: akaamitiwaji
+- features:
+    number: plural
+    person: third
+  expected: niºiditiogi
+- features:
+    number: singular
+    person: first
+  expected: ee
+- features:
+    number: singular
+    person: second
+  expected: akaami

@@ -1,0 +1,48 @@
+lemma: hM'a
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: t'ayim
+- features:
+    number: plural
+  expected: a'am
+- features:
+    number: singular
+  expected: a'ah
+---
+lemma: h['v.Ti
+category: nouns
+cases:
+- features:
+    definiteness: construct
+    gender: masculine
+    number: singular
+  expected: t[v.Ti
+- features:
+    gender: masculine
+    number: singular
+  expected: h['v.Ti
+---
+lemma: ha'me
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: a'am
+- features:
+    number: singular
+  expected: me'ah
+---
+lemma: hn"mov
+category: nouns
+cases:
+- features:
+    definiteness: construct
+    gender: masculine
+    number: singular
+  expected: tn:mov
+- features:
+    gender: masculine
+    number: singular
+  expected: hn"mov

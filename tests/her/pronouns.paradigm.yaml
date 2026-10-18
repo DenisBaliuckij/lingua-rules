@@ -1,0 +1,197 @@
+lemma: ami
+category: pronouns
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: me
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: mee
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: mba
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: mbi
+---
+lemma: eye
+category: pronouns
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ma
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: maa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: u
+---
+lemma: eṋe
+category: pronouns
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mamu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: maamu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mwa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mu
+---
+lemma: eṱe
+category: pronouns
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: matu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: maatu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: twa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tu
+---
+lemma: ngi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tu
+- features:
+    number: plural
+    person: second
+  expected: w
+- features:
+    number: singular
+    person: first
+  expected: ngi
+- features:
+    number: singular
+    person: second
+  expected: hi
+- features:
+    number: singular
+    person: third
+  expected: mu
+---
+lemma: ove
+category: pronouns
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: moo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: wa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: u
+---
+lemma: ovo
+category: pronouns
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: mave
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: maave
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: va
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ve

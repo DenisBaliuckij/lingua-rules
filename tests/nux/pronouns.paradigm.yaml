@@ -1,0 +1,167 @@
+lemma: ana
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: of
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: om
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: os
+- features:
+    number: dual
+    person: first
+  expected: anda
+- features:
+    number: dual
+    person: second
+  expected: fun
+- features:
+    number: dual
+    person: third
+  expected: ot
+- features:
+    number: plural
+    person: first
+  expected: ama
+- features:
+    number: plural
+    person: second
+  expected: kum
+- features:
+    number: singular
+    person: first
+  expected: ana
+- features:
+    number: singular
+    person: second
+  expected: nu
+---
+lemma: enera
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: tera
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: fera
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: mera
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: rera
+- features:
+    number: dual
+    person: first
+  expected: endera
+- features:
+    number: dual
+    person: second
+  expected: kefenra
+- features:
+    number: plural
+    person: first
+  expected: nemenra
+- features:
+    number: plural
+    person: second
+  expected: kemenra
+- features:
+    number: singular
+    person: first
+  expected: enera
+- features:
+    number: singular
+    person: second
+  expected: nera
+---
+lemma: ke-ra
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: ke-sa
+- features:
+    gender: masculine
+    number: singular
+  expected: ke-ra
+- features:
+    number: dual
+  expected: ke-f-ra
+- features:
+    number: plural
+  expected: ke-m-ra
+- features:
+    number: singular
+  expected: ke-ta
+---
+lemma: 'on'
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: fu
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: mu
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: su
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ru
+- features:
+    number: dual
+    person: first
+  expected: dun
+- features:
+    number: dual
+    person: second
+  expected: fun
+- features:
+    number: dual
+    person: third
+  expected: tu
+- features:
+    number: plural
+    person: first
+  expected: num
+- features:
+    number: plural
+    person: second
+  expected: kum
+- features:
+    number: singular
+    person: first
+  expected: 'on'
+- features:
+    number: singular
+    person: second
+  expected: nu

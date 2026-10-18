@@ -1,0 +1,191 @@
+lemma: parta
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: partu-ngal
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: partanngal
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: partangal
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: partu-war
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: partanwar
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: partawar
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: partu-tja
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: partanda
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: partakal
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: partuwan
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: partanwan
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: partangan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: partuwar
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: partanwar
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: partawa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: partuk-tja
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: partanda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: partakanda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: partuku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: partanu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: partu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: partuin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: partanyin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: partangin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: partuk
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: partan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: parta
+---
+lemma: wamba
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: warnbuk
+- features:
+    tense: past
+  expected: warnban
+- features:
+    tense: present
+  expected: wamba
+---
+lemma: yana
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: yanuk
+- features:
+    tense: past
+  expected: yanan
+- features:
+    tense: present
+  expected: yana

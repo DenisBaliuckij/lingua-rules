@@ -1,0 +1,98 @@
+lemma: a-laru
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: dual
+  expected: alaruegai
+---
+lemma: a-lat
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: alategai
+- features:
+    definiteness: definite
+    number: plural
+    tense: past
+  expected: alategaii
+---
+lemma: a-lit
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: alitegai
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+    tense: past
+  expected: alitegaii
+---
+lemma: a-t
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: ategai
+- features:
+    definiteness: definite
+    gender: masculine
+    number: singular
+    tense: past
+  expected: ategaii
+---
+lemma: e-ru
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: dual
+  expected: eruegai
+- features:
+    definiteness: definite
+    number: dual
+    tense: past
+  expected: eruegaii
+---
+lemma: gail
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: galegai
+- features:
+    definiteness: definite
+    number: plural
+    tense: past
+  expected: galegaii
+---
+lemma: na-t
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: natgalegai
+- features:
+    definiteness: definite
+    number: plural
+    tense: past
+  expected: natgalegaii
+- features:
+    definiteness: definite
+    number: singular
+  expected: nategai
+- features:
+    definiteness: definite
+    number: singular
+    tense: past
+  expected: nategaii

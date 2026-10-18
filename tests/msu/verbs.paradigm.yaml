@@ -1,0 +1,27 @@
+lemma: tsing
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: bi-ng-a-tsitsi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bi-ng-i-tsitsi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bi-ng-a-tsingg
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: bi-ng-i-tsingg

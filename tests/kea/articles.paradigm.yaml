@@ -1,0 +1,23 @@
+lemma: kel
+category: articles
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: kes
+- features:
+    definiteness: definite
+    number: singular
+  expected: kel
+---
+lemma: un
+category: articles
+cases:
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: uns
+- features:
+    definiteness: indefinite
+    number: singular
+  expected: un

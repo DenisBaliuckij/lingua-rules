@@ -1,0 +1,83 @@
+lemma: biz
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: bizdin
+- features:
+    case: accusative
+  expected: bizni
+- features:
+    case: genitive
+  expected: bizning
+- features:
+    case: locative
+  expected: bizda
+---
+lemma: men
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: bizning özimiz
+- features:
+    number: singular
+    person: first
+  expected: men
+---
+lemma: sen
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: siz özünüz
+- features:
+    number: singular
+    person: second
+  expected: sen özün
+---
+lemma: siz
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: sizdin
+- features:
+    case: accusative
+  expected: sizni
+- features:
+    case: genitive
+  expected: sizingiz
+- features:
+    case: locative
+  expected: sizda
+---
+lemma: u
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ular özlerini
+- features:
+    number: singular
+    person: third
+  expected: u özini
+---
+lemma: ula
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: uladin
+- features:
+    case: accusative
+  expected: ulani
+- features:
+    case: genitive
+  expected: ulaning
+- features:
+    case: locative
+  expected: ulada
