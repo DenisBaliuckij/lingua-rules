@@ -1,0 +1,105 @@
+lemma: mi
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+  expected: mi-biš-is
+- features:
+    case: dative
+    number: singular
+  expected: mi-nij-s
+- features:
+    case: ergative
+    number: plural
+  expected: mi-biš-e
+- features:
+    case: ergative
+    number: singular
+  expected: mi-nij-e
+- features:
+    case: genitive
+    number: plural
+  expected: mi-biš-dɨ
+- features:
+    case: genitive
+    number: singular
+  expected: mi-nij-dɨ
+- features:
+    case: nominative
+    number: plural
+  expected: mibɨr
+- features:
+    case: nominative
+    number: singular
+  expected: mi
+---
+lemma: vɨǯ
+category: pronouns
+cases:
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: ǯuˤ-s
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: ǯi-s
+- features:
+    case: dative
+    number: plural
+  expected: ǯʷaˤr-ši-s
+- features:
+    case: ergative
+    gender: masculine
+    number: singular
+  expected: ǯuˤ
+- features:
+    case: ergative
+    gender: neuter
+    number: singular
+  expected: ǯi
+- features:
+    case: ergative
+    number: plural
+  expected: ǯʷaˤr
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: ǯuˤ-d
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: ǯi-dɨ
+- features:
+    case: genitive
+    number: plural
+  expected: ǯuˤ-xdɨ
+- features:
+    case: nominative
+    gender: common
+    number: singular
+  expected: viǯ
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: riǯ
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: vɨǯ
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: jiǯ
+- features:
+    case: nominative
+    number: plural
+  expected: ǯʷaˤr

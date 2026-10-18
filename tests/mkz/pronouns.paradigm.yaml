@@ -1,0 +1,103 @@
+lemma: ani
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ini
+- features:
+    number: plural
+    person: second
+  expected: ii
+- features:
+    number: plural
+    person: third
+  expected: kilooraa
+- features:
+    number: singular
+    person: first
+  expected: ani
+- features:
+    number: singular
+    person: second
+  expected: ei
+- features:
+    number: singular
+    person: third
+  expected: kiloo
+---
+lemma: asi
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: asi
+---
+lemma: ei
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: ei
+---
+lemma: fi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: fi
+---
+lemma: ii
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ii
+---
+lemma: ini
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ini
+---
+lemma: isi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: isi
+---
+lemma: ki
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ki
+- features:
+    number: singular
+    person: third
+  expected: ki
+---
+lemma: kiloo
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: kiloo
+---
+lemma: kilooraa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: kilooraa

@@ -1,0 +1,101 @@
+lemma: ta
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: bi
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: bi
+- features:
+    number: plural
+    person: first
+  expected: 'no'
+- features:
+    number: plural
+    person: second
+  expected: it
+- features:
+    number: plural
+    person: third
+  expected: bo
+- features:
+    number: singular
+    person: first
+  expected: ta
+- features:
+    number: singular
+    person: second
+  expected: ne
+---
+lemma: ti
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: bi
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: bI
+- features:
+    number: plural
+    person: first
+  expected: 'no'
+- features:
+    number: plural
+    person: second
+  expected: it
+- features:
+    number: plural
+    person: third
+  expected: bo
+- features:
+    number: singular
+    person: first
+  expected: ti
+- features:
+    number: singular
+    person: second
+  expected: ni
+---
+lemma: tu
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: bu
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: bu
+- features:
+    number: plural
+    person: first
+  expected: 'no'
+- features:
+    number: plural
+    person: second
+  expected: it
+- features:
+    number: plural
+    person: third
+  expected: bo
+- features:
+    number: singular
+    person: first
+  expected: tu
+- features:
+    number: singular
+    person: second
+  expected: nu

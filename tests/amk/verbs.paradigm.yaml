@@ -1,0 +1,31 @@
+lemma: ra
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ira
+- features:
+    number: singular
+    person: second
+  expected: ro
+- features:
+    number: singular
+    person: third
+  expected: da
+---
+lemma: wati
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: iwati
+- features:
+    number: singular
+    person: second
+  expected: boti
+- features:
+    number: singular
+    person: third
+  expected: deti

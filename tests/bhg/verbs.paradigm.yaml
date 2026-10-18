@@ -1,0 +1,23 @@
+lemma: eone
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+  expected: eove
+- features:
+    number: singular
+    person: second
+  expected: eote
+---
+lemma: one
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ove
+- features:
+    number: singular
+    person: second
+  expected: ote

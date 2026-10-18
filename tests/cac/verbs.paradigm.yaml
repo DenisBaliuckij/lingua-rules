@@ -1,0 +1,49 @@
+lemma: chanhal
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tz-in-chanhal-wi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tz-ach-chanhal-wi
+---
+lemma: mak
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tzonhsmak’a
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: tzexsmak’a
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tzinhamak’a
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tzachinmak’a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tzinsmak’a

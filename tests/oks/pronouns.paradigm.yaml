@@ -1,0 +1,55 @@
+lemma: mè
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tè
+- features:
+    number: plural
+    person: second
+  expected: nè
+- features:
+    number: plural
+    person: third
+  expected: bè
+- features:
+    number: singular
+    person: first
+  expected: mè
+- features:
+    number: singular
+    person: second
+  expected: wè
+- features:
+    number: singular
+    person: third
+  expected: è
+---
+lemma: àme
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: àto
+- features:
+    number: plural
+    person: second
+  expected: àno
+- features:
+    number: plural
+    person: third
+  expected: àbe
+- features:
+    number: singular
+    person: first
+  expected: àme
+- features:
+    number: singular
+    person: second
+  expected: àwo
+- features:
+    number: singular
+    person: third
+  expected: àye
