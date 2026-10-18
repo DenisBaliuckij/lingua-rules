@@ -1,0 +1,129 @@
+lemma: cuyana
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: participle
+  expected: cuyac
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: cuyanchic
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: cuyanquichic
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: cuyancacuna
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: cuyani
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: cuyanqui
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cuyan
+- features:
+    tense: past
+    verb_form: participle
+  expected: cuyashca
+- features:
+    verb_form: gerund
+  expected: cuyashpa
+- features:
+    verb_form: infinitive
+  expected: cuyana
+---
+lemma: micuy
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: micushun
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: micurcanchic
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: micunquichic
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: micurcanquichic
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: micuncacuna
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: micurcacuna
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: micusha
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: micurcani
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: micunqui
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: micurcanqui
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: micunca
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: micurca

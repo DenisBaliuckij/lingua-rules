@@ -1,0 +1,96 @@
+lemma: mahay
+category: verbs
+cases:
+- features:
+    mood: imperative
+    voice: active
+  expected: mahaiza
+- features:
+    mood: indicative
+  expected: ahaizana
+- features:
+    mood: indicative
+    voice: active
+  expected: mahay
+- features:
+    mood: indicative
+    voice: passive
+  expected: hay
+---
+lemma: mahazo
+category: verbs
+cases:
+- features:
+    mood: imperative
+    voice: active
+  expected: mahazda
+- features:
+    mood: indicative
+  expected: ahariana
+- features:
+    mood: indicative
+    voice: active
+  expected: mahazo
+- features:
+    mood: indicative
+    voice: passive
+  expected: azo
+---
+lemma: mety
+category: verbs
+cases:
+- features:
+    mood: imperative
+    voice: active
+  expected: meteza
+- features:
+    mood: indicative
+  expected: et&zana
+- features:
+    mood: indicative
+    voice: active
+  expected: mety
+---
+lemma: mhy
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: isio
+- features:
+    mood: imperative
+    voice: active
+  expected: misia
+- features:
+    mood: indicative
+  expected: isiana
+- features:
+    mood: indicative
+    voice: active
+  expected: mhy
+---
+lemma: tia
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: itidvo
+- features:
+    mood: imperative
+    voice: active
+  expected: tiava
+- features:
+    mood: imperative
+    voice: passive
+  expected: tiavti
+- features:
+    mood: indicative
+  expected: itiavana
+- features:
+    mood: indicative
+    voice: active
+  expected: tia
+- features:
+    mood: indicative
+    voice: passive
+  expected: tiana

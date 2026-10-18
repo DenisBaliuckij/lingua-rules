@@ -1,0 +1,73 @@
+lemma: iipi
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: uipi
+- features:
+    number: singular
+    person: second
+  expected: aipi
+- features:
+    number: singular
+    person: third
+  expected: iiipi
+---
+lemma: wai
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: mdQ
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: mdQ
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: mdQ
+- features:
+    number: singular
+    person: first
+  expected: wdi
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: wAf
+- features:
+    number: singular
+    person: second
+  expected: n&Q
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: n&Q
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: mdQ
+---
+lemma: wuti
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: wuti
+- features:
+    number: singular
+    person: second
+  expected: dti
+- features:
+    number: singular
+    person: third
+  expected: ati

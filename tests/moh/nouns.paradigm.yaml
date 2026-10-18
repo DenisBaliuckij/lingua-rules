@@ -1,0 +1,37 @@
+lemma: kanákta
+category: nouns
+cases:
+- features:
+    number: singular
+  expected: kanákta
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: akenákta
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: sanákta
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: raonákta
+---
+lemma: onéntsha
+category: nouns
+cases:
+- features:
+    number: singular
+  expected: onéntsha
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: kenentshà:ke
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: senentshà:ke
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ranentshà:ke

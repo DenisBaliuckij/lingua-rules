@@ -1,0 +1,33 @@
+lemma: aw
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: aw
+- features:
+    number: singular
+    person: second
+  expected: amûrü
+---
+lemma: le
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: ha
+- features:
+    number: singular
+  expected: le
+---
+lemma: n-ugúya
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: n-ugúya
+- features:
+    number: singular
+    person: second
+  expected: b-ugúya

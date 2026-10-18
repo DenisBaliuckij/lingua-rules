@@ -1,0 +1,229 @@
+lemma: bi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: bim
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: bikke
+- features:
+    number: dual
+    person: third
+  expected: binyi
+- features:
+    number: plural
+    person: third
+  expected: bulu
+- features:
+    number: singular
+    person: third
+  expected: bi
+---
+lemma: bulu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: bulum
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: bulukke
+---
+lemma: ngo
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ngonyim
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: nonyim
+- features:
+    case: accusative
+    number: dual
+    person: third
+  expected: binyim
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ngolum
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: nolum
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: bulum
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ngom
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: nom
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: bim
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: ngonyik
+- features:
+    case: genitive
+    number: dual
+    person: second
+  expected: nonyik
+- features:
+    case: genitive
+    number: dual
+    person: third
+  expected: binyik
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: ngoluk
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: noluk
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: buluk
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ngok
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: nok
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: bik
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngonyi
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: nonyi
+- features:
+    case: nominative
+    number: dual
+    person: third
+  expected: binyi
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ngolu
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: nolu
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: bulu
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ngo
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: 'no'
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: bi
+- features:
+    number: dual
+    person: first
+  expected: ngonyi
+- features:
+    number: plural
+    person: first
+  expected: ngolu
+- features:
+    number: singular
+    person: first
+  expected: ngo
+---
+lemma: ngolu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ngolum
+---
+lemma: 'no'
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: nom
+- features:
+    number: dual
+    person: second
+  expected: nonyi
+- features:
+    number: plural
+    person: second
+  expected: nolu
+- features:
+    number: singular
+    person: second
+  expected: 'no'
+---
+lemma: nolu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: nolum

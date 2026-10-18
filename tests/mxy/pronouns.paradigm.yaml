@@ -1,0 +1,18 @@
+lemma: te
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    person: third
+  expected: ti
+- features:
+    gender: feminine
+    person: third
+  expected: nu
+- features:
+    gender: masculine
+    person: third
+  expected: te
+- features:
+    person: third
+  expected: ja

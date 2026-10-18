@@ -1,0 +1,71 @@
+lemma: au
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: ma
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ia'u
+- features:
+    case: comitative
+    number: singular
+    person: first
+  expected: me au
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: na'u
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: e au
+---
+lemma: oe
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: ma
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: ia oe
+- features:
+    case: comitative
+    number: singular
+    person: second
+  expected: me oe
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: nau
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: e oe
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: au
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: oe
+- features:
+    number: singular
+    person: second
+  expected: kau

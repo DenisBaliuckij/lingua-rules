@@ -1,0 +1,55 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: kreyn
+- features:
+    case: accusative
+    number: singular
+  expected: kre
+- features:
+    case: direct
+    number: plural
+  expected: ayn
+- features:
+    case: direct
+    number: singular
+  expected: a
+- features:
+    case: genitive
+    number: plural
+  expected: tareyn
+- features:
+    case: genitive
+    number: singular
+  expected: tare
+---
+lemma: afo
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: kufoyn
+- features:
+    case: accusative
+    number: singular
+  expected: kfo
+- features:
+    case: direct
+    number: plural
+  expected: afoyn
+- features:
+    case: direct
+    number: singular
+  expected: afo
+- features:
+    case: genitive
+    number: plural
+  expected: tafoyn
+- features:
+    case: genitive
+    number: singular
+  expected: tafo

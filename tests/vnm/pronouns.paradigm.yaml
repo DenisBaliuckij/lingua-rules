@@ -1,0 +1,43 @@
+lemma: get
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: get
+- features:
+    number: plural
+    person: second
+  expected: gem
+- features:
+    number: plural
+    person: third
+  expected: ar
+---
+lemma: getdru
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: getdru
+- features:
+    number: dual
+    person: third
+  expected: ardru
+---
+lemma: 'no'
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: 'no'
+- features:
+    number: singular
+    person: second
+  expected: gu
+- features:
+    number: singular
+    person: third
+  expected: i

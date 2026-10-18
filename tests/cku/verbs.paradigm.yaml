@@ -1,0 +1,91 @@
+lemma: patik
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: ilpatik^h
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    polarity: negative
+  expected: kilpotik
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: haspatfk
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: hacfkpotik
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    polarity: negative
+  expected: akpotik
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ispatik
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: cikpotlk
+---
+lemma: patok
+category: verbs
+cases:
+- features:
+    animacy: animate
+    mood: imperative
+    number: plural
+    person: second
+  expected: ihpok
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ini:patok
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: haspan
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: ihpatak
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    polarity: negative
+  expected: i:pa!in
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: ispan
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: ihpatfk
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: negative
+  expected: i'.pan

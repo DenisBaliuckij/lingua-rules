@@ -1,0 +1,217 @@
+lemma: ganh
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yie mbuo ganh
+- features:
+    number: plural
+    person: second
+  expected: meih mbuo ganh
+- features:
+    number: plural
+    person: third
+  expected: ninh mbuo ganh
+- features:
+    number: singular
+    person: first
+  expected: yie ganh
+- features:
+    number: singular
+    person: second
+  expected: meih ganh
+- features:
+    number: singular
+    person: third
+  expected: ninh ganh
+---
+lemma: haaix dauh
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: haaix dauh
+---
+lemma: haaix ndau
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: haaix ndau
+---
+lemma: haaix nyungc
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: haaix nyungc
+---
+lemma: haaix zanc
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: haaix zanc
+---
+lemma: mbuo
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mbuo
+---
+lemma: meih
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: meih mbuo
+- features:
+    number: singular
+    person: second
+  expected: meih
+---
+lemma: naaic
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: naaic deix
+- features:
+    definiteness: definite
+    number: singular
+  expected: naaic
+- features:
+    number: plural
+  expected: naaic tei
+- features:
+    number: singular
+  expected: naaic
+---
+lemma: naaiv
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: naaiv deix
+- features:
+    definiteness: definite
+    number: singular
+  expected: naaiv
+- features:
+    number: plural
+  expected: naaiv tei
+- features:
+    number: singular
+  expected: naaiv
+---
+lemma: ninh
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ninh mbuo
+- features:
+    number: singular
+    person: third
+  expected: ninh
+---
+lemma: weic haaix diuc
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: weic haaix diuc
+---
+lemma: wuov
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: wuov deix
+- features:
+    definiteness: definite
+    number: singular
+  expected: wuov
+- features:
+    number: plural
+  expected: wuov tei
+- features:
+    number: singular
+  expected: wuov
+---
+lemma: yie
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yie mbuo
+- features:
+    number: singular
+    person: first
+  expected: yie
+---
+lemma: yie nyei
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yie mbuo nyei
+- features:
+    number: plural
+    person: second
+  expected: meih mbuo nyei
+- features:
+    number: plural
+    person: third
+  expected: ninh mbuo nyei
+- features:
+    number: singular
+    person: first
+  expected: yie nyei
+- features:
+    number: singular
+    person: second
+  expected: meih nyei
+- features:
+    number: singular
+    person: third
+  expected: ninh nyei
+---
+lemma: yiem haaix
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: yiem haaix
+---
+lemma: ziagnx haaix
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: ziagnx haaix
+---
+lemma: zoux haaix nyungc
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: zoux haaix nyungc

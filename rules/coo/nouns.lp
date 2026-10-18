@@ -1,0 +1,22 @@
+% rules/coo/nouns.lp
+% Comox nouns: generated from grammars in the DocumentCatalog (tools/grammar_rules; LLM-
+% extracted paradigms, classes induced from them). Review before relying on it.
+%
+% Sources (document id in the DocumentCatalog):
+%   doc 650839: A Grammatical Sketch of Comox (1977), pages 73, 109, 110, 126
+%
+% Classes (noun_class/2 in data/nouns.lexicon.tsv, endings in data/nouns.paradigms.tsv):
+%   ays_type                     ?ays
+%   emas_type                    ?emas
+%   cya_aja_type                 cYa?AjA?
+%   jlnls_type                   jLnLs
+%   ku_pa_type                   ku?pa?
+%   no_type                      no?±
+%   qe_type                      qe?
+%   t_am_xw_type                 t'am?xw
+%
+% Not covered: anything the selected grammar pages do not show as a full paradigm;
+% a class is only as complete as the forms the grammar printed for its members.
+
+form(L, Key, @strip_suffix_add(L, Strip, Ending)) :- input_lemma(L),
+    noun_class(L, Class), paradigm_ending(Class, Key, Strip, Ending), not irregular(L).
