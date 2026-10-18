@@ -1,0 +1,20 @@
+dimensions:
+  number:
+    values: [singular, dual, plural]
+  case:
+    values: [nominative, accusative, genitive, dative, locative, ablative, vocative,
+      translative, adessive, allative, comitative]
+  person:
+    values: [first, second, third]
+  tense:
+    values: [present, past, future, imperfect, preterite, perfect, pluperfect]
+  mood:
+    values: [indicative, subjunctive, imperative, conditional, optative, potential]
+  aspect:
+    values: [perfective]
+  voice:
+    values: [active, passive]
+  verb_form:
+    values: [infinitive, participle, gerund, converb]
+  polarity:
+    values: [affirmative, negative]

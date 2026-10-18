@@ -1,0 +1,63 @@
+lemma: hii
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: hin
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: hii
+---
+lemma: huu
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: hum
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: huu
+---
+lemma: ʔana
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ʔana
+---
+lemma: ʔǝnt
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: ʔintu
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: ʔǝnt
+---
+lemma: ʔǝnti
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: ʔǝntǝn
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: ʔǝnti

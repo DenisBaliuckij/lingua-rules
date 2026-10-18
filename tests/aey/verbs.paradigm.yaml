@@ -1,0 +1,1113 @@
+lemma: buj-eɁ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: buj-ewan
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: buj-uwa
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: buj-uwuna
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: buj-uwasan
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: buj-esia
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: buj-esina
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: negative
+  expected: buj-uwasin
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: buj-uwasan
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: buj-esia
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: buj-esina
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: buj-eg͡ban
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: buj-ug͡ba
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: buj-ug͡buna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: buj-ug͡bagan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: buj-eiga
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: buj-egina
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+  expected: buj-uwain
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: buj-ug͡bagan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: buj-eiga
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: buj-egina
+- features:
+    number: dual
+    person: first
+  expected: buj-owaun
+- features:
+    number: dual
+    person: second
+  expected: buj-uwasin
+- features:
+    number: dual
+    person: third
+  expected: buj-esin
+- features:
+    number: plural
+    person: first
+  expected: buj-og͡baun
+- features:
+    number: plural
+    person: second
+  expected: buj-uwain
+- features:
+    number: plural
+    person: third
+  expected: buj-egin
+---
+lemma: fec
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: dual
+    person: first
+  expected: folou
+- features:
+    aspect: habitual
+    mood: indicative
+    number: dual
+    person: second
+  expected: folosi
+- features:
+    aspect: habitual
+    mood: indicative
+    number: dual
+    person: third
+  expected: folosi
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+  expected: folob
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+  expected: foloig
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+  expected: foloig
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+  expected: folig
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+  expected: folog
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+  expected: foloi
+- features:
+    mood: conditional
+    number: dual
+    person: first
+  expected: fouh
+- features:
+    mood: conditional
+    number: dual
+    person: second
+  expected: foub
+- features:
+    mood: conditional
+    number: dual
+    person: third
+  expected: foub
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: foum
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: foub
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: foub
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: foum
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: foum
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: foub
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: fowa
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: fesia
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: fesia
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: foqa
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: feiga
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: feiga
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: figa
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: faga
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: feia
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: fewan
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: fowa
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: fowona
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: fowasan
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: fesia
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: fesina
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: fowasan
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: fesia
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: fesina
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: feqan
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: foqa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: foqona
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: foqagan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: feiga
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: fegina
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: foqagan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: feiga
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: fegina
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: figen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: figa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: figina
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: fegan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: faga
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: fagana
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: figian
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: feia
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: fena
+- features:
+    number: dual
+    person: first
+    polarity: negative
+  expected: foloh
+- features:
+    number: dual
+    person: first
+    verb_form: converb
+  expected: fimeu
+- features:
+    number: dual
+    person: second
+    polarity: negative
+  expected: felesin
+- features:
+    number: dual
+    person: second
+    verb_form: converb
+  expected: fimesi
+- features:
+    number: dual
+    person: third
+    polarity: negative
+  expected: felesin
+- features:
+    number: dual
+    person: third
+    verb_form: converb
+  expected: fimesi
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: folom
+- features:
+    number: plural
+    person: first
+    verb_form: converb
+  expected: fimeb
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: felein
+- features:
+    number: plural
+    person: second
+    verb_form: converb
+  expected: fimeig
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: felein
+- features:
+    number: plural
+    person: third
+    verb_form: converb
+  expected: fimeig
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: felem
+- features:
+    number: singular
+    person: first
+    verb_form: converb
+  expected: fimig
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: felem
+- features:
+    number: singular
+    person: second
+    verb_form: converb
+  expected: fimeg
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: fel
+- features:
+    number: singular
+    person: third
+    verb_form: converb
+  expected: fimei
+---
+lemma: hoc
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: dual
+    person: first
+  expected: holou
+- features:
+    aspect: habitual
+    mood: indicative
+    number: dual
+    person: second
+  expected: holosi
+- features:
+    aspect: habitual
+    mood: indicative
+    number: dual
+    person: third
+  expected: holosi
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+  expected: holob
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+  expected: holoig
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+  expected: holoig
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+  expected: holig
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+  expected: holog
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+  expected: holoi
+- features:
+    mood: conditional
+    number: dual
+    person: first
+  expected: houh
+- features:
+    mood: conditional
+    number: dual
+    person: second
+  expected: houb
+- features:
+    mood: conditional
+    number: dual
+    person: third
+  expected: houb
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: houm
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: houb
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: houb
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: houm
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: houm
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: houb
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: howa
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: hosia
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: hosia
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: hoqa
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: hoiga
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: hoiga
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: huga
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: hoga
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: hoia
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: humeu
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: howan
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: howa
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: howona
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: humesi
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: howasan
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: hosia
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: hosina
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: humesi
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: howasan
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: hosia
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: hosina
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: humeb
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: hoqan
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: hoqa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: hoqona
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: humeig
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: hoqagan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: hoiga
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: hogina
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: humeig
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: hoqagan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: hoiga
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hogina
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: humig
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: hugen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: huga
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: hugina
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: humeg
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: hogan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: hoga
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hogona
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: humei
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: hugian
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: hoia
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hona
+- features:
+    number: dual
+    person: first
+    polarity: negative
+  expected: holoh
+- features:
+    number: dual
+    person: second
+    polarity: negative
+  expected: holosin
+- features:
+    number: dual
+    person: third
+    polarity: negative
+  expected: holosin
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: holom
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: holoin
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: holoin
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: holom
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: holom
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: hol
+---
+lemma: nij-eɁ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: nij-ewan
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: nij-uwa
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: nij-uwuna
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: negative
+  expected: nij-uwasin
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: nij-uwasan
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: nij-esia
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: nij-esina
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: negative
+  expected: nij-uwasin
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: nij-uwasan
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: nij-esia
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: nij-esina
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+  expected: nij-og͡baun
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: nij-eg͡ban
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: nij-ug͡ba
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nij-ug͡buna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+  expected: nij-uwain
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: nij-ug͡bagan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: nij-eiga
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nij-egina
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+  expected: nij-uwain
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: nij-ug͡bagan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: nij-eiga
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nij-egina
+- features:
+    number: dual
+    person: first
+  expected: nij-owaun
+- features:
+    number: dual
+    person: second
+  expected: nij-esin
+- features:
+    number: dual
+    person: third
+  expected: nij-esin
+- features:
+    number: plural
+    person: first
+  expected: nij-ug͡bun
+- features:
+    number: plural
+    person: second
+  expected: nij-egin
+- features:
+    number: plural
+    person: third
+  expected: nij-egin

@@ -1,0 +1,409 @@
+lemma: amin
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: amik
+- features:
+    number: singular
+  expected: amin
+---
+lemma: amis
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: amic
+- features:
+    number: singular
+  expected: amis
+---
+lemma: amit
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: amik
+- features:
+    number: singular
+  expected: amit
+---
+lemma: es
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: ec
+- features:
+    number: singular
+  expected: es
+---
+lemma: et
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: ek
+- features:
+    number: singular
+  expected: et
+---
+lemma: h im
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: im
+---
+lemma: in
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: u
+- features:
+    number: singular
+  expected: in
+- features:
+    number: singular
+    person: third
+  expected: in
+---
+lemma: ine
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    possessor_number: singular
+    possessor_person: third
+  expected: ine
+---
+lemma: inmo
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    possessor_number: singular
+    possessor_person: third
+  expected: inmo
+---
+lemma: jE
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: mimar
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: j avr
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: mi
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: ja
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: mi
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ja
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: mi
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: jE
+- features:
+    number: plural
+    person: first
+  expected: mi
+- features:
+    number: singular
+    person: first
+  expected: jE
+---
+lemma: ja
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: jatsunl
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: jaya
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ja
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ja
+---
+lemma: khin
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: khu
+- features:
+    number: singular
+  expected: khin
+---
+lemma: khos
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: khoc
+- features:
+    number: singular
+  expected: khos
+---
+lemma: khot
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: khok
+- features:
+    number: singular
+  expected: khot
+---
+lemma: ma
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: niamataum
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: mAya
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: mav
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: ma
+- features:
+    number: plural
+    person: second
+  expected: ma
+---
+lemma: maa
+category: pronouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: maa
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: rnli
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: ruirya
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: iII i
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: mi
+- features:
+    number: plural
+    person: first
+  expected: mi
+---
+lemma: mii
+category: pronouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: mii
+---
+lemma: mo
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: momutsum
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: molnoya
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: mo
+---
+lemma: ne
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: n
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: n
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: ne
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ne
+---
+lemma: u
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: u
+---
+lemma: u'e
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: nv
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: u'E
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: u'E
+---
+lemma: um
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: um
+---
+lemma: ume
+category: pronouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: ume
+---
+lemma: uu
+category: pronouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: uu
+---
+lemma: uva
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: go guteum
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: gotsuin
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: go
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: uva
+---
+lemma: y ivts
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: ivts
+---
+lemma: ǰa
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ǰa
+---
+lemma: ǰaa
+category: pronouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ǰaa

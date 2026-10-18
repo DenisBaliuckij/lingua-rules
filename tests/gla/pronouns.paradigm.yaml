@@ -1,0 +1,746 @@
+lemma: E
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: he
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: it
+---
+lemma: I
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: she
+- features:
+    number: singular
+    person: first
+  expected: I
+---
+lemma: agam
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: againn
+- features:
+    number: plural
+    person: second
+  expected: agaibh
+- features:
+    number: singular
+    person: first
+  expected: agam
+- features:
+    number: singular
+    person: second
+  expected: agad
+---
+lemma: agam-sa
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: aige-san
+- features:
+    number: plural
+    person: first
+  expected: againne
+- features:
+    number: plural
+    person: second
+  expected: agaibh-se
+- features:
+    number: plural
+    person: third
+  expected: aca-san
+- features:
+    number: singular
+    person: first
+  expected: agam-sa
+- features:
+    number: singular
+    person: second
+  expected: agad-sa
+---
+lemma: agara-sa
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: aige-san
+- features:
+    number: plural
+    person: first
+  expected: againn-ne
+- features:
+    number: plural
+    person: second
+  expected: agaibh-se
+- features:
+    number: plural
+    person: third
+  expected: aca-san
+- features:
+    number: singular
+    person: first
+  expected: agara-sa
+- features:
+    number: singular
+    person: second
+  expected: agad-sa
+---
+lemma: annam
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: innte
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ann
+- features:
+    number: plural
+    person: first
+  expected: annainn
+- features:
+    number: plural
+    person: second
+  expected: annaibh
+- features:
+    number: plural
+    person: third
+  expected: annta
+- features:
+    number: singular
+    person: first
+  expected: annam
+- features:
+    number: singular
+    person: second
+  expected: annad
+---
+lemma: asam
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: as
+- features:
+    number: plural
+    person: first
+  expected: asainn
+- features:
+    number: plural
+    person: second
+  expected: asaibh
+- features:
+    number: plural
+    person: third
+  expected: asta
+- features:
+    number: singular
+    person: first
+  expected: asam
+- features:
+    number: singular
+    person: second
+  expected: asad
+---
+lemma: dhomh
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: dhi
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: dha
+- features:
+    number: plural
+    person: first
+  expected: dhuinn
+- features:
+    number: plural
+    person: second
+  expected: dhuibh
+- features:
+    number: plural
+    person: third
+  expected: dhàibh
+- features:
+    number: singular
+    person: first
+  expected: dhomh
+- features:
+    number: singular
+    person: second
+  expected: dhut
+---
+lemma: dhìom
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: dhith
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: dheth
+- features:
+    number: plural
+    person: first
+  expected: dhinn
+- features:
+    number: plural
+    person: second
+  expected: dhìbh
+- features:
+    number: plural
+    person: third
+  expected: dhiùbh
+- features:
+    number: singular
+    person: first
+  expected: dhìom
+- features:
+    number: singular
+    person: second
+  expected: dhìot
+---
+lemma: eadarainn
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: eadarainn
+- features:
+    number: plural
+    person: second
+  expected: eadaraibh
+---
+lemma: fodham
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: fodha
+- features:
+    number: plural
+    person: first
+  expected: fodhainn
+- features:
+    number: plural
+    person: second
+  expected: fodhaibh
+- features:
+    number: plural
+    person: third
+  expected: fodhpa
+- features:
+    number: singular
+    person: first
+  expected: fodham
+- features:
+    number: singular
+    person: second
+  expected: fodhad
+---
+lemma: he
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: he
+---
+lemma: iad
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: they
+---
+lemma: it
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: it
+---
+lemma: leam
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: leatha
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: leis
+- features:
+    number: plural
+    person: first
+  expected: leinn
+- features:
+    number: plural
+    person: second
+  expected: leibh
+- features:
+    number: plural
+    person: third
+  expected: leotha
+- features:
+    number: singular
+    person: first
+  expected: leam
+- features:
+    number: singular
+    person: second
+  expected: leat
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: i
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: e
+- features:
+    number: plural
+    person: first
+  expected: sinn
+- features:
+    number: plural
+    person: second
+  expected: sibh
+- features:
+    number: singular
+    person: first
+  expected: i
+- features:
+    number: singular
+    person: second
+  expected: tu
+---
+lemma: mi-ièin
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: i-fèin
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: e-ièin
+- features:
+    number: singular
+    person: first
+  expected: mi-ièin
+- features:
+    number: singular
+    person: second
+  expected: thu-lèin
+---
+lemma: mo mhac-sa
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: a mac-se
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: a mhac-san
+- features:
+    number: plural
+    person: first
+  expected: ar mac-ne
+- features:
+    number: plural
+    person: second
+  expected: ur mac-se
+- features:
+    number: plural
+    person: third
+  expected: am mac-san
+- features:
+    number: singular
+    person: first
+  expected: mo mhac-sa
+- features:
+    number: singular
+    person: second
+  expected: do mhac-sa
+---
+lemma: mì
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: ì
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: è
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: sinn
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: sibh
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: iad
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: mì
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: tù
+---
+lemma: orm
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: oirre
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: air
+- features:
+    number: plural
+    person: first
+  expected: oirnn
+- features:
+    number: plural
+    person: second
+  expected: oirbh
+- features:
+    number: plural
+    person: third
+  expected: orra
+- features:
+    number: singular
+    person: first
+  expected: orm
+- features:
+    number: singular
+    person: second
+  expected: ort
+---
+lemma: rium
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: rithe
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ris
+- features:
+    number: plural
+    person: first
+  expected: rinn
+- features:
+    number: plural
+    person: second
+  expected: ribh
+- features:
+    number: plural
+    person: third
+  expected: riutha
+- features:
+    number: singular
+    person: first
+  expected: rium
+- features:
+    number: singular
+    person: second
+  expected: riut
+---
+lemma: romham
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: romhainn
+- features:
+    number: plural
+    person: second
+  expected: romhaibh
+- features:
+    number: plural
+    person: third
+  expected: romhpa
+- features:
+    number: singular
+    person: first
+  expected: romham
+- features:
+    number: singular
+    person: second
+  expected: romhad
+---
+lemma: she
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: she
+---
+lemma: sibh
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: sibhse
+---
+lemma: sinn
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: sinne
+---
+lemma: they
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: they
+---
+lemma: thou
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: thou
+---
+lemma: thugam
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: thuice
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: thuige
+- features:
+    number: plural
+    person: first
+  expected: thugainn
+- features:
+    number: plural
+    person: second
+  expected: thugaibh
+- features:
+    number: plural
+    person: third
+  expected: thuca
+- features:
+    number: singular
+    person: first
+  expected: thugam
+- features:
+    number: singular
+    person: second
+  expected: thugad
+---
+lemma: tromham
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: troimhpe
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: troimhe
+- features:
+    number: plural
+    person: first
+  expected: tromhainn
+- features:
+    number: plural
+    person: second
+  expected: tromhaibh
+- features:
+    number: plural
+    person: third
+  expected: tromhpa
+- features:
+    number: singular
+    person: first
+  expected: tromham
+- features:
+    number: singular
+    person: second
+  expected: tromhad
+---
+lemma: tu
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: thou
+---
+lemma: uam
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: uaipe
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: uaidh
+- features:
+    number: plural
+    person: first
+  expected: uainn
+- features:
+    number: plural
+    person: second
+  expected: uaibh
+- features:
+    number: plural
+    person: third
+  expected: uapa
+- features:
+    number: singular
+    person: first
+  expected: uam
+- features:
+    number: singular
+    person: second
+  expected: uat
+---
+lemma: umam
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: umainn
+- features:
+    number: plural
+    person: second
+  expected: umaibh
+- features:
+    number: plural
+    person: third
+  expected: umpa
+- features:
+    number: singular
+    person: first
+  expected: umam
+- features:
+    number: singular
+    person: second
+  expected: umad
+---
+lemma: we
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: we
+---
+lemma: ye
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ye

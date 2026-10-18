@@ -1,0 +1,595 @@
+lemma: haýsy
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: haýsyndan
+- features:
+    case: accusative
+  expected: haýsyny
+- features:
+    case: dative
+  expected: haýsyna
+- features:
+    case: genitive
+  expected: haýsynyň
+- features:
+    case: locative
+  expected: haýsynda
+- features:
+    case: nominative
+  expected: haýsy
+---
+lemma: kim
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: kimden
+- features:
+    case: accusative
+  expected: kimi
+- features:
+    case: dative
+  expected: kime
+- features:
+    case: genitive
+  expected: kimiň
+- features:
+    case: locative
+  expected: kimde
+- features:
+    case: nominative
+  expected: kim
+---
+lemma: men
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: bizden
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: sizden
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: olardan
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: menden
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: senden
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: ondan
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: bizi
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: sizi
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: olary
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: meni
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: seni
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: ony
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: bize
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: size
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: olara
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: maňa
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: saňa
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: oňa
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: biziň
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: siziň
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: olaryň
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: meniň
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: seniň
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: onuň
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: bizde
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: sizde
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: olarda
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: mende
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: sende
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: onda
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: biz
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: siz
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: olar
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: men
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: sen
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ol
+---
+lemma: nire
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: nireden
+- features:
+    case: accusative
+  expected: nireni
+- features:
+    case: dative
+  expected: nirä
+- features:
+    case: genitive
+  expected: niräniň
+- features:
+    case: locative
+  expected: nirede
+- features:
+    case: nominative
+  expected: nire
+---
+lemma: näme
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: nämeden
+- features:
+    case: accusative
+  expected: nämäni
+- features:
+    case: dative
+  expected: nämä
+- features:
+    case: genitive
+  expected: nämeniň
+- features:
+    case: locative
+  expected: nämede
+- features:
+    case: nominative
+  expected: näme
+---
+lemma: näçe
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: näçeden
+- features:
+    case: accusative
+  expected: näçeni
+- features:
+    case: dative
+  expected: näçä
+- features:
+    case: genitive
+  expected: näçeniň
+- features:
+    case: locative
+  expected: näçede
+- features:
+    case: nominative
+  expected: näçe
+---
+lemma: özüm
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: özümizden
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: özümden
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: özünden
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: özümizi
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: özümi
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: özüni
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: özümize
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: özüme
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: özüne
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: özümiziň
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: özümiň
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: özüniň
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: özümizde
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: özümde
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: özünde
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: özümiz
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: özüm
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: özi
+- features:
+    number: plural
+    person: first
+  expected: özümiz
+- features:
+    number: plural
+    person: second
+  expected: özüňiz
+- features:
+    number: plural
+    person: third
+  expected: özleri
+- features:
+    number: singular
+    person: first
+  expected: özüm
+- features:
+    number: singular
+    person: second
+  expected: özüň
+- features:
+    number: singular
+    person: third
+  expected: özi
+---
+lemma: ööz
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: öözümizden
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: öözünüzden
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: öözlerinden
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: öözünden
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: öözünden
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: öözünden
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: öözümize
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: öözünüze
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: öözlerine
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: öözüıne
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: öözüne
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: öözüne
+- features:
+    case: essive
+    number: plural
+    person: first
+  expected: öözümizçe
+- features:
+    case: essive
+    number: plural
+    person: second
+  expected: öözünüzçe
+- features:
+    case: essive
+    number: plural
+    person: third
+  expected: öözleriçe
+- features:
+    case: essive
+    number: singular
+    person: first
+  expected: öözümçe
+- features:
+    case: essive
+    number: singular
+    person: second
+  expected: öözçe
+- features:
+    case: essive
+    number: singular
+    person: third
+  expected: öözçe
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: öözümizi
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: öözünüzü
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: öözlerini
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: öözüıni
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: ööziliii
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: öözünü
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: öözümizde
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: öözünüzde
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: öözlerinde
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: özümde
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: öözünde
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: öözünde
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: öözüıniz
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: öözüfı.iz
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: öözleri
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: öözüm
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: öözüii
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: öözi

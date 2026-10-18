@@ -1,0 +1,2455 @@
+lemma: bos
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: bedhen
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bedhewgh
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: bedhens
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bydh
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: bedhes
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: bydhyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: en
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: bien
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: 'on'
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: beun
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: bydhowgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: ewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: biewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: owgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: bewgh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: bydhons
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: ens
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: biens
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yns
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: bons
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: bydhav
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: en
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: bien
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ov
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: beuv
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: bydhydh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: es
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: bies
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: beus
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: bydh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: esa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: bia
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yw
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: beu
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: ben
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: byn
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: bewgh
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: bowgh
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: bens
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: bons
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: ben
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: biv
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: bes
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: bi
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: be
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: bo
+---
+lemma: dos
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: dothyen
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: dothyewgh
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: dothyens
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: dothyen
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: dothyes
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: dothya
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: deun!
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: dewgh!
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: dens!
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: deus!
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: des!
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: den
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: deuthen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: deun
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: dewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: deuthewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: dewgh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: dens
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: deuthons
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: dons
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: den
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: deuth
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dov
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: des
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: deuthys
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: deudh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: do
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: deuth
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: deu
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: dyffyn
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: teffen
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: dyffowgh
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: teffewgh
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: deffons
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: teffens
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: dyffiv
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: teffen
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: dyffi
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: teffes
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: deffo
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: teffa
+---
+lemma: galloes
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: gallsen
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: gallsewgh
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: gallsens
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: gallsen
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: gallses
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: gallsa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: gyllowgh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: gyllons
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: gallsons
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: gallav
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: gallas
+---
+lemma: glanhe
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: glanhyn!
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: glanhewgh!
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: glanhens!
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: glanha!
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: glanhes!
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: glanhyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: glanhasyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: glanhasen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: glanhyn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: glanhewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: glanhasowgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: glanhasewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: glanhowgh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: glanhens
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: glanhasons
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: glanhasens
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: glanhons
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: glanhyn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: glanhis
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: glanhasen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: glanhav
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: glanhys
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: glanhasys
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: glanhases
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: glanhydh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: glanhi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: glanhas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: glanhasa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: glanha
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: glanhahyn
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: glanhahowgh
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: glanhahons
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: glanhahiv
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: glanhahi
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: glanhaho
+- features:
+    verb_form: past_participle
+  expected: glanhes
+---
+lemma: godhvos
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: godhvien
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: godhviewgh
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: godhviens
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: godhvien
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: godhvies
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: godhvia
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: godhvydhyn
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: godhvydhewgh
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: godhvydhens
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: godhvydh
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: godhvydhes
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: godbvydhyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: godhyen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: godhon
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: godhven
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: godhvydhowgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: godhyewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: godhowgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: godhvewgh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: godhvydhons
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: godhyens
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: godhons
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: godhvons
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: godhvydhav
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: godhyen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: godhvev
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: godhvydhydh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: godhyes
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: godhes
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: godhves
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: godhvydh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: godhya
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: godhva
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: godhvyn
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: godhvowgh
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: godhvons
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: godhviv
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: godhvi
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: godhvo
+- features:
+    verb_form: past_participle
+  expected: godhvedhys
+---
+lemma: gul
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: gwrussen
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: gwrussewgh
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: gwrussens
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: gwrussen
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: gwrusses
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: gwrussa
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: gwren!
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: gwrewgh!
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: gwrens!
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: gwra!
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: gwres!
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: gwren
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: gwren
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: gwrussyn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: gwrewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: gwrewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: gwrussowgh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: gwrens
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: gwrons
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: gwrussons
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: gwren
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: gwrav
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: gwrug
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: gwres
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: gwredh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: gwrussys
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: gwre
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: gwra
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: gwrug
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: gwrellen
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: gwryllyn
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: gwrellewgh
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: gwryllowgh
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: gwrellens
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: gwrellons
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: gwrellen
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: gwrylliv
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: gwrelles
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: gwrylli
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: gwrella
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: gwrello
+- features:
+    verb_form: past_participle
+  expected: gwrys
+---
+lemma: gweles
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: gwelyn
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: gwelewgh
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: gwelens
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: gwel
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: gweles
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: conditional_tense
+  expected: gwelsen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: gwelyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: gwelyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: gwelsyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: gwelsen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: gwelyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: gwelsyn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: conditional_tense
+  expected: gwelsewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: gwelowgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: gwelewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: gwelsowgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: gwelsewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: gwelowgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: gwelsowgh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: conditional_tense
+  expected: gwelsens
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: gwelons
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: gwelens
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: gwelsons
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: gwelsens
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: gwelons
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: gwelsons
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: conditional_tense
+  expected: gwelsen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: gwelav
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: gwelyn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: gwelis
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: gwelsen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: gwelav
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: gwelis
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: conditional_tense
+  expected: gwelses
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: gwelydh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: gwelys
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: gwelsys
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: gwelses
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: gwelydh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: gwelsys
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: conditional_tense
+  expected: gwelsa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: gwel
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: gweli
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gwelas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: gwelsa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: gwel
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: gwelas
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: gwellowgh
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: gwellons
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: gwello
+---
+lemma: kara
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: karsen
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: karsewgh
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: karsens
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: karsen
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: karses
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: karsa
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: karens
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kar
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: kares
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: karen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: karewgh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: karens
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: karsons
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: karons
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: karen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: karav
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: kares
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: kara
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: karas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kar
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: karren
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: karrewgh
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: karrens
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: karren
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: karres
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: karra
+---
+lemma: leverel
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: leveryn
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: leverewgh
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: leverens
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: leveres
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: leveryn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: leveryn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: leversyn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: leverewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: leverowgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: leversowgh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: leverens
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: leverons
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: leveryn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: leveris
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: leverys
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: leverydh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: leversys
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: leveri
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: lever
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: leveris
+- features:
+    verb_form: past_participle
+  expected: leverys
+---
+lemma: merwel
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: merwsyn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: merwsowgh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: merwis
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: merwsys
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: merwis
+---
+lemma: mos
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: deun!
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kewgh!
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: ens
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ke!
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: es!
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: en
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ethen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: en
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: ewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ethewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ewgh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: ens
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ethons
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ons
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: en
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: yth
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: av
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: es
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ythys
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: edh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: e
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: eth
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: a
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: yllowgh
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: ellons
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: ylliv
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: ylli
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: ello
+- features:
+    verb_form: past_participle
+  expected: gyllys
+---
+lemma: mynnes
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: mynnen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: mynnsyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: mynnsen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: mynnyn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: mynnewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mynnsowgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: mynnsewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mynnowgh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: mynnens
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: mynnsons
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: mynnsens
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: mynnons
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: mynnen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: mynnis
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: mynnsen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: mynnav
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: mynnes
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mynnsys
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: mynnses
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mynnydh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: mynna
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: mynnas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: mynnsa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mynn
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: mynnyn
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: mynnowgh
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: mynnons
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: mynniv
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: mynni
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: mynno
+---
+lemma: previ
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: provsen
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: provsewgh
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: provsens
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: provsen
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: provses
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: provsa
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: prevyn
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: prevewgh
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: prevens
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: prov
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: preves
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: prevyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: prevyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: prevsyn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: prevewgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: prevowgh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: prevsowgh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: prevens
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: prevons
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: provsons
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: prevyn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: provav
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: previs
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: prevys
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: prevydh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: prevsys
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: previ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: prev
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: provas
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: proffen
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: proffewgh
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: proffens
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: proffen
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: proffes
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: proffa
+- features:
+    verb_form: past_participle
+  expected: prevys

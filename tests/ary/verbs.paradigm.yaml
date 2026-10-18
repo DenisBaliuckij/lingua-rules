@@ -1,0 +1,3571 @@
+lemma: VTi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: araw
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ara
+---
+lemma: ad:i
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: ad:i
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: sd:a.t
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: ad
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ad
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ad:u
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ad
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ad:itu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ad:u
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: sd:it
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ad:iti
+---
+lemma: baV
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: ba¶Vt
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: baV
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: b¶Vna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: b¶Vtiw
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: baVu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: b¶Vt
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: b¶Vti
+- features:
+    verb_form: participle
+  expected: baj¶V
+- features:
+    verb_form: participle
+    voice: passive
+  expected: m¶bjuV
+---
+lemma: bda
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    verb_form: participle
+    voice: active
+  expected: badyin
+- features:
+    aspect: perfective
+    number: plural
+    verb_form: participle
+    voice: passive
+  expected: mbdy:in
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+    voice: active
+  expected: badi
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: mbdi
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: katbday
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: katbda
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bdat
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: katbda
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: kaybda
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bda
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bdaw
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bda
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: kanbdaw
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: bdina
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: bdina
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: katbdaw
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: bditiw
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: bditu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: kaybdaw
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: bdaw
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: bdaw
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: kanbda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: bdit
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: bdit
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: katbda
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: bditi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: bditi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: kaybda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: bda
+- features:
+    number: singular
+    person: first
+  expected: bait
+- features:
+    verb_form: verbal_noun
+  expected: bidaya
+---
+lemma: bil
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: katbil'i
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: katbi
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: katbil
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: kaybil
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: kanbi('u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: katbi('u
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: kaybil'u
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: kanbi(
+---
+lemma: bqa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bqa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bqa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kaybqa
+---
+lemma: bḡa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: bḡiti
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bḡat
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: bḡiti
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bḡa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: bḡina
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: bḡitiw
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: bḡaw
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: bḡit
+---
+lemma: d:a
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: d:at
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: d
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: d
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: d:iti
+---
+lemma: dda
+category: verbs
+cases:
+- features:
+    verb_form: participle
+    voice: active
+  expected: dday
+- features:
+    verb_form: participle
+    voice: passive
+  expected: meddi
+---
+lemma: denn
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tđenni
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yđenn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nđennu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tđenn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yđennu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nđenn
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tđenn
+---
+lemma: dir
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tdiri
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ydir
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ndiru
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tdiri
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ydiru
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tdir
+---
+lemma: dq
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: duq:i
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: duq
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: dq
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: duq:u
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: dq:ina
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: dq
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: dq:u
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: dq:it
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: dq:iti
+---
+lemma: dxl
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ddexli
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tdxol
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ddxul
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: idxol
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nd¶xlu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: dd¶xlu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ndxul
+---
+lemma: f
+category: verbs
+cases:
+- features:
+    verb_form: participle
+    voice: active
+  expected: fasl
+- features:
+    verb_form: participle
+    voice: passive
+  expected: mf
+---
+lemma: fy:q
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: katfy:qi
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: katfy:q
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: katfy:q
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: kayfy:q
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: fy:q
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: kanfy:qu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: fy:qna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: katfy:qu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: fy:qtu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: kayfy:qu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: fy
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: kapfy:q
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: fy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: fy:qti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: fy:q
+---
+lemma: fy:q 'to wake someone up
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: fy:qu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: fy:q
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: fy:qna
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kanfy:qu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: fy:qtu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: katfy:qu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: fy:qu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kayfy:qu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: fy:qt
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kayfy:q
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: fy:qti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: katfy:q
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: fy:q
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kayfy:qu
+- features:
+    number: plural
+    verb_form: participle
+  expected: mfy:qin
+- features:
+    number: singular
+    verb_form: participle
+  expected: mfy:q
+---
+lemma: geTTa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: ngeTTiw
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: ngeTTi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: tgeTTi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: igeTTi
+---
+lemma: kan
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kŭnti
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kanet
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: kan¶t
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kŭnti
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kan
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: kan
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kŭnna
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: kuna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kŭntiw
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: kuntiw
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kanu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: kanu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kŭnt
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: kunt
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: kunti
+---
+lemma: kla
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kulu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kul
+- features:
+    verb_form: participle
+    voice: active
+  expected: wak¶l
+- features:
+    verb_form: participle
+    voice: passive
+  expected: mukul
+---
+lemma: kri
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tekri
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yekri
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nekriw
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tekri
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yekriw
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nekri
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tekri
+---
+lemma: ktb
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: k¶tb¶t
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: kt¶b
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: kt¶bna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: kt¶btiw
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: k¶tbu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: kt¶bti
+---
+lemma: kt¶b
+category: verbs
+cases:
+- features:
+    verb_form: participle
+  expected: kat¶b
+- features:
+    verb_form: participle
+    voice: passive
+  expected: m¶ktub
+---
+lemma: kun
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: katkuni
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: katkun
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: katkun
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: kaykun
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: kankunu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: katkunu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: kaykunu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: kankun
+---
+lemma: kw:n
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: katkw:ni
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: katkw:n
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: katkw:n
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: kaykw:n
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kw:nu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kw
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: kankw:nu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: kw:n:a
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: katkw:nu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: kw
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: kaykw:nu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: kw
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: kankwm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: kw
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: kw:nti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: kw:n
+---
+lemma: la
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: kat('t::iy
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: katl't
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: kat('t:i
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: kaY(
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: kan('ti
+---
+lemma: mqa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: mqi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: mqi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kaymqi
+---
+lemma: mša
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: siru
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: sir
+---
+lemma: qa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: kaHi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: \.'taw
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: kaHi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: qiti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: i'i
+- features:
+    verb_form: verbal_noun
+  expected: \.'ti
+---
+lemma: qal
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: qŭlti
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: qalet
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: qal¶t
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: qŭlti
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: qal
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: qal
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: qŭlna
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: qol
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: qŭltiw
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: kuntiw
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: qalu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: qalu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: qŭlt
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: qolt
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: qolti
+---
+lemma: qra
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: neqraw
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: neqra
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: teqra
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: iqra
+---
+lemma: qṟa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ta-neqṟaw
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ta-teqṟaw
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ta-yeqṟaw
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ta‑neqṟa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ta‑teqṟa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ta‑yeqṟa
+---
+lemma: rbT
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tr¶bTi
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: t¶rb¶T
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: t¶rb¶T
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: irb¶T
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nr¶bTu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tr¶bTu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: n¶rb¶T
+---
+lemma: saken
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: sakna
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: sakna
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: sakna
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: saken
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: saken
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: saken
+- features:
+    number: plural
+    person: first
+  expected: saknin
+- features:
+    number: plural
+    person: second
+  expected: saknin
+- features:
+    number: plural
+    person: third
+  expected: saknin
+---
+lemma: sam
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: sambi
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: samQti
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: katsamQi
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: samQat
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: katsami)
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+  expected: msaml)at
+- features:
+    gender: feminine
+    number: singular
+    verb_form: participle
+  expected: msaml)a
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: samb
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: saml)ti
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: katsamlJ
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: samQ
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kaysamQ
+- features:
+    gender: masculine
+    number: plural
+    verb_form: participle
+  expected: msaml)in
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+  expected: msamIJ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: sambu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: saml)na
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kansamlJu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: saml)tu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: katsaml)u
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: saml)u
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kaysamlJu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: sam
+---
+lemma: sijjib
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: sijjbu
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: sijj¶b
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: sijj¶bna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: sijj¶btiw
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: sijj¶bti
+---
+lemma: t
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: t
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: katt
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: t
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: t
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: katt
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: t
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kayt
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: t
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kant
+---
+lemma: t'i's:a 'to eat dinner
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: t'i's:a
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: t'i's:ina
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kant'i's:aw
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: t'i's:itu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: t'i's:aw
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kayt'i's:aw
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: t'i's:it
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kant'i's:a
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: t'i's:iti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: katt'i's:a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: t'i's:a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kayt'i's:a
+- features:
+    number: plural
+    verb_form: participle
+  expected: mt'i's:y:in
+- features:
+    number: singular
+    verb_form: participle
+  expected: mt'i's:i
+- features:
+    verb_form: verbal_noun
+  expected: i'sa
+---
+lemma: t'll:m
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tll:mat
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+  expected: mtll:m
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: t'lJ:mna
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kayt'll:mu
+---
+lemma: ta
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tiw
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ti
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: tina
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: titu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: taw
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: tit
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: titi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: ta
+---
+lemma: ta-tqeṟṟi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: qeṟṟina
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nqeṟṟiw
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: qeṟṟitiw
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tqeṟṟiw
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: qeṟṟaw
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yqeṟṟiw
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: qeṟṟit
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nqeṟṟi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: qeṟṟiti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tqeṟṟi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: qeṟṟa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yqeṟṟi
+---
+lemma: tfahm
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: tfahmi
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: tfahmti
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kattfahmi
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tfahmat
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kattfahm
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+  expected: mtfahmat
+- features:
+    gender: feminine
+    number: singular
+    verb_form: participle
+  expected: mtfahma
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: tfahm
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: tfahmti
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tfahm
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kaytfahm
+- features:
+    gender: masculine
+    number: plural
+    verb_form: participle
+  expected: mtfahmin
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+  expected: mtfahm
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tfahmu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tfahmna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: tfahmtu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kattfahmu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tfahmu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kaytfahmu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kantfahm
+- features:
+    verb_form: participle
+  expected: mtfahm
+---
+lemma: tr
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: kantrzmu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: '!rzmna'
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: kattrzmu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: '!rzmtu'
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: kay!rzmu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: '!rzmu'
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: kantr
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: tr
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: kat!r
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: trzmti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: kay!rzm
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: '!rzm'
+- features:
+    number: plural
+    person: second
+  expected: trzmu
+- features:
+    number: plural
+    verb_form: participle
+  expected: m!rzmin
+- features:
+    number: singular
+    person: second
+  expected: trzmi
+- features:
+    number: singular
+    verb_form: participle
+  expected: mtrzm
+- features:
+    verb_form: verbal_noun
+  expected: '!rzama'
+---
+lemma: trzm
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: h'zmu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: trZllna
+---
+lemma: xaf
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: katxafi
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: katxaf
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: katxaf
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: kayxaf
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: kanxafu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: xfna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: katxafu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: xftu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: kayxafu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: xafu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: kanxaf
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: xft
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: katxaf
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: xfti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: kayxaf
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: xaf
+- features:
+    number: plural
+    person: second
+  expected: xafu
+- features:
+    number: plural
+    verb_form: participle
+  expected: xayfin
+- features:
+    number: singular
+    person: second
+  expected: xaf
+- features:
+    number: singular
+    verb_form: participle
+  expected: xayf
+- features:
+    verb_form: verbal_noun
+  expected: xuf
+---
+lemma: xda
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: kataxdi
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: tataxud
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: kataxud
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: kayaxud
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: xudu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: xud
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: xdina
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: xditu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: xdaw
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: kanaxud
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: xdit
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: xditi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: xda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: xda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kayaxud
+- features:
+    verb_form: participle
+    voice: active
+  expected: waxed
+- features:
+    verb_form: participle
+    voice: passive
+  expected: mewxud
+---
+lemma: xl:a
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: katxl::iy
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: katxl:i
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: katxl:i
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: kayxl:i
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: xl:iw
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: xl
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: kanxl:iw
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: katxl:iw
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: xl:itu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: kayxl:iw
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: xl
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: kanxl:i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: xl:it
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: xl:iti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: xl
+---
+lemma: xṛa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: taẋdi
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yaxŭd
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: naxdu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: taxdu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yaxdu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: naxŭd
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: taxŭd
+---
+lemma: za
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: zat
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: za
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: zit
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ziti
+---
+lemma: šemm
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: šemm
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: šemmina
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: šemmitiw
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: šemmu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: šemmit
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: šemmiti
+---
+lemma: šra
+category: verbs
+cases:
+- features:
+    verb_form: participle
+  expected: šari
+- features:
+    verb_form: participle
+    voice: passive
+  expected: šari
+---
+lemma: šuf
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ka-tšufi
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ka-tšuf
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ka-tšuf
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ka-yšuf
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ka-nšufu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ka-tšufu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ka-yšufu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ka-nšuf
+---
+lemma: šṟb
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tšṟbi
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tšṟb
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tšṟb
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yšṟb
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nšṟbu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tšṟbu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yšṟbu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nšṟb
+---
+lemma: ža
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ažiw
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: aži
+- features:
+    verb_form: participle
+    voice: active
+  expected: maži
+---
+lemma: ḥeṣṣel
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ħeṣṣelna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ħeṣṣeltu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ħeṣṣlu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ħeṣṣelt
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ħeṣṣelti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ħeṣṣel
+---
+lemma: ṣewweb
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tṣewwbi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yṣewwbu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tṣewwbi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yṣewweb
+---
+lemma: √da
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ka‑ndir
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tdir
+---
+lemma: √fhm
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ttefhem
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ttefhemtu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: netfahmu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tfehmu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yetfahmu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ttefhemt
+---
+lemma: √hrs
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tetherrsu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yetherrsu
+---
+lemma: √kml
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tkemmlet
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tkemmlu
+---
+lemma: √ktb
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nketbu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tketbu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yketbu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ka‑nekteb
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tekteb
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yekteb
+---
+lemma: √qđa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ttqađay
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tetqađa
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yetqađa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yetqađaw
+---
+lemma: √qṟa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tqeṟṟat
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tetqeṟṟa
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tqeṟṟa
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yetqeṟṟa
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tetqeṟṟaw
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tqeṟṟaw
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yetqeṟṟaw
+---
+lemma: √skn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nseknu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tseknu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yse­knu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ka‑neskŭn
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: teskŭn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yeskŭn
+---
+lemma: √xa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ka-nxaf
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: txaf
+---
+lemma: √zwž
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: tzewwžti
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tzewwžet
+---
+lemma: √đṟb
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tteđṟeb
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ttđeṟbu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yetđeṟbu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: netteđṟeb
+---
+lemma: √ħwl
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ħawlet
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nħawlu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ħawlu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yħawlu
+---
+lemma: √ša
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ttšaf
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: tšefti
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tšaf
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yetšaf
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ttšafu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tšefna
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: netšafu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tšafu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tšaweft
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ka‑nšuf
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tšuf
+---
+lemma: √šṟb
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tšeṟbet
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ttešṟeb
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ttešṟebna
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tšeṟbu
+---
+lemma: √žrħ
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ttžerħi
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yettežreħ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: netžerħu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yetžerħu
+---
+lemma: √žwb
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nžawbu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yžawbu
+---
+lemma: √ɛlm
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: netɛellmu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yetɛellmu
+---
+lemma: √ɛwn
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tɛawni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nɛawnu

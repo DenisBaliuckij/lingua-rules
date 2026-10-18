@@ -1,0 +1,129 @@
+lemma: jaz
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: njèj
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: njêmu
+- features:
+    number: dual
+    person: first
+  expected: náma
+- features:
+    number: dual
+    person: second
+  expected: váma
+- features:
+    number: dual
+    person: third
+  expected: njíma
+- features:
+    number: plural
+    person: first
+  expected: nám
+- features:
+    number: plural
+    person: second
+  expected: vám
+- features:
+    number: plural
+    person: third
+  expected: njím
+- features:
+    number: singular
+    person: first
+  expected: mení
+- features:
+    number: singular
+    person: second
+  expected: têbi
+---
+lemma: nihčê
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: nikógar
+- features:
+    case: dative
+  expected: nikómur
+- features:
+    case: genitive
+  expected: nikógar
+- features:
+    case: instrumental
+  expected: nikómər
+- features:
+    case: locative
+  expected: nikómər
+- features:
+    case: nominative
+  expected: nihčê
+---
+lemma: níč
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: níč
+- features:
+    case: dative
+  expected: ničémur
+- features:
+    case: genitive
+  expected: ničésar
+- features:
+    case: instrumental
+  expected: ničímər
+- features:
+    case: locative
+  expected: ničémər
+- features:
+    case: nominative
+  expected: níč
+---
+lemma: obá
+category: pronouns
+cases:
+- features:
+    case: dative
+    gender: feminine
+  expected: obéma
+- features:
+    case: dative
+    gender: masculine
+  expected: obéma
+- features:
+    case: dative
+    gender: neuter
+  expected: obéma
+- features:
+    case: genitive
+    gender: feminine
+  expected: obéh
+- features:
+    case: genitive
+    gender: masculine
+  expected: obéh
+- features:
+    case: genitive
+    gender: neuter
+  expected: obéh
+- features:
+    case: nominative
+    gender: feminine
+  expected: obé
+- features:
+    case: nominative
+    gender: masculine
+  expected: obá
+- features:
+    case: nominative
+    gender: neuter
+  expected: obé

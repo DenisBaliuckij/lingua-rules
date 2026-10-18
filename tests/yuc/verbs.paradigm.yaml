@@ -1,0 +1,788 @@
+lemma: a
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: ho’a
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: ho’a
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: we'a
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: we’a
+- features:
+    number: plural
+    person: first
+  expected: no’a
+- features:
+    number: plural
+    person: second
+  expected: ach’ya
+- features:
+    number: singular
+    person: first
+  expected: ts’a
+- features:
+    number: singular
+    person: second
+  expected: ch’ya
+- features:
+    number: singular
+    person: third
+  expected: hd'a
+---
+lemma: aele
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: we'aele
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: se'aele
+- features:
+    number: dual
+    person: first
+  expected: othlaele
+- features:
+    number: dual
+    person: second
+  expected: ho'aele
+- features:
+    number: plural
+    person: first
+  expected: nothlaele
+- features:
+    number: plural
+    person: second
+  expected: ithlaele
+- features:
+    number: singular
+    person: second
+  expected: nedze'aele
+---
+lemma: agwa
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: awegwa
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: awegwa
+- features:
+    evidentiality: indirect
+    number: plural
+    person: third
+  expected: abgwa
+- features:
+    number: singular
+    person: third
+  expected: ahegwa
+---
+lemma: dzehi?
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+  expected: x'adze'ne
+- features:
+    number: singular
+    person: first
+  expected: xdzehi?
+- features:
+    number: singular
+    person: second
+  expected: snedze'ne
+- features:
+    number: singular
+    person: third
+  expected: sedze'ne
+---
+lemma: gd^
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: neha
+- features:
+    number: plural
+    person: second
+  expected: a'ha
+- features:
+    number: plural
+    person: third
+  expected: h^'Jia
+- features:
+    number: singular
+    person: first
+  expected: t?
+- features:
+    number: singular
+    person: second
+  expected: yg
+- features:
+    number: singular
+    person: third
+  expected: hg^g
+---
+lemma: gele
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: wegethxle
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: wegele
+- features:
+    number: dual
+    person: first
+  expected: ogele
+- features:
+    number: plural
+    person: second
+  expected: aseethlajle
+- features:
+    number: plural
+    person: third
+  expected: hogeha
+- features:
+    number: singular
+    person: first
+  expected: dzegele
+- features:
+    number: singular
+    person: second
+  expected: nedzegele
+- features:
+    number: singular
+    person: third
+  expected: hogele
+---
+lemma: gojrhla
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: bthla
+- features:
+    number: plural
+    person: second
+  expected: aswathla
+- features:
+    number: plural
+    person: third
+  expected: hethla
+- features:
+    number: singular
+    person: third
+  expected: hethla
+---
+lemma: gonthla
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: wefe
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: wew
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: s'io
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: hafe
+- features:
+    number: singular
+    person: first
+  expected: weda
+---
+lemma: gorltla
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: first
+  expected: bthla
+- features:
+    animacy: animate
+    number: plural
+    person: first
+  expected: nbfe
+- features:
+    number: plural
+    person: third
+  expected: bfe
+- features:
+    number: singular
+    person: first
+  expected: weda
+- features:
+    number: singular
+    person: second
+  expected: wesha
+- features:
+    number: singular
+    person: third
+  expected: hbthla
+---
+lemma: gote'de
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ngte'de
+- features:
+    number: singular
+    person: first
+  expected: tse'de
+- features:
+    number: singular
+    person: second
+  expected: tce'de
+- features:
+    number: singular
+    person: third
+  expected: h^te'de
+---
+lemma: gothla
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nofe
+- features:
+    number: plural
+    person: third
+  expected: hofe
+- features:
+    number: singular
+    person: third
+  expected: hothla
+---
+lemma: gotwa
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: hotwa
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: s'etwa
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: yotwa
+- features:
+    number: plural
+    person: first
+  expected: dtwa
+- features:
+    number: singular
+    person: first
+  expected: tswa
+- features:
+    number: singular
+    person: second
+  expected: cwa
+---
+lemma: h'ala'gola
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: k'ala'ngla
+- features:
+    number: plural
+    person: second
+  expected: k^ala'a'ca
+- features:
+    number: singular
+    person: first
+  expected: k'ala'da
+- features:
+    number: singular
+    person: second
+  expected: k'ala'ca
+- features:
+    number: singular
+    person: third
+  expected: k'ala'hgla
+---
+lemma: hi'di-ca
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: we'-ca
+- features:
+    number: plural
+    person: second
+  expected: §'-ca
+- features:
+    number: singular
+    person: first
+  expected: hi'di-ca
+- features:
+    number: singular
+    person: second
+  expected: he'ne-ca
+- features:
+    number: singular
+    person: third
+  expected: h§'-ca
+---
+lemma: hi'do-sTi
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+  expected: a'yo-sri
+- features:
+    number: singular
+    person: first
+  expected: hi'do-sTi
+- features:
+    number: singular
+    person: second
+  expected: hi'yo-sTi
+- features:
+    number: singular
+    person: third
+  expected: hgyu'-sTi
+---
+lemma: hi'doki
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ^'ki
+- features:
+    number: plural
+    person: second
+  expected: a'yoki
+- features:
+    number: singular
+    person: first
+  expected: hi'doki
+- features:
+    number: singular
+    person: second
+  expected: hi'yoki
+- features:
+    number: singular
+    person: third
+  expected: h§'ki
+---
+lemma: hisha
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: osha
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: hCsha
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: wesha
+- features:
+    number: plural
+    person: first
+  expected: icesha
+- features:
+    number: plural
+    person: second
+  expected: kesha
+- features:
+    number: singular
+    person: first
+  expected: hidisha
+---
+lemma: hitliUe
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: hethlae
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: hethlae
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: wethlae
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: wethlae
+- features:
+    number: plural
+    person: first
+  expected: othlae
+- features:
+    number: plural
+    person: second
+  expected: aeshae
+- features:
+    number: singular
+    person: first
+  expected: hidzae
+---
+lemma: ke ci
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    number: dual
+    person: third
+  expected: weha
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: wewi
+- features:
+    evidentiality: direct
+    number: plural
+    person: third
+  expected: ih
+- features:
+    evidentiality: direct
+    number: singular
+    person: third
+  expected: hbh
+- features:
+    evidentiality: indirect
+    number: plural
+    person: third
+  expected: web
+- features:
+    evidentiality: indirect
+    number: singular
+    person: third
+  expected: we^
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: sewi
+- features:
+    number: dual
+    person: first
+  expected: tjci
+- features:
+    number: dual
+    person: second
+  expected: hewi
+- features:
+    number: plural
+    person: first
+  expected: neha
+- features:
+    number: plural
+    person: second
+  expected: iha
+- features:
+    number: singular
+    person: first
+  expected: kedoci
+- features:
+    number: singular
+    person: second
+  expected: keyoti
+- features:
+    number: singular
+    person: third
+  expected: se
+---
+lemma: la'i
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: wela'i
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: wela'i
+- features:
+    number: plural
+    person: second
+  expected: ala'i
+- features:
+    number: plural
+    person: third
+  expected: hela'i
+- features:
+    number: singular
+    person: first
+  expected: dza'i
+- features:
+    number: singular
+    person: second
+  expected: ya'i
+- features:
+    number: singular
+    person: third
+  expected: hOIa'i
+---
+lemma: la’i
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: hela’i
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: hela’i
+- features:
+    number: plural
+    person: first
+  expected: ola’i
+- features:
+    number: singular
+    person: first
+  expected: dza’i
+- features:
+    number: singular
+    person: second
+  expected: ya’i
+---
+lemma: 'no'
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: yono
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: sono
+- features:
+    number: dual
+    person: first
+  expected: oha
+- features:
+    number: dual
+    person: second
+  expected: hono
+- features:
+    number: dual
+    person: third
+  expected: ia
+- features:
+    number: plural
+    person: first
+  expected: noha
+- features:
+    number: plural
+    person: second
+  expected: s'ono
+- features:
+    number: singular
+    person: first
+  expected: dzOQO
+- features:
+    number: singular
+    person: second
+  expected: yono
+---
+lemma: rhla
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: athla
+- features:
+    number: singular
+    person: first
+  expected: weda
+- features:
+    number: singular
+    person: second
+  expected: wesha
+---
+lemma: thla
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: wefe
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: wethla
+- features:
+    number: dual
+    person: first
+  expected: othla
+- features:
+    number: plural
+    person: first
+  expected: othla
+- features:
+    number: plural
+    person: second
+  expected: afe
+- features:
+    number: plural
+    person: third
+  expected: hdfe
+- features:
+    number: singular
+    person: first
+  expected: weda
+- features:
+    number: singular
+    person: second
+  expected: wesha
+- features:
+    number: singular
+    person: third
+  expected: hothla
+---
+lemma: yude
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    number: dual
+    person: first
+  expected: yum
+- features:
+    evidentiality: direct
+    number: singular
+    person: third
+  expected: yuhe&
+- features:
+    evidentiality: indirect
+    number: singular
+    person: third
+  expected: yuwe&
+- features:
+    number: dual
+    person: first
+  expected: yuna
+- features:
+    number: singular
+    person: first
+  expected: yudide
+- features:
+    number: singular
+    person: second
+  expected: yune&
+- features:
+    number: singular
+    person: third
+  expected: yusek
+---
+lemma: zle
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    number: plural
+    person: third
+  expected: iule
+- features:
+    evidentiality: direct
+    number: singular
+    person: third
+  expected: hb'gle
+- features:
+    evidentiality: indirect
+    number: plural
+    person: third
+  expected: wet&le
+- features:
+    evidentiality: indirect
+    number: singular
+    person: third
+  expected: we'gle
+- features:
+    number: dual
+    person: first
+  expected: oule
+- features:
+    number: singular
+    person: first
+  expected: dze'gle
+- features:
+    number: singular
+    person: third
+  expected: sekle

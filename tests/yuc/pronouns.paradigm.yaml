@@ -1,0 +1,85 @@
+lemma: di
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: ('ode
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: nu. hedi
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: hi
+- features:
+    number: plural
+    person: first
+  expected: bdi
+- features:
+    number: plural
+    person: second
+  expected: ridze
+- features:
+    number: plural
+    person: third
+  expected: ho
+- features:
+    number: singular
+    person: first
+  expected: di
+- features:
+    number: singular
+    person: second
+  expected: tse
+- features:
+    number: singular
+    person: third
+  expected: he
+---
+lemma: yude
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: dual
+    person: third
+  expected: yuwelo
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: yuwede
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: yusede
+- features:
+    number: dual
+    person: first
+  expected: yu'Ode
+- features:
+    number: dual
+    person: second
+  expected: yuhede
+- features:
+    number: plural
+    person: first
+  expected: yuno^
+- features:
+    number: plural
+    person: second
+  expected: yus'ede
+- features:
+    number: singular
+    person: first
+  expected: yudide
+- features:
+    number: singular
+    person: second
+  expected: yu'ae^

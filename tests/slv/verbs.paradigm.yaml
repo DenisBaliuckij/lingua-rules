@@ -1,0 +1,135 @@
+lemma: bíti
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: svá
+- features:
+    number: dual
+    person: second
+  expected: stá
+- features:
+    number: dual
+    person: third
+  expected: stá
+- features:
+    number: plural
+    person: first
+  expected: smo
+- features:
+    number: plural
+    person: second
+  expected: ste
+- features:
+    number: plural
+    person: third
+  expected: sô
+- features:
+    number: singular
+    person: first
+  expected: səm
+- features:
+    number: singular
+    person: second
+  expected: si
+- features:
+    number: singular
+    person: third
+  expected: jê
+---
+lemma: bó
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: bósta
+- features:
+    number: dual
+    person: third
+  expected: bósta
+- features:
+    number: plural
+    person: second
+  expected: bóste
+- features:
+    number: plural
+    person: third
+  expected: bódo
+---
+lemma: dá
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: dásta
+- features:
+    number: dual
+    person: third
+  expected: dásta
+- features:
+    number: plural
+    person: second
+  expected: dáste
+---
+lemma: gré
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: grésta
+- features:
+    number: dual
+    person: third
+  expected: grésta
+- features:
+    number: plural
+    person: second
+  expected: gréste
+- features:
+    number: plural
+    person: third
+  expected: gredó
+---
+lemma: jé
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: jésta
+- features:
+    number: dual
+    person: third
+  expected: jésta
+- features:
+    number: plural
+    person: second
+  expected: jéste
+- features:
+    number: plural
+    person: third
+  expected: jedó
+---
+lemma: vé
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: vésta
+- features:
+    number: dual
+    person: third
+  expected: vésta
+- features:
+    number: plural
+    person: second
+  expected: véste
+- features:
+    number: plural
+    person: third
+  expected: vedó
