@@ -1,0 +1,83 @@
+lemma: bi
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: bi-s-u
+- features:
+    number: plural
+    person: second
+  expected: bi-se-s
+- features:
+    number: plural
+    person: third
+  expected: bios
+- features:
+    number: singular
+    person: first
+  expected: bi-se-m
+- features:
+    number: singular
+    person: second
+  expected: bi-se-nri
+- features:
+    number: singular
+    person: third
+  expected: bi-s-ni
+---
+lemma: goon
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: goonu
+- features:
+    number: plural
+    person: second
+  expected: goon-e-s
+- features:
+    number: plural
+    person: third
+  expected: goon
+- features:
+    number: singular
+    person: first
+  expected: goon-e-m
+- features:
+    number: singular
+    person: second
+  expected: goon-e-nri
+- features:
+    number: singular
+    person: third
+  expected: goonni
+---
+lemma: haa
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: haa-r-u
+- features:
+    number: plural
+    person: second
+  expected: haas
+- features:
+    number: plural
+    person: third
+  expected: haar
+- features:
+    number: singular
+    person: first
+  expected: haa-m-m
+- features:
+    number: singular
+    person: second
+  expected: haanri
+- features:
+    number: singular
+    person: third
+  expected: haan

@@ -1,0 +1,435 @@
+lemma: мен
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: менең
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: мени
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: маға
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: меең
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: менде
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: мен
+---
+lemma: мениии
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: менийилеринең
+- features:
+    case: ablative
+    number: singular
+  expected: менийинең
+- features:
+    case: absolutive
+    number: plural
+  expected: менииилери
+- features:
+    case: absolutive
+    number: singular
+  expected: мениии
+- features:
+    case: accusative
+    number: plural
+  expected: менийилерин
+- features:
+    case: accusative
+    number: singular
+  expected: менийии
+- features:
+    case: dative
+    number: plural
+  expected: менийилерине
+- features:
+    case: dative
+    number: singular
+  expected: менийинге
+- features:
+    case: genitive
+    number: plural
+  expected: менийилериниң
+- features:
+    case: genitive
+    number: singular
+  expected: менийиниң
+- features:
+    case: locative
+    number: plural
+  expected: менийилеринде
+- features:
+    case: locative
+    number: singular
+  expected: менийинде
+---
+lemma: ол
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: анардаң
+- features:
+    case: ablative
+    number: singular
+  expected: анаң
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: анаң
+- features:
+    case: accusative
+    number: plural
+  expected: анарды
+- features:
+    case: accusative
+    number: singular
+  expected: аны
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: аны
+- features:
+    case: dative
+    number: plural
+  expected: анарға
+- features:
+    case: dative
+    number: singular
+  expected: аа
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: аға
+- features:
+    case: genitive
+    number: plural
+  expected: анардың
+- features:
+    case: genitive
+    number: singular
+  expected: ааң
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: ааң
+- features:
+    case: locative
+    number: plural
+  expected: анарда
+- features:
+    case: locative
+    number: singular
+  expected: анда
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: анда
+- features:
+    case: nominative
+    number: plural
+  expected: анар
+- features:
+    case: nominative
+    number: singular
+  expected: ол
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ол
+---
+lemma: пис
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: пистең
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: писти
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: писке
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: пистиң
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: писте
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: пис
+---
+lemma: по
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: понардаң
+- features:
+    case: ablative
+    number: singular
+  expected: мынаң
+- features:
+    case: accusative
+    number: plural
+  expected: понарды
+- features:
+    case: accusative
+    number: singular
+  expected: поны
+- features:
+    case: dative
+    number: plural
+  expected: понарға
+- features:
+    case: dative
+    number: singular
+  expected: поға
+- features:
+    case: genitive
+    number: plural
+  expected: понардың
+- features:
+    case: genitive
+    number: singular
+  expected: пооң
+- features:
+    case: locative
+    number: plural
+  expected: понарда
+- features:
+    case: locative
+    number: singular
+  expected: мында
+- features:
+    case: nominative
+    number: plural
+  expected: понар
+- features:
+    case: nominative
+    number: singular
+  expected: по
+---
+lemma: пос
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: позыбыс
+- features:
+    number: plural
+    person: second
+  expected: постарың
+- features:
+    number: plural
+    person: third
+  expected: постары
+- features:
+    number: singular
+    person: first
+  expected: позым
+- features:
+    number: singular
+    person: second
+  expected: позың
+- features:
+    number: singular
+    person: third
+  expected: позы
+---
+lemma: сен
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: сенең
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: сени
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: саға
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: сеең
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: сенде
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: сен
+---
+lemma: силер
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: силердең
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: сил ер д и
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: силерге
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: силердиң
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: силерде
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: силер
+---
+lemma: тиги
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: тигилердең
+- features:
+    case: ablative
+    number: singular
+  expected: тигидең
+- features:
+    case: accusative
+    number: plural
+  expected: тигилерди
+- features:
+    case: accusative
+    number: singular
+  expected: тигини
+- features:
+    case: dative
+    number: plural
+  expected: тигилерге
+- features:
+    case: dative
+    number: singular
+  expected: тигиге
+- features:
+    case: genitive
+    number: plural
+  expected: тигилердиң
+- features:
+    case: genitive
+    number: singular
+  expected: тигиниң
+- features:
+    case: locative
+    number: plural
+  expected: тигилерде
+- features:
+    case: locative
+    number: singular
+  expected: тигиде
+- features:
+    case: nominative
+    number: plural
+  expected: тигилер
+- features:
+    case: nominative
+    number: singular
+  expected: тиги
+---
+lemma: ылар
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: ылардаң
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: ыларды
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: ыларга
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: ылардың
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: ыларда
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: ылар

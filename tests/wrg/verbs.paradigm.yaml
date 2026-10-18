@@ -1,0 +1,266 @@
+lemma: baba
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: baban
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: baha-la
+- features:
+    number: singular
+    person: first
+    verb_form: participle
+  expected: babanyo
+- features:
+    number: singular
+    person: second
+    verb_form: participle
+  expected: baha-nji
+---
+lemma: bambo
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bambo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bambon
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bambola
+- features:
+    number: singular
+    person: first
+    verb_form: participle
+  expected: bambonyo
+- features:
+    number: singular
+    person: second
+  expected: bamboyal
+- features:
+    number: singular
+    person: second
+    verb_form: participle
+  expected: bamboryi
+---
+lemma: banda
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bandaya
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bandan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: banda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: banda
+---
+lemma: ganyji
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ganyjiya
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ganyjin
+- features:
+    number: singular
+    person: first
+    verb_form: participle
+  expected: ganyjinyo
+- features:
+    number: singular
+    person: second
+  expected: ganyjiyal
+- features:
+    number: singular
+    person: second
+    verb_form: participle
+  expected: ganyjinji
+- features:
+    number: singular
+    person: third
+  expected: ganyjingo
+---
+lemma: haha-L Vt 'stab
+category: verbs
+cases:
+- features:
+    mood: imperative
+    person: second
+  expected: haha-gali-ya
+- features:
+    person: first
+  expected: haha-gali-n
+- features:
+    person: second
+  expected: haha-gali-yal
+---
+lemma: halga-L Vt 'hit
+category: verbs
+cases:
+- features:
+    mood: imperative
+    person: second
+  expected: halga-wa-ya
+- features:
+    person: first
+  expected: halga-wa-n
+- features:
+    person: second
+  expected: halga-wa-y
+- features:
+    person: third
+  expected: hin'a-wa-yalgo
+- features:
+    verb_form: participle
+  expected: halga-wa-rgi
+---
+lemma: nyina
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: nyinaya
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nyinan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nyinay
+- features:
+    number: singular
+    person: first
+    verb_form: participle
+  expected: nyinanyo
+- features:
+    number: singular
+    person: second
+  expected: nyina-y-ng-ga
+- features:
+    number: singular
+    person: second
+    verb_form: participle
+  expected: nyina
+- features:
+    number: singular
+    person: third
+  expected: nyina-yal-go
+- features:
+    number: singular
+    person: third
+    verb_form: participle
+  expected: nyina-nji-rra
+---
+lemma: wadali
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: wadaliya
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wadalin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: wadalifiJ
+- features:
+    number: singular
+    person: first
+    verb_form: participle
+  expected: wadalinyo
+- features:
+    number: singular
+    person: second
+  expected: wadaliyal
+- features:
+    number: singular
+    person: second
+    verb_form: participle
+  expected: wadalinji
+---
+lemma: yodi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: yodiya
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: yodin
+- features:
+    number: singular
+    person: second
+  expected: yodilga
+---
+lemma: yqji-ZERO Vi 'laugh
+category: verbs
+cases:
+- features:
+    mood: imperative
+    person: second
+  expected: yaji-garra-ya
+- features:
+    person: first
+  expected: yaji-garra-n
+- features:
+    person: second
+  expected: yaji-ganv-yal

@@ -1,0 +1,457 @@
+lemma: qel
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: qEL-ingiz
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: qel
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: q^ghu-daq-miz
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: qELar-id-ik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: qEijglian-miz
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: qEL^-miz
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: qEL?“p-id-ik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: qEha-miz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: qwLgliu-daq-svz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: qELdr-id-ingiz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: q
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: qEL^-id-ingiz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: qELar-siz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: qEL^w-Zw^-id-ilar
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: qELdr-id-ilar
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: qEjjghan-lai
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: qELy'A^m-id-ilar
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: qELC£r-lar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: qELzy
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: q'ELghu-daq-m&n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: qELfir-id-im
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: qELy
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: qELi^-man
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: qEL^p-id-im
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: qEL^r-man
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: qELigh-liq-SBXi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: qELglm-daq-stm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: qELdr-id-ing
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: qELy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: qELzyj-san
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: qEL(p-id-ing
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: qELa-san
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: qELy^w-Z^-id-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: qELcb’-id-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: q^ghan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: qELzp-durmisk
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: qEL^jp-id-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: qELdr-imisk
+- features:
+    mood: potential
+    number: plural
+    person: first
+    tense: past
+  expected: qELs«-id-ik
+- features:
+    mood: potential
+    number: plural
+    person: second
+    tense: past
+  expected: qELs«-id-ingiz
+- features:
+    mood: potential
+    number: plural
+    person: third
+    tense: past
+  expected: qELs«-id-ilar
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: future
+  expected: qELy^-J
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: past
+  expected: qELS«-id-im
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: future
+  expected: qELyAzj-^Z^-bolsa-’ng
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: past
+  expected: qELs«-’ng-zV^
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: present
+  expected: qELdr-irsa-’ng
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: future
+  expected: qELy^-^'^-holsa
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: past
+  expected: qELs^-id-i
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: present
+  expected: qELdr-irsa
+---
+lemma: qel-maq
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: qEL«-dur-miz
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: qEL-d-iq
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: qELf^-dur-miz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: qELtf-dur-siz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: qEL^rm-dur-siz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: qEL-d-ilar
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: qEL«^-dur-lar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: qEL«-dur-man
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: qEL-d-im
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: qELtf-dur-san
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: qEL-d-ing
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: qELyArm-dur
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: qEL
+- features:
+    mood: potential
+    number: plural
+    person: first
+    tense: future
+  expected: qELy'Aw-^-dur-miz
+- features:
+    mood: potential
+    number: plural
+    person: second
+    tense: future
+  expected: qELyZ^-r
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: future
+  expected: qELghu-diq-dLm
+---
+lemma: qelghu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: qELy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: qY^ghu-wfiz-dur
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: qELg
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: qmjghu-si-dur
+- features:
+    mood: potential
+    number: plural
+    person: first
+    tense: present
+  expected: qELs«’q
+- features:
+    mood: potential
+    number: plural
+    person: second
+    tense: present
+  expected: qELs«-’ngiz
+- features:
+    mood: potential
+    number: plural
+    person: third
+    tense: present
+  expected: qELs«-lar
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: present
+  expected: qELS«-’m
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: present
+  expected: qELs^-’ng
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: present
+  expected: qels

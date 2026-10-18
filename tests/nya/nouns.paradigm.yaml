@@ -1,0 +1,35 @@
+lemma: mwana
+category: nouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: ana
+- features:
+    case: accusative
+    number: singular
+  expected: mwana
+- features:
+    case: locative
+    number: plural
+  expected: anamo
+- features:
+    case: locative
+    number: singular
+  expected: mwanamo
+- features:
+    case: nominative
+    number: plural
+  expected: ana
+- features:
+    case: nominative
+    number: singular
+  expected: mwana
+- features:
+    case: vocative
+    number: plural
+  expected: ananu
+- features:
+    case: vocative
+    number: singular
+  expected: mwanawe

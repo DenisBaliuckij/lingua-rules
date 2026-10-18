@@ -1,0 +1,127 @@
+lemma: a n 't'io
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: a t't'io
+- features:
+    number: singular
+    person: first
+  expected: a n 't'io
+- features:
+    number: singular
+    person: second
+  expected: a p 't'io
+---
+lemma: a:ni
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: a:cim
+- features:
+    number: plural
+    person: second
+  expected: a:pim
+- features:
+    number: singular
+    person: first
+  expected: a:ni
+- features:
+    number: singular
+    person: second
+  expected: a:pi
+---
+lemma: a:pi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: a:pim
+- features:
+    number: singular
+    person: second
+  expected: a:pi
+---
+lemma: a:ñi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: a:cim
+- features:
+    number: singular
+    person: first
+  expected: a:ñi
+---
+lemma: an
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: at
+- features:
+    number: plural
+    person: second
+  expected: apimu
+- features:
+    number: plural
+    person: third
+  expected: hugama
+- features:
+    number: singular
+    person: first
+  expected: an
+- features:
+    number: singular
+    person: second
+  expected: ap
+- features:
+    number: singular
+    person: third
+  expected: hugai
+---
+lemma: hegai
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: hegam
+- features:
+    number: singular
+    person: third
+  expected: hegai
+---
+lemma: n
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: t
+- features:
+    number: plural
+    person: second
+  expected: em
+- features:
+    number: plural
+    person: third
+  expected: ha
+- features:
+    number: singular
+    person: first
+  expected: n
+- features:
+    number: singular
+    person: second
+  expected: m
+- features:
+    number: singular
+    person: third
+  expected: ha

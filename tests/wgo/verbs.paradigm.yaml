@@ -1,0 +1,23 @@
+lemma: kábyal
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: ulakábyal
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: atúlakábyal
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: nakábyal
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: sikábyal

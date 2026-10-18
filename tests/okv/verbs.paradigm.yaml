@@ -1,0 +1,447 @@
+lemma: agea
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: agaya
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: agave
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: agea
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: ageo
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: agea
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: ageo
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: aga
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: agae
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: agena
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: agenu
+---
+lemma: agetena
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: ageteva
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: agera
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: agere
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: agetena
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: agentene
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: agea
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: age^ete
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: agetija
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: agetei
+---
+lemma: agitana
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: agitava
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: agitave
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: agitara
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: agitare
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: agitana
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: agitane
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: agita
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: agitae
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: agitaja
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: agitai
+---
+lemma: inda
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: inde-sora
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: inde-sova
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: inde-sona
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: inde-soa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: inde-suja
+---
+lemma: ki
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    tense: present
+  expected: kirona
+- features:
+    aspect: habitual
+    tense: past
+  expected: kog-u-haena
+- features:
+    aspect: habitual
+    tense: present
+  expected: kiagona
+- features:
+    aspect: perfective
+    tense: past
+  expected: kia
+- features:
+    aspect: perfective
+    tense: present
+  expected: kog-u-ehena
+- features:
+    aspect: perfective
+    voice: active
+  expected: kito
+- features:
+    aspect: progressive
+    mood: subjunctive
+  expected: kog-u-e
+- features:
+    aspect: progressive
+    voice: active
+  expected: kog-u-ma
+- features:
+    mood: imperative
+    number: singular
+  expected: ki
+- features:
+    mood: indicative
+  expected: kiana
+- features:
+    mood: indicative
+    tense: past
+  expected: kena
+- features:
+    mood: potential
+  expected: kei-sina
+- features:
+    polarity: negative
+  expected: kiae
+- features:
+    tense: future
+  expected: kirono
+- features:
+    tense: past
+  expected: kog-u-rona
+- features:
+    verb_form: infinitive
+  expected: kiari
+---
+lemma: te
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    tense: present
+  expected: terona
+- features:
+    aspect: habitual
+    tense: past
+  expected: toru-haena
+- features:
+    aspect: habitual
+    tense: present
+  expected: teagona
+- features:
+    aspect: perfective
+    tense: past
+  expected: tea
+- features:
+    aspect: perfective
+    tense: present
+  expected: toru-ehena
+- features:
+    aspect: perfective
+    voice: active
+  expected: teto
+- features:
+    aspect: progressive
+    mood: subjunctive
+  expected: tohue
+- features:
+    aspect: progressive
+    voice: active
+  expected: toru-ma
+- features:
+    mood: imperative
+    number: singular
+  expected: te
+- features:
+    mood: indicative
+  expected: tana
+- features:
+    mood: indicative
+    tense: past
+  expected: tena
+- features:
+    mood: potential
+  expected: tai-sina
+- features:
+    polarity: negative
+  expected: tae
+- features:
+    tense: future
+  expected: terono
+- features:
+    tense: past
+  expected: to-rona
+- features:
+    verb_form: infinitive
+  expected: tari
+---
+lemma: to
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    tense: present
+  expected: torona
+- features:
+    aspect: habitual
+    tense: past
+  expected: toru-haena
+- features:
+    aspect: habitual
+    tense: present
+  expected: toagona
+- features:
+    aspect: perfective
+    tense: past
+  expected: toa
+- features:
+    aspect: perfective
+    tense: present
+  expected: toru-ehena
+- features:
+    aspect: perfective
+    voice: active
+  expected: to-to
+- features:
+    aspect: progressive
+    mood: subjunctive
+  expected: toru-e
+- features:
+    aspect: progressive
+    voice: active
+  expected: toru-ma
+- features:
+    mood: imperative
+    number: singular
+  expected: to
+- features:
+    mood: indicative
+  expected: te-ana
+- features:
+    mood: indicative
+    tense: past
+  expected: toena
+- features:
+    mood: potential
+  expected: toa-sina
+- features:
+    polarity: negative
+  expected: toae
+- features:
+    tense: future
+  expected: torono
+- features:
+    tense: past
+  expected: toru-rona
+- features:
+    verb_form: infinitive
+  expected: toari
+---
+lemma: ve
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    tense: present
+  expected: verona
+- features:
+    aspect: habitual
+    tense: past
+  expected: vovu-haena
+- features:
+    aspect: habitual
+    tense: present
+  expected: veagona
+- features:
+    aspect: perfective
+    tense: past
+  expected: vea
+- features:
+    aspect: perfective
+    tense: present
+  expected: vovu-ehena
+- features:
+    aspect: perfective
+    voice: active
+  expected: vero
+- features:
+    aspect: progressive
+    mood: subjunctive
+  expected: vovue
+- features:
+    aspect: progressive
+    voice: active
+  expected: vovu-ma
+- features:
+    mood: imperative
+    number: singular
+  expected: ve
+- features:
+    mood: indicative
+  expected: veana
+- features:
+    mood: indicative
+    tense: past
+  expected: vena
+- features:
+    mood: potential
+  expected: vea-sina
+- features:
+    polarity: negative
+  expected: veae
+- features:
+    tense: future
+  expected: verono
+- features:
+    tense: past
+  expected: vovu-rona
+- features:
+    verb_form: infinitive
+  expected: veari

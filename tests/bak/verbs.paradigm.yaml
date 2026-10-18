@@ -1,0 +1,111 @@
+lemma: SIhay
+category: verbs
+cases:
+- features:
+    polarity: affirmative
+    verb_form: verbal_noun
+  expected: SIhay
+- features:
+    polarity: negative
+    verb_form: verbal_noun
+  expected: fthaMay
+---
+lemma: aJIhIY
+category: verbs
+cases:
+- features:
+    polarity: affirmative
+    verb_form: verbal_noun
+  expected: aJIhIY
+- features:
+    polarity: negative
+    verb_form: verbal_noun
+  expected: aJIMay
+---
+lemma: ii
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: mHCM
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: mIle
+---
+lemma: lIha
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: lIha
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: lIhaMa
+---
+lemma: lIhaFaH
+category: verbs
+cases:
+- features:
+    polarity: affirmative
+    verb_form: participle
+  expected: fIhaFaH
+- features:
+    polarity: negative
+    verb_form: participle
+  expected: sIhaMaFaH
+---
+lemma: lIhaFliq
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: lIhaFliq
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: lIhaMaFliq
+---
+lemma: lIhaMa"R
+category: verbs
+cases:
+- features:
+    polarity: affirmative
+    verb_form: verbal_noun
+  expected: lIhaMa"R
+- features:
+    polarity: negative
+    verb_form: verbal_noun
+  expected: aJIMa"R
+---
+lemma: lIhaMaha
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: negative
+  expected: lIhaMaharc
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+  expected: lIhaMahali

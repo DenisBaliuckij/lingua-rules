@@ -1,0 +1,35 @@
+lemma: ama
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kapa
+- features:
+    number: dual
+    person: second
+  expected: kapwa
+- features:
+    number: dual
+    person: third
+  expected: mpi
+- features:
+    number: plural
+    person: first
+  expected: pa:ukra
+- features:
+    number: plural
+    person: second
+  expected: pa:ukra
+- features:
+    number: plural
+    person: third
+  expected: kra
+- features:
+    number: singular
+    person: first
+  expected: ama
+- features:
+    number: singular
+    person: third
+  expected: m

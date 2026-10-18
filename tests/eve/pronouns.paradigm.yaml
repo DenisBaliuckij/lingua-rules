@@ -1,0 +1,136 @@
+lemma: bii
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: min-duk
+- features:
+    case: accusative
+  expected: min-u
+- features:
+    case: allative
+  expected: min-teki
+- features:
+    case: allative
+    number: singular
+  expected: mine-kle
+- features:
+    case: comitative
+  expected: min-n'un
+- features:
+    case: dative
+  expected: min-du
+- features:
+    case: elative
+  expected: min-gil!
+- features:
+    case: instrumental
+  expected: mine-e
+- features:
+    case: locative
+  expected: min-dule
+- features:
+    case: nominative
+  expected: bii#
+---
+lemma: erek
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: eduk
+- features:
+    case: accusative
+  expected: erew
+- features:
+    case: allative
+  expected: erteki
+- features:
+    case: allative
+    number: singular
+  expected: erekle
+- features:
+    case: comitative
+  expected: ern'un
+- features:
+    case: dative
+  expected: edu
+- features:
+    case: elative
+  expected: ergiI!
+- features:
+    case: instrumental
+  expected: ereI!
+- features:
+    case: locative
+  expected: eIe
+- features:
+    case: nominative
+  expected: erek#
+---
+lemma: meeni
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: meen-duk-i
+- features:
+    case: allative
+  expected: meen-teki-j
+- features:
+    case: allative
+    number: singular
+  expected: meene-kle-j
+- features:
+    case: comitative
+  expected: meen-n'u-mi
+- features:
+    case: dative
+  expected: meendi
+- features:
+    case: elative
+  expected: meen-gid'-i
+- features:
+    case: instrumental
+  expected: meend'i
+- features:
+    case: locative
+  expected: meen-dula-j
+- features:
+    case: nominative
+  expected: meen-#-i
+---
+lemma: 'no'
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: noOan-duku-n
+- features:
+    case: accusative
+  expected: noo-ma-n
+- features:
+    case: allative
+  expected: nooan-taki-n
+- features:
+    case: allative
+    number: singular
+  expected: 'no'
+- features:
+    case: comitative
+  expected: noo-n'un-ni
+- features:
+    case: dative
+  expected: nooan-du-n
+- features:
+    case: elative
+  expected: 'no'
+- features:
+    case: instrumental
+  expected: nooan-d'i-n
+- features:
+    case: locative
+  expected: nooan-dula-n
+- features:
+    case: nominative
+  expected: nooa-#-n

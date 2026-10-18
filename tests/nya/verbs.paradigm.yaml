@@ -1,0 +1,456 @@
+lemma: bwela
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: bwelani
+- features:
+    mood: imperative
+    number: singular
+  expected: bwela
+---
+lemma: dya
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: idyani
+- features:
+    mood: imperative
+    number: singular
+  expected: idya
+---
+lemma: ima
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: imani
+- features:
+    mood: imperative
+    number: singular
+  expected: ima
+---
+lemma: kudzaswa
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: dual
+    person: first
+    polarity: negative
+    tense: future
+  expected: sitikaswa
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+    tense: future
+  expected: simukaswa
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: ikaswa
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: negative
+    tense: future
+  expected: sitidzaswa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: future
+  expected: sidzidzasAva
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: future
+  expected: sudzaswa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: future
+  expected: chidzaswa
+---
+lemma: kuswa
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ndirikuswa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: sindirikuswa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: satoswa
+- features:
+    polarity: affirmative
+    verb_form: infinitive
+  expected: kuswa
+- features:
+    polarity: negative
+    verb_form: infinitive
+  expected: sikuswa
+---
+lemma: manga
+category: verbs
+cases:
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: umanga
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: sumanga
+---
+lemma: swa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    noun_class: class_1
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: aswa
+- features:
+    mood: indicative
+    noun_class: class_1
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: saswa
+- features:
+    mood: indicative
+    noun_class: class_1
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: aswa
+- features:
+    mood: indicative
+    noun_class: class_1
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: siaswa
+- features:
+    mood: indicative
+    noun_class: class_2
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: iswa
+- features:
+    mood: indicative
+    noun_class: class_2
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: siiswa
+- features:
+    mood: indicative
+    noun_class: class_2
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: uswa
+- features:
+    mood: indicative
+    noun_class: class_2
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: suswa
+- features:
+    mood: indicative
+    noun_class: class_3
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: ziswa
+- features:
+    mood: indicative
+    noun_class: class_3
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: siziswa
+- features:
+    mood: indicative
+    noun_class: class_3
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: iswa
+- features:
+    mood: indicative
+    noun_class: class_3
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: siiswa
+- features:
+    mood: indicative
+    noun_class: class_4
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: ziswa
+- features:
+    mood: indicative
+    noun_class: class_4
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: siziswa
+- features:
+    mood: indicative
+    noun_class: class_4
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: chiswa
+- features:
+    mood: indicative
+    noun_class: class_4
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: sichiswa
+- features:
+    mood: indicative
+    noun_class: class_5
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: aswa
+- features:
+    mood: indicative
+    noun_class: class_5
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: siaswa
+- features:
+    mood: indicative
+    noun_class: class_5
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: uswa
+- features:
+    mood: indicative
+    noun_class: class_5
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: suswa
+- features:
+    mood: indicative
+    noun_class: class_6
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: aswa
+- features:
+    mood: indicative
+    noun_class: class_6
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: saswa
+- features:
+    mood: indicative
+    noun_class: class_6
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: kuswa
+- features:
+    mood: indicative
+    noun_class: class_6
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: sikuswa
+- features:
+    mood: indicative
+    noun_class: class_7
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: tiswa
+- features:
+    mood: indicative
+    noun_class: class_7
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: sitiswa
+- features:
+    mood: indicative
+    noun_class: class_7
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: kaswa
+- features:
+    mood: indicative
+    noun_class: class_7
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: sikaswa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: tiswa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: sitiswa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: muswa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: musaswa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ndiswa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: sindiswa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: uswa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: suswa
+---
+lemma: swe
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: tiswe
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: muswe
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: aswe
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: ndiswe
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: uswe
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: aswe

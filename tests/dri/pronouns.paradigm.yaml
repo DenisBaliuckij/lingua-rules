@@ -1,0 +1,275 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    case: accusative
+    number: plural
+    person: third
+  expected: ca
+- features:
+    animacy: inanimate
+    case: accusative
+    number: singular
+    person: third
+  expected: e
+- features:
+    animacy: inanimate
+    case: nominative
+    number: plural
+    person: third
+  expected: a
+- features:
+    animacy: inanimate
+    case: nominative
+    number: singular
+    person: third
+  expected: a
+- features:
+    number: plural
+    person: second
+  expected: a
+- features:
+    number: singular
+    person: third
+  expected: a
+---
+lemma: am
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: am
+---
+lemma: an
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: an
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: an
+---
+lemma: av
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: av
+---
+lemma: a̱m
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: a
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: u
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: i
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: u
+- features:
+    number: plural
+    person: first
+  expected: c
+- features:
+    number: plural
+    person: second
+  expected: a̱n
+- features:
+    number: singular
+    person: first
+  expected: a̱m
+- features:
+    number: singular
+    person: second
+  expected: a̱v
+---
+lemma: ca
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ca
+---
+lemma: d
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: d
+---
+lemma: e
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: e
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: e
+---
+lemma: m
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: co
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: me
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: c
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: m
+---
+lemma: me
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: co
+- features:
+    number: singular
+    person: first
+  expected: me
+---
+lemma: ri
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: co
+- features:
+    number: singular
+    person: first
+  expected: ri
+---
+lemma: rovo
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: rovo
+---
+lemma: ru
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: n
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: ru
+---
+lemma: s
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: s
+---
+lemma: u
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    case: accusative
+    number: plural
+    person: third
+  expected: a
+- features:
+    animacy: animate
+    case: nominative
+    number: plural
+    person: third
+  expected: a
+- features:
+    animacy: animate
+    case: nominative
+    number: singular
+    person: third
+  expected: u
+- features:
+    number: singular
+    person: third
+  expected: u
+---
+lemma: v
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: 'no'
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: vo
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: an
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: v
+---
+lemma: vo
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: 'no'
+- features:
+    number: singular
+    person: second
+  expected: vo

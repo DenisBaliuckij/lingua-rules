@@ -1,0 +1,101 @@
+lemma: dukc
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: jēnĵ
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: jez
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: jez
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: jer
+- features:
+    case: instrumental
+    number: plural
+    person: second
+  expected: jewkc
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: jez
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: dukc
+---
+lemma: es
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: kcēn
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: inew
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: kcew
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: y-inēn
+---
+lemma: mekc
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: mēnĵ
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: mez
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: mez
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: mer
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: mewkc
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: mez
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: mekc

@@ -1,0 +1,118 @@
+lemma: ka
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: kal
+- features:
+    number: plural
+  expected: ki
+- features:
+    number: singular
+  expected: ka
+---
+lemma: maa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mon
+- features:
+    number: plural
+    person: second
+  expected: mon
+- features:
+    number: plural
+    person: third
+  expected: mon
+- features:
+    number: singular
+    person: first
+  expected: maa
+- features:
+    number: singular
+    person: second
+  expected: maa
+- features:
+    number: singular
+    person: third
+  expected: maa
+---
+lemma: mba
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: mba
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: min
+- features:
+    number: plural
+    person: second
+  expected: 'on'
+- features:
+    number: plural
+    person: third
+  expected: be
+- features:
+    number: singular
+    person: first
+  expected: mi
+- features:
+    number: singular
+    person: second
+  expected: a
+---
+lemma: mo
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: ndi
+- features:
+    number: plural
+  expected: ndu
+- features:
+    number: plural
+    person: third
+  expected: ɓe
+- features:
+    number: singular
+  expected: nde
+- features:
+    number: singular
+    person: third
+  expected: mo
+---
+lemma: ngal
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: ngel
+- features:
+    number: plural
+  expected: nge
+- features:
+    number: singular
+  expected: ngal
+---
+lemma: ɗan
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: ɗe
+- features:
+    number: plural
+  expected: ɗi
+- features:
+    number: singular
+  expected: ɗan

@@ -1,0 +1,410 @@
+lemma: fune
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: fune-t-we-t
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: fune-rah-t
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: fune-me-t
+---
+lemma: hay
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kahuk-we-r
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: xe'meta
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: xe'mestne
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: xe'mel'a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: xhi-rah-r
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: hay-me-r
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: fahu-r
+- features:
+    number: dual
+    person: first
+  expected: xal'Ye'nentstn
+- features:
+    number: dual
+    person: second
+  expected: xe'mestntp
+- features:
+    number: plural
+    person: first
+  expected: xemt'nemke
+- features:
+    number: plural
+    person: second
+  expected: xeme'kemtm
+- features:
+    number: singular
+    person: first
+  expected: xarye'antn
+- features:
+    number: singular
+    person: second
+  expected: xe'mentR
+---
+lemma: kit
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kitt
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: kitf
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kitm
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kitr
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: kitne
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: kitf.i.n
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kitnem
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kitke
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kita
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kitn
+---
+lemma: may
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kamuk-we-r
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: mi-rah-r
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: may-me-r
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: famu-r
+---
+lemma: ptthay
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: e-w-t
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: £-RY
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: e-w-R
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: p+t+'gi-n£
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: pttt'gi-w-ne
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: i-ein
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: e-Obtn
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: £-m
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: e
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: p+t+'gi-n£m
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: pttt'gi-w-nem
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: i-kE
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: e
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: £-m
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: e
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ptt+'gi-a
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: pttt'gi-w-a
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: i-¢
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: e-w-n
+---
+lemma: tat-we
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: tat-we-f-f.i.n
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: tat-we-m-ke
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tat-we--n
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: tat-we-nen-f
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: tat-we-f.i.n-ne
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tat-we-nem-m
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tat-we-kem-nem
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tat-we-n-a
+---
+lemma: wayn
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wanuk-we-r
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: wayn-rah-r
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wayn-me-r
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wanu-r

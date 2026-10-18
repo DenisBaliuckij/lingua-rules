@@ -1,0 +1,107 @@
+lemma: lama
+category: pronouns
+cases:
+- features:
+    case: direct
+    number: plural
+    person: second
+  expected: lama
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: lama
+---
+lemma: mas
+category: pronouns
+cases:
+- features:
+    case: direct
+    number: plural
+    person: first
+  expected: mas
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: mas
+---
+lemma: wa
+category: pronouns
+cases:
+- features:
+    case: direct
+    number: plural
+    person: third
+  expected: wa
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: wev
+---
+lemma: wi
+category: pronouns
+cases:
+- features:
+    case: direct
+    number: singular
+    person: first
+  expected: wi
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: inti
+---
+lemma: ya
+category: pronouns
+cases:
+- features:
+    case: direct
+    number: singular
+    person: third
+  expected: ya
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: wi
+---
+lemma: yam
+category: pronouns
+cases:
+- features:
+    case: direct
+    number: singular
+  expected: yam
+- features:
+    case: oblique
+    number: singular
+  expected: mam
+---
+lemma: yid
+category: pronouns
+cases:
+- features:
+    case: direct
+    number: singular
+  expected: yid
+- features:
+    case: oblique
+    number: singular
+  expected: mi
+---
+lemma: yu
+category: pronouns
+cases:
+- features:
+    case: direct
+    number: singular
+    person: second
+  expected: yu
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: tu

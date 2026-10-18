@@ -1,0 +1,27 @@
+lemma: nze
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ffe
+- features:
+    number: plural
+    person: second
+  expected: mwe
+- features:
+    number: plural
+    person: third
+  expected: bba
+- features:
+    number: singular
+    person: first
+  expected: nze
+- features:
+    number: singular
+    person: second
+  expected: ggwe
+- features:
+    number: singular
+    person: third
+  expected: ye

@@ -1,0 +1,724 @@
+lemma: be
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: were
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: are
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: were
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: are
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: were
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: are
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: was
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: am
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: were
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: are
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: was
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: is
+---
+lemma: become
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: became
+- features:
+    tense: present
+  expected: become
+- features:
+    verb_form: past_participle
+  expected: become
+---
+lemma: begin
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: began
+- features:
+    tense: present
+  expected: begin
+- features:
+    verb_form: past_participle
+  expected: begun
+---
+lemma: bring
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: brought
+- features:
+    tense: present
+  expected: bring
+- features:
+    verb_form: past_participle
+  expected: brought
+---
+lemma: buy
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: bought
+- features:
+    tense: present
+  expected: buy
+- features:
+    verb_form: past_participle
+  expected: bought
+---
+lemma: catch
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: caught
+- features:
+    tense: present
+  expected: catch
+- features:
+    verb_form: past_participle
+  expected: caught
+---
+lemma: come
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: came
+- features:
+    tense: present
+  expected: come
+- features:
+    verb_form: past_participle
+  expected: come
+---
+lemma: cost
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: cost
+- features:
+    tense: present
+  expected: cost
+- features:
+    verb_form: past_participle
+  expected: cost
+---
+lemma: do
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: do
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: don't
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: do
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: don't
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: do
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: don't
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: do
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: don't
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: do
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: don't
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: does
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: doesn't
+- features:
+    tense: past
+  expected: did
+- features:
+    tense: present
+  expected: do
+- features:
+    verb_form: past_participle
+  expected: done
+---
+lemma: draw
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: drew
+- features:
+    tense: present
+  expected: draw
+- features:
+    verb_form: past_participle
+  expected: drawn
+---
+lemma: eat
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: ate
+- features:
+    tense: present
+  expected: eat
+- features:
+    verb_form: past_participle
+  expected: eaten
+---
+lemma: fall
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: fell
+- features:
+    tense: present
+  expected: fall
+- features:
+    verb_form: past_participle
+  expected: fallen
+---
+lemma: give
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: gave
+- features:
+    tense: present
+  expected: give
+- features:
+    verb_form: past_participle
+  expected: given
+---
+lemma: go
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: went
+- features:
+    tense: present
+  expected: go
+- features:
+    verb_form: past_participle
+  expected: gone
+---
+lemma: have
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: have
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: haven't
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: have
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: haven't
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: have
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: haven't
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: have
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: haven't
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: have
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: haven't
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: has
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: hasn't
+---
+lemma: hear
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: heard
+- features:
+    tense: present
+  expected: hear
+- features:
+    verb_form: past_participle
+  expected: heard
+---
+lemma: keep
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: kept
+- features:
+    tense: present
+  expected: keep
+- features:
+    verb_form: past_participle
+  expected: kept
+---
+lemma: know
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: knew
+- features:
+    tense: present
+  expected: know
+- features:
+    verb_form: past_participle
+  expected: known
+---
+lemma: make
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: made
+- features:
+    tense: present
+  expected: make
+- features:
+    verb_form: past_participle
+  expected: made
+---
+lemma: run
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: ran
+- features:
+    tense: present
+  expected: run
+- features:
+    verb_form: past_participle
+  expected: run
+---
+lemma: say
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: said
+- features:
+    tense: present
+  expected: say
+- features:
+    verb_form: past_participle
+  expected: said
+---
+lemma: see
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: saw
+- features:
+    tense: present
+  expected: see
+- features:
+    verb_form: past_participle
+  expected: seen
+---
+lemma: send
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: sent
+- features:
+    tense: present
+  expected: send
+- features:
+    verb_form: past_participle
+  expected: sent
+---
+lemma: sing
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: sang
+- features:
+    tense: present
+  expected: sing
+- features:
+    verb_form: past_participle
+  expected: sung
+---
+lemma: take
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: took
+- features:
+    tense: present
+  expected: take
+- features:
+    verb_form: past_participle
+  expected: taken
+---
+lemma: talk
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: talked
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: talk
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: talked
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: talk
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: talked
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: talk
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: talked
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: talk
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: talked
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: talk
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: talked
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: talks
+---
+lemma: think
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: thought
+- features:
+    tense: present
+  expected: think
+- features:
+    verb_form: past_participle
+  expected: thought
+---
+lemma: walk
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: walked
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: walk
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: walked
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: walk
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: walked
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: walk
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: walked
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: walk
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: walked
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: walk
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: walked
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: walks
+---
+lemma: write
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: wrote
+- features:
+    tense: present
+  expected: write
+- features:
+    verb_form: past_participle
+  expected: written

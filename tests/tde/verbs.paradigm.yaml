@@ -1,0 +1,678 @@
+lemma: bàlì-yè
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: bàlì-yè-tèy-y-ɛ̂
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: bàlì-yè-tè:-n-ɛ̂
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: bàlì-yè-téy-yɛ̀-yⁿ
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: bàlì-yè-té:-nɛ̀-yⁿ
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: bàlì-yè-téy-yɛ̀-w
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: bàlì-yè-té:-nɛ̀-w
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: bàlì-yè-tèy-yɛ́-Æ
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: bàlì-yè-tè:-nɛ́-Æ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: bàlì-yè-tè:-n-â
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: bàlì-yè-té:-nî-yⁿ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: bàlì-yè-té:-nî-w
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: bàlì-yè-tè:-nì-Æ
+---
+lemma: bɛ̀
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: bɛ̀ɛ̂
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: bɛ̀yⁿ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: bɛ̀w
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bɛ̀:-Æ
+---
+lemma: cèy
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: cèyâ
+- features:
+    number: singular
+    person: first
+  expected: cé-ỳⁿ
+- features:
+    number: singular
+    person: second
+  expected: cé-w
+- features:
+    number: singular
+    person: third
+  expected: cèyÆ
+---
+lemma: já:ló
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: jà:lá-yⁿ
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: jà:là
+---
+lemma: káy-rá
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kày-rá-yⁿ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: kày-rá-y
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kày-rà
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: kày-rà
+---
+lemma: nóyó
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: nòyó-yⁿ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: nóyó-lâ-y
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: nóyólâ
+---
+lemma: nɔ́:-y
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: nɔ́:-wɛ̀-ɛ̂
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: nɔ́:-wɛ̀-y
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: nɔ́:-rɛ̀-yⁿ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: nɔ́:-wɛ̀-w
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: nɔ́:-rɛ̀-w
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: nɔ́:-wɛ̀-Æ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: nɔ́:-rɛ̀-Æ
+---
+lemma: sâ
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: sà:-n-â
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: sà:-nâ-yⁿ
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: sà:-nà-w
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: sà:-nà
+---
+lemma: sé:gó
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: sé:gò-yⁿ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: sé:gò-là-y
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: sé:gó
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: sé:gólá
+---
+lemma: sígó
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: sìgó-yⁿ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: sígó-lâ-y
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: sígólâ
+---
+lemma: sígó-m
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: sígó-m-bò
+- features:
+    aspect: imperfective
+    polarity: negative
+  expected: sígó-mú-râ
+- features:
+    aspect: perfective
+  expected: sígè-mì
+- features:
+    mood: imperative
+  expected: sígò-m
+---
+lemma: sógó
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: sògó-yⁿ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: sógó-lâ-y
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: sógólâ
+---
+lemma: tómbó
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tòmbó-yⁿ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: tómbó-lâ-y
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tòmbò
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: tómbólâ
+---
+lemma: yèy
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: yèyâ
+- features:
+    number: singular
+    person: first
+  expected: yé-ỳⁿ
+- features:
+    number: singular
+    person: second
+  expected: yé-ẁ
+- features:
+    number: singular
+    person: third
+  expected: yèyÆ
+---
+lemma: yégá-m
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: yégá-m-bò
+- features:
+    aspect: imperfective
+    polarity: negative
+  expected: yégá-mú-râ
+---
+lemma: yógó-mú
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: yògò-mú-yⁿ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: yógó-m-lâ-y
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: yógó-m-lâ
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: yógó-mì-yàyⁿ
+---
+lemma: yɛ́b-b
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: yɛ́b-bɛ̀-ɛ̂
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: yɛ́b-bɛ̀-yⁿ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: yɛ́b-bɛ̀-w
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: yɛ́b-bɛ̀-Æ
+---
+lemma: ígí-yɔ́
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: ígí-yɔ́-lâ-y
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: ígí-yɔ́-lâ
+---
+lemma: ígílé
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: ígílé-mɛ̀-yⁿ
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: ígílé-mɛ̀-nɛ̀-yⁿ
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: ígílé-mɛ̀-w
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: ígílé-mɛ̀-nɛ̀-w
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ígílé-mɛ̀-Æ
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: ígílé-mɛ̀-nɛ̀
+---
+lemma: ímbɔ́
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: ímbɔ́-lâ-y
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: ímbɔ́lâ
+---
+lemma: ùnì
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: ùnì-tè:-n-â
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ùnì-s-ɛ̂
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: ùnì-té:-nî-yⁿ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ùnì-sɛ̌-yⁿ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: ùnì-té:-nî-w
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ùnì-sɛ̌-w
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: ùnì-tè:-nì-Æ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ùnìsɛ́
+---
+lemma: ún
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ùnú-yⁿ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: ún-nâ-y
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ùnù
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: únnâ
+---
+lemma: ɲɔ́
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ɲá-yⁿ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: ɲɔ́:-lâ-y
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ɲà
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: ɲɔ́:-lâ

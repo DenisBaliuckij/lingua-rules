@@ -1,0 +1,157 @@
+lemma: bite
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: bit-i-li
+- features:
+    case: ergative
+    number: plural
+    person: second
+  expected: bite
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: bite
+- features:
+    number: plural
+    person: second
+  expected: bii-i-ra
+---
+lemma: den
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: di-li
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: den
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: den
+- features:
+    number: singular
+    person: first
+  expected: di-ra
+---
+lemma: ew
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+  expected: ere
+- features:
+    gender: feminine
+    number: dual
+  expected: eji
+- features:
+    gender: feminine
+    number: plural
+  expected: uju
+- features:
+    gender: feminine
+    number: singular
+  expected: ej
+- features:
+    gender: masculine
+    number: dual
+  expected: ewi
+- features:
+    gender: masculine
+    number: plural
+  expected: ewu
+- features:
+    gender: masculine
+    number: singular
+  expected: ew
+- features:
+    gender: neuter
+    number: plural
+  expected: ebu
+- features:
+    gender: neuter
+    number: singular
+  expected: ebi
+- features:
+    number: plural
+  expected: ebe
+---
+lemma: iLe
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: iL-i-li
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: iLe
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: iLe
+- features:
+    number: plural
+    person: first
+  expected: iL-i-ra
+---
+lemma: ise
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: is-i-li
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: ise
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ise
+- features:
+    number: plural
+    person: first
+  expected: is-i-ra
+---
+lemma: min
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: ctu-li
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: min
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: min
+- features:
+    number: singular
+    person: second
+  expected: du-ra

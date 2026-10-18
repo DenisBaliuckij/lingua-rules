@@ -1,0 +1,670 @@
+lemma: kabóm
+category: nouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: first
+  expected: tú-kabom
+- features:
+    animacy: animate
+    number: dual
+    person: second
+  expected: matúm-kabom
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: u-kabom
+- features:
+    animacy: animate
+    number: plural
+    person: first
+  expected: tú-kabom
+- features:
+    animacy: animate
+    number: plural
+    person: second
+  expected: mim-kabom
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: atú-kabom
+- features:
+    animacy: animate
+    number: singular
+    person: first
+  expected: tu-kabom
+- features:
+    animacy: animate
+    number: singular
+    person: second
+  expected: mum-kabom
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: kabom
+- features:
+    animacy: inanimate
+    number: dual
+    person: first
+  expected: um-kabom
+- features:
+    animacy: inanimate
+    number: dual
+    person: second
+  expected: matúm-kabom
+- features:
+    animacy: inanimate
+    number: plural
+    person: first
+  expected: ám-kabom
+- features:
+    animacy: inanimate
+    number: plural
+    person: second
+  expected: mim-kabom
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: kabom
+---
+lemma: kamú
+category: nouns
+cases:
+- features:
+    number: dual
+    possessor_number: singular
+    possessor_person: first
+  expected: tú-kamu-n
+- features:
+    number: dual
+    possessor_number: singular
+    possessor_person: second
+  expected: mum-kamu-n
+- features:
+    number: dual
+    possessor_number: singular
+    possessor_person: third
+  expected: u-kamu-n
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: kamu-n
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: matúm-kamu-n
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: atú-kamu-n
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: tu-kamu-n
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: kamúm
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: i-kamu
+---
+lemma: kái
+category: nouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: u-kai-n
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: atú-kai-n
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: kai
+- features:
+    animacy: inanimate
+    number: dual
+    person: third
+  expected: i-kai
+---
+lemma: kóya
+category: nouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: u-koya-n
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: atú-koya-n
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: koya
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: koya
+- features:
+    number: dual
+    person: first
+  expected: tu-koya-n
+- features:
+    number: dual
+    person: second
+  expected: mum-koya-n
+- features:
+    number: plural
+    person: first
+  expected: tú-koya-n
+- features:
+    number: plural
+    person: second
+  expected: matúm-koya-n
+- features:
+    number: singular
+    person: first
+  expected: kóyak\H
+- features:
+    number: singular
+    person: second
+  expected: kóyam\H
+---
+lemma: lú
+category: nouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: u-lu-n
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: atú-lu-n
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: lu
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: lu
+- features:
+    number: dual
+    person: first
+  expected: tut-lu-n
+- features:
+    number: dual
+    person: second
+  expected: mum-lu-n
+- features:
+    number: plural
+    person: first
+  expected: tút-lu-n
+- features:
+    number: plural
+    person: second
+  expected: matúm-lu-n
+- features:
+    number: singular
+    person: first
+  expected: lúk\H
+- features:
+    number: singular
+    person: second
+  expected: lúm\H
+---
+lemma: má
+category: nouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: u-ma-n
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: atú-ma-n
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: i-ma
+- features:
+    number: dual
+    person: first
+  expected: tut-ma-n
+- features:
+    number: dual
+    person: second
+  expected: matúm-ma-n
+- features:
+    number: plural
+    person: first
+  expected: t-ma-n
+- features:
+    number: plural
+    person: second
+  expected: mim-ma-n
+- features:
+    number: singular
+    person: first
+  expected: ni-k
+- features:
+    number: singular
+    person: second
+  expected: mum-ma-n
+---
+lemma: nyá
+category: nouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: u-nya-n
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: atú-nya-n
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: i-nya
+- features:
+    number: dual
+    person: first
+  expected: tut-nya-n
+- features:
+    number: dual
+    person: second
+  expected: matúm-nya-n
+- features:
+    number: plural
+    person: first
+  expected: tút-nya-n
+- features:
+    number: plural
+    person: second
+  expected: mim-nya-n
+- features:
+    number: singular
+    person: first
+  expected: ni-k
+- features:
+    number: singular
+    person: second
+  expected: mum-nya-n
+---
+lemma: nyái
+category: nouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: first
+  expected: tut-nyai-n
+- features:
+    animacy: animate
+    number: dual
+    person: second
+  expected: matúm-nyai-n
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: u-nyai-n
+- features:
+    animacy: animate
+    number: plural
+    person: first
+  expected: tút-nyai-n
+- features:
+    animacy: animate
+    number: plural
+    person: second
+  expected: mim-nyai-n
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: atú-nyai-n
+- features:
+    animacy: animate
+    number: singular
+    person: second
+  expected: mum-nyai-n
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: nyai
+- features:
+    animacy: inanimate
+    number: dual
+    person: first
+  expected: um-nyai-n
+- features:
+    animacy: inanimate
+    number: dual
+    person: second
+  expected: matúm-nyai-n
+- features:
+    animacy: inanimate
+    number: plural
+    person: first
+  expected: ám-nyai-n
+- features:
+    animacy: inanimate
+    number: plural
+    person: second
+  expected: mim-nyai-n
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: nyai-n
+- features:
+    animacy: inanimate
+    number: singular
+    person: first
+  expected: nyáik
+- features:
+    animacy: inanimate
+    number: singular
+    person: second
+  expected: nyáim
+---
+lemma: sú
+category: nouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: u-su-n
+- features:
+    animacy: animate
+    number: plural
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: atú-su-n
+- features:
+    animacy: animate
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: su
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: i-su
+- features:
+    number: dual
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: atúm-su-n
+- features:
+    number: dual
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: tu-su-n
+- features:
+    number: dual
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: mum-su-n
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: ám-su-n
+- features:
+    number: plural
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: su-n
+- features:
+    number: plural
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: matúm-su-n
+- features:
+    number: singular
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: um-su-n
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: súk\H
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: súm\H
+---
+lemma: tají
+category: nouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: u-taji-n
+- features:
+    animacy: animate
+    number: plural
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: atú-taji-n
+- features:
+    animacy: animate
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: taji
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: i-taji
+- features:
+    number: dual
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: atúm-taji-n
+- features:
+    number: dual
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: tu-taji-n
+- features:
+    number: dual
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: mum-taji-n
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: ám-taji-n
+- features:
+    number: plural
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: tú-taji-n
+- features:
+    number: plural
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: matúm-taji-n
+- features:
+    number: singular
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: um-taji-n
+---
+lemma: talatú
+category: nouns
+cases:
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: talatu
+- features:
+    animacy: inanimate
+    number: singular
+    person: first
+  expected: tálatu-k
+- features:
+    animacy: inanimate
+    number: singular
+    person: second
+  expected: tálatu-m
+---
+lemma: yói
+category: nouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: first
+  expected: tú-yoi-n
+- features:
+    animacy: animate
+    number: dual
+    person: second
+  expected: matúm-yoi-n
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: u-yoi-n
+- features:
+    animacy: animate
+    number: plural
+    person: first
+  expected: tú-yoi-n
+- features:
+    animacy: animate
+    number: plural
+    person: second
+  expected: mim-yoi-n
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: atú-yoi-n
+- features:
+    animacy: animate
+    number: singular
+    person: first
+  expected: tu-yoi-n
+- features:
+    animacy: animate
+    number: singular
+    person: second
+  expected: mum-yoi-n
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: yoi
+- features:
+    animacy: inanimate
+    number: dual
+    person: first
+  expected: um-yoi-n
+- features:
+    animacy: inanimate
+    number: dual
+    person: second
+  expected: matúm-yoi-n
+- features:
+    animacy: inanimate
+    number: plural
+    person: first
+  expected: ám-yoi-n
+- features:
+    animacy: inanimate
+    number: plural
+    person: second
+  expected: mim-yoi-n
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: yoi-n
+- features:
+    animacy: inanimate
+    number: singular
+    person: first
+  expected: yóik
+- features:
+    animacy: inanimate
+    number: singular
+    person: second
+  expected: yóim

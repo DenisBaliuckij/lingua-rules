@@ -1,0 +1,357 @@
+lemma: an
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ac
+- features:
+    number: plural
+    person: second
+  expected: am
+- features:
+    number: singular
+    person: first
+  expected: an
+- features:
+    number: singular
+    person: second
+  expected: ap
+---
+lemma: ant
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: att
+- features:
+    number: plural
+    person: second
+  expected: amt
+- features:
+    number: plural
+    person: third
+  expected: at
+- features:
+    number: singular
+    person: first
+  expected: ant
+- features:
+    number: singular
+    person: second
+  expected: apt
+- features:
+    number: singular
+    person: third
+  expected: at
+---
+lemma: ce'ewid
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+  expected: ce'ewi
+- features:
+    aspect: perfective
+    number: singular
+  expected: ce'ewi
+---
+lemma: cicwi
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: cicwi
+- features:
+    aspect: perfective
+  expected: cicwi
+---
+lemma: gagswua
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: gagswua
+- features:
+    aspect: perfective
+  expected: gagswua
+---
+lemma: golon
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+  expected: golo
+- features:
+    aspect: perfective
+    number: singular
+  expected: golo
+---
+lemma: he:lwuin
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+  expected: hehelwui
+- features:
+    aspect: perfective
+    number: singular
+  expected: he:lwui
+---
+lemma: hi:nk
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+  expected: hihin
+- features:
+    aspect: perfective
+    number: singular
+  expected: hi:n
+---
+lemma: him
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+  expected: hihi
+- features:
+    aspect: perfective
+    number: singular
+  expected: hi
+---
+lemma: huhu'id
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+  expected: huhu'i
+- features:
+    aspect: perfective
+    number: singular
+  expected: huhu'i
+---
+lemma: ju:k
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: singular
+  expected: ju:k
+- features:
+    aspect: perfective
+    number: singular
+  expected: ju
+---
+lemma: ka
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: ka
+- features:
+    aspect: perfective
+  expected: ka
+---
+lemma: ko'a
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+  expected: ko'a
+- features:
+    aspect: imperfective
+    number: singular
+  expected: ko'a
+- features:
+    aspect: perfective
+    number: plural
+  expected: hu
+- features:
+    aspect: perfective
+    number: singular
+  expected: hu
+---
+lemma: ko:s
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+  expected: ko:ks
+- features:
+    aspect: imperfective
+    number: singular
+  expected: ko:s
+- features:
+    aspect: perfective
+    number: plural
+  expected: ko:k
+- features:
+    aspect: perfective
+    number: singular
+  expected: koi
+---
+lemma: med
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+  expected: wo:po
+- features:
+    aspect: imperfective
+    number: singular
+  expected: med
+- features:
+    aspect: perfective
+    number: plural
+  expected: wo:p
+- features:
+    aspect: perfective
+    number: singular
+  expected: me
+---
+lemma: na:d
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: singular
+  expected: na:d
+- features:
+    aspect: perfective
+    number: plural
+  expected: nai
+- features:
+    aspect: perfective
+    number: singular
+  expected: nai
+---
+lemma: neid
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+  expected: nei
+- features:
+    aspect: perfective
+    number: singular
+  expected: nei
+---
+lemma: neok
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+  expected: neiieo
+- features:
+    aspect: perfective
+    number: singular
+  expected: neo
+---
+lemma: si'i
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+  expected: si:i
+- features:
+    aspect: imperfective
+    number: singular
+  expected: si'i
+- features:
+    aspect: perfective
+    number: plural
+  expected: si
+- features:
+    aspect: perfective
+    number: singular
+  expected: si
+---
+lemma: si:sp
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+  expected: sisiş
+- features:
+    aspect: perfective
+    number: singular
+  expected: si:s
+---
+lemma: sonwuin
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+  expected: sonwui
+- features:
+    aspect: perfective
+    number: singular
+  expected: sonwui
+---
+lemma: wo
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+  expected: wo:p
+- features:
+    aspect: imperfective
+    number: singular
+  expected: wo
+- features:
+    aspect: perfective
+    number: plural
+  expected: woi
+- features:
+    aspect: perfective
+    number: singular
+  expected: woi
+---
+lemma: woson
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+  expected: woso
+- features:
+    aspect: perfective
+    number: singular
+  expected: woso
+---
+lemma: wupda
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+  expected: wupda
+- features:
+    aspect: imperfective
+    number: singular
+  expected: wupda
+- features:
+    aspect: perfective
+    number: plural
+  expected: wu
+- features:
+    aspect: perfective
+    number: singular
+  expected: wu
