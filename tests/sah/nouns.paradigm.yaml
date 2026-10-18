@@ -1,0 +1,95 @@
+lemma: balyksyt
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: balyksyt-tar-byt
+- features:
+    number: plural
+    person: second
+  expected: balyksyt-tar-gyt
+- features:
+    number: plural
+    person: third
+  expected: balyksyttar
+- features:
+    number: singular
+    person: first
+  expected: balyksyp-pyn
+- features:
+    number: singular
+    person: second
+  expected: balyksyk-kyn
+- features:
+    number: singular
+    person: third
+  expected: balyksyt
+---
+lemma: oloppos
+category: nouns
+cases:
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: olopposput
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: olopposkut
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: oloppostor
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: olopposum
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: olopposuŋ
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: oloppos
+---
+lemma: oloppos-tor
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: oloppostor-but
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: oloppostor-gut
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: oloppos-tor
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: oloppostor-um
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: oloppostor-uŋ
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: oloppostor

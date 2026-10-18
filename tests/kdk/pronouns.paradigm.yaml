@@ -1,0 +1,66 @@
+lemma: I
+category: pronouns
+cases:
+- features:
+    formality: formal
+    number: plural
+    person: third
+  expected: Jone
+- features:
+    formality: formal
+    number: singular
+    person: third
+  expected: Itô
+- features:
+    number: plural
+    person: third
+  expected: Ne
+- features:
+    number: singular
+    person: third
+  expected: I
+---
+lemma: go
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: èkûng
+- features:
+    number: plural
+    person: first
+  expected: gé
+- features:
+    number: singular
+    person: first
+  expected: go
+---
+lemma: gu
+category: pronouns
+cases:
+- features:
+    formality: formal
+    number: plural
+    person: second
+  expected: èkwa
+- features:
+    formality: formal
+    number: singular
+    person: second
+  expected: ngwé
+- features:
+    formality: informal
+    number: dual
+    person: second
+  expected: nga
+- features:
+    formality: informal
+    number: plural
+    person: second
+  expected: ngo
+- features:
+    formality: informal
+    number: singular
+    person: second
+  expected: gu

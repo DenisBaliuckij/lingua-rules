@@ -1,0 +1,71 @@
+lemma: amujar
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: larumujar
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: liyamujar
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: njulamujar
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: amujar
+---
+lemma: embularu
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: larembaru
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: gurembaru
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: burembaru
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: liyembaru
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: njulembaru
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: embularu
+---
+lemma: l)ar
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: l)arol)ar
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: guronar
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: iyol)ar
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: njul)ar
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ol)ar
