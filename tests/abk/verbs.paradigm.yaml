@@ -1,0 +1,260 @@
+lemma: ka
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: быкоуп
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: укоуп
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ҳакоуп
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: шәыкоуп
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: икоуп
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: сыкоуп
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: дыкоуп
+---
+lemma: гыла
+category: verbs
+cases:
+- features:
+    mood: conditional
+    polarity: affirmative
+    tense: future
+    voice: active
+  expected: сгыларын
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+    voice: active
+  expected: сгылап
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: imperfect
+    voice: active
+  expected: сГЫЛОН
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: сгылт
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: perfect
+    voice: active
+  expected: сгылахьеит
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: pluperfect
+    voice: active
+  expected: сгылахьан
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: present
+    voice: active
+  expected: сгылот
+---
+lemma: дсахьа
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: дцахьеит
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: perfect
+  expected: ицахьоу
+- features:
+    mood: indicative
+    polarity: negative
+    tense: perfect
+  expected: имцахьоу
+---
+lemma: дыҧс
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: дыҧсхьеит
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: дымҧсыц
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: perfect
+  expected: иҧсхьоу
+- features:
+    mood: indicative
+    polarity: negative
+    tense: perfect
+  expected: имҧсхьоу
+---
+lemma: стәоуп
+category: verbs
+cases:
+- features:
+    animacy: animate
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: дтәоуп
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: итзоуп
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: бтәоуп
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: утәоуп
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ҳтәоуп
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: шәтәоуп
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: итәоуп
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: стәоуп
+---
+lemma: хәыч
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: бхәыҷуп
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: ухәычуп
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ҳхәыҷуп
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: шәхәыҷ-уп
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: ихәычуп
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: схәыҷуп
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: дхәычуп

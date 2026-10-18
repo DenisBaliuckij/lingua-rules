@@ -1,0 +1,242 @@
+lemma: ai
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: ae
+- features:
+    case: genitive
+  expected: ae
+- features:
+    case: nominative
+  expected: ai
+---
+lemma: hakka
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: hakk-i-nni
+- features:
+    case: allative
+  expected: hakk-i-ra
+- features:
+    case: locative
+  expected: hakkanni
+---
+lemma: hakkicco
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: hakkicc-i-nni
+- features:
+    case: allative
+  expected: hakkicc-i-ra
+- features:
+    case: locative
+  expected: hakkicco
+---
+lemma: hakkui
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+  expected: hakkoe
+- features:
+    case: genitive
+    gender: masculine
+  expected: hakkui
+- features:
+    case: nominative
+    gender: masculine
+  expected: hakkui
+---
+lemma: hakkuri
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: hakkore
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: hakkuri
+- features:
+    case: genitive
+    number: plural
+  expected: hakkuri
+- features:
+    case: nominative
+    number: plural
+  expected: hakkuri
+---
+lemma: hatti
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+  expected: hattee
+- features:
+    case: genitive
+    gender: feminine
+  expected: hattee
+- features:
+    case: nominative
+    gender: feminine
+  expected: hatti
+---
+lemma: hiikku
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: hiikko
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: hiitte
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: hiikkui
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: hiitti
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: hiikku
+---
+lemma: ka'a
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: ka'-i-nni
+- features:
+    case: allative
+  expected: ka'-i-ra
+- features:
+    case: locative
+  expected: ka'anni
+---
+lemma: ka'icco
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: ka'icc-i-nni
+- features:
+    case: allative
+  expected: ka'icc-i-ra
+- features:
+    case: locative
+  expected: ka'icco
+---
+lemma: kawa
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: kaw-i-nni
+- features:
+    case: allative
+  expected: kaw-i-ra
+- features:
+    case: locative
+  expected: kawanni
+---
+lemma: kawicco
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: kawicc-i-nni
+- features:
+    case: allative
+  expected: kawicc-i-ra
+- features:
+    case: locative
+  expected: kawicco
+---
+lemma: ku’uri
+category: pronouns
+cases:
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: ku’uri
+- features:
+    case: genitive
+    number: plural
+  expected: ku’uri
+- features:
+    case: nominative
+    number: plural
+  expected: ku’uri
+---
+lemma: mai
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: ma
+- features:
+    case: genitive
+  expected: mai
+- features:
+    case: nominative
+  expected: mai
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: le
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: la
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: li
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: lo
+- features:
+    number: plural
+    person: first
+  expected: ci
+- features:
+    number: plural
+    person: second
+  expected: vi
+- features:
+    number: singular
+    person: first
+  expected: mi
+- features:
+    number: singular
+    person: second
+  expected: ti

@@ -1,0 +1,1123 @@
+lemma: a
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: a-d-˙-n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: a-n-˙-n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: a-t-ßn
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: a-n-ßn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ˙-g-˙n
+---
+lemma: abi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: abi-a-d-˙n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: abi-a-n-˙n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: abi-˙-g-˙n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: abi-a-t-ßn
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: abi-a-n-ßn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: abi-˙-g-˙n
+---
+lemma: am
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: t-˙m-da-n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: n-˙m-da-n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: g-˙m-da-n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: t-˙m-˙n
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: n-˙m-˙n
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: g-˙m-˙n
+---
+lemma: bem
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: bemto
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: bem-da-n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: bem-da-n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: bemdzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: bemßn
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: bemßn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: bemdzi
+- features:
+    mood: optative
+  expected: bemta
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: bem-d˙-k
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: bem-d˙-k
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: bem-d˙-k
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: bemdu
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: bemdu
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: bemdu
+---
+lemma: byo≥
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: byo≥to
+- features:
+    mood: optative
+  expected: byo≥da
+---
+lemma: come
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: n-ug-in
+- features:
+    mood: optative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: g-u-ya
+- features:
+    mood: optative
+    number: singular
+    person: third
+    polarity: negative
+  expected: g-u-yin
+---
+lemma: da
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ts-i÷-da-n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: n-i÷-da-n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: d-˙g-˙i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ts-˙g-˙n
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: n-˙g-˙n
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: d-˙g-˙n
+---
+lemma: die
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: n
+- features:
+    mood: optative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: g
+---
+lemma: do
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: ˙-go
+- features:
+    mood: optative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: ˙-ge
+---
+lemma: dza
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: dza-a-d-˙n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: dza-a-n-˙n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: dza-˙-g-˙n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: dza-a-t-ßn
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: dza-a-n-ßn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: dza-˙-g-˙n
+---
+lemma: dzæ˙m
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: dzæ˙mto
+- features:
+    mood: optative
+  expected: dzæ˙mta
+---
+lemma: eat
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: t-˙m-d˙i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: t-˙m-di
+- features:
+    mood: optative
+    number: singular
+    person: third
+    polarity: negative
+  expected: g-˙m-in
+---
+lemma: g
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: g
+- features:
+    mood: optative
+  expected: g
+---
+lemma: go
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+  expected: ts-i-da-n
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+  expected: n-i-da-n
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+  expected: ts-˙g-˙n
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+  expected: n-˙g-˙n
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+  expected: d-˙g-˙n
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: ts-i÷-da-n
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: n-i÷-na-n
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: "t-a)\x93"
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: "ts-a)\x93-an"
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: "¯-a)\x93-an"
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: "d-a)\x93-an-dzi"
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: n-iw-˙n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: te-i-dzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: d-˙g-˙i
+- features:
+    mood: optative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: gya
+- features:
+    mood: optative
+    number: singular
+    person: third
+    polarity: negative
+  expected: d˙-w˙
+---
+lemma: hyoq
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: hyoqto
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: hyoq-ts-˙n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: hyoq-¯a-n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: hyoqdei
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: hyoqßn
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: hyoqßn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: hyoqdzi
+- features:
+    mood: optative
+  expected: hyoqta
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: hyoq-ts˙-k
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: hyoq-¯˙-k
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: hyoq-ts-u
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: hyoq-n-u
+---
+lemma: ip
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: ipto
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ts-ip-da-n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: n-ip-da-n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: g-ip-da-n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ts-ip-ßn
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: n-ip-ßn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: g-ip-ßn
+- features:
+    mood: optative
+  expected: gip-ta
+---
+lemma: kis
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kis-a-d-˙n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kis-a-n-˙n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kis-˙-g-˙n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kis-a-t-ßn
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kis-a-n-ßn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kis-˙-g-˙n
+---
+lemma: kæai
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: kæaito
+- features:
+    mood: optative
+  expected: kæaida
+---
+lemma: pumba
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: pumba-d-˙k
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: pumba-n-˙k
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: pumba-d-u
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: pumba-n-u
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: pumba-g-u
+---
+lemma: "s-aˆ\x93-an"
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: "s-aˆ\x93-an"
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: "¯-aˆ\x93-an"
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: "h-aˆ\x93-dei"
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: "s-aˆ\x93-an"
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: "¯-aˆ\x93-an"
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: "h-aˆ\x93-dzi"
+---
+lemma: "s-aˆ\x93-du"
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: "s-aˆ\x93-d˙-k"
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: "¯-aˆ\x93-d˙-k"
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: "h-aˆ\x93-d˙-k"
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: "s-aˆ\x93-du"
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: "¯-aˆ\x93-du"
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: "h-aˆ\x93-du"
+---
+lemma: see
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: ˘
+- features:
+    mood: optative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: g
+---
+lemma: sleep
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: n-ip-in
+- features:
+    mood: optative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: g-ip-da
+- features:
+    mood: optative
+    number: singular
+    person: third
+    polarity: negative
+  expected: ip-d-wa
+---
+lemma: t
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: t
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: t
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: n
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: t
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: n
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: t
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: n
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: g
+---
+lemma: t-uk-an
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: t-uk-da-n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: n-uk-da-n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: t-uk-an
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: n-uk-an
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: t-uk-da-k
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: n-uk-da-k
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: t-uk-an
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: n-uk-an
+---
+lemma: t-˙m-˙n
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: t-˙m-da-n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: n-˙m-da-n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: g-˙m-da-n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: t-˙m-˙n
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: n-˙m-˙n
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: g-˙m-˙n
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: t-˙m-da-k
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: n-˙m-da-k
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: g-˙m-da-k
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: t-˙m-du
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: n-˙m-du
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: g-˙m-du
+---
+lemma: "ts-aˆ\x93-dzi"
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: "ts-aˆ\x93-dei"
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: "¯-aˆ\x93-dei"
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: "g-aˆ\x93-dei"
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: "ts-aˆ\x93-d˙-k"
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: "¯-aˆ\x93-d˙-k"
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: "g-aˆ\x93-d˙-k"
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: "ts-aˆ\x93-du"
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: "¯-aˆ\x93-du"
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: "g-aˆ\x93-du"
+---
+lemma: ts-ip-du
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: ts-ip-da-k
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: n-ip-da-k
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: g-ip-da-k
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: ts-ip-du
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: n-ip-du
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: g-ip-du
+---
+lemma: ts-ip-ßn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: ts-ip-da-n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: n-ip-da-n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: ip-da-n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: ts-ip-ßn
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: n-ip-ßn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: g-ip-ßn
+---
+lemma: tul
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: tulto
+- features:
+    mood: optative
+  expected: tulya
+---
+lemma: ug
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: t-ug-da-n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: n-ug-da-n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ud˙i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: t-ug-un
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: n-ug-un
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ug˙n
+---
+lemma: ˙m
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: t-˙m-da-k
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: n-˙m-da-k
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: g-˙m-da-k
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: t-˙m-du
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: n-˙m-du
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: g-˙m-du

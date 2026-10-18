@@ -1,0 +1,110 @@
+lemma: ami̵
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: ami̵
+---
+lemma: atum
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: atum
+---
+lemma: dita
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: dita
+---
+lemma: ii
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ii
+---
+lemma: nĩ
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: dita
+- features:
+    number: singular
+    person: third
+  expected: nĩ
+---
+lemma: wi
+category: pronouns
+cases:
+- features:
+    definiteness: indefinite
+    number: plural
+    person: first
+  expected: hutii
+- features:
+    number: plural
+    person: first
+  expected: ii
+- features:
+    number: singular
+    person: first
+  expected: wi
+---
+lemma: wii
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: wii
+- features:
+    number: singular
+    person: second
+  expected: ami̵
+- features:
+    number: singular
+    person: third
+  expected: nĩĩ
+---
+lemma: wíi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: mína
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: ámina
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: nína
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: wíi
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ámɨ
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ni ́̃i ̃

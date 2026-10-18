@@ -1,0 +1,488 @@
+lemma: attade
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tóhuattani
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tohuattahi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ohuattani
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tiattani
+---
+lemma: dade
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: idani
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: tidemanani
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: idemanani
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: odani
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: tidani
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: idani
+---
+lemma: edade
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: tohuedemanani
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tohuedani
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: tohuedemanahi
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tohuedahi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: edani
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tedemanani
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ohuedani
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tedani
+---
+lemma: hawi ha
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+  expected: to-ha-ni
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+  expected: to-ha-i
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: ø-ha-ni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: ti-ha-ni
+---
+lemma: hawi ha-hona
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+  expected: ø-Ø-hona-ni
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+  expected: ø-Ø-hona-i
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: ø-ha-hona-ni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: ti-ha-hona-ni
+---
+lemma: ja
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: t
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: ijade
+- features:
+    number: plural
+    person: second
+  expected: tique
+- features:
+    number: plural
+    person: third
+  expected: toque
+- features:
+    number: singular
+    person: second
+  expected: ti
+- features:
+    number: singular
+    person: third
+  expected: to
+---
+lemma: jipa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: tijipemanaqui
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: tijipaqui
+---
+lemma: jipaji
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: tijipemanaji
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: tijipaji
+- features:
+    mood: potential
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: tijipemananeje
+- features:
+    mood: potential
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: ojipaneje
+- features:
+    mood: potential
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: tijipaneje
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: ijiperaha
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: tijipemanerana
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: jipemanerana
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: ojipei:aha
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: tijiperana
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: ijiperaha
+---
+lemma: na
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: tiquenaji
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: tinaji
+- features:
+    number: plural
+    person: second
+  expected: tique
+- features:
+    number: plural
+    person: third
+  expected: ique
+- features:
+    number: singular
+    person: second
+  expected: ti
+- features:
+    number: singular
+    person: third
+  expected: i
+---
+lemma: oda
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: dani
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: odani
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: tidani
+---
+lemma: odade
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: huademanani
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: huadani
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: huademanahi
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: huadahi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: edani
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tedemanani
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ohuadani
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tedani
+---
+lemma: tabo
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: titabomanani
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: totaboni
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: totabohi
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: itaboni
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: titabomanani
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: otaboni
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: titaboni
+---
+lemma: tija
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: tidemanaji
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: tidaji
+- features:
+    mood: potential
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: tidemananeje
+- features:
+    mood: potential
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: idemananaja
+- features:
+    mood: potential
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: tidaneje
+- features:
+    mood: potential
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: idanaja

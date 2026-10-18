@@ -1,0 +1,107 @@
+lemma: emu
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: emu
+- features:
+    number: singular
+    person: second
+  expected: emo
+- features:
+    number: singular
+    person: third
+  expected: mure
+---
+lemma: epa
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: epa
+- features:
+    number: singular
+    person: second
+  expected: epo
+- features:
+    number: singular
+    person: third
+  expected: pare
+---
+lemma: iye
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ewo
+- features:
+    number: singular
+    person: third
+  expected: iye
+---
+lemma: kuno
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: kuno
+---
+lemma: kuno pano
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: kuno pano
+---
+lemma: kure pare
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: kure pare
+---
+lemma: omi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ofwe
+- features:
+    number: plural
+    person: second
+  expected: umwe
+- features:
+    number: plural
+    person: third
+  expected: ewo
+- features:
+    number: singular
+    person: first
+  expected: omi
+- features:
+    number: singular
+    person: second
+  expected: uwe
+- features:
+    number: singular
+    person: third
+  expected: iye
+---
+lemma: uwe
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: umwe
+- features:
+    number: singular
+    person: second
+  expected: uwe

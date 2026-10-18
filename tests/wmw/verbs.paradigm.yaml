@@ -1,0 +1,917 @@
+lemma: fisa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tifísa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mufísa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wáfisíre
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wafisîre
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nífisíre
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nifisîre
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ufísa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: áfisíre
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: afisîre
+---
+lemma: fulata
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wáfuláte
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wafulâte
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nífuláte
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nifulâte
+---
+lemma: karibisha
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wákaríbishe
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wakaríbishe
+---
+lemma: karibísha
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wakikaribísha
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: níkíkaribísha
+---
+lemma: kufisa
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: kwankufisa
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tîfisa
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mûfisa
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wâfisa
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nîfisa
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kûfisa
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kâfisa
+- features:
+    aspect: perfective
+    polarity: negative
+    tense: past
+  expected: aâfisire
+- features:
+    aspect: perfective
+    polarity: negative
+    tense: present
+  expected: aafisire
+- features:
+    aspect: perfective
+    tense: past
+  expected: kâfisa
+- features:
+    aspect: perfective
+    tense: present
+  expected: kafisa
+- features:
+    aspect: progressive
+    polarity: negative
+    tense: past
+  expected: aákifisánga
+- features:
+    aspect: progressive
+    tense: past
+  expected: ákifisánga
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: atîfisire
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: atifisire
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tífisa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: amûfisire
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: amufisire
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: múfisa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: awâfisire
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: awafisire
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wáfisa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: sîfisire
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: sifisire
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nífisa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: aûfisire
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: aufisire
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: úfisa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: aâfisire
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: aafisire
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: áfisa
+- features:
+    polarity: negative
+    tense: past
+  expected: aákifisa
+- features:
+    polarity: negative
+    tense: present
+  expected: saafisa
+- features:
+    tense: past
+  expected: ákifisa
+- features:
+    tense: present
+  expected: áfisa
+---
+lemma: kufulata
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tîfulata
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mûfulata
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wâfulata
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nîfulata
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kûfulata
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kâfulata
+---
+lemma: kufuláta
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tíkífuláta
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tífuláta
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: múkífuláta
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: múfuláta
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wákífuláta
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wáfuláta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: níkífuláta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nífuláta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: úkífuláta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: úfuláta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ákífuláta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: áfuláta
+---
+lemma: kufuula
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: awâfulate
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: awafulate
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: aâfulate
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: aafulate
+---
+lemma: kukaribisha
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wâkaribisha
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kâkaribisha
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kakaribisha
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: awâkaribishe
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: awakaribishe
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: aâkaribishe
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: aakaribishe
+---
+lemma: kurya
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tîrya
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mûrya
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wârya
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nîrya
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kûrya
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kârya
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tikûrya
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mukûrya
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wákírya
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wakûrya
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nikírya
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nikûrya
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ukûrya
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: akûrya
+---
+lemma: kwasa
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wâsa
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nâsa
+---
+lemma: kwijiwa
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wêjiwa
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nîjiwa
+---
+lemma: kwása
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tikwása
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mukwása
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wakàása
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wakwása
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: níkâsa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nikwása
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ukwása
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: akwása
+---
+lemma: kwíjiwa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tikwíjiwa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mukwíjiwa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wakwíjiwa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nikwíjiwa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ukwíjiwa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: akwíjiwa
+---
+lemma: kúka
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tiwankúka
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: muwankúka
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wawankúka
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: niwankúka
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kuwankúka
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kawankúka
+---
+lemma: rya
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: títíre
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tirîre
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: múríre
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: murîre
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wáríre
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: warîre
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: níríre
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nirîre
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: úríre
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: urîre
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: áríre
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: arîre
+---
+lemma: sa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wásíre
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wasíre
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nésíre
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: áàsa
+---
+lemma: simuka
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wasisímuka
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nisisímuka

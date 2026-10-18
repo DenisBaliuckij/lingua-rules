@@ -1,0 +1,294 @@
+lemma: ate
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: is-im
+- features:
+    number: singular
+    person: first
+  expected: ate
+---
+lemma: c#uu-nu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+  expected: c#uu-ko-na-m
+- features:
+    case: accusative
+    gender: masculine
+  expected: c#uu-ki-nu-m
+- features:
+    case: accusative
+    number: plural
+  expected: c#uu-ket-im
+- features:
+    case: nominative
+    gender: feminine
+  expected: c#uu-na⁄
+- features:
+    case: nominative
+    gender: masculine
+  expected: c#uu-nu
+- features:
+    case: nominative
+    number: plural
+  expected: c#uu-ket
+---
+lemma: kete
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: ken-im
+- features:
+    number: plural
+    person: third
+  expected: kete
+---
+lemma: ke⁄te
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: ke⁄-ko-de⁄
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: ke⁄n –im
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: ke⁄n
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: ke⁄ko
+- features:
+    case: instrumental
+    number: plural
+    person: third
+  expected: ke!-ka⁄
+- features:
+    number: plural
+    person: third
+  expected: ke⁄te
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: kon-im
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: na
+---
+lemma: na⁄
+category: pronouns
+cases:
+- features:
+    case: ablative
+    gender: feminine
+    number: singular
+    person: third
+  expected: ko⁄- ko-de⁄
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: ko⁄n-im
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+    person: third
+  expected: ko⁄-n
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+    person: third
+  expected: ko⁄-ko
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+    person: third
+  expected: ko⁄-ka⁄
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: na⁄
+---
+lemma: nu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: kin-im
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: nu
+---
+lemma: nu⁄
+category: pronouns
+cases:
+- features:
+    case: ablative
+    gender: masculine
+    number: singular
+    person: third
+  expected: ki⁄- ko-de⁄
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: ki⁄n-im
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+    person: third
+  expected: ki⁄-n
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+    person: third
+  expected: ki⁄-ko
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+    person: third
+  expected: ki⁄-ka⁄
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: nu⁄
+---
+lemma: wotu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: won-im
+- features:
+    number: plural
+    person: first
+  expected: wotu
+---
+lemma: wo⁄tu!
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: wo⁄- ko-de⁄
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: wo⁄n-im
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: wo⁄n
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: wo⁄ko
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: wo⁄ka⁄
+- features:
+    number: plural
+    person: first
+  expected: wo⁄tu!
+---
+lemma: yaay
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: yaay
+---
+lemma: yese
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: yen-im
+- features:
+    number: plural
+    person: second
+  expected: yese
+---
+lemma: yesi⁄
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: ye- ko-de⁄
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: yen-im
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: yen
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: yeko
+- features:
+    case: instrumental
+    number: plural
+    person: second
+  expected: yeka⁄
+- features:
+    number: plural
+    person: second
+  expected: yesi⁄

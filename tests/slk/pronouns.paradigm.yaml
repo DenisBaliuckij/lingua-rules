@@ -1,0 +1,602 @@
+lemma: ja
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: mńa
+- features:
+    case: dative
+    number: singular
+  expected: mne
+- features:
+    case: genitive
+    number: singular
+  expected: mńa
+- features:
+    case: instrumental
+    number: singular
+  expected: mnou
+- features:
+    case: locative
+    number: singular
+  expected: mne
+- features:
+    case: nominative
+    number: singular
+  expected: ja
+---
+lemma: my
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: nas
+- features:
+    case: dative
+    number: plural
+  expected: nśm
+- features:
+    case: genitive
+    number: plural
+  expected: nśs
+- features:
+    case: instrumental
+    number: plural
+  expected: nami
+- features:
+    case: locative
+    number: plural
+  expected: nas
+- features:
+    case: nominative
+    number: plural
+  expected: my
+---
+lemma: naš
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: našu
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: našich
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: nśś
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: naše
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: naše
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: našej
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: našim
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: nššmu
+- features:
+    case: dative
+    gender: neuter
+    number: plural
+  expected: našim
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: nššmu
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: našej
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: našich
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: nśsho
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: našich
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: nśsho
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: našou
+- features:
+    case: instrumental
+    gender: masculine
+    number: plural
+  expected: našimi
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: našim
+- features:
+    case: instrumental
+    gender: neuter
+    number: plural
+  expected: našimi
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: našim
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: našej
+- features:
+    case: locative
+    gender: masculine
+    number: plural
+  expected: našich
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: našom
+- features:
+    case: locative
+    gender: neuter
+    number: plural
+  expected: našich
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: našom
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: naša
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: naši
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: ndš
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: naše
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: naše
+---
+lemma: 'on'
+category: pronouns
+cases:
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: jemu
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: ^е!ю
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: nim
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: nom
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: 'on'
+---
+lemma: ona
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: ju
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: jej
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: jej
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: ńou
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: nej
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: ona
+---
+lemma: oni
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: ich
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: im
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: ich
+- features:
+    case: instrumental
+    gender: masculine
+    number: plural
+  expected: nimi
+- features:
+    case: locative
+    gender: masculine
+    number: plural
+  expected: nich
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: oni
+---
+lemma: ono
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: ho
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: jej
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: jej
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: ńou
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: nej
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: ono
+---
+lemma: ony
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: ich
+- features:
+    case: dative
+    number: plural
+  expected: im
+- features:
+    case: genitive
+    number: plural
+  expected: ich
+- features:
+    case: instrumental
+    number: plural
+  expected: nimi
+- features:
+    case: locative
+    number: plural
+  expected: nich
+- features:
+    case: nominative
+    number: plural
+  expected: ony
+---
+lemma: seba
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: seba
+- features:
+    case: dative
+    number: singular
+  expected: sebe
+- features:
+    case: genitive
+    number: singular
+  expected: seba
+- features:
+    case: instrumental
+    number: singular
+  expected: sebou
+- features:
+    case: locative
+    number: singular
+  expected: sebe
+---
+lemma: ten
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: tu
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: tych
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: ten
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: tie
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: to
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: tej
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: tym
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: tomu
+- features:
+    case: dative
+    gender: neuter
+    number: plural
+  expected: tym
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: tomu
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: tej
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: tych
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: toho
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: tych
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: toho
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: tou
+- features:
+    case: instrumental
+    gender: masculine
+    number: plural
+  expected: t^mi
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: tym
+- features:
+    case: instrumental
+    gender: neuter
+    number: plural
+  expected: t^mi
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: tym
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: tej
+- features:
+    case: locative
+    gender: masculine
+    number: plural
+  expected: tych
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: tom
+- features:
+    case: locative
+    gender: neuter
+    number: plural
+  expected: tych
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: tom
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: tś
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: ti
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: ten
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: tie
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: to
+---
+lemma: ty
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: teba
+- features:
+    case: dative
+    number: singular
+  expected: tebe
+- features:
+    case: genitive
+    number: singular
+  expected: teba
+- features:
+    case: instrumental
+    number: singular
+  expected: tebou
+- features:
+    case: locative
+    number: singular
+  expected: tebe
+- features:
+    case: nominative
+    number: singular
+  expected: ty
+---
+lemma: vy
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: vas
+- features:
+    case: dative
+    number: plural
+  expected: vam
+- features:
+    case: genitive
+    number: plural
+  expected: vśs
+- features:
+    case: instrumental
+    number: plural
+  expected: vami
+- features:
+    case: locative
+    number: plural
+  expected: vas
+- features:
+    case: nominative
+    number: plural
+  expected: vy

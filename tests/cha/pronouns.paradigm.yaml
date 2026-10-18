@@ -1,0 +1,138 @@
+lemma: gaho
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: gata
+- features:
+    number: plural
+    person: second
+  expected: gamiyo
+- features:
+    number: plural
+    person: third
+  expected: gaiiiha
+- features:
+    number: singular
+    person: first
+  expected: gaho
+- features:
+    number: singular
+    person: second
+  expected: gamo
+- features:
+    number: singular
+    person: third
+  expected: gaiia
+---
+lemma: hu
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: in
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: in
+- features:
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: en
+- features:
+    number: plural
+    person: third
+    possessor_number: plural
+    possessor_person: third
+  expected: ma
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: hu
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: un
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: ha
+---
+lemma: iyoko
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: iyota
+- features:
+    number: plural
+    person: second
+  expected: iyonmiyo
+- features:
+    number: plural
+    person: third
+  expected: iyoniiiha
+- features:
+    number: singular
+    person: first
+  expected: iyoko
+- features:
+    number: singular
+    person: second
+  expected: iyomo
+- features:
+    number: singular
+    person: third
+  expected: iyoiia
+---
+lemma: yo
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: hamyo
+- features:
+    number: plural
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: ham
+- features:
+    number: plural
+    person: second
+  expected: hit
+- features:
+    number: plural
+    person: third
+  expected: siha
+- features:
+    number: singular
+    person: first
+  expected: yo
+- features:
+    number: singular
+    person: second
+  expected: hao
+- features:
+    number: singular
+    person: third
+  expected: gue

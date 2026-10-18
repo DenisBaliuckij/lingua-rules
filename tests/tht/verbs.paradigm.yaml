@@ -1,0 +1,294 @@
+lemma: estcoc
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: ûtcoc
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ahtcoc
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: éhutcoc
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: intcoc
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: utcoc
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: édîtcoc
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ésîtcoc
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: édahtcoc
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ahtcoc
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: éli(L'datcoc
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: éslcoc
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: intcoc
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: édatcoc
+---
+lemma: ke-nastah
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: nas'tas
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nasîtah
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nahtah
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nahétah
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ke-nastah
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nantah
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: natah
+---
+lemma: siKe
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: siKe
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: sînKe
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: seKe
+---
+lemma: t'séstah
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: dît'sii
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tœsît'si
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tœsît'sih
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: daht'sii
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: taht'si
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: taht'sih
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: hœdat'sii
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: hœtat'si
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hœtét'sih
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: t'sœdatai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: t'sîta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: t'séstah
+---
+lemma: ta-as'kotle
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: conditional_tense
+  expected: ta-ôs-kotle
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ta-ades-'kole
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ta-aîs-'kotle
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ta-as-'kotk
+---
+lemma: thahideWi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: thadî'tii
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: thadesî'té
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: thadesi'téh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: thadah'té
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: thadah'téh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: thahide'té
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: thahide'téh

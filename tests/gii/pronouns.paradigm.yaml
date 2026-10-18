@@ -1,0 +1,97 @@
+lemma: adi
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: ka
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: ade
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: uun
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: adi
+- features:
+    number: singular
+    person: second
+  expected: adilla is
+---
+lemma: ani
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: ka
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ane
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: in
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ani
+- features:
+    number: singular
+    person: first
+  expected: anilla is
+---
+lemma: issi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: issin
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: issi
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: issin-lla is
+---
+lemma: ussu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: ussion
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: ussu
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ussulla is

@@ -1,0 +1,166 @@
+lemma: atos
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: ate
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: atos
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: ato
+- features:
+    case: nominative
+    number: plural
+  expected: ata
+---
+lemma: avudos
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: avudin
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: avudo
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: avudo
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: avudin.F
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: avude
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: avuda.N
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: avudos
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: avudo
+---
+lemma: etšinos
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: etšinina
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: etšino
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: etšino
+- features:
+    case: accusative
+    number: plural
+  expected: etšinus
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: etšinos
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: etšino
+- features:
+    case: nominative
+    number: plural
+  expected: etšin
+---
+lemma: eɣo
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ate
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: atos
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: ato
+- features:
+    number: plural
+    person: first
+  expected: mis))
+- features:
+    number: plural
+    person: second
+  expected: esis))
+- features:
+    number: plural
+    person: third
+  expected: atin
+- features:
+    number: singular
+    person: first
+  expected: eɣo
+- features:
+    number: singular
+    person: second
+  expected: esi
+---
+lemma: temo
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: temetero
+- features:
+    number: plural
+    person: second
+  expected: tesetero
+- features:
+    number: plural
+    person: third
+  expected: tatinetero
+- features:
+    number: singular
+    person: first
+  expected: temo
+- features:
+    number: singular
+    person: second
+  expected: teso

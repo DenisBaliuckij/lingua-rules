@@ -1,0 +1,479 @@
+lemma: acoceo
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: acoceo
+---
+lemma: acu
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: quecami
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: cacu
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: cami
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: cu
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: quecami
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: para eacu
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: quecami
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: canacu
+- features:
+    number: plural
+    person: first
+  expected: icami
+- features:
+    number: plural
+    person: second
+  expected: icayu
+- features:
+    number: plural
+    person: third
+  expected: ila
+- features:
+    number: singular
+    person: first
+  expected: acu
+- features:
+    number: singular
+    person: second
+  expected: lea
+- features:
+    number: singular
+    person: third
+  expected: ya
+---
+lemma: aquel
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: aquellas
+- features:
+    gender: feminine
+    number: singular
+  expected: aquella
+- features:
+    gender: masculine
+    number: plural
+  expected: aquellos
+- features:
+    gender: masculine
+    number: singular
+  expected: aquel
+- features:
+    gender: neuter
+    number: singular
+  expected: aquello
+---
+lemma: dean
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: dean
+- features:
+    case: nominative
+    number: plural
+  expected: dean
+---
+lemma: deta
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: deta
+- features:
+    case: nominative
+    number: plural
+  expected: deta
+---
+lemma: deti
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: deti
+- features:
+    case: nominative
+    number: plural
+  expected: deti
+---
+lemma: ese
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: esas
+- features:
+    gender: feminine
+    number: singular
+  expected: esa
+- features:
+    gender: masculine
+    number: plural
+  expected: esos
+- features:
+    gender: masculine
+    number: singular
+  expected: ese
+- features:
+    gender: neuter
+    number: singular
+  expected: eso
+---
+lemma: este
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: estas
+- features:
+    gender: feminine
+    number: singular
+  expected: esta
+- features:
+    gender: masculine
+    number: plural
+  expected: estos
+- features:
+    gender: masculine
+    number: singular
+  expected: este
+- features:
+    gender: neuter
+    number: singular
+  expected: esto
+---
+lemma: ica
+category: pronouns
+cases:
+- features:
+    case: genitive
+  expected: mé
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: yo
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: mo
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: icayo
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ica
+---
+lemma: icata
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: ta
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: icata
+---
+lemma: ila
+category: pronouns
+cases:
+- features:
+    case: genitive
+  expected: dé
+---
+lemma: ini
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: deni
+- features:
+    case: genitive
+    number: singular
+  expected: nini
+- features:
+    case: locative
+    number: singular
+  expected: queni
+- features:
+    case: nominative
+    number: plural
+  expected: deni
+- features:
+    case: nominative
+    number: singular
+  expected: ini
+---
+lemma: insa
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: dingsa
+- features:
+    case: genitive
+    number: singular
+  expected: ningsa
+- features:
+    case: nominative
+    number: plural
+  expected: dingsa
+- features:
+    case: nominative
+    number: singular
+  expected: insa
+---
+lemma: ita
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+  expected: nita
+- features:
+    case: nominative
+    number: singular
+  expected: ita
+---
+lemma: itamo
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: tamo
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: itamo
+---
+lemma: iti
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+  expected: niti
+- features:
+    case: locative
+    number: singular
+  expected: queti
+- features:
+    case: nominative
+    number: singular
+  expected: iti
+---
+lemma: iya
+category: pronouns
+cases:
+- features:
+    case: genitive
+  expected: né
+---
+lemma: iyan
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+  expected: niyan
+- features:
+    case: nominative
+    number: singular
+  expected: iyan
+---
+lemma: lea
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: quecayu
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: queca
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: yu
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: ca
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: quecayu
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: queca
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: quecayu
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: mu
+- features:
+    case: vocative
+    number: plural
+    person: second
+  expected: oh icayu
+- features:
+    case: vocative
+    number: singular
+    person: second
+  expected: lea
+- features:
+    number: plural
+    person: second
+  expected: icayu
+- features:
+    number: singular
+    person: second
+  expected: lea
+---
+lemma: nanu
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+  expected: ningnanu
+- features:
+    case: nominative
+    number: singular
+  expected: nanu
+---
+lemma: niño
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+  expected: niño
+- features:
+    case: nominative
+    number: plural
+  expected: dinino
+- features:
+    case: nominative
+    number: singular
+  expected: niño
+---
+lemma: ya
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: carela
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: caya
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: la
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: ya
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: carela
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: cay a
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: da
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: na
+- features:
+    number: plural
+    person: third
+  expected: ila
+- features:
+    number: singular
+    person: third
+  expected: yd

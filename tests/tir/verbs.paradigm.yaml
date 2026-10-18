@@ -1,0 +1,886 @@
+lemma: aallo
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: iallokan
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: aalldwa
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: aallokki
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: al
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: aallokkum
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: aallowwom
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: aallokka
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: aallo
+- features:
+    number: singular
+    person: first
+  expected: aallonni
+---
+lemma: aan-qiitqiitii
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: perfect
+  expected: aan-qiitqiitii
+- features:
+    mood: imperative
+  expected: aan-qiitqJt
+- features:
+    verb_form: gerund
+  expected: aan-qiitqifu
+- features:
+    verb_form: verbal_noun
+  expected: aiin-qiitqati
+---
+lemma: aastiinkiirii
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: perfect
+  expected: aastiinkiirii
+- features:
+    mood: imperative
+  expected: aastiinkir
+- features:
+    tense: imperfect
+  expected: yiistiinbir
+- features:
+    verb_form: gerund
+  expected: aastiinkiru
+- features:
+    verb_form: infinitive
+  expected: aastmkar
+- features:
+    verb_form: verbal_noun
+  expected: aastiinkari
+---
+lemma: barag
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: yibarag
+- features:
+    mood: imperative
+  expected: aabarg
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: yibangu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: aabaraki
+- features:
+    verb_form: infinitive
+  expected: mibrag
+- features:
+    verb_form: participle
+  expected: aabariku
+- features:
+    verb_form: verbal_noun
+  expected: aabaragi
+---
+lemma: barik
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tdbariig
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: tiibariikii
+- features:
+    verb_form: participle
+  expected: tiibaraku
+- features:
+    verb_form: verbal_noun
+  expected: tiibaraki
+---
+lemma: biiddal
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: yibiiddal
+- features:
+    mood: imperative
+  expected: aabiiddal
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: yibiiddalu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: aabiiddilii
+- features:
+    verb_form: infinitive
+  expected: mibidal
+- features:
+    verb_form: participle
+  expected: aabiiddilu
+- features:
+    verb_form: verbal_noun
+  expected: aabiiddali
+---
+lemma: miiskar
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: yamiiskar
+- features:
+    mood: imperative
+  expected: aamiiskar
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: yamiiskaru
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: aamiiskiri
+- features:
+    verb_form: infinitive
+  expected: mimiskar
+- features:
+    verb_form: participle
+  expected: aamiiskiru
+- features:
+    verb_form: verbal_noun
+  expected: aamiiskari
+---
+lemma: miiskir
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tiimiiskiir
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: tiimiiskiirii
+- features:
+    verb_form: participle
+  expected: tiimiiskiru
+- features:
+    verb_form: verbal_noun
+  expected: tiimiisllari
+---
+lemma: nbiibal
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: yinbiibal
+- features:
+    mood: imperative
+  expected: aanbiibal
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: aanbiilbiri
+- features:
+    verb_form: infinitive
+  expected: mmbabal
+- features:
+    verb_form: participle
+  expected: aanbiilbilu
+- features:
+    verb_form: verbal_noun
+  expected: aanbiibali
+---
+lemma: niitogii
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: perfect
+  expected: niitogii
+- features:
+    tense: imperfect
+  expected: ymtog
+- features:
+    verb_form: gerund
+  expected: niitiwgu
+- features:
+    verb_form: verbal_noun
+  expected: niitagwi
+---
+lemma: sbiir
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: plural
+    person: second
+  expected: sJbiir-a
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: nbiir-i
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: yJ-sbiir-a
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: tJ-Sbiir-i
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: tJsbiir
+- features:
+    gender: masculine
+    mood: imperative
+    number: plural
+    person: second
+  expected: nbiir-u
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: sJbiir
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: aasbirka
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: yisbbr
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: tJ-sbiir-u
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: jJ-sbiir-u
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: jJsbiir
+- features:
+    mood: imperative
+  expected: aasbr
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: yisbru
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: aasbiri
+- features:
+    number: plural
+    person: third
+  expected: yisbru
+- features:
+    number: singular
+    person: first
+  expected: aJsbiir
+- features:
+    verb_form: infinitive
+  expected: mssbar
+- features:
+    verb_form: participle
+  expected: aasbiru
+- features:
+    verb_form: verbal_noun
+  expected: aasbari
+---
+lemma: sibir
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tiisiibiir
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: ymbbiir
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: tiisiibrii
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: ymiibiir
+- features:
+    verb_form: participle
+  expected: tiisii.biru
+- features:
+    verb_form: verbal_noun
+  expected: tiisiibari
+---
+lemma: siibb-Jr
+category: verbs
+cases:
+- features:
+    gender: common
+    mood: indicative
+    number: dual
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: aay-msiibbJr+n
+- features:
+    gender: common
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+  expected: m-siibbJr
+- features:
+    gender: common
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: aay-siibbJM-n
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: aay-tJsiibra-n
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+  expected: tJ-siibr-a
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: aay-yJsiibra-n
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+  expected: jJ-siibr-a
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: aay-tJsiibrata-n
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: tJ-siibr-ata
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: aay-yJsiibrata-n
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: jJ-siibr-ata
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: aay-tasiibrJ-n
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: tJ-siibr-i
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: aay-tJsiibbJr-J-n
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: tniibb-Jr
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: aay-tasiibru-n
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+  expected: tJ-siibr-u
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: aay-yJsiibru-n
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+  expected: jJ-siibr-u
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: tJ-siibr-uta
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: aay-yJsiibruta-n
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: yniibr-uta
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: aay-tJsiibbJr-J-n
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: tJ-siibbJr
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: aay-psiibbJr-J-n
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: yniibb-Jr
+---
+lemma: siibiir
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: siibiirkm
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: sdbiir-ki
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: sdbiir-at
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: sdbiir-lrum
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: sii
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: sdbiir-ka
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: sii
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: siibdr-na
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: sdbiir-ku
+---
+lemma: siibirii
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: siibirkm
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: siibiriin
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: siibirki
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: siibira
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: sqbir-kum
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: siibirom
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: siibirka
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: siibiru
+- features:
+    number: plural
+    person: first
+  expected: siibirna
+- features:
+    number: singular
+    person: first
+  expected: siibirr
+---
+lemma: siibrallawu
+category: verbs
+cases:
+- features:
+    gender: common
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+  expected: msiibrallcna
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+  expected: tJsiibrallawu
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: tJsiibrallawa
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: tJsiibrJlloki
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: tJsiibbJrallo
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+  expected: jJSiibrallawa
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+  expected: yJsiibrallawu
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: tJsiibbJralloka
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: wsiibbJrallo
+---
+lemma: so
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: perfect
+  expected: so
+- features:
+    mood: imperative
+  expected: so
+- features:
+    tense: imperfect
+  expected: yJso
+- features:
+    verb_form: gerund
+  expected: so
+- features:
+    verb_form: infinitive
+  expected: mJsu
+- features:
+    verb_form: verbal_noun
+  expected: so
+---
+lemma: tiistiinfiisii
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: perfect
+  expected: tiistiinfiisii
+- features:
+    mood: imperative
+  expected: tiistiinfiis
+- features:
+    tense: imperfect
+  expected: yiistiinfiis
+- features:
+    verb_form: gerund
+  expected: tiistiinfisu
+- features:
+    verb_form: verbal_noun
+  expected: tiistiinfasi
+---
+lemma: yiibil-n
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: yiibilkm
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: yi:ibilli:in
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: yiibilkm
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: yiibillan
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: yiibilkumm
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: yi:ibillomm
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: yiibilkan
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: yiibillun

@@ -1,0 +1,671 @@
+lemma: a
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: d-dii
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: d-mu
+---
+lemma: dnu
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: gi'dtu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: gi-d
+---
+lemma: gi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: gi-n-amu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: gl-n-u
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: git
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: gl'enu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: gi'ai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: gl-n-e
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: qfenju
+---
+lemma: go
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ùicûù^
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ùi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ùicûù^
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ùi
+---
+lemma: kb-d
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: kb-dtu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: kb-d
+---
+lemma: meh
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: mehnu
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: future
+  expected: mehu
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: mehdtu
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: mehne
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: mehte
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: future
+  expected: mehe
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: mehdte
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: mehntru
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: mehteru
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: future
+  expected: me
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: mehdter'i
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: mehnenju
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: mehfeiiju
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: future
+  expected: mehenju
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: mehdtenju
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: mehdu
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: mehaiu^
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: mehmu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: mehd
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: mehnamu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: mehtdmu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: future
+  expected: mek-dmu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: mehdtdmu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: mehderu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: future
+  expected: meheru
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: mehateru
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: meht
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: meht
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: mehenu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: mehdte
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: mehdi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: mehti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: future
+  expected: mehdi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: mehdti
+- features:
+    polarity: affirmative
+  expected: mehbGndi
+- features:
+    polarity: affirmative
+    tense: past
+    verb_form: participle
+  expected: mehti
+- features:
+    polarity: affirmative
+    verb_form: infinitive
+  expected: mehpa
+- features:
+    polarity: affirmative
+    verb_form: participle
+  expected: mehni
+- features:
+    polarity: affirmative
+    verb_form: past_participle
+  expected: meha
+- features:
+    polarity: affirmative
+    verb_form: present_participle
+  expected: mehpi
+- features:
+    polarity: negative
+    tense: past
+    verb_form: participle
+  expected: mehdti
+- features:
+    polarity: negative
+    verb_form: participle
+  expected: mehdm
+---
+lemma: si
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: sidu
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: siaHu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: sl-mu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: sl-a?d
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: si-t-a-mu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: sl--amu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: si'-a-mu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: si-t-e-ru
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: sl-d-eru
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: sl-a'-t-e-ru
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: sl'-e-ru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: si-t-e-ru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: sl--eru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: sl-a'-t-e-ru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: si'-e-ru
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: si-t-e
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: si--amu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: si-a'-t-e-nu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: si'-e-nu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: sl-t-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: si'di
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: si-a'-t-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: sl'-a-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: sut-e-nju
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: si--e-nju
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: si-a'-t-e-nju
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: si'-e-nju
+---
+lemma: sid
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: siddtu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: sidd-dy
+---
+lemma: venba
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: vennu
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: venne
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: venneru
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: vennenju
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: venjeru
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: venni
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: venji

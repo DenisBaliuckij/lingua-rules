@@ -1,0 +1,378 @@
+lemma: a
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ao
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: a
+---
+lemma: ghinn
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ghinnd
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ghinn
+---
+lemma: h
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: §h
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: o
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: in
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: a
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: §
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: §
+---
+lemma: kar
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: karendahsse
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kironcioahe
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: karendeahin
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kat'sndshin
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: karendaaus
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: karsiidihd
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: karendaha
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: karendaha
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: karo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kar
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: karsah
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kar§so
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: karesin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: karsS
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: kar§se
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: karSsl
+- features:
+    mood: potential
+    number: plural
+    person: first
+  expected: karah
+- features:
+    mood: potential
+    number: plural
+    person: second
+  expected: karo
+- features:
+    mood: potential
+    number: plural
+    person: third
+  expected: karen
+- features:
+    mood: potential
+    number: singular
+    person: first
+  expected: kara
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: aorist
+  expected: kara
+- features:
+    mood: potential
+    number: singular
+    person: second
+  expected: kare
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: aorist
+  expected: karO
+- features:
+    mood: potential
+    number: singular
+    person: third
+  expected: kare
+---
+lemma: leh
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: leho
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: loh
+---
+lemma: mar
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+    voice: passive
+  expected: marisah
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+    voice: passive
+  expected: mariso
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+    voice: passive
+  expected: marisin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+    voice: passive
+  expected: marise
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+  expected: marisi
+---
+lemma: marl
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+    voice: passive
+  expected: man-sah
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+    voice: passive
+  expected: marlso
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+    voice: passive
+  expected: marlsin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+    voice: passive
+  expected: marlsa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+    voice: passive
+  expected: marlsl
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+  expected: marlsl
+- features:
+    mood: potential
+    number: plural
+    person: first
+    voice: passive
+  expected: marlwah
+- features:
+    mood: potential
+    number: plural
+    person: second
+    voice: passive
+  expected: marlo
+- features:
+    mood: potential
+    number: plural
+    person: third
+    voice: passive
+  expected: marlwen
+- features:
+    mood: potential
+    number: singular
+    person: first
+    voice: passive
+  expected: marlwS
+- features:
+    mood: potential
+    number: singular
+    person: second
+    voice: passive
+  expected: marlwe
+- features:
+    mood: potential
+    number: singular
+    person: third
+    voice: passive
+  expected: marlwe
+---
+lemma: t&k
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: take§.hS
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: taki
+---
+lemma: tur
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: turho
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tur
