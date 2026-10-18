@@ -1,0 +1,119 @@
+lemma: Mr\
+category: nouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: Mrh
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: Mr
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: Mrhoo
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: Mrlfoo
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: Mrh
+- features:
+    number: plural
+    person: first
+  expected: Mr'!
+- features:
+    number: singular
+    person: first
+  expected: Mr\
+---
+lemma: Tos
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: arast
+- features:
+    number: singular
+  expected: Tos
+---
+lemma: arwe
+category: nouns
+cases:
+- features:
+    case: accusative
+  expected: arwe
+- features:
+    case: nominative
+  expected: arwe
+---
+lemma: golfo
+category: nouns
+cases:
+- features:
+    case: accusative
+  expected: golfo
+- features:
+    case: nominative
+  expected: golfo
+---
+lemma: kH
+category: nouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: j
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: k'l-h
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: k'I•
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: k'l·lf(TD•
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: k'l-h
+- features:
+    number: singular
+    person: first
+  expected: kH
+---
+lemma: nolawi
+category: nouns
+cases:
+- features:
+    case: accusative
+  expected: nolawe
+- features:
+    case: nominative
+  expected: nolawi
+---
+lemma: nossoha
+category: nouns
+cases:
+- features:
+    case: accusative
+  expected: nossoha
+- features:
+    case: nominative
+  expected: nossoha

@@ -1,0 +1,435 @@
+lemma: anú
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: eení
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: aní
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: eenú
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: anú
+---
+lemma: be
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: asaám
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: asím
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: asíi
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: be
+---
+lemma: eesó
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: eesé
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: eesé
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: eesó
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: eesó
+---
+lemma: eeṛó
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: eeṛé
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: eeṛé
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: eeṛó
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: eeṛó
+---
+lemma: lo
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: las
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: las
+- features:
+    case: accusative
+    number: plural
+  expected: lanaám
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: lasíi
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: lasíi
+- features:
+    case: genitive
+    number: plural
+  expected: laníi
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: le
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: lo
+- features:
+    case: nominative
+    number: plural
+  expected: le
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+  expected: líi
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+  expected: líi
+- features:
+    case: oblique
+    number: plural
+  expected: laním
+---
+lemma: ma
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: asím
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: tusím
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ma
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: thíi
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: míi
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: míi
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: be
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: tus
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ma
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: tu
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: asaám
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: tusaám
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: ma
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: tu
+---
+lemma: nu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: nis
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: nis
+- features:
+    case: accusative
+    number: plural
+  expected: ninaám
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: nisíi
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: nisíi
+- features:
+    case: genitive
+    number: plural
+  expected: niníi
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: ni
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: nu
+- features:
+    case: nominative
+    number: plural
+  expected: ni
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+  expected: níi
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+  expected: níi
+- features:
+    case: oblique
+    number: plural
+  expected: niním
+---
+lemma: so
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: tas
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: tas
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: tas
+- features:
+    case: accusative
+    number: plural
+  expected: tanaám
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: tasíi
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: tasíi
+- features:
+    case: genitive
+    number: plural
+  expected: taníi
+- features:
+    case: nominative
+  expected: so
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: se
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: so
+- features:
+    case: nominative
+    number: plural
+  expected: se
+- features:
+    case: oblique
+  expected: tíi
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+  expected: tíi
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+  expected: tíi
+- features:
+    case: oblique
+    number: plural
+  expected: taním
+---
+lemma: tas
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: taním
+- features:
+    case: accusative
+    number: singular
+  expected: tíi
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: so
+- features:
+    case: nominative
+    number: plural
+  expected: se
+- features:
+    case: oblique
+    number: plural
+  expected: tanaám
+- features:
+    case: oblique
+    number: singular
+  expected: tas
+---
+lemma: tu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: tu
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: thíi
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: thíi
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: tu
+---
+lemma: tus
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: tusaám
+- features:
+    case: ergative
+    number: plural
+    person: second
+  expected: tusím
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: tusíi
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: tus

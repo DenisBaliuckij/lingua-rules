@@ -1,0 +1,19 @@
+lemma: nguru
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ngemu
+- features:
+    number: singular
+    person: first
+  expected: nguru
+- features:
+    number: singular
+    person: second
+  expected: nung.gurr
+- features:
+    number: singular
+    person: third
+  expected: gurna

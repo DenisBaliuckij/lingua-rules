@@ -1,0 +1,135 @@
+lemma: eedi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: weeTini
+- features:
+    case: accusative
+    number: singular
+  expected: deenni
+- features:
+    case: dative
+    number: plural
+  expected: weeTiki
+- features:
+    case: dative
+    number: singular
+  expected: deeniki
+- features:
+    case: genitive
+    number: plural
+  expected: weeTi
+- features:
+    case: genitive
+    number: singular
+  expected: deeni
+- features:
+    case: nominative
+    number: plural
+  expected: eewi
+- features:
+    case: nominative
+    number: singular
+  expected: eedi
+---
+lemma: ewaru
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: ewarini
+- features:
+    case: dative
+  expected: ewariki
+- features:
+    case: genitive
+  expected: ewari
+- features:
+    case: nominative
+  expected: ewaru
+---
+lemma: tanu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: tamani
+- features:
+    case: accusative
+    number: singular
+  expected: tanani
+- features:
+    case: dative
+    number: plural
+  expected: tamaki
+- features:
+    case: dative
+    number: singular
+  expected: tanaki
+- features:
+    case: genitive
+    number: plural
+  expected: tama
+- features:
+    case: genitive
+    number: singular
+  expected: tana
+- features:
+    case: nominative
+    number: plural
+  expected: tamu
+- features:
+    case: nominative
+    number: singular
+  expected: tanu
+---
+lemma: waaLLu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: waaLLanu
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: waaLLaku
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: waaLLa
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: waaLLu
+---
+lemma: waaru
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: waarini
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: waariki
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: waari
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: waaru

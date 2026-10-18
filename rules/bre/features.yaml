@@ -1,0 +1,23 @@
+dimensions:
+  number:
+    values: [singular, dual, plural]
+  case:
+    values: [genitive, locative]
+  gender:
+    values: [masculine, feminine]
+  definiteness:
+    values: [definite, indefinite]
+  person:
+    values: [first, second, third]
+  tense:
+    values: [present, past, future, imperfect, preterite, conditional_tense]
+  mood:
+    values: [indicative, subjunctive, imperative, conditional]
+  voice:
+    values: [passive]
+  verb_form:
+    values: [infinitive]
+  possessor_person:
+    values: [first, second]
+  possessor_number:
+    values: [singular]

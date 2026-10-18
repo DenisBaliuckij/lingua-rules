@@ -1,0 +1,38 @@
+lemma: amo
+category: nouns
+cases:
+- features:
+    case: locative
+  expected: amoyek
+- features:
+    number: plural
+  expected: amoyek
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: nde’amoyem
+---
+lemma: wdabyan
+category: nouns
+cases:
+- features:
+    case: locative
+    number: singular
+  expected: wdabyanek
+- features:
+    case: nominative
+    number: plural
+  expected: wdabyanek
+- features:
+    case: nominative
+    number: singular
+  expected: wdabyan
+- features:
+    case: nominative
+    possessor_number: singular
+    possessor_person: first
+  expected: ndodabyan
+- features:
+    case: oblique
+    number: singular
+  expected: wdabyanen

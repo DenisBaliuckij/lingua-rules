@@ -1,0 +1,457 @@
+lemma: be
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ibe
+- features:
+    verb_form: participle
+  expected: be
+---
+lemma: maxule
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: maxǝl
+- features:
+    verb_form: infinitive
+  expected: maxule
+---
+lemma: ptoxa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: ptixan
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: patxan
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: ptixat
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: patxat
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: ptǝxlax
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: ptixa
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: patxa
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: ptǝxla
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: ptixǝn
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: ptǝxli
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: ptixǝt
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: ptǝxlux
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: ptīx
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: ptǝxle
+- features:
+    mood: imperative
+    number: plural
+  expected: ptuxun
+- features:
+    mood: imperative
+    number: singular
+  expected: ptux
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: ptixǝx
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: ptǝxlan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: ptixetun
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: ptǝ́xlexun
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: ptixi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: ptǝxlā
+---
+lemma: qṭowa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: qṭiyan
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: qṭiyat
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: qṭǝlax
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: qṭiya
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: qṭǝla
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: qṭiyǝn
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: qṭǝli
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: qṭiyǝt
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: qṭǝlux
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: qṭe
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: qṭǝle
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: qṭiyǝx
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: qṭǝlan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: qṭiyetun
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: qṭǝ́lexun
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: qṭa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: qṭǝlā
+---
+lemma: yowu
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: yawa
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: yawǝt
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: yowu
+---
+lemma: štoya
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+  expected: šta
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: štiyan
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: šatyan
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: štiyat
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: šatyat
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: štelax
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: štiya
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: šatya
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: štela
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+  expected: šti
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: štiyǝn
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: šteli
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: štiyǝt
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: štelux
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: šte
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: štele
+- features:
+    mood: imperative
+    number: plural
+  expected: štun
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: štiyǝx
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: štelan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: štetun
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: štélexun
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: štiyi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: štelā

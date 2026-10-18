@@ -1,0 +1,86 @@
+lemma: hont
+category: articles
+cases:
+- features:
+    case: genitive
+    definiteness: indefinite
+  expected: duhont
+- features:
+    case: locative
+    definiteness: definite
+  expected: aleshont
+- features:
+    definiteness: definite
+  expected: ahont
+- features:
+    definiteness: definite
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: henhont
+- features:
+    definiteness: definite
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: hounhont
+---
+lemma: ma
+category: articles
+cases:
+- features:
+    case: genitive
+    definiteness: indefinite
+  expected: du-mañ
+- features:
+    case: locative
+    definiteness: definite
+  expected: alemañ
+- features:
+    definiteness: definite
+  expected: amañ
+- features:
+    definiteness: definite
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: hemañ
+- features:
+    definiteness: definite
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: houmañ
+---
+lemma: se
+category: articles
+cases:
+- features:
+    case: genitive
+    definiteness: indefinite
+  expected: duse
+- features:
+    case: locative
+    definiteness: definite
+  expected: alese
+- features:
+    definiteness: definite
+  expected: aze
+- features:
+    definiteness: definite
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: hennezh
+- features:
+    definiteness: definite
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: hounnezh

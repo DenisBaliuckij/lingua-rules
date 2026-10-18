@@ -1,0 +1,503 @@
+lemma: ja
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: mene
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: meni
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: mene
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: mnom
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: meni
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ja
+---
+lemma: koja
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: kojū
+- features:
+    case: dative
+    number: singular
+  expected: kojoj
+- features:
+    case: genitive
+    number: singular
+  expected: kojē
+- features:
+    case: nominative
+    number: singular
+  expected: kojā
+---
+lemma: koje
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: kojë
+- features:
+    case: dative
+    number: singular
+  expected: kojemu
+- features:
+    case: genitive
+    number: singular
+  expected: kojēga
+- features:
+    case: nominative
+    number: singular
+  expected: koje
+---
+lemma: koji
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: kojā
+- features:
+    case: dative
+    number: singular
+  expected: kojemu
+- features:
+    case: genitive
+    number: singular
+  expected: kojēga
+- features:
+    case: nominative
+    number: singular
+  expected: hojî
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nās
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: nam
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: nas
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: nami
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: nas
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: mi
+---
+lemma: 'on'
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: njega
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+    person: third
+  expected: njemu
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+    person: third
+  expected: njega
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+    person: third
+  expected: njim
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+    person: third
+  expected: njem
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: 'on'
+---
+lemma: ona
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: nju
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+    person: third
+  expected: njoj
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+    person: third
+  expected: nje
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+    person: third
+  expected: njom
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+    person: third
+  expected: njoj
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: ona
+---
+lemma: one
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: nje
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: njim
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: njih
+- features:
+    case: instrumental
+    number: plural
+    person: third
+  expected: njimi
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: njih
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: one
+---
+lemma: oni
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: nje
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: njim
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: njih
+- features:
+    case: instrumental
+    number: plural
+    person: third
+  expected: njimi
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: njih
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: oni
+---
+lemma: ono
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+    person: third
+  expected: njega
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+    person: third
+  expected: njemu
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+    person: third
+  expected: njega
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+    person: third
+  expected: njim
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+    person: third
+  expected: njem
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+    person: third
+  expected: ono
+---
+lemma: opa
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: nje
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: njim
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: njih
+- features:
+    case: instrumental
+    number: plural
+    person: third
+  expected: njimi
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: njih
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: opa
+---
+lemma: sebe
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: sebe
+- features:
+    case: dative
+    number: singular
+  expected: sebi
+- features:
+    case: genitive
+    number: singular
+  expected: sebe
+- features:
+    case: locative
+    number: singular
+  expected: sebi
+---
+lemma: ti
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: tebe
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: tebi
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: tebe
+- features:
+    case: instrumental
+    number: singular
+    person: second
+  expected: tobom
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: tebi
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ti
+- features:
+    case: vocative
+    number: singular
+    person: second
+  expected: ti
+---
+lemma: tko
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: koga
+- features:
+    case: dative
+    number: singular
+  expected: komu
+- features:
+    case: genitive
+    number: singular
+  expected: koga
+- features:
+    case: instrumental
+    number: singular
+  expected: kām
+- features:
+    case: locative
+    number: singular
+  expected: kom
+- features:
+    case: nominative
+    number: singular
+  expected: tko
+---
+lemma: vi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: vās
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: vam
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: vās
+- features:
+    case: instrumental
+    number: plural
+    person: second
+  expected: vami
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: vas
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: vi
+- features:
+    case: vocative
+    number: plural
+    person: second
+  expected: vi
+---
+lemma: što
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: što
+- features:
+    case: dative
+    number: singular
+  expected: čemu
+- features:
+    case: genitive
+    number: singular
+  expected: česa
+- features:
+    case: instrumental
+    number: singular
+  expected: čīm
+- features:
+    case: locative
+    number: singular
+  expected: čēm
+- features:
+    case: nominative
+    number: singular
+  expected: što

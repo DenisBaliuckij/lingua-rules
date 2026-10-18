@@ -1,0 +1,52 @@
+lemma: ǝtli
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+    tense: present
+  expected: ǝtlax
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    tense: present
+  expected: ǝtla
+- features:
+    gender: masculine
+    number: singular
+    person: second
+    tense: present
+  expected: ǝtlux
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    tense: present
+  expected: ǝtle
+- features:
+    number: plural
+    person: first
+    tense: present
+  expected: ǝtlan
+- features:
+    number: plural
+    person: second
+    tense: present
+  expected: ǝ́tlexun
+- features:
+    number: plural
+    person: third
+    tense: present
+  expected: ǝtlā
+- features:
+    number: singular
+    person: first
+    tense: past
+  expected: ǝ́twoli
+- features:
+    number: singular
+    person: first
+    tense: present
+  expected: ǝtli

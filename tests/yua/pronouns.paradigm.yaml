@@ -1,0 +1,235 @@
+lemma: Set A
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: can a eex
+- features:
+    number: singular
+    person: first
+  expected: ca bin a
+- features:
+    number: singular
+    person: second
+  expected: ca bin a
+---
+lemma: Set A + etel
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yetel toon
+- features:
+    number: plural
+    person: second
+  expected: ta ueteleex
+- features:
+    number: singular
+    person: first
+  expected: tin uetel
+- features:
+    number: singular
+    person: second
+  expected: ta uetel
+- features:
+    number: singular
+    person: third
+  expected: tu yetel
+---
+lemma: Set A + olal
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tu olal toon
+- features:
+    number: plural
+    person: second
+  expected: ta uolaleex
+- features:
+    number: plural
+    person: third
+  expected: tu yolaloob
+- features:
+    number: singular
+    person: first
+  expected: tin uolal
+- features:
+    number: singular
+    person: second
+  expected: ta uolal
+- features:
+    number: singular
+    person: third
+  expected: tu yolal
+---
+lemma: dzoc
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: dzoc
+- features:
+    number: plural
+    person: second
+  expected: dzoc a eex
+- features:
+    number: plural
+    person: third
+  expected: dzoc u oob
+- features:
+    number: singular
+    person: first
+  expected: dzoc in
+- features:
+    number: singular
+    person: second
+  expected: dzoc a
+- features:
+    number: singular
+    person: third
+  expected: dzoc u
+---
+lemma: icnal
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: icnaloon
+- features:
+    number: plural
+    person: second
+  expected: ta uicnaleex
+- features:
+    number: plural
+    person: third
+  expected: tu yicnaloob
+- features:
+    number: singular
+    person: first
+  expected: tin uicnal
+- features:
+    number: singular
+    person: second
+  expected: ta uicnal
+- features:
+    number: singular
+    person: third
+  expected: tu yicnal
+---
+lemma: tan
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tan'c
+- features:
+    number: plural
+    person: second
+  expected: tan a eex
+- features:
+    number: plural
+    person: third
+  expected: tan u oob
+- features:
+    number: singular
+    person: first
+  expected: tan in
+- features:
+    number: singular
+    person: second
+  expected: tan a
+- features:
+    number: singular
+    person: third
+  expected: tan u
+---
+lemma: ten
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tóʔon
+- features:
+    number: plural
+    person: second
+  expected: téʔeš
+- features:
+    number: plural
+    person: third
+  expected: tiʔob
+- features:
+    number: singular
+    person: first
+  expected: ten
+- features:
+    number: singular
+    person: second
+  expected: teč
+- features:
+    number: singular
+    person: third
+  expected: tiʔ
+---
+lemma: tiʔ tèen
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tiʔ tóʔon
+- features:
+    number: plural
+    person: second
+  expected: tiʔ téʔeš
+- features:
+    number: plural
+    person: third
+  expected: tiʔ letiʔob
+- features:
+    number: singular
+    person: first
+  expected: tiʔ tèen
+- features:
+    number: singular
+    person: second
+  expected: tiʔ tèeč
+- features:
+    number: singular
+    person: third
+  expected: tiʔ letiʔ
+---
+lemma: tumen
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tumen toon
+- features:
+    number: plural
+    person: second
+  expected: tumen teex
+- features:
+    number: plural
+    person: third
+  expected: tumenoob
+- features:
+    number: singular
+    person: first
+  expected: tumen ten
+- features:
+    number: singular
+    person: second
+  expected: tumen tech
+- features:
+    number: singular
+    person: third
+  expected: tumen

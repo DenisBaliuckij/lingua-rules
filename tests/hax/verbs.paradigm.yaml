@@ -1,0 +1,690 @@
+lemma: ill
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: conditional
+    number: dual
+    person: third
+    tense: past
+  expected: stiglwastlo
+- features:
+    aspect: perfective
+    mood: conditional
+    number: plural
+    person: first
+    tense: past
+  expected: itil
+- features:
+    aspect: perfective
+    mood: conditional
+    number: plural
+    person: second
+    tense: past
+  expected: dalung
+- features:
+    aspect: perfective
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: ltha
+- features:
+    aspect: perfective
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: stiglgaotlo
+- features:
+    aspect: perfective
+    mood: conditional
+    number: singular
+    person: second
+    tense: past
+  expected: dung
+- features:
+    aspect: perfective
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: iI
+- features:
+    aspect: progressive
+    mood: conditional
+    number: dual
+    person: third
+    tense: past
+  expected: stigiwanasilo
+- features:
+    aspect: progressive
+    mood: conditional
+    number: plural
+    person: first
+    tense: past
+  expected: itil
+- features:
+    aspect: progressive
+    mood: conditional
+    number: plural
+    person: second
+    tense: past
+  expected: dalung
+- features:
+    aspect: progressive
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: ltha
+- features:
+    aspect: progressive
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: stipTganastlo
+- features:
+    aspect: progressive
+    mood: conditional
+    number: singular
+    person: second
+    tense: past
+  expected: diiuji
+- features:
+    aspect: progressive
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: i
+- features:
+    mood: conditional
+    number: dual
+    person: third
+    tense: past
+  expected: htiwunsilo
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: past
+  expected: ftil
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: past
+  expected: bailing
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: ltha
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: sti-innstlo
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: past
+  expected: dung
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: iI
+---
+lemma: kalimgfinhangung
+category: verbs
+cases:
+- features:
+    mood: potential
+    number: plural
+    person: first
+    tense: present
+  expected: dalung
+- features:
+    mood: potential
+    number: plural
+    person: third
+    tense: present
+  expected: kfiluiigwrinhani^ung
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: present
+  expected: kalimgfinhangung
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: present
+  expected: dung
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: present
+  expected: talung
+---
+lemma: kalung
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: conditional
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: talung
+- features:
+    aspect: progressive
+    mood: conditional
+    number: plural
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: dalung
+- features:
+    aspect: progressive
+    mood: conditional
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: dalung
+- features:
+    aspect: progressive
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: dung
+- features:
+    aspect: progressive
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: dung
+- features:
+    mood: conditional
+    number: dual
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: kalungwangean
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: talung
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: talung
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: dalung
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: dalung
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: dalung
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: dung
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: dung
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: dung
+---
+lemma: kfilunjiunganhangung
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: potential
+    number: plural
+    person: first
+    tense: present
+  expected: dalung
+- features:
+    aspect: progressive
+    mood: potential
+    number: plural
+    person: third
+    tense: present
+  expected: kalungungwanhangung
+- features:
+    aspect: progressive
+    mood: potential
+    number: singular
+    person: first
+    tense: present
+  expected: kfilunjiunganhangung
+- features:
+    aspect: progressive
+    mood: potential
+    number: singular
+    person: second
+    tense: present
+  expected: dung
+- features:
+    aspect: progressive
+    mood: potential
+    number: singular
+    person: third
+    tense: present
+  expected: talung
+---
+lemma: krdunganhasingung
+category: verbs
+cases:
+- features:
+    mood: potential
+    number: plural
+    person: first
+    tense: past
+  expected: dalung
+- features:
+    mood: potential
+    number: plural
+    person: third
+    tense: past
+  expected: krdungwanhasingung
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: past
+  expected: krdunganhasingung
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: past
+  expected: dung
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: past
+  expected: talung
+---
+lemma: krilunfuinSungangst'stlo
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: dalunt
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: krilungiinSang\vrini
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: krilunfuinSungangst'stlo
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: dung
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: talung
+---
+lemma: kuijangalianjiniij
+category: verbs
+cases:
+- features:
+    mood: potential
+    number: plural
+    person: second
+    tense: perfect
+  expected: daliing
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: perfect
+  expected: daliou
+---
+lemma: kum
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: kalungwi'inglni
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: negative
+    tense: pluperfect
+  expected: kalunglouangungwau
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: talung
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: pluperfect
+  expected: talung
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: dalung
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: pluperfect
+  expected: dalung
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: itha
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: pluperfect
+  expected: itha
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: kalungangiDi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: pluperfect
+  expected: kalunglfingungwau
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: krilungfingang
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: dung
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: pluperfect
+  expected: dung
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: il
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: pluperfect
+  expected: il
+---
+lemma: kwoyada
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    voice: passive
+  expected: kwoyadios
+- features:
+    aspect: progressive
+    voice: passive
+  expected: kwoyfuliagigini
+---
+lemma: kwoyadiilgigangaliangung
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: dalung
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kwoyadiilgigangaliangung
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: dung
+---
+lemma: kwoyfidadzinf
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: kwoyfidulthu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kwoyfidaltha
+---
+lemma: kwoyfidajiladzing
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: kwoyridagTultlia
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kwoyfidagiltha
+---
+lemma: kwoyfidiilgungasrstlo
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: future_perfect
+  expected: dalung
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: future_perfect
+  expected: kwoyfidiilgungasrstlo
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future_perfect
+  expected: dung
+---
+lemma: kwoyiidiagnnghangung
+category: verbs
+cases:
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: present
+  expected: kwoyiidiagnnghangung
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: present
+  expected: dung
+---
+lemma: kwoyridifiirigungsustlo
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: future
+  expected: dalung
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: future
+  expected: kwoyridifiirigungsustlo
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+  expected: dung
+---
+lemma: stltlingaijung
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: present
+  expected: ltlia
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: stltlingaijung
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: present
+  expected: dung
+---
+lemma: walk
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    number: plural
+    tense: perfect
+    verb_form: infinitive
+  expected: istalglguuG
+- features:
+    aspect: progressive
+    number: plural
+    tense: present
+    verb_form: infinitive
+  expected: istalglge
+- features:
+    number: singular
+    tense: present
+    verb_form: infinitive
+  expected: istalgi

@@ -1,0 +1,79 @@
+lemma: nde
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: kím
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: tiɾ
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: kám
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: aɾ
+- features:
+    number: plural
+    person: first
+  expected: áná
+- features:
+    number: plural
+    person: second
+  expected: kéné
+- features:
+    number: plural
+    person: third
+  expected: keɾ
+- features:
+    number: singular
+    person: first
+  expected: nde
+---
+lemma: ni
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: kí
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: di
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: ká
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: a
+- features:
+    number: plural
+    person: first
+  expected: á
+- features:
+    number: plural
+    person: second
+  expected: ká
+- features:
+    number: plural
+    person: third
+  expected: ka
+- features:
+    number: singular
+    person: first
+  expected: ni

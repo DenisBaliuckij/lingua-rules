@@ -1,0 +1,125 @@
+lemma: iye
+category: pronouns
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: uIJkis
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: niyepi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: iyepi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: mis
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: niA
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: is
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: ul)
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: uI)-pi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: ni-pi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: rna
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: ni
+---
+lemma: ta
+category: pronouns
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: uIjkita
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: uIjkita-pi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: nita-pi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: kupi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: mita
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: nita
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: ku
+---
+lemma: wa
+category: pronouns
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: uIj-P
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: ya-l
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: wa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: ya

@@ -1,0 +1,23 @@
+lemma: ileng
+category: articles
+cases:
+- features:
+    gender: masculine
+    number: plural
+  expected: hulong
+- features:
+    gender: masculine
+    number: singular
+  expected: ileng
+---
+lemma: inang
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: hunang
+- features:
+    gender: feminine
+    number: singular
+  expected: inang

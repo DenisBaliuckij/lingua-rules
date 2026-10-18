@@ -1,0 +1,1075 @@
+lemma: असणे
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: असूं
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: असा
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: असोत
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: असूं
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: असो
+- features:
+    mood: potential
+    number: plural
+    person: first
+  expected: असवे
+- features:
+    mood: potential
+    number: plural
+    person: first
+    tense: future
+  expected: असवेल
+- features:
+    mood: potential
+    number: plural
+    person: first
+    tense: present
+  expected: असवनें
+- features:
+    mood: potential
+    number: plural
+    person: first
+    tense: preterite
+  expected: असवलें
+- features:
+    mood: potential
+    number: plural
+    person: second
+  expected: असवे
+- features:
+    mood: potential
+    number: plural
+    person: second
+    tense: future
+  expected: असवेल
+- features:
+    mood: potential
+    number: plural
+    person: second
+    tense: present
+  expected: असवनें
+- features:
+    mood: potential
+    number: plural
+    person: second
+    tense: preterite
+  expected: असवलें
+- features:
+    mood: potential
+    number: plural
+    person: third
+  expected: असवे
+- features:
+    mood: potential
+    number: plural
+    person: third
+    tense: future
+  expected: असवेल
+- features:
+    mood: potential
+    number: plural
+    person: third
+    tense: present
+  expected: असवतें
+- features:
+    mood: potential
+    number: plural
+    person: third
+    tense: preterite
+  expected: असवलें
+- features:
+    mood: potential
+    number: singular
+    person: first
+  expected: असवे
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: future
+  expected: असवेल
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: present
+  expected: असवतें
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: preterite
+  expected: असवलें
+- features:
+    mood: potential
+    number: singular
+    person: second
+  expected: असवे
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: future
+  expected: असवेल
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: present
+  expected: असवतें
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: preterite
+  expected: असवलें
+- features:
+    mood: potential
+    number: singular
+    person: third
+  expected: असवे
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: future
+  expected: असवेल
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: present
+  expected: असवतें
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: preterite
+  expected: असवलें
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: असावे
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: असावेत
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: असावे
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: असावा
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: असावास
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: असावा
+- features:
+    verb_form: infinitive
+  expected: असूं
+- features:
+    verb_form: verbal_noun
+  expected: असणें
+---
+lemma: असणें
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: असं
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: असत
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: असें
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: असस
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: असे
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: past
+  expected: असलों
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: present
+  expected: असतों
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: past
+  expected: असलेत
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: present
+  expected: असतो
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: असले
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: present
+  expected: असते
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: असलों
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: असतों
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: past
+  expected: असलास
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: present
+  expected: असतास
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: असला
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: present
+  expected: असता
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: असं
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: होतों
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: आहों
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: असाल
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: होतां
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: आहां
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: असतील
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: होते
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: आहेत
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: असेन
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: होतों
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: आहे
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: अससील
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: होतास
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: आहेस
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: असेल
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: होता
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: आहे
+---
+lemma: करविणें
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: करवा
+- features:
+    mood: potential
+  expected: करवतें
+- features:
+    mood: subjunctive
+  expected: करवावा
+- features:
+    verb_form: infinitive
+  expected: करविणें
+---
+lemma: जाणें
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: जा
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: जा
+- features:
+    mood: potential
+  expected: जाववतें
+- features:
+    mood: subjunctive
+  expected: जावा
+- features:
+    verb_form: infinitive
+  expected: जाणें
+---
+lemma: जावविणें
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: जाववा
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: जावीव
+- features:
+    mood: potential
+  expected: जाववतें
+- features:
+    mood: subjunctive
+  expected: जाववावा
+- features:
+    verb_form: infinitive
+  expected: जावविणें
+---
+lemma: देणें
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: द्या
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: द्या
+- features:
+    mood: potential
+  expected: देववतें
+- features:
+    mood: subjunctive
+  expected: द्यावा
+- features:
+    verb_form: infinitive
+  expected: देणें
+---
+lemma: देवविणें
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: देववा
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: देवीव
+- features:
+    mood: potential
+  expected: देववतें
+- features:
+    mood: subjunctive
+  expected: देववावा
+- features:
+    verb_form: infinitive
+  expected: देवविणें
+---
+lemma: धुणें
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: धुवा
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: धुवा
+- features:
+    mood: potential
+  expected: धुववतें
+- features:
+    mood: subjunctive
+  expected: धुवावा
+- features:
+    verb_form: infinitive
+  expected: धुणें
+---
+lemma: पडणे
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: past
+  expected: पडलों
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: present
+  expected: पडतों
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: present
+  expected: पडतो
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: पडलों
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: पडाल
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: पड
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: पडतील
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: पडत
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: पडेन
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: पडे
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: पडसील
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: पडेस
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: पडेल
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: पडे
+---
+lemma: पिणें
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: प्या
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: पी
+- features:
+    mood: potential
+  expected: पिववतें
+- features:
+    mood: subjunctive
+  expected: प्यावा
+- features:
+    verb_form: infinitive
+  expected: पिणें
+---
+lemma: फिरविणें
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: फिरवा
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: फिरीव
+- features:
+    mood: potential
+  expected: फिरवतें
+- features:
+    mood: subjunctive
+  expected: फिरवावा
+- features:
+    verb_form: infinitive
+  expected: फिरविणें
+---
+lemma: भिणें
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: भ्या
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: भी
+- features:
+    mood: potential
+  expected: भिववतें
+- features:
+    mood: subjunctive
+  expected: भ्यावा
+- features:
+    verb_form: infinitive
+  expected: भिणें
+---
+lemma: मोडणे
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: present
+  expected: मोडितों
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: present
+  expected: मोडितां
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: present
+  expected: मोडिते
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: मोडितों
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: present
+  expected: मोडितोस
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: present
+  expected: मोडिता
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: मोडूं
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: मोडाल
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: मोडतील
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: मोडीन
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: मोडसील
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: मोडील
+---
+lemma: येणें
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: घ्या
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: घे
+- features:
+    mood: potential
+  expected: घेववतें
+- features:
+    mood: subjunctive
+  expected: घ्यावा
+- features:
+    verb_form: infinitive
+  expected: येणें
+---
+lemma: लिहिणें
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: लिहा
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: लिही
+- features:
+    mood: potential
+  expected: लिहवतें
+- features:
+    mood: subjunctive
+  expected: लिहावा
+- features:
+    verb_form: infinitive
+  expected: लिहिणें
+---
+lemma: लें
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: dual
+    person: first
+    tense: past
+  expected: लें
+- features:
+    mood: conditional
+    number: dual
+    person: second
+    tense: past
+  expected: लीस
+- features:
+    mood: conditional
+    number: dual
+    person: third
+    tense: past
+  expected: ली
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: past
+  expected: ल्यें
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: past
+  expected: लां
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: लें
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: लों
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: past
+  expected: लास
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: ला
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: लें
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: लीस
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: ली
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ल्यें
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: लां
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: लें
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: लों
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: लास
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ला
+---
+lemma: लेणें
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ल्या
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ले
+- features:
+    mood: potential
+  expected: लेववतें
+- features:
+    mood: subjunctive
+  expected: ल्यावा
+- features:
+    verb_form: infinitive
+  expected: लेणें
+---
+lemma: लेला
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: लेली
+- features:
+    gender: masculine
+    number: dual
+  expected: लेले
+- features:
+    gender: masculine
+    number: singular
+  expected: लेला
+- features:
+    gender: neuter
+    number: singular
+  expected: लेलें
+---
+lemma: वा
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: present
+  expected: वी
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: present
+  expected: वीस
+- features:
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: present
+  expected: वी
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: वें
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: वेंस
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: वें
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: वा
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: वास
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: वा
+---
+lemma: होणें
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: व्हा
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: हो
+- features:
+    mood: potential
+  expected: होववतें
+- features:
+    mood: subjunctive
+  expected: व्हावा
+- features:
+    verb_form: infinitive
+  expected: होणें

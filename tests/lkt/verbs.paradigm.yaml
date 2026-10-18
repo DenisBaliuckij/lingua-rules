@@ -1,0 +1,968 @@
+lemma: ?uŋ
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: uŋk?uŋ
+- features:
+    number: singular
+    person: first
+  expected: wa?uŋ
+- features:
+    number: singular
+    person: third
+  expected: uŋ
+---
+lemma: ahi
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: waka'hi
+- features:
+    number: dual
+    person: third
+  expected: yaka'hi
+- features:
+    number: plural
+    person: first
+  expected: wičha'wakahi
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: third
+  expected: wičhuŋ'kahi
+- features:
+    number: plural
+    person: first
+    possessor_number: singular
+    possessor_person: second
+  expected: uŋni'čahi
+- features:
+    number: plural
+    person: first
+    possessor_number: singular
+    possessor_person: third
+  expected: uŋka'hi
+- features:
+    number: singular
+    person: first
+  expected: čhiča'hi
+- features:
+    number: singular
+    person: first
+    possessor_number: plural
+    possessor_person: third
+  expected: wičha'wakahi
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: second
+  expected: čhiča'hi
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: third
+  expected: waka'hi
+- features:
+    number: singular
+    person: second
+  expected: maya'kahi
+- features:
+    number: singular
+    person: second
+    possessor_number: plural
+    possessor_person: first
+  expected: uŋya'kahi
+- features:
+    number: singular
+    person: second
+    possessor_number: plural
+    possessor_person: third
+  expected: wičha'yeča?ahi
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: first
+  expected: maya'kahi
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: third
+  expected: yaka'hi
+- features:
+    number: singular
+    person: third
+  expected: maka'hi
+- features:
+    number: singular
+    person: third
+    possessor_number: plural
+    possessor_person: first
+  expected: uŋka'hi
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: first
+  expected: maka'hi
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: second
+  expected: niča'hi
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: kahi
+---
+lemma: aphA
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: awi'čhaphe
+- features:
+    number: singular
+    person: first
+  expected: ama'phe
+- features:
+    number: singular
+    person: second
+  expected: ani'phe
+- features:
+    number: singular
+    person: third
+  expected: aphe
+---
+lemma: ble
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+  expected: lapi
+- features:
+    number: singular
+    person: first
+  expected: ble
+- features:
+    number: singular
+    person: second
+  expected: le
+- features:
+    number: singular
+    person: third
+  expected: ye
+---
+lemma: blu
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: blu
+- features:
+    number: singular
+    person: second
+  expected: lu
+- features:
+    number: singular
+    person: third
+  expected: yu
+---
+lemma: ciq
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: waċi
+- features:
+    number: singular
+    person: second
+  expected: yaċi
+- features:
+    number: singular
+    person: third
+  expected: ċi
+---
+lemma: eyA
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: uŋke'ye
+- features:
+    number: singular
+    person: first
+  expected: ephe
+- features:
+    number: singular
+    person: second
+  expected: ehe
+- features:
+    number: singular
+    person: third
+  expected: e'ye
+---
+lemma: ečha'?uŋ
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ečha'mu
+- features:
+    number: singular
+    person: second
+  expected: ečha'nu
+- features:
+    number: singular
+    person: third
+  expected: ečhuŋ
+---
+lemma: haŋ'skA
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: uŋhaŋ'ske
+- features:
+    number: plural
+    person: third
+  expected: wičha'haŋske
+- features:
+    number: singular
+    person: first
+  expected: mahaŋ'ske
+- features:
+    number: singular
+    person: second
+  expected: nihaŋ'ske
+- features:
+    number: singular
+    person: third
+  expected: haŋ'ske
+---
+lemma: hi
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: uŋhi
+- features:
+    number: dual
+    person: second
+  expected: uqhi
+- features:
+    number: plural
+    person: third
+  expected: hipi
+- features:
+    number: singular
+    person: first
+  expected: wahi
+- features:
+    number: singular
+    person: second
+  expected: yahi
+- features:
+    number: singular
+    person: third
+  expected: hi
+---
+lemma: i'-puza
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: i'-mapu'za
+- features:
+    number: singular
+    person: second
+  expected: i'-nipu'za
+- features:
+    number: singular
+    person: third
+  expected: i'puza
+---
+lemma: iye'yA
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: iye'wakhiye
+- features:
+    number: dual
+    person: third
+  expected: iye'yakhiye
+- features:
+    number: plural
+    person: first
+  expected: iye'wičhawakhiye
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: third
+  expected: iye'wičhuŋkhiye
+- features:
+    number: singular
+    person: first
+  expected: iye'čhičhiye
+- features:
+    number: singular
+    person: first
+    possessor_number: plural
+    possessor_person: third
+  expected: iye'wičhawakhiye
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: second
+  expected: iye'čhičhiye
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: third
+  expected: iye'wakhiye
+- features:
+    number: singular
+    person: second
+  expected: iye'mayakhiye
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: first
+  expected: iye'mayakhiye
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: third
+  expected: iye'yakhiye
+- features:
+    number: singular
+    person: third
+  expected: iye'makhiye
+- features:
+    number: singular
+    person: third
+    possessor_number: plural
+    possessor_person: first
+  expected: iye'?uŋkhiya
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: first
+  expected: iye'makhiye
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: second
+  expected: iye'ničhiye
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: iye'khiye
+---
+lemma: iču
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: iwa'kiču
+- features:
+    number: dual
+    person: third
+  expected: iya'kiču
+- features:
+    number: plural
+    person: first
+  expected: iwi'čhawakiču
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: third
+  expected: iwi'čhuŋkiču
+- features:
+    number: plural
+    person: first
+    possessor_number: singular
+    possessor_person: second
+  expected: uŋki'ničiču
+- features:
+    number: plural
+    person: first
+    possessor_number: singular
+    possessor_person: third
+  expected: uŋki'čiču
+- features:
+    number: singular
+    person: first
+  expected: ičhi'čiču
+- features:
+    number: singular
+    person: first
+    possessor_number: plural
+    possessor_person: third
+  expected: iwi'čhawakiču
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: second
+  expected: ičhi'čiču
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: third
+  expected: iwa'kiču
+- features:
+    number: singular
+    person: second
+  expected: ima'yakiču
+- features:
+    number: singular
+    person: second
+    possessor_number: plural
+    possessor_person: first
+  expected: uŋki'yakiču
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: first
+  expected: ima'yakiču
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: third
+  expected: iya'kiču
+- features:
+    number: singular
+    person: third
+  expected: ima'kiču
+- features:
+    number: singular
+    person: third
+    possessor_number: plural
+    possessor_person: first
+  expected: uŋki'kiču
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: first
+  expected: ima'kiču
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: second
+  expected: ini'čiču
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: iki'ču
+---
+lemma: khi'ze
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: wičha'khize
+- features:
+    number: singular
+    person: first
+  expected: makhi'ze
+- features:
+    number: singular
+    person: second
+  expected: ničhi'ze
+- features:
+    number: singular
+    person: third
+  expected: khi'ze
+---
+lemma: loċi
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: lowaċi
+- features:
+    number: singular
+    person: second
+  expected: loyaċi
+- features:
+    number: singular
+    person: third
+  expected: loċi
+---
+lemma: ma
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ma
+- features:
+    number: singular
+    person: second
+  expected: ni
+- features:
+    number: singular
+    person: third
+  expected: u
+---
+lemma: pazo
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: waki'pazo
+- features:
+    number: dual
+    person: third
+  expected: yaki'pazo
+- features:
+    number: plural
+    person: first
+  expected: wičha'wakipazo
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: third
+  expected: wičhuŋ'kipazo
+- features:
+    number: plural
+    person: first
+    possessor_number: singular
+    possessor_person: second
+  expected: uŋni'čipazo
+- features:
+    number: plural
+    person: first
+    possessor_number: singular
+    possessor_person: third
+  expected: uŋki'pazo
+- features:
+    number: singular
+    person: first
+  expected: čhiči'pazo
+- features:
+    number: singular
+    person: first
+    possessor_number: plural
+    possessor_person: third
+  expected: wičha'wakipazo
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: second
+  expected: čhiči'pazo
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: third
+  expected: waki'pazo
+- features:
+    number: singular
+    person: second
+  expected: maya'kipazo
+- features:
+    number: singular
+    person: second
+    possessor_number: plural
+    possessor_person: first
+  expected: uŋya'kipazo
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: first
+  expected: maya'kipazo
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: third
+  expected: yaki'pazo
+- features:
+    number: singular
+    person: third
+  expected: maki'pazo
+- features:
+    number: singular
+    person: third
+    possessor_number: plural
+    possessor_person: first
+  expected: uŋki'pazo
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: first
+  expected: maki'pazo
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: second
+  expected: niči'pazo
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: kipa'zo
+---
+lemma: slolyA
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: slolwi'čhaye
+- features:
+    number: singular
+    person: first
+  expected: slolma'ye
+- features:
+    number: singular
+    person: second
+  expected: slolni'ye
+- features:
+    number: singular
+    person: third
+  expected: slolye
+---
+lemma: ti
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: tipi
+- features:
+    number: singular
+    person: first
+  expected: i^ati
+- features:
+    number: singular
+    person: second
+  expected: yati
+- features:
+    number: singular
+    person: third
+  expected: ti
+---
+lemma: uŋ
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: mu
+- features:
+    number: singular
+    person: second
+  expected: nu
+- features:
+    number: singular
+    person: third
+  expected: uŋ
+---
+lemma: uŋspe
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: uŋkuŋ'spe
+- features:
+    number: singular
+    person: first
+  expected: uŋma'spe
+- features:
+    number: singular
+    person: second
+  expected: uŋni'spe
+- features:
+    number: singular
+    person: third
+  expected: uŋspe
+---
+lemma: wa
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: u
+- features:
+    number: singular
+    person: first
+  expected: wa
+- features:
+    number: singular
+    person: second
+  expected: ya
+---
+lemma: wapiye
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: wapiyglo
+- features:
+    number: dual
+    person: first
+  expected: wapiurjye
+- features:
+    number: plural
+    person: second
+  expected: wapiyavapi
+- features:
+    number: plural
+    person: third
+  expected: wapivapi
+- features:
+    number: singular
+    person: second
+  expected: wapiyave
+- features:
+    number: singular
+    person: third
+  expected: wapiye
+---
+lemma: waste
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+  expected: henawatepihe
+- features:
+    mood: indicative
+    number: plural
+    polarity: affirmative
+  expected: henawatepikto
+- features:
+    mood: indicative
+    number: singular
+  expected: watehe
+- features:
+    mood: indicative
+    number: singular
+    polarity: affirmative
+  expected: watekto
+---
+lemma: wate
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: watepe
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: wateyg
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: henawatepihg
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: henawatepikto
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: watehe
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: wateye
+---
+lemma: waŋyaŋ'kA
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: waŋ?uŋ'yaŋke
+- features:
+    number: singular
+    person: first
+  expected: waŋbla'ke
+- features:
+    number: singular
+    person: second
+  expected: waŋla'ke
+- features:
+    number: singular
+    person: third
+  expected: waŋyaŋ'ke
+---
+lemma: yA
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: uŋye
+- features:
+    number: singular
+    person: first
+  expected: ble
+- features:
+    number: singular
+    person: second
+  expected: le
+- features:
+    number: singular
+    person: third
+  expected: ye
+---
+lemma: yaŋkA
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: uŋyaŋ'ke
+- features:
+    number: singular
+    person: third
+  expected: yaŋke
+---
+lemma: yu'tA
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: uŋyu'te
+- features:
+    number: singular
+    person: first
+  expected: wa'te
+- features:
+    number: singular
+    person: second
+  expected: ya'te
+- features:
+    number: singular
+    person: third
+  expected: yu'te
+---
+lemma: yuha
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: uŋyu'ha
+- features:
+    number: dual
+    person: second
+  expected: uuyuha
+- features:
+    number: plural
+    person: second
+  expected: luhapi
+- features:
+    number: plural
+    person: third
+  expected: yuhapi
+- features:
+    number: singular
+    person: first
+  expected: bluha
+- features:
+    number: singular
+    person: second
+  expected: luha
+- features:
+    number: singular
+    person: third
+  expected: yuha
+---
+lemma: yuštaŋ
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: we'čiyuštaŋ
+- features:
+    number: dual
+    person: third
+  expected: ye'čiyuštaŋ
+- features:
+    number: plural
+    person: first
+  expected: wičha'wečiyuštaŋ
+- features:
+    number: singular
+    person: first
+  expected: čhi'čiyuštaŋ
+- features:
+    number: singular
+    person: second
+  expected: miye'čiluštaŋ
+- features:
+    number: singular
+    person: third
+  expected: mi'čiyuštaŋ

@@ -1,0 +1,726 @@
+lemma: au
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: mu
+- features:
+    number: plural
+    person: second
+  expected: mko
+- features:
+    number: singular
+    person: second
+  expected: au
+---
+lemma: auine
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: muine
+- features:
+    number: plural
+    person: second
+  expected: mkoine
+- features:
+    number: singular
+    person: second
+  expected: auine
+---
+lemma: auiwa
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: muiwa
+- features:
+    number: plural
+    person: second
+  expected: mkoiwa
+- features:
+    number: singular
+    person: second
+  expected: auiwa
+---
+lemma: auiya
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: muiya
+- features:
+    number: plural
+    person: second
+  expected: mkoiya
+- features:
+    number: singular
+    person: second
+  expected: auiya
+---
+lemma: aw
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: aw
+---
+lemma: ay-an-i
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: first
+  expected: ku-b-an-si
+- features:
+    animacy: animate
+    number: dual
+    person: second
+  expected: mu-b-an-si
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: su-b-an-si
+- features:
+    animacy: animate
+    number: plural
+    person: first
+  expected: ko-b-an-si
+- features:
+    animacy: animate
+    number: plural
+    person: second
+  expected: mko-b-an-si
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: s-an-i
+- features:
+    animacy: animate
+    number: singular
+    person: first
+  expected: ay-an-si
+- features:
+    animacy: animate
+    number: singular
+    person: second
+  expected: b-an-si
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: b-y-an-si
+- features:
+    animacy: inanimate
+    number: dual
+    person: first
+  expected: ku-b-an-na
+- features:
+    animacy: inanimate
+    number: dual
+    person: second
+  expected: mu-b-an-na
+- features:
+    animacy: inanimate
+    number: dual
+    person: third
+  expected: su-b-an-na
+- features:
+    animacy: inanimate
+    number: plural
+    person: first
+  expected: ko-b-an-na
+- features:
+    animacy: inanimate
+    number: plural
+    person: second
+  expected: mko-b-an-na
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: n-b-an-i
+- features:
+    animacy: inanimate
+    number: singular
+    person: first
+  expected: ay-an-na
+- features:
+    animacy: inanimate
+    number: singular
+    person: second
+  expected: b-an-na
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: b-y-an-na
+- features:
+    number: dual
+    person: first
+  expected: ku-b-an-i
+- features:
+    number: dual
+    person: second
+  expected: mu-b-an-i
+- features:
+    number: dual
+    person: third
+  expected: su-b-an-i
+- features:
+    number: plural
+    person: first
+  expected: ko-b-an-i
+- features:
+    number: plural
+    person: second
+  expected: mko-b-an-i
+- features:
+    number: plural
+    person: third
+  expected: sko-b-an-i
+- features:
+    number: singular
+    person: first
+  expected: ay-an-i
+- features:
+    number: singular
+    person: second
+  expected: b-an-i
+- features:
+    number: singular
+    person: third
+  expected: b-y-an-i
+---
+lemma: aya
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ku
+- features:
+    number: plural
+    person: first
+  expected: ko
+- features:
+    number: singular
+    person: first
+  expected: aya
+---
+lemma: ayaine
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kuine
+- features:
+    number: plural
+    person: first
+  expected: koine
+- features:
+    number: singular
+    person: first
+  expected: ayaine
+---
+lemma: be
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: first
+  expected: ku-be-si
+- features:
+    animacy: animate
+    number: dual
+    person: second
+  expected: mu-be-si
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: su-be-si
+- features:
+    animacy: animate
+    number: plural
+    person: first
+  expected: ko-be-si
+- features:
+    animacy: animate
+    number: plural
+    person: second
+  expected: mko-be-si
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: s-be-di
+- features:
+    animacy: animate
+    number: singular
+    person: first
+  expected: ayesi
+- features:
+    animacy: animate
+    number: singular
+    person: second
+  expected: besi
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: b-y-e-si
+- features:
+    animacy: animate
+    person: third
+  expected: sko-be-si
+- features:
+    animacy: inanimate
+    number: dual
+    person: first
+  expected: ku-be-na
+- features:
+    animacy: inanimate
+    number: dual
+    person: second
+  expected: mu-be-na
+- features:
+    animacy: inanimate
+    number: dual
+    person: third
+  expected: su-be-na
+- features:
+    animacy: inanimate
+    number: plural
+    person: first
+  expected: ko-be-na
+- features:
+    animacy: inanimate
+    number: plural
+    person: second
+  expected: mko-be-na
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: s-be-na
+- features:
+    animacy: inanimate
+    number: singular
+    person: first
+  expected: ayena
+- features:
+    animacy: inanimate
+    number: singular
+    person: second
+  expected: bena
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: b-y-e-na
+- features:
+    animacy: inanimate
+    person: third
+  expected: sko-be-na
+- features:
+    number: dual
+    person: first
+  expected: ku-be-di
+- features:
+    number: dual
+    person: second
+  expected: mu-be-di
+- features:
+    number: dual
+    person: third
+  expected: su-be-di
+- features:
+    number: plural
+    person: first
+  expected: ko-be-di
+- features:
+    number: plural
+    person: second
+  expected: mko-be-di
+- features:
+    number: singular
+    person: first
+  expected: ay-e-di
+- features:
+    number: singular
+    person: second
+  expected: bedi
+- features:
+    number: singular
+    person: third
+  expected: b-y-e-di
+- features:
+    person: third
+  expected: sko-be-di
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: si
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: na
+- features:
+    number: dual
+    person: third
+  expected: su
+- features:
+    number: plural
+    person: third
+  expected: skoi
+- features:
+    number: singular
+    person: third
+  expected: i
+---
+lemma: i-ya
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: si-ya
+- features:
+    animacy: inanimate
+    number: plural
+  expected: na-ya
+- features:
+    number: dual
+  expected: su-ya
+- features:
+    number: singular
+  expected: i-ya
+---
+lemma: ine
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: sine
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: naine
+- features:
+    number: dual
+    person: third
+  expected: suine
+- features:
+    number: singular
+    person: third
+  expected: ine
+---
+lemma: inko
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: inko
+---
+lemma: is-i-ne
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: s-is-i-ne
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: na-is-i-ne
+- features:
+    number: dual
+    person: third
+  expected: su-is-i-ne
+- features:
+    number: singular
+    person: third
+  expected: is-i-ne
+---
+lemma: is-i-wa
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: s-is-i-wa
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: na-is-i-wa
+- features:
+    number: dual
+    person: third
+  expected: su-is-i-wa
+- features:
+    number: singular
+    person: third
+  expected: is-i-wa
+---
+lemma: is-i-ya
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: s-is-i-ya
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: na-is-i-ya
+- features:
+    number: dual
+    person: third
+  expected: su-is-i-ya
+- features:
+    number: singular
+    person: third
+  expected: is-i-ya
+---
+lemma: is-ne
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: si-is-ne
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: na-is-ne
+- features:
+    number: dual
+    person: third
+  expected: su-is-ne
+- features:
+    number: singular
+    person: third
+  expected: is-ne
+---
+lemma: is-wa
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: s-is- wa
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: na-is- wa
+- features:
+    number: dual
+    person: third
+  expected: su-is- wa
+- features:
+    number: singular
+    person: third
+  expected: is- wa
+---
+lemma: is-ya
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: s-is- ya
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: na-is- ya
+- features:
+    number: dual
+    person: third
+  expected: su-is- ya
+- features:
+    number: singular
+    person: third
+  expected: is- ya
+---
+lemma: iwa
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: siwa
+- features:
+    number: dual
+    person: third
+  expected: suiwa
+- features:
+    number: singular
+    person: third
+  expected: iwa
+---
+lemma: iya
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: siya
+- features:
+    number: dual
+    person: third
+  expected: suiya
+- features:
+    number: singular
+    person: third
+  expected: iya
+---
+lemma: ko
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ko
+---
+lemma: ku
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ku
+---
+lemma: mko
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: mko
+---
+lemma: mu
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: mu
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: na
+---
+lemma: nu
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nu
+---
+lemma: oso
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: ono
+- features:
+    number: singular
+  expected: oso
+---
+lemma: si
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: si
+---
+lemma: sko
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: sko
+- features:
+    number: singular
+    person: third
+  expected: sko
+- features:
+    person: third
+  expected: sko
+---
+lemma: skoine
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: skoine
+---
+lemma: skoiwa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: skoiwa
+---
+lemma: skoiya
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: skoiya
+---
+lemma: su
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: su

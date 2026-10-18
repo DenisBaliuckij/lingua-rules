@@ -1,0 +1,127 @@
+lemma: d'u
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: d'u-l-vun
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: d'u-l-lun
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: d'u-l-tyn
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: d'u-l-vi
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: d'u-l-li
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: d'u-l-xn
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: d'uvun
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: d'usun
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: d'utyn
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: d'uv
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: d'us
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: d'un
+---
+lemma: oron
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: oro-r-vun
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: oro-r-run
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: oro-r-tyn
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: oro-r-vi
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: oro-r-ri
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: oro-r-in
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: oronmun
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: oronnun
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: orontyn
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: oronmi
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: oronni
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: oronin

@@ -1,0 +1,67 @@
+lemma: ?ana
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ?ana
+---
+lemma: hiyya
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: hiyya
+---
+lemma: hna
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hna
+---
+lemma: humma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: humma
+---
+lemma: huwwa
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: huwwa
+---
+lemma: nta
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: nta
+---
+lemma: nti
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: nti
+---
+lemma: ntu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ntu

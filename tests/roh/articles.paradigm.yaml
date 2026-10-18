@@ -1,0 +1,27 @@
+lemma: il
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: l’amia
+- features:
+    gender: masculine
+    number: singular
+  expected: l’ami
+---
+lemma: in
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: mattas
+- features:
+    gender: feminine
+    number: singular
+  expected: in’amia
+- features:
+    gender: masculine
+    number: plural
+  expected: mats
