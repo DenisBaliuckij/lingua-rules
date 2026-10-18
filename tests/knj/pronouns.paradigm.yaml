@@ -1,0 +1,59 @@
+lemma: este – esta
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: estos – estas
+- features:
+    number: plural
+    person: second
+  expected: esos – esas
+- features:
+    number: plural
+    person: third
+  expected: aquellos – aquellas
+- features:
+    number: singular
+    person: first
+  expected: este – esta
+- features:
+    number: singular
+    person: second
+  expected: ese – esa
+- features:
+    number: singular
+    person: third
+  expected: aquel – aquella
+---
+lemma: esto
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: esto
+- features:
+    number: singular
+    person: second
+  expected: eso
+---
+lemma: junti
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: wanti
+- features:
+    number: plural
+    person: second
+  expected: wantu
+- features:
+    number: singular
+    person: first
+  expected: junti
+- features:
+    number: singular
+    person: second
+  expected: juntu

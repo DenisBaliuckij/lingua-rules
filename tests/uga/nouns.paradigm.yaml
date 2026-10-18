@@ -1,0 +1,35 @@
+lemma: alp
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: alpm
+- features:
+    number: singular
+  expected: alp
+---
+lemma: mit
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: mitm
+- features:
+    number: plural
+  expected: mat
+- features:
+    number: singular
+  expected: mit
+---
+lemma: rbt
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: rbtm
+- features:
+    number: plural
+  expected: rbbt
+- features:
+    number: singular
+  expected: rbt

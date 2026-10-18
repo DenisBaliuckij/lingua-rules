@@ -1,0 +1,74 @@
+lemma: baa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: nj
+- features:
+    number: plural
+    person: second
+  expected: h
+- features:
+    number: plural
+    person: third
+  expected: tl
+- features:
+    number: singular
+    person: first
+  expected: rn
+---
+lemma: tsgr
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: tsgrk"m
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: tsgrkU
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: tsgr-ly-ma
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tsgr-iy-ka
+---
+lemma: zaraw
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: tazar
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: tazar
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: zar-iy-ma
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zar-iy-ma
+- features:
+    number: plural
+    person: third
+  expected: tazar

@@ -1,0 +1,69 @@
+lemma: ahe
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+    person: third
+  expected: les siens
+- features:
+    definiteness: definite
+    number: singular
+    person: third
+  expected: le sien
+- features:
+    number: plural
+    person: third
+  expected: ses
+- features:
+    number: singular
+    person: third
+  expected: son
+---
+lemma: aho
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+    person: second
+  expected: les tiens
+- features:
+    definiteness: definite
+    number: singular
+    person: second
+  expected: le tien
+- features:
+    number: plural
+    person: second
+  expected: tes
+- features:
+    number: singular
+    person: second
+  expected: ton
+---
+lemma: ao
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+    person: third
+  expected: le leur
+- features:
+    number: plural
+    person: third
+  expected: leur
+---
+lemma: atru
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+    person: first
+  expected: le nôtre
+- features:
+    number: plural
+    person: first
+  expected: notre

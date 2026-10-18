@@ -1,0 +1,361 @@
+lemma: aka’nano
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: adeeka’natooko
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: adeeeka’nako
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: kaka’naae
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: düeeka’naae
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: adeeka’naae
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: keneeka’naano
+- features:
+    number: plural
+    polarity: negative
+    tense: past
+  expected: eka’na-’-noon-mpuo
+- features:
+    number: plural
+    polarity: negative
+    tense: present
+  expected: eka’na-’-no
+- features:
+    number: plural
+    tense: past
+  expected: aka’na-j-san-ko
+- features:
+    number: plural
+    tense: present
+  expected: aka’na-too-non
+- features:
+    number: singular
+    polarity: negative
+    tense: past
+  expected: eka’na-pü-mpuo
+- features:
+    number: singular
+    polarity: negative
+    tense: present
+  expected: eka’na-pü
+- features:
+    number: singular
+    tense: past
+  expected: aka’najo
+- features:
+    number: singular
+    tense: present
+  expected: aka’natooto
+---
+lemma: apoo
+category: verbs
+cases:
+- features:
+    number: plural
+    tense: past
+  expected: apoo-naanü-mpuo
+- features:
+    number: plural
+    tense: present
+  expected: apoonan
+- features:
+    number: singular
+    tense: past
+  expected: apoo-ne-mpo
+- features:
+    number: singular
+    tense: present
+  expected: apoone
+---
+lemma: ar
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+    voice: reflexive
+  expected: ar
+- features:
+    number: singular
+    person: third
+    voice: reflexive
+  expected: ar
+---
+lemma: aroorü
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: passive
+  expected: taarova
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+  expected: taaroma
+---
+lemma: arorü
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: karoorükön
+- features:
+    number: plural
+    person: second
+  expected: adaarorükön
+- features:
+    number: plural
+    person: third
+  expected: aroorükön
+- features:
+    number: singular
+  expected: karoorü
+- features:
+    number: singular
+    person: first
+  expected: düaarorü
+- features:
+    number: singular
+    person: second
+  expected: adaarorü
+- features:
+    number: singular
+    person: third
+  expected: aroorü
+- features:
+    number: singular
+    person: third
+    voice: reflexive
+  expected: taroorü
+---
+lemma: asamaika
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: wasamaikánë
+- features:
+    number: plural
+    person: first
+  expected: wasamaikánë
+- features:
+    number: plural
+    person: second
+  expected: osamaikan
+- features:
+    number: singular
+    person: first
+  expected: wasamaikan
+- features:
+    number: singular
+    person: second
+  expected: osamaikan
+---
+lemma: avonno
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: adaavonko
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: kavoñña
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: düaavoñña
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: adaavoñña
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kanaavoñña
+---
+lemma: i’ñamootano
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: kü’namootaae
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kini’ñamootaano
+---
+lemma: vataarono
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ataarotooko
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ataaroko
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: kotootaroi
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: kotootaroda
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mataarotu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mataarodaa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: nataarotu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: konootarodatu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: vataaroi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: vataaroda
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mataaroi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mataaroda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: nataaroi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: konootaroda
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: kotootaroootu
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: kotootaroi
+---
+lemma: venaatano
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: aveenataatoko
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: aveenataako
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wenaataae
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: aveenataae
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kinivvieenataano

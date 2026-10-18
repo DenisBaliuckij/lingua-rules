@@ -1,0 +1,143 @@
+lemma: her
+category: nouns
+cases:
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: baron
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: her
+- features:
+    case: oblique
+    gender: masculine
+    number: plural
+  expected: barons
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+  expected: baron
+---
+lemma: loi
+category: nouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: lots
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: loi
+- features:
+    case: oblique
+    gender: feminine
+    number: plural
+  expected: lots
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+  expected: lot
+---
+lemma: murs
+category: nouns
+cases:
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: mur
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: murs
+- features:
+    case: oblique
+    gender: masculine
+    number: plural
+  expected: murs
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+  expected: mur
+---
+lemma: none
+category: nouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: nonains
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: none
+- features:
+    case: oblique
+    gender: feminine
+    number: plural
+  expected: nonains
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+  expected: nonain
+---
+lemma: pere
+category: nouns
+cases:
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: pere
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: pere
+- features:
+    case: oblique
+    gender: masculine
+    number: plural
+  expected: peres
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+  expected: pere
+---
+lemma: rose
+category: nouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: roses
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: rose
+- features:
+    case: oblique
+    gender: feminine
+    number: plural
+  expected: roses
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+  expected: rose

@@ -1,0 +1,221 @@
+lemma: m
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mac
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nj
+- features:
+    gender: feminine
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: maa
+- features:
+    gender: feminine
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+  expected: rna
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: fly
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tiy hi
+- features:
+    gender: masculine
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: faa
+- features:
+    gender: masculine
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+  expected: ia
+- features:
+    gender: masculine
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+  expected: d
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: rnly
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: h
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: tl
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: fly
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: mly
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+  expected: rnly ill
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: naa
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+  expected: mn
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+  expected: tl:ln hi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: m
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+  expected: m
+---
+lemma: man
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: rna
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ia
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: miy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nit
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: man
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    mood: conditional
+    number: singular
+    person: second
+    tense: future
+  expected: rna
+- features:
+    gender: masculine
+    mood: conditional
+    number: singular
+    person: second
+    tense: future
+  expected: fa
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: future
+  expected: ya
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: future
+  expected: na
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: future
+  expected: na
+---
+lemma: nfywan
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: nfyza
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: nfywasa
+- features:
+    number: plural
+    person: third
+  expected: nfytlgn
+- features:
+    number: singular
+    person: first
+  expected: nfywan

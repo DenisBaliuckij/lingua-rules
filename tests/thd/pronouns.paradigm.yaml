@@ -1,0 +1,272 @@
+lemma: ngal
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ngal
+- features:
+    number: plural
+    person: first
+  expected: ngamp
+---
+lemma: ngalathun
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ngalathun
+- features:
+    number: plural
+    person: first
+  expected: ngampathun
+- features:
+    number: plural
+    person: second
+  expected: nhunturra
+- features:
+    number: plural
+    person: third
+  expected: pelnathun
+- features:
+    number: singular
+    person: first
+  expected: ngalingathun
+---
+lemma: ngathn
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: ngathnmantam
+- features:
+    case: accusative
+  expected: ngathn
+- features:
+    case: comitative
+  expected: ngathnkak
+- features:
+    case: dative
+  expected: ngathnmak
+- features:
+    case: ergative
+  expected: ngathnthurr
+- features:
+    case: genitive
+  expected: ngathnmak
+- features:
+    case: nominative
+  expected: ngathn
+---
+lemma: ngathun
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: nhurrnhungun
+- features:
+    number: singular
+    person: first
+  expected: ngathun
+---
+lemma: ngay
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: first
+  expected: ngalnantam
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: ngampulntam
+- features:
+    case: ablative
+    number: singular
+  expected: ngathnma
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ngalin
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ngamplin
+- features:
+    case: accusative
+    number: singular
+  expected: nganh
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: ngalngun
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: ngampulngun
+- features:
+    case: dative
+    number: singular
+  expected: ngathun
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: ngalin
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: ngamplin
+- features:
+    case: genitive
+    number: singular
+  expected: ngathn
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngal
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ngamp
+- features:
+    case: nominative
+    number: singular
+  expected: ngay
+---
+lemma: nhul
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: nhangnma
+- features:
+    case: ablative
+    number: dual
+  expected: pulnuntam
+- features:
+    case: ablative
+    number: singular
+  expected: nhangnma
+- features:
+    case: accusative
+  expected: nhunh
+- features:
+    case: accusative
+    number: dual
+  expected: pulnan
+- features:
+    case: accusative
+    number: singular
+  expected: nhunh
+- features:
+    case: dative
+  expected: nhangun
+- features:
+    case: dative
+    number: dual
+  expected: pulnungun
+- features:
+    case: dative
+    number: singular
+  expected: nhangun
+- features:
+    case: ergative
+  expected: nhul
+- features:
+    case: genitive
+  expected: nhangn
+- features:
+    case: genitive
+    number: dual
+  expected: pulnan
+- features:
+    case: genitive
+    number: singular
+  expected: nhangn
+- features:
+    case: nominative
+  expected: nhul
+- features:
+    case: nominative
+    number: dual
+  expected: pul
+- features:
+    case: nominative
+    number: singular
+  expected: nhul
+---
+lemma: nhunt
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+  expected: nhipulntam
+- features:
+    case: ablative
+    number: plural
+  expected: nhurrnuntam
+- features:
+    case: ablative
+    number: singular
+  expected: nhangknma
+- features:
+    case: accusative
+    number: dual
+  expected: nhiplin
+- features:
+    case: accusative
+    number: plural
+  expected: nhurrnan
+- features:
+    case: accusative
+    number: singular
+  expected: nhinh
+- features:
+    case: dative
+    number: dual
+  expected: nhipulngun
+- features:
+    case: dative
+    number: plural
+  expected: nhurrnhungun
+- features:
+    case: dative
+    number: singular
+  expected: nhangkun
+- features:
+    case: genitive
+    number: dual
+  expected: nhiplin
+- features:
+    case: genitive
+    number: plural
+  expected: nhurrnan
+- features:
+    case: genitive
+    number: singular
+  expected: nhangkn
+- features:
+    case: nominative
+    number: dual
+  expected: nhip
+- features:
+    case: nominative
+    number: plural
+  expected: nhurr
+- features:
+    case: nominative
+    number: singular
+  expected: nhunt

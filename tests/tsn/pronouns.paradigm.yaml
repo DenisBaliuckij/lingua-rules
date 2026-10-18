@@ -1,0 +1,351 @@
+lemma: bo
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: a
+- features:
+    definiteness: definite
+    number: singular
+  expected: bo
+---
+lemma: bona
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: bona
+---
+lemma: e
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: tse
+- features:
+    definiteness: definite
+    number: singular
+  expected: e
+---
+lemma: fa
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: fa
+---
+lemma: go
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: go
+---
+lemma: ini
+category: pronouns
+cases:
+- features:
+    noun_class: class_1
+    number: plural
+  expected: baruti bdni
+- features:
+    noun_class: class_1
+    number: singular
+  expected: moruti ini
+- features:
+    noun_class: class_2
+    number: plural
+  expected: bonche bdni
+- features:
+    noun_class: class_2
+    number: singular
+  expected: nche ini
+- features:
+    noun_class: class_3
+    number: plural
+  expected: melapd ydni
+- features:
+    noun_class: class_3
+    number: singular
+  expected: molaPd dni
+- features:
+    noun_class: class_4
+    number: plural
+  expected: marula adni
+- features:
+    noun_class: class_4
+    number: singular
+  expected: morula. dni
+- features:
+    noun_class: class_5
+    number: plural
+  expected: dihgomo tsdni
+- features:
+    noun_class: class_5
+    number: singular
+  expected: kgomo ydni
+- features:
+    noun_class: class_6
+    number: plural
+  expected: diliPd tsdni
+- features:
+    noun_class: class_6
+    number: singular
+  expected: selipi sdni
+- features:
+    noun_class: class_7
+    number: plural
+  expected: dihwald tsdni
+- features:
+    noun_class: class_7
+    number: singular
+  expected: lokwald ldni
+---
+lemma: kwa
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: kwa
+---
+lemma: le
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: a
+- features:
+    definiteness: definite
+    number: singular
+  expected: le
+---
+lemma: lo
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: tse
+- features:
+    definiteness: definite
+    number: singular
+  expected: lo
+---
+lemma: lona
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: lona
+---
+lemma: mo
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: mo
+---
+lemma: nna
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tona
+- features:
+    number: plural
+    person: second
+  expected: lona
+- features:
+    number: plural
+    person: third
+  expected: bdnd
+- features:
+    number: singular
+    person: first
+  expected: nna
+- features:
+    number: singular
+    person: second
+  expected: ztsina
+- features:
+    number: singular
+    person: third
+  expected: ini
+---
+lemma: rona
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: rona
+---
+lemma: se
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: tse
+- features:
+    definiteness: definite
+    number: singular
+  expected: se
+---
+lemma: wena
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: wena
+---
+lemma: yo
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: ba
+- features:
+    definiteness: definite
+    number: singular
+  expected: yo
+- features:
+    noun_class: class_1
+  expected: wa
+- features:
+    noun_class: class_10
+  expected: di
+- features:
+    noun_class: class_11
+  expected: lone
+- features:
+    noun_class: class_12
+  expected: d-i
+- features:
+    noun_class: class_13
+  expected: bo
+- features:
+    noun_class: class_14
+  expected: ma
+- features:
+    noun_class: class_1
+    number: plural
+    person: third
+  expected: ba ba
+- features:
+    noun_class: class_1
+    number: singular
+    person: third
+  expected: yo
+- features:
+    noun_class: class_2
+  expected: ba
+- features:
+    noun_class: class_2
+    number: plural
+  expected: ba ba
+- features:
+    noun_class: class_2
+    number: singular
+  expected: oo
+- features:
+    noun_class: class_3
+  expected: wa
+- features:
+    noun_class: class_3
+    number: plural
+  expected: ee
+- features:
+    noun_class: class_3
+    number: singular
+  expected: le le
+- features:
+    noun_class: class_4
+  expected: me
+- features:
+    noun_class: class_4
+    number: plural
+  expected: aa
+- features:
+    noun_class: class_4
+    number: singular
+  expected: se se
+- features:
+    noun_class: class_5
+  expected: le
+- features:
+    noun_class: class_5
+    number: plural
+  expected: tse di
+- features:
+    noun_class: class_5
+    number: singular
+  expected: ee
+- features:
+    noun_class: class_6
+  expected: f
+- features:
+    noun_class: class_6
+    number: plural
+  expected: tse di
+- features:
+    noun_class: class_6
+    number: singular
+  expected: lo lo
+- features:
+    noun_class: class_7
+  expected: se
+- features:
+    noun_class: class_7
+    number: plural
+  expected: aa
+- features:
+    noun_class: class_7
+    number: singular
+  expected: bo bo
+- features:
+    noun_class: class_8
+  expected: di
+- features:
+    noun_class: class_8
+    number: singular
+  expected: mo go
+- features:
+    noun_class: class_9
+  expected: ya
+- features:
+    number: plural
+    person: first
+  expected: ba re
+- features:
+    number: plural
+    person: second
+  expected: ba lo
+- features:
+    number: singular
+    person: first
+  expected: yo ke
+- features:
+    number: singular
+    person: second
+  expected: yo
+---
+lemma: yona
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: yona

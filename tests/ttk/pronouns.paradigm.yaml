@@ -1,0 +1,95 @@
+lemma: na
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: namoi
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: nai
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nam
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: na
+- features:
+    number: plural
+    person: first
+  expected: namon
+- features:
+    number: singular
+    person: first
+  expected: nan
+---
+lemma: nɨ
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: nɨmoi
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: nui
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: nɨm
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: nɨ
+- features:
+    number: plural
+    person: third
+  expected: nɨmon
+- features:
+    number: singular
+    person: third
+  expected: nun
+---
+lemma: ñi
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: ñimoi
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: ñui
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: ñim
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ñi
+- features:
+    number: plural
+    person: second
+  expected: nɨmon
+- features:
+    number: singular
+    person: second
+  expected: ñun

@@ -1,0 +1,950 @@
+lemma: b'an
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: qab'ana
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: chiib'ana
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: chkib'ana
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: chaab'ana
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: chuub'ana
+---
+lemma: b’ee
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kojb’eek
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kixb’eek
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: keeb’eek
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kimb’eek
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: katb’eek
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kab’eek
+---
+lemma: b’iin
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kojb’iinik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kixb’iinik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: keeb’iinik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kimb’iinik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: katb’iinik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kab’iinik
+---
+lemma: ilik
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+  expected: atqiloam
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+  expected: iniiwiloom
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: atkiloam
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: atwiloom
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: inaawiloom
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: atriloam
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: kojilitajik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: kixilitajik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: ki’litajik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: kinilitajik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: katilitajik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: kilitajik
+---
+lemma: k'utik
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kojk'utuwik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kink'utuwik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: katk'utuwik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kak'utuwik
+---
+lemma: kuna
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+    voice: passive
+  expected: xojkunaxik
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: passive
+  expected: kojkunaxik
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+    voice: passive
+  expected: xixkunaxik
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: passive
+  expected: kixkunaxik
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+    voice: passive
+  expected: xeekunaxik
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: passive
+  expected: keekunaxik
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+    voice: passive
+  expected: xinkunaxik
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: passive
+  expected: kinkunaxik
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+    voice: passive
+  expected: xatkunaxik
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+    voice: passive
+  expected: xkunaxik
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+  expected: kakunaxik
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    voice: passive
+  expected: kojkunaxoq
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    voice: passive
+  expected: katkunaxoq
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    voice: passive
+  expected: kunaxoq
+---
+lemma: kunaxik
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kojkunatajoq
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kixkunatajoq
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: cheekunatajoq
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: katkunatajoq
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: kunatajoq
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: kojkunatajik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: xojkunatajik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kixkunatajik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: xixkunatajik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: keekunatajik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: xeekunatajik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: kinkunatajik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: xinkunatajik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: katkunatajik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: xatkunatajik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: kakunatajik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: xkunatajik
+---
+lemma: k’oji
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: kojk’oji’k
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kixk’oji’k
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: keek’oji’k
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: kink’oji’k
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: katk’oji’k
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: kak’oji’k
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: xojk’oji’k
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: xixk’oji’k
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: xeek’oji’k
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: xink’oji’k
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: xatk’oji’k
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: xk’oji’k
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: k’olinaq
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kojk’oloq
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kixk’oloq
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: chek’oloq
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: chink’oloq
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: katk’oloq
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: k’oloq
+---
+lemma: mes
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: qamesa
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: chiimesa
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: chkimesa
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: chaamesa
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: chuumesa
+---
+lemma: mesik
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kojmesonoq
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kixmesonoq
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: cheemesonoq
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: katmesonoq
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: mesonoq
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: kojmesonik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: kixmesonik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: keemesonik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: kimmesonik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: katmesonik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: kamesonik
+---
+lemma: q'oyi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kojq'oyoloq
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kixq'oyoloq
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: cheeq'oyoloq
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: chinq'oyoloq
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: katq'oyoloq
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: q'oyoloq
+---
+lemma: su’ik
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: su’nnaq
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kojsu’noq
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kixsu’noq
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: cheesu’noq
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: katsu’noq
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: su’noq
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: kojsu’nik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: kixsu’nik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: keesu’nik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: kinsu’nik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: katsu’nik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: kasu’nik
+---
+lemma: t'uyi
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: t'uyulinaq
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: t'uyulik
+---
+lemma: tijo
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: qatijooj
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: chikitijooj
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: chuutijooj
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: chaatijooj
+---
+lemma: to’ik
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+  expected: atqato’oom
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+  expected: iniito’oom
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: atkito’oom
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: atnuto’oom
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: inaato’oom
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: atuuto’oom
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: kojto’tajik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: kixto’tajik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: keeto’tajik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: kinto’tajik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: katto’tajik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: kato’tajik
+---
+lemma: tzukuxik
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+  expected: atqatzukuum
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+  expected: iniitzukuum
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: atkitzukuum
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: atnutzukuum
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: inaatzukuum
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: atuutzukuum
+---
+lemma: uxlan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kojuxlanoq
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kixuxlanoq
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: chu’xlanoq
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: chinuxlanoq
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: katuxlanoq
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: chuxlanoq
+---
+lemma: waaj
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: chiiwaaj
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: chikaaj
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: chaawaaj
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: chiraaj
+- features:
+    number: plural
+    person: first
+  expected: kaqaaj
+- features:
+    number: plural
+    person: second
+  expected: kiiwaaj
+- features:
+    number: plural
+    person: third
+  expected: kakaaj
+- features:
+    number: singular
+    person: first
+  expected: kawaaj
+- features:
+    number: singular
+    person: second
+  expected: kaawaaj
+- features:
+    number: singular
+    person: third
+  expected: karaaj

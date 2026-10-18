@@ -1,0 +1,962 @@
+lemma: aral
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: magaaral
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: nagaral
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: nakapagaral
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nagaaral
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: magaaral
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: nagaral
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: nakapagaral
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nagaaral
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: niaga&ral
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: nagaral
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: nakapagaral
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nagaaral
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: magaaral
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: nagaral
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: nakapagaral
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nasaaral
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: magaaral
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: nagaral
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: nakapagaral
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nagaaral
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: magaaral
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: nagaral
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: nakapagaral
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nagaaral
+- features:
+    verb_form: infinitive
+  expected: magaral
+---
+lemma: basahin
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: babasa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: babasa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: babasa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: babasa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: babasa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: babasa
+---
+lemma: hampás
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nanghahampas
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: oanghahampás
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: danghahampás
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nanghampás
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nanghahampás
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: nanghampás
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nanghahampás
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: nanghampás
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nangbahampas
+- features:
+    verb_form: infinitive
+  expected: maDghampás
+---
+lemma: himasok
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: manghihimasok
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: nanghimasok
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: nakapanghimasok
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: manghihimasok
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: nanghimasok
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: nakapanghimasok
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: manghihimasok
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: nanghimasok
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: nakapanghimasok
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: manghihimasok
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nanghimasok
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: nakapanghimasok
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: nanghimasok
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: nakapanghimasok
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: manghihimasok
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: nanghimasok
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: nakapanchimasok
+---
+lemma: ibig
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: umibig
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: umibig
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: umibig
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: umibig
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: umibig
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: iibig
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: nakaibig
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: iibig
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: nakaibig
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: iibig
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: nakaibig
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: iibig
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: nakaibig
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: iibig
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: nakaibig
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: iibig
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: nakaibig
+---
+lemma: magpa-inóip
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: nagpainóm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: nagpainóm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nagpapainóiD
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: nagpainóm
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nagpapainóiii
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: nagpainóm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nagpspaÍDÓm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: nagpainóm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nagpapainóm
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: nagpainóm
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: najgpapainóm
+- features:
+    verb_form: infinitive
+  expected: magpá-inóip
+---
+lemma: magpaka-buti
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: magpapa-kabuti
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: nagpaka-buti
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: nagpaka-buti
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nagpapaka-buti
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: magpapakabuti
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: nagpakabuti
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: nagpakabuti
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nagpapakabuti
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: magpapakabuti
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: nagpakabuti
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: oagpákabuti
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nagpapakabuti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: magpapakabuti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: nagpakabuti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: nagpAkabuti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nagpapakabuti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: magpapakabuti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: nagpakabuti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: üagpikíibuti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nagpapakabuti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: magpapakabuti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: nagpakabuti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: nagpakabuti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nagpapakabuti
+- features:
+    verb_form: infinitive
+  expected: magpaka-buti
+---
+lemma: magpapatiluhod
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: magpapatiluhod
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: magpapatiluhod
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: magpapatiluhod
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: magpapatiluhod
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: magpapatiluhod
+---
+lemma: magpati-luhód
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nagpapati-luhcid
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nagpapatiluhod
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nagpapatiluhod
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nagoapatilubod
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nagpapatiluhod
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nagpapatilttbod
+- features:
+    verb_form: infinitive
+  expected: magpati-luhód
+---
+lemma: magsalitá
+category: verbs
+cases:
+- features:
+    mood: indicative
+    tense: future
+  expected: magsasalitá
+- features:
+    mood: indicative
+    tense: perfect
+  expected: nagsaiitá
+- features:
+    mood: indicative
+    tense: present
+  expected: nagsasalitft
+- features:
+    verb_form: infinitive
+  expected: magsalitá
+---
+lemma: makalimot
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: makalilimot
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: makailimot
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: makalilimot
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: noakalilimot
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: makalilimot
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: makalilimot
+---
+lemma: nagpatiluhod
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: nagpatiluhod
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: nagpatiluhod
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: nagpatiluhod
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nagpatiluhod
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: nagpatiluhod
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: nagpatiluhod
+---
+lemma: nakapagpatiluhod
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: nakapagnatiluhod
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: nakapagpatiluhod
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: nakapagpatiluhod
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: nakapagpatiluhod
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: nakapaapatiluhod
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: nakapagpatiluhod
+---
+lemma: utang
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: nagkautang
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nagkakautang
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nagkakautang
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nagkakautang
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: nagkautang
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nagkakautang
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: nagkautang
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nagkakautang
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: nagkautang
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nagkakautang

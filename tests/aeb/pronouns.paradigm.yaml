@@ -1,0 +1,34 @@
+lemma: ha:Aa
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: ha:Aa
+- features:
+    number: plural
+  expected: hi:AU:mi
+---
+lemma: haaduwka
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: plural
+  expected: naatuwka
+---
+lemma: haaduwma
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: plural
+  expected: haaduwma
+---
+lemma: hi:da:ki
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: hi:da:ki

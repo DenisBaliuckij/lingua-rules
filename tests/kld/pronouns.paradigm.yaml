@@ -1,0 +1,502 @@
+lemma: dhalaa
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: dhalaayi
+- features:
+    case: allative
+  expected: dhalaawu
+- features:
+    case: locative
+  expected: dhalaa
+---
+lemma: ga:lana
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: third
+  expected: ga:liilundi
+- features:
+    case: dative
+    number: dual
+    person: third
+  expected: ga:lilunda
+- features:
+    case: ergative
+    number: dual
+    person: third
+  expected: ga:lana
+- features:
+    case: genitive
+    number: dual
+    person: third
+  expected: ga:liilu
+---
+lemma: ganunga
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: ganungundi
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: ganungu
+- features:
+    case: ergative
+    number: plural
+    person: third
+  expected: ganunga
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: ganungunda
+---
+lemma: minya
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: minyadhi
+- features:
+    case: accusative
+  expected: minya
+- features:
+    case: allative
+  expected: minyagu
+- features:
+    case: comitative
+  expected: minyabiyaay
+- features:
+    case: dative
+  expected: minyagu
+- features:
+    case: ergative
+  expected: minyadhu
+- features:
+    case: locative
+  expected: minyadha
+- features:
+    case: nominative
+  expected: minya
+---
+lemma: minya?
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: minyadhi
+- features:
+    case: accusative
+  expected: minya
+- features:
+    case: allative
+  expected: minyagu#
+- features:
+    case: dative
+  expected: minyangu#
+- features:
+    case: ergative
+  expected: minyadhu
+- features:
+    case: locative
+  expected: minyaga#
+- features:
+    case: nominative
+  expected: minya
+---
+lemma: minyaarr
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: minyaayi
+- features:
+    case: accusative
+  expected: minyaarr
+- features:
+    case: allative
+  expected: minyaarrgu
+- features:
+    case: dative
+  expected: minyaarrgu
+- features:
+    case: ergative
+  expected: minyaayu
+- features:
+    case: locative
+  expected: minyaaya
+- features:
+    case: nominative
+  expected: minyaarr
+---
+lemma: minyangay
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: minyangadhi
+- features:
+    case: accusative
+  expected: minyangay
+- features:
+    case: allative
+  expected: minyangaygu
+- features:
+    case: dative
+  expected: minyangaygu
+- features:
+    case: ergative
+  expected: minyangadhu
+- features:
+    case: locative
+  expected: minyangadha
+- features:
+    case: nominative
+  expected: minyangay
+---
+lemma: ngali
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: first
+  expected: ngalingu-ndi
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ngalinya
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: ngalingu
+- features:
+    case: locative
+    number: dual
+    person: first
+  expected: ngalingu-nda
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngali
+---
+lemma: ngambaa
+category: pronouns
+cases:
+- features:
+    case: allative
+  expected: ngambaangunda
+- features:
+    case: dative
+  expected: ngambaangu
+- features:
+    case: locative
+  expected: ngambaangunda
+---
+lemma: ngaya
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: nganundi
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: nganha
+- features:
+    case: allative
+    number: singular
+    person: first
+  expected: nganunda
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: ngay
+- features:
+    case: ergative
+    number: dual
+    person: first
+  expected: ngali-lu
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: ngiyani-lu
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: ngaya
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: nganunda
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngali
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ngiyani
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ngaya
+---
+lemma: nginda
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: nginu-ndi
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: nginu-nha
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: nginu
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: nginunda
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: nginda
+---
+lemma: ngindaali
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: second
+  expected: nginaali-ngundi
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: ngin-aali-nya
+- features:
+    case: dative
+    number: dual
+    person: second
+  expected: ngin-aali-ngu
+- features:
+    case: locative
+    number: dual
+    person: second
+  expected: nginaali-ngunda
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: ngindaali
+---
+lemma: ngindaay
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: nginaay-ngundi
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: nginaay-nya
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: nginaay-ngu
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: nginaay-ngunda
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: ngindaay
+---
+lemma: ngiyani
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: ngiyaningundi
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ngiyaninya
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: ngiyaningu
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: ngiyaningunda
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ngiyani
+---
+lemma: ngiyarrma
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: ngiyarrngu
+- features:
+    case: allative
+  expected: ngiyarrngundi
+- features:
+    case: dative
+  expected: ngiyarrmagu
+- features:
+    case: ergative
+  expected: ngiyarrma
+---
+lemma: nguru
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+  expected: ngurugaalayngundi
+- features:
+    case: ablative
+    number: plural
+  expected: ganungundi
+- features:
+    case: ablative
+    number: singular
+  expected: ngurungundi
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: ngurungundi
+- features:
+    case: dative
+    number: dual
+  expected: ngurugaalayngu
+- features:
+    case: dative
+    number: plural
+  expected: ganungu
+- features:
+    case: dative
+    number: singular
+  expected: ngurungu
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: ngurungu
+- features:
+    case: ergative
+    number: dual
+  expected: ngurugaalay
+- features:
+    case: ergative
+    number: plural
+  expected: ganugu
+- features:
+    case: ergative
+    number: singular
+  expected: nguru
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: nguru
+- features:
+    case: locative
+    number: dual
+  expected: ngurugaalayngunda
+- features:
+    case: locative
+    number: plural
+  expected: ganungunda
+- features:
+    case: locative
+    number: singular
+  expected: ngurungunda
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: ngurungunda
+---
+lemma: nguru-gaalay
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: third
+  expected: nguru-gaalayngundi
+- features:
+    case: accusative
+    number: dual
+    person: third
+  expected: nhama-gaalaynya
+- features:
+    case: dative
+    number: dual
+    person: third
+  expected: nguru-gaalayngu
+- features:
+    case: ergative
+    number: dual
+    person: third
+  expected: nguru-gaalay
+- features:
+    case: locative
+    number: dual
+    person: third
+  expected: nguru-gaalayngunda
+- features:
+    case: nominative
+    number: dual
+    person: third
+  expected: nhama-gaalay

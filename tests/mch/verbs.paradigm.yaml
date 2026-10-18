@@ -1,0 +1,391 @@
+lemma: copule
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+  expected: möönetöne
+- features:
+    number: plural
+    person: third
+  expected: weneneto
+- features:
+    number: singular
+    person: first
+  expected: wöönene
+- features:
+    number: singular
+    person: second
+  expected: möönene
+- features:
+    number: singular
+    person: third
+  expected: wenene
+---
+lemma: eiya
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: neiyato
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: neiya
+---
+lemma: ejö
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: nejoto
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: nejö
+---
+lemma: ene
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: keeneanö
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: köneanto
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: weneanto
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: meneaato
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: neneanto
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: weneanö
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: meneanö
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: neneanö
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: keenei
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: köneicho
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: weneicho
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: meneicho
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: neneicho
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: wenei
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: menei
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: nenei
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: keeneaakene
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: weneakento
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: weneaato
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: menea'kene
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: meneaato
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: meneakento
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: neneaato
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: weneakene
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wö'düa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: meneakene
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: makö'a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: küneneaakö
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: waiju'ka
+---
+lemma: enejö
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kүнejoto
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: nenejö
+---
+lemma: jönümü
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: küjönün'aato
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: öjönün'aato
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nijiönün'aato
+---
+lemma: kü'ka
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: wichu'kaato
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: michü'kaato
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nichü'kaato
+---
+lemma: oowanoma
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: koowanomaato
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: moowanomaato
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: noowanomaato
+---
+lemma: ööwasinchö
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kööwasinchaato
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mööwasinchaato
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nööwasinchaato
+---
+lemma: ünükü
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: künnü'kaato
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: önnü'kaato
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nünü'kaato
+---
+lemma: ütömö
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: nütonto
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: nütömö

@@ -1,0 +1,20 @@
+dimensions:
+  number:
+    values: [singular, plural]
+  case:
+    values: [nominative, genitive, dative, instrumental, locative, ablative, essive,
+      inessive, elative, adessive, allative, comitative, ergative, absolutive]
+  gender:
+    values: [masculine, feminine, neuter]
+  person:
+    values: [first, second, third]
+  tense:
+    values: [present, future, aorist]
+  mood:
+    values: [indicative]
+  aspect:
+    values: [perfective, imperfective]
+  verb_form:
+    values: [infinitive]
+  evidentiality:
+    values: [direct, indirect]

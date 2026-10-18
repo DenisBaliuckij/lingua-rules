@@ -1,0 +1,51 @@
+lemma: ceykel
+category: adjectives
+cases:
+- features:
+    number: plural
+  expected: cegeyke'^n
+- features:
+    number: plural
+    person: third
+  expected: cegeykeni
+---
+lemma: lo'og^e
+category: adjectives
+cases:
+- features:
+    animacy: animate
+  expected: ler'erg^er
+- features:
+    animacy: inanimate
+  expected: lo'og^e
+---
+lemma: montse
+category: adjectives
+cases:
+- features:
+    animacy: animate
+  expected: monterer
+- features:
+    animacy: inanimate
+  expected: montse
+---
+lemma: peloy
+category: adjectives
+cases:
+- features:
+    number: plural
+  expected: pope?l
+- features:
+    number: plural
+    person: third
+  expected: popelin
+---
+lemma: pleli
+category: adjectives
+cases:
+- features:
+    animacy: animate
+  expected: plerer
+- features:
+    animacy: inanimate
+  expected: pleli

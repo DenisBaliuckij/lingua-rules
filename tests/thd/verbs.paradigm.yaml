@@ -1,0 +1,178 @@
+lemma: ke'e
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: ko'om
+- features:
+    aspect: perfective
+    tense: past
+  expected: ko'orr
+- features:
+    aspect: perfective
+    tense: present
+  expected: ke'er
+- features:
+    mood: imperative
+  expected: ko
+---
+lemma: mi'i
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: mi'im
+- features:
+    aspect: perfective
+    tense: past
+  expected: mi'irr
+- features:
+    aspect: perfective
+    tense: present
+  expected: mi'ir
+- features:
+    mood: imperative
+  expected: mi'irr
+---
+lemma: ngee
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: ngeeym
+- features:
+    aspect: perfective
+    tense: past
+  expected: ngeeyr
+- features:
+    aspect: perfective
+    tense: present
+  expected: ngeem
+- features:
+    mood: conditional
+  expected: ngeeynhata
+- features:
+    mood: imperative
+  expected: ngeey
+- features:
+    mood: subjunctive
+  expected: ngeeynh
+---
+lemma: nhaa
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: future
+  expected: nhaathrrtha
+- features:
+    aspect: imperfective
+    tense: past
+  expected: nhaathm
+- features:
+    aspect: perfective
+    tense: past
+  expected: nhaawr
+- features:
+    aspect: perfective
+    tense: present
+  expected: nham
+- features:
+    mood: conditional
+  expected: nhaathnhata
+- features:
+    mood: imperative
+  expected: nham
+- features:
+    mood: subjunctive
+  expected: nhaathnh
+---
+lemma: path
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: future
+  expected: pathrrth
+- features:
+    aspect: imperfective
+    tense: past
+  expected: pathm
+- features:
+    aspect: perfective
+    tense: past
+  expected: patharr
+- features:
+    aspect: perfective
+    tense: present
+  expected: pathr
+- features:
+    mood: conditional
+  expected: pathnhata
+- features:
+    mood: imperative
+  expected: path
+- features:
+    mood: subjunctive
+  expected: pathnh
+---
+lemma: rirk
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: future
+  expected: rirkrrtha
+- features:
+    aspect: imperfective
+    tense: past
+  expected: rirkm
+- features:
+    aspect: perfective
+    tense: past
+  expected: rirkr
+- features:
+    aspect: perfective
+    tense: present
+  expected: rirk
+- features:
+    mood: conditional
+  expected: rirknhata
+- features:
+    mood: imperative
+  expected: rirk
+- features:
+    mood: subjunctive
+  expected: rirknh
+---
+lemma: ya
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: future
+  expected: yarrtha
+- features:
+    aspect: imperfective
+    tense: past
+  expected: yancm
+- features:
+    aspect: perfective
+    tense: past
+  expected: yat
+- features:
+    aspect: perfective
+    tense: present
+  expected: yan
+- features:
+    mood: conditional
+  expected: yatath
+- features:
+    mood: imperative
+  expected: yarr
+- features:
+    mood: subjunctive
+  expected: yancnh

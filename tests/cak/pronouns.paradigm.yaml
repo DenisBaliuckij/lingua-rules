@@ -1,0 +1,127 @@
+lemma: rija
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: rix
+- features:
+    number: plural
+    person: third
+  expected: rije
+- features:
+    number: singular
+    person: third
+  expected: rija
+---
+lemma: uk'in
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: qiik’in
+- features:
+    number: plural
+    person: second
+  expected: iwuk’in
+- features:
+    number: plural
+    person: third
+  expected: kuk’in
+- features:
+    number: singular
+    person: first
+  expected: wük'in
+- features:
+    number: singular
+    person: second
+  expected: awuk’in
+- features:
+    number: singular
+    person: third
+  expected: r uk’in
+---
+lemma: vonohel
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: konohel
+- features:
+    number: plural
+    person: second
+  expected: yvonohel
+- features:
+    number: plural
+    person: third
+  expected: conohel
+- features:
+    number: singular
+    person: first
+  expected: vonohel
+- features:
+    number: singular
+    person: second
+  expected: avonohel
+- features:
+    number: singular
+    person: third
+  expected: ronohel
+---
+lemma: wi
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: wi
+- features:
+    number: singular
+    person: second
+  expected: awil
+---
+lemma: wil
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: q£
+- features:
+    number: plural
+    person: second
+  expected: iwiL
+- features:
+    number: plural
+    person: third
+  expected: ki
+- features:
+    number: singular
+    person: third
+  expected: t'C
+---
+lemma: wuma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: quma
+- features:
+    number: plural
+    person: second
+  expected: iwuma
+- features:
+    number: singular
+    person: first
+  expected: wuma
+- features:
+    number: singular
+    person: second
+  expected: awuma
+- features:
+    number: singular
+    person: third
+  expected: ruma

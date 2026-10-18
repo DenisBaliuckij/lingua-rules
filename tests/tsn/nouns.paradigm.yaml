@@ -1,0 +1,59 @@
+lemma: Ieoto
+category: nouns
+cases:
+- features:
+    noun_class: class_3
+    number: singular
+  expected: Ieoto
+- features:
+    noun_class: class_4
+    number: plural
+  expected: maoto
+---
+lemma: bosigo
+category: nouns
+cases:
+- features:
+    noun_class: class_4
+    number: plural
+  expected: masigo
+- features:
+    noun_class: class_7
+    number: singular
+  expected: bosigo
+---
+lemma: monna
+category: nouns
+cases:
+- features:
+    noun_class: class_1
+    number: singular
+  expected: monna
+- features:
+    noun_class: class_2
+    number: plural
+  expected: banna
+---
+lemma: motswana
+category: nouns
+cases:
+- features:
+    noun_class: class_1
+    number: singular
+  expected: motswana
+- features:
+    noun_class: class_2
+    number: plural
+  expected: batswans
+---
+lemma: nku
+category: nouns
+cases:
+- features:
+    noun_class: class_10
+    number: plural
+  expected: dinku
+- features:
+    noun_class: class_5
+    number: singular
+  expected: nku

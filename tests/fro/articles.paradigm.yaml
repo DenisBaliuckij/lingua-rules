@@ -1,0 +1,87 @@
+lemma: le
+category: articles
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: les
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: la
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: it
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: it
+- features:
+    case: oblique
+    gender: feminine
+    number: plural
+  expected: les
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+  expected: la
+- features:
+    case: oblique
+    gender: masculine
+    number: plural
+  expected: les
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+  expected: le
+---
+lemma: un
+category: articles
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: unes
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: une
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: un
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: tins
+- features:
+    case: oblique
+    gender: feminine
+    number: plural
+  expected: unes
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+  expected: une
+- features:
+    case: oblique
+    gender: masculine
+    number: plural
+  expected: uns
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+  expected: un

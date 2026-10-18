@@ -1,0 +1,67 @@
+lemma: m̀
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+  expected: cè dé
+- features:
+    animacy: inanimate
+    number: singular
+  expected: kò dé
+- features:
+    number: plural
+    person: first
+  expected: í dé
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: dé
+- features:
+    number: plural
+    person: second
+  expected: á dé
+- features:
+    number: plural
+    person: third
+  expected: bè dé
+- features:
+    number: singular
+    person: first
+  expected: ǹ dé
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: àsí dé
+- features:
+    number: singular
+    person: second
+  expected: ú dé
+- features:
+    number: singular
+    person: third
+  expected: wò dé
+---
+lemma: wɔ́
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+  expected: ≡cɛ́
+- features:
+    animacy: inanimate
+    number: singular
+  expected: ≡kɔ́
+- features:
+    number: plural
+    person: third
+  expected: ≡bɛ́
+- features:
+    number: singular
+    person: third
+  expected: wɔ́

@@ -1,0 +1,239 @@
+lemma: maana
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+  expected: maakut
+- features:
+    case: absolutive
+    number: singular
+  expected: maana
+- features:
+    case: locative
+    number: singular
+  expected: matumi
+- features:
+    mood: imperative
+  expected: maa
+- features:
+    verb_form: converb
+  expected: maani
+---
+lemma: una
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+  expected: ukut
+- features:
+    case: absolutive
+    number: singular
+  expected: una
+- features:
+    case: locative
+    number: singular
+  expected: uumi
+- features:
+    case: vocative
+    number: singular
+  expected: uyuq
+- features:
+    mood: imperative
+  expected: wha
+- features:
+    verb_form: converb
+  expected: whani
+---
+lemma: лън’а
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: dual
+    person: third
+  expected: лъкык
+- features:
+    case: absolutive
+    number: plural
+    person: third
+  expected: лън’ит
+- features:
+    case: absolutive
+    number: singular
+    person: third
+  expected: лън’а
+- features:
+    case: allative
+    number: dual
+    person: third
+  expected: лъкыгныкун
+- features:
+    case: allative
+    number: plural
+    person: third
+  expected: лън’итхун
+- features:
+    case: allative
+    number: singular
+    person: third
+  expected: лън’акун
+- features:
+    case: locative
+    number: dual
+    person: third
+  expected: лъкыгни
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: лън’итни
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: лън’ани
+- features:
+    case: oblique
+    number: dual
+    person: third
+  expected: лъкыгнун
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: лън’итнун
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: лън’анун
+---
+lemma: лъпык
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: dual
+    person: second
+  expected: лъпытык
+- features:
+    case: absolutive
+    number: plural
+    person: second
+  expected: лъпыси
+- features:
+    case: absolutive
+    number: singular
+    person: second
+  expected: лъпык
+- features:
+    case: allative
+    number: dual
+    person: second
+  expected: лъпытыгныкун
+- features:
+    case: allative
+    number: plural
+    person: second
+  expected: лъпысигун
+- features:
+    case: allative
+    number: singular
+    person: second
+  expected: лъпыгун
+- features:
+    case: locative
+    number: dual
+    person: second
+  expected: лъпытыгни
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: лъпысини
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: лъпыни
+- features:
+    case: oblique
+    number: dual
+    person: second
+  expected: лъпытыгнун
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: лъпысинун
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: лъпынун
+---
+lemma: хуан’а
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: dual
+    person: first
+  expected: хуан’кутун
+- features:
+    case: absolutive
+    number: plural
+    person: first
+  expected: хуан’кута
+- features:
+    case: absolutive
+    number: singular
+    person: first
+  expected: хуан’а
+- features:
+    case: allative
+    number: dual
+    person: first
+  expected: хуан’кутыгныкун
+- features:
+    case: allative
+    number: plural
+    person: first
+  expected: хуан’кунун
+- features:
+    case: allative
+    number: singular
+    person: first
+  expected: хуан’а-м-кун
+- features:
+    case: locative
+    number: dual
+    person: first
+  expected: хуан’кутыгни
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: хуан’кутни
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: хуан’а-м-ни
+- features:
+    case: oblique
+    number: dual
+    person: first
+  expected: хуан’кутыгнын
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: хуан’кунын
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: хуан’а-м-ныг
