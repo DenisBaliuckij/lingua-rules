@@ -1,0 +1,120 @@
+lemma: nan
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: ma:-yina
+- features:
+    case: ablative
+    number: singular
+  expected: na:-yina
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: roa:-k
+- features:
+    case: accusative
+    number: singular
+  expected: na:-k
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: roa:-k
+- features:
+    case: dative
+    number: singular
+  expected: na:-k
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: ma
+- features:
+    case: genitive
+    number: singular
+  expected: na
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: mom
+- features:
+    case: nominative
+    number: singular
+  expected: nan
+---
+lemma: nim
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: mi:-yina
+- features:
+    case: ablative
+    number: singular
+  expected: ni:-yina
+- features:
+    case: accusative
+    number: plural
+  expected: mi:-k
+- features:
+    case: dative
+    number: plural
+  expected: mi:-k
+- features:
+    case: genitive
+    number: plural
+  expected: mi
+- features:
+    case: genitive
+    number: singular
+  expected: ni
+- features:
+    case: nominative
+    number: plural
+  expected: mi:r
+- features:
+    case: nominative
+    number: singular
+  expected: nim
+---
+lemma: ve:r
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: ve:r
+- features:
+    case: ablative
+    number: singular
+  expected: ve:-n-ina
+- features:
+    case: accusative
+    number: plural
+  expected: ve:r-t-kin
+- features:
+    case: dative
+    number: plural
+  expected: ve:r-t-kin
+- features:
+    case: genitive
+    number: plural
+  expected: 've: r-f''r-a'
+- features:
+    case: genitive
+    number: singular
+  expected: ve:-n-a
+- features:
+    case: nominative
+    number: plural
+  expected: ve:r
+- features:
+    case: nominative
+    number: singular
+  expected: ve:r

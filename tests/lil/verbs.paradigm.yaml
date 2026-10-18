@@ -1,0 +1,416 @@
+lemma: cun
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: first
+  expected: cun-tumul-i
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: third
+  expected: cuni
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    possessor_number: singular
+    possessor_person: first
+  expected: cun-c-al-i
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    possessor_number: plural
+    possessor_person: first
+  expected: cuntumu'f
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    possessor_number: plural
+    possessor_person: third
+  expected: cunwit
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: first
+  expected: cunc
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: third
+  expected: cun
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: cun-tumul-am
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: cun-c-k-al'ap
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: cun-tan-am-wit
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: cun-+k-an
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: cun-c-k-axw
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: cunam
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: cun-tumul-m-as
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: cun-c-al'ap
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: cun-c-al-it-as
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: cun-cin-an
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: cun-c-axw
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: cun-c-as
+- features:
+    number: plural
+    person: second
+  expected: cun-c-al'ap
+- features:
+    number: plural
+    person: third
+  expected: cun-c-al-it-as
+- features:
+    number: singular
+    person: second
+  expected: cun-c-axw
+- features:
+    number: singular
+    person: third
+  expected: cun-c-as
+---
+lemma: cut
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: cutwi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: cut
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: cut-ka-f
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: cut-k-al'ap
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: cutwit
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: cut-k-an
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: cut-k-axw
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: cut
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: cutat
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: cutal'ap
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: cut-wit-as
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: cutan
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: cutaxw
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: cutas
+---
+lemma: wa?
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ska+w
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: sal'ap^
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: saxw
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tsata
+---
+lemma: x'iq
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: x'iq-s-tum'ul-am
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: x'iq-s-tum'x-al-am
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: x.'iq-s-tum'i-m
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: x'lq-s-tum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: x'iq-s-tum'ul-m-as
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: x'iq-s-tum'x-al-m-as
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: x'iq-s-tum'i-m-as
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: x'iq-s-tum'-as
+---
+lemma: xwitan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: first
+  expected: xwitan-s-tumul-i
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: third
+  expected: xwitan-s-twi
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    possessor_number: singular
+    possessor_person: first
+  expected: xwitan-s-tumx-al-i
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    possessor_number: plural
+    possessor_person: third
+  expected: xw(tan-s-wit
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: first
+  expected: xwitan-s-tumx
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: third
+  expected: xwitans
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: xwitan-s-tumul-am
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: xwitan-s-tan-am-wit
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: xwitan-s-tumx-al-am
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: xwitan-s-tumi-m
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: xwitan-s-tum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: xwitan-s-tumul-am-as
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: xwitan-s-tan-am-wlt-as
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: xwitan-s-tumx-al-am-as
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: xwitan-s-tumi-m-as
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: xwitan-s-tum-as
+---
+lemma: xwitan-s
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: xwitan-s-k-aTap
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: xwitan-s-k-an
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: xwitan-s-k-axw
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: xwitan-s-tumx-arap
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: xwftan-s-an
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: xwitan-s-tumx-axw
+- features:
+    number: plural
+    person: second
+  expected: xwitan-s-tumx-arap
+- features:
+    number: singular
+    person: first
+  expected: xwftan-s-an
+- features:
+    number: singular
+    person: second
+  expected: xwitan-s-tumx-axw

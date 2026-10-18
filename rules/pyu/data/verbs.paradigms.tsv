@@ -1,0 +1,69 @@
+class	features	strip_front	prefix	strip	ending	source	note
+dirus_type	mood=imperative;number=dual;person=first;polarity=negative;voice=active	0		4	a-dirus-an	doc 388552 p. 358	dirus -> da-dirus-an
+dirus_type	mood=imperative;number=dual;person=first;voice=active	0		0	an	doc 388552 p. 358	dirus -> dirusan
+dirus_type	mood=imperative;number=singular;person=second;polarity=negative;voice=active	0		4	a-dirus-i	doc 388552 p. 358	dirus -> da-dirus-i
+dirus_type	mood=imperative;number=singular;person=second;voice=active	0		0	i	doc 388552 p. 358	dirus -> dirusi
+dirus_type	mood=imperative;number=singular;person=third;polarity=negative;voice=active	0		4	a-dirus-i	doc 388552 p. 358	dirus -> da-dirus-i
+dirus_type	mood=imperative;number=singular;person=third;voice=active	0		0	u	doc 388552 p. 358	dirus -> dirusu
+dirus_type	mood=imperative;polarity=negative;voice=active	0		4	adirus	doc 388552 p. 358	dirus -> dadirus
+dirus_type	mood=imperative;voice=active	0		0		doc 20726 p. 33	dirus -> dirus
+dirus_type	mood=imperative;voice=middle	0		0	i	doc 20726 p. 34	dirus -> dirusi
+dirus_type	mood=imperative;voice=passive	0		0	u	doc 20726 p. 34	dirus -> dirusu
+dirus_type	mood=indicative;number=dual;person=first;polarity=negative;voice=active	0		0	an	doc 388552 p. 358	dirus -> dirusan
+dirus_type	mood=indicative;number=dual;person=first;voice=active	0		0	anay	doc 388552 p. 358	dirus -> dirusanay
+dirus_type	mood=indicative;number=singular;person=second;polarity=negative;voice=active	0		0	i	doc 388552 p. 358	dirus -> dirusi
+dirus_type	mood=indicative;number=singular;person=second;voice=active	0		0	ay	doc 388552 p. 358	dirus -> dirusay
+dirus_type	mood=indicative;number=singular;person=third;polarity=negative;voice=active	0		0	i	doc 388552 p. 358	dirus -> dirusi
+dirus_type	mood=indicative;number=singular;person=third;voice=active	0		0	aw	doc 388552 p. 358	dirus -> dirusaw
+dirus_type	mood=indicative;polarity=negative;voice=active	0		0		doc 388552 p. 358	dirus -> dirus
+dirus_type	mood=indicative;voice=active	0		0		doc 388552 p. 358	dirus -> dirus
+takaw_type	aspect=perfective;mood=conditional	0		3	-Takaw-i	doc 388552 p. 196	takaw -> ta-Takaw-i
+takaw_type	aspect=perfective;mood=conditional;voice=active	0		3	Takaw	doc 388552 p. 196	takaw -> taTakaw
+takaw_type	aspect=perfective;mood=indicative	0		0	aw	doc 388552 p. 196	takaw -> takawaw
+takaw_type	aspect=perfective;mood=indicative;voice=active	0		0		doc 388552 p. 196	takaw -> takaw
+takaw_type	aspect=progressive;mood=indicative	0		3	-Takaw-aw	doc 388552 p. 196	takaw -> ta-Takaw-aw
+takaw_type	aspect=progressive;mood=indicative;voice=active	0		3	Takaw	doc 388552 p. 196	takaw -> taTakaw
+takaw_type	mood=indicative	0		3	-Ta-Takaw-aw	doc 388552 p. 196	takaw -> ta-Ta-Takaw-aw
+takaw_type	mood=indicative;voice=active	0		3	-Ta-Takaw	doc 388552 p. 196	takaw -> ta-Ta-Takaw
+category_d	aspect=imperfective	0		3	alepe	doc 20726 p. 39	alepe -> alalepe
+category_d	aspect=perfective	0		0		doc 20726 p. 39	alepe -> alepe
+category_d	mood=imperative	0	k	0		doc 20726 p. 39	alepe -> kalepe
+category_d	mood=optative;tense=future	0		0	qa	doc 20726 p. 39	alepe -> alepeqa
+category_d	tense=future	0	kal	0		doc 20726 p. 39	alepe -> kalalepe
+category_c	aspect=imperfective	0		3	adeki	doc 20726 p. 39	madeki -> madadeki
+category_c	aspect=perfective	0		0		doc 20726 p. 39	madeki -> madeki
+category_c	mood=imperative	1	k	0		doc 20726 p. 39	madeki -> kadeki
+category_c	mood=optative;tense=future	0		0	a	doc 20726 p. 39	madeki -> madekia
+category_c	tense=future	1	kad	0		doc 20726 p. 39	madeki -> kadadeki
+category_c_2	aspect=imperfective	0		7	atengadaw	doc 20726 p. 39	matengadaw -> matatengadaw
+category_c_2	aspect=perfective	0		0		doc 20726 p. 39	matengadaw -> matengadaw
+category_c_2	mood=imperative	1	k	0		doc 20726 p. 39	matengadaw -> katengadaw
+category_c_2	mood=optative;tense=future	0		0		doc 20726 p. 39	matengadaw -> matengadaw
+category_c_2	tense=future	1	kat	0		doc 20726 p. 39	matengadaw -> katatengadaw
+category_d_2	aspect=imperfective	0		3	diai	doc 20726 p. 39	mdiai -> mddiai
+category_d_2	aspect=perfective	0		4	aiiai	doc 20726 p. 39	mdiai -> maiiai
+category_d_2	mood=imperative	2	kai	0		doc 20726 p. 39	mdiai -> kaiiai
+category_d_2	tense=future	2	ka	0	iai	doc 20726 p. 39	mdiai -> kaiaiiai
+intransitive_verbs_with_realis_ma_and_ir	aspect=perfective;mood=indicative	1	ma-D	0		doc 388552 p. 211	deki -> ma-Deki
+intransitive_verbs_with_realis_ma_and_ir	aspect=progressive;mood=indicative	1	ma-Da-D	0		doc 388552 p. 211	deki -> ma-Da-Deki
+intransitive_verbs_with_realis_ma_and_ir	mood=imperative	1	ka-D	0		doc 388552 p. 211	deki -> ka-Deki
+category_d_3	aspect=imperfective	0		4	aqaiung	doc 20726 p. 40	kudung -> kuaqaiung
+category_d_3	aspect=perfective	0		4	aiung	doc 20726 p. 40	kudung -> kuaiung
+category_d_3	tense=future	0		5	akuaiung	doc 20726 p. 40	kudung -> kakuaiung
+intransitive_verbs_with_realis_ma	aspect=perfective;mood=indicative	0	ma	0		doc 388552 p. 211	rengay -> marengay
+intransitive_verbs_with_realis_ma	aspect=progressive;mood=indicative	0	ma-ra-	0		doc 388552 p. 211	rengay -> ma-ra-rengay
+intransitive_verbs_with_realis_ma	mood=imperative	0		0		doc 388552 p. 211	rengay -> rengay
+intransitive_verbs_with_realis_ma_and_ir_2	aspect=perfective;mood=indicative	0	ma	0		doc 388552 p. 211	ruwa -> maruwa
+intransitive_verbs_with_realis_ma_and_ir_2	aspect=progressive;mood=indicative	0	ma-ra-	0		doc 388552 p. 211	ruwa -> ma-ra-ruwa
+intransitive_verbs_with_realis_ma_and_ir_2	mood=imperative	0	ka	0		doc 388552 p. 211	ruwa -> karuwa
+intransitive_verbs_with_realis_ma_and_ir_3	aspect=perfective;mood=indicative	1	ma-T	0		doc 388552 p. 211	tangis -> ma-Tangis
+intransitive_verbs_with_realis_ma_and_ir_3	aspect=progressive;mood=indicative	1	ma-Ta-T	0		doc 388552 p. 211	tangis -> ma-Ta-Tangis
+intransitive_verbs_with_realis_ma_and_ir_3	mood=imperative	1	ka-T	0		doc 388552 p. 211	tangis -> ka-Tangis
+intransitive_verbs_with_no_realis_affix	aspect=perfective;mood=indicative	0		0		doc 388552 p. 211	aremeng -> aremeng
+intransitive_verbs_with_no_realis_affix	mood=imperative	0	k	0		doc 388552 p. 211	aremeng -> karemeng
+intransitive_verbs_with_no_realis_affix_2	aspect=perfective;mood=indicative	0		0		doc 388552 p. 211	inaba -> inaba
+intransitive_verbs_with_no_realis_affix_2	mood=imperative	0	ka	0		doc 388552 p. 211	inaba -> kainaba
+intransitive_verbs_with_realis_ma_2	aspect=perfective;mood=indicative	0	ma	0		doc 388552 p. 211	re’ani -> mare’ani
+intransitive_verbs_with_realis_ma_2	mood=imperative	0		0		doc 388552 p. 211	re’ani -> re’ani
+intransitive_verbs_with_no_realis_affix_3	aspect=perfective;mood=indicative	0		0		doc 388552 p. 211	saeru -> saeru
+intransitive_verbs_with_no_realis_affix_3	mood=imperative	0	ka	0		doc 388552 p. 211	saeru -> kasaeru

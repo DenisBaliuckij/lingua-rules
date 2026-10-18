@@ -1,0 +1,99 @@
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ne
+- features:
+    number: dual
+    person: second
+  expected: ni
+- features:
+    number: plural
+    person: first
+  expected: nem
+- features:
+    number: plural
+    person: second
+  expected: nike
+- features:
+    number: singular
+    person: first
+  expected: na
+- features:
+    number: singular
+    person: second
+  expected: ni
+---
+lemma: rer
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: rer
+- features:
+    number: dual
+    person: third
+  expected: ref
+- features:
+    number: plural
+    person: third
+  expected: rem
+---
+lemma: ret
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ret
+---
+lemma: tuki
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: tut
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: tur
+- features:
+    number: dual
+    person: first
+  expected: tune
+- features:
+    number: dual
+    person: second
+  expected: tuf.i.n
+- features:
+    number: dual
+    person: third
+  expected: tuf
+- features:
+    number: plural
+    person: first
+  expected: tunem
+- features:
+    number: plural
+    person: second
+  expected: tuke
+- features:
+    number: plural
+    person: third
+  expected: tum
+- features:
+    number: singular
+    person: first
+  expected: tukia
+- features:
+    number: singular
+    person: second
+  expected: tu

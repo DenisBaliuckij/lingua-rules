@@ -1,0 +1,39 @@
+lemma: ya
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kapayak
+- features:
+    number: dual
+    person: second
+  expected: kapwayak
+- features:
+    number: dual
+    person: third
+  expected: aympak
+- features:
+    number: plural
+    person: first
+  expected: aypak
+- features:
+    number: plural
+    person: second
+  expected: aypwak
+- features:
+    number: plural
+    person: third
+  expected: apuk
+- features:
+    number: singular
+    person: first
+  expected: amayak
+- features:
+    number: singular
+    person: second
+  expected: amyak
+- features:
+    number: singular
+    person: third
+  expected: anak

@@ -1,0 +1,134 @@
+lemma: a-na
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: a-bun
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: a-dab
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: a-kun
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: a-dal
+- features:
+    number: plural
+    person: first
+  expected: a-ma
+- features:
+    number: plural
+    person: second
+  expected: a-kum
+- features:
+    number: singular
+    person: first
+  expected: a-na
+- features:
+    number: singular
+    person: second
+  expected: a-ke
+---
+lemma: ga
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: hap’p
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: hall
+- features:
+    number: plural
+    person: first
+  expected: ma
+- features:
+    number: plural
+    person: second
+  expected: um
+- features:
+    number: plural
+    person: third
+  expected: hun
+- features:
+    number: singular
+    person: first
+  expected: ga
+- features:
+    number: singular
+    person: second
+  expected: ik
+---
+lemma: gaa
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: haap’p
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: haall
+- features:
+    number: plural
+    person: first
+  expected: maa
+- features:
+    number: plural
+    person: second
+  expected: uum
+- features:
+    number: plural
+    person: third
+  expected: huun
+- features:
+    number: singular
+    person: first
+  expected: gaa
+- features:
+    number: singular
+    person: second
+  expected: iik
+---
+lemma: uwe
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    gender: feminine
+    number: singular
+  expected: a
+- features:
+    animacy: animate
+    gender: masculine
+    number: singular
+  expected: uwe
+- features:
+    animacy: inanimate
+    gender: feminine
+    number: singular
+  expected: muno
+- features:
+    animacy: inanimate
+    gender: masculine
+    number: singular
+  expected: muney
+- features:
+    number: plural
+  expected: huna

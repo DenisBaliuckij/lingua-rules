@@ -1,0 +1,87 @@
+lemma: bâla
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: wâyîbâIîsâ
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: present
+    voice: active
+  expected: ûbâlâ
+---
+lemma: bûta
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    polarity: affirmative
+    tense: present
+    voice: active
+  expected: ûsâyîbûtîsîsâ
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: sfbûté
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: present
+    voice: active
+  expected: ûbûtà
+- features:
+    mood: subjunctive
+    polarity: affirmative
+    tense: present
+    voice: active
+  expected: âbûtè
+- features:
+    polarity: negative
+    tense: present
+    voice: active
+  expected: âQàbbbûtà
+---
+lemma: kûbà
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: qîbà
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: ûbâ
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: bâbè
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: qibè
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: âbè

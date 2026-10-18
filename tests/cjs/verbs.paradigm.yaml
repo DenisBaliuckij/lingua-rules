@@ -1,0 +1,507 @@
+lemma: айтпаар
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: future
+  expected: айтпастар
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: future
+  expected: айтпассаар
+---
+lemma: ал
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: алғанмыс
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: албаанмыс
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: алчабыс
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: алғанаар
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: албаанзаар
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: алчазаар
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: алғаннар
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: албааннар
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: алчалар
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: алғаным
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: албааным
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: алчам
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: алғанзың
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: албааң
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: алчаң
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: алған
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: албаан
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: алча
+---
+lemma: алчаң
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: албачаң
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: алчаңмыс
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: албачаңзаар
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: алчаңзаар
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: албачаңнар
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: алчаңнар
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: албачаңым
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: алчаңмын
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: албачаңзың
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: алчаңзың
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: албачаң
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: алчаң
+---
+lemma: кел
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: келгенмис
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: келгенаар
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: келгеннер
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: келгеним
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: келгензиң
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: келген
+---
+lemma: келчең
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: келбечеңмис
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: келчеңмис
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: келбечеңзаар
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: келчеңзаар
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: келбечеңнер
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: келчеңнер
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: келбечеңим
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: келчеңмин
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: келбечеңзиң
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: келчеңзиң
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: келбечең
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: келчең
+---
+lemma: парбаар
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: future
+  expected: парбастар
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: future
+  expected: парбассаар
+---
+lemma: пардым
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: пардыбыс
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: пардаар
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: пардылар
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: пардым
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: пардың
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: парды
+---
+lemma: сарна
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: сарнапчабыс
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: сарнапчазаар
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: сарнапчалар
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: сарнапчам
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: сарнапчаң
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: сарнапча
+---
+lemma: чет
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: четпеенмис
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: четпеензаар
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: четпееннер
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: четпееним
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: четпеең
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: четпеен
+---
+lemma: қонмаар
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: future
+  expected: қонмастар
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: future
+  expected: қонмассаар

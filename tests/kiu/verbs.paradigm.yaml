@@ -1,0 +1,468 @@
+lemma: ant
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: preterite
+  expected: antıya
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: antıya
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: antıya
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+  expected: antıyım
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: preterite
+  expected: antıyın
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: antıyan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: antıyan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: antıyım
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: antıyın
+---
+lemma: bi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: bf
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: bf
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: bi-y-ti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: bfl
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bi
+---
+lemma: d
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: da-Il-e
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: da-n-e
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: da-n-a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dii-II-oldii-II-II
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: bi-d-e
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: bi-d-e
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: bi-d-a
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: bi-d-el
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: bid
+---
+lemma: est
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: esta
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: este
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: est
+---
+lemma: geyrti-y
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: geyrti-y
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: geyrti-y
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: geyrti-y-ti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: geyrti-yl
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: geyrtil
+---
+lemma: kar
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: karê
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kare
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kar
+---
+lemma: ker
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ke-Il-e
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ke-n-e
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ke-n-a
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ke-n-e
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ke-Il-ul
+---
+lemma: kewt
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kewtf
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kewtf
+- features:
+    mood: indicative
+    number: plural
+    tense: perfect
+  expected: kewte
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kewtti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: kewtn
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kewtfl
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: kewte
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kewtl
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: kewt
+---
+lemma: remn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    tense: perfect
+  expected: remn-y-e
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: remn-y-n
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: remn-y-e
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: remny
+---
+lemma: sf
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    tense: perfect
+  expected: sf-y-e
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: sf-y-n
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: sf-y-e
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: sfy
+---
+lemma: time-y
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: time-y
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: tim-ey
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: time-y-ti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: time-yl
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: time-e
+---
+lemma: we
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: we-n-e
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: we-n-e
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: we-n-a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: h
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: biire
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: biire
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: biir-a
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: biire
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: biir

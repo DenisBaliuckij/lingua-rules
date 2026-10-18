@@ -1,0 +1,51 @@
+lemma: edoi
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: edoguedie
+- features:
+    gender: feminine
+    number: singular
+  expected: edogue
+- features:
+    gender: masculine
+    number: plural
+  expected: edogode
+- features:
+    gender: masculine
+    number: singular
+  expected: edoi
+---
+lemma: querui
+category: adjectives
+cases:
+- features:
+    gender: masculine
+    number: plural
+  expected: queruode
+- features:
+    gender: masculine
+    number: singular
+  expected: querui
+---
+lemma: ueradi
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: ueradedie
+- features:
+    gender: feminine
+    number: singular
+  expected: uerade
+- features:
+    gender: masculine
+    number: plural
+  expected: ueradode
+- features:
+    gender: masculine
+    number: singular
+  expected: ueradi

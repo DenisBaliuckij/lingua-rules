@@ -1,0 +1,59 @@
+lemma: ndi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ndisu
+- features:
+    number: dual
+    person: second
+  expected: ndimwi
+- features:
+    number: dual
+    person: third
+  expected: ndivo
+- features:
+    number: plural
+    person: first
+  expected: ndisu
+- features:
+    number: plural
+    person: second
+  expected: ndimwi
+- features:
+    number: plural
+    person: third
+  expected: ndivo
+- features:
+    number: singular
+    person: first
+  expected: ndini
+- features:
+    number: singular
+    person: second
+  expected: ndiwe
+- features:
+    number: singular
+    person: third
+  expected: ndiye
+---
+lemma: neni
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nesu
+- features:
+    number: plural
+    person: second
+  expected: nemwi
+- features:
+    number: singular
+    person: first
+  expected: neni
+- features:
+    number: singular
+    person: second
+  expected: newe

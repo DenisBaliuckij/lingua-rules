@@ -1,0 +1,135 @@
+lemma: he·ʔe
+category: pronouns
+cases:
+- features:
+    case: allative
+  expected: he·ʔel
+- features:
+    case: instrumental
+  expected: he·c
+- features:
+    case: locative
+  expected: he·ʔeca
+- features:
+    case: nominative
+  expected: he·ʔela
+---
+lemma: sa·ya
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: kewsa·sik
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: wena·yak
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: kewsa·sak
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: wena·yak
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: sa·sik
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: na·yak
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: kewsa·ken
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: sa·ken
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: na·xen
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: ʔa·xen
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: kewsa·ya
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: wena·ya
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: kewsa·ka
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: wena·ka
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: sa·ya
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: na·ya
+---
+lemma: te·
+category: pronouns
+cases:
+- features:
+    case: allative
+  expected: te·l
+- features:
+    case: instrumental
+  expected: te·c
+- features:
+    case: locative
+  expected: te·ca
+- features:
+    case: nominative
+  expected: te·la
+---
+lemma: wa·
+category: pronouns
+cases:
+- features:
+    case: locative
+  expected: wa·ca
+- features:
+    case: nominative
+  expected: wa·ʔa·la
+---
+lemma: we·
+category: pronouns
+cases:
+- features:
+    case: allative
+  expected: we·ʔil
+- features:
+    case: instrumental
+  expected: we·tic

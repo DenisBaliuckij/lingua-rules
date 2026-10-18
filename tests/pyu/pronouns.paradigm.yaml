@@ -1,0 +1,280 @@
+lemma: daku
+category: pronouns
+cases:
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: data
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: danemu
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: datu
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: daku
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: danu
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: datu
+---
+lemma: iDi
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: naDini
+- features:
+    case: nominative
+    number: singular
+  expected: naDi
+- features:
+    case: oblique
+    number: plural
+  expected: kanaDunu
+- features:
+    case: oblique
+    number: singular
+  expected: kanDu
+---
+lemma: iDiyu
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: naDiyu
+- features:
+    case: nominative
+    number: singular
+  expected: iDiyu
+- features:
+    case: oblique
+    number: plural
+  expected: kanaDiyu
+- features:
+    case: oblique
+    number: singular
+  expected: kanDiyu
+---
+lemma: iDu
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: naDu
+- features:
+    case: nominative
+    number: singular
+  expected: iDu
+- features:
+    case: oblique
+    number: plural
+  expected: kanaDu
+- features:
+    case: oblique
+    number: singular
+  expected: kanDu
+---
+lemma: kanku
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: kanta
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: kanmu
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: kantaw
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: kanku
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: kanu
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: kantaw
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: kanta
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: kanemu
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: kantu
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: kanku
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: kanu
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: kantu
+---
+lemma: ku
+category: pronouns
+cases:
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: ta
+- features:
+    case: ergative
+    number: plural
+    person: second
+  expected: mu
+- features:
+    case: ergative
+    number: plural
+    person: third
+  expected: tu
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: ki
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: nu
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: tu
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ta
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: mu
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: nadiu na taw
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ku
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: yu
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: taitaw
+---
+lemma: nanku
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: nanta
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: nanmu
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: nantaw
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: nanku
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: nanu
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: nantaw
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nanta
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: nantu
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: nanku
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: nanu
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: nantu

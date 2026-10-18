@@ -1,0 +1,179 @@
+lemma: ma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: 'no'
+- features:
+    number: plural
+    person: second
+  expected: ni — nit
+- features:
+    number: plural
+    person: third
+  expected: kere
+- features:
+    number: singular
+    person: first
+  expected: ma
+- features:
+    number: singular
+    person: second
+  expected: ni
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nu
+- features:
+    number: singular
+    person: first
+  expected: mi
+- features:
+    number: singular
+    person: second
+  expected: ni
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: nu
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: ni — nite
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: kere
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: mi
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: ni
+---
+lemma: mi'cak
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nu'cak
+- features:
+    number: singular
+    person: first
+  expected: mi'cak
+- features:
+    number: singular
+    person: second
+  expected: ni'cak
+- features:
+    number: singular
+    person: third
+  expected: i'cak
+---
+lemma: mí
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nuu
+- features:
+    number: singular
+    person: first
+  expected: mi
+- features:
+    number: singular
+    person: second
+  expected: ni
+- features:
+    number: singular
+    person: third
+  expected: i
+---
+lemma: mí’shak
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nuushak
+- features:
+    number: singular
+    person: first
+  expected: mi'shak
+- features:
+    number: singular
+    person: second
+  expected: ni'shak
+- features:
+    number: singular
+    person: third
+  expected: ishak
+---
+lemma: pta
+category: pronouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: nuta
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: nita — nite
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: ta — kere
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: pta
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: nita
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ta
+---
+lemma: te'we
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: te'we
+---
+lemma: wa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: da — nit
+- features:
+    number: plural
+    person: third
+  expected: kere
+- features:
+    number: singular
+    person: first
+  expected: wa
+- features:
+    number: singular
+    person: second
+  expected: da
+- features:
+    number: singular
+    person: third
+  expected: wa

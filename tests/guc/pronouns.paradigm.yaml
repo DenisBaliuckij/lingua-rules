@@ -1,0 +1,63 @@
+lemma: chi
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: na
+- features:
+    number: singular
+  expected: chi
+---
+lemma: chia
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: chia
+---
+lemma: chira
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: chira
+---
+lemma: chisa
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: nasa
+- features:
+    number: singular
+  expected: chisa
+---
+lemma: chise
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: nase
+- features:
+    number: singular
+  expected: chise
+---
+lemma: taya
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: waya
+- features:
+    number: plural
+    person: second
+  expected: jaya
+- features:
+    number: plural
+    person: third
+  expected: naya
+- features:
+    number: singular
+    person: first
+  expected: taya

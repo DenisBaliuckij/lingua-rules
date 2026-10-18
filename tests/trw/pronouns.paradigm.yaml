@@ -1,0 +1,247 @@
+lemma: Q
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: mQ
+- features:
+    case: accusative
+    number: singular
+  expected: me
+- features:
+    case: ergative
+    number: plural
+  expected: me
+- features:
+    case: ergative
+    number: singular
+  expected: i
+- features:
+    case: genitive
+    number: plural
+  expected: min
+- features:
+    case: genitive
+    number: singular
+  expected: misi
+- features:
+    case: nominative
+    number: plural
+  expected: Q
+- features:
+    case: nominative
+    number: singular
+  expected: Q
+- features:
+    case: oblique
+    number: plural
+  expected: hQ
+- features:
+    case: oblique
+    number: singular
+  expected: me
+---
+lemma: a
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: mQ
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: mQ
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: mi
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: a
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: me
+---
+lemma: mo
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: mo
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: moe
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: mun
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: mo
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: mo
+---
+lemma: pFy
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: pFhQ
+- features:
+    case: accusative
+    number: singular
+  expected: pFs
+- features:
+    case: ergative
+    number: plural
+  expected: pFy
+- features:
+    case: ergative
+    number: singular
+  expected: pFy
+- features:
+    case: genitive
+    number: plural
+  expected: pFhin
+- features:
+    case: genitive
+    number: singular
+  expected: isi
+- features:
+    case: nominative
+    number: plural
+  expected: pFy
+- features:
+    case: nominative
+    number: singular
+  expected: pFy
+- features:
+    case: oblique
+    number: plural
+  expected: pFhQ
+- features:
+    case: oblique
+    number: singular
+  expected: pFs
+---
+lemma: se
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: tQ
+- features:
+    case: accusative
+    number: singular
+  expected: te
+- features:
+    case: ergative
+    number: plural
+  expected: tHe
+- features:
+    case: ergative
+    number: singular
+  expected: ti
+- features:
+    case: genitive
+    number: plural
+  expected: tHin
+- features:
+    case: genitive
+    number: singular
+  expected: tisi
+- features:
+    case: nominative
+    number: plural
+  expected: se
+- features:
+    case: nominative
+    number: singular
+  expected: se
+- features:
+    case: oblique
+    number: plural
+  expected: tHQ
+- features:
+    case: oblique
+    number: singular
+  expected: ti
+---
+lemma: tHo
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: tHo
+- features:
+    case: ergative
+    number: plural
+    person: second
+  expected: tHoe
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: tHun
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: tHo
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: tHo
+---
+lemma: tu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: tHQ
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: tQ
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: cHi
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: tu
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: tHe

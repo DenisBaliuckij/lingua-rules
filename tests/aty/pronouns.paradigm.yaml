@@ -1,0 +1,75 @@
+lemma: inkahegka
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: inkahegka
+---
+lemma: naanal
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: jeknaa
+- features:
+    number: singular
+    person: third
+  expected: naanal
+---
+lemma: naikou
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: rankou
+- features:
+    number: plural
+    person: third
+  expected: jeknaikou
+- features:
+    number: singular
+    person: third
+  expected: naikou
+---
+lemma: ninki
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: ranki
+- features:
+    number: plural
+    person: third
+  expected: jinki
+- features:
+    number: singular
+    person: third
+  expected: ninki
+---
+lemma: yiiki
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: raaki
+- features:
+    number: dual
+    person: third
+  expected: raaki
+- features:
+    number: plural
+  expected: jiiki
+- features:
+    number: plural
+    person: third
+  expected: jiiki
+- features:
+    number: singular
+  expected: yiiki
+- features:
+    number: singular
+    person: third
+  expected: yiiki

@@ -1,0 +1,437 @@
+lemma: bFnu
+category: verbs
+cases:
+- features:
+    person: second
+  expected: bFn
+- features:
+    person: third
+  expected: bFne
+---
+lemma: hFz
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hfzji
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hfzdu
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hfzdi
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: hfzudud
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: hfzusQt
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: hfzudud
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hfzusQt
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: hfzudud
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hfzusQt
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: hezi
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: heziji
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: hfzu
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hfzudu
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: hfzi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hfzidi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: hfznin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: hfznin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: hfznin
+---
+lemma: jFndFr
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: jFndFrji
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: jFndFrdu
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: jFndFrdi
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: jFndFrudud
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: jFndFrusQt
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: jFndFru
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: jFndFrudu
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: jFndFri
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: jFndFridi
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: jFndFru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: jFndFri
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: jFndFrnin
+---
+lemma: kow
+category: verbs
+cases:
+- features:
+    person: first
+  expected: keyi
+- features:
+    person: second
+  expected: ko
+- features:
+    person: third
+  expected: kuwe
+---
+lemma: lig
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+  expected: ligawdud
+- features:
+    aspect: perfective
+    gender: feminine
+    number: singular
+    tense: past
+  expected: ligQt
+- features:
+    aspect: perfective
+    gender: feminine
+    number: singular
+    tense: present
+  expected: ligaci
+- features:
+    aspect: perfective
+    gender: masculine
+    number: singular
+    tense: past
+  expected: ligat
+- features:
+    aspect: perfective
+    gender: masculine
+    number: singular
+    tense: present
+  expected: ligatu
+- features:
+    aspect: perfective
+    number: plural
+    tense: past
+  expected: ligQt
+- features:
+    aspect: perfective
+    number: plural
+    tense: present
+  expected: ligati
+- features:
+    gender: feminine
+    number: singular
+    tense: present
+  expected: ligaji
+- features:
+    gender: masculine
+    number: singular
+    tense: present
+  expected: ligadu
+- features:
+    mood: imperative
+    number: plural
+  expected: ligawsQt
+- features:
+    number: plural
+    tense: future
+  expected: liganin
+- features:
+    number: plural
+    tense: present
+  expected: ligadi
+---
+lemma: mF
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+  expected: mFudud
+- features:
+    aspect: perfective
+    gender: feminine
+    number: singular
+    tense: past
+  expected: mFy
+- features:
+    aspect: perfective
+    gender: feminine
+    number: singular
+    tense: present
+  expected: mFji
+- features:
+    aspect: perfective
+    gender: masculine
+    number: singular
+    tense: past
+  expected: mFw
+- features:
+    aspect: perfective
+    gender: masculine
+    number: singular
+    tense: present
+  expected: mFudu
+- features:
+    aspect: perfective
+    number: plural
+    tense: past
+  expected: mFwi
+- features:
+    aspect: perfective
+    number: plural
+    tense: present
+  expected: mFydi
+- features:
+    gender: feminine
+    number: singular
+    tense: present
+  expected: mFji
+- features:
+    gender: masculine
+    number: singular
+    tense: present
+  expected: mFodu
+- features:
+    mood: imperative
+    number: plural
+  expected: mFusQt
+- features:
+    number: plural
+    tense: future
+  expected: manin
+- features:
+    number: plural
+    tense: present
+  expected: mFydi
+---
+lemma: ye
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+  expected: yFwdud
+- features:
+    aspect: perfective
+    gender: feminine
+    number: singular
+    tense: past
+  expected: qp
+- features:
+    aspect: perfective
+    gender: feminine
+    number: singular
+    tense: present
+  expected: qpci
+- features:
+    aspect: perfective
+    gender: masculine
+    number: singular
+    tense: past
+  expected: ap
+- features:
+    aspect: perfective
+    gender: masculine
+    number: singular
+    tense: present
+  expected: aptu
+- features:
+    aspect: perfective
+    number: plural
+    tense: past
+  expected: fy
+- features:
+    aspect: perfective
+    number: plural
+    tense: present
+  expected: fydi
+- features:
+    gender: feminine
+    number: singular
+    tense: present
+  expected: yeji
+- features:
+    gender: masculine
+    number: singular
+    tense: present
+  expected: yedu
+- features:
+    mood: imperative
+    number: plural
+  expected: yFwsQt
+- features:
+    number: plural
+    tense: future
+  expected: yenin
+- features:
+    number: plural
+    tense: present
+  expected: yedi
