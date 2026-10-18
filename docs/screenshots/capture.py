@@ -50,9 +50,10 @@ form(Lemma, "number=singular", Lemma) :- input_lemma(Lemma).
 """
 
 NL_HAND_WRITTEN = """
-% "museum" -> "musea": drop the last two letters ("um"), add "a".
-irregular("museum").
-form("museum", "number=plural", @strip_suffix_add("museum", 2, "a")).
+% "-um" -> "-a" (museum -> musea, centrum -> centra). These nouns are kept
+% away from the regular plural rule, which skips irregular lemmas.
+irregular(L) :- noun_class(L, um_a).
+form(L, "number=plural", @strip_suffix_add(L, 2, "a")) :- input_lemma(L), noun_class(L, um_a).
 """
 
 NL_TESTS = """lemma: boek
@@ -80,6 +81,12 @@ category: nouns
 cases:
   - features: {number: plural}
     expected: musea
+---
+lemma: centrum
+category: nouns
+cases:
+  - features: {number: plural}
+    expected: centra
 """
 
 
@@ -105,6 +112,9 @@ def build_workspace(workspace: Path) -> None:
             "--feature-key", "number=plural", "--lemma", lemma, "--form", form)
     with (nl_rules / "nouns.lp").open("a", encoding="utf-8") as fh:
         fh.write(NL_HAND_WRITTEN)
+    for lemma in ("museum", "centrum"):
+        cli(workspace, "new-rule", "nl", "nouns", "--template", "lexicon-entry",
+            "--lemma", lemma, "--predicate", "noun_class", "--value", "um_a")
     (workspace / "tests" / "nl").mkdir()
     (workspace / "tests" / "nl" / "nouns.paradigm.yaml").write_text(NL_TESTS, encoding="utf-8")
 

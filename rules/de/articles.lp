@@ -7,24 +7,10 @@
 %   der-words (der_word)      dieser, jeder, welcher: stem (lemma minus -er) + ending
 % Keys: "case=...;gender=...;number=singular" and "case=...;number=plural".
 %
+% Data (rules/de/data/): articles.exceptions.tsv (der), articles.lexicon.tsv
+% (det_class and singular_only per lemma).
+%
 % Not covered: "euer" (stem change eure), "ihr" (identical to other forms).
-
-form("der", "case=nominative;gender=masculine;number=singular", "der").
-form("der", "case=accusative;gender=masculine;number=singular", "den").
-form("der", "case=dative;gender=masculine;number=singular", "dem").
-form("der", "case=genitive;gender=masculine;number=singular", "des").
-form("der", "case=nominative;gender=feminine;number=singular", "die").
-form("der", "case=accusative;gender=feminine;number=singular", "die").
-form("der", "case=dative;gender=feminine;number=singular", "der").
-form("der", "case=genitive;gender=feminine;number=singular", "der").
-form("der", "case=nominative;gender=neuter;number=singular", "das").
-form("der", "case=accusative;gender=neuter;number=singular", "das").
-form("der", "case=dative;gender=neuter;number=singular", "dem").
-form("der", "case=genitive;gender=neuter;number=singular", "des").
-form("der", "case=nominative;number=plural", "die").
-form("der", "case=accusative;number=plural", "die").
-form("der", "case=dative;number=plural", "den").
-form("der", "case=genitive;number=plural", "der").
 
 % --- ein_word
 stem(L, L) :- input_lemma(L), det_class(L, ein_word).
@@ -63,7 +49,3 @@ form(L, "case=nominative;number=plural", @suffix(S, "e")) :- det_class(L, der_wo
 form(L, "case=accusative;number=plural", @suffix(S, "e")) :- det_class(L, der_word), stem(L, S), not singular_only(L).
 form(L, "case=dative;number=plural", @suffix(S, "en")) :- det_class(L, der_word), stem(L, S), not singular_only(L).
 form(L, "case=genitive;number=plural", @suffix(S, "er")) :- det_class(L, der_word), stem(L, S), not singular_only(L).
-
-det_class("ein", ein_word). det_class("kein", ein_word). det_class("mein", ein_word). det_class("dein", ein_word). det_class("sein", ein_word). det_class("unser", ein_word).
-det_class("dieser", der_word). det_class("jeder", der_word). det_class("welcher", der_word).
-singular_only("ein").

@@ -15,4 +15,23 @@
 </ul>
 <h2>Rule source</h2>
 <pre>{{ source }}</pre>
+<h2>Datasets</h2>
+{% if dataset_errors %}
+<ul class="errors">
+  {% for message in dataset_errors %}<li>{{ message }}</li>{% endfor %}
+</ul>
+{% endif %}
+{% if not datasets %}
+<p>No tables under <code>rules/{{ lang }}/data/</code> for this category.</p>
+{% endif %}
+{% for dataset in datasets %}
+<h3>{{ dataset.name }} <small>({{ dataset.kind }}, {{ dataset.rows|length }} rows)</small></h3>
+<table class="dataset">
+  <tr>{% for column in dataset.columns %}<th>{{ column.name }}{% if dataset.kind == "facts" and not loop.first and column.type not in ("meta", "constant") %}:{{ column.type }}{% endif %}</th>{% endfor %}</tr>
+  {% for row in dataset.rows[:preview_rows] %}
+  <tr>{% for cell in row.cells %}<td>{{ cell }}</td>{% endfor %}</tr>
+  {% endfor %}
+</table>
+{% if dataset.rows|length > preview_rows %}<p>… {{ dataset.rows|length - preview_rows }} more rows in the file.</p>{% endif %}
+{% endfor %}
 {% endblock %}

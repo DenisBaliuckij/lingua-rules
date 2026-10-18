@@ -7,7 +7,10 @@ Run from the repository root: python tools/gen_ru.py
 
 from pathlib import Path
 
+from tables import lexicon, members, write_table
+
 R = Path("rules/ru")
+D = R / "data"
 T = Path("tests/ru")
 CASES = ["nominative", "genitive", "dative", "accusative", "instrumental", "prepositional"]
 OBL = ["nominative", "genitive", "dative", "instrumental", "prepositional"]  # without accusative
@@ -19,9 +22,6 @@ PERSONS = [("first", "singular"), ("second", "singular"), ("third", "singular"),
 def w(path: Path, text: str) -> None:
     path.write_text(text, encoding="utf-8", newline="\n")
 
-
-def facts(pred: str, table: dict) -> str:
-    return "".join(" ".join(f'{pred}("{l}", {c}).' for l in ls) + "\n" for c, ls in table.items())
 
 
 def head(strip: int, end: str) -> str:
@@ -123,6 +123,11 @@ n = ["""% rules/ru/nouns.lp
 % declension class with noun_class/2 (a lemma without a class produces no
 % forms), and animate nouns are marked with animate/1.
 %
+% Data (rules/ru/data/): nouns.lexicon.tsv gives noun_class and animate per
+% lemma; nouns.classes.tsv gives each class's gender (class_gender/2) and
+% whether its accusative is the nominative (acc_from_nominative/1);
+% nouns.exceptions.tsv lists irregular nouns.
+%
 % Classes (nominative singular -> genitive singular, nominative plural):
 %   m_hard           стол -> стола, столы          m_velar   урок -> урока, уроки
 %   m_hush           нож -> ножа, ножи (gen pl -ей) m_j       музей -> музея, музеи
@@ -140,24 +145,24 @@ n = ["""% rules/ru/nouns.lp
 % masculine nouns in the singular and for all animate nouns in the plural
 % (студента, студентов; мам, собак).
 % Nouns with stem changes (ребёнок/дети, мать/матери, день/дня) are irregular
-% and list all 12 forms.
+% and list all 12 forms in nouns.exceptions.tsv.
 %
 % Not covered: fleeting vowels in regular classes (only in listed nouns),
 % stress-dependent endings other than -ем/-ём, second genitive/locative
 % (чашка чаю, в лесу), and nouns in -ц (улица -> улицей).
 
 """]
+class_rows = []
 for cls, (gender, strip, sg, acc, pl) in NOUN_CLASSES.items():
     n.append(f"% --- {cls}\n")
-    n.append(f"class_gender({cls}, {gender}).\n")
     for number, ends in (("singular", sg), ("plural", pl)):
         for case, end in zip(OBL, ends):
             n.append(f'form(L, "case={case};number={number}", {head(strip, end)}) :- input_lemma(L), noun_class(L, {cls}).\n')
     if acc is not None:
         n.append(f'form(L, "case=accusative;number=singular", {head(strip, acc)}) :- input_lemma(L), noun_class(L, {cls}).\n')
-    else:
-        n.append(f"acc_from_nominative({cls}).\n")
     n.append("\n")
+    class_rows.append([cls, gender, "" if acc is not None else "yes"])
+write_table(D / "nouns.classes.tsv", ["class:constant", "class_gender", "acc_from_nominative:flag"], class_rows)
 n.append("""% --- accusative derived from the nominative or the genitive
 form(L, "case=accusative;number=singular", F) :- noun_class(L, C), acc_from_nominative(C),
     not animate_masculine(L), form(L, "case=nominative;number=singular", F).
@@ -165,18 +170,17 @@ form(L, "case=accusative;number=singular", F) :- animate_masculine(L), form(L, "
 animate_masculine(L) :- animate(L), noun_class(L, C), class_gender(C, masculine).
 form(L, "case=accusative;number=plural", F) :- noun_class(L, _), not animate(L), form(L, "case=nominative;number=plural", F).
 form(L, "case=accusative;number=plural", F) :- noun_class(L, _), animate(L), form(L, "case=genitive;number=plural", F).
-
-% --- class membership and animacy
 """)
-n.append(facts("noun_class", NOUN_MEMBERS))
-n.append(" ".join(f'animate("{l}").' for l in ANIMATE) + "\n")
-n.append("\n% --- irregular nouns (all forms listed)\n")
+w(R / "nouns.lp", "".join(n))
+write_table(D / "nouns.lexicon.tsv", ["lemma", "noun_class", "animate:flag"], lexicon(
+    ["noun_class", "animate"],
+    {"noun_class": dict(members(NOUN_MEMBERS)), "animate": {l: "yes" for l in ANIMATE}}))
+exc = []
 for lemma, forms in IRREGULAR_NOUNS.items():
     sg, pl = (p.split() for p in forms.split("|"))
-    n.append(f'irregular("{lemma}").\n')
     for number, fs in (("singular", sg), ("plural", pl)):
-        n.append(" ".join(f'form("{lemma}", "case={c};number={number}", "{f}").' for c, f in zip(CASES, fs)) + "\n")
-w(R / "nouns.lp", "".join(n))
+        exc += [[lemma, f"case={c};number={number}", f] for c, f in zip(CASES, fs)]
+write_table(D / "nouns.exceptions.tsv", ["lemma", "features", "form"], exc)
 
 # ============================================================================= adjectives
 # strip 2 letters from the lemma (masculine nominative), then add:
@@ -215,6 +219,8 @@ a = ["""% rules/ru/adjectives.lp
 % "animacy=inanimate;..." (новый). The neuter accusative equals the nominative.
 % Comparative: hard and soft adjectives take -ее (новее, синее); others are
 % listed (хороший -> лучше).
+% Data: adjectives.lexicon.tsv gives adj_class and the listed comparative
+% (comparative/2) per lemma.
 %
 % Not covered: short forms (нов, нова), superlative (новейший, самый новый),
 % the alternative instrumental -ою/-ею.
@@ -241,12 +247,11 @@ listed_comparative(L) :- comparative(L, _).
 form(L, "degree=comparative", F) :- input_lemma(L), comparative(L, F).
 form(L, "degree=comparative", @strip_suffix_add(L, 2, "ее")) :- input_lemma(L), adj_class(L, hard), not listed_comparative(L).
 form(L, "degree=comparative", @strip_suffix_add(L, 2, "ее")) :- input_lemma(L), adj_class(L, soft), not listed_comparative(L).
-
-% --- class membership
 """)
-a.append(facts("adj_class", ADJ_MEMBERS))
-a.append(" ".join(f'comparative("{l}", "{c}").' for l, c in COMPARATIVE_LISTED.items()) + "\n")
 w(R / "adjectives.lp", "".join(a))
+write_table(D / "adjectives.lexicon.tsv", ["lemma", "adj_class", "comparative:string"], lexicon(
+    ["adj_class", "comparative"],
+    {"adj_class": dict(members(ADJ_MEMBERS)), "comparative": COMPARATIVE_LISTED}))
 
 # ============================================================================= verbs
 # class: letters stripped for the present stem, present endings (6), past-stem strip,
@@ -300,6 +305,8 @@ v = ["""% rules/ru/verbs.lp
 % The past tense is the infinitive without -ть plus -л/-ла/-ло/-ли.
 % Past keys: "gender=...;number=singular;verb_form=past", "number=plural;verb_form=past".
 % Irregular verbs list all forms; "быть" has past, future and imperative.
+% Data: verbs.lexicon.tsv (verb_class per lemma), verbs.exceptions.tsv
+% (irregular verbs).
 %
 % Not covered: consonant alternations in regular classes (любить -> люблю is
 % listed), aspect pairs, participles and gerunds, reflexive -ся verbs.
@@ -319,26 +326,26 @@ for cls, (strip, pres, imp) in VERB_CLASSES.items():
     for number, end in zip(("singular", "plural"), imp):
         v.append(f'form(L, "number={number};verb_form=imperative", {head(strip, end)}) :- input_lemma(L), verb_class(L, {cls}).\n')
     v.append("\n")
-v.append("% --- class membership\n" + facts("verb_class", VERB_MEMBERS))
-v.append("""
-% --- быть: no present tense
-irregular("быть").
-form("быть", "gender=masculine;number=singular;verb_form=past", "был"). form("быть", "gender=feminine;number=singular;verb_form=past", "была").
-form("быть", "gender=neuter;number=singular;verb_form=past", "было"). form("быть", "number=plural;verb_form=past", "были").
-""")
-for (person, number), f in zip(PERSONS, "буду будешь будет будем будете будут".split()):
-    v.append(f'form("быть", "{pkey(person, number, "future")}", "{f}").\n')
-v.append('form("быть", "number=singular;verb_form=imperative", "будь"). form("быть", "number=plural;verb_form=imperative", "будьте").\n')
-v.append("\n% --- irregular verbs (all forms listed)\n")
+w(R / "verbs.lp", "".join(v).rstrip("\n") + "\n")
+write_table(D / "verbs.lexicon.tsv", ["lemma", "verb_class"],
+            [[lemma, cls] for lemma, cls in members(VERB_MEMBERS)])
+# быть: no present tense; past, future, imperative
+exc = [["быть", f"gender={g};number=singular;verb_form=past", f]
+       for (g, _), f in zip(PAST, ["был", "была", "было"])]
+exc.append(["быть", "number=plural;verb_form=past", "были"])
+exc += [["быть", pkey(p, nb, "future"), f]
+        for (p, nb), f in zip(PERSONS, "буду будешь будет будем будете будут".split())]
+exc += [["быть", "number=singular;verb_form=imperative", "будь"],
+        ["быть", "number=plural;verb_form=imperative", "будьте"]]
 for lemma, forms in IRREGULAR_VERBS.items():
     pres, past, imp = (p.split() for p in forms.split("|"))
-    v.append(f'irregular("{lemma}").\n')
-    v.append(" ".join(f'form("{lemma}", "{pkey(p, nb, "present")}", "{f}").' for (p, nb), f in zip(PERSONS, pres)) + "\n")
-    v.append(" ".join(f'form("{lemma}", "gender={g};number=singular;verb_form=past", "{f}").' for (g, _), f in zip(PAST, past[:3])))
-    v.append(f' form("{lemma}", "number=plural;verb_form=past", "{past[3]}").\n')
+    exc += [[lemma, pkey(p, nb, "present"), f] for (p, nb), f in zip(PERSONS, pres)]
+    exc += [[lemma, f"gender={g};number=singular;verb_form=past", f] for (g, _), f in zip(PAST, past[:3])]
+    exc.append([lemma, "number=plural;verb_form=past", past[3]])
     if imp != ["-"]:
-        v.append(f'form("{lemma}", "number=singular;verb_form=imperative", "{imp[0]}"). form("{lemma}", "number=plural;verb_form=imperative", "{imp[1]}").\n')
-w(R / "verbs.lp", "".join(v))
+        exc += [[lemma, "number=singular;verb_form=imperative", imp[0]],
+                [lemma, "number=plural;verb_form=imperative", imp[1]]]
+write_table(D / "verbs.exceptions.tsv", ["lemma", "features", "form"], exc)
 
 # ============================================================================= pronouns
 PRON = [
@@ -351,12 +358,12 @@ pr = ["""% rules/ru/pronouns.lp
 % Russian personal pronouns (features: case, number). The lemma is the
 % nominative. Third-person forms after prepositions take н- (к нему, с ней); the
 % prepositional case is always used with a preposition and is listed with н-.
-% Every form is listed.
-
+% Every form is listed in data/pronouns.exceptions.tsv; there are no rules.
 """]
-for lemma, number, forms in PRON:
-    pr.append(" ".join(f'form("{lemma}", "case={c};number={number}", "{f}").' for c, f in zip(CASES, forms.split())) + "\n")
 w(R / "pronouns.lp", "".join(pr))
+write_table(D / "pronouns.exceptions.tsv", ["lemma", "features", "form"],
+            [[lemma, f"case={c};number={number}", f]
+             for lemma, number, forms in PRON for c, f in zip(CASES, forms.split())])
 
 
 # ============================================================================= golden tests (typed separately)

@@ -1,0 +1,217 @@
+lemma: bahhkavum
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bahhkava
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: ahhkaft
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: bahhkavum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: ahhkaft
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: bahhkaxït
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: ahhkaft
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bahhkavit
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: ahhkaft
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bahhkavum
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: ahhkaft
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: bahhkavit
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: ahhkaft
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: bahhkavit
+- features:
+    verb_form: infinitive
+  expected: ahhkafr
+---
+lemma: brindar
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: brindar
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: brindàc
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: brindar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: brindar
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: brindar
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: brindar
+---
+lemma: bu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: bu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: bu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: bu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: bu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bu
+---
+lemma: debit
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: debùm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: débit
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: débit
+---
+lemma: em
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ei
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: et
+---
+lemma: ferito
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: feiferito
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: èferito

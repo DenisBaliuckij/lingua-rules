@@ -1,0 +1,319 @@
+lemma: amare
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: amaiamus
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: amemus
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: amamus
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: amaiazis
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: amezis
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: amades
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: amaiant
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: amezint
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: amant
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: amai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: amesi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: amo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: amaias
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: amesti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: amas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: amaia
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: amesit
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: amat
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: ameremus
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: amemus
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: amerezis
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: amedes
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: amerent
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: ament
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: amere
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: ame
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: ameres
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: ameret
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: amet
+---
+lemma: timere
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: timiamiis
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: timimus
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: timiazis
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: timides
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: timiant
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: timent
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: timia
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: time
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: times
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: timia
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: timet
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: timeremus
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: timamus
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: timerezis
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: timedas
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: timerent
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: timant
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: timere
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: tima
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: timeres
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: timas
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: timeret
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: timat

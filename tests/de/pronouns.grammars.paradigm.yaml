@@ -1,0 +1,240 @@
+# Paradigms from grammars in the DocumentCatalog (tools/grammar_rules/merge_existing.py)
+lemma: derselbe
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: dieselbe
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: denselb-en
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: dasselbe
+- features:
+    case: accusative
+    number: plural
+  expected: dieselb-en
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: derselben
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: demselb-en
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: demselb-en
+- features:
+    case: dative
+    number: plural
+  expected: denselb-en
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: derselben
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: desselb-en
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: desselb-en
+- features:
+    case: genitive
+    number: plural
+  expected: derselben
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: dieselbe
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: derselbe
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: dasselbe
+- features:
+    case: nominative
+    number: plural
+  expected: dieselb-en
+---
+lemma: dieser
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: diese
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: diesen
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: dieses
+- features:
+    case: accusative
+    number: plural
+  expected: diese
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: dieser
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: diesem
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: diesem
+- features:
+    case: dative
+    number: plural
+  expected: diesen
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: dieser
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: dieses
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: dieses
+- features:
+    case: genitive
+    number: plural
+  expected: dieser
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: diese
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: dieser
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: dieses
+- features:
+    case: nominative
+    number: plural
+  expected: diese
+---
+lemma: mein
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: meine
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: meinen
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: mein
+- features:
+    case: accusative
+    number: plural
+  expected: meine
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: meiner
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: meinem
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: meinem
+- features:
+    case: dative
+    number: plural
+  expected: meinen
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: meiner
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: meines
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: meines
+- features:
+    case: genitive
+    number: plural
+  expected: meiner
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: meine
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: mein
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: mein
+- features:
+    case: nominative
+    number: plural
+  expected: meine

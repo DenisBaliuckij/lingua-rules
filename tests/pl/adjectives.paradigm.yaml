@@ -1,0 +1,133 @@
+lemma: ma∏a
+category: adjectives
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: ma∏e
+- features:
+    case: accusative
+    number: singular
+  expected: ma∏à
+- features:
+    case: dative
+    number: plural
+  expected: ma∏ym
+- features:
+    case: dative
+    number: singular
+  expected: ma∏ej
+- features:
+    case: genitive
+    number: plural
+  expected: ma∏ych
+- features:
+    case: genitive
+    number: singular
+  expected: ma∏ej
+- features:
+    case: instrumental
+    number: plural
+  expected: ma∏ymi
+- features:
+    case: instrumental
+    number: singular
+  expected: ma∏à
+- features:
+    case: locative
+    number: plural
+  expected: ma∏ych
+- features:
+    case: locative
+    number: singular
+  expected: ma∏ej
+- features:
+    case: nominative
+    number: plural
+  expected: ma∏e
+- features:
+    case: nominative
+    number: singular
+  expected: ma∏a
+- features:
+    case: vocative
+    number: plural
+  expected: ma∏e
+- features:
+    case: vocative
+    number: singular
+  expected: ma∏a
+---
+lemma: żaden
+category: adjectives
+cases:
+- features:
+    animacy: animate
+    case: dative
+    number: plural
+  expected: żadnym
+- features:
+    animacy: animate
+    case: genitive
+    number: plural
+  expected: żadnych
+- features:
+    animacy: animate
+    case: instrumental
+    number: plural
+  expected: żadnymi
+- features:
+    animacy: animate
+    case: locative
+    number: plural
+  expected: żadnych
+- features:
+    animacy: animate
+    case: nominative
+    number: plural
+  expected: żadni
+- features:
+    animacy: inanimate
+    case: dative
+    number: plural
+  expected: żadnym
+- features:
+    animacy: inanimate
+    case: genitive
+    number: plural
+  expected: żadnych
+- features:
+    animacy: inanimate
+    case: instrumental
+    number: plural
+  expected: żadnymi
+- features:
+    animacy: inanimate
+    case: locative
+    number: plural
+  expected: żadnych
+- features:
+    animacy: inanimate
+    case: nominative
+    number: plural
+  expected: żadne
+- features:
+    case: dative
+    number: singular
+  expected: żadnemu
+- features:
+    case: genitive
+    number: singular
+  expected: żadnego
+- features:
+    case: instrumental
+    number: singular
+  expected: żadnym
+- features:
+    case: locative
+    number: singular
+  expected: żadnym
+- features:
+    case: nominative
+    number: singular
+  expected: żaden
