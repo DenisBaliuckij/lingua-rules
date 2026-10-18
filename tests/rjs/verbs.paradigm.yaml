@@ -1,0 +1,205 @@
+lemma: ja
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: jaʌ
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ja∅
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: jai
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: jan
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: jaok
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: jau
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: jais
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: jaok
+---
+lemma: किह- kʌh
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kʌh-isn-ʌ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kʌh-isl-ʌn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kʌh-isl-ɪ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kʌh-isn-u
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kʌh-isl
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kʌh-isl-ɪ
+---
+lemma: खा kʰa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kʰa-ʌ
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kʰa-∅
+---
+lemma: खा- kʰa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kʰa-isn-ʌ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kʰa-isl-ʌn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kʰa-isl-ɪ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kʰa-isn-u
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kʰa-isl
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kʰa-isl-ɪ
+---
+lemma: ठु- ṭʰuk
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ṭʰuk-isin-kʌ-n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ṭʰuk-isli-ki-rʌ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ṭʰuk-islʌ-kʌn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ṭʰuk-isin-ku-n
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ṭʰuk-isli-ki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ṭʰuk-islu-ku
+---
+lemma: बठ् bʌṭʰ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bʌṭʰ-ʌ
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bʌṭʰ-∅
+---
+lemma: स ठ sʌmṭʰ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: sʌmṭʰ-ʌ
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: sʌmṭʰ-ek

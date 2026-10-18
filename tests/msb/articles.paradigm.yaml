@@ -1,0 +1,131 @@
+lemma: '`an'
+category: articles
+cases:
+- features:
+    case: absolutive
+    definiteness: definite
+  expected: '`an'
+- features:
+    case: ergative
+    definiteness: definite
+  expected: san
+- features:
+    case: genitive
+    definiteness: definite
+  expected: san
+- features:
+    case: oblique
+    definiteness: definite
+  expected: sa
+---
+lemma: an
+category: articles
+cases:
+- features:
+    case: absolutive
+    definiteness: definite
+  expected: an
+- features:
+    case: ergative
+    definiteness: definite
+  expected: san
+- features:
+    case: genitive
+    definiteness: definite
+  expected: san
+- features:
+    case: oblique
+    definiteness: definite
+  expected: sa
+---
+lemma: si
+category: articles
+cases:
+- features:
+    case: absolutive
+    number: plural
+    person: third
+  expected: sinda
+- features:
+    case: absolutive
+    number: singular
+  expected: si
+- features:
+    case: absolutive
+    number: singular
+    person: third
+  expected: si
+- features:
+    case: ergative
+    number: plural
+    person: third
+  expected: ninda
+- features:
+    case: ergative
+    number: singular
+  expected: ni
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: ni
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: ninda
+- features:
+    case: genitive
+    number: singular
+  expected: ni
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: ni
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: kanda
+- features:
+    case: oblique
+    number: singular
+  expected: kan
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: kan
+---
+lemma: sin
+category: articles
+cases:
+- features:
+    case: genitive
+    definiteness: indefinite
+  expected: sin
+- features:
+    case: oblique
+    definiteness: indefinite
+  expected: sin
+---
+lemma: sinda
+category: articles
+cases:
+- features:
+    case: absolutive
+    number: plural
+  expected: sinda
+- features:
+    case: ergative
+    number: plural
+  expected: ninda
+- features:
+    case: genitive
+    number: plural
+  expected: ninda
+- features:
+    case: oblique
+    number: plural
+  expected: kanda

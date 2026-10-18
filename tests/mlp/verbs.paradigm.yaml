@@ -1,0 +1,183 @@
+lemma: bol
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+    person: first
+    tense: past
+  expected: bol-y-au
+- features:
+    aspect: imperfective
+    number: plural
+    person: third
+    tense: past
+  expected: bol-y-a
+- features:
+    aspect: imperfective
+    number: singular
+    person: first
+    tense: past
+  expected: bol-y-ai
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+    tense: past
+  expected: bol-y-a
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+    tense: past
+  expected: bol
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+    tense: past
+  expected: boliy
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+    tense: past
+  expected: bol
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+    tense: past
+  expected: bol
+- features:
+    number: plural
+    person: first
+    tense: future
+  expected: bolam
+- features:
+    number: plural
+    person: first
+    tense: present
+  expected: bolau
+- features:
+    number: plural
+    person: third
+    tense: future
+  expected: bol-d-a
+- features:
+    number: plural
+    person: third
+    tense: present
+  expected: bolay
+- features:
+    number: singular
+    person: first
+    tense: future
+  expected: bol-d-ai
+- features:
+    number: singular
+    person: first
+    tense: present
+  expected: bolai
+- features:
+    number: singular
+    person: third
+    tense: future
+  expected: bol-d-a
+- features:
+    number: singular
+    person: third
+    tense: present
+  expected: bola
+---
+lemma: ne
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+    person: first
+    tense: past
+  expected: ne
+- features:
+    aspect: imperfective
+    number: plural
+    person: third
+    tense: past
+  expected: ne
+- features:
+    aspect: imperfective
+    number: singular
+    person: first
+    tense: past
+  expected: ne
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+    tense: past
+  expected: ne
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+    tense: past
+  expected: new
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+    tense: past
+  expected: ne
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+    tense: past
+  expected: ney
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+    tense: past
+  expected: na-m
+- features:
+    number: plural
+    person: first
+    tense: future
+  expected: ne
+- features:
+    number: plural
+    person: first
+    tense: present
+  expected: ne
+- features:
+    number: plural
+    person: third
+    tense: future
+  expected: ne
+- features:
+    number: plural
+    person: third
+    tense: present
+  expected: ne
+- features:
+    number: singular
+    person: first
+    tense: future
+  expected: ne
+- features:
+    number: singular
+    person: first
+    tense: present
+  expected: ne
+- features:
+    number: singular
+    person: third
+    tense: future
+  expected: ne
+- features:
+    number: singular
+    person: third
+    tense: present
+  expected: ne

@@ -1,0 +1,130 @@
+lemma: ix
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: uns
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: aix
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: si
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: mix
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: dix
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: in
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: uns
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: aix
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: ina
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: mir
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: dir
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: im
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: mir
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: dir
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: si
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: iX
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: du
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ar
+---
+lemma: selar
+category: pronouns
+cases:
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: selam
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: seldm
+- features:
+    case: dative
+    number: plural
+  expected: seid
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: seli
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: selar
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: sei
+- features:
+    case: nominative
+    number: plural
+  expected: seli

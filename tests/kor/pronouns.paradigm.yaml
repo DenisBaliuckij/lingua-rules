@@ -1,0 +1,69 @@
+lemma: amu
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: amu
+---
+lemma: nI
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: nI
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: uri
+- features:
+    number: singular
+    person: first
+  expected: na
+---
+lemma: ni
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: nihi
+- features:
+    number: singular
+    person: second
+  expected: ni
+---
+lemma: nugu
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: nugu
+---
+lemma: uri
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: uri
+---
+lemma: 네 ne
+category: pronouns
+cases:
+- features:
+    formality: informal
+    number: plural
+    person: second
+  expected: neohui
+- features:
+    formality: informal
+    number: singular
+    person: second
+  expected: ne

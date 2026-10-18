@@ -1,0 +1,171 @@
+lemma: a
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ja'a
+- features:
+    number: plural
+    person: second
+  expected: pe'a
+- features:
+    number: singular
+    person: first
+  expected: ha'a
+- features:
+    number: singular
+    person: second
+  expected: re'a
+- features:
+    person: third
+  expected: ho'a
+---
+lemma: e
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ja'e
+- features:
+    number: plural
+    person: second
+  expected: peje
+- features:
+    number: singular
+    person: first
+  expected: ha'e
+- features:
+    number: singular
+    person: second
+  expected: ere
+- features:
+    person: third
+  expected: he'i
+---
+lemma: ha'e
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: peje
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ere
+---
+lemma: ho
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: jaha
+- features:
+    number: plural
+    person: second
+  expected: peho
+- features:
+    number: singular
+    person: first
+  expected: aha
+- features:
+    number: singular
+    person: second
+  expected: reho
+- features:
+    person: third
+  expected: oho
+---
+lemma: ju
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: jaju
+- features:
+    number: plural
+    person: second
+  expected: peju
+- features:
+    number: singular
+    person: first
+  expected: aju
+- features:
+    number: singular
+    person: second
+  expected: reju
+---
+lemma: u
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ja'u
+- features:
+    number: plural
+    person: second
+  expected: pe'u
+- features:
+    number: singular
+    person: first
+  expected: ha'u
+- features:
+    number: singular
+    person: second
+  expected: re'u
+- features:
+    person: third
+  expected: ho'u
+---
+lemma: y'u
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: jay'u
+- features:
+    number: plural
+    person: second
+  expected: pey'u
+- features:
+    number: singular
+    person: first
+  expected: hay'u
+- features:
+    number: singular
+    person: second
+  expected: rey'u
+- features:
+    person: third
+  expected: hoy'u
+---
+lemma: yta
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ja'yta
+- features:
+    number: plural
+    person: second
+  expected: pe'yta
+- features:
+    number: singular
+    person: first
+  expected: ha'yta
+- features:
+    number: singular
+    person: second
+  expected: re'yta
+- features:
+    person: third
+  expected: ho'yta

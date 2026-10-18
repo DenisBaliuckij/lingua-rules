@@ -1,0 +1,51 @@
+lemma: maxa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: maxt
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: max
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: armaxt
+- features:
+    verb_form: infinitive
+  expected: maxa
+- features:
+    verb_form: past_participle
+  expected: gamaxt
+---
+lemma: nema
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: nemt
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: nem
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: armaxt
+- features:
+    verb_form: infinitive
+  expected: nema
+- features:
+    verb_form: past_participle
+  expected: ganuma

@@ -1,0 +1,89 @@
+lemma: dar
+category: articles
+cases:
+- features:
+    case: dative
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: ddr
+- features:
+    case: dative
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: dm
+- features:
+    case: dative
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: dm
+- features:
+    case: dative
+    definiteness: definite
+    number: plural
+  expected: da
+- features:
+    case: nominative
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: di
+- features:
+    case: nominative
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: dar
+- features:
+    case: nominative
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: as
+- features:
+    case: nominative
+    definiteness: definite
+    number: plural
+  expected: di
+---
+lemma: dn
+category: articles
+cases:
+- features:
+    case: dative
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+  expected: ra
+- features:
+    case: dative
+    definiteness: indefinite
+    gender: masculine
+    number: singular
+  expected: ma
+- features:
+    case: dative
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: md
+- features:
+    case: nominative
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+  expected: an
+- features:
+    case: nominative
+    definiteness: indefinite
+    gender: masculine
+    number: singular
+  expected: dn
+- features:
+    case: nominative
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: dn

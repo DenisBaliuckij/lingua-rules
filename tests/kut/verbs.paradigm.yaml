@@ -1,0 +1,297 @@
+lemma: axe
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    mood: imperative
+    number: singular
+  expected: atn
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: plural
+    person: first
+  expected: axataante
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: plural
+    person: second
+  expected: atlhne
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: singular
+    person: third
+  expected: axe
+- features:
+    evidentiality: direct
+    number: singular
+    verb_form: participle
+  expected: ame-a
+- features:
+    evidentiality: direct
+    verb_form: infinitive
+  expected: axamne
+- features:
+    mood: imperative
+    number: plural
+  expected: anWA'Ikeit
+- features:
+    mood: imperative
+    number: singular
+  expected: an
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: axalaV'suie
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: amiln't'ine
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: ase
+- features:
+    number: singular
+    verb_form: participle
+  expected: aitieit
+---
+lemma: e-k
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    mood: imperative
+    number: singular
+  expected: am
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: plural
+    person: first
+  expected: yaalane
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: plural
+    person: second
+  expected: tktlIne
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: singular
+    person: third
+  expected: e
+- features:
+    evidentiality: direct
+    verb_form: infinitive
+  expected: iyamii
+- features:
+    mood: imperative
+    number: singular
+  expected: imtie-n
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: yataV'snze
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: imttkt'tne
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: ek
+---
+lemma: ki
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    mood: imperative
+    number: singular
+  expected: ke-n
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: plural
+    person: first
+  expected: kiyafaTne
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: plural
+    person: second
+  expected: kikt'ne
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: singular
+    person: third
+  expected: keiine
+- features:
+    evidentiality: direct
+    verb_form: infinitive
+  expected: kiyamne
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: kiikse
+---
+lemma: qa
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    mood: imperative
+    number: plural
+  expected: qapkeit
+- features:
+    evidentiality: direct
+    mood: imperative
+    number: singular
+  expected: qanit
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: plural
+    person: first
+  expected: qwaata'tie
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: plural
+    person: second
+  expected: qapktine
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: singular
+    person: third
+  expected: qane
+- features:
+    evidentiality: direct
+    number: singular
+    verb_form: participle
+  expected: qa
+- features:
+    evidentiality: direct
+    verb_form: infinitive
+  expected: qutmne
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: qapse
+- features:
+    verb_form: infinitive
+  expected: qitnmtsnie
+---
+lemma: qanatz
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    mood: imperative
+    number: plural
+  expected: qanapkeil
+- features:
+    evidentiality: direct
+    mood: imperative
+    number: singular
+  expected: qaniapmtlen
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: plural
+    person: first
+  expected: qananala-'ne
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: plural
+    person: second
+  expected: qanapkttne
+- features:
+    evidentiality: direct
+    number: singular
+    verb_form: participle
+  expected: qana
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: qanabse
+---
+lemma: ukomnni
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: u-komnni-nalla-ni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: n-komnni-kil-ni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: komnini
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: u-ts--komni-ni
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: iu-komnni-ni
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ul-sil-komni-ni
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: n-komni-ni
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: komnini
+---
+lemma: utsukwati
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ku-n-tsukwati
+- features:
+    number: singular
+    person: third
+  expected: ki-ni-tsutkwati

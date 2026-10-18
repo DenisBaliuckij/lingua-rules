@@ -1,0 +1,54 @@
+lemma: a
+category: articles
+cases:
+- features:
+    definiteness: definite
+  expected: a
+---
+lemma: rufei
+category: articles
+cases:
+- features:
+    definiteness: definite
+  expected: takafei
+- features:
+    definiteness: definite
+    number: dual
+  expected: rufei
+- features:
+    definiteness: definite
+    number: plural
+  expected: agafei
+---
+lemma: sa
+category: articles
+cases:
+- features:
+    definiteness: indefinite
+  expected: sa
+---
+lemma: si
+category: articles
+cases:
+- features:
+    definiteness: indefinite
+  expected: si
+---
+lemma: ta
+category: articles
+cases:
+- features:
+    definiteness: definite
+  expected: taka
+- features:
+    definiteness: definite
+    number: dual
+  expected: ru
+- features:
+    definiteness: definite
+    number: plural
+  expected: a
+- features:
+    definiteness: definite
+    number: singular
+  expected: ta

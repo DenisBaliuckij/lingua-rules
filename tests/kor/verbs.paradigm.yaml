@@ -1,0 +1,228 @@
+lemma: ittih-ta
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: ittae-to
+- features:
+    aspect: perfective
+    tense: present
+  expected: ittih-ta
+- features:
+    formality: formal
+    tense: past
+  expected: ittae-si
+- features:
+    formality: formal
+    tense: present
+  expected: ittae-yo
+- features:
+    verb_form: converb
+  expected: ittih-ko
+---
+lemma: ppalkah-ta
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: a-to
+- features:
+    aspect: perfective
+    tense: present
+  expected: ppalkah-ta
+- features:
+    formality: formal
+    tense: past
+  expected: ppalk-asi
+- features:
+    formality: formal
+    tense: present
+  expected: ppalkae-yo
+- features:
+    verb_form: converb
+  expected: ppalkah-ko
+---
+lemma: toe-ta
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: toae-to
+- features:
+    aspect: perfective
+    tense: present
+  expected: toe-ta
+- features:
+    formality: formal
+    tense: past
+  expected: toae-si
+- features:
+    formality: formal
+    tense: present
+  expected: toae-yo
+- features:
+    verb_form: converb
+  expected: toe-ko
+---
+lemma: 깔다
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: kal-ta
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: kal-ko
+- features:
+    formality: formal
+    mood: imperative
+    number: singular
+    person: second
+  expected: ka-seyo
+- features:
+    formality: formal
+    mood: indicative
+    tense: present
+  expected: kal-ayo
+- features:
+    formality: informal
+    mood: imperative
+    number: singular
+    person: second
+  expected: ka-ne
+- features:
+    verb_form: verbal_noun
+  expected: kan
+---
+lemma: 놀다
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: nol-ta
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: nol-ko
+- features:
+    formality: formal
+    mood: imperative
+    number: singular
+    person: second
+  expected: no-seyo
+- features:
+    formality: formal
+    mood: indicative
+    tense: present
+  expected: nol-ayo
+- features:
+    formality: informal
+    mood: imperative
+    number: singular
+    person: second
+  expected: no-ne
+- features:
+    verb_form: verbal_noun
+  expected: non
+---
+lemma: 살다
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: sal-ta
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: sal-ko
+- features:
+    formality: formal
+    mood: imperative
+    number: singular
+    person: second
+  expected: sa-seyo
+- features:
+    formality: formal
+    mood: indicative
+    tense: present
+  expected: sal-ayo
+- features:
+    formality: informal
+    mood: imperative
+    number: singular
+    person: second
+  expected: sa-ne
+- features:
+    verb_form: verbal_noun
+  expected: san
+---
+lemma: 알다
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: al-ta
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: al-ko
+- features:
+    formality: formal
+    mood: imperative
+    number: singular
+    person: second
+  expected: a-seyo
+- features:
+    formality: formal
+    mood: indicative
+    tense: present
+  expected: al-ayo
+- features:
+    formality: informal
+    mood: imperative
+    number: singular
+    person: second
+  expected: a-ne
+- features:
+    verb_form: verbal_noun
+  expected: an
+---
+lemma: 울다
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: ul-ta
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: ul-ko
+- features:
+    formality: formal
+    mood: imperative
+    number: singular
+    person: second
+  expected: u-seyo
+- features:
+    formality: formal
+    mood: indicative
+    tense: present
+  expected: ul-iyo
+- features:
+    formality: informal
+    mood: imperative
+    number: singular
+    person: second
+  expected: u-ne
+- features:
+    verb_form: verbal_noun
+  expected: un

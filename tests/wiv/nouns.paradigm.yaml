@@ -1,0 +1,218 @@
+lemma: banit
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: banit-i-dia
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: banit-i-gu
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: baniti
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: banita
+- features:
+    possessor_person: first
+  expected: banit-i-miro
+---
+lemma: go
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: godia
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: gogu
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: go
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: gona
+- features:
+    possessor_person: first
+  expected: gomiro
+---
+lemma: hanunuk
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: hanunuk-u-dia
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: hanunuk-u-gu
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: hanunuku
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: hanunuka
+- features:
+    possessor_person: first
+  expected: hanunuk-u-miro
+---
+lemma: kabe
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: kabedia
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: kabegu
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: kabee
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: kabena
+- features:
+    possessor_person: first
+  expected: kabemiro
+---
+lemma: lohor
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: lohor
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: lohor
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: lohor
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: lohora
+- features:
+    possessor_person: first
+  expected: lohor
+---
+lemma: talinga
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: talingadia
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: talingagu
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: talingaa
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: talingana
+- features:
+    possessor_person: first
+  expected: talingamiro
+---
+lemma: tama
+category: nouns
+cases:
+- features:
+    number: dual
+    person: first
+    tense: present
+  expected: tamamiro
+- features:
+    number: plural
+    person: first
+  expected: tamadolu
+- features:
+    number: plural
+    person: third
+  expected: tamahiro
+- features:
+    number: singular
+    person: first
+  expected: tamagu
+- features:
+    number: singular
+    person: second
+  expected: ka-mama
+- features:
+    number: singular
+    person: third
+  expected: tamana
+---
+lemma: titina
+category: nouns
+cases:
+- features:
+    number: dual
+    person: first
+    tense: present
+  expected: titinamiro
+- features:
+    number: plural
+    person: first
+  expected: titinadolu
+- features:
+    number: plural
+    person: third
+  expected: titinahiro
+- features:
+    number: singular
+    person: first
+  expected: titinagu
+- features:
+    number: singular
+    person: second
+  expected: ka-titi
+- features:
+    number: singular
+    person: third
+  expected: titinana
+---
+lemma: tutur
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: tutur-u-dia
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: tutur-u-gu
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: tuturu
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: tutura
+- features:
+    possessor_person: first
+  expected: tutur-u-miro

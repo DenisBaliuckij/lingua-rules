@@ -1,0 +1,77 @@
+lemma: axwe-sh
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: ax-we-sh-m-i
+- features:
+    case: accusative
+    number: singular
+  expected: ax-we-ch-i
+- features:
+    number: plural
+  expected: ax-we-chi-m
+- features:
+    number: singular
+  expected: ax-we-sh
+---
+lemma: e-t
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: e-t-im-i
+- features:
+    case: accusative
+    number: singular
+  expected: e-t-i
+- features:
+    number: plural
+  expected: e-t-im
+- features:
+    number: singular
+  expected: e-t
+---
+lemma: hax
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: haxi-y
+- features:
+    number: plural
+  expected: haxim
+- features:
+    number: singular
+  expected: hax
+---
+lemma: hi-sh
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: hi-chi-m
+- features:
+    number: singular
+  expected: hi-sh
+---
+lemma: i’i
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: ivi-m-i
+- features:
+    case: accusative
+    number: singular
+  expected: ivi-y
+- features:
+    number: plural
+  expected: ivi-m
+- features:
+    number: singular
+  expected: i’i
