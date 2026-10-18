@@ -1,0 +1,90 @@
+lemma: coridsa
+category: nouns
+cases:
+- features:
+    definiteness: definite
+    gender: feminine
+  expected: coridsapi
+- features:
+    gender: feminine
+  expected: coridsa
+---
+lemma: huajara
+category: nouns
+cases:
+- features:
+    definiteness: definite
+    gender: masculine
+  expected: huajarapa
+- features:
+    gender: masculine
+  expected: huajara
+---
+lemma: nocco
+category: nouns
+cases:
+- features:
+    gender: masculine
+    possessor_number: singular
+    possessor_person: third
+  expected: nocco
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: onocco
+---
+lemma: poho
+category: nouns
+cases:
+- features:
+    definiteness: definite
+    gender: masculine
+  expected: pohopa
+- features:
+    gender: masculine
+  expected: poho
+---
+lemma: son
+category: nouns
+cases:
+- features:
+    case: vocative
+  expected: ato
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ehedeni
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: ehedeni
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: bedi
+---
+lemma: zepe
+category: nouns
+cases:
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: zepedeni
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: zepe
+- features:
+    number: dual
+    person: first
+  expected: izepe
+- features:
+    number: dual
+    person: second
+  expected: ti-zepe-deni
+- features:
+    number: singular
+    person: second
+  expected: tizepe

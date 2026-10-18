@@ -1,0 +1,754 @@
+lemma: ?er-A
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: ?erattisin
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: ?erin
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: ?erasidde
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: ?erin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: ?erattinin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: ?erin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: ?eraytidde
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: ?erin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: ?erattusin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: ?erin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: ?eratidde
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: ?erin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: ?erande
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: ?erin
+---
+lemma: ?§.c
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: ?§.c
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: ?§.c
+---
+lemma: boor-A
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: boora
+- features:
+    polarity: affirmative
+    tense: perfect
+  expected: boorl
+---
+lemma: bring
+category: verbs
+cases:
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: ?eew
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: perfect
+  expected: '?'
+- features:
+    mood: indicative
+    polarity: negative
+    tense: perfect
+  expected: zeewacc
+---
+lemma: bu?-utt
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: bu?utto
+- features:
+    polarity: affirmative
+    tense: perfect
+  expected: bu?utti
+---
+lemma: bug-O
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: bug
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: bugf-ba?a
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: bugf-ba?a
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: bu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: bugf-ba?a
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: bugf-ba?a
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: bugf-ba?a
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: bugf-ba?a
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: bugf-ba?a
+---
+lemma: buge
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: bug§.ass
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: buge
+- features:
+    tense: future
+    verb_form: converb
+  expected: bugendess
+---
+lemma: c'ade
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: c'ad
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: c'ade
+- features:
+    tense: future
+    verb_form: converb
+  expected: c'addendess
+---
+lemma: come
+category: verbs
+cases:
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: yewendes
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: imperfect
+  expected: yewaas
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: perfect
+  expected: yeeddes
+---
+lemma: eat
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: perfect
+  expected: muudi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: miya
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: miyendes
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: imperfect
+  expected: miyaas
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: perfect
+  expected: muuddes
+---
+lemma: gaac
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: gaac
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: gaac
+- features:
+    tense: future
+    verb_form: converb
+  expected: gaac'c
+---
+lemma: gel-A
+category: verbs
+cases:
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: gelendes
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: imperfect
+  expected: gelaas
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: perfect
+  expected: gelfis
+- features:
+    mood: indicative
+    polarity: negative
+    tense: imperfect
+  expected: gelacc
+---
+lemma: go
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: imperfect
+  expected: ham-aan
+- features:
+    aspect: imperfective
+    tense: imperfect
+    voice: passive
+  expected: hamaatet-e-n
+- features:
+    aspect: perfective
+    tense: perfect
+  expected: ham-in
+- features:
+    aspect: perfective
+    tense: perfect
+    voice: passive
+  expected: hamattet-i-n
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: hamm
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: imperfect
+  expected: hamaas
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: perfect
+  expected: hagfis
+- features:
+    mood: indicative
+    polarity: negative
+    tense: perfect
+  expected: hamacc
+- features:
+    tense: future
+  expected: hamm-en
+- features:
+    tense: future
+    voice: passive
+  expected: hamattet-e-n
+---
+lemma: ham-A
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: hamaysidde
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: hamin
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: hamin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: hamattinin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: hamin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: hamattitin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: hamin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: hamattusin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: hamin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: hamatidde
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: hamin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: hamande
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: hamin
+---
+lemma: hame
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: hamaass
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: hame
+- features:
+    tense: future
+    verb_form: converb
+  expected: hammendess
+---
+lemma: hear
+category: verbs
+cases:
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: siyendes
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: imperfect
+  expected: sfyaas
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: perfect
+  expected: siiddes
+---
+lemma: mlye
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: mly
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: mlye
+---
+lemma: mokkor-A
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: mokk
+- features:
+    polarity: affirmative
+    tense: perfect
+  expected: mokkori
+---
+lemma: sag-A
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: imperfect
+  expected: sagaat-is-en
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: saga-s-idde
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: imperfect
+  expected: sagaate-s-en
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: saga-s-idde
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: imperfect
+  expected: sagaat-in-en
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: imperfect
+  expected: sagaat-it-en
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: imperfect
+  expected: sagaat-us-en
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: imperfect
+  expected: sagaate-t-en
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: saga-t-idde
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: imperfect
+  expected: sagaate-n-en
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: saga-n-de
+---
+lemma: say
+category: verbs
+cases:
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: yfyyendes
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: imperfect
+  expected: yfyyaas
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: perfect
+  expected: yiddes
+---
+lemma: slye
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: slye
+- features:
+    tense: future
+    verb_form: converb
+  expected: sfyendess
+---
+lemma: take
+category: verbs
+cases:
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: ?epp
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: imperfect
+  expected: ?epaas
+- features:
+    mood: indicative
+    polarity: negative
+    tense: perfect
+  expected: ?epacc
+---
+lemma: wod'-A
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: wod'a
+- features:
+    polarity: affirmative
+    tense: perfect
+  expected: wod'l
+---
+lemma: yewe
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: yewaass
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: yewe
+- features:
+    tense: future
+    verb_form: converb
+  expected: yewendess
+---
+lemma: yfsse
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: yfsse
+- features:
+    tense: future
+    verb_form: converb
+  expected: yfssendess
+---
+lemma: ylyye
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: ylyyaass
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: ylyye
+- features:
+    tense: future
+    verb_form: converb
+  expected: yfyyendess

@@ -1,0 +1,785 @@
+lemma: gik
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: giku
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: gik
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+  expected: ogik
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: ögiku
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: igikwunu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: ogiVogiki
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: ägik
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: igiVigiki
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: ogik
+---
+lemma: gikko
+category: verbs
+cases:
+- features:
+    animacy: animate
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: igikö
+- features:
+    animacy: animate
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: egikö
+- features:
+    animacy: animate
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: igikko
+- features:
+    animacy: animate
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: egikkö
+- features:
+    animacy: animate
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: igik
+- features:
+    animacy: animate
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: egik
+- features:
+    aspect: habitual
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: ogiko
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ogiko
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: igikowunu
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ogiko
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: gikö
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: agiko
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: ogikko
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ogikko
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ogikko
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ägikko
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: igikko
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ägikko
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: giku
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: gik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: igikö
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+  expected: ögik
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: ögiku
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: igikwunu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: ögik
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: ägik
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: igik
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: ögik
+---
+lemma: kello
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kellxwa
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kelliwu
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kelligi
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kel'li
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kel'le
+---
+lemma: kwan
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ikwanowunu
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: okwano
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: äkwanö
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ikwäno
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kwänö
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ikwanowunu
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: okwano
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: akwano
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ikwanö
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: okwano
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ikwännowünu
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: okwanno
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: akwanno
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ikwanno
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: akwanno
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kwanu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kwän
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: ikwanwunu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: okwän
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: akwan
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: ikwan
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: okwän
+---
+lemma: kwän
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    number: plural
+    person: second
+  expected: ikwänwunu
+- features:
+    aspect: habitual
+    number: plural
+    person: third
+  expected: ökwään
+- features:
+    aspect: habitual
+    number: singular
+    person: first
+  expected: äkwään
+- features:
+    aspect: habitual
+    number: singular
+    person: second
+  expected: ikwään
+- features:
+    aspect: habitual
+    number: singular
+    person: third
+  expected: kwään
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+  expected: okwän
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+  expected: ikwänwunu
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: okwän
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: äkwän
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: ikwän
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: ökwän
+- features:
+    aspect: progressive
+    number: plural
+    person: second
+  expected: i'kwänwiinu
+- features:
+    aspect: progressive
+    number: plural
+    person: third
+  expected: i'kwän
+- features:
+    aspect: progressive
+    number: singular
+    person: first
+  expected: ä'kwän
+- features:
+    aspect: progressive
+    number: singular
+    person: second
+  expected: i'kwän
+- features:
+    aspect: progressive
+    number: singular
+    person: third
+  expected: äkwän
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kwanu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kwän
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+  expected: okwän
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: okwanu
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: ikwänwunu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: okwän
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: äkwän
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: ikwän
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: okwän
+---
+lemma: ne'na
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: neno'wa
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nenowunu
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: neno'gi
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ne'na
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ne'ni
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ne'ne
+---
+lemma: onena
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: önenowä
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: önenöwünu
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: onenogi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: onena
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: oneni
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: önene
+---
+lemma: teddo
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: teddxwa
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: teddiwu
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: teddigi
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ted'da
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ted'di
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ted'de
+---
+lemma: too
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tooyiwa
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tooyiwu
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: tooyxgi
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: too'ya
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: too'yi
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: too'ye
+---
+lemma: änennä
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: änennöwä
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: anennowunu
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: änennögi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: änennä
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: änenni
+---
+lemma: ön£nä
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: önenwä
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: ön£nä
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: öneni

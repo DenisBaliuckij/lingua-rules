@@ -1,0 +1,748 @@
+lemma: beej
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: beeja
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: beej
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: beej
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-beej-t-u
+---
+lemma: dalag
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: dalaga
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: dalag
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: dalag
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-dalag-t-u
+---
+lemma: dareer
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: dareer
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-dareer-t-u
+---
+lemma: dawaar
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: dawaara
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: dawaar
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: dawaar
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-dawaar-t-u
+---
+lemma: faɗis
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: faɗis
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-faɗis-t-u
+---
+lemma: gad
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: gad
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-gad-t-u
+---
+lemma: gadad
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+  expected: gadada-n-aj
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+  expected: gadada-en
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: gadad-Ø-en
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: gadad-Ø-aj
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: gadada-aj
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: gadad-Ø-aj
+---
+lemma: giʃ
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+  expected: giʃ-n-ej
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+  expected: giʃ-t-e-n
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: giʃ-ø-e-n
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: giʃ-Ø-ej
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: giʃ-t-ej
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: giʃ-Ø-ej
+---
+lemma: katab
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kataba
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: katab
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: katab
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-katab-t-u
+---
+lemma: koj
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: koja
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: koj
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: koj
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-koj-t-u
+---
+lemma: koot
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: koota
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: koot
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: koot
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-koo-t-u
+---
+lemma: k’aad
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: k’aada
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: k’aad
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: k’aad
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-k’aad-t-u
+---
+lemma: k’abu
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: k’abu-t-ej
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: k’abu-w-ej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: k’abu-n-ej
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: k’abu-t-e-n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: k’abu-w-e-n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: k’abu-w-ej
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: k’abu-t-ej
+---
+lemma: leeʃ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: leeʃa
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: leeʃ
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: leeʃ
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-leeʃ-t-u
+---
+lemma: nag
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: naga
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: nag
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: nag
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-nag-t-u
+---
+lemma: rig
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: riig-a
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: rig
+---
+lemma: riig
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: riig
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-riig-t-u
+---
+lemma: roor
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+  expected: roor-n-ej
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+  expected: roor-t-e-n
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: roor-Ø-e-n
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: roor-Ø-ej
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: roor-t-ej
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: roor-Ø-ej
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: roor-t-ej
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: roor-t-i
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: roor-Ø-ej
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: roor-Ø-i
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: roora
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: roor
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: roor
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-roor-t-u
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: roor-n-ej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: roor-n-i
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: roor-t-e-n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: roor-t-an
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: roor-Ø-e-n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: roor-Ø-an
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: roor-Ø-ej
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: roor-Ø-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: roor-t-ej
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: roor-t-i
+---
+lemma: tab
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: sa-tab-t-u
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: sa-tab-Ø
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: taba
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tab
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: tab
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-tab-t-u
+- features:
+    number: plural
+    person: first
+  expected: sa-tab-n-i
+- features:
+    number: plural
+    person: third
+  expected: sa-tab-Ø-a-n
+- features:
+    number: singular
+    person: first
+  expected: sa-tab-Ø-i
+---
+lemma: un
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: sa-un-t-u
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: una
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: un
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: un
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-un-t-u
+- features:
+    number: plural
+    person: first
+  expected: sa-un-n-i
+- features:
+    number: plural
+    person: third
+  expected: sa-un-Ø-a-n
+- features:
+    number: singular
+    person: first
+  expected: sa-un-Ø-i
+---
+lemma: ɗaaf
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ɗaafa
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ɗaaf
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: ɗaaf
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-ɗaaf-t-u
+---
+lemma: ɗikis
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ɗikisa
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ɗikis
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: ɗikis
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: an-ɗikis-t-u
+---
+lemma: ɗunkus
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+  expected: ɗunkus-n-ej
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+  expected: ɗunkus-t-e-n
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: ɗunkus-Ø-e-n
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: ɗunkus-Ø-ej
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: ɗunkus-t-ej
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: ɗunkus-Ø-ej

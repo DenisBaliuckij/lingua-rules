@@ -1,0 +1,105 @@
+lemma: bari
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: past
+  expected: baribulu
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: baribuna
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: baribuiiga
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: baribuba
+- features:
+    number: dual
+    person: third
+  expected: baribuli
+---
+lemma: pumpa
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+    voice: active
+  expected: pumpangkuapa
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+    voice: active
+  expected: pumpangkumpa
+---
+lemma: thayi-la
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+    polarity: affirmative
+    voice: active
+  expected: thayilangkuali
+- features:
+    number: dual
+    person: second
+    polarity: affirmative
+    voice: active
+  expected: thayilangkupa
+- features:
+    number: dual
+    person: third
+    polarity: affirmative
+    voice: active
+  expected: thayilangkuathulu
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+    voice: active
+  expected: thayilangkuna
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+    voice: active
+  expected: thayilangkurta
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+    voice: active
+  expected: thayilangkuka
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+    voice: active
+  expected: thayilangkuathu
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+    voice: active
+  expected: thayilangkuntu
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+    voice: active
+  expected: thayilangkuathu

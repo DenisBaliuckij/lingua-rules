@@ -1,0 +1,97 @@
+lemma: eymi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: eymu
+- features:
+    number: plural
+    person: second
+  expected: eymün
+- features:
+    number: singular
+    person: second
+  expected: eymi
+---
+lemma: fey
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: feyengu
+- features:
+    number: plural
+    person: third
+  expected: feyengün
+- features:
+    number: singular
+    person: third
+  expected: fey
+---
+lemma: iñche
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: iñchiw
+- features:
+    number: plural
+    person: first
+  expected: iñchiñ
+- features:
+    number: singular
+    person: first
+  expected: iñche
+---
+lemma: iñché
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: iñchiu
+- features:
+    number: plural
+    person: first
+  expected: iñchiñ
+- features:
+    number: singular
+    person: first
+  expected: iñché
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: mün
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: mi
+- features:
+    possessor_person: second
+  expected: mu
+---
+lemma: ñi
+category: pronouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: iñ
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ñi
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ñi
+- features:
+    possessor_person: first
+  expected: yu

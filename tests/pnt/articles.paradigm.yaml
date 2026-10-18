@@ -1,0 +1,67 @@
+lemma: i
+category: articles
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: ti
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: ti
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: tsi
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: tsi
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: t
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: i
+---
+lemma: t
+category: articles
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: t
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: t
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: t
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: tu
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: t
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: t

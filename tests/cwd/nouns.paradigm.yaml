@@ -1,0 +1,369 @@
+lemma: awâsis
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nitawâsimis
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: kitawâsimis
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: otawâsimisa
+---
+lemma: mikiskohk
+category: nouns
+cases:
+- features:
+    mood: conditional
+    tense: future
+  expected: mikiskohki
+- features:
+    mood: indicative
+    tense: present
+  expected: mikiskon
+- features:
+    mood: subjunctive
+    tense: present
+  expected: êmikiskohk
+- features:
+    tense: past
+  expected: mikiskohk
+---
+lemma: miyoskamik
+category: nouns
+cases:
+- features:
+    mood: conditional
+    tense: future
+  expected: miyoskamiki
+- features:
+    mood: indicative
+    tense: present
+  expected: miyoskamin
+- features:
+    mood: subjunctive
+    tense: present
+  expected: êmiyoskamik
+- features:
+    tense: past
+  expected: miyoskamik
+---
+lemma: nikosis
+category: nouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nikosisinân
+- features:
+    number: dual
+    person: second
+  expected: kikosisinaw
+- features:
+    number: plural
+    person: second
+  expected: kikosisiwâw
+- features:
+    number: plural
+    person: third
+  expected: okosisiwâwa
+- features:
+    number: singular
+    person: first
+  expected: nikosis
+- features:
+    number: singular
+    person: second
+  expected: kikosis
+- features:
+    number: singular
+    person: third
+  expected: okosisa
+---
+lemma: nîpinohk
+category: nouns
+cases:
+- features:
+    mood: conditional
+    tense: future
+  expected: nîpihki
+- features:
+    mood: indicative
+    tense: present
+  expected: nîpin
+- features:
+    mood: subjunctive
+    tense: present
+  expected: ê-nîpihk
+- features:
+    tense: past
+  expected: nîpinohk
+---
+lemma: nîtisân
+category: nouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nîtisâninân
+- features:
+    number: dual
+    person: second
+  expected: kîtisâninaw
+- features:
+    number: plural
+    person: second
+  expected: kîtisâniwâw
+- features:
+    number: plural
+    person: third
+  expected: wîtisâniwâwa
+- features:
+    number: singular
+    person: first
+  expected: nîtisân
+- features:
+    number: singular
+    person: second
+  expected: kîtisân
+- features:
+    number: singular
+    person: third
+  expected: wîtisâna
+---
+lemma: nôsisim
+category: nouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nôsisiminân
+- features:
+    number: dual
+    person: second
+  expected: kôsisiminaw
+- features:
+    number: plural
+    person: second
+  expected: kôsisimiwâw
+- features:
+    number: plural
+    person: third
+  expected: ôsisimiwâwa
+- features:
+    number: singular
+    person: first
+  expected: nôsisim
+- features:
+    number: singular
+    person: second
+  expected: kôsisim
+- features:
+    number: singular
+    person: third
+  expected: ôsisima
+---
+lemma: ohkomimâw
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nohkom
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: kohkom
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ohkoma
+---
+lemma: ohtâwîmâw
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nohtâwiy
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: kohtâwiy
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ohtâwiya
+---
+lemma: okosisimâw
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nikosis
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: kikosis
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: okosisa
+---
+lemma: okâwîmâw
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nikâwiy
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: kikâwiy
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: okâwiya
+---
+lemma: omisimâw
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nimis
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: kimis
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: omisa
+---
+lemma: omosômimâw
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nimosôm
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: kimosôm
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: omosôma
+---
+lemma: ostêsimâw
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nistês
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: kistês
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ostêsa
+---
+lemma: osîmimâw
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nisîmis
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: kisîmis
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: osîmisa
+---
+lemma: otânisimâw
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nitânis
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: kitânis
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: otânisa
+---
+lemma: piponohk
+category: nouns
+cases:
+- features:
+    mood: conditional
+    tense: future
+  expected: pipohki
+- features:
+    mood: indicative
+    tense: present
+  expected: pipon
+- features:
+    mood: subjunctive
+    tense: present
+  expected: ê-pipohk
+- features:
+    tense: past
+  expected: piponohk
+---
+lemma: sîkwanohk
+category: nouns
+cases:
+- features:
+    mood: conditional
+    tense: future
+  expected: sîkwahki
+- features:
+    mood: indicative
+    tense: present
+  expected: sîkwan
+- features:
+    mood: subjunctive
+    tense: present
+  expected: ê-sîkwahk
+- features:
+    tense: past
+  expected: sîkwanohk
+---
+lemma: takwâkohk
+category: nouns
+cases:
+- features:
+    mood: conditional
+    tense: future
+  expected: takwâkiki
+- features:
+    mood: indicative
+    tense: present
+  expected: takwâkin
+- features:
+    mood: subjunctive
+    tense: present
+  expected: ê-takwâkik
+- features:
+    tense: past
+  expected: takwâkohk

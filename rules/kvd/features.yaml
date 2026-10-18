@@ -1,0 +1,20 @@
+dimensions:
+  number:
+    values: [singular, plural]
+  case:
+    values: [nominative, accusative, genitive, dative, instrumental, locative, ablative,
+      comitative]
+  gender:
+    values: [masculine, feminine]
+  person:
+    values: [first, second, third]
+  tense:
+    values: [present, past, future]
+  mood:
+    values: [indicative, imperative]
+  aspect:
+    values: [perfective, progressive]
+  verb_form:
+    values: [infinitive, participle, present_participle, past_participle]
+  polarity:
+    values: [affirmative, negative]

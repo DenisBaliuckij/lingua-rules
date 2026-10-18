@@ -1,0 +1,23 @@
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nono nono
+- features:
+    number: plural
+    person: first
+  expected: nono nono
+- features:
+    number: singular
+    person: first
+  expected: nana
+- features:
+    number: singular
+    person: second
+  expected: enene
+- features:
+    number: singular
+    person: third
+  expected: yene

@@ -1,0 +1,172 @@
+lemma: kala
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: makalandi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: kalakindi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kalakandi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: makalandi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: kalakindi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kalakandi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: makalandi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: kalakindi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kalakandi
+---
+lemma: pdkd
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: present
+  expected: toVopdkdnL
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: present
+  expected: toVopdkd
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: pdkdni
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pakd
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: toVopdkdnL
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: toVopdkd
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: pakd
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: opdkdni
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: tapdndi
+---
+lemma: tamua
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tamaakiyeni
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tamiakiye
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: tamaakiyeni
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: tamuakiye
+---
+lemma: yenekt
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: yinekeni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: hoytnekUe
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ytnekUenL
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: mbiyentkandi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: yenrkmdi
