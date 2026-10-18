@@ -1,0 +1,41 @@
+lemma: beni
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: beri
+- features:
+    number: singular
+  expected: beni
+---
+lemma: buani
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: buari
+- features:
+    number: singular
+  expected: buani
+---
+lemma: ni
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: ri
+- features:
+    definiteness: definite
+    number: singular
+  expected: ni
+---
+lemma: sani
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: sari
+- features:
+    number: singular
+  expected: sani

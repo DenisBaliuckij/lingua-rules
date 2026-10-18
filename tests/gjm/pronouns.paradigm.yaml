@@ -1,0 +1,67 @@
+lemma: ngathuk
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ngathungal
+- features:
+    number: plural
+    person: first
+  expected: ngathungan
+- features:
+    number: singular
+    person: first
+  expected: ngathuk
+---
+lemma: ngutuk
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: ngutuwal
+- features:
+    number: plural
+    person: second
+  expected: ngutuwar
+- features:
+    number: singular
+    person: second
+  expected: ngutuk
+---
+lemma: nhu
+category: pronouns
+cases:
+- features:
+    case: ergative
+    number: plural
+  expected: nhu-Ia-kana-mpi
+- features:
+    case: ergative
+    number: singular
+  expected: nhu-Ia-mpi
+- features:
+    number: plural
+  expected: nhu-na-mpi
+- features:
+    number: singular
+  expected: nhupi
+---
+lemma: thi
+category: pronouns
+cases:
+- features:
+    case: ergative
+    number: plural
+  expected: thi-Ia-kana-ri
+- features:
+    case: ergative
+    number: singular
+  expected: thi-Ia-ri
+- features:
+    number: plural
+  expected: thi-na-n
+- features:
+    number: singular
+  expected: thin

@@ -1,0 +1,45 @@
+lemma: ngathu
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ngathu
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: ngayn
+---
+lemma: nguru
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: nguru
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: ngun
+- features:
+    number: plural
+    person: second
+  expected: pur
+---
+lemma: nhung
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: nhung
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: nhung

@@ -1,0 +1,44 @@
+lemma: te
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: ti
+- features:
+    gender: masculine
+    number: singular
+  expected: te
+- features:
+    number: plural
+  expected: to
+---
+lemma: ten
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: tin
+- features:
+    gender: masculine
+    number: singular
+  expected: ten
+- features:
+    number: plural
+  expected: to nen
+---
+lemma: teč
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: tič
+- features:
+    gender: masculine
+    number: singular
+  expected: teč
+- features:
+    number: plural
+  expected: to neč

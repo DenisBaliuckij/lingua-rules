@@ -1,0 +1,63 @@
+lemma: chó
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: chótha
+- features:
+    mood: imperative
+    number: singular
+  expected: chó
+- features:
+    mood: imperative
+    polarity: affirmative
+  expected: chó
+- features:
+    mood: imperative
+    polarity: negative
+  expected: chóyek
+---
+lemma: dam
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    polarity: affirmative
+  expected: damman
+- features:
+    aspect: habitual
+    mood: indicative
+    polarity: negative
+  expected: damde
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: affirmative
+  expected: dambo
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: negative
+  expected: dam-de-lò
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: affirmative
+  expected: damlò
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: negative
+  expected: dam-de-yong
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: damye
+- features:
+    mood: indicative
+    polarity: negative
+    tense: future
+  expected: dam-de-ye

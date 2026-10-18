@@ -1,0 +1,83 @@
+lemma: bu
+category: adjectives
+cases:
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: bu
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: bu
+---
+lemma: nha
+category: adjectives
+cases:
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: nha
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: nha
+---
+lemma: nhos
+category: adjectives
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: nhos
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: nhos
+---
+lemma: nos
+category: adjectives
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: nos
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: nos
+---
+lemma: se
+category: adjectives
+cases:
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: se
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: se
+---
+lemma: ses
+category: adjectives
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: ses
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: ses

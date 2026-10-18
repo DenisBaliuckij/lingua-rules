@@ -1,0 +1,65 @@
+lemma: jitx'joj
+category: adjectives
+cases:
+- features:
+    number: plural
+    person: first
+  expected: jitx'jojqoye
+- features:
+    number: plural
+    person: second
+  expected: jitx'jojqo
+- features:
+    number: plural
+    person: third
+  expected: jitx'jojqe
+- features:
+    number: singular
+    person: first
+  expected: jitx'jojqine
+- features:
+    number: singular
+    person: second
+  expected: jitx'joja
+- features:
+    number: singular
+    person: third
+  expected: jitx'joj
+---
+lemma: nim
+category: adjectives
+cases:
+- features:
+    number: plural
+  expected: nimaq
+- features:
+    number: singular
+  expected: nim
+---
+lemma: sak
+category: adjectives
+cases:
+- features:
+    number: plural
+    person: first
+  expected: sak'qoye
+- features:
+    number: plural
+    person: second
+  expected: sak'qo
+- features:
+    number: plural
+    person: third
+  expected: sak'qe
+- features:
+    number: singular
+    person: first
+  expected: sak'qine
+- features:
+    number: singular
+    person: second
+  expected: sak'a
+- features:
+    number: singular
+    person: third
+  expected: sak

@@ -1,0 +1,27 @@
+lemma: ak
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kame
+- features:
+    number: plural
+    person: second
+  expected: kayo
+- features:
+    number: plural
+    person: third
+  expected: era
+- features:
+    number: singular
+    person: first
+  expected: ak
+- features:
+    number: singular
+    person: second
+  expected: ka
+- features:
+    number: singular
+    person: third
+  expected: to

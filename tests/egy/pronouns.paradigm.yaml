@@ -1,0 +1,27 @@
+lemma: t
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+  expected: nty
+- features:
+    gender: feminine
+    number: plural
+  expected: nwt
+- features:
+    gender: feminine
+    number: singular
+  expected: t
+- features:
+    gender: masculine
+    number: dual
+  expected: nwy
+- features:
+    gender: masculine
+    number: plural
+  expected: nw
+- features:
+    gender: masculine
+    number: singular
+  expected: t

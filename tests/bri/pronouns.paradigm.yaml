@@ -1,0 +1,96 @@
+lemma: m
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: r
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: ɲ
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: m
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: w
+- features:
+    number: plural
+    person: first
+  expected: r t
+- features:
+    number: plural
+    person: second
+  expected: ɲ t
+- features:
+    number: plural
+    person: third
+  expected: w t
+- features:
+    number: singular
+    person: first
+  expected: mm t
+- features:
+    number: singular
+    person: second
+  expected: w wt
+- features:
+    number: singular
+    person: third
+  expected: m ŋm t
+---
+lemma: m n
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: r !m n
+- features:
+    number: plural
+    person: second
+  expected: ɲ !m n
+- features:
+    number: plural
+    person: third
+  expected: w !m n
+---
+lemma: n
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: n
+- features:
+    number: plural
+    person: first
+  expected: r
+- features:
+    number: plural
+    person: second
+  expected: ɲ
+- features:
+    number: plural
+    person: third
+  expected: w
+- features:
+    number: singular
+    person: first
+  expected: n
+- features:
+    number: singular
+    person: second
+  expected: w
+- features:
+    number: singular
+    person: third
+  expected: m

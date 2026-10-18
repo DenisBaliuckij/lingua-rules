@@ -1,0 +1,27 @@
+lemma: in
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: oj
+- features:
+    number: plural
+    person: second
+  expected: ix
+- features:
+    number: plural
+    person: third
+  expected: ee
+- features:
+    number: singular
+    person: first
+  expected: in
+- features:
+    number: singular
+    person: second
+  expected: at
+- features:
+    number: singular
+    person: third
+  expected: æ

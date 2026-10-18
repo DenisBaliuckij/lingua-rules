@@ -1,0 +1,35 @@
+lemma: I
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: we
+- features:
+    number: singular
+    person: first
+  expected: I
+---
+lemma: he
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: they
+- features:
+    number: singular
+    person: third
+  expected: he
+---
+lemma: you
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: you
+- features:
+    number: singular
+    person: second
+  expected: you

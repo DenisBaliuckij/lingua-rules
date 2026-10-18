@@ -1,0 +1,67 @@
+lemma: jaa
+category: nouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ky-ky-jaa
+- features:
+    number: singular
+    person: first
+  expected: w-n-jaa
+- features:
+    number: singular
+    person: second
+  expected: t-t-jaa
+---
+lemma: winaq
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: winaqqoye
+- features:
+    number: plural
+    person: second
+  expected: winaqqeye
+- features:
+    number: plural
+    person: third
+  expected: winaqqe
+- features:
+    number: singular
+    person: first
+  expected: winaqqine
+- features:
+    number: singular
+    person: second
+  expected: winaqa
+- features:
+    number: singular
+    person: third
+  expected: winaq
+---
+lemma: xnaq'tzaal
+category: nouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: xnaq'tzaalqo
+- features:
+    number: plural
+    person: third
+  expected: xnaq'tzaalqe
+- features:
+    number: singular
+    person: first
+  expected: xnaq'tzaalqine
+- features:
+    number: singular
+    person: second
+  expected: xnaq'tzaala
+- features:
+    number: singular
+    person: third
+  expected: xnaq'tzaal

@@ -1,0 +1,47 @@
+lemma: anang
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: anangli
+- features:
+    number: singular
+    person: third
+  expected: anang
+---
+lemma: hali
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hali
+- features:
+    number: singular
+    person: first
+  expected: hali
+---
+lemma: nang
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: nangli
+- features:
+    number: singular
+    person: second
+  expected: nang
+---
+lemma: ne
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ili
+- features:
+    number: singular
+    person: first
+  expected: ne

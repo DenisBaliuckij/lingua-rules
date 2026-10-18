@@ -1,0 +1,173 @@
+lemma: la
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+    tense: future
+  expected: langungal
+- features:
+    number: dual
+    person: first
+    tense: past
+  expected: leanul
+- features:
+    number: dual
+    person: first
+    tense: present
+  expected: laangal
+- features:
+    number: plural
+    person: first
+    tense: future
+  expected: langwi
+- features:
+    number: plural
+    person: first
+    tense: past
+  expected: leane
+- features:
+    number: plural
+    person: first
+    tense: present
+  expected: laani
+- features:
+    number: singular
+    person: first
+    tense: future
+  expected: langunga
+- features:
+    number: singular
+    person: first
+    tense: past
+  expected: leanha
+- features:
+    number: singular
+    person: first
+    tense: present
+  expected: laana
+- features:
+    number: singular
+    person: second
+    tense: future
+  expected: langungin
+- features:
+    number: singular
+    person: second
+    tense: past
+  expected: leanin
+- features:
+    number: singular
+    person: second
+    tense: present
+  expected: laanin
+- features:
+    number: singular
+    person: third
+    tense: future
+  expected: langu
+- features:
+    number: singular
+    person: third
+    tense: past
+  expected: lean
+- features:
+    number: singular
+    person: third
+    tense: present
+  expected: laan
+---
+lemma: pu
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    tense: future
+  expected: puwiya
+- features:
+    number: singular
+    person: first
+    tense: past
+  expected: puwana
+- features:
+    number: singular
+    person: second
+    tense: future
+  expected: puwin
+- features:
+    number: singular
+    person: second
+    tense: past
+  expected: puwanin
+- features:
+    number: singular
+    person: third
+    tense: future
+  expected: puwi
+- features:
+    number: singular
+    person: third
+    tense: past
+  expected: puwan
+---
+lemma: yan
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: yapalu
+- features:
+    number: dual
+    person: first
+    tense: future
+  expected: yawiyalu
+- features:
+    number: dual
+    person: first
+    tense: past
+  expected: yaanalu
+- features:
+    number: dual
+    person: first
+    tense: present
+  expected: yanangal
+- features:
+    number: plural
+    person: first
+  expected: yapi
+- features:
+    number: plural
+    person: first
+    tense: future
+  expected: yawiyangi
+- features:
+    number: plural
+    person: first
+    tense: past
+  expected: yaani
+- features:
+    number: plural
+    person: first
+    tense: present
+  expected: yanangi
+- features:
+    number: singular
+    person: first
+  expected: yapa
+- features:
+    number: singular
+    person: first
+    tense: future
+  expected: yawiyanga
+- features:
+    number: singular
+    person: first
+    tense: past
+  expected: yaana
+- features:
+    number: singular
+    person: first
+    tense: present
+  expected: yananga

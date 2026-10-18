@@ -1,0 +1,47 @@
+lemma: be
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: cabe
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: be
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: cani
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: ni
+- features:
+    number: plural
+    person: first
+  expected: du
+- features:
+    number: plural
+    person: second
+  expected: tu
+---
+lemma: naa
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: naa
+- features:
+    number: singular
+    person: second
+  expected: lii
+- features:
+    number: singular
+    person: third
+  expected: laame

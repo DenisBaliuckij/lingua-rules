@@ -1,0 +1,39 @@
+lemma: e
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: enyin
+- features:
+    number: dual
+    person: second
+  expected: ezuun
+- features:
+    number: dual
+    person: third
+  expected: ere
+- features:
+    number: plural
+    person: first
+  expected: enya
+- features:
+    number: plural
+    person: second
+  expected: eza
+- features:
+    number: plural
+    person: third
+  expected: era
+- features:
+    number: singular
+    person: first
+  expected: erô
+- features:
+    number: singular
+    person: second
+  expected: ezo
+- features:
+    number: singular
+    person: third
+  expected: i

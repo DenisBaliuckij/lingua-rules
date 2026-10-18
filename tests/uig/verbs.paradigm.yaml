@@ -1,0 +1,49 @@
+lemma: iezip
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: iezipturdtu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ieziotisildt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: iezip
+---
+lemma: yaz
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: iezipltdiz
+- features:
+    number: plural
+    person: second
+  expected: i
+- features:
+    number: plural
+    person: third
+  expected: iezipru
+- features:
+    number: singular
+    person: first
+  expected: idzt
+- features:
+    number: singular
+    person: second
+  expected: ieripsi
+- features:
+    number: singular
+    person: third
+  expected: joziatu
