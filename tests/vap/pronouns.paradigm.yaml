@@ -1,0 +1,173 @@
+lemma: A
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: au
+- features:
+    number: singular
+    person: third
+  expected: a
+---
+lemma: I
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: i
+---
+lemma: ama
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: amau
+- features:
+    number: singular
+    person: third
+  expected: ama
+---
+lemma: ei
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: eiu
+- features:
+    number: singular
+    person: first
+  expected: ei
+---
+lemma: eima
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: eimau
+- features:
+    number: singular
+    person: first
+  expected: eima
+---
+lemma: ka
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kau
+- features:
+    number: singular
+    person: first
+  expected: ka
+---
+lemma: kau
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kau
+- features:
+    number: plural
+    person: second
+  expected: lau
+- features:
+    number: plural
+    person: third
+  expected: au
+- features:
+    number: singular
+    person: first
+  expected: ka
+- features:
+    number: singular
+    person: second
+  expected: la
+- features:
+    number: singular
+    person: third
+  expected: a
+---
+lemma: kei
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: keiu-â
+- features:
+    number: singular
+    person: first
+  expected: keiâ
+---
+lemma: keima
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: keimau
+- features:
+    number: singular
+    person: first
+  expected: keima
+---
+lemma: kua
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: kuate-â
+- features:
+    number: singular
+  expected: kuaâ
+---
+lemma: la
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: lau
+- features:
+    number: singular
+    person: second
+  expected: la
+---
+lemma: lei
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: lei
+---
+lemma: nang
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: nangu-â
+- features:
+    number: singular
+    person: second
+  expected: nangâ
+---
+lemma: nangma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: nangmau
+- features:
+    number: singular
+    person: second
+  expected: nangma

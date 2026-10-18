@@ -1,0 +1,27 @@
+lemma: rau
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ghita
+- features:
+    number: plural
+    person: second
+  expected: gho
+- features:
+    number: plural
+    person: third
+  expected: rie
+- features:
+    number: singular
+    person: first
+  expected: rau
+- features:
+    number: singular
+    person: second
+  expected: ghoi
+- features:
+    number: singular
+    person: third
+  expected: ia

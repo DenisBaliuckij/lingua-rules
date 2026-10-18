@@ -1,0 +1,216 @@
+lemma: banha
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: banhagam
+- features:
+    case: absolutive
+  expected: banha
+- features:
+    case: allative
+  expected: barragu
+- features:
+    case: locative
+  expected: banhagai
+---
+lemma: dhinha
+category: pronouns
+cases:
+- features:
+    case: absolutive
+  expected: dhinha
+- features:
+    case: allative
+  expected: dhirragu
+- features:
+    case: locative
+  expected: dhinhanga
+---
+lemma: minha
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: minhangam
+- features:
+    case: accusative
+  expected: minha
+- features:
+    case: allative
+  expected: minhagu
+- features:
+    case: locative
+  expected: minhanga
+- features:
+    case: nominative
+  expected: minha
+---
+lemma: ngana
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: nganunngam
+- features:
+    case: accusative
+  expected: nganduna
+- features:
+    case: allative
+  expected: nganun.gu
+- features:
+    case: ergative
+  expected: ngandu
+- features:
+    case: nominative
+  expected: ngana
+---
+lemma: ngatha
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: first
+  expected: ngalinngam
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: ngathunngam
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ngalina
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nganadhurrunga
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: nganha
+- features:
+    case: allative
+    number: dual
+    person: first
+  expected: ngalin.gu
+- features:
+    case: allative
+    number: plural
+    person: first
+  expected: nganadhurrubagu
+- features:
+    case: allative
+    number: singular
+    person: first
+  expected: ngathun.gu
+- features:
+    case: ergative
+    number: dual
+    person: first
+  expected: ngalirrangu
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: nganadhurrungu
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: ngatha
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngali
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nganadhurru
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ngatha
+- features:
+    number: dual
+    person: first
+  expected: ngalirrangunh
+- features:
+    number: plural
+    person: first
+  expected: nganadhurrungunh
+- features:
+    number: singular
+    person: first
+  expected: ngathu
+---
+lemma: nhula
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: third
+  expected: dhanhaguna
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: dhanhaguna
+- features:
+    case: ergative
+    number: dual
+    person: third
+  expected: bula
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: nhula
+- features:
+    case: nominative
+    number: dual
+    person: third
+  expected: dhanha
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: dhanha
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: nhula
+- features:
+    number: dual
+    person: third
+  expected: bulaganunh
+- features:
+    number: plural
+    person: third
+  expected: dhanhaganunh
+- features:
+    number: singular
+    person: third
+  expected: nungunh
+---
+lemma: yinha
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: yirrangam
+- features:
+    case: absolutive
+  expected: yinha
+- features:
+    case: allative
+  expected: yirragu

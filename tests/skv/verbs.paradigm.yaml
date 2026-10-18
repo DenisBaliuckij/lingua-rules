@@ -1,0 +1,128 @@
+lemma: kang
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: pang
+- features:
+    number: plural
+    person: first
+  expected: nang
+- features:
+    number: plural
+    person: second
+  expected: ang
+- features:
+    number: plural
+    person: third
+  expected: tang
+- features:
+    number: singular
+    person: first
+  expected: kang
+- features:
+    number: singular
+    person: second
+  expected: mang
+- features:
+    number: singular
+    person: third
+  expected: kang
+---
+lemma: li
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: tue
+- features:
+    number: plural
+    person: first
+  expected: ti
+- features:
+    number: plural
+    person: second
+  expected: li
+- features:
+    number: plural
+    person: third
+  expected: ti
+- features:
+    number: singular
+    person: first
+  expected: li
+- features:
+    number: singular
+    person: second
+  expected: pi
+- features:
+    number: singular
+    person: third
+  expected: li
+---
+lemma: re
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: te
+- features:
+    number: plural
+    person: first
+  expected: ne
+- features:
+    number: plural
+    person: second
+  expected: re
+- features:
+    number: plural
+    person: third
+  expected: te
+- features:
+    number: singular
+    person: first
+  expected: re
+- features:
+    number: singular
+    person: second
+  expected: me
+- features:
+    number: singular
+    person: third
+  expected: ti
+---
+lemma: roast
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: roast
+- features:
+    tense: past
+  expected: roasted
+---
+lemma: scratch
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: scratch
+- features:
+    tense: past
+  expected: scratched
+---
+lemma: vomit
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: vomit
+- features:
+    tense: past
+  expected: vomited

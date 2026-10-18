@@ -1,0 +1,163 @@
+lemma: ako
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kai
+- features:
+    number: plural
+    person: second
+  expected: kao
+- features:
+    number: plural
+    person: third
+  expected: hila
+- features:
+    number: singular
+    person: first
+  expected: ako
+- features:
+    number: singular
+    person: second
+  expected: ka
+- features:
+    number: singular
+    person: third
+  expected: ya
+---
+lemma: hikoc
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hikai
+- features:
+    number: plural
+    person: second
+  expected: hikao
+- features:
+    number: plural
+    person: third
+  expected: hilaf
+- features:
+    number: singular
+    person: first
+  expected: hikoc
+- features:
+    number: singular
+    person: second
+  expected: hika
+- features:
+    number: singular
+    person: third
+  expected: hiya
+---
+lemma: hiyabayti
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: hilabayti
+- features:
+    definiteness: definite
+    number: singular
+  expected: hiyabayti
+---
+lemma: hiyati
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: hila yati
+- features:
+    number: singular
+  expected: hiyati
+---
+lemma: ihti
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: hila yati
+- features:
+    number: singular
+  expected: ihti
+---
+lemma: ihtibay
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: ihtibay
+---
+lemma: kangko
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kanmi
+- features:
+    number: plural
+    person: second
+  expected: kanyo
+- features:
+    number: plural
+    person: third
+  expected: kanla
+- features:
+    number: singular
+    person: first
+  expected: kangko
+- features:
+    number: singular
+    person: second
+  expected: kanta
+- features:
+    number: singular
+    person: third
+  expected: kanae
+---
+lemma: ko
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mi
+- features:
+    number: plural
+    person: second
+  expected: yo
+- features:
+    number: plural
+    person: third
+  expected: la
+- features:
+    number: singular
+    person: first
+  expected: ko
+- features:
+    number: singular
+    person: second
+  expected: mo
+- features:
+    number: singular
+    person: third
+  expected: na
+---
+lemma: yabayti
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: hilabayti
+- features:
+    definiteness: definite
+    number: singular
+  expected: yabayti

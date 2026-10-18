@@ -1,0 +1,178 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    mood: potential
+    number: singular
+    person: first
+  expected: al
+- features:
+    mood: potential
+    number: singular
+    person: second
+  expected: ol
+- features:
+    mood: potential
+    number: singular
+    person: third
+  expected: el
+- features:
+    number: singular
+    person: first
+  expected: a
+- features:
+    number: singular
+    person: second
+  expected: u
+- features:
+    number: singular
+    person: third
+  expected: i
+---
+lemma: da
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: na
+- features:
+    number: singular
+  expected: da
+---
+lemma: dara
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: dara
+- features:
+    number: plural
+    person: first
+  expected: dat
+- features:
+    person: first
+  expected: datól
+---
+lemma: di
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: di
+---
+lemma: dim
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: nim
+- features:
+    number: singular
+  expected: dim
+---
+lemma: ding
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: ning
+- features:
+    number: singular
+  expected: ding
+---
+lemma: disai
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: nisai
+- features:
+    number: singular
+  expected: disai
+---
+lemma: dong
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: nong
+- features:
+    number: singular
+  expected: dong
+---
+lemma: dé
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: né
+- features:
+    number: singular
+  expected: dé
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: dira
+- features:
+    number: plural
+    person: third
+  expected: dit
+- features:
+    number: singular
+    person: third
+  expected: i
+- features:
+    person: third
+  expected: diat
+---
+lemma: in
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: in
+---
+lemma: u
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: amra
+- features:
+    number: plural
+    person: second
+  expected: amat
+- features:
+    number: singular
+    person: second
+  expected: u
+- features:
+    person: second
+  expected: amtól
+---
+lemma: ya
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: mara
+- features:
+    number: plural
+    person: first
+  expected: mét
+- features:
+    number: singular
+    person: first
+  expected: ya
+- features:
+    person: first
+  expected: mató

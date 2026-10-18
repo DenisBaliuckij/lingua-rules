@@ -1,0 +1,83 @@
+lemma: hic
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    polarity: affirmative
+  expected: hicasaʔ
+- features:
+    aspect: progressive
+    mood: indicative
+    polarity: negative
+  expected: hic-asa-lahkhiʔ
+- features:
+    mood: imperative
+    polarity: affirmative
+  expected: hicasiʔ
+- features:
+    mood: imperative
+    polarity: negative
+  expected: hic-is-lahkhiʔ
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: hic-is-ya:miʔ
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: hic-is-taʔ
+- features:
+    mood: indicative
+    polarity: negative
+    tense: future
+  expected: hic-is-yawlahkhiʔ
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: hic-is-ta-lahkihʔ
+---
+lemma: olol
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    polarity: affirmative
+  expected: ololasaʔ
+- features:
+    aspect: progressive
+    mood: indicative
+    polarity: negative
+  expected: olol-asa-lahkhiʔ
+- features:
+    mood: imperative
+    polarity: affirmative
+  expected: ololasiʔ
+- features:
+    mood: imperative
+    polarity: negative
+  expected: olol-is-lahkhiʔ
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: olol-is-ya:miʔ
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: olol-is-taʔ
+- features:
+    mood: indicative
+    polarity: negative
+    tense: future
+  expected: olol-is-yawlahkhiʔ
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: olol-is-ta-lahkhiʔ

@@ -1,0 +1,112 @@
+lemma: askihkii
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: asklhkieni
+- features:
+    number: singular
+  expected: askihkii
+---
+lemma: ifikaan
+category: nouns
+cases:
+- features:
+    animacy: animate
+    case: vocative
+    number: plural
+  expected: niihkaanetike
+- features:
+    animacy: animate
+    case: vocative
+    number: singular
+  expected: niihkaane
+- features:
+    animacy: animate
+    number: singular
+  expected: niihkaana
+---
+lemma: iikiaapi
+category: nouns
+cases:
+- features:
+    case: locative
+  expected: iikiaapeki
+- features:
+    number: plural
+  expected: iikiaapieni
+- features:
+    number: singular
+  expected: iikiaapi
+---
+lemma: koohkoos
+category: nouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: koohkoosaki
+- features:
+    animacy: animate
+    number: singular
+  expected: koohkoosa
+---
+lemma: niiwa m y
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: kiiwa
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: oiani
+---
+lemma: ootCen
+category: nouns
+cases:
+- features:
+    animacy: inanimate
+    case: locative
+    number: singular
+  expected: ooteeneki
+- features:
+    animacy: inanimate
+    number: singular
+  expected: ooteeni
+---
+lemma: ootben
+category: nouns
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+  expected: ootkenani
+- features:
+    animacy: inanimate
+    number: singular
+  expected: ootCeni
+---
+lemma: oskwaateemi
+category: nouns
+cases:
+- features:
+    case: locative
+  expected: oskwaateeki
+- features:
+    number: singular
+  expected: oskwaateemi
+---
+lemma: paas
+category: nouns
+cases:
+- features:
+    animacy: inanimate
+    case: locative
+    number: singular
+  expected: paaseki
+- features:
+    animacy: inanimate
+    number: singular
+  expected: paasa

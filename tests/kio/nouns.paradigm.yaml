@@ -1,0 +1,196 @@
+lemma: alo
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: alo
+- features:
+    number: plural
+  expected: alo:-go
+- features:
+    number: singular
+  expected: alo:-go
+---
+lemma: co
+category: nouns
+cases:
+- features:
+    case: vocative
+  expected: ko
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: co
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: ko:ko
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: co
+---
+lemma: i
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: ai
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: a-i:-te
+---
+lemma: i^t^a
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: ai^t^a
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: a-i:t^a:-de
+---
+lemma: k'Sn
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: k'Sn
+- features:
+    number: plural
+  expected: k'Sngo
+- features:
+    number: singular
+  expected: k'Sngo
+---
+lemma: k'i
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: k'yoy
+- features:
+    number: singular
+  expected: k'i
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: no:k'i
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: ak'i
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: a-k'i:-de
+---
+lemma: kom
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: ko:bb
+- features:
+    number: singular
+  expected: kom
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: akom
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: a-kom-de
+---
+lemma: p'i
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: ap'i
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: a-p'i:-te
+---
+lemma: pa:bi
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: apa:bi
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: a-pa:bi-te
+---
+lemma: t^a
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: t^e
+- features:
+    number: singular
+  expected: t^a
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: no:t^a
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: at^a
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: a-t^a:-de
+---
+lemma: t^ot'olo
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: t^ot'olo
+- features:
+    number: plural
+  expected: t^ot'olo:-go
+- features:
+    number: singular
+  expected: t^ot'olo:-go
+---
+lemma: tol
+category: nouns
+cases:
+- features:
+    case: vocative
+  expected: to
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: tol
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: to:to
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: tol
+---
+lemma: ze:-ba
+category: nouns
+cases:
+- features:
+    case: absolutive
+  expected: ze:-ba
+- features:
+    case: oblique
+  expected: ze:-bot

@@ -1,0 +1,83 @@
+lemma: an
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nit
+- features:
+    number: plural
+    person: second
+  expected: hit
+- features:
+    number: plural
+    person: third
+  expected: it
+- features:
+    number: singular
+    person: first
+  expected: an
+- features:
+    number: singular
+    person: second
+  expected: hat
+- features:
+    number: singular
+    person: third
+  expected: at
+---
+lemma: n
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nVn
+- features:
+    number: plural
+    person: second
+  expected: hVn
+- features:
+    number: plural
+    person: third
+  expected: vn
+- features:
+    number: singular
+    person: first
+  expected: n
+- features:
+    number: singular
+    person: second
+  expected: h
+- features:
+    number: singular
+    person: third
+  expected: ø
+---
+lemma: nV
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nene
+- features:
+    number: plural
+    person: second
+  expected: hene
+- features:
+    number: plural
+    person: third
+  expected: vnV
+- features:
+    number: singular
+    person: first
+  expected: nV
+- features:
+    number: singular
+    person: second
+  expected: hV
+- features:
+    number: singular
+    person: third
+  expected: a
