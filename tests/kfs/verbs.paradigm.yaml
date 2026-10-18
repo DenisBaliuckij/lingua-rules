@@ -1,0 +1,301 @@
+lemma: a
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ao
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: a
+---
+lemma: biyotokek
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: biyotokech
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: biyotokech
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: biyoduyE
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: biyotokek
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: biyotokei
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: biyoduyE
+---
+lemma: de
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: deo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: de
+---
+lemma: dekʰ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: dekʰɡe
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: dekʰinɪ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: dekʰɡa
+- features:
+    number: plural
+    person: first
+  expected: dekʰɡe
+- features:
+    number: singular
+    person: first
+  expected: dekʰɡa
+- features:
+    number: singular
+    person: second
+  expected: dekʰɡe
+---
+lemma: ha
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ha
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ho
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hain
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ha
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hai
+---
+lemma: ja
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: jao
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ja
+---
+lemma: kAr
+category: verbs
+cases:
+- features:
+    gender: feminine
+  expected: kArni
+- features:
+    gender: masculine
+  expected: kArna
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kArna
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kAr
+- features:
+    mood: potential
+    number: plural
+    person: first
+  expected: kArie
+- features:
+    mood: potential
+    number: plural
+    person: second
+  expected: kAro
+- features:
+    mood: potential
+    number: plural
+    person: third
+  expected: kAren
+- features:
+    mood: potential
+    number: singular
+    person: first
+  expected: kAra
+- features:
+    mood: potential
+    number: singular
+    person: second
+  expected: kAre
+- features:
+    mood: potential
+    number: singular
+    person: third
+  expected: kAre
+---
+lemma: kar
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: karo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kar
+---
+lemma: sa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: sa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: sau
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: sa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: sai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: si
+---
+lemma: takk
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: takkeo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: takki
+---
+lemma: tur
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: turo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tur
+---
+lemma: uTTh
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: uTTheo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: uTThi

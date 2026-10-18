@@ -1,0 +1,191 @@
+lemma: e
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: inhajo
+- features:
+    number: singular
+    person: third
+  expected: esjo
+---
+lemma: eh
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+  expected: ehnanu
+- features:
+    case: dative
+    number: singular
+  expected: esnu
+- features:
+    case: ergative
+    number: plural
+  expected: ehna
+- features:
+    case: ergative
+    number: singular
+  expected: es
+- features:
+    case: genitive
+    number: plural
+  expected: ehnaDa
+- features:
+    case: genitive
+    number: singular
+  expected: esda
+- features:
+    number: plural
+  expected: eh
+- features:
+    number: singular
+  expected: eh
+---
+lemma: hãu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: assajo
+- features:
+    number: singular
+    person: first
+  expected: munjo
+---
+lemma: mai
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+  expected: sanu
+- features:
+    case: dative
+    number: singular
+  expected: menu
+- features:
+    case: ergative
+    number: plural
+  expected: asa
+- features:
+    case: ergative
+    number: singular
+  expected: mai
+- features:
+    case: genitive
+    number: plural
+  expected: saDDa
+- features:
+    case: genitive
+    number: singular
+  expected: mera
+- features:
+    number: plural
+  expected: asi
+- features:
+    number: singular
+  expected: mai
+---
+lemma: oh
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+  expected: ohnanu
+- features:
+    case: dative
+    number: singular
+  expected: osnu
+- features:
+    case: ergative
+    number: plural
+  expected: ohna
+- features:
+    case: ergative
+    number: singular
+  expected: os
+- features:
+    case: genitive
+    number: plural
+  expected: ohnaDa
+- features:
+    case: genitive
+    number: singular
+  expected: osda
+- features:
+    number: plural
+  expected: oh
+- features:
+    number: singular
+  expected: oh
+---
+lemma: sA
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: te
+- features:
+    number: singular
+    person: third
+  expected: sA
+---
+lemma: se
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: tinhajo
+- features:
+    number: singular
+    person: third
+  expected: tesjo
+---
+lemma: tu
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+  expected: tuhanu
+- features:
+    case: dative
+    number: singular
+  expected: tenu
+- features:
+    case: ergative
+    number: plural
+  expected: tusa
+- features:
+    case: ergative
+    number: singular
+  expected: tu
+- features:
+    case: genitive
+    number: plural
+  expected: tuhaDDa
+- features:
+    case: genitive
+    number: singular
+  expected: tera
+- features:
+    number: plural
+  expected: tusi
+- features:
+    number: plural
+    person: second
+  expected: tuse
+- features:
+    number: singular
+  expected: tu
+- features:
+    number: singular
+    person: second
+  expected: tu

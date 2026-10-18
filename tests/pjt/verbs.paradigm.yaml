@@ -1,0 +1,120 @@
+lemma: ninti-ri-ng
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: imperative
+  expected: ninti-ringa-ma
+- features:
+    aspect: imperfective
+    tense: past
+  expected: ninti-ringa-ngi
+- features:
+    mood: indicative
+  expected: ninti-ringku-pai
+- features:
+    tense: future
+  expected: ninti-ringku-ku
+- features:
+    tense: past
+  expected: ninti-ri-ngu
+- features:
+    tense: present
+  expected: ninti-ringa-nyi
+---
+lemma: pilunpa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pilun-ari-wa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: pilunpa
+---
+lemma: tati
+category: verbs
+cases:
+- features:
+    aspect: habitual
+  expected: tatilpai
+- features:
+    aspect: habitual
+    tense: present
+  expected: tatiIpai
+- features:
+    aspect: imperfective
+    tense: past
+  expected: tatiningi
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: tatintjanu
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: tatintjanu
+- features:
+    tense: future
+  expected: tatiIku
+- features:
+    tense: past
+  expected: tatinu
+- features:
+    tense: present
+  expected: tatini
+- features:
+    verb_form: converb
+  expected: tatintjikitja
+- features:
+    verb_form: infinitive
+  expected: tatintjikitja
+- features:
+    verb_form: participle
+  expected: tatira
+---
+lemma: ukali
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ukaliwa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ukalingu
+---
+lemma: watarku-ri-O
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: imperative
+  expected: watarku-ri-ma
+- features:
+    aspect: imperfective
+    tense: past
+  expected: watarku-ri-ngi
+- features:
+    mood: imperative
+  expected: watarku-ri-O
+- features:
+    mood: indicative
+  expected: watarku-ri-pai
+- features:
+    tense: future
+  expected: watarku-ri-ku
+- features:
+    tense: past
+  expected: watarku-ri-ngu
+- features:
+    tense: present
+  expected: watarku-ri-nyi

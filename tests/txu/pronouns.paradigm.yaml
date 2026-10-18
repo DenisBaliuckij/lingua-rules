@@ -1,0 +1,223 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ar a
+- features:
+    number: singular
+    person: second
+  expected: a
+---
+lemma: amã
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ar amã
+- features:
+    number: singular
+    person: second
+  expected: amã
+---
+lemma: ar
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ar
+- features:
+    number: plural
+    person: second
+  expected: ar
+- features:
+    number: plural
+    person: third
+  expected: ar
+---
+lemma: ba
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: bar
+- features:
+    number: singular
+    person: first
+  expected: ba
+- features:
+    number: singular
+    person: second
+  expected: ga
+---
+lemma: ba me
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ba me
+- features:
+    number: plural
+    person: second
+  expected: ga me
+---
+lemma: bar
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: bar
+- features:
+    number: plural
+    person: second
+  expected: gar
+---
+lemma: ga
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: gar
+- features:
+    number: singular
+    person: second
+  expected: ga
+---
+lemma: gu
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: gu
+---
+lemma: gu ba
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: gu ba
+---
+lemma: gu bamã
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: gu bamã
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ar i
+- features:
+    number: singular
+    person: first
+  expected: i
+- features:
+    number: singular
+    person: second
+  expected: a
+---
+lemma: imã
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ar imã
+- features:
+    number: singular
+    person: first
+  expected: imã
+---
+lemma: kum
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ar kum
+- features:
+    number: singular
+    person: third
+  expected: kum
+---
+lemma: kute
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ar kute
+- features:
+    number: singular
+    person: third
+  expected: kute
+---
+lemma: me i
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: me i
+- features:
+    number: plural
+    person: second
+  expected: me a
+---
+lemma: nã bãm
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nã bãm ar
+- features:
+    number: singular
+    person: first
+  expected: nã bãm
+---
+lemma: nã gwãm
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nã gwãm
+---
+lemma: nã gãm
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: nã gãm ar
+- features:
+    number: singular
+    person: second
+  expected: nã gãm
+---
+lemma: nãm
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: nãm ar
+- features:
+    number: singular
+    person: third
+  expected: nãm

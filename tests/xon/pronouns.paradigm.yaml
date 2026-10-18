@@ -1,0 +1,193 @@
+lemma: I
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: I
+---
+lemma: M
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: N
+---
+lemma: U
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: U
+---
+lemma: bi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: bi
+---
+lemma: m
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ti
+- features:
+    number: plural
+    person: second
+  expected: ni
+- features:
+    number: plural
+    person: third
+  expected: bi
+- features:
+    number: singular
+    person: first
+  expected: m
+- features:
+    number: singular
+    person: second
+  expected: i
+- features:
+    number: singular
+    person: third
+  expected: u
+---
+lemma: mìn
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: tīmìn
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: mìn
+---
+lemma: ni
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ni
+---
+lemma: nīmì
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: nīmì
+---
+lemma: sìn
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: nīmìn
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: sìn
+---
+lemma: ti
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ti
+---
+lemma: tīmì
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: tīmì
+---
+lemma: áá
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: nī
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: sī
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: nī
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: áá
+---
+lemma: ń
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: tī
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: mī
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: tī
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ń
+---
+lemma: ū
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: bī
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: ū
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: bī
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ū

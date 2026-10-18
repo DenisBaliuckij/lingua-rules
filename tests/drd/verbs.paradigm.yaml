@@ -1,0 +1,403 @@
+lemma: aux
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ni˗jəŋ˗hɛn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: ni˗jəŋ˗hɛn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ni˗jəŋ˗∅
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: n˗jəŋ˗kʰi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: n˗jəŋ˗hɛn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ni˗jəŋ˗∅
+---
+lemma: come
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ra˗ŋ˗hɛn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: ra˗ŋ˗hɛni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ra˗jəŋ˗∅
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ra˗ŋ˗kʰi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ra˗jəŋ˗hɛn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ra˗jəŋ˗∅
+---
+lemma: de
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: d-jaŋ-hɛn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: d-jaŋ-hɛni
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: d-jaŋ-kʰi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: d-jaŋ-hɛn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: d-jaŋ-∅
+---
+lemma: eat
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ʤʲa˗ŋ˗hɛn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: ʤʲa˗jəŋ˗ni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ʤʲa˗jəŋ˗∅
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ʤʲa˗jəŋ˗kʰi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ʤʲa˗ŋ˗hɛn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ʤʲa˗jəŋ˗∅
+---
+lemma: go
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: d˗jəŋ˗hɛn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: d˗jəŋ˗ni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: d˗jəŋ˗∅
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: d˗jəŋ˗kʰi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: d˗jəŋ˗hɛn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: d˗jəŋ˗∅
+---
+lemma: le
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: l-jaŋ-hɛn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: l-jaŋ-hɛni
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: l-jaŋ-kʰi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: l-jaŋ-hɛn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: l-jaŋ-∅
+---
+lemma: ni
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ni-jaŋ-hɛn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: ni-jaŋ-hɛn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: n-jaŋ-kʰi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: n-jaŋ-hɛn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ni-jaŋ-∅
+---
+lemma: pʰa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: pʰa-ŋ-hɛn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: pʰa-jaŋ-ni
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: pʰa-jaŋ-çi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: pʰa-ŋ-hɛn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: pʰa-jaŋ-∅
+---
+lemma: speak
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: pʰa˗ŋ˗hɛn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: pʰa˗jəŋ˗ni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: pʰa˗jəŋ˗∅
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: pʰa˗ŋ˗kʰi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: pʰa˗ŋ˗hɛn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: pʰa˗jəŋ˗∅
+---
+lemma: ɟa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ɟa-ŋ-hɛn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: ɟa-jaŋ-ni
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ɟa-jaŋ-kʰi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ɟa-ŋ-hɛn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ɟa-jaŋ-∅
+---
+lemma: ɾa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ɾa-ŋ-hɛn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: ɾa-ŋ-hɛni
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ɾa-ŋ-kʰi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ɾa-jaŋ-hɛn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ɾa-jaŋ-∅

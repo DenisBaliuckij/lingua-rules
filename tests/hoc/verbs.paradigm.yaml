@@ -1,0 +1,536 @@
+lemma: dguakadd
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+  expected: duuakaddlanq
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+  expected: dguakaddling
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+  expected: dyuakaddking
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: dguakaddbu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: dguakaddle
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: dguakaddpe
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: dguakadam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: dguakadam
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: dguakaddf
+---
+lemma: dguetanredoing
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: perfect
+  expected: dgitakadredoing
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: dyuledredoiny
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: dguetanredoing
+---
+lemma: dgukedding
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: dqnkeddlana
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: dgukedaben
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: dgukedding
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: dgukedam
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: dgukedde
+---
+lemma: emaitanredowg
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: future
+  expected: emairedouni
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: emairedoiin
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: perfect
+  expected: emakairedoing
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: emliredoiny
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: emaitanredowg
+---
+lemma: emen
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: ementanredomy
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: emenben
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: emenpe
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: emenme
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: ementandlany
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: ementandben
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: ementandkiny
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ementandbu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ementandpe
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ementandle
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: emending
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: emkendiny
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: emakandiny
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: ernlending
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ementandiny
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ementanam
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ementande
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: emenkding
+---
+lemma: gitiakanding
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: gitiakanding
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: gittakande
+---
+lemma: gitiding
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: gitiding
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: gitiam
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: gitide
+---
+lemma: gitikde
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: gitikding
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: gitikam
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: gitikde
+---
+lemma: gititanding
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: gititanding
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: gititanam
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: gititande
+---
+lemma: gititanreaoing
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: gintanredoing
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: perfect
+  expected: gitiakanredoing
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: gitilenredoing
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: gititanreaoing
+---
+lemma: hobdo
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: hobdoredoing
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: akanme
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: hobdoding
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: hobdeanding
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: hobdakanding
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: iwbdlending
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: hobdotanding
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: hobdokding
+- features:
+    verb_form: infinitive
+  expected: hwbdo
+---
+lemma: mend
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: mendlangd
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: mendbend
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: mendkingd
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: mendbud
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mendped
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: mendkod
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mendmed
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mended
+- features:
+    verb_form: infinitive
+  expected: mend
+---
+lemma: sukuinytand
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: sukuingd
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: sukukedingd
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: sukuakadingd
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: sukuledingd
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: sukuinytand
+---
+lemma: sukutanding
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: sukuding
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: sukueanding
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: sukuakanding
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: sukalending
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: sukutanding

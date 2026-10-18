@@ -1,0 +1,360 @@
+lemma: danka
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: dankayav
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: dankav
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: dankayat
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: dankat
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: dankayac
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: dankac
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: dankayad
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: dankad
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: dankayá
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: danká
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: dankayal
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dankal
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: dankayar
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dankar
+---
+lemma: dole
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: doleyev
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: dolev
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: doleyet
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: dolet
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: doleyec
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: dolec
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: doleyed
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: doled
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: doleyé
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dolé
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: doleyel
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dolel
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: doleyer
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: doler
+---
+lemma: estu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: estutuv
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: estutut
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: estutuc
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: estutud
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: estutú
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: estutul
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: estutur
+---
+lemma: foli
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: folitiv
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: folitit
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: folitic
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: folitid
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: folití
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: folitil
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: folitir
+---
+lemma: roju
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: rojuv
+- features:
+    number: plural
+    person: first
+  expected: rojut
+- features:
+    number: plural
+    person: second
+  expected: rojuc
+- features:
+    number: plural
+    person: third
+  expected: rojud
+- features:
+    number: singular
+    person: first
+  expected: rojü
+- features:
+    number: singular
+    person: second
+  expected: rojul
+- features:
+    number: singular
+    person: third
+  expected: rojur
+---
+lemma: ti
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: tiv
+- features:
+    number: plural
+    person: first
+  expected: tit
+- features:
+    number: plural
+    person: second
+  expected: tic
+- features:
+    number: plural
+    person: third
+  expected: tid
+- features:
+    number: singular
+    person: first
+  expected: tí
+- features:
+    number: singular
+    person: second
+  expected: til
+- features:
+    number: singular
+    person: third
+  expected: tir
+---
+lemma: tl
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: tiv
+- features:
+    number: plural
+    person: first
+  expected: lit
+- features:
+    number: plural
+    person: second
+  expected: tic
+- features:
+    number: plural
+    person: third
+  expected: tid
+- features:
+    number: singular
+    person: first
+  expected: tf
+- features:
+    number: singular
+    person: second
+  expected: tif
+- features:
+    number: singular
+    person: third
+  expected: tir

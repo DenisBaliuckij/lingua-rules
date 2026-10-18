@@ -1,0 +1,65 @@
+lemma: gard
+category: nouns
+cases:
+- features:
+    case: ablative
+    definiteness: definite
+  expected: gardete
+- features:
+    case: ablative
+    definiteness: indefinite
+  expected: gardpdete
+- features:
+    case: genitive
+  expected: gardd
+- features:
+    case: instrumental
+    definiteness: definite
+  expected: gardte
+- features:
+    case: locative
+  expected: gardren
+- features:
+    case: locative
+    definiteness: definite
+  expected: gardre
+- features:
+    case: locative
+    definiteness: indefinite
+  expected: gardpdre
+- features:
+    case: partitive
+  expected: gardd
+---
+lemma: gomke
+category: nouns
+cases:
+- features:
+    case: ablative
+    definiteness: definite
+  expected: gomketdete
+- features:
+    case: ablative
+    definiteness: indefinite
+  expected: gontkepdete
+- features:
+    case: genitive
+  expected: gomked
+- features:
+    case: instrumental
+    definiteness: definite
+  expected: gomketdete
+- features:
+    case: locative
+  expected: gomkeren
+- features:
+    case: locative
+    definiteness: definite
+  expected: gomketdre
+- features:
+    case: locative
+    definiteness: indefinite
+  expected: gomkepdre
+- features:
+    case: partitive
+  expected: gomked

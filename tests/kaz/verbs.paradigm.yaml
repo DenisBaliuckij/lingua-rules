@@ -1,0 +1,285 @@
+lemma: al
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: alsak
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: alsanız
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: alsa
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: alsam
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: alsatı
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: alsa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: alarmız
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: alarsız
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: alar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: alarmın
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: alarsıö
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: alar
+---
+lemma: alamın
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: alamın
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: alasıf
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: aladı
+---
+lemma: baramın
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: aramız
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: barasız
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: baradı
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: baramın
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: barasın
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: oLbaradı
+---
+lemma: jazyp otırmın
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: otırmız
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: otırsız
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: otır
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: otırmın
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: otırsıf
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: otır
+---
+lemma: körippin
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: körippiz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: köripsiz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: köripti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: körippin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: köripsifı
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: oLköripti
+---
+lemma: oyladım
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: oyladık
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: oyladıfidar
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: oyladı
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: oyladım
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: oyladıfi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: oLoyladı
+---
+lemma: oylağanmın
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: oylağansın
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: oylağanmın
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: oylağansın
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: oLoylağan
