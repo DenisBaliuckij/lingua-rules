@@ -1,0 +1,410 @@
+lemma: liyi
+category: verbs
+cases:
+- features:
+    animacy: animate
+    case: absolutive
+    number: singular
+  expected: liyi
+- features:
+    animacy: animate
+    case: ergative
+    number: singular
+  expected: liyi-n-ir
+- features:
+    animacy: animate
+    case: genitive
+    number: singular
+  expected: liyin
+---
+lemma: ula
+category: verbs
+cases:
+- features:
+    case: absolutive
+    number: singular
+  expected: ulá-y
+- features:
+    case: ergative
+    number: singular
+  expected: ulayn-ir
+- features:
+    case: genitive
+    number: singular
+  expected: ulay-in
+---
+lemma: vu
+category: verbs
+cases:
+- features:
+    mood: conditional
+    person: first
+    polarity: negative
+    tense: future
+  expected: vuts’-idar-ni
+- features:
+    mood: conditional
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: vu-der-ni
+- features:
+    mood: conditional
+    person: first
+    polarity: negative
+    tense: present
+  expected: vuts’-der-ni
+- features:
+    mood: conditional
+    person: first
+    tense: future
+  expected: vuts’-iya-ni
+- features:
+    mood: conditional
+    person: first
+    tense: perfect
+  expected: vu-ca-ni
+- features:
+    mood: conditional
+    person: first
+    tense: present
+  expected: vuts’-re-ni
+- features:
+    mood: conditional
+    person: second
+    polarity: negative
+    tense: future
+  expected: vuts’-idab-ni
+- features:
+    mood: conditional
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: vu-deb-ni
+- features:
+    mood: conditional
+    person: second
+    polarity: negative
+    tense: present
+  expected: vuts’-deb-ni
+- features:
+    mood: conditional
+    person: second
+    tense: future
+  expected: vuts’-iyu-ni
+- features:
+    mood: conditional
+    person: second
+    tense: perfect
+  expected: vu-cu-ni
+- features:
+    mood: conditional
+    person: second
+    tense: present
+  expected: vuts’-ryu-ni
+- features:
+    mood: conditional
+    person: third
+    polarity: negative
+    tense: future
+  expected: vuts’-idad-ni
+- features:
+    mood: conditional
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: vu-ded-ni
+- features:
+    mood: conditional
+    person: third
+    polarity: negative
+    tense: present
+  expected: vuts’-ded-ni
+- features:
+    mood: conditional
+    person: third
+    tense: future
+  expected: vuts’-iya-ni
+- features:
+    mood: conditional
+    person: third
+    tense: perfect
+  expected: vu-ca-ni
+- features:
+    mood: conditional
+    person: third
+    tense: present
+  expected: vuts’-re-ni
+- features:
+    mood: imperative
+    person: first
+  expected: vudam
+- features:
+    mood: imperative
+    person: first
+    polarity: negative
+  expected: dudam
+- features:
+    mood: imperative
+    person: second
+  expected: vatu
+- features:
+    mood: imperative
+    person: second
+    polarity: negative
+  expected: muts’u
+- features:
+    mood: imperative
+    person: third
+  expected: vutir
+- features:
+    mood: imperative
+    person: third
+    polarity: negative
+  expected: du-tir
+- features:
+    mood: indicative
+    person: first
+    polarity: negative
+    tense: aorist
+  expected: vudar
+- features:
+    mood: indicative
+    person: first
+    polarity: negative
+    tense: future
+  expected: vuts’-idar
+- features:
+    mood: indicative
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: vuder
+- features:
+    mood: indicative
+    person: first
+    polarity: negative
+    tense: present
+  expected: vuts’-der
+- features:
+    mood: indicative
+    person: first
+    tense: aorist
+  expected: vuyid
+- features:
+    mood: indicative
+    person: first
+    tense: future
+  expected: vuts’-iya
+- features:
+    mood: indicative
+    person: first
+    tense: perfect
+  expected: vuca
+- features:
+    mood: indicative
+    person: first
+    tense: present
+  expected: vuts’-re
+- features:
+    mood: indicative
+    person: second
+    polarity: negative
+    tense: aorist
+  expected: vudab
+- features:
+    mood: indicative
+    person: second
+    polarity: negative
+    tense: future
+  expected: vuts’-idab
+- features:
+    mood: indicative
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: vudeb
+- features:
+    mood: indicative
+    person: second
+    polarity: negative
+    tense: present
+  expected: vuts’-deb
+- features:
+    mood: indicative
+    person: second
+    tense: aorist
+  expected: vudu
+- features:
+    mood: indicative
+    person: second
+    tense: future
+  expected: vuts’-iyu
+- features:
+    mood: indicative
+    person: second
+    tense: perfect
+  expected: vucu
+- features:
+    mood: indicative
+    person: second
+    tense: present
+  expected: vuts’-ryu
+- features:
+    mood: indicative
+    person: third
+    polarity: negative
+    tense: aorist
+  expected: vudad
+- features:
+    mood: indicative
+    person: third
+    polarity: negative
+    tense: future
+  expected: vuts’-idad
+- features:
+    mood: indicative
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: vuded
+- features:
+    mood: indicative
+    person: third
+    polarity: negative
+    tense: present
+  expected: vuts’-ded
+- features:
+    mood: indicative
+    person: third
+    tense: aorist
+  expected: vuyic
+- features:
+    mood: indicative
+    person: third
+    tense: future
+  expected: vuts’-iya
+- features:
+    mood: indicative
+    person: third
+    tense: perfect
+  expected: vuca
+- features:
+    mood: indicative
+    person: third
+    tense: present
+  expected: vuts’-re
+- features:
+    mood: optative
+    person: first
+  expected: vuyi
+- features:
+    mood: optative
+    person: first
+    polarity: negative
+  expected: du-yi
+- features:
+    mood: optative
+    person: first
+    polarity: negative
+    tense: past
+  expected: duts’u
+- features:
+    mood: optative
+    person: first
+    tense: past
+  expected: vuts’u
+- features:
+    mood: optative
+    person: second
+    polarity: negative
+    tense: past
+  expected: duts’-ini
+- features:
+    mood: optative
+    person: second
+    tense: past
+  expected: vuts’-ini
+- features:
+    mood: subjunctive
+    person: first
+    polarity: negative
+    tense: present
+  expected: vuts’-dar
+- features:
+    mood: subjunctive
+    person: first
+    tense: present
+  expected: vuts’-ra
+- features:
+    mood: subjunctive
+    person: second
+    polarity: negative
+    tense: present
+  expected: vuts’-dab
+- features:
+    mood: subjunctive
+    person: second
+    tense: present
+  expected: vuts’-ru
+- features:
+    mood: subjunctive
+    person: third
+    polarity: negative
+    tense: present
+  expected: vuts’-dad
+- features:
+    mood: subjunctive
+    person: third
+    tense: present
+  expected: vuts’-ra
+---
+lemma: vu-yi
+category: verbs
+cases:
+- features:
+    animacy: animate
+    case: absolutive
+    number: singular
+  expected: vu-yi
+- features:
+    animacy: animate
+    case: ergative
+    number: singular
+  expected: vu-yin-ir
+- features:
+    animacy: animate
+    case: genitive
+    number: singular
+  expected: vu-yi-n
+---
+lemma: ˤaxhric
+category: verbs
+cases:
+- features:
+    mood: indicative
+    person: first
+    tense: present
+  expected: ˤa-şxh-a
+- features:
+    mood: indicative
+    person: second
+    tense: present
+  expected: ˤa-şxh-v-a
+- features:
+    mood: indicative
+    person: third
+    tense: present
+  expected: ˤa-ş-t-a
+- features:
+    mood: optative
+    person: first
+  expected: ˤa-xhr-i
+- features:
+    mood: optative
+    person: second
+  expected: ˤa-xhur-i
+- features:
+    mood: optative
+    person: third
+  expected: ˤa-b-xhr-i

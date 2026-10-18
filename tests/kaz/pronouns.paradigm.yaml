@@ -1,0 +1,206 @@
+lemma: MeB
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: MeHeH
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: cenen
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: OJ.laH
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: Me Hi
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: ceni
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: OHbl
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: Maran
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: caraH
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: oran
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: MeHiH
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: ceHIH
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: OHbiiL
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: MeH.Ile
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: cen.ae
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: OHJ.la
+- features:
+    number: plural
+    person: second
+  expected: ceH
+- features:
+    number: plural
+    person: third
+  expected: onap
+- features:
+    number: singular
+    person: first
+  expected: MeB
+- features:
+    number: singular
+    person: second
+  expected: ceu
+---
+lemma: MeHiKi
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: MeHiKi
+- features:
+    number: singular
+    person: second
+  expected: ceHiKi
+---
+lemma: kim
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: kimde
+- features:
+    case: accusative
+  expected: kimdi
+- features:
+    case: comitative
+  expected: kimnen
+- features:
+    case: dative
+  expected: kimge
+- features:
+    case: genitive
+  expected: kimnin
+- features:
+    case: nominative
+  expected: kim
+---
+lemma: ne
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: nede
+- features:
+    case: accusative
+  expected: neni
+- features:
+    case: comitative
+  expected: nemen
+- features:
+    case: dative
+  expected: nege
+- features:
+    case: genitive
+  expected: nenif
+- features:
+    case: nominative
+  expected: ne
+---
+lemma: бір-бірі
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: бір-бірінен
+- features:
+    case: accusative
+  expected: бір-бірін
+- features:
+    case: dative
+  expected: бір-біріне
+- features:
+    case: genitive
+  expected: бір-бірінің
+---
+lemma: өзім
+category: pronouns
+cases:
+- features:
+    formality: formal
+    number: plural
+    person: second
+  expected: өзіңіздер
+- features:
+    formality: formal
+    number: singular
+    person: second
+  expected: өзіңіз
+- features:
+    formality: informal
+    number: plural
+    person: second
+  expected: өзіңіз
+- features:
+    formality: informal
+    number: singular
+    person: second
+  expected: өзің
+- features:
+    number: plural
+    person: first
+  expected: өзіміз
+- features:
+    number: plural
+    person: third
+  expected: өздері
+- features:
+    number: singular
+    person: first
+  expected: өзім
+- features:
+    number: singular
+    person: third
+  expected: өзі

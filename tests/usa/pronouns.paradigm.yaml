@@ -1,0 +1,31 @@
+lemma: hatajmA
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: keratama
+- features:
+    number: dual
+    person: third
+  expected: yeratama
+- features:
+    number: plural
+    person: first
+  expected: hatajmA
+---
+lemma: kegaraqa
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kegaraqa
+- features:
+    number: dual
+    person: second
+  expected: egaraqa
+- features:
+    number: dual
+    person: third
+  expected: wegaraqa

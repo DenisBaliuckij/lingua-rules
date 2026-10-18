@@ -1,0 +1,39 @@
+lemma: pay
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: paykuna
+- features:
+    number: singular
+    person: third
+  expected: pay
+---
+lemma: qam
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: qamkuna
+- features:
+    number: singular
+    person: second
+  expected: qam
+---
+lemma: ñuqa
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ñuqanchik
+- features:
+    number: plural
+    person: first
+  expected: ñuqa-nchik-kuna
+- features:
+    number: singular
+    person: first
+  expected: ñuqa

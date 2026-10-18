@@ -1,0 +1,93 @@
+lemma: dédi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: cadaguidi
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: idi
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: dagidi
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: dédi
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: daguidi
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: dédi
+---
+lemma: kami
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kami
+---
+lemma: swá
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: c a dacayó
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: qaencd
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: yó
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: mo
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: dacayó
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: swá
+- features:
+    case: vocative
+    number: plural
+    person: second
+  expected: o vel nay
+- features:
+    case: vocative
+    number: singular
+    person: second
+  expected: o vel nay
+---
+lemma: tayo
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tayo

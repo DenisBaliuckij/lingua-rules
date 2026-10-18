@@ -1,0 +1,259 @@
+lemma: aku
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: a taua
+- features:
+    number: dual
+    person: second
+  expected: a kolua
+- features:
+    number: dual
+    person: third
+  expected: a laua
+- features:
+    number: plural
+    person: first
+  expected: a tatou
+- features:
+    number: plural
+    person: second
+  expected: a kotou
+- features:
+    number: plural
+    person: third
+  expected: a latou
+- features:
+    number: singular
+    person: first
+  expected: ia aku
+- features:
+    number: singular
+    person: second
+  expected: au
+- features:
+    number: singular
+    person: third
+  expected: ana
+---
+lemma: ana
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: ia laua
+- features:
+    number: plural
+    person: third
+  expected: ia latou
+- features:
+    number: singular
+    person: third
+  expected: ia ana
+---
+lemma: au
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tauа
+- features:
+    number: dual
+    person: second
+  expected: kolua
+- features:
+    number: dual
+    person: third
+  expected: laura
+- features:
+    number: plural
+    person: first
+  expected: tatou
+- features:
+    number: plural
+    person: second
+  expected: kotou
+- features:
+    number: plural
+    person: third
+  expected: latou
+- features:
+    number: singular
+    person: first
+  expected: au
+- features:
+    number: singular
+    person: second
+  expected: koe
+- features:
+    number: singular
+    person: third
+  expected: iana
+---
+lemma: enei
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: enei
+---
+lemma: kinei
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: kinei
+---
+lemma: koe
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: ia kolua
+- features:
+    number: plural
+    person: second
+  expected: ia kotou
+- features:
+    number: singular
+    person: second
+  expected: ia koe
+---
+lemma: penei
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: penei
+---
+lemma: taku
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: dual
+    person: first
+  expected: ta taua
+- features:
+    definiteness: definite
+    number: plural
+    person: first
+  expected: ta tatou
+- features:
+    definiteness: definite
+    number: singular
+    person: first
+  expected: taku
+- features:
+    definiteness: indefinite
+    number: dual
+    person: first
+  expected: a taua
+- features:
+    definiteness: indefinite
+    number: plural
+    person: first
+  expected: a tatou
+- features:
+    definiteness: indefinite
+    number: singular
+    person: first
+  expected: aku
+---
+lemma: tana
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: dual
+    person: third
+  expected: ta laua
+- features:
+    definiteness: definite
+    number: plural
+    person: third
+  expected: ta latou
+- features:
+    definiteness: definite
+    number: singular
+    person: third
+  expected: tana
+- features:
+    definiteness: indefinite
+    number: singular
+    person: third
+  expected: ana
+---
+lemma: tau
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: dual
+    person: second
+  expected: ta kolua
+- features:
+    definiteness: definite
+    number: plural
+    person: second
+  expected: ta kotou
+- features:
+    definiteness: definite
+    number: singular
+    person: second
+  expected: tau
+- features:
+    definiteness: indefinite
+    number: dual
+    person: second
+  expected: a kolua
+- features:
+    definiteness: indefinite
+    number: plural
+    person: second
+  expected: a kotou
+- features:
+    definiteness: indefinite
+    number: singular
+    person: second
+  expected: au
+---
+lemma: tenei
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: tenei
+---
+lemma: toku
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+    person: first
+  expected: ta matou
+- features:
+    definiteness: definite
+    number: singular
+    person: first
+  expected: toku
+- features:
+    definiteness: indefinite
+    number: plural
+    person: first
+  expected: a matou
+- features:
+    definiteness: indefinite
+    number: singular
+    person: first
+  expected: oku

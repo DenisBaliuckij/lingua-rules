@@ -1,0 +1,45 @@
+lemma: la
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: la
+- features:
+    number: singular
+    person: second
+  expected: teka
+- features:
+    number: singular
+    person: third
+  expected: nga
+---
+lemma: ya
+category: pronouns
+cases:
+- features:
+    noun_class: class_17
+    number: plural
+    person: first
+  expected: nana
+- features:
+    noun_class: class_18
+    number: plural
+    person: first
+  expected: ma
+- features:
+    number: plural
+    person: second
+  expected: kwa
+- features:
+    number: plural
+    person: third
+  expected: ta
+- features:
+    number: singular
+    person: first
+  expected: ya
+- features:
+    number: singular
+    person: second
+  expected: ka

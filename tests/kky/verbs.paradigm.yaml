@@ -1,0 +1,143 @@
+lemma: dhada
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: dhadanhu
+- features:
+    mood: imperative
+  expected: dhadii
+- features:
+    tense: past
+  expected: dhaday
+- features:
+    tense: present
+  expected: dhadaa
+---
+lemma: gunda
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: gundanhu
+- features:
+    mood: imperative
+  expected: gundala
+- features:
+    tense: past
+  expected: gunday
+- features:
+    tense: present
+  expected: gundal
+---
+lemma: maa
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: maa-ni-nhu
+- features:
+    mood: imperative
+  expected: maarraa
+- features:
+    mood: imperative
+    voice: reflexive
+  expected: maa-na-ayi
+- features:
+    mood: indicative
+    tense: past
+    voice: reflexive
+  expected: maa-na-adhi
+- features:
+    mood: indicative
+    tense: present
+    voice: reflexive
+  expected: maa-na-aya
+- features:
+    tense: past
+  expected: maani
+- features:
+    tense: present
+  expected: maanaa
+---
+lemma: ngalbu
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: ngalbunhu
+- features:
+    mood: imperative
+  expected: ngalburru
+- features:
+    tense: past
+  expected: ngalburrin
+- features:
+    tense: present
+  expected: ngalburr
+---
+lemma: nhaa
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: nhaa-dhi-nhu
+- features:
+    mood: imperative
+  expected: nhaawaa
+- features:
+    mood: imperative
+    voice: reflexive
+  expected: nhaa-dha-ayi
+- features:
+    mood: indicative
+    tense: past
+    voice: reflexive
+  expected: nhaa-dha-adhi
+- features:
+    mood: indicative
+    tense: present
+    voice: reflexive
+  expected: nhaa-dha-aya
+- features:
+    tense: past
+  expected: nhaadhi
+- features:
+    tense: present
+  expected: nhaamaa
+---
+lemma: wu
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: wu-na-nhu
+- features:
+    mood: imperative
+  expected: wunaa
+- features:
+    mood: imperative
+    voice: reflexive
+  expected: wuu-dha-ayi
+- features:
+    mood: indicative
+    tense: past
+    voice: reflexive
+  expected: wuu-dha-adhi
+- features:
+    mood: indicative
+    tense: present
+    voice: reflexive
+  expected: wuu-dha-aya
+- features:
+    tense: past
+  expected: wunay
+- features:
+    tense: present
+  expected: wunaa

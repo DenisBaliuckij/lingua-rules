@@ -1,0 +1,41 @@
+lemma: hemey
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: heqey
+---
+lemma: nia
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ceya
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: qeya
+- features:
+    number: plural
+    person: first
+  expected: nea
+- features:
+    number: plural
+    person: second
+  expected: eya
+- features:
+    number: plural
+    person: third
+  expected: teya
+- features:
+    number: singular
+    person: first
+  expected: nia
+- features:
+    number: singular
+    person: second
+  expected: mea

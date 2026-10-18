@@ -1,0 +1,93 @@
+lemma: ay
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    case: ergative
+    number: singular
+    person: third
+  expected: manii
+- features:
+    animacy: animate
+    case: nominative
+    number: plural
+    person: third
+  expected: mẽẽ
+- features:
+    animacy: animate
+    case: nominative
+    number: singular
+    person: third
+  expected: i
+- features:
+    animacy: animate
+    case: oblique
+    number: singular
+    person: third
+  expected: mas
+- features:
+    animacy: inanimate
+    case: nominative
+    number: singular
+    person: third
+  expected: yee
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ay
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: bi
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ay
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: tu
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: amaa
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: mya
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: muu
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: too
+---
+lemma: sãã
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: suni
+- features:
+    gender: feminine
+    number: singular
+  expected: sããĩ
+- features:
+    gender: masculine
+    number: plural
+  expected: suna
+- features:
+    gender: masculine
+    number: singular
+  expected: sãã

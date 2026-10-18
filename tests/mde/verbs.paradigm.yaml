@@ -1,0 +1,271 @@
+lemma: kárà
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: márà
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: mámárì
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: wárà
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: wáwárì
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kárà
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kákárì
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tárà
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tátárì
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: gàràɓndì
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ákárà
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ákárì
+- features:
+    number: plural
+    person: second
+  expected: kàràɓn
+- features:
+    number: singular
+    person: second
+  expected: gàràɓn
+- features:
+    verb_form: converb
+  expected: káràn
+---
+lemma: k̀k̀n
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: k̀k̀
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: kàkân
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: k̀k̀
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: gágân
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: màmá
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: màmáy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kàká
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kàkáy
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wàwá
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wàwáy
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: áká
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ákáy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: future
+  expected: gâtân
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: gágândì
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: gágá
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: gágáy
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tàtá
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tàtáy
+- features:
+    verb_form: converb
+  expected: k̀k̀n
+- features:
+    verb_form: verbal_noun
+  expected: ḱk̀n
+---
+lemma: lŋìn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: lŋà-s-í-r-ì
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: à-lŋìn-á
+---
+lemma: ttám
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: á-ttám-í-r-ì
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: á-ttám-ŋ-à
+---
+lemma: wáŋ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: à-wàŋ-k-í-r-ì
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: à-wáŋ-n-á
+---
+lemma: ànílì
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+  expected: k-ìmb-ìnílì
+- features:
+    number: plural
+    person: third
+  expected: ànílì
+- features:
+    number: singular
+    person: first
+  expected: à-nd-ìnílì
+- features:
+    number: singular
+    person: second
+  expected: mb-ìnílì
+- features:
+    number: singular
+    person: third
+  expected: ànílì

@@ -1,0 +1,146 @@
+lemma: aqh
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+  expected: chaqhak
+- features:
+    gender: masculine
+    mood: indicative
+  expected: apchaqhak
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kélaqhak
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: negaqhak
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: egaqhak
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: eyaqhak
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: eyaqhak
+---
+lemma: mah
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: apmahágko
+- features:
+    aspect: perfective
+  expected: apmahéyak
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: apmahágkek
+- features:
+    case: nominative
+    number: singular
+  expected: apmahágkaxa
+- features:
+    mood: imperative
+  expected: emhok
+- features:
+    mood: imperative
+    person: second
+  expected: apmahágkok
+- features:
+    mood: potential
+  expected: emhagkok
+---
+lemma: teyen
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    case: nominative
+    mood: indicative
+    number: singular
+    person: second
+  expected: apteyenma
+- features:
+    aspect: perfective
+    case: oblique
+    mood: indicative
+    number: singular
+    person: second
+  expected: aptena
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: etyen
+- features:
+    mood: potential
+    number: singular
+    person: second
+  expected: etyenek
+---
+lemma: wa
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: imperative
+  expected: apwa’a
+- features:
+    aspect: imperfective
+    mood: indicative
+  expected: apwa’ak
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: apwe
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: apwa’ak
+- features:
+    case: oblique
+  expected: apwakxa
+- features:
+    mood: potential
+  expected: ewak
+---
+lemma: xeyenwa
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: imperative
+  expected: apxeyenwa’a
+- features:
+    aspect: imperfective
+    mood: indicative
+  expected: apxeyenwa’ak
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: apxeyenwe
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: apxeyenwa’ak
+- features:
+    case: oblique
+  expected: apxeyenwakxa
+- features:
+    mood: potential
+  expected: exyenwak

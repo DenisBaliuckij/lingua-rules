@@ -1,0 +1,522 @@
+lemma: aja
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: ajanu
+- features:
+    aspect: perfective
+    tense: past
+  expected: ajayi
+- features:
+    mood: conditional
+    tense: future
+  expected: ajandandha
+- features:
+    mood: imperative
+  expected: ajaga
+- features:
+    mood: indicative
+    tense: future
+  expected: ajandha
+- features:
+    tense: present
+  expected: ajaa
+---
+lemma: amdi
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: arndinu
+- features:
+    aspect: perfective
+    tense: past
+  expected: arndii
+- features:
+    mood: conditional
+    tense: future
+  expected: arndindandha
+- features:
+    mood: imperative
+  expected: arndiga
+- features:
+    mood: indicative
+    tense: future
+  expected: arndindha
+- features:
+    tense: present
+  expected: arndiya
+- features:
+    verb_form: converb
+  expected: arndigula
+---
+lemma: arda
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: ardanu
+- features:
+    aspect: perfective
+    tense: past
+  expected: ardayi
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: ardanggula
+- features:
+    mood: imperative
+  expected: ardaga
+- features:
+    mood: indicative
+    tense: future
+  expected: ardandha
+- features:
+    mood: subjunctive
+    tense: future
+  expected: ardandandha
+- features:
+    tense: present
+  expected: ardaka
+---
+lemma: arliba
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: arlibanu
+- features:
+    aspect: perfective
+    tense: past
+  expected: arlibayi
+- features:
+    mood: conditional
+    tense: future
+  expected: arlibandandha
+- features:
+    mood: imperative
+  expected: arlibaga
+- features:
+    mood: indicative
+    tense: future
+  expected: arlibandha
+- features:
+    tense: present
+  expected: arlibaa
+- features:
+    verb_form: converb
+  expected: arlibangula
+---
+lemma: atka
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: atkanu
+- features:
+    aspect: perfective
+    tense: past
+  expected: atkayi
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: atkanggula
+- features:
+    mood: imperative
+  expected: atkaga
+- features:
+    mood: indicative
+    tense: future
+  expected: atkandha
+- features:
+    mood: subjunctive
+    tense: future
+  expected: atkandandha
+- features:
+    tense: present
+  expected: atkaka
+---
+lemma: awu
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: awunu
+- features:
+    aspect: perfective
+    tense: past
+  expected: awn
+- features:
+    mood: conditional
+    tense: future
+  expected: awundandha
+- features:
+    mood: imperative
+  expected: awuga
+- features:
+    mood: indicative
+    tense: future
+  expected: awundha
+- features:
+    verb_form: converb
+  expected: awunggula
+---
+lemma: calvaba
+category: verbs
+cases:
+- features:
+    mood: conditional
+    tense: future
+  expected: calyabandandha
+- features:
+    mood: imperative
+  expected: calvaba
+- features:
+    tense: past
+  expected: calyabanhii
+- features:
+    tense: present
+  expected: calyabanhaa
+- features:
+    verb_form: converb
+  expected: calyabinggula
+---
+lemma: inga
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: inginu
+- features:
+    aspect: perfective
+    tense: past
+  expected: ingii
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: inggagula
+- features:
+    mood: imperative
+  expected: inggaa
+- features:
+    mood: indicative
+    tense: future
+  expected: inganhaa
+- features:
+    mood: subjunctive
+    tense: future
+  expected: ingandandha
+- features:
+    tense: present
+  expected: inggaa
+---
+lemma: matka
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: matkanggula
+- features:
+    mood: imperative
+  expected: mata
+- features:
+    mood: indicative
+    tense: future
+  expected: mandhaa
+- features:
+    mood: subjunctive
+    tense: future
+  expected: mandhandha
+- features:
+    tense: past
+  expected: matn
+- features:
+    tense: present
+  expected: matka
+---
+lemma: ngala
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: ngalaw
+- features:
+    aspect: perfective
+    tense: past
+  expected: ngalayi
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: ngalunggagula
+- features:
+    mood: imperative
+  expected: ngala
+- features:
+    mood: indicative
+    tense: future
+  expected: ngarnmanhaa
+- features:
+    mood: subjunctive
+    tense: future
+  expected: ngarnmandandha
+- features:
+    tense: present
+  expected: ngalaa
+---
+lemma: pitu
+category: verbs
+cases:
+- features:
+    mood: conditional
+    tense: future
+  expected: pitundandha
+- features:
+    mood: imperative
+  expected: pituga
+- features:
+    tense: past
+  expected: pitunhii
+- features:
+    tense: present
+  expected: pitunhaa
+- features:
+    verb_form: converb
+  expected: pitunggula
+---
+lemma: uudada
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: uudadanggula
+- features:
+    mood: conditional
+    tense: future
+  expected: uudandandha
+- features:
+    mood: imperative
+  expected: uudad?
+- features:
+    tense: future
+  expected: uudadandha
+- features:
+    tense: past
+  expected: uudadii
+- features:
+    tense: present
+  expected: uudada
+---
+lemma: wada
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: wadanu
+- features:
+    aspect: perfective
+    tense: past
+  expected: wadayi
+- features:
+    mood: conditional
+    tense: future
+  expected: wadandandha
+- features:
+    mood: imperative
+  expected: wadaga
+- features:
+    mood: indicative
+    tense: future
+  expected: wadandha
+- features:
+    tense: present
+  expected: wadaa
+- features:
+    verb_form: converb
+  expected: wadanggula
+---
+lemma: wadada
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: wadadanggula
+- features:
+    mood: conditional
+    tense: future
+  expected: wadadandandha
+- features:
+    mood: imperative
+  expected: wadad?
+- features:
+    tense: future
+  expected: wadadandha
+- features:
+    tense: past
+  expected: wadadii
+- features:
+    tense: present
+  expected: wadada
+---
+lemma: wadadicada
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: wadadicadandha
+- features:
+    tense: past
+  expected: wadadicadii
+- features:
+    tense: present
+  expected: wadadicada
+---
+lemma: wathada
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: wathadanggula
+- features:
+    mood: conditional
+    tense: future
+  expected: wathadandandha
+- features:
+    mood: imperative
+  expected: wathad?
+- features:
+    tense: future
+  expected: wathadandha
+- features:
+    tense: past
+  expected: wathadii
+- features:
+    tense: present
+  expected: wathada
+---
+lemma: wumba
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: wumbanu
+- features:
+    aspect: perfective
+    tense: past
+  expected: wumbayi
+- features:
+    mood: conditional
+    tense: future
+  expected: wumbandandha
+- features:
+    mood: imperative
+  expected: wumbaga
+- features:
+    mood: indicative
+    tense: future
+  expected: wumbandha
+- features:
+    tense: present
+  expected: wumbaa
+- features:
+    verb_form: converb
+  expected: wumbagula
+---
+lemma: wurtka
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: wurtkanggula
+- features:
+    mood: imperative
+  expected: wurta
+- features:
+    mood: indicative
+    tense: future
+  expected: wurndhaa
+- features:
+    mood: subjunctive
+    tense: future
+  expected: wurndhandha
+- features:
+    tense: past
+  expected: wurtn
+- features:
+    tense: present
+  expected: wurtka
+---
+lemma: yatka
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: yatkanggula
+- features:
+    mood: imperative
+  expected: yatkada
+- features:
+    tense: future
+  expected: yatkandha
+- features:
+    tense: past
+  expected: yatkanu
+- features:
+    tense: present
+  expected: yatkandha
+---
+lemma: yatka+yana
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: yatkayu
+- features:
+    mood: imperative
+  expected: yatkayu
+- features:
+    tense: future
+  expected: yatkandhayana
+- features:
+    tense: past
+  expected: yatkayu
+- features:
+    tense: present
+  expected: yatkayu
+---
+lemma: yatka+yu
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: yatkayu
+- features:
+    mood: imperative
+  expected: yatkayu
+- features:
+    tense: future
+  expected: yatkandhayana
+- features:
+    tense: past
+  expected: yatkayu
+- features:
+    tense: present
+  expected: yatkayu

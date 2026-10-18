@@ -1,0 +1,21 @@
+lemma: ahagkok
+category: pronouns
+cases:
+- features:
+    gender: feminine
+  expected: agkok
+- features:
+    gender: masculine
+  expected: apagkok
+- features:
+    number: plural
+    person: first
+  expected: egagkok
+- features:
+    number: plural
+    person: second
+  expected: kélagkok
+- features:
+    number: singular
+    person: first
+  expected: ahagkok

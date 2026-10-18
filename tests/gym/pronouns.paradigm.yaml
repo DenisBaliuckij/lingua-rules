@@ -1,0 +1,158 @@
+lemma: drekua
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: drekua
+- features:
+    case: nominative
+  expected: drekua
+---
+lemma: mo
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: mo
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: moe
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: mo
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: mo
+---
+lemma: mun
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: mun
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: munyen
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: mun
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: munwen
+---
+lemma: niara
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: niarae
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: niara
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: niara
+---
+lemma: niaratre
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: niara trey e
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: niaratreye
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: niaratrewe
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: niaratre
+---
+lemma: nir^
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: ne nie
+- features:
+    case: nominative
+  expected: nir^
+---
+lemma: nun
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nun
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: nie
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: nunwen
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nun
+---
+lemma: ti
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ti
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: tie
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: tiwe
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ti

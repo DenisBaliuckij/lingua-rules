@@ -1,0 +1,31 @@
+lemma: dadi
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: dadi
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: deen
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: dees
+---
+lemma: žu
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: žu
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: žun
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: žuwes

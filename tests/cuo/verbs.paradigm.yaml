@@ -1,0 +1,277 @@
+lemma: akipü
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ayakipiatese
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: manakipiateu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wakipiase
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ayakipiase
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: manakipiase
+---
+lemma: apoi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: ketapoikato
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: ketapoikai
+- features:
+    number: plural
+    polarity: affirmative
+    verb_form: participle
+  expected: apoikaneyan
+- features:
+    number: plural
+    polarity: negative
+    verb_form: participle
+  expected: apoikapnan
+- features:
+    number: plural
+    verb_form: past_participle
+  expected: tapoikasan
+- features:
+    number: singular
+    polarity: affirmative
+    verb_form: participle
+  expected: apoikanei
+- features:
+    number: singular
+    polarity: negative
+    verb_form: participle
+  expected: apoikapün
+- features:
+    number: singular
+    verb_form: past_participle
+  expected: tapoikasen
+---
+lemma: apoika
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mapoikatese
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: mayapoikateu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wapoikase
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mapoikase
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mayapoikan
+---
+lemma: are
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: masaratese
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: masarateu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wasarase
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: masarase
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: masaran
+---
+lemma: ikake
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: apoikateke
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: apoikake
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: yapoikai
+---
+lemma: kuwarü
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: tikatene
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kateke
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: tateu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kake
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: tai
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: mükatechin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mükateu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mükatese
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: katechin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tateu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: inchateu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: mükachin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mükai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: mükatakai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mükase
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: kachin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: katakai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: inchan

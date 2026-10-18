@@ -1,0 +1,165 @@
+lemma: as
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: astis
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: astis
+- features:
+    number: plural
+    person: second
+  expected: astesu
+- features:
+    number: plural
+    person: third
+  expected: asti
+- features:
+    number: singular
+    person: second
+  expected: as
+- features:
+    number: singular
+    person: third
+  expected: as
+---
+lemma: fher-ba
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: her
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: her-u
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: her-le
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: her-tesu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: her-ela
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: her-tcs
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: her-u-a
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: her-lea?
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: herelea?
+- features:
+    number: plural
+    tense: past
+  expected: her-us
+- features:
+    number: plural
+    tense: perfect
+  expected: her-u-ti
+- features:
+    number: singular
+    tense: past
+  expected: her-us
+- features:
+    number: singular
+    tense: perfect
+  expected: her-u-ti
+---
+lemma: gach-ba
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: gache
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: gach
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: gach-le
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: gilch-tesu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: gach-tere
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: gach-tes
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: gachu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: gilch-la
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ach-lCls
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: gilch-terca?
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: gachla?

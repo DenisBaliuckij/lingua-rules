@@ -1,0 +1,63 @@
+lemma: beye
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: behäli
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: beyit
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: behät
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: bewut
+- features:
+    number: plural
+    person: second
+  expected: behätum
+- features:
+    number: singular
+    person: first
+  expected: beye
+---
+lemma: geg
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: gEg-NE
+- features:
+    number: plural
+    person: second
+  expected: geghum
+- features:
+    number: plural
+    person: third
+  expected: gegnom
+---
+lemma: gegbegeg
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: gegbegegne
+- features:
+    number: plural
+    person: second
+  expected: gegbegeghum
+- features:
+    number: plural
+    person: third
+  expected: gegbegegnom

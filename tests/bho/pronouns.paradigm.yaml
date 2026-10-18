@@ -1,0 +1,163 @@
+lemma: je
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: jink le
+- features:
+    case: genitive
+    number: singular
+  expected: jeh
+- features:
+    case: nominative
+    number: plural
+  expected: je sab
+- features:
+    case: nominative
+    number: singular
+  expected: je
+- features:
+    case: oblique
+    number: plural
+  expected: jinh
+- features:
+    case: oblique
+    number: singular
+  expected: jeh
+---
+lemma: se
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: unh ke
+- features:
+    case: genitive
+    number: singular
+  expected: t^h ke
+- features:
+    case: nominative
+    number: plural
+  expected: se sabk
+- features:
+    case: nominative
+    number: singular
+  expected: te
+- features:
+    case: oblique
+    number: plural
+  expected: tinh
+- features:
+    case: oblique
+    number: singular
+  expected: t^h
+---
+lemma: एक
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: dual
+    person: third
+  expected: हेकनी के
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+    person: third
+  expected: इनकनी के
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: एकनी के
+- features:
+    case: nominative
+    gender: masculine
+    number: dual
+    person: third
+  expected: हेकर
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+    person: third
+  expected: इनकर
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: एकर
+---
+lemma: ओ
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: dual
+    person: third
+  expected: होकनी के
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+    person: third
+  expected: उनकनी के
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: ओकनी के
+- features:
+    case: nominative
+    gender: masculine
+    number: dual
+    person: third
+  expected: होकर
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+    person: third
+  expected: उनकर
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: ओकर
+---
+lemma: हम
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: हमनी
+- features:
+    number: plural
+    person: second
+  expected: तोहनी
+- features:
+    number: plural
+    person: third
+  expected: ओकनी
+- features:
+    number: singular
+    person: first
+  expected: हम
+- features:
+    number: singular
+    person: second
+  expected: तू
+- features:
+    number: singular
+    person: third
+  expected: ऊ

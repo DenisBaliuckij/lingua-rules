@@ -1,0 +1,55 @@
+lemma: i
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    definiteness: definite
+    number: plural
+  expected: si
+- features:
+    animacy: inanimate
+    definiteness: definite
+    number: singular
+  expected: i
+---
+lemma: sĨĨ
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: sigo
+- features:
+    animacy: animate
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: sĨĨ
+- features:
+    animacy: animate
+    definiteness: definite
+    number: plural
+  expected: sĨĨsã
+---
+lemma: ĩĩ
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: igo
+- features:
+    animacy: animate
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: ĩĨ
+- features:
+    animacy: animate
+    definiteness: definite
+    number: plural
+  expected: ĩĨsã

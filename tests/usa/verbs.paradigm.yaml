@@ -1,0 +1,191 @@
+lemma: agataVla
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: agataakao
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: agatao
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: agatarajye
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: agatanive
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: agataiye
+---
+lemma: itaVlb
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: itaakao
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: itaao
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: itaraive
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: itanlve
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: itajye
+---
+lemma: kautoQIRb
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: kautokao
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kautuwo
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: kautajye
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+  expected: kaugurajve
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: kautiniye
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+  expected: kauginive
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kautive
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+  expected: kaugjye
+---
+lemma: keV
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: newaiye
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: natukaiye
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: neqiye
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: natuwaiye
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kenaiye
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: narajye
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: naniye
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: natikaiye
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: nemaiye
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: aorist
+  expected: narenae
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: future
+  expected: nanenae

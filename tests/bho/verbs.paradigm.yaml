@@ -1,0 +1,454 @@
+lemma: dekh
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: dekhal
+- features:
+    verb_form: past_participle
+  expected: dekhal
+- features:
+    verb_form: present_participle
+  expected: dekhait
+---
+lemma: dhar
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: dharal
+- features:
+    verb_form: past_participle
+  expected: dhail
+- features:
+    verb_form: present_participle
+  expected: dharait
+---
+lemma: hoi
+category: verbs
+cases:
+- features:
+    number: singular
+    verb_form: present_participle
+  expected: ho'it
+- features:
+    verb_form: infinitive
+  expected: hoeh
+- features:
+    verb_form: past_participle
+  expected: bhel
+---
+lemma: kar
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: karaL
+- features:
+    verb_form: past_participle
+  expected: kail
+- features:
+    verb_form: present_participle
+  expected: karait
+---
+lemma: खा
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kʰʌibu
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: kʰʌibu
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: खइलू
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: खइली
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: खइलन
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: खइलऽ
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: खइलक
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: kʰɑem
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kʰʌibʌ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: खइले
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: kʰʌiɦẽ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: kʰɑem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: खइनी
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: kʰʌibʌ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: खइिलस
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: kʰʌiɦẽ
+- features:
+    number: plural
+    person: third
+  expected: खालन
+- features:
+    number: singular
+    person: first
+  expected: खानी
+- features:
+    number: singular
+    person: second
+  expected: खालऽ
+- features:
+    number: singular
+    person: third
+  expected: खाल
+---
+lemma: खानि
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: खालू
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: खालऽ
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: खाला
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: खानी
+---
+lemma: देख
+category: verbs
+cases:
+- features:
+    gender: common
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: देखताड़े
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: dekʰbu
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: dekʰbu
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: देखलू
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: देखताड़ू
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: देखली
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: देखताड़ी
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: देखलन
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: देखलऽ
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: देखताड़ऽ
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: देखलक
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: देखताड़
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: dekʰem
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: dekʰiɦʌ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: देखले
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: dekʰiɦẽ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: dekʰem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: देखनी
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: देखतानी
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: dekʰiɦʌ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: देखिलस
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: dekʰiɦẽ
+- features:
+    number: plural
+    person: third
+  expected: देखेलन
+- features:
+    number: singular
+    person: first
+  expected: देखेनी
+- features:
+    number: singular
+    person: second
+  expected: देखेलऽ
+- features:
+    number: singular
+    person: third
+  expected: देखेल
+---
+lemma: रह
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: रहनी
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: रहलू
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: रहली
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: रहलेन
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: रहलऽ
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: रहस
+---
+lemma: रहनि
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: रहेलू
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: रहेले
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: रहेलऽ
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: रहेला
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: रहेनी

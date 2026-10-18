@@ -1,0 +1,111 @@
+lemma: dabd
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: dabai
+- features:
+    tense: present
+  expected: dabd
+---
+lemma: nene
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: neaba
+- features:
+    aspect: perfective
+    tense: past
+  expected: neani
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: nene
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nene
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nene
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nene
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nene
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nene
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nene
+- features:
+    mood: indicative
+    tense: future
+  expected: neai
+- features:
+    tense: past
+  expected: neabarera
+- features:
+    verb_form: infinitive
+  expected: nene
+---
+lemma: noaine
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: noaimane
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: future
+  expected: noaindi
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: noaimanena
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: noaine
+- features:
+    verb_form: infinitive
+  expected: noaine
+---
+lemma: tau
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: namani
+- features:
+    tense: perfect
+  expected: namanina
+- features:
+    tense: present
+  expected: tau

@@ -1,0 +1,171 @@
+lemma: demun
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: demei
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: deme
+- features:
+    number: plural
+    polarity: negative
+    tense: future
+  expected: demejere
+- features:
+    number: plural
+    polarity: negative
+    tense: past
+  expected: demele
+- features:
+    number: singular
+    polarity: negative
+    tense: future
+  expected: demejoro
+- features:
+    number: singular
+    polarity: negative
+    tense: past
+  expected: demerun
+---
+lemma: gii
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: giyɛi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: giyɛ
+- features:
+    number: plural
+    polarity: negative
+    tense: future
+  expected: giyɛjere
+- features:
+    number: plural
+    polarity: negative
+    tense: past
+  expected: giyɛle
+- features:
+    number: singular
+    polarity: negative
+    tense: future
+  expected: giyɛjoro
+- features:
+    number: singular
+    polarity: negative
+    tense: past
+  expected: giyɛru
+---
+lemma: nonhin
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: non
+- features:
+    number: plural
+    polarity: negative
+    tense: future
+  expected: nonjere
+- features:
+    number: singular
+    polarity: negative
+    tense: future
+  expected: nonjoro
+---
+lemma: oi
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: eme
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: e
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: be
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: in
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: u
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: oi
+- features:
+    number: plural
+    polarity: negative
+    tense: future
+  expected: ojere
+- features:
+    number: plural
+    polarity: negative
+    tense: past
+  expected: ole
+- features:
+    number: singular
+    polarity: negative
+    tense: future
+  expected: ojoro
+- features:
+    number: singular
+    polarity: negative
+    tense: past
+  expected: olu
+---
+lemma: yɛru
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: yɛrɛi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: yɛrɛ

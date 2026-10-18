@@ -1,0 +1,151 @@
+lemma: say
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: nchik-man
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: wa-nchik-manamv
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: y-manamv
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: nki-man
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: n-man
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: y
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: chun
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: shun
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: wa-shunamv
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: wa-rqa-nchikamv
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: wa-nchikamv
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: wa-nkiamv
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: wa-rqa-nkiamv
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wa-nkiamv
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: sHQayki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: rqa-ykiamv
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: yki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: wa-ngaamv
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wa-rqa-øamv
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wa-namv
+- features:
+    number: plural
+    person: first
+  expected: pti-nchik
+- features:
+    number: plural
+    person: first
+    verb_form: participle
+  expected: shpa
+- features:
+    number: singular
+    person: first
+  expected: pti-yamv
+- features:
+    number: singular
+    person: first
+    verb_form: participle
+  expected: shpa
+- features:
+    number: singular
+    person: second
+  expected: pti-ki
+- features:
+    number: singular
+    person: second
+    verb_form: participle
+  expected: shpa
+- features:
+    number: singular
+    person: third
+  expected: pti-n
+- features:
+    number: singular
+    person: third
+    verb_form: participle
+  expected: shpa

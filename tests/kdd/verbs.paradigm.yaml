@@ -1,0 +1,171 @@
+lemma: patja
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: patjaningi
+- features:
+    aspect: imperfective
+    mood: imperative
+  expected: patjanma
+- features:
+    aspect: imperfective
+    tense: past
+  expected: patjaningi
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: patjala
+- features:
+    aspect: perfective
+    number: dual
+    tense: past
+  expected: patja
+- features:
+    aspect: perfective
+    tense: past
+  expected: patjala
+- features:
+    mood: imperative
+  expected: patjanma
+- features:
+    tense: future
+  expected: patjal-ku
+- features:
+    tense: present
+  expected: patjani
+- features:
+    verb_form: converb
+  expected: patjara
+- features:
+    verb_form: verbal_noun
+  expected: patjal-payi
+---
+lemma: pu
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: punga-ngi
+- features:
+    aspect: imperfective
+    mood: imperative
+  expected: punga-ma
+- features:
+    aspect: imperfective
+    tense: past
+  expected: punga-ngi
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: puwa
+- features:
+    aspect: perfective
+    number: dual
+    tense: past
+  expected: pungu
+- features:
+    aspect: perfective
+    tense: past
+  expected: pungu
+- features:
+    mood: imperative
+  expected: punga-ma
+- features:
+    tense: future
+  expected: pungku-ku
+- features:
+    tense: present
+  expected: punga-nyi
+- features:
+    verb_form: converb
+  expected: pungku-la
+- features:
+    verb_form: verbal_noun
+  expected: pungku-payi
+---
+lemma: tju
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: tjuna-ngi
+- features:
+    aspect: imperfective
+    mood: imperative
+  expected: tjuna-ma
+- features:
+    aspect: imperfective
+    tense: past
+  expected: tjuna-ngi
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: tjura
+- features:
+    aspect: perfective
+    number: dual
+    tense: past
+  expected: tjunu
+- features:
+    aspect: perfective
+    tense: past
+  expected: tjunu
+- features:
+    mood: imperative
+  expected: tjuna-ma
+- features:
+    tense: future
+  expected: tjuna-nyi
+- features:
+    tense: present
+  expected: tjuna-nyi
+- features:
+    verb_form: converb
+  expected: tjunku-la
+- features:
+    verb_form: verbal_noun
+  expected: tjunku-payi
+---
+lemma: wangka
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: wangkangi
+- features:
+    aspect: imperfective
+    mood: imperative
+  expected: wangkama
+- features:
+    aspect: imperfective
+    tense: past
+  expected: wangkangi
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: wangka
+- features:
+    aspect: perfective
+    number: dual
+    tense: past
+  expected: wangkangu
+- features:
+    aspect: perfective
+    tense: past
+  expected: wangkangu
+- features:
+    mood: imperative
+  expected: wangkama
+- features:
+    tense: future
+  expected: wangkaku
+- features:
+    tense: present
+  expected: wangkanyi
+- features:
+    verb_form: converb
+  expected: wangkara
+- features:
+    verb_form: verbal_noun
+  expected: wangkapayi
