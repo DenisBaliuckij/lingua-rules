@@ -1,0 +1,23 @@
+lemma: rúmma
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: rummá-si
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: rúmmag
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: a-rúmma-m
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: rúmma

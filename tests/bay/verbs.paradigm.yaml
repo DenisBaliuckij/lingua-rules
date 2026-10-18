@@ -1,0 +1,40 @@
+lemma: af
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: singular
+    person: third
+    polarity: affirmative
+    voice: active
+  expected: afon
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+    voice: active
+  expected: afoisit
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+    voice: active
+  expected: afoikem
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+    voice: active
+  expected: afoii
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+    voice: active
+  expected: afong
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+    voice: active
+  expected: afog

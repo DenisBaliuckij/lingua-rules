@@ -1,0 +1,134 @@
+lemma: am
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: bidur
+- features:
+    number: plural
+    person: second
+  expected: yam
+- features:
+    number: plural
+    person: third
+  expected: oqt
+- features:
+    number: singular
+    person: first
+  expected: am
+- features:
+    number: singular
+    person: second
+  expected: mam
+---
+lemma: am-at
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: bidurd-at
+- features:
+    number: plural
+    person: second
+  expected: yam-at
+- features:
+    number: plural
+    person: third
+  expected: ort-at
+- features:
+    number: singular
+    person: first
+  expected: am-at
+- features:
+    number: singular
+    person: second
+  expected: mam-at
+---
+lemma: an
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: birdat
+- features:
+    number: plural
+    person: second
+  expected: yan
+- features:
+    number: plural
+    person: third
+  expected: kardat
+- features:
+    number: singular
+  expected: modat
+- features:
+    number: singular
+    person: first
+  expected: an
+- features:
+    number: singular
+    person: second
+  expected: man
+- features:
+    number: singular
+    person: third
+  expected: jan
+---
+lemma: b)Èi
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: b)Èi
+---
+lemma: duq’u
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: duqt
+- features:
+    definiteness: definite
+    number: singular
+  expected: duq’u
+---
+lemma: j)q’)
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: j)qt
+- features:
+    definiteness: definite
+    number: singular
+  expected: j)q’)
+---
+lemma: jerde
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: jertet
+- features:
+    definiteness: definite
+    number: singular
+  expected: jerde
+---
+lemma: nara
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: nart
+- features:
+    definiteness: definite
+    number: singular
+  expected: nara

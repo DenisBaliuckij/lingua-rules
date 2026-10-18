@@ -1,0 +1,23 @@
+lemma: nja
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nja
+- features:
+    number: plural
+    person: second
+  expected: an
+---
+lemma: nji
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: nji
+- features:
+    number: singular
+    person: second
+  expected: iwi

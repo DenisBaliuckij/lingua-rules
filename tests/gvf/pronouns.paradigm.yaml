@@ -1,0 +1,87 @@
+lemma: gbalini
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: gbalini
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: i
+---
+lemma: i '^^^
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: i '^^^
+---
+lemma: i y^^^
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: i y^^^
+---
+lemma: ibal .kobe
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ibal .kobe
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: na
+---
+lemma: ng ibal .kobe
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ng ibal .kobe
+---
+lemma: ng inan
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ng inan
+---
+lemma: ng yasu
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ng yasu
+---
+lemma: yallni
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: yallni
+---
+lemma: yasu
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: yasu

@@ -1,0 +1,73 @@
+lemma: buna
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: participle
+  expected: buata
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: buaya
+---
+lemma: chala
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: chalen
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: chalo
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: chalen
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: chalaun
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: chalasu
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: chalu
+---
+lemma: lana
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: participle
+  expected: laata
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: laaya
+---
+lemma: sona
+category: verbs
+cases:
+- features:
+    case: nominative
+    number: singular
+  expected: soya
+- features:
+    case: oblique
+    number: plural
+  expected: soyii
+- features:
+    case: oblique
+    number: singular
+  expected: soye

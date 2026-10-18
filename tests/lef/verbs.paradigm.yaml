@@ -1,0 +1,237 @@
+lemma: adu
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: bitadu
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: bitadu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: tadu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: tadu
+---
+lemma: dia
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: bdia
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: bcdia
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: badla
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ndla
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: adia
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: dia
+---
+lemma: dt
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bédt
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: dt
+---
+lemma: du
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bédu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: du
+---
+lemma: efwi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: bitefwi
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: bitefwi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: tefwi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: tefwi
+---
+lemma: fo
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: bitafio
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: tafo
+---
+lemma: fwi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bifwi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: fwi
+---
+lemma: lemi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bélemi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: lemi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: talemi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: talemi
+---
+lemma: tina
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bétina
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: bit&tina
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: bltatina
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tina
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: tatina
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: tatinli
+---
+lemma: ts
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bits
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ts

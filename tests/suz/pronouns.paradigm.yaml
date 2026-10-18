@@ -1,0 +1,177 @@
+lemma: ani
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ani
+---
+lemma: ansi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ansi
+---
+lemma: eNko
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: eNko nimphA
+- features:
+    number: plural
+    person: third
+  expected: eNkopik
+- features:
+    number: singular
+    person: third
+  expected: eNko
+---
+lemma: go
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: gonimphA
+- features:
+    number: dual
+    person: second
+  expected: goinimphA
+- features:
+    number: plural
+    person: first
+  expected: gopik
+- features:
+    number: plural
+    person: second
+  expected: goi
+- features:
+    number: singular
+    person: first
+  expected: go
+- features:
+    number: singular
+    person: second
+  expected: goi
+---
+lemma: hare mere
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: hare mere nimphA
+- features:
+    number: plural
+    person: third
+  expected: hare merepik
+- features:
+    number: singular
+    person: third
+  expected: hare mere
+---
+lemma: kene
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: kene
+---
+lemma: keni
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: keni
+---
+lemma: kensi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: kensi
+---
+lemma: khen
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: khen
+---
+lemma: kon
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: kon
+- features:
+    number: singular
+    person: third
+  expected: kon
+---
+lemma: konha
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: konha
+- features:
+    number: plural
+    person: third
+  expected: konha
+---
+lemma: kune
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: kune
+---
+lemma: kuni
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: kuni
+---
+lemma: kunsì
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: kunsì
+---
+lemma: ma
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ma
+---
+lemma: meko
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: me?.nimpha
+- features:
+    number: plural
+    person: third
+  expected: me?.pik
+- features:
+    number: singular
+    person: third
+  expected: me?

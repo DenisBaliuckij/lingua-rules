@@ -1,0 +1,27 @@
+lemma: be
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: were
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: were
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: was
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: was

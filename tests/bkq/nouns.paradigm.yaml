@@ -1,0 +1,89 @@
+lemma: kono
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: kono
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: əukono
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: iukono
+---
+lemma: kug-iwidi
+category: nouns
+cases:
+- features:
+    case: vocative
+  expected: kug-iwidi
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: kug-iwidi
+---
+lemma: kugu
+category: nouns
+cases:
+- features:
+    case: vocative
+  expected: kugu
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: kugu
+---
+lemma: paigo
+category: nouns
+cases:
+- features:
+    case: vocative
+  expected: paigo
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ɨwaigo-ru
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: əwaigo-ru
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: iwaigo
+---
+lemma: seko
+category: nouns
+cases:
+- features:
+    case: vocative
+  expected: seko
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ise
+---
+lemma: ɨupɨ
+category: nouns
+cases:
+- features:
+    case: vocative
+  expected: ɨupɨ
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ɨupɨ
+---
+lemma: ɨupɨ-iso
+category: nouns
+cases:
+- features:
+    case: vocative
+  expected: ɨupɨ-iso
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ɨupɨ-iso

@@ -1,0 +1,151 @@
+lemma: aba
+category: verbs
+cases:
+- features:
+    animacy: animate
+    person: third
+  expected: gaba
+- features:
+    animacy: inanimate
+    person: third
+  expected: laba
+- features:
+    number: dual
+    person: first
+  expected: naba
+- features:
+    number: singular
+    person: second
+  expected: øaba
+---
+lemma: agal
+category: verbs
+cases:
+- features:
+    animacy: animate
+    person: third
+  expected: gagal
+- features:
+    animacy: inanimate
+    person: third
+  expected: sagal
+- features:
+    number: singular
+    person: first
+  expected: nagal
+- features:
+    number: singular
+    person: second
+  expected: øagal
+---
+lemma: bilan
+category: verbs
+cases:
+- features:
+    animacy: animate
+    person: third
+  expected: gabilan
+- features:
+    animacy: inanimate
+    person: third
+  expected: bilan
+- features:
+    number: dual
+    person: first
+  expected: nabilan
+- features:
+    number: singular
+    person: second
+  expected: abilan
+---
+lemma: epek
+category: verbs
+cases:
+- features:
+    animacy: animate
+    person: third
+  expected: gepek
+- features:
+    animacy: inanimate
+    person: third
+  expected: lepek
+- features:
+    number: dual
+    person: first
+  expected: nepek
+- features:
+    number: singular
+    person: second
+  expected: øepek
+---
+lemma: lumaq
+category: verbs
+cases:
+- features:
+    animacy: animate
+    person: third
+  expected: galumaq
+- features:
+    animacy: inanimate
+    person: third
+  expected: lumaq
+- features:
+    number: dual
+    person: first
+  expected: nalumaq
+- features:
+    number: singular
+    person: second
+  expected: alumaq
+---
+lemma: ue
+category: verbs
+cases:
+- features:
+    animacy: animate
+    person: third
+  expected: gue
+- features:
+    number: dual
+    person: first
+  expected: nue
+- features:
+    number: singular
+    person: second
+  expected: øue
+---
+lemma: ume
+category: verbs
+cases:
+- features:
+    animacy: animate
+    person: third
+  expected: gume
+- features:
+    number: dual
+    person: first
+  expected: nume
+- features:
+    number: singular
+    person: second
+  expected: øume
+---
+lemma: umi
+category: verbs
+cases:
+- features:
+    animacy: animate
+    person: third
+  expected: gumi
+- features:
+    animacy: inanimate
+    person: third
+  expected: sumi
+- features:
+    number: singular
+    person: first
+  expected: numi
+- features:
+    number: singular
+    person: second
+  expected: øumi

@@ -1,0 +1,63 @@
+lemma: ha
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: onh
+- features:
+    number: plural
+    person: first
+  expected: onh onh
+- features:
+    number: plural
+    person: second
+  expected: ex
+- features:
+    number: plural
+    person: third
+  expected: heb
+- features:
+    number: singular
+    person: first
+  expected: in
+- features:
+    number: singular
+    person: second
+  expected: ach
+- features:
+    number: singular
+    person: third
+  expected: ha
+---
+lemma: in
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ha’onh
+- features:
+    number: plural
+    person: first
+  expected: ha’onh onh
+- features:
+    number: plural
+    person: second
+  expected: ha’ex
+- features:
+    number: plural
+    person: third
+  expected: ha’ heb
+- features:
+    number: singular
+    person: first
+  expected: ha’in
+- features:
+    number: singular
+    person: second
+  expected: ha’ach
+- features:
+    number: singular
+    person: third
+  expected: ha

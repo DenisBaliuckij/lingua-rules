@@ -1,0 +1,47 @@
+lemma: egil
+category: nouns
+cases:
+- features:
+    animacy: animate
+    person: third
+  expected: gegil
+- features:
+    animacy: inanimate
+    person: third
+  expected: hegil
+- features:
+    number: dual
+    person: first
+  expected: negil
+- features:
+    number: singular
+    person: first
+  expected: øegil
+- features:
+    number: singular
+    person: second
+  expected: øegil
+---
+lemma: ua
+category: nouns
+cases:
+- features:
+    animacy: animate
+    person: third
+  expected: gua
+- features:
+    animacy: inanimate
+    person: third
+  expected: hua
+- features:
+    number: dual
+    person: first
+  expected: nua
+- features:
+    number: singular
+    person: first
+  expected: øua
+- features:
+    number: singular
+    person: second
+  expected: øua

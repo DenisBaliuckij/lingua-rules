@@ -1,0 +1,85 @@
+lemma: em
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: t?pela
+- features:
+    person: third
+  expected: tripe la
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: yumitupela
+- features:
+    number: dual
+    person: second
+  expected: yutupela
+- features:
+    number: dual
+    person: third
+  expected: t?pela
+- features:
+    number: plural
+    person: first
+  expected: yumi
+- features:
+    number: plural
+    person: second
+  expected: yupela
+- features:
+    number: plural
+    person: third
+  expected: ol
+- features:
+    number: singular
+    person: first
+  expected: mi
+- features:
+    number: singular
+    person: second
+  expected: yu
+- features:
+    number: singular
+    person: third
+  expected: em
+- features:
+    person: first
+  expected: yumitripela
+- features:
+    person: second
+  expected: yutripela
+- features:
+    person: third
+  expected: tripela
+---
+lemma: mipela
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: mitupela
+- features:
+    number: plural
+    person: first
+  expected: mipela
+- features:
+    person: first
+  expected: mitripela
+---
+lemma: yu
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: yutupela
+- features:
+    person: second
+  expected: yutripela

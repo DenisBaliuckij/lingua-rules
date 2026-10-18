@@ -1,0 +1,209 @@
+lemma: bi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: nam-ai.g
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: nam-d
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: bid
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: min-ii
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: bid
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: bii
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: bid
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: nam
+---
+lemma: ci
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: cam-ai.g
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: cam-d
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: tan-ai
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: cin-ii
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: taa
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: cii
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: tan
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: cam
+---
+lemma: e
+category: pronouns
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+  expected: ii-n
+- features:
+    case: ablative
+  expected: en-d-ees
+- features:
+    case: allative
+  expected: ee-sh
+- features:
+    case: direct
+    number: plural
+  expected: eud
+- features:
+    case: instrumental
+    number: plural
+  expected: e-d-geer
+- features:
+    case: locative
+  expected: en-d
+- features:
+    case: nominative
+  expected: en
+- features:
+    case: nominative
+    degree: comparative
+  expected: ii-m
+- features:
+    case: nominative
+    number: plural
+  expected: ed
+- features:
+    case: oblique
+  expected: en
+- features:
+    case: oblique
+    number: plural
+  expected: e-d-ner
+- features:
+    case: partitive
+    number: plural
+  expected: eu-d-ii
+- features:
+    case: translative
+  expected: en-uur
+---
+lemma: te
+category: pronouns
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+  expected: tii-n
+- features:
+    case: ablative
+  expected: ten-d-ees
+- features:
+    case: allative
+  expected: tee-sh
+- features:
+    case: direct
+    number: plural
+  expected: teud
+- features:
+    case: instrumental
+    number: plural
+  expected: te-d-geer
+- features:
+    case: locative
+  expected: ten-d
+- features:
+    case: nominative
+  expected: ter
+- features:
+    case: nominative
+    degree: comparative
+  expected: tii-m
+- features:
+    case: nominative
+    number: plural
+  expected: ted
+- features:
+    case: oblique
+  expected: ter
+- features:
+    case: oblique
+    number: plural
+  expected: te-d-ner
+- features:
+    case: partitive
+    number: plural
+  expected: teu-d-ii
+- features:
+    case: translative
+  expected: ter-uur
+---
+lemma: xe
+category: pronouns
+cases:
+- features:
+    case: direct
+    number: plural
+  expected: xed
+- features:
+    case: nominative
+  expected: xen
+- features:
+    case: nominative
+    number: plural
+  expected: xed
+- features:
+    case: oblique
+  expected: xen
+- features:
+    case: partitive
+    number: plural
+  expected: xe-d-ii

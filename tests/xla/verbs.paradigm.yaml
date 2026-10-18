@@ -1,0 +1,193 @@
+lemma: ha
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    polarity: negative
+  expected: po-ha-se-mde
+- features:
+    polarity: negative
+  expected: po-ha-yo
+- features:
+    polarity: negative
+    tense: future
+  expected: po-ha-lo-a
+- features:
+    polarity: negative
+    tense: past
+  expected: po-ha-na
+- features:
+    polarity: negative
+    tense: present
+  expected: po-ha-se-ma
+---
+lemma: malama
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: future
+  expected: malama-lo-epo
+- features:
+    mood: imperative
+  expected: malamane
+- features:
+    tense: present
+  expected: malama
+- features:
+    tense: preterite
+  expected: malama
+---
+lemma: pua
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    polarity: negative
+  expected: po-pua-se-mde
+- features:
+    polarity: negative
+  expected: po-pua-yo
+- features:
+    polarity: negative
+    tense: future
+  expected: po-pu-lo-a
+- features:
+    polarity: negative
+    tense: past
+  expected: po-pua-na
+- features:
+    polarity: negative
+    tense: present
+  expected: po-pua-se-ma
+---
+lemma: puma
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: pumuluma
+- features:
+    number: singular
+  expected: puma
+---
+lemma: sisilama
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: future
+  expected: sisilama-lo-epo
+- features:
+    mood: imperative
+  expected: sisilamane
+- features:
+    tense: present
+  expected: sisilama
+- features:
+    tense: preterite
+  expected: sisilama
+---
+lemma: ta
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    polarity: negative
+  expected: po-ta-se-mde
+- features:
+    polarity: negative
+  expected: po-ta-yo
+- features:
+    polarity: negative
+    tense: future
+  expected: po-ta-lo-a
+- features:
+    polarity: negative
+    tense: past
+  expected: po-ta-na
+- features:
+    polarity: negative
+    tense: present
+  expected: po-ta-se-ma
+---
+lemma: tama
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: tamoloma
+- features:
+    number: singular
+  expected: tama
+---
+lemma: totoma
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: future
+  expected: totoma-lo-epo
+- features:
+    mood: imperative
+  expected: totomane
+- features:
+    tense: present
+  expected: totoma
+- features:
+    tense: preterite
+  expected: totoma
+---
+lemma: yu
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    polarity: negative
+  expected: po-yu-se-mde
+- features:
+    polarity: negative
+  expected: po-yu-yo
+- features:
+    polarity: negative
+    tense: future
+  expected: po-yu-lo-a
+- features:
+    polarity: negative
+    tense: past
+  expected: po-yu-na
+- features:
+    polarity: negative
+    tense: present
+  expected: po-yu-se-ma
+---
+lemma: yukama
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: future
+  expected: yukama-lo-epo
+- features:
+    mood: imperative
+  expected: yukamane
+- features:
+    tense: present
+  expected: yukama
+- features:
+    tense: preterite
+  expected: yukama
+---
+lemma: yuma
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: yuluma
+- features:
+    number: singular
+  expected: yuma
