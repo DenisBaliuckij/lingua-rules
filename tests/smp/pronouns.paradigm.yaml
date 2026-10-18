@@ -1,0 +1,66 @@
+lemma: ma
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: uMNA
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: mA
+---
+lemma: ya
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: yA
+---
+lemma: yn
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: yN
+---
+lemma: yna
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: nAMAMS
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: mINE
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: n A
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: yNA
+- features:
+    number: plural
+    person: second
+  expected: sANNA
+- features:
+    number: plural
+    person: third
+  expected: eNK
+- features:
+    number: singular
+    person: first
+  expected: xINA

@@ -1,0 +1,58 @@
+lemma: meech
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: numeechumun
+- features:
+    number: plural
+    person: second
+  expected: kumeechumwuw
+- features:
+    number: plural
+    person: third
+  expected: meechuwak
+- features:
+    number: singular
+    person: first
+  expected: numeech
+- features:
+    number: singular
+    person: second
+  expected: kumeech
+- features:
+    number: singular
+    person: third
+  expected: meechuw
+---
+lemma: putakh
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nuputakhumunan
+- features:
+    number: plural
+    person: second
+  expected: kuputakhumunan
+- features:
+    number: plural
+    person: third
+  expected: uputakhumundw
+- features:
+    number: singular
+  expected: putakhumun
+- features:
+    number: singular
+    person: first
+  expected: nuputakhumun
+- features:
+    number: singular
+    person: second
+  expected: kuputakhumun
+- features:
+    number: singular
+    person: third
+  expected: uputakhumun

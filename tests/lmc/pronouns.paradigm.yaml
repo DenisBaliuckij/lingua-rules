@@ -1,0 +1,42 @@
+lemma: b-iwi-yi-nija
+category: pronouns
+cases:
+- features:
+    noun_class: class_1
+    number: singular
+    person: third
+  expected: b-iwi-yi-nija
+- features:
+    noun_class: class_2
+    number: singular
+    person: third
+  expected: d-iwi-yi-nija
+- features:
+    noun_class: class_3
+    number: singular
+    person: third
+  expected: m-iwi-yi-nija
+---
+lemma: da
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: dlja-n-iga
+- features:
+    number: singular
+  expected: dlja-wi-k
+---
+lemma: gay
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: gaywik
+---
+lemma: inyi
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: inyiwik

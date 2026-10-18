@@ -1,0 +1,98 @@
+lemma: i
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ha
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: h
+- features:
+    number: plural
+    person: first
+  expected: na
+- features:
+    number: plural
+    person: second
+  expected: kom
+- features:
+    number: plural
+    person: third
+  expected: hom
+- features:
+    number: singular
+    person: first
+  expected: ja
+- features:
+    number: singular
+    person: second
+  expected: ek
+---
+lemma: jien
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    polarity: negative
+  expected: mhijiex
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    polarity: negative
+  expected: mhuwiex
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: mahniex
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: mhumiex
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: ma jiniex
+---
+lemma: ni
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ha
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: h
+- features:
+    number: plural
+    person: first
+  expected: na
+- features:
+    number: plural
+    person: second
+  expected: kom
+- features:
+    number: plural
+    person: third
+  expected: hom
+- features:
+    number: singular
+    person: first
+  expected: ni
+- features:
+    number: singular
+    person: second
+  expected: ek

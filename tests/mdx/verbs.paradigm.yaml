@@ -1,0 +1,310 @@
+lemma: ats-k
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ater
+- features:
+    verb_form: infinitive
+  expected: ats
+---
+lemma: bas-k
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: bas-so
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bas-n
+---
+lemma: bɑːs
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    polarity: negative
+  expected: ʔŋ³-bɑːs-is
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: it-bɑːs-iis
+- features:
+    mood: imperative
+    number: plural
+    person: third
+    polarity: negative
+  expected: iʃ³-bɑːs-is
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    polarity: negative
+  expected: ʔŋ²-bɑːs--is
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: ɑ²-bɑːs--is
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: negative
+  expected: ɑ³-bɑːs-is
+---
+lemma: bɑːs¹
+category: verbs
+cases:
+- features:
+    formality: formal
+    mood: imperative
+    number: singular
+    person: second
+  expected: bɑː¹.sɨn².dɛj¹
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bɑː¹.sɨn².ti¹
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bɑː¹.sɨn¹
+- features:
+    number: plural
+    person: third
+  expected: ʔiʃ³.bɑː¹.sɑ¹
+- features:
+    number: singular
+    person: third
+  expected: ʔɑ³.bɑː¹.sɑ¹
+---
+lemma: civosh-k
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: civosh-n
+- features:
+    verb_form: infinitive
+  expected: civosh
+---
+lemma: dir-k
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: dir-so
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: dir-n
+---
+lemma: ghie-k
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: bhie-so
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: ghiekiti
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: ghieka
+---
+lemma: hidre-k
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: ati-hid-s
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: a-hid-is
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: negative
+  expected: achid-îs
+---
+lemma: kam-k
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: kam-nto
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: kam-nto
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: kam-nsho
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: a-kam-nto
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: s-kamento
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: a-kamonto
+---
+lemma: kays-k
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: kays-so
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kays-n
+---
+lemma: kbsh-k
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: khsh-n
+- features:
+    verb_form: infinitive
+  expected: kbsh
+---
+lemma: kies-k
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: kies-so
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kies-n
+---
+lemma: kiyat-k
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: riyaten
+- features:
+    verb_form: infinitive
+  expected: kiyat
+---
+lemma: shor-k
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: shorso
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: shor-n
+---
+lemma: ta-k
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: tas-so
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: +ta-n
+---
+lemma: tciur-k
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: teiur-so
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tciur-n
+---
+lemma: tsats-k
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tsate-n
+- features:
+    verb_form: infinitive
+  expected: tsats
+---
+lemma: ysh-k
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ysh-n
+- features:
+    verb_form: infinitive
+  expected: ysh

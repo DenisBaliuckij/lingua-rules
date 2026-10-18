@@ -1,0 +1,37 @@
+lemma: kop
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+  expected: kopne
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: kopna
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: koptn
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: kopm
+---
+lemma: wa
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+  expected: wane
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: wana
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: wan
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: wam

@@ -1,0 +1,546 @@
+lemma: er
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: £Ďergwe
+- features:
+    number: dual
+    person: second
+  expected: £Ďerpke
+- features:
+    number: plural
+    person: first
+  expected: £Ďeripke
+- features:
+    number: plural
+    person: second
+  expected: £Ďerpge
+- features:
+    number: plural
+    person: third
+  expected: erigwo
+- features:
+    number: singular
+    person: first
+  expected: £Ďer
+- features:
+    number: singular
+    person: second
+  expected: £Ďerke
+- features:
+    number: singular
+    person: third
+  expected: £Ďerge
+---
+lemma: kan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: kanlo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kanio
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kano
+- features:
+    number: dual
+    person: first
+  expected: kannan
+- features:
+    number: dual
+    person: second
+  expected: karpko
+- features:
+    number: plural
+    person: first
+  expected: karipko
+- features:
+    number: plural
+    person: second
+  expected: karpgo
+- features:
+    number: plural
+    person: third
+  expected: kanigwo
+- features:
+    number: singular
+    person: first
+  expected: karko
+- features:
+    number: singular
+    person: second
+  expected: kango
+- features:
+    number: singular
+    person: third
+  expected: kangwo
+---
+lemma: kor
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: korlo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: korio
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: koro
+---
+lemma: mol
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: mollo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: molio
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: molo
+- features:
+    number: dual
+    person: first
+  expected: £Ďmolgwe
+- features:
+    number: dual
+    person: second
+  expected: £Ĺmopke
+- features:
+    number: plural
+    person: first
+  expected: £Ĺmeipke
+- features:
+    number: plural
+    person: second
+  expected: £Ĺmopge
+- features:
+    number: plural
+    person: third
+  expected: moligwo
+- features:
+    number: singular
+    person: first
+  expected: £Ďmol
+- features:
+    number: singular
+    person: second
+  expected: £Ďmoke
+- features:
+    number: singular
+    person: third
+  expected: £Ďmoge
+---
+lemma: ne
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: nello
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: neyo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: 'no'
+---
+lemma: pal
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: £Ĺpalgwe
+- features:
+    number: dual
+    person: second
+  expected: £Ĺpalpke
+- features:
+    number: plural
+    person: first
+  expected: £Ĺpalipke
+- features:
+    number: plural
+    person: second
+  expected: £Ĺpalpge
+- features:
+    number: singular
+    person: first
+  expected: £Ĺpal
+- features:
+    number: singular
+    person: second
+  expected: £Ĺpalke
+- features:
+    number: singular
+    person: third
+  expected: £Ĺpalge
+---
+lemma: te
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: £Ďtogwe
+- features:
+    number: dual
+    person: second
+  expected: £Ďtopke
+- features:
+    number: plural
+    person: first
+  expected: £Ďteipke
+- features:
+    number: plural
+    person: second
+  expected: £Ďtopge
+- features:
+    number: plural
+    person: third
+  expected: teigwo
+- features:
+    number: singular
+    person: first
+  expected: teko
+- features:
+    number: singular
+    person: second
+  expected: £Ďteke
+- features:
+    number: singular
+    person: third
+  expected: £Ďtege
+---
+lemma: £mol
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: £Ĺmo-ipl
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: £Ďmol-im
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: £Ďmo-n
+---
+lemma: £Ďer
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: £Ďerapl
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: £Ďeraipl
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: £Ďerapn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: £Ďeraim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: £Ďeral
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: £Ďeran
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: £Ďeram
+- features:
+    number: dual
+    person: first
+  expected: £Ďerpl
+- features:
+    number: dual
+    person: second
+  expected: £Ďeripl
+- features:
+    number: plural
+    person: first
+  expected: £Ďerpn
+- features:
+    number: plural
+    person: second
+  expected: £Ďerim
+- features:
+    number: singular
+    person: first
+  expected: £Ďeri
+- features:
+    number: singular
+    person: second
+  expected: £Ďern
+- features:
+    number: singular
+    person: third
+  expected: £Ďerm
+---
+lemma: £Ďmol
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: mol£Ĺapl
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: mol£Ĺaipl
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: mol£Ĺapn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: mol£Ĺaim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: mol£Ĺal
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: mol£Ĺan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: mol£Ĺam
+- features:
+    number: dual
+    person: first
+  expected: £Ĺmopl
+- features:
+    number: dual
+    person: second
+  expected: £Ĺmoipl
+- features:
+    number: plural
+    person: first
+  expected: £Ĺmopn
+- features:
+    number: plural
+    person: second
+  expected: £Ďmolim
+- features:
+    number: singular
+    person: first
+  expected: £Ďmol
+- features:
+    number: singular
+    person: second
+  expected: £Ďmon
+- features:
+    number: singular
+    person: third
+  expected: £Ďmolm
+---
+lemma: £Ĺpal
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: pal£Ĺapl
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: pal£Ĺaipl
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: pal£Ĺapn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: pal£Ĺaim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: pal£Ĺal
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: pal£Ĺan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: pal£Ĺam
+- features:
+    number: dual
+    person: first
+  expected: £Ĺpalpl
+- features:
+    number: dual
+    person: second
+  expected: £Ĺpalipl
+- features:
+    number: plural
+    person: first
+  expected: £Ĺpalpn
+- features:
+    number: plural
+    person: second
+  expected: £Ĺpalim
+- features:
+    number: singular
+    person: first
+  expected: £Ĺpali
+- features:
+    number: singular
+    person: second
+  expected: £Ĺpal
+- features:
+    number: singular
+    person: third
+  expected: £Ĺpalm
+---
+lemma: ă te
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: te£Ĺrapl
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: te£Ĺraipl
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: te£Ĺrapn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: £Ďtenaim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: £Ďteral
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: £Ďtenan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: £Ďtenam
+- features:
+    number: dual
+    person: second
+  expected: £Ďteipl
+- features:
+    number: plural
+    person: second
+  expected: £Ďteim
+- features:
+    number: singular
+    person: first
+  expected: £Ďtei
+- features:
+    number: singular
+    person: second
+  expected: £Ďten

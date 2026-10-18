@@ -1,0 +1,286 @@
+lemma: illa
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: la
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: illa
+---
+lemma: illas
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+    person: third
+  expected: las
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+    person: third
+  expected: illas
+---
+lemma: ille
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: le
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: ille
+---
+lemma: illes
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+    person: third
+  expected: les
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+    person: third
+  expected: illes
+---
+lemma: illo
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+    person: third
+  expected: lo
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+    person: third
+  expected: illo
+---
+lemma: illos
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+    person: third
+  expected: los
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+    person: third
+  expected: illos
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: los
+- features:
+    definiteness: definite
+    number: plural
+    person: third
+    possessor_number: plural
+    possessor_person: third
+  expected: lore
+- features:
+    definiteness: indefinite
+    number: plural
+    person: third
+    possessor_number: plural
+    possessor_person: third
+  expected: lor
+- features:
+    number: plural
+    person: third
+  expected: illos
+---
+lemma: io
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: me
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: io
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: me
+- features:
+    definiteness: definite
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: mie
+- features:
+    definiteness: indefinite
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: mi
+- features:
+    number: singular
+    person: first
+  expected: io
+- features:
+    number: singular
+    person: first
+    voice: reflexive
+  expected: me
+---
+lemma: nos
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nos
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nos
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: nos
+- features:
+    definiteness: definite
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: nostre
+- features:
+    definiteness: indefinite
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: nostre
+- features:
+    number: plural
+    person: first
+  expected: nos
+- features:
+    number: plural
+    person: first
+    voice: reflexive
+  expected: nos
+---
+lemma: tu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: te
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: tu
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: te
+- features:
+    definiteness: definite
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: tue
+- features:
+    definiteness: indefinite
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: tu
+- features:
+    number: singular
+    person: second
+  expected: tu
+- features:
+    number: singular
+    person: second
+    voice: reflexive
+  expected: te
+---
+lemma: vos
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: vos
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: vos
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: vos
+- features:
+    definiteness: definite
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: vostre
+- features:
+    definiteness: indefinite
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: vostre
+- features:
+    number: plural
+    person: second
+  expected: vos
+- features:
+    number: plural
+    person: second
+    voice: reflexive
+  expected: vos

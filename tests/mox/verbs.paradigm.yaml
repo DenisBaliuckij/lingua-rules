@@ -1,0 +1,615 @@
+lemma: ai
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: first
+  expected: y-a-rai-u
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: second
+  expected: y-a-mi-u
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: third
+  expected: y-a-fi-u
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+  expected: y-a-r
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+  expected: y-ai-am-u
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+  expected: y-a-sa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+  expected: y-ai-ya
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+  expected: y-ai-af-u
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+  expected: y-ai-wo
+---
+lemma: as
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: nis
+- features:
+    number: singular
+    person: first
+  expected: was
+- features:
+    number: singular
+    person: second
+  expected: mas
+- features:
+    number: singular
+    person: third
+  expected: as
+---
+lemma: byenetin
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: byenetin
+- features:
+    number: singular
+    person: second
+  expected: byenetinf
+- features:
+    number: singular
+    person: third
+  expected: byenetin
+---
+lemma: go
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: tyepri
+- features:
+    number: plural
+    voice: active
+  expected: ina
+- features:
+    number: singular
+  expected: nepri
+- features:
+    number: singular
+    voice: active
+  expected: pin
+---
+lemma: kafok
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kafokmar
+- features:
+    number: plural
+    person: second
+  expected: kafokmar
+- features:
+    number: plural
+    person: third
+  expected: kafokninta
+- features:
+    number: singular
+    person: first
+  expected: kafokwar
+- features:
+    number: singular
+    person: second
+  expected: kafokwar
+- features:
+    number: singular
+    person: third
+  expected: kafokyen
+---
+lemma: key
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: key
+- features:
+    number: singular
+    person: third
+  expected: kow
+---
+lemma: kwen
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kwenrai
+- features:
+    number: dual
+    person: second
+  expected: kwemi
+- features:
+    number: dual
+    person: third
+  expected: kwefi
+- features:
+    number: plural
+    person: first
+  expected: kwent
+- features:
+    number: plural
+    person: second
+  expected: kwem
+- features:
+    number: plural
+    person: third
+  expected: kwesi
+- features:
+    number: singular
+    person: first
+  expected: kwen
+- features:
+    number: singular
+    person: second
+  expected: kwef
+- features:
+    number: singular
+    person: third
+  expected: kwen
+---
+lemma: nabyenetin
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: na-byenetin-rai
+- features:
+    number: dual
+    person: second
+  expected: na-byenetin-mi
+- features:
+    number: dual
+    person: third
+  expected: na-byenetin-fi
+- features:
+    number: plural
+    person: first
+  expected: na-byenetin-r
+- features:
+    number: plural
+    person: second
+  expected: na-byenetin-m
+- features:
+    number: plural
+    person: third
+  expected: na-byenetin-si
+---
+lemma: napwen
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ma-tye-pwen-f
+- features:
+    number: plural
+    person: second
+  expected: ma-tye-pwen
+- features:
+    number: plural
+    person: third
+  expected: tyepwen
+- features:
+    number: singular
+    person: first
+  expected: wa-na-pwen-f
+- features:
+    number: singular
+    person: second
+  expected: wa-na-pwen
+- features:
+    number: singular
+    person: third
+  expected: napwen
+---
+lemma: nukiy
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: nukiy
+- features:
+    number: singular
+    person: third
+  expected: nukuw
+---
+lemma: 'on'
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ont
+- features:
+    number: plural
+    person: second
+  expected: onm
+- features:
+    number: plural
+    person: third
+  expected: onsi
+- features:
+    number: singular
+    person: first
+  expected: 'on'
+- features:
+    number: singular
+    person: second
+  expected: onf
+- features:
+    number: singular
+    person: third
+  expected: 'on'
+---
+lemma: otoktai
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: otoktarai
+- features:
+    number: dual
+    person: second
+  expected: otoktami
+- features:
+    number: dual
+    person: third
+  expected: otoktafi
+- features:
+    number: plural
+    person: first
+  expected: otoktar
+- features:
+    number: plural
+    person: second
+  expected: otoktam
+- features:
+    number: plural
+    person: third
+  expected: otoktasi
+---
+lemma: oton
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: oton
+- features:
+    number: singular
+    person: second
+  expected: otof
+- features:
+    number: singular
+    person: third
+  expected: oton
+---
+lemma: peeni
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: peeni
+- features:
+    number: singular
+    person: third
+  expected: peenu
+---
+lemma: pin
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ina-t
+- features:
+    number: plural
+    person: second
+  expected: ina-m
+- features:
+    number: plural
+    person: third
+  expected: ina-si
+- features:
+    number: singular
+    person: first
+  expected: pin
+- features:
+    number: singular
+    person: second
+  expected: pif
+- features:
+    number: singular
+    person: third
+  expected: pin
+---
+lemma: saspar
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: sasparai
+- features:
+    number: dual
+    person: second
+  expected: saspami
+- features:
+    number: dual
+    person: third
+  expected: saspafi
+- features:
+    number: plural
+    person: first
+  expected: saspat
+- features:
+    number: plural
+    person: second
+  expected: saspam
+- features:
+    number: plural
+    person: third
+  expected: saspasi
+- features:
+    number: singular
+    person: first
+  expected: saspar
+- features:
+    number: singular
+    person: second
+  expected: saspaf
+- features:
+    number: singular
+    person: third
+  expected: saspar
+---
+lemma: taty
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: taty
+- features:
+    number: singular
+    person: third
+  expected: tatw
+---
+lemma: uy
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: uryai
+- features:
+    number: dual
+    person: second
+  expected: umyi
+- features:
+    number: dual
+    person: third
+  expected: ufyi
+- features:
+    number: plural
+    person: first
+  expected: uty
+- features:
+    number: plural
+    person: second
+  expected: umy
+- features:
+    number: plural
+    person: third
+  expected: usyi
+- features:
+    number: singular
+    person: first
+  expected: uy
+- features:
+    number: singular
+    person: second
+  expected: ufy
+- features:
+    number: singular
+    person: third
+  expected: uw
+---
+lemma: won
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: first
+  expected: y-a-won-rai-u
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: second
+  expected: y-a-won-mi-u
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: third
+  expected: y-a-won-fi-u
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+  expected: y-a-won-t-u
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+  expected: y-a-won-am-u
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+  expected: y-a-won-sa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+  expected: y-a-won-a
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+  expected: y-a-won-af-u
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+  expected: y-ai-won
+- features:
+    aspect: progressive
+    mood: subjunctive
+    number: dual
+    person: first
+  expected: a-won-rai-ta
+- features:
+    aspect: progressive
+    mood: subjunctive
+    number: dual
+    person: second
+  expected: a-won-mi-ta
+- features:
+    aspect: progressive
+    mood: subjunctive
+    number: dual
+    person: third
+  expected: a-won-fi-ta
+- features:
+    aspect: progressive
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: a-won-t-ta
+- features:
+    aspect: progressive
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: a-wo-m-ta
+- features:
+    aspect: progressive
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: a-won-si-ta
+- features:
+    aspect: progressive
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: a-won-ta
+- features:
+    aspect: progressive
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: a-wo-f-ta
+- features:
+    aspect: progressive
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: a-won-ta
+---
+lemma: woy
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: woy
+- features:
+    number: singular
+    person: third
+  expected: wow
+---
+lemma: yeyen
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yey-man-f
+- features:
+    number: plural
+    person: second
+  expected: yeyman
+- features:
+    number: plural
+    person: third
+  expected: yenin
+- features:
+    number: singular
+    person: first
+  expected: yey-wan-f
+- features:
+    number: singular
+    person: second
+  expected: yeywan
+- features:
+    number: singular
+    person: third
+  expected: yeyen

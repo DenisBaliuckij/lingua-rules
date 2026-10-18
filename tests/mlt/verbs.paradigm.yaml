@@ -1,0 +1,645 @@
+lemma: fixkel
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: fixklet
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tfixkel
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: fixkel
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ifixkel
+- features:
+    mood: imperative
+    number: plural
+  expected: fixklu
+- features:
+    mood: imperative
+    number: singular
+  expected: fixkel
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: fixkilna
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: infixklu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: fixkiltu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tfixklu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: fixklu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ifixklu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: fixkilt
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: infixkel
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: fixkilt
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tfixkel
+---
+lemma: ftaqar
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ftaqret
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tiftaqar
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ftaqar
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: jiftaqar
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ftaqru
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ftaqar
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ftaqarna
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: niftaqru
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ftaqartu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tiftaqru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ftaqru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: jiftaqru
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ftaqart
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: niftaqar
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ftaqart
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tiftaqar
+---
+lemma: għandu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ghandna
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: mghandniex
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: ghandkom
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: mghandkomx
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: ghandhom
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: mghandhomx
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ghandi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: mghandix
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: ghandek
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: mghandekx
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: ghandu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: mghandux
+---
+lemma: ha
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: hudu
+- features:
+    mood: imperative
+    number: singular
+  expected: hu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: niehu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tiehu
+---
+lemma: kun
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: nkunu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ahna
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: mahniex
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: tkunu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: intom
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: mintomx
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: jkunu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: huma
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: mhumiex
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: inkun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: jien
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: mintix
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: tkun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: inti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: mhuwiex
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: jkun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: huwa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: mhuwiex
+---
+lemma: sfar
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: sfaret
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tisfar
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: sfar
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: jisfar
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: isfaru
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: isfar
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: sfarna
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nisfaru
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: sfartu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tisfaru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: sfaru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: jisfaru
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: sfart
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nisfar
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: sfart
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tisfar
+---
+lemma: wasal
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: waslet
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tasal
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wasal
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: jasal
+- features:
+    mood: imperative
+    number: plural
+  expected: aslu
+- features:
+    mood: imperative
+    number: singular
+  expected: asal
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: wasalna
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: naslu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: wasaltu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: taslu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: waslu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: jaslu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: wasalt
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nasal
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: wasalt
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tasal

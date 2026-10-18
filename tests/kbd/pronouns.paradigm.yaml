@@ -1,0 +1,275 @@
+lemma: a-r
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+  expected: a-ha-r
+- features:
+    case: absolutive
+    number: singular
+  expected: a-r
+---
+lemma: ar ār
+category: pronouns
+cases:
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: ārwə
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ār
+- features:
+    number: plural
+    person: third
+  expected: āxar
+- features:
+    number: singular
+    person: third
+  expected: ār
+---
+lemma: axər āxar
+category: pronouns
+cases:
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: āxarwə
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: āxar
+---
+lemma: da
+category: pronouns
+cases:
+- features:
+    case: allative
+    number: plural
+    person: first
+  expected: darwə
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: da
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: darč'a
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: da
+---
+lemma: də da
+category: pronouns
+cases:
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: da
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: darč'a
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: darwə
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: da
+---
+lemma: maw-r
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+  expected: maw-ha-r
+- features:
+    case: absolutive
+    number: singular
+  expected: maw-r
+---
+lemma: sa
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+  expected: da
+- features:
+    case: absolutive
+    number: singular
+  expected: sa
+- features:
+    case: allative
+    number: singular
+    person: first
+  expected: sarwə
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: sa
+- features:
+    case: instrumental
+    number: plural
+  expected: da-r-k^a
+- features:
+    case: instrumental
+    number: singular
+  expected: sa-r-k^a
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: sarč'a
+- features:
+    case: locative
+    number: plural
+  expected: da-r-aw
+- features:
+    case: locative
+    number: singular
+  expected: sa-r-aw
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: sa
+- features:
+    case: oblique
+    number: plural
+  expected: da
+- features:
+    case: oblique
+    number: singular
+  expected: sa
+---
+lemma: sə sa
+category: pronouns
+cases:
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: sa
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: sarč'a
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: sarwə
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: sa
+- features:
+    number: singular
+    person: first
+  expected: sa
+---
+lemma: uə wa
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: wa
+---
+lemma: wa
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+  expected: fa
+- features:
+    case: absolutive
+    number: singular
+  expected: wa
+- features:
+    case: instrumental
+    number: plural
+  expected: fa-r-k'ya
+- features:
+    case: instrumental
+    number: singular
+  expected: wa-r-k^a
+- features:
+    case: oblique
+    number: plural
+  expected: fa
+- features:
+    case: oblique
+    number: singular
+  expected: wa
+---
+lemma: ār
+category: pronouns
+cases:
+- features:
+    case: allative
+    number: singular
+    person: third
+  expected: ārwə
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: ābə
+- features:
+    case: instrumental
+    number: singular
+    person: third
+  expected: ābəč'a
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ār
+---
+lemma: āxar
+category: pronouns
+cases:
+- features:
+    case: allative
+    number: plural
+    person: third
+  expected: āxarwə
+- features:
+    case: ergative
+    number: plural
+    person: third
+  expected: ābəxam
+- features:
+    case: instrumental
+    number: plural
+    person: third
+  expected: ābəxamč'a
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: āxar

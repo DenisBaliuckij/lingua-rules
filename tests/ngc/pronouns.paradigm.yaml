@@ -1,0 +1,111 @@
+lemma: ma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ms
+- features:
+    number: plural
+    person: second
+  expected: ka
+- features:
+    number: plural
+    person: third
+  expected: ye
+- features:
+    number: singular
+    person: first
+  expected: ma
+- features:
+    number: singular
+    person: second
+  expected: be
+- features:
+    number: singular
+    person: third
+  expected: a
+---
+lemma: mla
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mi a
+- features:
+    number: plural
+    person: second
+  expected: ka
+- features:
+    number: plural
+    person: third
+  expected: ye ta
+- features:
+    number: singular
+    person: first
+  expected: mla
+- features:
+    number: singular
+    person: second
+  expected: bia
+- features:
+    number: singular
+    person: third
+  expected: a ta
+---
+lemma: ng
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mg
+- features:
+    number: plural
+    person: second
+  expected: ka
+- features:
+    number: plural
+    person: third
+  expected: ye
+- features:
+    number: singular
+    person: first
+  expected: ng
+- features:
+    number: singular
+    person: second
+  expected: be
+- features:
+    number: singular
+    person: third
+  expected: a
+---
+lemma: ns
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: me
+- features:
+    number: plural
+    person: second
+  expected: ka
+- features:
+    number: plural
+    person: third
+  expected: ye
+- features:
+    number: singular
+    person: first
+  expected: ns
+- features:
+    number: singular
+    person: second
+  expected: be
+- features:
+    number: singular
+    person: third
+  expected: a
