@@ -1,0 +1,43 @@
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: temet
+- features:
+    number: plural
+    person: second
+  expected: amet
+- features:
+    number: plural
+    person: third
+  expected: yemet
+- features:
+    number: singular
+    person: first
+  expected: na
+- features:
+    number: singular
+    person: second
+  expected: ta
+- features:
+    number: singular
+    person: third
+  expected: ya
+---
+lemma: naha
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: naha
+- features:
+    number: singular
+    person: second
+  expected: taha
+- features:
+    number: singular
+    person: third
+  expected: yaha

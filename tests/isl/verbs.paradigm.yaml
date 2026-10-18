@@ -1,0 +1,4117 @@
+lemma: bera
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: bárum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: berum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: báruð
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: berið
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: báru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bera
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: bar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ber
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: barst
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: berð
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bar
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ber
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: bærum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: berum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: bæruð
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: berið
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: bæru
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: beri
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: bæri
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: beri
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: bærir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: berir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: bæri
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: beri
+---
+lemma: bita
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bit
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: bitum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: bitum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: bitiö
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: bituö
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bita
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: bitu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bit
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: beit
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: bitur
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: bitur
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: beit
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: bitum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: preterite
+  expected: bitum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: bitiö
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: preterite
+  expected: bituö
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: biti
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: preterite
+  expected: bitu
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: biti
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: preterite
+  expected: biti
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: preterite
+  expected: bitir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: biti
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: preterite
+  expected: biti
+- features:
+    verb_form: infinitive
+  expected: bita
+- features:
+    verb_form: past_participle
+  expected: bitinn
+- features:
+    verb_form: present_participle
+  expected: bitandi
+---
+lemma: bitast
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: bitumst
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: bitumst
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: bitust
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: bitist
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: bitust
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bitast
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: bitumst
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: bitumst
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: bitust
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: bitist
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: bitust
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: bitist
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: bitist
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: bitist
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: bitist
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: bitist
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: bitist
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: bitist
+- features:
+    verb_form: infinitive
+  expected: bitast
+---
+lemma: bjóða
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: buðum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: bjóðum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: buðuð
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: bjóðið
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: buðu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bjóða
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: bauð
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: býð
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: bauðst
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: býður
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bauð
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: býður
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: byðum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: bjóðum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: byðuð
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: bjóðið
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: byðu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: bjóði
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: byði
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: bjóði
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: byðir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: bjóðir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: byði
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: bjóði
+---
+lemma: bresta
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: brustum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: brestum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: brustuð
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: brestið
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: brustu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bresta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: brast
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: brest
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: brast
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: brestur
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: brast
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: brestur
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: brustum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: brestum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: brustuð
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: brestið
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: brystu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: bresti
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: brysti
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: bresti
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: brystir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: brestir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: brysti
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: bresti
+---
+lemma: bíta
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: bitum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: bítum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: bituð
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: bítið
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: bitu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bíta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: beit
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bít
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: beitst
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: bítur
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: beit
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: bítur
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: bitum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: bítum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: bituð
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: bítið
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: bitu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: bíti
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: biti
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: bíti
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: bitir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: bítir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: biti
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: bíti
+---
+lemma: duga
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: dug
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: dugum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: dugöum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: dugiö
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: dugöuö
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: duga
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: dugöu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dugi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: dugöi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dugir
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: dugöir
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dugir
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: dugöi
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: dugum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: dugiö
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: dugi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: dugi
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: dugir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: dugi
+- features:
+    verb_form: infinitive
+  expected: duga
+- features:
+    verb_form: present_participle
+  expected: dugandi
+---
+lemma: eiga
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: áttum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: eigum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: áttuð
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: eigið
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: áttu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: eiga
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: átti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: á
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: áttir
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: átt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: átti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: á
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: ættum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: eigum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: ættuð
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: eigið
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: ættu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: eigi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: ætti
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: eigi
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: ættir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: eigir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: ætti
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: eigi
+---
+lemma: fara
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: förum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: fóruð
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: farið
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: fóru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: fara
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: fór
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: fer
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: fórst
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ferð
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: för
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: fer
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: færum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: förum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: færuð
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: farið
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: færu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: fari
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: færi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: fari
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: færir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: farir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: færi
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: fari
+---
+lemma: fá
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: fengum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: fáum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: fenguð
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: fáið
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: fengu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: fá
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: fékk
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: fæ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: fékkst
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: færð
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: fékk
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: fær
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: fengum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: fáum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: fenguð
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: fáið
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: fengu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: fái
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: fengi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: fái
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: fengir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: fáir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: fengi
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: fái
+---
+lemma: geta
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: gátum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: getum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: gátuð
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: getið
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: gátu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: geta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: gat
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: get
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: gatst
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: getur
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gat
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: getur
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: gætum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: getum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: gætuð
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: getið
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: gætu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: geti
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: gæti
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: geti
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: gætir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: getir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: gæti
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: geti
+---
+lemma: gráta
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: grétum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: grátum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: grétuð
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: grátið
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: grétu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: gráta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: grét
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: græt
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: grést
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: grætur
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: grét
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: grætur
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: grétum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: grátum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: grétuð
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: grátið
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: grétu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: gráti
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: gréti
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: gráti
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: grétir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: grátir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: gréti
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: gráti
+---
+lemma: hafa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: höfðum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: höfum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: höfðuð
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: hafið
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: höfðu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hafa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: hafði
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: hef
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: hafðir
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hefur
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: hafði
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hefur
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: hefðum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: höfum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: hefðuð
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: hafið
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: hefðu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: hafi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: hefði
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: hafi
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: hefðir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: hafir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: hefði
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: hafi
+---
+lemma: kalla
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kalla
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: köll-um
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: köllu-öum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kalliö
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: köllu-öuö
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kalla
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: köllu-öu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kalla
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: kallaöi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kallar
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: kallaöir
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kaüa-r
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: kallaöi
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: köll-um
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: preterite
+  expected: köllu-öum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: kalliö
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: preterite
+  expected: köllu-öuö
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: kalli
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: preterite
+  expected: köllu-öu
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: kalli
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: preterite
+  expected: kallaöi
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: kallir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: preterite
+  expected: kallaöir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: kalli
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: preterite
+  expected: kallaöi
+- features:
+    verb_form: infinitive
+  expected: kalla
+- features:
+    verb_form: past_participle
+  expected: kallaöur
+- features:
+    verb_form: present_participle
+  expected: kallandi
+---
+lemma: kallast
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kallist
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kallast
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kalladist
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kallast
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kalladist
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kallast
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kalladist
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kallast
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: kallist
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: kallist
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: kalladist
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: kallist
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: kalladist
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: kallist
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: kalladist
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: kallist
+- features:
+    verb_form: infinitive
+  expected: kallast
+---
+lemma: kunna
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kunnum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kunnum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kunuð
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kunnið
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kunu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kunna
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kunni
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kann
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kunnir
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kannt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kunni
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kann
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: kynnum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: kunnum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: kynnuð
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: kunnið
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: kynni
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: kunni
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: kynni
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: kunni
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: kynnir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: kunnir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: kynni
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: kunni
+---
+lemma: mega
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: matum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: megum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: matud
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: megid
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: mattu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: mega
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: matti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ma
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mattir
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: matt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: matti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ma
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: maetum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: megum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: maetud
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: megid
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: maetu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: megi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: maetti
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: megi
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: maettir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: megir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: maetti
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: megi
+---
+lemma: muna
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: mundum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: munum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mundud
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: munid
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: mundu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: muna
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: mundi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: man
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mundir
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: manst
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: mundi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: man
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: myndum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: munum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: myndud
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: munid
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: myndu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: muni
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: myndi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: muni
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: myndir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: munir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: myndi
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: muni
+---
+lemma: munu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: mundum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: munum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mundud
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: munud
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: mundu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: munu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: mundi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: mun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mundir
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: munt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: mundi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mun
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: myndum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: munum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: myndud
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: munid
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: myndu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: muni
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: myndi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: muni
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: myndir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: munir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: myndi
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: muni
+---
+lemma: skulu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: skulum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: skulud
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: skulu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: skal
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: skalt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: skal
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: skyldum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: skulum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: skyldud
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: skulid
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: skyldu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: skuli
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: skyldi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: skuli
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: skyldir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: skulir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: skyldi
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: skuli
+---
+lemma: stela
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: stâlum
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: stal
+- features:
+    verb_form: infinitive
+  expected: stela
+---
+lemma: taka
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tókum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tökum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: tókuð
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: takið
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tóku
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: taka
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tók
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tek
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: tókst
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tekur
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tók
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tekur
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: tækjum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: tökum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: tækjuð
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: takið
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: tækju
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: taki
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: tæki
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: taki
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: tækir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: takir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: tæki
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: taki
+---
+lemma: telja
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tel
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: teljum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: teljiö
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: telja
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tel
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: telur
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: telur
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: teljum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: preterite
+  expected: teldum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: teljiö
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: preterite
+  expected: teldud
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: telji
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: preterite
+  expected: teldu
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: telji
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: preterite
+  expected: teldi
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: teljir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: preterite
+  expected: teldir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: telji
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: preterite
+  expected: teldi
+- features:
+    verb_form: infinitive
+  expected: telja
+- features:
+    verb_form: present_participle
+  expected: teljandi
+---
+lemma: teljast
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: teljumst
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: teljist
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: teljast
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: telst
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: telst
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: telst
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: teldumst
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: teljumst
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: teldust
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: teljist
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: teldust
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: teljist
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: teldist
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: teljist
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: teldist
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: teljist
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: teldist
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: teljist
+- features:
+    verb_form: infinitive
+  expected: teljast
+---
+lemma: unna
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: unnum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: unnum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: unnud
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: unnid
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: unnu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: unna
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: unni
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ann
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: unnir
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: annt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: unni
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ann
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: ynnum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: unnum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: ynnud
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: unnid
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: ynni
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: unni
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: ynni
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: unni
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: ynnir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: unnir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: ynni
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: unni
+---
+lemma: vera
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: vorum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: erum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: vorud
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: erud
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: voru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: eru
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: var
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: er
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: varst
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ert
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: var
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: er
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: vaerum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: seum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: vaerud
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: seud
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: vaeru
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: seu
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: vaeri
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: se
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: vaerir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: sert
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: vaeri
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: se
+---
+lemma: verda
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: urdum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: verdmum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: urud
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: verdid
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: urdu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: verda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: vard
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: verd
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: vardst
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: verdur
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: vard
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: verdur
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: yrddum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: verdmum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: yrdud
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: verdid
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: yrdu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: verdi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: yrdi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: verdi
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: yrdir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: verdir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: yrdi
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: verdi
+---
+lemma: vilja
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: vildum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: viljum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: vildud
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: viljud
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: vildu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vilja
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: vildi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: vil
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: vildir
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: vilt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: vildi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: vill
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: vildum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: viljum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: vildud
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: viljud
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: vildu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: vilji
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: vildi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: vilji
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: vildir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: viljir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: vildi
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: vilji
+---
+lemma: vita
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: vissum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: vitum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: vissuð
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: vitið
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: vissu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vita
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: vissi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: veit
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: vissir
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: vissi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: veit
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: vissum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: vitum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: vissuð
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: vitið
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: vissu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: viti
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: vissi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: viti
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: vissir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: vitir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: vissi
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: viti
+---
+lemma: þurfa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: þurftum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: þurfum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: þurftuð
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: þurfið
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: þurftu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: þurfa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: þurfti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: þarf
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: þurftir
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: þarft
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: þurfti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: þarf
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: þyrftum
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: þurfum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: þyrftuð
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: þurfið
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: þyrfti
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: þurfi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: þyrfti
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: þurfi
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: þyrftir
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: þurfir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: þyrfti
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: þurfi

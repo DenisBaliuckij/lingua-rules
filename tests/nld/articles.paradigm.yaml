@@ -1,0 +1,31 @@
+lemma: de
+category: articles
+cases:
+- features:
+    definiteness: definite
+    gender: common
+    number: singular
+  expected: de
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: het
+- features:
+    definiteness: definite
+    number: plural
+  expected: de
+---
+lemma: een
+category: articles
+cases:
+- features:
+    definiteness: indefinite
+    gender: common
+    number: singular
+  expected: een
+- features:
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: een

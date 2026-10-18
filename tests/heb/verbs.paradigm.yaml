@@ -1,0 +1,4705 @@
+lemma: c.c.c
+category: verbs
+cases:
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: nc.c.c
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: c.c.c.-nu
+- features:
+    gender: common
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: ac.c.c
+- features:
+    gender: common
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: c.c.c.-ti
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: t-c.c.c.-na
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: c.c.c.-ten
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: t-c.c.c.-na
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: c.c.c.-u
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: tc.c.c
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: c.c.c.-t
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: tc.c.c
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: c.c.c.-ah
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: t-c.c.c.-u
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: c.c.c.-tem
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: i-c.c.c.-u
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: c.c.c.-u
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: tc.c.c
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: c.c.c.-ta
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: ic.c.c
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: c.c.c
+---
+lemma: gamal
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: gamarti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: tigmari
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: gamarta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gamal
+---
+lemma: gula
+category: verbs
+cases:
+- features:
+    number: singular
+    tense: future
+  expected: yegule
+- features:
+    number: singular
+    tense: past
+  expected: gula
+- features:
+    number: singular
+    tense: present
+  expected: megule
+---
+lemma: iStana
+category: verbs
+cases:
+- features:
+    number: singular
+    tense: future
+  expected: yiXtane
+- features:
+    number: singular
+    tense: past
+  expected: iStana
+- features:
+    number: singular
+    tense: present
+  expected: mis"tane
+---
+lemma: ifna
+category: verbs
+cases:
+- features:
+    number: singular
+    tense: future
+  expected: yafne
+- features:
+    number: singular
+    tense: past
+  expected: ifna
+- features:
+    number: singular
+    tense: present
+  expected: mafne
+---
+lemma: ikna
+category: verbs
+cases:
+- features:
+    number: singular
+    tense: future
+  expected: yakne
+- features:
+    number: singular
+    tense: past
+  expected: ikna
+- features:
+    number: singular
+    tense: present
+  expected: makne
+---
+lemma: itgala
+category: verbs
+cases:
+- features:
+    number: singular
+    tense: future
+  expected: yitgale
+- features:
+    number: singular
+    tense: past
+  expected: itgala
+- features:
+    number: singular
+    tense: present
+  expected: mitgale
+---
+lemma: nikna
+category: verbs
+cases:
+- features:
+    number: singular
+    tense: future
+  expected: yikane
+- features:
+    number: singular
+    tense: past
+  expected: nikna
+- features:
+    number: singular
+    tense: present
+  expected: nikne
+---
+lemma: nivna
+category: verbs
+cases:
+- features:
+    number: singular
+    tense: past
+  expected: nivna
+- features:
+    number: singular
+    tense: present
+  expected: nivne
+---
+lemma: s-q
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: asdkti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: heesik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: oseket
+- features:
+    verb_form: infinitive
+  expected: laasok
+---
+lemma: ufna
+category: verbs
+cases:
+- features:
+    number: singular
+    tense: future
+  expected: yufne
+- features:
+    number: singular
+    tense: past
+  expected: ufna
+- features:
+    number: singular
+    tense: present
+  expected: mufne
+---
+lemma: ukna
+category: verbs
+cases:
+- features:
+    number: singular
+    tense: future
+  expected: yukne
+- features:
+    number: singular
+    tense: past
+  expected: ukna
+- features:
+    number: singular
+    tense: present
+  expected: mukne
+---
+lemma: בוא
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: בואי!
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: בוא!
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: בואו!
+---
+lemma: ברא
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: הם
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: הבראתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: אני
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: את
+---
+lemma: גע
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ניגע
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: גענו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: נוגעים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תיגעו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: געתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: נוגעים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ייגעו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: געו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: נוגעים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אגע
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: געתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: נוגע
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תגע
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: געת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: נוגע
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יגע
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: גע
+---
+lemma: דבר
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נדבר
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: דיברנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: מדברים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תדברו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: דיברתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: מדברים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ידברו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: דיברו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: מדברים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אדבר
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: דיברתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מדבר
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תדבר
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: דיברת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מדבר
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ידבר
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: דבר
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מדבר
+- features:
+    verb_form: infinitive
+  expected: לדבר
+---
+lemma: הוזמן
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    tense: present
+  expected: מוזמנות
+- features:
+    gender: feminine
+    number: singular
+    tense: present
+  expected: מוזמנת
+- features:
+    gender: masculine
+    number: plural
+    tense: present
+  expected: מוזמנים
+- features:
+    gender: masculine
+    number: singular
+    tense: present
+  expected: מוזמן
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נוזמן
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: הוזמנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: מוזמנים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תוזמנו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: הוזמנתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: מוזמנים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יוזמנו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: הוזמנו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: מוזמנים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אוזמן
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: הוזמנתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מוזמן
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תוזמן
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: הוזמנת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מוזמן
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יוזמן
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: הוזמן
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מוזמן
+- features:
+    number: singular
+    tense: future
+  expected: יוזמן
+- features:
+    number: singular
+    tense: past
+  expected: הוזמן
+- features:
+    number: singular
+    tense: present
+  expected: מוזמן
+---
+lemma: הופנה
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: הופנינו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: מופנים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: הופניתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: מופנים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: הופנו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: מופנים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: הופניתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מופנה
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: הופנית
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מופנה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: הופנה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מופנה
+---
+lemma: הפנה
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: הפנינו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: מפנים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: הפניתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: מפנים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: הפנו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: מפנים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: הפניתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מפנה
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: הפנית
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מפנה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: הפנה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מפנה
+---
+lemma: התייש
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נתיש
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: התישנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: מתישים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תתישו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: התשתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: מתישים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יתישו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: התישו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: מתישים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אתיש
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: התישתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מתייש
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תתיש
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: התשת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מתייש
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יתיש
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: התייש
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מתייש
+- features:
+    verb_form: infinitive
+  expected: להתייש
+---
+lemma: התכסה
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נתכסה
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: התכסינו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: מתכסים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תתכסו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: התכסתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: מתכסים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יתכסו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: התכסו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: מתכסים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אתכסה
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: התכסיתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מתכסה
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תתכסה
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: התכסת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מתכסה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יתכסה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: התכסה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מתכסה
+- features:
+    verb_form: infinitive
+  expected: להתכסות
+---
+lemma: התלבש
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נתלבש
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: התלבשנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: מתלבשים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תתלבשו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: התלבשתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: מתלבשים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יתלבשו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: התלבשו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: מתלבשים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אתלבש
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: התלבשתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מתלבש
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תתלבש
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: התלבשת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מתלבש
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יתלבש
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: התלבש
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מתלבש
+- features:
+    verb_form: infinitive
+  expected: להתלבש
+---
+lemma: חבא
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: הם
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: הוחבאתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: אני
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: את
+---
+lemma: כא
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: הם
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: דופאתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: אני
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: את
+---
+lemma: כוסה
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: כוסינו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: מכוסים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: כוסיתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: מכוסים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: כוסו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: מכוסים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: כוסיתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מכוסה
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: כוסית
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מכוסה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: כוסה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מכוסה
+---
+lemma: כיר
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נכיר
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: הכרנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: מכירים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תכירו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: הכרתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: מכירים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יכירו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: הכירו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: מכירים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אכיר
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: הכרתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מכיר
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תכיר
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: הכרת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מכיר
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יכיר
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: הכיר
+---
+lemma: כתב
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נכתוב
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: כתבנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: כותבים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תכתבו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: כתבתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: כותבים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יכתבו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: כתבו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: כותבים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אכתוב
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: כתבתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: כותב
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תכתוב
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: כתבת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: כותב
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יכתוב
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: כתב
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: כותב
+- features:
+    verb_form: infinitive
+  expected: לכתוב
+---
+lemma: לאכול
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תיאכלי
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: אכול
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תאכלו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יאכלו
+- features:
+    verb_form: infinitive
+  expected: לאכול
+---
+lemma: לאסוף
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: אספי
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תאספי
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: אסף
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: אספו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תאספו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: '!אספו'
+- features:
+    verb_form: infinitive
+  expected: לאסוף
+---
+lemma: לדבר
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: דברי
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: דבר
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: דברו
+---
+lemma: להבטיח
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נבטיח
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: הבטחנו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תבטיחו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: הבטחתם
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יבטיחו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: הבטיחו
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אבטיח
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: הבטחתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מבטיח
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תבטיח
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: הבטחת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מבטיחה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יבטיח
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: הבטיח
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מבטיחים
+---
+lemma: להבין
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נבין
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: הבנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: מבינים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תבינו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: הבנתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: מבינים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יבינו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: הבינו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: מבינים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אבין
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: הבנתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מבין
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תבין
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: הבנת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מבין
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יבין
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: הבין
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מבין
+---
+lemma: להובן
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נובן
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: הובנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: מובנים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תובנו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: הובנתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: מובנים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יובנו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: הובנו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: מובנים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אובן
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: הובנתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מובן
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תובן
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: הובנת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מובן
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יובן
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: הובן
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מובן
+---
+lemma: להוצג
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יוצג
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: הוצג
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מוצג
+---
+lemma: להורד
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נורד
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: הורדנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: מורדים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תורדו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: הורדתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: מורדים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יורדו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: הורדו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: מורדים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אורד
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: הורדתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מורד
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תורד
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: הורדת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מורד
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יורד
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: הורד
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מורד
+---
+lemma: להוריד
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נוריד
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: הורדנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: מורידות
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תורידו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: הורדתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: מורידות
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יורידו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: הורידו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: מורידות
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אוריד
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: הורדתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מוריד
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תוריד
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: הורדת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מוריד
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יוריד
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: הוריד
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מוריד
+- features:
+    verb_form: infinitive
+  expected: להוריד
+---
+lemma: להחליט
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נחליט
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: החלטנו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תחליטו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: החלטתם
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יחליטו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: החליטו
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אחליט
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: החלטתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מחליט
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תחליט
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: החלטת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מחליטה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יחליט
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: החליט
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מחליטים
+---
+lemma: להעדיף
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נעדיף
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: העדפנו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תעדיפו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: העדפתם
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יעדיפו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: העדיפו
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אעדיף
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: העדפתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מעדיף
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תעדיף
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: העדפת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מעדיפה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יעדיף
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: העדיף
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מעדיפים
+---
+lemma: להציג
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: הציג
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מציג
+- features:
+    verb_form: infinitive
+  expected: להציג
+---
+lemma: להרגיש
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נרגיש
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: הרגשנו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תרגישו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: הרגשתם
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ירגישו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: הרגישו
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ארגיש
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: הרגשתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מרגיש
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תרגיש
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: הרגשת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מרגישה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ירגיש
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: הרגיש
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מרגישים
+---
+lemma: להתלבש
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נתלבש
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: התלבשנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: מתלבשים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תתלבשו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: התלבשתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: מתלבשים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יתלבשו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: התלבשו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: מתלבשים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אתלבש
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: התלבשתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מתלבש
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תתלבש
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: התלבשת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מתלבש
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יתלבש
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: התלבש
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מתלבש
+- features:
+    verb_form: infinitive
+  expected: להתלבש
+---
+lemma: להתנהג
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נתנהג
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: התנהגנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: מתנהגים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תתנהגו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: התנהגתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: מתנהגים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יתנהגו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: התנהגו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: מתנהגים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אתנהג
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: התנהגתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מתנהג
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תתנהג
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: התנהגת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מתנהג
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יתנהג
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: התנהג
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מתנהג
+- features:
+    verb_form: infinitive
+  expected: להתנהג
+---
+lemma: להתפתח
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נתפתח
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: התפתחנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: מתפתחים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תתפתחו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: התפתחתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: מתפתחים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יתפתחו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: התפתחו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: מתפתחים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אתפתח
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: התפתחתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מתפתח
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תתפתח
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: התפתחת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מתפתח
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יתפתח
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: התפתח
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מתפתח
+- features:
+    verb_form: infinitive
+  expected: להתפתח
+---
+lemma: לחזור
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תחזרי
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תחזרו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: '!חזרו'
+- features:
+    verb_form: infinitive
+  expected: לחזור
+---
+lemma: ליצור
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ניצור
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: יצרנו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: יצרתם
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יצרו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: יצרו
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אצור
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: יצרתי
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תצור
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: יצרת
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יצור
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: יצר
+- features:
+    verb_form: infinitive
+  expected: ליצור
+---
+lemma: לישון
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ישנו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תישנו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ישנתם
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ישנו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ישנו
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ישנתי
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תישן
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ישנת
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ישן
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ישן
+- features:
+    verb_form: infinitive
+  expected: לישון
+---
+lemma: לכתוב
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: כתבי
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: כתוב
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: כתבו
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יכתוב
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: כתב
+---
+lemma: ללמוד
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: למדי
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: למד
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: למדו
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: למד
+---
+lemma: לנסות
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: נסי
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: נסה
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: נסו
+---
+lemma: לנשום
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ינשום
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: נשם
+---
+lemma: לסגור
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תסגרי
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תסגרו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יסגרו
+- features:
+    verb_form: infinitive
+  expected: לסגור
+---
+lemma: לעמוד
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: עמדי
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תעמדי
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: עמוד
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: עמדו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תעמדו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: '!עמדו'
+- features:
+    verb_form: infinitive
+  expected: לעמוד
+---
+lemma: לקום
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: קומי
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: קום
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: קומו
+---
+lemma: לקנות
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: קני
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: קנה
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: קנו
+---
+lemma: לשאול
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תשאלי
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תשאלו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ישאלו
+- features:
+    verb_form: infinitive
+  expected: לשאול
+---
+lemma: לשאל
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: שאלה
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: שאלו
+---
+lemma: לשבת
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: שבי
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: שב
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: שבו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נשב
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ישבנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: יושבים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תשבו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ישבתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: יושבים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ישבו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ישבו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: יושבים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אשב
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ישבתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: יושב
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תשב
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ישבת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: יושב
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ישב
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ישב
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: יושב
+- features:
+    verb_form: infinitive
+  expected: לשבת
+---
+lemma: לשים
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: שים
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: שימו
+---
+lemma: לשמוע
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: שמעי
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תשמעי
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: שמע
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: שמעו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תשמעו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ישמעו
+- features:
+    verb_form: infinitive
+  expected: לשמוע
+---
+lemma: לתאר
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: תארי
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: תאר
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: תארו
+---
+lemma: מדבר
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: מדבר
+- features:
+    number: singular
+    person: second
+  expected: מדברת
+- features:
+    number: singular
+    person: third
+  expected: מדברים
+---
+lemma: מלא
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: הם
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: מילאתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: אני
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: את
+---
+lemma: מצא
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: הם
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: נמצאתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: אני
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: את
+---
+lemma: נבנה
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: נבנינו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: נבנים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: נבניתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: נבנים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: נבנו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: נבנים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: נבניתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: נבנה
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: נבנית
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: נבנה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: נבנה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: נבנה
+---
+lemma: נהג
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נינהג
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: נהגנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: נוהגים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תינהגו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: נהגתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: נוהגים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יינהגו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: נהגו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: נוהגים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אנהג
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: נהגתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: נוהג
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תנהג
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: נהגת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: נוהג
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ינהג
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: נהג
+---
+lemma: נכנס
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ניכנס
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: נכנסנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: נכנסים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תיכנסו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: נכנסתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: נכנסים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ייכנסו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: נכנסו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: נכנסים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אכנס
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: נכנסתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: נכנס
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תיכנס
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: נכנסת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: נכנס
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ייכנס
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: נכנס
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: נכנס
+- features:
+    verb_form: infinitive
+  expected: להיכנס
+---
+lemma: נפל
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ניפול
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: נפלנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: נופלים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תיפלו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: נפלתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: נופלים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יפלו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: נפלו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: נופלים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אפול
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: נפלתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: נופל
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תפול
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: נפלת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: נופל
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ייפול
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: נפל
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: נופל
+---
+lemma: נשם
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נינשמ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: נשמנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: נושמים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תינשמו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: נשמתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: נושמים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ינשמו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: נשמו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: נושמים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אנשמ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: נשמתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: נושם
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תנשמ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: נשמת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: נושם
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ינשמ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: נשמ
+---
+lemma: פול
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ניפול
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: פלנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: נופלים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תיפלו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: פלתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: נופלים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יפלו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: פלו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: נופלים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אפול
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: פלתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: נופל
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תפול
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: פלת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: נופל
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יפול
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: פל
+---
+lemma: פלא
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: הם
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: התפלאתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: אני
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: את
+---
+lemma: פ״ל
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יופל
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: הופל
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מופל
+---
+lemma: צולם
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נצולם
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: צולמנו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: מצולמים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תצולמו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: צולמתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: מצולמים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יצולמו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: צולמו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: מצולמים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אצולם
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: צולמתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: מצולם
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תצולם
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: צולמת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: מצולם
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יצולם
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: צולם
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: מצולם
+- features:
+    number: singular
+    tense: future
+  expected: יצולם
+- features:
+    number: singular
+    tense: past
+  expected: צולם
+- features:
+    number: singular
+    tense: present
+  expected: מצולם
+---
+lemma: קום
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: קומי!
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: קום!
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: קומו!
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נקום
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תקומו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יקומו
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אקום
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תקום
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יקום
+---
+lemma: קנה
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נקנה
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: קנינו
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: קונים
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תקנו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: קניתם
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: קונים
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יקנו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: קנו
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: קונים
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אקנה
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: קניתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: קונה
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תקנה
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: קנית
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: קונה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יקנה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: קנה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: קונה
+- features:
+    verb_form: infinitive
+  expected: לקנות
+---
+lemma: קרא
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: הם
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: קראתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: אני
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: את
+---
+lemma: שינה
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נשנה
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: שינינו
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: שיניתם
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: שינו
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אשנה
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: שיניתי
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: משנה
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תשנה
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: שינית
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: משנה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ישנה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: שינה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: משנה
+---
+lemma: שיר
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: שירי!
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: שיר!
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: שירו!

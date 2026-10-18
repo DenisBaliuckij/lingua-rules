@@ -1,0 +1,79 @@
+lemma: dhaat
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+  expected: dhawaatay
+- features:
+    case: accusative
+    number: plural
+  expected: dhawaat-i
+- features:
+    case: accusative
+    number: singular
+  expected: dhaata
+- features:
+    case: genitive
+    number: dual
+  expected: dhawaatay
+- features:
+    case: genitive
+    number: plural
+  expected: dhawaat-i
+- features:
+    case: genitive
+    number: singular
+  expected: dhaati
+- features:
+    case: nominative
+    number: dual
+  expected: dhawaataa
+- features:
+    case: nominative
+    number: plural
+  expected: dhawaat-u
+- features:
+    case: nominative
+    number: singular
+  expected: dhaatu
+---
+lemma: dhuu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+  expected: dhaway
+- features:
+    case: accusative
+    number: plural
+  expected: dhawii
+- features:
+    case: accusative
+    number: singular
+  expected: dhaa
+- features:
+    case: genitive
+    number: dual
+  expected: dhaway
+- features:
+    case: genitive
+    number: plural
+  expected: dhawii
+- features:
+    case: genitive
+    number: singular
+  expected: dhii
+- features:
+    case: nominative
+    number: dual
+  expected: dhawaa
+- features:
+    case: nominative
+    number: plural
+  expected: dhawuu
+- features:
+    case: nominative
+    number: singular
+  expected: dhuu

@@ -1,0 +1,39 @@
+lemma: lo
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: las
+- features:
+    gender: feminine
+    number: singular
+  expected: la
+- features:
+    gender: masculine
+    number: plural
+  expected: los
+- features:
+    gender: masculine
+    number: singular
+  expected: lo
+---
+lemma: un
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: unhas
+- features:
+    gender: feminine
+    number: singular
+  expected: unha
+- features:
+    gender: masculine
+    number: plural
+  expected: uns
+- features:
+    gender: masculine
+    number: singular
+  expected: un

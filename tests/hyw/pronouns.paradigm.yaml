@@ -1,0 +1,781 @@
+lemma: ամէն մէկը
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: ամէնքէն
+- features:
+    case: ablative
+    number: singular
+  expected: ամէն մէկէն
+- features:
+    case: genitive
+    number: plural
+  expected: ամէնքին
+- features:
+    case: genitive
+    number: singular
+  expected: ամէն մէկուն
+- features:
+    case: instrumental
+    number: plural
+  expected: ամէնքով
+- features:
+    case: instrumental
+    number: singular
+  expected: ամէն մէկով
+- features:
+    case: nominative
+    number: plural
+  expected: ամէնքը
+- features:
+    case: nominative
+    number: singular
+  expected: ամէն մէկը
+---
+lemma: ան
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: անկէ
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: զայն
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: անոր
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: անոր
+- features:
+    case: instrumental
+    number: singular
+    person: third
+  expected: անով
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ան
+---
+lemma: անոնցը
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: ա նոնցիններէն
+- features:
+    case: ablative
+    number: singular
+  expected: ա նոնցինէն
+- features:
+    case: accusative
+    number: plural
+  expected: անոնց ինները
+- features:
+    case: accusative
+    number: singular
+  expected: անոնցը
+- features:
+    case: dative
+    number: plural
+  expected: ա նոնցիններուն
+- features:
+    case: dative
+    number: singular
+  expected: անոնցինին
+- features:
+    case: genitive
+    number: plural
+  expected: ա նոնցիններուն
+- features:
+    case: genitive
+    number: singular
+  expected: անոնցինին
+- features:
+    case: instrumental
+    number: plural
+  expected: ա նոնցիններով
+- features:
+    case: instrumental
+    number: singular
+  expected: ա նոնցինով
+- features:
+    case: nominative
+    number: plural
+  expected: անոնց ինները
+- features:
+    case: nominative
+    number: singular
+  expected: անոնցը
+---
+lemma: անոնք
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: անոնցմէ
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: զանոնք
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: անոնց
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: անոնց
+- features:
+    case: instrumental
+    number: plural
+    person: third
+  expected: անոնցմով
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: անոնք
+---
+lemma: անորը
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: անորիններէն
+- features:
+    case: ablative
+    number: singular
+  expected: անորինէն
+- features:
+    case: accusative
+    number: plural
+  expected: ա նորինները
+- features:
+    case: accusative
+    number: singular
+  expected: անորը
+- features:
+    case: dative
+    number: plural
+  expected: անոր իններուն
+- features:
+    case: dative
+    number: singular
+  expected: անորինին
+- features:
+    case: genitive
+    number: plural
+  expected: անոր իններուն
+- features:
+    case: genitive
+    number: singular
+  expected: անորինին
+- features:
+    case: instrumental
+    number: plural
+  expected: անորիններով
+- features:
+    case: instrumental
+    number: singular
+  expected: անորինով
+- features:
+    case: nominative
+    number: plural
+  expected: ա նորինները
+- features:
+    case: nominative
+    number: singular
+  expected: անորը
+---
+lemma: բոլորը
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: բոլորէն
+- features:
+    case: genitive
+    number: plural
+  expected: բոլորէն
+- features:
+    case: instrumental
+    number: plural
+  expected: բոլորով
+- features:
+    case: nominative
+    number: plural
+  expected: բոլորը
+---
+lemma: ես
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: ինձմէ
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: զիս
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: ինծի
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: իմ
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: ինձմով
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ես
+- features:
+    number: plural
+    person: first
+  expected: մենք
+- features:
+    number: plural
+    person: second
+  expected: դուք
+- features:
+    number: plural
+    person: third
+  expected: անոնք
+- features:
+    number: singular
+    person: first
+  expected: ես
+- features:
+    number: singular
+    person: second
+  expected: ղուն
+- features:
+    number: singular
+    person: third
+  expected: ան
+---
+lemma: իմս
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: իմիններէս
+- features:
+    case: ablative
+    number: singular
+  expected: իմինէս
+- features:
+    case: accusative
+    number: plural
+  expected: իմիններս
+- features:
+    case: accusative
+    number: singular
+  expected: իմս
+- features:
+    case: dative
+    number: plural
+  expected: իմիններուս
+- features:
+    case: dative
+    number: singular
+  expected: իմինիս
+- features:
+    case: genitive
+    number: plural
+  expected: իմիններուս
+- features:
+    case: genitive
+    number: singular
+  expected: իմինիս
+- features:
+    case: instrumental
+    number: plural
+  expected: իմիններովս
+- features:
+    case: instrumental
+    number: singular
+  expected: իմինովս
+- features:
+    case: nominative
+    number: plural
+  expected: իմիններս
+- features:
+    case: nominative
+    number: singular
+  expected: իմս
+---
+lemma: իրենցը
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: իրենցիններէն
+- features:
+    case: ablative
+    number: singular
+  expected: ի րենցինէն
+- features:
+    case: accusative
+    number: plural
+  expected: իրենցէւնները
+- features:
+    case: dative
+    number: plural
+  expected: իրենցիններուն
+- features:
+    case: dative
+    number: singular
+  expected: իրենցինին
+- features:
+    case: genitive
+    number: plural
+  expected: իրենցիններուն
+- features:
+    case: genitive
+    number: singular
+  expected: իրենցինին
+- features:
+    case: instrumental
+    number: plural
+  expected: իրենցիններով
+- features:
+    case: instrumental
+    number: singular
+  expected: իրենցինով
+- features:
+    case: nominative
+    number: plural
+  expected: իրենցէւնները
+---
+lemma: իրենք
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: իրենցմէ
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: զիրենք
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: իրենց
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: իրենց
+- features:
+    case: instrumental
+    number: plural
+    person: third
+  expected: իրենցմով
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: իրենք
+---
+lemma: իրը
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: իրենիններէն
+- features:
+    case: ablative
+    number: singular
+  expected: ի րենինէն
+- features:
+    case: accusative
+    number: plural
+  expected: ի րենիններ ր
+- features:
+    case: accusative
+    number: singular
+  expected: իրը
+- features:
+    case: dative
+    number: plural
+  expected: իրենիններոլն
+- features:
+    case: dative
+    number: singular
+  expected: իրենինին
+- features:
+    case: genitive
+    number: plural
+  expected: իրենիններոլն
+- features:
+    case: genitive
+    number: singular
+  expected: իրենինին
+- features:
+    case: instrumental
+    number: plural
+  expected: իրենիններով
+- features:
+    case: instrumental
+    number: singular
+  expected: իրենինով
+- features:
+    case: nominative
+    number: plural
+  expected: ի րենիններ ր
+- features:
+    case: nominative
+    number: singular
+  expected: իրը
+---
+lemma: իւրաքանչիւրը
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: իւրաքանչիւրէն
+- features:
+    case: genitive
+    number: singular
+  expected: իւրաքանչիւրին
+- features:
+    case: instrumental
+    number: singular
+  expected: իւրաքանչիւրով
+- features:
+    case: nominative
+    number: singular
+  expected: իւրաքանչիւրը
+---
+lemma: ձերը
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: ձերինններէն
+- features:
+    case: ablative
+    number: singular
+  expected: ձերինէն
+- features:
+    case: accusative
+    number: plural
+  expected: ձերինները
+- features:
+    case: accusative
+    number: singular
+  expected: ձերը
+- features:
+    case: dative
+    number: plural
+  expected: ձերիններուն
+- features:
+    case: dative
+    number: singular
+  expected: ձերինին
+- features:
+    case: genitive
+    number: plural
+  expected: ձերիններուն
+- features:
+    case: genitive
+    number: singular
+  expected: ձերինին
+- features:
+    case: instrumental
+    number: plural
+  expected: ձերիններով
+- features:
+    case: instrumental
+    number: singular
+  expected: ձերինով
+- features:
+    case: nominative
+    number: plural
+  expected: ձերինները
+- features:
+    case: nominative
+    number: singular
+  expected: ձերը
+---
+lemma: մենք
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: մեզմէ
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: մեզ
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: մեզի
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: մեր
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: մեզմով
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: մենք
+---
+lemma: մերը
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: մերիններէն
+- features:
+    case: ablative
+    number: singular
+  expected: մերինէն
+- features:
+    case: accusative
+    number: plural
+  expected: մերինները
+- features:
+    case: accusative
+    number: singular
+  expected: մերը
+- features:
+    case: dative
+    number: plural
+  expected: մերիններուն
+- features:
+    case: dative
+    number: singular
+  expected: մերինին
+- features:
+    case: genitive
+    number: plural
+  expected: մերիններուն
+- features:
+    case: genitive
+    number: singular
+  expected: մերինին
+- features:
+    case: instrumental
+    number: plural
+  expected: մերիններով
+- features:
+    case: instrumental
+    number: singular
+  expected: մերինով
+- features:
+    case: nominative
+    number: plural
+  expected: մերինները
+- features:
+    case: nominative
+    number: singular
+  expected: մերը
+---
+lemma: միւսը
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: միւսներէն
+- features:
+    case: ablative
+    number: singular
+  expected: միւսէն
+- features:
+    case: genitive
+    number: plural
+  expected: միւսներուն
+- features:
+    case: genitive
+    number: singular
+  expected: միւսին
+- features:
+    case: instrumental
+    number: plural
+  expected: միւսներով
+- features:
+    case: instrumental
+    number: singular
+  expected: միւսով
+- features:
+    case: nominative
+    number: plural
+  expected: միւսները
+- features:
+    case: nominative
+    number: singular
+  expected: միւսը
+---
+lemma: նոյնանձը
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: նոյնանձերէն
+- features:
+    case: ablative
+    number: singular
+  expected: նոյնանձէն
+- features:
+    case: genitive
+    number: plural
+  expected: նոյնանձերուն
+- features:
+    case: genitive
+    number: singular
+  expected: նոյնանձին
+- features:
+    case: instrumental
+    number: plural
+  expected: նոյնանձերով
+- features:
+    case: instrumental
+    number: singular
+  expected: նոյնանձով
+- features:
+    case: nominative
+    number: plural
+  expected: նոյնանձերը
+- features:
+    case: nominative
+    number: singular
+  expected: նոյնանձը
+---
+lemma: նոյնը
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: նոյներէն
+- features:
+    case: ablative
+    number: singular
+  expected: նոյնէն
+- features:
+    case: genitive
+    number: plural
+  expected: նոյներուն
+- features:
+    case: genitive
+    number: singular
+  expected: նոյնին
+- features:
+    case: instrumental
+    number: plural
+  expected: նոյներով
+- features:
+    case: instrumental
+    number: singular
+  expected: նոյնով
+- features:
+    case: nominative
+    number: plural
+  expected: նոյները
+- features:
+    case: nominative
+    number: singular
+  expected: նոյնը
+---
+lemma: քուկդ
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: ք ուկ ի ն ն ե ր էդ
+- features:
+    case: accusative
+    number: plural
+  expected: ք ուկ ի ն ն ե ր դ
+- features:
+    case: accusative
+    number: singular
+  expected: ք ուկ դ
+- features:
+    case: dative
+    number: plural
+  expected: ք ուկ ի ն ն ե ր ուդ
+- features:
+    case: dative
+    number: singular
+  expected: ք ուկ ի ն ի դ
+- features:
+    case: genitive
+    number: plural
+  expected: ք ուկ ի ն ն ե ր ուդ
+- features:
+    case: genitive
+    number: singular
+  expected: ք ուկ ի ն ի դ
+- features:
+    case: instrumental
+    number: plural
+  expected: քուկիններովդ
+- features:
+    case: instrumental
+    number: singular
+  expected: քո ւկ ի նո վ դ
+- features:
+    case: nominative
+    number: plural
+  expected: ք ուկ ի ն ն ե ր դ
+- features:
+    case: nominative
+    number: singular
+  expected: ք ուկ դ

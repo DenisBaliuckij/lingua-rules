@@ -1,0 +1,53 @@
+lemma: bi
+category: articles
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: yi
+- features:
+    definiteness: definite
+    number: singular
+  expected: bi
+---
+lemma: bilé
+category: articles
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: yilé
+- features:
+    definiteness: definite
+    number: singular
+  expected: bilé
+- features:
+    number: plural
+  expected: yilė
+- features:
+    number: singular
+  expected: bilé
+---
+lemma: bulé
+category: articles
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: yulé
+- features:
+    definiteness: definite
+    number: singular
+  expected: bulé
+---
+lemma: bålė
+category: articles
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: yălė
+- features:
+    definiteness: definite
+    number: singular
+  expected: bålė

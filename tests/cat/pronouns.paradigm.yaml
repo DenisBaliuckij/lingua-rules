@@ -1,0 +1,523 @@
+lemma: abdós
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: abdós
+- features:
+    gender: masculine
+    number: plural
+  expected: abdós
+---
+lemma: això
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: això
+---
+lemma: algú
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: algunes
+- features:
+    gender: feminine
+    number: singular
+  expected: alguna
+- features:
+    gender: masculine
+    number: plural
+  expected: alguns
+- features:
+    gender: masculine
+    number: singular
+  expected: algun
+---
+lemma: allò
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: allò
+---
+lemma: aqueix
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: aqueixes
+- features:
+    gender: feminine
+    number: singular
+  expected: aqueixa
+- features:
+    gender: masculine
+    number: plural
+  expected: aqueixos
+- features:
+    gender: masculine
+    number: singular
+  expected: aqueix
+---
+lemma: aquell
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: aquelles
+- features:
+    gender: feminine
+    number: singular
+  expected: aquella
+- features:
+    gender: masculine
+    number: plural
+  expected: aquells
+- features:
+    gender: masculine
+    number: singular
+  expected: aquell
+---
+lemma: aquest
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: aquestes
+- features:
+    gender: feminine
+    number: singular
+  expected: aquesta
+- features:
+    gender: masculine
+    number: plural
+  expected: aquests
+- features:
+    gender: masculine
+    number: singular
+  expected: aquest
+---
+lemma: atre
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: atres
+- features:
+    gender: feminine
+    number: singular
+  expected: atra
+- features:
+    gender: masculine
+    number: plural
+  expected: atres
+- features:
+    gender: masculine
+    number: singular
+  expected: atre
+---
+lemma: açò
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: açò
+---
+lemma: cada u
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: cada una
+- features:
+    gender: masculine
+    number: singular
+  expected: cada u
+---
+lemma: cap
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: cap
+- features:
+    gender: masculine
+    number: singular
+  expected: cap
+---
+lemma: el qual
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: les quals
+- features:
+    gender: feminine
+    number: singular
+  expected: la qual
+- features:
+    gender: masculine
+    number: plural
+  expected: els quals
+- features:
+    gender: masculine
+    number: singular
+  expected: el qual
+---
+lemma: ell
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: lo
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ell
+---
+lemma: ella
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: la
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ella
+---
+lemma: ellas
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: ellas
+---
+lemma: ells
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+    person: third
+  expected: els
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: ells
+---
+lemma: ho
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: ho
+---
+lemma: jo
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+    voice: reflexive
+  expected: me
+- features:
+    case: dative
+    number: singular
+    person: first
+    voice: reflexive
+  expected: me
+- features:
+    number: singular
+    person: first
+  expected: jo
+---
+lemma: mateix
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: mateixes
+- features:
+    gender: feminine
+    number: singular
+  expected: mateixa
+- features:
+    gender: masculine
+    number: plural
+  expected: mateixos
+- features:
+    gender: masculine
+    number: singular
+  expected: mateix
+---
+lemma: ningú
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: ningunes
+- features:
+    gender: feminine
+    number: singular
+  expected: ninguna
+- features:
+    gender: masculine
+    number: plural
+  expected: ninguns
+- features:
+    gender: masculine
+    number: singular
+  expected: ningun
+---
+lemma: nosaltres
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+    voice: reflexive
+  expected: nos
+- features:
+    case: dative
+    number: plural
+    person: first
+    voice: reflexive
+  expected: nos
+- features:
+    number: plural
+    person: first
+  expected: nosaltres
+---
+lemma: 'on'
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: 'on'
+---
+lemma: qualsevol
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: qualsevol
+- features:
+    gender: feminine
+    number: singular
+  expected: qualsevol
+- features:
+    gender: masculine
+    number: plural
+  expected: qualsevol
+- features:
+    gender: masculine
+    number: singular
+  expected: qualsevol
+---
+lemma: que
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: que
+---
+lemma: qui
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: qui
+---
+lemma: quin
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: quines?
+- features:
+    gender: feminine
+    number: singular
+  expected: quina?
+- features:
+    gender: masculine
+    number: plural
+  expected: quins?
+- features:
+    gender: masculine
+    number: singular
+  expected: quin?
+---
+lemma: què
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: què
+---
+lemma: res
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: singular
+  expected: res
+---
+lemma: si
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+    voice: reflexive
+  expected: si
+- features:
+    number: singular
+    person: third
+    voice: reflexive
+  expected: si
+---
+lemma: tal
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: tal
+- features:
+    gender: masculine
+    number: singular
+  expected: tal
+---
+lemma: tots
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: totes
+- features:
+    gender: masculine
+    number: plural
+  expected: tots
+---
+lemma: tu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+    voice: reflexive
+  expected: te
+- features:
+    case: dative
+    number: singular
+    person: second
+    voice: reflexive
+  expected: te
+- features:
+    number: singular
+    person: second
+  expected: tu
+---
+lemma: u
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: unes
+- features:
+    gender: feminine
+    number: singular
+  expected: una
+- features:
+    gender: masculine
+    number: plural
+  expected: uns
+- features:
+    gender: masculine
+    number: singular
+  expected: u
+---
+lemma: uns quants
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: unes quantes
+- features:
+    gender: masculine
+    number: plural
+  expected: uns quants
+---
+lemma: vosaltres
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+    voice: reflexive
+  expected: vos
+- features:
+    case: dative
+    number: plural
+    person: second
+    voice: reflexive
+  expected: vos
+- features:
+    number: plural
+    person: second
+  expected: vosaltres
+---
+lemma: vostê
+category: pronouns
+cases:
+- features:
+    formality: formal
+    number: singular
+    person: second
+  expected: vostê
+---
+lemma: vostês
+category: pronouns
+cases:
+- features:
+    formality: formal
+    number: plural
+    person: second
+  expected: vostês

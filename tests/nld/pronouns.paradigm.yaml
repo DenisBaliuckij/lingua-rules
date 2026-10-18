@@ -1,0 +1,287 @@
+lemma: dat
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: singular
+  expected: dat
+---
+lemma: deze
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: plural
+  expected: deze
+- features:
+    gender: common
+    number: singular
+  expected: deze
+---
+lemma: dezelve
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: denzelven
+- features:
+    case: dative
+    number: singular
+  expected: denzelven
+- features:
+    case: genitive
+    number: singular
+  expected: deszelfs
+- features:
+    case: nominative
+    number: singular
+  expected: dezelve
+---
+lemma: die
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: plural
+  expected: die
+- features:
+    gender: common
+    number: singular
+  expected: die
+---
+lemma: dit
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: singular
+  expected: dit
+---
+lemma: het
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: plural
+  expected: hunner
+- features:
+    gender: neuter
+    number: singular
+  expected: zichs
+- features:
+    number: singular
+    person: third
+  expected: it
+---
+lemma: hij
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: plural
+  expected: hunner
+- features:
+    gender: masculine
+    number: singular
+  expected: zichs
+- features:
+    number: singular
+    person: third
+  expected: he
+---
+lemma: hun
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: their bus
+---
+lemma: ik
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ik
+---
+lemma: jij
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: jij
+---
+lemma: jouw
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: your bicycle
+- features:
+    number: singular
+    person: second
+  expected: your car
+---
+lemma: jullie
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: jullie
+---
+lemma: u
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: you
+- features:
+    number: singular
+    person: second
+  expected: u
+---
+lemma: uw
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: your house
+---
+lemma: welke
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: welke
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: welke
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: welke
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: welken
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: welk
+- features:
+    case: dative
+    gender: feminine
+    number: plural
+  expected: welke
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: welke
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: welken
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: welken
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: welken
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: welker
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: welker
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: welker
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: welks
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: welks
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: welke
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: welke
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: welke
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: welke
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: welt
+---
+lemma: wij
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: we
+---
+lemma: zij
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: hunner
+- features:
+    gender: feminine
+    number: singular
+  expected: harer
+- features:
+    number: plural
+    person: third
+  expected: they
+- features:
+    number: singular
+    person: third
+  expected: she

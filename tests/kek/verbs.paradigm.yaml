@@ -1,0 +1,3729 @@
+lemma: ab'i
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: wab'iqat
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kiqab’i
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kerab’i
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ke’rab’i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kiwab’i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kawab’i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kirab’i
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: wab'l'aq
+---
+lemma: atin
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nin’atin
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: atijenaqaqin
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: atijenaqin
+- features:
+    aspect: imperfective
+    mood: optative
+    number: singular
+    person: first
+  expected: atijenaqaqin
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tin’atinq
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kin’atin
+- features:
+    aspect: perfective
+    mood: optative
+    number: singular
+    person: first
+  expected: chin’atinq
+---
+lemma: b'atz'un
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: xoob’atz’un
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: xexb’atz’un
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: xe’b’atz’un
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: xinb’atz’un
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: xatb’atz’un
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: xb’atz’un
+---
+lemma: b'oq
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: qab'oqaqat
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: b'oqomagin
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: xb'oqaqineb
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: inb'oqaqat
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: b'oqin
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: xb'oqaqin
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: chatgab'oq
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: chineb'oq
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: chine'xboq
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: chatinb'oq
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: chinab'oq
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: chinxb'oq
+---
+lemma: b'oqe
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tinb'oqe’q
+- features:
+    verb_form: infinitive
+  expected: b'oqe’k
+---
+lemma: b’ak
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: b’akomaq
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: b’ak’in
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nakoohaab’ak
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tinxb’ak
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nakatinb’ak
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: tatxb’ak
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nakinab'ak
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: tixb’ak
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nakinab’ak
+---
+lemma: b’ak’b
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ninb’ak’b
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: b’ak’b’ookaqin
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: b’ak’b’ookin
+- features:
+    aspect: imperfective
+    mood: optative
+    number: singular
+    person: first
+  expected: b’ak’b’ookaqin
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tinb’ak’b’ooq
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kinb’ak’b
+- features:
+    aspect: perfective
+    mood: optative
+    number: singular
+    person: first
+  expected: chinb’ak’b’ooq
+---
+lemma: b’eek
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: choob’eeq
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: chexb’eeq
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: che’b’eeq
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: chinb’eeq
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: chatb’eeq
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: chib’eeq
+---
+lemma: b’oq
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: naqab’oq
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nakeeb’oq
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nake’xb’oq
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ninb’oq
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nakab’oq
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: naxb’oq
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: taqab’oq
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: teeb’oq
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: te’xb’oq
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tinb’oq
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: taab’oq
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: tixb’oq
+---
+lemma: c'opok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: c'opok
+- features:
+    verb_form: past_participle
+  expected: c'opê
+---
+lemma: c'opīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: c'opīnk
+- features:
+    verb_form: past_participle
+  expected: c'opiik
+---
+lemma: c'oshlaank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: c'oshlaank
+- features:
+    verb_form: past_participle
+  expected: c'oshlaak
+---
+lemma: c'osok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: c'osok
+- features:
+    verb_form: past_participle
+  expected: c'osê
+---
+lemma: c'otaank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: c'otaank
+- features:
+    verb_form: past_participle
+  expected: c'otak
+---
+lemma: c'ukuk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: c'ukuk
+- features:
+    verb_form: past_participle
+  expected: c'ukê
+---
+lemma: c'ulaank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: c'ulaank
+- features:
+    verb_form: past_participle
+  expected: c'ulaak
+---
+lemma: c'utuk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: c'utuk
+- features:
+    verb_form: past_participle
+  expected: c'utê
+---
+lemma: ch'iila
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: inch'iilaqat
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: inch'iila'aq
+---
+lemma: ch'iilaa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tinch'iilaaq
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: xch'iilaak
+- features:
+    verb_form: infinitive
+  expected: ch'iilaak
+---
+lemma: chap
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: chapomaq
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: chapin
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: chap
+---
+lemma: ch’iilaak
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ninch’iilaak
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ch’iilamb’ilaqin
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ch’iilamb’ilin
+- features:
+    aspect: imperfective
+    mood: optative
+    number: singular
+    person: first
+  expected: ch’iilamb’ilaqin
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tinch’iilaaq
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kinch’iilaak
+- features:
+    aspect: perfective
+    mood: optative
+    number: singular
+    person: first
+  expected: chinch’iilaaq
+---
+lemma: colonīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: colonīnk
+- features:
+    verb_form: past_participle
+  expected: coloniik
+---
+lemma: cotobānk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: cotobānk
+- features:
+    verb_form: past_participle
+  expected: cotobaak
+---
+lemma: cotzok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: cotzok
+- features:
+    verb_form: past_participle
+  expected: cotzê
+---
+lemma: cuaank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: cuaank
+- features:
+    verb_form: past_participle
+  expected: cuan
+---
+lemma: cuaclesīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: cuaclesīnk
+- features:
+    verb_form: past_participle
+  expected: cuaclesiik
+---
+lemma: cuajbaank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: cuajbaank
+- features:
+    verb_form: past_participle
+  expected: cuajbaak
+---
+lemma: cualuunk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: cualuunk
+- features:
+    verb_form: past_participle
+  expected: cualuuk
+---
+lemma: cuartesīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: cuartesīnk
+- features:
+    verb_form: past_participle
+  expected: cuartesiik
+---
+lemma: cuaök
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: cuaök
+- features:
+    verb_form: past_participle
+  expected: cuaê
+---
+lemma: cubsiink
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: cubsiink
+- features:
+    verb_form: past_participle
+  expected: cubsiik
+---
+lemma: cuosok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: cuosok
+- features:
+    verb_form: past_participle
+  expected: cuosê
+---
+lemma: curruk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: curruk
+- features:
+    verb_form: past_participle
+  expected: currê
+---
+lemma: cutubānk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: cutubānk
+- features:
+    verb_form: past_participle
+  expected: cutubaak
+---
+lemma: cutuk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: cutuk
+- features:
+    verb_form: past_participle
+  expected: cutê
+---
+lemma: cuâtesīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: cuâtesīnk
+- features:
+    verb_form: past_participle
+  expected: cuâtesiik
+---
+lemma: cuöbaank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: cuöbaank
+- features:
+    verb_form: past_participle
+  expected: cuöbaak
+---
+lemma: ec'asīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: ec'asīnk
+- features:
+    verb_form: past_participle
+  expected: ec'asiik
+---
+lemma: echanīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: echanīnk
+- features:
+    verb_form: past_participle
+  expected: echaniik
+---
+lemma: eek'a
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: xqeek’a
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: xeereek’a
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: xe’reek’a
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: xweek’a
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: xaaweek’a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: xreek’a
+---
+lemma: elk'aank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: elk'aank
+- features:
+    verb_form: past_participle
+  expected: elk'aak
+---
+lemma: elk'eīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: elk'eīnk
+- features:
+    verb_form: past_participle
+  expected: elk'eiik
+---
+lemma: etaank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: etaank
+- features:
+    verb_form: past_participle
+  expected: etaak
+---
+lemma: etz'uunk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: etz'uunk
+- features:
+    verb_form: past_participle
+  expected: etz'uuk
+---
+lemma: habök
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: habök
+- features:
+    verb_form: past_participle
+  expected: habê
+---
+lemma: hach'ok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: hach'ok
+- features:
+    verb_form: past_participle
+  expected: hach'ê
+---
+lemma: hamok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: hamok
+- features:
+    verb_form: past_participle
+  expected: hamê
+---
+lemma: hasbaank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: hasbaank
+- features:
+    verb_form: past_participle
+  expected: hasbaak
+---
+lemma: hellok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: hellok
+- features:
+    verb_form: past_participle
+  expected: hellman
+---
+lemma: hiltasīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: hiltasīnk
+- features:
+    verb_form: past_participle
+  expected: hiltasiik
+---
+lemma: hirrok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: hirrok
+- features:
+    verb_form: past_participle
+  expected: hirrê
+---
+lemma: hitok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: hitok
+- features:
+    verb_form: past_participle
+  expected: hitê
+---
+lemma: hobok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: hobok
+- features:
+    verb_form: past_participle
+  expected: hobê
+---
+lemma: homok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: homok
+- features:
+    verb_form: past_participle
+  expected: homê
+---
+lemma: hopok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: hopok
+- features:
+    verb_form: past_participle
+  expected: hopê
+---
+lemma: hoybaank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: hoybaank
+- features:
+    verb_form: past_participle
+  expected: hoybaa
+---
+lemma: hupubānk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: hupubānk
+- features:
+    verb_form: past_participle
+  expected: hupubaak
+---
+lemma: hâlesīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: hâlesīnk
+- features:
+    verb_form: past_participle
+  expected: hâlesiik
+---
+lemma: il
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: naqil
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nakeeril
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nake’ril
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ninwil
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nakawil
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: naril
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: qilaqat
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ilpmaqin
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: rilaqineb
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: qilaqat
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ilin
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: rilaqin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: taaqil
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: teeril
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: te’ril
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tinwil
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: taawil
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: taaril
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: chatqil
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: chineril
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: chine'ril
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: chatwil
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: chinaqil
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: chinril
+---
+lemma: iqaank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: iqaank
+- features:
+    verb_form: past_participle
+  expected: iqaak
+---
+lemma: ishqenīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: ishqenīnk
+- features:
+    verb_form: past_participle
+  expected: ishqenīik
+---
+lemma: it'ok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: it'ok
+- features:
+    verb_form: past_participle
+  expected: it'ê
+---
+lemma: jilibānk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: jilibānk
+- features:
+    verb_form: past_participle
+  expected: jilibaak
+---
+lemma: jilok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: jilok
+- features:
+    verb_form: past_participle
+  expected: jilê
+---
+lemma: josk'obresīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: josk'obresīnk
+- features:
+    verb_form: past_participle
+  expected: josk'obresiik
+---
+lemma: josq
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: josq
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tinjosq
+- features:
+    mood: indicative
+    person: third
+    tense: past
+  expected: xjosq
+- features:
+    verb_form: infinitive
+  expected: josq
+---
+lemma: jucuunk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: jucuunk
+- features:
+    verb_form: past_participle
+  expected: jucuuk
+---
+lemma: jöok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: jöok
+- features:
+    verb_form: past_participle
+  expected: jöê
+---
+lemma: k'abaīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: k'abaīnk
+- features:
+    verb_form: past_participle
+  expected: k'abaiik
+---
+lemma: k'ehiink
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: k'ehiink
+- features:
+    verb_form: past_participle
+  expected: k'ehiik
+---
+lemma: k'etok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: k'etok
+- features:
+    verb_form: past_participle
+  expected: k'etman
+---
+lemma: k'iläank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: k'iläank
+- features:
+    verb_form: past_participle
+  expected: k'iläak
+---
+lemma: k'ishbaank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: k'ishbaank
+- features:
+    verb_form: past_participle
+  expected: k'ishbaak
+---
+lemma: k'ishnaank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: k'ishnaank
+- features:
+    verb_form: past_participle
+  expected: k'ishnaak
+---
+lemma: k'ochok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: k'ochok
+- features:
+    verb_form: past_participle
+  expected: k'ochman
+---
+lemma: k'olok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: k'olok
+- features:
+    verb_form: past_participle
+  expected: k'olman
+---
+lemma: k'otok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: k'otok
+- features:
+    verb_form: past_participle
+  expected: k'otman
+---
+lemma: k'ulun
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tink'ulunq
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: xk'ulun
+- features:
+    verb_form: infinitive
+  expected: k'ulunk
+---
+lemma: k'usuk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: k'usuk
+- features:
+    verb_form: past_participle
+  expected: k'usman
+---
+lemma: kachok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: kachok
+- features:
+    verb_form: past_participle
+  expected: kachê
+---
+lemma: kalaa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kalaaqat
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tinkalaaq
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: xkala
+- features:
+    verb_form: infinitive
+  expected: kalaak
+---
+lemma: kam
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kamqo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kamqex
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: kamqeb
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: kamqin
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kamqat
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: kamq
+---
+lemma: kamsihaq
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: chekamsihaq
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: chinkamsihaq
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: chatxkamsihaq
+---
+lemma: karab
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tinkarab'q
+- features:
+    mood: indicative
+    person: third
+    tense: past
+  expected: xkarab
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: karab'qat
+- features:
+    verb_form: infinitive
+  expected: karab'k
+---
+lemma: kehobresīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: kehobresīnk
+- features:
+    verb_form: past_participle
+  expected: kehobresiik
+---
+lemma: keloonk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: keloonk
+- features:
+    verb_form: past_participle
+  expected: kelook
+---
+lemma: kemok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: kemok
+- features:
+    verb_form: past_participle
+  expected: kemê
+---
+lemma: kishok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: kishok
+- features:
+    verb_form: past_participle
+  expected: k'ishman
+---
+lemma: kitz’ok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: kitz’ok
+- features:
+    verb_form: past_participle
+  expected: kitz'man
+---
+lemma: kub'ee
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kub'en
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tinkub'eeq
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: xkub'e
+- features:
+    verb_form: infinitive
+  expected: kub'eek
+---
+lemma: lak'abānk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: lak'abānk
+- features:
+    verb_form: past_participle
+  expected: lak'abaak
+---
+lemma: lanok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: lanok
+- features:
+    verb_form: past_participle
+  expected: lanê
+---
+lemma: lapok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: lapok
+- features:
+    verb_form: past_participle
+  expected: lapman
+---
+lemma: latz'aank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: latz'aank
+- features:
+    verb_form: past_participle
+  expected: latz'aak
+---
+lemma: lecok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: lecok
+- features:
+    verb_form: past_participle
+  expected: lecman
+---
+lemma: lepok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: lepok
+- features:
+    verb_form: past_participle
+  expected: lepman
+---
+lemma: letzok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: letzok
+- features:
+    verb_form: past_participle
+  expected: letzman
+---
+lemma: lik'ok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: lik'ok
+- features:
+    verb_form: past_participle
+  expected: lik'man
+---
+lemma: lochok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: lochok
+- features:
+    verb_form: past_participle
+  expected: lochman
+---
+lemma: lochtêenk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: lochtêenk
+- features:
+    verb_form: past_participle
+  expected: lochteêk
+---
+lemma: lok'ok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: lok'ok
+- features:
+    verb_form: past_participle
+  expected: lok'man
+---
+lemma: loq
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kiqaloq
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: keeloq
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ke’xloq
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kinloq
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kaloq
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kixloq
+---
+lemma: loq’ok
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nakooloq’ok
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nakexloq’ok
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nake’loq’ok
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nakinloq’ok
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nakatloq’ok
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: naloq’ok
+---
+lemma: lubtesīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: lubtesīnk
+- features:
+    verb_form: past_participle
+  expected: lubtesiik
+---
+lemma: lucubānk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: lucubānk
+- features:
+    verb_form: past_participle
+  expected: lucubaak
+---
+lemma: luhobresīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: luhobresīnk
+- features:
+    verb_form: past_participle
+  expected: luhobresiik
+---
+lemma: mak'ok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: mak'ok
+- features:
+    verb_form: past_participle
+  expected: mak'man
+---
+lemma: matanīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: matanīnk
+- features:
+    verb_form: past_participle
+  expected: mataniik
+---
+lemma: matc'eenk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: matc'eenk
+- features:
+    verb_form: past_participle
+  expected: matc'eek
+---
+lemma: matyajank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: matyajank
+- features:
+    verb_form: past_participle
+  expected: matyajaak
+---
+lemma: mausilānk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: mausilānk
+- features:
+    verb_form: past_participle
+  expected: mausilaak
+---
+lemma: mayibk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: mayibk
+- features:
+    verb_form: past_participle
+  expected: mayiik
+---
+lemma: memobresīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: memobresīnk
+- features:
+    verb_form: past_participle
+  expected: memobresiik
+---
+lemma: mesuunk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: mesuunk
+- features:
+    verb_form: past_participle
+  expected: mesuman
+---
+lemma: metz'ecuānk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: metz'ecuānk
+- features:
+    verb_form: past_participle
+  expected: metz'ecuaak
+---
+lemma: mich'ok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: mich'ok
+- features:
+    verb_form: past_participle
+  expected: mich'ê
+---
+lemma: minok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: minok
+- features:
+    verb_form: past_participle
+  expected: minê
+---
+lemma: mochobānk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: mochobānk
+- features:
+    verb_form: past_participle
+  expected: mochobaak
+---
+lemma: much'uk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: much'uk
+- features:
+    verb_form: past_participle
+  expected: much'ê
+---
+lemma: muquk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: muquk
+- features:
+    verb_form: past_participle
+  expected: muqê
+---
+lemma: mushuk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: mushuk
+- features:
+    verb_form: past_participle
+  expected: mushê
+---
+lemma: musik'ānk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: musik'ānk
+- features:
+    verb_form: past_participle
+  expected: musik'aak
+---
+lemma: nawök
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: nawök
+- features:
+    verb_form: past_participle
+  expected: nawman
+---
+lemma: nimaank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: nimaank
+- features:
+    verb_form: past_participle
+  expected: nimô
+---
+lemma: nimobresīnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: nimobresin
+- features:
+    verb_form: infinitive
+  expected: nimobresīnk
+- features:
+    verb_form: past_participle
+  expected: nimobresiik
+---
+lemma: nink'ehīnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: nink'ehii
+- features:
+    verb_form: infinitive
+  expected: nink'ehīnk
+- features:
+    verb_form: past_participle
+  expected: nink'ehiik
+---
+lemma: nuk'uk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: nuk'uk
+- features:
+    verb_form: infinitive
+  expected: nuk'uk
+---
+lemma: nume
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: numen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tinume’q
+- features:
+    mood: indicative
+    person: third
+    tense: past
+  expected: xnume
+- features:
+    verb_form: infinitive
+  expected: nume’k
+---
+lemma: numsiink
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: numsin
+- features:
+    verb_form: infinitive
+  expected: numsiink
+---
+lemma: nâlebānk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: nâlebānk
+- features:
+    verb_form: past_participle
+  expected: nâlebaak
+---
+lemma: ochbenīnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: ochbenin
+- features:
+    verb_form: infinitive
+  expected: ochbenīnk
+- features:
+    verb_form: past_participle
+  expected: ochbeniik
+---
+lemma: oshlok'īnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: oshlok'ii
+- features:
+    verb_form: infinitive
+  expected: oshlok'īnk
+- features:
+    verb_form: past_participle
+  expected: oshlok'iik
+---
+lemma: osobtesīnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: osobtesin
+- features:
+    verb_form: infinitive
+  expected: osobtesīnk
+- features:
+    verb_form: past_participle
+  expected: osobtesiik
+---
+lemma: oybenīnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: oybenii
+- features:
+    verb_form: infinitive
+  expected: oybenīnk
+- features:
+    verb_form: past_participle
+  expected: oybeniik
+---
+lemma: oyb’enihaq
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: che’royb’enihaq
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: chatwoyb’enihaq
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: chinroyb’enihaq
+---
+lemma: pab'aank
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: pab'an
+- features:
+    verb_form: infinitive
+  expected: pab'aank
+- features:
+    verb_form: past_participle
+  expected: pab'aak
+---
+lemma: pajiink
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: pajin
+- features:
+    verb_form: infinitive
+  expected: pajiink
+- features:
+    verb_form: past_participle
+  expected: pajiik
+---
+lemma: pajok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: pajok
+- features:
+    verb_form: infinitive
+  expected: pajok
+---
+lemma: pak'ok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: pak'ok
+- features:
+    verb_form: infinitive
+  expected: pak'ok
+---
+lemma: paqoonk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: paqon
+- features:
+    verb_form: infinitive
+  expected: paqoonk
+- features:
+    verb_form: past_participle
+  expected: paqook
+---
+lemma: patz'ok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: patz'ok
+- features:
+    verb_form: infinitive
+  expected: patz'ok
+---
+lemma: payok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: payok
+- features:
+    verb_form: infinitive
+  expected: payok
+---
+lemma: pech'ok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: pech'ok
+- features:
+    verb_form: infinitive
+  expected: pech'ok
+---
+lemma: pechok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: pechok
+- features:
+    verb_form: infinitive
+  expected: pechok
+---
+lemma: pejok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: pejok
+- features:
+    verb_form: infinitive
+  expected: pejok
+---
+lemma: pek'ok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: pek'ok
+- features:
+    verb_form: infinitive
+  expected: pek'ok
+---
+lemma: perrebānk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: perreban
+- features:
+    verb_form: infinitive
+  expected: perrebānk
+- features:
+    verb_form: past_participle
+  expected: perrebaak
+---
+lemma: pic'aank
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: pic'an
+- features:
+    verb_form: infinitive
+  expected: pic'aank
+- features:
+    verb_form: past_participle
+  expected: pic'aak
+---
+lemma: picok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: picok
+- features:
+    verb_form: infinitive
+  expected: picok
+- features:
+    verb_form: past_participle
+  expected: picman
+---
+lemma: pisc'oonk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: pisc'oo
+- features:
+    verb_form: infinitive
+  expected: pisc'oonk
+- features:
+    verb_form: past_participle
+  expected: pisc'ook
+---
+lemma: pohiink
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: pohin
+- features:
+    verb_form: infinitive
+  expected: pohiink
+- features:
+    verb_form: past_participle
+  expected: pohiik
+---
+lemma: pohoonk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: pohon
+- features:
+    verb_form: infinitive
+  expected: pohoonk
+- features:
+    verb_form: past_participle
+  expected: pohook
+---
+lemma: pubaank
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: pubaa
+- features:
+    verb_form: infinitive
+  expected: pubaank
+- features:
+    verb_form: past_participle
+  expected: pubaak
+---
+lemma: puc'uk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: puc'uk
+- features:
+    verb_form: infinitive
+  expected: puc'uk
+---
+lemma: pucasīnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: pucasin
+- features:
+    verb_form: infinitive
+  expected: pucasīnk
+- features:
+    verb_form: past_participle
+  expected: pucasiik
+---
+lemma: puctasīnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: puctasin
+- features:
+    verb_form: infinitive
+  expected: puctasīnk
+- features:
+    verb_form: past_participle
+  expected: puctasiik
+---
+lemma: puk'uk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: puk'uk
+- features:
+    verb_form: infinitive
+  expected: puk'uk
+---
+lemma: pumubānk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: pumuban
+- features:
+    verb_form: infinitive
+  expected: pumubānk
+- features:
+    verb_form: past_participle
+  expected: pumubaak
+---
+lemma: puquk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: puquk
+- features:
+    verb_form: infinitive
+  expected: puquk
+---
+lemma: purruk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: purruk
+- features:
+    verb_form: infinitive
+  expected: purruk
+- features:
+    verb_form: past_participle
+  expected: purrê
+---
+lemma: pushīnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: pushin
+- features:
+    verb_form: infinitive
+  expected: pushīnk
+---
+lemma: putz'uk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: putz'uk
+- features:
+    verb_form: infinitive
+  expected: putz'uk
+---
+lemma: pôok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: pôok
+- features:
+    verb_form: infinitive
+  expected: pôok
+---
+lemma: rapok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: rapok
+- features:
+    verb_form: infinitive
+  expected: rapok
+---
+lemma: raqok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: raqok
+- features:
+    verb_form: infinitive
+  expected: raqok
+---
+lemma: raöbtesīnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: raöbtesin
+- features:
+    verb_form: infinitive
+  expected: raöbtesīnk
+- features:
+    verb_form: past_participle
+  expected: raöbtesiik
+---
+lemma: raök
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: raök
+- features:
+    verb_form: infinitive
+  expected: raök
+- features:
+    verb_form: past_participle
+  expected: raê
+---
+lemma: sak
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: xaqasak
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: xesak
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: xe’xsak
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: xinsak
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: xaasak
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: xsak
+---
+lemma: se'e
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: se’en
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tinse’eq
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: xse’ek
+- features:
+    verb_form: infinitive
+  expected: se’ek
+---
+lemma: t'anabānk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: t'anaban
+- features:
+    verb_form: infinitive
+  expected: t'anabānk
+- features:
+    verb_form: past_participle
+  expected: t'anabaak
+---
+lemma: t'anok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: t'anok
+- features:
+    verb_form: infinitive
+  expected: t'anok
+- features:
+    verb_form: past_participle
+  expected: t'anê
+---
+lemma: t'aqresīnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: t'aqresin
+- features:
+    verb_form: infinitive
+  expected: t'aqresīnk
+- features:
+    verb_form: past_participle
+  expected: t'aqresiik
+---
+lemma: t'iök
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: t'iök
+- features:
+    verb_form: infinitive
+  expected: t'iök
+- features:
+    verb_form: past_participle
+  expected: t'iê
+---
+lemma: t'obök
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: t'obök
+- features:
+    verb_form: infinitive
+  expected: t'obök
+- features:
+    verb_form: past_participle
+  expected: t'obê
+---
+lemma: t'oqok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: t'oqok
+- features:
+    verb_form: infinitive
+  expected: t'oqok
+- features:
+    verb_form: past_participle
+  expected: t'oqê
+---
+lemma: t'urubānk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: t'uruban
+- features:
+    verb_form: infinitive
+  expected: t'urubānk
+- features:
+    verb_form: past_participle
+  expected: t'urubaak
+---
+lemma: t'usubānk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: t'usuban
+- features:
+    verb_form: infinitive
+  expected: t'usubānk
+- features:
+    verb_form: past_participle
+  expected: t'usubaak
+---
+lemma: t'uyubānk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: t'uyuban
+- features:
+    verb_form: infinitive
+  expected: t'uyubānk
+- features:
+    verb_form: past_participle
+  expected: t'uyubaak
+---
+lemma: tamok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tamok
+- features:
+    verb_form: infinitive
+  expected: tamok
+- features:
+    verb_form: past_participle
+  expected: tamô
+---
+lemma: tamresīnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tamresin
+- features:
+    verb_form: infinitive
+  expected: tamresīnk
+- features:
+    verb_form: past_participle
+  expected: tamresiik
+---
+lemma: taqeenk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: taqen
+- features:
+    verb_form: infinitive
+  expected: taqeenk
+- features:
+    verb_form: past_participle
+  expected: taqeek
+---
+lemma: taqsiink
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: taqsin
+- features:
+    verb_form: infinitive
+  expected: taqsiink
+- features:
+    verb_form: past_participle
+  expected: taqsiik
+---
+lemma: tenebānk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: teneban
+- features:
+    verb_form: infinitive
+  expected: tenebānk
+- features:
+    verb_form: past_participle
+  expected: tenebaak
+---
+lemma: tenk'aank
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tenk'an
+- features:
+    verb_form: infinitive
+  expected: tenk'aank
+- features:
+    verb_form: past_participle
+  expected: tenk'aak
+---
+lemma: tenok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tenok
+- features:
+    verb_form: infinitive
+  expected: tenok
+- features:
+    verb_form: past_participle
+  expected: tenô
+---
+lemma: terk'usīnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: terk'usin
+- features:
+    verb_form: infinitive
+  expected: terk'usīnk
+- features:
+    verb_form: past_participle
+  expected: terk'usiik
+---
+lemma: teök
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: teök
+- features:
+    verb_form: infinitive
+  expected: teök
+- features:
+    verb_form: past_participle
+  expected: teeman
+---
+lemma: tic'tîink
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tic'tîin
+- features:
+    verb_form: infinitive
+  expected: tic'tîink
+- features:
+    verb_form: past_participle
+  expected: tic'tîik
+---
+lemma: tichcosïnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tichcosin
+- features:
+    verb_form: infinitive
+  expected: tichcosïnk
+- features:
+    verb_form: past_participle
+  expected: tichcosiik
+---
+lemma: ticobresīnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: ticobresin
+- features:
+    verb_form: infinitive
+  expected: ticobresīnk
+- features:
+    verb_form: past_participle
+  expected: ticobresiik
+---
+lemma: tijok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tijok
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: xootijok
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: xextijok
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: xe’tijok
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: xintijok
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: xattijok
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: xtijok
+- features:
+    verb_form: infinitive
+  expected: tijok
+- features:
+    verb_form: past_participle
+  expected: tijê
+---
+lemma: tikibānk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tikiban
+- features:
+    verb_form: infinitive
+  expected: tikibānk
+- features:
+    verb_form: past_participle
+  expected: tikibaak
+---
+lemma: tiqcuasīnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tiqcuasin
+- features:
+    verb_form: infinitive
+  expected: tiqcuasīnk
+- features:
+    verb_form: past_participle
+  expected: tiqcuasiik
+---
+lemma: tiqibānk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tiqiban
+- features:
+    verb_form: infinitive
+  expected: tiqibānk
+- features:
+    verb_form: past_participle
+  expected: tiqibaak
+---
+lemma: tiqobānk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tiqoban
+- features:
+    verb_form: infinitive
+  expected: tiqobānk
+- features:
+    verb_form: past_participle
+  expected: tiqobaak
+---
+lemma: tiqok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tiqok
+- features:
+    verb_form: infinitive
+  expected: tiqok
+- features:
+    verb_form: past_participle
+  expected: tiqô
+---
+lemma: titz'ok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: titz'ok
+- features:
+    verb_form: infinitive
+  expected: titz'ok
+- features:
+    verb_form: past_participle
+  expected: titz'ê
+---
+lemma: tobök
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tobök
+- features:
+    verb_form: infinitive
+  expected: tobök
+- features:
+    verb_form: past_participle
+  expected: tobê
+---
+lemma: toch'ok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: toch'ok
+- features:
+    verb_form: infinitive
+  expected: toch'ok
+- features:
+    verb_form: past_participle
+  expected: toch’ê
+---
+lemma: tojok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tojok
+- features:
+    verb_form: infinitive
+  expected: tojok
+- features:
+    verb_form: past_participle
+  expected: tojê
+---
+lemma: tolc'osīnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tolc'osin
+- features:
+    verb_form: infinitive
+  expected: tolc'osīnk
+- features:
+    verb_form: past_participle
+  expected: tolc'osiik
+---
+lemma: tolobānk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: toloban
+- features:
+    verb_form: infinitive
+  expected: tolobānk
+- features:
+    verb_form: past_participle
+  expected: tolobaak
+---
+lemma: topok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: topok
+- features:
+    verb_form: infinitive
+  expected: topok
+- features:
+    verb_form: past_participle
+  expected: topê
+---
+lemma: toqok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: toqok
+- features:
+    verb_form: infinitive
+  expected: toqok
+- features:
+    verb_form: past_participle
+  expected: toqê
+---
+lemma: tubaank
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tuuban
+- features:
+    verb_form: infinitive
+  expected: tubaank
+- features:
+    verb_form: past_participle
+  expected: tubaak
+---
+lemma: tulaank
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tulan
+- features:
+    verb_form: infinitive
+  expected: tulaank
+- features:
+    verb_form: past_participle
+  expected: tulaak
+---
+lemma: tupusīnk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tupusin
+- features:
+    verb_form: infinitive
+  expected: tupusīnk
+- features:
+    verb_form: past_participle
+  expected: tupusiik
+---
+lemma: tusuk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tusuk
+- features:
+    verb_form: infinitive
+  expected: tusuk
+- features:
+    verb_form: past_participle
+  expected: tusê
+---
+lemma: tutz'uk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tutz'uk
+- features:
+    verb_form: infinitive
+  expected: tutz'uk
+- features:
+    verb_form: past_participle
+  expected: tutz'ê
+---
+lemma: tutz’ubānk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tutz'uban
+- features:
+    verb_form: infinitive
+  expected: tutz’ubānk
+- features:
+    verb_form: past_participle
+  expected: tutz'ubaak
+---
+lemma: tyabasīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tyabasīnk
+- features:
+    verb_form: past_participle
+  expected: tyabasiik
+---
+lemma: tyamok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tyamok
+- features:
+    verb_form: past_participle
+  expected: tyamô
+---
+lemma: tyamtesīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tyamtesīnk
+- features:
+    verb_form: past_participle
+  expected: tyamtesīnk
+---
+lemma: tyatz'ok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tyatz'ok
+- features:
+    verb_form: past_participle
+  expected: tyatz'ê
+---
+lemma: tyechîīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tyechîīnk
+- features:
+    verb_form: past_participle
+  expected: tyechîik
+---
+lemma: tyehok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tyehok
+- features:
+    verb_form: past_participle
+  expected: tyehman
+---
+lemma: tyibaank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tyibaank
+- features:
+    verb_form: past_participle
+  expected: tyibaak
+---
+lemma: tyocbaank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tyocbaank
+- features:
+    verb_form: past_participle
+  expected: tyocbaak
+---
+lemma: tyocobānk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tyocobānk
+- features:
+    verb_form: past_participle
+  expected: tyocobaak
+---
+lemma: tyocosīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tyocosīnk
+- features:
+    verb_form: past_participle
+  expected: tyocosiik
+---
+lemma: tyêok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tyêok
+- features:
+    verb_form: past_participle
+  expected: tye'man
+---
+lemma: tyôleenk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tyôleenk
+- features:
+    verb_form: past_participle
+  expected: tyo'leek
+---
+lemma: tyôonīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tyôonīnk
+- features:
+    verb_form: past_participle
+  expected: tyôoniik
+---
+lemma: tyûuk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tyûuk
+- features:
+    verb_form: past_participle
+  expected: tyûman
+---
+lemma: tz'ahök
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tz'ahök
+- features:
+    verb_form: infinitive
+  expected: tz'ahök
+- features:
+    verb_form: past_participle
+  expected: tz'ahê
+---
+lemma: tz'ajniink
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tz'ajnin
+- features:
+    verb_form: infinitive
+  expected: tz'ajniink
+- features:
+    verb_form: past_participle
+  expected: tz'ajniik
+---
+lemma: tz'amaank
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tz'aman
+- features:
+    verb_form: infinitive
+  expected: tz'amaank
+- features:
+    verb_form: past_participle
+  expected: tz'amaak
+---
+lemma: tz'apok
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tz'apok
+- features:
+    verb_form: infinitive
+  expected: tz'apok
+- features:
+    verb_form: past_participle
+  expected: tz'apê
+---
+lemma: tz'eqtanānk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tz'eqtanānk
+- features:
+    verb_form: past_participle
+  expected: tz'eqtanaak
+---
+lemma: tz'ibak
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tz'ibak
+- features:
+    verb_form: past_participle
+  expected: tz'ibman
+---
+lemma: tz'obok
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tz'obok
+- features:
+    verb_form: past_participle
+  expected: tz'obê
+---
+lemma: tzolobānk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: tzolobānk
+- features:
+    verb_form: past_participle
+  expected: tzolobaak
+---
+lemma: tzuqleenk
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tzuqlen
+- features:
+    verb_form: infinitive
+  expected: tzuqleenk
+- features:
+    verb_form: past_participle
+  expected: tzuqleek
+---
+lemma: uc'tasīnk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: uc'tasīnk
+- features:
+    verb_form: past_participle
+  expected: uc'tasiik
+---
+lemma: uk'miink
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: uk'miink
+- features:
+    verb_form: past_participle
+  expected: uk'miik
+---
+lemma: ulâank
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: ulâank
+- features:
+    verb_form: past_participle
+  expected: ulâak
+---
+lemma: ushtanānk
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: ushtanānk
+- features:
+    verb_form: past_participle
+  expected: ushtanaak
+---
+lemma: war
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: warinqex
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: warin
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: choowarq
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: chexwarq
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: che'warq
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: chinwarq
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: chatwarq
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: chiwarq
+---
+lemma: wark
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: toowarq
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: texwarq
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: te’warq
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tinwarq
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: tatwarq
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: twarq
+---
+lemma: warq
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: choowarq
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: chexwarq
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: che’warq
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: chatwarq
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: chiwarq
+---
+lemma: wa’ak
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: koowa’ak
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kexwa’ak
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ke’wa’ak
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kinwa’ak
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: katwa’ak
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kiwa’ak
+---
+lemma: xik
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nakooxik
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nakexxik
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nake’xik
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ninxik
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nakatxik
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: naxik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: tooxik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: texxik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: te’xik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tinxik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: tatxik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: taaxik
+---
+lemma: xjalaq
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: che’xjalaq
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: chine’xjalaq
+---
+lemma: yajer
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ninyajer
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: yajaqin
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: yajin
+- features:
+    aspect: imperfective
+    mood: optative
+    number: singular
+    person: first
+  expected: yajaqin
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tinyajerq
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kinyajer
+- features:
+    aspect: perfective
+    mood: optative
+    number: singular
+    person: first
+  expected: chinyajerq
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tinyajerq
+- features:
+    mood: indicative
+    person: third
+    tense: past
+  expected: xyajer
+- features:
+    verb_form: infinitive
+  expected: yajerk

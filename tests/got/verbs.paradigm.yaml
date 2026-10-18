@@ -1,0 +1,3138 @@
+lemma: '%'
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: dgum
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: '%'
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: oht
+- features:
+    mood: optative
+    tense: present
+  expected: ogjau
+- features:
+    verb_form: infinitive
+  expected: S^
+---
+lemma: beidan
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: beidan
+- features:
+    verb_form: past_participle
+  expected: bidans
+---
+lemma: dih
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: aigum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: dihup
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: aigun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dih
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dih
+- features:
+    mood: optative
+    number: dual
+    person: first
+    tense: present
+  expected: aigeina
+- features:
+    mood: optative
+    number: plural
+    person: second
+    tense: present
+  expected: aigeip
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+  expected: aigi
+- features:
+    verb_form: infinitive
+  expected: dihan
+- features:
+    verb_form: present_participle
+  expected: aigands
+---
+lemma: driusan
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: driusan
+- features:
+    verb_form: past_participle
+  expected: drusans
+---
+lemma: faran
+category: verbs
+cases:
+- features:
+    tense: past
+    verb_form: participle
+    voice: active
+  expected: farans
+- features:
+    tense: present
+    voice: active
+  expected: faran
+---
+lemma: frapjan
+category: verbs
+cases:
+- features:
+    tense: past
+    verb_form: participle
+    voice: active
+  expected: frapans
+- features:
+    tense: present
+    voice: active
+  expected: frapjan
+---
+lemma: fullnan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: fullnats
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: fullnam
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: fullnam
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: fullnip
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: fulln
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: fullnadau
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: fullnats
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: fulInam
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: fullnip
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: fullnand
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: fullna
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: fullnis
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: fullnip
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: present
+  expected: fullnaima
+- features:
+    mood: optative
+    number: plural
+    person: third
+    tense: present
+  expected: fullnaina
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+  expected: fullnai
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: present
+  expected: fullniiiwa
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: present
+  expected: fullnhits
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: fullnhima
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: fullniip
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: fullniina
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: fullnau
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: fullnais
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: fullnhi
+- features:
+    tense: present
+    verb_form: infinitive
+  expected: fuUnan
+- features:
+    tense: present
+    verb_form: participle
+  expected: fuUnands
+- features:
+    verb_form: infinitive
+  expected: fullnan
+- features:
+    verb_form: present_participle
+  expected: fullnands
+---
+lemma: ga-dars
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ga-daursum
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ga-dars
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: gadaiirsta
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: present
+  expected: gadatirsjau
+- features:
+    verb_form: infinitive
+  expected: gadaursan
+---
+lemma: ga-mdt
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: mdtum
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ga-mdt
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mdsi
+- features:
+    mood: optative
+    tense: present
+  expected: gamdtjau
+- features:
+    verb_form: infinitive
+  expected: gamotan
+---
+lemma: ga-nah
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ga-nah
+- features:
+    verb_form: past_participle
+  expected: uiiauhts
+---
+lemma: giban
+category: verbs
+cases:
+- features:
+    tense: past
+    verb_form: participle
+    voice: active
+  expected: gibans
+- features:
+    tense: present
+    voice: active
+  expected: giban
+---
+lemma: graban
+category: verbs
+cases:
+- features:
+    tense: past
+    verb_form: participle
+    voice: active
+  expected: grabans
+- features:
+    tense: present
+    voice: active
+  expected: graban
+---
+lemma: haba
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: habats
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: habam
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: habfii!
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: habbi
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: habadfin
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: habbs
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: habats
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: habam
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: habiiip
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: haband
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: haba
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: habhis
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: habhip
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: present
+  expected: habkiwa
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: present
+  expected: habfiits
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: hab&ima
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: habiip
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: habbina
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: habbu
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: habitis
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: habfii
+---
+lemma: haban
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: habats
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: habam
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: habaij
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: habandau
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: habai
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: habos
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: habats
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: habam
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: middle
+  expected: habanda
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: middle
+  expected: habanda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: haband
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: middle
+  expected: habanda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: haba
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: middle
+  expected: habaza
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: middle
+  expected: habada
+- features:
+    mood: optative
+    number: dual
+    person: first
+    tense: present
+  expected: habaiwa
+- features:
+    mood: optative
+    number: dual
+    person: second
+    tense: present
+  expected: habaits
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: present
+  expected: habaima
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: present
+    voice: middle
+  expected: habaindau
+- features:
+    mood: optative
+    number: plural
+    person: second
+    tense: present
+    voice: middle
+  expected: habaindau
+- features:
+    mood: optative
+    number: plural
+    person: third
+    tense: present
+  expected: habaina
+- features:
+    mood: optative
+    number: plural
+    person: third
+    tense: present
+    voice: middle
+  expected: habaindau
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: present
+  expected: habau
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+  expected: habais
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+    voice: middle
+  expected: habaizau
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+  expected: habai
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+    voice: middle
+  expected: habaidau
+- features:
+    verb_form: infinitive
+  expected: haban
+- features:
+    verb_form: participle
+  expected: habands
+---
+lemma: haitan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: haitats
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: haitadau
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: haitSs
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: haihaituts
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: haitats
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: haihaitum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: haitam
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: middle
+  expected: haitauda
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: haihaitu)?
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: haitij?
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: middle
+  expected: haitauda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: haihaitun
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: haitand
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: middle
+  expected: haitauda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: haihait
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: haita
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: middle
+  expected: haitada
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: haitis
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: middle
+  expected: haitaza
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: middle
+  expected: haitada
+- features:
+    mood: optative
+    number: dual
+    person: first
+    tense: past
+  expected: haihaiteiwa
+- features:
+    mood: optative
+    number: dual
+    person: first
+    tense: present
+  expected: haitaiwa
+- features:
+    mood: optative
+    number: dual
+    person: second
+    tense: past
+  expected: haihaiteits
+- features:
+    mood: optative
+    number: dual
+    person: second
+    tense: present
+  expected: haitaits
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: past
+  expected: haihaiteima
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: present
+  expected: haitaima
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: present
+    voice: middle
+  expected: haitaindau
+- features:
+    mood: optative
+    number: plural
+    person: second
+    tense: past
+  expected: haihaiteil?
+- features:
+    mood: optative
+    number: plural
+    person: second
+    tense: present
+    voice: middle
+  expected: haitaindau
+- features:
+    mood: optative
+    number: plural
+    person: third
+    tense: past
+  expected: haihaiteina
+- features:
+    mood: optative
+    number: plural
+    person: third
+    tense: present
+  expected: haitaina
+- features:
+    mood: optative
+    number: plural
+    person: third
+    tense: present
+    voice: middle
+  expected: haitaindau
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: present
+    voice: middle
+  expected: haitaidau
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: past
+  expected: haihaiteis
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+  expected: haitais
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+    voice: middle
+  expected: haitaizau
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: past
+  expected: haihaiti
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+  expected: haitai
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+    voice: middle
+  expected: haitaidau
+---
+lemma: hiitan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: haitats
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: hiitam
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: hiitip
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: hiitandAu
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: hiitijs
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: haihiituts
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: hiitats
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: haghiiturn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: hiitam
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: hafhiiteip
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: hafhiiteina
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hiitand
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: haihiit
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: hiita
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: passive
+  expected: hiitada
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: haihiist
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hiitis
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: passive
+  expected: hiitaza
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: haihiit
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+  expected: hiitada
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: past
+  expected: hafhiiteiwa
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: present
+  expected: hiitgiwa
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: past
+  expected: hafhiiteits
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: present
+  expected: hiithits
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: hafhiiteima
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: hiitaip
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: hiiithina
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+    voice: passive
+  expected: hiitiidiu
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: haihiiteis
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+    voice: passive
+  expected: hiitiiziu
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: hafhiiti
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+  expected: hiitiidiu
+- features:
+    verb_form: infinitive
+  expected: hiitan
+- features:
+    verb_form: participle
+  expected: haitands
+---
+lemma: kann
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kmmum
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kann
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kant
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: preterite
+  expected: kunpedjau
+- features:
+    tense: present
+    verb_form: participle
+  expected: kunnands
+- features:
+    verb_form: past_participle
+  expected: kunps
+---
+lemma: leiban
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: leiban
+- features:
+    verb_form: past_participle
+  expected: laibans
+---
+lemma: mag
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: magu
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: maguts
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: magun
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: magup
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: magum
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: mag
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: magt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mag
+- features:
+    mood: optative
+    tense: present
+  expected: magjau
+- features:
+    mood: optative
+    tense: preterite
+  expected: mahtedjau
+- features:
+    verb_form: infinitive
+  expected: magan
+- features:
+    verb_form: past_participle
+  expected: mahts
+- features:
+    verb_form: present_participle
+  expected: magands
+---
+lemma: magan
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: magum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: mahtedum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: maguþ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: magun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: mag
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: mahta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: magt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mag
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+  expected: mageis
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+  expected: magi
+- features:
+    verb_form: participle
+  expected: magands
+---
+lemma: man
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: murium
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: man
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mant
+- features:
+    mood: optative
+    tense: present
+  expected: munjau
+- features:
+    verb_form: infinitive
+  expected: munan
+- features:
+    verb_form: past_participle
+  expected: munds
+- features:
+    verb_form: present_participle
+  expected: munands
+---
+lemma: mitan
+category: verbs
+cases:
+- features:
+    tense: past
+    verb_form: participle
+    voice: active
+  expected: mitans
+- features:
+    tense: present
+    voice: active
+  expected: mitan
+---
+lemma: munan
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: munum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: mundedum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: munuþ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: munun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: man
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: munda
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mant
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: man
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+  expected: muneis
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+  expected: muni
+- features:
+    verb_form: participle
+  expected: munands
+---
+lemma: nasjan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: nasjats
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: nasjam
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: nasjip
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: nasjandPu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: nasei
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: nasjadgu
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: nasjōs
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+  expected: nasidedu
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: nasjats
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: preterite
+  expected: nasideduts
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nasjam
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: middle
+  expected: nasjanda
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: passive
+  expected: nasjanda
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: nasidedum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nasjip
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: passive
+  expected: nasjanda
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: nasidedup
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nasjand
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: passive
+  expected: nasjanda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nasja
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: passive
+  expected: nasjada
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: nasida
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nasjis
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: middle
+  expected: nasjaza
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: passive
+  expected: nasjaza
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: nasides
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nasjip
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+  expected: nasjada
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: nasida
+- features:
+    mood: optative
+    number: dual
+    person: first
+    tense: present
+  expected: nasjaiwa
+- features:
+    mood: optative
+    number: dual
+    person: second
+    tense: present
+  expected: nasjaits
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: present
+  expected: nasjaima
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: present
+    voice: middle
+  expected: nasjaindau
+- features:
+    mood: optative
+    number: plural
+    person: second
+    tense: present
+  expected: nasjaiþ
+- features:
+    mood: optative
+    number: plural
+    person: third
+    tense: present
+  expected: nasjaina
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: present
+  expected: nasjau
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: present
+    voice: middle
+  expected: nasjaidau
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+  expected: nasjais
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+    voice: middle
+  expected: nasjaizau
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+  expected: nasjai
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: present
+  expected: nasjiiwa
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: preterite
+  expected: nasidedeiwa
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: present
+  expected: nasjfiits
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: preterite
+  expected: nasidbdeits
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: nasjhfma
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+    voice: passive
+  expected: nasjiindhu
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: preterite
+  expected: nasidbdeima
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: nasjfrip
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+    voice: passive
+  expected: nasjiindhu
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: preterite
+  expected: nasidEdeij
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: nasjPina
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+    voice: passive
+  expected: nasjiindhu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: preterite
+  expected: nasidedeina
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: nasjlu
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+    voice: passive
+  expected: nasjAidhu
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: preterite
+  expected: nasidcdjfru
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: nasjfiis
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+    voice: passive
+  expected: nasjiizhu
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: preterite
+  expected: nasidedeis
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: nasjli
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: preterite
+  expected: nasidedi
+- features:
+    tense: preterite
+  expected: nasida
+- features:
+    verb_form: infinitive
+  expected: nasjan
+- features:
+    verb_form: participle
+  expected: nasjands
+- features:
+    verb_form: past_participle
+  expected: nasifis
+---
+lemma: niman
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: nimats
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: nimats
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: nimam
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: nimip
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: nimandiu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: nim
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: nimadau
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: nimBs
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: nimats
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nimam
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: middle
+  expected: nimanda
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: passive
+  expected: nimanda
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nimijj
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: middle
+  expected: nimanda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nimand
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: middle
+  expected: nimanda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nima
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: middle
+  expected: nimada
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: passive
+  expected: nimada
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nimis
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: middle
+  expected: nimaza
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: passive
+  expected: nimaza
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nimi)
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: middle
+  expected: nimada
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+  expected: nimada
+- features:
+    mood: optative
+    number: dual
+    person: first
+    tense: present
+  expected: nimaiwa
+- features:
+    mood: optative
+    number: dual
+    person: second
+    tense: present
+  expected: nimaits
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: present
+  expected: nimaima
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: present
+    voice: middle
+  expected: nimaiudau
+- features:
+    mood: optative
+    number: plural
+    person: second
+    tense: present
+    voice: middle
+  expected: nimaiudau
+- features:
+    mood: optative
+    number: plural
+    person: third
+    tense: present
+  expected: nimaina
+- features:
+    mood: optative
+    number: plural
+    person: third
+    tense: present
+    voice: middle
+  expected: nimaiudau
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: present
+  expected: nimau
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: present
+    voice: middle
+  expected: nimaidau
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+  expected: nimais
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+    voice: middle
+  expected: nimaizau
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+  expected: nimai
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+    voice: middle
+  expected: nimaidau
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: present
+  expected: nimaiwa
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: present
+  expected: nimiits
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: nimAima
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+    voice: passive
+  expected: nimiindiu
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: nimfiip
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: nimAina
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: nimiis
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+    voice: passive
+  expected: nimiizau
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: nimu
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+  expected: nimiidiu
+- features:
+    verb_form: infinitive
+  expected: niman
+- features:
+    verb_form: participle
+  expected: nimands
+---
+lemma: parf
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: paurbum
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: parf
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: paurfta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: parft
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: present
+  expected: paurbjau
+- features:
+    tense: present
+    verb_form: participle
+  expected: paiirbands
+- features:
+    verb_form: past_participle
+  expected: paurfts
+---
+lemma: qipan
+category: verbs
+cases:
+- features:
+    tense: past
+    verb_form: participle
+    voice: active
+  expected: qipans
+- features:
+    tense: present
+    voice: active
+  expected: qipan
+---
+lemma: salb&u
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: salbots
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: salbom
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: salbondau
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: salbodau
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: salb&s
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: salbSts
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: salbom
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: middle
+  expected: salbdnda
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: salbol?
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: middle
+  expected: salbdnda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: middle
+  expected: salbdnda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: salbo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: middle
+  expected: salbSza
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: middle
+  expected: salb&da
+- features:
+    mood: optative
+    number: dual
+    person: first
+    tense: present
+  expected: salbowa
+- features:
+    mood: optative
+    number: dual
+    person: second
+    tense: present
+  expected: salb&ts
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: present
+  expected: salbdma
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: present
+  expected: salb&
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+    voice: middle
+  expected: salbozau
+- features:
+    verb_form: infinitive
+  expected: salb&u
+- features:
+    verb_form: participle
+  expected: salbonds
+---
+lemma: salbbjan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: salbijm
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: salbijndAu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: salbb
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: salbbdAu
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: salbbs
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: salbbts
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: salbbm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: salbijp
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: salbbnd
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: salbb
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: salbbda
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: salbbs
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: salbbdes
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: salbbp
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: present
+  expected: salbbwa
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: present
+  expected: salbbts
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: salbbma
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: salbbp
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: salbbna
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: salbij
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: preterite
+  expected: salbijdBdj&u
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: salbbs
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: preterite
+  expected: salbijdgdeis
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: salbij
+- features:
+    verb_form: infinitive
+  expected: salbijn
+- features:
+    verb_form: participle
+  expected: salbijnds
+---
+lemma: skal
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: skulum
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: skal
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: skall
+- features:
+    mood: optative
+    tense: present
+  expected: skuljau
+- features:
+    mood: optative
+    tense: preterite
+  expected: skuldvdjau
+- features:
+    verb_form: infinitive
+  expected: skulan
+- features:
+    verb_form: past_participle
+  expected: skidds
+- features:
+    verb_form: present_participle
+  expected: skulands
+---
+lemma: slaban
+category: verbs
+cases:
+- features:
+    tense: past
+    verb_form: participle
+    voice: active
+  expected: slahans
+- features:
+    tense: present
+    voice: active
+  expected: slaban
+---
+lemma: sneipan
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: sneipan
+- features:
+    verb_form: past_participle
+  expected: snipans
+---
+lemma: sniwan
+category: verbs
+cases:
+- features:
+    tense: past
+    verb_form: participle
+    voice: active
+  expected: sniwans
+- features:
+    tense: present
+    voice: active
+  expected: sniwan
+---
+lemma: stijjan
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: stijjijs
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: stijjip
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: stijjand
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: stijja
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: stijjis
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: stijjip
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: present
+  expected: stijjiits
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: stijjlu
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: stijjfiis
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: stijja
+---
+lemma: stōjan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: stōjats
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: stōjam
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: stōjiþ
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: stōjandau
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: stōjadau
+- features:
+    verb_form: infinitive
+  expected: stojan
+- features:
+    verb_form: participle
+  expected: stōjands
+---
+lemma: sōkjan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: sokjats
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: sdkjam
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: sōkeiþ
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: sōkjandau
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: sōkei
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: sōkjadau
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: sōkjōs
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: sdkjats
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sōkjam
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: middle
+  expected: sdkjanda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: sōkjand
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: sdkja
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: middle
+  expected: sdkjada
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sōkeis
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: middle
+  expected: sdkjaza
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: present
+    voice: middle
+  expected: sokjaindau
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: present
+  expected: sokjau
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: present
+    voice: middle
+  expected: sokjaidau
+- features:
+    verb_form: infinitive
+  expected: sōkjau
+- features:
+    verb_form: participle
+  expected: sōkjands
+---
+lemma: tiuhan
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: tiuh
+- features:
+    verb_form: infinitive
+  expected: tiuhan
+- features:
+    verb_form: past_participle
+  expected: talihans
+---
+lemma: wait
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: witum
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wait
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: irissa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: waist
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: present
+  expected: witjau
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: preterite
+  expected: wiasedjau
+- features:
+    tense: present
+    verb_form: participle
+  expected: witands
+---
+lemma: wiljan
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: wileits
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: wileima
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: wildedum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: wileij?
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wileina
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wiljau
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: wilda
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: wileis
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wili
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: preterite
+  expected: wildgdjau
+- features:
+    tense: preterite
+  expected: wilda
+- features:
+    verb_form: infinitive
+  expected: wiljan
+- features:
+    verb_form: present_participle
+  expected: wiljands
+---
+lemma: wisan
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: siju
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: sijuts
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sijum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: siju]
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: sind
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: im
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: is
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ist
+- features:
+    mood: indicative
+    tense: preterite
+  expected: was
+- features:
+    mood: optative
+    number: dual
+    person: second
+    tense: present
+  expected: sijaits
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: present
+  expected: sijaima
+- features:
+    mood: optative
+    number: plural
+    person: second
+    tense: present
+  expected: sijaif
+- features:
+    mood: optative
+    number: plural
+    person: third
+    tense: present
+  expected: sijaina
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: present
+  expected: sijau
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+  expected: sijais
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+  expected: sijai
+- features:
+    mood: optative
+    tense: preterite
+  expected: wgsjau
+- features:
+    verb_form: infinitive
+  expected: wisan
+- features:
+    verb_form: past_participle
+  expected: wisans
+- features:
+    verb_form: present_participle
+  expected: wisands
+---
+lemma: witan
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: witum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: wissedum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: wituþ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: witun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wait
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: wissa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: waist
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wait
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+  expected: witeis
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+  expected: witi
+- features:
+    verb_form: participle
+  expected: witands
+---
+lemma: þaurban
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: þaurbum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: þaurftedum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: þaurbuþ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: þaurbun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: þarf
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: þaurfta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: þarft
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: þarf
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+  expected: þaurbeis
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+  expected: þaurbi
+- features:
+    verb_form: participle
+  expected: þaurbands

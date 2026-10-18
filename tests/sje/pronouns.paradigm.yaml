@@ -1,0 +1,885 @@
+lemma: dat
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: dajt
+- features:
+    case: accusative
+    number: singular
+  expected: dav
+- features:
+    case: comitative
+    number: plural
+  expected: daj
+- features:
+    case: comitative
+    number: singular
+  expected: dajna
+- features:
+    case: elative
+    number: plural
+  expected: dajste
+- features:
+    case: elative
+    number: singular
+  expected: dasste
+- features:
+    case: genitive
+    number: plural
+  expected: daj
+- features:
+    case: genitive
+    number: singular
+  expected: dan
+- features:
+    case: illative
+    number: plural
+  expected: dajda
+- features:
+    case: illative
+    number: singular
+  expected: dasa
+- features:
+    case: inessive
+    number: plural
+  expected: dajtne
+- features:
+    case: inessive
+    number: singular
+  expected: dan
+- features:
+    case: nominative
+    number: plural
+  expected: da
+- features:
+    case: nominative
+    number: singular
+  expected: dat
+---
+lemma: dut
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: dujt
+- features:
+    case: accusative
+    number: singular
+  expected: duv
+- features:
+    case: comitative
+    number: plural
+  expected: duj
+- features:
+    case: comitative
+    number: singular
+  expected: dujn
+- features:
+    case: elative
+    number: plural
+  expected: duj?
+- features:
+    case: elative
+    number: singular
+  expected: duj?
+- features:
+    case: genitive
+    number: plural
+  expected: duj
+- features:
+    case: genitive
+    number: singular
+  expected: dun
+- features:
+    case: illative
+    number: plural
+  expected: '?'
+- features:
+    case: illative
+    number: singular
+  expected: dun?
+- features:
+    case: inessive
+    number: plural
+  expected: duj?
+- features:
+    case: inessive
+    number: singular
+  expected: dun
+- features:
+    case: nominative
+    number: plural
+  expected: du
+- features:
+    case: nominative
+    number: singular
+  expected: dut
+---
+lemma: dát
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: dájt
+- features:
+    case: accusative
+    number: singular
+  expected: dáv
+- features:
+    case: comitative
+    number: plural
+  expected: dáj
+- features:
+    case: comitative
+    number: singular
+  expected: dájna
+- features:
+    case: elative
+    number: plural
+  expected: dájste
+- features:
+    case: elative
+    number: singular
+  expected: dásste
+- features:
+    case: genitive
+    number: plural
+  expected: dáj
+- features:
+    case: genitive
+    number: singular
+  expected: dán
+- features:
+    case: illative
+    number: plural
+  expected: dájda
+- features:
+    case: illative
+    number: singular
+  expected: dása
+- features:
+    case: inessive
+    number: plural
+  expected: dájtne
+- features:
+    case: inessive
+    number: singular
+  expected: dán
+- features:
+    case: nominative
+    number: plural
+  expected: dá
+- features:
+    case: nominative
+    number: singular
+  expected: dát
+---
+lemma: dån
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: dånov
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: dijáv
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: duv
+- features:
+    case: comitative
+    number: dual
+    person: second
+  expected: dunujn
+- features:
+    case: comitative
+    number: plural
+    person: second
+  expected: dijájn
+- features:
+    case: comitative
+    number: singular
+    person: second
+  expected: dujna
+- features:
+    case: elative
+    number: dual
+    person: second
+  expected: dunuost
+- features:
+    case: elative
+    number: plural
+    person: second
+  expected: dijást
+- features:
+    case: elative
+    number: singular
+    person: second
+  expected: duvvste
+- features:
+    case: genitive
+    number: dual
+    person: second
+  expected: dunuo
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: dijá
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: duv
+- features:
+    case: illative
+    number: dual
+    person: second
+  expected: dunnuj
+- features:
+    case: illative
+    number: plural
+    person: second
+  expected: dijjaj
+- features:
+    case: illative
+    number: singular
+    person: second
+  expected: dunje
+- features:
+    case: inessive
+    number: dual
+    person: second
+  expected: dunuon
+- features:
+    case: inessive
+    number: plural
+    person: second
+  expected: diján
+- features:
+    case: inessive
+    number: singular
+    person: second
+  expected: duvne
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: dåj∼dåjå
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: dij∼dija
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: dån∼dånnå
+---
+lemma: etj
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: etjamenen
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: etjajd
+- features:
+    case: accusative
+    number: dual
+    person: third
+  expected: etjajdisa
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ehtjameh
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: etjajd
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: etjajdisa
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: etjav
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: etjavt
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: etjavs
+- features:
+    case: comitative
+    number: dual
+    person: first
+  expected: etjajnenen
+- features:
+    case: comitative
+    number: dual
+    person: second
+  expected: etjajneten
+- features:
+    case: comitative
+    number: dual
+    person: third
+  expected: etjajneská
+- features:
+    case: comitative
+    number: plural
+    person: first
+  expected: etjajneneh
+- features:
+    case: comitative
+    number: plural
+    person: second
+  expected: etjajneteh
+- features:
+    case: comitative
+    number: plural
+    person: third
+  expected: etjajneseh
+- features:
+    case: comitative
+    number: singular
+    person: first
+  expected: etjajnen
+- features:
+    case: comitative
+    number: singular
+    person: second
+  expected: etjajnat
+- features:
+    case: comitative
+    number: singular
+    person: third
+  expected: etjajnis
+- features:
+    case: elative
+    number: dual
+    person: first
+  expected: etjanis
+- features:
+    case: elative
+    number: dual
+    person: second
+  expected: etjastit
+- features:
+    case: elative
+    number: dual
+    person: third
+  expected: etjastis
+- features:
+    case: elative
+    number: plural
+    person: first
+  expected: etjanist
+- features:
+    case: elative
+    number: plural
+    person: second
+  expected: etjastist
+- features:
+    case: elative
+    number: plural
+    person: third
+  expected: etjajsist
+- features:
+    case: elative
+    number: singular
+    person: first
+  expected: ehtjanist
+- features:
+    case: elative
+    number: singular
+    person: second
+  expected: etjastit
+- features:
+    case: elative
+    number: singular
+    person: third
+  expected: etjastis
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: etjanij
+- features:
+    case: genitive
+    number: dual
+    person: second
+  expected: etjade
+- features:
+    case: genitive
+    number: dual
+    person: third
+  expected: etjajsga
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: etjajme
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: etjajde
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: etjajse
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: etjan
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: etjad
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: etjas
+- features:
+    case: illative
+    number: dual
+    person: first
+  expected: ehtjasimen
+- features:
+    case: illative
+    number: dual
+    person: second
+  expected: ehtjasiden
+- features:
+    case: illative
+    number: dual
+    person: third
+  expected: ehtjasijga
+- features:
+    case: illative
+    number: plural
+    person: first
+  expected: etjasijme
+- features:
+    case: illative
+    number: plural
+    person: second
+  expected: etjasida
+- features:
+    case: illative
+    number: plural
+    person: third
+  expected: etjasise
+- features:
+    case: illative
+    number: singular
+    person: first
+  expected: etjanij
+- features:
+    case: illative
+    number: singular
+    person: second
+  expected: etjasad
+- features:
+    case: illative
+    number: singular
+    person: third
+  expected: etjasis
+- features:
+    case: inessive
+    number: dual
+    person: first
+  expected: etjanenen
+- features:
+    case: inessive
+    number: dual
+    person: second
+  expected: etjajdin
+- features:
+    case: inessive
+    number: dual
+    person: third
+  expected: etjaneská
+- features:
+    case: inessive
+    number: plural
+    person: first
+  expected: ehtjanen
+- features:
+    case: inessive
+    number: plural
+    person: second
+  expected: etjajdin
+- features:
+    case: inessive
+    number: plural
+    person: third
+  expected: etjajnisan
+- features:
+    case: inessive
+    number: singular
+    person: first
+  expected: ehtjanen
+- features:
+    case: inessive
+    number: singular
+    person: second
+  expected: etjanat
+- features:
+    case: inessive
+    number: singular
+    person: third
+  expected: etjanis
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: etja
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: etja
+- features:
+    case: nominative
+    number: dual
+    person: third
+  expected: etja
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: etja
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: etja
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: etja
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: etj
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: etj
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: etj
+---
+lemma: gåb
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: gåbajd
+- features:
+    case: accusative
+    number: singular
+  expected: gåbav
+- features:
+    case: comitative
+    number: plural
+  expected: gåbaj
+- features:
+    case: comitative
+    number: singular
+  expected: gåbajn
+- features:
+    case: elative
+    number: plural
+  expected: gåbajst
+- features:
+    case: elative
+    number: singular
+  expected: gåbast
+- features:
+    case: genitive
+    number: plural
+  expected: gåbaj
+- features:
+    case: genitive
+    number: singular
+  expected: gåban
+- features:
+    case: illative
+    number: plural
+  expected: gåbajda
+- features:
+    case: illative
+    number: singular
+  expected: gåbbaj
+- features:
+    case: inessive
+    number: plural
+  expected: gåbajn
+- features:
+    case: inessive
+    number: singular
+  expected: gåban
+- features:
+    case: nominative
+    number: plural
+  expected: '?'
+- features:
+    case: nominative
+    number: singular
+  expected: gåbba
+---
+lemma: mån
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: månov
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: mijáv
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: muv
+- features:
+    case: comitative
+    number: dual
+    person: first
+  expected: munujn
+- features:
+    case: comitative
+    number: plural
+    person: first
+  expected: mijájn
+- features:
+    case: comitative
+    number: singular
+    person: first
+  expected: mujna
+- features:
+    case: elative
+    number: dual
+    person: first
+  expected: munuost
+- features:
+    case: elative
+    number: plural
+    person: first
+  expected: mijást
+- features:
+    case: elative
+    number: singular
+    person: first
+  expected: muvvste
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: munuo
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: mijá
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: muv
+- features:
+    case: illative
+    number: dual
+    person: first
+  expected: munnuj
+- features:
+    case: illative
+    number: plural
+    person: first
+  expected: mijjaj
+- features:
+    case: illative
+    number: singular
+    person: first
+  expected: munje
+- features:
+    case: inessive
+    number: dual
+    person: first
+  expected: munuon
+- features:
+    case: inessive
+    number: plural
+    person: first
+  expected: miján
+- features:
+    case: inessive
+    number: singular
+    person: first
+  expected: muvne
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: måj∼måjå
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: mij∼mija
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: mån∼månnå
+---
+lemma: sån
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: third
+  expected: sånov
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: sijáv
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: suv
+- features:
+    case: comitative
+    number: dual
+    person: third
+  expected: sunujn
+- features:
+    case: comitative
+    number: plural
+    person: third
+  expected: sijájn
+- features:
+    case: comitative
+    number: singular
+    person: third
+  expected: sujna
+- features:
+    case: elative
+    number: dual
+    person: third
+  expected: sunuost
+- features:
+    case: elative
+    number: plural
+    person: third
+  expected: sijást
+- features:
+    case: elative
+    number: singular
+    person: third
+  expected: suvvste
+- features:
+    case: genitive
+    number: dual
+    person: third
+  expected: sunuo
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: sijá
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: suv
+- features:
+    case: illative
+    number: dual
+    person: third
+  expected: sunnuj
+- features:
+    case: illative
+    number: plural
+    person: third
+  expected: sijjaj
+- features:
+    case: illative
+    number: singular
+    person: third
+  expected: sunje
+- features:
+    case: inessive
+    number: dual
+    person: third
+  expected: sunuon
+- features:
+    case: inessive
+    number: plural
+    person: third
+  expected: siján
+- features:
+    case: inessive
+    number: singular
+    person: third
+  expected: suvne
+- features:
+    case: nominative
+    number: dual
+    person: third
+  expected: såj∼såjå
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: sij∼sija
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: sån∼sånnå

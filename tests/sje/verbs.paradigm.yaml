@@ -1,0 +1,861 @@
+lemma: bargatjit
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+    verb_form: converb
+  expected: bargatje
+- features:
+    aspect: perfective
+    tense: past
+    verb_form: participle
+  expected: bargatjam
+- features:
+    aspect: progressive
+    tense: present
+    verb_form: participle
+  expected: bargatjemin
+- features:
+    verb_form: infinitive
+  expected: bargatjit
+---
+lemma: bassat
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: bass-a-m
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: bass-e-n
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: basa
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: bas-a-jmen
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: bas-a-jden
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: bass-a-bähten
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: bas-a-jga
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: bass-a-ba
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: bas-a-jmä
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: bass-a-p
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: bas-a-jdä
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: bass-a-behtet
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bas-a-v
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: basa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bas-a-j
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: bassa
+- features:
+    polarity: negative
+    verb_form: participle
+  expected: basa
+- features:
+    verb_form: infinitive
+  expected: bass-a-t
+- features:
+    verb_form: participle
+  expected: bass-a-m
+---
+lemma: båhtet
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+    verb_form: participle
+  expected: båhtem
+- features:
+    aspect: progressive
+    tense: present
+    verb_form: participle
+  expected: båhtemin
+- features:
+    verb_form: infinitive
+  expected: båhtet
+---
+lemma: bårråt
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: bårr-å-m
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: bårr-e-n
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bårå
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: bår-å-jmen
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: bår-å-jden
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: bårr-å-bähtin
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: bår-å-jga
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: bårr-å-ba
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: bår-å-jme
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: bårr-å-p
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: bår-å-jde
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: bårr-å-behtet
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bår-å-v
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: bårå
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bår-å-j
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: bårra
+- features:
+    polarity: negative
+    verb_form: participle
+  expected: bårå
+- features:
+    verb_form: infinitive
+  expected: bårr-å-t
+- features:
+    verb_form: participle
+  expected: bårr-å-m
+---
+lemma: gullat
+category: verbs
+cases:
+- features:
+    mood: potential
+    number: dual
+    person: first
+  expected: gulatjen
+- features:
+    mood: potential
+    number: dual
+    person: second
+  expected: gulatjähpen
+- features:
+    mood: potential
+    number: dual
+    person: third
+  expected: gulatjäba
+- features:
+    mood: potential
+    number: plural
+    person: first
+  expected: gulatjep
+- features:
+    mood: potential
+    number: plural
+    person: second
+  expected: gulatjehpit
+- features:
+    mood: potential
+    number: plural
+    person: third
+  expected: gulatje
+- features:
+    mood: potential
+    number: singular
+    person: first
+  expected: gulatjav
+- features:
+    mood: potential
+    number: singular
+    person: second
+  expected: gulatja
+- features:
+    mood: potential
+    number: singular
+    person: third
+  expected: gulatja
+---
+lemma: ságastit
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+    verb_form: converb
+  expected: ságaste
+- features:
+    aspect: perfective
+    tense: past
+    verb_form: participle
+  expected: ságastam
+- features:
+    aspect: progressive
+    tense: present
+    verb_form: participle
+  expected: ságastamin
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: ságast-ä-hten
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ságast-ä-htet
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ságaste
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ságast-i-jmen
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: ságast-e-n
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: ságast-i-jden
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: ságast-ä-hpen
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: ságast-i-jga
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: ságast-ä-ba
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ságast-i-jme
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ságast-e-p
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ságast-i-jde
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ságast-e-hpit
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ságast-e-n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ságaste
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ságast-i-jiv
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ságast-a-v
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ságast-i-je
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ságasta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ságast-i-j
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ságasta
+- features:
+    polarity: negative
+    verb_form: converb
+  expected: ságaste
+- features:
+    verb_form: infinitive
+  expected: ságastit
+- features:
+    verb_form: participle
+  expected: ságast-a-m
+---
+lemma: tjájbmat
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+    verb_form: converb
+  expected: tjájma
+- features:
+    aspect: perfective
+    tense: past
+    verb_form: participle
+  expected: tjájbmam
+- features:
+    aspect: progressive
+    tense: present
+    verb_form: participle
+  expected: tjájbmamin
+- features:
+    verb_form: infinitive
+  expected: tjájbmat
+---
+lemma: viessot
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+    verb_form: converb
+  expected: vieso
+- features:
+    aspect: perfective
+    tense: past
+    verb_form: participle
+  expected: viessom
+- features:
+    aspect: progressive
+    tense: present
+    verb_form: participle
+  expected: viessomin
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: viess
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: viess
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: vies
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: vies
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: viess
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: vies
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: viess
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: vies
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: viess
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: vies
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: viess
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: vies
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: viess
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: viess
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: viess
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: viess
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: vies
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: viess
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: vies
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: vies
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: viess
+- features:
+    verb_form: infinitive
+  expected: viess
+- features:
+    verb_form: participle
+  expected: vies
+---
+lemma: välldut
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: välld-u-jmen
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: välld-u-jin
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: välld-u-jden
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: välld-u-bähten
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: välld-u-jga
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: välld-u-ba
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: välld-u-jme
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: välld-u-p
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: välld-u-jde
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: välld-u-bähtet
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: välld-u-jin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: välld-u-je
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: välld-u-jiv
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: välld-u-v
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: välld-u-je
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: välldu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: välld-u-j
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: välld-u-ja
+- features:
+    polarity: negative
+    verb_form: converb
+  expected: välldu
+- features:
+    verb_form: infinitive
+  expected: välld-u-t
+- features:
+    verb_form: participle
+  expected: välld-u-m
+---
+lemma: årrot
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: lijmen
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: lin
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: lijden
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: lähpen
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: lijga
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: lähpa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: lijme
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: lep
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: lijde
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lehpet
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: lidjen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: lea
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: lidjiv
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: lev
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: lidje
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: lä
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: lij
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: lä
+- features:
+    verb_form: infinitive
+  expected: årrot
+- features:
+    verb_form: participle
+  expected: urrum

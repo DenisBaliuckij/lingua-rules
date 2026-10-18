@@ -1,0 +1,1541 @@
+lemma: BHKa
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: BHKa-x-Me
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: BHKa-X-TC
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: BHKa-X-X
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: BiiKa-xt
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: BHKa
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: BHKa
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: BHKa-H-TC
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: BHKaH
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: BHKa-X-Me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: BHKa-x-Te
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: BHKaTe
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: BHKa-x-z
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: BHKaT'B
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: BHKaXT
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: BHKaM'L
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: BHKaiue
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: BHKauie
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: BHKa
+---
+lemma: HOCBaMt
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: imperfect
+  expected: HOcsaxMe
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: imperfect
+  expected: HOCBaxxe
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: imperfect
+  expected: Hocsaxas
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: imperfect
+  expected: HOcsax'B
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: HOCBaMt
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: imperfect
+  expected: HocBaiire
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: present
+  expected: HOCBauie
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: imperfect
+  expected: HOCBaiue
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: present
+  expected: HOCBa
+---
+lemma: mp
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: mp-e-Te
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: mPH
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: mp-t-x-Me
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: mp-h-X-MC
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: mp-e-Mt
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: mp-t-x-Te
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: mp-t-M-Te
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mp-e-Te
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: mp-t-X-Z
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: mp-t-x-x
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: mp-.Z.-T'L
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: mp-t-xt
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: mp-t-Xl
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: mpt
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: mp-e-uie
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mp-e-nit
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: mpt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: mp-e-ine
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mpe
+---
+lemma: neK
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: neMCxe
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: hCHH
+---
+lemma: nee
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: hCCH
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: hCC-O-X-MC
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: hGC-t-X-MC
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nec-e-Mt
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: hCC-O-X-TC
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: nec-t-x-Te
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: hec-e-Te
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: hGC-fc-X-JK
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: hCC-O-X"B
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: hCC-h-XT
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: nece
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hec-e-iui
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: nece
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: nec-t-iiie
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hece
+---
+lemma: nnca
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: nnca-x-Me
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: nnca-x-xe
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: nnni-e-Te
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nnui-e-Te
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nniu-e
+---
+lemma: бѫдѫ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: бѫдахомъ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: бѫдемъ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: бѫдасте
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: бѫдете
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: бѫдахѫтъ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: бѫдѫтъ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: бѫдахъ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: бѫдѫ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: бѫдѧше
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: бѫдеши
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: бѫдѧше
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: бѫдетъ
+---
+lemma: взема
+category: verbs
+cases:
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: взетата
+- features:
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: взетият
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: взетото
+- features:
+    definiteness: definite
+    number: plural
+  expected: взетите
+- features:
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+  expected: взета
+- features:
+    definiteness: indefinite
+    gender: masculine
+    number: singular
+  expected: взет
+- features:
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: взето
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: взети
+---
+lemma: видя
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: вижте
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: виж
+---
+lemma: видях
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: видяхме
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: видяхте
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: видЛха
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: видях
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: видя
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: видя
+---
+lemma: вляза
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: влёзте
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: вляз
+---
+lemma: вода
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: водеща
+- features:
+    gender: masculine
+    number: singular
+  expected: водещ
+- features:
+    gender: neuter
+    number: singular
+  expected: водещо
+- features:
+    number: plural
+  expected: водещи
+---
+lemma: държа
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: дръжте
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: дръж
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: държйм
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: държите
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: държат
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: държа
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: държйш
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: държй
+---
+lemma: държам
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: държаща
+- features:
+    gender: masculine
+    number: singular
+  expected: държащ
+- features:
+    gender: neuter
+    number: singular
+  expected: държащо
+- features:
+    number: plural
+  expected: държащи
+---
+lemma: живея
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: живееща
+- features:
+    gender: masculine
+    number: singular
+  expected: живеещ
+- features:
+    gender: neuter
+    number: singular
+  expected: живеещо
+- features:
+    number: plural
+  expected: живеещи
+---
+lemma: изляза
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: излезте
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: изляз
+---
+lemma: имам
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: имате
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: имат
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: имам
+---
+lemma: искал
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: искалме
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: искйхте
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: искаха
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: искал
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: иски
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: иска
+---
+lemma: казвам
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: казваща
+- features:
+    gender: masculine
+    number: singular
+  expected: казващ
+- features:
+    gender: neuter
+    number: singular
+  expected: казващо
+- features:
+    number: plural
+  expected: казващи
+---
+lemma: лежах
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: лежахме
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: лежахтех
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: лежаха
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: лежах
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: лежеше
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: лежеше
+---
+lemma: мога
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+  expected: можещ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: можем
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: можете
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: можа
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: можеше
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: можеш
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: може
+---
+lemma: нося
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: носёте
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: носи
+---
+lemma: пека
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+  expected: печащ
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: печен
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: печете
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: печи
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: печахме
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: печем
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: печете
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: пече
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: печеш
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: пече
+---
+lemma: пиша
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: писах
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: пиша
+---
+lemma: привлека
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: привлечен
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: привлечете
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: привлечи
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: привлечем
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: привлечете
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: привлече
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: привлечеш
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: привлече
+---
+lemma: седна
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: седнёте
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: седнй
+---
+lemma: стоя
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: стойте
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: стой
+---
+lemma: стрелям
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: стреляща
+- features:
+    gender: masculine
+    number: singular
+  expected: стрелящ
+- features:
+    gender: neuter
+    number: singular
+  expected: стрелящо
+- features:
+    number: plural
+  expected: стрелящи
+---
+lemma: съм
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: бъдёте
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: бъди
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: бяхме
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: сме
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: бяхте
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: cTe
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ca
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: бях
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: съм
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: си
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: e
+---
+lemma: търпя
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: търпяща
+- features:
+    gender: masculine
+    number: singular
+  expected: търпящ
+- features:
+    gender: neuter
+    number: singular
+  expected: търпящо
+- features:
+    number: plural
+  expected: търпящи
+---
+lemma: хвърлям
+category: verbs
+cases:
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: хвърляната
+- features:
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: хвърляният
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: хвърляното
+- features:
+    definiteness: definite
+    number: plural
+  expected: хвърляните
+- features:
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+  expected: хвърляна
+- features:
+    definiteness: indefinite
+    gender: masculine
+    number: singular
+  expected: хвърлян
+- features:
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: хвърляно
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: хвърляни
+---
+lemma: ходех
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: ходехме
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: ходехте
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: ходеха
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: ходех
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: ходеше
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: ходеше
+---
+lemma: ходйх
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: ходйхме
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: ходихте
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: ходиха
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: ходйх
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: ходи
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: ходи
+---
+lemma: чакам
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: чакайте
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: чакай
+---
+lemma: чета
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: четёте
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: чети
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: четяхме
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: четём
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: четяхте
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: четёте
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: четяха
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: четат
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: четях
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: чета
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: четеше
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: четёш
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: четёше
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: четё
+- features:
+    number: plural
+    person: third
+  expected: четоха
+---
+lemma: четях
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: четяхме
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: четяхте
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: четяха
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: четях
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: четеше
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: четеше
+---
+lemma: чух
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: чухме
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: чухте
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: чуха
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: чух
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: чу
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: чу
+---
+lemma: чёток
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: чётохме
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: четохте
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: чётоха
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: чёток
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: чёте
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: чёте
+---
+lemma: ям
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: яжте
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: яж

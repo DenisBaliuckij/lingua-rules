@@ -1,0 +1,83 @@
+lemma: fy
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ein
+- features:
+    number: plural
+    person: second
+  expected: eich
+- features:
+    number: plural
+    person: third
+  expected: eu
+- features:
+    number: singular
+    person: first
+  expected: fy
+- features:
+    number: singular
+    person: second
+  expected: dy
+- features:
+    number: singular
+    person: third
+  expected: ei
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ni
+- features:
+    number: plural
+    person: second
+  expected: chwi
+- features:
+    number: plural
+    person: third
+  expected: hwy
+- features:
+    number: singular
+    person: first
+  expected: i
+- features:
+    number: singular
+    person: second
+  expected: di
+- features:
+    number: singular
+    person: third
+  expected: ef
+---
+lemma: m
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: n
+- features:
+    number: plural
+    person: second
+  expected: ch
+- features:
+    number: plural
+    person: third
+  expected: u
+- features:
+    number: singular
+    person: first
+  expected: m
+- features:
+    number: singular
+    person: second
+  expected: th
+- features:
+    number: singular
+    person: third
+  expected: i
