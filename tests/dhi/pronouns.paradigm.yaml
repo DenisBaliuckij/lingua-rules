@@ -1,0 +1,79 @@
+lemma: ka
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kidhimi
+- features:
+    number: dual
+    person: second
+  expected: nidhimi
+- features:
+    number: dual
+    person: third
+  expected: udhimi
+- features:
+    number: plural
+    person: first
+  expected: kelai
+- features:
+    number: plural
+    person: second
+  expected: nelai
+- features:
+    number: plural
+    person: third
+  expected: obalai
+- features:
+    number: singular
+    person: first
+  expected: ka
+- features:
+    number: singular
+    person: second
+  expected: na
+- features:
+    number: singular
+    person: third
+  expected: wa
+---
+lemma: kaŋ
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kidhiŋ
+- features:
+    number: dual
+    person: second
+  expected: nidhiŋ
+- features:
+    number: dual
+    person: third
+  expected: odhiŋ
+- features:
+    number: plural
+    person: first
+  expected: kelaiko
+- features:
+    number: plural
+    person: second
+  expected: nelaiko
+- features:
+    number: plural
+    person: third
+  expected: obalaiko
+- features:
+    number: singular
+    person: first
+  expected: kaŋ
+- features:
+    number: singular
+    person: second
+  expected: naŋ
+- features:
+    number: singular
+    person: third
+  expected: wako

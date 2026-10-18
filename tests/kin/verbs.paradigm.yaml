@@ -1,0 +1,153 @@
+lemma: gushobora
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: dushobora
+- features:
+    number: plural
+    person: second
+  expected: mushobora
+- features:
+    number: plural
+    person: third
+  expected: bashobora
+- features:
+    number: singular
+    person: first
+  expected: nshobora
+- features:
+    number: singular
+    person: second
+  expected: ushobora
+- features:
+    number: singular
+    person: third
+  expected: ashobora
+---
+lemma: kuba
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ndi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: uri
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ari
+---
+lemma: kujya
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: tuzajya
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: future
+  expected: ntituzajya
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: muzajya
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: future
+  expected: ntimuzajya
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: bazajya
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: future
+  expected: ntibazajya
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: nzajya
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: sinzajya
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: uzajya
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: future
+  expected: ntuzajya
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: azajya
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: future
+  expected: ntazajya
+---
+lemma: kurwara
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ndarwaye
+- features:
+    number: singular
+    person: second
+  expected: urarwaye
+- features:
+    number: singular
+    person: third
+  expected: ararwaye

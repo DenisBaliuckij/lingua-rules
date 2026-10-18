@@ -1,0 +1,75 @@
+lemma: mn
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    evidentiality: direct
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: di-mbi-mn-n-gá-mé
+- features:
+    aspect: progressive
+    evidentiality: indirect
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: di-mbi-mn-mí
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: gi-bi-mn-mí
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: di-mbi-mn-n-gá
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: gi-bi-mn
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: k√-bi-mn
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: mnmi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: mn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: g√-m-n-gán
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: gimn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: d√mn

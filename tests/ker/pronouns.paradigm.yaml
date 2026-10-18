@@ -1,0 +1,93 @@
+lemma: me
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: i
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: a
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: m
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: u
+- features:
+    number: plural
+    person: second
+  expected: l]
+- features:
+    number: plural
+    person: third
+  expected: i
+- features:
+    number: singular
+    person: first
+  expected: n
+---
+lemma: nan
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: a nini
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: a m
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: a nunu
+- features:
+    number: singular
+    person: first
+  expected: a nan
+---
+lemma: ten
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: te
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: a
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: tam
+- features:
+    number: plural
+    person: first
+  expected: ar
+- features:
+    number: plural
+    person: second
+  expected: a[J
+- features:
+    number: plural
+    person: third
+  expected: ye-ya
+- features:
+    number: singular
+    person: first
+  expected: ten

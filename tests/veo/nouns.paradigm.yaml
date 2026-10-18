@@ -1,0 +1,27 @@
+lemma: muk
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: kimuk
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: pimuk
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: tsimuk
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: kmuk
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: pmuk
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: tsmuk

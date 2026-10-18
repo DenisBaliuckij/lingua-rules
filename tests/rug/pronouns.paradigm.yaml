@@ -1,0 +1,128 @@
+lemma: au
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: gita
+- features:
+    number: plural
+    person: second
+  expected: gamu
+- features:
+    number: singular
+    person: first
+  expected: au
+- features:
+    number: singular
+    person: second
+  expected: go
+- features:
+    number: singular
+    person: third
+  expected: a
+---
+lemma: gamu
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+    person: second
+  expected: si gamu
+- features:
+    case: ergative
+    number: plural
+    person: second
+  expected: gamu
+---
+lemma: gita
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+    person: first
+  expected: si gita
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: gita
+---
+lemma: goi
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: second
+  expected: goi
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: si goi
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: si goi
+---
+lemma: qu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: da
+- features:
+    number: plural
+    person: second
+  expected: mia
+- features:
+    number: plural
+    person: third
+  expected: di
+- features:
+    number: singular
+    person: first
+  expected: qu
+- features:
+    number: singular
+    person: second
+  expected: mu
+- features:
+    number: singular
+    person: third
+  expected: na
+---
+lemma: rau
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: rau
+- features:
+    number: singular
+    person: second
+  expected: got
+- features:
+    number: singular
+    person: third
+  expected: sa
+---
+lemma: sa
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: third
+  expected: asa
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: sa

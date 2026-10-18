@@ -1,0 +1,64 @@
+lemma: io
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kilau
+- features:
+    number: dual
+    person: second
+  expected: itəlau
+- features:
+    number: dual
+    person: third
+  expected: ilau
+- features:
+    number: plural
+    person: first
+  expected: kitat
+- features:
+    number: plural
+    person: second
+  expected: itəmat
+- features:
+    number: plural
+    person: third
+  expected: ilat
+- features:
+    number: singular
+    person: first
+  expected: io
+- features:
+    number: singular
+    person: second
+  expected: ik
+- features:
+    number: singular
+    person: third
+  expected: in
+- features:
+    person: first
+  expected: kitəhal
+- features:
+    person: second
+  expected: itəməhal
+- features:
+    person: third
+  expected: iləhal
+---
+lemma: lak
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: lak
+- features:
+    number: singular
+    person: second
+  expected: lam
+- features:
+    number: singular
+    person: third
+  expected: lan

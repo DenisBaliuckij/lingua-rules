@@ -1,0 +1,79 @@
+lemma: cya-sa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ce-wa-du
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: cya-n-u-du
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: cey-ef-du
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: cyah-u-n-du
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: cyah-u-na-du
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cyah-Ø-u-du
+---
+lemma: hen-sa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: hen-wa-du
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: hen-n-u-du
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hen-ef-du
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: hen-u-n-du
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hen-u-na-du
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hen-Ø-u-du

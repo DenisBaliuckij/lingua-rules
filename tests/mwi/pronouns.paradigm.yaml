@@ -1,0 +1,25 @@
+lemma: ge
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: gerakh
+- features:
+    number: plural
+  expected: gekho
+- features:
+    number: singular
+  expected: ge
+---
+lemma: nge
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: ngerakh
+- features:
+    number: plural
+  expected: ngekho
+- features:
+    number: singular
+  expected: nge

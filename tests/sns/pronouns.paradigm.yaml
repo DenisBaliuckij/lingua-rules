@@ -1,0 +1,35 @@
+lemma: inug
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: nuqum
+- features:
+    number: singular
+    person: second
+  expected: inug
+---
+lemma: nigcin
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nigcin
+---
+lemma: qey
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: ruwar
+- features:
+    number: plural
+    person: third
+  expected: qar
+- features:
+    number: singular
+    person: third
+  expected: qey

@@ -1,0 +1,151 @@
+lemma: sal
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: cala
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: cal
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: calia
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: calia
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: calda
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: callia
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: calia
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: calda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: calala
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: calin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: caldan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: callu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: calia
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: caldo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: calliu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: call
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: caldui
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: calalu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: cali
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cald
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: cala
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: cala
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: calun
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: calo
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: cali
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: calu

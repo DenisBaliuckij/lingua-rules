@@ -1,0 +1,60 @@
+lemma: an
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: wad
+- features:
+    number: plural
+    person: second
+  expected: kaa
+- features:
+    number: plural
+    person: third
+  expected: wa
+- features:
+    number: singular
+    person: first
+  expected: an
+- features:
+    number: singular
+    person: second
+  expected: ya
+- features:
+    number: singular
+    person: third
+  expected: ya
+---
+lemma: n
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    case: accusative
+    number: singular
+    person: third
+  expected: a
+- features:
+    animacy: inanimate
+    case: accusative
+    number: singular
+    person: third
+  expected: a
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: d
+- features:
+    number: plural
+    person: second
+  expected: ka
+- features:
+    number: singular
+    person: first
+  expected: n
+- features:
+    number: singular
+    person: second
+  expected: e

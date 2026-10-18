@@ -1,0 +1,27 @@
+lemma: g!i
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ni
+- features:
+    number: plural
+    person: second
+  expected: nif
+- features:
+    number: plural
+    person: third
+  expected: ka-baf
+- features:
+    number: singular
+    person: first
+  expected: g!i
+- features:
+    number: singular
+    person: second
+  expected: naf
+- features:
+    number: singular
+    person: third
+  expected: ka
