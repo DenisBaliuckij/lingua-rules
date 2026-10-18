@@ -1,0 +1,1297 @@
+lemma: '?'
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ^
+- features:
+    number: plural
+    person: third
+  expected: ^oi
+- features:
+    number: singular
+    person: third
+  expected: ?oli^
+---
+lemma: ?ahsp
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ?ahspi?m
+- features:
+    number: singular
+  expected: ?ahsp
+- features:
+    number: singular
+    person: third
+  expected: ^a'^s
+---
+lemma: ^^
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: '?'
+- features:
+    number: singular
+  expected: ^^
+---
+lemma: cekcey
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: cekceyl
+- features:
+    number: singular
+    person: first
+  expected: cekceyU
+---
+lemma: chpe’roy
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: chpe’ro’yos
+- features:
+    number: singular
+    person: first
+  expected: chpe’royok
+- features:
+    number: singular
+    person: second
+  expected: chpe’royom
+- features:
+    number: singular
+    person: third
+  expected: chpe’roy
+---
+lemma: ciwey
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ciweyoneni'?m
+- features:
+    number: singular
+  expected: ciwey
+---
+lemma: cken
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ckene?m
+- features:
+    number: singular
+  expected: cken
+---
+lemma: ckey
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: cki?m
+- features:
+    number: singular
+  expected: ckey
+---
+lemma: ckirisay
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ckirisayl
+- features:
+    number: singular
+    person: first
+  expected: ckirisaylc
+---
+lemma: cye'^wol
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: cye'?wolu?m^
+- features:
+    number: singular
+  expected: cye'^wol
+---
+lemma: heg
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: le?m
+- features:
+    number: singular
+  expected: heg
+---
+lemma: hegol
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: hach’es
+- features:
+    number: plural
+    person: first
+  expected: hegoloh
+- features:
+    number: plural
+    person: second
+  expected: hegolu?
+- features:
+    number: plural
+    person: third
+  expected: hegolei
+- features:
+    number: singular
+    person: first
+  expected: hegolek
+- features:
+    number: singular
+    person: second
+  expected: hegole'^m
+- features:
+    number: singular
+    person: third
+  expected: he^m
+---
+lemma: helomey
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: helomeye'^moh
+- features:
+    number: plural
+    person: second
+  expected: helomeye'?mo'?w
+- features:
+    number: plural
+    person: third
+  expected: helomeye^mel
+---
+lemma: helomeyek
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: helomeye’mekw
+- features:
+    mood: imperative
+    number: singular
+  expected: helomes
+- features:
+    number: plural
+    person: first
+  expected: helomeye’moh
+- features:
+    number: plural
+    person: second
+  expected: helomeye’mow
+- features:
+    number: plural
+    person: third
+  expected: helomeye’mehl
+- features:
+    number: singular
+    person: first
+  expected: helomeyek
+- features:
+    number: singular
+    person: second
+  expected: helomeyem
+- features:
+    number: singular
+    person: third
+  expected: helomey
+---
+lemma: ho'^omohtk
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ho?oniohtkolc
+- features:
+    number: singular
+    person: second
+  expected: ho?oniohtko'?m
+- features:
+    number: singular
+    person: third
+  expected: ho?omohtko'?ni
+---
+lemma: ho-'?ylcel
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ho-'?ylceli?m
+- features:
+    number: singular
+  expected: ho-'?ylcel
+---
+lemma: hohkuemek
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: hohkuemekw
+- features:
+    number: plural
+    person: first
+  expected: hohkuemoh
+- features:
+    number: plural
+    person: second
+  expected: hohkuemue
+- features:
+    number: plural
+    person: third
+  expected: hohkuemehl
+- features:
+    number: singular
+    person: first
+  expected: hohkuemek
+- features:
+    number: singular
+    person: second
+  expected: hohkuemem
+- features:
+    number: singular
+    person: third
+  expected: hohkuem
+---
+lemma: hopkek
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: hopke^m
+- features:
+    number: singular
+  expected: hopkek
+---
+lemma: k^esk^es
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: k^eskWesu-^^mC-)
+- features:
+    number: singular
+  expected: k^esk^es
+---
+lemma: kahc
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: kahcu?m
+- features:
+    number: singular
+  expected: kahc
+---
+lemma: kemtey
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: keme'?yoh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: keme?yu'?
+---
+lemma: kepoyuer
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: kepoyue’res
+- features:
+    number: singular
+    person: first
+  expected: kepoyuerek
+- features:
+    number: singular
+    person: second
+  expected: kepoyuerem
+- features:
+    number: singular
+    person: third
+  expected: kepoyuer
+---
+lemma: kepoyur
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nekepoyuri'?m
+- features:
+    number: plural
+    person: second
+  expected: cekepoyuri'?m
+- features:
+    number: plural
+    person: third
+  expected: ?ukepoyuri'?m
+---
+lemma: ko?moy
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ko'^moyo-^mC-)
+- features:
+    number: singular
+  expected: ko?moy
+---
+lemma: kohchewok
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: kohche’wos
+- features:
+    number: singular
+    person: first
+  expected: kohchewok
+- features:
+    number: singular
+    person: second
+  expected: kohchewoom
+- features:
+    number: singular
+    person: third
+  expected: kohchewom
+---
+lemma: kohto-liS
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: kohto-liso-'?m
+- features:
+    number: plural
+    person: first
+  expected: kohto'lisoh
+- features:
+    number: plural
+    person: second
+  expected: kohtoliso-mom
+- features:
+    number: plural
+    person: third
+  expected: kohto-lisomin
+- features:
+    number: singular
+  expected: kohto-liS
+- features:
+    number: singular
+    person: first
+  expected: kohto'liSoh
+- features:
+    number: singular
+    person: second
+  expected: kohto'liso-mom
+- features:
+    number: singular
+    person: third
+  expected: kohtoli§omin
+---
+lemma: korpew
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: korpu'?m
+- features:
+    number: singular
+  expected: korpew
+---
+lemma: la-y
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: layoneckenekW
+- features:
+    number: singular
+    person: third
+  expected: la-yonekw
+---
+lemma: lenewkw
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: leneckenek^
+- features:
+    number: singular
+    person: third
+  expected: leneckenek^
+---
+lemma: ma^epet
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ma^epetoh
+- features:
+    number: dual
+    person: second
+  expected: ma^epetu?
+- features:
+    number: plural
+    person: third
+  expected: ma^epetel
+- features:
+    number: singular
+    person: first
+  expected: maPepetek
+- features:
+    number: singular
+    person: second
+  expected: maPepete^m
+- features:
+    number: singular
+    person: third
+  expected: ma.epef
+---
+lemma: me'womec
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: me?wome?m
+- features:
+    number: singular
+  expected: me'womec
+---
+lemma: me^el
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: mege?loh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: mege?lu?
+---
+lemma: megel
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: megelo-'^mC-)
+- features:
+    number: singular
+  expected: megel
+---
+lemma: menec
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: mene?m
+- features:
+    number: singular
+  expected: menec
+---
+lemma: menewkw
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: meneckenekw
+- features:
+    number: singular
+    person: third
+  expected: menek
+---
+lemma: meyk^ele^wey
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: meykWelu-'?m
+- features:
+    number: singular
+  expected: meyk^ele^wey
+---
+lemma: mur-^^
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: muri'?moh
+- features:
+    number: plural
+    person: second
+  expected: muri'?mo'?w
+- features:
+    number: plural
+    person: third
+  expected: muri^mel
+---
+lemma: myoot
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: myoot’es
+- features:
+    number: singular
+    person: first
+  expected: myootek
+- features:
+    number: singular
+    person: second
+  expected: myootem
+- features:
+    number: singular
+    person: third
+  expected: myoot
+---
+lemma: na-menewkw
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: nameneckenekw
+- features:
+    number: singular
+    person: third
+  expected: namenek
+---
+lemma: nekcen
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    voice: passive
+  expected: nekceneyoh
+- features:
+    number: plural
+    person: second
+    voice: passive
+  expected: nekceneyu?
+- features:
+    number: plural
+    person: third
+    voice: passive
+  expected: nekceneyel
+- features:
+    number: singular
+    person: first
+    voice: passive
+  expected: nekceneyeK
+- features:
+    number: singular
+    person: second
+    voice: passive
+  expected: nekceneye?m
+- features:
+    number: singular
+    person: third
+    voice: passive
+  expected: nekceni?
+---
+lemma: nep
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: nef^oh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: nepu'?
+- features:
+    number: plural
+  expected: nepe?m
+- features:
+    number: plural
+    person: first
+  expected: nepoh
+- features:
+    number: plural
+    person: second
+  expected: nepuh
+- features:
+    number: plural
+    person: third
+  expected: nepin
+- features:
+    number: singular
+  expected: nep
+- features:
+    number: singular
+    person: first
+  expected: nepoh
+- features:
+    number: singular
+    person: second
+  expected: nepom
+- features:
+    number: singular
+    person: third
+  expected: nepin
+---
+lemma: nepek
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: nepee’mekw
+- features:
+    mood: imperative
+    number: singular
+  expected: nep’s
+- features:
+    number: plural
+    person: first
+  expected: nepee’moh
+- features:
+    number: plural
+    person: second
+  expected: nepee’mow
+- features:
+    number: plural
+    person: third
+  expected: nepee’mehl
+- features:
+    number: singular
+    person: first
+  expected: nepek
+- features:
+    number: singular
+    person: second
+  expected: nepem
+- features:
+    number: singular
+    person: third
+  expected: nep
+---
+lemma: new
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: newo?m
+- features:
+    number: plural
+    person: first
+  expected: newoh
+- features:
+    number: plural
+    person: second
+  expected: newo^w
+- features:
+    number: singular
+  expected: new
+- features:
+    number: singular
+    person: first
+  expected: newolc
+- features:
+    number: singular
+    person: second
+  expected: newo?ni
+- features:
+    number: singular
+    person: third
+  expected: newo'^m
+---
+lemma: njgayk
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+  expected: nagayko'mom
+- features:
+    number: plural
+    person: third
+  expected: nagaykomin
+- features:
+    number: singular
+    person: first
+  expected: nagaykoh
+- features:
+    number: singular
+    person: third
+  expected: nagaykoniin
+---
+lemma: nohpew
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: nohpewi?m
+- features:
+    number: plural
+    person: third
+  expected: nohpewl
+- features:
+    number: singular
+  expected: nohpew
+- features:
+    number: singular
+    person: first
+  expected: nohpewk
+---
+lemma: pahcew
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: pahcu'^Tn
+- features:
+    number: singular
+  expected: pahcew
+---
+lemma: pe^wetew
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: pu-^etoh
+- features:
+    number: singular
+    person: second
+  expected: pu-'^wetu^
+- features:
+    number: singular
+    person: third
+  expected: pu-?wetel
+---
+lemma: pek^olew
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: pekWolu-?m
+- features:
+    number: singular
+  expected: pek^olew
+---
+lemma: pelomoy
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: pelomoyl
+- features:
+    number: singular
+    person: first
+  expected: pelomoylc
+---
+lemma: pewom
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: pewomu'?m
+- features:
+    number: singular
+  expected: pewom
+---
+lemma: pi^iy
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: pi?!!
+- features:
+    number: singular
+    person: first
+  expected: pi^iyeic
+- features:
+    number: singular
+    person: third
+  expected: pi'^i'?
+---
+lemma: rechok
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: rech’os
+- features:
+    number: singular
+    person: first
+  expected: rechok
+- features:
+    number: singular
+    person: second
+  expected: rechoom
+- features:
+    number: singular
+    person: third
+  expected: recho
+---
+lemma: ro?op
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nero'?opoh
+- features:
+    number: plural
+    person: second
+  expected: kero'?opu'?
+---
+lemma: ro’op
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: ro’op’es
+- features:
+    number: singular
+    person: first
+  expected: ro’opek
+- features:
+    number: singular
+    person: second
+  expected: ro’opem
+- features:
+    number: singular
+    person: third
+  expected: ro’op
+---
+lemma: ruerow
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: ruero’wos
+- features:
+    number: singular
+    person: first
+  expected: ruerowok
+- features:
+    number: singular
+    person: second
+  expected: ruerowom
+- features:
+    number: singular
+    person: third
+  expected: ruerow
+---
+lemma: samat
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: samatai
+- features:
+    number: singular
+    person: second
+  expected: samota^m
+---
+lemma: sermertek
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: sermertekw
+- features:
+    mood: imperative
+    number: singular
+  expected: sermert’es
+- features:
+    number: plural
+    person: first
+  expected: sermertoh
+- features:
+    number: plural
+    person: second
+  expected: sermertue
+- features:
+    number: plural
+    person: third
+  expected: sermertehl
+- features:
+    number: singular
+    person: first
+  expected: sermertek
+- features:
+    number: singular
+    person: second
+  expected: sermertem
+- features:
+    number: singular
+    person: third
+  expected: sermert
+---
+lemma: skewinep
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: skewinepe?m
+- features:
+    number: singular
+  expected: skewinep
+---
+lemma: skewip
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: skewipah
+- features:
+    number: plural
+    person: second
+  expected: skewi[Sa?w
+- features:
+    number: plural
+    person: third
+  expected: skewifSa-i
+- features:
+    number: singular
+    person: first
+  expected: skewipafe
+- features:
+    number: singular
+    person: third
+  expected: skewif)a'?
+---
+lemma: skuyahpel
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: skuyahpeli^m
+- features:
+    number: singular
+  expected: skuyahpel
+---
+lemma: sloyc
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: sloy?m
+- features:
+    number: singular
+  expected: sloyc
+---
+lemma: sloyonem
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: sloyoneckenekw
+- features:
+    number: singular
+    person: third
+  expected: sloyonekw
+---
+lemma: so't
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: sotoh
+- features:
+    number: plural
+    person: second
+  expected: so'to-mom
+- features:
+    number: plural
+    person: third
+  expected: sotok^in
+- features:
+    number: singular
+    person: first
+  expected: sotoh
+- features:
+    number: singular
+    person: second
+  expected: so'to-mom
+- features:
+    number: singular
+    person: third
+  expected: sotok^in
+---
+lemma: so?nken
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: so?nlcenu?m
+- features:
+    number: singular
+  expected: so?nken
+---
+lemma: socpeyew
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: socpeyu'?m
+- features:
+    number: singular
+  expected: socpeyew
+---
+lemma: sonow
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: sonowo''?m
+- features:
+    number: plural
+    person: second
+  expected: sonowo-^m
+- features:
+    number: plural
+    person: third
+  expected: sonowoi
+- features:
+    number: singular
+    person: first
+  expected: sonowoU
+- features:
+    number: singular
+    person: second
+  expected: sonowo'?m
+- features:
+    number: singular
+    person: third
+  expected: so'?n
+---
+lemma: sootok
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: soot’os
+- features:
+    number: singular
+    person: first
+  expected: sootok
+- features:
+    number: singular
+    person: second
+  expected: sootoom
+- features:
+    number: singular
+    person: third
+  expected: sootokw
+---
+lemma: soyc
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: sone?m
+- features:
+    number: singular
+  expected: soyc
+---
+lemma: te'^nahsp
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: te'?nahspi'?m
+- features:
+    number: singular
+  expected: te'^nahsp
+---
+lemma: tel
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: teloge'?m
+- features:
+    number: plural
+    person: second
+  expected: teloge'?m
+- features:
+    number: plural
+    person: third
+  expected: teloge?m
+- features:
+    number: singular
+    person: first
+  expected: telelc
+- features:
+    number: singular
+    person: second
+  expected: tele?m
+- features:
+    number: singular
+    person: third
+  expected: te'?l
+---
+lemma: ten
+category: verbs
+cases:
+- features:
+    number: singular
+  expected: ten
+- features:
+    number: singular
+    person: third
+  expected: te?n
+---
+lemma: teykelum
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: teykelu'^m
+- features:
+    number: singular
+  expected: teykelum
+---
+lemma: tmo'l
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: tmoloy
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: tmoloy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: tmo'lopa?
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: tmolope?n
+- features:
+    number: plural
+    person: first
+    voice: passive
+  expected: tmoloyoh
+- features:
+    number: plural
+    person: second
+    voice: passive
+  expected: tmoloyu?
+- features:
+    number: singular
+    person: first
+    voice: passive
+  expected: tmoloyelc
+- features:
+    number: singular
+    person: second
+    voice: passive
+  expected: tmo'loye'^m
+- features:
+    number: singular
+    person: third
+    voice: passive
+  expected: tmoli?
+---
+lemma: wa’soyow
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: wa’soyowok
+- features:
+    number: singular
+    person: second
+  expected: wa’soyowom
+- features:
+    number: singular
+    person: third
+  expected: wa’soy
+---
+lemma: wenok
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: wenos
+- features:
+    number: singular
+    person: first
+  expected: wenok
+- features:
+    number: singular
+    person: second
+  expected: wenoom
+- features:
+    number: singular
+    person: third
+  expected: wenokw
+---
+lemma: woskew
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: wosku?m
+- features:
+    number: singular
+  expected: woskew

@@ -1,0 +1,259 @@
+lemma: gun
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: affirmative
+  expected: guzwa
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: gu-zwa-j
+- features:
+    aspect: imperfective
+    polarity: affirmative
+    verb_form: converb
+  expected: ga-ji-la
+- features:
+    aspect: imperfective
+    polarity: affirmative
+    verb_form: participle
+  expected: gu-zwa-j
+- features:
+    aspect: imperfective
+    polarity: negative
+    verb_form: converb
+  expected: ta-ga-j-la
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: affirmative
+  expected: ga-nwa
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: ga-nwa-j
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: ga-nwa-ö-ir
+- features:
+    aspect: perfective
+    polarity: affirmative
+    verb_form: converb
+  expected: gudaldi
+- features:
+    aspect: perfective
+    polarity: affirmative
+    verb_form: participle
+  expected: ga-nwa-j
+- features:
+    aspect: perfective
+    polarity: negative
+    verb_form: participle
+  expected: ta-ga-nwa-j
+- features:
+    mood: imperative
+    polarity: affirmative
+  expected: ce
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: aorist
+  expected: ga-na
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: guda
+- features:
+    mood: indicative
+    polarity: negative
+    tense: aorist
+  expected: ga-na-ö
+- features:
+    mood: indicative
+    polarity: negative
+    tense: future
+  expected: gu-da-ö-ir
+- features:
+    mood: optative
+    polarity: affirmative
+  expected: guraj
+- features:
+    mood: optative
+    polarity: negative
+  expected: gumir
+- features:
+    polarity: affirmative
+    tense: aorist
+    verb_form: converb
+  expected: ga-na
+- features:
+    polarity: affirmative
+    tense: aorist
+    verb_form: participle
+  expected: ga-jt
+- features:
+    polarity: affirmative
+    tense: future
+    verb_form: participle
+  expected: gu-da-j
+- features:
+    polarity: affirmative
+    verb_form: infinitive
+  expected: guz
+- features:
+    polarity: affirmative
+    verb_form: verbal_noun
+  expected: gun
+- features:
+    polarity: negative
+    tense: aorist
+    verb_form: converb
+  expected: ta-ga-na
+- features:
+    polarity: negative
+    tense: aorist
+    verb_form: participle
+  expected: ta-ga-j
+---
+lemma: ja
+category: verbs
+cases:
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: tir
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: present
+  expected: ja
+- features:
+    polarity: affirmative
+    tense: past
+    verb_form: participle
+  expected: tir
+- features:
+    polarity: affirmative
+    verb_form: converb
+  expected: jaz
+---
+lemma: raxun
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    polarity: affirmative
+    tense: present
+  expected: raxä-zwa
+- features:
+    aspect: imperfective
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: raxä-zwa-j
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: aorist
+  expected: raxä-na
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: aorist
+    verb_form: converb
+  expected: raxä-na
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: aorist
+    verb_form: participle
+  expected: raxä-j
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: perfect
+  expected: raxä-nwa
+- features:
+    mood: imperative
+    polarity: affirmative
+  expected: raxü-x
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: raxä-da
+- features:
+    mood: optative
+    polarity: affirmative
+  expected: raxü-raj
+- features:
+    polarity: affirmative
+  expected: raxä-mir
+- features:
+    polarity: affirmative
+    verb_form: infinitive
+  expected: raxä-z
+- features:
+    polarity: affirmative
+    verb_form: verbal_noun
+  expected: raxün
+---
+lemma: £un
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    polarity: affirmative
+    tense: present
+  expected: ζέ-ζιυα
+- features:
+    aspect: imperfective
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: ζέ-zwa-j
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: aorist
+  expected: M-na
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: aorist
+    verb_form: converb
+  expected: £ά-ηα
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: aorist
+    verb_form: participle
+  expected: Aa-ji
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: perfect
+  expected: Αά-nwa
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: ϊέ-da
+- features:
+    mood: optative
+    polarity: affirmative
+  expected: itu-raj
+- features:
+    polarity: affirmative
+  expected: έέ-mir

@@ -1,0 +1,257 @@
+lemma: apuni 'by oneself
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: apuni 'by oneself
+---
+lemma: ei
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: i-hot
+- features:
+    number: singular
+  expected: ei
+---
+lemma: ei-to
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: ei-bor
+- features:
+    number: singular
+  expected: ei-to
+---
+lemma: ekhet
+category: pronouns
+cases:
+- features:
+    case: oblique
+    number: singular
+  expected: ekheto
+- features:
+    number: plural
+  expected: ekhetxokol
+- features:
+    number: singular
+  expected: ekhet
+---
+lemma: eko 'nothing
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: eko 'nothing
+---
+lemma: eo
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: eoIok
+- features:
+    number: singular
+  expected: eo
+---
+lemma: ki 'what
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: ki 'what
+---
+lemma: kih 'which
+category: pronouns
+cases:
+- features:
+    case: oblique
+    number: singular
+  expected: kiho
+- features:
+    number: singular
+  expected: kih 'which
+---
+lemma: kon 'who
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: kon-bor Ikon-bilak
+- features:
+    number: singular
+  expected: kon 'who
+---
+lemma: kono'nobody
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: kono-kono
+- features:
+    number: singular
+  expected: kono'nobody
+---
+lemma: m
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ama-k 'us
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: mo-k'me
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: ama-lni 'to
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: mo-lni 'to
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: ama-r 'our
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: mo-r'my
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: ama-r dara 'by us
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: moor dara 'by me
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: ama-t 'in
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: moot
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ami 'we
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: m
+---
+lemma: moi'I
+category: pronouns
+cases:
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: mo
+- features:
+    number: singular
+    person: first
+  expected: moi'I
+---
+lemma: niz 'by oneself
+category: pronouns
+cases:
+- features:
+    case: oblique
+    number: singular
+  expected: nizo
+- features:
+    number: singular
+  expected: niz 'by oneself
+---
+lemma: tai'she
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: tai'she
+---
+lemma: tekhet 'he
+category: pronouns
+cases:
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: tekheto
+- features:
+    number: plural
+    person: third
+  expected: tekhetxokol
+- features:
+    number: singular
+    person: third
+  expected: tekhet 'he
+---
+lemma: teo 'he
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: teo 'he
+---
+lemma: xei-to 'that
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: xei-borjxei- bilak
+- features:
+    number: singular
+  expected: xei-to 'that
+---
+lemma: xnu-to
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: xnu-borJxnu-bilak
+- features:
+    number: singular
+  expected: xnu-to
+---
+lemma: zi 'who
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: zi -borIzi -bilak I zi·xokol
+- features:
+    number: singular
+  expected: zi 'who
+---
+lemma: zih 'which
+category: pronouns
+cases:
+- features:
+    case: oblique
+    number: singular
+  expected: ziho
+- features:
+    number: singular
+  expected: zih 'which

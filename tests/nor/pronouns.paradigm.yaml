@@ -1,0 +1,194 @@
+lemma: all
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: singular
+  expected: all
+- features:
+    gender: neuter
+    number: singular
+  expected: alt
+- features:
+    number: plural
+  expected: aile
+---
+lemma: bâe
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: bâe
+---
+lemma: de
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: de
+---
+lemma: dei
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: dei
+---
+lemma: den
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: den
+---
+lemma: det
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: det
+---
+lemma: du
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: du
+---
+lemma: eg
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: eg
+---
+lemma: einkvan
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: einkvan
+- features:
+    gender: neuter
+    number: singular
+  expected: eitkvart
+---
+lemma: han
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: han
+---
+lemma: ho
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: ho
+---
+lemma: ingen
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: inga
+- features:
+    gender: masculine
+    number: singular
+  expected: ingen
+- features:
+    gender: neuter
+    number: singular
+  expected: inkje
+- features:
+    number: plural
+  expected: ingen
+---
+lemma: kvar
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: singular
+  expected: kvar
+- features:
+    gender: neuter
+    number: singular
+  expected: kvart
+---
+lemma: lite
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: singular
+  expected: lite
+---
+lemma: mykje
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: singular
+  expected: mykje
+---
+lemma: nokon
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: noka
+- features:
+    gender: masculine
+    number: singular
+  expected: nokon
+- features:
+    gender: neuter
+    number: singular
+  expected: noko
+- features:
+    number: plural
+  expected: nokon
+---
+lemma: seg
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: seg
+- features:
+    number: singular
+    person: third
+  expected: seg
+---
+lemma: somt
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: singular
+  expected: somt
+- features:
+    number: plural
+  expected: somme
+---
+lemma: vi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: vi

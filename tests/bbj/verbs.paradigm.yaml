@@ -1,0 +1,144 @@
+lemma: djo
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+  expected: gue
+- features:
+    tense: past
+    verb_form: participle
+  expected: yo
+---
+lemma: fa
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: poe
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: fa'â
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: poe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: pôc
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: poe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: poe
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+  expected: gue
+---
+lemma: ghe
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: poe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: poe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: poe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: poe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: poe
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: w
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: w
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: w
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: w
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: w
+---
+lemma: we
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: we
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: poc
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: poc

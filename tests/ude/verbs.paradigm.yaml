@@ -1,0 +1,1363 @@
+lemma: bu
+category: verbs
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: bu-i-digi-fi
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: bu-i-digi-u
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: bu--digi
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: bu-i-digi-ni
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: bu-i-we-fi
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: bu-i-we-u
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: bu--we-i
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: bu-i-we-ni
+- features:
+    case: allative
+    number: plural
+    person: first
+  expected: bu-i-tigi-fi
+- features:
+    case: allative
+    number: plural
+    person: second
+  expected: bu-i-tigi-u
+- features:
+    case: allative
+    number: singular
+    person: first
+  expected: bu--tigi
+- features:
+    case: allative
+    number: singular
+    person: third
+  expected: bu-i-tigi-ni
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: bu-i-di-fi
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: bu-i-du
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: bu--di
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: bu-i-di-ni
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: bu-i-zi-fi
+- features:
+    case: instrumental
+    number: plural
+    person: second
+  expected: bu-i-zi-u
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: bu--zi
+- features:
+    case: instrumental
+    number: singular
+    person: third
+  expected: bu-i-zi-ni
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: bu-i-le-fi
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: bu-i-le-u
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: bu--le-i
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: bu-i-le-ni
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: jexe-zeye-i
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: jexe-zeye-i
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: jexe-zeye-ni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: jexe-zeye-ß
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: bu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: bu-ge-u
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: bu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: jexe-zerje-u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: bu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: bu-ge-u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: bu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: jexe-zeye-ti
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: bu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: bu-du-ge
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: buiti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: jexe-zeye-i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: bu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: bu-ge-i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bumi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: bu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: bu-ge-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: bui
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: buge
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: buini
+- features:
+    number: plural
+    person: first
+  expected: bu-i-li-fi
+- features:
+    number: plural
+    person: second
+  expected: bu-i-li-u
+- features:
+    number: plural
+    person: third
+  expected: bu
+- features:
+    number: singular
+    person: first
+  expected: bu--U
+- features:
+    number: singular
+    person: second
+  expected: bu
+- features:
+    number: singular
+    person: third
+  expected: bu-i-li-ni
+---
+lemma: dian
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: dian-a-ja-u
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: dian-a-ja
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: dian-a-muse-u
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: dian--zaya-u
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: diay-ki-mu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: diay-ka-u
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: dian-a-u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: dian-a-muse-u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: dian--zatja-u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: diay-ki-u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: diay-ka-u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: dian-a-u
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: dian--du-muse
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: dian--zaya-ti
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: diay-ki-ti
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: diarj-ka-du
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: dian-a-iti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: dian-a-muse-i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: dian--zaya-i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: diay-ki-mi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: diay-ka-ΐ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dian-a-mi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: dian-a-muse-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: dian--zaya-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: diay-ki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: diay-ka-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dian-a-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: dian-a-muse
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: dian--zaya-ni
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: diay-ki-ni
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: diay-ka
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dian-a-ini
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: dian--ta-u
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: dian--ta-u
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: dian--ta-du
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: dian--ta-mi
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: dian--ta-i
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: dian--ta
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: dian--za-u
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: dian--za-u
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: dian-a-du-ze
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: dian--za-mi
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: dian--za-i
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: dian--za
+---
+lemma: dian-a
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: dian-a-i-fi
+- features:
+    number: plural
+    person: second
+  expected: dian-a-u
+- features:
+    number: plural
+    person: third
+  expected: dian-a-i-ti
+- features:
+    number: singular
+    person: first
+  expected: dian-a-i
+- features:
+    number: singular
+    person: second
+  expected: dian-a-i
+- features:
+    number: singular
+    person: third
+  expected: dian-a-i-ni
+---
+lemma: diay-ki
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: diay-ki-fi
+- features:
+    number: plural
+    person: second
+  expected: diay-ki-u
+- features:
+    number: plural
+    person: third
+  expected: diay-ki-ti
+- features:
+    number: singular
+    person: first
+  expected: diay-ki-mi
+- features:
+    number: singular
+    person: second
+  expected: diarj-ki-i
+- features:
+    number: singular
+    person: third
+  expected: diarj-ki-ni
+---
+lemma: e
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: e-zi-u
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ezi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: e-muse-u
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: e-zeye-u
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: e-si-mu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: e-s'e-u
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: eu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: e-muse-u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: e-zerje-u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: e-si-u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: e-s'e-u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: eu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: e-du-muse
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: e-zeye-ti
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: e-si-ti
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: e-s'e-du
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: eiti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: e-muse-i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: e-zeye-i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: e-si-mi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: e-s'e-i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ei-mi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: e-muse-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: e-zeye-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: esi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: e-s'e-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ei
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: emuse
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: e-zeye-ni
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: e-si-ni
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: es'e
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: eini
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: ata-u
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: ata-u
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: ata-du
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: ata-mi
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: ata-i
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: ata
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: ata-u
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: ata-u
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: ata-du
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: ata-mi
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: ata-i
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: ata
+---
+lemma: e-si
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: e-si-fi
+- features:
+    number: plural
+    person: second
+  expected: e-si-u
+- features:
+    number: plural
+    person: third
+  expected: e-si-ti
+- features:
+    number: singular
+    person: first
+  expected: e-si-mi
+- features:
+    number: singular
+    person: second
+  expected: e-si
+- features:
+    number: singular
+    person: third
+  expected: e-si-ni
+---
+lemma: hi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: bi-u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: bi-u
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bi-mi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: bi:-ni
+---
+lemma: jexe
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: jexe-je-u
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: jexeje
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: jexe-muse-u
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: jexe-zerje-u
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: jexe:-mu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: jex'e-u
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: jexeu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: jexe-muse-u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: jexe-zeye-u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: jexe:-u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: jex'e-u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: jexeu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: jexe-du-muse
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: jexe-zeye-ti
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: jexe:-ti
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: jex'e-du
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: jexeiti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: jexe-muse-i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: jexe-zeye-i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: jexe:-mi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: jex'e-i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: jexemi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: jexe-muse-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: jexe-zeye-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: jexe:-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: jex'e-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: jexei
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: jexemuse
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: jexe-zeije-ni
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: jexe:-ni
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: jex'e
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: jexeini
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: jexe-te-u
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: jexe-te-u
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: jexe-te-mi
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: jexe-te-i
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: jexete
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: jexe-ze-u
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: jexe-ze-u
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: jexe-du-ze
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: jexe-ze-mi
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: jexe-ze-i
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: jexeze
+- features:
+    number: plural
+    person: first
+  expected: jexe-i-fi
+- features:
+    number: plural
+    person: second
+  expected: jexeu
+- features:
+    number: plural
+    person: third
+  expected: jexe-i-ti
+- features:
+    number: singular
+    person: first
+  expected: jexei
+- features:
+    number: singular
+    person: second
+  expected: jexei
+- features:
+    number: singular
+    person: third
+  expected: jexe-i-ni
+---
+lemma: nodo
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+    person: second
+  expected: nodo-yie-fi
+- features:
+    aspect: imperfective
+    number: singular
+    person: second
+  expected: nodo-yie-i
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+  expected: nodo-yie-ni
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+    voice: active
+  expected: nodo:-β
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+    voice: active
+  expected: nodo:-fi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+    voice: active
+  expected: nodo:-mi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+    voice: active
+  expected: nodo:-mi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+    voice: active
+  expected: nodo:-ni
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+    voice: active
+  expected: nodo:-ni
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+  expected: nodo-logo-fi
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: nodo-logo-mi
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: nodo-logo-ni
+- features:
+    aspect: perfective
+    number: singular
+    tense: past
+    voice: active
+  expected: nodo
+- features:
+    aspect: perfective
+    number: singular
+    tense: past
+    voice: passive
+  expected: nodoso
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+    voice: active
+  expected: nodo-ζοηο-β
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: active
+  expected: nodo-i-fi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+    voice: active
+  expected: nodo-zoyo-i
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: active
+  expected: nodoi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+    voice: active
+  expected: nodo-zoyo-ni
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: nodo-i-ni
+- features:
+    aspect: progressive
+    number: singular
+    tense: future
+    voice: active
+  expected: nodoζοηο
+- features:
+    aspect: progressive
+    number: singular
+    tense: present
+    voice: active
+  expected: nodoi
+- features:
+    aspect: progressive
+    number: singular
+    tense: present
+    voice: passive
+  expected: nodo-u-j
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: nodolie
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: nodoli
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: nodo-lisi-ni
+- features:
+    number: plural
+    person: second
+    voice: active
+  expected: nodozoyo
+- features:
+    number: singular
+    person: third
+    voice: active
+  expected: nodozoijo

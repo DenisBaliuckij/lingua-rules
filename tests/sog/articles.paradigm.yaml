@@ -1,0 +1,105 @@
+lemma: w
+category: articles
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: w
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: w
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: wyn
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: wyn
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: wy
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: zAR
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: w
+- features:
+    case: nominative
+    number: plural
+  expected: '?'
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+  expected: wy
+- features:
+    case: oblique
+    number: plural
+  expected: wySn
+---
+lemma: xō
+category: articles
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: wa
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: wu
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: uya
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: uné
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: uné
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: n
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: uya
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: uya
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: xā
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: xō

@@ -1,0 +1,48 @@
+lemma: ang
+category: articles
+cases:
+- features:
+    case: ablative
+  expected: sa
+- features:
+    case: accusative
+  expected: ng
+- features:
+    case: dative
+  expected: sa
+- features:
+    case: genitive
+  expected: ng
+- features:
+    case: nominative
+  expected: ang
+---
+lemma: kay
+category: articles
+cases:
+- features:
+    number: plural
+  expected: kina
+- features:
+    number: singular
+  expected: kay
+---
+lemma: ni
+category: articles
+cases:
+- features:
+    number: plural
+  expected: nina
+- features:
+    number: singular
+  expected: ni
+---
+lemma: si
+category: articles
+cases:
+- features:
+    number: plural
+  expected: sina
+- features:
+    number: singular
+  expected: si

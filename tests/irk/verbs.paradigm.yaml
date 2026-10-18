@@ -1,0 +1,261 @@
+lemma: be
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: taa
+- features:
+    number: plural
+    person: second
+  expected: taa
+- features:
+    number: plural
+    person: third
+  expected: taa
+- features:
+    number: singular
+    person: first
+  expected: aga
+- features:
+    number: singular
+    person: second
+  expected: aga
+- features:
+    number: singular
+    person: third
+  expected: aa
+---
+lemma: doohlaaka
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: doohliika
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: doohlaanaaka
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: doohlaaka
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: dohlka
+---
+lemma: doohliika
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: doohliika
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: doohlaaniika
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: doohliika
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: dohlka
+---
+lemma: dóohl
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: doohl-é
+- features:
+    mood: imperative
+    number: plural
+    voice: active
+  expected: doohl-aak
+- features:
+    mood: imperative
+    number: singular
+  expected: dóohl
+- features:
+    mood: imperative
+    number: singular
+    voice: active
+  expected: doohl-eek
+---
+lemma: firiimiika
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: firniika
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: firiimaaniika
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: firiindiika
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: firiimiika
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: firiindiika
+---
+lemma: firiirnaaka
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: firnaka
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: firiimaanaaka
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: firiindaaka
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: firiirnaaka
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: firiindaaka
+---
+lemma: tlawaaka
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: tlayka
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: tlawaanaaka
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: tlawaaka
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: tleeraaka
+---
+lemma: tlawiika
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: tlayka
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: tlawaaniika
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: tlawiika
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: tleeriika

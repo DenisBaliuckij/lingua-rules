@@ -1,0 +1,1658 @@
+lemma: O
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: Xaxkuho’i
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: Xaxexo’i
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: Xax
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: Xaxin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: Xaxach
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: Xax
+- features:
+    number: plural
+    person: first
+  expected: Chikuho'i
+- features:
+    number: plural
+    person: second
+  expected: Chex
+- features:
+    number: plural
+    person: third
+  expected: Chiho'eb
+- features:
+    number: singular
+    person: first
+  expected: Chin
+- features:
+    number: singular
+    person: second
+  expected: Chach
+- features:
+    number: singular
+    person: third
+  expected: Chiho'i
+---
+lemma: aw
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: xaxkuhawi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: xaxex’awi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: xax’awiheb
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: xaxin’awihan
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: xaxach’awi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: xax’awi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: lalantokawi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lalantoheyawi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: lalantoyawiheb
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: lalantowawihan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: lalantohawawi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: lalantoyawi
+---
+lemma: b'ey
+category: verbs
+cases:
+- features:
+    mood: potential
+    number: plural
+    person: first
+  expected: jojkub'eyoj
+- features:
+    mood: potential
+    number: singular
+    person: first
+  expected: jojinb'eyan
+- features:
+    mood: potential
+    number: singular
+    person: second
+  expected: jojachb'eyoj
+- features:
+    mood: potential
+    number: singular
+    person: third
+  expected: jojb'eyoj
+- features:
+    number: plural
+    person: first
+  expected: chikub'eyi
+- features:
+    number: plural
+    person: second
+  expected: chexb'eyi
+- features:
+    number: plural
+    person: third
+  expected: chib'eyeb
+- features:
+    number: singular
+    person: first
+  expected: chinb'eyan
+- features:
+    number: singular
+    person: second
+  expected: chachb'eyi
+- features:
+    number: singular
+    person: third
+  expected: chib'eyi
+---
+lemma: b'eyan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: b’eyanwej
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: b’eyan
+---
+lemma: b’ey
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: chikub’eyi
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: chexb’eyi
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: chib’eyeb
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: chinb’eyan
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: chachb’eyi
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: chib’eyi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+  expected: chonb’eyi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+  expected: chib’eyan
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+  expected: chachb’eyi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+  expected: chib’eyi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: lalankub’eyi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lalaneb’eyi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: lalansb’eyeb
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: lalaninb’eyan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: lalanjab’eyi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: lalansb’eyi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: jojexb’eyoj
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: jojb’eyeb
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: jojexb’eyoj
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: lalantohinb’eyelan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: lalantohab’eyeloj
+- features:
+    number: plural
+    person: first
+  expected: chikub’eyi
+- features:
+    number: plural
+    person: second
+  expected: chexb’eyi
+- features:
+    number: plural
+    person: third
+  expected: chib’eyeb
+- features:
+    number: singular
+    person: first
+  expected: chinb’eyan
+- features:
+    number: singular
+    person: second
+  expected: chachb’eyi
+- features:
+    number: singular
+    person: third
+  expected: chib’eyi
+---
+lemma: b’eyan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: b’eyanwej
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: b’eyan
+---
+lemma: ij
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ijwej
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ija
+---
+lemma: il
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+  expected: lalankiloni
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: lalankilonon
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lalaneyiloni
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: lalanyiloneb
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+  expected: lalanwilonan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: lalanwilonan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+  expected: lalanawiloni
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: lalanawiloni
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+  expected: lalanyiloni
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: lalanyiloni
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ilwej
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ila
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: xkila
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: jojkila
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: xkilon
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: jojeyila
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: jojyileb
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: jojwilan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: xwilan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: jojawila
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: xawila
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: jojyila
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: xyila
+- features:
+    mood: potential
+    number: dual
+    person: first
+    tense: future
+  expected: jojkila
+- features:
+    mood: potential
+    number: plural
+    person: first
+    tense: future
+  expected: jojkilon
+- features:
+    mood: potential
+    number: plural
+    person: second
+  expected: jojyileb
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: future
+  expected: jojwilan
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: future
+  expected: jojawila
+- features:
+    mood: potential
+    number: singular
+    person: third
+  expected: jojayilwej
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: future
+  expected: jojyila
+- features:
+    number: plural
+    person: first
+  expected: chikila
+- features:
+    number: plural
+    person: second
+  expected: cheyila
+- features:
+    number: plural
+    person: third
+  expected: chiyileb
+- features:
+    number: singular
+    person: first
+  expected: chiwilan
+- features:
+    number: singular
+    person: second
+  expected: chawila
+- features:
+    number: singular
+    person: third
+  expected: chiyila
+---
+lemma: ila
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ilawej
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ila
+---
+lemma: kol
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+  expected: lalankukoloni
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+  expected: lalaninkolan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+  expected: lalanakoloni
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+  expected: lalanskoloni
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: xkukolo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: xkukolon
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: xinkolan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: xakolo
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: xskolo
+- features:
+    mood: potential
+    number: dual
+    person: first
+    tense: future
+  expected: jojkukolo
+- features:
+    mood: potential
+    number: plural
+    person: first
+    tense: future
+  expected: jojkukolon
+- features:
+    mood: potential
+    number: plural
+    person: second
+  expected: jojskoleb
+- features:
+    mood: potential
+    number: singular
+    person: first
+  expected: jojinkolan
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: future
+  expected: jojinkolan
+- features:
+    mood: potential
+    number: singular
+    person: second
+  expected: jojakolo
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: future
+  expected: jojakolo
+- features:
+    mood: potential
+    number: singular
+    person: third
+  expected: jojakolwej
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: future
+  expected: jojskolo
+- features:
+    number: plural
+    person: first
+  expected: chikukolo
+- features:
+    number: plural
+    person: second
+  expected: chekolo
+- features:
+    number: plural
+    person: third
+  expected: chiskoleb
+- features:
+    number: singular
+    person: first
+  expected: chinkolan
+- features:
+    number: singular
+    person: second
+  expected: chakolo
+- features:
+    number: singular
+    person: third
+  expected: chiskolo
+---
+lemma: kolan
+category: verbs
+cases:
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: talata’jojkukolo
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: tumich’ojta’jojekolo
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: tata’jojskoleb
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: tak’uxanjojinkolan
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: tzimi’tajakolo
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: tejanjojskolo
+---
+lemma: kolo
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: lalankukoloni
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lalanekoloni
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: lalanskoloneb
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: lalaninkolonan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: lalanakoloni
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: lalanskoloni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: jojkukolo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: jojekolo
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: jojskoleb
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: jojkolon
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: jojekolon
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: jojskoleb
+---
+lemma: lalantob'eyel
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: lalantokub’eyeloj
+- features:
+    number: plural
+    person: second
+  expected: lalantoheb’eyeloj
+- features:
+    number: plural
+    person: third
+  expected: lalantosb’eyeleb
+- features:
+    number: singular
+    person: third
+  expected: lalantosb’eyeloj
+---
+lemma: lalantowawihel
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: lalantokawiheloj
+- features:
+    number: plural
+    person: second
+  expected: lalantoheyawiheloj
+- features:
+    number: plural
+    person: third
+  expected: lalantoyawiheleb
+- features:
+    number: singular
+    person: first
+  expected: lalantowawihelan
+- features:
+    number: singular
+    person: second
+  expected: lalantohawawiheloj
+- features:
+    number: singular
+    person: third
+  expected: lalantoyawiheloj
+---
+lemma: lo
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: kulo
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: kulo’on
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: xelo
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: jinlo’an
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: jalo
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: lo
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: lalantokulowi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lalantohelowi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: lalantosloweb
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: lalantohinlowan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: lalantohalowi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: lalantoslowi
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: xkulo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: xkulo’on
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: xelo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: xinlo’an
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: xalo
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: xslo
+- features:
+    mood: potential
+    number: dual
+    person: first
+  expected: jonlowwej
+- features:
+    mood: potential
+    number: plural
+    person: first
+  expected: jonlowoj
+- features:
+    mood: potential
+    number: singular
+    person: first
+  expected: jinlowoj
+- features:
+    mood: potential
+    number: singular
+    person: second
+  expected: jachlowoj
+- features:
+    mood: potential
+    number: singular
+    person: third
+  expected: lowoj
+---
+lemma: maq’a
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: maq’awej
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: maq’a
+---
+lemma: mitx
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: mitx’wej
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: mitx’a
+- features:
+    number: singular
+    person: second
+  expected: mitx’a’waltej
+---
+lemma: oq
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: chikuhoq’i
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: chex’oq’i
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: chihoq’eb
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: chin’oq’an
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: chach’oq’i
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: chihoq’i
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: lalanko’i
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lalaneyo’i
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: lalanyo’eb
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: lalanwo’an
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: lalanawo’i
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: lalanyo’i
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: qon’oq’wej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: qon’oq’on
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: jex’oq’i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: jin’oq’an
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: jach-oq’i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: oq’i
+- features:
+    mood: potential
+    number: dual
+    person: first
+  expected: joj-on-‘oq’-wej
+- features:
+    mood: potential
+    number: plural
+    person: first
+  expected: joj-on-‘oq’-oj
+- features:
+    mood: potential
+    number: plural
+    person: second
+  expected: joj-ex-’oq’-oj
+- features:
+    mood: potential
+    number: singular
+    person: first
+  expected: joj-in-oq’-oj
+- features:
+    mood: potential
+    number: singular
+    person: second
+  expected: joj-ach-oq’-oj
+- features:
+    number: plural
+    person: first
+  expected: chikuhoq’i
+- features:
+    number: plural
+    person: second
+  expected: chex’oq’i
+- features:
+    number: plural
+    person: third
+  expected: chihoq’eb
+- features:
+    number: singular
+    person: first
+  expected: chin’oq’an
+- features:
+    number: singular
+    person: second
+  expected: chach’oq’i
+- features:
+    number: singular
+    person: third
+  expected: chihoq’i
+---
+lemma: oq'an
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: oq’anwej
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: oq’an
+---
+lemma: oq’an
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: oq’anwej
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: oq’an
+---
+lemma: pix
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: jojkupixa
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: jojkupixon
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: jojepixa
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: jojinpixan
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: jojapixa
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: jojspixa
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: pixwej
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pixa
+---
+lemma: qal
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: qalon
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: qalwej
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: qala
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: jeyala
+---
+lemma: su'te
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: su’tewej
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: su’te
+---
+lemma: tek
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tek’wej
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tek’a
+---
+lemma: tihojin'awojan
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tihojkuhawoj
+- features:
+    number: plural
+    person: second
+  expected: tihojex’awoj
+- features:
+    number: plural
+    person: third
+  expected: tihoj’awojeb
+- features:
+    number: singular
+    person: first
+  expected: tihojin’awojan
+- features:
+    number: singular
+    person: second
+  expected: tihojach’awoj
+- features:
+    number: singular
+    person: third
+  expected: tihoj’awoj
+---
+lemma: tihojin'oktojan
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tihojkuhoktoj
+- features:
+    number: plural
+    person: second
+  expected: tihojex’oktoj
+- features:
+    number: plural
+    person: third
+  expected: tihoj’oktojeb
+- features:
+    number: singular
+    person: first
+  expected: tihojin’oktojan
+- features:
+    number: singular
+    person: second
+  expected: tihojach’oktoj
+- features:
+    number: singular
+    person: third
+  expected: tihojoktoj
+---
+lemma: uk
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: wuk’an
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: jawuk’e
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: xquk’e
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: xquk’on
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: xeyuk’e
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: xwuk’an
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: xawuk’e
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: xyuk’e
+---
+lemma: uk'e
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: uk’wej
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: uk’e
+---
+lemma: wey
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: jonweywej
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: jexweyjeb
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: jeb
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: jiniweyi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: jachweyan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: weyon
+---
+lemma: weyan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: weyanwej
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: weyan
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: talata’jojkuweyoj
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: tumich’ojta’ojojexweyoj
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: tata’jojweyeb
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: tak’uxanjojinweyan
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: tzimitajojachweyoj
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: tejanjojweyoj
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: weyanwal

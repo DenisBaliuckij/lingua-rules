@@ -1,0 +1,287 @@
+lemma: аглясима
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: аглясимамтык
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: аглясимах’пыкун
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: third
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: аглясиминкун
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: аглясимамси
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: аглясимах’пыкут
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: аглясиминкут
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: аглясимамкын
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: аглясимах’пын’а
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: аглясиман’а
+---
+lemma: аглях'тук
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: аглятъта
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: аглях’тык
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: агляг’лик
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: аглятътун
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: аглях’тык
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: агляг’лит
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: агляг’лян’а
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: агля
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: агляг’ли
+---
+lemma: иглых'тук
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: иглых’лъык’ыстун’?
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: иглых’симастун’?
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: иглых’так’ыстун’?
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: иглых’лъык’ыстак?
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: иглых’симастак?
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: иглых’так’ыстак?
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: иглых’лъык’ак?
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: иглых’симак?
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: иглых'так’ак?
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: иглых’лъык’ыста?
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: иглых’симаста?
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: иглых’лъык’ыстак?
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: иглых’симастак?
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: иглых’так’ыстак?
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: иглыхлъык’ат?
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: иглых’симат?
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: иглых’лъык’син’а?
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: иглых’симазин’а?
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: иглых’так’син’а?
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: иглых’лъык’син?
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: иглых’симазин?
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: иглых’так’син?
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: иглых’лъык’а?
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: иглых’сима?
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: иглых’так’а?

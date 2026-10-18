@@ -1,0 +1,566 @@
+lemma: ann
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    tense: preterite
+  expected: eðon
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ann
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ann
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: eðe
+- features:
+    mood: subjunctive
+    number: singular
+    tense: preterite
+  expected: eðe
+---
+lemma: bcdan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: bcdað
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bcd
+- features:
+    mood: indicative
+    number: plural
+    tense: present
+  expected: bcdað
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bcde
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: bctst
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: bctt
+- features:
+    mood: subjunctive
+    number: plural
+    tense: present
+  expected: bcden
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: bcde
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: bcde
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: bcde
+- features:
+    verb_form: infinitive
+  expected: bcdan
+- features:
+    verb_form: present_participle
+  expected: bcdende
+---
+lemma: cann
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    tense: present
+  expected: cunnon
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: cann
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: canst
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cann
+- features:
+    mood: subjunctive
+    number: singular
+    tense: present
+  expected: cunne
+- features:
+    verb_form: infinitive
+  expected: cunnan
+- features:
+    verb_form: present_participle
+  expected: cunnende
+---
+lemma: dón
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: dōn
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: dōn
+- features:
+    mood: indicative
+    number: plural
+    tense: present
+  expected: dōn
+- features:
+    mood: indicative
+    number: plural
+    tense: preterite
+  expected: dydon
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dōn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: dyde
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dēst
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: dydest
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dēð
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: dyde
+- features:
+    mood: subjunctive
+    number: plural
+    tense: present
+  expected: dōn
+- features:
+    mood: subjunctive
+    number: plural
+    tense: preterite
+  expected: dyden
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: dōn
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: preterite
+  expected: dyde
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: dōn
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: preterite
+  expected: dyde
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: dōn
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: preterite
+  expected: dyde
+- features:
+    verb_form: infinitive
+  expected: dōn
+- features:
+    verb_form: past_participle
+  expected: gedōn
+- features:
+    verb_form: present_participle
+  expected: dēnde
+---
+lemma: lofian
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: lofiað
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: lofa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: lofiað
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: lofodon
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: lofode
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: lofast
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: lofodest
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: lofað
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: lofode
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: preterite
+  expected: lofoden
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: preterite
+  expected: lofode
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: preterite
+  expected: lofode
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: preterite
+  expected: lofode
+- features:
+    verb_form: infinitive
+  expected: lofian
+- features:
+    verb_form: past_participle
+  expected: lofod
+- features:
+    verb_form: present_participle
+  expected: lofiende
+---
+lemma: smbaþan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: smbaþað
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: smba
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: smbaþað
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: smbadon
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: smbaþe
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: smbade
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: smbaþst
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: smbadest
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: smbaþð
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: smbade
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: smbaþen
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: preterite
+  expected: smbaden
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: smbaþe
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: preterite
+  expected: smbade
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: smbaþe
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: preterite
+  expected: smbade
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: smbaþe
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: preterite
+  expected: smbade
+- features:
+    verb_form: infinitive
+  expected: smbaþan
+- features:
+    verb_form: past_participle
+  expected: smbad
+- features:
+    verb_form: present_participle
+  expected: smbaþende
+---
+lemma: willan
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    tense: present
+  expected: willað
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wille
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: wilt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wile
+- features:
+    mood: subjunctive
+    number: plural
+    tense: present
+  expected: willen
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: wille
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: wille
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: wille
+- features:
+    verb_form: infinitive
+  expected: willan
+- features:
+    verb_form: present_participle
+  expected: willende
+---
+lemma: þearf
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    tense: present
+  expected: þurfon
+- features:
+    mood: indicative
+    number: plural
+    tense: preterite
+  expected: þorfton
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: þearf
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: þearft
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: þearf
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: þorfte
+- features:
+    mood: subjunctive
+    number: singular
+    tense: present
+  expected: þurfe
+- features:
+    mood: subjunctive
+    number: singular
+    tense: preterite
+  expected: þorfte
+- features:
+    verb_form: infinitive
+  expected: þurfan
+- features:
+    verb_form: present_participle
+  expected: þearfende

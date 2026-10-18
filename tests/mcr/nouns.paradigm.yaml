@@ -1,0 +1,25 @@
+lemma: '`'
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_person: first
+  expected: '`otjt`'
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: ghmhpt
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: smhpt
+- features:
+    number: singular
+    possessor_person: first
+  expected: '`ohpt'
+- features:
+    number: singular
+    possessor_person: second
+  expected: pdmhpt

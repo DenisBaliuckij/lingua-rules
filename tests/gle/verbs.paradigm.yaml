@@ -1,0 +1,490 @@
+lemma: bearr
+category: verbs
+cases:
+- features:
+    case: genitive
+    verb_form: verbal_noun
+  expected: bearrtha
+- features:
+    case: nominative
+    verb_form: verbal_noun
+  expected: bearradh
+---
+lemma: beipim
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: beappamn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: bubpamap
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: bubpabap
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: bubpabap
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: bSappap
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: beipinn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: bubpap
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: beipceap
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: bubpaip
+- features:
+    verb_form: participle
+  expected: pdioce
+---
+lemma: cain
+category: verbs
+cases:
+- features:
+    case: genitive
+    verb_form: verbal_noun
+  expected: cainte
+- features:
+    case: nominative
+    verb_form: verbal_noun
+  expected: caineadh
+---
+lemma: cdim
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: btmfb
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: bfcf
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bf&im
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: bf&ip
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: btolp
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: bfmtp
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bf
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: cdmaoit)
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: cdcaoi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: edit)
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: cdini
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: cdip
+---
+lemma: cdngamap
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: cdngamap
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: cdnsabap
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: cdnsabap
+---
+lemma: ceannaigh
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: ceannaftear
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: cheannafomar
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ceannafmid
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ceannafm
+- features:
+    number: plural
+    person: first
+  expected: cheannafmis
+- features:
+    number: plural
+    person: third
+  expected: cheannafdis
+- features:
+    number: singular
+    person: first
+  expected: cheannainn
+- features:
+    number: singular
+    person: second
+  expected: cheannaftea
+---
+lemma: cisinn
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: ciocpainn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: cisinn
+---
+lemma: cua&ap
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: cuaftmap
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: cuafrbap
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: cua&ap
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: cua&cup
+---
+lemma: cuireann
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+    voice: active
+  expected: chuireadh
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: chuirfeadh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+    voice: active
+  expected: chuir
+---
+lemma: glan
+category: verbs
+cases:
+- features:
+    case: genitive
+    verb_form: verbal_noun
+  expected: glanta
+- features:
+    case: nominative
+    verb_form: verbal_noun
+  expected: glanadh
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: ghlanfaimis
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: ghlanfaidfs
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: ghlanfainn
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: ghlanfa
+- features:
+    mood: imperative
+  expected: ghlantaf
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: glanaimis
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: glanaigf
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: glanaidfs
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: glan
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: glanafaimid
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: glanaimid
+- features:
+    number: plural
+    person: first
+  expected: ghlanaimis
+- features:
+    number: plural
+    person: third
+  expected: ghlanaidfs
+- features:
+    number: singular
+    person: first
+  expected: ghlanainn
+- features:
+    number: singular
+    person: second
+  expected: ghlanta
+- features:
+    verb_form: past_participle
+  expected: glanta
+- features:
+    verb_form: verbal_noun
+  expected: glanadh
+---
+lemma: imigh
+category: verbs
+cases:
+- features:
+    case: genitive
+    verb_form: verbal_noun
+  expected: imithe
+- features:
+    case: nominative
+    verb_form: verbal_noun
+  expected: imeacht
+---
+lemma: is
+category: verbs
+cases:
+- features:
+    polarity: affirmative
+    tense: past
+  expected: ba
+- features:
+    polarity: affirmative
+    tense: present
+  expected: is
+- features:
+    polarity: negative
+    tense: past
+  expected: nar
+- features:
+    polarity: negative
+    tense: present
+  expected: nach
+---
+lemma: mothaigh
+category: verbs
+cases:
+- features:
+    case: genitive
+    verb_form: verbal_noun
+  expected: mothaithe
+- features:
+    case: nominative
+    verb_form: verbal_noun
+  expected: mothú
+---
+lemma: pagann
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: pagmaoip
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: pagaib
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: pagaibfp
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pag
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: pagmaoib
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: pagcafb
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: pagaib
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: pagainn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: pagaim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: pagaip
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pagai&re

@@ -1,0 +1,675 @@
+lemma: es
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: ayat-em
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: ayat-asO
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: ayat-ant
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: ayat-im
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: ayat-is
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: tiyaf
+---
+lemma: pətīškwəy
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: pətīškwəyēm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: pətīškwēta
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: pətīškwəyənd
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: pətīškwəy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: pətīškwəyi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: pətīškwəy
+---
+lemma: to be
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ēm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ansəѳa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: xand
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ēm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ēš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: əsti
+---
+lemma: to become
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: βēm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: βōѳa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: βand
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: uβam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: uβē
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: βōt
+---
+lemma: təγət
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: təγətēm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: təγətəsѳa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: təγətand
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: təγətēm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: təγətēš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: təγəti
+---
+lemma: uβ
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: uβand
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: uβan
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: uβāt
+---
+lemma: wēn
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: wēnѳ
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: wēn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: wēnēm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: wēnda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: wēnənd
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: wēnu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: wēni
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: wēn
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: wēnēm
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: wēnəѳ
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: wēnand
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: wēnan
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: wēna
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: wēnā̆t
+---
+lemma: xā
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: xān
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: xāt
+---
+lemma: āžit
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: āžitēm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: āžitəsѳa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: āžitand
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: āžitēm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: āžitēš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: āžit
+---
+lemma: āγət
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: āγətēm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: āγətəsѳa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: āγətand
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: āγətēm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: āγətēš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: āγət
+---
+lemma: āγət-δārəm
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: āγət-δārēm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: āγət-δārѳa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: āγət-δārənd
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: āγət-δārəm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: āγət-δār
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: āγət-δārt
+---
+lemma: əkt
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: əktēm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: əktəsѳa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: əktand
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: əktēm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: əktēš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: əkti
+---
+lemma: əktu-δāru
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: əktu-δārēm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: əktu-δārѳ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: əktu-δārənd
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: əktu-δāru
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: əktu-δār
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: əktu-δār
+---
+lemma: əktu-δārəm
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: əktu-δārēm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: əktu-δārѳa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: əktu-δārənd
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: əktu-δārəm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: əktu-δār
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: əktu-δārt
+---
+lemma: βər
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: βərēm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: βərú
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: βərí
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: βərḗm
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: βərѳá
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: βəránd
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: βərán
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: βərá
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: βərā́t
+---
+lemma: βərā
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: βərѳá
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: βərá
+---
+lemma: ѳāβər
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: ѳāβərēm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: ѳāβərta
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: ѳāβərənd
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: ѳāβəru
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: ѳāβər
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: ѳāβər

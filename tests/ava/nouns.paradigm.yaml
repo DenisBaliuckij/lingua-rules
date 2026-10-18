@@ -1,0 +1,353 @@
+lemma: cer
+category: nouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: car-aq-a
+- features:
+    case: absolutive
+    number: plural
+  expected: cur-du-l
+- features:
+    case: absolutive
+    number: singular
+  expected: cer
+- features:
+    case: adessive
+    number: plural
+  expected: cur-du-z-uq
+- features:
+    case: adessive
+    number: singular
+  expected: car-aq
+- features:
+    case: allative
+    number: singular
+  expected: car-aq-e
+- features:
+    case: dative
+    number: plural
+  expected: cur-du-z-e
+- features:
+    case: dative
+    number: singular
+  expected: car-aje
+- features:
+    case: ergative
+    number: plural
+  expected: cur-du-z
+- features:
+    case: ergative
+    number: singular
+  expected: car-aca
+- features:
+    case: essive
+    number: singular
+  expected: car-ada
+- features:
+    case: genitive
+    number: singular
+  expected: car-al
+---
+lemma: jas
+category: nouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: jas-aɬ-uq-a
+- features:
+    case: absolutive
+    number: plural
+  expected: jasal
+- features:
+    case: absolutive
+    number: singular
+  expected: jas
+- features:
+    case: adessive
+    number: plural
+  expected: jas-az-uq
+- features:
+    case: adessive
+    number: singular
+  expected: jas-aɬ-uq
+- features:
+    case: allative
+    number: singular
+  expected: jas-aɬ-uq-e
+- features:
+    case: dative
+    number: plural
+  expected: jas-az-e
+- features:
+    case: dative
+    number: singular
+  expected: jas-aɬ-e
+- features:
+    case: ergative
+    number: plural
+  expected: jasaz
+- features:
+    case: ergative
+    number: singular
+  expected: jasaɬ
+- features:
+    case: essive
+    number: singular
+  expected: jas-al-da
+- features:
+    case: genitive
+    number: singular
+  expected: jas-aɬ-ul
+---
+lemma: was
+category: nouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: was-as-uq-a
+- features:
+    case: absolutive
+    number: plural
+  expected: wasal
+- features:
+    case: absolutive
+    number: singular
+  expected: was
+- features:
+    case: adessive
+    number: plural
+  expected: was-az-uq
+- features:
+    case: adessive
+    number: singular
+  expected: was-as-uq
+- features:
+    case: allative
+    number: singular
+  expected: was-as-uq-e
+- features:
+    case: dative
+    number: plural
+  expected: was-az-e
+- features:
+    case: dative
+    number: singular
+  expected: was-as-e
+- features:
+    case: ergative
+    number: plural
+  expected: wasaz
+- features:
+    case: ergative
+    number: singular
+  expected: wasas
+- features:
+    case: essive
+    number: singular
+  expected: was-as-da
+- features:
+    case: genitive
+    number: singular
+  expected: was-as-ul
+---
+lemma: ГIалиев
+category: nouns
+cases:
+- features:
+    case: ablative
+  expected: ГIалиев-ас-улъа
+- features:
+    case: allative
+  expected: ГIалиев-ас-де
+- features:
+    case: dative
+  expected: ГIалиев-ас-е
+- features:
+    case: ergative
+  expected: ГIалиевас
+- features:
+    case: genitive
+  expected: ГIалиев-ас-ул
+- features:
+    case: locative
+  expected: ГIалиев-ас-да
+- features:
+    case: nominative
+  expected: ГIалиев
+---
+lemma: Ума
+category: nouns
+cases:
+- features:
+    case: dative
+  expected: Умае
+- features:
+    case: ergative
+  expected: Умаца
+- features:
+    case: genitive
+  expected: Умал
+- features:
+    case: nominative
+  expected: Ума
+---
+lemma: ах
+category: nouns
+cases:
+- features:
+    case: dative
+  expected: ахи-е
+- features:
+    case: ergative
+  expected: ахи-ца
+- features:
+    case: genitive
+  expected: ахи-л
+- features:
+    case: nominative
+  expected: ах
+---
+lemma: бахIарчи
+category: nouns
+cases:
+- features:
+    case: ablative
+  expected: бахIарчи-яс-даса
+- features:
+    case: allative
+  expected: бахIарчи-яс-де
+- features:
+    case: dative
+  expected: бахIарчи-яс-е
+- features:
+    case: ergative
+  expected: бахIарчияс
+- features:
+    case: genitive
+  expected: бахIарчи-яс-ул
+- features:
+    case: locative
+  expected: бахIарчи-яс-да
+- features:
+    case: nominative
+  expected: бахIарчи
+---
+lemma: вас
+category: nouns
+cases:
+- features:
+    case: ablative
+  expected: вас-ас-даса
+- features:
+    case: allative
+  expected: вас-ас-де
+- features:
+    case: dative
+  expected: вас-ас-е
+- features:
+    case: ergative
+  expected: васас
+- features:
+    case: genitive
+  expected: вас-ас-ул
+- features:
+    case: locative
+  expected: вас-ас-да
+- features:
+    case: nominative
+  expected: вас
+---
+lemma: клуб
+category: nouns
+cases:
+- features:
+    case: ablative
+  expected: клуб-алъ-даса
+- features:
+    case: allative
+  expected: клубал-де
+- features:
+    case: dative
+  expected: клуб-алъ-е
+- features:
+    case: ergative
+  expected: клубалъ
+- features:
+    case: genitive
+  expected: клуб-алъ-ул
+- features:
+    case: locative
+  expected: клубал-да
+- features:
+    case: nominative
+  expected: клуб
+---
+lemma: чIужу
+category: nouns
+cases:
+- features:
+    case: ablative
+  expected: чIужу-ял-даса
+- features:
+    case: allative
+  expected: чIужу-ял-де
+- features:
+    case: dative
+  expected: чIужу-ялъ-е
+- features:
+    case: ergative
+  expected: чIужуялъ
+- features:
+    case: genitive
+  expected: чIужу-ялъ-ул
+- features:
+    case: locative
+  expected: чIужу-ял-да
+- features:
+    case: nominative
+  expected: чIужу
+---
+lemma: чу
+category: nouns
+cases:
+- features:
+    case: dative
+  expected: чо-ду-е
+- features:
+    case: ergative
+  expected: чоца
+- features:
+    case: genitive
+  expected: чо-ду-л
+- features:
+    case: nominative
+  expected: чу
+---
+lemma: эбел
+category: nouns
+cases:
+- features:
+    case: ablative
+  expected: эбелал-даса
+- features:
+    case: allative
+  expected: эбелал-де
+- features:
+    case: dative
+  expected: эбел-алъ-е
+- features:
+    case: ergative
+  expected: эбелалъ
+- features:
+    case: genitive
+  expected: эбел-алъ-ул
+- features:
+    case: locative
+  expected: эбел-ал-да
+- features:
+    case: nominative
+  expected: эбел

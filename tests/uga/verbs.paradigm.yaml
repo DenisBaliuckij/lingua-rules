@@ -1,0 +1,394 @@
+lemma: mlk
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: malaktä
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: malaktin
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: malakä
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mlkt
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: mlkt
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: mlkt
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: mlkt
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: malaka
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: malaktum
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: malakü
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mlkt
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: mlk
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: mlkt
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: mlk
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: malaknvyä
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: malaktumä
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: malaknv
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: mlkt
+- features:
+    number: singular
+    person: first
+  expected: mlkt
+---
+lemma: naqtala
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: naqtil
+- features:
+    number: singular
+    tense: past
+  expected: naqtala
+- features:
+    number: singular
+    verb_form: participle
+  expected: naqtalu
+- features:
+    verb_form: infinitive
+  expected: naqtälu
+---
+lemma: qattila
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: qattil
+- features:
+    number: singular
+    tense: past
+  expected: qattila
+---
+lemma: qd
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+  expected: tqtln
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+  expected: tqtl
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+  expected: y
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+  expected: tqtl
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: y
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: '?'
+---
+lemma: qätilu
+category: verbs
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: qätilta
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: qätila
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: qätilti
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: qätili
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: qätilätu
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: qatiltu
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: qätilüma
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: qätilu
+- features:
+    case: oblique
+    gender: feminine
+    number: plural
+  expected: qätiläti
+- features:
+    case: oblique
+    gender: masculine
+    number: plural
+  expected: qätilima
+---
+lemma: yqd
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+  expected: taqtulana
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+  expected: taqtulna
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+  expected: taqtulna
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+  expected: taqtulina
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+  expected: taqtulu
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: taqtula
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: taqtulna
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: taqtulna
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: taqtuli
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: taqtul
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+  expected: yaqtulana
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+  expected: taqtulina
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+  expected: taqtulina
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+  expected: taqtulu
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+  expected: yaqtulu
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: yaqtula
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: taqtulu
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: taqtulu
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: taqtul
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: yaqtul
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: ?aqtila
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: taqtulana
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: naqtulu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: ?aqtilu
+- features:
+    number: dual
+    person: first
+  expected: naqtula
+- features:
+    number: dual
+    person: second
+  expected: taqtula
+- features:
+    number: plural
+    person: first
+  expected: naqtul
+- features:
+    number: singular
+    person: first
+  expected: ?aqtul
