@@ -1,0 +1,68 @@
+lemma: néná
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: second
+  expected: néná
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: né
+- features:
+    case: vocative
+    number: singular
+    person: second
+  expected: nénee
+- features:
+    number: singular
+    person: second
+  expected: nééní
+---
+lemma: núná
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+    person: first
+  expected: núná
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nú
+- features:
+    case: vocative
+    number: plural
+    person: first
+  expected: núnee
+- features:
+    number: plural
+    person: first
+  expected: núúní
+---
+lemma: táná
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: first
+  expected: táná
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: táání
+- features:
+    case: vocative
+    number: singular
+    person: first
+  expected: tánoo
+- features:
+    number: singular
+    person: first
+  expected: tánee

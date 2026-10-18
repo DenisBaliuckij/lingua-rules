@@ -1,0 +1,193 @@
+lemma: apne ap
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: apne ap+syu
+- features:
+    case: accusative
+  expected: apne ap+nc
+- features:
+    case: dative
+  expected: apne ap+khatar
+- features:
+    case: genitive
+  expected: apne ap+go
+- features:
+    case: instrumental
+  expected: apne ap+sya
+- features:
+    case: locative
+  expected: apne ap+mc
+- features:
+    case: nominative
+  expected: apne ap
+---
+lemma: be
+category: pronouns
+cases:
+- features:
+    case: direct
+    gender: feminine
+    number: singular
+    person: third
+  expected: ba
+- features:
+    case: direct
+    gender: masculine
+    number: singular
+    person: third
+  expected: be
+- features:
+    case: direct
+    number: plural
+    person: third
+  expected: be
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+    person: third
+  expected: bal)
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+    person: third
+  expected: bal)
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: ba
+---
+lemma: kUn
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: ki syiJ
+- features:
+    case: ablative
+    number: singular
+  expected: ki syiJ
+- features:
+    case: accusative
+    number: plural
+  expected: kine
+- features:
+    case: accusative
+    number: singular
+  expected: ki ne
+- features:
+    case: dative
+    number: plural
+  expected: kine
+- features:
+    case: dative
+    number: singular
+  expected: ki ne
+- features:
+    case: ergative
+    number: plural
+  expected: kan
+- features:
+    case: ergative
+    number: singular
+  expected: kaI]
+- features:
+    case: genitive
+    number: plural
+  expected: kiga
+- features:
+    case: genitive
+    number: singular
+  expected: ki go
+- features:
+    case: instrumental
+    number: plural
+  expected: ki syiJ
+- features:
+    case: instrumental
+    number: singular
+  expected: ki syiJ
+- features:
+    case: nominative
+    number: plural
+  expected: kUt)
+- features:
+    case: nominative
+    number: singular
+  expected: kUI]
+---
+lemma: mE
+category: pronouns
+cases:
+- features:
+    definiteness: indefinite
+    gender: feminine
+    number: plural
+    person: third
+  expected: e
+- features:
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+    person: third
+  expected: a
+- features:
+    definiteness: indefinite
+    gender: masculine
+    number: plural
+    person: third
+  expected: e
+- features:
+    number: plural
+    person: first
+  expected: mhe
+- features:
+    number: plural
+    person: second
+  expected: the
+- features:
+    number: singular
+    person: first
+  expected: me
+- features:
+    number: singular
+    person: second
+  expected: tu
+---
+lemma: me
+category: pronouns
+cases:
+- features:
+    case: direct
+    number: plural
+    person: first
+  expected: mhe
+- features:
+    case: direct
+    number: singular
+    person: first
+  expected: me
+---
+lemma: tu
+category: pronouns
+cases:
+- features:
+    case: direct
+    number: plural
+    person: second
+  expected: the
+- features:
+    case: direct
+    number: singular
+    person: second
+  expected: tu
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: te
