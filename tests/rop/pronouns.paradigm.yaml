@@ -1,0 +1,79 @@
+lemma: ai
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: mindupala
+- features:
+    number: plural
+    person: first
+  expected: mela
+- features:
+    number: singular
+    person: first
+  expected: ai
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: dupala
+- features:
+    number: plural
+    person: third
+  expected: olabat
+- features:
+    number: singular
+    person: third
+  expected: i
+---
+lemma: im
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: dupala
+- features:
+    number: plural
+    person: third
+  expected: dem
+- features:
+    number: singular
+    person: third
+  expected: im
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: mindupala
+- features:
+    number: plural
+    person: first
+  expected: mela
+- features:
+    number: singular
+    person: first
+  expected: mi
+---
+lemma: yu
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: yundupala
+- features:
+    number: plural
+    person: second
+  expected: yupala
+- features:
+    number: singular
+    person: second
+  expected: yu
