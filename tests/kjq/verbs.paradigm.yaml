@@ -1,0 +1,274 @@
+lemma: ci
+category: verbs
+cases:
+- features:
+    person: first
+  expected: si
+- features:
+    person: second
+  expected: si
+- features:
+    person: third
+  expected: ci
+---
+lemma: gáni
+category: verbs
+cases:
+- features:
+    person: second
+  expected: sárii
+- features:
+    person: third
+  expected: řáani
+---
+lemma: ka
+category: verbs
+cases:
+- features:
+    person: first
+  expected: se
+- features:
+    person: second
+  expected: sa
+- features:
+    person: third
+  expected: ka
+---
+lemma: kacha
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: siukacha
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: srukacha
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gukacha
+---
+lemma: ku
+category: verbs
+cases:
+- features:
+    person: first
+  expected: se
+- features:
+    person: second
+  expected: su
+- features:
+    person: third
+  expected: ku
+---
+lemma: slá
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: skaa?a
+- features:
+    number: dual
+    person: third
+  expected: caaa?a
+- features:
+    number: plural
+    person: first
+  expected: skai?i
+- features:
+    number: plural
+    person: third
+  expected: caii?i
+- features:
+    number: singular
+    person: first
+  expected: síá
+- features:
+    number: singular
+    person: second
+  expected: kadá
+- features:
+    number: singular
+    person: third
+  expected: cá
+---
+lemma: sláaci
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: skaa?aci
+- features:
+    number: dual
+    person: third
+  expected: caa'aci
+- features:
+    number: singular
+    person: first
+  expected: slcaaci
+- features:
+    number: singular
+    person: second
+  expected: kazaaci
+- features:
+    number: singular
+    person: third
+  expected: caaaci
+---
+lemma: sé
+category: verbs
+cases:
+- features:
+    person: first
+  expected: sé
+- features:
+    person: second
+  expected: šá
+- features:
+    person: third
+  expected: zá
+---
+lemma: ukhacAn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: siuk^acA
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: tYuk^acA
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: ciuk^acA
+- features:
+    number: singular
+    person: third
+  expected: styukacA
+---
+lemma: uyuUthA
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: suyuUt^A
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: suyuUt^A
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: k?uyuUthA
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: skuyuUt^A
+- features:
+    number: singular
+    person: second
+  expected: puyuUt^A
+- features:
+    number: singular
+    person: third
+  expected: tyuyuUthA
+---
+lemma: zé
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: satee?e
+- features:
+    number: dual
+    person: second
+  expected: katee?e
+- features:
+    number: dual
+    person: third
+  expected: cee?e
+- features:
+    number: plural
+    person: first
+  expected: satee?esi
+- features:
+    number: plural
+    person: second
+  expected: katee?esi
+- features:
+    number: plural
+    person: third
+  expected: cee?esi
+- features:
+    number: singular
+    person: first
+  expected: sadé
+- features:
+    number: singular
+    person: second
+  expected: kadé
+- features:
+    number: singular
+    person: third
+  expected: zé
+---
+lemma: řá
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: sa?á
+- features:
+    number: dual
+    person: second
+  expected: kaza?á
+- features:
+    number: dual
+    person: third
+  expected: ga?á
+- features:
+    number: plural
+    person: first
+  expected: sáasi
+- features:
+    number: plural
+    person: second
+  expected: kacáasi
+- features:
+    number: plural
+    person: third
+  expected: lcaasi
+- features:
+    number: singular
+    person: first
+  expected: sá
+- features:
+    number: singular
+    person: second
+  expected: kazá
+- features:
+    number: singular
+    person: third
+  expected: '&á'

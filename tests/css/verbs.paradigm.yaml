@@ -1,0 +1,40 @@
+lemma: ara
+category: verbs
+cases:
+- features:
+    tense: past
+    voice: passive
+  expected: aragnis
+- features:
+    tense: present
+    voice: passive
+  expected: aragne
+---
+lemma: ard
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: aratyuts
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: araiyuts
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: arat
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: araia
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: arai

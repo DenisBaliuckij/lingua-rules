@@ -1,0 +1,83 @@
+lemma: na
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nda
+- features:
+    number: dual
+    person: second
+  expected: ida
+- features:
+    number: plural
+    person: second
+  expected: inda
+- features:
+    number: singular
+    person: first
+  expected: na
+- features:
+    number: singular
+    person: second
+  expected: ga
+- features:
+    number: singular
+    person: third
+  expected: sa
+---
+lemma: ne
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nde
+- features:
+    number: dual
+    person: second
+  expected: ide
+- features:
+    number: plural
+    person: second
+  expected: inde
+- features:
+    number: singular
+    person: first
+  expected: ne
+- features:
+    number: singular
+    person: second
+  expected: ge
+- features:
+    number: singular
+    person: third
+  expected: pe
+---
+lemma: 'no'
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ndo
+- features:
+    number: dual
+    person: second
+  expected: ido
+- features:
+    number: plural
+    person: second
+  expected: indo
+- features:
+    number: singular
+    person: first
+  expected: 'no'
+- features:
+    number: singular
+    person: second
+  expected: go
+- features:
+    number: singular
+    person: third
+  expected: ku

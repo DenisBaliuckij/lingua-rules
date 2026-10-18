@@ -1,0 +1,33 @@
+lemma: kil
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    tense: future
+  expected: kilinyan
+- features:
+    number: singular
+    person: first
+    tense: past
+  expected: kilikan
+- features:
+    number: singular
+    person: first
+    tense: present
+  expected: kilan
+- features:
+    number: singular
+    person: second
+    tense: future
+  expected: kilinyarr
+- features:
+    number: singular
+    person: second
+    tense: past
+  expected: kilikarr
+- features:
+    number: singular
+    person: second
+    tense: present
+  expected: kilarr
