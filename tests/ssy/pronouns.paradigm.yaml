@@ -1,0 +1,109 @@
+lemma: amaa
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+  expected: amaa
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: amaatiyä
+- features:
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: amaayim
+- features:
+    definiteness: definite
+    number: plural
+  expected: amaamara
+---
+lemma: anu
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ishi
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: usuk
+- features:
+    number: plural
+    person: first
+  expected: nanu
+- features:
+    number: singular
+    person: first
+  expected: anu
+- features:
+    number: singular
+    person: second
+  expected: atu
+---
+lemma: ta
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+  expected: ta
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: tatiyä
+- features:
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: tayim
+- features:
+    definiteness: definite
+    number: plural
+  expected: tamara
+---
+lemma: to
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+  expected: to
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: totiyä
+- features:
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: toyim
+- features:
+    definiteness: definite
+    number: plural
+  expected: tomara
+---
+lemma: too
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+  expected: too
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: tootiyä
+- features:
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: tooyim
+- features:
+    definiteness: definite
+    number: plural
+  expected: toomara

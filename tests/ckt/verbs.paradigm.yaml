@@ -1,0 +1,305 @@
+lemma: sh
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mmil'k
+- features:
+    number: plural
+    person: second
+  expected: kl'icx
+- features:
+    number: plural
+    person: third
+  expected: x'anVi'hin
+- features:
+    number: singular
+    person: second
+  expected: kVixc
+- features:
+    number: singular
+    person: third
+  expected: x'anVi'hin
+---
+lemma: tcej
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: xkejxTcmi'fik
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: xkejxkmi'nTccx
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: jxlcejxdi'Tc
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: lce'j£cxinien
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tkejijxki'sxin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tce'jijnin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: ice'jcinin
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: x''coikejxkumni'fn
+---
+lemma: txc
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ictxlimi'rikcx
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tctxli'mink
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: icixlix
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ntxGJhin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: dvtxcjcxi'n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: txcjJtin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: txcjfn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: txcjnin
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: mxntxli'cxin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: x'antxh'mirik
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: wantxh'nin
+---
+lemma: вирик
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: мынвиримык
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: ӄывиритык
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: нывиринэт
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: мывиригъэк
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ӄывириги
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: нывиригъэн
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: мытрэвиригъэ
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: мытвиримык
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: мытвириркын
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: рэвиринтык
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: виритык
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: вириркынитык
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: рэвириӈыт
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: виригъэт
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: вириркыт
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: трэвиригъэ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: тывиригъэк
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: тывириркын
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: рэвиригъэ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: виригъи
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: вириркын
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: рэвиригъэ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: виригъи
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: вириркын
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+  expected: мынъывиримык
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+  expected: нъывиритык
+- features:
+    mood: subjunctive
+    number: dual
+    person: third
+  expected: нъывиринэт
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: тъывиригъэк
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: нъывиригъэн
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: нъывиригъэн

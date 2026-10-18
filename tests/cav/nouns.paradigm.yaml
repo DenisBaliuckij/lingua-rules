@@ -1,0 +1,21 @@
+lemma: utsekwa
+category: nouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: utsekwa
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: e-ketsekwa
+---
+lemma: wane
+category: nouns
+cases:
+- features:
+    possessor_person: first
+  expected: ewane
+- features:
+    possessor_person: second
+  expected: wane

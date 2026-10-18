@@ -1,0 +1,390 @@
+lemma: atu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: akka
+- features:
+    case: genitive
+    number: singular
+  expected: akkan
+- features:
+    case: nominative
+    number: singular
+  expected: atu
+---
+lemma: atungku
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+  expected: atuhi
+- features:
+    case: genitive
+    number: dual
+  expected: atuhin
+- features:
+    case: nominative
+    number: dual
+  expected: atungku
+---
+lemma: etu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: ekka
+- features:
+    case: genitive
+    number: singular
+  expected: ekkan
+- features:
+    case: nominative
+    number: singular
+  expected: etu
+---
+lemma: etungku
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+  expected: etuhi
+- features:
+    case: genitive
+    number: dual
+  expected: etuhin
+- features:
+    case: nominative
+    number: dual
+  expected: etungku
+---
+lemma: itu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: ikka
+- features:
+    case: genitive
+    number: singular
+  expected: ikkan
+- features:
+    case: nominative
+    number: singular
+  expected: itu
+---
+lemma: itungku
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+  expected: ituhi
+- features:
+    case: genitive
+    number: dual
+  expected: ituhin
+- features:
+    case: nominative
+    number: dual
+  expected: itungku
+---
+lemma: matu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: makka
+- features:
+    case: genitive
+    number: singular
+  expected: makkan
+- features:
+    case: nominative
+    number: singular
+  expected: matu
+---
+lemma: matungku
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+  expected: matuhi
+- features:
+    case: genitive
+    number: dual
+  expected: matuhin
+- features:
+    case: nominative
+    number: dual
+  expected: matungku
+---
+lemma: mummu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: mummi
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: mummu
+- features:
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: mummin
+---
+lemma: nia himpu
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nuhin nimpu
+- features:
+    number: dual
+    person: second
+  expected: muhi himpu
+- features:
+    number: dual
+    person: third
+    voice: reflexive
+  expected: puhin nimpu
+- features:
+    number: plural
+    person: first
+  expected: nummin nimpu
+- features:
+    number: plural
+    person: second
+  expected: mummin nimpu
+- features:
+    number: plural
+    person: third
+    voice: reflexive
+  expected: pummin nimpu
+- features:
+    number: singular
+    person: first
+  expected: nian nimpu
+- features:
+    number: singular
+    person: second
+  expected: ummin nimpu
+- features:
+    number: singular
+    person: third
+    voice: reflexive
+  expected: punnan nimpu
+---
+lemma: nu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: nia
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: nu
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: nian
+---
+lemma: nummu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nummi
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nummu
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: nummin
+---
+lemma: nuusun
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: nungkusun
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: mungkusun
+- features:
+    case: accusative
+    number: dual
+    person: third
+  expected: pungkusun
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nummusun
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: mummusun
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: pummusun
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: nuusun
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: uusun
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: puntakasun
+---
+lemma: pun
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: dual
+    person: third
+  expected: puhin
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: pummin
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: pun
+---
+lemma: rna
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: u
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: rna
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: man
+---
+lemma: tammu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: tammi
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: tammu
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: tammin
+---
+lemma: u
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: ummi
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: u
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: ununin
+---
+lemma: utu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: ukka
+- features:
+    case: genitive
+    number: singular
+  expected: ukkan
+- features:
+    case: nominative
+    number: singular
+  expected: utu
+---
+lemma: utungku
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+  expected: utuhi
+- features:
+    case: genitive
+    number: dual
+  expected: utuhin
+- features:
+    case: nominative
+    number: dual
+  expected: utungku

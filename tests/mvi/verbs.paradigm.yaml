@@ -1,0 +1,471 @@
+lemma: ar
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: infinitive
+  expected: ari
+- features:
+    aspect: perfective
+    polarity: negative
+    verb_form: converb
+  expected: ar-a-da
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: ar-a-zim
+- features:
+    aspect: perfective
+    verb_form: infinitive
+  expected: ara
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: argakaazi
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: a-ta-m
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: am
+- features:
+    mood: conditional
+    polarity: negative
+    verb_form: converb
+  expected: ar-a-dakaa
+- features:
+    mood: conditional
+    verb_form: converb
+  expected: atigaa
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: arna
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: atar
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: atam
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: ar-a-di
+- features:
+    verb_form: converb
+  expected: ar-a-djaadakaa
+- features:
+    verb_form: infinitive
+  expected: ara
+---
+lemma: fii
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    mood: indicative
+    tense: past
+  expected: t-ta-m
+- features:
+    mood: conditional
+    polarity: negative
+    verb_form: converb
+  expected: fiigurai
+- features:
+    mood: conditional
+    verb_form: converb
+  expected: fiitigaa
+- features:
+    mood: imperative
+    polarity: negative
+  expected: fii'-na
+- features:
+    mood: indicative
+    tense: past
+  expected: t-tar
+- features:
+    verb_form: converb
+  expected: fu-ccjaaki
+---
+lemma: ibi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    person: second
+    polarity: affirmative
+  expected: ibini
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: ibitar
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: present
+  expected: ibir
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: ibittar
+- features:
+    mood: optative
+    polarity: affirmative
+  expected: ibibaa
+- features:
+    person: second
+    polarity: negative
+  expected: ibirna
+- features:
+    polarity: affirmative
+  expected: ibidi
+- features:
+    polarity: affirmative
+    tense: past
+  expected: ibitam
+- features:
+    polarity: affirmative
+    tense: present
+  expected: ibirm
+- features:
+    polarity: negative
+  expected: ibidjaan
+- features:
+    polarity: negative
+    tense: past
+  expected: ibittam
+---
+lemma: ihi
+category: verbs
+cases:
+- features:
+    aspect: perfective
+  expected: ibi]--ha
+- features:
+    aspect: perfective
+    mood: conditional
+  expected: ihij-ha
+- features:
+    aspect: perfective
+    tense: past
+  expected: fibij-tiiu
+- features:
+    aspect: progressive
+  expected: ihij-utiii
+- features:
+    mood: conditional
+  expected: ihij-tigaa
+- features:
+    mood: conditional
+    polarity: negative
+  expected: ibij-dakaa
+- features:
+    mood: optative
+  expected: ihi]-zm)
+---
+lemma: ikɛf
+category: verbs
+cases:
+- features:
+    mood: indicative
+    tense: past
+  expected: ikɛf-tɑɾ-m
+- features:
+    verb_form: converb
+  expected: ikɛfsɛɛn
+---
+lemma: ikɛf-f
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: ikɛf-f-i
+- features:
+    mood: conditional
+    polarity: negative
+  expected: ikɛf-f-tɑkɑ
+- features:
+    mood: imperative
+  expected: ikɛf-f-i
+- features:
+    mood: potential
+  expected: ikɛf-f-ɑi
+- features:
+    polarity: negative
+  expected: ikɛf-f-tɑɾɑpɑmɑi
+- features:
+    polarity: negative
+    tense: past
+  expected: ikɛf-f-tɑtɑɾ
+- features:
+    polarity: negative
+    verb_form: converb
+  expected: ikɛf-f-tɑ
+---
+lemma: ks
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: ksi
+- features:
+    tense: past
+  expected: kstikɑ
+---
+lemma: kss
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: kssiiɾi
+- features:
+    verb_form: converb
+  expected: kssipɑ
+---
+lemma: kuu
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: kuu-t-ta-m
+- features:
+    evidentiality: indirect
+    mood: optative
+    polarity: affirmative
+  expected: kuudi
+- features:
+    evidentiality: indirect
+    mood: optative
+    polarity: negative
+  expected: kuudjaan
+- features:
+    mood: conditional
+  expected: kuu
+- features:
+    mood: conditional
+    polarity: negative
+    verb_form: converb
+  expected: kuudakaa
+- features:
+    mood: conditional
+    verb_form: converb
+  expected: kuuba
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: kuu-t-tar
+- features:
+    mood: optative
+  expected: kuupɑmɑi
+- features:
+    mood: optative
+    polarity: affirmative
+  expected: kuubaa
+- features:
+    mood: potential
+  expected: kuuɾɑi
+- features:
+    polarity: negative
+  expected: kuun
+- features:
+    polarity: negative
+    verb_form: converb
+  expected: kuuda
+- features:
+    tense: future
+  expected: kuuti
+- features:
+    tense: past
+  expected: kuutɑtɑɾ
+- features:
+    verb_form: converb
+  expected: kuuzim
+---
+lemma: njaa
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: njaa-t-ta-m
+- features:
+    aspect: progressive
+    polarity: negative
+    verb_form: participle
+  expected: njaada
+- features:
+    mood: conditional
+    polarity: negative
+    verb_form: converb
+  expected: njaadakaa
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: njaa-t-tar
+- features:
+    mood: optative
+    polarity: negative
+    verb_form: converb
+  expected: njaazim
+---
+lemma: taka-ka
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: infinitive
+  expected: taka-kar-i
+- features:
+    aspect: perfective
+    polarity: negative
+    verb_form: converb
+  expected: taka-kar-a-da
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: taka-kar-a-zi'm
+- features:
+    aspect: perfective
+    verb_form: infinitive
+  expected: taka-kar-a
+- features:
+    aspect: progressive
+    verb_form: converb
+  expected: taka-kar-gakaaz!
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: taka-ka-ta-ni
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: taka-ka-m
+- features:
+    mood: conditional
+    polarity: negative
+    verb_form: converb
+  expected: taka-kar-a-dakaa
+- features:
+    mood: conditional
+    verb_form: converb
+  expected: taka-ka-i-ba
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: taka-ka-tar
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: taka-kar-a-di
+- features:
+    verb_form: converb
+  expected: taka-kar-a-djaadakaa
+---
+lemma: tur
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: tun
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: turtar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: turattar
+- features:
+    mood: optative
+  expected: zmMi)
+- features:
+    mood: optative
+    polarity: affirmative
+  expected: turabaa
+- features:
+    person: second
+    polarity: negative
+  expected: turna
+- features:
+    polarity: affirmative
+  expected: turadi
+- features:
+    polarity: affirmative
+    tense: past
+  expected: turatam
+- features:
+    polarity: negative
+  expected: turadjaan
+- features:
+    polarity: negative
+    tense: past
+  expected: turattam
+---
+lemma: ur
+category: verbs
+cases:
+- features:
+    mood: conditional
+    verb_form: converb
+  expected: utigaa
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: urna
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: utar
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: u-ta-m
+- features:
+    verb_form: infinitive
+  expected: ura

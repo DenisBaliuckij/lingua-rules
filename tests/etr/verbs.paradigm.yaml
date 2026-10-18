@@ -1,0 +1,135 @@
+lemma: diga
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: digasebe
+- features:
+    aspect: progressive
+    tense: present
+  expected: digahago
+- features:
+    mood: conditional
+  expected: digaseda
+- features:
+    mood: imperative
+  expected: digamalai
+- features:
+    number: plural
+    tense: past
+  expected: digafiai
+- features:
+    tense: future
+  expected: digamabio
+- features:
+    tense: past
+  expected: digai
+- features:
+    tense: present
+  expected: digamabu
+---
+lemma: dilo
+category: verbs
+cases:
+- features:
+    mood: conditional
+  expected: diëda
+- features:
+    mood: subjunctive
+  expected: diëgi
+- features:
+    number: plural
+  expected: difolalebe
+- features:
+    number: plural
+    tense: future
+  expected: difolamolö
+- features:
+    number: plural
+    tense: past
+  expected: difolalo
+- features:
+    tense: future
+  expected: dimolö
+- features:
+    tense: past
+  expected: dilo
+---
+lemma: gobe
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: gobesebe
+- features:
+    aspect: progressive
+    tense: present
+  expected: gobesago
+- features:
+    mood: conditional
+  expected: gobeseda
+- features:
+    mood: imperative
+  expected: gobemalai
+- features:
+    tense: future
+  expected: gobemabio
+- features:
+    tense: past
+  expected: gobei
+- features:
+    tense: present
+  expected: gobemabu
+---
+lemma: hamo
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: hamosebe
+- features:
+    aspect: progressive
+    tense: present
+  expected: hamosago
+- features:
+    mood: conditional
+  expected: hamoseda
+- features:
+    mood: imperative
+  expected: hamomalai
+- features:
+    tense: future
+  expected: hamomabio
+- features:
+    tense: past
+  expected: hamoi
+- features:
+    tense: present
+  expected: hamomabu
+---
+lemma: nelo
+category: verbs
+cases:
+- features:
+    mood: conditional
+  expected: neda
+- features:
+    mood: imperative
+  expected: namialo
+- features:
+    mood: subjunctive
+  expected: negi
+- features:
+    number: plural
+  expected: nefolalebe
+- features:
+    number: plural
+    tense: future
+  expected: nefolamolö
+- features:
+    number: plural
+    tense: past
+  expected: nefolalo
+- features:
+    tense: past
+  expected: nelo

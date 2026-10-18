@@ -1,0 +1,127 @@
+lemma: ham
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: ham'rd
+- features:
+    case: instrumental
+    number: singular
+  expected: ham'rS
+- features:
+    case: nominative
+    number: singular
+  expected: ham
+---
+lemma: je
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: jah sd
+- features:
+    case: accusative
+    number: singular
+  expected: jah
+- features:
+    case: dative
+    number: plural
+  expected: jtih sabh
+- features:
+    case: dative
+    number: singular
+  expected: jah
+- features:
+    case: genitive
+    number: singular
+  expected: jas u
+- features:
+    case: instrumental
+    number: plural
+  expected: jah sabh sa
+- features:
+    case: instrumental
+    number: singular
+  expected: jah se
+- features:
+    case: locative
+    number: singular
+  expected: jah me
+- features:
+    case: nominative
+    number: singular
+  expected: je
+---
+lemma: se
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: tah s(f
+- features:
+    case: accusative
+    number: plural
+  expected: iafc safcfc
+- features:
+    case: accusative
+    number: singular
+  expected: tah
+- features:
+    case: dative
+    number: plural
+  expected: tak a ra sabh
+- features:
+    case: dative
+    number: singular
+  expected: tah
+- features:
+    case: genitive
+    number: singular
+  expected: tas u
+- features:
+    case: instrumental
+    number: plural
+  expected: tah' sabh so
+- features:
+    case: instrumental
+    number: singular
+  expected: by that
+- features:
+    case: locative
+    number: singular
+  expected: tnh me
+- features:
+    case: nominative
+    number: plural
+  expected: sS sabh
+- features:
+    case: nominative
+    number: singular
+  expected: se
+---
+lemma: ye
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: singular
+  expected: jak a ra
+- features:
+    case: genitive
+    number: singular
+  expected: jakar
+- features:
+    case: instrumental
+    number: singular
+  expected: jak a ra s
+- features:
+    case: nominative
+    number: plural
+  expected: ye safcft
+- features:
+    case: nominative
+    number: singular
+  expected: ye

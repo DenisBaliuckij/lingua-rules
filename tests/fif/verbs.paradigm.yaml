@@ -1,0 +1,457 @@
+lemma: fa:.ʕa.l-ə
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    voice: active
+  expected: fa:.ʕa.l-ə
+- features:
+    aspect: perfective
+    voice: passive
+  expected: fiː.ʕɪ.l-ə
+- features:
+    mood: imperative
+  expected: if.ʕa.l-u
+- features:
+    tense: future
+    voice: active
+  expected: ma.faːʕ.l-ɪn
+- features:
+    tense: future
+    voice: passive
+  expected: məf.ʕuː.l-ɪn
+---
+lemma: fəʕ.la.g-ə
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    voice: active
+  expected: je.fəʕ.lɪq
+- features:
+    aspect: imperfective
+    voice: passive
+  expected: ja.fəʕ.ləq
+- features:
+    aspect: perfective
+    voice: active
+  expected: fəʕ.la.g-ə
+- features:
+    aspect: perfective
+    voice: passive
+  expected: fʊʕ.la.qa
+- features:
+    mood: imperative
+  expected: bəʕ.ðɪɾ
+- features:
+    tense: future
+    voice: passive
+  expected: ma.fəʕ.la.g-ɪn
+---
+lemma: hiːʃ
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+  expected: ta-hiːʃ-in
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+  expected: tahiːʃ
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+  expected: ta-hiːʃ-uːn
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+  expected: ja-hiːʃ-uːn
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+  expected: tahiːʃ
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+  expected: jahiːʃ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: nahiːʃ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: ʔahiːʃ
+---
+lemma: ta.fa:.ʕa.l-ə
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    voice: active
+  expected: ta.fa:.ʕa.l-ə
+- features:
+    aspect: perfective
+    voice: passive
+  expected: ti.fiː.ʕa.l-ə
+- features:
+    mood: imperative
+  expected: ta.fəj.ʕəl
+- features:
+    tense: future
+    voice: active
+  expected: mət.feːʕ.l-ɪn
+- features:
+    tense: future
+    voice: passive
+  expected: mət.fiː.ʕa.l-ɪn
+---
+lemma: ta.fəʕ.la.l-ə
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    voice: active
+  expected: jət.fəʕ.lɪq
+- features:
+    aspect: perfective
+    voice: reflexive
+  expected: ta.fəʕ.la.l-ə
+---
+lemma: ta.fəʕ.ʕa.l-ə
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    voice: active
+  expected: jət.fəʕ.ʕəl
+- features:
+    aspect: imperfective
+    voice: passive
+  expected: ja.-fəʕ.ʕəl
+- features:
+    aspect: perfective
+    voice: active
+  expected: ta.fəʕ.ʕa.l-ə
+- features:
+    aspect: perfective
+    voice: passive
+  expected: ta.fəʕ.ʕe.l-ə
+- features:
+    mood: imperative
+  expected: ta.fəʕ.ʕəl
+- features:
+    tense: future
+    voice: active
+  expected: mət.fəʕ.ʕa.l-ɪn
+- features:
+    tense: future
+    voice: passive
+  expected: ma.fəʕ.ʕa.l-ɪn
+---
+lemma: ħəw.wa.z
+category: verbs
+cases:
+- features:
+    mood: imperative
+    voice: active
+  expected: ħəw.wa.zu
+- features:
+    tense: future
+    voice: active
+  expected: ma.ħəw.wa.z-ɪn
+- features:
+    tense: past
+    voice: active
+  expected: ħəw.wa.zə
+- features:
+    tense: past
+    voice: passive
+  expected: ħʊw.wa.z-ə
+- features:
+    tense: present
+    voice: active
+  expected: ja.ħəw.wɪz
+---
+lemma: ʒəw.wa.d
+category: verbs
+cases:
+- features:
+    mood: imperative
+    voice: active
+  expected: ʒəw.wa.du
+- features:
+    tense: future
+    voice: active
+  expected: ma.ʒəw.wa.d-ɪn-hu
+- features:
+    tense: past
+    voice: active
+  expected: ʒəw.wa.də
+- features:
+    tense: past
+    voice: passive
+  expected: ʒʊw.wa.d-ə
+- features:
+    tense: present
+    voice: active
+  expected: ja.ʒəw.wɪd
+- features:
+    tense: present
+    voice: passive
+  expected: ja.ʒəw.wəd
+---
+lemma: ʔəf.ʕa.l-ə
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    voice: active
+  expected: jʊf.ʕɪg
+- features:
+    aspect: imperfective
+    voice: passive
+  expected: jʊf.ʕəl
+- features:
+    aspect: perfective
+    voice: active
+  expected: ʔəf.ʕa.l-ə
+- features:
+    aspect: perfective
+    voice: passive
+  expected: ʔʊf.ʕɪ.l-ə
+- features:
+    mood: imperative
+  expected: ʔʊf.ʕa.l-u
+- features:
+    tense: future
+    voice: active
+  expected: mʊf.ʕe.l-ɪn
+- features:
+    tense: future
+    voice: passive
+  expected: mʊf.ʕa.l-ɪn
+---
+lemma: ʔɪf.ta.ʕa.l
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    voice: active
+  expected: jəf.ta.ʕɪl
+- features:
+    aspect: imperfective
+    voice: passive
+  expected: jʊf.ta.ʕəl
+- features:
+    aspect: perfective
+    voice: middle
+  expected: ʔɪf.ta.ʕa.l
+- features:
+    aspect: perfective
+    voice: passive
+  expected: ʔɪf.təʕ.l-ə
+- features:
+    mood: imperative
+  expected: ʔɪf.ta.ʕɪl
+- features:
+    tense: future
+    voice: active
+  expected: məf.təʕ.l-ɪn
+- features:
+    tense: future
+    voice: passive
+  expected: məf.ta.ʕa.l-ɪn
+---
+lemma: ʔɪs.təf.ʕa.l-ə
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    voice: active
+  expected: jəs.təf.ʕəl
+- features:
+    aspect: imperfective
+    voice: passive
+  expected: jʊs.təf.ʕəl
+- features:
+    aspect: perfective
+  expected: ʔɪs.təf.ʕa.l-ə
+- features:
+    aspect: perfective
+    voice: passive
+  expected: ʔɪs.tʊf.ʕa.l-ə
+- features:
+    mood: imperative
+  expected: ʔʊf.ʕu.l-u
+- features:
+    tense: future
+    voice: active
+  expected: mʊf.ʕa.l-ɪn-hu
+- features:
+    tense: future
+    voice: passive
+  expected: mʊf.ʕa.l-ɪn
+---
+lemma: ʕagəɾ
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: ʕaːgɾ-aːt-ən-hu
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ʕagəɾ-tɪnnə-w
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tə-ʕgəɾ-nə-w
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ʕaːgɾ-aːt-ən-hu
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ʕagəɾ-nə-w
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: jə-ʕgəɾ-nə-w
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ʕaːgɾ-ə-w
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ʕagəɾ-ti-hu
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ʕaːgɾ-ə-w
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ʕagaɾ-ən-hu
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: ʕaːgɾ-iːn-əw
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ʕagəɾ-tɪm-hu
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ʕaːgɾ-iːn-əw
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ʕagaɾ-uː-hu
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ʕaːgɾ-ɪn-hu
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ʕagəɾ-tə-w
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ʕaːgɾ-ən-hu
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ʕagaɾ-ə-w
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ʕaːgɾ-iːn-əw
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ʕagəɾ-na-hu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ʕagəɾ-t-u

@@ -1,0 +1,137 @@
+lemma: alï
+category: pronouns
+cases:
+- features:
+    case: ergative
+    number: dual
+    person: first
+  expected: alïa
+- features:
+    case: ergative
+    number: dual
+    person: second
+  expected: alia
+- features:
+    case: ergative
+    number: dual
+    person: third
+  expected: elea
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: alïle
+- features:
+    case: genitive
+    number: dual
+    person: second
+  expected: alile
+- features:
+    case: genitive
+    number: dual
+    person: third
+  expected: elele
+- features:
+    number: dual
+    person: first
+  expected: alï
+- features:
+    number: dual
+    person: second
+  expected: ali
+- features:
+    number: dual
+    person: third
+  expected: ele
+---
+lemma: ne
+category: pronouns
+cases:
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: na
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: dia
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: ea
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: nïe
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: dïe
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: ïe
+- features:
+    number: singular
+    person: first
+  expected: ne
+- features:
+    number: singular
+    person: second
+  expected: di
+- features:
+    number: singular
+    person: third
+  expected: e
+---
+lemma: nilï
+category: pronouns
+cases:
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: nilïa
+- features:
+    case: ergative
+    number: plural
+    person: second
+  expected: dilia
+- features:
+    case: ergative
+    number: plural
+    person: third
+  expected: ilia
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: nilïle
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: dilile
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: ilile
+- features:
+    number: plural
+    person: first
+  expected: nilï
+- features:
+    number: plural
+    person: second
+  expected: dili
+- features:
+    number: plural
+    person: third
+  expected: ili

@@ -1,0 +1,735 @@
+lemma: cado
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cado
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cado
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: cadino
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: caditin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: cadon
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: cadiyo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: cadito
+- features:
+    number: singular
+    verb_form: participle
+  expected: cadii
+---
+lemma: cusuba
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cusuba
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cusuba
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: cusubino
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: cusubitin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: cusubon
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: cusubiyo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: cusubito
+- features:
+    number: singular
+    verb_form: participle
+  expected: cusubii
+---
+lemma: faake
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: mifakta
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: mifaakinna
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: fakta
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: fakte
+- features:
+    gender: feminine
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: fakto
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: mifaaka
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: mifaakinna
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: faaka
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: faake
+- features:
+    gender: masculine
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: faako
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: faka
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: fak
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: mifakna
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: mifaakinnino
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: fakna
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: fakne
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: mifaktaana
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: mifaakinnitiini
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: faktan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: fakten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: mifaakaana
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: mifaakinnooni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: faakan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: faaken
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: mifaaka
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: mifaakinniyo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: faaka
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: faake
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: mifakta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: mifaakinnito
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: fakta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: fakte
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: fakno
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: faktoona
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: faakoona
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: faako
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: fakto
+- features:
+    number: singular
+    verb_form: participle
+  expected: faakaa
+---
+lemma: kixina
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: mikixina
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kixina
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: mikixina
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: mikixinino
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kixininuk
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kixinino
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: mikixinitiini
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kixinitin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kixinitin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: mikixinooni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kixinon
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: mikixiniyo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kixiniyuk
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kixiniyo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: mikixinito
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kixinituk
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kixinito
+- features:
+    number: singular
+    verb_form: participle
+  expected: kixinii
+---
+lemma: sik-e
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: sik-te
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: sik-ye
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: sik-ne
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: sik-ten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: sik-yen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: sik-e
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: sik-te
+---
+lemma: sik-erhxe
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: sik-terhxe
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: sik-mitarhxe
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: sik-marhxinna
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: sik-yerhxe
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: sik-miyarhxe
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: sik-marhxinna
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: sik-nerhxe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: sik-minarhxe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: sik-marhxinnino
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: sik-terhxin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: sik-mitarhxiini
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: sik-marhxinnitiini
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: sik-yerhxin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: sik-miyarhxiini
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: sik-marhxinnooni
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: sik-erhxe
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: sik-maarhxe
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: sik-marhxinniyo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: sik-terhxe
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: sik-mitarhxe
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: sik-marhxinnito
+---
+lemma: sik-ishe
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: sik-ishshe
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: sik-ishe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: sik-ishne
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: sik-ishshen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: sik-ishen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: sik-ishe
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: sik-ishshe

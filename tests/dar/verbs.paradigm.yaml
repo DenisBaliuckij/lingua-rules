@@ -1,0 +1,363 @@
+lemma: ak’as ‘come
+category: verbs
+cases:
+- features:
+    mood: conditional
+  expected: ak’ak’a
+- features:
+    mood: imperative
+  expected: ak’e
+- features:
+    mood: indicative
+    person: first
+    tense: past
+  expected: ak’ira
+- features:
+    mood: indicative
+    person: third
+    tense: past
+  expected: ak’ib
+- features:
+    mood: optative
+  expected: ak’ab
+- features:
+    verb_form: converb
+  expected: ak’ile
+- features:
+    verb_form: participle
+  expected: ak’ibi
+- features:
+    verb_form: verbal_noun
+  expected: ak’ri
+---
+lemma: arces ‘fly
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: future
+  expected: arces
+- features:
+    mood: conditional
+  expected: arcak’a
+- features:
+    mood: imperative
+  expected: arce
+- features:
+    mood: indicative
+    person: first
+    tense: future
+  expected: arciša
+- features:
+    mood: indicative
+    person: first
+    tense: past
+  expected: arcurra
+- features:
+    mood: indicative
+    person: third
+    tense: past
+  expected: arcur
+- features:
+    mood: optative
+  expected: arcab
+- features:
+    verb_form: converb
+  expected: arculle
+- features:
+    verb_form: participle
+  expected: arcuri
+- features:
+    verb_form: verbal_noun
+  expected: arcri
+---
+lemma: arʁes
+category: verbs
+cases:
+- features:
+    mood: imperative
+    voice: active
+  expected: arʁa
+- features:
+    mood: imperative
+    voice: middle
+  expected: arʁe
+---
+lemma: elč’es ‘read
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: future
+  expected: elč’es
+- features:
+    mood: conditional
+  expected: elč’ak’a
+- features:
+    mood: imperative
+  expected: elč’a
+- features:
+    mood: indicative
+    person: first
+    tense: future
+  expected: elč’iša
+- features:
+    mood: indicative
+    person: first
+    tense: past
+  expected: elč’unna
+- features:
+    mood: indicative
+    person: third
+    tense: past
+  expected: elč’un
+- features:
+    mood: optative
+  expected: elč’ab
+- features:
+    verb_form: converb
+  expected: elč’uwe
+- features:
+    verb_form: participle
+  expected: elč’uni
+- features:
+    verb_form: verbal_noun
+  expected: elč’ri
+---
+lemma: fly
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    person: first
+    tense: present
+  expected: urc-as
+- features:
+    aspect: imperfective
+    mood: indicative
+    person: third
+    tense: present
+  expected: urc-an
+- features:
+    aspect: perfective
+    mood: indicative
+    person: first
+    tense: future
+  expected: arc-iša
+- features:
+    aspect: perfective
+    mood: indicative
+    person: first
+    tense: past
+  expected: arc-ur-ra
+- features:
+    aspect: perfective
+    mood: indicative
+    person: third
+    tense: future
+  expected: arc-es
+- features:
+    aspect: perfective
+    mood: indicative
+    person: third
+    tense: past
+  expected: arc-ur
+---
+lemma: gʷes
+category: verbs
+cases:
+- features:
+    mood: imperative
+    voice: active
+  expected: gʷa
+- features:
+    mood: imperative
+    voice: middle
+  expected: gʷe
+---
+lemma: ik’ʷes ‘put on
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: future
+  expected: ik’ʷes
+- features:
+    mood: conditional
+  expected: ik’ʷak’a
+- features:
+    mood: imperative
+  expected: ik’ʷa
+- features:
+    mood: indicative
+    person: first
+    tense: future
+  expected: ik’ʷiša
+- features:
+    mood: indicative
+    person: first
+    tense: past
+  expected: ik’ubra
+- features:
+    mood: indicative
+    person: third
+    tense: past
+  expected: ik’ub
+- features:
+    mood: optative
+  expected: ik’ʷab
+- features:
+    verb_form: converb
+  expected: ik’uble
+- features:
+    verb_form: participle
+  expected: ik’ubi
+- features:
+    verb_form: verbal_noun
+  expected: ik’ʷri
+---
+lemma: kes
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    person: first
+    tense: past
+  expected: kira
+- features:
+    aspect: imperfective
+    person: first
+  expected: kan
+- features:
+    aspect: perfective
+    mood: indicative
+    person: third
+    tense: past
+  expected: kib
+- features:
+    aspect: perfective
+    person: third
+  expected: kas
+- features:
+    mood: imperative
+  expected: ka
+- features:
+    mood: indicative
+    person: first
+    tense: future
+  expected: kiša
+- features:
+    mood: optative
+  expected: kab
+- features:
+    verb_form: infinitive
+  expected: kes
+- features:
+    verb_form: verbal_noun
+  expected: kari
+---
+lemma: uˤq’es
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: ašala
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ašiša
+- features:
+    aspect: imperfective
+    mood: optative
+  expected: ašab
+- features:
+    aspect: imperfective
+    number: singular
+    person: second
+  expected: ma-ašadi
+- features:
+    aspect: perfective
+  expected: uq’aˤla
+- features:
+    aspect: perfective
+    mood: conditional
+  expected: uq’aˤk’a
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: uˤq’iša
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+  expected: aˤq’un
+- features:
+    aspect: perfective
+    mood: optative
+  expected: uq’aˤb
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: aˤq’uwe
+- features:
+    aspect: perfective
+    verb_form: infinitive
+  expected: uˤq’es
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: aˤq’uni
+- features:
+    aspect: perfective
+    verb_form: verbal_noun
+  expected: uˤq’ri
+---
+lemma: χes
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    person: first
+    tense: past
+  expected: χira
+- features:
+    aspect: imperfective
+    person: first
+  expected: χan
+- features:
+    aspect: perfective
+    mood: indicative
+    person: third
+    tense: past
+  expected: χib
+- features:
+    aspect: perfective
+    person: third
+  expected: χas
+- features:
+    mood: imperative
+  expected: χa
+- features:
+    mood: indicative
+    person: first
+    tense: future
+  expected: χiša
+- features:
+    mood: optative
+  expected: χab
+- features:
+    verb_form: infinitive
+  expected: χes
+- features:
+    verb_form: verbal_noun
+  expected: χari

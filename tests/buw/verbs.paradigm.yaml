@@ -1,0 +1,176 @@
+lemma: gfna
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    polarity: affirmative
+  expected: mekagfnâga
+- features:
+    aspect: habitual
+    mood: indicative
+    polarity: negative
+  expected: mesékfigfnéga
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: negative
+  expected: meségîna
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: affirmative
+  expected: megfna
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: megfnate
+- features:
+    mood: indicative
+    polarity: affirmative
+  expected: memfgfna
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: mingagfna
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future_perfect
+  expected: méngagfnate
+- features:
+    mood: indicative
+    polarity: negative
+  expected: mesigfnadé
+- features:
+    mood: indicative
+    polarity: negative
+    tense: future
+  expected: meséngégfna
+- features:
+    mood: indicative
+    polarity: negative
+    tense: future_perfect
+  expected: meséngégfnate
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: meségînate
+---
+lemma: láppa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: wé-láppe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tó-la-láppa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lü-la-láppa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bá-Ia-láppa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: n-Iáppi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: naláppa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: a-la-láppa
+---
+lemma: rá
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: ra'a
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: to-láa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: no-láa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vá-láa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: n-rééi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: n-láa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: a-láa
+---
+lemma: sossa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: sossáám
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: sossa'a
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: wé-sosse

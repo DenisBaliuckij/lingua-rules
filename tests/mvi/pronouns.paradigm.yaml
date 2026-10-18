@@ -1,0 +1,93 @@
+lemma: ba
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ban-ti
+- features:
+    number: singular
+    person: first
+  expected: ba
+---
+lemma: ka-i
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ka-mikja
+- features:
+    number: singular
+  expected: ka-i
+- features:
+    number: singular
+    person: third
+  expected: ka-i
+---
+lemma: ka-mikja
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: ka-mikja
+---
+lemma: kii-mikja
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: kii-mikja
+---
+lemma: ku-i
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: ku-i
+---
+lemma: ku-ji
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ku-nukja
+- features:
+    number: singular
+    person: third
+  expected: ku-ji
+---
+lemma: u-i
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: u-nukja
+- features:
+    number: singular
+  expected: u-i
+- features:
+    number: singular
+    person: third
+  expected: u-i
+---
+lemma: u-mikja
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: u-mikja
+---
+lemma: vva
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: vvadii
+- features:
+    number: singular
+    person: second
+  expected: vva

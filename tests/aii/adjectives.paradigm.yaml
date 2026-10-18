@@ -1,0 +1,35 @@
+lemma: bat
+category: adjectives
+cases:
+- features:
+    definiteness: definite
+    gender: feminine
+    number: plural
+  expected: ba-â-tu
+- features:
+    definiteness: indefinite
+    gender: feminine
+    number: plural
+  expected: baat
+- features:
+    gender: feminine
+    number: singular
+  expected: bat
+---
+lemma: bu
+category: adjectives
+cases:
+- features:
+    definiteness: definite
+    gender: masculine
+    number: plural
+  expected: ba-â-nu
+- features:
+    definiteness: indefinite
+    gender: masculine
+    number: plural
+  expected: bi
+- features:
+    gender: masculine
+    number: singular
+  expected: bu

@@ -1,0 +1,251 @@
+lemma: an
+category: pronouns
+cases:
+- features:
+    evidentiality: direct
+    number: dual
+    person: first
+  expected: inier
+- features:
+    evidentiality: direct
+    number: plural
+    person: first
+  expected: in
+- features:
+    evidentiality: indirect
+    number: dual
+    person: first
+  expected: pier
+- features:
+    evidentiality: indirect
+    number: plural
+    person: first
+  expected: pi
+- features:
+    number: dual
+    person: first
+  expected: inier
+- features:
+    number: dual
+    person: second
+  expected: kier
+- features:
+    number: dual
+    person: third
+  expected: mier
+- features:
+    number: plural
+    person: first
+  expected: in
+- features:
+    number: plural
+    person: second
+  expected: ki
+- features:
+    number: plural
+    person: third
+  expected: mu
+- features:
+    number: singular
+    person: first
+  expected: an
+- features:
+    number: singular
+    person: second
+  expected: ka
+- features:
+    number: singular
+    person: third
+  expected: ma
+---
+lemma: andain
+category: pronouns
+cases:
+- features:
+    evidentiality: direct
+    number: plural
+    person: first
+  expected: indain
+- features:
+    evidentiality: indirect
+    number: plural
+    person: first
+  expected: pirain
+- features:
+    number: plural
+    person: second
+  expected: kirain
+- features:
+    number: plural
+    person: third
+  expected: murain
+- features:
+    number: singular
+    person: first
+  expected: andain
+- features:
+    number: singular
+    person: second
+  expected: karain
+- features:
+    number: singular
+    person: third
+  expected: marain
+---
+lemma: anutak
+category: pronouns
+cases:
+- features:
+    evidentiality: direct
+    number: plural
+    person: first
+  expected: inutak
+- features:
+    evidentiality: indirect
+    number: plural
+    person: first
+  expected: piutak
+- features:
+    number: plural
+    person: second
+  expected: kiutak
+- features:
+    number: plural
+    person: third
+  expected: muutak
+- features:
+    number: singular
+    person: first
+  expected: anutak
+- features:
+    number: singular
+    person: second
+  expected: kautak
+- features:
+    number: singular
+    person: third
+  expected: mautak
+---
+lemma: in
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: pier
+- features:
+    number: dual
+    person: second
+  expected: kier
+- features:
+    number: dual
+    person: third
+  expected: mier
+- features:
+    number: plural
+    person: first
+  expected: pi
+- features:
+    number: plural
+    person: second
+  expected: ki
+- features:
+    number: plural
+    person: third
+  expected: mu
+- features:
+    number: singular
+    person: first
+  expected: in
+- features:
+    number: singular
+    person: second
+  expected: ka
+- features:
+    number: singular
+    person: third
+  expected: ma
+---
+lemma: inaninggan
+category: pronouns
+cases:
+- features:
+    evidentiality: direct
+    number: plural
+    person: first
+  expected: inaninggan
+- features:
+    evidentiality: indirect
+    number: plural
+    person: first
+  expected: pinaninggan
+- features:
+    number: plural
+    person: second
+  expected: kinaninggan
+- features:
+    number: plural
+    person: third
+  expected: munaninggan
+---
+lemma: me
+category: pronouns
+cases:
+- features:
+    case: allative
+  expected: mengga
+- features:
+    case: locative
+  expected: metko
+- features:
+    case: oblique
+  expected: met
+---
+lemma: osa
+category: pronouns
+cases:
+- features:
+    case: allative
+  expected: osangga
+- features:
+    case: locative
+  expected: osatko
+- features:
+    case: oblique
+  expected: osat
+---
+lemma: owa
+category: pronouns
+cases:
+- features:
+    case: allative
+  expected: owangga
+- features:
+    case: locative
+  expected: owatko
+---
+lemma: wa
+category: pronouns
+cases:
+- features:
+    case: allative
+  expected: wangga
+- features:
+    case: locative
+  expected: watko
+- features:
+    case: oblique
+  expected: wat
+---
+lemma: yawe
+category: pronouns
+cases:
+- features:
+    case: allative
+  expected: yawengga
+- features:
+    case: locative
+  expected: yawetko
+- features:
+    case: oblique
+  expected: yawet

@@ -1,0 +1,161 @@
+lemma: buhat
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+  expected: iguinpamuhat
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: igbuhat
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ibuhat
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+  expected: iguinpamuhat
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+  expected: iguinbuhataco
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+  expected: iguinabuhat
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: igbuhat
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: iguinbuhat
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: pagmuhatan
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: nagabuhatcamo
+---
+lemma: sulatan
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+  expected: guinpanulatan
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: panagsulatan
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: sulatan
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+  expected: guinpanulatan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+  expected: guinpapanulatan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+  expected: guinsusulatan
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: pagsulalan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: guinsulatan
+---
+lemma: tuman
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+  expected: guinatuman
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: guintuman
+---
+lemma: tumanon
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+  expected: guinpanuman
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: panagtumanon
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tumanon
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: panagtumana

@@ -1,0 +1,191 @@
+lemma: ?mn-in
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mur?-in
+- features:
+    number: plural
+    person: second
+  expected: tur?-in
+- features:
+    number: plural
+    person: third
+  expected: ?r?-in
+- features:
+    number: singular
+    person: first
+  expected: ?mn-in
+- features:
+    number: singular
+    person: second
+  expected: ?-in
+- features:
+    number: singular
+    person: third
+  expected: ?n-in
+---
+lemma: ena'n
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: ena'n
+---
+lemma: err
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: err
+---
+lemma: git
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: git
+---
+lemma: gum
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: gum
+---
+lemma: me
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mu'ruw
+- features:
+    number: plural
+    person: second
+  expected: tu'ruw
+- features:
+    number: plural
+    person: third
+  expected: e'TIW
+- features:
+    number: singular
+    person: first
+  expected: gu'muw
+- features:
+    number: singular
+    person: second
+  expected: gi'niw
+- features:
+    number: singular
+    person: third
+  expected: s'niw
+---
+lemma: mun
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mun
+---
+lemma: turt
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: turt
+---
+lemma: wo'tqan
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    case: ablative
+    number: singular
+    person: third
+  expected: wotqanai'pfi
+- features:
+    animacy: animate
+    case: allative
+    number: singular
+    person: third
+  expected: wq'tqanlna
+- features:
+    animacy: animate
+    case: nominative
+    number: singular
+    person: third
+  expected: wo'tqanena
+- features:
+    animacy: inanimate
+    case: ablative
+  expected: wotqanai'pG
+- features:
+    animacy: inanimate
+    case: allative
+  expected: wqtqanq'gti
+- features:
+    animacy: inanimate
+    case: locative
+  expected: ivo'tqanak
+- features:
+    animacy: inanimate
+    case: nominative
+    number: singular
+    person: third
+  expected: wotqana'ta
+- features:
+    case: absolutive
+  expected: wo'tqan
+- features:
+    case: absolutive
+    number: dual
+  expected: ivo'tqanat
+---
+lemma: гым
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: гымыкайпы
+- features:
+    case: absolutive
+  expected: гым
+- features:
+    case: allative
+  expected: гымыкы
+- features:
+    case: comitative
+  expected: гэгымыкэ
+- features:
+    case: ergative
+  expected: гымнан
+- features:
+    case: essive
+  expected: гымыку
+- features:
+    case: locative
+  expected: гымык
+---
+lemma: мэӈин
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: мэкгыпы
+- features:
+    case: absolutive
+  expected: мэӈин
+- features:
+    case: allative
+  expected: мэкына
+- features:
+    case: comitative
+  expected: гамэгма

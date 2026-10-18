@@ -1,0 +1,347 @@
+lemma: Namoc
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: cerámoca
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: nerámoca
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: támoca
+---
+lemma: Neha
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: ceneréhaa
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: penéhaa
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ceréhaa
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: neréhaa
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: héhaa
+---
+lemma: Noc
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: cenéroca
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: pénoca
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: céroca
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: néroca
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: hóca
+---
+lemma: Nope
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: cenerópee
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: penópee
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: cerópee
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: nerópee
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: tópee
+---
+lemma: Now
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: cérowa
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: nérowa
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: tówa
+---
+lemma: aga
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: seneraga
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: penaga
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: haga
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: waga
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: seraga
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: neraga
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: haga
+---
+lemma: cari
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: cenecária
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: pecária
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: cecária
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: necária
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: icária
+---
+lemma: ci
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: cenécia
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: pécia
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: cécia
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: nécia
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ícia
+---
+lemma: hà
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: céhàa
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: néhàa
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: íhàa
+---
+lemma: paa
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: senepaa
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: pepaa
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: ipaa
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: opaa
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: sepaa
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: nepaa
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: ipaa
+---
+lemma: tyroa
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: seneryroa
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: penyroa
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: hyroa
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: wyroa
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: seryroa
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: neryroa
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: hyroa
+---
+lemma: yhara
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: seneihara
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: peihara
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: isyhara
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: oyhara
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: seihara
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: neihara
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: isyhara
+---
+lemma: Žaŋ
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: cenéraŋa
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: pénaŋa
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: céraŋa
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: néraŋa
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: háŋa

@@ -1,0 +1,142 @@
+lemma: młodi
+category: adjectives
+cases:
+- features:
+    animacy: animate
+    case: accusative
+    number: plural
+  expected: młodich
+- features:
+    animacy: animate
+    case: genitive
+    number: plural
+  expected: młodich
+- features:
+    animacy: animate
+    case: nominative
+    number: plural
+  expected: młodi
+- features:
+    animacy: inanimate
+    case: accusative
+    number: plural
+  expected: młode
+- features:
+    animacy: inanimate
+    case: nominative
+    number: plural
+  expected: młode
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: młodsi
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: młodi
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: młode
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: młodi
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: młodemu
+- features:
+    case: dative
+    number: plural
+  expected: młodim
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: młodi
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: młodego
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: młodsi
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: młodim
+- features:
+    case: instrumental
+    number: plural
+  expected: młodimi
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: młodo
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: młodi
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: młode
+---
+lemma: zdrowi
+category: adjectives
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: zdrowo
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: zdrowi
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: zdrowe
+- features:
+    case: nominative
+    number: plural
+  expected: zdrowć
+---
+lemma: zdrów
+category: adjectives
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: zdrowa
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: zdrów
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: zdrowo
+- features:
+    case: nominative
+    number: plural
+  expected: zdrowe

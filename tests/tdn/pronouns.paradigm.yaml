@@ -1,0 +1,37 @@
+lemma: niaku
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nikita
+- features:
+    number: plural
+    person: second
+  expected: nikow
+- features:
+    number: plural
+    person: third
+  expected: nisèa
+- features:
+    number: singular
+    person: first
+  expected: niaku
+- features:
+    number: singular
+    person: second
+  expected: niko
+- features:
+    number: singular
+    person: third
+  expected: nisia
+---
+lemma: ye’i
+category: pronouns
+cases:
+- features:
+    animacy: animate
+  expected: ye’i
+- features:
+    animacy: inanimate
+  expected: ye’i

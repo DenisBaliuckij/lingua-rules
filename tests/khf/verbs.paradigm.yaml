@@ -1,0 +1,255 @@
+lemma: antta
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: present
+  expected: annettais
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: present
+    voice: passive
+  expected: annettais
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: antakhoot
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    voice: passive
+  expected: annettakhoon
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: annethiin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+    voice: passive
+  expected: annethiin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: annethaan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: passive
+  expected: annethaan
+---
+lemma: olla
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: olisimma
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: olisitta
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: oltais
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: olisin
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: olisit
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: olis
+- features:
+    mood: conditional
+    polarity: affirmative
+    tense: perfect
+    voice: passive
+  expected: olis
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: olema
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: olima
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: emmä
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: oletta
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: olitta
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: että
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: oon
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: olthiin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: ei
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: olen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: olin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: en
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: olet
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: olit
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: et
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: oon
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+    voice: passive
+  expected: oon
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: oli
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+    voice: passive
+  expected: oli
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: ei
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+    voice: passive
+  expected: ei
