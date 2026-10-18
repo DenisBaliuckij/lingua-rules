@@ -1,0 +1,91 @@
+lemma: ait
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: ait
+---
+lemma: au
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: au
+---
+lemma: nuo
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: nuo
+---
+lemma: t
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: singular
+    person: third
+  expected: m
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: y
+- features:
+    number: plural
+    person: first
+  expected: p
+- features:
+    number: plural
+    person: second
+  expected: n
+- features:
+    number: plural
+    person: third
+  expected: m
+- features:
+    number: singular
+    person: first
+  expected: t
+- features:
+    number: singular
+    person: second
+  expected: n
+---
+lemma: tuo
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: singular
+    person: third
+  expected: au
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ait
+- features:
+    number: plural
+    person: first
+  expected: amu
+- features:
+    number: plural
+    person: second
+  expected: anu
+- features:
+    number: plural
+    person: third
+  expected: ana
+- features:
+    number: singular
+    person: first
+  expected: tuo
+- features:
+    number: singular
+    person: second
+  expected: nuo

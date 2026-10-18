@@ -1,0 +1,83 @@
+lemma: lo
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: ko
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ko
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: to
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: ze
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: lo
+- features:
+    number: dual
+    person: third
+  expected: to
+- features:
+    number: plural
+    person: third
+  expected: ze
+- features:
+    number: singular
+    person: third
+  expected: lo
+---
+lemma: loloa
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: loloma
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: loloma
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: loloa
+- features:
+    number: dual
+    person: third
+  expected: loloa
+- features:
+    number: plural
+    person: third
+  expected: loloa
+---
+lemma: 'no'
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: pe
+- features:
+    number: plural
+    person: second
+  expected: me
+- features:
+    number: singular
+    person: second
+  expected: 'no'

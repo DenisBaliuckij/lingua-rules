@@ -1,0 +1,38 @@
+lemma: tere
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: terete
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: terense
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: terense
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: tereise
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: tereuse
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: tereme
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: terere

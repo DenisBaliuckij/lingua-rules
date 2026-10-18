@@ -1,0 +1,270 @@
+lemma: +bi
+category: verbs
+cases:
+- features:
+    number: dual
+  expected: +bina
+- features:
+    number: singular
+  expected: +bv-Ø
+---
+lemma: akvma
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: akv+ma-Ø
+- features:
+    number: dual
+    person: second
+  expected: akv+ma-rnv
+- features:
+    number: singular
+    person: first
+  expected: akv+ma-Ø
+- features:
+    number: singular
+    person: second
+  expected: akv+mv-rna
+---
+lemma: ambarr
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: ambarrv-nv
+- features:
+    number: dual
+    person: third
+  expected: ambarrv-ngvma
+- features:
+    number: singular
+    person: first
+  expected: ambvrrv-nga-Ø
+- features:
+    number: singular
+    person: second
+  expected: ambarrv-na
+- features:
+    number: singular
+    person: third
+  expected: ambarrv-nga-Ø
+---
+lemma: andhiya
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: andheey-Ø
+- features:
+    number: dual
+    person: third
+  expected: andhv-ma
+- features:
+    number: singular
+    person: first
+  expected: andhiyi-nga-Ø
+- features:
+    number: singular
+    person: second
+  expected: andhiyaØ
+- features:
+    number: singular
+    person: third
+  expected: andhiyi-nga-Ø
+---
+lemma: arji
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: arjeeyv-Ø
+- features:
+    number: dual
+    person: third
+  expected: arjiya-Ø
+---
+lemma: arjiya
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: arjeey-Ø
+- features:
+    number: dual
+    person: third
+  expected: arjingvma
+- features:
+    number: singular
+    person: first
+  expected: arjiyi-nga-Ø
+- features:
+    number: singular
+    person: second
+  expected: arjiyaØ
+- features:
+    number: singular
+    person: third
+  expected: arjiyi-nga-Ø
+---
+lemma: aya
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: ayanga
+- features:
+    number: dual
+    person: third
+  expected: aye-na
+- features:
+    number: singular
+    person: first
+  expected: ayv-Ø
+- features:
+    number: singular
+    person: third
+  expected: ayv-Ø?
+---
+lemma: lhvka
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: lhvkaØ
+- features:
+    number: plural
+    person: second
+  expected: lhvkarnv
+- features:
+    number: singular
+    person: first
+  expected: lhvki-ya
+- features:
+    number: singular
+    person: second
+  expected: lhvkaja
+- features:
+    number: singular
+    person: third
+  expected: lhvkv-ma
+- features:
+    voice: reflexive
+  expected: lhaba-jungwV
+---
+lemma: ma
+category: verbs
+cases:
+- features:
+    number: singular
+    person: second
+  expected: mv-na
+- features:
+    number: singular
+    person: third
+  expected: maØ
+---
+lemma: maka
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: makaØ
+- features:
+    number: plural
+    person: second
+  expected: makaØ
+- features:
+    number: singular
+    person: first
+  expected: makaØ
+- features:
+    number: singular
+    person: second
+  expected: makv-na
+- features:
+    number: singular
+    person: third
+  expected: makv-ma
+- features:
+    voice: reflexive
+  expected: makajungwV
+---
+lemma: mungkulha
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mungkulhv-nga-Ø
+- features:
+    number: plural
+    person: second
+  expected: mungkulhaØ
+- features:
+    number: singular
+    person: first
+  expected: mungkulhv-nga-Ø
+- features:
+    number: singular
+    person: second
+  expected: mungkulhaØ
+---
+lemma: walka
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+    tense: past
+  expected: walke-nv
+- features:
+    number: singular
+    person: first
+    tense: past
+  expected: walkaØ
+- features:
+    number: singular
+    person: second
+    tense: past
+  expected: walkaja
+- features:
+    number: singular
+    person: third
+    tense: present
+  expected: walki-ya
+---
+lemma: yakwabi-ji
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yakwabi-ji-Ø
+- features:
+    number: plural
+    person: second
+  expected: yakwabi-ju-wa
+- features:
+    number: singular
+    person: first
+  expected: yakwabi-ji-ya
+- features:
+    number: singular
+    person: second
+  expected: yakwabi-ji-na
+- features:
+    number: singular
+    person: third
+  expected: yakwabi-jv-ma
+- features:
+    voice: reflexive
+  expected: yakwabi-ja-jungwV

@@ -1,0 +1,152 @@
+lemma: G
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: G
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: G
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: G
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: G
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: G
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: G
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: G
+---
+lemma: h"¤k'•›
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: n"¤
+- features:
+    number: singular
+  expected: h"¤k'•›
+---
+lemma: ha&˘k"¤ts'•›
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ha&˘na$k"¤
+- features:
+    number: singular
+  expected: ha&˘k"¤ts'•›
+---
+lemma: tHa^
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: g"›r"•›be@
+- features:
+    number: singular
+  expected: tHa^
+---
+lemma: t¬a&˘s"•›
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ¬a$
+- features:
+    number: singular
+  expected: t¬a&˘s"•›
+---
+lemma: v#h#
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: v#H#WHH#VX#
+- features:
+    number: plural
+    person: third
+  expected: v#H#ZDWHH#
+- features:
+    number: singular
+    person: first
+  expected: v#H#WVKH#
+- features:
+    number: singular
+    person: third
+  expected: v#H#WHH#
+---
+lemma: wvkhh#
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    polarity: negative
+  expected: wVKHH#VX
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    polarity: negative
+  expected: wVKHH#
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: wVKHH#VR
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: wVKHH#VH
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: wVKHH#SR
+---
+lemma: ¤e@
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ne&˘
+- features:
+    number: singular
+  expected: ¤e@
+---
+lemma: ó'a$we@
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: óHo@˘
+- features:
+    number: singular
+  expected: ó'a$we@

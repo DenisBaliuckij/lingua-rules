@@ -1,0 +1,706 @@
+lemma: ?i
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ?isgto
+- features:
+    number: plural
+    person: second
+  expected: ?iseta
+- features:
+    number: plural
+    person: third
+  expected: ?iseka
+- features:
+    number: singular
+    person: first
+  expected: ?isito
+- features:
+    number: singular
+    person: second
+  expected: ?isayo
+- features:
+    number: singular
+    person: third
+  expected: ?isiyo
+---
+lemma: ba?
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: baba?dek
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: baba?deko
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: ba?ayek
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: ba?ayek
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: baba?d
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: baba?do
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: ba?ay
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ba?seqek
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: ba?seqeko
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: ba?kek-frfrqo
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: ba?keko
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ba?seqey
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: ba?seqo
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: ba?kly
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: ba?kiyo
+---
+lemma: ba?- bring
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: imperfect
+  expected: ba?ba?dgt
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: ba?seqQt
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: ba?seqgt
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: ba?aygt
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: ba?kQt
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: pluperfect
+  expected: ba?k§t
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: imperfect
+  expected: ba?ba?det
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: ba?seqat
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: ba?seqet
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: ba?ayet
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: ba?ket
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: pluperfect
+  expected: ba?ket
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: imperfect
+  expected: ba?ba?dek
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: ba?seqak
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: ba?seqek
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: ba?ayek
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: ba?kek
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: pluperfect
+  expected: ba?kek
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: imperfect
+  expected: ba?ba?dit
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: ba?seqit
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: ba?seqit-ililq
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: ba?ayit
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: ba?kit
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: pluperfect
+  expected: ba?kit
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: imperfect
+  expected: ba?ba?day
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: ba?seqay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: ba?seqaY-ililq
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: ba?ayay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: ba?kay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: pluperfect
+  expected: ba?kay
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: imperfect
+  expected: ba?ba?da
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: ba?seqe
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: ba?seqeY-ililq
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: ba?ay
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: ba?ki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: pluperfect
+  expected: ba?kl
+---
+lemma: baba?d
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: ba?a.YQt
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: ba?ayet-f!.f!.q
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ba.ba?dek-ft
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: baba?day-ft
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ba.ba?d-ft
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: ba?ket
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: ba?ka
+---
+lemma: da.a.y
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: imperfect
+  expected: dada
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: do
+---
+lemma: doq
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: doqQt
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: dakk§t
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: doqet
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: dakket
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: doqek
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: dakkek
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: doqlt
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: dakkft
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: doqay
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: dakkay
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: dakki
+---
+lemma: gay
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: gaaka
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: imperfect
+  expected: gagaadda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: gayse
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: gayay
+---
+lemma: kay
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: kayyit
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: kayyay
+---
+lemma: qaal
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: qaaltay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: imperfect
+  expected: qaqaalday
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: qaalseqay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: qaalayay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: qaalkay
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: qaalter
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: imperfect
+  expected: qaqaalda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: qaalseqe
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: qaalay
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: qaalki
+---
+lemma: siir
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: slirka
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: imperfect
+  expected: slsiirda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: slirse
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: siirmay
+---
+lemma: tey
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: teyyit
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: teyyay

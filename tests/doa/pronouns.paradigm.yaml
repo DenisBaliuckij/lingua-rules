@@ -1,0 +1,31 @@
+lemma: en
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: £ en
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: £ no
+- features:
+    number: plural
+    person: first
+  expected: £Ĺnone
+- features:
+    number: singular
+    person: first
+  expected: £ na
+---
+lemma: ne
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: £ ne

@@ -1,0 +1,47 @@
+lemma: gyaata
+category: nouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+  expected: gyaata-ha-r
+- features:
+    case: absolutive
+    number: singular
+  expected: gyaatar
+- features:
+    case: instrumental
+    number: plural
+  expected: gyaata-ha-m-k'ya
+- features:
+    case: instrumental
+    number: singular
+  expected: gyaata-m-k'ya
+- features:
+    case: oblique
+    number: plural
+  expected: gyaata-ha-m
+- features:
+    case: oblique
+    number: singular
+  expected: gyaatam
+- features:
+    number: plural
+  expected: gyaata-ha-w
+- features:
+    number: singular
+  expected: gyaataw
+---
+lemma: джатэ
+category: nouns
+cases:
+- features:
+    case: ergative
+  expected: джатэм
+- features:
+    case: instrumental
+    definiteness: definite
+  expected: джатэмкIэ
+- features:
+    case: nominative
+  expected: джатэр

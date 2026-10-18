@@ -1,0 +1,327 @@
+lemma: come
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+    tense: present
+  expected: karara
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+    tense: present
+  expected: taraa
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+    tense: present
+  expected: kuraa
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+    tense: present
+  expected: arara
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+    tense: present
+  expected: tarara
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+    tense: present
+  expected: kurara
+- features:
+    number: plural
+    person: first
+  expected: kara
+- features:
+    number: plural
+    person: second
+  expected: taa
+- features:
+    number: plural
+    person: third
+  expected: koo
+- features:
+    number: singular
+    person: first
+  expected: ara
+- features:
+    number: singular
+    person: second
+  expected: tara
+- features:
+    number: singular
+    person: third
+  expected: kura
+---
+lemma: go across
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+    tense: present
+  expected: kaawasi
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+    tense: present
+  expected: taawa
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+    tense: present
+  expected: kwaawa
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+    tense: present
+  expected: aawasi
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+    tense: present
+  expected: taawasi
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+    tense: present
+  expected: kwaawasi
+- features:
+    number: plural
+    person: first
+  expected: kawasi
+- features:
+    number: plural
+    person: second
+  expected: tawa
+- features:
+    number: plural
+    person: third
+  expected: kwawe
+- features:
+    number: singular
+    person: first
+  expected: awasi
+- features:
+    number: singular
+    person: second
+  expected: tawasi
+- features:
+    number: singular
+    person: third
+  expected: kwawasi
+---
+lemma: go down
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+    tense: present
+  expected: kaukuu
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+    tense: present
+  expected: koukaa
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+    tense: present
+  expected: aukuu
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+    tense: present
+  expected: koukuu
+- features:
+    number: plural
+    person: first
+  expected: kauku
+- features:
+    number: plural
+    person: third
+  expected: kouki
+- features:
+    number: singular
+    person: first
+  expected: auku
+- features:
+    number: singular
+    person: third
+  expected: kouku
+---
+lemma: go in
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+    tense: present
+  expected: kararauku
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+    tense: present
+  expected: tarauro
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+    tense: present
+  expected: kurauro
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+    tense: present
+  expected: ararauku
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+    tense: present
+  expected: tararauku
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+    tense: present
+  expected: kurarauku
+- features:
+    number: plural
+    person: first
+  expected: karauku
+- features:
+    number: plural
+    person: second
+  expected: tarau
+- features:
+    number: plural
+    person: third
+  expected: kurau
+- features:
+    number: singular
+    person: first
+  expected: arauku
+- features:
+    number: singular
+    person: second
+  expected: tarauku
+- features:
+    number: singular
+    person: third
+  expected: kurauku
+---
+lemma: go up
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+    tense: present
+  expected: kavavasi
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+    tense: present
+  expected: tavava
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+    tense: present
+  expected: kuvava
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+    tense: present
+  expected: avavasi
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+    tense: present
+  expected: tavavasi
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+    tense: present
+  expected: kuvavasi
+- features:
+    number: plural
+    person: first
+  expected: kavasi
+- features:
+    number: plural
+    person: second
+  expected: tava
+- features:
+    number: plural
+    person: third
+  expected: kuva
+- features:
+    number: singular
+    person: first
+  expected: avasi
+- features:
+    number: singular
+    person: second
+  expected: tavasi
+- features:
+    number: singular
+    person: third
+  expected: kuvasi
+---
+lemma: ramara
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: taramara
+- features:
+    number: plural
+    person: first
+  expected: karamara
+- features:
+    number: plural
+    person: third
+  expected: tiramara
+- features:
+    number: singular
+    person: first
+  expected: aramara
+- features:
+    number: singular
+    person: second
+  expected: kuramara
+- features:
+    number: singular
+    person: third
+  expected: iramara

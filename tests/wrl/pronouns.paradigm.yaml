@@ -1,0 +1,65 @@
+lemma: ngayu
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: first
+  expected: ngayu
+- features:
+    case: allative
+    number: singular
+    person: first
+  expected: ngayinyaka
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: ngayuku
+- features:
+    case: elative
+    number: singular
+    person: first
+  expected: ngayungurlu
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: ngayu
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: ngayinyarla
+- features:
+    number: singular
+    person: first
+  expected: ngayinyakapina
+---
+lemma: nyuntu
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: second
+  expected: nyuntu
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: nyuntuku
+- features:
+    case: elative
+    number: singular
+    person: second
+  expected: nyuntungurlu
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: nyuntu
+- features:
+    number: singular
+    person: second
+  expected: nyuntukuma

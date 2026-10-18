@@ -1,0 +1,213 @@
+lemma: I
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: VXɛ́
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ɛ́
+- features:
+    number: plural
+    person: third
+  expected: VRɛ́
+- features:
+    number: singular
+    person: first
+  expected: Vɛ́
+- features:
+    number: singular
+    person: second
+  expected: Sɛ́
+---
+lemma: PPr
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: KHVX#
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: KHZH#
+- features:
+    number: plural
+    person: third
+  expected: KHVR#
+- features:
+    number: singular
+    person: first
+  expected: Vɛ#
+- features:
+    number: singular
+    person: second
+  expected: KDɛSX#
+---
+lemma: h"‚Û˘go$
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: h"‚Û˘so$
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: h"‚Û˘xWe$
+- features:
+    number: singular
+    person: third
+  expected: h"‚Û˘go$
+---
+lemma: ha&˘u$
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: ha&˘so$
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: ha&˘xWe@˘
+- features:
+    number: singular
+    person: third
+  expected: ha&˘u$
+---
+lemma: he$we@
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: he$so@
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: he$we@xe@˘
+- features:
+    number: singular
+    person: third
+  expected: he$we@
+---
+lemma: he&˘u$
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: he&˘so$
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: he&˘xWe@˘
+- features:
+    number: singular
+    person: third
+  expected: he&˘u$
+---
+lemma: ii
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: vDɛ́
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: dɛ́
+- features:
+    number: plural
+    person: first
+  expected: rɛ́
+- features:
+    number: plural
+    person: second
+  expected: hɛ́
+- features:
+    number: plural
+    person: third
+  expected: dɛ́Dɛ́
+- features:
+    number: singular
+    person: first
+  expected: vɛ́
+- features:
+    number: singular
+    person: second
+  expected: ɛ́
+---
+lemma: obj
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: vX#
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: h#
+- features:
+    number: singular
+    person: first
+  expected: vH#
+- features:
+    number: singular
+    person: second
+  expected: sR#
+---
+lemma: opt
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: '[VDɛ́'
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: nZDɛ́
+- features:
+    number: plural
+    person: first
+  expected: rɛ́Rɛ́
+- features:
+    number: plural
+    person: second
+  expected: nZHɛ́
+- features:
+    number: plural
+    person: third
+  expected: nZDɛ́Dɛ́
+- features:
+    number: singular
+    person: first
+  expected: hɛ́Hɛ́
+- features:
+    number: singular
+    person: second
+  expected: nRɛ́

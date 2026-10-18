@@ -1,0 +1,37 @@
+lemma: ao
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tao
+- features:
+    number: plural
+    person: second
+  expected: p-oo
+- features:
+    number: singular
+    person: first
+  expected: tao
+- features:
+    person: third
+  expected: mao
+---
+lemma: atia
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tatia
+- features:
+    number: plural
+    person: second
+  expected: ptia
+- features:
+    number: singular
+    person: first
+  expected: tatia
+- features:
+    person: third
+  expected: matia

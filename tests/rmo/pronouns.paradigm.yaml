@@ -1,0 +1,29 @@
+lemma: kava
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: kaya
+- features:
+    gender: masculine
+    number: singular
+  expected: kava
+- features:
+    number: plural
+  expected: kala
+---
+lemma: kova
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: koya
+- features:
+    gender: masculine
+    number: singular
+  expected: kova
+- features:
+    number: plural
+  expected: kola

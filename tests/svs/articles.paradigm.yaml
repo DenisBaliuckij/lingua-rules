@@ -1,0 +1,94 @@
+lemma: lava
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: lama
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: lama
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: lava
+- features:
+    number: dual
+    person: third
+  expected: laghe
+- features:
+    number: plural
+    person: third
+  expected: lame
+---
+lemma: lo
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: ko
+- features:
+    gender: feminine
+    number: singular
+  expected: ko
+- features:
+    gender: masculine
+    number: dual
+  expected: to
+- features:
+    gender: masculine
+    number: plural
+  expected: lo
+- features:
+    gender: masculine
+    number: singular
+  expected: lo
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: lo
+- features:
+    number: plural
+    person: third
+  expected: to
+---
+lemma: sua
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: soma
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: sua
+- features:
+    number: dual
+    person: first
+  expected: sua
+- features:
+    number: dual
+    person: second
+  expected: sua
+- features:
+    number: dual
+    person: third
+  expected: sua
+- features:
+    number: singular
+    person: first
+  expected: sua
+- features:
+    number: singular
+    person: second
+  expected: sua

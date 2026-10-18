@@ -1,0 +1,361 @@
+lemma: astom
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: astem
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: asten
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: astan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: astom
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: asti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: as
+---
+lemma: bar-Smadan
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: subjunctive
+  expected: bar-â'yom
+- features:
+    mood: imperative
+  expected: bar-ây
+- features:
+    verb_form: infinitive
+  expected: bar-Smadan
+---
+lemma: bar-âwordan
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: subjunctive
+  expected: bar-ârom
+- features:
+    mood: imperative
+  expected: bar-âr
+- features:
+    verb_form: infinitive
+  expected: bar-âwordan
+---
+lemma: borem
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: present
+  expected: borem
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: present
+  expected: boren
+- features:
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: present
+  expected: boran
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: borem
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: bori
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: bora
+---
+lemma: dar-â"wordan
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: subjunctive
+  expected: dar-ârom
+- features:
+    mood: imperative
+  expected: dar-âr
+- features:
+    verb_form: infinitive
+  expected: dar-â"wordan
+---
+lemma: dar-âmadan
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: subjunctive
+  expected: dar-âyom
+- features:
+    mood: imperative
+  expected: dar-ây
+- features:
+    verb_form: infinitive
+  expected: dar-âmadan
+---
+lemma: far
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+  expected: mefrâyom
+- features:
+    aspect: imperfective
+    mood: subjunctive
+  expected: farâyom
+- features:
+    mood: imperative
+  expected: farây
+- features:
+    verb_form: infinitive
+  expected: far
+---
+lemma: far-âwordan
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: subjunctive
+  expected: far-ârom
+- features:
+    mood: imperative
+  expected: far-âr
+- features:
+    verb_form: infinitive
+  expected: far-âwordan
+---
+lemma: merom
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: merem
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: meren
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: meran
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: merom
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: merti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: merta
+---
+lemma: raftem
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: raftem
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: rafteri
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: raftan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: raftem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: rafti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: rafta
+---
+lemma: raftom
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: raftem
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: raften
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: raftan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: raftom
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: rafti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: raf
+---
+lemma: war-dâstan
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: war-dâr
+- features:
+    verb_form: infinitive
+  expected: war-dâstan
+---
+lemma: zadan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: zadęm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: zadom
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: zada
+- features:
+    verb_form: infinitive
+  expected: zadan
+---
+lemma: خواندن
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: خوانیم
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: خوانید
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: خواند
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: خواتم
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: خواننده
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: خواند

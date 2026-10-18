@@ -1,0 +1,79 @@
+lemma: ga
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: gawul
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ga-tja-bak
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ga-nh-ung
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ganha
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ganhu
+---
+lemma: nha
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: nha-wu-l
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: nha-tj-eJ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: nhan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: nha-tj-uk
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nhan
+- features:
+    verb_form: infinitive
+  expected: nhanha
+---
+lemma: ya
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: yan-yu-b-ak
+- features:
+    mood: indicative
+    person: third
+    tense: present
+  expected: yanda
+- features:
+    tense: present
+  expected: yana

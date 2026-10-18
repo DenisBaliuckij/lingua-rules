@@ -1,0 +1,337 @@
+lemma: aa
+category: nouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: aaralue
+- features:
+    number: dual
+    person: second
+  expected: aamilu
+- features:
+    number: dual
+    person: third
+  expected: aalalue
+- features:
+    number: plural
+    person: first
+  expected: aaratelu
+- features:
+    number: plural
+    person: second
+  expected: aamiitelu
+- features:
+    number: plural
+    person: third
+  expected: aalatetu
+- features:
+    number: singular
+    person: first
+  expected: aaku
+- features:
+    number: singular
+    person: second
+  expected: aamo
+- features:
+    number: singular
+    person: third
+  expected: aane
+---
+lemma: hZZu
+category: nouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: hiZiraZue
+- features:
+    number: dual
+    person: second
+  expected: hiZymiZu
+- features:
+    number: dual
+    person: third
+  expected: hiZZZaZue
+- features:
+    number: plural
+    person: first
+  expected: hiZirateZu
+- features:
+    number: plural
+    person: second
+  expected: hiZumii
+- features:
+    number: plural
+    person: third
+  expected: hiZiZateZu
+- features:
+    number: singular
+    person: first
+  expected: hiZumaZu
+- features:
+    number: singular
+    person: second
+  expected: hiZumo
+- features:
+    number: singular
+    person: third
+  expected: hZZZne
+---
+lemma: meto
+category: nouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: meterateZu
+- features:
+    number: dual
+    person: second
+  expected: metomiZu
+- features:
+    number: dual
+    person: third
+  expected: meteZaZue
+- features:
+    number: plural
+    person: first
+  expected: meteve
+- features:
+    number: plural
+    person: second
+  expected: metomii
+- features:
+    number: plural
+    person: third
+  expected: meteZateZu
+- features:
+    number: singular
+    person: first
+  expected: meteraZue
+- features:
+    number: singular
+    person: second
+  expected: metomo
+- features:
+    number: singular
+    person: third
+  expected: metene
+---
+lemma: mo
+category: nouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: moralue
+- features:
+    number: dual
+    person: second
+  expected: momilu
+- features:
+    number: dual
+    person: third
+  expected: molalue
+- features:
+    number: plural
+    person: first
+  expected: moratelu
+- features:
+    number: plural
+    person: second
+  expected: momiitelu
+- features:
+    number: plural
+    person: third
+  expected: molatelu
+- features:
+    number: singular
+    person: first
+  expected: maku
+- features:
+    number: singular
+    person: second
+  expected: momo
+- features:
+    number: singular
+    person: third
+  expected: mone
+---
+lemma: ono
+category: nouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: oralue
+- features:
+    number: dual
+    person: second
+  expected: onomilu
+- features:
+    number: dual
+    person: third
+  expected: olalue
+- features:
+    number: plural
+    person: first
+  expected: oratelu
+- features:
+    number: plural
+    person: second
+  expected: onomiitelu
+- features:
+    number: plural
+    person: third
+  expected: olatelu
+- features:
+    number: singular
+    person: first
+  expected: onaku
+- features:
+    number: singular
+    person: second
+  expected: onomo
+- features:
+    number: singular
+    person: third
+  expected: onene
+---
+lemma: so
+category: nouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: seralue
+- features:
+    number: dual
+    person: second
+  expected: somilu
+- features:
+    number: dual
+    person: third
+  expected: selalue
+- features:
+    number: plural
+    person: first
+  expected: seratelu
+- features:
+    number: plural
+    person: second
+  expected: somiitelu
+- features:
+    number: plural
+    person: third
+  expected: selatelu
+- features:
+    number: singular
+    person: first
+  expected: saku
+- features:
+    number: singular
+    person: second
+  expected: somo
+- features:
+    number: singular
+    person: third
+  expected: sene
+---
+lemma: tuo
+category: nouns
+cases:
+- features:
+    number: dual
+    person: first
+    possessor_number: plural
+  expected: tueralue
+- features:
+    number: dual
+    person: second
+    possessor_number: singular
+  expected: tuomilu
+- features:
+    number: dual
+    person: third
+    possessor_number: singular
+  expected: tuelalue
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+  expected: tuevatelu
+- features:
+    number: plural
+    person: second
+    possessor_number: singular
+  expected: tuomiitelu
+- features:
+    number: plural
+    person: third
+    possessor_number: singular
+  expected: tuelatelu
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+  expected: tuaku
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+  expected: tuumalii
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+  expected: tuene
+---
+lemma: urzli
+category: nouns
+cases:
+- features:
+    number: dual
+    person: first
+    possessor_number: plural
+  expected: urzlralue
+- features:
+    number: dual
+    person: second
+    possessor_number: singular
+  expected: urulumilu
+- features:
+    number: dual
+    person: third
+    possessor_number: singular
+  expected: urzlralue
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+  expected: urzlratelu
+- features:
+    number: plural
+    person: second
+    possessor_number: singular
+  expected: urutumiitelu
+- features:
+    number: plural
+    person: third
+    possessor_number: singular
+  expected: urzlratelu
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+  expected: uruluku
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+  expected: urulumo
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+  expected: urtline

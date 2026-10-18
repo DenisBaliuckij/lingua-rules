@@ -1,0 +1,218 @@
+lemma: up
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: пУР
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: зМЗХүм
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: aVP
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: чТР
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: hYVP
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: уР
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: mVP
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: wVP
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: gyvp
+- features:
+    verb_form: infinitive
+  expected: чтр
+- features:
+    verb_form: past_participle
+  expected: shp
+- features:
+    verb_form: present_participle
+  expected: sAP
+---
+lemma: xgy he was
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: mIZE
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: sMEN
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: sANTE
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: sTEM
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: sMEMTA
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mANTE
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: mEMN
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: mTE
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: jAMIE
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: sEM
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: mENN
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: nMKY
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eMENT
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: y
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: mES
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: eMEA
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: mMTE
+- features:
+    verb_form: infinitive
+  expected: mEW
+---
+lemma: yna
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    verb_form: participle
+  expected: aMMA
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+  expected: mINE
+- features:
+    mood: imperative
+  expected: ýNA
+- features:
+    number: plural
+    verb_form: participle
+  expected: sMANNA
+- features:
+    verb_form: infinitive
+  expected: aNS
