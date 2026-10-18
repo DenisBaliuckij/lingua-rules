@@ -1,0 +1,146 @@
+lemma: g
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: memlong
+- features:
+    number: dual
+    person: second
+  expected: milong
+- features:
+    number: dual
+    person: third
+  expected: rilong
+- features:
+    number: plural
+    person: first
+  expected: mem
+- features:
+    number: plural
+    person: second
+  expected: mi
+- features:
+    number: plural
+    person: third
+  expected: ri
+- features:
+    number: singular
+    person: first
+  expected: g
+- features:
+    number: singular
+    person: second
+  expected: m
+- features:
+    number: singular
+    person: third
+  expected: na
+- features:
+    person: first
+  expected: memtol
+- features:
+    person: second
+  expected: mitol
+- features:
+    person: third
+  expected: ritol
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: namemlong
+- features:
+    number: dual
+    person: second
+  expected: milong
+- features:
+    number: dual
+    person: third
+  expected: kilong
+- features:
+    number: plural
+    person: first
+  expected: namem
+- features:
+    number: plural
+    person: second
+  expected: mi
+- features:
+    number: plural
+    person: third
+  expected: ki
+- features:
+    number: singular
+    person: first
+  expected: na
+- features:
+    number: singular
+    person: second
+  expected: ku
+- features:
+    number: singular
+    person: third
+  expected: ka
+- features:
+    person: first
+  expected: namemtol
+- features:
+    person: second
+  expected: mitol
+- features:
+    person: third
+  expected: kitol
+---
+lemma: nau
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: namemlong
+- features:
+    number: dual
+    person: second
+  expected: namilong
+- features:
+    number: dual
+    person: third
+  expected: rilong
+- features:
+    number: plural
+    person: first
+  expected: namem
+- features:
+    number: plural
+    person: second
+  expected: nami
+- features:
+    number: plural
+    person: third
+  expected: riria
+- features:
+    number: singular
+    person: first
+  expected: nau
+- features:
+    number: singular
+    person: second
+  expected: numai
+- features:
+    number: singular
+    person: third
+  expected: ninia
+- features:
+    person: first
+  expected: namemtol
+- features:
+    person: second
+  expected: namitol
+- features:
+    person: third
+  expected: ritol

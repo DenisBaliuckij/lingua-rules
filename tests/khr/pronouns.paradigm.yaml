@@ -1,0 +1,31 @@
+lemma: am
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: am
+---
+lemma: aɖi
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: aɖi
+---
+lemma: iɲ
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: anaŋ
+- features:
+    number: plural
+    person: first
+  expected: aniŋ
+- features:
+    number: singular
+    person: first
+  expected: iɲ

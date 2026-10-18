@@ -1,0 +1,68 @@
+lemma: dmihet
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: dmihat
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: dmihen
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: dmihet
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: dmihah
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: dmihiton
+---
+lemma: hwe III
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mahwe
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: mahwele
+---
+lemma: hšw
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hašu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: hašule

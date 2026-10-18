@@ -1,0 +1,99 @@
+lemma: kəy
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: əyni
+- features:
+    number: plural
+    person: second
+  expected: nəŋni
+- features:
+    number: plural
+    person: third
+  expected: ənmani
+- features:
+    number: singular
+    person: first
+  expected: kəy
+- features:
+    number: singular
+    person: second
+  expected: nəŋ
+- features:
+    number: singular
+    person: third
+  expected: əma
+---
+lemma: kəyta
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kəyni ta
+- features:
+    number: singular
+    person: first
+  expected: kəyta
+---
+lemma: kəŋ
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kəyni
+- features:
+    number: singular
+    person: first
+  expected: kəŋ
+---
+lemma: nəŋ
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: nəŋni
+- features:
+    number: singular
+    person: second
+  expected: nəŋ
+---
+lemma: nəŋ ta
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: nəŋnita
+- features:
+    number: singular
+    person: second
+  expected: nəŋ ta
+---
+lemma: əma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ənmani
+- features:
+    number: singular
+    person: third
+  expected: əma
+---
+lemma: əmata
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ənmani ta
+- features:
+    number: singular
+    person: third
+  expected: əmata

@@ -1,0 +1,71 @@
+lemma: de
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: imi
+- features:
+    number: plural
+    person: second
+  expected: ini
+- features:
+    number: plural
+    person: third
+  expected: erne
+- features:
+    number: singular
+    person: first
+  expected: de
+- features:
+    number: singular
+    person: second
+  expected: ni
+- features:
+    number: singular
+    person: third
+  expected: me
+---
+lemma: ne
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: mene
+- features:
+    number: singular
+  expected: ne
+---
+lemma: ti
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: mV
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: dV
+- features:
+    number: plural
+    person: first
+  expected: mi
+- features:
+    number: plural
+    person: second
+  expected: fi
+- features:
+    number: plural
+    person: third
+  expected: di
+- features:
+    number: singular
+    person: first
+  expected: ti
+- features:
+    number: singular
+    person: second
+  expected: ni

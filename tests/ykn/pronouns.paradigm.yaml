@@ -1,0 +1,97 @@
+lemma: a³³ni²¹
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: a³³ni²¹
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: a³³ni²¹
+---
+lemma: i²¹
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: i²¹
+- features:
+    number: plural
+    person: third
+    possessor_number: plural
+    possessor_person: third
+  expected: i²¹
+---
+lemma: i³³
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: i³³
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: i²¹
+---
+lemma: nu²¹
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: nu²¹
+- features:
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: nu²¹
+---
+lemma: ŋu²¹
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ŋu²¹
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: ŋu²¹
+---
+lemma: ŋu⁵⁵
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: ŋu²¹
+- features:
+    number: singular
+    person: first
+  expected: ŋu⁵⁵
+---
+lemma: ɲi⁵⁵
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: ɲi⁵⁵
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: ɲi²¹

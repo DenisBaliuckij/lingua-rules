@@ -1,0 +1,27 @@
+lemma: wuD
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: do
+- features:
+    gender: feminine
+    number: singular
+  expected: jiD
+- features:
+    gender: masculine
+    number: plural
+  expected: do
+- features:
+    gender: masculine
+    number: singular
+  expected: wuD
+- features:
+    gender: neuter
+    number: plural
+  expected: jiD-by
+- features:
+    gender: neuter
+    number: singular
+  expected: wuD

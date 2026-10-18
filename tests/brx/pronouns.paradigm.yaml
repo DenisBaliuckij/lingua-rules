@@ -1,0 +1,201 @@
+lemma: aN
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: aNkh@u
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: aNn@
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: aNN@
+- features:
+    number: plural
+    person: first
+  expected: j@N
+- features:
+    number: singular
+    person: first
+  expected: aN
+---
+lemma: bi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: bikh@u
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: bin@
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: biy@
+- features:
+    number: plural
+    person: third
+  expected: bich@r
+- features:
+    number: singular
+    person: third
+  expected: bi
+---
+lemma: bich@r
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: bich@rkh@u
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: bich@rn@
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: bich@r@
+- features:
+    number: plural
+    person: third
+  expected: bich@r
+---
+lemma: bithaN
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: bithaNNa
+- features:
+    number: singular
+    person: third
+  expected: bithaN
+---
+lemma: bithaNph@r
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: bithaNph@r@
+- features:
+    number: plural
+    person: third
+  expected: bithaNph@r
+---
+lemma: j@N
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: j@Nkh@u
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: j@Nn@
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: j@NN@
+- features:
+    number: plural
+    person: first
+  expected: j@N
+---
+lemma: n@N
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: n@Nkh@u
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: n@Nn@
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: n@NN@
+- features:
+    number: plural
+    person: second
+  expected: n@Nch@r
+- features:
+    number: singular
+    person: second
+  expected: n@N
+---
+lemma: n@Nch@r
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: n@Nch@rkh@u
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: n@Nch@rn@
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: n@Nch@r@
+- features:
+    number: plural
+    person: second
+  expected: n@Nch@r
+---
+lemma: n@NthaN
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: n@NthaNNa
+- features:
+    number: singular
+    person: second
+  expected: n@NthaN
+---
+lemma: n@NthaNph@r
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: n@NthaNph@r@
+- features:
+    number: plural
+    person: second
+  expected: n@NthaNph@r

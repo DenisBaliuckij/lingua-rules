@@ -1,0 +1,33 @@
+lemma: nai
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: uni
+- features:
+    number: singular
+    person: first
+  expected: nai
+- features:
+    person: second
+  expected: yi
+- features:
+    person: third
+  expected: ini
+---
+lemma: naike
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: naike
+- features:
+    number: singular
+    person: second
+  expected: yaike
+- features:
+    number: singular
+    person: third
+  expected: inike

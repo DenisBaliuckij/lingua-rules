@@ -1,0 +1,99 @@
+lemma: amar
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: participle
+  expected: amant
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: present
+  expected: ama
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: amat
+- features:
+    verb_form: infinitive
+  expected: amar
+---
+lemma: es
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: es
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: es
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: es
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: es
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: es
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: es
+---
+lemma: have
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: have
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: have
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: have
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: have
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: have
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: have

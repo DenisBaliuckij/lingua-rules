@@ -1,0 +1,239 @@
+lemma: ape
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: h-ape'-pia
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: n-ape'-pia
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: h-ape'-pia
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: m-ape'-pia
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: n-ape'-pia
+---
+lemma: ee
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: h-ee-ia
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: n-ee-a
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: h-ee-ia
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: m-ee-ia
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: n-ee-ia
+---
+lemma: ineh
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: h-ineh-tape
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: n-ineh-tape
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: w-ineh-tape
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: m-ineh-tape
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: n-ineh-tape
+---
+lemma: ini
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: h-ini-pia
+- features:
+    mood: imperative
+  expected: ni-ky
+- features:
+    mood: indicative
+    polarity: negative
+  expected: ni-huwa
+---
+lemma: myryky
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: hy-myryky-piany
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ny-myryky-piany
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: hy-myryky-piany
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: my-myryky-piany
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ny-myryky-piany
+---
+lemma: rymy
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: hy-rymy-tape
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ny-rymy-tape
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: wy-rymy-tape
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: my-rymy-tape
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ny-rymy-tape
+---
+lemma: wen-ta
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: hu-wen-ta-pa
+- features:
+    mood: imperative
+  expected: wen-ta-ky
+- features:
+    mood: indicative
+    polarity: negative
+  expected: wen-ta-ha
+---
+lemma: yma
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: h-yma-pa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: n-yma-pa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: w-yma-pa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: m-yma-pa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: n-yma-pa
