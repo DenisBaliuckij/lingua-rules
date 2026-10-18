@@ -1,0 +1,98 @@
+lemma: hax
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: ?ax£-m-i
+- features:
+    case: accusative
+    number: singular
+  expected: ?axi-yi
+- features:
+    case: dative
+    number: plural
+  expected: ?axi-m pomik
+- features:
+    case: dative
+    number: singular
+  expected: hax poyk
+- features:
+    case: locative
+    number: plural
+  expected: pomuta
+- features:
+    case: locative
+    number: singular
+  expected: potu
+- features:
+    case: nominative
+    number: plural
+  expected: ?axi-m
+- features:
+    case: nominative
+    number: singular
+  expected: hax
+---
+lemma: mica-t
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: mica-t-m-i
+- features:
+    case: accusative
+    number: singular
+  expected: mica-t
+- features:
+    case: dative
+    number: plural
+  expected: mica-t-um pomik
+- features:
+    case: dative
+    number: singular
+  expected: mici-k
+- features:
+    case: locative
+    number: plural
+  expected: mica-t-um pomuta
+- features:
+    case: locative
+    number: singular
+  expected: mica-qa
+- features:
+    case: nominative
+    number: plural
+  expected: mica-t-um
+- features:
+    case: nominative
+    number: singular
+  expected: mica-t
+---
+lemma: po?
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    case: accusative
+    number: plural
+  expected: pumo•mi
+- features:
+    animacy: animate
+    case: accusative
+    number: singular
+  expected: poy
+- features:
+    animacy: inanimate
+    case: accusative
+    number: singular
+  expected: puney
+- features:
+    case: nominative
+    number: plural
+  expected: pumom
+- features:
+    case: nominative
+    number: singular
+  expected: po?

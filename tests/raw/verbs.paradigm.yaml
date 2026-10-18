@@ -1,0 +1,21 @@
+lemma: di
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: iIII
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dilli-!
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: iIII

@@ -1,0 +1,50 @@
+lemma: ham
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: optative
+  expected: a-ham-la
+- features:
+    aspect: imperfective
+    tense: past
+  expected: a-hama-q
+- features:
+    aspect: imperfective
+    tense: perfect
+  expected: a-hama-q-ne
+- features:
+    aspect: perfective
+  expected: a-sa-ham-e
+- features:
+    aspect: perfective
+    mood: optative
+  expected: hamla
+- features:
+    aspect: perfective
+    tense: future
+  expected: hamyaq
+- features:
+    aspect: perfective
+    tense: past
+  expected: hama-q
+- features:
+    aspect: perfective
+    tense: perfect
+  expected: hama-q-ne
+- features:
+    aspect: perfective
+    tense: present
+  expected: hame
+- features:
+    aspect: progressive
+    tense: future
+  expected: ba-ham-yaq
+- features:
+    aspect: progressive
+    tense: present
+  expected: ba-ham-e
+- features:
+    tense: present
+    voice: passive
+  expected: ba-ham-ham-e

@@ -1,0 +1,55 @@
+lemma: kīcìn
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kīcìn
+- features:
+    number: dual
+    person: second
+  expected: nyūcìn
+- features:
+    number: dual
+    person: third
+  expected: wì.cìn
+---
+lemma: kīn
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kīn
+- features:
+    number: plural
+    person: second
+  expected: nyūnìn
+- features:
+    number: plural
+    person: third
+  expected: wìn
+---
+lemma: kīnwìʔ
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kīnwìʔ
+---
+lemma: kı᷆
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: kı᷆
+- features:
+    number: singular
+    person: second
+  expected: nyu᷆
+- features:
+    number: singular
+    person: third
+  expected: wì

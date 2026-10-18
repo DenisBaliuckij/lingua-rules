@@ -1,0 +1,31 @@
+lemma: he
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: hewu
+- features:
+    number: singular
+  expected: he
+---
+lemma: kay
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: kaywu
+- features:
+    number: singular
+    person: third
+  expected: kay
+---
+lemma: lo
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: lo’wu
+- features:
+    number: singular
+  expected: lo

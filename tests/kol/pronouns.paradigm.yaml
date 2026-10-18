@@ -1,0 +1,62 @@
+lemma: ma
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: news
+- features:
+    number: plural
+    person: first
+  expected: biza
+- features:
+    number: plural
+    person: second
+  expected: be
+- features:
+    number: plural
+    person: third
+  expected: mwa
+- features:
+    number: singular
+    person: first
+  expected: ma
+- features:
+    number: singular
+    person: second
+  expected: wo
+- features:
+    number: singular
+    person: third
+  expected: bwo
+---
+lemma: mo
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: biza
+- features:
+    number: plural
+    person: second
+  expected: be
+- features:
+    number: plural
+    person: third
+  expected: bwo
+- features:
+    number: singular
+  expected: dwo
+- features:
+    number: singular
+    person: first
+  expected: mo
+- features:
+    number: singular
+    person: second
+  expected: wo
+- features:
+    number: singular
+    person: third
+  expected: j™

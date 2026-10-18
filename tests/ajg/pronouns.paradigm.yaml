@@ -1,0 +1,55 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mì à
+- features:
+    number: plural
+    person: second
+  expected: mí á
+- features:
+    number: plural
+    person: third
+  expected: wòà
+- features:
+    number: singular
+    person: first
+  expected: nà
+- features:
+    number: singular
+    person: second
+  expected: a
+- features:
+    number: singular
+    person: third
+  expected: á
+---
+lemma: Ǹ
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mì
+- features:
+    number: plural
+    person: second
+  expected: mí
+- features:
+    number: plural
+    person: third
+  expected: wò
+- features:
+    number: singular
+    person: first
+  expected: Ǹ
+- features:
+    number: singular
+    person: second
+  expected: e
+- features:
+    number: singular
+    person: third
+  expected: é
