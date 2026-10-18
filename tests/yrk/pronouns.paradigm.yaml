@@ -1,0 +1,340 @@
+lemma: sʹiqn°
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: sʹid°qnʹih
+- features:
+    case: genitive
+    number: dual
+    person: second
+  expected: sʹid°tʹih
+- features:
+    case: genitive
+    number: dual
+    person: third
+  expected: sʹid°tʹih
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: sʹid°qnaq
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: sʹid°taq
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: sʹid°toh
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: sʹiqn°
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: sʹit°
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: sʹita
+---
+lemma: xərəqn°
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: xər°nʹʹih
+- features:
+    number: dual
+    person: second
+  expected: xər°tʹih
+- features:
+    number: dual
+    person: third
+  expected: xər°tʹih
+- features:
+    number: plural
+    person: first
+  expected: xər°qnaq
+- features:
+    number: plural
+    person: second
+  expected: xər°taq
+- features:
+    number: plural
+    person: third
+  expected: xər°toh
+- features:
+    number: singular
+    person: first
+  expected: xərəqn°
+- features:
+    number: singular
+    person: second
+  expected: xərət°
+- features:
+    number: singular
+    person: third
+  expected: xər°ta
+---
+lemma: мань
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: first
+  expected: мани' н я д а н и
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: м аня' н я д а н а
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: мань няд ан
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: мани' сидни
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: м аня' сидна
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: мань си'ми
+- features:
+    case: comitative
+    number: dual
+    person: first
+  expected: м ани' н я м н а н и
+- features:
+    case: comitative
+    number: plural
+    person: first
+  expected: маня ням нана
+- features:
+    case: comitative
+    number: singular
+    person: first
+  expected: мань н я м н а н
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: мани' н я н и \
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: маня няна
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: манъ н ян
+- features:
+    case: locative
+    number: dual
+    person: first
+  expected: м ани нянани
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: май я н я н а н а
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: манъ н я н а н %
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: мани
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: маня
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: мань
+---
+lemma: пыда
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: third
+  expected: пыди’ няд анди
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: пыдо н я д а н д о
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: пыда ня д а н д а
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: пыда сит а
+- features:
+    case: comitative
+    number: singular
+    person: third
+  expected: пыда н я м н а н д а
+- features:
+    case: dative
+    number: dual
+    person: third
+  expected: пыди н я н д и \
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: пыдо няндо
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: пыда н я н д а
+- features:
+    case: locative
+    number: dual
+    person: third
+  expected: пыди нянанди
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: пыдо н я н а н д о %
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: пыда н я н а н д а
+- features:
+    case: nominative
+    number: dual
+    person: third
+  expected: пыди' ‘они
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: пыдо ‘они
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: пыда 'он
+---
+lemma: пыдар
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: пыдара няданда
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: пыдар няд а нд
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: пыдари’ сидди
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: пыдара сидда
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: пыдар сит
+- features:
+    case: comitative
+    number: dual
+    person: second
+  expected: пыдари ня м н а н д а
+- features:
+    case: comitative
+    number: singular
+    person: second
+  expected: пыдар н я м н а н д
+- features:
+    case: dative
+    number: dual
+    person: second
+  expected: пыдари нянди
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: пыдара н я н д а
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: пыдар н я н д
+- features:
+    case: locative
+    number: dual
+    person: second
+  expected: пыдари нянанди
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: пыдара н я н а н д а
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: пыдар н я н а н д
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: пыдари"ъ ы
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: пыдара 'вы
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: пыдар 'ты

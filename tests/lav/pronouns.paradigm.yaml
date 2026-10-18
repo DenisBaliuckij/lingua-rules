@@ -1,0 +1,725 @@
+lemma: es
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: mani
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: mani
+- features:
+    case: dative
+    number: singular
+  expected: man
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: maņ
+- features:
+    case: genitive
+    number: singular
+  expected: manis
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: mane
+- features:
+    case: instrumental
+    number: singular
+  expected: mani
+- features:
+    case: locative
+    number: singular
+  expected: manī
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: manī
+- features:
+    case: nominative
+    number: singular
+  expected: es
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: es
+---
+lemma: jiusej-ais
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: jiusej-ais
+---
+lemma: jūs
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: jūs
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: jūs
+- features:
+    case: dative
+    number: plural
+  expected: jums
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: jums
+- features:
+    case: genitive
+    number: plural
+  expected: jūsu
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: jūs
+- features:
+    case: instrumental
+    number: plural
+  expected: jums
+- features:
+    case: locative
+    number: plural
+  expected: jūsos
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: jūsūs
+- features:
+    case: nominative
+    number: plural
+  expected: jūs
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: jūs
+---
+lemma: jūsējais
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: jūsējās
+- features:
+    gender: feminine
+    number: singular
+  expected: jūsējā
+- features:
+    gender: masculine
+    number: plural
+  expected: jūsējie
+- features:
+    gender: masculine
+    number: singular
+  expected: jūsējais
+---
+lemma: kas
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: ku
+- features:
+    case: dative
+    number: singular
+  expected: kam
+- features:
+    case: genitive
+    number: singular
+  expected: kuo
+- features:
+    case: locative
+    gender: feminine
+    number: plural
+  expected: kamuos
+- features:
+    case: locative
+    gender: masculine
+    number: plural
+  expected: kimUs
+- features:
+    case: locative
+    number: singular
+  expected: kima
+- features:
+    case: nominative
+    number: singular
+  expected: kas
+---
+lemma: manējais
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: manējās
+- features:
+    gender: feminine
+    number: singular
+  expected: manējā
+- features:
+    gender: masculine
+    number: plural
+  expected: manējie
+- features:
+    gender: masculine
+    number: singular
+  expected: manējais
+---
+lemma: mes
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: mūs
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: mums
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: mūs
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: mūsūs
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: mes
+---
+lemma: mun-s
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: mun-s
+---
+lemma: munej-ais
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: munej-ais
+---
+lemma: musej-ais
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: musej-ais
+---
+lemma: mēs
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: mūs
+- features:
+    case: dative
+    number: plural
+  expected: mums
+- features:
+    case: genitive
+    number: plural
+  expected: mūsu
+- features:
+    case: instrumental
+    number: plural
+  expected: mums
+- features:
+    case: locative
+    number: plural
+  expected: mūsos
+- features:
+    case: nominative
+    number: plural
+  expected: mēs
+---
+lemma: mūsējais
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: mūsējās
+- features:
+    gender: feminine
+    number: singular
+  expected: mūsējā
+- features:
+    gender: masculine
+    number: plural
+  expected: mūsējie
+- features:
+    gender: masculine
+    number: singular
+  expected: mūsējais
+---
+lemma: pats
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: paš-us
+- features:
+    case: accusative
+    number: singular
+  expected: paš-u
+- features:
+    case: dative
+    number: plural
+  expected: paš-iem
+- features:
+    case: dative
+    number: singular
+  expected: paš-am
+- features:
+    case: genitive
+    number: plural
+  expected: paš-u
+- features:
+    case: genitive
+    number: singular
+  expected: paš-a
+- features:
+    case: instrumental
+    number: plural
+  expected: paš-iem
+- features:
+    case: instrumental
+    number: singular
+  expected: paš-u
+- features:
+    case: locative
+    number: plural
+  expected: paš-os
+- features:
+    case: locative
+    number: singular
+  expected: paš-ā
+- features:
+    case: nominative
+    number: plural
+  expected: paš-i
+- features:
+    case: nominative
+    number: singular
+  expected: pats
+---
+lemma: savējais
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: savējās
+- features:
+    gender: feminine
+    number: singular
+  expected: savējā
+- features:
+    gender: masculine
+    number: plural
+  expected: savējie
+- features:
+    gender: masculine
+    number: singular
+  expected: savējais
+---
+lemma: sev
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: sevi
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: sev
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: seve
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: sevī
+---
+lemma: sov-s
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: sov-s
+---
+lemma: sovej-ais
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: sovej-ais
+---
+lemma: tas
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: tos
+- features:
+    case: accusative
+    number: singular
+  expected: to
+- features:
+    case: dative
+    number: plural
+  expected: tiem
+- features:
+    case: dative
+    number: singular
+  expected: tam
+- features:
+    case: genitive
+    number: plural
+  expected: to
+- features:
+    case: genitive
+    number: singular
+  expected: tā
+- features:
+    case: instrumental
+    number: plural
+  expected: ar tiem
+- features:
+    case: instrumental
+    number: singular
+  expected: ar to
+- features:
+    case: locative
+    number: plural
+  expected: tajos
+- features:
+    case: locative
+    number: singular
+  expected: tajā
+- features:
+    case: nominative
+    number: plural
+  expected: tie
+- features:
+    case: nominative
+    number: singular
+  expected: tas
+---
+lemma: tavējais
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: tavējās
+- features:
+    gender: feminine
+    number: singular
+  expected: tavējā
+- features:
+    gender: masculine
+    number: plural
+  expected: tavējie
+- features:
+    gender: masculine
+    number: singular
+  expected: tavējais
+---
+lemma: tov-s
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: tov-s
+---
+lemma: tovej-ais
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: tovej-ais
+---
+lemma: tu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: tevi
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: tevi
+- features:
+    case: dative
+    number: singular
+  expected: tev
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: tev
+- features:
+    case: genitive
+    number: singular
+  expected: tevis
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: teve
+- features:
+    case: instrumental
+    number: singular
+  expected: tevi
+- features:
+    case: locative
+    number: singular
+  expected: tevī
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: tevī
+- features:
+    case: nominative
+    number: singular
+  expected: tu
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: tu
+---
+lemma: tā
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: tās
+- features:
+    case: accusative
+    number: singular
+  expected: to
+- features:
+    case: dative
+    number: plural
+  expected: tām
+- features:
+    case: dative
+    number: singular
+  expected: tai
+- features:
+    case: genitive
+    number: plural
+  expected: to
+- features:
+    case: genitive
+    number: singular
+  expected: tās
+- features:
+    case: instrumental
+    number: plural
+  expected: ar tām
+- features:
+    case: instrumental
+    number: singular
+  expected: ar to
+- features:
+    case: locative
+    number: plural
+  expected: tajās
+- features:
+    case: locative
+    number: singular
+  expected: tajā
+- features:
+    case: nominative
+    number: plural
+  expected: tās
+- features:
+    case: nominative
+    number: singular
+  expected: tā
+---
+lemma: viņējais
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: viņējās
+- features:
+    gender: feminine
+    number: singular
+  expected: viņējā
+- features:
+    gender: masculine
+    number: plural
+  expected: viņējie
+- features:
+    gender: masculine
+    number: singular
+  expected: viņējais
+---
+lemma: šis
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: šos
+- features:
+    case: accusative
+    number: singular
+  expected: šo
+- features:
+    case: dative
+    number: plural
+  expected: šiem
+- features:
+    case: dative
+    number: singular
+  expected: šim
+- features:
+    case: genitive
+    number: plural
+  expected: šo
+- features:
+    case: genitive
+    number: singular
+  expected: šā
+- features:
+    case: instrumental
+    number: plural
+  expected: ar šiem
+- features:
+    case: instrumental
+    number: singular
+  expected: ar šo
+- features:
+    case: locative
+    number: plural
+  expected: šajos
+- features:
+    case: locative
+    number: singular
+  expected: šajā
+- features:
+    case: nominative
+    number: plural
+  expected: šie
+- features:
+    case: nominative
+    number: singular
+  expected: šis
+---
+lemma: šī
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: šīs
+- features:
+    case: accusative
+    number: singular
+  expected: šo
+- features:
+    case: dative
+    number: plural
+  expected: šīm
+- features:
+    case: dative
+    number: singular
+  expected: šai
+- features:
+    case: genitive
+    number: plural
+  expected: šo
+- features:
+    case: genitive
+    number: singular
+  expected: šās
+- features:
+    case: instrumental
+    number: plural
+  expected: ar šīm
+- features:
+    case: instrumental
+    number: singular
+  expected: ar šo
+- features:
+    case: locative
+    number: plural
+  expected: šajās
+- features:
+    case: locative
+    number: singular
+  expected: šajā
+- features:
+    case: nominative
+    number: plural
+  expected: šīs
+- features:
+    case: nominative
+    number: singular
+  expected: šī

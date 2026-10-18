@@ -1,0 +1,325 @@
+lemma: aku
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: wake'k
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: uk^k
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: makek
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: niaek
+- features:
+    number: dual
+    person: first
+  expected: iwek
+- features:
+    number: dual
+    person: second
+  expected: uwek
+- features:
+    number: dual
+    person: third
+  expected: mbak^k
+- features:
+    number: plural
+    person: first
+  expected: i i^€k
+- features:
+    number: plural
+    person: second
+  expected: um^k
+- features:
+    number: singular
+    person: first
+  expected: ak^k
+- features:
+    number: singular
+    person: second
+  expected: tsik^k
+- features:
+    number: singular
+    person: third
+  expected: mikek
+---
+lemma: ek
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: mbok
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: mbak
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: mtk
+- features:
+    animacy: inanimate
+    number: dual
+    person: third
+  expected: ngak
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: ngik
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: wak
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: mbak
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ak
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: wak
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: mbak
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: niu
+- features:
+    gender: neuter
+    number: dual
+    person: third
+  expected: mak
+- features:
+    gender: neuter
+    number: plural
+    person: third
+  expected: mm
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: ik
+- features:
+    number: dual
+    person: first
+  expected: im
+- features:
+    number: dual
+    person: second
+  expected: mak
+- features:
+    number: plural
+    person: first
+  expected: ip
+- features:
+    number: plural
+    person: second
+  expected: um
+- features:
+    number: singular
+    person: first
+  expected: ek
+- features:
+    number: singular
+    person: second
+  expected: tsek
+---
+lemma: kanüa
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: dual
+  expected: kanddmak
+- features:
+    gender: common
+    number: singular
+  expected: kandäik
+- features:
+    gender: feminine
+    number: dual
+  expected: kandawak
+- features:
+    gender: feminine
+    number: plural
+  expected: kandämbok
+- features:
+    gender: feminine
+    number: singular
+  expected: kanüa
+- features:
+    gender: masculine
+    number: dual
+  expected: kanddmak
+- features:
+    gender: masculine
+    number: plural
+  expected: kandämia
+- features:
+    gender: masculine
+    number: singular
+  expected: kanüa
+- features:
+    gender: neuter
+    number: dual
+  expected: kandämbak
+- features:
+    gender: neuter
+    number: singular
+  expected: kandämik
+---
+lemma: ni
+category: pronouns
+cases:
+- features:
+    case: instrumental
+    number: dual
+  expected: nangan
+- features:
+    case: instrumental
+    number: singular
+  expected: nan
+- features:
+    case: oblique
+    number: dual
+  expected: naman
+- features:
+    case: oblique
+    number: singular
+  expected: na
+- features:
+    gender: common
+    number: dual
+  expected: namän
+- features:
+    gender: common
+    number: singular
+  expected: na
+- features:
+    gender: feminine
+    number: dual
+  expected: nawdn
+- features:
+    gender: feminine
+    number: plural
+  expected: kandämbok
+- features:
+    gender: feminine
+    number: singular
+  expected: na
+- features:
+    gender: masculine
+    number: dual
+  expected: namdn
+- features:
+    gender: masculine
+    number: plural
+  expected: tsan
+- features:
+    gender: masculine
+    number: singular
+  expected: ni
+- features:
+    gender: neuter
+    number: dual
+  expected: nambdn
+- features:
+    gender: neuter
+    number: singular
+  expected: nam
+---
+lemma: panini
+category: pronouns
+cases:
+- features:
+    case: instrumental
+    number: dual
+  expected: pandnaagan
+- features:
+    case: instrumental
+    number: singular
+  expected: pananaa
+- features:
+    case: nominative
+    number: dual
+  expected: pandnaman
+- features:
+    case: nominative
+    number: singular
+  expected: pandna
+- features:
+    case: oblique
+    number: dual
+  expected: pandnaman
+- features:
+    case: oblique
+    number: plural
+  expected: panipanini
+- features:
+    case: oblique
+    number: singular
+  expected: pandna
+- features:
+    gender: feminine
+    number: dual
+  expected: pandnawan
+- features:
+    gender: feminine
+    number: plural
+  expected: panapandnaa
+- features:
+    gender: feminine
+    number: singular
+  expected: pandna
+- features:
+    gender: masculine
+    number: dual
+  expected: panänaman
+- features:
+    gender: masculine
+    number: plural
+  expected: panänaa
+- features:
+    gender: masculine
+    number: singular
+  expected: panini
+- features:
+    gender: neuter
+    number: dual
+  expected: pandnamban
+- features:
+    gender: neuter
+    number: plural
+  expected: panini
+- features:
+    gender: neuter
+    number: singular
+  expected: pandnam

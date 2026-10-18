@@ -1,0 +1,301 @@
+lemma: ako
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ko
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ako
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: sa akin
+- features:
+    number: plural
+    person: first
+  expected: tayo
+- features:
+    number: plural
+    person: second
+  expected: kayo
+- features:
+    number: plural
+    person: third
+  expected: sila
+- features:
+    number: singular
+    person: first
+  expected: ako
+- features:
+    number: singular
+    person: second
+  expected: ikaw
+- features:
+    number: singular
+    person: third
+  expected: siya
+---
+lemma: ang mga ito
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: ng mga ito
+- features:
+    case: nominative
+    number: plural
+  expected: ang mga ito
+- features:
+    case: oblique
+    number: plural
+  expected: sa mga ito
+---
+lemma: ang mga iyan
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: ng mga iyan
+- features:
+    case: nominative
+    number: plural
+  expected: ang mga iyan
+- features:
+    case: oblique
+    number: plural
+  expected: sa mga iyan
+---
+lemma: ang mga iyon
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: ng mga iyon
+- features:
+    case: nominative
+    number: plural
+  expected: ang mga iyon
+- features:
+    case: oblique
+    number: plural
+  expected: sa mga iyon
+---
+lemma: ito
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: mga ito
+- features:
+    case: genitive
+    number: singular
+  expected: nito
+- features:
+    case: nominative
+    number: plural
+  expected: mga ito
+- features:
+    case: nominative
+    number: singular
+  expected: ito
+- features:
+    case: oblique
+    number: plural
+  expected: mga ito
+- features:
+    case: oblique
+    number: singular
+  expected: dito
+---
+lemma: iyan
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: mga iyan
+- features:
+    case: genitive
+    number: singular
+  expected: niyan
+- features:
+    case: nominative
+    number: plural
+  expected: mga iyan
+- features:
+    case: nominative
+    number: singular
+  expected: iyan
+- features:
+    case: oblique
+    number: plural
+  expected: mga iyan
+- features:
+    case: oblique
+    number: singular
+  expected: diyan
+---
+lemma: iyon
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: mga iyon
+- features:
+    case: genitive
+    number: singular
+  expected: niyon
+- features:
+    case: nominative
+    number: plural
+  expected: mga iyon
+- features:
+    case: nominative
+    number: singular
+  expected: iyon
+- features:
+    case: oblique
+    number: plural
+  expected: mga iyon
+- features:
+    case: oblique
+    number: singular
+  expected: doon
+---
+lemma: kami
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: kami
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: sa amin
+---
+lemma: kayo
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: ninyo
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: kayo
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: sa inyo
+---
+lemma: ko
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: natin
+- features:
+    number: plural
+    person: second
+  expected: ninyo
+- features:
+    number: plural
+    person: third
+  expected: nila
+- features:
+    number: singular
+    person: first
+  expected: ko
+- features:
+    number: singular
+    person: second
+  expected: mo
+- features:
+    number: singular
+    person: third
+  expected: niya
+---
+lemma: sa akin
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: sa atin
+- features:
+    number: plural
+    person: second
+  expected: sa inyo
+- features:
+    number: plural
+    person: third
+  expected: sa kanila
+- features:
+    number: singular
+    person: first
+  expected: sa akin
+- features:
+    number: singular
+    person: second
+  expected: sa iyo
+- features:
+    number: singular
+    person: third
+  expected: sa kanila
+---
+lemma: sila
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: nila
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: sila
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: sa kanila
+---
+lemma: siya
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: niya
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: siya
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: sa kanya

@@ -1,0 +1,276 @@
+lemma: a
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+  expected: naoa
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+  expected: nayaaa
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+  expected: naifna
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+  expected: naaa
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: nfuna
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: nayoa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nauwa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: naa
+---
+lemma: a den ne
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: adenne
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: adenne
+---
+lemma: kai
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: meOLXtx
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: meiLtXi
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: meiLxii
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: miLxe
+- features:
+    number: plural
+    person: first
+  expected: do
+---
+lemma: le
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: naiie
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nauwLe
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: naLe
+- features:
+    mood: potential
+    number: plural
+    person: third
+    tense: present
+  expected: nayaLu
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: present
+  expected: naLui
+---
+lemma: loi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: yisloi
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: yilloi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: seloi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: iuiloi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: silloi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: illoi
+---
+lemma: mas
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: yufmmas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yamas
+---
+lemma: na wa
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: dual
+    person: second
+  expected: na
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+  expected: naiya
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: naicdiL
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: nasodeL
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: naseya
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: naisya
+---
+lemma: t-us
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: keiulwtfus
+- features:
+    number: singular
+    person: third
+  expected: ylkeittfus
+---
+lemma: tcit
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: intcit
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: tcotcit
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: intcit
+---
+lemma: xauw
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yaixauw
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yexauw

@@ -1,0 +1,864 @@
+lemma: ава
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: ава
+- features:
+    case: vocative
+  expected: авай
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: авана
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: авада
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: авашт
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: авам
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: ават
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: аваже
+---
+lemma: ака
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: ака
+- features:
+    case: vocative
+  expected: акай
+---
+lemma: ача
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: ача
+- features:
+    case: vocative
+  expected: ачай
+---
+lemma: вате
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: вате
+- features:
+    case: vocative
+    possessor_number: singular
+    possessor_person: first
+  expected: ватем
+---
+lemma: веҥе
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: веҥе
+- features:
+    case: vocative
+    possessor_number: singular
+    possessor_person: first
+  expected: веҥым
+---
+lemma: еҥга
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: еҥга
+- features:
+    case: vocative
+  expected: еҥгай
+---
+lemma: иза
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: иза
+- features:
+    case: vocative
+  expected: изай
+---
+lemma: йоча
+category: nouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: йочавлакым
+- features:
+    case: accusative
+    number: singular
+  expected: йочам
+- features:
+    case: comitative
+    number: plural
+  expected: йочавлакге
+- features:
+    case: comitative
+    number: singular
+  expected: йочаге
+- features:
+    case: dative
+    number: plural
+  expected: йочавлаклан
+- features:
+    case: dative
+    number: singular
+  expected: йочалан
+- features:
+    case: genitive
+    number: plural
+  expected: йочавлакын
+- features:
+    case: genitive
+    number: singular
+  expected: йочан
+- features:
+    case: nominative
+    number: plural
+  expected: йочавлак
+- features:
+    case: nominative
+    number: singular
+  expected: йоча
+- features:
+    degree: comparative
+    number: plural
+  expected: йочавлакла
+- features:
+    degree: comparative
+    number: singular
+  expected: йочала
+---
+lemma: книга-м
+category: nouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: книга-м-влак-ым
+- features:
+    case: accusative
+    number: singular
+  expected: книга-м-ым
+- features:
+    case: allative
+    number: plural
+  expected: книга-влак-еш-ем
+- features:
+    case: allative
+    number: singular
+  expected: книга-ш-ем
+- features:
+    case: comitative
+    number: plural
+  expected: книга-м-влак-ге
+- features:
+    case: comitative
+    number: singular
+  expected: книга-м-ге
+- features:
+    case: dative
+    number: plural
+  expected: книга-м-влак-лан
+- features:
+    case: dative
+    number: singular
+  expected: книга-м-лан
+- features:
+    case: genitive
+    number: plural
+  expected: книга-м-влак-ын
+- features:
+    case: genitive
+    number: singular
+  expected: книга-м-ын
+- features:
+    case: illative
+    number: plural
+  expected: книга-влак-ышк-ем
+- features:
+    case: illative
+    number: singular
+  expected: книга-шк-ем
+- features:
+    case: inessive
+    number: plural
+  expected: книга-влак-ышт-ем
+- features:
+    case: inessive
+    number: singular
+  expected: книга-шт-ем
+- features:
+    case: nominative
+    number: plural
+  expected: книга-м-влак
+- features:
+    case: nominative
+    number: singular
+  expected: книга-м
+- features:
+    degree: comparative
+    number: plural
+  expected: книга-м-влак-ла
+- features:
+    degree: comparative
+    number: singular
+  expected: книга-м-ла
+---
+lemma: кова
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: кова
+- features:
+    case: vocative
+  expected: ковай
+---
+lemma: кока
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: кока
+- features:
+    case: vocative
+  expected: кокай
+---
+lemma: коча
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: коча
+- features:
+    case: vocative
+  expected: кочай
+---
+lemma: кугыза
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: кугыза
+- features:
+    case: vocative
+  expected: кугызай
+---
+lemma: курска
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: курска
+- features:
+    case: vocative
+  expected: курскай
+---
+lemma: марий
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: марий
+- features:
+    case: vocative
+    possessor_number: singular
+    possessor_person: first
+  expected: марием
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: марийна
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: марийда
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: марийышт
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: марием
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: мариет
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: марийже
+---
+lemma: пӧрт
+category: nouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: пӧрт-влак-ым
+- features:
+    case: accusative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: пӧртвлакемым
+- features:
+    case: accusative
+    number: singular
+  expected: пӧртым
+- features:
+    case: accusative
+    possessor_number: plural
+    possessor_person: first
+  expected: пӧрт-на-м
+- features:
+    case: accusative
+    possessor_number: plural
+    possessor_person: second
+  expected: пӧрт-да-м
+- features:
+    case: accusative
+    possessor_number: plural
+    possessor_person: third
+  expected: пӧрт-ышт-ым
+- features:
+    case: accusative
+    possessor_number: singular
+    possessor_person: first
+  expected: пӧрт-ем-ым
+- features:
+    case: accusative
+    possessor_number: singular
+    possessor_person: second
+  expected: пӧрт-ет-ым
+- features:
+    case: accusative
+    possessor_number: singular
+    possessor_person: third
+  expected: пӧрт-шы-м
+- features:
+    case: allative
+    number: plural
+  expected: пӧртвлакеш
+- features:
+    case: allative
+    number: singular
+  expected: пӧртеш
+- features:
+    case: allative
+    possessor_number: plural
+    possessor_person: first
+  expected: пӧрт-еш-на
+- features:
+    case: allative
+    possessor_number: plural
+    possessor_person: second
+  expected: пӧрт-еш-да
+- features:
+    case: allative
+    possessor_number: plural
+    possessor_person: third
+  expected: пӧрт-еш-ышт
+- features:
+    case: allative
+    possessor_number: singular
+    possessor_person: first
+  expected: пӧрт-еш-ем
+- features:
+    case: allative
+    possessor_number: singular
+    possessor_person: second
+  expected: пӧрт-еш-ет
+- features:
+    case: allative
+    possessor_number: singular
+    possessor_person: third
+  expected: пӧрт-еш-ыже
+- features:
+    case: comitative
+    number: plural
+  expected: пӧртвлакге
+- features:
+    case: comitative
+    number: singular
+  expected: пӧртге
+- features:
+    case: dative
+    number: plural
+  expected: пӧрт-влак-лан
+- features:
+    case: dative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: пӧртвлакемлан
+- features:
+    case: dative
+    number: singular
+  expected: пӧртлан
+- features:
+    case: dative
+    possessor_number: plural
+    possessor_person: first
+  expected: пӧрт-на-лан
+- features:
+    case: dative
+    possessor_number: plural
+    possessor_person: second
+  expected: пӧрт-да-лан
+- features:
+    case: dative
+    possessor_number: plural
+    possessor_person: third
+  expected: пӧрт-ышт-лан
+- features:
+    case: dative
+    possessor_number: singular
+    possessor_person: first
+  expected: пӧрт-ем-лан
+- features:
+    case: dative
+    possessor_number: singular
+    possessor_person: second
+  expected: пӧрт-ет-лан
+- features:
+    case: dative
+    possessor_number: singular
+    possessor_person: third
+  expected: пӧрт-шы-лан
+- features:
+    case: genitive
+    number: plural
+  expected: пӧрт-влак-ын
+- features:
+    case: genitive
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: пӧртвлакемын
+- features:
+    case: genitive
+    number: singular
+  expected: пӧртын
+- features:
+    case: genitive
+    possessor_number: plural
+    possessor_person: first
+  expected: пӧрт-на-н
+- features:
+    case: genitive
+    possessor_number: plural
+    possessor_person: second
+  expected: пӧрт-да-н
+- features:
+    case: genitive
+    possessor_number: plural
+    possessor_person: third
+  expected: пӧрт-ышт-ын
+- features:
+    case: genitive
+    possessor_number: singular
+    possessor_person: first
+  expected: пӧрт-ем-ын
+- features:
+    case: genitive
+    possessor_number: singular
+    possessor_person: second
+  expected: пӧрт-ет-ын
+- features:
+    case: genitive
+    possessor_number: singular
+    possessor_person: third
+  expected: пӧрт-шы-н
+- features:
+    case: illative
+    number: plural
+  expected: пӧрт-влак-ыш
+- features:
+    case: illative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: пӧртвлакышкем
+- features:
+    case: illative
+    number: singular
+  expected: пӧртыш
+- features:
+    case: illative
+    possessor_number: plural
+    possessor_person: first
+  expected: пӧрт-ышкы-на
+- features:
+    case: illative
+    possessor_number: plural
+    possessor_person: second
+  expected: пӧрт-ышкы-да
+- features:
+    case: illative
+    possessor_number: plural
+    possessor_person: third
+  expected: пӧрт-ышкы-шт
+- features:
+    case: illative
+    possessor_number: singular
+    possessor_person: first
+  expected: пӧрт-ышк-ем
+- features:
+    case: illative
+    possessor_number: singular
+    possessor_person: second
+  expected: пӧрт-ышк-ет
+- features:
+    case: illative
+    possessor_number: singular
+    possessor_person: third
+  expected: пӧрт-ышкы-жӧ
+- features:
+    case: inessive
+    number: plural
+  expected: пӧрт-влак-ыште
+- features:
+    case: inessive
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: пӧртвлакыштем
+- features:
+    case: inessive
+    number: singular
+  expected: пӧртыштӧ
+- features:
+    case: inessive
+    possessor_number: plural
+    possessor_person: first
+  expected: пӧрт-ышты-на
+- features:
+    case: inessive
+    possessor_number: plural
+    possessor_person: second
+  expected: пӧрт-ышты-да
+- features:
+    case: inessive
+    possessor_number: plural
+    possessor_person: third
+  expected: пӧрт-ышты-шт
+- features:
+    case: inessive
+    possessor_number: singular
+    possessor_person: first
+  expected: пӧрт-ышт-ем
+- features:
+    case: inessive
+    possessor_number: singular
+    possessor_person: second
+  expected: пӧрт-ышт-ет
+- features:
+    case: inessive
+    possessor_number: singular
+    possessor_person: third
+  expected: пӧрт-ышты-жӧ
+- features:
+    case: nominative
+    number: plural
+  expected: пӧртвлак
+- features:
+    case: nominative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: пӧртвлакем
+- features:
+    case: nominative
+    number: singular
+  expected: пӧрт
+- features:
+    case: nominative
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: пӧртна
+- features:
+    case: nominative
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: пӧртда
+- features:
+    case: nominative
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: пӧртышт
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: пӧртем
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: пӧртет
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: пӧртшӧ
+- features:
+    degree: comparative
+    number: plural
+  expected: пӧртвлакла
+- features:
+    degree: comparative
+    number: singular
+  expected: пӧртла
+- features:
+    degree: comparative
+    possessor_number: plural
+    possessor_person: first
+  expected: пӧрт-на-ла
+- features:
+    degree: comparative
+    possessor_number: plural
+    possessor_person: second
+  expected: пӧрт-да-ла
+- features:
+    degree: comparative
+    possessor_number: plural
+    possessor_person: third
+  expected: пӧрт-ышт-ла
+- features:
+    degree: comparative
+    possessor_number: singular
+    possessor_person: first
+  expected: пӧрт-ем-ла
+- features:
+    degree: comparative
+    possessor_number: singular
+    possessor_person: second
+  expected: пӧрт-ет-ла
+- features:
+    degree: comparative
+    possessor_number: singular
+    possessor_person: third
+  expected: пӧрт-шы-ла
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: пӧртвлакна
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: пӧртвлакда
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: пӧртвлакышт
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: пӧртвлакем
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: пӧртвлакет
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: пӧртвлакше
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: пӧртна
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: пӧртда
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: пӧртышт
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: пӧртем
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: пӧртет
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: пӧртшӧ
+---
+lemma: тумо
+category: nouns
+cases:
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: тумы-на
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: тумы-да
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: тумы-шт
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: тумем
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: тумы-жо
+---
+lemma: уныка
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: уныка
+- features:
+    case: vocative
+    possessor_number: singular
+    possessor_person: first
+  expected: уныкам
+---
+lemma: чӱчӱ
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: чӱчӱ
+- features:
+    case: vocative
+  expected: чӱчӱй
+---
+lemma: чӱчӱньӧ
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: чӱчӱньӧ
+- features:
+    case: vocative
+    possessor_number: singular
+    possessor_person: first
+  expected: чӱчӱньым
+---
+lemma: шешке
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: шешке
+- features:
+    case: vocative
+    possessor_number: singular
+    possessor_person: first
+  expected: шешкым
+---
+lemma: шольо
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: шольо
+- features:
+    case: vocative
+    possessor_number: singular
+    possessor_person: first
+  expected: шольым
+---
+lemma: шӱжар
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: шӱжар
+- features:
+    case: vocative
+    possessor_number: singular
+    possessor_person: first
+  expected: шӱжарем
+---
+lemma: эрге
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: эрге
+- features:
+    case: vocative
+    possessor_number: singular
+    possessor_person: first
+  expected: эргым
+---
+lemma: ӱдыр
+category: nouns
+cases:
+- features:
+    case: nominative
+  expected: ӱдыр
+- features:
+    case: vocative
+    possessor_number: singular
+    possessor_person: first
+  expected: ӱдырем

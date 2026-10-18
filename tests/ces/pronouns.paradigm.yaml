@@ -1,0 +1,893 @@
+lemma: co
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: co
+- features:
+    case: dative
+    number: singular
+  expected: čemu
+- features:
+    case: genitive
+    number: singular
+  expected: čeho
+- features:
+    case: instrumental
+    number: singular
+  expected: čím
+- features:
+    case: locative
+    number: singular
+  expected: čem
+- features:
+    case: nominative
+    number: singular
+  expected: co
+---
+lemma: já
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: nás
+- features:
+    case: accusative
+    number: singular
+  expected: mne
+- features:
+    case: dative
+    number: plural
+  expected: nám
+- features:
+    case: dative
+    number: singular
+  expected: mně
+- features:
+    case: genitive
+    number: plural
+  expected: nás
+- features:
+    case: genitive
+    number: singular
+  expected: mne
+- features:
+    case: instrumental
+    number: plural
+  expected: námi
+- features:
+    case: instrumental
+    number: singular
+  expected: mnou
+- features:
+    case: locative
+    number: plural
+  expected: nás
+- features:
+    case: locative
+    number: singular
+  expected: mně
+- features:
+    case: nominative
+    number: plural
+  expected: my
+- features:
+    case: nominative
+    number: singular
+  expected: já
+---
+lemma: kdo
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: koho
+- features:
+    case: dative
+    number: singular
+  expected: komu
+- features:
+    case: genitive
+    number: singular
+  expected: koho
+- features:
+    case: instrumental
+    number: singular
+  expected: kým
+- features:
+    case: locative
+    number: singular
+  expected: kom
+- features:
+    case: nominative
+    number: singular
+  expected: kdo
+---
+lemma: můj
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: moje
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: mou
+- features:
+    case: accusative
+    gender: masculine
+    mood: indicative
+    number: singular
+  expected: moje
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: moje
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: moje
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: moje
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: moje
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: mojim
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: mému
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: mému
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: moje
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: moich
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: mého
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: mého
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: mou
+- features:
+    case: instrumental
+    gender: masculine
+    number: plural
+  expected: mojimi
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: mým
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: mým
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: moje
+- features:
+    case: locative
+    gender: masculine
+    number: plural
+  expected: moich
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: mém
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: mém
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: moje
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: moje
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: moje
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: můj
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: moje
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: moje
+---
+lemma: naš
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: naše
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: naši
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: naše
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: naše
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: naše
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: naše
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: naší
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: našim
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: našemu
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: našemu
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: naší
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: našich
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: našeho
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: našeho
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: naší
+- features:
+    case: instrumental
+    gender: masculine
+    number: plural
+  expected: našimi
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: naším
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: naším
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: naší
+- features:
+    case: locative
+    gender: masculine
+    number: plural
+  expected: našich
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: našem
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: našem
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: naše
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: naše
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: naše
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: naš
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: naše
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: naše
+---
+lemma: 'on'
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: jeho
+- features:
+    case: dative
+    number: singular
+  expected: jemu
+- features:
+    case: genitive
+    number: singular
+  expected: jeho
+- features:
+    case: instrumental
+    number: singular
+  expected: ním
+- features:
+    case: locative
+    number: singular
+  expected: něm
+- features:
+    case: nominative
+    number: singular
+  expected: 'on'
+---
+lemma: ona
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: ji
+- features:
+    case: dative
+    number: singular
+  expected: jí
+- features:
+    case: genitive
+    number: singular
+  expected: její
+- features:
+    case: instrumental
+    number: singular
+  expected: jí
+- features:
+    case: locative
+    number: singular
+  expected: ní
+- features:
+    case: nominative
+    number: singular
+  expected: ona
+---
+lemma: oni
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: je
+- features:
+    case: dative
+    number: plural
+  expected: jim
+- features:
+    case: genitive
+    number: plural
+  expected: jejich
+- features:
+    case: instrumental
+    number: plural
+  expected: jimi
+- features:
+    case: locative
+    number: plural
+  expected: nich
+- features:
+    case: nominative
+    number: plural
+  expected: oni
+---
+lemma: ono
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: je
+- features:
+    case: dative
+    number: singular
+  expected: jemu
+- features:
+    case: genitive
+    number: singular
+  expected: jeho
+- features:
+    case: instrumental
+    number: singular
+  expected: ním
+- features:
+    case: locative
+    number: singular
+  expected: něm
+- features:
+    case: nominative
+    number: singular
+  expected: ono
+---
+lemma: sebe
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: sebe
+- features:
+    case: genitive
+    number: singular
+  expected: sebe
+- features:
+    case: instrumental
+    number: singular
+  expected: sebou
+---
+lemma: sám
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: samy
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: samu
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: samy
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: sám
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: sama
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: samo
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: samy
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: sama
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: samy
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: sám
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: sama
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: samo
+---
+lemma: ten
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: ty
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: tu
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: ty
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: ten
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: ta
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: to
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: té
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: těm
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: tomu
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: tomu
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: té
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: těch
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: toho
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: toho
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: tou
+- features:
+    case: instrumental
+    gender: masculine
+    number: plural
+  expected: těmi
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: tím
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: tím
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: té
+- features:
+    case: locative
+    gender: masculine
+    number: plural
+  expected: těch
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: tom
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: tom
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: ty
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: ta
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: ty
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: ten
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: ta
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: to
+---
+lemma: ty
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: vás
+- features:
+    case: accusative
+    number: singular
+  expected: tebe
+- features:
+    case: dative
+    number: plural
+  expected: vám
+- features:
+    case: dative
+    number: singular
+  expected: tobě
+- features:
+    case: genitive
+    number: plural
+  expected: vás
+- features:
+    case: genitive
+    number: singular
+  expected: tebe
+- features:
+    case: instrumental
+    number: plural
+  expected: vámi
+- features:
+    case: instrumental
+    number: singular
+  expected: tebou
+- features:
+    case: locative
+    number: plural
+  expected: vás
+- features:
+    case: locative
+    number: singular
+  expected: tobě
+- features:
+    case: nominative
+    number: plural
+  expected: vy
+- features:
+    case: nominative
+    number: singular
+  expected: ty
+---
+lemma: všechnen
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: všechna
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: všechnu
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: všechny
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: všechnen
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: všechno
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: všem
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: všemu
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: všemu
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: všech
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: všeho
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: všeho
+- features:
+    case: instrumental
+    gender: masculine
+    number: plural
+  expected: všemi
+- features:
+    case: locative
+    gender: masculine
+    number: plural
+  expected: všech
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: všem
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: všem
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: všechny
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: všechna
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: všechny
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: všechnen
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: všechna
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: všechno

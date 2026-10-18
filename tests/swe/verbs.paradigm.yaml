@@ -1,0 +1,1414 @@
+lemma: avbryta
+category: verbs
+cases:
+- features:
+    definiteness: definite
+    gender: common
+    number: singular
+  expected: avbrutna
+- features:
+    definiteness: indefinite
+    gender: common
+    number: singular
+  expected: avbruten
+- features:
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: avbrutet
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: avbrutna
+---
+lemma: bero
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: beror
+- features:
+    verb_form: infinitive
+  expected: bero
+- features:
+    verb_form: past_participle
+  expected: berott
+---
+lemma: besöka
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: besöker
+- features:
+    verb_form: infinitive
+  expected: besöka
+- features:
+    verb_form: past_participle
+  expected: besökt
+---
+lemma: betyda
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: betyder
+- features:
+    verb_form: infinitive
+  expected: betyda
+- features:
+    verb_form: past_participle
+  expected: betytt
+---
+lemma: binda
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: bundo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: band
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: binder
+---
+lemma: bora
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    tense: past
+  expected: borde
+- features:
+    mood: indicative
+    number: singular
+    tense: present
+  expected: bor
+- features:
+    verb_form: infinitive
+  expected: bora
+---
+lemma: bring a
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    tense: past
+  expected: bragte
+- features:
+    mood: indicative
+    number: singular
+    tense: present
+  expected: bringar
+- features:
+    verb_form: past_participle
+  expected: bragt
+---
+lemma: bygga
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bygg
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: byggde
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bygger
+- features:
+    verb_form: infinitive
+  expected: bygga
+- features:
+    verb_form: present_participle
+  expected: byggande
+---
+lemma: dansa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: dansade
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dansar
+- features:
+    tense: past
+    verb_form: participle
+  expected: dansat
+- features:
+    verb_form: infinitive
+  expected: dansa
+---
+lemma: dolja
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    tense: past
+  expected: dolde
+- features:
+    mood: indicative
+    number: singular
+    tense: present
+  expected: doljer
+- features:
+    verb_form: infinitive
+  expected: dolja
+- features:
+    verb_form: past_participle
+  expected: dold
+---
+lemma: fara
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: far
+- features:
+    verb_form: infinitive
+  expected: fara
+---
+lemma: flyta
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: flyt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: flöt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: flyter
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: flöt-e
+- features:
+    tense: past
+    verb_form: participle
+  expected: flut-it
+- features:
+    verb_form: infinitive
+  expected: flyta
+---
+lemma: ga
+category: verbs
+cases:
+- features:
+    number: plural
+    tense: past
+  expected: yinyo
+- features:
+    number: singular
+    tense: past
+  expected: yick
+- features:
+    number: singular
+    tense: present
+  expected: gar
+- features:
+    verb_form: past_participle
+  expected: gdtt
+---
+lemma: glädja
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: gläd
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: gläder
+- features:
+    verb_form: infinitive
+  expected: gläda
+---
+lemma: gora
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    tense: past
+  expected: gjorde
+- features:
+    mood: indicative
+    number: singular
+    tense: present
+  expected: yor
+- features:
+    verb_form: infinitive
+  expected: gora
+- features:
+    verb_form: past_participle
+  expected: yjord
+---
+lemma: gå
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: gâ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gick
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: gâ-r
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: ging-e
+- features:
+    tense: past
+    verb_form: participle
+  expected: gâ-tt
+- features:
+    verb_form: infinitive
+  expected: gâ
+- features:
+    verb_form: present_participle
+  expected: gående
+---
+lemma: göra
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: gör
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gjorde
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: gör
+- features:
+    verb_form: infinitive
+  expected: göra
+- features:
+    verb_form: present_participle
+  expected: görande
+---
+lemma: hava
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: hade
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ha
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: hade
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: har
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: hade
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ha
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: hade
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: har
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: hade
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: har
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: hade
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: har
+---
+lemma: heta
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: het
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: heter
+- features:
+    verb_form: infinitive
+  expected: heta
+---
+lemma: höra
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: hör
+- features:
+    verb_form: infinitive
+  expected: höra
+---
+lemma: kalla
+category: verbs
+cases:
+- features:
+    tense: past
+    verb_form: participle
+  expected: kallat
+- features:
+    verb_form: infinitive
+  expected: kalla
+---
+lemma: kasta
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kasta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kastade
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kastar
+- features:
+    tense: past
+    verb_form: participle
+  expected: kastat
+- features:
+    verb_form: infinitive
+  expected: kasta
+---
+lemma: komma
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kom
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kom
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kommer
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: komme
+- features:
+    tense: past
+    verb_form: participle
+  expected: kommit
+- features:
+    verb_form: infinitive
+  expected: komma
+---
+lemma: kopa
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: kop
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kopte
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kopa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kopte
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: koper
+- features:
+    verb_form: past_participle
+  expected: kopt
+- features:
+    verb_form: present_participle
+  expected: kdpande
+---
+lemma: kunna
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kunde
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kan
+- features:
+    tense: past
+    verb_form: participle
+  expected: kunnat
+- features:
+    verb_form: infinitive
+  expected: kunna
+---
+lemma: köpa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: köp
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: köpte
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: köper
+- features:
+    verb_form: infinitive
+  expected: köpa
+- features:
+    verb_form: present_participle
+  expected: köpande
+---
+lemma: lagga
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    tense: past
+  expected: lade
+- features:
+    mood: indicative
+    number: singular
+    tense: present
+  expected: lagger
+- features:
+    verb_form: infinitive
+  expected: lagga
+- features:
+    verb_form: past_participle
+  expected: layd
+---
+lemma: le
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: le
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: log
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ler
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: loge
+- features:
+    number: plural
+    tense: past
+  expected: loyo
+- features:
+    number: singular
+    tense: past
+  expected: log
+- features:
+    number: singular
+    tense: present
+  expected: ler
+- features:
+    tense: past
+    verb_form: participle
+  expected: lett
+- features:
+    verb_form: infinitive
+  expected: le
+- features:
+    verb_form: past_participle
+  expected: ictt
+---
+lemma: leva
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    tense: present
+  expected: leva
+- features:
+    mood: indicative
+    number: singular
+    tense: past
+  expected: levde
+- features:
+    mood: indicative
+    number: singular
+    tense: present
+  expected: lever
+- features:
+    verb_form: infinitive
+  expected: leva
+---
+lemma: lieta
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    tense: present
+  expected: hcta
+- features:
+    mood: indicative
+    number: singular
+    tense: past
+  expected: hctte
+- features:
+    mood: indicative
+    number: singular
+    tense: present
+  expected: lieter
+- features:
+    verb_form: infinitive
+  expected: lieta
+---
+lemma: ligga
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: låg
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ligger
+- features:
+    verb_form: infinitive
+  expected: ligga
+- features:
+    verb_form: present_participle
+  expected: liggande
+---
+lemma: liunna
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    tense: present
+  expected: jcunna
+- features:
+    mood: indicative
+    number: singular
+    tense: past
+  expected: imnde
+- features:
+    mood: indicative
+    number: singular
+    tense: present
+  expected: kan
+- features:
+    verb_form: infinitive
+  expected: liunna
+---
+lemma: läsa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: läser
+- features:
+    verb_form: infinitive
+  expected: läsa
+- features:
+    verb_form: past_participle
+  expected: läst
+---
+lemma: löpa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: löp
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: löpte
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: löper
+- features:
+    tense: past
+    verb_form: participle
+  expected: löpt
+- features:
+    verb_form: infinitive
+  expected: löpa
+---
+lemma: sJcilja
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    tense: past
+  expected: skilde
+- features:
+    mood: indicative
+    number: singular
+    tense: present
+  expected: skiljer
+- features:
+    verb_form: infinitive
+  expected: sJcilja
+- features:
+    verb_form: past_participle
+  expected: skild
+---
+lemma: se
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: såg
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ser
+- features:
+    number: plural
+    tense: past
+  expected: sago
+- features:
+    number: singular
+    tense: past
+  expected: say
+- features:
+    number: singular
+    tense: present
+  expected: scr
+- features:
+    verb_form: infinitive
+  expected: se
+- features:
+    verb_form: past_participle
+  expected: sett
+- features:
+    verb_form: present_participle
+  expected: seende
+---
+lemma: skola
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ska
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: skull-e
+- features:
+    verb_form: infinitive
+  expected: skola
+---
+lemma: skriva
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: skriv
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: skrev
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: skriver
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: skrev-e
+- features:
+    tense: past
+    verb_form: participle
+  expected: skrivit
+- features:
+    verb_form: infinitive
+  expected: skriva
+---
+lemma: sld
+category: verbs
+cases:
+- features:
+    number: plural
+    tense: past
+  expected: sloyo
+- features:
+    number: singular
+    tense: past
+  expected: slog
+- features:
+    number: singular
+    tense: present
+  expected: sldr
+- features:
+    verb_form: past_participle
+  expected: slayit
+---
+lemma: springa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: spring
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: sprang
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: springer
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: sprung-e
+- features:
+    tense: past
+    verb_form: participle
+  expected: sprung-it
+- features:
+    verb_form: infinitive
+  expected: springa
+---
+lemma: std
+category: verbs
+cases:
+- features:
+    number: plural
+    tense: past
+  expected: stodo
+- features:
+    number: singular
+    tense: past
+  expected: stod
+- features:
+    number: singular
+    tense: present
+  expected: star
+- features:
+    verb_form: past_participle
+  expected: stdtt
+---
+lemma: stänga
+category: verbs
+cases:
+- features:
+    definiteness: definite
+    gender: common
+    number: singular
+  expected: stängda
+- features:
+    definiteness: indefinite
+    gender: common
+    number: singular
+  expected: stängd
+- features:
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: stängt
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: stängda
+---
+lemma: stå
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: stod
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: står
+- features:
+    verb_form: infinitive
+  expected: stå
+- features:
+    verb_form: present_participle
+  expected: stående
+---
+lemma: sy
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: sy
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: sydde
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: syr
+- features:
+    tense: past
+    verb_form: participle
+  expected: sytt
+- features:
+    verb_form: infinitive
+  expected: sy
+---
+lemma: säga
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: sade
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: säger
+- features:
+    verb_form: infinitive
+  expected: säga
+---
+lemma: sänta
+category: verbs
+cases:
+- features:
+    definiteness: definite
+    gender: common
+    number: singular
+  expected: sända
+- features:
+    definiteness: indefinite
+    gender: common
+    number: singular
+  expected: sänd
+- features:
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: sändt
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: sända
+---
+lemma: tclefonera
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: telcfoncrade
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: telefoncrar
+- features:
+    tense: past
+    verb_form: participle
+  expected: telefonerat
+- features:
+    verb_form: infinitive
+  expected: tclefonera
+---
+lemma: tro
+category: verbs
+cases:
+- features:
+    definiteness: definite
+    gender: common
+    number: singular
+  expected: trodda
+- features:
+    definiteness: indefinite
+    gender: common
+    number: singular
+  expected: trott
+- features:
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: trodd
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: trodda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tror
+- features:
+    verb_form: infinitive
+  expected: tro
+- features:
+    verb_form: past_participle
+  expected: trott
+---
+lemma: vakna
+category: verbs
+cases:
+- features:
+    definiteness: definite
+    gender: common
+    number: singular
+  expected: vakna
+- features:
+    definiteness: indefinite
+    gender: common
+    number: singular
+  expected: vaken
+- features:
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: vaket
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: vakna
+---
+lemma: veta
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: vet
+- features:
+    mood: indicative
+    number: plural
+    tense: present
+  expected: veta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: viss-te
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: vet
+- features:
+    mood: indicative
+    number: singular
+    tense: past
+  expected: visste
+- features:
+    mood: indicative
+    number: singular
+    tense: present
+  expected: vet
+- features:
+    tense: past
+    verb_form: participle
+  expected: vetat
+- features:
+    verb_form: infinitive
+  expected: veta
+---
+lemma: vilja
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    tense: present
+  expected: vilja
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: vill
+- features:
+    mood: indicative
+    number: singular
+    tense: past
+  expected: mile
+- features:
+    mood: indicative
+    number: singular
+    tense: present
+  expected: mil
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: vill-e
+- features:
+    tense: past
+    verb_form: participle
+  expected: vela-t
+- features:
+    verb_form: infinitive
+  expected: vilja
+---
+lemma: välja
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: välj
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: valde
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: väljer
+- features:
+    verb_form: infinitive
+  expected: välja
+---
+lemma: väva
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: väv
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: vävde
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: väver
+- features:
+    tense: past
+    verb_form: participle
+  expected: vävt
+- features:
+    verb_form: infinitive
+  expected: väva
+---
+lemma: ylddja
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    tense: past
+  expected: gladde
+- features:
+    mood: indicative
+    number: singular
+    tense: present
+  expected: gldder
+- features:
+    verb_form: infinitive
+  expected: ylddja
+---
+lemma: älska
+category: verbs
+cases:
+- features:
+    definiteness: definite
+    gender: common
+    number: singular
+  expected: älskade
+- features:
+    definiteness: indefinite
+    gender: common
+    number: singular
+  expected: älskad
+- features:
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: älskat
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: älskade
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: älska
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: älskade
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: älskar
+- features:
+    verb_form: infinitive
+  expected: älska
+- features:
+    verb_form: present_participle
+  expected: älskande

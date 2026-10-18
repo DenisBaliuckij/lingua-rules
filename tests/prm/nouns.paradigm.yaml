@@ -1,0 +1,55 @@
+lemma: atyja
+category: nouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: atyáit
+- features:
+    case: accusative
+    number: singular
+  expected: atyját
+- features:
+    case: genitive
+    number: plural
+  expected: atyáinak
+- features:
+    case: genitive
+    number: singular
+  expected: atyjának
+- features:
+    case: nominative
+    number: plural
+  expected: atyái
+- features:
+    case: nominative
+    number: singular
+  expected: atyja
+---
+lemma: nővér
+category: nouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: nővéreit
+- features:
+    case: accusative
+    number: singular
+  expected: nővérét
+- features:
+    case: genitive
+    number: plural
+  expected: nővéreinek
+- features:
+    case: genitive
+    number: singular
+  expected: nővérének
+- features:
+    case: nominative
+    number: plural
+  expected: nővérei
+- features:
+    case: nominative
+    number: singular
+  expected: nővér

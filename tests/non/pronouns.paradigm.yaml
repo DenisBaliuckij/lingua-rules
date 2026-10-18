@@ -1,0 +1,721 @@
+lemma: báðir
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: báðar
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: báða
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: bæði
+- features:
+    case: dative
+    gender: feminine
+    number: plural
+  expected: báðum
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: báðum
+- features:
+    case: dative
+    gender: neuter
+    number: plural
+  expected: báðum
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: báðar
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: báðir
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: bæði
+---
+lemma: ek
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+  expected: okr
+- features:
+    case: accusative
+    number: plural
+  expected: oss
+- features:
+    case: accusative
+    number: singular
+  expected: mik
+- features:
+    case: dative
+    number: dual
+  expected: okr
+- features:
+    case: dative
+    number: plural
+  expected: oss
+- features:
+    case: dative
+    number: singular
+  expected: mér
+- features:
+    case: genitive
+    number: dual
+  expected: okkar
+- features:
+    case: genitive
+    number: plural
+  expected: vár
+- features:
+    case: genitive
+    number: singular
+  expected: mín
+- features:
+    case: nominative
+    number: dual
+  expected: vit
+- features:
+    case: nominative
+    number: plural
+  expected: vér
+- features:
+    case: nominative
+    number: singular
+  expected: ek
+---
+lemma: hann
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: hana
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: hann
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: henni
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: hennar
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: hans
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: hann
+---
+lemma: hverr
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: hverjar
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: hverja
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: hverja
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: hvern
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: hver
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: hvert
+- features:
+    case: dative
+    gender: feminine
+    number: plural
+  expected: hverjum
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: hverri
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: hverjum
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: hverjum
+- features:
+    case: dative
+    gender: neuter
+    number: plural
+  expected: hverjum
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: hverju
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: hverra
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: hverrar
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: hverra
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: hvers
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: hverra
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: hvers
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: hverjar
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: hver
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: hverir
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: hverr
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: hver
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: hvert
+---
+lemma: nǫkkurr
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: nǫkkurar
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: nǫkkura
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: nǫkkura
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: nǫkkurn
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: nǫkkur
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: nǫkkut
+- features:
+    case: dative
+    gender: feminine
+    number: plural
+  expected: nǫkkurum
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: nǫkkurri
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: nǫkkurum
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: nǫkkurum
+- features:
+    case: dative
+    gender: neuter
+    number: plural
+  expected: nǫkkurum
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: nǫkkuru
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: nǫkkurra
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: nǫkkurrar
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: nǫkkurra
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: nǫkkurs
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: nǫkkurra
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: nǫkkurs
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: nǫkkurar
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: nǫkkur
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: nǫkkurir
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: nǫkkurr
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: nǫkkur
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: nǫkkut
+---
+lemma: sá
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: þær
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: þá
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: þá
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: þann
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: þau
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: þat
+- features:
+    case: dative
+    gender: feminine
+    number: plural
+  expected: þeim
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: þeiri
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: þeim
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: þeim
+- features:
+    case: dative
+    gender: neuter
+    number: plural
+  expected: þeim
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: þí
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: þeira
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: þeirar
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: þeira
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: þess
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: þeira
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: þess
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: þær
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: sú
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: þeir
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: sá
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: þau
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: þat
+---
+lemma: ykkarr
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: ykkrar
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: ykkra
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: ykkra
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: ykkarn
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: ykkur
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: ykkart
+- features:
+    case: dative
+    gender: feminine
+    number: plural
+  expected: ykkrum
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: ykkarri
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: ykkrum
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: ykkrum
+- features:
+    case: dative
+    gender: neuter
+    number: plural
+  expected: ykkrum
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: ykkru
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: ykkarra
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: ykkarrar
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: ykkarra
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: ykkars
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: ykkarra
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: ykkars
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: ykkrar
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: ykkur
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: ykkrir
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: ykkarr
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: ykkur
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: ykkart
+---
+lemma: þeir
+category: pronouns
+cases:
+- features:
+    case: dative
+    gender: feminine
+    number: plural
+  expected: ﬂeim
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: ﬂeim
+- features:
+    case: dative
+    gender: neuter
+    number: plural
+  expected: ﬂeim
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: ﬂeira
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: ﬂeira
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: ﬂeira
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: ﬂeir
+---
+lemma: þú
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+  expected: ykr
+- features:
+    case: accusative
+    number: plural
+  expected: y›r
+- features:
+    case: accusative
+    number: singular
+  expected: ﬂik
+- features:
+    case: dative
+    number: dual
+  expected: ykr
+- features:
+    case: dative
+    number: plural
+  expected: y›r
+- features:
+    case: dative
+    number: singular
+  expected: ﬂér
+- features:
+    case: genitive
+    number: dual
+  expected: ykkar
+- features:
+    case: genitive
+    number: plural
+  expected: y›ar
+- features:
+    case: genitive
+    number: singular
+  expected: ﬂín
+- features:
+    case: nominative
+    number: dual
+  expected: it
+- features:
+    case: nominative
+    number: plural
+  expected: ér
+- features:
+    case: nominative
+    number: singular
+  expected: ﬂú

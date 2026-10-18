@@ -1,0 +1,660 @@
+lemma: ag
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: i-gá
+- features:
+    mood: imperative
+    number: singular
+  expected: ag
+- features:
+    verb_form: verbal_noun
+  expected: agú
+---
+lemma: arə́v
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: t-urəv-ìm
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: úrəv-ən
+---
+lemma: aṭs
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    gender: masculine
+    number: singular
+    person: third
+  expected: i-təṣṣá
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: aṭs
+- features:
+    verb_form: verbal_noun
+  expected: təṣṣàt
+---
+lemma: dərùš
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: dərùšət
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: dərùš
+- features:
+    number: plural
+  expected: dəruš-ìt
+---
+lemma: fəšùš
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: fəšùšət
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: fəšùš
+- features:
+    number: plural
+  expected: fəšuš-ìt
+- features:
+    number: singular
+    person: first
+  expected: fəšúš-ax
+- features:
+    number: singular
+    person: second
+  expected: fəšuš-àt
+---
+lemma: gəzzəl
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: gəzzil-ìt
+- features:
+    number: singular
+    person: first
+  expected: gəzl-àx
+- features:
+    number: singular
+    person: second
+  expected: gəzl-àt
+---
+lemma: ləqqəq
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ləqqiq-ìt
+- features:
+    number: singular
+    person: first
+  expected: ləqqàx
+- features:
+    number: singular
+    person: second
+  expected: ləqqàt
+---
+lemma: mmùm
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: mmùmət
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: mmùm
+- features:
+    number: plural
+  expected: mmum-ìt
+---
+lemma: məlləl
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: məllíl-it
+- features:
+    number: singular
+    person: first
+  expected: məllàx
+- features:
+    number: singular
+    person: second
+  expected: məllàt
+---
+lemma: məqqər
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: məqqayr-ìt
+- features:
+    number: singular
+    person: first
+  expected: məqər-àx
+- features:
+    number: singular
+    person: second
+  expected: məqər-àt
+---
+lemma: məššk
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: məššik-ìt
+- features:
+    number: singular
+    person: first
+  expected: məšk-àx
+- features:
+    number: singular
+    person: second
+  expected: məšk-àt
+---
+lemma: qàrəz
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: qàrəzət
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: qàrəz
+- features:
+    number: singular
+    person: first
+  expected: qarəz-àx
+- features:
+    number: singular
+    person: second
+  expected: qarəz-àt
+---
+lemma: udən
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: i-tàdən
+- features:
+    verb_form: verbal_noun
+  expected: udùn
+---
+lemma: uf
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ucá
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: i-tàfa
+- features:
+    mood: imperative
+  expected: uf
+- features:
+    verb_form: verbal_noun
+  expected: ufú
+---
+lemma: ugəm
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: i-tàgəm
+- features:
+    verb_form: verbal_noun
+  expected: ugùm
+---
+lemma: uɣər
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: a-y-ùɣər
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: y-ùɣər
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: itàɣər
+---
+lemma: uṭər
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: a-y-ùṭər
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: y-ùṭər
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: i-tàṭər
+---
+lemma: vùrk
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: vùrkət
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: vùrk
+- features:
+    number: singular
+    person: first
+  expected: vurk-ax
+- features:
+    number: singular
+    person: second
+  expected: vurk-àt
+---
+lemma: wəṭ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: wəṭ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: n.a
+- features:
+    verb_form: verbal_noun
+  expected: əwùṭ
+---
+lemma: yan
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: šanày-x
+- features:
+    aspect: perfective
+  expected: i-šàn
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: yuná
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: i-tàna
+- features:
+    mood: imperative
+  expected: yan
+- features:
+    mood: imperative
+    number: singular
+  expected: šan
+- features:
+    verb_form: verbal_noun
+  expected: unú
+---
+lemma: yar
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: yurá
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: i-tàra
+- features:
+    mood: imperative
+  expected: yar
+- features:
+    verb_form: verbal_noun
+  expected: urú
+---
+lemma: yax
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: yuɣá
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: i-tàɣa
+- features:
+    mood: imperative
+  expected: yax
+- features:
+    verb_form: verbal_noun
+  expected: uɣú
+---
+lemma: yi-d
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: y-ušà-d
+- features:
+    mood: imperative
+  expected: yi-d
+- features:
+    verb_form: verbal_noun
+  expected: ušú
+---
+lemma: zəwwər
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: zəwwir-ìt
+- features:
+    number: singular
+    person: first
+  expected: zəwr-àx
+- features:
+    number: singular
+    person: second
+  expected: zəwr-àt
+---
+lemma: zəwwəɣ
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: zəwɣ-ìt
+- features:
+    number: singular
+    person: first
+  expected: zəwɣ-àx
+- features:
+    number: singular
+    person: second
+  expected: zəwɣ-àt
+---
+lemma: àkər
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: y-ùkər
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: i-tàkər
+- features:
+    mood: imperative
+  expected: àkər
+---
+lemma: ìrəd
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: šìrəd
+- features:
+    verb_form: verbal_noun
+  expected: ašìrəd
+---
+lemma: šəc̄
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: future
+  expected: šəc̄
+- features:
+    aspect: perfective
+  expected: šəc̄a
+- features:
+    mood: imperative
+    number: singular
+  expected: šəc̄
+- features:
+    verb_form: verbal_noun
+  expected: tcəc̄at
+---
+lemma: šəṭṭəf
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: šəṭṭif-ìt
+- features:
+    number: singular
+    person: first
+  expected: šəṭf-àx
+- features:
+    number: singular
+    person: second
+  expected: šəṭf-àt
+---
+lemma: ə
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    gender: masculine
+    number: singular
+    person: third
+  expected: i-fəkká
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ə
+- features:
+    verb_form: verbal_noun
+  expected: n.a
+---
+lemma: əmm
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: y-əmmá
+- features:
+    mood: imperative
+    number: singular
+  expected: n.a
+- features:
+    verb_form: verbal_noun
+  expected: tənənnàt
+---
+lemma: əss
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: n.a
+- features:
+    mood: imperative
+    number: singular
+  expected: əss
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: n.a
+- features:
+    verb_form: verbal_noun
+  expected: əssú
+---
+lemma: əčč
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: y-əččá
+- features:
+    mood: imperative
+    number: singular
+  expected: əčč
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: n.a
+- features:
+    verb_form: verbal_noun
+  expected: əččú
+---
+lemma: əžž
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: n.a
+- features:
+    mood: imperative
+    number: singular
+  expected: əžž
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: n.a
+- features:
+    verb_form: verbal_noun
+  expected: əžžú
+---
+lemma: ɣəzzəf
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ɣəzzif-ìt
+- features:
+    number: singular
+    person: first
+  expected: ɣəzf-àx
+- features:
+    number: singular
+    person: second
+  expected: ɣəzf-àt
+---
+lemma: ẓẓàk
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ẓẓàkət
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ẓẓàk
+- features:
+    number: plural
+  expected: ẓẓak-ìt
+- features:
+    number: singular
+    person: first
+  expected: ẓẓák-ax
+- features:
+    number: singular
+    person: second
+  expected: ẓẓák-at

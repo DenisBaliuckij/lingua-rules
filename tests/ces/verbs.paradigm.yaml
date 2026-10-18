@@ -1,0 +1,1136 @@
+lemma: být
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: byly
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: byla
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: byli
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: byl
+- features:
+    gender: neuter
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: byla
+- features:
+    gender: neuter
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bylo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: budeme
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: jsme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: budete
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: jste
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: budou
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: jsou
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: budu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: jsem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: budeš
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: jsi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: bude
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: je
+---
+lemma: chtít
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: chtěl
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: chceme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: chcete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: chtějí
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: chci
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: chce
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: chce£
+- features:
+    verb_form: infinitive
+  expected: chtěn
+---
+lemma: hnát
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: hnal
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: žeň
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ženeme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ženete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ženou
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ženu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: žene
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: žene£
+- features:
+    verb_form: infinitive
+  expected: hnán
+---
+lemma: hrát
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: hrál
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: hraj
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: hrajeme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: hrajete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hraj
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: hraji
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hraje
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hraje£
+- features:
+    verb_form: infinitive
+  expected: hrát
+---
+lemma: hřejt
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: hřál
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: hřej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: hřejeme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: hřejete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hřej
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: hřeji
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hřeje
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hřeje£
+- features:
+    verb_form: infinitive
+  expected: hřát
+---
+lemma: jet
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: jel
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: jed
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: jedeme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: jedete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: jedou
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: jedu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: jede
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: jede£
+- features:
+    verb_form: infinitive
+  expected: jet
+---
+lemma: jíst
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: jedl
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: jez
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: jíme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: jíte
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: jedí
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: jím
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: jíš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: jí£
+- features:
+    verb_form: infinitive
+  expected: jeden
+---
+lemma: jít
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: šel
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: jdi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: jdete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: jdou
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: jdu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: jdeme
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: jde£
+- features:
+    verb_form: infinitive
+  expected: jit
+---
+lemma: klejt
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: klel
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: klej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: klejeme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: klejete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: klej
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kleji
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kleje
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kleje£
+- features:
+    verb_form: infinitive
+  expected: klet
+---
+lemma: kryt
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: kryl
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kryj
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kryjeme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kryjete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kryj
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kryji
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kryje
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kryje£
+- features:
+    verb_form: infinitive
+  expected: kryt
+---
+lemma: mlít
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: mlel
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: mel
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: meleme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: melete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: melou
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: melu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mele
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mele£
+- features:
+    verb_form: infinitive
+  expected: mlet
+---
+lemma: moci
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: mohl
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: můžeme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: můžete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: můžu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: můžu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: může
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: může£
+- features:
+    verb_form: infinitive
+  expected: močen
+---
+lemma: mít
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: měl
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: měj
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: máme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: máte
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: mají
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: mám
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: máš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: má£
+- features:
+    verb_form: infinitive
+  expected: mán
+---
+lemma: pečit
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: pekl
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pec
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: pečeme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: pečete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: pečou
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: peču
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: peče
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: peče£
+- features:
+    verb_form: infinitive
+  expected: pečen
+---
+lemma: pijt
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: pil
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pij
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: pijeme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: pijete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: pij
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: piji
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: pije
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pije£
+- features:
+    verb_form: infinitive
+  expected: pit
+---
+lemma: plout
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: plul
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pluj
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: plujeme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: plujete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: pluj
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: pluji
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: pluje
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pluje£
+- features:
+    verb_form: infinitive
+  expected: plut
+---
+lemma: spát
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: spal
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: spi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: spíme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: spíte
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: spí
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: spím
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: spíš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: spí£
+- features:
+    verb_form: infinitive
+  expected: span
+---
+lemma: stát
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: stál
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: stůj
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: stojme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: stojte
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: stojí
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: stojím
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: stojíš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: stojí£
+- features:
+    verb_form: infinitive
+  expected: stán
+---
+lemma: vzít
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: vzal
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: vezmi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: vezmeme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: vezmete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vezmou
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: vezmu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: vezme
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: vezme£
+- features:
+    verb_form: infinitive
+  expected: vzat
+---
+lemma: vědět
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: věděl
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: víme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: víte
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vědí
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: vím
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: víš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ví£
+- features:
+    verb_form: infinitive
+  expected: věden
+---
+lemma: číst
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: četl
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: čti
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: čteme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: čtete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: čtou
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: čtu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: čte
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: čte£
+- features:
+    verb_form: infinitive
+  expected: čten

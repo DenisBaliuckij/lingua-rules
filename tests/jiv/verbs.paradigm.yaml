@@ -1,0 +1,2871 @@
+lemma: achi-k
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: achi-k-tai
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: achi-k-iuk
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: achi-k-ia-rat
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: achi-k-taj
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: achi-k-iai
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: achi-k-iat
+---
+lemma: achi-k-tin
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: achi-tia-ji
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: achi-ja-tjí
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: achi-tia-r-me
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: achi-ja-tar-um
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: achi-ar-tat-ui
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: achi-ja-r-ti
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: achi-tia-jai
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: achi-tia-me
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: achi-ja-ta
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: achi-tia-wai
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: achi-ja-tí
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: present
+  expected: achi-kiain-ji
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: present
+  expected: achi-kiain-ru-me
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: present
+  expected: achi-ki-ar-ain-ti
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: achi-kiain-jai
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: present
+  expected: achi-kiain-me
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: present
+  expected: achi-kiain-ti
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: achi-k-tai
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: achi-k-tarum
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: achi-k-iar-ti
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: achi-k-tá
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: achi-k-ti
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: achí-ktat-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: achi-k-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: achi-a-ji
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: achí-ktat-ru-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: achi-k-iur-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: achi-a-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: achí-k-iar-tat-ui
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: achi-k-iar-ai
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: achi-ni-a-wai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: achí-ktat-jai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: achi-k-jai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: achi-a-jai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: achí-ktat-me
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: achi-k-iume
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: achi-a-me
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: achí-ktat-ui
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: achi-k-iai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: achi-a-wai
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: future
+  expected: achi-kmi-j
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: future
+  expected: achi-kmi-nru-m
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: future
+  expected: achi-k-iar-mi-i
+---
+lemma: achi-ki
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: achi-ki-áj
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: achi-ki-ár-um
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: achi-ki-ár-a
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: achi-ki-áj
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: achi-ki-ám
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: achi-ki-á
+---
+lemma: achi-kiuit
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: achi-kiuit-ji
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: achi-kiuit-ru-me
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: achi-ki-ar-uit-i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: achi-kiuit-jai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: achi-kiuit-me
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: achi-kiuit-i
+---
+lemma: achi-kiá
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: achi-kiá-ji
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: achi-kiá-r-me
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: achi-kiá-ra-yi
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: achi-kiá-jai
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: achi-kiá-me
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: achi-kiá-yi
+---
+lemma: achi-kmi
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: future
+  expected: achi-kmi-j
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+  expected: achi-kmi-niam
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: future
+  expected: achi-kmi-i
+---
+lemma: achí-kma
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: achí-kma-ji
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: achí-kma-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: achík-iar-ma-yi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: achí-kma-jai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: achí-kma-me
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: achí-kma-yi
+---
+lemma: achí-kmia
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: achí-kmia-ji
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: achí-kmia-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: achí-k-kiar-mia-yi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: achí-kmia-jai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: achí-kmia-me
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: achi-kmia-yi
+---
+lemma: amu-k
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: amu-k-tai
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: amu-k-uk
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: amu-k-ar-at
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: amu-k-tá
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: amu-k-ti
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: amu-k-tai
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: future
+  expected: amu-kmi-i
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: amu-k-áj
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: amu-k-uk
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: future
+  expected: amu-kmi-n-trum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: amu-k-ár-um
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: amu-k-ar-at
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: future
+  expected: amu-k-ar-mi-i
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: amu-k-ár-a
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: future
+  expected: amu-kmi-j
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: amu-k-áj
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+  expected: amu-kmi-niam
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: amu-k-ám
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: future
+  expected: amu-kmi-i
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: amu-k-á
+---
+lemma: amu-k-tin
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: amu-ta-jai
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: amu-ta-me
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: amu-ta-wai
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: amu-u-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: amu-k-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: amu-a-ji
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: amu-u-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: amu-k-ur-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: amu-a-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: amu-k-ar-tat-ui
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: amu-a-ru-yi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: amu-k-ar-ai
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: amu-ini-a-wai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: amu-u-jai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: amu-k-jai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: amu-a-jai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: amu-u-me
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: amu-k-ume
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: amu-a-me
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: amu-u-yi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: amu-k-ai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: amu-a-wai
+---
+lemma: amu-ta
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: conditional
+    number: plural
+    person: first
+    tense: past
+  expected: amu-ká-ji
+- features:
+    aspect: perfective
+    mood: conditional
+    number: plural
+    person: second
+    tense: past
+  expected: amu-ká-r-me
+- features:
+    aspect: perfective
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: amu-ká-ra-yi
+- features:
+    aspect: perfective
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: amu-ká-jai
+- features:
+    aspect: perfective
+    mood: conditional
+    number: singular
+    person: second
+    tense: past
+  expected: amu-ká-me
+- features:
+    aspect: perfective
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: amu-ká-yi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: amu-kuit-ji
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: amu-kmia-ji
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: amu-kuit-ru-me
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: amu-kmia-r-me
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: amu-k-ar-uit-i
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: amu-k-ar-mia-yi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: amu-kuit-jai
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: amu-kmia-jai
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: amu-kuit-me
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: amu-kmia-me
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: amu-kuit-i
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: amu-kmia-yi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: amu-kaint-ji
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: amu-kaint-ru-me
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: amu-k-ar-aint-i
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: amu-kaint-jai
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: amu-kaint-me
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: amu-kaint-i
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: amu-k-taj
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: amu-i
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: amu-t
+---
+lemma: auj-saa-jai
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: future
+  expected: auj-saa-ji
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: future
+  expected: auj-saa-r-me
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: future
+  expected: auj-saa-ra-yi
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: future
+  expected: auj-saa-jai
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: future
+  expected: auj-saa-me
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: future
+  expected: auj-saa-yi
+---
+lemma: aúj
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: auj-sa-ra-int-i
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: auj-saint-jai
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: auj-saint-me
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: auj-saint-i
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: auj-sama-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: aúj-sata-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: aúj-sait-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: aúj-samia-ji
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: auj-sama-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: aúj-sata-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: aúj-u-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: aúj-sait-ru-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: aúj-samia-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: auj-sa-r-ma-i
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: aúj-sa-r-ta-tui
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: aúj-i-arma-i
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: aúj-sa-ru-it-i
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: aúj-sa-r-mia-yi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: aúj-sata-jai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: aúj-u-ji
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: auj-sama-me
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: aúj-sata-me
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: aúj-sait-me
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: aúj-samia-me
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: auj-sama-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: aúj-sata-wai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: aúj-sait-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: aúj-samia-yi
+- features:
+    number: singular
+    person: first
+  expected: aúj-sait-jai
+---
+lemma: aúj-ji-aj
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: aúj-ji-aj
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: aúj-ji-ar-um
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: aúj-ji-a-ra
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: aúj-ji-aj
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: aúj-ji-am
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: aúj-ji-a
+---
+lemma: aúj-sa-taj
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: aúj-sa-tai
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: aúj-sa-k
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: aúj-sa-r-at
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: aúj-sa-taj
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: aúj-sa-i
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: aúj-sa-t
+---
+lemma: aúj-tiat-ji
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: aúj-tiat-ji
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: aúj-tiat-ru-me
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: aúj-iar-tat-ui
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: aúj-tiat-ji
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: aúj-tiat-ru-me
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: aúj-iar-tat-ui
+---
+lemma: chicha
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: chichakrin
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: chichakrumin
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: chichainiakuĩ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: chichakuĩ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: chichakmin
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: chichakuĩ
+---
+lemma: ii
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ii-rama-hi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: ii-rama-rum
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: ii-rama-inia-wai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: ii-rama-wai
+---
+lemma: nakur-us-aj
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: nakur-us-aj
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: nakur-us-ar-um
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: nakur-us-ar-a
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: nakur-us-aj
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: nakur-us-am
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: nakur-us-a
+---
+lemma: nakur-us-taj
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: naku-us-tai
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: nakur-us-uk
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: nakur-us-ar-at
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: nakur-us-taj
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: nakur-us-ai
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: nakur-us-at
+---
+lemma: nakur-us-tin
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: nakur-usaint-ji
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: nakur-usaint-ru-me
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: nakur-us-ar-aint-ti
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: nakur-usaint-jai
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: nakur-usaint-me
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: nakur-usaint-ti
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: nakur-ustat-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: nakur-au-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: nakur-ús-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nakur-a-ji
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: nakur-ustat-ru-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: nakur-au-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: nakur-ús-ur-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nakur-a-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: nakur-us-ar-tat-ui
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: nakur-iar-mai
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: nakur-ús-ar-ai
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nakur-uini-a-wai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: nakur-ustat-jai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: nakur-au-jai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nakur-ús-jai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: nakur-usuit-jai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nakur-a-jai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: nakur-ustat-me
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: nakur-au-me
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: nakur-ús-sume
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: nakur-usuit-me
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nakur-a-me
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: nakur-ustat-ui
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: nakur-au-yi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: nakur-ús-ai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: nakur-usuit-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nakur-a-wai
+---
+lemma: nakur-usma-jai
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: nakur-usma-ji
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: nakur-usma-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: nakur-us-ar-ma-i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: nakur-usma-jai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: nakur-usma-me
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: nakur-usma-i
+---
+lemma: nakur-usmi-j
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: future
+  expected: nakur-usmi-j
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+  expected: nakur-usmi-niam
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: future
+  expected: nakur-usmi-i
+---
+lemma: nakur-usuit-ji
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: nakur-usmia-ji
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: nakur-usmia-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: nakur-us-ar-mia-yi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: nakur-usmia-jai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: nakur-usmia-me
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: nakur-usmia-yi
+---
+lemma: suma
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: imperative
+    number: plural
+    person: first
+  expected: suma-ja-tji
+- features:
+    aspect: progressive
+    mood: imperative
+    number: plural
+    person: second
+  expected: suma-ja-tar-um
+- features:
+    aspect: progressive
+    mood: imperative
+    number: plural
+    person: third
+  expected: suma-ja-r-ti
+- features:
+    aspect: progressive
+    mood: imperative
+    number: singular
+    person: second
+  expected: suma-ja-tá
+- features:
+    aspect: progressive
+    mood: imperative
+    number: singular
+    person: third
+  expected: suma-ja-ti
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: suma-k-tai
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: suma-k-uk
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: suma-k-ar-at
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: suma-k-tá
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: suma-k-ti
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: future
+  expected: sumá-kmi-í
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: suma-ka-j
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: suma-k-tai
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: future
+  expected: sumá-kmi-n-trum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: suma-k-uk
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: future
+  expected: sumá-k-ar-mi-í
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: future
+  expected: sumá-kmi-j
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: suma-ka-j
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: suma-k-taj
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+  expected: sumá-kmi-niam
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: suma-ka-m
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: sumai
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: future
+  expected: sumá-kmi-í
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: suma-ka-a
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: sumat
+---
+lemma: sumá
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: sumá-kaint-ji
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: perfect
+  expected: sumá-ka-ji
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: sumá-kaint-ru-me
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: perfect
+  expected: sumá-ka-r-me
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: suma-k-ar-aint-i
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: perfect
+  expected: suma-ka-ra-yi
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: sumá-kaint-jai
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: perfect
+  expected: sumá-ka-jai
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: sumá-kaint-me
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: perfect
+  expected: sumá-ka-me
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: sumá-kaint-i
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: perfect
+  expected: sumá-ka-yi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: sumakma-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: sumá-ktat-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: sumá-kuit-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: sumá-kmia-ji
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: sumakma-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: sumá-ktat-ru-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: sumá-kuit-ru-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: sumá-kmia-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: sumak-r-ma-i
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: sumá-k-ar-tat-ui
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: sumá-k-ar-uit-i
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: sumá-k-ar-mia-yi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: suma-kma-jai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: sumá-ktat-jai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: suma-kuit-jai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: sumá-kmia-jai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: suma-kma-me
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: sumá-ktat-me
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: sumá-kuit-me
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: sumá-kmia-me
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: suma-kma-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: sumá-ktat-ui
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: sumákuit-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: sumá-kmia-yi
+---
+lemma: tseke-ja-tá
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tseke-ja-tji
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tseke-ja-tar-um
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: tseke-ja-r-tí
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tseke-ja-tá
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tseke-ja-tí
+---
+lemma: tséke
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: tséke-ta-ji
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: tséke-ta-r-me
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: tséke-ar-ta-wai
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tséke-ta-jai
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: tséke-ta-me
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: tséke-ta-wai
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: tséke-nkin-ji
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: perfect
+  expected: tseke-nkia-ji
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: tséke-nkin-tru-me
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: perfect
+  expected: tséke-nkia-r-me
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: tséke-nkia-rain-ti
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: perfect
+  expected: tséke-nkia-ra-yi
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: tséke-nkin-jai
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: perfect
+  expected: tseke-nkia-jai
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: tséke-nkin-me
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: perfect
+  expected: tseke-nkia-me
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: tséke-nkin-ti
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: perfect
+  expected: tseke-nkia-yi
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: tseke-n-tiai
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tseke-n-tiar-um
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: tseke-n-kiar-ti
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tseke-n-tía
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: tseke.n-tí
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: tséke-ta-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tseke-n-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: tséke-ma-ji
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: tséke-ta-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: tseke-n-iur-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: tséke-ma-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: tséke-ar-ta-wai
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tseke-n-kiar-ai
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: tséke-ar-ma-i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tséke-ta-jai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tseke-n-jai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: tséke-ma-jai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: tséke-ta-me
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: tseke-n-iume
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: tséke-ma-me
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: tséke-ta-wai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tseke-n-ki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: tséke-ma-i
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: future
+  expected: tséke-mi-j
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: tseke-áj
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: tseke-nti-ai
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: future
+  expected: tséke-mi-ntru-m
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: tseke-ár-rum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: tséke-nki-uk
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: future
+  expected: tséke-ar-mi-i
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: tséke-ar-á
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: tséke-nki-ar-at
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: future
+  expected: tséke-mi-j
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: tseke-áj
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: tseke-nti-aj
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+  expected: tséke-mi-niam
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: tseke-ám
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: tseke-nki-k
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: future
+  expected: tséke-mi-i
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: tseke-á
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: tseke-nki-t
+---
+lemma: we
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: we-nt-ji
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: we-nt-ru-me
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: we-arai-nt-i
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: we-nt-jai
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: we-nt-me
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: we-nt-i
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: wé-tat-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: wé-au-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: we-uwit-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: we-mia-ji
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: wé-tat-ru-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: wé-au-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: we-uwit-ru-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: we-mia-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: wé-ar-tat-ui
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wé-ar-u-yi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: wé-arui-ti
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: we-ar-mia-yi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: wé-tat-jai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: wé-au-jai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: we-uwit-jai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: we-mia-jai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: wé-tat-me
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: wé-au-me
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: we-uwit-me
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: we-mia-me
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: wé-tat-ui
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wé-au-yi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: we-uwit-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: we-mia-yi
+---
+lemma: we-tin
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: we-a-ji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: we-ji
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: we-a-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: we-u-r-me
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: we-n-a-wai
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: we-ara-i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: we-a-jai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: we-a-me
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: we-u-me
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: we-a-wai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: we-yi
+---
+lemma: wé
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: future
+  expected: wé-mi-í
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: wéaj
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: wétai
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: future
+  expected: wé-mi-n-trum
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: we-ar-um
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: wéku
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: future
+  expected: wé-ar-mi-í
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: wé-ar-a
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: wé-ar-at
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: future
+  expected: wé-mi-j
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: wéaj
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: wétaj
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+  expected: wé-mi-niam
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: we-am
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: wée
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: future
+  expected: wé-mi-í
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: wéa
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: wéti

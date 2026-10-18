@@ -1,0 +1,283 @@
+lemma: arg-aː
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: arg-iː
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: arg-iː
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: arg-ay
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: arg-as
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: arg-am
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: arg-ar
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: arg-ar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: arg-an
+---
+lemma: barʔ-aː
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: barʔ
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: barʔ
+---
+lemma: es
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: em
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: dat
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: nai
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: en
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: dai
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: dam
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: dat
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: war
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: dan
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: dar
+- features:
+    gender: neuter
+    number: plural
+    person: first
+  expected: pI
+- features:
+    gender: neuter
+    number: singular
+    person: first
+  expected: and
+---
+lemma: eːr-aː
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: eːr-keː
+- features:
+    mood: imperative
+    number: plural
+  expected: eːr-eː
+- features:
+    mood: imperative
+    number: singular
+  expected: eːr-ay
+---
+lemma: ka'and
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: plural
+    person: second
+  expected: kdl'e
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: kalai
+- features:
+    gender: masculine
+    mood: imperative
+    number: plural
+    person: second
+  expected: kala
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: kala
+- features:
+    gender: neuter
+    mood: imperative
+    number: plural
+    person: second
+  expected: kalai
+- features:
+    gender: neuter
+    mood: imperative
+    number: singular
+    person: second
+  expected: kalai
+---
+lemma: moːx-aː
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: moːx-keː
+- features:
+    mood: imperative
+    number: plural
+  expected: moːx-eː
+- features:
+    mood: imperative
+    number: singular
+  expected: moːx-ay
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: moːx-em
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: moːx-day
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: moːx-nay
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: moːx-en
+---
+lemma: ra'ana
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ra'alag'em
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ra'alakkat
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ra'alagyar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ra'olakkan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ra'alakk'i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ra'alakkas
+---
+lemma: taldan
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: artalnar
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ntntaldai

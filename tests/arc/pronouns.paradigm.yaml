@@ -1,0 +1,34 @@
+lemma: rm
+category: pronouns
+cases:
+- features:
+    noun_class: class_1
+    number: plural
+    person: third
+  expected: ian
+- features:
+    noun_class: class_1
+    number: singular
+    person: second
+  expected: nWN
+- features:
+    noun_class: class_2
+    number: singular
+    person: second
+  expected: nWN
+- features:
+    number: plural
+    person: first
+  expected: vxmvi
+- features:
+    number: plural
+    person: second
+  expected: pniN
+- features:
+    number: singular
+    person: first
+  expected: rm
+- features:
+    number: singular
+    person: third
+  expected: nin

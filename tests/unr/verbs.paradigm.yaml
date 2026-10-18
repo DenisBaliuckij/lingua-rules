@@ -1,0 +1,415 @@
+lemma: gak
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: negative
+    tense: past
+    voice: active
+  expected: gakanni
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: negative
+    voice: active
+  expected: gakanni
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+    voice: active
+  expected: gakan
+- features:
+    aspect: perfective
+    mood: indicative
+    voice: active
+  expected: gakan
+- features:
+    aspect: perfective
+    mood: indicative
+    voice: middle
+  expected: gakani
+- features:
+    aspect: perfective
+    mood: subjunctive
+    tense: past
+    voice: active
+  expected: gaggu
+- features:
+    aspect: perfective
+    polarity: negative
+    tense: past
+    voice: active
+  expected: gakki
+- features:
+    aspect: perfective
+    polarity: negative
+    voice: active
+  expected: gakkki
+- features:
+    aspect: perfective
+    polarity: negative
+    voice: passive
+  expected: gakani
+- features:
+    aspect: perfective
+    tense: past
+    voice: active
+  expected: gak
+- features:
+    aspect: perfective
+    tense: past
+    voice: middle
+  expected: gakee
+- features:
+    aspect: perfective
+    tense: past
+    voice: passive
+  expected: gakaa
+- features:
+    aspect: perfective
+    tense: perfect
+    voice: active
+  expected: gak
+- features:
+    aspect: perfective
+    tense: perfect
+    voice: passive
+  expected: gakaa
+- features:
+    aspect: perfective
+    verb_form: converb
+    voice: active
+  expected: gagggiri
+- features:
+    aspect: perfective
+    verb_form: converb
+    voice: passive
+  expected: gakari
+- features:
+    aspect: perfective
+    voice: active
+  expected: gagggi
+- features:
+    aspect: perfective
+    voice: middle
+  expected: gakee
+- features:
+    aspect: perfective
+    voice: passive
+  expected: gakaa
+---
+lemma: gum
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    voice: active
+  expected: gumajiaji
+- features:
+    verb_form: converb
+    voice: passive
+  expected: gumariari
+- features:
+    voice: active
+  expected: gumaraara
+- features:
+    voice: middle
+  expected: gumee
+- features:
+    voice: passive
+  expected: gumaa
+---
+lemma: lel
+category: verbs
+cases:
+- features:
+    formality: formal
+    mood: imperative
+    number: plural
+    person: second
+  expected: lel-kff-pe
+- features:
+    formality: formal
+    mood: optative
+    number: plural
+    person: second
+    tense: future
+  expected: lel-ko-ka-pe
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: lelkorn^
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: lel-le-pe
+- features:
+    mood: optative
+    number: plural
+    person: second
+    tense: future
+  expected: lel-le-ka-pe
+---
+lemma: lelea
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+    voice: active
+  expected: lellanga
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+    voice: active
+  expected: lelbena
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+    voice: active
+  expected: lelkinga
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+    voice: active
+  expected: lelbua
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+    voice: active
+  expected: lelpea
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+    voice: active
+  expected: lelkao
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+    voice: active
+  expected: lelina
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+    voice: active
+  expected: lelmea
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+    voice: active
+  expected: lelea
+---
+lemma: lelke
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+    voice: active
+  expected: lelked’langa
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+    voice: active
+  expected: lelked’bena
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+    voice: active
+  expected: lelked’kinga
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+    voice: active
+  expected: lelked’bua
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+    voice: active
+  expected: lelked’pea
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+    voice: active
+  expected: lalked’koa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+    voice: active
+  expected: lelki’na
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+    voice: active
+  expected: lelked'mea
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+    voice: active
+  expected: lelkeda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+    voice: passive
+  expected: lelkena
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+    voice: reflexive
+  expected: lelkena
+---
+lemma: lelkotana
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: lelakadkoa
+- features:
+    mood: indicative
+    tense: future
+  expected: lelkotana
+- features:
+    mood: indicative
+    tense: past
+  expected: lelked'koa
+- features:
+    mood: indicative
+    tense: present
+  expected: lelakadkogea
+---
+lemma: sen
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: sen-ta-pe
+- features:
+    aspect: perfective
+    mood: optative
+    number: plural
+    person: second
+    tense: future
+  expected: sen-ta-k-a-pe
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: sen-aka-pe
+- features:
+    aspect: progressive
+    mood: optative
+    number: plural
+    person: second
+    tense: present
+  expected: sen-aka-k-a-pe
+- features:
+    formality: formal
+    mood: imperative
+    number: plural
+    person: second
+  expected: sen-ko-pe
+- features:
+    formality: formal
+    mood: optative
+    number: plural
+    person: second
+    tense: future
+  expected: sen-ko-ka-pe
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: senme
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: seixpe
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+    voice: active
+  expected: sena
+- features:
+    mood: optative
+    number: plural
+    person: second
+    tense: future
+  expected: sen-k-a-pe
+---
+lemma: sena
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: senakana
+- features:
+    mood: indicative
+    tense: future
+  expected: sena
+- features:
+    mood: indicative
+    tense: past
+  expected: senkena
+- features:
+    mood: indicative
+    tense: present
+  expected: senakadgea

@@ -1,0 +1,531 @@
+lemma: beir
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: beireamaid
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: beiribh
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: beirearn
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: beir
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: beireamaid
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: beiribh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: beirearn
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: beir
+- features:
+    tense: present
+    voice: active
+  expected: beir
+---
+lemma: bi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: biodh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: robh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: eil
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: bhiodh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bha
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tha
+- features:
+    number: singular
+    tense: present
+  expected: bidh
+---
+lemma: bris
+category: verbs
+cases:
+- features:
+    tense: past
+    voice: active
+  expected: bhris
+- features:
+    tense: present
+    voice: active
+  expected: bris
+- features:
+    verb_form: infinitive
+  expected: briseadh
+- features:
+    verb_form: past_participle
+  expected: briste
+---
+lemma: buail
+category: verbs
+cases:
+- features:
+    tense: present
+    voice: active
+  expected: buail
+- features:
+    verb_form: infinitive
+  expected: bualadh
+- features:
+    verb_form: past_participle
+  expected: buailte
+---
+lemma: caidil
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: caidil
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: chaidleadh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: chaidil
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: caidlidh
+---
+lemma: chanainn-sa
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: chanamaid-ne
+- features:
+    number: plural
+    person: second
+  expected: canaibh-se
+- features:
+    number: singular
+    person: first
+  expected: chanainn-sa
+---
+lemma: creach
+category: verbs
+cases:
+- features:
+    tense: present
+    voice: active
+  expected: creach
+- features:
+    verb_form: infinitive
+  expected: creach
+- features:
+    verb_form: past_participle
+  expected: creachta-e
+---
+lemma: cuir
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: cuir
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: chuireadh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: chuir
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cuiridh
+---
+lemma: dèan
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: deanadh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: dèan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: dheanadh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: rinn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nì
+---
+lemma: dùisg
+category: verbs
+cases:
+- features:
+    tense: present
+    voice: active
+  expected: dùisg
+- features:
+    verb_form: infinitive
+  expected: dùsgadh
+---
+lemma: faic
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: faiceadh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: faca
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: faic
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: chitheadh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: chunnaic
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: chì
+---
+lemma: fan
+category: verbs
+cases:
+- features:
+    tense: present
+    voice: active
+  expected: fan
+- features:
+    verb_form: infinitive
+  expected: fantainn
+---
+lemma: fuin
+category: verbs
+cases:
+- features:
+    tense: present
+    voice: active
+  expected: fuin
+- features:
+    verb_form: infinitive
+  expected: fuineadh
+---
+lemma: gabh
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: gabh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: ghabhadh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gabh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: gabhaidh
+---
+lemma: giùlain
+category: verbs
+cases:
+- features:
+    tense: present
+    voice: active
+  expected: giùlain
+- features:
+    verb_form: infinitive
+  expected: giùlan
+- features:
+    verb_form: past_participle
+  expected: giùlainte
+---
+lemma: guidh
+category: verbs
+cases:
+- features:
+    tense: present
+    voice: active
+  expected: guidh
+- features:
+    verb_form: infinitive
+  expected: guidh
+---
+lemma: is
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: is
+- features:
+    number: singular
+    tense: present
+  expected: as
+---
+lemma: lùb
+category: verbs
+cases:
+- features:
+    tense: present
+    voice: active
+  expected: lùb
+- features:
+    verb_form: infinitive
+  expected: lùbadh
+- features:
+    verb_form: past_participle
+  expected: lùbta-e
+---
+lemma: may
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: dh'-fhaodadh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: faod
+---
+lemma: seall
+category: verbs
+cases:
+- features:
+    tense: present
+    voice: active
+  expected: seall
+- features:
+    verb_form: infinitive
+  expected: sealltuinn
+---
+lemma: sgriobh
+category: verbs
+cases:
+- features:
+    tense: past
+    voice: active
+  expected: sgriobh
+- features:
+    tense: present
+    voice: active
+  expected: sgriobh
+- features:
+    verb_form: infinitive
+  expected: sgriobhadh
+- features:
+    verb_form: past_participle
+  expected: sgriobhta
+---
+lemma: tha
+category: verbs
+cases:
+- features:
+    mood: conditional
+    tense: past
+    voice: active
+  expected: bhiodh
+- features:
+    mood: indicative
+    tense: future
+    voice: active
+  expected: bidh
+- features:
+    mood: indicative
+    tense: present
+    voice: active
+  expected: tha
+- features:
+    tense: present
+    voice: active
+  expected: tha
+---
+lemma: toisich
+category: verbs
+cases:
+- features:
+    tense: present
+    voice: active
+  expected: toisich
+- features:
+    verb_form: infinitive
+  expected: toiseachadh
+- features:
+    verb_form: past_participle
+  expected: toisichte
+---
+lemma: tòisich
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tòisich
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: thòisicheadh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: thòisich
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tòisichidh
+---
+lemma: òl
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: òl
+- features:
+    verb_form: past_participle
+  expected: òlta

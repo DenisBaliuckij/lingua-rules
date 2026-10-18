@@ -1,0 +1,39 @@
+lemma: ija
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ele
+- features:
+    number: dual
+    person: second
+  expected: ale
+- features:
+    number: dual
+    person: third
+  expected: ale
+- features:
+    number: plural
+    person: first
+  expected: ege
+- features:
+    number: plural
+    person: second
+  expected: age
+- features:
+    number: plural
+    person: third
+  expected: age
+- features:
+    number: singular
+    person: first
+  expected: ija
+- features:
+    number: singular
+    person: second
+  expected: hina
+- features:
+    number: singular
+    person: third
+  expected: uqa

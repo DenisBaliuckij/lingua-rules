@@ -1,0 +1,123 @@
+lemma: ana
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ħna
+- features:
+    number: plural
+    person: second
+  expected: ntuma
+- features:
+    number: plural
+    person: third
+  expected: huma
+- features:
+    number: singular
+    person: first
+  expected: ana
+- features:
+    number: singular
+    person: second
+  expected: nta
+- features:
+    number: singular
+    person: third
+  expected: huwa
+---
+lemma: dak
+category: pronouns
+cases:
+- features:
+    gender: feminine
+  expected: dik
+- features:
+    gender: masculine
+  expected: dak
+---
+lemma: hada
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: hadi
+- features:
+    gender: masculine
+    number: singular
+  expected: hada
+- features:
+    number: plural
+  expected: hadu
+---
+lemma: hadak
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: hadik
+- features:
+    gender: masculine
+    number: singular
+  expected: hadak
+- features:
+    number: plural
+  expected: haduk
+---
+lemma: hiya
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: hiya
+---
+lemma: huma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: huma
+---
+lemma: huwa
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: huwa
+---
+lemma: nta
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: nta
+---
+lemma: nti
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: nti
+---
+lemma: ntuma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ntuma
+---
+lemma: ħna
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ħna

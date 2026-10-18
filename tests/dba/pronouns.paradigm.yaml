@@ -1,0 +1,52 @@
+lemma: m̂
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ndɛ̌
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: ̌:w
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: ň
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: m̂
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ̂:w
+---
+lemma: ŋ̀ ẃjɛ̀
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: ̌:ẃjɛ́
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ŋ̀ ẃjɛ̀
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: ̀ẃjɛ́
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: ŋ̀ ẁjɛ́
