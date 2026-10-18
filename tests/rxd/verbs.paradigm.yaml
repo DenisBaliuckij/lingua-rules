@@ -1,0 +1,131 @@
+lemma: ka
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: ka-ngku-rni
+- features:
+    aspect: imperfective
+    mood: imperative
+  expected: ka-ngka-rni
+- features:
+    aspect: perfective
+  expected: kabe
+---
+lemma: karri
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: karri-ju-rni
+- features:
+    aspect: imperfective
+    mood: imperative
+  expected: karri-ya-rni
+- features:
+    aspect: imperfective
+    mood: potential
+  expected: karriju
+- features:
+    aspect: imperfective
+    tense: past
+  expected: karrinya
+- features:
+    aspect: perfective
+  expected: karribe
+- features:
+    verb_form: infinitive
+  expected: karrinyu
+---
+lemma: luwa
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: luwarnani
+- features:
+    aspect: imperfective
+    mood: potential
+  expected: luwaku
+- features:
+    aspect: imperfective
+    tense: past
+  expected: luwarni
+- features:
+    verb_form: infinitive
+  expected: luwarnu
+---
+lemma: nga
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: ngarnani
+- features:
+    aspect: imperfective
+    mood: potential
+  expected: ngalku
+- features:
+    aspect: imperfective
+    tense: past
+  expected: ngarni
+- features:
+    verb_form: infinitive
+  expected: ngarnu
+---
+lemma: nga-eat
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: imperative
+  expected: nga-nja-rra
+- features:
+    aspect: perfective
+  expected: nga-be
+---
+lemma: pu
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: pungani
+- features:
+    aspect: imperfective
+    mood: potential
+  expected: pungku
+- features:
+    aspect: imperfective
+    tense: past
+  expected: pi-nya
+- features:
+    verb_form: infinitive
+  expected: pungu
+---
+lemma: ya-go
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: ya-nku-rni
+- features:
+    aspect: imperfective
+    mood: imperative
+  expected: ya-nta-rni
+- features:
+    aspect: perfective
+  expected: ya-be
+---
+lemma: yupa
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: yupa-ku-rni
+- features:
+    aspect: imperfective
+    mood: imperative
+  expected: yupa-ka-rni
+- features:
+    aspect: perfective
+  expected: yupabe

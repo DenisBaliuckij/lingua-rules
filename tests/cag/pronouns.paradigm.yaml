@@ -1,0 +1,135 @@
+lemma: nô-que
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    aspect: perfective
+    evidentiality: indirect
+    mood: indicative
+    number: plural
+  expected: ca-pu-que
+- features:
+    animacy: animate
+    evidentiality: direct
+    number: plural
+  expected: na-pu-que
+- features:
+    animacy: animate
+    evidentiality: direct
+    number: plural
+    tense: past
+  expected: ja-pu-que
+- features:
+    animacy: animate
+    evidentiality: indirect
+    number: plural
+  expected: pa-pu-que
+- features:
+    animacy: inanimate
+    aspect: perfective
+    evidentiality: indirect
+    mood: indicative
+    number: plural
+  expected: ca-vô-que
+- features:
+    animacy: inanimate
+    evidentiality: direct
+    number: plural
+  expected: na-vô-que
+- features:
+    animacy: inanimate
+    evidentiality: direct
+    number: plural
+    tense: past
+  expected: ja-vô-que
+- features:
+    animacy: inanimate
+    evidentiality: indirect
+    number: plural
+  expected: pa-vô-que
+- features:
+    aspect: perfective
+    evidentiality: indirect
+    gender: feminine
+    mood: indicative
+    number: singular
+  expected: lha-cô-que
+- features:
+    aspect: perfective
+    evidentiality: indirect
+    gender: masculine
+    mood: indicative
+    number: singular
+  expected: cô-que
+- features:
+    evidentiality: direct
+    gender: feminine
+    number: singular
+  expected: a-nô-que
+- features:
+    evidentiality: direct
+    gender: feminine
+    number: singular
+    tense: past
+  expected: lha-jô-que
+- features:
+    evidentiality: direct
+    gender: masculine
+    number: singular
+  expected: nô-que
+- features:
+    evidentiality: direct
+    gender: masculine
+    number: singular
+    tense: past
+  expected: jô-que
+- features:
+    evidentiality: indirect
+    gender: feminine
+    number: singular
+  expected: lha-pô-que
+- features:
+    evidentiality: indirect
+    gender: masculine
+    number: singular
+  expected: pô-que
+---
+lemma: vaatsha
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: yi-vaatshe-elh
+- features:
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: a-vaatshe-elh
+- features:
+    number: plural
+    person: third
+    possessor_number: plural
+    possessor_person: third
+  expected: lha-vaatshe-elh
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: yivaatsha
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: avaatsha
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: lhavaatsha

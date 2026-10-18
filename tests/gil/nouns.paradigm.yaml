@@ -1,0 +1,55 @@
+lemma: bai
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: baira
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: baimii
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: baiia
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: bainu
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: baim
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: baina
+---
+lemma: tina
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: tinara
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: tinamii
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: tinaia
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: tinanu
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: tinam
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: tinana

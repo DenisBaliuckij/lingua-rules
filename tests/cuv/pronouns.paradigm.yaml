@@ -1,0 +1,83 @@
+lemma: já
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: já
+- features:
+    number: singular
+    person: second
+    tense: past
+  expected: káà
+- features:
+    number: singular
+    person: second
+    tense: present
+  expected: ká
+- features:
+    number: singular
+    person: third
+    tense: past
+  expected: kà
+- features:
+    number: singular
+    person: third
+    tense: present
+  expected: á
+---
+lemma: jɛ́
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: jɛ́
+- features:
+    number: singular
+    person: second
+    tense: past
+  expected: kɛ́ɛ̀
+- features:
+    number: singular
+    person: second
+    tense: present
+  expected: kɛ́
+- features:
+    number: singular
+    person: third
+    tense: past
+  expected: kɛ̀
+- features:
+    number: singular
+    person: third
+    tense: present
+  expected: ɛ́
+---
+lemma: ká
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+    tense: past
+  expected: káà
+- features:
+    number: singular
+    person: second
+    tense: present
+  expected: ká
+---
+lemma: á
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+    tense: past
+  expected: kà
+- features:
+    number: singular
+    person: third
+    tense: present
+  expected: á

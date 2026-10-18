@@ -1,0 +1,101 @@
+lemma: ka
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: kara
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: mara
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: abra
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ka
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ma
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: e
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: kari
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: mari
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: abi
+---
+lemma: nalu
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: nalug-lam
+- features:
+    case: allative
+  expected: nalug-em
+- features:
+    case: ergative
+  expected: nalug-ide
+- features:
+    case: genitive
+  expected: nalug-ira
+- features:
+    case: instrumental
+  expected: nalugu
+- features:
+    case: locative
+  expected: nalug-e
+- features:
+    case: nominative
+  expected: nalu
+---
+lemma: nete
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: neti-alam
+- features:
+    case: accusative
+  expected: neti
+- features:
+    case: allative
+  expected: neti-m
+- features:
+    case: comitative
+  expected: neti-pkem
+- features:
+    case: ergative
+  expected: netide
+- features:
+    case: genitive
+  expected: neti-ra
+- features:
+    case: locative
+  expected: neti-doge
+- features:
+    case: nominative
+  expected: nete

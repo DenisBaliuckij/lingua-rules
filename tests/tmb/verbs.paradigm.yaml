@@ -1,0 +1,27 @@
+lemma: ip
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: bwerap
+- features:
+    number: dual
+    person: second
+  expected: bwerap
+- features:
+    number: dual
+    person: third
+  expected: bwerap
+- features:
+    number: singular
+    person: first
+  expected: nabap
+- features:
+    number: singular
+    person: second
+  expected: kap
+- features:
+    number: singular
+    person: third
+  expected: bap

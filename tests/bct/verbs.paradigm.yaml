@@ -1,0 +1,44 @@
+lemma: shwaka
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sijatidLwaka
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: diyatiBhwaka
+---
+lemma: tanda
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: iSngetaiidL
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: ningefandL
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: dingetandi
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: engetaniiL
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: ungetandL

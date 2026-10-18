@@ -1,0 +1,66 @@
+lemma: aipo
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: aipo
+---
+lemma: ako
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: umi
+- features:
+    number: singular
+  expected: ako
+---
+lemma: che
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: che
+---
+lemma: ku
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: umi
+- features:
+    number: singular
+  expected: ku
+---
+lemma: nde
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: nde
+---
+lemma: ore
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ore
+---
+lemma: peẽ
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: peẽ
+---
+lemma: ñande
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ñande

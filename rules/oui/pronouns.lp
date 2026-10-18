@@ -1,0 +1,10 @@
+% rules/oui/pronouns.lp
+% Old Turkic pronouns: generated from grammars in the DocumentCatalog (tools/grammar_rules; LLM-
+% extracted paradigms, classes induced from them). Review before relying on it.
+%
+% Sources (document id in the DocumentCatalog):
+%   doc 388475: A Grammar of Old Turkic (2004), pages 205, 212, 224
+%   doc 476676: Alttürkische Grammatik (1941), pages 124, 126
+%
+% Every form is listed in data/pronouns.exceptions.tsv; there are no rules.
+

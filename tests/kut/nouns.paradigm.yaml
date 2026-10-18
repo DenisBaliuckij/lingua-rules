@@ -1,0 +1,110 @@
+lemma: Nasukwin-s
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: Nasukwin-s
+- features:
+    number: dual
+    possessor_number: plural
+    possessor_person: first
+  expected: ka-nasukwin-alla-is
+- features:
+    number: dual
+    possessor_number: plural
+    possessor_person: second
+  expected: nasukwin-is-mil-kil
+- features:
+    number: dual
+    possessor_number: plural
+    possessor_person: third
+  expected: nasukwin-is-is
+- features:
+    number: dual
+    possessor_number: singular
+    possessor_person: first
+  expected: ka-nasukwin-mil
+- features:
+    number: dual
+    possessor_number: singular
+    possessor_person: second
+  expected: nasukwin-nis-mil
+- features:
+    number: dual
+    possessor_number: singular
+    possessor_person: third
+  expected: nasukwin-is-is
+---
+lemma: akaltam
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: akaltam
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: al-ka-akalt-alla
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: al-akalt-nis-kil
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: al-akalt-is
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: al-ka-akalt
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: al-akalt-nis
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: al-akalt-is
+---
+lemma: nasukwinintik
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: nasukwinintik
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: ka-nasukwininti-alla
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: nasukwininti-nis-kil
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: nasukwinintiis
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: kanasukwinintik
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: nasukwinintinis
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: nasukwinintiis

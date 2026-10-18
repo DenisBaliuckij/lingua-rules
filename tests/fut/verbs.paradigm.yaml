@@ -1,0 +1,110 @@
+lemma: ko
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kon
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kou
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: koi
+---
+lemma: ni
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: nan
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: nag
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nah
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: nau
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: nei
+---
+lemma: tama
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: tamanomaua
+- features:
+    number: dual
+    person: second
+    possessor_number: singular
+    possessor_person: first
+  expected: tamanorua
+- features:
+    number: dual
+    person: third
+    possessor_number: singular
+    possessor_person: first
+  expected: tamanoraua
+- features:
+    number: plural
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: tamanotea
+- features:
+    number: plural
+    person: second
+    possessor_number: singular
+    possessor_person: first
+  expected: tamanomea
+- features:
+    number: plural
+    person: third
+    possessor_number: singular
+    possessor_person: first
+  expected: tamanoua
+- features:
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: tamanotatou
+- features:
+    person: second
+    possessor_number: singular
+    possessor_person: first
+  expected: tamanomatou
+- features:
+    person: third
+    possessor_number: singular
+    possessor_person: first
+  expected: tamanoutou

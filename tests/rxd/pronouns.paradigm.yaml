@@ -1,0 +1,44 @@
+lemma: ngana
+category: pronouns
+cases:
+- features:
+    case: absolutive
+  expected: ngana
+- features:
+    case: dative
+  expected: ngantu-ku
+- features:
+    case: ergative
+  expected: ngantu
+---
+lemma: nyampa
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: nyampangulu
+- features:
+    case: absolutive
+  expected: nyampa
+- features:
+    case: allative
+  expected: nyampakurra
+- features:
+    case: dative
+  expected: nyampaku
+- features:
+    case: elative
+  expected: nyampajangka
+- features:
+    case: locative
+  expected: nyamparla
+---
+lemma: nyarrpa
+category: pronouns
+cases:
+- features:
+    case: absolutive
+  expected: nyarrpa
+- features:
+    case: allative
+  expected: nyarrpakurra

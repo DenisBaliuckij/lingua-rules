@@ -1,0 +1,32 @@
+lemma: an
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: an
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: at
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: itt
+---
+lemma: eese
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: eese
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: keese

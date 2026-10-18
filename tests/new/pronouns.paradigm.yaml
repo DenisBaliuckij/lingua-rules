@@ -1,0 +1,96 @@
+lemma: chA
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: chi-puN
+- features:
+    number: singular
+    person: second
+  expected: chA
+---
+lemma: chA:-puK
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: 'chA: pv'
+- features:
+    number: singular
+    person: second
+  expected: chA:-puK
+---
+lemma: chH
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: chi-k)-pUii
+- features:
+    number: singular
+    person: second
+  expected: chH
+---
+lemma: ji
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: oi-puN
+- features:
+    number: singular
+    person: first
+  expected: ji
+---
+lemma: thv
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: thwAsp
+- features:
+    number: singular
+    person: third
+  expected: thv
+---
+lemma: thwA
+category: pronouns
+cases:
+- features:
+    case: dative
+  expected: thwA-ya-ta
+- features:
+    case: nominative
+  expected: thwA
+- features:
+    case: oblique
+  expected: thv
+---
+lemma: thwAekA
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: 'thwAekA: -pui-I'
+- features:
+    number: singular
+    person: third
+  expected: thwAekA
+---
+lemma: v
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: v
+- features:
+    number: singular
+    person: third
+  expected: v

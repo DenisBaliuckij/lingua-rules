@@ -1,0 +1,22 @@
+lemma: iser
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: iserit
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: iserputit
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: iser
+- features:
+    number: singular
+    person: second
+  expected: iserpit

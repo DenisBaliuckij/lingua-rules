@@ -1,0 +1,158 @@
+lemma: a noqu
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: a nodaru
+- features:
+    number: dual
+    person: second
+  expected: a nomudrau
+- features:
+    number: dual
+    person: third
+  expected: a nodrau
+- features:
+    number: plural
+    person: first
+  expected: a noda
+- features:
+    number: plural
+    person: second
+  expected: a nomudou
+- features:
+    number: plural
+    person: third
+  expected: a nodra
+- features:
+    number: singular
+    person: first
+  expected: a noqu
+- features:
+    number: singular
+    person: second
+  expected: a nomu
+- features:
+    number: singular
+    person: third
+  expected: a nona
+---
+lemma: au
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kedaru
+- features:
+    number: dual
+    person: second
+  expected: kemudrau
+- features:
+    number: dual
+    person: third
+  expected: koirau
+- features:
+    number: plural
+    person: first
+  expected: keda & Kedatou
+- features:
+    number: plural
+    person: second
+  expected: kemudou
+- features:
+    number: plural
+    person: third
+  expected: ko ira
+- features:
+    number: singular
+    person: first
+  expected: au
+- features:
+    number: singular
+    person: second
+  expected: iko
+- features:
+    number: singular
+    person: third
+  expected: koya
+---
+lemma: kēītōū
+category: pronouns
+cases:
+- features:
+    person: first
+  expected: kēītōū
+- features:
+    person: third
+  expected: eratōū
+---
+lemma: oqo
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: o ira oqo
+- features:
+    number: singular
+  expected: oqo
+---
+lemma: oqori
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: o ira oqori
+- features:
+    number: singular
+  expected: oqori
+---
+lemma: āū
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kēīrāū
+- features:
+    number: dual
+    person: second
+  expected: drāū
+- features:
+    number: dual
+    person: third
+  expected: rāū
+- features:
+    number: plural
+    person: first
+  expected: kēīmami
+- features:
+    number: plural
+    person: second
+  expected: nī
+- features:
+    number: plural
+    person: third
+  expected: ra
+- features:
+    number: singular
+    person: first
+  expected: āū
+- features:
+    number: singular
+    person: second
+  expected: iko
+- features:
+    number: singular
+    person: third
+  expected: e
+- features:
+    person: first
+  expected: kēītōū
+- features:
+    person: second
+  expected: dōū
+- features:
+    person: third
+  expected: ratōū

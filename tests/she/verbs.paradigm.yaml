@@ -1,0 +1,104 @@
+lemma: kaas
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: yíkaas
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: hákaas
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kaas
+- features:
+    number: plural
+    person: first
+  expected: ńkaas
+- features:
+    number: plural
+    person: third
+  expected: íʃìkaas
+- features:
+    number: singular
+    person: first
+  expected: n̩kaas
+---
+lemma: kāās
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: optative
+    number: singular
+    person: third
+  expected: kāās-í-ʃ-ə
+- features:
+    gender: masculine
+    mood: optative
+    number: singular
+    person: third
+  expected: kāās-á-s-ə
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: kāās-íʃì-ʃ-ə
+---
+lemma: síís
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: optative
+    number: singular
+    person: third
+  expected: síís-í-ʃ-ə
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: yísíís
+- features:
+    gender: masculine
+    mood: optative
+    number: singular
+    person: third
+  expected: síís-á-s-ə
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: hásíís
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: síísít
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: síís
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: síís-íʃì-ʃ-ə
+- features:
+    number: plural
+    person: first
+  expected: ńsíís
+- features:
+    number: plural
+    person: third
+  expected: íʃìsíís
+- features:
+    number: singular
+    person: first
+  expected: n̩síís

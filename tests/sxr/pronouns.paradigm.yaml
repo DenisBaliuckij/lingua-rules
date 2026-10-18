@@ -1,0 +1,31 @@
+lemma: isikana
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: isikanata
+- features:
+    number: plural
+    person: first
+  expected: isikanalhamu
+- features:
+    number: plural
+    person: second
+  expected: isikanamu
+- features:
+    number: plural
+    person: third
+  expected: isikanaisa
+- features:
+    number: singular
+    person: first
+  expected: isikanaku
+- features:
+    number: singular
+    person: second
+  expected: isikanau
+- features:
+    number: singular
+    person: third
+  expected: isikanaisa

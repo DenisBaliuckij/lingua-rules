@@ -1,0 +1,76 @@
+lemma: eu
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: de nos
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: mim
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nos
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: eu
+- features:
+    case: vocative
+    number: plural
+    person: first
+  expected: nos
+- features:
+    case: vocative
+    number: singular
+    person: first
+  expected: me
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: m i’in
+- features:
+    number: singular
+    person: second
+  expected: mi
+---
+lemma: si
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: de si
+- features:
+    case: accusative
+  expected: pera si
+- features:
+    case: dative
+  expected: a si
+- features:
+    case: genitive
+  expected: de si
+- features:
+    case: locative
+  expected: em si
+---
+lemma: yae
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tsin
+- features:
+    number: singular
+    person: first
+  expected: yae
