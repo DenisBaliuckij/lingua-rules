@@ -1,0 +1,127 @@
+lemma: je
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: jane
+- features:
+    number: plural
+    person: second
+  expected: pẽ
+- features:
+    number: plural
+    person: third
+  expected: ¿ã
+- features:
+    number: singular
+    person: first
+  expected: je
+- features:
+    number: singular
+    person: second
+  expected: ene
+- features:
+    number: singular
+    person: third
+  expected: ¿a
+---
+lemma: jer
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: janer
+- features:
+    number: plural
+    person: second
+  expected: pẽn
+- features:
+    number: plural
+    person: third
+  expected: ¿ãn
+- features:
+    number: singular
+    person: first
+  expected: jer
+- features:
+    number: singular
+    person: second
+  expected: ener
+- features:
+    number: singular
+    person: third
+  expected: ¿ar
+---
+lemma: kyna
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: kyna
+---
+lemma: kynar
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: kynar
+---
+lemma: wã
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: wã
+---
+lemma: wãn
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: wãn
+---
+lemma: ¿a
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ¿ã
+- features:
+    number: singular
+    person: third
+  expected: ¿a
+---
+lemma: ¿ar
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ¿ãn
+- features:
+    number: singular
+    person: third
+  expected: ¿ar
+---
+lemma: ẽẽ
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: ẽẽ
+---
+lemma: ẽẽr
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: ẽẽr

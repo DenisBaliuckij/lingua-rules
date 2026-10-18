@@ -1,0 +1,231 @@
+lemma: aimo
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: pagaimo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: tagaimo
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: taimo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: itaimo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: akaimo
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: taimu
+---
+lemma: kodu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: pagodumode
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: pagodure
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: tagodumode
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: tagodure
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ekodumode
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ekodure
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ikodumode
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ikodure
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: akodumode
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: akodure
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: kodumode
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kodure
+---
+lemma: kodumode
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: čegodumode
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: tagodumode
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ekodumode
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ikodumode
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: akodumode
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: kodumode
+---
+lemma: wogu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: pawogumode
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: pawogure
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: tawogumode
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: tawogure
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ewogumode
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ewogure
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: iwogumode
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: iwogure
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: awogumode
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: awogure
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: uwogumode
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: uwogure

@@ -1,0 +1,344 @@
+lemma: meko
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: dual
+    person: first
+  expected: meko-mbo-we
+- features:
+    mood: conditional
+    number: dual
+    person: second
+  expected: meko-po-we
+- features:
+    mood: conditional
+    number: dual
+    person: third
+  expected: meko-y-po-ye
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: mek-a-mbo-we
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: mek-a-po-we
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: mek-a-y-po-we
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: meko-y-po-y-e
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: meko-y-po-y-mé
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: meko-po-we
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: aorist
+  expected: meko-mbe-k
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: mekare
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+  expected: meko-yo-nde
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: mekonde
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: aorist
+  expected: meko-pe-k
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: mekope
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+  expected: meko-yo-we
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: mekowe
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: aorist
+  expected: meko-y-pe-k
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: mekonéye
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+  expected: meko-yo-ye
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: mekoye
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: mek-a-mbe-k
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: mekomare
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: meko-y-a-nde
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: mek-a-nde
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: mek-a-pe-k
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: mekombe
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: meko-y-a-we
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mek-a-we
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: mek-a-y-pe-k
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: mekonaye
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: meko-y-a-ye
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: mek-a-ye
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: meko-pe-k-are
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: mekotere
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: meko-y-are
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: mekare
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: meko-pe-k-é
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: mekowe
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: meko-y-é
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: meko-y-é
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: meko-pe-k
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: mekone
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: meko-yo-we
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mekowe
+---
+lemma: sane
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: sanende
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: sanewe
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sane-y-é
+---
+lemma: yosu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: aorist
+  expected: yosu-k-ende
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: aorist
+  expected: yosu-k-é-we
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: aorist
+  expected: yosu-k-é-ye
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: yosu-k-a-nde
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: yosu-k-a-we
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: yosu-k-a-ye
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: yosu-k-are
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: yosu-k-é
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: yosu-k-u

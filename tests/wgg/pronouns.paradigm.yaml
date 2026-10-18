@@ -1,0 +1,388 @@
+lemma: alakiya
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: alakiya
+- features:
+    number: dual
+    person: second
+  expected: anpalakiya
+- features:
+    number: dual
+    person: third
+  expected: pulakiya
+---
+lemma: alanthara
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: alantha
+- features:
+    number: dual
+    person: second
+  expected: anpalantha
+- features:
+    number: dual
+    person: third
+  expected: pulalantha
+- features:
+    number: plural
+    person: first
+  expected: amanthara
+- features:
+    number: plural
+    person: second
+  expected: aranthara
+- features:
+    number: plural
+    person: third
+  expected: karananthara
+---
+lemma: ami
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: amikimdara
+- features:
+    case: accusative
+  expected: ami
+- features:
+    case: elative
+  expected: amikimda-nganha
+- features:
+    case: locative
+  expected: amikimda
+---
+lemma: amiri
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: amirikimdara
+- features:
+    case: accusative
+  expected: amiri
+- features:
+    case: elative
+  expected: amirikimda-nganha
+- features:
+    case: locative
+  expected: amirikimda
+---
+lemma: anpa
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: ankirdara
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: unanha
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: ankirda
+- features:
+    case: elative
+    number: singular
+    person: second
+  expected: ankirda-nganha
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: antu
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: ankunha
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: anpa
+---
+lemma: antha
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: anthirdara
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: anha
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: anthirda
+- features:
+    case: elative
+    number: singular
+    person: first
+  expected: anthirda-nganha
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: athu
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: anthunha
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: antha
+---
+lemma: ari
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: arikirndara
+- features:
+    case: accusative
+  expected: arimha
+- features:
+    case: elative
+  expected: arikirnda-nganha
+- features:
+    case: locative
+  expected: arikirnda
+- features:
+    case: nominative
+  expected: ari
+---
+lemma: arimpa
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: arimpakimdara
+- features:
+    case: accusative
+  expected: ariIIlQanha
+- features:
+    case: elative
+  expected: arimpakirnda-nganha
+- features:
+    case: locative
+  expected: arimpakimda
+- features:
+    case: nominative
+  expected: arimpa
+---
+lemma: arona
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: aronakimdara
+- features:
+    case: accusative
+  expected: aronanha
+- features:
+    case: elative
+  expected: aronakimda-nganha
+- features:
+    case: locative
+  expected: aronakimda
+- features:
+    case: nominative
+  expected: arona
+---
+lemma: awarda
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: awardanha
+- features:
+    case: locative
+  expected: awardanga
+- features:
+    case: nominative
+  expected: awarda
+---
+lemma: intya-intya
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: in tya-intyaru
+- features:
+    case: accusative
+  expected: in tya-intyanha
+- features:
+    case: allative
+  expected: in tya-intya-ku
+- features:
+    case: ergative
+  expected: in tya-intyaru
+- features:
+    case: locative
+  expected: inâa-intyanga
+- features:
+    case: nominative
+  expected: intya-intya
+---
+lemma: kari
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: karikimdara
+- features:
+    case: accusative
+  expected: kari
+- features:
+    case: elative
+  expected: karikimda-nganha
+- features:
+    case: ergative
+  expected: kariri
+- features:
+    case: locative
+  expected: karikimda
+---
+lemma: minha
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: minharu
+- features:
+    case: absolutive
+  expected: minha
+- features:
+    case: dative
+  expected: minhaku
+- features:
+    case: locative
+  expected: minhanKa
+---
+lemma: nhararda
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: nharardanha
+- features:
+    case: locative
+  expected: nharardanga
+- features:
+    case: nominative
+  expected: nhararda
+---
+lemma: pula
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: pulakimdara
+- features:
+    case: accusative
+  expected: pulanha
+- features:
+    case: elative
+  expected: pulakimda-nganha
+- features:
+    case: ergative
+  expected: pularu
+- features:
+    case: locative
+  expected: pulakimda
+- features:
+    case: nominative
+  expected: pula
+---
+lemma: urkari
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: urkarikimdara
+- features:
+    case: accusative
+  expected: urkari
+- features:
+    case: elative
+  expected: urkarikimda-nganha
+- features:
+    case: locative
+  expected: urkarikimda
+---
+lemma: urupula
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: urupulakimdara
+- features:
+    case: accusative
+  expected: urupulanha
+- features:
+    case: elative
+  expected: urupulakimda-nganha
+- features:
+    case: ergative
+  expected: urupularu
+- features:
+    case: locative
+  expected: pulakimda
+- features:
+    case: nominative
+  expected: urupula
+---
+lemma: waRa
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: waRakimdara
+- features:
+    case: accusative
+  expected: waRanha
+- features:
+    case: allative
+  expected: waRakimda
+- features:
+    case: ergative
+  expected: waRaru
+- features:
+    case: locative
+  expected: waRanâ
+- features:
+    case: nominative
+  expected: waRa
+---
+lemma: wararda
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: warardanha
+- features:
+    case: locative
+  expected: warardanga
+- features:
+    case: nominative
+  expected: wararda

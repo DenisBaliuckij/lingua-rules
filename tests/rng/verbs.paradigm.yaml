@@ -1,0 +1,426 @@
+lemma: comer
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: comeremos
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: comiamos
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: comemos
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: comemos
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: comereis
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: comíeis
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: comestes
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: comeis
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: comerão
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: comiam
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: comeram
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: comem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: comerei
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: comia
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: comi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: como
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: comerás
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: comias
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: comeste
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: comes
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: comerá
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: comia
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: comeu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: come
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: comamos
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: comaes
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: comam
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: coma
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: comas
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: coma
+---
+lemma: cuni
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: i'ile
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ini
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: mi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mini
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: baile
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bani
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: nile
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: híni
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: uile
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: uni
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: aile
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: afii
+- features:
+    verb_form: infinitive
+  expected: cuni
+---
+lemma: da
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: aidaneni
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: danani
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: da
+- features:
+    polarity: affirmative
+    verb_form: infinitive
+  expected: cuda
+---
+lemma: janja
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: jaujaui
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: janja
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: janja
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: janja
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: janja
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: janja
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: janja
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: janja
+---
+lemma: janje
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: janje
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: janje
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: future
+  expected: janje
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: janje
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: janjiranga
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: ja?)je
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: janje
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: janie
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: future
+  expected: janje
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: janje
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: janjilánga
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: janje

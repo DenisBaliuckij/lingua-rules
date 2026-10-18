@@ -1,0 +1,67 @@
+lemma: e
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: ok
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: eR
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: ok
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: e
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: ok
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: e
+---
+lemma: t
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: tDR
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: tDR
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: t
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: t
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: t
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: t

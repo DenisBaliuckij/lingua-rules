@@ -1,0 +1,95 @@
+lemma: ana
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: are
+- features:
+    number: singular
+  expected: ana
+---
+lemma: ao
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: aro
+- features:
+    number: singular
+  expected: ao
+---
+lemma: iao
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: iario
+- features:
+    number: singular
+  expected: iao
+---
+lemma: ine
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: ide
+- features:
+    number: singular
+  expected: ine
+---
+lemma: sa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tagi-mai
+- features:
+    number: plural
+    person: second
+  expected: tagi-da
+- features:
+    number: plural
+    person: third
+  expected: tagi-mi
+- features:
+    number: singular
+    person: first
+  expected: tai-gu
+- features:
+    number: singular
+    person: second
+  expected: tagi-mu
+- features:
+    number: singular
+    person: third
+  expected: tagi-na
+---
+lemma: tagi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tagimai
+- features:
+    number: plural
+    person: second
+  expected: tagimi
+- features:
+    number: plural
+    person: third
+  expected: tagidi
+- features:
+    number: singular
+    person: first
+  expected: tai-g#u
+- features:
+    number: singular
+    person: second
+  expected: tagimu
+- features:
+    number: singular
+    person: third
+  expected: tagina

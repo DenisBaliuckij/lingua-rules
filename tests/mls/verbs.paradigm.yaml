@@ -1,0 +1,325 @@
+lemma: ay-a
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: maati
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: maka
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: mays
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kaati
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kaka
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kaye
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: waati
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: waka
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: waye
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: aati
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: aka
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ays
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: gaati
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: gaka
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: gay€
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: taatf
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: taka
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tayo
+---
+lemma: goosin
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    number: singular
+    person: second
+  expected: g-oosin-t-em
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: g-oosin-t-er
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: g-oosirJ-ti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future_perfect
+  expected: g-oosig-ti-irs
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: g-oosin-a
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: passive
+  expected: g-oosin-jur-i
+- features:
+    mood: potential
+    number: singular
+    person: second
+    voice: passive
+  expected: goosi
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+  expected: g-oosig-ti-en
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+    voice: passive
+  expected: g-oosin-jurn-e-ti-en
+- features:
+    verb_form: participle
+    voice: passive
+  expected: g-oosin-jurn-e-to
+---
+lemma: ig-an
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: mantl
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: mana
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: mig
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kantl
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kana
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: anti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ana
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ganti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: gana
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: tanti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tana
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tige
+---
+lemma: iy-ey
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: mindero
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: mindo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kindere
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kinds
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: indr
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: andeti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: andero
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ando
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: jeyti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: jeyro
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: jiYs
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tinda

@@ -1,0 +1,111 @@
+lemma: di
+category: articles
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: dadi
+- features:
+    case: genitive
+    number: singular
+  expected: di
+- features:
+    case: nominative
+    number: plural
+  expected: dadi
+- features:
+    case: nominative
+    number: singular
+  expected: di
+- features:
+    case: oblique
+    number: plural
+  expected: sidadi
+- features:
+    case: oblique
+    number: singular
+  expected: sidi
+---
+lemma: dit
+category: articles
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: dadit
+- features:
+    case: genitive
+    number: singular
+  expected: dit
+- features:
+    case: nominative
+    number: plural
+  expected: dadit
+- features:
+    case: nominative
+    number: singular
+  expected: dit
+- features:
+    case: oblique
+    number: plural
+  expected: sidat
+- features:
+    case: oblique
+    number: singular
+  expected: sit
+---
+lemma: nat
+category: articles
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: danat
+- features:
+    case: genitive
+    number: singular
+  expected: nat
+- features:
+    case: nominative
+    number: plural
+  expected: danat
+- features:
+    case: nominative
+    number: singular
+  expected: nat
+- features:
+    case: oblique
+    number: plural
+  expected: sidanat
+- features:
+    case: oblique
+    number: singular
+  expected: sinat
+---
+lemma: tu
+category: articles
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: datu
+- features:
+    case: genitive
+    number: singular
+  expected: tu
+- features:
+    case: nominative
+    number: plural
+  expected: datu
+- features:
+    case: nominative
+    number: singular
+  expected: tu
+- features:
+    case: oblique
+    number: plural
+  expected: sidatu
+- features:
+    case: oblique
+    number: singular
+  expected: situ

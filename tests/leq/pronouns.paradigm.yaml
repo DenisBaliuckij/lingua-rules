@@ -1,0 +1,79 @@
+lemma: m`a`k`
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: m`kha`k`
+- features:
+    number: dual
+    person: second
+  expected: mhkha`k`
+- features:
+    number: dual
+    person: third
+  expected: mhkha`k`
+- features:
+    number: plural
+    person: first
+  expected: m`mha`k`
+- features:
+    number: plural
+    person: second
+  expected: mx`a`k`
+- features:
+    number: plural
+    person: third
+  expected: mx`a`k`
+- features:
+    number: singular
+    person: first
+  expected: '`m`a`k`'
+- features:
+    number: singular
+    person: second
+  expected: mha`k`
+- features:
+    number: singular
+    person: third
+  expected: a`k`
+---
+lemma: m`a`k`f`
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: m`kha`k`f`
+- features:
+    number: dual
+    person: second
+  expected: mhkha`k`f`
+- features:
+    number: dual
+    person: third
+  expected: mhkha`k`f`
+- features:
+    number: plural
+    person: first
+  expected: m`mha`k`f`
+- features:
+    number: plural
+    person: second
+  expected: mx`a`k`f`
+- features:
+    number: plural
+    person: third
+  expected: mx`a`k`f`
+- features:
+    number: singular
+    person: first
+  expected: '`m`a`k`f`'
+- features:
+    number: singular
+    person: second
+  expected: mha`k`f`
+- features:
+    number: singular
+    person: third
+  expected: a`k`f`

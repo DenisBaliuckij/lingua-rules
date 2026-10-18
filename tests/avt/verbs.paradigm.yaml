@@ -1,0 +1,27 @@
+lemma: k-ep
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: k-ewep-fr
+- features:
+    number: dual
+    person: third
+  expected: k-aksfp
+- features:
+    number: plural
+    person: first
+  expected: k-ewep
+- features:
+    number: plural
+    person: third
+  expected: k-anfp
+- features:
+    number: singular
+    person: first
+  expected: k-eiyep
+- features:
+    number: singular
+    person: third
+  expected: k-akfp

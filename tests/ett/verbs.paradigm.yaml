@@ -1,0 +1,38 @@
+lemma: am
+category: verbs
+cases:
+- features:
+    mood: indicative
+    tense: past
+    voice: active
+  expected: amce
+- features:
+    mood: indicative
+    tense: present
+  expected: ame
+---
+lemma: mena
+category: verbs
+cases:
+- features:
+    mood: indicative
+    tense: past
+    voice: active
+  expected: menece
+- features:
+    mood: indicative
+    tense: past
+    voice: passive
+  expected: menaxe
+---
+lemma: tur
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: tur
+- features:
+    mood: indicative
+    tense: past
+    voice: active
+  expected: turuce

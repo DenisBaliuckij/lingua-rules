@@ -1,0 +1,65 @@
+lemma: Mi
+category: nouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: Misingdaégi
+- features:
+    case: ablative
+    number: singular
+  expected: Midagi
+- features:
+    case: accusative
+    number: plural
+  expected: Misingboo
+- features:
+    case: accusative
+    number: singular
+  expected: Miboo
+- features:
+    case: dative
+    number: plural
+  expected: Misingda
+- features:
+    case: dative
+    number: singular
+  expected: Midé
+- features:
+    case: genitive
+    number: plural
+  expected: Misinggi
+- features:
+    case: genitive
+    number: singular
+  expected: Migi
+- features:
+    case: nominative
+    number: plural
+  expected: Mising
+- features:
+    case: nominative
+    number: singular
+  expected: Mi
+---
+lemma: nupa
+category: nouns
+cases:
+- features:
+    case: ablative
+  expected: nupadagi
+- features:
+    case: accusative
+  expected: nupabu
+- features:
+    case: comitative
+  expected: nupaga
+- features:
+    case: genitive
+  expected: nupagi
+- features:
+    case: instrumental
+  expected: nupana
+- features:
+    case: locative
+  expected: nupada

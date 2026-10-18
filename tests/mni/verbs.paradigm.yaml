@@ -1,0 +1,270 @@
+lemma: ca
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: cay
+- features:
+    mood: imperative
+  expected: caw
+- features:
+    mood: optative
+  expected: cage
+---
+lemma: chatpa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: chatsi
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    polarity: negative
+  expected: chatlanushi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: chatlu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: chatkanu
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: chatsanu
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: negative
+  expected: chattasanu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: aorist
+  expected: chatlamde
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: chatlaroi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: chatludre
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: chatte
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: chatloi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: chatlammi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: chatkani
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: chatlure
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: chatle
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: chatli
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: aorist
+  expected: chatlamde
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: future
+  expected: chatkanu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: chatludre
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: chatkanu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: chatkanu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: chatlammi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: chatlu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: chatluyi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: chatle
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: chatlu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: aorist
+  expected: chatlamde
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: future
+  expected: chatlaroi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: chattare
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: chatte
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: chatloi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: chatlammi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: chatkani
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: chatlure
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: chatle
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: chatli
+- features:
+    polarity: negative
+    verb_form: converb
+  expected: chattraga
+- features:
+    polarity: negative
+    verb_form: participle
+  expected: chatkidadana
+- features:
+    verb_form: converb
+  expected: chatlaga
+- features:
+    verb_form: participle
+  expected: chatkidana
+---
+lemma: turn
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: tummi
+- features:
+    mood: optative
+  expected: tumge

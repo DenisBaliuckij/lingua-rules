@@ -1,0 +1,71 @@
+lemma: gwebana
+category: verbs
+cases:
+- features:
+    gender: feminine
+  expected: gwebili
+- features:
+    gender: masculine
+  expected: gwebana
+---
+lemma: jila
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: jifer
+- features:
+    tense: past
+  expected: jilant
+- features:
+    tense: present
+  expected: jila
+---
+lemma: nwini
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: nwini
+- features:
+    polarity: negative
+  expected: nwinyen
+---
+lemma: sarbana
+category: verbs
+cases:
+- features:
+    gender: feminine
+  expected: sarbili
+- features:
+    gender: masculine
+  expected: sarbana
+---
+lemma: tini
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: tini
+- features:
+    polarity: negative
+  expected: tiyen
+- features:
+    tense: past
+  expected: tinint
+- features:
+    tense: present
+  expected: tini
+---
+lemma: tumili
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: tumilfi
+- features:
+    tense: past
+  expected: tumilint
+- features:
+    tense: present
+  expected: tumili

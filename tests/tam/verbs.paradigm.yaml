@@ -1,0 +1,190 @@
+lemma: Q&iLi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: Q&lLi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: Q&iLuljld
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: Q^tLiQesrp^j
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: Q&iLiQtsbr&iLi
+---
+lemma: keel
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: keeppaan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: keettaan
+- features:
+    verb_form: infinitive
+  expected: keekka
+---
+lemma: nil
+category: verbs
+cases:
+- features:
+    gender: neuter
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: nikkum
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: nippaan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ninnnaan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nikkaan
+- features:
+    verb_form: infinitive
+  expected: nikka
+---
+lemma: q&lli
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: q&iLiQtivrTLb
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: q&djG
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: q&iLKsSir&eir
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: q&iLiJiiTa&r
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: q&iueuiriraefr
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: q&uLiQiauesr
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: q&iLiQpGsr
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: q&iLi®jiTiLi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: q&iLijSrriLi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: q&tLiLLjLn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: q&iLi^rr&r
+---
+lemma: taa
+category: verbs
+cases:
+- features:
+    formality: formal
+    mood: imperative
+    person: second
+  expected: um
+- features:
+    mood: imperative
+    person: second
+  expected: taar
+---
+lemma: tim
+category: verbs
+cases:
+- features:
+    gender: neuter
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: timkjm
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: timpaan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: timkaan
+- features:
+    verb_form: infinitive
+  expected: timka

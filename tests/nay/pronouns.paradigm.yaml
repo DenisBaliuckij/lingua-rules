@@ -1,0 +1,63 @@
+lemma: itji
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: itji
+---
+lemma: nga
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nge:li
+- features:
+    number: plural
+    person: first
+  expected: ngutni
+- features:
+    number: singular
+    person: first
+  expected: nga
+---
+lemma: ngafe
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: ngan
+- features:
+    case: instrumental
+    number: dual
+  expected: ngel
+- features:
+    case: instrumental
+    number: plural
+  expected: ngurn
+- features:
+    case: instrumental
+    number: singular
+  expected: ngate
+- features:
+    case: nominative
+    number: dual
+  expected: ngel
+- features:
+    case: nominative
+    number: plural
+  expected: ngum
+- features:
+    case: nominative
+    number: singular
+  expected: ngape
+---
+lemma: nginti
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: nginti

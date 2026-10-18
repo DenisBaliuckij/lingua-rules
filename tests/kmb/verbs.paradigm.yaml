@@ -1,0 +1,166 @@
+lemma: cu ria
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ria
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ria
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ria
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ria
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ria
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ria
+---
+lemma: handala
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: handál'enu
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: handál'e
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: handála
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: handál'e
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: handaléle
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: handala
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: ng'handaléle
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ng'handala
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: handále
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: ng’handále
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: handále
+---
+lemma: handalé
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: c'handal'a
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: ng'handaléme
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: u'handaléle'e
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: c'handaléle'e
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: c'handalé
+---
+lemma: kuzola
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ngizola
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: uzola
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: uzola

@@ -1,0 +1,119 @@
+lemma: am
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: am-dwa-si
+- features:
+    number: plural
+    person: third
+  expected: amdwa
+- features:
+    number: singular
+    person: third
+  expected: am
+---
+lemma: gu
+category: pronouns
+cases:
+- features:
+    evidentiality: direct
+    number: dual
+    person: first
+  expected: gusu
+- features:
+    evidentiality: direct
+    number: plural
+    person: first
+  expected: guku
+- features:
+    evidentiality: indirect
+    number: dual
+    person: first
+  expected: gə-si
+- features:
+    evidentiality: indirect
+    number: plural
+    person: first
+  expected: gə-yi
+- features:
+    number: singular
+    person: first
+  expected: gu
+---
+lemma: gʌ
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: gʌsi
+- features:
+    number: plural
+    person: second
+  expected: gʌni
+- features:
+    number: singular
+    person: second
+  expected: gʌ
+---
+lemma: myam
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: myam-dwa-si
+- features:
+    number: plural
+    person: third
+  expected: myamdwa
+- features:
+    number: singular
+    person: third
+  expected: myam
+---
+lemma: yam
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: yam-dwa-si
+- features:
+    number: plural
+    person: third
+  expected: yamdwa
+- features:
+    number: singular
+    person: third
+  expected: yam
+---
+lemma: ʌ
+category: pronouns
+cases:
+- features:
+    evidentiality: direct
+    number: dual
+    person: first
+  expected: ʌsi
+- features:
+    evidentiality: direct
+    number: plural
+    person: first
+  expected: ʌke
+- features:
+    evidentiality: indirect
+    number: dual
+    person: first
+  expected: i-si
+- features:
+    evidentiality: indirect
+    number: plural
+    person: first
+  expected: i-ke
+- features:
+    number: singular
+    person: first
+  expected: ʌ
