@@ -1,0 +1,31 @@
+lemma: u
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: ë
+- features:
+    gender: feminine
+    number: singular
+  expected: a
+- features:
+    gender: masculine
+    number: plural
+  expected: i
+- features:
+    gender: masculine
+    number: singular
+  expected: u
+---
+lemma: ün
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: üna
+- features:
+    gender: masculine
+    number: singular
+  expected: ün

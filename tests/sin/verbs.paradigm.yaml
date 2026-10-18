@@ -1,0 +1,1656 @@
+lemma: adi
+category: verbs
+cases:
+- features:
+    aspect: perfective
+  expected: redapu
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: reda
+- features:
+    formality: informal
+    mood: imperative
+    number: singular
+    person: second
+  expected: redapan
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: adinna
+- features:
+    tense: past
+  expected: redda
+- features:
+    tense: present
+  expected: adin
+---
+lemma: as
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: යව්
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: යනෝ
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: යව
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: යන්
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: යනෙමු
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ගියෙමු
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: යමු
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: යන්නාහු
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ගියාහු
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: සවු
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: යනෝ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ගියෝ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: යති
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: යනෙමි
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ගියෙමි
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: යමි
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: යන්නෙහි
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ගියෙහි
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: යයි
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: යන්
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ගියේ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: යයි
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: යමෝවා
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: යවුවා
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: යක්වා
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: යවා
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: යයිවා
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: යයිවා
+---
+lemma: bala
+category: verbs
+cases:
+- features:
+    formality: informal
+    mood: imperative
+    number: singular
+    person: second
+  expected: balapan
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: balanna
+---
+lemma: balarzawa
+category: verbs
+cases:
+- features:
+    voice: active
+  expected: balarzawa
+- features:
+    voice: passive
+  expected: brelenawa
+---
+lemma: ecordo
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: eco
+- features:
+    aspect: progressive
+    tense: present
+  expected: eCORDO
+---
+lemma: kapa
+category: verbs
+cases:
+- features:
+    aspect: perfective
+  expected: kapapu
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: kapa
+- features:
+    tense: present
+  expected: kap
+- features:
+    verb_form: infinitive
+  expected: kapanrza
+---
+lemma: kapanawa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    voice: active
+  expected: kapanm
+- features:
+    mood: indicative
+    voice: active
+  expected: kapanawa
+- features:
+    mood: subjunctive
+    voice: active
+  expected: kapatot
+- features:
+    verb_form: infinitive
+    voice: active
+  expected: kapanna
+- features:
+    voice: active
+  expected: kapanne
+---
+lemma: kaparzawa
+category: verbs
+cases:
+- features:
+    voice: active
+  expected: kaparzawa
+- features:
+    voice: passive
+  expected: krepenawa
+---
+lemma: kapp
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: kappann
+- features:
+    mood: indicative
+  expected: kapp
+- features:
+    mood: subjunctive
+  expected: kappatot
+- features:
+    verb_form: gerund
+  expected: kreppiima
+- features:
+    verb_form: infinitive
+  expected: kappanm
+---
+lemma: krepenawa
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: krepenm
+- features:
+    mood: indicative
+  expected: krepenawa
+- features:
+    verb_form: gerund
+  expected: krepiima
+- features:
+    verb_form: infinitive
+  expected: kaepenna
+---
+lemma: kreppuwa
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: kreppuwa
+- features:
+    mood: subjunctive
+  expected: kreppuwot
+---
+lemma: krepua
+category: verbs
+cases:
+- features:
+    mood: indicative
+    voice: active
+  expected: krepua
+- features:
+    voice: active
+  expected: krepue
+---
+lemma: krepuna
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: krepuna
+- features:
+    mood: subjunctive
+  expected: krepunot
+---
+lemma: ove
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: ooen
+- features:
+    aspect: progressive
+    tense: present
+  expected: ove
+---
+lemma: ඇඳනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: ඇඳුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: ඇඳනවා
+- features:
+    verb_form: verbal_noun
+  expected: ඇඳීම
+---
+lemma: ඇඹරෙෂ්ණවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: ඇඹරුණ
+- features:
+    aspect: progressive
+    tense: present
+  expected: ඇඹරෙෂ්ණවා
+---
+lemma: ඉපදෙනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: ඉපදුණා
+- features:
+    aspect: progressive
+    tense: present
+  expected: ඉපදෙනවා
+- features:
+    verb_form: verbal_noun
+  expected: ඉපදිම
+---
+lemma: ඉරණවා
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: ඉරුවා
+- features:
+    tense: present
+  expected: ඉරණවා
+- features:
+    verb_form: verbal_noun
+  expected: ඉරිම
+---
+lemma: උගන්වනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: ඉගැන්නුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: උගන්වනවා
+- features:
+    verb_form: verbal_noun
+  expected: ඉගැන්වීම
+---
+lemma: උපදිනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: ඉපිද
+- features:
+    aspect: progressive
+    tense: present
+  expected: උපදිනවා
+- features:
+    verb_form: verbal_noun
+  expected: උපහා
+---
+lemma: එරණවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: එරුණ
+- features:
+    aspect: progressive
+    tense: present
+  expected: එරණවා
+---
+lemma: එලනවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: එලනවා
+- features:
+    aspect: perfective
+    tense: past
+  expected: එලුවා
+- features:
+    verb_form: verbal_noun
+  expected: එලීම
+---
+lemma: එලලනවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: එලලනවා
+- features:
+    aspect: perfective
+    tense: past
+  expected: එලලුවා
+- features:
+    verb_form: verbal_noun
+  expected: එලලීම
+---
+lemma: එල්ලෙනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: එල්ලුනා
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: එල්ලි
+- features:
+    aspect: progressive
+    tense: present
+  expected: එල්ලෙනවා
+---
+lemma: එවනවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: එවනවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: එවනවා
+- features:
+    verb_form: verbal_noun
+  expected: එවීම
+---
+lemma: ඒදනවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: ඒදනවා
+- features:
+    aspect: perfective
+    tense: past
+  expected: ඒදුවා
+- features:
+    verb_form: verbal_noun
+  expected: ඒදිම
+---
+lemma: කඩනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: කැඩුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: කඩනවා
+---
+lemma: කපනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: කැපුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: කපනවා
+---
+lemma: කරකවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: කරකැවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: කරකවනවා
+---
+lemma: කරණවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: කරුණ
+- features:
+    aspect: progressive
+    tense: present
+  expected: කරණවා
+---
+lemma: කවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: කැවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: කවනවා
+---
+lemma: කසනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: කැසුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: කසනවා
+---
+lemma: කහිනවා
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    tense: present
+  expected: කහිනවා
+- features:
+    verb_form: verbal_noun
+  expected: කැහින්ම
+---
+lemma: කැලඹෙනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: කැලබුනා
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: කැලබී
+- features:
+    aspect: progressive
+    tense: present
+  expected: කැලඹෙනවා
+---
+lemma: කැලැත්තනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: කැලැතුනා
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: කැලැතී
+- features:
+    aspect: progressive
+    tense: present
+  expected: කැලැත්තනවා
+---
+lemma: කිඳවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: කිඳෙවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: කිඳවනවා
+---
+lemma: කියවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: කියෙවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: කියවනවා
+---
+lemma: කොණුස්සනවා
+category: verbs
+cases:
+- features:
+    tense: present
+  expected: කොණුස්සනවා
+- features:
+    verb_form: verbal_noun
+  expected: කෙණිස්සීම
+---
+lemma: ගරණවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: ගැරුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: ගරණවා
+---
+lemma: ගලනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: ගැලුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: ගලනවා
+---
+lemma: ගල්වනවා
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    tense: present
+  expected: ගල්වනවා
+- features:
+    verb_form: verbal_noun
+  expected: ගැල්වීම
+---
+lemma: ගවනවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: ගවනවා
+- features:
+    aspect: perfective
+    tense: past
+  expected: ගෙවුවා
+---
+lemma: ගසනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: ගැසුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: ගසනවා
+---
+lemma: ගහනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: ගැහුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: ගහනවා
+---
+lemma: ගහවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: ගෙනුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: ගහවා
+---
+lemma: ගැරහෙනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: ගැරන්හුනා
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: ගැරහී
+- features:
+    aspect: progressive
+    tense: present
+  expected: ගැරහෙනවා
+---
+lemma: ගැලපෙනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: ගැලපුනා
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: ගැලපි
+- features:
+    aspect: progressive
+    tense: present
+  expected: ගැලපෙනවා
+---
+lemma: ගුගුරණවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: ගිගුරුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: ගුගුරණවා
+---
+lemma: ගෙතෙනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: ගෙතුනා
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: ගෙති
+- features:
+    aspect: progressive
+    tense: present
+  expected: ගෙතෙනවා
+---
+lemma: ගෙනවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: ගෙනවා
+- features:
+    aspect: perfective
+    tense: past
+  expected: ගෙන්නුවා
+- features:
+    verb_form: verbal_noun
+  expected: ගෙන්වීම
+---
+lemma: තකහවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: තැකුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: තකහවා
+---
+lemma: තබනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: තැබුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: තබනවා
+---
+lemma: තහනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: තැනුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: තහනවා
+---
+lemma: තළනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: තැළුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: තළනවා
+---
+lemma: තෙමෙණෙවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: තෙමුණ
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: තෙමී
+- features:
+    aspect: progressive
+    tense: present
+  expected: තෙමෙණෙවා
+---
+lemma: තෙරපනවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: තෙරපනවා
+- features:
+    aspect: perfective
+    tense: past
+  expected: තෙරපුවා
+- features:
+    verb_form: verbal_noun
+  expected: තෙරපීම
+---
+lemma: දකනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: දැකුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: දකනවා
+---
+lemma: දක්වනවා
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: දක්වන්නේ
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: දක්වව
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: දක්වන්නේ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: දක්වන්නෙමු
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: දැක්වීම
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: දක්වමු
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: දක්වන
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: දැක්වූ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: දක්වමු
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: දත්වන්නෝ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: දක්වති
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: දක්වන්නෙමි
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: දක්වමි
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: දක්වන්නෙහි
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: දක්වන්නේ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: දැක්වී
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: දක්වමෝවා
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: දක්වන්වා
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: දක්වයි
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: දක්වාවා
+---
+lemma: දිරවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: දිරෙවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: දිරවනවා
+---
+lemma: දෙදරණවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: දෙදරණවා
+- features:
+    aspect: perfective
+    tense: past
+  expected: දෙදරුවා
+---
+lemma: දෙවනවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: දෙවනවා
+- features:
+    aspect: perfective
+    tense: past
+  expected: දෙවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: දෙවනවා
+- features:
+    tense: present
+  expected: දෙවනවා
+- features:
+    verb_form: verbal_noun
+  expected: දෙවීම
+---
+lemma: දෙසනවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: දෙසනවා
+- features:
+    aspect: perfective
+    tense: past
+  expected: දෙසුවා
+- features:
+    verb_form: verbal_noun
+  expected: දෙසීම
+---
+lemma: නිමවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: නිමෙවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: නිමවනවා
+---
+lemma: නියවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: නියෙවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: නියවනවා
+---
+lemma: නෙරපවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: නෙරපෙවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: නෙරපවනවා
+---
+lemma: පිනවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: පිනෙවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: පිනවනවා
+---
+lemma: පියවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: පියෙවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: පියවනවා
+---
+lemma: පිහිටුවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: පිහිටෙවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: පිහිටුවනවා
+---
+lemma: පුලුස්සනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: පිලිස්සුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: පුලුස්සනවා
+---
+lemma: පෙනෙනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: පෙනුනා
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: පෙන්
+- features:
+    aspect: progressive
+    tense: present
+  expected: පෙනෙනවා
+---
+lemma: පෙරණවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: පෙරුණ
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: පෙරී
+- features:
+    aspect: progressive
+    tense: present
+  expected: පෙරණවා
+---
+lemma: පෙරවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: පෙරෙවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: පෙරවනවා
+---
+lemma: පෙරළනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: පෙරළුනා
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: පෙරළි
+- features:
+    aspect: progressive
+    tense: present
+  expected: පෙරළනවා
+---
+lemma: පෙළනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: පෙළි
+- features:
+    aspect: progressive
+    tense: present
+  expected: පෙළනවා
+---
+lemma: බෙදෙනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: බෙදුනා
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: බෙදී
+- features:
+    aspect: progressive
+    tense: present
+  expected: බෙදෙනවා
+---
+lemma: මතුරණවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: මැතුරුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: මතුරණවා
+---
+lemma: මුදවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: මිදුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: මුදවා
+---
+lemma: යෙදෙනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: යෙදුනා
+- features:
+    aspect: progressive
+    tense: present
+  expected: යෙදෙනවා
+---
+lemma: ලියලවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: ලියලෙවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: ලියලවනවා
+---
+lemma: ලියවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: ලියෙවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: ලියවනවා
+---
+lemma: වගුරණවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: වැගුරුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: වගුරණවා
+---
+lemma: වපුරණවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: වැපුරුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: වපුරණවා
+---
+lemma: වළකනවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: වළකනවා
+- features:
+    verb_form: verbal_noun
+  expected: වළකීම
+---
+lemma: විමසනවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: විමසනවා
+- features:
+    aspect: perfective
+    tense: past
+  expected: විමසුවා
+- features:
+    verb_form: verbal_noun
+  expected: විමසුම
+---
+lemma: වියලනවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: වියලනවා
+- features:
+    aspect: perfective
+    tense: past
+  expected: වියලුවා
+- features:
+    verb_form: verbal_noun
+  expected: වියලීම
+---
+lemma: වියලවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: වියලෙවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: වියලවනවා
+---
+lemma: විසඳනවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: විසඳනවා
+- features:
+    aspect: perfective
+    tense: past
+  expected: විසඳුවා
+- features:
+    verb_form: verbal_noun
+  expected: විසඳීම
+---
+lemma: විසුරුවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: විසිරෙවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: විසුරුවනවා
+---
+lemma: විහිදනවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: විහිදනවා
+- features:
+    aspect: perfective
+    tense: past
+  expected: විහිදුවා
+- features:
+    verb_form: verbal_noun
+  expected: විහිදීම
+---
+lemma: වෙන්න
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: වෙන්නෙමු
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: වෙමු
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: වෙන්නාහු
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: වෙවු
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: වෙනෝ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: වෙති
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: වෙන්නෙමි
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: වෙමි
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: වෙනෙහි
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: වෙයි
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: වෙන්
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: වෙයි
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: වෙමෝවා
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: වෙත්වා
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: වෙම්වා
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: වෙහි
+---
+lemma: වෙලෙනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: වෙලුනා
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: වෙල
+- features:
+    aspect: progressive
+    tense: present
+  expected: වෙලෙනවා
+---
+lemma: වේලවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: වේලෙවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: වේලවනවා
+---
+lemma: වේලුනාා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: වේලුනාා
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: වේල්
+---
+lemma: වේලෙනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: වේලුන
+- features:
+    aspect: progressive
+    tense: present
+  expected: වේලෙනවා
+---
+lemma: සිතනවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: සිතනවා
+- features:
+    aspect: perfective
+    tense: past
+  expected: සිතුවා
+---
+lemma: සිතවනවා
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: සිතෙවුවා
+- features:
+    aspect: progressive
+    tense: present
+  expected: සිතවනවා
+---
+lemma: හිතනවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: හිතනවා
+- features:
+    aspect: perfective
+    tense: past
+  expected: හිතුවා
+- features:
+    verb_form: verbal_noun
+  expected: හිතිම
+---
+lemma: හිනවා
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: හිනවා
+- features:
+    aspect: perfective
+    tense: past
+  expected: හින්දුවා
+- features:
+    verb_form: verbal_noun
+  expected: හින්දීම

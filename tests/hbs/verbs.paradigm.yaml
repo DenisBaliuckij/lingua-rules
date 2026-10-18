@@ -1,0 +1,2849 @@
+lemma: biti
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: dual
+    person: first
+  expected: bismo
+- features:
+    mood: conditional
+    number: dual
+    person: second
+  expected: biste
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: biše
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: bih
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: biš
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: bi
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: bijmo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bijte
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: bijemo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: bijete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: bijâhu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: biju
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bijêm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: bijâše
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: biješ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: bijâše
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: bije
+- features:
+    tense: present
+    verb_form: gerund
+  expected: bijůći
+---
+lemma: brati
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+    voice: passive
+  expected: brane
+- features:
+    gender: feminine
+    number: plural
+    verb_form: past_participle
+  expected: brale
+- features:
+    gender: feminine
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: brana
+- features:
+    gender: feminine
+    number: singular
+    verb_form: past_participle
+  expected: brala
+- features:
+    gender: masculine
+    number: plural
+    verb_form: participle
+    voice: passive
+  expected: brani
+- features:
+    gender: masculine
+    number: plural
+    verb_form: past_participle
+  expected: brali
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: bran
+- features:
+    gender: masculine
+    number: singular
+    verb_form: past_participle
+  expected: brao
+- features:
+    gender: neuter
+    number: plural
+    verb_form: participle
+    voice: passive
+  expected: brana
+- features:
+    gender: neuter
+    number: plural
+    verb_form: past_participle
+  expected: brala
+- features:
+    gender: neuter
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: brano
+- features:
+    gender: neuter
+    number: singular
+    verb_form: past_participle
+  expected: bralo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: brasmo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: brasmo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: braste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: braste
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: braše
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: brahu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: brah
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: brah
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: bra
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: braše
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: bra
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: braše
+- features:
+    verb_form: gerund
+  expected: bravši
+---
+lemma: dići
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    verb_form: participle
+    voice: active
+  expected: digao
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: digoh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dignem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: diže
+- features:
+    verb_form: infinitive
+  expected: dići
+---
+lemma: gledati
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: gledajmo!
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: gledajte!
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: gledaj!
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: aorist
+  expected: gledasmo
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+  expected: gledasmo
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: aorist
+  expected: gledaste
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+  expected: gledaste
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: aorist
+  expected: gledaše
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+  expected: gledahu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: gledamo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: gledate
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: gledaju
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: gledah
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: gledah
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: gledam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: gleda
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: gledaše
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: gledaš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: gleda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: gledaše
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: gleda
+---
+lemma: grepsti
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: grebemo
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: grebete
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: grebu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: grebem
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: grebete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: grebu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: grebem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: grebeš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: grebe
+---
+lemma: hteti
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+  expected: htele
+- features:
+    gender: feminine
+    number: singular
+    verb_form: participle
+  expected: htela
+- features:
+    gender: masculine
+    number: plural
+    verb_form: participle
+  expected: hteli
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+  expected: hteo
+- features:
+    gender: neuter
+    number: singular
+    verb_form: participle
+  expected: htelo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: htesmo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: hòtijasmo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: hteste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: hòćaste
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: hteše
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: hòtijahu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: hteh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: hòtijah
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: hte
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: hòtijaše
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: hte
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: hòtijaše
+---
+lemma: hvaliti
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: hvalimo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: hvalite
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: hvali
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: hvalimo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: hvalite
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hvale
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: hvalim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hvališ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hvali
+- features:
+    tense: present
+    verb_form: gerund
+  expected: hvaléči
+- features:
+    tense: present
+    verb_form: participle
+    voice: active
+  expected: hvaléči
+---
+lemma: igrati
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: igrasmo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: igraste
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: igrahu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: igrah
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: igraše
+---
+lemma: ići
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: ìdimo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ìdite
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ìdi
+---
+lemma: jesti
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    case: nominative
+    gender: feminine
+    number: plural
+    verb_form: participle
+    voice: passive
+  expected: jedena
+- features:
+    aspect: imperfective
+    case: nominative
+    gender: feminine
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: jedena
+- features:
+    aspect: imperfective
+    case: nominative
+    gender: masculine
+    number: plural
+    verb_form: participle
+    voice: passive
+  expected: jedeni
+- features:
+    aspect: imperfective
+    case: nominative
+    gender: masculine
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: jeden
+- features:
+    aspect: imperfective
+    case: nominative
+    gender: neuter
+    number: plural
+    verb_form: participle
+    voice: passive
+  expected: jedene
+- features:
+    aspect: imperfective
+    case: nominative
+    gender: neuter
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: jedeno
+- features:
+    aspect: imperfective
+    verb_form: gerund
+  expected: jedući
+- features:
+    aspect: perfective
+    case: nominative
+    gender: feminine
+    number: plural
+    verb_form: participle
+  expected: jela
+- features:
+    aspect: perfective
+    case: nominative
+    gender: feminine
+    number: singular
+    verb_form: participle
+  expected: jela
+- features:
+    aspect: perfective
+    case: nominative
+    gender: masculine
+    number: plural
+    verb_form: participle
+  expected: jeli
+- features:
+    aspect: perfective
+    case: nominative
+    gender: masculine
+    number: singular
+    verb_form: participle
+  expected: jeo
+- features:
+    aspect: perfective
+    case: nominative
+    gender: neuter
+    number: plural
+    verb_form: participle
+  expected: jele
+- features:
+    aspect: perfective
+    case: nominative
+    gender: neuter
+    number: singular
+    verb_form: participle
+  expected: jelo
+- features:
+    aspect: perfective
+    verb_form: gerund
+  expected: jedavši
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: jedimo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: jedite
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: jedi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: jedosmo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: jeđasmo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: jedemo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: jedoste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: jeđaste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: jedete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: jedoše
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: jeđahu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: jedu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: jedoh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: jeđah
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: jedem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: jede
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: jeđaše
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: jedeš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: jede
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: jeđaše
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: jede
+- features:
+    verb_form: infinitive
+  expected: jesti
+---
+lemma: kazïvati
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    verb_form: past_participle
+  expected: kazïvale
+- features:
+    gender: feminine
+    number: singular
+    verb_form: past_participle
+  expected: kazïvala
+- features:
+    gender: masculine
+    number: plural
+    verb_form: past_participle
+  expected: kazïvali
+- features:
+    gender: masculine
+    number: singular
+    verb_form: past_participle
+  expected: kazïvao
+- features:
+    gender: neuter
+    number: plural
+    verb_form: past_participle
+  expected: kazïvala
+- features:
+    gender: neuter
+    number: singular
+    verb_form: past_participle
+  expected: kazïvalo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: kazïvasmo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: kazïvasmo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: kazïvaste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: kazïvaste
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: kazïvaše
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: kazïvahu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: kazïvah
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: kazïvah
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: kazïva
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: kazïvaše
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: kazïva
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: kazïvaše
+- features:
+    verb_form: gerund
+  expected: kazïvavši
+---
+lemma: kleknuti
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: klekoh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kleknem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: kleče
+- features:
+    verb_form: infinitive
+  expected: kleknuti
+---
+lemma: kleti
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: klésmo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: kléste
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: kleše
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: kleh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: klê
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: kle
+---
+lemma: kupovati
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+  expected: kupovana
+- features:
+    gender: feminine
+    number: plural
+    verb_form: past_participle
+  expected: kupovala
+- features:
+    gender: feminine
+    number: singular
+    verb_form: participle
+  expected: kupovana
+- features:
+    gender: feminine
+    number: singular
+    verb_form: past_participle
+  expected: kupovala
+- features:
+    gender: masculine
+    number: plural
+    verb_form: participle
+  expected: kupovani
+- features:
+    gender: masculine
+    number: plural
+    verb_form: past_participle
+  expected: kupovali
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+  expected: kupovan
+- features:
+    gender: masculine
+    number: singular
+    verb_form: past_participle
+  expected: kupovao
+- features:
+    gender: neuter
+    number: plural
+    verb_form: participle
+  expected: kupovane
+- features:
+    gender: neuter
+    number: plural
+    verb_form: past_participle
+  expected: kupovale
+- features:
+    gender: neuter
+    number: singular
+    verb_form: participle
+  expected: kupovano
+- features:
+    gender: neuter
+    number: singular
+    verb_form: past_participle
+  expected: kupovalo
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: aorist
+  expected: kupòvasmo
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+  expected: kùpovasmo
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: aorist
+  expected: kupòvaste
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+  expected: kùpovaste
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: kupòvaše
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: kùpovahu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: kupòvah
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: kùpovah
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: kupòva
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: kùpovaše
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: kupòva
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: kùpovaše
+- features:
+    verb_form: gerund
+  expected: kupovavši
+---
+lemma: kéti kleti
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: kleše
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: kleh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: kle
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: kle
+---
+lemma: leći
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: lezimo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: lezite
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: lezi
+---
+lemma: odneti
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: odnèsimo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: odnèsite
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: odnèsi
+---
+lemma: oći
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: odimo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: odite
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: odi
+---
+lemma: pasti
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: padnemo
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: padnete
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: padnu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: padnem
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: padnete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: padnu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: padnem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: padneš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: padne
+---
+lemma: pisati
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: pisasmo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: pisaste
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: pisahu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: pisah
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: pisaše
+---
+lemma: piti
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    verb_form: past_participle
+  expected: pila
+- features:
+    gender: feminine
+    number: singular
+    verb_form: past_participle
+  expected: pila
+- features:
+    gender: masculine
+    number: plural
+    verb_form: past_participle
+  expected: pili
+- features:
+    gender: masculine
+    number: singular
+    verb_form: past_participle
+  expected: pio
+- features:
+    gender: neuter
+    number: plural
+    verb_form: past_participle
+  expected: pile
+- features:
+    gender: neuter
+    number: singular
+    verb_form: past_participle
+  expected: pilo
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: pijmo!
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: pijte!
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pij!
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: aorist
+  expected: pismo
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+  expected: pijasmo
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: pijemo
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: aorist
+  expected: piste
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+  expected: pijaste
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: pijete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: piše
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: pijahu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: piju
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: pih
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: pijah
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: pijem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: pi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: pijaše
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: piješ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: pi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: pijaše
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pije
+- features:
+    verb_form: present_participle
+  expected: pijući
+---
+lemma: plesti
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: pletimo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pleti
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: pletémo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: pletéte
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: pletém
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: pleteš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: plete
+---
+lemma: pletiti
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: pletijdsmo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: pletijaste
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: pletijahu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: pletijah
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: pletijase
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: pletijdše
+---
+lemma: plësti
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: plëtemo
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: plëtete
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: plëtu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: plëtem
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: plëtete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: plëtu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: plëtem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: plëteš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: plëte
+---
+lemma: pomoći
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: pomòzimo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: pomòzite
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pomòzi
+---
+lemma: rasti
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: rästemo
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: rästete
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: rästu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: rästem
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: rästete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: rästu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: rästem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: rästeš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: räste
+---
+lemma: sesti
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    verb_form: participle
+    voice: active
+  expected: seo
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: sednemo
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: sednete
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: sednu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sednem
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: sednete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: sednu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: sedoh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: sednem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: sede
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sedneš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: sedne
+- features:
+    verb_form: infinitive
+  expected: sesti
+---
+lemma: sjesti
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: sjednemo
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: sjednete
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: sjednu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sjednem
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: sjednete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: sjednu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: sjednem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sjedneš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: sjedne
+---
+lemma: slegnuti
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    verb_form: participle
+    voice: active
+  expected: slegao
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: slegoh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: slegnem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: sleže
+- features:
+    verb_form: infinitive
+  expected: slegnuti
+---
+lemma: stajati
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: stajasmo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: stajaste
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: stajahu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: stajah
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: stajaše
+---
+lemma: staviti
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: stavimo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: stavite
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: stavi
+---
+lemma: stići
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: gerund
+  expected: stižući
+- features:
+    aspect: perfective
+    case: nominative
+    gender: feminine
+    number: plural
+    verb_form: participle
+  expected: stigla
+- features:
+    aspect: perfective
+    case: nominative
+    gender: feminine
+    number: singular
+    verb_form: participle
+  expected: stigla
+- features:
+    aspect: perfective
+    case: nominative
+    gender: masculine
+    number: plural
+    verb_form: participle
+  expected: stigli
+- features:
+    aspect: perfective
+    case: nominative
+    gender: masculine
+    number: singular
+    verb_form: participle
+  expected: stigao
+- features:
+    aspect: perfective
+    case: nominative
+    gender: neuter
+    number: plural
+    verb_form: participle
+  expected: stigle
+- features:
+    aspect: perfective
+    case: nominative
+    gender: neuter
+    number: singular
+    verb_form: participle
+  expected: stiglo
+- features:
+    aspect: perfective
+    verb_form: gerund
+  expected: stigavši
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: stignimo!
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: stignite!
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: stigni!
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: stigosmo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: stizasmo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: stignemo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: stigoste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: stizaste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: stignete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: stigoše
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: stizahu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: stignu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: stigoh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: stizah
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: stignem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: stiže
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: stizaše
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: stigneš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: stiže
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: stizaše
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: stigne
+- features:
+    verb_form: infinitive
+  expected: stići
+---
+lemma: teći
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    case: nominative
+    gender: feminine
+    number: plural
+    verb_form: participle
+    voice: passive
+  expected: tečëna
+- features:
+    aspect: imperfective
+    case: nominative
+    gender: feminine
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: tečëna
+- features:
+    aspect: imperfective
+    case: nominative
+    gender: masculine
+    number: plural
+    verb_form: participle
+    voice: passive
+  expected: tečëni
+- features:
+    aspect: imperfective
+    case: nominative
+    gender: neuter
+    number: plural
+    verb_form: participle
+    voice: passive
+  expected: tečëne
+- features:
+    aspect: imperfective
+    case: nominative
+    gender: neuter
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: tečëno
+- features:
+    aspect: imperfective
+    verb_form: gerund
+  expected: tëkući
+- features:
+    aspect: perfective
+    case: nominative
+    gender: feminine
+    number: plural
+    verb_form: participle
+  expected: tekla
+- features:
+    aspect: perfective
+    case: nominative
+    gender: feminine
+    number: singular
+    verb_form: participle
+  expected: tekla
+- features:
+    aspect: perfective
+    case: nominative
+    gender: masculine
+    number: plural
+    verb_form: participle
+  expected: tekli
+- features:
+    aspect: perfective
+    case: nominative
+    gender: masculine
+    number: singular
+    verb_form: participle
+  expected: tekao
+- features:
+    aspect: perfective
+    case: nominative
+    gender: neuter
+    number: plural
+    verb_form: participle
+  expected: tekle
+- features:
+    aspect: perfective
+    case: nominative
+    gender: neuter
+    number: singular
+    verb_form: participle
+  expected: teklo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tëcite!
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: tekosmo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: tekoste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: tëcijaste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tëčete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: tekoše
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: tekoh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: teče
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: teče
+- features:
+    verb_form: infinitive
+  expected: teći
+---
+lemma: trgnuti
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    verb_form: participle
+    voice: active
+  expected: trgao
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: trgoh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: trgnem
+- features:
+    verb_form: infinitive
+  expected: trgnuti
+---
+lemma: videti
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: vidimo!
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: vidite!
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: vidi!
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: aorist
+  expected: videsmo
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: aorist
+  expected: videste
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: aorist
+  expected: videše
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: vidimo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: vidite
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vide
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: videh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: vidim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: vide
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: vidiš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: vide
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: vidi
+---
+lemma: vidjeti
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: vidimo!
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: vidite!
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: vidi!
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: aorist
+  expected: vidjesmo
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: aorist
+  expected: vidjeste
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: aorist
+  expected: vidješe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: vidimo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: vidite
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vide
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: vidjeh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: vidim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: vidje
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: vidiš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: vidje
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: vidi
+---
+lemma: ümeti
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    verb_form: past_participle
+  expected: ümele
+- features:
+    gender: feminine
+    number: singular
+    verb_form: past_participle
+  expected: ümela
+- features:
+    gender: masculine
+    number: plural
+    verb_form: past_participle
+  expected: ümeli
+- features:
+    gender: masculine
+    number: singular
+    verb_form: past_participle
+  expected: ümeo
+- features:
+    gender: neuter
+    number: plural
+    verb_form: past_participle
+  expected: ümela
+- features:
+    gender: neuter
+    number: singular
+    verb_form: past_participle
+  expected: ümelo
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: ümejmo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ümejte
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ümej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: ümesmo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: ümejasmo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ümemo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: ümeste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: ümejaste
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ümete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: ümeše
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: ümejahu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ümeju
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: ümeh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: ümejah
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ümem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: üme
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: ümejaše
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ümeš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: üme
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: ümejaše
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: üme
+- features:
+    verb_form: gerund
+  expected: ümevši
+- features:
+    verb_form: present_participle
+  expected: ümejući
+---
+lemma: üzeti
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: üzmimo!
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: üzmite!
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: üzmi!
+---
+lemma: čuti
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: čujmo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: čujte
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: čuj
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: čujemo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: čujete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: čuju
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: čujem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: čuješ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: čuje
+- features:
+    tense: present
+    verb_form: gerund
+  expected: čujući
+- features:
+    tense: present
+    verb_form: participle
+    voice: active
+  expected: čujući
+---
+lemma: čuvati
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: čuvajmo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: čuvajte
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: čuvaj
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: čuvamo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: čuvate
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: čuvaju
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: čuvam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: čuvas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: čuva
+- features:
+    tense: present
+    verb_form: gerund
+  expected: čuvajúći
+- features:
+    tense: present
+    verb_form: participle
+    voice: active
+  expected: čuvajúći

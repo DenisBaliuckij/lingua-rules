@@ -1,0 +1,695 @@
+lemma: binda
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: past
+  expected: bind'on
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: present
+  expected: binde
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: past
+  expected: bind'on
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: present
+  expected: bindé
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: bind'on
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: present
+  expected: bindë
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: bind'on
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: bindé
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: past
+  expected: bind'on
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: present
+  expected: binde
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: bind'on
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: present
+  expected: bindé
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    verb_form: gerund
+  expected: bindă
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    verb_form: gerund
+  expected: bindă
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    verb_form: gerund
+  expected: bindă
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    verb_form: gerund
+  expected: bindừ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    verb_form: gerund
+  expected: bindă
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    verb_form: gerund
+  expected: bindă
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: bindă
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: bindă
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: bindă
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: bindă
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: bindă
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: bindă
+---
+lemma: bindi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bindal
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: bind'on
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: bind'on
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: bindă
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bindă
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: bind'on
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: bind'on
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: bindă
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bind'on
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: bindă
+---
+lemma: bindă
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: aorist
+  expected: bindă
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: conditional_tense
+  expected: bindŭ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: bindă
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: imperfect
+  expected: bindă
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: bind'on
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: bindă
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: aorist
+  expected: bindă
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: conditional_tense
+  expected: bindŭ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: bindë
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: imperfect
+  expected: bindå
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: bind'on
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: bindă
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: aorist
+  expected: bindă
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: conditional_tense
+  expected: binuă
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: bindă
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: imperfect
+  expected: bindà
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: binal'on
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: bindŭ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: aorist
+  expected: bindu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: conditional_tense
+  expected: bindů
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: binulů
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: imperfect
+  expected: bindă
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: bind'on
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: bindë
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: aorist
+  expected: bindă
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: conditional_tense
+  expected: bindừ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: bindă
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: imperfect
+  expected: bindă
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: bind'on
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: bindă
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: aorist
+  expected: bindå
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: conditional_tense
+  expected: bindů
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: bindă
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: imperfect
+  expected: bindă
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: bind'on
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: bindă
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: aorist
+  expected: bindă
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: binda
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: aorist
+  expected: bindă
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: binda
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: aorist
+  expected: binulă
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: binda
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: aorist
+  expected: bindå
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: bindu
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: aorist
+  expected: bindă
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: binda
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: aorist
+  expected: bindă
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: binolu
+- features:
+    verb_form: infinitive
+  expected: bindă
+---
+lemma: dematu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: aorist
+  expected: dématul
+- features:
+    polarity: negative
+    verb_form: infinitive
+  expected: dematul
+---
+lemma: fada
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: fadi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: fadam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: fada
+---
+lemma: itte
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ittelen
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ittel
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: ittounou
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: ittoulen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: ittouniou
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: ittouma
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: ittoulo
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: ittoul
+---
+lemma: sop
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: sopelen
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: sopel
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sopounou
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: sopoulen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: sopouniou
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: sopouma
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sopoulo
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: sopoul

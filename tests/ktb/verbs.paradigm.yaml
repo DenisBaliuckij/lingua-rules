@@ -1,0 +1,465 @@
+lemma: a
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: art!
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: pay!
+- features:
+    number: plural
+    person: first
+  expected: a'n!
+- features:
+    number: plural
+    person: second
+  expected: atteen!
+- features:
+    number: plural
+    person: third
+  expected: part!
+- features:
+    number: singular
+    person: first
+  expected: a'y!
+- features:
+    number: singular
+    person: second
+  expected: art!
+---
+lemma: aa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: aa'it
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: aa'i
+- features:
+    number: plural
+    person: first
+  expected: aa'in!
+- features:
+    number: plural
+    person: second
+  expected: aa'iteen!
+- features:
+    number: plural
+    person: third
+  expected: aa'ie
+- features:
+    number: singular
+    person: first
+  expected: aa'i
+- features:
+    number: singular
+    person: second
+  expected: aa'ir
+---
+lemma: ass
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: assit!
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: assı
+- features:
+    number: plural
+    person: first
+  expected: assin
+- features:
+    number: plural
+    person: second
+  expected: assiteen!
+- features:
+    number: plural
+    person: third
+  expected: assit!
+- features:
+    number: singular
+    person: first
+  expected: assi
+- features:
+    number: singular
+    person: second
+  expected: assit
+---
+lemma: ekee'n
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ekee’nit!
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ekee’ni
+- features:
+    number: plural
+    person: first
+  expected: ekee’nin
+- features:
+    number: plural
+    person: second
+  expected: ekee’niteen!
+- features:
+    number: plural
+    person: third
+  expected: ekee’nit
+- features:
+    number: singular
+    person: first
+  expected: ekee’ni
+- features:
+    number: singular
+    person: second
+  expected: ekee’nit!
+---
+lemma: ga
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: gayit!
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: gayi
+- features:
+    number: plural
+    person: first
+  expected: gayin!
+- features:
+    number: plural
+    person: second
+  expected: gayiteenänan
+- features:
+    number: plural
+    person: third
+  expected: gayir
+- features:
+    number: singular
+  expected: gayeenänan
+- features:
+    number: singular
+    person: first
+  expected: gayi
+- features:
+    number: singular
+    person: second
+  expected: gayir!
+---
+lemma: he
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: he’änan
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: he’änan!
+- features:
+    number: plural
+    person: first
+  expected: he’nänan
+- features:
+    number: plural
+    person: second
+  expected: he’eenänan!
+- features:
+    number: plural
+    person: third
+  expected: he’änan
+- features:
+    number: singular
+  expected: he’eenänan
+- features:
+    number: singular
+    person: first
+  expected: he’änan
+- features:
+    number: singular
+    person: second
+  expected: he’änan
+---
+lemma: ih
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ikkänan
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ihänan
+- features:
+    number: plural
+    person: first
+  expected: inkänan
+- features:
+    number: plural
+    person: second
+  expected: ikkeenänan
+- features:
+    number: plural
+    person: third
+  expected: ikkänan!
+- features:
+    number: singular
+  expected: iheenänan
+- features:
+    number: singular
+    person: first
+  expected: ihänan
+- features:
+    number: singular
+    person: second
+  expected: ikkanan
+---
+lemma: oro
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: oroot!
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: oroo'y!
+- features:
+    number: plural
+    person: first
+  expected: oro'een!
+- features:
+    number: plural
+    person: second
+  expected: orooteen!
+- features:
+    number: plural
+    person: third
+  expected: oroot!
+- features:
+    number: singular
+    person: second
+  expected: oroot!
+---
+lemma: re
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: reer!
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: reyy
+- features:
+    number: plural
+    person: first
+  expected: reen
+- features:
+    number: plural
+    person: second
+  expected: reeteen!
+- features:
+    number: plural
+    person: third
+  expected: reer
+- features:
+    number: singular
+    person: first
+  expected: reyy
+- features:
+    number: singular
+    person: second
+  expected: rer!
+---
+lemma: y
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: yie!
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: yi
+- features:
+    number: plural
+    person: first
+  expected: yin!
+- features:
+    number: plural
+    person: second
+  expected: yiteen!
+- features:
+    number: plural
+    person: third
+  expected: yir!
+- features:
+    number: singular
+    person: first
+  expected: yi
+- features:
+    number: singular
+    person: second
+  expected: yie
+---
+lemma: yoo
+category: verbs
+cases:
+- features:
+    formality: formal
+    person: third
+    polarity: affirmative
+  expected: yóo-mma
+- features:
+    formality: formal
+    person: third
+    polarity: negative
+  expected: yóo-mma-ba’a
+- features:
+    gender: feminine
+    person: third
+    polarity: affirmative
+  expected: yóo-’u
+- features:
+    gender: feminine
+    person: third
+    polarity: negative
+  expected: yóo-ba’a
+- features:
+    gender: masculine
+    person: third
+    polarity: affirmative
+  expected: yóo-’u
+- features:
+    gender: masculine
+    person: third
+    polarity: negative
+  expected: yóo-ba’a
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: yóo-m
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: yóo-m-ba’a
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: yóo-nta
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: yóo-nta-ba’a
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: yóo-’u
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: yóo-ba’a
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: yóo-m
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: yóo-m-ba’a
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: yóo-nt
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: yóo-nti-ba’a
+---
+lemma: °a
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: attänan!
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: a’änan
+- features:
+    number: plural
+    person: first
+  expected: a’nänan
+- features:
+    number: plural
+    person: second
+  expected: atteenänan!
+- features:
+    number: plural
+    person: third
+  expected: attänan
+- features:
+    number: singular
+  expected: a’eenäanan
+- features:
+    number: singular
+    person: first
+  expected: a’änan!
+- features:
+    number: singular
+    person: second
+  expected: attänan

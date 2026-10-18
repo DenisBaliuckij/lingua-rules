@@ -1,0 +1,7287 @@
+lemma: a-ki
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ak-ku-e-ni
+- features:
+    number: plural
+    person: second
+  expected: a-ak-te-ni
+- features:
+    number: plural
+    person: third
+  expected: ak-kdn-zi
+- features:
+    number: singular
+    person: third
+  expected: a-ki
+---
+lemma: a-us-zi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: a-u-me-ni
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: a-ut-ti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: a-us-zi
+- features:
+    number: plural
+    person: first
+  expected: a-u-ine-en
+- features:
+    number: plural
+    person: third
+  expected: a-u-ir
+- features:
+    number: singular
+    person: first
+  expected: a-uS-ta
+---
+lemma: ak
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: akkueni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: akteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: akkanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: ekir
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: akti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: akis
+---
+lemma: akkusk
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: akkuskitten
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: akkuski
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: akkuskiddu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: akkuskittani
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: akkuskir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: akkuskanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: akkuskinun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: akkuskit
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: akkuskizzi
+---
+lemma: ar
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ardumat
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: arantaru
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: arhut
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: artaru
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: erweni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: erwen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: erteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: aranzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: erir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: arhi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: arhun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: arti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: artat
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ari
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: a-ar-aš
+---
+lemma: arnu
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: arnutten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: arnuandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: arnut
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: arnuddu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: arnummeni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: arnummen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: arnutteni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: arnutten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: arnuanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: arnuir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: arnumi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: arnunun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: arnusi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: arnut
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: arnuzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: arnut
+- features:
+    verb_form: participle
+  expected: arnuwant
+- features:
+    verb_form: verbal_noun
+  expected: arnummar
+---
+lemma: arḫa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ardumat
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: arantaru
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: arḫaḫaru
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: arḫut
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: artaru
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: arwaštat
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: arantat
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: arḫati
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: artati
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: artat
+---
+lemma: asas
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: asesanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: asesir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: asashi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: asashun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: asasti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: asāsi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: asasta
+---
+lemma: assanu
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: assanullu
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: assanuddu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: assanuanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: assanuir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: assanumi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: assanunun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: assanusi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: assanuzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: assanut
+- features:
+    verb_form: infinitive
+  expected: assanummanzi
+---
+lemma: aš
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: arten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: akkandu
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: akkallu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: āk
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: aru
+---
+lemma: aššan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ašnut
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: aššanuddu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: aššanummen
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: ašnut
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: aššanuer
+---
+lemma: da-a-i
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: da-a-u-e-ni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: da-al-te-ni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: da-an-zi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: da-ah-fyi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: da-at-ti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: da-a-i
+---
+lemma: dai
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tiyaweni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tāitteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: tianzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: teḫḫun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tēḫḫi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dāitti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: daiš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dāi
+---
+lemma: dala
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: daliyaweni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: daliyawen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: dalesteni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: daliyatten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: daliyanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: dālir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dalahhi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: dalahhun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dalatti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dālāi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: dālis
+---
+lemma: dask
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: daskatten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: daskandu
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: daskiddu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: daskiwani
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: daskitteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: daskir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: daskanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: dasganun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: daskimi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: daskes
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: daskisi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: daskit
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: daskizzi
+---
+lemma: dā
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: datten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: dandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: dā
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: dāu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: dāwen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: dāweni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: datten
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: datteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: dāir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: danzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: dahhun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dahhi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: dās
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: datti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: dās
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dāi
+---
+lemma: dāi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: dāisten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: tiyandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: dāi
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: dāu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tiyawen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tiyaweni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: daier
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: tiyanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tehhun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tehhi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dāitti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: dāis
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dāi
+- features:
+    verb_form: infinitive
+  expected: tiyawanzi
+- features:
+    verb_form: participle
+  expected: tiyant
+- features:
+    verb_form: verbal_noun
+  expected: tiyawar
+---
+lemma: dālaḫḫi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: dālešten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: dālandu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: dāliyaweni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: dālešteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: dāliyanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: dālier
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dālaḫḫi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: dālaḫḫi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dālai
+---
+lemma: e-eS-zi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: e-es-tin
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: e-eS-lu-ut
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: e-es
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: e-eS-du
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: e-eS-lin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: e-eS-mi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: e-eS-ta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: e-e§-zi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: eS-ta
+---
+lemma: e-es-sa-i
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: e-es-§u-u-e-ni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: e-eS-Sa-an-zi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: e-eS-sa-ah-fyu-un
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: e-es-Sa-at-ti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: eS-Sa-i
+---
+lemma: ed
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: eduwani
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ezzatteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: adanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: edmi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ezzassi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ezzazzi
+---
+lemma: eku
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ekutten
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: eku
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: ekuen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ekutteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: ekuer
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ekumi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: ekun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ekussi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ekuzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: ekutta
+---
+lemma: ep
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: epten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: appandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ep
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: epdu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: eppueni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: eppuen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: epteni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: epten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: appanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: eppir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: epmi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: eppun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: epsi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: epzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: epta
+---
+lemma: es
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: esten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: asandu
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: asallu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: es
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: esdu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: esuwasta
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: esuen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: esten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: asanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: esir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: esmi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: esun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: essi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: esta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: eszi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: esta
+---
+lemma: essa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: essueni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: essuen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: essatteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: essanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: esser
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: essahhi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: essahhun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: essatti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: essai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: esesta
+---
+lemma: ha-a-si
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: he-e-sa-an-zi
+- features:
+    number: singular
+    person: third
+  expected: ha-a-si
+---
+lemma: halzi
+category: verbs
+cases:
+- features:
+    case: genitive
+    verb_form: verbal_noun
+  expected: halziyawas
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: halzisten
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: halzāi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: halziyawen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: halzier
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: halzihhun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: halzāit
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: halzāis
+- features:
+    verb_form: infinitive
+  expected: halziyawanzi
+- features:
+    verb_form: participle
+  expected: halziyant
+---
+lemma: halzāi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: halziyaweni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: halziyatteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: halziyanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: halzihhi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: halzāitti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: halzāi
+---
+lemma: hamenk
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: hamankandu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hamankanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: haminkir
+- features:
+    verb_form: participle
+  expected: hamenkant
+- features:
+    verb_form: verbal_noun
+  expected: hamenkuwar
+---
+lemma: handāi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: handandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: handāi
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: handaiddu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: handāuen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: handanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: handāir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: handāmi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: handanun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: handāsi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: handāizzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: handāit
+- features:
+    verb_form: infinitive
+  expected: handawanzi
+- features:
+    verb_form: participle
+  expected: handant
+- features:
+    verb_form: verbal_noun
+  expected: handāwar
+---
+lemma: har
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: harten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: harkandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: harak
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: hardu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: harweni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: harwen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: harteni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: harten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: harkanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: harkir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: harmi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: harkun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: harsi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: harzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: harta
+- features:
+    verb_form: participle
+  expected: harkant
+---
+lemma: harnik
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: harnikten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: harninkandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: harnik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: harnikteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: harninkir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: harninkanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: harninkun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: harnikta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: harnikti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: harnikta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: harnikti
+---
+lemma: hatrāi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: hatrāi
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: hatrāu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: hatrāweni
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: hatrāmi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: hatrānun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hatrāsi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: hatrāes
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hatrāizzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: hatrāit
+- features:
+    verb_form: participle
+  expected: hatrant
+---
+lemma: huek
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: hugawen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hukanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: hukmi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: huekta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: huekzi
+---
+lemma: huitiya
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: huitti
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: huittiyatteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: huittiyanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: huittiyami
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: huittiyanun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: huittiyasi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: huittiazi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: huittiyat
+- features:
+    verb_form: infinitive
+  expected: huittiyawanzi
+- features:
+    verb_form: participle
+  expected: huittiyant
+- features:
+    verb_form: verbal_noun
+  expected: huittiyawar
+---
+lemma: huwāi
+category: verbs
+cases:
+- features:
+    case: genitive
+    verb_form: verbal_noun
+  expected: huyawas
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: huwair
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: huyami
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: huyanun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: huyasi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: huwais
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: huwāi
+- features:
+    verb_form: participle
+  expected: huyant
+---
+lemma: hā
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: hāmi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: hānun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hāsi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: hāis
+---
+lemma: iS-Sa-i
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: iS-Sa-at-le-ni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: is-sa-an-zi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: iS-Sa-ah-hi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: iS-Sa-at-li
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: iS-Sa-i
+---
+lemma: idalawahh
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: idalawahhuen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: idalawahhanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: idalawahmi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: idalawahhun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: idalawahti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: idalawahzi
+---
+lemma: idalawes
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: idalawesteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: idalawessanzi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: idalawesti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: idalaweszi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: idalawesta
+---
+lemma: irḫāi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: irḫanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: irḫāmi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: irḫāit
+---
+lemma: ishāi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ishiyatteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ishianzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: ishier
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: ishihun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ishāi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: ishiyat
+---
+lemma: isparzahhun
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: isparter
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: isparzahhun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: isparzasta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: isparzas
+---
+lemma: istamas
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: istamasten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: istamassandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: istamas
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: istamasdu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: istamasteni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: istamasten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: istamassanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: istamassir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: istamasmi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: istamassun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: istamassi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: istamaszi
+- features:
+    verb_form: infinitive
+  expected: istamassuwanzi
+- features:
+    verb_form: participle
+  expected: istamassant
+- features:
+    verb_form: verbal_noun
+  expected: istamassuwar
+---
+lemma: iya
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: iyatten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: iyandu
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: iyallu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: iya
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: iyadu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: iyaweni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: iyawen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: iyatteni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: iyatten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: iyanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: ier
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: iyami
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: iyanun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: iyasi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: iyas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: iyazi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: iyat
+- features:
+    verb_form: infinitive
+  expected: iyawanzi
+- features:
+    verb_form: participle
+  expected: iyant
+- features:
+    verb_form: verbal_noun
+  expected: iyawar
+---
+lemma: iyahhahat
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: iyaddumat
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: iyantaru
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: iyahhut
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: iyattaru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: iyantat
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: iyahhahat
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: iyattat
+---
+lemma: išpant
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: išpantanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: išpantaḫḫe
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: išpanti
+---
+lemma: išḫiḫḫi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: išḫiyatten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: išḫiandu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: išḫiyatteni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: išḫaište
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: išḫianzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: išḫier
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: išḫiḫḫi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: išḫiḫḫi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: išḫāiš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: išḫāi
+---
+lemma: ka-ra-a-pt ka-a-ra-pl ga-ra-pl
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ka-ri-ip-tin
+- features:
+    number: plural
+    person: third
+  expected: ka-ri-pa-an-zi
+---
+lemma: kappuwāi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kappuwatten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: kappuwandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kappuwāi
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: kappuwāiddu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kappuwatteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kappuwanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: kappuwanun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kapuesi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: kappuit
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kappuwāizi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: kappuwāit
+- features:
+    verb_form: participle
+  expected: kappuwant
+- features:
+    verb_form: verbal_noun
+  expected: kappuwawar
+---
+lemma: ki
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kiddumati
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: kittaru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kianta
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: kīyantati
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kitta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: kittat
+---
+lemma: kis
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kisdumat
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: kisandaru
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kishut
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: kasaru
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: kisdummat
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kisandari
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: kisantat
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kishahari
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: kishahat
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kistati
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: kisat
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kisari
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: kisat
+---
+lemma: kittat
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: kittaru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kiyantati
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kittat
+---
+lemma: kišḫa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kišdumat
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: kišandaru
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kišḫut
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: kišaru
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: kišdummat
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: kišantat
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: kišḫat
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: kištat
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: kišat
+---
+lemma: ku-en-na-i
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ku-en-na-at-tc-ni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ku-en-na-an-zi
+---
+lemma: kuen
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kueun
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kuennummeni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: kuewen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kuenten
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kuenatteni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: kuenten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kuennir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kunanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: kuener
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kuenun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kuemi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: kuenun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kuinnesta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kueši
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: kuinnešta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kuenta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kuēnzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: kuēnta
+---
+lemma: kuer
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kuenatteni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: kuewen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kuenatteni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: kuenten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kuranzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: kuerer
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kuermi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: kuerun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kuenti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: kuenta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kurzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: kuērta
+---
+lemma: laḫw
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: laḫḫuten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: laḫuwandu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: laḫuwāer
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: laḫuanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: laḫuḫḫi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: laḫḫutti
+---
+lemma: lā
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: lāi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: lānzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: lāmi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: lāun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: lāsi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: lāis
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: lāi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: lāit
+---
+lemma: maniyah
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: maniyahten
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: maniyah
+---
+lemma: maniyahh
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: maniyahhanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: maniyahhir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: maniyahmi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: maniyahhun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: maniyahti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: maniyahta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: maniyahzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: maniyahda
+---
+lemma: mat
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mazatti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mazzazzi
+---
+lemma: me-ma-i
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: me-im-ma-i
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+  expected: me-ma-al-lu
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: me-mi-u-e-ni
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: preterite
+  expected: me-mi
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: me-mi-iS-te-ni
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: preterite
+  expected: me-ma-a-u
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: me-ma-at-te-ni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: me-mi-iS-tin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: me-mi-eS-tin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: me-ma-afy-fyu-un
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: me-ma-an-du
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: me-mi-iS-ki-mi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: me-ma-ah-hi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: me-mi-iS-ta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: me-mi-iS-ki-Si
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: me-ma-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: me-ma-as
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: me-mi-iS-ki-iz-zi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: me-ma-at-ti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: me-mi-ir\
+---
+lemma: mema
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: memiweni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: memawin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: matteni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: mesten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: memiyanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: memier
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: memahhe
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: memahun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: matti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: mestha
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: memi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: memista
+---
+lemma: nah
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: nāhi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nahteni
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nahmi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: nahun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nahti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: nahta
+---
+lemma: nai
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: naiwani
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: naištani
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nēanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nēḫ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: neḫḫi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: naitta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nāitti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: naiš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nāi
+---
+lemma: neya
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: neyandaru
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: neyaru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: neyantat
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: neyaḫḫari
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: neyaḫḫat
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: neyattati
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: neyattat
+---
+lemma: neyahhat
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: neyandaru
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: neyaru
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: neyahhat
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: neyatat
+---
+lemma: ninik
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: nininkandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ninik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ninikteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: nininkir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nininkanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nininkun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ninikta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ninikzi
+---
+lemma: nāi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: nāisten
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: nāi
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: nāu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: neyawen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: neyaweni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nāisteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: nāir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: neyanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nehhun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nehhi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nāitti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: nāis
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nāi
+- features:
+    verb_form: participle
+  expected: neyant
+- features:
+    verb_form: verbal_noun
+  expected: neyawar
+---
+lemma: pa-a-i
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pa-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: pa-it-ti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pa-a-i
+---
+lemma: pahs
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: pahhasten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: pahsandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pahsi
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: pahsaru
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: pahsueni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: pahhasteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: pahsir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: pahsanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: pahhashi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: pahhashahat
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: pahhasti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: pahhasta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pahsari
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: pahhastat
+---
+lemma: pahsanu
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: pahhasnutten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: pahhasnuandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pahhassanut
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: pahsanuddu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: pahsanutteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: pahsanuwanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: pahsanuir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: pahsanumi
+- features:
+    verb_form: infinitive
+  expected: pahsanummanzi
+- features:
+    verb_form: participle
+  expected: pahsanuwant
+- features:
+    verb_form: verbal_noun
+  expected: pahsanummar
+---
+lemma: pai
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: piweni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: pišteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: pianzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: peḫḫun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: pēḫḫe
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: paitta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: paitti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: paiš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pāi
+---
+lemma: parsāi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: parsiyanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: parsiya
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: parsāizzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: parsiya
+---
+lemma: paḫš
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: paḫḫašten
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: paḫši
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: paḫšueni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: paḫḫašteni
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: paḫḫašḫi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: paḫḫašti
+---
+lemma: paḫšan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: paḫšanutten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: paḫḫašnuandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: paḫšanut
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: paḫšanuddu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: paḫšanutten
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: paḫšanuš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: paḫšanuer
+---
+lemma: paḫḫaššan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: paḫḫašnutten
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: paḫḫaššanut
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: paḫḫašnuddu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: paḫḫaššanut
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: paḫḫašša
+---
+lemma: paḫḫašḫa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: paḫḫašdumat
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: paḫḫašḫat
+---
+lemma: peda
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: pedatten
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: pedāu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: petatteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: peter
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: pēdanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: pedaḫḫun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: pēdatti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: pēdaš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pēdai
+---
+lemma: pehute
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: pehutetten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: pehudandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pehute
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: pehutetteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: pehudanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: pehuter
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: pehutemi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: pehutenun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: pehutesi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: pehutet
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pehutezzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: pehutet
+---
+lemma: penna
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: peniweni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: peniwen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: pennatteni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: penesten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: peniyanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: pennier
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: penahhi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: penahun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: pennatti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: pennes
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pennai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: pennes
+---
+lemma: pesk
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: piskatten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: piskandu
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: piskellu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: peski
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: peskatten
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: piskatteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: peskir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: peskanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: peskinun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: peskimi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: peskisi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: peskit
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: peskizzi
+---
+lemma: punus
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: punusten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: punussandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: punus
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: punusdu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: punussueni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: punussuen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: punussanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: punussir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: punusmi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: punussun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: punusta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: punuszi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: punusta
+- features:
+    verb_form: verbal_noun
+  expected: punussuwar
+---
+lemma: pāi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: uwatten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: pāndu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: pāi
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: paiddu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: piyawen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: paiweni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: pāiwen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: paitteni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: uwatten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: piēr
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: pānzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: pāir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: pehhun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: pāimi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: pāun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: pāitta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: pāisi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: uwas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: pāis
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pāizzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: pāit
+- features:
+    verb_form: infinitive
+  expected: pāwanzi
+- features:
+    verb_form: participle
+  expected: pānt
+- features:
+    verb_form: verbal_noun
+  expected: pāwar
+---
+lemma: pēda
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: pedatten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: pedandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: peda
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: pedau
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: pedatteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: pedanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: pedahhun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: pedahhi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: pedatti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: pedas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pedai
+---
+lemma: sak
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sekkueni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: sekkuen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: sekteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: sekkanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: sekkir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: saggahhi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: saggahhun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sakti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: sakta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: sakki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: sakkis
+---
+lemma: sar-ra-i
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sar-ra-u-e-ni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: sar-ra-at-te-ni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: sar-ra-an-zi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: sar-ra-ah-lju-un
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sar-ra-at-ti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: sar-ra-i
+---
+lemma: sarkuwāi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: sarkui
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: sarkuezzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: sarkuit
+- features:
+    verb_form: participle
+  expected: sarkuwant
+---
+lemma: sarnik
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: sarnikdu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sarninkueni
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: sarnikmi
+---
+lemma: sarra
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: sarri
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: sarrummen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sarraweni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: sarratteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: sarrēr
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: sarranzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: sarrahhun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sarratti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: sarras
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: sarrai
+- features:
+    verb_form: infinitive
+  expected: sarrumanzi
+- features:
+    verb_form: participle
+  expected: sarrant
+- features:
+    verb_form: verbal_noun
+  expected: sarrumar
+---
+lemma: se-es-zi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: se-eS-du
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: sa-Sa-an-zi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: se-eS-mi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: se-e-Su-un
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: se-eS-zi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: se-eS-ta
+---
+lemma: ses
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: sesten
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ses
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: sesdu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sesueni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: sesanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: sessir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: sesmi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: sesun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: seszi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: sesta
+---
+lemma: sipand
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sipanduwani
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: sippanter
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: sipandanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: sipandahhun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: sipandahhi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: sippandas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: sipandi
+---
+lemma: sunna
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: sunnatteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: sunnanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: sunnir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: sunnahhi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: sunnai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: sunnas
+---
+lemma: suppiyahh
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: suppiyahhanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: suppiyahmi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: suppiyahhun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: suppiyahhi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: suppiyahhas
+---
+lemma: sā
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: sānzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: sāit
+---
+lemma: sāi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: siyaweni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: siyanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: siyāir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: siyanun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: siyaizzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: siyait
+---
+lemma: ta-la-a-i
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ta-at-ti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ta-la-ai
+---
+lemma: taks
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: takkesteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: takser
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: takkessanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: taggashi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: takkissi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: takkista
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: takkeszi
+---
+lemma: tar-na-i
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tar-nu-um-me-m
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tar-na-at-te-ni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: tar-na-an-zi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tar-na-ah-hi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: tar-na-aji-)iu-un
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tar-na-ti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tar-na-i
+---
+lemma: tarna
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tarnatten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: tarnandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tarna
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: tarnāu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tarnumen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tarnummeni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: tarnatten
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tarnatteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tarnir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: tarnanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tarnahhun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tarnahhi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: tarnas
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tarnatti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tarnas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tarnāi
+- features:
+    verb_form: infinitive
+  expected: tarnummanzi
+- features:
+    verb_form: participle
+  expected: tarnant
+- features:
+    verb_form: verbal_noun
+  expected: tarnummar
+---
+lemma: tarup
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: taruppantaru
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: taruptaru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: taruppantari
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: taruppantati
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tarupta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: taruptat
+---
+lemma: te
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tetten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: darandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tet
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: teddu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tarweni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tarteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: taranzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: temi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: tenun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tesi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tezzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: tet
+---
+lemma: tiya
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tiyatten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: tiyandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tiya
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: tiyaddu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tiyaweni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: tiyawen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tiyatteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: tiyanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: tiyēr
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tiyami
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: tiyanun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tiyasi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: tiyat
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tiyazi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: tiyat
+- features:
+    verb_form: infinitive
+  expected: tiyawanzi
+- features:
+    verb_form: participle
+  expected: tiyant
+- features:
+    verb_form: verbal_noun
+  expected: tiyawar
+---
+lemma: u-e-ih-zi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: u-e-lji-ir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: u-e-hu-un
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: u--ih-zi
+---
+lemma: uda
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: udatten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: udandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: uda
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: udāu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: utummen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: utummeni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: udatteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: uter
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: udanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: udahhun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: udahhi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: udatti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: udas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: udāi
+- features:
+    verb_form: infinitive
+  expected: utummanzi
+- features:
+    verb_form: participle
+  expected: udant
+- features:
+    verb_form: verbal_noun
+  expected: utummar
+---
+lemma: unna
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: unnummen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: unnatteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: unnanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: unnahhi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: unahhun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: unnatti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: unnes
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: unnai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: unnes
+---
+lemma: uppa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: uppiweni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: uppiwen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: uppatteni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: upesten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: uppiyanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: uppier
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: uppahhi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: uppahun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: uppatti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: upes
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: uppaai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: uppes
+---
+lemma: usk
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: uskatten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: uskandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: uski
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: uskiddu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: usgawen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: uskatten
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: uskatteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: uskanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: uskinun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: uskisi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: uskit
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: uskizzi
+---
+lemma: uwa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: uwatten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: uwandu
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: wuiddu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: uwaweni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: uwawen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: uwatteni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: uwatten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: uwanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: uer
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: uwami
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: uwanun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: uwasi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: uwas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: uizzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: uit
+- features:
+    verb_form: infinitive
+  expected: uwawanzi
+- features:
+    verb_form: participle
+  expected: uwant
+- features:
+    verb_form: verbal_noun
+  expected: uwawar
+---
+lemma: uwahhat
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: uwandaru
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: uwahharu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: uwantat
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: uwahhat
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: uwaittat
+---
+lemma: uwate
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: uwatetten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: uwadandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: uwate
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: uwateddu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: uwateweni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: uwatewen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: uwatetteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: uwadanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: uwater
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: uwatemi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: uwatenun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: uwatesi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: uwatet
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: uwatezzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: uwatet
+---
+lemma: wa-ah-zi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: wa-ha-an-du
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wa-fca-an-zi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wa-ah-zi
+- features:
+    verb_form: participle
+  expected: wa-ha-an-za
+---
+lemma: wahnu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: wahnummeni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: wahnumen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: wahnutteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wahnuwanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: wahnuir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wahnumi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: wahnunun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: wahnusi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wahnuzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: wahnut
+- features:
+    verb_form: infinitive
+  expected: wahnummanzi
+- features:
+    verb_form: participle
+  expected: wahnuwant
+- features:
+    verb_form: verbal_noun
+  expected: wahnumar
+---
+lemma: wak
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: wakuen
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: waki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: wakkis
+---
+lemma: wasta
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: waster
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: wastahhun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wastahhi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: wastas
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: wastatti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wastas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wastai
+- features:
+    verb_form: participle
+  expected: wastant
+- features:
+    verb_form: verbal_noun
+  expected: wasdumar
+---
+lemma: watku
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: watkuwanzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: watkuzzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: watkut
+---
+lemma: wašta
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wašter
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: waštanzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: waštaḫḫun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: waštaḫḫi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: waštaš
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: waštatti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: waštaš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: waštai
+---
+lemma: waḫnu
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: waḫnutten
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: waḫnuwandu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: waḫnut
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: waḫnuddu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: waḫnumen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: waḫnutten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: waḫnuwandu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: waḫnut
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: waḫnuer
+---
+lemma: wek
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: wek
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: wekuewen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wekanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: wekir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wekmi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: wekun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: wekti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wekzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: wekta
+---
+lemma: wemiya
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: wemiyandu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: wemiyaweni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: wemiyawen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wemiyanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: wemier
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wemiyami
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: wemiyanun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: wemiyaši
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wemiezzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: wemit
+- features:
+    verb_form: infinitive
+  expected: wemiyawanzi
+---
+lemma: wete
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: wedandu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: wetummen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wedanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: weter
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wedahhi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: wetenun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: wedasi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: wetet
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wetezzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: wetet
+---
+lemma: zahhiya
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: zahhiyawastati
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: zahhiyadduma
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: zahhiyahha
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: zahhiyattari
+---
+lemma: zahhiyahhat
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zahhiyaddumat
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: zahhiyahhut
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: zahhiyahhat
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: zahhiyattat
+---
+lemma: zai
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: neyaweni
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: zeḫḫun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: neyami
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: zāit
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: neyaši
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: zāiš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: neyazzi
+---
+lemma: zaḫḫiya
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zaḫḫiyaddumat
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: zaḫḫiyaḫḫ
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: zaḫḫiyaḫḫut
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: zaḫḫiyawaštati
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: zaḫḫiyadduma
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: zaḫḫiyaḫḫa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: zaḫḫiyaḫḫat
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: zaḫḫiyattari
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: zaḫḫiyattat
+---
+lemma: zi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zāitten
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: zāiwen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: zihhun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: zāis
+---
+lemma: zāi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: zāitti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: zāi
+---
+lemma: ās
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: āsdu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: āssanzi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: āsta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: āszi
+---
+lemma: ēšḫa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ēšdummat
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ēšḫut
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: ēšḫat
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: ēštat
+---
+lemma: šarra
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: šarri
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: šarrummen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: šarraweni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: šarratteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: šarrer
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: šarranzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: šarraḫḫun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: šarratti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: šarret
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: šarrai
+---
+lemma: šiyami
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: šiyandu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: šiyāweni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: šiyanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: šiyaer
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: šiyami
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: šiyami
+---
+lemma: ḫalzai
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ḫalziwani
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ḫalziyatteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ḫalzianzi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ḫalziḫḫun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ḫalzait
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ḫalzāitti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ḫalzaiš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ḫalzi
+---
+lemma: ḫandāi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ḫandāi
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: ḫand
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ḫandāuni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: ḫandāwen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ḫandānzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: ḫand
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ḫandāmi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: ḫandanun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ḫandši
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ḫand
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: ḫandit
+---
+lemma: ḫatrāi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ḫatrāi
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: ḫatrāu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ḫatrāweni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ḫatrātt
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: ḫatrātten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ḫatrānzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: ḫatrāer
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ḫatrāmi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: ḫatrānun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ḫatrāši
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: ḫatrāeš
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ḫatrāizzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: ḫatrāit
+---
+lemma: ḫuek
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ḫuekuwani
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: ḫugawen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ḫuekmi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ḫukzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: ḫuekta
+---
+lemma: ḫuittiya
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ḫuitti
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: ḫuittiyawen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ḫuittiyatteni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ḫuittiyanzi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: ḫuittier
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ḫuittiyami
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: ḫuittiyanun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ḫuittiyaši
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ḫuittiezzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: ḫuittit

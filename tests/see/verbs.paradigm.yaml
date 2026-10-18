@@ -1,0 +1,6445 @@
+lemma: agatowasta
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: conditional
+    number: singular
+    person: third
+    tense: future
+  expected: a:yotowasdoh
+- features:
+    animacy: inanimate
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: otowasdoh
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eyotowas
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tseyoto:was
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wo'otowas
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: otowasta
+- features:
+    gender: common
+    mood: conditional
+    number: plural
+    person: third
+    tense: future
+  expected: ao:nontowasdoh
+- features:
+    gender: common
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: honontowasdoh
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: eonontowas
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tseo:nonto:was
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wonontowas
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: honorotowasta
+- features:
+    gender: feminine
+    mood: conditional
+    number: dual
+    person: third
+    tense: future
+  expected: a:vonontowasdoh
+- features:
+    gender: feminine
+    mood: conditional
+    number: dual
+    person: third
+    tense: past
+  expected: onontowasdoh
+- features:
+    gender: feminine
+    mood: conditional
+    number: plural
+    person: third
+    tense: future
+  expected: a:yonontowasdoh
+- features:
+    gender: feminine
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: onontowasdoh
+- features:
+    gender: feminine
+    mood: conditional
+    number: singular
+    person: third
+    tense: future
+  expected: a:yagotowasdoh
+- features:
+    gender: feminine
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: gotowasdoh
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: evononto:was
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tsevononto:was
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: wo'onontowas
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: ononto:wasta
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: eyonontowas
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tseyononto:was
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wo'onontowas
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: onontowasta
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eyagotowa
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tseyagoto:was
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wa'agotowas
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: gotowasta
+- features:
+    gender: masculine
+    mood: conditional
+    number: dual
+    person: third
+    tense: future
+  expected: ao:nontowasdoh
+- features:
+    gender: masculine
+    mood: conditional
+    number: dual
+    person: third
+    tense: past
+  expected: honontowasdoh
+- features:
+    gender: masculine
+    mood: conditional
+    number: singular
+    person: third
+    tense: future
+  expected: ao:towasdoh
+- features:
+    gender: masculine
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: hotowasdoh
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: eonontowas
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tseo:nonto:was
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: wononto:was
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: honontowasta
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eotowas
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tseo:to:was
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wotowas
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hotowasta
+- features:
+    mood: conditional
+    number: dual
+    person: first
+    tense: future
+  expected: a:yogvatowasdoh
+- features:
+    mood: conditional
+    number: dual
+    person: first
+    tense: past
+  expected: qgvatowasdoh
+- features:
+    mood: conditional
+    number: dual
+    person: second
+    tense: future
+  expected: ae:snyatowasdoh
+- features:
+    mood: conditional
+    number: dual
+    person: second
+    tense: past
+  expected: snyatowasdoh
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: future
+  expected: a:yogwatowasdoh
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: past
+  expected: ogwatowasdoh
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: future
+  expected: ae:swatowasdoh
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: past
+  expected: swatowasdoh
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: future
+  expected: a:wagatowasdoh
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: agatowasdoh
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: future
+  expected: ae:satowasdoh
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: past
+  expected: satowasdoh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: eyogyatowas
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future_perfect
+  expected: tseyogvato:was
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: wo'ogyatowas
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: ogyatowasta
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: esnyatowas
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future_perfect
+  expected: tsesnyato:was
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: esnyatowas
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: snyatowasta
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: eyogwatowas
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future_perfect
+  expected: tsevogwato:was
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: wo'ogwatowas
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ogwatowasta
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: eswatowas
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future_perfect
+  expected: tseswato:was
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: eswatowas
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: swatowasta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ewagatowas
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future_perfect
+  expected: tsewagato:was
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ogatowas
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: agatowasta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: esatowas
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future_perfect
+  expected: tsesato:was
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: esatowas
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: satowasta
+---
+lemma: atö
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: waë
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: ha:wë:h
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ha:d:oh
+---
+lemma: buy
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: oni:no
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eganino
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tseganino
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: a:yonino
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ho'ganino
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: tsa'ganino
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: odini:no
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: odini:no
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: goni:no
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: hodini:no
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: honi:no
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: oknini:no
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: snini:no
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ogwani:no
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: swani:no
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: hodini:no
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: akni:no
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: sani:no
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: ekninino
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: second
+    tense: future_perfect
+  expected: tsekninino
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+  expected: a:yodinino
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: ho·kninino
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: second
+    tense: pluperfect
+  expected: tsa'kninino
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ewadinino
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tsewodinino
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: a:yodinino
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ho'wadinino
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: tsa'wadinino
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eyenino
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tsevenino
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: a:yagonino
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wa'enino
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: tsa'enino
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: eninino
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: second
+    tense: future_perfect
+  expected: tseninino
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+  expected: ao:dinino
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: waninino
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: second
+    tense: pluperfect
+  expected: tsa:ninino
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: bonino
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tseonino
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: ao:nino
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wanino
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: tsa:nino
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: ehninino
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future_perfect
+  expected: tsehninino
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+  expected: a:yokninino
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ehninino
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: pluperfect
+  expected: tsehninino
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: esninino
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future_perfect
+  expected: tsesninino
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+  expected: ae:sninino
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: ho·sninino
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: pluperfect
+  expected: tsa'sninino
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: edwanino
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future_perfect
+  expected: tsedwanino
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: a:yogwanino
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: edwanino
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: tsedwanino
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: ehswanino
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future_perfect
+  expected: tseswanino
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: ae:swanino
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ehswanino
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: tseswanino
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: eodinino
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tseodinino
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: ao:dinino
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wadinino
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: tsadinino
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: eknino
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future_perfect
+  expected: tseknino
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: a:wakni:no
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ho•knino
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: tsa'knino
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ehsnino
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future_perfect
+  expected: tsesnino
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: ae:sanino
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ho'snino
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: tsa'snino
+---
+lemma: da:wage:snye
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: da:yo:snye
+- features:
+    gender: feminine
+    mood: conditional
+    number: dual
+    person: third
+    tense: past
+  expected: da:yodi:snye
+- features:
+    gender: feminine
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: da:yodi:snye
+- features:
+    gender: feminine
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: da:yago:snye
+- features:
+    gender: masculine
+    mood: conditional
+    number: dual
+    person: third
+    tense: past
+  expected: dao:disnye
+- features:
+    gender: masculine
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: dao:snye
+- features:
+    mood: conditional
+    number: dual
+    person: first
+    tense: past
+  expected: da:yokni:snye
+- features:
+    mood: conditional
+    number: dual
+    person: second
+    tense: past
+  expected: dae:sni:snye
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: past
+  expected: da:yogwa:snye
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: past
+  expected: dae:swa:snye
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: dao:di:snye
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: da:wage:snye
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: past
+  expected: dae:sa:snye
+---
+lemma: dege:snye
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: dega:snye
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dega:snye
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: dekni:snye
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: dekni:snye
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: dewondihsnye
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: dewadihsnye
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: deye:snye
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: deye:snye
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: deni:snye
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: deni:snye
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: deo:snye
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dea:snye
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: dehni:snye
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: dehni:snye
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: desni:snye
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: desni:snye
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: dedwa:snye
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: dedwa:snye
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: deswa:snve
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: deswa:snye
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: deondihsnye
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: deadihsnye
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: dege:snye
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dege:snye
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: dese:snye
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dese:snye
+---
+lemma: dewagesnye
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: deyodisnye
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: deyodisnye
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: deyagosnye
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: denisnye
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: deosnye
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: deyoknisnye
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: desnisnye
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: deyogwasnye
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: deswasnye
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: dewagesnye
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: desasnye
+---
+lemma: doine
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: newo:je
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: neyoje:eno
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: newaie:hak
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nevoie:eh
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: negya:ie
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+  expected: neyononie:eno
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: pluperfect
+  expected: negvaie:hak
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: nevonoje:eh
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: newenonje
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: neyononje:eno
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: newenonje:hak
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: neyononje:eh
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: neyo:je
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: neyagoje:eno
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: neyoje:hak
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: neyagoje:eh
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: neya:je
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+  expected: neononje:eno
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: pluperfect
+  expected: neyaje:hak
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: neononie:eh
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: neo:je
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: neoje:eno
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: neoje:eh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: nehnya:je
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future_perfect
+  expected: tsinyoknyaje:eh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: nehnyaje
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+  expected: neyoknyaje:eno
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: pluperfect
+  expected: nehnyaje:hak
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: neyoknyaje:eh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: nesnya:je
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future_perfect
+  expected: tsinisnyaje:eh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: nesnyaje
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+  expected: nesnvaie:eno
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: pluperfect
+  expected: nesnyaje:hak
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: nesnyaje:eh
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: neswa:je
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: nedwaie
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: neyogwaje:eno
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: nedwaje:hak
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: neyogwaie:eh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: nedwa:je
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: neswaje
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: neswaie:eno
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: neswaje:hak
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: neswaie:eh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: nenonje
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: neonoje:eno
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: neononje:eh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: nega:je
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: newagaie:eno
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: negaje:hak
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: newagaje:eh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: nesa:je
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: nesaie:eno
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: nesaje:hak
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nesaje:eh
+---
+lemma: dwe:nded
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ewodwe:nded
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tsiwadwende:ta
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: odwendehdo:no
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ho'wadwe:nded
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: odwendehdoh
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: a:yodwende:doh
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wadwendeta
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: eknyadwe:nded
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tsigyadwende:ta
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+  expected: onodwendehdo:no
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: ho'gyadwe:nded
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+  expected: onodwendehdoh
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: pluperfect
+  expected: a:yonodwende:doh
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: knyadwendeta
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ewenondwe:nded
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tsiwenondwende:ta
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: onondwedehdo:no
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ho'wenondwe:nded
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: onondwendehdoh
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: a:vonondwede:doh
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wenondwendeta
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eyodwe:nded
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tsiyodwede:ta
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: godwendehdo:no
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wa'odwe:nded
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: godwendehdoh
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: a:yagodwende:doh
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yodwendeta
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: eyadwe:nded
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tsiyadwende:ta
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+  expected: honodwendehdo:no
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: wayadwe:nded
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+  expected: honondwendehdoh
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: pluperfect
+  expected: ao:nodwende:doh
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: yadwendeta
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eodwe:nded
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tsiadwende:ta
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: hodwendehdo:no
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wadwe:nded
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: hodwendehdoh
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: ao:dwende:doh
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hadwendeta
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: ehnyadwe:nded
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future_perfect
+  expected: tsihnyadwende:ta
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+  expected: oknydwendehdo:no
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ehnyadwe:nded
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+  expected: oknyadwendehdoh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: pluperfect
+  expected: a:yoknvadwede:doh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: hnyadwendeta
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: esnyadwe:nded
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future_perfect
+  expected: tsisnyadwende:ta
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+  expected: snyadwendehdo:no
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: esnyadwe:nded
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+  expected: snyadwendehdoh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: pluperfect
+  expected: ae:snyadwende:doh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: snyadwendeta
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: edwadwe:nded
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future_perfect
+  expected: tsidwadwende:ta
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: ogwadwendehdo:no
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: edwadwe:nded
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: ogwadwendehdoh
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: a:yogwadwede:doh
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: dwadwendeta
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: eswadwe:nded
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future_perfect
+  expected: tsiswadwende:ta
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: swadwedehdo:no
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: eswadwe:nded
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: swadwendehdoh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: ae:swadwede:doh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: swadwendeta
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: enondwe:nded
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tsienondwende:ta
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: honondwedehdo:no
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: waenondwe:nded
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: honondwendehdoh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: ao:nondwede:doh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: henondwendeta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: egadwe:nded
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future_perfect
+  expected: tsigadwende:ta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: agadwendehdo:no
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ho'gadwe:nded
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: agadwendehdoh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: a:wagadwende:doh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: gadwendeta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: esadwe:nded
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future_perfect
+  expected: tsisadwende:ta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: sadwendehdo:no
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ho'sadwe:nded
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: sadwendehdoh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: ae:sadwende:doh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sadwendeta
+---
+lemma: ega'te
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: egaa:te
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ewodia'te
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eyea'te
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: enia'te
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eoa'te
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: ehnia'te
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: edwa'te
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: eswii'te
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ega'te
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: esa'te
+---
+lemma: gadaodiyos
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: conditional
+    number: singular
+    person: third
+    tense: future
+  expected: a:yodao:diyosdoh
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ewodaodiyos
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tsiyodaodiyosdoh
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ho'wadaodiyos
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: odaodiyosdoh
+- features:
+    gender: common
+    mood: conditional
+    number: plural
+    person: third
+    tense: future
+  expected: ao:nondao:diyosdoh
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: enodaodiyos
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tsionondaodiyosdoh
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: waenondaodiyos
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: honodaodiyosdoh
+- features:
+    gender: feminine
+    mood: conditional
+    number: dual
+    person: third
+    tense: future
+  expected: a:yonondao:diyosdoh
+- features:
+    gender: feminine
+    mood: conditional
+    number: plural
+    person: third
+    tense: future
+  expected: a:yonondao:diyosdoh
+- features:
+    gender: feminine
+    mood: conditional
+    number: singular
+    person: third
+    tense: future
+  expected: a:yagodao:diyosdoh
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: egyadaodiyos
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tsiyonondaodiyosdoh
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: ho'gyadaodiyos
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: onondaodiyosdoh
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ewenondaodiyos
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tsiyonondaodiyosdoh
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ho'wenondaodiyos
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: onodaodiyosdoh
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eyondaodivos
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tsiyagodaodiyosdoh
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wo'odaodiyos
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: godaodiyosdoh
+- features:
+    gender: masculine
+    mood: conditional
+    number: dual
+    person: third
+    tense: future
+  expected: ao:nondao:diyosdoh
+- features:
+    gender: masculine
+    mood: conditional
+    number: singular
+    person: third
+    tense: future
+  expected: ao:dao:diyosdoh
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: eyadaodiyos
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tsionondaodiyosdoh
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: wavadaodivos
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: honondaodiyosdoh
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eodaodiyos
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tsiodaodiyosdoh
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wadaodiyos
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hodaodiyosdoh
+- features:
+    mood: conditional
+    number: dual
+    person: first
+    tense: future
+  expected: a:yoknyadao:diyosdoh
+- features:
+    mood: conditional
+    number: dual
+    person: second
+    tense: future
+  expected: ae:snyadao:diyosdoh
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: future
+  expected: a:yogwadao:diyosdoh
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: future
+  expected: ae:swadao:diyosdoh
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: future
+  expected: a:wagadao:diyosdoh
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: future
+  expected: ae:sadao:diyosdoh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: ehnyadaodiyos
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future_perfect
+  expected: tsiyogvadaodiyosdoh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ehnyadaodiyos
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: oknyadaodiyosdoh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: esnyadaodiyos
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future_perfect
+  expected: tsisnyadaodiyosdoh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: esnyadaodiyos
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: snyadaodiyosdoh
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: edwadaodiyos
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future_perfect
+  expected: tsiyogwadaodiyosdoh
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: edwadaodiyos
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ogwadaodiyosdoh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: eswadaodiyos
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future_perfect
+  expected: tsiswadaodiyosdoh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: eswadaodiyos
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: swadaodiyosdoh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: egadaodiyos
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future_perfect
+  expected: tsiwagadaodiyosdoh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ho'gadaodiyos
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: agadaodiyosdoh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: esadaodiyos
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future_perfect
+  expected: tsisadaodiyosdoh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ho'sadaodiyos
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sadaodiyosdoh
+---
+lemma: gadeni:no
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: conditional_tense
+  expected: a:yodeni:no
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ewodenino
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tse:wondeni:no
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: o•wadenino
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: tsa·wadeni:no
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: odeni:no
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wadeninoh
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: conditional_tense
+  expected: a:yonondeni:no
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: egvadenino
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tse:gvadeni:no
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: ho'gvadenino
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+  expected: tsa'gvadeni:no
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: pluperfect
+  expected: onondeni:no
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: gyadeninoh
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: conditional_tense
+  expected: a:yonondeni:no
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ewenodenino
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tse:wenondeni:no
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: howenondenino
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: tsa'wenodeni:no
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: onondenino
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wenodeninoh
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: conditional_tense
+  expected: a:yagodeni:no
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eyondenino
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tse:yodeni:no
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wo'odenino
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: tsa'odeni:no
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: godeni:no
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yondeninoh
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: conditional_tense
+  expected: ao:nondeni:no
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: eyadenino
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tse:yadeni:no
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: wayadenino
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+  expected: tsa:yadeni:no
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: pluperfect
+  expected: honondeni:no
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: yadeninoh
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: conditional_tense
+  expected: ao:deni:no
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eodenino
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tseo:deni:no
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wadenino
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: tsa:deni:no
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: hodeni:no
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hadeninoh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: conditional_tense
+  expected: a:yoknyadeni:no
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: ehnyadenino
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future_perfect
+  expected: tsehnva:deni:no
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ehnyadenino
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+  expected: tsehnyadeni:no
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: pluperfect
+  expected: ogvadeni:no
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: hnyadeninoh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: conditional_tense
+  expected: ae:snyadeni:no
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: esnyadenino
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future_perfect
+  expected: tse:snyadeni:no
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: esnyadenino
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+  expected: tsesnyadeni:no
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: pluperfect
+  expected: snyadeni:no
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: snyadeninoh
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: conditional_tense
+  expected: a:yogwadeni:no
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: edwadenino
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future_perfect
+  expected: tse:dwadeni:no
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: edwadenino
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: tsedwadeni:no
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: ogwadeni:no
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: dwadeninoh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: conditional_tense
+  expected: ae:swadeni:no
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: eswadenino
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future_perfect
+  expected: tse:swa:deni:no
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: eswadenino
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: tseswadeni:no
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: swadeni:no
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: swadeninoh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: conditional_tense
+  expected: ao:nondeni:no
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: enodenino
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tse:nondeni:no
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: waenodenino
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: tsae:nondeni:no
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: honondeni:no
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: henodeninoh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: conditional_tense
+  expected: a:wagadeni:no
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: egadenino
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future_perfect
+  expected: tse:gadeni:no
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ho'gadeni:no
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: tsa'gadeni:no
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: agadeni:no
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: gadeninoh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: conditional_tense
+  expected: ae:sadeni:no
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: esadenino
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future_perfect
+  expected: tse:sadeni:no
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ho'sadenino
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: tsa•sadeni:no
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: sadeni:no
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sadeninoh
+---
+lemma: gahsa
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: a:yohsa
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ewohsawe
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tsewohsawe
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ho'wahsawe
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ohsa
+- features:
+    gender: common
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: ao:nohsa
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: enohsa:we
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tsenohsa:we
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: waenohsawe
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: honohsa
+- features:
+    gender: feminine
+    mood: conditional
+    number: dual
+    person: third
+    tense: past
+  expected: a:yonohsa
+- features:
+    gender: feminine
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: a:yonohsa
+- features:
+    gender: feminine
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: a:yagohsa
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: egvahsawe
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tsegvahsawe
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: ho·irvahsawe
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: onohsa
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ewenohsa:we
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tsewenohsawe
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ho'Wenohsawe
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: onohsa
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eyohsawe
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tseyohsawe
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wo•ohsawe
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: gohsa
+- features:
+    gender: masculine
+    mood: conditional
+    number: dual
+    person: third
+    tense: past
+  expected: ao:nohsa
+- features:
+    gender: masculine
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: ao:sa
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: eyahsawe
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tseyahsawe
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: wayahsawe
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: honohsa
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eohsawe
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tseohsawe
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wahsawe
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hohsa
+- features:
+    mood: conditional
+    number: dual
+    person: first
+    tense: past
+  expected: a:yogyahsa
+- features:
+    mood: conditional
+    number: dual
+    person: second
+    tense: past
+  expected: ae:snyahsa
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: past
+  expected: a:yogwahsa
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: past
+  expected: ae:swahsa
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: a:wagahsa
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: past
+  expected: ae:sahsa
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: ehnyahsawe
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future_perfect
+  expected: tsehnyahsawe
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ehnyahsawe
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: ogyahsa
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: esnyahsawe
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future_perfect
+  expected: tsesnyahsawe
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: esnyahsawe
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: snyahsa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: edwahsawe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future_perfect
+  expected: tsedwahsawe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: edwahsawe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ogwahsa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: eswahsawe
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future_perfect
+  expected: tseswahsawe
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: eswahsawe
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: swahsa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: egahsawe
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future_perfect
+  expected: tsegahsawe
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ho•gahsawe
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: agahsa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: esahsawe
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future_perfect
+  expected: tsesahsawe
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ho'sahsawe
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sahsa
+---
+lemma: gasha:t
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: josha:'ono
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eyosha:t
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tseyosha:t
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: osayosha:'oh
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wo·osha:t
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: osha:s
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: tsayosha:t
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: jonosha:'ono
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: jonosha
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: jagosha:'ono
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: shonosha:'ono
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: joknyasha:'ono
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: jisnyasha:'ono
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: jogwasha:'ono
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: jiswasha:'ono
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: shonosha:'ono
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: swagasha:'ono
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: jisasha:'ono
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: eyonosha:t
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tseyonosha:t
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: wo•onosha:t
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: onosha:s
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: eyonosha:t
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tseyonosha:t
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wo•onosha:t
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: onosha:s
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eyagosha:t
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tseyagosha:t
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: osayagosha:'oh
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wa•agosha:t
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: gosha:s
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: tsa'onosha:t
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: tsosayonosha:t
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: tsa'agosha:t
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: eonosha:t
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tseonosha:t
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+  expected: osaonosha:'oh
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: wonosha:t
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: honosha:s
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eosha:t
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tsosha:t
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: osaosha:'oh
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wosha:t
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hosha:s
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: tsaonosha:t
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: tsaosha:t
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: eyoknyasha:t
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future_perfect
+  expected: tseyoknyasha:t
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+  expected: osayogvasha:'oh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: wo·oknyasha:t
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: ogyasha:s
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: esnyasha:t
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future_perfect
+  expected: tsejisnyasha:t
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+  expected: osesnyasha:'oh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: esnyasha:t
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: snyasha:s
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: eyogwasha:t
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future_perfect
+  expected: tseyogwasha:t
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: wo•ogwasha:t
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ogwasha:s
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: eswahsa:t
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future_perfect
+  expected: tseiiswasha:t
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: eswasha:t
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: swasha:s
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: eonosha:t
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tseonosha:t
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wonosha:t
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: honosha:s
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ewogasha:t
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future_perfect
+  expected: tsewogasha:t
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ogasha:t
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: agasha:s
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: esasha:t
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future_perfect
+  expected: tsesasha:t
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: esasha:t
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sasha:s
+- features:
+    number: dual
+    person: first
+  expected: tsa•oknyasha:t
+- features:
+    number: dual
+    person: second
+  expected: tsesnyasha:t
+- features:
+    number: plural
+    person: first
+  expected: tsa'ogwasha:t
+- features:
+    number: plural
+    person: second
+  expected: tseswasha:t
+- features:
+    number: plural
+    person: third
+  expected: tsosaonosha:t
+- features:
+    number: singular
+    person: first
+  expected: tsogasha:t
+- features:
+    number: singular
+    person: second
+  expected: tsosasha:t
+---
+lemma: ga•teh
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: gaa:teh
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: kniii'teh
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wadia•teh
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yeii'teh
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: hia•teh
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hii'teh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: hnia'teh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: snia'teh
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: dwa'teh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: swii'teh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hadia'teh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ga•teh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sii'teh
+---
+lemma: gehgwat
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: degahgwat
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tsetgagwat
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ho'tgagwat
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: tsa'tgahgwat
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: degahgwa
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: deknihgwat
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tseknihgwat
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: ho'knihgwat
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+  expected: tsa'knihgwat
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: deknihgwa
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: dewodihgwat
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tsewondihgw
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ho'dwadihgwat
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: dewadihgwa
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: deyehgwat
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tseyehgwat
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ho'iehgwat
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: tsa'jehgwat
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: deyehgwa
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: denihgwat
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tsetihgwat
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: ho'tihgwat
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+  expected: tsa'tihgwat
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: denihgwa
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: deogwat
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tsetahgwat
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ho'tagwat
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: tsa'tahgwat
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: deahgwa
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: dehnigwat
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future_perfect
+  expected: tsehnihgwat
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ho'dihnihgwat
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+  expected: tsa'hnihgwat
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: dehnihgwa
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: desnihgwat
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future_perfect
+  expected: tsesnihgwat
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: ho'disnihgwat
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: desnihgwa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: dedwahgwat
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future_perfect
+  expected: tsedwahgwat
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ho'didwahgwat
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: tsedwahgwat
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: dedwahgwa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: deswahgwat
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future_perfect
+  expected: tseswahgwat
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ho'diswahgwat
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: tseswahgwat
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: deswahgwa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: deodihgwat
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tseondihgwat
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ho'tadihgwat
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: tsa:tadihgwat
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: deadihgwa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: degehgwat
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future_perfect
+  expected: tsegehgwat
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ho'tgehgwat
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: tsa'tgehgwat
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: degehgwa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: desehgwat
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future_perfect
+  expected: tsesehgwat
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ho'sehgwat
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: tsa'tsehgwat
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: desehgwa
+---
+lemma: ho'gii'te
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: ho'knia'te
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ho'Wadia•te
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wa'eii'te
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: wania'te
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ehnia'te
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: esnia'te
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: edwa'te
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: eswii'te
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wadia'te
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ho'gii'te
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ho'sii'te
+---
+lemma: hotge:snye
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: hotga:snye
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: ho'kni:snye
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ho'dwadihsnye
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ho'je:snye
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: ho•ti:snye
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ho'ta:snye
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ho'dihni:snye
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: ho'disni:snye
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ho'didwa:snye
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ho'diswa:snye
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ho'tadihsnye
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: hotge:snye
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ho'tse:snye
+---
+lemma: hutö
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ëkehútö
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ëhsehútö
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ëöhútö
+---
+lemma: nigo:heh
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: o'nigohe'ono
+- features:
+    animacy: inanimate
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tsayo'nigoheh
+- features:
+    animacy: inanimate
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: o'nigohehs
+- features:
+    animacy: inanimate
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: o'nigohehs
+- features:
+    animacy: inanimate
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: a:yo'nigohe'oh
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: evo'nigo:heh
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tseyo'nigo:heh
+- features:
+    aspect: imperfective
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: odi'nigohe
+- features:
+    aspect: imperfective
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: odi'nigohe'ono
+- features:
+    aspect: imperfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: go'nigohe
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: hodi'nigohe'ono
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ho'nigohe
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: okni'nigohe'ono
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: sni'nigohe'ono
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: qgwak'nigohe'ono
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: swa'nigohe'ono
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: hodi'nigohe'ono
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: aknigohe
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: sa'nigohe
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: tsa'odi'nigoheh
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: odi'nigohehs
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tsa'odi'nigoheh
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: odi'nigohehs
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tsa'ago'nigoheh
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: go'nigohehs
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: tsaodi'nigoheh
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: hodi'nigohehs
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tsao'nigoheh
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ho'nigohehs
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: tsa'okni'nigoheh
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: okni'nigohehs
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: tsesni'nigoheh
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: sani'nigohehs
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tso'ogwa'nigoheh
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ogwa'nigohehs
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: tseswa'nigoheh
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: swa'nigohehs
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tsaodi'nigoheh
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hodi'nigohehs
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tsoknigoheh
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: aknigohehs
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: tsosa'nigoheh
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sa'nigohehs
+- features:
+    aspect: progressive
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: odi'nigohe's
+- features:
+    aspect: progressive
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: odi'nigohehs
+- features:
+    aspect: progressive
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: go'nigohe's
+- features:
+    aspect: progressive
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: hodi'nigohe's
+- features:
+    aspect: progressive
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ho'nigohe's
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: okni'nigohehs
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: sni'nigohehs
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ogwa'nigohehs
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: swa'nigohehs
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hodi'nigohehs
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: aknigohe's
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sa'nigohe's
+- features:
+    gender: feminine
+    mood: conditional
+    number: dual
+    person: third
+    tense: past
+  expected: a:yodi'nigohe'oh
+- features:
+    gender: feminine
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: a:yodi'nigohe'oh
+- features:
+    gender: feminine
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: a:yago'nigohe'oh
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: eyodi'nigo:heh
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tsevodi'nigo:heh
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: wo'odi'nigoheh
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: eyodi'nigo:heh
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tseyodi'nigo:heh
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wo'odi'nigoheh
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eyago'nigo:heh
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tseyago'nigo:heh
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wa'ago'nigoheh
+- features:
+    gender: masculine
+    mood: conditional
+    number: dual
+    person: third
+    tense: past
+  expected: ao:di'nigohe'oh
+- features:
+    gender: masculine
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: ao'nigohe'oh
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: eodi'nigo:heh
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tseo'di'nigo:heh
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: wodi'nigoheh
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: eo'nigo:heh
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tseo'nigo:heh
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wo'nigoheh
+- features:
+    mood: conditional
+    number: dual
+    person: first
+    tense: past
+  expected: a:yokni'nigohe'oh
+- features:
+    mood: conditional
+    number: dual
+    person: second
+    tense: past
+  expected: ae:sni'nigohe'oh
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: past
+  expected: a:yogwa'nigohe'oh
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: past
+  expected: ae:swa'nigohe'oh
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: ao:di'nigohe'oh
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: past
+  expected: ae:sa'nigohe'oh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: eyokni'nigo:heh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future_perfect
+  expected: tseyokni'nigo:heh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: wo'okni'nigoheh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: esni'nigo:heh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future_perfect
+  expected: tsesni'nigo:heh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: esni'nigoheh
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: eyogva'nigo:heh
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future_perfect
+  expected: tseyogwa'nigo:heh
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: wo'ogwa'nigoheh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: eswa'nigo:heh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future_perfect
+  expected: tseswa'nigo:heh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: eswa'nigoheh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: eodi'nigo:heh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tseodi'nigo:heh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wodi'nigoheh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ewoknigo:heh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future_perfect
+  expected: tsewoknigo:heh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: oknigoheh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: esa'nigo:heh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future_perfect
+  expected: tsesa'nigo:heh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: esa'nigoheh
+---
+lemma: nök
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: he:nö:k
+- features:
+    number: singular
+    person: second
+  expected: hesnö:k
+- features:
+    number: singular
+    person: third
+  expected: niyo:nö:k
+---
+lemma: nöstatôôk
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ëunöstatôôk
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ëutinöstatôôk
+---
+lemma: nöstát
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ëötinöstát
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ëönöstát
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: ëhninöstát
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ëknöstát
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ëkanöstát
+---
+lemma: read
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ho•wadeve:s
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wadevesta·
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: egvadeye:s
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: second
+    tense: future_perfect
+  expected: tsegvadeye:s
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: ho'gyadeye:s
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: gyadeyesta
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: eyadeye:s
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: second
+    tense: future_perfect
+  expected: tseyadeye:s
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: wayadeye:s
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: yadeyesta
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wadeye:s
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hadeyesta
+- features:
+    mood: conditional
+    number: dual
+    person: first
+    tense: future
+  expected: a:voknvadeyesdoh
+- features:
+    mood: conditional
+    number: dual
+    person: second
+    tense: future
+  expected: ae:snyadeyesdoh
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: future
+  expected: a:yogwadeyesdoh
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: future
+  expected: ae:swadeyesdoh
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: future
+  expected: a:wagadeyesdoh
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: future
+  expected: ae:sadevesdoh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: ehnvadeve:s
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future_perfect
+  expected: tsehnyadeye:s
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ehnyadeye:s
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: hnyadeyesta
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: esnyadeye:s
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future_perfect
+  expected: tsesnvadeve:s
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: esnyadeve:s
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: snyadeyesta
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future_perfect
+  expected: tsedwadeye:s
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: edwadeve:s
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: dwadeyesta
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: eswadeye:s
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future_perfect
+  expected: tseswadeye:s
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: eswadeve:s
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: swadeyesta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: egadeye:s
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future_perfect
+  expected: tsegadeve:s
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ho•gadeye:s
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: gadeyesta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: esadeye:s
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future_perfect
+  expected: tsesadeve:s
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ho•sadeye:s
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sadeyesta
+---
+lemma: tsa'tge:snye:h
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tsa'tga:snye:h
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tsa'kni:snye
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tsa'dewodi:snye:h
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tsa'ie:snye:h
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tsa'ti:snye
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tsa'ta:snye
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future_perfect
+  expected: tsa'dihni:snye:h
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future_perfect
+  expected: tsa'iisni:snye:h
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future_perfect
+  expected: tsa'didwa:snye:h
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future_perfect
+  expected: tsa'diswa:snye:h
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tsa'deodi:snye:h
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future_perfect
+  expected: tsa'tge:snye:h
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future_perfect
+  expected: tsa'tse:snye:h
+---
+lemma: tsa•ga:'te
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tsa'gaii'te
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: tsa•knia'te
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tsa'wadia'te
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tsa·ea'te
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: tsaniii'te
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tsaa'te
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: tsesniii'te
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tsedwaii'te
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: tseswaii'te
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tsadiii'te
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tsa•ga:'te
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: tsa'sa'te
+---
+lemma: tsega:'te
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tsegaa:te
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tseknia'te
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tsewodia•te
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tseyea'te
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future_perfect
+  expected: tsenia•te
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tsea'te
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future_perfect
+  expected: tsehnia•te
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future_perfect
+  expected: tsesniii'te
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future_perfect
+  expected: tsedwaa'te
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future_perfect
+  expected: tseswaa'te
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: tseodia'te
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future_perfect
+  expected: tsega:'te
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future_perfect
+  expected: tsesa:'te
+---
+lemma: tukast
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wa'utúkas
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: öktúkas
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: esatúkas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: waatúkas
+---
+lemma: ya'tanöstát
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ëöwötiya'tanöstát
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: ëökya'tanöstát
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ëökya'tanöstát
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ëeya'tanöstát
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ëehsya'tanöstát

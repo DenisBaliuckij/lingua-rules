@@ -1,0 +1,742 @@
+lemma: Teut
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: teutzitzin
+- features:
+    number: singular
+  expected: Teut
+---
+lemma: amat
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: ajamat
+- features:
+    number: singular
+  expected: amat
+---
+lemma: amatzin
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: ajamatzin
+- features:
+    number: singular
+  expected: amatzin
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: anmuamatzin
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: inamatzin
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nuamatzin
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: muamatzin
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: iamatzin
+- features:
+    possessor_person: second
+  expected: tuamatzin
+---
+lemma: barcoj
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: barcojtzitzin
+- features:
+    number: singular
+  expected: barcoj
+---
+lemma: centavoj
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: centavojchichin
+- features:
+    number: singular
+  expected: centavoj
+---
+lemma: chan
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: anmuchan
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: inchan
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nuchan
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: muchan
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ichan
+- features:
+    possessor_person: second
+  expected: tuchan
+---
+lemma: echkaw
+category: nouns
+cases:
+- features:
+    case: oblique
+    number: plural
+  expected: echkawan
+- features:
+    case: oblique
+    number: singular
+  expected: echkaw
+---
+lemma: eltiw
+category: nouns
+cases:
+- features:
+    case: oblique
+    number: plural
+  expected: eltiwan
+- features:
+    case: oblique
+    number: singular
+  expected: eltiw
+---
+lemma: ikaw
+category: nouns
+cases:
+- features:
+    case: oblique
+    number: plural
+  expected: ikawan
+- features:
+    case: oblique
+    number: singular
+  expected: ikaw
+---
+lemma: iknew
+category: nouns
+cases:
+- features:
+    case: oblique
+    number: plural
+  expected: kniwan
+- features:
+    case: oblique
+    number: singular
+  expected: iknew
+---
+lemma: ipan
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: anmuipan
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: inhipan
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nuipan
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: muipan
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: iipan
+- features:
+    possessor_person: second
+  expected: tuipan
+---
+lemma: ish
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: nujnuish
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: mujmuish
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: nuish
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: muish
+---
+lemma: ishpan
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: anmuishpan
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: inhishpan
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nuishpan
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: muishpan
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: iishpan
+- features:
+    possessor_person: second
+  expected: tuishpan
+---
+lemma: jpak
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: anmujpak
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: inhijpak
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nujpak
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: mujpak
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ijpak
+- features:
+    possessor_person: second
+  expected: tujpak
+---
+lemma: kunet
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: kunetzitzin
+- features:
+    number: singular
+  expected: kunet
+---
+lemma: kunew
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: anmukunew
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: inkunew
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nukunew
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: mukunew
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ikunew
+- features:
+    possessor_person: second
+  expected: tukunew
+---
+lemma: kunpa
+category: nouns
+cases:
+- features:
+    case: oblique
+    number: plural
+  expected: kunpawan
+- features:
+    case: oblique
+    number: singular
+  expected: kunpa
+---
+lemma: kunpalej
+category: nouns
+cases:
+- features:
+    case: oblique
+    number: plural
+  expected: kunpalejwan
+- features:
+    case: oblique
+    number: singular
+  expected: kunpalej
+---
+lemma: lamaj
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: lamajtzitzinmet
+- features:
+    number: singular
+  expected: lamaj
+---
+lemma: mey
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: anmumey
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: inmey
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: numey
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: mumey
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: imey
+- features:
+    possessor_person: second
+  expected: tumey
+---
+lemma: michin
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: michintzitzin
+- features:
+    number: singular
+  expected: michin
+---
+lemma: noy
+category: nouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+  expected: noymet
+- features:
+    case: absolutive
+    number: singular
+  expected: noy
+- features:
+    case: oblique
+    number: plural
+  expected: noywan
+- features:
+    case: oblique
+    number: singular
+  expected: noy
+---
+lemma: pal
+category: nouns
+cases:
+- features:
+    case: oblique
+    number: plural
+  expected: palwan
+- features:
+    case: oblique
+    number: singular
+  expected: pal
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: anmupal
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: inpal
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nupal
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: mupal
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ipal
+- features:
+    possessor_person: second
+  expected: tupal
+---
+lemma: panpa
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: anmupanpa
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: inpanpa
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nupanpa
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: mupanpa
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ipanpa
+- features:
+    possessor_person: second
+  expected: tupanpa
+---
+lemma: pelu
+category: nouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+  expected: pejpelu
+- features:
+    case: absolutive
+    number: singular
+  expected: pelu
+- features:
+    case: oblique
+    number: plural
+  expected: pejpelu
+- features:
+    case: oblique
+    number: singular
+  expected: pelu
+- features:
+    number: plural
+  expected: pelutzitzinmet
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: nupejpelu
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: mupejpelu
+- features:
+    number: singular
+  expected: pelu
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: nupelu
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: mupelu
+---
+lemma: pilawan
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: anmupilawan
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: inpilawan
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nupilawan
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: mupilawan
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ipilawan
+- features:
+    possessor_person: second
+  expected: tupilawan
+---
+lemma: piltzin
+category: nouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+  expected: piltzitzin
+- features:
+    case: absolutive
+    number: singular
+  expected: piltzin
+- features:
+    case: oblique
+    number: plural
+  expected: pilawan
+- features:
+    case: oblique
+    number: singular
+  expected: piltzin
+---
+lemma: pipi
+category: nouns
+cases:
+- features:
+    case: oblique
+    number: plural
+  expected: pipiwan
+- features:
+    case: oblique
+    number: singular
+  expected: pipi
+---
+lemma: pipil
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: pipiltzitzin
+- features:
+    number: singular
+  expected: pipil
+---
+lemma: sel
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: anmusel
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: insel
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nusel
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: musel
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: isel
+- features:
+    possessor_person: second
+  expected: tusel
+---
+lemma: siwapil
+category: nouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+  expected: siwapipil
+- features:
+    case: absolutive
+    number: singular
+  expected: siwapil
+- features:
+    case: oblique
+    number: plural
+  expected: siwapilawan
+- features:
+    case: oblique
+    number: singular
+  expected: siwapiltzin
+---
+lemma: siwat
+category: nouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+  expected: siwatket
+- features:
+    case: absolutive
+    number: singular
+  expected: siwat
+- features:
+    case: oblique
+    number: plural
+  expected: siwawan
+- features:
+    case: oblique
+    number: singular
+  expected: siwaw
+---
+lemma: taka
+category: nouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+  expected: takamet
+- features:
+    case: absolutive
+    number: singular
+  expected: takat
+---
+lemma: tal
+category: nouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+  expected: tajtal
+- features:
+    case: absolutive
+    number: singular
+  expected: tal
+- features:
+    case: oblique
+    number: plural
+  expected: tajtal
+- features:
+    case: oblique
+    number: singular
+  expected: tal
+---
+lemma: tamachtiani
+category: nouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+  expected: tamachtianimet
+- features:
+    case: absolutive
+    number: singular
+  expected: tamachtiani
+- features:
+    case: oblique
+    number: plural
+  expected: tajtamachtiani
+- features:
+    case: oblique
+    number: singular
+  expected: tamachtiani
+---
+lemma: tech
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: anmutech
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: intech
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nutech
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: mutech
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: itech
+- features:
+    possessor_person: second
+  expected: tutech
+---
+lemma: teku
+category: nouns
+cases:
+- features:
+    case: oblique
+    number: plural
+  expected: tejteku
+- features:
+    case: oblique
+    number: singular
+  expected: teku
+---
+lemma: wan
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: anmuwan
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: inwan
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nuwan
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: muwan
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: iwan
+- features:
+    possessor_person: second
+  expected: tuwan

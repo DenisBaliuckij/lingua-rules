@@ -1,0 +1,71 @@
+lemma: jolom
+category: nouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: leejolom
+- features:
+    number: singular
+    person: first
+  expected: linjolom
+- features:
+    number: singular
+    person: second
+  expected: laajolom
+---
+lemma: uq'un
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: quq’un
+- features:
+    number: plural
+    person: second
+  expected: eeruq’un
+- features:
+    number: plural
+    person: third
+  expected: ruq’uneb
+- features:
+    number: singular
+    person: first
+  expected: wuq’un
+- features:
+    number: singular
+    person: second
+  expected: aawuqu’un
+- features:
+    number: singular
+    person: third
+  expected: ruq’un
+---
+lemma: xayaw
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: qaxayaw
+- features:
+    number: plural
+    person: second
+  expected: eexayaw
+- features:
+    number: plural
+    person: third
+  expected: xxayaweb
+- features:
+    number: singular
+    person: first
+  expected: inxayaw
+- features:
+    number: singular
+    person: second
+  expected: aaxayaw
+- features:
+    number: singular
+    person: third
+  expected: xxayaw

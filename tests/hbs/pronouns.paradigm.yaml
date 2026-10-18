@@ -1,0 +1,920 @@
+lemma: dvoje
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: dvoje
+- features:
+    case: dative
+    gender: neuter
+    number: plural
+  expected: dvoma
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: dvoga
+- features:
+    case: instrumental
+    gender: neuter
+    number: plural
+  expected: dvoma
+- features:
+    case: locative
+    gender: neuter
+    number: plural
+  expected: dvoma
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: dvoje
+- features:
+    case: vocative
+    gender: neuter
+    number: plural
+  expected: dvoje
+---
+lemma: ja
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: mene
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: meni
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: mene
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: mnom
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: meni
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ja
+---
+lemma: ko
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: kòga
+- features:
+    case: dative
+    number: singular
+  expected: kòme
+- features:
+    case: genitive
+    number: singular
+  expected: kòga
+- features:
+    case: locative
+    number: singular
+  expected: kòme
+- features:
+    case: nominative
+    number: singular
+  expected: ko
+---
+lemma: mamin
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: mamine
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: maminu
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: mamine
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: mamin
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: mamina
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: mamino
+- features:
+    case: dative
+    gender: feminine
+    number: dual
+  expected: maminima
+- features:
+    case: dative
+    gender: masculine
+    number: dual
+  expected: maminim
+- features:
+    case: dative
+    gender: neuter
+    number: dual
+  expected: maminim
+- features:
+    case: genitive
+    gender: feminine
+    number: dual
+  expected: maminoj
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: maminih
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: mamine
+- features:
+    case: genitive
+    gender: masculine
+    number: dual
+  expected: maminu
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: maminih
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: mamina
+- features:
+    case: genitive
+    gender: neuter
+    number: dual
+  expected: maminom
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: maminih
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: maminog
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: maminom
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: maminim
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: maminim
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: mamine
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: mamina
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: mamini
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: mamin
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: mamina
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: mamino
+---
+lemma: môj
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: moju
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: moje
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: moje
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: mÔMy
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: mòjemy
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: mòjôj
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: môra
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: mòjera
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: mòjê
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: mòjûm
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: mòjujem
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: mojom
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: mômymômu
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: mòjemy
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: mòjôj
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: moja
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: môj
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: moje
+---
+lemma: naš
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: našu
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: häme
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: пади
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: паѕети
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: нашему
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: näšega
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: hàmera
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: nàmêm
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: uàminjem
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: павети
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: нәшему
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: наше
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: na
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: паве
+---
+lemma: njegov
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: njègove
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: njègovu
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: njègove
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: njègov
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: njègova
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: njègovo
+- features:
+    case: dative
+    gender: feminine
+    number: dual
+  expected: njègovima
+- features:
+    case: dative
+    gender: masculine
+    number: dual
+  expected: njègovim
+- features:
+    case: dative
+    gender: neuter
+    number: dual
+  expected: njègovim
+- features:
+    case: genitive
+    gender: feminine
+    number: dual
+  expected: njègovoj
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: njègovih
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: njègove
+- features:
+    case: genitive
+    gender: masculine
+    number: dual
+  expected: njègovu
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: njègovih
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: njègova
+- features:
+    case: genitive
+    gender: neuter
+    number: dual
+  expected: njègovom
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: njègovih
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: njègovog
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: njègovom
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: njègovim
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: njègovim
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: njègove
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: njègova
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: njègovi
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: njègov
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: njègova
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: njègovo
+---
+lemma: oba
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: dual
+  expected: obje
+- features:
+    case: accusative
+    gender: masculine
+    number: dual
+  expected: oba
+- features:
+    case: accusative
+    gender: neuter
+    number: dual
+  expected: oba
+- features:
+    case: dative
+    gender: feminine
+    number: dual
+  expected: objema
+- features:
+    case: dative
+    gender: masculine
+    number: dual
+  expected: ojema
+- features:
+    case: dative
+    gender: neuter
+    number: dual
+  expected: ojema
+- features:
+    case: genitive
+    gender: feminine
+    number: dual
+  expected: obija
+- features:
+    case: genitive
+    gender: masculine
+    number: dual
+  expected: obiju
+- features:
+    case: genitive
+    gender: neuter
+    number: dual
+  expected: obiju
+- features:
+    case: instrumental
+    gender: feminine
+    number: dual
+  expected: objema
+- features:
+    case: instrumental
+    gender: masculine
+    number: dual
+  expected: ojema
+- features:
+    case: instrumental
+    gender: neuter
+    number: dual
+  expected: ojema
+- features:
+    case: locative
+    gender: feminine
+    number: dual
+  expected: objema
+- features:
+    case: locative
+    gender: masculine
+    number: dual
+  expected: ojema
+- features:
+    case: locative
+    gender: neuter
+    number: dual
+  expected: ojema
+- features:
+    case: nominative
+    gender: feminine
+    number: dual
+  expected: obje
+- features:
+    case: nominative
+    gender: masculine
+    number: dual
+  expected: oba
+- features:
+    case: nominative
+    gender: neuter
+    number: dual
+  expected: oba
+- features:
+    case: vocative
+    gender: feminine
+    number: dual
+  expected: obje
+- features:
+    case: vocative
+    gender: masculine
+    number: dual
+  expected: oba
+- features:
+    case: vocative
+    gender: neuter
+    number: dual
+  expected: oba
+---
+lemma: 'on'
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: njega
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+    person: third
+  expected: njemu
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+    person: third
+  expected: njega
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+    person: third
+  expected: njim
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+    person: third
+  expected: njemu
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: 'on'
+---
+lemma: sebe
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: sebe
+- features:
+    case: dative
+    number: singular
+  expected: sebi
+- features:
+    case: genitive
+    number: singular
+  expected: sebe
+- features:
+    case: locative
+    number: singular
+  expected: sebi
+---
+lemma: ti
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: tebe
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: tebi
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: tebe
+- features:
+    case: instrumental
+    number: singular
+    person: second
+  expected: tobom
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: tebi
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ti
+---
+lemma: òna
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: nju
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+    person: third
+  expected: njoj
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+    person: third
+  expected: nje
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+    person: third
+  expected: njom
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+    person: third
+  expected: njoj
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: òna
+---
+lemma: òno
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+    person: third
+  expected: njega
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+    person: third
+  expected: njemu
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+    person: third
+  expected: njega
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+    person: third
+  expected: njim
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+    person: third
+  expected: njemu
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+    person: third
+  expected: òno
+---
+lemma: četiri
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: četiри
+- features:
+    case: dative
+    number: plural
+  expected: četirma
+- features:
+    case: genitive
+    number: plural
+  expected: četiriju
+- features:
+    case: instrumental
+    number: plural
+  expected: četirma
+- features:
+    case: locative
+    number: plural
+  expected: četirma
+- features:
+    case: nominative
+    number: plural
+  expected: četiри
+- features:
+    case: vocative
+    number: plural
+  expected: četiри
+---
+lemma: četvoro
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: četvoro
+- features:
+    case: dative
+    gender: neuter
+    number: plural
+  expected: četvorma
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: četvorga
+- features:
+    case: instrumental
+    gender: neuter
+    number: plural
+  expected: četvorma
+- features:
+    case: locative
+    gender: neuter
+    number: plural
+  expected: četvorma
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: četvoro
+- features:
+    case: vocative
+    gender: neuter
+    number: plural
+  expected: četvoro
+---
+lemma: šta
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: šta
+- features:
+    case: dative
+    number: singular
+  expected: če̍mu
+- features:
+    case: genitive
+    number: singular
+  expected: čèga
+- features:
+    case: locative
+    number: singular
+  expected: če̍mu
+- features:
+    case: nominative
+    number: singular
+  expected: šta

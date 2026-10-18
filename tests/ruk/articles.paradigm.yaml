@@ -1,0 +1,107 @@
+lemma: il
+category: articles
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: dagli
+- features:
+    case: accusative
+    number: plural
+  expected: gli
+- features:
+    case: dative
+    number: plural
+  expected: agli
+- features:
+    case: genitive
+    number: plural
+  expected: degli
+- features:
+    case: nominative
+    number: plural
+  expected: gli
+---
+lemma: l
+category: articles
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: dalle
+- features:
+    case: ablative
+    number: singular
+  expected: dall
+- features:
+    case: accusative
+    number: plural
+  expected: le
+- features:
+    case: dative
+    number: plural
+  expected: alle
+- features:
+    case: dative
+    number: singular
+  expected: all
+- features:
+    case: genitive
+    number: plural
+  expected: delle
+- features:
+    case: genitive
+    number: singular
+  expected: dell
+- features:
+    case: nominative
+    number: plural
+  expected: le
+- features:
+    case: nominative
+    number: singular
+  expected: l
+---
+lemma: la
+category: articles
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: dalle
+- features:
+    case: ablative
+    number: singular
+  expected: dalla
+- features:
+    case: accusative
+    number: plural
+  expected: le
+- features:
+    case: accusative
+    number: singular
+  expected: la
+- features:
+    case: dative
+    number: plural
+  expected: alle
+- features:
+    case: dative
+    number: singular
+  expected: alia
+- features:
+    case: genitive
+    number: plural
+  expected: delle
+- features:
+    case: genitive
+    number: singular
+  expected: della
+- features:
+    case: nominative
+    number: plural
+  expected: he
+- features:
+    case: nominative
+    number: singular
+  expected: la

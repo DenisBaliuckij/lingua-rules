@@ -1,0 +1,2500 @@
+lemma: ԵՄ and ԸԼԼԱԼ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: ըլլա՜նք
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: եղէ՛ք
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: եղի՛ր
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: aorist
+  expected: եղանք
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: imperfect
+  expected: էինք
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ենք
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: aorist
+  expected: չեղանք
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: էէենՔ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: չենք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: aorist
+  expected: եղաք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: imperfect
+  expected: ԷԽ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: Կ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: aorist
+  expected: չեղաք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: էէԽ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: էէՔ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: aorist
+  expected: եղան
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: imperfect
+  expected: էին
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: են
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: aorist
+  expected: չեղան
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: չէՒն
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: չեն
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: aorist
+  expected: եղայ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: imperfect
+  expected: էի
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: եմ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: aorist
+  expected: չեղայ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: էէՒ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: aorist
+  expected: եղար
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: imperfect
+  expected: ԷՒր
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: ես
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: aorist
+  expected: չեղար
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: էէՒր
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: չես
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: aorist
+  expected: եղաւ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: imperfect
+  expected: էր
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: է
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: aorist
+  expected: չեղաւ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: էէր
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: էէ
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: ըլլանք
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: ըլլան
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: ըլլաս
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: ըլլար
+- features:
+    verb_form: past_participle
+  expected: եղած
+- features:
+    verb_form: present_participle
+  expected: եղող
+---
+lemma: առնեի
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ա՛ռ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: առի
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: կ’առնեմ
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: առնեմ
+---
+lemma: առնել
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: առնելիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: առած
+- features:
+    tense: present
+    verb_form: participle
+  expected: առնող
+- features:
+    verb_form: infinitive
+    voice: passive
+  expected: առնուիլ
+---
+lemma: բանալ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: բացի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: բանամ
+---
+lemma: բանել
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: բանալիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: բացած
+- features:
+    tense: present
+    verb_form: participle
+  expected: բացող
+- features:
+    verb_form: infinitive
+    voice: passive
+  expected: քացուիլ
+---
+lemma: բերել
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: բե՛ր
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: բերի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: բերեմ
+- features:
+    tense: future
+  expected: բերելիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: բերած
+- features:
+    tense: present
+    verb_form: participle
+  expected: բերող
+- features:
+    verb_form: infinitive
+    voice: passive
+  expected: բերուիլ
+---
+lemma: գալ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: եկէ՛ք
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: չգաք
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: եկու՛ր
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: չգաս
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: եկայ
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: գամ
+- features:
+    tense: future
+  expected: գալիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: եկած
+- features:
+    tense: present
+    verb_form: participle
+  expected: եկող
+---
+lemma: գառնալ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: դարձի՛ր
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: դարձայ
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: դառնամ
+---
+lemma: գիտնալ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: գիտցի՛ր
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: գիտէինք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: գիտէիք
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: գիտէին
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: գիտցայ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: դիտէի
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: գիտեմ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: դիտէիր
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: գիտէր
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: գիտնայի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: գիտնամ
+- features:
+    tense: future
+  expected: գիտնալիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: գիտցած
+- features:
+    tense: present
+    verb_form: participle
+  expected: գիտցող
+- features:
+    verb_form: infinitive
+    voice: passive
+  expected: գիտցուիլ
+---
+lemma: գտնել
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: գտնելիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: գտած
+- features:
+    tense: present
+    verb_form: participle
+  expected: գտնող
+- features:
+    verb_form: infinitive
+    voice: passive
+  expected: գտնուիլ
+---
+lemma: գտնելէ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: գտի՛ր
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: գտայ
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: գտնեմ
+---
+lemma: գրել
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: գրէինք
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: գրենք
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: գրէիր
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: գրէին
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: գրեն
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: գրէի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: գրեմ
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: գրէիր
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: գրես
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: գրէր
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: գրԷ
+---
+lemma: դառնալ
+category: verbs
+cases:
+- features:
+    tense: past
+    verb_form: participle
+  expected: դարձած
+- features:
+    tense: present
+    verb_form: participle
+  expected: դարձող
+- features:
+    verb_form: infinitive
+    voice: passive
+  expected: դարձուիլ
+---
+lemma: դնել
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: դի՛ր
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: դրէ
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: դնեմ
+- features:
+    tense: future
+  expected: դնելիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: դրած
+- features:
+    tense: present
+    verb_form: participle
+  expected: դնող
+- features:
+    verb_form: infinitive
+    voice: passive
+  expected: դրուիլ
+---
+lemma: եԱել
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: ելայ
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: ելլեմ
+---
+lemma: ելլել
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: ելլելիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: ելած
+- features:
+    tense: present
+    verb_form: participle
+  expected: ելլող
+---
+lemma: եմ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: էինք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: էիք
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: էին
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: էի
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: էիր
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: էր
+---
+lemma: երգել
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: երգեցէք
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: երգէ՛
+---
+lemma: երթալ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: գացէք
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: չերթաք
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: գնա՛
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: չերթաս
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: երթամ
+- features:
+    tense: future
+  expected: երթալիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: գացած
+- features:
+    tense: present
+    verb_form: participle
+  expected: գացող
+---
+lemma: զարնել
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: գարկ-ի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: զարնեմ
+- features:
+    tense: future
+  expected: զարնելիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: զարկած
+- features:
+    tense: present
+    verb_form: participle
+  expected: զարկող
+- features:
+    verb_form: infinitive
+    voice: passive
+  expected: զարնուիլ
+---
+lemma: ըլլալ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: կ’ըլլայի
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: չըլլայինք
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: չըլլանք
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: չըլլայիք
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: չըլլաք
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: էըլւայՒն
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: չըլլան
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: չըլլայի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: չըլլամ
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: ըլլայի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: ըլլամ
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: չըլլայիր
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: չըլլաս
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: չըլլար
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: էըլւայ
+- features:
+    polarity: negative
+    verb_form: participle
+  expected: չըլլալիք
+- features:
+    polarity: negative
+    verb_form: past_participle
+  expected: չեղած
+- features:
+    tense: past
+    verb_form: participle
+  expected: եղած
+- features:
+    tense: present
+    verb_form: participle
+  expected: եղող
+---
+lemma: ըլւաւ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: եղի՛ր
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: եդ—այ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: եմ
+---
+lemma: ընել
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: ընեմ
+- features:
+    tense: future
+  expected: ընելիք
+- features:
+    tense: present
+    verb_form: participle
+  expected: րեող
+---
+lemma: ըսել
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ըսէ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: ըսի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: ըսեմ
+- features:
+    tense: future
+  expected: ըսելիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: ըսած
+- features:
+    tense: present
+    verb_form: participle
+  expected: ըսող
+- features:
+    verb_form: infinitive
+    voice: passive
+  expected: ըսուիլ
+---
+lemma: իյնալ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ինկի՛ր
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: ինկ—այ
+- features:
+    tense: future
+  expected: իյնալիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: ինկած
+- features:
+    tense: present
+    verb_form: participle
+  expected: ինկող
+---
+lemma: լալ
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: լամ
+- features:
+    tense: future
+  expected: լալիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: լացած
+- features:
+    tense: present
+    verb_form: participle
+  expected: լացող
+---
+lemma: լինել
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: էինք
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ենք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: էիք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: է
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: էին
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: են
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: էի
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ես
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: էիր
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ես
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: էր
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: է
+---
+lemma: խաղալ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: խաղացէք
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: խաղա
+---
+lemma: խօսել
+category: verbs
+cases:
+- features:
+    mood: optative
+    number: plural
+    person: first
+    polarity: negative
+  expected: չխօսի՛նք
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: չխօսէինք
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: չխօսինք
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: չխօսէիք
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: չխօսիք
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: չխօսէին
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: չխօսին
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: չխօսէի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: չխօսիմ
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: չխօսէիր
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: չխօսիս
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: չխօսէր
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: չխօսի
+- features:
+    polarity: negative
+    verb_form: infinitive
+  expected: չխօսիլ
+- features:
+    polarity: negative
+    verb_form: participle
+  expected: չխօսելիք
+- features:
+    polarity: negative
+    verb_form: past_participle
+  expected: չխօսած
+- features:
+    polarity: negative
+    verb_form: present_participle
+  expected: չխօսող
+---
+lemma: խօսիլ
+category: verbs
+cases:
+- features:
+    case: ablative
+  expected: խօսելէ
+- features:
+    case: dative
+  expected: խօսելոլ
+- features:
+    case: instrumental
+  expected: խօսելով
+- features:
+    case: nominative
+  expected: խօսիլ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: խօսեցէք
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: խօսեցէք
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: խօսէ՛
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: խօսէ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: aorist
+  expected: չխօսեցանք
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: խօսեցանք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: aorist
+  expected: չխօսեցաք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: խօսեցաք
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: aorist
+  expected: չխօսեցան
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: խօսեցան
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: aorist
+  expected: չխօսեցայ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: խօսեցայ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: aorist
+  expected: չխօսեցար
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: խօսեցար
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: aorist
+  expected: չխօսեցաւ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: խօսեցաւ
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: խօսէինք
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: խօսինք
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: խօսէիք
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: խօսիք
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: խօսէին
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: խօսին
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: խօսէի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: խօսէի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: խօսիմ
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: խօսէիր
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: խօսիս
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: խօսէր
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: խօսի
+- features:
+    verb_form: infinitive
+  expected: խօսիլ
+- features:
+    verb_form: past_participle
+  expected: խօսած
+- features:
+    verb_form: present_participle
+  expected: խօսող
+---
+lemma: կամ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: կայինք
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: կային
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: կայի
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: կայիը
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: կար
+---
+lemma: կարդալ
+category: verbs
+cases:
+- features:
+    case: ablative
+  expected: կարդալէ
+- features:
+    case: dative
+  expected: կարդալու
+- features:
+    case: nominative
+  expected: կարդալ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: կարդացէք
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: կարդա
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: aorist
+  expected: չկարդացինք
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: կարդացինք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: aorist
+  expected: չկարդացիք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: կարդացիք
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: aorist
+  expected: չկարդացին
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: կարդացին
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: aorist
+  expected: չկարդացի
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: կարդացի
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: aorist
+  expected: չկարդացիր
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: կարդացիր
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: aorist
+  expected: չկարդաց
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: կարդաց
+- features:
+    mood: optative
+    number: plural
+    person: first
+    polarity: negative
+  expected: չկարդա՛նք
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: չկարդայինք
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: չկարդանք
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: կարդայինք
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: կարդանք
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: չկարդայիք
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: չկարդար
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: կարդայիք
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: կարդաք
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: չկարդային
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: չկարդան
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: կարդային
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: կարդան
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: չկարդայի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: չկարդամ
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: կարդայի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: կարդայի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: կարդամ
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: չկարդայիր
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: չկարդաս
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: կարդայիր
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: կարդաս
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: չկարդար
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: չկարդայ
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: կարդար
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: կարդայ
+- features:
+    polarity: negative
+    verb_form: infinitive
+  expected: չկարդալ
+- features:
+    polarity: negative
+    verb_form: participle
+  expected: չկարդալիք
+- features:
+    polarity: negative
+    verb_form: past_participle
+  expected: չկարդացած
+- features:
+    polarity: negative
+    verb_form: present_participle
+  expected: չկարդազող
+- features:
+    verb_form: infinitive
+  expected: կարդալ
+- features:
+    verb_form: past_participle
+  expected: կարդացած
+- features:
+    verb_form: present_participle
+  expected: կարդազող
+---
+lemma: կարենալ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: կրնայի
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: կրնամ
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: կարենայի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: կարենամ
+---
+lemma: կենալ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: կեցի՛ր
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: կեց-այ
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: կենամ
+- features:
+    tense: future
+  expected: կենալիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: կեցած
+- features:
+    tense: present
+    verb_form: participle
+  expected: կեցող
+---
+lemma: կրնալ
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: կարենալիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: կրցած
+- features:
+    tense: present
+    verb_form: participle
+  expected: կրցող
+---
+lemma: նստել
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: նստելիք
+- features:
+    tense: present
+    verb_form: participle
+  expected: նստող
+---
+lemma: նստիլն
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: նստէ՛
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: նստ—այ
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: նստիմ
+---
+lemma: ունենալ
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: ունենայի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: ունենամ
+---
+lemma: ուտել
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: կերէ՛ք
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: չո՛ւտէք
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: կե՛ր
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: չուտես
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: կեր-այ
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: ուտեմ
+- features:
+    tense: future
+  expected: ուտելիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: կերած
+- features:
+    tense: present
+    verb_form: participle
+  expected: ուտող
+- features:
+    verb_form: infinitive
+    voice: passive
+  expected: ուտուիլ
+---
+lemma: սիրել
+category: verbs
+cases:
+- features:
+    case: ablative
+  expected: սիրելէ
+- features:
+    case: dative
+  expected: սիրելոԼ
+- features:
+    case: instrumental
+  expected: սիրելով
+- features:
+    case: nominative
+  expected: սիրել
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: սիրեցէր
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: սիրէ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: սիրեցի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: սիրէի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: սիրեմ
+---
+lemma: վազել
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: aorist
+  expected: չվազեցինք
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: վազեցինք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: aorist
+  expected: չվազեցիք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: վազեցիք
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: aorist
+  expected: չվազեցին
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: վազեցին
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: aorist
+  expected: չվազեցի
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: վազեցի
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: aorist
+  expected: չվազեցիր
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: վազեցիր
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: aorist
+  expected: չվազեց
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: վազեց
+- features:
+    mood: optative
+    number: plural
+    person: first
+    polarity: negative
+  expected: չվազե՛նք
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: չվազէինք
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: չվազենք
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: վազէինք
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: վազենք
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: չվազէիք
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: չվազէք
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: վազէիք
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: վազէք
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: չվազէին
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: չվազեն
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: վազէին
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: վազեն
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: չվազէի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: չվազեմ
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: վազէի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: վազեմ
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: չվազէիր
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: չվազես
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: վազէիր
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: վազես
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: չվազէր
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: չվազէ
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: վազէր
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: վազէ
+- features:
+    polarity: negative
+    verb_form: infinitive
+  expected: չվազել
+- features:
+    polarity: negative
+    verb_form: participle
+  expected: չվազելիք
+- features:
+    polarity: negative
+    verb_form: past_participle
+  expected: չվազած
+- features:
+    polarity: negative
+    verb_form: present_participle
+  expected: չվազող
+- features:
+    verb_form: infinitive
+  expected: վազել
+- features:
+    verb_form: past_participle
+  expected: վազած
+- features:
+    verb_form: present_participle
+  expected: վազող
+---
+lemma: տալ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: տուր
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: տոլ-ի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: տամ
+- features:
+    tense: future
+  expected: տալիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: տուած
+- features:
+    tense: present
+    verb_form: participle
+  expected: տուող
+- features:
+    verb_form: infinitive
+    voice: passive
+  expected: տրուիլ
+---
+lemma: տանել
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: տանելիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: տարած
+- features:
+    tense: present
+    verb_form: participle
+  expected: տանող
+- features:
+    verb_form: infinitive
+    voice: passive
+  expected: տարուիլ
+---
+lemma: տանիլ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: տա՛ր
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: տար—ի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: տանիմ
+---
+lemma: տեսնել
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: տե՛ս
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: տեսայ
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: տեսնեմ
+- features:
+    tense: future
+  expected: տեսնելիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: տեսած
+- features:
+    tense: present
+    verb_form: participle
+  expected: տեսնող
+- features:
+    verb_form: infinitive
+    voice: passive
+  expected: տեսնուիլ
+---
+lemma: փախչել
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: փախչելիք
+- features:
+    tense: past
+    verb_form: participle
+  expected: փախած
+- features:
+    tense: present
+    verb_form: participle
+  expected: փախչող
+---
+lemma: փախչիլ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: փախի՛ր
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: փախայ
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: փախչիմ

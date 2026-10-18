@@ -1,0 +1,861 @@
+lemma: kohto
+category: pronouns
+cases:
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: na KOCTO
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: na KOCTO
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: kOCTO
+- features:
+    case: nominative
+    number: plural
+  expected: kOHTO
+---
+lemma: аз
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: мене
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: ми
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: тя
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: той
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: то
+- features:
+    number: plural
+    person: first
+  expected: ние
+- features:
+    number: plural
+    person: second
+  expected: вие
+- features:
+    number: plural
+    person: third
+  expected: те
+- features:
+    number: singular
+    person: first
+  expected: аз
+- features:
+    number: singular
+    person: second
+  expected: ти
+---
+lemma: ваш
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: ваша
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: ваш
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: ваше
+- features:
+    case: nominative
+    number: plural
+  expected: ваши
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: ваша
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: ваш
+- features:
+    gender: neuter
+    number: plural
+    person: second
+  expected: ваше
+- features:
+    number: plural
+    person: second
+  expected: ваши
+---
+lemma: вие
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: вас
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: ви
+- features:
+    number: plural
+    person: second
+  expected: вйе
+---
+lemma: всички
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: всичката
+- features:
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: всичкият
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: всичкото
+- features:
+    definiteness: definite
+    number: plural
+  expected: всичките
+- features:
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+  expected: всичка
+- features:
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: всичко
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: всички
+---
+lemma: два
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    gender: feminine
+  expected: двете
+- features:
+    definiteness: definite
+    gender: masculine
+  expected: двата
+- features:
+    definiteness: definite
+    gender: neuter
+  expected: двете
+---
+lemma: двадесет и един
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: двадесет и едното
+---
+lemma: двама
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+  expected: двамата
+---
+lemma: десетина
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+  expected: десетината
+---
+lemma: един
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: едната
+- features:
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: единият
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: едното
+- features:
+    definiteness: definite
+    number: plural
+  expected: едните
+---
+lemma: единички
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: единичката
+- features:
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: единичкият
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: единичкото
+---
+lemma: едно
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: едного
+- features:
+    case: dative
+    number: singular
+  expected: едному
+---
+lemma: какъв
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: каква
+- features:
+    gender: masculine
+    number: singular
+  expected: какъв
+- features:
+    gender: neuter
+    number: singular
+  expected: какво
+- features:
+    number: plural
+  expected: какай
+---
+lemma: кой
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: коя
+- features:
+    gender: masculine
+    number: singular
+  expected: кой
+- features:
+    gender: neuter
+    number: singular
+  expected: коё
+- features:
+    number: plural
+  expected: кой
+---
+lemma: ме
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: я
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: го
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: го
+- features:
+    number: plural
+    person: first
+  expected: ни
+- features:
+    number: plural
+    person: second
+  expected: ви
+- features:
+    number: plural
+    person: third
+  expected: ги
+- features:
+    number: singular
+    person: first
+  expected: ме
+- features:
+    number: singular
+    person: second
+  expected: те
+---
+lemma: мой
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: моя
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: мОЙ
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: мое
+- features:
+    case: nominative
+    number: plural
+  expected: мои
+---
+lemma: моят
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: моята
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: моето
+- features:
+    gender: neuter
+    number: singular
+    person: first
+  expected: моето
+- features:
+    number: plural
+    person: first
+  expected: моите
+---
+lemma: наш
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: наша
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: наш
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: наше
+- features:
+    case: nominative
+    number: plural
+  expected: наши
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: наша
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: наш
+- features:
+    gender: neuter
+    number: plural
+    person: first
+  expected: наше
+- features:
+    number: plural
+    person: first
+  expected: наши
+---
+lemma: негов
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: нёгова
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: негов
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: нёгово
+- features:
+    case: nominative
+    number: plural
+  expected: нёгови
+---
+lemma: неговият
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: неговата
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: негово то
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: негово то
+- features:
+    number: plural
+    person: third
+  expected: неговите
+---
+lemma: нейн
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: нейна
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: нёйно
+- features:
+    case: nominative
+    number: plural
+  expected: нёйни
+---
+lemma: нейният
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: нейната
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: неговият
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: нейното
+- features:
+    number: plural
+    person: third
+  expected: нейните
+---
+lemma: ние
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: нас
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: ни
+- features:
+    number: plural
+    person: first
+  expected: нйе
+---
+lemma: онзи
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: онази
+- features:
+    gender: masculine
+    number: singular
+  expected: онзи
+- features:
+    gender: neuter
+    number: singular
+  expected: онова
+- features:
+    number: plural
+  expected: онеzi
+---
+lemma: половина
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+  expected: половината
+---
+lemma: половинка
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+  expected: половинката
+---
+lemma: свой
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: своя
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: свой
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: свое
+- features:
+    case: nominative
+    number: plural
+  expected: свои
+- features:
+    gender: feminine
+    number: singular
+  expected: своя
+- features:
+    gender: masculine
+    number: singular
+  expected: свой
+- features:
+    gender: neuter
+    number: singular
+  expected: свое
+- features:
+    number: plural
+  expected: свои
+---
+lemma: се
+category: pronouns
+cases:
+- features:
+    voice: reflexive
+  expected: се
+---
+lemma: себе си
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: себе си
+---
+lemma: такъв
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: такава
+- features:
+    gender: masculine
+    number: singular
+  expected: такъв
+- features:
+    gender: neuter
+    number: singular
+  expected: такое
+- features:
+    number: plural
+  expected: такива
+---
+lemma: твой
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: твоя
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: твой
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: твое
+- features:
+    case: nominative
+    number: plural
+  expected: твои
+---
+lemma: твоят
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: твоята
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: твоето
+- features:
+    gender: neuter
+    number: singular
+    person: second
+  expected: твоето
+- features:
+    number: plural
+    person: second
+  expected: твоите
+---
+lemma: те
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: тях
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: им
+- features:
+    number: plural
+    person: third
+  expected: те
+---
+lemma: техен
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: тёхен
+- features:
+    case: nominative
+    number: plural
+  expected: техни
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: техен
+- features:
+    number: plural
+    person: third
+  expected: техни
+---
+lemma: ти
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: тебе
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: ти
+- features:
+    number: singular
+    person: second
+  expected: тЙ
+---
+lemma: то
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+    person: third
+  expected: него
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+    person: third
+  expected: му
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: tÓ
+---
+lemma: този
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: тази
+- features:
+    gender: masculine
+    number: singular
+  expected: този
+- features:
+    gender: neuter
+    number: singular
+  expected: това
+- features:
+    number: plural
+  expected: тези
+---
+lemma: той
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: него
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+    person: third
+  expected: му
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: тОЙ
+---
+lemma: три
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+  expected: трите
+---
+lemma: триста
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+  expected: тристата
+---
+lemma: тя
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: нея
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+    person: third
+  expected: й
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: тЯ
+---
+lemma: хиляда
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+  expected: хилядата
+---
+lemma: чий
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: чия
+- features:
+    gender: masculine
+    number: singular
+  expected: чий
+- features:
+    gender: neuter
+    number: singular
+  expected: чиё
+- features:
+    number: plural
+  expected: чий
