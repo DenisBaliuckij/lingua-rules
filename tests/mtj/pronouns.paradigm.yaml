@@ -1,0 +1,150 @@
+lemma: di-esisok
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: y-esisok
+- features:
+    number: dual
+    person: second
+  expected: y-esisok
+- features:
+    number: dual
+    person: third
+  expected: y-esisok
+- features:
+    number: plural
+    person: first
+  expected: mi-esisok
+- features:
+    number: plural
+    person: second
+  expected: yi-esisok
+- features:
+    number: plural
+    person: third
+  expected: i-esisok
+- features:
+    number: singular
+    person: first
+  expected: di-esisok
+- features:
+    number: singular
+    person: second
+  expected: bi-esisok
+- features:
+    number: singular
+    person: third
+  expected: ø-esisok
+---
+lemma: dif
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: yef
+- features:
+    number: dual
+    person: second
+  expected: yoga
+- features:
+    number: dual
+    person: third
+  expected: ergog
+- features:
+    number: plural
+    person: first
+  expected: mif
+- features:
+    number: plural
+    person: second
+  expected: yua
+- features:
+    number: plural
+    person: third
+  expected: eri
+- features:
+    number: singular
+    person: first
+  expected: dif
+- features:
+    number: singular
+    person: second
+  expected: bua
+- features:
+    number: singular
+    person: third
+  expected: ofa
+---
+lemma: difaha
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: yefaha
+- features:
+    number: dual
+    person: second
+  expected: yogaha
+- features:
+    number: dual
+    person: third
+  expected: ergaha
+- features:
+    number: plural
+    person: first
+  expected: mifaha
+- features:
+    number: plural
+    person: second
+  expected: yuaha
+- features:
+    number: plural
+    person: third
+  expected: eriaha
+- features:
+    number: singular
+    person: first
+  expected: difaha
+- features:
+    number: singular
+    person: second
+  expected: buaha
+- features:
+    number: singular
+    person: third
+  expected: ofaha
+---
+lemma: esisok
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: yesisok
+- features:
+    number: plural
+    person: first
+  expected: miesisok
+- features:
+    number: plural
+    person: second
+  expected: yiesisok
+- features:
+    number: plural
+    person: third
+  expected: iesisok
+- features:
+    number: singular
+    person: first
+  expected: diesisok
+- features:
+    number: singular
+    person: second
+  expected: biesisok
+- features:
+    number: singular
+    person: third
+  expected: øesisok

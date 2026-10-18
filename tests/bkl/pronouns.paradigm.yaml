@@ -1,0 +1,27 @@
+lemma: ai
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ne
+- features:
+    number: plural
+    person: second
+  expected: i + verb plural marking
+- features:
+    number: plural
+    person: third
+  expected: je + verb plural marking
+- features:
+    number: singular
+    person: first
+  expected: a
+- features:
+    number: singular
+    person: second
+  expected: i + verb plural marking
+- features:
+    number: singular
+    person: third
+  expected: je

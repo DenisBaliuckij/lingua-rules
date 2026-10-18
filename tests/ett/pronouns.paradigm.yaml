@@ -1,0 +1,160 @@
+lemma: ca
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: cn
+- features:
+    case: nominative
+    number: singular
+  expected: ca
+---
+lemma: eca
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: ecn
+- features:
+    case: accusative
+    number: singular
+  expected: ecn
+- features:
+    case: genitive
+    number: singular
+  expected: ecs
+- features:
+    case: nominative
+  expected: eca
+- features:
+    case: nominative
+    number: singular
+  expected: eca
+---
+lemma: eta
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: etan
+- features:
+    case: accusative
+    number: singular
+  expected: etan
+- features:
+    case: nominative
+  expected: eta
+- features:
+    case: nominative
+    number: singular
+  expected: eta
+---
+lemma: ica
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: ican
+- features:
+    case: genitive
+    number: singular
+  expected: i cas
+- features:
+    case: nominative
+    number: singular
+  expected: ica
+---
+lemma: ika
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: ikan
+- features:
+    case: nominative
+  expected: ika
+---
+lemma: ipa
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: inpa
+- features:
+    case: genitive
+    number: singular
+  expected: ipas
+- features:
+    case: locative
+    number: singular
+  expected: ipei
+- features:
+    case: nominative
+    number: singular
+  expected: ipa
+---
+lemma: ita
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: itan
+- features:
+    case: accusative
+    number: singular
+  expected: itan
+- features:
+    case: genitive
+    number: singular
+  expected: i tas
+- features:
+    case: nominative
+  expected: ita
+- features:
+    case: nominative
+    number: singular
+  expected: ita
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: mini
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: mi
+---
+lemma: ta
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+  expected: ta
+---
+lemma: una
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: un
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: une
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: una

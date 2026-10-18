@@ -1,0 +1,71 @@
+lemma: ai
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: ai-ah-afani-mbo
+- features:
+    number: plural
+    person: third
+  expected: ai-ah-umu-mbo
+- features:
+    number: singular
+    person: third
+  expected: ai-ah--afu-mbo
+---
+lemma: si
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: si-h-afani-mbo
+- features:
+    number: plural
+    person: first
+  expected: si-h-umu-mbo
+- features:
+    number: singular
+    person: first
+  expected: si-h-afu-mbo
+---
+lemma: yo
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: yo-hw-ehi-mbo
+- features:
+    number: dual
+    person: second
+  expected: si-h-ehi-mbo
+- features:
+    number: dual
+    person: third
+  expected: ai-ah-efi-mbo
+- features:
+    number: plural
+    person: first
+  expected: yo-hw-efu-mbo
+- features:
+    number: plural
+    person: second
+  expected: si-h-efu-mbo
+- features:
+    number: plural
+    person: third
+  expected: ai-ah-ei-mbo
+- features:
+    number: singular
+    person: first
+  expected: yo--Ø-a-mbo
+- features:
+    number: singular
+    person: second
+  expected: si
+- features:
+    number: singular
+    person: third
+  expected: ai

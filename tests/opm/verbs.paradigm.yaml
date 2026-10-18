@@ -1,0 +1,150 @@
+lemma: pt
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    evidentiality: direct
+    mood: indicative
+    number: plural
+    tense: past
+  expected: ptigwel
+- features:
+    aspect: imperfective
+    evidentiality: direct
+    mood: indicative
+    number: singular
+    tense: past
+  expected: patgwel
+- features:
+    number: plural
+  expected: ptigopa
+- features:
+    number: singular
+  expected: patgop
+---
+lemma: su
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    evidentiality: indirect
+    number: plural
+    tense: past
+  expected: sunipti
+- features:
+    aspect: habitual
+    evidentiality: indirect
+    number: singular
+    tense: past
+  expected: sunipat
+- features:
+    aspect: habitual
+    number: plural
+    tense: past
+  expected: susxe
+- features:
+    aspect: habitual
+    number: singular
+    tense: past
+  expected: susux
+- features:
+    aspect: imperfective
+    evidentiality: direct
+    number: plural
+    tense: past
+  expected: sunuŋ
+- features:
+    aspect: imperfective
+    evidentiality: direct
+    number: singular
+    tense: past
+  expected: sul
+- features:
+    aspect: imperfective
+    evidentiality: indirect
+    number: plural
+    tense: past
+  expected: suptigopa
+- features:
+    aspect: imperfective
+    evidentiality: indirect
+    number: singular
+    tense: past
+  expected: suptigwe
+- features:
+    aspect: imperfective
+    mood: imperative
+  expected: sun
+- features:
+    aspect: imperfective
+    number: plural
+    tense: future
+  expected: supli
+- features:
+    aspect: imperfective
+    number: plural
+    tense: present
+  expected: supti
+- features:
+    aspect: imperfective
+    number: singular
+    tense: future
+  expected: supla
+- features:
+    aspect: imperfective
+    number: singular
+    tense: present
+  expected: supat
+- features:
+    aspect: perfective
+    evidentiality: direct
+    number: plural
+    tense: past
+  expected: sutja
+- features:
+    aspect: perfective
+    evidentiality: direct
+    number: singular
+    tense: past
+  expected: sut
+- features:
+    aspect: perfective
+    evidentiality: direct
+    tense: past
+  expected: su-t-Ø
+- features:
+    aspect: perfective
+    evidentiality: indirect
+    number: plural
+    tense: past
+  expected: supatnuŋ
+- features:
+    aspect: perfective
+    evidentiality: indirect
+    number: singular
+    tense: past
+  expected: sungwe
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: sutin
+- features:
+    aspect: perfective
+    number: plural
+    tense: future
+  expected: sutipli
+- features:
+    aspect: perfective
+    number: plural
+    tense: present
+  expected: suja
+- features:
+    aspect: perfective
+    number: singular
+    tense: future
+  expected: sutiplox
+- features:
+    aspect: perfective
+    number: singular
+    tense: present
+  expected: su

@@ -1,0 +1,47 @@
+lemma: hem
+category: pronouns
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: nia
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nia
+---
+lemma: iu
+category: pronouns
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: oe
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: oe
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: nau
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nau

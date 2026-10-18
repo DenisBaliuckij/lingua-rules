@@ -1,0 +1,140 @@
+lemma: ma
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: mdbani
+- features:
+    number: plural
+    person: third
+  expected: mdkhoy
+- features:
+    number: singular
+    person: third
+  expected: ma
+---
+lemma: madu
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: masidagi
+- features:
+    case: genitive
+  expected: madugi
+- features:
+    case: instrumental
+  expected: msduna
+- features:
+    case: locative
+  expected: maduda
+---
+lemma: masi
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: masidagi
+- features:
+    case: genitive
+  expected: mosigi
+- features:
+    case: locative
+  expected: mssidd
+---
+lemma: nag
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: nabani
+- features:
+    number: dual
+    person: third
+  expected: mabani
+- features:
+    number: plural
+    person: first
+  expected: ibani
+- features:
+    number: plural
+    person: second
+  expected: nakhoy
+- features:
+    number: plural
+    person: third
+  expected: makhoy
+- features:
+    number: singular
+    person: first
+  expected: aykhoy
+- features:
+    number: singular
+    person: second
+  expected: nag
+- features:
+    number: singular
+    person: third
+  expected: ma
+---
+lemma: nang
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: nakhoidagi
+- features:
+    case: ablative
+    number: singular
+  expected: nangdagi
+- features:
+    case: accusative
+    number: plural
+  expected: nakhoiboo
+- features:
+    case: accusative
+    number: singular
+  expected: nangboo
+- features:
+    case: dative
+    number: plural
+  expected: nakhoida
+- features:
+    case: dative
+    number: singular
+  expected: nanganda
+- features:
+    case: genitive
+    number: plural
+  expected: nakhoigi
+- features:
+    case: genitive
+    number: singular
+  expected: nangi
+- features:
+    case: nominative
+    number: plural
+  expected: nakhoi
+- features:
+    case: nominative
+    number: singular
+  expected: nang
+---
+lemma: Φ
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ibani
+- features:
+    number: plural
+    person: first
+  expected: aykhoy
+- features:
+    number: singular
+    person: first
+  expected: Φ

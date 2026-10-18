@@ -1,0 +1,93 @@
+lemma: go
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: gut
+- features:
+    number: plural
+    person: second
+  expected: gul
+- features:
+    number: singular
+    person: second
+  expected: go
+---
+lemma: nox
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: go
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ux
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: go
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ox
+- features:
+    number: dual
+    person: first
+  expected: nuxut
+- features:
+    number: dual
+    person: second
+  expected: gut
+- features:
+    number: dual
+    person: third
+  expected: ixit
+- features:
+    number: plural
+    person: first
+  expected: nuxul
+- features:
+    number: plural
+    person: second
+  expected: gul
+- features:
+    number: plural
+    person: third
+  expected: ixil
+- features:
+    number: singular
+    person: first
+  expected: nox
+- features:
+    number: singular
+    person: second
+  expected: go
+---
+lemma: ox
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ux
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ox
+- features:
+    number: dual
+    person: third
+  expected: ixit
+- features:
+    number: plural
+    person: third
+  expected: ixil
