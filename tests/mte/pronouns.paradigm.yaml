@@ -1,0 +1,59 @@
+lemma: ma fa
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ma fa
+---
+lemma: ma i ta
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ma i ta
+---
+lemma: ma i to
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: ma i to
+---
+lemma: maang
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: maang
+---
+lemma: maha
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: maita
+- features:
+    number: plural
+    person: second
+  expected: man
+- features:
+    number: singular
+    person: first
+  expected: maha
+- features:
+    number: singular
+    person: second
+  expected: maito
+---
+lemma: man i
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: man i

@@ -1,0 +1,106 @@
+lemma: ya
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: nddmar
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: ndákuar
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ya
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: ka
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ya - akua
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ya - am
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: ka
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ya
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ka
+- features:
+    number: plural
+    person: first
+  expected: yaam
+- features:
+    number: plural
+    person: second
+  expected: ka-am
+- features:
+    number: plural
+    person: third
+  expected: a
+- features:
+    number: singular
+    person: first
+  expected: ya
+- features:
+    number: singular
+    person: second
+  expected: ka
+- features:
+    number: singular
+    person: third
+  expected: a
+---
+lemma: yá
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: ndámar
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: ndar
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: ndgkuar
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: tir
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: yá
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: ká

@@ -1,0 +1,83 @@
+lemma: bobo
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ta-bobo-ø
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: pa-bobo-ø
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ma-bobo-ø
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mi-bobo-ø
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ti-bobo-ø
+---
+lemma: mala
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ta-mala-ø
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: pa-mala-ø
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ma-mala-ø
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mi-mala-ø
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ti-mala-ø
+- features:
+    number: singular
+    person: third
+  expected: malao
+---
+lemma: mii
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ma-puø
+- features:
+    number: singular
+    person: third
+  expected: miiø

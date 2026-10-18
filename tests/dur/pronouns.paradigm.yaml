@@ -1,0 +1,70 @@
+lemma: kaè mïùnà
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+    tense: present
+  expected: kaè ban
+- features:
+    number: plural
+    person: first
+    tense: present
+  expected: kaè vóànà
+- features:
+    number: plural
+    person: second
+    tense: present
+  expected: kaè vïùnà
+- features:
+    number: plural
+    person: third
+    tense: present
+  expected: kaè vún
+- features:
+    number: singular
+    person: first
+    tense: present
+  expected: kaè mïùnà
+- features:
+    number: singular
+    person: second
+    tense: present
+  expected: kaè móànà
+- features:
+    number: singular
+    person: third
+    tense: present
+  expected: kaènè
+---
+lemma: mïù
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ba
+- features:
+    number: plural
+    person: first
+  expected: ba...vïù
+- features:
+    number: plural
+    person: second
+  expected: vïù
+- features:
+    number: plural
+    person: third
+  expected: vú
+- features:
+    number: singular
+    person: first
+  expected: mïù
+- features:
+    number: singular
+    person: second
+  expected: móà
+- features:
+    number: singular
+    person: third
+  expected: ø

@@ -1,0 +1,246 @@
+lemma: ?aywi
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: ?apat
+- features:
+    case: accusative
+  expected: ?ayway
+- features:
+    case: allative
+  expected: ?api
+- features:
+    case: locative
+  expected: ?ap
+- features:
+    number: dual
+  expected: ?aywas
+- features:
+    number: plural
+  expected: ?aywat
+- features:
+    number: singular
+  expected: ?aywi
+---
+lemma: im
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: im
+- features:
+    person: second
+  expected: qam
+---
+lemma: in
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: in
+- features:
+    person: first
+  expected: qan
+---
+lemma: ina
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ki?ms
+- features:
+    number: plural
+    person: first
+  expected: ki?mt
+- features:
+    number: singular
+    person: first
+  expected: ina
+---
+lemma: ina?wak
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kina?ms
+- features:
+    number: plural
+    person: first
+  expected: kina?mt
+- features:
+    number: singular
+    person: first
+  expected: ina?wak
+---
+lemma: kina?wan
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: kina?ms
+- features:
+    number: plural
+    person: second
+  expected: kina?mt
+- features:
+    number: singular
+    person: second
+  expected: kina?wan
+---
+lemma: ni:p
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: ni?ms
+- features:
+    number: plural
+    person: third
+  expected: ni?mt
+- features:
+    number: singular
+    person: third
+  expected: ni:p
+---
+lemma: ni:pa?way
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: ni:pa?ms
+- features:
+    number: plural
+    person: third
+  expected: ni:pa?mt
+- features:
+    number: singular
+    person: third
+  expected: ni:pa?way
+---
+lemma: ni:wi
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: ni:wat
+- features:
+    case: absolutive
+  expected: niw?
+- features:
+    case: accusative
+  expected: ni:wa
+- features:
+    case: allative
+  expected: ni:wampi
+- features:
+    case: genitive
+  expected: ni:wam
+- features:
+    case: instrumental
+  expected: nimpk
+- features:
+    case: locative
+  expected: ni:wamp
+- features:
+    number: dual
+  expected: ni:was
+- features:
+    number: plural
+  expected: ni:wat
+- features:
+    number: singular
+  expected: ni:wi
+---
+lemma: nu:wi
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: nu:wat
+- features:
+    case: absolutive
+  expected: nuw?
+- features:
+    case: accusative
+  expected: nu:wa
+- features:
+    case: allative
+  expected: numpi
+- features:
+    case: instrumental
+  expected: numpk
+- features:
+    case: locative
+  expected: nu:wamp
+- features:
+    number: dual
+  expected: nu:was
+- features:
+    number: plural
+  expected: nu:wat
+- features:
+    number: singular
+  expected: nu:wi
+---
+lemma: nuqu:wi
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: nuqu:wa
+- features:
+    number: plural
+  expected: nuqu:wat
+- features:
+    number: singular
+  expected: nuqu:wi
+---
+lemma: pin
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: pin
+- features:
+    person: third
+  expected: qan
+---
+lemma: qa:wi
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: qa:wat
+- features:
+    case: absolutive
+  expected: qaw?
+- features:
+    case: accusative
+  expected: qa:wa
+- features:
+    case: allative
+  expected: qa:wampi
+- features:
+    case: genitive
+  expected: qa:wam
+- features:
+    case: locative
+  expected: qa:wamp
+- features:
+    number: dual
+  expected: qa:was
+- features:
+    number: plural
+  expected: qa:wat
+- features:
+    number: singular
+  expected: qa:wi

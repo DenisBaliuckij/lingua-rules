@@ -1,0 +1,280 @@
+lemma: el mi
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: las mis
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: la mi
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: los mis
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: el mi
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: el tu
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: el su
+---
+lemma: el nuestru
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: las nuestras
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: las vuestras
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: la nuestra
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: la vuestra
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: los nuestrus
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: los vuestrus
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: el nuestru
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: el vuestru
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: el su
+---
+lemma: me
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+    person: third
+  expected: les
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: la
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+    person: third
+  expected: los
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: lu
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nus
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: vus
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: me
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: te
+- features:
+    case: accusative
+    number: singular
+    person: third
+    voice: reflexive
+  expected: se
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: nus
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: vus
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: lis
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: mi
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: ti
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: li
+- features:
+    case: dative
+    number: singular
+    person: third
+    voice: reflexive
+  expected: si
+---
+lemma: míu
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: mías
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: tuyas
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: suyas
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: mía
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: tuya
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: suya
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: míus
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: tuyus
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: suyus
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: míu
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: tuyu
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: suyu
+---
+lemma: nuestru
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: nuestras
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: vuestras
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: nuestra
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: vuestra
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: nuestrus
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: vuestrus
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: nuestru
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: vuestru

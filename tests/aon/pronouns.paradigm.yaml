@@ -1,0 +1,59 @@
+lemma: ei nenjuda
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ei nenjuda
+---
+lemma: eijuda
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: apakuda
+- features:
+    number: plural
+    person: second
+  expected: ipakuda
+- features:
+    number: singular
+    person: first
+  expected: eijuda
+---
+lemma: eik ejiuda
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: awhok ejiuda
+- features:
+    number: plural
+    person: first
+  expected: apak ejiuda
+- features:
+    number: singular
+    person: first
+  expected: eik ejiuda
+---
+lemma: jfiak ejiuda
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ipak ejiuda
+- features:
+    number: singular
+    person: second
+  expected: jfiak ejiuda
+---
+lemma: jie jieijtuda
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: jie jieijtuda

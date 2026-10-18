@@ -1,0 +1,195 @@
+lemma: be
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: been
+- features:
+    aspect: progressive
+    verb_form: participle
+  expected: being
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: are
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: were
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: are
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: are
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: was
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: am
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: are
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: is
+- features:
+    number: plural
+    polarity: negative
+    tense: past
+  expected: weren’t
+- features:
+    number: plural
+    polarity: negative
+    tense: present
+  expected: aren’t
+- features:
+    number: plural
+    tense: past
+  expected: were
+- features:
+    number: plural
+    tense: present
+  expected: are
+- features:
+    number: singular
+    polarity: negative
+    tense: past
+  expected: wasn’t
+- features:
+    number: singular
+    polarity: negative
+    tense: present
+  expected: isn’t
+- features:
+    number: singular
+    tense: past
+  expected: was
+- features:
+    number: singular
+    tense: present
+  expected: am
+- features:
+    verb_form: infinitive
+  expected: be
+---
+lemma: have
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: had
+- features:
+    aspect: progressive
+    verb_form: participle
+  expected: having
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: had
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: has
+- features:
+    number: singular
+    polarity: negative
+    tense: past
+  expected: hadn’t
+- features:
+    number: singular
+    polarity: negative
+    tense: present
+  expected: haven’t
+- features:
+    number: singular
+    tense: past
+  expected: had
+- features:
+    number: singular
+    tense: present
+  expected: have
+- features:
+    verb_form: infinitive
+  expected: have
+---
+lemma: lift
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: lifted
+- features:
+    aspect: progressive
+    verb_form: participle
+  expected: lifting
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: lifted
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: lifts
+- features:
+    verb_form: infinitive
+  expected: lift
+---
+lemma: take
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: taken
+- features:
+    aspect: progressive
+    verb_form: participle
+  expected: taking
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: takes
+- features:
+    tense: present
+    voice: active
+  expected: take
+- features:
+    verb_form: infinitive
+  expected: take

@@ -1,0 +1,48 @@
+lemma: ghi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: italua
+- features:
+    number: dual
+    person: second
+  expected: imalua
+- features:
+    number: dual
+    person: third
+  expected: irarua
+- features:
+    number: plural
+    person: first
+  expected: ita
+- features:
+    number: plural
+    person: second
+  expected: imim
+- features:
+    number: plural
+    person: third
+  expected: ira
+- features:
+    number: singular
+    person: first
+  expected: ghi
+- features:
+    number: singular
+    person: second
+  expected: m
+- features:
+    number: singular
+    person: third
+  expected: na
+- features:
+    person: first
+  expected: itatolu
+- features:
+    person: second
+  expected: imatolu
+- features:
+    person: third
+  expected: iratolu

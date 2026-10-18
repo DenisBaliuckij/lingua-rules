@@ -1,0 +1,115 @@
+lemma: ni
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: la
+- features:
+    number: dual
+    person: first
+  expected: kanat
+- features:
+    number: dual
+    person: second
+  expected: nal]at
+- features:
+    number: dual
+    person: third
+  expected: tUl]at
+- features:
+    number: plural
+    person: first
+  expected: ila
+- features:
+    number: plural
+    person: second
+  expected: mil]khala
+- features:
+    number: plural
+    person: third
+  expected: tUl]khala
+- features:
+    number: singular
+    person: first
+  expected: ni
+- features:
+    number: singular
+    person: second
+  expected: nal]
+- features:
+    number: singular
+    person: third
+  expected: pa
+---
+lemma: nı
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: inŜt
+- features:
+    number: dual
+    person: second
+  expected: nŜ̾Ŝt
+- features:
+    number: dual
+    person: third
+  expected: panŜt
+- features:
+    number: plural
+    person: first
+  expected: ı sa
+- features:
+    number: plural
+    person: second
+  expected: nŜ̾ la
+- features:
+    number: plural
+    person: third
+  expected: tú̾la
+- features:
+    number: singular
+    person: first
+  expected: nı
+- features:
+    number: singular
+    person: second
+  expected: nà̾
+- features:
+    number: singular
+    person: third
+  expected: pa
+---
+lemma: pa
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: panunge
+- features:
+    case: accusative
+  expected: padak
+- features:
+    case: allative
+  expected: padang
+- features:
+    case: comitative
+  expected: paden
+- features:
+    case: dative
+  expected: panvm
+- features:
+    case: genitive
+  expected: pa
+- features:
+    case: instrumental
+  expected: paa
+- features:
+    case: locative
+  expected: panung
+- features:
+    case: nominative
+  expected: pae

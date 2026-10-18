@@ -1,0 +1,23 @@
+lemma: tadasi
+category: adjectives
+cases:
+- features:
+    verb_form: converb
+  expected: tadasiku
+- features:
+    verb_form: participle
+  expected: tadasiki
+---
+lemma: taka
+category: adjectives
+cases:
+- features:
+    mood: indicative
+    tense: present
+  expected: takasi
+- features:
+    verb_form: converb
+  expected: takaku
+- features:
+    verb_form: participle
+  expected: takaki
