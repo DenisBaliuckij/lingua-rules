@@ -1,0 +1,25 @@
+lemma: he
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: henani
+- features:
+    number: singular
+  expected: he
+---
+lemma: indi
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: nkindi
+- features:
+    number: singular
+    person: second
+  expected: ayindi
+- features:
+    number: singular
+    person: third
+  expected: indi

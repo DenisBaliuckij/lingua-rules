@@ -1,0 +1,27 @@
+lemma: hte
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: hte
+---
+lemma: ngwa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: raw ngwa-nu
+- features:
+    number: plural
+    person: second
+  expected: nuwa
+- features:
+    number: plural
+    person: third
+  expected: yi'wa
+- features:
+    number: singular
+    person: first
+  expected: ngwa

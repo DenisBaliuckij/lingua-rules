@@ -1,0 +1,35 @@
+lemma: kamareqa
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: kamaroqa
+---
+lemma: kamiliqa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kamiliqa
+- features:
+    number: plural
+    person: second
+  expected: kamuluqa
+---
+lemma: nau
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: nau
+- features:
+    number: singular
+    person: second
+  expected: qoe
+- features:
+    number: singular
+    person: third
+  expected: nia

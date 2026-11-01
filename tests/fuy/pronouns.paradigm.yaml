@@ -1,0 +1,39 @@
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: da
+- features:
+    number: dual
+    person: second
+  expected: ya
+- features:
+    number: dual
+    person: third
+  expected: tu
+- features:
+    number: plural
+    person: first
+  expected: di
+- features:
+    number: plural
+    person: second
+  expected: yi
+- features:
+    number: plural
+    person: third
+  expected: mu
+- features:
+    number: singular
+    person: first
+  expected: na
+- features:
+    number: singular
+    person: second
+  expected: nu
+- features:
+    number: singular
+    person: third
+  expected: hu

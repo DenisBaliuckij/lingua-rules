@@ -1,0 +1,39 @@
+lemma: gra
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ta’agrá
+- features:
+    number: dual
+    person: second
+  expected: tänägrá
+- features:
+    number: dual
+    person: third
+  expected: yänägrá
+- features:
+    number: plural
+    person: first
+  expected: tagrá
+- features:
+    number: plural
+    person: second
+  expected: tämägrá
+- features:
+    number: plural
+    person: third
+  expected: yämägrá
+- features:
+    number: singular
+    person: first
+  expected: nägrá
+- features:
+    number: singular
+    person: second
+  expected: kägrá
+- features:
+    number: singular
+    person: third
+  expected: ägrá

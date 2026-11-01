@@ -1,0 +1,39 @@
+lemma: p
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: p
+- features:
+    number: singular
+    person: third
+  expected: p
+---
+lemma: ŋ
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: ŋ
+---
+lemma: ɲ
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ɲp
+- features:
+    number: plural
+    person: third
+  expected: p
+- features:
+    number: singular
+    person: first
+  expected: ɲ
+- features:
+    number: singular
+    person: third
+  expected: p

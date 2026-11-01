@@ -1,0 +1,41 @@
+lemma: ngana
+category: pronouns
+cases:
+- features:
+    case: ergative
+  expected: nganangu
+- features:
+    case: genitive
+  expected: nganagu
+- features:
+    case: locative
+  expected: ngananga
+- features:
+    case: nominative
+  expected: ngana
+---
+lemma: nganha
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: nganha
+- features:
+    case: comitative
+  expected: nganhadinga
+- features:
+    case: dative
+  expected: nganha
+- features:
+    case: ergative
+  expected: ngadhu
+- features:
+    case: locative
+  expected: nganhanga
+- features:
+    case: nominative
+  expected: nganha
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ngadyu

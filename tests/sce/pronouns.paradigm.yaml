@@ -1,0 +1,69 @@
+lemma: bi
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: bi
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: mini
+---
+lemma: bidien
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: bidien
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: bidien
+---
+lemma: chi
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: chi
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: cha
+---
+lemma: matang
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: matang
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: matang
+---
+lemma: ta
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: ta
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: tan

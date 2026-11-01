@@ -1,0 +1,39 @@
+lemma: oo
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ooteempesing
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: oosiiresing
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: oosiiresing
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ooteempiring
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: oosiiring
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: oosiiaing

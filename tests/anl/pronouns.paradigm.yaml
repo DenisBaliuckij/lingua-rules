@@ -1,0 +1,47 @@
+lemma: aŋ˧
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: aŋ˧ sʰiŋ˥
+- features:
+    number: plural
+    person: first
+  expected: i˥
+- features:
+    number: singular
+    person: first
+  expected: aŋ˧
+---
+lemma: mi˧
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: mi˥-ja˦˨
+- features:
+    number: plural
+    person: third
+  expected: mi˥-va˦˨
+- features:
+    number: singular
+    person: third
+  expected: mi˧
+---
+lemma: ən˦˨
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: ən˧ sʰiŋ˥
+- features:
+    number: plural
+    person: second
+  expected: ənni˥
+- features:
+    number: singular
+    person: second
+  expected: ən˦˨

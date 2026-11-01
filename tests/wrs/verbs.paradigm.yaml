@@ -1,0 +1,33 @@
+lemma: vev
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+    tense: present
+  expected: vewolv
+- features:
+    number: dual
+    person: second
+    tense: present
+  expected: e-ve-wol-v
+- features:
+    number: dual
+    person: third
+    tense: present
+  expected: vewulv
+- features:
+    number: singular
+    person: first
+    tense: present
+  expected: vev
+- features:
+    number: singular
+    person: second
+    tense: present
+  expected: e-ve-v
+- features:
+    number: singular
+    person: third
+    tense: present
+  expected: viv

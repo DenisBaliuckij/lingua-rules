@@ -1,0 +1,36 @@
+lemma: wan
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: singular
+    person: third
+  expected: tey
+- features:
+    number: dual
+    person: first
+  expected: nan
+- features:
+    number: dual
+    person: second
+  expected: an
+- features:
+    number: plural
+    person: first
+  expected: nom
+- features:
+    number: plural
+    person: second
+  expected: om
+- features:
+    number: singular
+    person: first
+  expected: wan
+- features:
+    number: singular
+    person: second
+  expected: yen
+- features:
+    number: singular
+    person: third
+  expected: rey

@@ -1,0 +1,51 @@
+lemma: aʔ
+category: pronouns
+cases:
+- features:
+    formality: informal
+    number: plural
+    person: second
+  expected: mu aʔ
+- features:
+    formality: informal
+    number: singular
+    person: second
+  expected: aʔ
+---
+lemma: maʔ
+category: pronouns
+cases:
+- features:
+    formality: formal
+    number: plural
+    person: second
+  expected: mu maʔ
+- features:
+    formality: formal
+    number: singular
+    person: second
+  expected: maʔ
+---
+lemma: uj tʰɔ
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: mu tʰɔ
+- features:
+    number: singular
+    person: third
+  expected: uj tʰɔ
+---
+lemma: ʔaj
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mu ʔɛ
+- features:
+    number: singular
+    person: first
+  expected: ʔaj

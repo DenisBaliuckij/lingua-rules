@@ -1,0 +1,39 @@
+lemma: kei
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kei:-nih
+- features:
+    number: dual
+    person: second
+  expected: na:ng-nih
+- features:
+    number: dual
+    person: third
+  expected: ah-nih-nih
+- features:
+    number: plural
+    person: first
+  expected: kei:-nih-e
+- features:
+    number: plural
+    person: second
+  expected: na:ng-nih-e
+- features:
+    number: plural
+    person: third
+  expected: ah-nih-nih-e
+- features:
+    number: singular
+    person: first
+  expected: kei
+- features:
+    number: singular
+    person: second
+  expected: na:ng
+- features:
+    number: singular
+    person: third
+  expected: ah-nih

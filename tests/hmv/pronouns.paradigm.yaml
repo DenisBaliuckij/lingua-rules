@@ -1,0 +1,47 @@
+lemma: koj
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: mej
+- features:
+    number: singular
+    person: second
+  expected: koj
+---
+lemma: kuv
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: peb
+- features:
+    number: singular
+    person: first
+  expected: kuv
+---
+lemma: nws
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: ob tug
+- features:
+    number: plural
+    person: third
+  expected: lawv
+- features:
+    number: singular
+    person: third
+  expected: nws
+---
+lemma: yus
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: yus

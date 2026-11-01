@@ -1,0 +1,42 @@
+lemma: gəʔ
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: gəʔ
+---
+lemma: ih
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: gih
+- features:
+    number: singular
+    person: second
+  expected: ih
+---
+lemma: kɔw
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: gəməj
+- features:
+    number: singular
+    person: first
+  expected: kɔw
+---
+lemma: ɲu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: gəɲu
+- features:
+    number: singular
+    person: third
+  expected: ɲu
