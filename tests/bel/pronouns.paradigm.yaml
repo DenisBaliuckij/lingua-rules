@@ -1,0 +1,1208 @@
+lemma: moj
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: maju
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: mae
+- features:
+    case: accusative
+    number: plural
+  expected: nOM
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: maej
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: majmii
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: majmu
+- features:
+    case: dative
+    number: plural
+  expected: maim
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: maej
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: majhó
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: majhó
+- features:
+    case: genitive
+    number: plural
+  expected: maix
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: maej
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: maim
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: maim
+- features:
+    case: instrumental
+    number: plural
+  expected: maimi
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: maej
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: maim
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: maim
+- features:
+    case: locative
+    number: plural
+  expected: maix
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: maja
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: moj my
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: mae
+- features:
+    case: nominative
+    number: plural
+  expected: mae
+---
+lemma: xto
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: kahó
+- features:
+    case: dative
+    number: singular
+  expected: kamu
+- features:
+    case: genitive
+    number: singular
+  expected: kahó
+- features:
+    case: instrumental
+    number: singular
+  expected: kim
+- features:
+    case: locative
+    number: singular
+  expected: kim
+- features:
+    case: nominative
+    number: singular
+  expected: xto 'who
+---
+lemma: što
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: што
+- features:
+    case: dative
+    number: singular
+  expected: čamu
+- features:
+    case: genitive
+    number: singular
+  expected: čaho
+- features:
+    case: instrumental
+    number: singular
+  expected: cym
+- features:
+    case: locative
+    number: singular
+  expected: čym
+- features:
+    case: nominative
+    number: singular
+  expected: što 'what
+---
+lemma: ваш
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: вашу
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: ваш
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: ваша
+- features:
+    case: accusative
+    number: plural
+  expected: вашы
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: вашай
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: вашаму
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: вашаму
+- features:
+    case: dative
+    number: plural
+  expected: вашым
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: вашай
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: вашага
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: вашага
+- features:
+    case: genitive
+    number: plural
+  expected: вашых
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: вашай
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: вашым
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: вашаму
+- features:
+    case: instrumental
+    number: plural
+  expected: вашымі
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: ваша
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: ваш
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: ваша
+- features:
+    case: nominative
+    number: plural
+  expected: вашы
+- features:
+    case: prepositional
+    gender: feminine
+    number: singular
+  expected: аб вашай
+- features:
+    case: prepositional
+    gender: masculine
+    number: singular
+  expected: аб вашым
+- features:
+    case: prepositional
+    gender: neuter
+    number: singular
+  expected: аб вашым
+- features:
+    case: prepositional
+    number: plural
+  expected: аб вашых
+---
+lemma: мой
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: маю
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: мой
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: маё
+- features:
+    case: accusative
+    number: plural
+  expected: мае
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: маёй
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: майму
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: майму
+- features:
+    case: dative
+    number: plural
+  expected: маім
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: маёй
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: майго
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: майго
+- features:
+    case: genitive
+    number: plural
+  expected: маіх
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: маёй
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: маім
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: маім
+- features:
+    case: instrumental
+    number: plural
+  expected: маімі
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: маёй
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: ма!м
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: ма!м
+- features:
+    case: locative
+    number: plural
+  expected: maix
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: мая
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: мой
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: маё
+- features:
+    case: nominative
+    number: plural
+  expected: мае
+- features:
+    case: prepositional
+    gender: feminine
+    number: singular
+  expected: аб маёй
+- features:
+    case: prepositional
+    gender: masculine
+    number: singular
+  expected: аб маім
+- features:
+    case: prepositional
+    gender: neuter
+    number: singular
+  expected: аб маім
+- features:
+    case: prepositional
+    number: plural
+  expected: аб маіх
+---
+lemma: наш
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: нашу
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: наш
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: наша
+- features:
+    case: accusative
+    number: plural
+  expected: нашы
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: нашай
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: нашаму
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: нашаму
+- features:
+    case: dative
+    number: plural
+  expected: нашым
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: нашай
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: нашага
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: нашага
+- features:
+    case: genitive
+    number: plural
+  expected: нашых
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: нашай
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: нашым
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: нашаму
+- features:
+    case: instrumental
+    number: plural
+  expected: нашымі
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: наша
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: наш
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: наша
+- features:
+    case: nominative
+    number: plural
+  expected: нашы
+- features:
+    case: prepositional
+    gender: feminine
+    number: singular
+  expected: аб нашай
+- features:
+    case: prepositional
+    gender: masculine
+    number: singular
+  expected: аб нашым
+- features:
+    case: prepositional
+    gender: neuter
+    number: singular
+  expected: аб нашым
+- features:
+    case: prepositional
+    number: plural
+  expected: аб нашых
+---
+lemma: свой
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: сваю
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: свой
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: сваё
+- features:
+    case: accusative
+    number: plural
+  expected: свае
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: сваёй
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: свайму
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: свайму
+- features:
+    case: dative
+    number: plural
+  expected: сваім
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: сваёй
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: свайго
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: свайго
+- features:
+    case: genitive
+    number: plural
+  expected: сваіх
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: сваёй
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: сваім
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: сваім
+- features:
+    case: instrumental
+    number: plural
+  expected: сваімі
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: свая
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: свой
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: сваё
+- features:
+    case: nominative
+    number: plural
+  expected: свае
+- features:
+    case: prepositional
+    gender: feminine
+    number: singular
+  expected: аб сваёй
+- features:
+    case: prepositional
+    gender: masculine
+    number: singular
+  expected: аб сваім
+- features:
+    case: prepositional
+    gender: neuter
+    number: singular
+  expected: аб сваім
+- features:
+    case: prepositional
+    number: plural
+  expected: аб сваіх
+---
+lemma: твой
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: тваю
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: твой
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: тваё
+- features:
+    case: accusative
+    number: plural
+  expected: твае
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: тваёй
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: твайму
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: твайму
+- features:
+    case: dative
+    number: plural
+  expected: тваім
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: тваёй
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: твайго
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: твайго
+- features:
+    case: genitive
+    number: plural
+  expected: тваіх
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: тваёй
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: тваім
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: тваім
+- features:
+    case: instrumental
+    number: plural
+  expected: тваімі
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: твая
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: твой
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: тваё
+- features:
+    case: nominative
+    number: plural
+  expected: твае
+- features:
+    case: prepositional
+    gender: feminine
+    number: singular
+  expected: аб тваёй
+- features:
+    case: prepositional
+    gender: masculine
+    number: singular
+  expected: аб тваім
+- features:
+    case: prepositional
+    gender: neuter
+    number: singular
+  expected: аб тваім
+- features:
+    case: prepositional
+    number: plural
+  expected: аб тваіх
+---
+lemma: хто
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: каго
+- features:
+    case: dative
+    number: singular
+  expected: каму
+- features:
+    case: genitive
+    number: singular
+  expected: каго
+- features:
+    case: instrumental
+    number: singular
+  expected: kiM
+- features:
+    case: locative
+    number: singular
+  expected: kiM
+- features:
+    case: nominative
+    number: singular
+  expected: хто 'who
+---
+lemma: чый
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: чыю
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: чый
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: чыё
+- features:
+    case: accusative
+    number: plural
+  expected: чые
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: чыёй
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: чыйму
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: чыйму
+- features:
+    case: dative
+    number: plural
+  expected: чыйм
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: чыёй
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: чыйго
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: чыйго
+- features:
+    case: genitive
+    number: plural
+  expected: чыіх
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: чыёй
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: чыйм
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: чыйм
+- features:
+    case: instrumental
+    number: plural
+  expected: чыімі
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: чыя
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: чый
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: чыё
+- features:
+    case: nominative
+    number: plural
+  expected: чые
+- features:
+    case: prepositional
+    gender: feminine
+    number: singular
+  expected: аб чыёй
+- features:
+    case: prepositional
+    gender: masculine
+    number: singular
+  expected: аб чыйм
+- features:
+    case: prepositional
+    gender: neuter
+    number: singular
+  expected: аб чыйм
+- features:
+    case: prepositional
+    number: plural
+  expected: аб чыіх
+---
+lemma: што
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: што
+- features:
+    case: dative
+    number: singular
+  expected: чаму
+- features:
+    case: genitive
+    number: singular
+  expected: чаго
+- features:
+    case: instrumental
+    number: singular
+  expected: чым
+- features:
+    case: locative
+    number: singular
+  expected: чым
+- features:
+    case: nominative
+    number: singular
+  expected: што 'what
+---
+lemma: я
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: яё
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: яго
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+    person: third
+  expected: яго
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: нас
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: вас
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: ix
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: мяне
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: цябё
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+    person: third
+  expected: ёй
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+    person: third
+  expected: яму
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+    person: third
+  expected: яму
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: нам
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: вам
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: iM
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: мне
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: табё
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+    person: third
+  expected: яё
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+    person: third
+  expected: яГО
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+    person: third
+  expected: яГО
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: нас
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: вас
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: ix
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: мяне
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: цябё
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+    person: third
+  expected: ёй
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+    person: third
+  expected: iM
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+    person: third
+  expected: iM
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: eaMi
+- features:
+    case: instrumental
+    number: plural
+    person: second
+  expected: iMi
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: мной
+- features:
+    case: instrumental
+    number: singular
+    person: second
+  expected: табой
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+    person: third
+  expected: ёй
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+    person: third
+  expected: iM
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+    person: third
+  expected: iM
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: нас
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: вас
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: ix
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: мне
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: табе
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: яна
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: ён
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+    person: third
+  expected: яно
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: мы
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: вы
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: яны
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: я
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ты

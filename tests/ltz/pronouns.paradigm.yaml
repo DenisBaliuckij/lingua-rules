@@ -1,0 +1,754 @@
+lemma: dat
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+  expected: dat
+- features:
+    case: dative
+    gender: neuter
+  expected: deem
+- features:
+    case: genitive
+    gender: neuter
+  expected: dees
+- features:
+    case: nominative
+    gender: neuter
+  expected: dat
+---
+lemma: daïn
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    possessor_number: singular
+    possessor_person: second
+  expected: daïn
+- features:
+    case: accusative
+    gender: neuter
+    possessor_number: singular
+    possessor_person: second
+  expected: daïn
+---
+lemma: deen
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+  expected: deen
+- features:
+    case: dative
+    gender: masculine
+  expected: deem
+- features:
+    case: genitive
+    gender: masculine
+  expected: dees
+- features:
+    case: nominative
+    gender: masculine
+  expected: deen
+---
+lemma: dengem
+category: pronouns
+cases:
+- features:
+    case: dative
+    gender: feminine
+    possessor_number: singular
+    possessor_person: second
+  expected: denger
+- features:
+    case: dative
+    gender: masculine
+    possessor_number: singular
+    possessor_person: second
+  expected: dengem
+- features:
+    case: dative
+    gender: neuter
+    possessor_number: singular
+    possessor_person: second
+  expected: dengem
+- features:
+    case: dative
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: dengen
+---
+lemma: du
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: iech
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: dech
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: iech
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: dir
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: ärer
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: denger
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: dir
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: du
+- features:
+    number: plural
+    person: second
+  expected: dir
+- features:
+    number: singular
+    person: second
+  expected: du
+---
+lemma: déi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+  expected: déi
+- features:
+    case: accusative
+    number: plural
+  expected: déi
+- features:
+    case: dative
+    gender: feminine
+  expected: däer
+- features:
+    case: dative
+    number: plural
+  expected: denen
+- features:
+    case: genitive
+    gender: feminine
+  expected: däer
+- features:
+    case: genitive
+    number: plural
+  expected: där
+- features:
+    case: nominative
+    gender: feminine
+  expected: déi
+- features:
+    case: nominative
+    number: plural
+  expected: déi
+---
+lemma: dës
+category: pronouns
+cases:
+- features:
+    gender: feminine
+  expected: däer
+- features:
+    gender: masculine
+  expected: dës
+- features:
+    gender: neuter
+  expected: daërs
+- features:
+    number: plural
+  expected: där
+---
+lemma: dësen
+category: pronouns
+cases:
+- features:
+    gender: feminine
+  expected: dës
+- features:
+    gender: masculine
+  expected: dësen
+- features:
+    gender: neuter
+  expected: dëst
+---
+lemma: ech
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: äis
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: mech
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: äis
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: mir
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: eiser
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: menger
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: mir
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ech
+- features:
+    number: plural
+    person: first
+  expected: mir
+- features:
+    number: singular
+    person: first
+  expected: ech
+---
+lemma: eisem
+category: pronouns
+cases:
+- features:
+    case: dative
+    gender: feminine
+    possessor_number: plural
+    possessor_person: first
+  expected: eiser
+- features:
+    case: dative
+    gender: masculine
+    possessor_number: plural
+    possessor_person: first
+  expected: eisem
+- features:
+    case: dative
+    gender: neuter
+    possessor_number: plural
+    possessor_person: first
+  expected: eisem
+- features:
+    case: dative
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: eisen
+---
+lemma: eisen
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    possessor_number: plural
+    possessor_person: first
+  expected: eis
+- features:
+    case: accusative
+    gender: masculine
+    possessor_number: plural
+    possessor_person: first
+  expected: eisen
+- features:
+    case: accusative
+    gender: neuter
+    possessor_number: plural
+    possessor_person: first
+  expected: eist
+- features:
+    case: accusative
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: eis
+---
+lemma: hatt
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+    person: third
+  expected: hatt
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+    person: third
+  expected: hatt
+---
+lemma: hien
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: hien
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+    person: third
+  expected: him
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+    person: third
+  expected: senger
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: hien
+---
+lemma: hirem
+category: pronouns
+cases:
+- features:
+    case: dative
+    gender: feminine
+    possessor_number: plural
+    possessor_person: third
+  expected: hierer
+- features:
+    case: dative
+    gender: feminine
+    possessor_number: singular
+    possessor_person: third
+  expected: hierer
+- features:
+    case: dative
+    gender: masculine
+    possessor_number: plural
+    possessor_person: third
+  expected: hirem
+- features:
+    case: dative
+    gender: masculine
+    possessor_number: singular
+    possessor_person: third
+  expected: hirem
+- features:
+    case: dative
+    gender: neuter
+    possessor_number: plural
+    possessor_person: third
+  expected: hirem
+- features:
+    case: dative
+    gender: neuter
+    possessor_number: singular
+    possessor_person: third
+  expected: hirem
+- features:
+    case: dative
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: hiren
+- features:
+    case: dative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: hiren
+---
+lemma: hiren
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    possessor_number: plural
+    possessor_person: third
+  expected: hir
+- features:
+    case: accusative
+    gender: feminine
+    possessor_number: singular
+    possessor_person: third
+  expected: hir
+- features:
+    case: accusative
+    gender: masculine
+    possessor_number: plural
+    possessor_person: third
+  expected: hiren
+- features:
+    case: accusative
+    gender: masculine
+    possessor_number: singular
+    possessor_person: third
+  expected: hiren
+- features:
+    case: accusative
+    gender: neuter
+    possessor_number: plural
+    possessor_person: third
+  expected: hiert
+- features:
+    case: accusative
+    gender: neuter
+    possessor_number: singular
+    possessor_person: third
+  expected: hiert
+- features:
+    case: accusative
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: hir
+- features:
+    case: accusative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: hir
+---
+lemma: maïn
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    possessor_number: singular
+    possessor_person: first
+  expected: maïn
+- features:
+    case: accusative
+    gender: neuter
+    possessor_number: singular
+    possessor_person: first
+  expected: maïn
+---
+lemma: mech
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: iech
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: sech
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: mech
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: dech
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: sech
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: iech
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: sech
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: sech
+---
+lemma: mengem
+category: pronouns
+cases:
+- features:
+    case: dative
+    gender: feminine
+    possessor_number: singular
+    possessor_person: first
+  expected: menger
+- features:
+    case: dative
+    gender: masculine
+    possessor_number: singular
+    possessor_person: first
+  expected: mengem
+- features:
+    case: dative
+    gender: neuter
+    possessor_number: singular
+    possessor_person: first
+  expected: mengem
+- features:
+    case: dative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: mengen
+---
+lemma: saïn
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    possessor_number: singular
+    possessor_person: third
+  expected: saïn
+- features:
+    case: accusative
+    gender: neuter
+    possessor_number: singular
+    possessor_person: third
+  expected: saïn
+---
+lemma: sech
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: sech
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: sech
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: sech
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: sech
+---
+lemma: sengem
+category: pronouns
+cases:
+- features:
+    case: dative
+    gender: feminine
+    possessor_number: singular
+    possessor_person: third
+  expected: senger
+- features:
+    case: dative
+    gender: masculine
+    possessor_number: singular
+    possessor_person: third
+  expected: sengem
+- features:
+    case: dative
+    gender: neuter
+    possessor_number: singular
+    possessor_person: third
+  expected: sengem
+- features:
+    case: dative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: sengen
+---
+lemma: si
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: si
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: si
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+    person: third
+  expected: hir
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: hinnen
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+    person: third
+  expected: hierer
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: hierer
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: si
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: si
+---
+lemma: wat
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: wat
+- features:
+    case: nominative
+  expected: wat
+---
+lemma: wellechen
+category: pronouns
+cases:
+- features:
+    case: dative
+  expected: wellechem
+- features:
+    case: dative
+    number: plural
+  expected: wellechen
+- features:
+    case: genitive
+  expected: welleches
+- features:
+    case: nominative
+  expected: wellechen
+- features:
+    case: nominative
+    number: plural
+  expected: wellech
+---
+lemma: wien
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: wien
+- features:
+    case: dative
+  expected: wiem
+- features:
+    case: nominative
+  expected: wien
+---
+lemma: ärem
+category: pronouns
+cases:
+- features:
+    case: dative
+    gender: feminine
+    possessor_number: plural
+    possessor_person: second
+  expected: ärer
+- features:
+    case: dative
+    gender: masculine
+    possessor_number: plural
+    possessor_person: second
+  expected: ärem
+- features:
+    case: dative
+    gender: neuter
+    possessor_number: plural
+    possessor_person: second
+  expected: ärem
+- features:
+    case: dative
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: ären
+---
+lemma: ären
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    possessor_number: plural
+    possessor_person: second
+  expected: är
+- features:
+    case: accusative
+    gender: masculine
+    possessor_number: plural
+    possessor_person: second
+  expected: ären
+- features:
+    case: accusative
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: är

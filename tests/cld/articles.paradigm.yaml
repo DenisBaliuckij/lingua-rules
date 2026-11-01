@@ -1,0 +1,79 @@
+lemma: bεth
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: bεθax
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: bεθa
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: bεθux
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: bεθe
+- features:
+    number: plural
+    person: first
+  expected: bεθan
+- features:
+    number: plural
+    person: second
+  expected: bεθóxun
+- features:
+    number: plural
+    person: third
+  expected: bεθέy
+- features:
+    number: singular
+    person: first
+  expected: bεθi
+---
+lemma: āl
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: ālax
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: āla
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: āluxe
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: āle
+- features:
+    number: plural
+    person: first
+  expected: ālan
+- features:
+    number: plural
+    person: second
+  expected: alóxun
+- features:
+    number: plural
+    person: third
+  expected: alέy
+- features:
+    number: singular
+    person: first
+  expected: āli

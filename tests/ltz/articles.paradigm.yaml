@@ -1,0 +1,252 @@
+lemma: den
+category: articles
+cases:
+- features:
+    case: accusative
+    gender: feminine
+  expected: d
+- features:
+    case: accusative
+    gender: masculine
+  expected: den
+- features:
+    case: accusative
+    gender: neuter
+  expected: d't
+- features:
+    case: accusative
+    number: plural
+  expected: d
+- features:
+    case: dative
+    gender: feminine
+  expected: der
+- features:
+    case: dative
+    gender: masculine
+  expected: dem
+- features:
+    case: dative
+    gender: neuter
+  expected: dem
+- features:
+    case: dative
+    number: plural
+  expected: den
+- features:
+    case: nominative
+    gender: feminine
+  expected: d
+- features:
+    case: nominative
+    gender: masculine
+  expected: den
+- features:
+    case: nominative
+    gender: neuter
+  expected: d't
+- features:
+    case: nominative
+    number: plural
+  expected: d
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: d
+- features:
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: den
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: d’t
+- features:
+    definiteness: definite
+    number: plural
+  expected: d
+---
+lemma: een
+category: articles
+cases:
+- features:
+    case: accusative
+    gender: feminine
+  expected: eng
+- features:
+    case: accusative
+    gender: masculine
+  expected: een
+- features:
+    case: accusative
+    gender: neuter
+  expected: een
+- features:
+    case: dative
+    gender: feminine
+  expected: enger
+- features:
+    case: dative
+    gender: masculine
+  expected: engem
+- features:
+    case: dative
+    gender: neuter
+  expected: engem
+- features:
+    case: genitive
+    gender: feminine
+  expected: enger
+- features:
+    case: genitive
+    gender: masculine
+  expected: enges
+- features:
+    case: genitive
+    gender: neuter
+  expected: enges
+- features:
+    case: nominative
+    gender: feminine
+  expected: eng
+- features:
+    case: nominative
+    gender: masculine
+  expected: een
+- features:
+    case: nominative
+    gender: neuter
+  expected: een
+---
+lemma: en
+category: articles
+cases:
+- features:
+    case: accusative
+    gender: feminine
+  expected: eng
+- features:
+    case: accusative
+    gender: masculine
+  expected: en
+- features:
+    case: accusative
+    gender: neuter
+  expected: en
+- features:
+    case: nominative
+    gender: feminine
+  expected: eng
+- features:
+    case: nominative
+    gender: masculine
+  expected: en
+- features:
+    case: nominative
+    gender: neuter
+  expected: en
+- features:
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+  expected: eng
+- features:
+    definiteness: indefinite
+    gender: masculine
+    number: singular
+  expected: en
+- features:
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: en
+---
+lemma: keen
+category: articles
+cases:
+- features:
+    case: accusative
+    gender: feminine
+  expected: keng
+- features:
+    case: accusative
+    gender: masculine
+  expected: keen
+- features:
+    case: accusative
+    gender: neuter
+  expected: keen
+- features:
+    case: accusative
+    number: plural
+  expected: keng
+- features:
+    case: dative
+    gender: feminine
+  expected: kenger
+- features:
+    case: dative
+    gender: masculine
+  expected: kengem
+- features:
+    case: dative
+    gender: neuter
+  expected: kengem
+- features:
+    case: dative
+    number: plural
+  expected: kengen
+- features:
+    case: genitive
+    gender: feminine
+  expected: kenger
+- features:
+    case: genitive
+    gender: masculine
+  expected: kenges
+- features:
+    case: genitive
+    gender: neuter
+  expected: kenges
+- features:
+    case: genitive
+    number: plural
+  expected: kenger
+- features:
+    case: nominative
+    gender: feminine
+  expected: keng
+- features:
+    case: nominative
+    gender: masculine
+  expected: keen
+- features:
+    case: nominative
+    gender: neuter
+  expected: keen
+- features:
+    case: nominative
+    number: plural
+  expected: keng
+- features:
+    gender: feminine
+    number: singular
+    polarity: negative
+  expected: keng
+- features:
+    gender: masculine
+    number: singular
+    polarity: negative
+  expected: keen
+- features:
+    gender: neuter
+    number: singular
+    polarity: negative
+  expected: keen
+- features:
+    number: plural
+    polarity: negative
+  expected: keng

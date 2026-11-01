@@ -1,0 +1,271 @@
+lemma: ce
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ce lo
+---
+lemma: ghe
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: ghe lo
+---
+lemma: me
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: me lo
+---
+lemma: mia
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nostra
+- features:
+    number: plural
+    person: second
+  expected: vostra
+- features:
+    number: plural
+    person: third
+  expected: sue
+- features:
+    number: singular
+    person: first
+  expected: mea
+- features:
+    number: singular
+    person: second
+  expected: tua
+- features:
+    number: singular
+    person: third
+  expected: sua
+---
+lemma: mie
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nostre
+- features:
+    number: plural
+    person: second
+  expected: vostre
+- features:
+    number: plural
+    person: third
+  expected: sue
+- features:
+    number: singular
+    person: first
+  expected: mie
+- features:
+    number: singular
+    person: second
+  expected: tue
+- features:
+    number: singular
+    person: third
+  expected: sue
+---
+lemma: mio
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: mie
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: tue
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: sue
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: mia
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: tua
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: sua
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: mii
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: tui
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: sui
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: mio
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: tuo
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: suo
+- features:
+    number: plural
+    person: first
+  expected: nostro
+- features:
+    number: plural
+    person: second
+  expected: vostro
+- features:
+    number: plural
+    person: third
+  expected: so
+- features:
+    number: singular
+    person: first
+  expected: me
+- features:
+    number: singular
+    person: second
+  expected: to
+- features:
+    number: singular
+    person: third
+  expected: so
+---
+lemma: mé
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nostro
+- features:
+    number: plural
+    person: second
+  expected: vostro
+- features:
+    number: plural
+    person: third
+  expected: só
+- features:
+    number: singular
+    person: first
+  expected: mé
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: mé
+- features:
+    number: singular
+    person: second
+  expected: tó
+- features:
+    number: singular
+    person: third
+  expected: só
+---
+lemma: nostro
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: nostro
+---
+lemma: se
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: se lo
+---
+lemma: só
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+    possessor_number: plural
+    possessor_person: third
+  expected: só
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: só
+---
+lemma: te
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: te lo
+---
+lemma: tó
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: tó
+---
+lemma: ve
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ve lo
+---
+lemma: vostro
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: vostro

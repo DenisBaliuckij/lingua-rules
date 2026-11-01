@@ -1,0 +1,1650 @@
+lemma: be
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: negative
+  expected: d.y
+- features:
+    mood: indicative
+    polarity: negative
+    tense: imperfect
+  expected: d.aacar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: d.aac
+---
+lemma: bring
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: negative
+  expected: d.ahw
+- features:
+    evidentiality: direct
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: d.ahwandzar
+- features:
+    evidentiality: indirect
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: d.ienad.aac
+- features:
+    mood: indicative
+    polarity: negative
+    tense: imperfect
+  expected: d.ahwacar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: d.ahwac
+---
+lemma: come
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: negative
+  expected: d.oagha
+- features:
+    evidentiality: direct
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: d.aandzar
+- features:
+    evidentiality: indirect
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: d.ienad.aac
+- features:
+    mood: indicative
+    polarity: negative
+    tense: imperfect
+  expected: d.aaghacar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: d.aaghac
+---
+lemma: d.ahw
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: d.ahw
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: d.ahwazh
+- features:
+    evidentiality: direct
+    mood: indicative
+    tense: past
+  expected: d.iera
+- features:
+    evidentiality: direct
+    number: singular
+    tense: past
+  expected: d.iera
+- features:
+    evidentiality: direct
+    tense: past
+    verb_form: converb
+  expected: d.iena
+- features:
+    number: singular
+    tense: present
+  expected: d.ahw
+- features:
+    verb_form: infinitive
+  expected: d.aa
+---
+lemma: d.eit
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    number: singular
+    tense: past
+  expected: d.eitar
+- features:
+    number: singular
+    tense: present
+  expected: d.eit
+- features:
+    verb_form: infinitive
+  expected: d.eita
+---
+lemma: d.iesh
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: desh
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: dieshazh
+- features:
+    verb_form: infinitive
+  expected: diesha
+---
+lemma: d.iett
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: dett
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: dettazh
+- features:
+    verb_form: infinitive
+  expected: detta
+---
+lemma: d.oagha
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: d.oagha
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: d.oaghazh
+- features:
+    evidentiality: direct
+    mood: indicative
+    tense: past
+  expected: d.iera
+- features:
+    evidentiality: direct
+    tense: past
+    verb_form: converb
+  expected: d.iena
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: d.oagha
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: d.oagha
+- features:
+    verb_form: infinitive
+  expected: d.aa
+---
+lemma: d.oal
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    number: plural
+    tense: past
+  expected: d.eilar
+- features:
+    evidentiality: direct
+    number: singular
+    tense: past
+  expected: d.ealar
+- features:
+    number: plural
+    tense: present
+  expected: d.oul
+- features:
+    number: plural
+    verb_form: converb
+  expected: d.oular
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: d.oul
+- features:
+    number: singular
+    tense: present
+  expected: d.oal
+- features:
+    number: singular
+    verb_form: converb
+  expected: d.aalar
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: d.oal
+- features:
+    verb_form: infinitive
+  expected: d.aala
+---
+lemma: d.oala-d.u
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    number: singular
+    tense: past
+  expected: d.oala-d.yr
+- features:
+    number: singular
+    tense: present
+  expected: d.oala-d.u
+- features:
+    verb_form: infinitive
+  expected: d.oala-d.ie
+---
+lemma: d.oall
+category: verbs
+cases:
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: d.oaxk
+- features:
+    number: singular
+    verb_form: converb
+  expected: d.aallar
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: d.oall
+---
+lemma: d.oaqq
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    number: singular
+    tense: past
+  expected: d.eaqqar
+- features:
+    number: plural
+    tense: present
+  expected: d.oax
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: d.oax
+- features:
+    number: singular
+    tense: present
+  expected: d.oaqq
+- features:
+    number: singular
+    verb_form: converb
+  expected: d.aaqqar
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: d.oaqq
+- features:
+    verb_form: infinitive
+  expected: d.aaqqa
+---
+lemma: d.od
+category: verbs
+cases:
+- features:
+    number: plural
+    verb_form: converb
+  expected: d.oudar
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: d.oud
+- features:
+    number: singular
+    verb_form: converb
+  expected: d.adar
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: d.od
+---
+lemma: d.oll
+category: verbs
+cases:
+- features:
+    number: plural
+    verb_form: converb
+  expected: d.oxkar
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: d.oxk
+- features:
+    number: singular
+    verb_form: converb
+  expected: d.ollar
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: d.oll
+---
+lemma: d.u
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: d.u
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: d.ezh
+- features:
+    evidentiality: direct
+    mood: indicative
+    tense: past
+  expected: d.yr
+- features:
+    evidentiality: direct
+    tense: past
+    verb_form: converb
+  expected: d.ea
+- features:
+    verb_form: infinitive
+  expected: d.ie
+---
+lemma: d.udzh
+category: verbs
+cases:
+- features:
+    number: plural
+    verb_form: converb
+  expected: d.uushar
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: d.uush
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: d.udzh
+---
+lemma: d.ug
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    number: singular
+    tense: past
+  expected: d.ygar
+- features:
+    number: singular
+    tense: present
+  expected: d.ug
+- features:
+    verb_form: infinitive
+  expected: d.yga
+---
+lemma: d.ull
+category: verbs
+cases:
+- features:
+    number: plural
+    verb_form: converb
+  expected: d.axkar
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: d.oxk
+- features:
+    number: singular
+    verb_form: converb
+  expected: d.yllar
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: d.ull
+---
+lemma: d.uoda
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: d.uoda
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: d.uodazh
+- features:
+    evidentiality: direct
+    mood: indicative
+    tense: past
+  expected: d.äxar
+- features:
+    evidentiality: direct
+    tense: past
+    verb_form: converb
+  expected: d.axaa
+- features:
+    verb_form: infinitive
+  expected: d.axa
+---
+lemma: d.uuc
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: duuc
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: duucazh
+- features:
+    verb_form: infinitive
+  expected: duuca
+---
+lemma: d.y
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: d.y
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: d.olazh
+- features:
+    aspect: progressive
+    polarity: affirmative
+    verb_form: converb
+  expected: d.olazh
+- features:
+    aspect: progressive
+    polarity: negative
+    verb_form: converb
+  expected: d.oacazh
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: d.ar
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: present
+  expected: d.y
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: d.aacar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: d.aac
+- features:
+    polarity: affirmative
+    verb_form: present_participle
+  expected: d.ola
+- features:
+    polarity: affirmative
+    verb_form: verbal_noun
+  expected: d.ar
+- features:
+    polarity: negative
+    verb_form: present_participle
+  expected: d.oaca
+---
+lemma: d.îeshar
+category: verbs
+cases:
+- features:
+    tense: imperfect
+  expected: d.îeshar
+- features:
+    tense: present
+    verb_form: converb
+  expected: d.ieshie
+---
+lemma: die
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: negative
+  expected: le
+- features:
+    evidentiality: direct
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: d.alandzar
+- features:
+    evidentiality: indirect
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: d.ännad.aac
+- features:
+    mood: indicative
+    polarity: negative
+    tense: imperfect
+  expected: lacar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: lac
+---
+lemma: do
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: negative
+  expected: d.u
+- features:
+    evidentiality: direct
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: d.yndzar
+- features:
+    evidentiality: indirect
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: d.ead.aac
+- features:
+    mood: indicative
+    polarity: negative
+    tense: imperfect
+  expected: d.ycar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: d.yc
+---
+lemma: eqq
+category: verbs
+cases:
+- features:
+    number: plural
+    verb_form: converb
+  expected: hwelxar
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: hwelx
+- features:
+    number: singular
+    verb_form: converb
+  expected: eqqar
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: eqq
+---
+lemma: give
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: negative
+  expected: lu
+- features:
+    evidentiality: direct
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: d.alandzar
+- features:
+    evidentiality: indirect
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: d.ännad.aac
+- features:
+    mood: indicative
+    polarity: negative
+    tense: imperfect
+  expected: lycar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: lyc
+---
+lemma: go
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: negative
+  expected: d.uoda
+- features:
+    evidentiality: direct
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: d.axandzar
+- features:
+    evidentiality: indirect
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: d.axaad.aac
+- features:
+    mood: indicative
+    polarity: negative
+    tense: imperfect
+  expected: d.uodacar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: axac
+---
+lemma: gu
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: gu
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: guzh
+- features:
+    evidentiality: direct
+    mood: indicative
+    tense: past
+  expected: d.eira
+- features:
+    evidentiality: direct
+    tense: past
+    verb_form: converb
+  expected: d.eina
+- features:
+    verb_form: infinitive
+  expected: guo
+---
+lemma: hwed
+category: verbs
+cases:
+- features:
+    number: plural
+    verb_form: converb
+  expected: hwelxar
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: hwelx
+- features:
+    number: singular
+    verb_form: converb
+  expected: hwiedar
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: hwed
+---
+lemma: hwo
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: hwo
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: hwozh
+- features:
+    number: singular
+    tense: present
+  expected: hwo
+---
+lemma: laatt
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: laatt
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: laattazh
+- features:
+    evidentiality: direct
+    mood: indicative
+    tense: past
+  expected: leattar
+- features:
+    evidentiality: direct
+    tense: past
+    verb_form: converb
+  expected: leattaa
+- features:
+    verb_form: infinitive
+  expected: laatta
+---
+lemma: lat
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: lat
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: latazh
+- features:
+    evidentiality: direct
+    mood: indicative
+    tense: past
+  expected: lätar
+- features:
+    evidentiality: direct
+    tense: past
+    verb_form: converb
+  expected: lätaa
+- features:
+    verb_form: infinitive
+  expected: lata
+---
+lemma: le
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: le
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: lezh
+- features:
+    evidentiality: direct
+    mood: indicative
+    tense: past
+  expected: d.älar
+- features:
+    evidentiality: direct
+    tense: past
+    verb_form: converb
+  expected: d.änna
+- features:
+    number: plural
+    verb_form: converb
+  expected: d.our
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: d
+- features:
+    number: singular
+    verb_form: converb
+  expected: d.alar
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: le
+- features:
+    verb_form: infinitive
+  expected: d.ala
+---
+lemma: lie
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: negative
+  expected: ull
+- features:
+    evidentiality: direct
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: allandzar
+- features:
+    evidentiality: indirect
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: illaadaac
+- features:
+    mood: indicative
+    polarity: negative
+    tense: imperfect
+  expected: allacar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: allac
+---
+lemma: loall
+category: verbs
+cases:
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: loaxk
+- features:
+    number: singular
+    verb_form: converb
+  expected: laallar
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: loall
+---
+lemma: lou
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: lou
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: louzh
+- features:
+    evidentiality: direct
+    mood: indicative
+    tense: past
+  expected: leira
+- features:
+    evidentiality: direct
+    tense: past
+    verb_form: converb
+  expected: leina
+- features:
+    verb_form: infinitive
+  expected: laa
+---
+lemma: louz
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: loudz
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: louzazh
+- features:
+    verb_form: infinitive
+  expected: louza
+---
+lemma: lu
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: lu
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: luzh
+- features:
+    evidentiality: direct
+    mood: indicative
+    tense: past
+  expected: dälar
+- features:
+    evidentiality: direct
+    tense: past
+    verb_form: converb
+  expected: d.änna
+- features:
+    verb_form: infinitive
+  expected: d.ala
+---
+lemma: lâattar
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: leattâr
+- features:
+    tense: imperfect
+  expected: lâattar
+- features:
+    tense: past
+    verb_form: converb
+  expected: leattie
+- features:
+    tense: present
+    verb_form: converb
+  expected: laattie
+---
+lemma: mala
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: malândzar
+- features:
+    evidentiality: indirect
+    mood: conditional
+    polarity: affirmative
+    tense: future
+  expected: molaxuddy
+- features:
+    evidentiality: indirect
+    mood: conditional
+    polarity: negative
+    tense: future
+  expected: molaxuddaac
+- features:
+    mood: conditional
+    polarity: affirmative
+    tense: present
+  expected: maddar
+- features:
+    mood: conditional
+    polarity: negative
+    tense: present
+  expected: maddaacar
+- features:
+    mood: imperative
+    number: plural
+    polarity: affirmative
+  expected: malâlazh
+- features:
+    mood: imperative
+    polarity: affirmative
+  expected: mala
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: maddy
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: imperfect
+  expected: molar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: future
+  expected: maddaac
+- features:
+    mood: indicative
+    polarity: negative
+    tense: imperfect
+  expected: malâcar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: malac
+- features:
+    mood: optative
+    polarity: affirmative
+  expected: malalaa
+- features:
+    mood: optative
+    polarity: affirmative
+    tense: past
+  expected: mannadalar
+- features:
+    mood: subjunctive
+    tense: future
+  expected: maddoljga
+- features:
+    mood: subjunctive
+    tense: past
+  expected: männaljga
+- features:
+    mood: subjunctive
+    tense: present
+  expected: molaljga
+- features:
+    tense: present
+    verb_form: participle
+  expected: mola
+- features:
+    verb_form: converb
+  expected: molazh
+- features:
+    verb_form: infinitive
+  expected: mala
+- features:
+    verb_form: verbal_noun
+  expected: malar
+---
+lemma: mol
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: mol
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: molazh
+- features:
+    evidentiality: direct
+    mood: indicative
+    tense: past
+  expected: mälar
+- features:
+    evidentiality: direct
+    tense: past
+    verb_form: converb
+  expected: männa
+- features:
+    verb_form: infinitive
+  expected: mala
+---
+lemma: männadalarie
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    polarity: affirmative
+    verb_form: converb
+  expected: männadalarie
+- features:
+    aspect: perfective
+    polarity: affirmative
+    verb_form: converb
+  expected: männadalarie
+---
+lemma: oal
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: oal
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: oalazh
+- features:
+    evidentiality: direct
+    tense: past
+    verb_form: converb
+  expected: eanna
+---
+lemma: oll
+category: verbs
+cases:
+- features:
+    number: plural
+    verb_form: converb
+  expected: oxkar
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: oxk
+- features:
+    number: singular
+    verb_form: converb
+  expected: ollar
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: oll
+---
+lemma: ott
+category: verbs
+cases:
+- features:
+    number: plural
+    verb_form: converb
+  expected: outtar
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: outt
+- features:
+    number: singular
+    verb_form: converb
+  expected: ottar
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: ott
+---
+lemma: qeik
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: qeik
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: qeikazh
+- features:
+    evidentiality: direct
+    mood: indicative
+    tense: past
+  expected: qeikar
+- features:
+    evidentiality: direct
+    tense: past
+    verb_form: converb
+  expected: qeikaa
+- features:
+    verb_form: infinitive
+  expected: qeika
+---
+lemma: qeikar
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: qeikâr
+- features:
+    tense: imperfect
+  expected: qêikar
+- features:
+    tense: past
+    verb_form: converb
+  expected: qeikie
+- features:
+    tense: present
+    verb_form: converb
+  expected: qeikie
+---
+lemma: qoll
+category: verbs
+cases:
+- features:
+    number: plural
+    verb_form: converb
+  expected: qoxkar
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: qoxk
+- features:
+    number: singular
+    verb_form: converb
+  expected: qollar
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: qoll
+---
+lemma: qoss
+category: verbs
+cases:
+- features:
+    number: plural
+    verb_form: converb
+  expected: qousar
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: qous
+- features:
+    number: singular
+    verb_form: converb
+  expected: qossar
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: qoss
+---
+lemma: quhw
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: quhw
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: quhwazh
+- features:
+    evidentiality: direct
+    mood: indicative
+    tense: past
+  expected: qehwar
+- features:
+    evidentiality: direct
+    tense: past
+    verb_form: converb
+  expected: qehwaa
+- features:
+    verb_form: infinitive
+  expected: qahwa
+---
+lemma: say
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: negative
+  expected: oal
+- features:
+    evidentiality: direct
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: aalandzar
+- features:
+    evidentiality: indirect
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: eannadaac
+- features:
+    mood: indicative
+    polarity: negative
+    tense: imperfect
+  expected: aalacar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: aalac
+---
+lemma: see
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: negative
+  expected: gu
+- features:
+    evidentiality: direct
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: gaandzar
+- features:
+    evidentiality: indirect
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: d.einad.aac
+- features:
+    mood: indicative
+    polarity: negative
+    tense: imperfect
+  expected: gycar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: gyc
+---
+lemma: sow
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: negative
+  expected: d.uu
+- features:
+    evidentiality: direct
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: dendzar
+- features:
+    evidentiality: indirect
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: diinadaac
+- features:
+    mood: indicative
+    polarity: negative
+    tense: imperfect
+  expected: duucar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: duuc
+---
+lemma: stay
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: negative
+  expected: we
+- features:
+    evidentiality: direct
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: wändzar
+- features:
+    evidentiality: indirect
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: wiinad.aac
+- features:
+    mood: indicative
+    polarity: negative
+    tense: imperfect
+  expected: wacar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: wac
+---
+lemma: take
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    polarity: negative
+  expected: hwo
+- features:
+    evidentiality: direct
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: d.ahwandzar
+- features:
+    evidentiality: indirect
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: d.ehwaad.aac
+- features:
+    mood: indicative
+    polarity: negative
+    tense: imperfect
+  expected: hwocar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: hwoc
+---
+lemma: toss
+category: verbs
+cases:
+- features:
+    number: plural
+    verb_form: converb
+  expected: tousar
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: tous
+- features:
+    number: singular
+    verb_form: converb
+  expected: tossar
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: toss
+---
+lemma: tull
+category: verbs
+cases:
+- features:
+    number: singular
+    verb_form: converb
+  expected: tyllar
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: tull
+---
+lemma: tuox
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: tox
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: tuoxazh
+- features:
+    verb_form: infinitive
+  expected: tuoxa
+---
+lemma: ull
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: ull
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: ullazh
+- features:
+    number: plural
+    verb_form: converb
+  expected: d.aadar
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: d.aada
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: ull
+---
+lemma: we
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: we
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: wezh
+- features:
+    evidentiality: direct
+    mood: indicative
+    tense: past
+  expected: wiira
+- features:
+    evidentiality: direct
+    tense: past
+    verb_form: converb
+  expected: wiina
+- features:
+    verb_form: infinitive
+  expected: wie
+---
+lemma: xou
+category: verbs
+cases:
+- features:
+    number: plural
+    verb_form: converb
+  expected: xoushar
+- features:
+    number: plural
+    verb_form: verbal_noun
+  expected: xoush
+- features:
+    number: singular
+    verb_form: converb
+  expected: xaar
+- features:
+    number: singular
+    verb_form: verbal_noun
+  expected: xou
+---
+lemma: xul
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    polarity: affirmative
+    verb_form: converb
+  expected: xulazh
+- features:
+    evidentiality: direct
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: xalar
+- features:
+    evidentiality: direct
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: xalandzar
+- features:
+    evidentiality: indirect
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: xanna.d
+- features:
+    evidentiality: indirect
+    mood: indicative
+    polarity: affirmative
+    tense: pluperfect
+  expected: xannad.ar
+- features:
+    evidentiality: indirect
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: xannad.aac
+- features:
+    evidentiality: indirect
+    mood: indicative
+    polarity: negative
+    tense: pluperfect
+  expected: xannad.aacar
+- features:
+    mood: conditional
+    polarity: affirmative
+    tense: past
+  expected: xurg-d.ar
+- features:
+    mood: conditional
+    polarity: negative
+    tense: past
+  expected: xurg-d.aacar
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: xurg-d.y
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: imperfect
+  expected: xular
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: present
+  expected: xul
+- features:
+    mood: indicative
+    polarity: negative
+    tense: future
+  expected: xurg-d.aac
+- features:
+    mood: indicative
+    polarity: negative
+    tense: imperfect
+  expected: xalacar
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: xalac
+- features:
+    polarity: affirmative
+    tense: past
+    verb_form: converb
+  expected: xanna
+- features:
+    polarity: affirmative
+    verb_form: infinitive
+  expected: xala
+- features:
+    polarity: affirmative
+    verb_form: present_participle
+  expected: xula
+- features:
+    polarity: affirmative
+    verb_form: verbal_noun
+  expected: xalar

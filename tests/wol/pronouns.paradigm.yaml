@@ -1,0 +1,27 @@
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nu
+- features:
+    number: plural
+    person: second
+  expected: ngën
+- features:
+    number: plural
+    person: third
+  expected: ñu
+- features:
+    number: singular
+    person: first
+  expected: na
+- features:
+    number: singular
+    person: second
+  expected: nga
+- features:
+    number: singular
+    person: third
+  expected: mu

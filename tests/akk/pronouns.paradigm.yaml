@@ -1,0 +1,51 @@
+lemma: ¥
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: kina
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: ⇥ina
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: ki
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ⇥a
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: kunu
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: ⇥unu
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: ka
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ⇥u
+- features:
+    number: plural
+    person: first
+  expected: ni
+- features:
+    number: singular
+    person: first
+  expected: ¥

@@ -1,0 +1,395 @@
+lemma: alii
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: alldn
+- features:
+    gender: feminine
+    number: singular
+  expected: alia
+- features:
+    gender: masculine
+    number: plural
+  expected: allom
+- features:
+    gender: masculine
+    number: singular
+  expected: alii
+---
+lemma: ana
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: ant an
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: hdtan
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: and
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: hata
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: hatom
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: anta
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: hatu
+- features:
+    number: plural
+    person: first
+  expected: hana
+- features:
+    number: singular
+    person: first
+  expected: ana
+---
+lemma: ka
+category: pronouns
+cases:
+- features:
+    aspect: imperfective
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+  expected: hqatlaka
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+  expected: hqatluka
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+  expected: hqatlakka
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+  expected: anqatlakka
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+  expected: aqatlakka
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+  expected: qatlayaka
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+  expected: qatlattakka
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+  expected: qatlawka
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+  expected: qatlekka
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+  expected: qatalnaka
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+  expected: qatalkoka
+---
+lemma: lahay
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: lahan
+- features:
+    gender: feminine
+    number: singular
+  expected: loha
+- features:
+    gender: masculine
+    number: plural
+  expected: lahom
+- features:
+    gender: masculine
+    number: singular
+  expected: lahay
+---
+lemma: ni
+category: pronouns
+cases:
+- features:
+    aspect: imperfective
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+  expected: taqatlani
+- features:
+    aspect: imperfective
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+  expected: bqatlani
+- features:
+    aspect: imperfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+  expected: tdqatlini
+- features:
+    aspect: imperfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+  expected: taqatlanni
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+  expected: taqatluni
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+  expected: teqatluni
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+  expected: tdqatlanni
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+  expected: uqatlanni
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+  expected: qatalknani
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+  expected: qatlayani
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+  expected: qatalkini
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+  expected: qatlattani
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+  expected: qatalkuni
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+  expected: qatlawni
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+  expected: qatalkanni
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+  expected: qatlenni
+- features:
+    gender: feminine
+    mood: imperative
+    number: plural
+    person: second
+  expected: qatalani
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: qatalini
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: taqtalani
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: idqtalani
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: taqtalini
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: taqtalanni
+- features:
+    gender: masculine
+    mood: imperative
+    number: plural
+    person: second
+  expected: qataluni
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: qdtalanni
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: taqtaluni
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: idqtaluni
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: taqtalanni
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: hqtalanni
+---
+lemma: ye
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: kan
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: an
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: ki
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: a
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: kum
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: om
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: ka
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: u
+- features:
+    number: plural
+    person: first
+  expected: na
+- features:
+    number: singular
+    person: first
+  expected: ye

@@ -1,0 +1,74 @@
+lemma: акьяс
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: якьясти
+- features:
+    aspect: perfective
+    tense: past
+  expected: дякьпс
+- features:
+    verb_form: infinitive
+  expected: акьяс
+- features:
+    verb_form: participle
+  expected: акьувел
+---
+lemma: вес
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: ушугуна
+- features:
+    aspect: perfective
+    tense: past
+  expected: давсс
+- features:
+    verb_form: infinitive
+  expected: вес
+- features:
+    verb_form: participle
+  expected: ушуб
+---
+lemma: диржас
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: диржасти
+- features:
+    aspect: perfective
+    tense: past
+  expected: дадиржас
+- features:
+    mood: imperative
+  expected: диржай
+- features:
+    verb_form: infinitive
+  expected: диржас
+- features:
+    verb_form: participle
+  expected: дирживел
+---
+lemma: дуьхьес
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: дуьхьести
+- features:
+    aspect: perfective
+    tense: past
+  expected: дадуьхьес
+- features:
+    verb_form: infinitive
+  expected: дуьхьес
+- features:
+    verb_form: participle
+  expected: дуьхьуьвел

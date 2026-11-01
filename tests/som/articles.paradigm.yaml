@@ -1,0 +1,51 @@
+lemma: ku
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: tu
+- features:
+    gender: masculine
+    number: singular
+  expected: ku
+- features:
+    number: plural
+  expected: kuwo
+---
+lemma: káa
+category: articles
+cases:
+- features:
+    gender: feminine
+  expected: táa
+- features:
+    gender: masculine
+  expected: káa
+---
+lemma: kán
+category: articles
+cases:
+- features:
+    gender: feminine
+  expected: tán
+- features:
+    gender: masculine
+  expected: kán
+---
+lemma: kéer
+category: articles
+cases:
+- features:
+    gender: masculine
+  expected: kéer
+---
+lemma: kóo
+category: articles
+cases:
+- features:
+    gender: feminine
+  expected: tóo
+- features:
+    gender: masculine
+  expected: kóo

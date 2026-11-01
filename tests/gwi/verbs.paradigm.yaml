@@ -1,0 +1,4544 @@
+lemma: UUkul
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: Takul
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: UUkul
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: Tokul
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: Nyakul
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: Gutakul
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: Akul
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: Kultatah
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: Kulnyachil
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: Akul
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: Kultotah
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: Kuhioohil
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: Okul
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: Kulgutatah
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: Kulginyachil
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: Gakul
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: Tulkul
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: Takul
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: Takul
+---
+lemma: dhiltsik
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: vatsik
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: otsik
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: guvatsik
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: zyunvatsik
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zyunotsik
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: zyunguvatsik
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: veltsik
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ontsik
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: vatsik
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: tatsik
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: atsik
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: dhatsik
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: totsik
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: otsik
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: dhohtsik
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: gutatsik
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: gantsik
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: geltsik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: zyuntatsik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: zyunatsik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: zyuiidhatsik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: zyuntotsik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: zyunotsik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: zjrundhohtsik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: zjrungutatsik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: zyungantsik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: zyungeltsik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: teltsik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: eltsik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dhiltsik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: tantsik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: antsik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dhantsik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: tatsik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: antsik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: eltsik
+---
+lemma: gichikhyi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: gitotikhya
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: gitokhya
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: kigichookhya
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: zyungitotikhya
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zyungitokhya
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: gichikhya
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: gitokhya
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: gitohookhya
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: trigititikhya
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: gitchidhitukhe
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: gichitikhyi
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: trigitokhya
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: gitokhyi
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: trikigitekhya
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: gigichokhe
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: kigitikhyi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: zyuntrigititikhya
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: zyungitchitikhyi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: zyuntrigitokhya
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: zyimgitokhyi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: zyuntrigitekhya
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: zyunkigichokhe
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: zyunkigitikhyi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: trigitikhya
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: gitohidhikhe
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: gichikhyi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: trigitikhya
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: gitohidhikhe
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: gichikhyi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: trigitekhya
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: gitikhyi
+---
+lemma: ihtrekh
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ititrekh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: ohtrekh
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: gitrekh
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: zyunititrekh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: zyunohtrekh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: zyungitrekh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ihtrekh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: intrekh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: itrekh
+---
+lemma: itrekh
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: ititrekii
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: otrekh
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: gutrekh
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: zyunititrekh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: zyunotrekh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: zyungutrekh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: itrekh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nyittrekh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: trekhh
+---
+lemma: kasuhndui
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: kavusuhndui
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: kaotundui
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: kavutundui
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kavutundui
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kaowhondui
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: kakottmdui
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: katitundui
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: kaitundui
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: katowhondui
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: kaowhondui
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: kawhondui
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: kagutetundui
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: kagetundui
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: kagutundui
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: kazyuntitundui
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kazyunitundui
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kazyuntowhondui
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kazyunowhondui
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kazyunwhondui
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: kazyungutetundui
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kazyungetundui
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kazyungutundui
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: katihsundui
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kaihsundui
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kasuhndui
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: katjtundui
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kaitundui
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kanyitundui
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ketetundui
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kaetundui
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: katundui
+---
+lemma: katrikwilnji
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: katrikwanji
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: katiikonji
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: katrikookwanji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: katrunkwanji
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: katrunkonji
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: katrunkookwanji
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: katrikwilnji
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: katrikw?.nji
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: katrikwanji
+---
+lemma: khenitteitinihsaei
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: khenitteitinitaei
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: khenitteitinowhohei
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: khenitteigitchittaei
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: khenitteichazi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: khenitteitunozi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: khenitteigitchazi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: khenitteitinihsaei
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: khenitteitinintaei
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: khenitteitinittaei
+---
+lemma: khugwisaei
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: khugotua
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: khugowhoa
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: khukoogotua
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: khungotua
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: khungowhoa
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: khunkoogotua
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: khugwivisua
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: khugwitontua
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: khugotua
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: khugwititua
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: khugwithaei
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: khugwitaei
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: khugwitowhoa
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: khugowhoei
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: khugowhoei
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: khukoogwitettua
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: khukoogwinttaej
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: khugoogwittaei
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: khungwititua
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: khungwitaei
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: khungwitaei
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: khungwitowhoa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: khungowhoei
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: khungowhoei
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: khunkoogwitettua
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: khunkoogwinttaei
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: khunkoogwittaei
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: eZtiugwitisua
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: khugwisaei
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: khugwisaei
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: khugwitintua
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: khugwintaei
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: khugwinyitaei
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: khugwitettua
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: khugwinttaeJ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: khugwittaei
+---
+lemma: kkenitteitinidhisaej
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: khenitteitinidhitaei
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: khenitteitinidhowhohej
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: khenitteigitchittaei
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kkenitteitinidhisaej
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: khenitteitinidhintaei
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: khenitteichittaej
+---
+lemma: kukweldhut
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: kukoovadhut
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: kukodhut
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: kukookodhut
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kunkoovadhut
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kunkodhut
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: kunkookodhut
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: kukooveldhut
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kukodhut
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: kukoovadhut
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: kukwutadhut
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: kukwudhadhut
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: kukwadhut
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: kukwutodhut
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: kukwudhodhut
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: kukodhut
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: kukookwutadhut
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: kukookweldhut
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: kukookwadhut
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: kunkokwutadhut
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kunkwudhadhut
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kunkwadhut
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kunkwutodhut
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kunkwudhodhut
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kunkodhut
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: kunkookwutadhut
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kunkookweldhut
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kunkookwadhut
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: kudwuteldhut
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kukwudheldhut
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kukweldhut
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: kukwut^xJhut
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kukwudhadhut
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kukwadhut
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: kukwutadhut
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kukweldhut
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kukwadhut
+---
+lemma: kusivik
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ketivik
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: kutivik
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: kowhohvik
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: kuwhohvik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kunitivik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kuntivik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kunowhohvik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kunwhohvik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kungetivvik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kungitivvik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kesivik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kusivik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kuitivik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kunyitivik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kutivvik
+---
+lemma: kwineinihnja
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: kwineinotunja
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: kwineinohnja
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: kwineiginyonja
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kwunnetinotunja
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kwunneinohnja
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: kwunneiginyonja
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kwineinihnja
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: kwineitinitunja
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: kwineminja
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: kwineitunonja
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: kwineinonja
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: kwineigutunenja
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: kwineigitinja
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: kwunneitinitunja
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kwunneininja
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kwunneitunonja
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kwuimeinohnja
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: kwunneigutunenja
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kwunneigitinja
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: kwineitinihnja
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kwineinihnja
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: kwineitininja
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kwineitininja
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: kwineitunenja
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kwineitinja
+---
+lemma: kwittridtigwiohilyin
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: kwittridtigwitoyin
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: kwittridtigwitohyin
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: kwittridtigookwichooyin
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kwittridtungwitoyin
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kwittridtungwitohyin
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: kwittridtungookwiohooyin
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: kwittridtigwivilyin
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kwittridtigwitoyin
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: kwittridtigwichooyin
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: kwittridtigwitutaya
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: kwittridtigwichidhayin
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: kwittridtigwitayin
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: kwittridtigwitutoya
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: kwittridtigwichidhoyin
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: kwittridtigwitoyin
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: kwittridtigookwitutahya
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: kwittridtigookwitelyin
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: kwittridtigookwitilyin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: kwittridtungwitutaya
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kwittridtungwichidhayin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kwittridtungwitayin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kwittridtungwitutoya
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kwittridtungwichidhoyin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kwittridtungwitojfiii
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: kwittridtungookwitutahya
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kwittridtungookwitelyin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kwittridtungookwitilyin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: kwittridtigwititelya
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kwittritigwiohidhilyin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kwittridtigwiohilyin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: kwittridtigwitutaya
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kwittridtigwichidhayin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kwittridtigwichayin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: kwittridtigwitutahya
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kwittridtigwiteljrin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kwittridtigwitilyin
+---
+lemma: kwuntlutitiha
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: kwuntlutititua
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: kwuntlututoha
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: kwuntlutigitea
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: kwuntluntititua
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kwuntluntutoha
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: kwuntluntigitea
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: kwuntlutitiha
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: kwuntlutitia
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: kwuntluyitutea
+---
+lemma: kwuntluvia
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: kwuntluvitua
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: kwuntloua
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: kwTintlugichooa
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kwuntlunvitua
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kwuntlunoa
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: kwuntlungichooa
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: kwuntluvia
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kwuntloiia
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: kwuntlyichooa
+---
+lemma: kwutsuttrinihnji
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: kwutsuttrinitinji
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: kwutsuttrinohnji
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: kwutsuttriginji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kwutsuttrunitundui
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kwutsuttrunohndui
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kwutsuttrungundui
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kwutsuttrinihnji
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kwutsuttrininji
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kwutsuttrinji
+---
+lemma: kwutsuttrinihnjik
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: kwutsuttrinitinjik
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: kwutsuttrinohnjik
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: kwutsuttriginjnjik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kwutsuttrundhitinjik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kwutsuttrundholinjik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kwutsuttrungidhinjik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kwutsuttrinihnjik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kwutsuttrininjik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kwutsuttrininjik
+---
+lemma: nechihnja
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: netohidhitunja
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: nechihnja
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: netohidhonja
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: nechinja
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: negiohonja
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: nejritunja
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: zyunnetchidhitunja
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: neohitunja
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: zynnnetohidhonja
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: netohnja
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: zyunnegichonja
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: negitunja
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: netchidhihnja
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: netchidhinja
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: neyichonja
+---
+lemma: ochidhihsinjik
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ochidhitinjik
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: ochidhowhohnjik
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: giyoochithinjik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: zunoohidhitinjik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: zyunochidhowhohnjik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: zyunogiohithinjik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ochidhihsinjik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ochidhitinjik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: yoochithinjik
+---
+lemma: ochisinji
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: ochitinji
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: otowhonji
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: giyootitinji
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: zyunochitinji
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zyunotowhohnji
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: zyungiyootitinji
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: ochisinji
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: onyitinji
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: yootitinji
+---
+lemma: oohisukthut
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: ototukthut
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: otowhokthut
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: kochootukthut
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: zyunototukthut
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zyunotowhokthut
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: zyunkochootukthut
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: oohisukthut
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: otQtukthut
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: oohootukthut
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: otititukthut
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: otitukthut
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: oohitukthut
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: otutowhokthut
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: otowhokthut
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: otuwhokthut
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: kotitetukthut
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: kotetukthut
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: kotutukthut
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: zyunotititukthut
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: zyunotitukthut
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: zyunochitukthut
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: zyunotutowhokthut
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: zyunotowhokthut
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: zyunotowhokthut
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: zyunkotitetukthut
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: zjmnkotetukthut
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: zyxinkotutukthut
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: otitihsukthut
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: otisukthut
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: oohisukthut
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: otititukthut
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: otjntukthut
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: oohitukthut
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: otitetukthut
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: otetukthut
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: otutukthut
+---
+lemma: otihkthut
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: otitukthut
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: otokthut
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: giyootekthut
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: zyunotitukthut
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: zyunotokthut
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: zyungiyootetukthut
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: otihkthut
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: otikthut
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: yootekthut
+---
+lemma: otikthut
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: ovitukthut
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: okthut
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: giyookthut
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: zyunovitukthut
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: zyunokthut
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: zyungiyookthut
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: otikthut
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: onyikthut
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yookthut
+---
+lemma: otitisundul
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: otititundul
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: otutowhohndul
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: giyootitetundul
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: zyunotititundul
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: zyunotutowhohndul
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: zyungiyootitetundul
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: otitisundul
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: otititundul
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: yootitetundul
+---
+lemma: ovihkthut
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: ovitukthut
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: ovokthut
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: giyoochookthut
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: zyunovitukthut
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zyunovokthut
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: zyungiyooohookthut
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: ovihkthut
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: otokthut
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: yooohookthut
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ovitukthut
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: ovokthut
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: giyooTJkthut
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: zyunovitukthut
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: zyunovokthut
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: zyungiyoovikthut
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ovihkthut
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ovikthut
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: yoovikthut
+---
+lemma: riokoteldhun
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: rsikotozhin
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: rsikotohzhin
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: rsikookoolioozhin
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: rsyunkotozhin
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: rsyunkotohzhin
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: rsyunkookoohoozhin
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: rsikotilzhin
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: rsikotozhin
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: rsikotutazhya
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: rsikotazhin
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: risikochadhun
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: rsikotutozhya
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: rsikotozhin
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: rsikotodhun
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: rsikookotutazhya
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: rsikookotazhin
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: rsikookoohadhun
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: rsyunkotutazhya
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: rsyunkotazhin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: rsyunkochadhun
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: rsyunkotutozhya
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: rsyunkotozhin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: rsyunkotodhun
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: rsyunkookotutahzhya
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: rsyunkookotazhin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: rsyunkookochadliun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: rsikotutelzhya
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: rsikotelzhin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: riokoteldhun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: rsikotutazhya
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: rsikot^zhin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: rsikotinyadhun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: rsikotutazhya
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: raikotazhin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: rsikoehadhun
+---
+lemma: tihsiyin
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: tivitiyin
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: tigootiyin
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: tunvitiyin
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tunowhohyinL
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: tungootiyin
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: tivisihyin
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tpntiyin
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: tivittiyin
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: titiyinh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: titiyin
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: towhohyinh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: towhohyin
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: tigettiyinh
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: tigittiyin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tunitiyinh
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tunitiyin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: tunowhohyinh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tunwhohyin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tungettiyinh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: tungittiyin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tittihsiyah
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tihsiyinh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tihsiyin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: tintiyinh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tinittiyin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tettiyinh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tittiyin
+---
+lemma: tilyin
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: tuvayin
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: tohyin
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: tigiyooyin
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: zyuntuvayin
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zyuntohyin
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: zynntigiyooyin
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: tivilyin
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: toyin
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: tiyooyin
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: tayinh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: tayin
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: tegiyayinh
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: tigiyayin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: zyuntayin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: zynntohyinh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: zyimtohyin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: zyuntegiyayinh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: zyvmtigiyayin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: telyinh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tilyin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: tayinh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tinyayin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tiyayin
+---
+lemma: tirsrul
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: titurzrul
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: tohrsrul
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: giterzrul
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: zyuntiturzrul
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: zyungiterzrul
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tirsrul
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: tirzrul
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: terzrul
+---
+lemma: titrekh
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: tititrekh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: totrekh
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: gitetrekh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: zyantotrekh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: zyungitetrekh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: titrekh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: tintrekh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: tetrekh
+---
+lemma: trigootisinjik
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: trigoototinjik
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: trigootohwhaonjik
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: trigookoohootinjik
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: trungoototinjik
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: trungootohwhondul
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: trungookochootinjik
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: trigoochivisundul
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: trigootititundul
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: trigootitinjik
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: trigootitowhondul
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: trigootohwhonjik
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: trigootungitetundul
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: trigootigetinjik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: trungootititundul
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: trungootitiajik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: trungootutowhondul
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: trungootohwhonjik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: trungootungitetundul
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: trungootigetinjik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: trigootitisundul
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: trigotisinjik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: trigootititundul
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: trigootitinjik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: trigootitetundul
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: trigootetinjik
+---
+lemma: tukwilnji
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: tukwitanji
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: tukwitohnji
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: tukookwitanji
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: zyuntukwitanji
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zyuntukwitohnji
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: zyuntukookwitanji
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: tukwitelnji
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tukpnji
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: tukwitanji
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: tukwutandul
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: tukwudhanjik
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: tukwanji
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: tukwutohndul
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: tukwudliohiijik
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: tukohnji
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: tukookwutahndul
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: tukookwelnjik
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: tukookwanji
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: zyuntukwutandul
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: zyuntukwidhanjik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: zyuntukwanji
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: zyuntukwutohndul
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: zyuntukwidhohnjik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: zyuntukohnji
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: zyuntukookwutahndul
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: zyuntukookwelnjik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: zyuntukookwanji
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tukwutulhndul
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tukwudhillmjik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tukwilnji
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: tukwutandul
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: tukwudhanjik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tukwinyanji
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: tukwutahndul
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tukwelnjik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tukwanji
+---
+lemma: vetyidhelnjik
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: vetyanjik
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: vetyidhanjik
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: vetyonjik
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: vetyidhonjik
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: giyetyanjik
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: giyetyilnjik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: vetzyunyanjik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: vetzyunyidhanjik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: vetzyunyonjik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: vetzyunyidhonjik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: giyetzyunyanjik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: giyetzyunyilnjik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: vetyelnjik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: vetyidhelnjik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: vetyanjik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: vetyidhanjik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: yetyanjik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yetyilnjik
+---
+lemma: vetyitelnjik
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: vetyoonjik
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: vetyidhonjik
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: giyetyoonjik
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: vetzyunyoonjik
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: vetzyunyidhonjik
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: giyetzynnyoonjik
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: vetvelnjik
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: vetyonjik
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: yetyoonjik
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: vetyitanjik
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: vetyitonjik
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: giyetyitanjik
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: vetzyunyitanjik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: vetzyunyitonjik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: giyetzynnyitanjik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: vetyitelnjik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: vetyitanjik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: yetyitanjik
+---
+lemma: virsrul
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: vuturzrul
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: ohrsrul
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: gorzrul
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zyunohrsrul
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: virsrul
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: orzrul
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: vurzrul
+---
+lemma: vitrekh
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: vititrekh
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: otrekh
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: gotrekh
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: zyunvititrekh
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: zyunotrekh
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: zyungotrekh
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: vitrekh
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ontrekh
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: vittrekh
+---
+lemma: vookuitulekh
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: vopkuiohidhaekh
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: vopkuitoekh
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: yopkuitaakh
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: vopkunchidhaekh
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: vopkuntoekh
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: vopkuichidhelekh
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: vookupekh
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: yopkuitaakh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: vopkuitaakh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: vopkuiohidhaekh
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: vopkuiohaekh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: vopkuitohakh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: vopkuitoekh
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: vopkuitohekh
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: yopkuigitahakh
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: yookuigiohilekh
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: yookuigitaekh
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: vookiintaakh
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: vopkunchidhaekh
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: vookunohaekh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: vookuntohakh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: vopkuntoekh
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: vopkuntohekh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: yopkungichilekli
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yopkungitaekh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: vopkuitulakh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: vookuiohidhelekh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: vookuitulekh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: vopkuitaakh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: vopkuichidh^ekh
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: vopkuiohaekh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: yopkuitahakh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: yopkuiohilekh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yookuitaekh
+---
+lemma: vutsunelhtsi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: vutsunvatsyah
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: vutsunohtsyah
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: gitsunkotsyah
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: vutsunzyunvatsyah
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: vutsunzyunohtsyah
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: gitsunzyunkotsyah
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: vutsunveltsyah
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: vutsunontsyah
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: yitsiinvatsyah
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: vutsuntatsyah
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: vutamidhelhtsui
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: vutsunelhtsi
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: vutsuntohtsyah
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: vutsvmdhantsuj
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: vutsunnyantsi
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: gitsuntahtsyah
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: yitsunyeltsuj
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: yitsunyahtsi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: vutsunzyuntatsyah
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: vutsundhatsuj
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: vutsunatsi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: vutsunzyuntohtsyah
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: vutsundhohtsuj
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: vutsunohtsi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: gitsunzyuntahtsyah
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: gitsungeltsui
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: gitsungahtsi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: vutsuntelhtsyah
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: vutsuntantsyah
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: yitsuntahtsyah
+---
+lemma: vutsvintetiltsi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: vutsuntechatsi
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: vutsuntetohtsi
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: gitsuntetatsi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: vutsunzyantechatsi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: vutsunzyuntetohtsi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: gitsunzyuntetatsi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: vutsvintetiltsi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: vutsuntechantsi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yitsuntetatsi
+---
+lemma: vuttsutritilmdul
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: vuttsuttrivitinji
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: vuttsuttrinohnji
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: gittsuttrivinji
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: vuttsuttrunvitinji
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: vuttsuttrvmolmji
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: gittsuttrunvinji
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: vuttsuttrivilmii
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: vuttsuttriiiQnji
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: yittsuttrivinji
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: vuttsutrititundul
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: vuttsuttrutohndul
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: gittsuttrutendul
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: vuttsuttruntitimdul
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: vuttsuttruntohndul
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: gittsuttruntendul
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: vuttsutritilmdul
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: vuttsuttritjndul
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: yittsuttrutendul

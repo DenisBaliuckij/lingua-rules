@@ -1,0 +1,22 @@
+dimensions:
+  number:
+    values: [singular, plural]
+  case:
+    values: [nominative, accusative, genitive, dative, instrumental, locative, ablative,
+      vocative]
+  definiteness:
+    values: [indefinite]
+  person:
+    values: [first, second, third]
+  tense:
+    values: [present, past, future]
+  mood:
+    values: [indicative, subjunctive, imperative, optative]
+  aspect:
+    values: [perfective, imperfective, progressive]
+  voice:
+    values: [active, passive]
+  verb_form:
+    values: [infinitive, participle, gerund, verbal_noun]
+  formality:
+    values: [informal]

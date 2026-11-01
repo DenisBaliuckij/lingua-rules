@@ -1,0 +1,4326 @@
+lemma: aal
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: naalaa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: taal
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yaal
+---
+lemma: aalló
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    polarity: negative
+  expected: taalló
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    polarity: negative
+  expected: yaalló
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: naalló
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: taallíin
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: yaallíin
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: aalló
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: taalló
+---
+lemma: adkéyn
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: adkeysay
+- features:
+    gender: feminine
+    mood: optative
+    number: singular
+    person: third
+  expected: adkéyso
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: adkeeyay
+- features:
+    gender: masculine
+    mood: optative
+    number: singular
+    person: third
+  expected: adkéeyo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: adkeyna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: adkeysee
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: adkeeyee
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: adkeeyay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: adkeysay
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: adkéyno
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: adkéyseen
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: adkéeyeen
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: adkéeyo
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: adkéyso
+---
+lemma: ahaa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: ahayn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: ahaa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: ahayd
+---
+lemma: ahay
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: yahay
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: nahay
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: tihiin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: yihiin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ahay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: tahay
+---
+lemma: ahaánayaa
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: ahaánayaa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ahaánaynaa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: ahaánaysaan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: ahaánayaan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ahaánayaa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: ahaánaysaa
+---
+lemma: ahaánayay
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: ahaánaynay
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: ahaánayay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: ahaánaysay
+---
+lemma: aqaannó
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    polarity: negative
+  expected: taqaannó
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    polarity: negative
+  expected: yaqaannó
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: naqaannó
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: taqaanníin
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: yaqaanníin
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: aqaannó
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: taqaannó
+---
+lemma: aqoon
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: aqoónaysaa
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: aqoónaya
+- features:
+    mood: imperative
+    number: plural
+    polarity: affirmative
+  expected: aqoóda
+- features:
+    mood: imperative
+    number: singular
+    polarity: affirmative
+  expected: aqóow
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: aqoónaynaa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: aqoónaysaan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: aqoónayaan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: aqoónaya
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: aqoónaysaa
+---
+lemma: arka
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: arkesan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: arkeya
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: arkesa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: aragna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: araktan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: arka
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: arakta
+---
+lemma: badso
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: aorist
+  expected: badsha
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: preterite
+  expected: badshei
+---
+lemma: bahhso
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: aorist
+  expected: bahhsa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: preterite
+  expected: bahhsei
+---
+lemma: beerán
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: beerantaý
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: beerantó
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: beermaý
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: beermó
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: beerannaý
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: beerannó
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: beerantéen
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: beerantá
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: beerméén
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: beermáa
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: beermaý
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: beermó
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: beerantaý
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: beerantó
+---
+lemma: bukso
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: aorist
+  expected: buxsa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: preterite
+  expected: buksei
+---
+lemma: buubaa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: buubtaa
+- features:
+    gender: feminine
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: buubtó
+- features:
+    mood: imperative
+    number: plural
+    polarity: affirmative
+  expected: búuba
+- features:
+    mood: imperative
+    number: plural
+    polarity: affirmative
+    voice: middle
+  expected: buubtá
+- features:
+    mood: imperative
+    number: singular
+    polarity: affirmative
+  expected: buubí
+- features:
+    mood: imperative
+    number: singular
+    polarity: affirmative
+    voice: middle
+  expected: buubó
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: buubnaa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: buubtaan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: buubaan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: buubaa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: buubtaa
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: buubnó
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: buubtáan
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: buubáan
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: buubó
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: buubtó
+---
+lemma: cún
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: cúnaysay
+- features:
+    aspect: progressive
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cúnaysaa
+- features:
+    aspect: progressive
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: cúnayay
+- features:
+    aspect: progressive
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cúnayaa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: cúnaynay
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: cúnaynaa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: cúnayseen
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: cúnaysaa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: cúnayeen
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: cúnayaan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: cúnayay
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: cúnayaa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: cúnaysay
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: cúnaysaa
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: cuntay
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cuntaa
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: cunay
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cunaa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: cunnay
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: cunnaa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: cunteen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: cuntaan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: cuneen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: cunaan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: cunay
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: cunaa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: cuntay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: cuntaa
+---
+lemma: dagal
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: dagalla
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: dagashan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: dagala
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: dagasha
+---
+lemma: dhaah
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nidhaahdaa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tidhaahdaan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yidhaahdaan
+---
+lemma: dhah
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: odhánaynay
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: odhánaysiin
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: odhánayeen
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: odhánay
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: odhánays
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: odhannín
+---
+lemma: dil
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: dilla
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: dishan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: dila
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: disha
+---
+lemma: doorsána
+category: verbs
+cases:
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: doorsánno
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: doorsáteen
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: doorsádeen
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: doorsádo
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: doorsáto
+---
+lemma: dulma
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: diilmena
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: dulmesan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dulmeya
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: diilmesa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: dulunna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: duluntan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: dulma
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: dulunta
+---
+lemma: ghaibso
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: aorist
+  expected: ghaibsha
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: preterite
+  expected: ghaibshei
+---
+lemma: gursanayaa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gtirsanesei
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gursaneyei
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: gilrsanenei
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: gursanesen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: gtirsaneyen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: gursaneyei
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: gursanesei
+---
+lemma: hadla
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: hadlena
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: hadlesan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: hadleya
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hadlesa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: hadalla
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: hadashan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: hadla
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: hadasha
+---
+lemma: hedna
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: hednahaid
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: hedantahai
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: hedna
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: hedanyahai
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: hedhednahain
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: hedhedannahai
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: hedhednahaiden
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: hedhedantihin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: hedhednahayen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: hedhedanyihin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: hednahaid
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: hedantahai
+---
+lemma: hel
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: hella
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: heshan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: hela
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: hesha
+---
+lemma: ibso
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: aorist
+  expected: ibsota
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: aorist
+  expected: ibsha
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: aorist
+  expected: ibsotan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: aorist
+  expected: ibshan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: aorist
+  expected: ibsota
+---
+lemma: idhaahdó
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    polarity: negative
+  expected: tidhaahdó
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    polarity: negative
+  expected: yidhaahdó
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: nidhaahnó
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: tidhaahdáan
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: yidhaahdáan
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: idhaahdó
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: tidhaahdó
+---
+lemma: imaad
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: imánaysa
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: imánaya
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: imánaynaa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: imánaysaan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: imánayaan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: imánaya
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: imánaysa
+---
+lemma: imaaddó
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    polarity: negative
+  expected: timaaddó
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    polarity: negative
+  expected: yimaaddó
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: nimaadnó
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: timaaddáan
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: yimaaddáan
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: imaaddó
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: timaaddó
+---
+lemma: iman
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    polarity: affirmative
+  expected: imaáda
+- features:
+    mood: imperative
+    number: singular
+    polarity: affirmative
+  expected: imów
+---
+lemma: jir
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: oólaynay
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: oólayseen
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: oólayeen
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: oólayay
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: oólaysay
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: oollín
+---
+lemma: joogsaa
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: negative
+  expected: joogsannéen
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: negative
+  expected: joogsatéen
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    polarity: negative
+  expected: joogsadéen
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+  expected: joogsadéen
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+  expected: joogsatéen
+---
+lemma: joogsan
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: joogsànaysó
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: joogsàneyney
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: joogsàneynaa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: joogsànaynó
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: joogsáneyseen
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: joogsâneysaan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: joogsànaysàan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: joogsánayeen
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: joogsànayaan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: joogsànayàan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: joogsánayey
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: joogsànayaa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: joogsànayó
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: joogsáneysey
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: joogsàneysaa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: joogsànaysó
+---
+lemma: joogso
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: joogsannay
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: joogsateen
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: joogsadeen
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: joogsaday
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: joogsatay
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: joogsan
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: joogsada
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: joogsanina
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: joogso
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: joogsan
+- features:
+    verb_form: infinitive
+  expected: joogsan
+---
+lemma: joogsáday
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: joogsátay
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: joogsáy
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: joogsánay
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: joogsaté
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: joogsadé
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: joogsáday
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: joogsátay
+---
+lemma: karaa
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: negative
+  expected: karinnéen
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: negative
+  expected: kariséen
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    polarity: negative
+  expected: kariyéen
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+  expected: kariyéen
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+  expected: kariséen
+---
+lemma: kari
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: karinney
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: kariseen
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: kariyeen
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: kariyey
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: karisey
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: karin
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: kariya
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: karinina
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: kari
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: karin
+- features:
+    verb_form: infinitive
+  expected: karin
+---
+lemma: karin
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: karinaysó
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: karineyney
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: karineynaa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: karinaynó
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: karineyseen
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: karineysaan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: karinaysàan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: karinayeen
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: karinayaan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: karinayàan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: karinayey
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: karinayaa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: karinayó
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: karineysey
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: karineysaa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: karinaysó
+---
+lemma: kariyey
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: karisey
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kari
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kariney
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: karisé
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kariyé
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kariyey
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: karisey
+---
+lemma: kill
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: dilla
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: dila
+---
+lemma: lahaan
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: lahayn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: lahaan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: lahayd
+---
+lemma: lahaánayaa
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: lahaánayaa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: lahaánaynaa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: lahaánaysaan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: lahaánayaan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: lahaánayaa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: lahaánaysaa
+---
+lemma: lahaánayay
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: lahaánaynay
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: lahaánayay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: lahaánaysay
+---
+lemma: léeyahay
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: léeyahay
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: léenahay
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: léedihiin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: léeyihiin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: léeyahay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: léedahay
+---
+lemma: maad
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nimaaddaa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: timaaddaan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yimaaddaan
+---
+lemma: makhla
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: makhalena
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: makhalesan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: makhleya
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: makhalesa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: makhalla
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: makhashan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: makhla
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: makhasha
+---
+lemma: odhaah
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: odhánaysaa
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: odhánayaa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: odhánaynaa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: odhánaysaan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: odhánayaan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: odhánayaa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: odhánaysaa
+---
+lemma: odhan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    polarity: affirmative
+  expected: dháha
+- features:
+    mood: imperative
+    number: singular
+    polarity: affirmative
+  expected: dhéh
+---
+lemma: oil
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: dlleyei
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: tal
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: til
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: yal
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: yil
+- features:
+    mood: imperative
+  expected: oil
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: nal
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: nil
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: talin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: tillen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: yalin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: yillen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: aorist
+  expected: al
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: preterite
+  expected: il
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: al
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: il
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: tal
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: til
+- features:
+    verb_form: infinitive
+  expected: olli
+---
+lemma: ool
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: oólaysaa
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: oólayaa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: oólaynaa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: oólaysaan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: oólayaan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: oólayaa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: oólaysaa
+---
+lemma: oolli
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    polarity: affirmative
+  expected: oólla
+- features:
+    mood: imperative
+    number: singular
+    polarity: affirmative
+  expected: óol
+---
+lemma: qaado
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: qaadannay
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: qaadateen
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: qaateen
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: qaatay
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: qaadatay
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: qaadan
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: qata
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: qaadanina
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: qaado
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: qaadan
+- features:
+    verb_form: infinitive
+  expected: qaadan
+---
+lemma: qaan
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: naqaan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: taqaan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yaqaan
+---
+lemma: qabaa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: qabatay
+- features:
+    gender: feminine
+    mood: optative
+    number: singular
+    person: third
+  expected: qabáto
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: qabtay
+- features:
+    gender: masculine
+    mood: optative
+    number: singular
+    person: third
+  expected: qabádo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: qabanna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: qabateen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: qabteen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: qabtay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: qabatay
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: qabánno
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: qabáteen
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: qabádeen
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: qabádo
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: qabáto
+---
+lemma: qabá
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: potential
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: qabatee
+- features:
+    gender: feminine
+    mood: potential
+    number: singular
+    person: third
+    polarity: negative
+  expected: qabatéen
+- features:
+    gender: masculine
+    mood: potential
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: qabadee
+- features:
+    gender: masculine
+    mood: potential
+    number: singular
+    person: third
+    polarity: negative
+  expected: qabadéen
+- features:
+    mood: potential
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: qabannee
+- features:
+    mood: potential
+    number: plural
+    person: first
+    polarity: negative
+  expected: qabannéen
+- features:
+    mood: potential
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: qabateen
+- features:
+    mood: potential
+    number: plural
+    person: second
+    polarity: negative
+  expected: qabatéen
+- features:
+    mood: potential
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: qabadeen
+- features:
+    mood: potential
+    number: plural
+    person: third
+    polarity: negative
+  expected: qabadéen
+- features:
+    mood: potential
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: qabadee
+- features:
+    mood: potential
+    number: singular
+    person: first
+    polarity: negative
+  expected: qabadéen
+- features:
+    mood: potential
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: qabatee
+- features:
+    mood: potential
+    number: singular
+    person: second
+    polarity: negative
+  expected: qabatéen
+---
+lemma: sameeyaa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: sameinesei
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: sameineyei
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: samdinenei
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: sameinesen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: sameineyen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: sameineyei
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: sameinesei
+---
+lemma: sheg
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: sheg
+- features:
+    verb_form: infinitive
+  expected: shegi
+- features:
+    verb_form: past_participle
+  expected: shegan
+- features:
+    verb_form: verbal_noun
+  expected: shegnin
+---
+lemma: shegeyaa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: shegesei
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: shdgeyei
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: shegenei
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: shegesen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: shSgeyen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: hegeyei
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: shegesei
+---
+lemma: sug
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: sugnay
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: sugteen
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: sugeen
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: sugay
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: sugtay
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: sugin
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: sugtay
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: sugtaa
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: sugay
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: sugaa
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: suga
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: sugina
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: sug
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: sugin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: sugnay
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sugnaa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: sugteen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: sugtaan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: sugeen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: sugaan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: sugay
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: sugaa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: sugtay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sugtaa
+---
+lemma: sugaa
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: súgaysó
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: súgeynaa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: súgaynó
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: súgeysaan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: súgaysàan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: súgayaan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: sûgayàan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: súgayaa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: súgayó
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: súgeysaa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: súgaysó
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: negative
+  expected: sugnéen
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: negative
+  expected: sugléen
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    polarity: negative
+  expected: sugéen
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+  expected: sugéen
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+  expected: sugléen
+---
+lemma: súg
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: sugtó
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: sugó
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sugnó
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: sugtàan
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: sugàan
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: sugó
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sugtó
+- features:
+    aspect: progressive
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: súgaysó
+- features:
+    aspect: progressive
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: súgayó
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: súgaynó
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: súgaysàan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: súgayàan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: súgayó
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: súgaysó
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: súgtay
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: súg
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: súgnay
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: sugté
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: sugé
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: súgay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: súgtay
+---
+lemma: weina
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: weinahaid
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: weintahai
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: weina
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: weinyahai
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: waweinahain
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: waweinnahai
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: waweinahaiden
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: waweintihin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: waweinahayen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: waweinyihin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: weinahaid
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: weintahai
+---
+lemma: yahay
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ahayd
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tahay
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ahaa
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yahay
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ahayn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nahay
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ahaydeen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ahaayeen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ahaa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ahay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ahayd
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tahay
+---
+lemma: yaree
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: yareyney
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: yareyseen
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: yareeyeen
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: yareeyey
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: yareysey
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: yareyn
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: yareeya
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: yaraynina
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: yaree
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: yareyn
+- features:
+    verb_form: infinitive
+  expected: yareyn
+---
+lemma: yel
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: yella
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: yeshan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: yela
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: yesha
+---
+lemma: yidhi
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: odhánayney
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: odháneynaa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: odhánayseen
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: odháncysaan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: odhánayecn
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: odháneyaan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: odhánayey
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: odháneyaa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: odhánaysey
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: odháneysaa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: nidhaahnó
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: nidhi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nidhaahnaa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: tidhaahdáan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: lidhaahdeen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tidhaahdaan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: yidhaahdáan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: yidhaahdeen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yidhaahdaan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: idhaahdó
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: idhi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: idhaahdaa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: tidhaahdó
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: tidhi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tidhaahdaa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: yidhaahdó
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: yidhi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yidhaahdaa
+- features:
+    number: plural
+    person: first
+  expected: nidhi
+- features:
+    number: plural
+    person: second
+  expected: tidhaahdé
+- features:
+    number: plural
+    person: third
+  expected: yidhaahdé
+- features:
+    number: singular
+    person: first
+  expected: idhi
+- features:
+    number: singular
+    person: second
+  expected: tidhi
+- features:
+    number: singular
+    person: third
+  expected: yidhi
+---
+lemma: yiil
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: niil
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: tilleen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: yiilleen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: iil
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: tiil
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: yiil
+- features:
+    number: plural
+    person: first
+  expected: niil
+- features:
+    number: plural
+    person: second
+  expected: yiil
+- features:
+    number: plural
+    person: third
+  expected: yiil
+- features:
+    number: singular
+    person: first
+  expected: íil
+- features:
+    number: singular
+    person: second
+  expected: yiil
+- features:
+    number: singular
+    person: third
+  expected: yiil
+---
+lemma: yimi
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: imáneyney
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: imáneynaa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: imáneyseen
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: imáneysaan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: imánayeen
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: imáneyaan
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: imánayey
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: imáneyaa
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: imánaysey
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: imáneysaa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: nimaadnó
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: nimi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nimaadnaa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: timaaddàan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: timaaddeen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: timaaddaan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: yimaaddàan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: yimaaddeen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yimaaddaan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: imaaddó
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: imi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: imaaddaa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: timaaddó
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: timi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: timaaddaa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: yimaaddò
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: yimi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yimaaddaa
+- features:
+    number: plural
+    person: first
+  expected: nimi
+- features:
+    number: plural
+    person: second
+  expected: timaaddé
+- features:
+    number: plural
+    person: third
+  expected: yimaaddé
+- features:
+    number: singular
+    person: first
+  expected: imi
+- features:
+    number: singular
+    person: second
+  expected: timi
+- features:
+    number: singular
+    person: third
+  expected: yimi
+---
+lemma: yiqiin
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tiqiin
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: yiqiin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: niqiin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: tiqiinneen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: taqaanniin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: yiqiinneen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yaqaanniin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: iqiin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: tiqiin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: yiqiin
+- features:
+    number: plural
+    person: first
+  expected: niqiinay
+- features:
+    number: plural
+    person: second
+  expected: tiqiiné
+- features:
+    number: plural
+    person: third
+  expected: yiqiiné
+- features:
+    number: singular
+    person: first
+  expected: iqiinay
+- features:
+    number: singular
+    person: second
+  expected: tiqiinay
+- features:
+    number: singular
+    person: third
+  expected: yiqiináy

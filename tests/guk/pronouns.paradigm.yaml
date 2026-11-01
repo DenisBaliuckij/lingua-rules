@@ -1,0 +1,95 @@
+lemma: á
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+    tense: future
+  expected: āgga᷇
+- features:
+    number: plural
+    person: first
+    tense: present
+  expected: āggá
+- features:
+    number: plural
+    person: second
+    tense: future
+  expected: ɔ̄ggɔ᷇
+- features:
+    number: plural
+    person: second
+    tense: present
+  expected: ɔ̄ggɔ́
+- features:
+    number: singular
+    person: first
+    tense: future
+  expected: a᷇
+- features:
+    number: singular
+    person: first
+    tense: present
+  expected: á
+- features:
+    number: singular
+    person: second
+    tense: future
+  expected: ɔ᷇
+- features:
+    number: singular
+    person: second
+    tense: present
+  expected: ɔ́
+---
+lemma: áma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: áca
+- features:
+    number: singular
+    person: second
+  expected: áma
+---
+lemma: ára
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ákwa
+- features:
+    number: singular
+    person: first
+  expected: ára
+---
+lemma: áχámá
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: mááχó
+- features:
+    number: singular
+    person: third
+  expected: áχámá
+---
+lemma: édáánáná
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: édáánáná
+---
+lemma: ódáánáná
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: ódáánáná

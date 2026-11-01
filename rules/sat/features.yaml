@@ -1,0 +1,19 @@
+dimensions:
+  number:
+    values: [singular, dual, plural]
+  case:
+    values: [nominative, accusative, genitive, dative, instrumental, locative, ablative]
+  person:
+    values: [first, second, third]
+  tense:
+    values: [present, past, future, perfect, pluperfect]
+  mood:
+    values: [indicative, subjunctive, conditional, optative]
+  aspect:
+    values: [imperfective, progressive]
+  voice:
+    values: [reflexive]
+  possessor_person:
+    values: [first, second, third]
+  possessor_number:
+    values: [singular, plural]

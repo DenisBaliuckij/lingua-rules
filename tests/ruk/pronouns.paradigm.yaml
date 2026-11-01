@@ -1,0 +1,147 @@
+lemma: egli
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: gli
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: egli
+---
+lemma: ella
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: la
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ella
+---
+lemma: io
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: da me
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: me
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: mi
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: io
+---
+lemma: mi-i
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: mi-i
+---
+lemma: noi
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: da noi
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ci
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: ci
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: noi
+---
+lemma: tot-i
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tot-i
+---
+lemma: tu
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: da te
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: te
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: ti
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: tu
+---
+lemma: voi
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: da voi
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: vi
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: vi
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: voi
+---
+lemma: yu-i
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: yu-i

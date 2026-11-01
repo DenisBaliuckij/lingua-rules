@@ -1,0 +1,87 @@
+lemma: hodesttin
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: hodouhttin
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: hehodittin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hodinttin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hodittin
+---
+lemma: naodes’enn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: naheyede‘l”’enn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nadaheyede‘l”’enn
+---
+lemma: nesshi‘l
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: nou‘lshi‘l
+- features:
+    number: singular
+    person: second
+  expected: nin‘lshidl
+---
+lemma: nes‘az
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: nou‘l'‘az
+- features:
+    number: singular
+    person: second
+  expected: nin‘l‘az
+- features:
+    number: singular
+    person: third
+  expected: nil'‘az
+---
+lemma: tou‘tansli
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: tan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tan

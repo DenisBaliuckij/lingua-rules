@@ -1,0 +1,66 @@
+lemma: drëtten
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: drëtt
+- features:
+    gender: masculine
+    number: singular
+  expected: drëtten
+- features:
+    gender: neuter
+    number: singular
+  expected: drëtt
+---
+lemma: leschten
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: lescht
+- features:
+    gender: masculine
+    number: singular
+  expected: leschten
+- features:
+    gender: neuter
+    number: singular
+  expected: lescht
+- features:
+    number: plural
+  expected: lescht
+---
+lemma: zweten
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: zweet
+- features:
+    gender: masculine
+    number: singular
+  expected: zweten
+- features:
+    gender: neuter
+    number: singular
+  expected: zweet
+---
+lemma: éischten
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: éischt
+- features:
+    gender: masculine
+    number: singular
+  expected: éischten
+- features:
+    gender: neuter
+    number: singular
+  expected: éischt

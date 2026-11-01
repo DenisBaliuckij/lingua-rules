@@ -1,0 +1,4020 @@
+lemma: bdu
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nabdu
+- features:
+    number: singular
+    person: first
+  expected: √abdu
+---
+lemma: biﬁ
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ta-biiﬁ-ii
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tabiﬁ
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tabiﬁ
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yabiﬁ
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: ta-biiﬁ-aa
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: ya-biiﬁ-aa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nabiﬁ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ta-biiﬁ-uu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ya-biiﬁ-uu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: √abiﬁ
+---
+lemma: bni
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: ta-bniy-aa
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: ya-bnii-na
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: tabni
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: ya-bniy-aa
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: ya-bnuu
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: yabni
+---
+lemma: nsa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: second
+  expected: ta-nsay-aa
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: ta-nsay-aa
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: ta-nsay-na
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: ya-nsay--na
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: ta-nsay
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: tansa
+- features:
+    gender: masculine
+    number: dual
+    person: second
+  expected: ta-nsay-aa
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: ya-nsay-aa
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: ta-nsaw
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: ya-nsaw
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: tansa
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: yansa
+- features:
+    number: dual
+    person: first
+  expected: nansa
+- features:
+    number: singular
+    person: first
+  expected: √ansa
+---
+lemma: oCÉnaÉnµànj
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: p¿BÉnaÉnµnànj
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: bÉnaÉnµnànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: active
+  expected: oCÉnaÉnµnànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: rCÉnaÉnµnànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: oCÉnaÉnµnànf
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: rCÉnaÉnµnànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: n¿rCÉnaÉnµnànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: n¿rCÉnaÉnµnànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: ghDƒnaÉnµnànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: ghDƒnaÉnµnànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: oCÉnaÉnµnànj
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: rCÉnaÉnµnànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: nÚÄnaÉnµnàJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: änaÉnµnànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: oCÉnaÉnµnJnCG
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: rCÉnaÉnµnànJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: bÉnaÉnµnànj
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: imperfect
+    voice: active
+  expected: nCÉnaÉnµnànJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: nCÉnaÉnµnànf
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: n¿rCÉnaÉnµnànJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: ghDƒnaÉnµnànJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: nCÉnaÉnµnànj
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: änaÉnµnànJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: nCÉnaÉnµnJnCG
+- features:
+    mood: imperative
+    number: dual
+    person: second
+    voice: active
+  expected: bÉnaÉnµnànj
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    voice: active
+  expected: ghDƒnaÉnµnJ
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: rCÉnaÉnµnJ
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+    voice: passive
+  expected: bÉnaÉnµnànj
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+    voice: passive
+  expected: rCÉnaÉnµnànJ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: passive
+  expected: rCÉnaÉnµnànf
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: passive
+  expected: n¿rCÉnaÉnµnJ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: passive
+  expected: ghDƒnaÉnµnJ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: passive
+  expected: rCÉnaÉnµnànj
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: passive
+  expected: änaÉnµnJ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+  expected: oärCÉnaÉnµnJ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+  expected: rCÉnaÉnµnJ
+---
+lemma: oQÉàrînj
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+    voice: active
+  expected: p¿GQÉàrînJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: p¿GQÉàrîoJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: ghQÉàrînJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: active
+  expected: oQÉàrînf
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: oQÉàrîof
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: p¿GQÉàrînj
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: p¿GQÉàrîoj
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: oQÉàrînJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: oQÉàrîoJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: oQÉàrînj
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: oQÉàrîoj
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: nøjQÉàrîoJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: oQÉàrNnCG
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: oQÉàrNoCG
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: imperfect
+    voice: active
+  expected: gQÉàrînJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: ghQÉàrînJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: imperfect
+    voice: active
+  expected: nQÉàrînf
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: gQÉàrînj
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: nQÉàrînJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: nQÉàrînj
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: nQÉàrNnCG
+- features:
+    mood: imperative
+    number: dual
+    person: second
+    voice: active
+  expected: gQÉàrNpG
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    voice: active
+  expected: rônàrînJ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: passive
+  expected: n¿rônàrîoj
+---
+lemma: oRÉërænj
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+    voice: active
+  expected: rønërænj
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    voice: active
+  expected: rønërænf
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: rønërænJ
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+    voice: passive
+  expected: rønërænJ
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+    voice: active
+  expected: ränRÉërfpG
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+    voice: passive
+  expected: gRÉërænj
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+    voice: active
+  expected: gRÉërfpG
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+    voice: passive
+  expected: rønërænj
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+    voice: active
+  expected: nRÉërfpG
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: active
+  expected: ghRÉërænJ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: active
+  expected: n¿rõnërænJ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: passive
+  expected: rønërænf
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: active
+  expected: nRÉërænf
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: active
+  expected: nRÉërænJ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: passive
+  expected: gRÉërfpG
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: active
+  expected: gRÉërænJ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: oRÉërfnCG
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: present
+    voice: active
+  expected: oRÉërænJ
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: present
+    voice: active
+  expected: p¿GRÉërænj
+- features:
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: present
+    voice: active
+  expected: oRÉërænj
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+    voice: active
+  expected: n¿hRÉërænJ
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+    voice: active
+  expected: oRÉërænf
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+    voice: active
+  expected: oRÉërænJ
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+    voice: active
+  expected: p¿GRÉërænJ
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: oRÉërænJ
+---
+lemma: oôneBÉnànj
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: p¿GôneBÉnànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: rôneBÉnànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: rôneBÉnànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: oôneBÉnànj
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: hôneBÉnànj
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: oôneBÉnànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: p¿GôneBÉnànj
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: oôneBÉnJnCG
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: oôneBÉnànf
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: oôneBÉnànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: hôneBÉnànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: öneBÉnànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: ghôneBÉnànJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: gôneBÉnànJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: roneBÉnànJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: rôneBÉnànJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: nôneBÉnànj
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: ghôneBÉnànj
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: nôneBÉnànJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: n¿rôneBÉnànj
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: gôneBÉnànj
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: nôneBÉnJnCG
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: nôneBÉnànf
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: nôneBÉnànJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: ghôneBÉnànJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: ôneBÉnànJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: ghôneBÉnànJ
+- features:
+    mood: imperative
+    number: dual
+    person: second
+    voice: active
+  expected: gôneBÉnJ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    voice: active
+  expected: gôneBÉnJ
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: rôneBÉnJ
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+    voice: active
+  expected: éªoJrôneBÉnJ
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+    voice: passive
+  expected: søoJrôneBÉnJ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: active
+  expected: nôneBÉnJ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: passive
+  expected: ghôneBÉnJ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+  expected: ränôneBÉnJ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: active
+  expected: gôneBÉnJ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+  expected: oärôneBÉnJ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: passive
+  expected: éfrôneBÉnJ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: active
+  expected: närôneBÉnJ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: passive
+  expected: rºoJrôneBÉnJ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+  expected: pärôneBÉnJ
+---
+lemma: qaraʾa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+    voice: active
+  expected: iqraʾā
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    voice: active
+  expected: iqraʾū
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: iqraʾ
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+    voice: active
+  expected: nqraʾu
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: nuqraʾu
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+    voice: active
+  expected: qaraʾnā
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: taqraʾū
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: tuqraʾū
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+    voice: active
+  expected: qaraʾtumū
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: active
+  expected: yaqraʾān
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: yuqraʾān
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+    voice: active
+  expected: qaraʾā
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: nqraʾu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: nuqraʾu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: active
+  expected: qaraʾnā
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: taqraʾūna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: tuqraʾūna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+  expected: qaraʾtum
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: yaqraʾūna
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: yuqraʾūna
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: active
+  expected: qaraʾū
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: aqraʾu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: uqraʾu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+  expected: qaraʾtu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: taqraʾu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: tuqraʾu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: active
+  expected: qaraʾta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: yaqraʾu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: yuqraʾu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+  expected: qaraʾa
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: imperfect
+    voice: active
+  expected: nqraʾa
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: taqraʾā
+- features:
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: imperfect
+    voice: active
+  expected: yaqraʾā
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: nqraʾa
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: taqraʾū
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: yaqraʾū
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: aqraʾa
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: taqraʾa
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: yaqraʾa
+---
+lemma: qul
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ta-quul-ii
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: taqul
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: taqul
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yaqul
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: ta-quul-aa
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: ya-quul-aa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: naqul
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ta-quul-uu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ya-quul-uu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: √aqul
+---
+lemma: râ'a
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+    voice: active
+  expected: narâ'u
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: nurâ'u
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: tarâ'âni
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: turâ'âni
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: active
+  expected: yarâ'ân
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: yurâ'ân
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: narâ'u
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: nurâ'u
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: tarâ'ûna
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: turâ'ûna
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: yarâ'un
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: yurâ'un
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: arâ'u
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: arâ'u
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: tarâ'u
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: turâ'u
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: yarâ'u
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: yurâ'u
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: imperfect
+    voice: active
+  expected: narâ'a
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: tarâ'â
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: imperfect
+    voice: active
+  expected: yarâ'â
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: narâ'a
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: tarâ'û
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: yarâ'u
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: arâ'a
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: tarâ'a
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: yarâ'a
+- features:
+    mood: imperative
+    number: dual
+    person: second
+    voice: active
+  expected: râ'â
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    voice: active
+  expected: râ'û
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: râ
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+    voice: active
+  expected: ra'aynâ
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+    voice: passive
+  expected: rū'inâ
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+    voice: active
+  expected: râ'aytum
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+    voice: passive
+  expected: rū'itum
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+    voice: active
+  expected: râ'â
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+    voice: passive
+  expected: rū'â
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: active
+  expected: ra'aynâ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: passive
+  expected: rū'inâ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+  expected: râ'aytum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: passive
+  expected: rū'itum
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: active
+  expected: râ'u
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: passive
+  expected: rū'u
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+  expected: ra'aytu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: passive
+  expected: rū'itu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: active
+  expected: râ'ayta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: passive
+  expected: rū'ita
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+  expected: ra'a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+  expected: rū'a
+---
+lemma: sawwar
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: sawwir
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: tasawwirani
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: tusawwara
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: tasawwiruna
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: tusawwara
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: asawwiru
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: usawwara
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: tasawwiru
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: tusawwara
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: tusawwira
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: tusawwira
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: usawwira
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: tusawwira
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+    voice: active
+  expected: sawwartuma
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: active
+  expected: sawwartuna
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: active
+  expected: sawwartu
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+  expected: sawwartu
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+  expected: sawwara
+---
+lemma: tπnàrënj
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+    voice: active
+  expected: rπp∏nàqënj
+- features:
+    mood: imperative
+    number: dual
+    person: second
+    voice: active
+  expected: rπp∏nàrënJ
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    voice: active
+  expected: rπp∏nàrënf
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    voice: active
+  expected: gƒq∏nàrMpG
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: rπp∏nàrMnCG
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    voice: active
+  expected: q∏nàrMpG
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+    voice: active
+  expected: sπnàrMpG
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+    voice: passive
+  expected: tπnàrëoj
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+    voice: active
+  expected: râs∏nàrMpG
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+    voice: passive
+  expected: tπnàrëoJ
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+    voice: active
+  expected: qÓnàrMpG
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+    voice: passive
+  expected: p¿qÓnàrëoj
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: active
+  expected: éær∏n∏nàrMpG
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: passive
+  expected: tπnàrëof
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: active
+  expected: rºoàr∏n∏nàrMpG
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: passive
+  expected: nør∏n∏nàrëoJ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: active
+  expected: gƒq∏nàrMpG
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: passive
+  expected: nør∏n∏nàrëoj
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: active
+  expected: oâr∏n∏nàrMpG
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: active
+  expected: nâr∏n∏nàrMpG
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: passive
+  expected: tπnàrMoCG
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: pâr∏n∏nàrMpG
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+  expected: nÚq∏nàrëoJ
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: present
+    voice: active
+  expected: tπnàrënj
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: present
+    voice: active
+  expected: tπnàrënJ
+- features:
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: present
+    voice: active
+  expected: p¿qÓnàrënj
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+    voice: active
+  expected: tπnàrënf
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+    voice: active
+  expected: nør∏p∏nàrënJ
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+    voice: active
+  expected: nør∏p∏nàrënj
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+    voice: active
+  expected: tπnàrMnCG
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: nÚq∏nàrënJ
+---
+lemma: أذيع
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: أذِعي
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: تُذيعنَ
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+  expected: أذعتُنَّ
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: يُذيعنَ
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: active
+  expected: أذعنَ
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: passive
+  expected: أُذيعنَ
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: تُذيعين
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: active
+  expected: أذعتِ
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+  expected: أُذيعت
+- features:
+    gender: masculine
+    mood: imperative
+    number: plural
+    person: second
+    voice: active
+  expected: أذِعوا
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: أذِع
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: تُذيعون
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+  expected: أذعتُم
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: يُذيعون
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: active
+  expected: أذاعوا
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: passive
+  expected: أُذيعنا
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: تُذيع
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: active
+  expected: أذعتَ
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+  expected: أذيع
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+  expected: أُذيع
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: نذيع
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: active
+  expected: أذعنا
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: أذيع
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: أُذيع
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+  expected: أذعت
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: أذِع
+---
+lemma: أعجب
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: imperative
+    number: dual
+    person: second
+    voice: active
+  expected: اعجبا
+- features:
+    aspect: imperfective
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: اعجبوا
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: active
+  expected: يعجبون
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: يُعجبون
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: نعجبون
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: يُعجبون
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: تعجبون
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: تُعجبون
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: يعجبون
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: يُعجبون
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: أُعجبون
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: يُعجبون
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: تعجبون
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: تُعجبون
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: يعجبون
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: يُعجبون
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: imperfect
+    voice: active
+  expected: يعجبوا
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: نعجبوا
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: تعجبوا
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: يعجبوا
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: أُعجبوا
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: تعجبوا
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: يعجبوا
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+    voice: active
+  expected: أعجبتما
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+    voice: passive
+  expected: أُعجب
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: active
+  expected: أعجبت
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: passive
+  expected: أُعجبت
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+  expected: أعجبت
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: passive
+  expected: أُعجبت
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: active
+  expected: أعجبت
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: passive
+  expected: أُعجب
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+  expected: أعجبت
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: passive
+  expected: أُعجبت
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: active
+  expected: أعجبت
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: passive
+  expected: أُعجبت
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+  expected: أعجبت
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+  expected: أُعجب
+---
+lemma: تأخّر
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: تَأَخَّرْ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+    voice: active
+  expected: نَتَأَخَّرُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: نُؤَخَّرُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: تَتَأَخَّرَانِ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: تُؤَخَّرَانِ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: active
+  expected: يَتَأَخَّرَانِ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: يُؤَخَّرَانِ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: نَتَأَخَّرُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: نُؤَخَّرُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: تَتَأَخَّرُونَ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: تُؤَخَّرُونَ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: يَتَأَخَّرُونَ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: يُؤَخَّرُونَ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: أَتَأَخَّرُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: أُؤَخَّرُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: تَتَأَخَّرُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: تُؤَخَّرُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: يَتَأَخَّرُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: يُؤَخَّرُ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: imperfect
+    voice: active
+  expected: نَتَأَخَّرَ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: تَتَأَخَّرَا
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: imperfect
+    voice: active
+  expected: يَتَأَخَّرَا
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: نَتَأَخَّرَ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: تَتَأَخَّرُوا
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: يَتَأَخَّرُوا
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: أَتَأَخَّرَ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: تَتَأَخَّرَ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: يَتَأَخَّرَ
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+    voice: active
+  expected: تَأَخَّرْنَا
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+    voice: passive
+  expected: تُؤَخِّرْنَا
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+    voice: active
+  expected: تَأَخَّرْتُمَا
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+    voice: passive
+  expected: تُؤَخِّرْتُمَا
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+    voice: active
+  expected: تَأَخَّرَا
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+    voice: passive
+  expected: تُؤَخِّرَا
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: active
+  expected: تَأَخَّرْنَا
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: passive
+  expected: تُؤَخِّرْنَا
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+  expected: تَأَخَّرْتُمْ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: passive
+  expected: تُؤَخِّرْتُمْ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: active
+  expected: تَأَخَّرُوا
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: passive
+  expected: تُؤَخِّرُوا
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+  expected: تَأَخَّرْتُ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: passive
+  expected: تُؤَخِّرْتُ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: active
+  expected: تَأَخَّرْتَ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: passive
+  expected: تُؤَخِّرْتَ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+  expected: تَأَخَّرَ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+  expected: تُؤَخِّرَ
+---
+lemma: تنبّأ
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: تَنَبَّأْ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+    voice: active
+  expected: نَتَنَبَّأُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: نُنَبَّأُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: نَتَنَبَّأُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: نُنَبَّأُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: أَتَنَبَّأُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: أُنَبَّأُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: تَتَنَبَّأُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: تُنَبَّأُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: يَتَنَبَّأُ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: يُنَبَّأُ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: imperfect
+    voice: active
+  expected: نَتَنَبَّأَ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: نَتَنَبَّأَ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: أَتَنَبَّأَ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: تَتَنَبَّأَ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: يَتَنَبَّأَ
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+    voice: active
+  expected: تَنَبَّأْنَا
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+    voice: passive
+  expected: تُنَبَّأْنَا
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+    voice: active
+  expected: تَنَبَّأْتُمَا
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+    voice: passive
+  expected: تُنَبَّأْتُمَا
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+    voice: active
+  expected: تَنَبَّأَتَا
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+    voice: passive
+  expected: تُنَبَّأَتَا
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: active
+  expected: تَنَبَّأْنَا
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: passive
+  expected: تُنَبَّأْنَا
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+  expected: تَنَبَّأْتُمْ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: passive
+  expected: تُنَبَّأْتُمْ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: active
+  expected: تَنَبَّأْنَ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: passive
+  expected: تُنَبَّأْنَ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+  expected: تَنَبَّأْتُ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: passive
+  expected: تُنَبَّأْتُ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: active
+  expected: تَنَبَّأْتَ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: passive
+  expected: تُنَبَّأْتَ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+  expected: تَنَبَّأَ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+  expected: تُنَبَّأَ
+---
+lemma: خشیت
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: شیما
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: شیما
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: خشتا
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: خشیان
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: شیئا
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: شیئا
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: شین
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: خشوا
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: خشون
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: شی
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: أخشی
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: خشیت
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: خشین
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: خشیت
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: بخشی
+---
+lemma: وصف
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: dual
+    person: second
+  expected: صفا
+- features:
+    gender: feminine
+    mood: imperative
+    number: plural
+    person: second
+  expected: صفن
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: صفي
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+    voice: active
+  expected: وصفتما
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+    voice: active
+  expected: تصقان
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+    voice: active
+  expected: تصقان
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+    voice: active
+  expected: وصفن
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: active
+  expected: تصفن
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: active
+  expected: يصفن
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+    voice: active
+  expected: وصفتِ
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: active
+  expected: تصفي
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+    voice: active
+  expected: وصفت
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: تصف
+- features:
+    gender: masculine
+    mood: imperative
+    number: dual
+    person: second
+  expected: صفا
+- features:
+    gender: masculine
+    mood: imperative
+    number: plural
+    person: second
+  expected: صفوا
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: صف
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+    voice: active
+  expected: وصفتما
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+    voice: active
+  expected: تصقان
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+    voice: active
+  expected: وصفا
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+    voice: active
+  expected: يصقان
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+    voice: active
+  expected: وصفتم
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: active
+  expected: تصفون
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+    voice: active
+  expected: وصفوا
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: active
+  expected: يصفون
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+    voice: active
+  expected: وصفت
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: active
+  expected: تصف
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+    voice: active
+  expected: وصف
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: يصف
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+  expected: واصف
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+    voice: active
+  expected: وصفنا
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+    voice: active
+  expected: نصقان
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+    voice: active
+  expected: وصفنا
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: active
+  expected: نصفون
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+    voice: active
+  expected: وصفت
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: active
+  expected: أصف
+---
+lemma: يقبل
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: أقبل
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: future
+  expected: أقبلن
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: future
+  expected: تقبلا
+- features:
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: future
+  expected: يقبلا
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: future
+  expected: نقبلن
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: future
+  expected: تقبلون
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: future
+  expected: يقبلون
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: future
+  expected: نقبلن
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+  expected: تقبلن
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: future
+  expected: يقبلوا
+---
+lemma: ≈YGónànj
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: p¿É«nYGónànj
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: É«nYGónànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: active
+  expected: ≈YGónànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: n´GónànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: ≈YGónànf
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: n´GónànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: nør«nYGónàJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: nør«nYGónàJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: n¿rƒnYGónànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: GrƒnYGónànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: ≈YGónànj
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: n´GónànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: nør«nYGónànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: r»nYGónànJ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: ≈YGónJnCG
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: n´GónànJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: É«nYGónànj
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: imperfect
+    voice: active
+  expected: ≈YGónànJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: ≈YGónànf
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: nør«nYGónàJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: GrƒnYGónànJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: ≈YGónànj
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: r»nYGónànJ
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: ≈YGónJnCG
+- features:
+    mood: imperative
+    number: dual
+    person: second
+    voice: active
+  expected: É«nYGónànj
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    voice: active
+  expected: GrƒnYGónJ
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: n´GónJ
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+    voice: passive
+  expected: É«nYGónànj
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+    voice: passive
+  expected: n´GónànJ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: passive
+  expected: n´Gónànf
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: passive
+  expected: nør«nYGónJ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: passive
+  expected: GrƒnYGónJ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: passive
+  expected: n´Gónànj
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: passive
+  expected: r»nYGónJ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+  expected: oârjnYGónJ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+  expected: n´GónJ

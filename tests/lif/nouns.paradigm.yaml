@@ -1,0 +1,118 @@
+lemma: napmi
+category: nouns
+cases:
+- features:
+    case: ablative
+    number: dual
+  expected: napmi-gha-chi-lam
+- features:
+    case: ablative
+    number: plural
+  expected: napmi-gha-lam
+- features:
+    case: ablative
+    number: singular
+  expected: napmilam
+- features:
+    case: allative
+    number: dual
+  expected: napmi-gha-chi
+- features:
+    case: allative
+    number: plural
+  expected: napmigha
+- features:
+    case: allative
+    number: singular
+  expected: napmi
+- features:
+    case: comitative
+    number: dual
+  expected: napmi-ghachi-nuŋ
+- features:
+    case: comitative
+    number: plural
+  expected: napmigha
+- features:
+    case: comitative
+    number: singular
+  expected: napminuŋ
+- features:
+    case: genitive
+    number: dual
+  expected: napmi-ghachi-ŋa-ŋ
+- features:
+    case: genitive
+    number: plural
+  expected: napmi-gha-ŋa-ŋ
+- features:
+    case: genitive
+    number: singular
+  expected: napmiŋaŋ
+- features:
+    case: instrumental
+    number: dual
+  expected: napmi-ghachi-ŋa
+- features:
+    case: instrumental
+    number: plural
+  expected: napmi-gha-ŋa
+- features:
+    case: instrumental
+    number: singular
+  expected: napmiŋa
+- features:
+    case: locative
+    number: dual
+  expected: napmi-gha-chi
+- features:
+    case: locative
+    number: plural
+  expected: napmigha
+- features:
+    case: locative
+    number: singular
+  expected: napmi
+- features:
+    case: vocative
+    number: dual
+  expected: napmi-ghachi-Ε
+- features:
+    case: vocative
+    number: singular
+  expected: napmiΕ
+- features:
+    number: dual
+  expected: napmi-gha-chi
+- features:
+    number: plural
+  expected: napmigha
+- features:
+    number: singular
+  expected: napmi
+---
+lemma: pu
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: pu-gha-chi
+- features:
+    number: plural
+  expected: pugha
+- features:
+    number: singular
+  expected: pu
+---
+lemma: wa
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: wa-gha-chi
+- features:
+    number: plural
+  expected: wagha
+- features:
+    number: singular
+  expected: wa

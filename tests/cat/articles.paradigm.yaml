@@ -1,0 +1,69 @@
+lemma: el
+category: articles
+cases:
+- features:
+    definiteness: definite
+    gender: masculine
+    number: plural
+  expected: als
+- features:
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: al
+- features:
+    gender: feminine
+    number: plural
+  expected: les
+- features:
+    gender: feminine
+    number: singular
+  expected: la
+- features:
+    gender: masculine
+    number: plural
+  expected: els
+- features:
+    gender: masculine
+    number: singular
+  expected: el
+---
+lemma: es
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: ses
+- features:
+    gender: feminine
+    number: singular
+  expected: sa
+- features:
+    gender: masculine
+    number: plural
+  expected: es
+- features:
+    gender: masculine
+    number: singular
+  expected: es
+---
+lemma: un
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: unes
+- features:
+    gender: feminine
+    number: singular
+  expected: una
+- features:
+    gender: masculine
+    number: plural
+  expected: uns
+- features:
+    gender: masculine
+    number: singular
+  expected: un

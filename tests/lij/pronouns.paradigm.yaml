@@ -1,0 +1,282 @@
+lemma: chi
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: chi
+---
+lemma: cusse
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: cusse
+---
+lemma: me
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: l mie
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: a mia
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: i mèi
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: me
+---
+lemma: mé
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mé
+- features:
+    number: singular
+    person: first
+  expected: mé
+---
+lemma: nostru
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: i nostre
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: â nostra
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: i nostri
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: u nostru
+---
+lemma: nóstru
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: nóstra
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: nóstru
+---
+lemma: què
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: quò
+- features:
+    case: direct
+    gender: feminine
+  expected: què
+---
+lemma: quéllu
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: quélle
+- features:
+    gender: feminine
+    number: singular
+  expected: quélla
+- features:
+    gender: masculine
+    number: plural
+  expected: quélli
+- features:
+    gender: masculine
+    number: singular
+  expected: quéllu
+---
+lemma: quéstu
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: quéste
+- features:
+    gender: feminine
+    number: singular
+  expected: quésta
+- features:
+    gender: masculine
+    number: plural
+  expected: quésti
+- features:
+    gender: masculine
+    number: singular
+  expected: quéstu
+---
+lemma: so
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: ë soe
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: a soa
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: i soi
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: u so
+---
+lemma: soa
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: l soe
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: a soa
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: i soi
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: u
+---
+lemma: stu
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: ste
+- features:
+    gender: feminine
+    number: singular
+  expected: sta
+- features:
+    gender: masculine
+    number: plural
+  expected: sti
+- features:
+    gender: masculine
+    number: singular
+  expected: stu
+---
+lemma: só
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: só
+- features:
+    number: singular
+    person: third
+  expected: só
+---
+lemma: to
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: ë toe
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: a toa
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: u to
+---
+lemma: tó
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: tó
+- features:
+    number: singular
+    person: second
+  expected: tó
+---
+lemma: vostru
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: ê' l'Ostr
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: a vostra
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: i rostri
+---
+lemma: vóstru
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: vóstra
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: vóstru

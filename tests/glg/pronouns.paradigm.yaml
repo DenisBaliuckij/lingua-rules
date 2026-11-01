@@ -1,0 +1,249 @@
+lemma: aquel
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: aquelas
+- features:
+    gender: feminine
+    number: singular
+  expected: aquela
+- features:
+    gender: masculine
+    number: plural
+  expected: aquelos
+- features:
+    gender: masculine
+    number: singular
+  expected: aquel
+---
+lemma: ese
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: esas
+- features:
+    gender: feminine
+    number: singular
+  expected: esa
+- features:
+    gender: masculine
+    number: plural
+  expected: eses
+- features:
+    gender: masculine
+    number: singular
+  expected: ese
+---
+lemma: este
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: estas
+- features:
+    gender: feminine
+    number: singular
+  expected: esta
+- features:
+    gender: masculine
+    number: plural
+  expected: estes
+- features:
+    gender: masculine
+    number: singular
+  expected: este
+---
+lemma: eu
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: elas
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ela
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: eles
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: el
+- features:
+    number: singular
+    person: first
+  expected: eu
+- features:
+    number: singular
+    person: second
+  expected: ti
+---
+lemma: me
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+    person: third
+  expected: as
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: a
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+    person: third
+  expected: os
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nos
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: vos
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: me
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: te
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: lles
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: me
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: che
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: lle
+---
+lemma: meu
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: nosa
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: vosa
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: súas
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: miña
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: túa
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: súa
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: noso
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: voso
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: seus
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: meu
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: teu
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: seu
+---
+lemma: min
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: elas
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ela
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: eles
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: el
+- features:
+    number: singular
+    person: first
+  expected: min
+- features:
+    number: singular
+    person: second
+  expected: ti

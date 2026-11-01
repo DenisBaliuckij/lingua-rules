@@ -1,0 +1,399 @@
+lemma: dobar
+category: adjectives
+cases:
+- features:
+    case: dative
+    number: dual
+  expected: dobru
+- features:
+    case: dative
+    number: plural
+  expected: dobrim
+- features:
+    case: genitive
+    number: plural
+  expected: dobrih
+- features:
+    case: genitive
+    number: singular
+  expected: dobrog
+- features:
+    case: instrumental
+    number: singular
+  expected: dobrim
+- features:
+    case: vocative
+    number: singular
+  expected: dobra
+---
+lemma: gledati
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: gledala
+- features:
+    gender: feminine
+    number: singular
+  expected: gledala
+- features:
+    gender: masculine
+    number: plural
+  expected: gledali
+- features:
+    gender: masculine
+    number: singular
+  expected: gledao
+- features:
+    gender: neuter
+    number: plural
+  expected: gledale
+- features:
+    gender: neuter
+    number: singular
+  expected: gledalo
+---
+lemma: loš
+category: adjectives
+cases:
+- features:
+    case: dative
+    number: dual
+  expected: lošu
+- features:
+    case: dative
+    number: plural
+  expected: lošim
+- features:
+    case: genitive
+    number: plural
+  expected: loših
+- features:
+    case: genitive
+    number: singular
+  expected: lošeg
+- features:
+    case: instrumental
+    number: singular
+  expected: lošim
+- features:
+    case: vocative
+    number: singular
+  expected: loša
+---
+lemma: neki
+category: adjectives
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: neke
+- features:
+    case: accusative
+    number: singular
+  expected: neki
+- features:
+    case: dative
+    number: dual
+  expected: nekom
+- features:
+    case: genitive
+    number: singular
+  expected: nekog
+- features:
+    case: instrumental
+    number: singular
+  expected: nekim
+- features:
+    case: nominative
+    number: plural
+  expected: neki
+- features:
+    case: nominative
+    number: singular
+  expected: neki
+---
+lemma: videti
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: videla
+- features:
+    gender: feminine
+    number: singular
+  expected: videla
+- features:
+    gender: masculine
+    number: plural
+  expected: videli
+- features:
+    gender: masculine
+    number: singular
+  expected: video
+- features:
+    gender: neuter
+    number: plural
+  expected: videle
+- features:
+    gender: neuter
+    number: singular
+  expected: videlo
+---
+lemma: vidjeti
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: vidjela
+- features:
+    gender: feminine
+    number: singular
+  expected: vidjela
+- features:
+    gender: masculine
+    number: plural
+  expected: vidjeli
+- features:
+    gender: masculine
+    number: singular
+  expected: vidio
+- features:
+    gender: neuter
+    number: plural
+  expected: vidjele
+- features:
+    gender: neuter
+    number: singular
+  expected: vidjelo
+---
+lemma: šuplj
+category: adjectives
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: šuplje
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: šuplje
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: šupljega
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: šupljoj
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: šupljemu
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: šupljoj
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: šuplji
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: šuplji
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: šupljé
+---
+lemma: žut
+category: adjectives
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: žute
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: žûtú
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: žûté
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: žûtô
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: žute
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: žûtô
+- features:
+    case: dative
+    gender: feminine
+    number: plural
+  expected: žūtijem
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: žūtijem
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: žûtômu
+- features:
+    case: dative
+    gender: neuter
+    number: plural
+  expected: žūtijem
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: žûtôm
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: žûtijeh
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: žuté
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: žûtijeh
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: žûtôga
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: žûtijeh
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: žûté
+- features:
+    case: instrumental
+    gender: feminine
+    number: plural
+  expected: žūtijem
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: žutom
+- features:
+    case: instrumental
+    gender: masculine
+    number: plural
+  expected: žūtijem
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: žûtîm
+- features:
+    case: instrumental
+    gender: neuter
+    number: plural
+  expected: žūtijem
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: žûtôm
+- features:
+    case: locative
+    gender: feminine
+    number: plural
+  expected: žûtijeh
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: žûtôj
+- features:
+    case: locative
+    gender: masculine
+    number: plural
+  expected: žûtijeh
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: žûtôm
+- features:
+    case: locative
+    gender: neuter
+    number: plural
+  expected: žûtijeh
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: žûtôm
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: žute
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: žuta
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: žûtî
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: žûtî
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: žute
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: žûtô

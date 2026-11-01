@@ -1,0 +1,426 @@
+lemma: ga
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: ga
+- features:
+    gender: feminine
+    number: singular
+  expected: ga:pj
+- features:
+    gender: masculine
+    number: plural
+  expected: ga
+- features:
+    gender: masculine
+    number: singular
+  expected: ga
+---
+lemma: lot
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: bts!
+- features:
+    gender: feminine
+    number: singular
+  expected: lots
+- features:
+    gender: masculine
+    number: plural
+  expected: lot
+- features:
+    gender: masculine
+    number: singular
+  expected: lot
+---
+lemma: n'u:l
+category: adjectives
+cases:
+- features:
+    gender: masculine
+    number: plural
+  expected: ni:l
+- features:
+    gender: masculine
+    number: singular
+  expected: n'u:l
+---
+lemma: rut
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: nts
+- features:
+    gender: masculine
+    number: plural
+  expected: nt
+- features:
+    gender: masculine
+    number: singular
+  expected: rut
+---
+lemma: t'u:t
+category: adjectives
+cases:
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: ti:t'an
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: ti:tis
+- features:
+    case: ergative
+    gender: masculine
+    number: plural
+  expected: ti:tav
+- features:
+    case: ergative
+    gender: masculine
+    number: singular
+  expected: ti:t
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: ti:t'anhund
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: ti:.t'uk
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: ti:t
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: t'u:t
+---
+lemma: t'uth
+category: adjectives
+cases:
+- features:
+    case: ablative
+    gender: masculine
+    number: plural
+  expected: tith'av
+- features:
+    case: ablative
+    gender: masculine
+    number: singular
+  expected: tithi
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: tith'an
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: tithis
+- features:
+    case: ergative
+    gender: masculine
+    number: plural
+  expected: tith'av
+- features:
+    case: ergative
+    gender: masculine
+    number: singular
+  expected: tith
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: tith
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: t'uth
+---
+lemma: thod
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: thau
+- features:
+    gender: masculine
+    number: singular
+  expected: thod
+---
+lemma: ti:ts
+category: adjectives
+cases:
+- features:
+    case: dative
+    gender: feminine
+    number: plural
+  expected: ti:tsan
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: ti:tsi
+- features:
+    case: ergative
+    gender: feminine
+    number: plural
+  expected: ti:tsav
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: ti:tsan-hund
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: ti:tic
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: ti:tsl
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: ti:ts
+---
+lemma: titsh
+category: adjectives
+cases:
+- features:
+    case: ablative
+    gender: feminine
+    number: plural
+  expected: titshav
+- features:
+    case: ablative
+    gender: feminine
+    number: singular
+  expected: titshi
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: titshi
+- features:
+    case: ergative
+    gender: feminine
+    number: plural
+  expected: titshav
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: titshan-hund
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: titshl
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: titsh
+---
+lemma: yi:ts
+category: adjectives
+cases:
+- features:
+    case: dative
+    gender: feminine
+    number: plural
+  expected: yi:tsan
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: yi:tsi
+- features:
+    case: ergative
+    gender: feminine
+    number: plural
+  expected: yi:tsav
+- features:
+    case: ergative
+    gender: feminine
+    number: singular
+  expected: yi:tsi
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: yi:tsanhund
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: yi:tic
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: yi:tsl
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: yi:ts
+---
+lemma: yitsh
+category: adjectives
+cases:
+- features:
+    case: ablative
+    gender: feminine
+    number: plural
+  expected: yitshav
+- features:
+    case: ablative
+    gender: feminine
+    number: singular
+  expected: yitshi
+- features:
+    case: dative
+    gender: feminine
+    number: plural
+  expected: yitshan
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: yitshi
+- features:
+    case: ergative
+    gender: feminine
+    number: plural
+  expected: yitshav
+- features:
+    case: ergative
+    gender: feminine
+    number: singular
+  expected: yitshi
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: yitshan-hund
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: yitshl
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: yitsh
+---
+lemma: yu:t
+category: adjectives
+cases:
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: yi:t'an
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: yi:tis
+- features:
+    case: ergative
+    gender: masculine
+    number: plural
+  expected: yi:tav
+- features:
+    case: ergative
+    gender: masculine
+    number: singular
+  expected: yi:t
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: yi:t'uk
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: yi:t
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: yu:t
+---
+lemma: yuth
+category: adjectives
+cases:
+- features:
+    case: ablative
+    gender: masculine
+    number: plural
+  expected: yith'av
+- features:
+    case: ablative
+    gender: masculine
+    number: singular
+  expected: yithi
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: yith'an
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: yithis
+- features:
+    case: ergative
+    gender: masculine
+    number: plural
+  expected: yith'av
+- features:
+    case: ergative
+    gender: masculine
+    number: singular
+  expected: yith
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: yith'sund
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: yith
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: yuth

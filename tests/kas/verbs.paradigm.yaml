@@ -1,0 +1,966 @@
+lemma: an
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: jni
+- features:
+    gender: feminine
+    number: singular
+  expected: jn
+- features:
+    gender: masculine
+    number: plural
+  expected: jn
+- features:
+    gender: masculine
+    number: singular
+  expected: 'on'
+---
+lemma: as
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: oS
+- features:
+    gender: feminine
+    number: singular
+  expected: oS
+- features:
+    gender: masculine
+    number: plural
+  expected: oS
+- features:
+    gender: masculine
+    number: singular
+  expected: oS
+---
+lemma: atsun
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: tsa:yi
+- features:
+    gender: feminine
+    number: singular
+  expected: tsa:yi
+- features:
+    gender: masculine
+    number: plural
+  expected: tsa:yi
+- features:
+    gender: masculine
+    number: singular
+  expected: tsa:v
+---
+lemma: beh
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: be:chi
+- features:
+    gender: feminine
+    number: singular
+  expected: bi
+- features:
+    gender: masculine
+    number: plural
+  expected: bi
+- features:
+    gender: masculine
+    number: singular
+  expected: b'u
+---
+lemma: bo(j
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: bu(je:yi
+- features:
+    gender: feminine
+    number: singular
+  expected: bu(je:yi
+- features:
+    gender: masculine
+    number: plural
+  expected: bu(je:yi
+- features:
+    gender: masculine
+    number: singular
+  expected: bu(jo:v
+---
+lemma: ce
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: ceyi
+- features:
+    gender: feminine
+    number: singular
+  expected: ceyi
+- features:
+    gender: masculine
+    number: plural
+  expected: ceyi
+- features:
+    gender: masculine
+    number: singular
+  expected: c'av
+---
+lemma: chal
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: chaji
+- features:
+    gender: masculine
+    number: singular
+  expected: chol
+---
+lemma: di
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: dith
+- features:
+    gender: feminine
+    number: plural
+    person: second
+    tense: past
+  expected: ditsa:yath
+- features:
+    gender: feminine
+    number: plural
+    person: third
+    tense: past
+  expected: ditsa:yi
+- features:
+    gender: feminine
+    number: singular
+  expected: dits
+- features:
+    gender: feminine
+    number: singular
+    person: second
+    tense: past
+  expected: ditsa:yath
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    tense: past
+  expected: ditsa:yi
+- features:
+    gender: masculine
+    number: plural
+  expected: dit
+- features:
+    gender: masculine
+    number: plural
+    person: second
+    tense: past
+  expected: ditsa:yath
+- features:
+    gender: masculine
+    number: plural
+    person: third
+    tense: past
+  expected: ditsa:yi
+- features:
+    gender: masculine
+    number: singular
+  expected: d'ut
+- features:
+    gender: masculine
+    number: singular
+    person: second
+    tense: past
+  expected: ditso:th
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    tense: past
+  expected: ditso:v
+- features:
+    number: singular
+    person: first
+    tense: past
+  expected: ditso:th
+- features:
+    number: singular
+    person: third
+    tense: past
+  expected: ditso:v
+- features:
+    polarity: negative
+    verb_form: participle
+  expected: dinay
+- features:
+    verb_form: infinitive
+  expected: d'-un
+---
+lemma: gatsh
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: gav
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: gav
+---
+lemma: he
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: hetsa
+- features:
+    gender: feminine
+    number: singular
+  expected: bets
+- features:
+    gender: masculine
+    number: plural
+  expected: bet
+- features:
+    gender: masculine
+    number: singular
+  expected: h'ot
+- features:
+    verb_form: infinitive
+  expected: h'-on
+---
+lemma: hek
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: heci
+- features:
+    gender: feminine
+    number: singular
+  expected: bee
+- features:
+    gender: masculine
+    number: plural
+  expected: hek
+- features:
+    gender: masculine
+    number: singular
+  expected: h'ok
+---
+lemma: kar
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: karith
+- features:
+    polarity: negative
+    verb_form: participle
+  expected: kar-a-nay
+- features:
+    verb_form: infinitive
+  expected: karun
+---
+lemma: khas
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: kh
+- features:
+    gender: masculine
+    number: plural
+  expected: kh
+- features:
+    gender: masculine
+    number: singular
+  expected: khot
+---
+lemma: khe
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: kheyi
+- features:
+    gender: feminine
+    number: singular
+  expected: kheyi
+- features:
+    gender: masculine
+    number: plural
+  expected: kheyi
+- features:
+    gender: masculine
+    number: singular
+  expected: kh'av
+---
+lemma: khu:l
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: khule:yi
+- features:
+    gender: feminine
+    number: singular
+  expected: khule:yi
+- features:
+    gender: masculine
+    number: plural
+  expected: khule:yi
+- features:
+    gender: masculine
+    number: singular
+  expected: khul
+---
+lemma: le:kh
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: le:chi
+- features:
+    gender: masculine
+    number: plural
+  expected: li:kh
+- features:
+    gender: masculine
+    number: singular
+  expected: l'u:kh
+---
+lemma: ne:r
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: dra:yi
+- features:
+    gender: feminine
+    number: singular
+  expected: dra:yi
+- features:
+    gender: masculine
+    number: plural
+  expected: dra:yi
+- features:
+    gender: masculine
+    number: singular
+  expected: dra:v
+---
+lemma: ni
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: nith
+- features:
+    gender: feminine
+    number: plural
+  expected: niyi
+- features:
+    gender: feminine
+    number: plural
+    person: second
+    tense: past
+  expected: niye:yath
+- features:
+    gender: feminine
+    number: plural
+    person: third
+    tense: past
+  expected: niye:yi
+- features:
+    gender: feminine
+    number: singular
+  expected: niyi
+- features:
+    gender: feminine
+    number: singular
+    person: second
+    tense: past
+  expected: niye:yath
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    tense: past
+  expected: niye:yi
+- features:
+    gender: masculine
+    number: plural
+  expected: niyi
+- features:
+    gender: masculine
+    number: plural
+    person: second
+    tense: past
+  expected: niye:yath
+- features:
+    gender: masculine
+    number: plural
+    person: third
+    tense: past
+  expected: niye:yi
+- features:
+    gender: masculine
+    number: singular
+  expected: n'uv
+- features:
+    gender: masculine
+    number: singular
+    person: second
+    tense: past
+  expected: niyo:th
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    tense: past
+  expected: niyo:v
+- features:
+    number: singular
+    person: first
+    tense: past
+  expected: niyo:th
+- features:
+    number: singular
+    person: third
+    tense: past
+  expected: niyo:v
+- features:
+    polarity: negative
+    verb_form: participle
+  expected: ninay
+---
+lemma: pak
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: paci
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: paci
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: pacivi
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: paci
+- features:
+    gender: feminine
+    number: singular
+  expected: p
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: pocis
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: p
+- features:
+    gender: masculine
+    number: singular
+  expected: pok
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: pok-us
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: pokukh
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: pok
+---
+lemma: par
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: pari
+- features:
+    gender: feminine
+    number: plural
+    person: second
+    tense: past
+  expected: pare:yath
+- features:
+    gender: feminine
+    number: plural
+    person: third
+    tense: past
+  expected: pare:yi
+- features:
+    gender: feminine
+    number: singular
+  expected: p
+- features:
+    gender: feminine
+    number: singular
+    person: second
+    tense: past
+  expected: pare:yath
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    tense: past
+  expected: pare:yi
+- features:
+    gender: masculine
+    number: plural
+  expected: p
+- features:
+    gender: masculine
+    number: plural
+    person: second
+    tense: past
+  expected: pare:yath
+- features:
+    gender: masculine
+    number: plural
+    person: third
+    tense: past
+  expected: pare:yi
+- features:
+    gender: masculine
+    number: singular
+  expected: por
+- features:
+    gender: masculine
+    number: singular
+    person: second
+    tense: past
+  expected: par
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    tense: past
+  expected: par
+- features:
+    number: plural
+    person: first
+    tense: past
+  expected: par
+- features:
+    number: singular
+    person: first
+    tense: past
+  expected: par
+- features:
+    number: singular
+    person: third
+    tense: past
+  expected: par
+- features:
+    verb_form: infinitive
+  expected: parun
+---
+lemma: pe
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: peyi
+- features:
+    gender: feminine
+    number: singular
+  expected: peyi
+- features:
+    gender: masculine
+    number: plural
+  expected: peyi
+- features:
+    gender: masculine
+    number: singular
+  expected: p'av
+- features:
+    verb_form: infinitive
+  expected: p'-on
+---
+lemma: phu
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: phuci
+- features:
+    gender: feminine
+    number: singular
+  expected: phu
+- features:
+    gender: masculine
+    number: plural
+  expected: phuf
+- features:
+    gender: masculine
+    number: singular
+  expected: phu
+---
+lemma: phut
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: phuci
+- features:
+    gender: feminine
+    number: singular
+  expected: phu
+- features:
+    gender: masculine
+    number: plural
+  expected: phuf
+- features:
+    gender: masculine
+    number: singular
+  expected: phu
+---
+lemma: pi
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: peyi
+- features:
+    gender: feminine
+    number: singular
+  expected: peyi
+- features:
+    gender: masculine
+    number: plural
+  expected: peyi
+- features:
+    gender: masculine
+    number: singular
+  expected: p'av
+---
+lemma: tag
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: taji
+- features:
+    gender: feminine
+    number: singular
+  expected: bj
+- features:
+    gender: masculine
+    number: plural
+  expected: t:Jg
+- features:
+    gender: masculine
+    number: singular
+  expected: tog
+---
+lemma: tra:v
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: tra:vi
+- features:
+    gender: feminine
+    number: singular
+  expected: trn:v
+- features:
+    gender: masculine
+    number: plural
+  expected: tr.J:v
+- features:
+    gender: masculine
+    number: singular
+  expected: tro:v
+---
+lemma: vad
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: vod
+- features:
+    gender: feminine
+    number: singular
+  expected: vod
+- features:
+    gender: masculine
+    number: plural
+  expected: vod
+- features:
+    gender: masculine
+    number: singular
+  expected: vod
+---
+lemma: vas
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: vatshl
+- features:
+    gender: feminine
+    number: singular
+  expected: v
+- features:
+    gender: masculine
+    number: plural
+  expected: v
+- features:
+    gender: masculine
+    number: singular
+  expected: voth
+---
+lemma: vuch
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: vuchilviChi
+- features:
+    gender: feminine
+    number: singular
+  expected: vuchlviCh
+- features:
+    gender: masculine
+    number: plural
+  expected: vuch
+- features:
+    gender: masculine
+    number: singular
+  expected: vuch
+- features:
+    verb_form: infinitive
+  expected: vuchun
+---
+lemma: vush
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: vuchith
+- features:
+    polarity: negative
+    verb_form: participle
+  expected: vuch-a-nay
+---
+lemma: wri
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: za:yi
+- features:
+    gender: feminine
+    number: singular
+  expected: za:yi
+- features:
+    gender: masculine
+    number: plural
+  expected: za:yi
+- features:
+    gender: masculine
+    number: singular
+  expected: z'a:v
+---
+lemma: wzi
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: za:yi
+- features:
+    gender: feminine
+    number: singular
+  expected: za:yi
+- features:
+    gender: masculine
+    number: plural
+  expected: za:yi
+- features:
+    gender: masculine
+    number: singular
+  expected: z'a:v
+---
+lemma: yi
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: yith
+- features:
+    gender: feminine
+    number: plural
+  expected: a:yi
+- features:
+    gender: feminine
+    number: singular
+  expected: a:yi
+- features:
+    gender: masculine
+    number: plural
+  expected: a:yi
+- features:
+    gender: masculine
+    number: singular
+  expected: a:v
+- features:
+    polarity: negative
+    verb_form: participle
+  expected: yinay
+- features:
+    verb_form: infinitive
+  expected: yun
+---
+lemma: yir
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: yire:yi
+- features:
+    gender: feminine
+    number: singular
+  expected: yire:yi
+- features:
+    gender: masculine
+    number: plural
+  expected: yire:yi
+- features:
+    gender: masculine
+    number: singular
+  expected: yir
+---
+lemma: yun
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: a:yi
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: a:yi
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: a:yi
+- features:
+    gender: feminine
+    number: singular
+  expected: a:yi
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: a:yas
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: a:yakh
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: a:yi
+- features:
+    gender: masculine
+    number: plural
+  expected: a:yi
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: a:yi
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: a:yi
+- features:
+    gender: masculine
+    number: singular
+  expected: a:v
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: a:s
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: a:kh
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: a:v

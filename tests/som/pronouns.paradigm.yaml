@@ -1,0 +1,84 @@
+lemma: ana
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: isa
+- features:
+    number: singular
+    person: first
+  expected: ana
+- features:
+    number: singular
+    person: second
+  expected: ada
+---
+lemma: ani
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: isi
+- features:
+    number: singular
+    person: first
+  expected: ani
+- features:
+    number: singular
+    person: second
+  expected: adi
+---
+lemma: aniga
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: isaga
+- features:
+    number: singular
+    person: first
+  expected: aniga
+- features:
+    number: singular
+    person: second
+  expected: adiga
+---
+lemma: anigu
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: isagu
+- features:
+    number: singular
+    person: first
+  expected: anigu
+- features:
+    number: singular
+    person: second
+  expected: adigu
+---
+lemma: anu
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: isu
+- features:
+    number: singular
+    person: first
+  expected: anu
+- features:
+    number: singular
+    person: second
+  expected: adu

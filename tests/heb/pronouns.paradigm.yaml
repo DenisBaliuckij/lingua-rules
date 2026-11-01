@@ -1,0 +1,27 @@
+lemma: ani
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: anaxnu
+- features:
+    number: plural
+    person: second
+  expected: atem
+- features:
+    number: plural
+    person: third
+  expected: hem
+- features:
+    number: singular
+    person: first
+  expected: ani
+- features:
+    number: singular
+    person: second
+  expected: ata
+- features:
+    number: singular
+    person: third
+  expected: hu
