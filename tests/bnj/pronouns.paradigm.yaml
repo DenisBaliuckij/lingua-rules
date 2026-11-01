@@ -1,0 +1,94 @@
+lemma: am
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: ayu
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: ay
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: am
+---
+lemma: ami
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: emi
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: em
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ami
+---
+lemma: au
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: aŋku
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ku
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: au
+---
+lemma: ita
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: anta
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: ta
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ita
+---
+lemma: itam
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: antam
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: tam
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: itam

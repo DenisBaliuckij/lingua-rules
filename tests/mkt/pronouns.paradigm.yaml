@@ -1,0 +1,89 @@
+lemma: e-hni
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: dual
+  expected: muu-hni
+- features:
+    case: nominative
+    number: plural
+  expected: ni-e-hni
+- features:
+    case: nominative
+    number: singular
+  expected: e-hni
+- features:
+    number: dual
+  expected: muu-hni
+- features:
+    number: plural
+  expected: ni-e-hni
+- features:
+    number: singular
+  expected: e-hni
+---
+lemma: e-na
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: dual
+  expected: muu-na
+- features:
+    case: nominative
+    number: plural
+  expected: ni-e-na
+- features:
+    case: nominative
+    number: singular
+  expected: e-na
+- features:
+    number: dual
+  expected: muu-na
+- features:
+    number: plural
+  expected: ni-e-na
+- features:
+    number: singular
+  expected: e-na
+---
+lemma: yo
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: abu
+- features:
+    number: dual
+    person: second
+  expected: gau
+- features:
+    number: dual
+    person: third
+  expected: lu
+- features:
+    number: plural
+    person: first
+  expected: abe
+- features:
+    number: plural
+    person: second
+  expected: gavwe
+- features:
+    number: plural
+    person: third
+  expected: le
+- features:
+    number: singular
+    person: first
+  expected: yo
+- features:
+    number: singular
+    person: second
+  expected: go
+- features:
+    number: singular
+    person: third
+  expected: ya

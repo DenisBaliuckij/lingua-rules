@@ -1,0 +1,23 @@
+lemma: mina
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hina
+- features:
+    number: plural
+    person: second
+  expected: n'wina
+- features:
+    number: singular
+    person: first
+  expected: mina
+- features:
+    number: singular
+    person: second
+  expected: wena
+- features:
+    number: singular
+    person: third
+  expected: yena

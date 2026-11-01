@@ -1,0 +1,47 @@
+lemma: da
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: sidia
+- features:
+    number: singular
+  expected: idia
+---
+lemma: ne
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: sine
+- features:
+    number: singular
+  expected: ine
+---
+lemma: nik
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: am
+- features:
+    number: plural
+    person: second
+  expected: meu
+- features:
+    number: plural
+    person: third
+  expected: nidi
+- features:
+    number: singular
+    person: first
+  expected: nik
+- features:
+    number: singular
+    person: second
+  expected: nim
+- features:
+    number: singular
+    person: third
+  expected: ni

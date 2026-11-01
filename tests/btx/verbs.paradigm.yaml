@@ -1,0 +1,49 @@
+lemma: ni
+category: verbs
+cases:
+- features:
+    formality: formal
+    number: singular
+    person: second
+  expected: nindu
+- features:
+    formality: informal
+    number: singular
+    person: second
+  expected: nim
+- features:
+    number: plural
+    person: first
+  expected: ninta
+- features:
+    number: singular
+    person: first
+  expected: ningku
+- features:
+    number: singular
+    person: third
+  expected: nina
+---
+lemma: pekpek
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    voice: passive
+  expected: sipekpek
+- features:
+    number: singular
+    person: first
+    voice: passive
+  expected: kupekpek
+- features:
+    number: singular
+    person: second
+    voice: passive
+  expected: i-pekpek-ndu
+- features:
+    number: singular
+    person: third
+    voice: passive
+  expected: i-pekpek-na

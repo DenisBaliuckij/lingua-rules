@@ -1,0 +1,79 @@
+lemma: ir
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: vamos
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: vais
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: van
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: voy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: vas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: va
+---
+lemma: ser
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: somos
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: sois
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: son
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: soy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: eres
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: es

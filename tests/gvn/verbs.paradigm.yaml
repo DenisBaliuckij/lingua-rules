@@ -1,0 +1,41 @@
+lemma: hit
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+  expected: kuninyaku
+- features:
+    mood: imperative
+    number: singular
+  expected: kuni
+- features:
+    tense: past
+  expected: kuniny
+- features:
+    tense: present
+  expected: kunil
+- features:
+    verb_form: converb
+  expected: kuninka
+---
+lemma: sit
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+  expected: bundanyaku
+- features:
+    mood: imperative
+    number: singular
+  expected: bunday
+- features:
+    tense: past
+  expected: bundany
+- features:
+    tense: present
+  expected: bunday
+- features:
+    verb_form: converb
+  expected: bundanka

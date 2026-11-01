@@ -1,0 +1,82 @@
+lemma: ak@
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: l
+---
+lemma: d@
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: b@l
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: d@y
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: d@
+---
+lemma: l@
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: l@
+---
+lemma: m@n
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: dual
+    person: second
+  expected: gun
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: gwur
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: m@n
+---
+lemma: wun
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: dual
+    person: first
+  expected: an
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: ñan
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: wun
+---
+lemma: ñ@n
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: ñ@n

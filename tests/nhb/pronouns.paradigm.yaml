@@ -1,0 +1,31 @@
+lemma: mi ̰̰
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: mi ̰̰
+---
+lemma: à
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ŋò
+- features:
+    number: singular
+    person: third
+  expected: à
+---
+lemma: ŋ̄
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: a̰ŋ̄ ̄
+- features:
+    number: singular
+    person: first
+  expected: ŋ̄

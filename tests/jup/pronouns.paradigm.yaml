@@ -1,0 +1,41 @@
+lemma: n’i
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+  expected: n’in’ˆ‡h
+- features:
+    case: accusative
+  expected: n’íw-a‡n
+- features:
+    case: allative
+  expected: n’ikán
+- features:
+    case: locative
+  expected: n’ít
+- features:
+    case: nominative
+  expected: n’i
+- features:
+    case: oblique
+  expected: n’íp
+- features:
+    degree: comparative
+  expected: n’íp
+- features:
+    number: plural
+  expected: n’id’´‡h
+---
+lemma: yu
+category: pronouns
+cases:
+- features:
+    case: locative
+  expected: yˆ-có
+- features:
+    case: oblique
+  expected: yúw-út
+- features:
+    number: plural
+  expected: yˆ-d’´‡h

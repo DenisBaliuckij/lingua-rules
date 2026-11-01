@@ -1,0 +1,65 @@
+lemma: dooy
+category: pronouns
+cases:
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: en da dooy
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: en dooy
+- features:
+    number: plural
+    person: third
+  expected: da dooy
+- features:
+    number: singular
+    person: third
+  expected: si dooy
+---
+lemma: naey
+category: pronouns
+cases:
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: en da naey
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: en naey
+- features:
+    number: plural
+    person: first
+  expected: da naey
+- features:
+    number: singular
+    person: first
+  expected: si naey
+---
+lemma: sana
+category: pronouns
+cases:
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: en da sana
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: en sana
+- features:
+    number: plural
+    person: second
+  expected: da sana
+- features:
+    number: singular
+    person: second
+  expected: si sana

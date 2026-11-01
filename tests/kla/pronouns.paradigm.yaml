@@ -1,0 +1,85 @@
+lemma: hut
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    case: accusative
+    number: plural
+    person: third
+  expected: hinges
+- features:
+    animacy: animate
+    case: accusative
+    number: singular
+    person: third
+  expected: hunk
+- features:
+    animacy: inanimate
+    case: accusative
+    number: plural
+    person: third
+  expected: hutá
+- features:
+    animacy: inanimate
+    case: accusative
+    number: singular
+    person: third
+  expected: hun
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: hutsa
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: hut
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: amal
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: mis
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: at
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: i
+---
+lemma: nu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nal
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: an
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nat
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: nu

@@ -1,0 +1,81 @@
+lemma: cu-a
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+  expected: na-bin-gu-a
+- features:
+    number: plural
+    person: third
+  expected: na-ga-cu-a
+- features:
+    number: singular
+    person: first
+  expected: na-cu-a
+---
+lemma: gu-ainiqui
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ca-cii-alnlqui
+- features:
+    number: singular
+    person: first
+  expected: gub-ct^-ainiqui
+- features:
+    number: singular
+    person: third
+  expected: gu--ainiqui
+---
+lemma: la
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: xui-ca-la
+- features:
+    number: plural
+    person: second
+  expected: na-bi-na
+- features:
+    number: plural
+    person: third
+  expected: na-ga-la
+- features:
+    number: singular
+    person: first
+  expected: na-la-cu
+- features:
+    number: singular
+    person: second
+  expected: na-ba-la
+- features:
+    number: singular
+    person: third
+  expected: nala
+---
+lemma: na-gu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: na-gu-cu-a
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: na-ba-cxi-a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: na-^u-a
