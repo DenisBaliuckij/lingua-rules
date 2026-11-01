@@ -1,0 +1,19 @@
+lemma: wa
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: ti
+- features:
+    gender: feminine
+    number: singular
+  expected: ta
+- features:
+    gender: masculine
+    number: plural
+  expected: wi
+- features:
+    gender: masculine
+    number: singular
+  expected: wa

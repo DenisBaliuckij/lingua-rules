@@ -1,0 +1,39 @@
+lemma: ay
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: am
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: at
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: aḵ
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: aṯ
+- features:
+    number: plural
+    person: first
+  expected: anax
+- features:
+    number: plural
+    person: second
+  expected: awen
+- features:
+    number: plural
+    person: third
+  expected: ahen
+- features:
+    number: singular
+    person: first
+  expected: ay

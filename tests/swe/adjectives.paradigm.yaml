@@ -1,0 +1,170 @@
+lemma: gammal
+category: adjectives
+cases:
+- features:
+    definiteness: definite
+    gender: common
+    number: singular
+  expected: gamla
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: gamla
+- features:
+    definiteness: definite
+    number: plural
+  expected: gamla
+- features:
+    gender: common
+    number: singular
+  expected: gammal
+- features:
+    gender: neuter
+    number: singular
+  expected: gammal
+- features:
+    number: plural
+  expected: gamla
+---
+lemma: ledsen
+category: adjectives
+cases:
+- features:
+    definiteness: definite
+    gender: common
+    number: singular
+  expected: ledsne
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: ledsne
+- features:
+    definiteness: definite
+    number: plural
+  expected: ledsna
+- features:
+    gender: common
+    number: singular
+  expected: ledsen
+- features:
+    gender: neuter
+    number: singular
+  expected: ledsen
+- features:
+    number: plural
+  expected: ledsna
+---
+lemma: liten
+category: adjectives
+cases:
+- features:
+    definiteness: definite
+    gender: common
+    number: singular
+  expected: lilla
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: lilla
+- features:
+    definiteness: definite
+    number: plural
+  expected: små
+- features:
+    gender: common
+    number: singular
+  expected: liten
+- features:
+    gender: neuter
+    number: singular
+  expected: litet
+- features:
+    number: plural
+  expected: små
+---
+lemma: snäll
+category: adjectives
+cases:
+- features:
+    definiteness: indefinite
+    gender: common
+    number: singular
+  expected: snäll
+- features:
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: snällt
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: snälla
+---
+lemma: stor
+category: adjectives
+cases:
+- features:
+    definiteness: definite
+    gender: common
+    number: singular
+  expected: stora
+- features:
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: store
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: stora
+- features:
+    definiteness: definite
+    number: plural
+  expected: stora
+- features:
+    definiteness: indefinite
+    gender: common
+    number: singular
+  expected: stor
+- features:
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: stort
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: stora
+---
+lemma: vacker
+category: adjectives
+cases:
+- features:
+    definiteness: definite
+    gender: common
+    number: singular
+  expected: vackra
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: vackra
+- features:
+    definiteness: definite
+    number: plural
+  expected: vackra
+- features:
+    gender: common
+    number: singular
+  expected: vacker
+- features:
+    gender: neuter
+    number: singular
+  expected: vacker
+- features:
+    number: plural
+  expected: vackra

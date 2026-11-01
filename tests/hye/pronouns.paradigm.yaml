@@ -1,0 +1,927 @@
+lemma: im
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mer
+- features:
+    number: singular
+    person: first
+  expected: im
+---
+lemma: k
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: jer
+- features:
+    number: singular
+    person: second
+  expected: k
+---
+lemma: nra
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: nranc
+- features:
+    number: singular
+    person: third
+  expected: nra
+---
+lemma: áí ov
+category: pronouns
+cases:
+- features:
+    case: instrumental
+    number: singular
+  expected: áõÙáí umov
+- features:
+    case: nominative
+    number: plural
+  expected: áíù»ñ ovk’er
+- features:
+    case: nominative
+    number: singular
+  expected: áí ov
+---
+lemma: այդ
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: ատոնցմէ
+- features:
+    case: ablative
+    number: singular
+  expected: ատկէ
+- features:
+    case: accusative
+    number: plural
+  expected: ատոնք
+- features:
+    case: accusative
+    number: singular
+  expected: այդ
+- features:
+    case: genitive
+    number: plural
+  expected: ատոնց
+- features:
+    case: genitive
+    number: singular
+  expected: ատոր
+- features:
+    case: instrumental
+    number: plural
+  expected: ատոնցմով
+- features:
+    case: instrumental
+    number: singular
+  expected: ատով
+- features:
+    case: nominative
+    number: plural
+  expected: ատոնք
+- features:
+    case: nominative
+    number: singular
+  expected: այդ
+---
+lemma: այն
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: անոնցմէ
+- features:
+    case: ablative
+    number: singular
+  expected: անկէ
+- features:
+    case: accusative
+    number: plural
+  expected: անոնք
+- features:
+    case: accusative
+    number: singular
+  expected: այն
+- features:
+    case: genitive
+    number: plural
+  expected: անոնց
+- features:
+    case: genitive
+    number: singular
+  expected: անոր
+- features:
+    case: instrumental
+    number: plural
+  expected: անոնցմով
+- features:
+    case: instrumental
+    number: singular
+  expected: անով
+- features:
+    case: nominative
+    number: plural
+  expected: անոնք
+- features:
+    case: nominative
+    number: singular
+  expected: այն
+---
+lemma: այս
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: ասոնցմէ
+- features:
+    case: ablative
+    number: singular
+  expected: ասկէ
+- features:
+    case: accusative
+    number: plural
+  expected: ասոնք
+- features:
+    case: accusative
+    number: singular
+  expected: այս
+- features:
+    case: genitive
+    number: plural
+  expected: ասոնց
+- features:
+    case: genitive
+    number: singular
+  expected: ասոր
+- features:
+    case: instrumental
+    number: plural
+  expected: ասոնցմով
+- features:
+    case: instrumental
+    number: singular
+  expected: ասով
+- features:
+    case: nominative
+    number: plural
+  expected: ասոնք
+- features:
+    case: nominative
+    number: singular
+  expected: այս
+---
+lemma: դա
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: դրանցից
+- features:
+    case: ablative
+    number: singular
+  expected: դրանից
+- features:
+    case: dative
+    number: plural
+  expected: դրանց
+- features:
+    case: dative
+    number: singular
+  expected: դրան
+- features:
+    case: genitive
+    number: plural
+  expected: դրանց
+- features:
+    case: genitive
+    number: singular
+  expected: դրա
+- features:
+    case: instrumental
+    number: plural
+  expected: դրանցով
+- features:
+    case: instrumental
+    number: singular
+  expected: դրանով
+- features:
+    case: locative
+    number: plural
+  expected: դրանցում
+- features:
+    case: locative
+    number: singular
+  expected: դրանում
+- features:
+    case: nominative
+    number: plural
+  expected: դրանք
+- features:
+    case: nominative
+    number: singular
+  expected: դա
+---
+lemma: ես
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: եղոցից
+- features:
+    case: ablative
+    number: singular
+  expected: եղոյից
+- features:
+    case: dative
+    number: plural
+  expected: եղոց
+- features:
+    case: dative
+    number: singular
+  expected: եղոյ
+- features:
+    case: genitive
+    number: plural
+  expected: եղոց
+- features:
+    case: genitive
+    number: singular
+  expected: եղո
+- features:
+    case: instrumental
+    number: plural
+  expected: եղոցով
+- features:
+    case: instrumental
+    number: singular
+  expected: եղոյով
+- features:
+    case: locative
+    number: plural
+  expected: եղոցում
+- features:
+    case: locative
+    number: singular
+  expected: եղոյում
+- features:
+    case: nominative
+    number: plural
+  expected: եղոյս
+- features:
+    case: nominative
+    number: singular
+  expected: ես
+---
+lemma: իմ
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: գրքերի
+- features:
+    case: accusative
+    number: plural
+  expected: գրքերս
+- features:
+    case: dative
+    number: plural
+  expected: գրքերուս
+- features:
+    case: genitive
+    number: plural
+  expected: գրքերուս
+- features:
+    case: instrumental
+    number: plural
+  expected: գրքերովս
+- features:
+    case: nominative
+    number: plural
+  expected: գրքերս
+---
+lemma: ինչ
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: ինչերից
+- features:
+    case: ablative
+    number: singular
+  expected: ինչից
+- features:
+    case: accusative
+    number: plural
+  expected: ինչերը
+- features:
+    case: accusative
+    number: singular
+  expected: ինչ
+- features:
+    case: dative
+    number: plural
+  expected: ինչերի
+- features:
+    case: dative
+    number: singular
+  expected: ինչի
+- features:
+    case: genitive
+    number: plural
+  expected: ինչերի
+- features:
+    case: genitive
+    number: singular
+  expected: ինչի
+- features:
+    case: instrumental
+    number: plural
+  expected: ինչերով
+- features:
+    case: instrumental
+    number: singular
+  expected: ինչով
+- features:
+    case: locative
+    number: plural
+  expected: ինչերում
+- features:
+    case: locative
+    number: singular
+  expected: ինչում
+- features:
+    case: nominative
+    number: plural
+  expected: ինչեր
+- features:
+    case: nominative
+    number: singular
+  expected: ինչ
+---
+lemma: իր
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: գրքերին
+- features:
+    case: accusative
+    number: plural
+  expected: գրքերը
+- features:
+    case: dative
+    number: plural
+  expected: գրքերուն
+- features:
+    case: genitive
+    number: plural
+  expected: գրքերուն
+- features:
+    case: instrumental
+    number: plural
+  expected: tf^^r^
+- features:
+    case: nominative
+    number: plural
+  expected: գրքերը
+---
+lemma: իրար
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: իրարից
+- features:
+    case: accusative
+    number: singular
+  expected: իրար
+- features:
+    case: dative
+    number: singular
+  expected: իրար
+- features:
+    case: genitive
+    number: singular
+  expected: իրար
+- features:
+    case: instrumental
+    number: singular
+  expected: իրարով
+- features:
+    case: locative
+    number: singular
+  expected: իրարում
+---
+lemma: իրենց
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: իրենց
+- features:
+    case: accusative
+    number: singular
+  expected: իրենց
+- features:
+    case: dative
+    number: singular
+  expected: իրենց
+- features:
+    case: genitive
+    number: singular
+  expected: իրենց
+- features:
+    case: instrumental
+    number: singular
+  expected: իրենց
+- features:
+    case: nominative
+    number: singular
+  expected: իրենց
+---
+lemma: ձեՐ
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: ձեր
+- features:
+    case: accusative
+    number: plural
+  expected: գբ^բը
+- features:
+    case: dative
+    number: plural
+  expected: ձեր
+- features:
+    case: genitive
+    number: plural
+  expected: ձեր
+- features:
+    case: instrumental
+    number: plural
+  expected: ձեր
+- features:
+    case: nominative
+    number: plural
+  expected: գբ^բը
+---
+lemma: ձեր
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: ձեր
+- features:
+    case: accusative
+    number: singular
+  expected: ձեր
+- features:
+    case: dative
+    number: singular
+  expected: ձեր
+- features:
+    case: genitive
+    number: singular
+  expected: ձեր
+- features:
+    case: instrumental
+    number: singular
+  expected: ձեր
+- features:
+    case: nominative
+    number: singular
+  expected: ձեր
+---
+lemma: մեր
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: մեր
+- features:
+    case: ablative
+    number: singular
+  expected: մեր
+- features:
+    case: accusative
+    number: plural
+  expected: գր^րը
+- features:
+    case: accusative
+    number: singular
+  expected: մեր
+- features:
+    case: dative
+    number: plural
+  expected: մեր
+- features:
+    case: dative
+    number: singular
+  expected: մեր
+- features:
+    case: genitive
+    number: plural
+  expected: մեր
+- features:
+    case: genitive
+    number: singular
+  expected: մեր
+- features:
+    case: instrumental
+    number: plural
+  expected: մեր
+- features:
+    case: instrumental
+    number: singular
+  expected: մեր
+- features:
+    case: nominative
+    number: plural
+  expected: գր^րը
+- features:
+    case: nominative
+    number: singular
+  expected: մեր
+---
+lemma: միմեանց
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: միմեանցից
+- features:
+    case: accusative
+    number: plural
+  expected: միմեանց
+- features:
+    case: dative
+    number: plural
+  expected: միմեանց
+- features:
+    case: genitive
+    number: plural
+  expected: միմեանց
+- features:
+    case: instrumental
+    number: plural
+  expected: միմեանցով
+- features:
+    case: locative
+    number: plural
+  expected: միմեանցում
+---
+lemma: նա
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: նրանցից
+- features:
+    case: ablative
+    number: singular
+  expected: նրանից
+- features:
+    case: dative
+    number: plural
+  expected: նրանց
+- features:
+    case: dative
+    number: singular
+  expected: նրան
+- features:
+    case: genitive
+    number: plural
+  expected: նրանց
+- features:
+    case: genitive
+    number: singular
+  expected: նրա
+- features:
+    case: instrumental
+    number: plural
+  expected: նրանցով
+- features:
+    case: instrumental
+    number: singular
+  expected: նրանով
+- features:
+    case: locative
+    number: plural
+  expected: նրանցում
+- features:
+    case: locative
+    number: singular
+  expected: նրանում
+- features:
+    case: nominative
+    number: plural
+  expected: նրանք
+- features:
+    case: nominative
+    number: singular
+  expected: նա
+---
+lemma: նոյն
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: նոյն երէն
+- features:
+    case: ablative
+    number: singular
+  expected: նոյնէն
+- features:
+    case: accusative
+    number: plural
+  expected: նոյնը
+- features:
+    case: accusative
+    number: singular
+  expected: նոյնը
+- features:
+    case: genitive
+    number: plural
+  expected: նոյներուն
+- features:
+    case: genitive
+    number: singular
+  expected: նոյնին
+- features:
+    case: instrumental
+    number: plural
+  expected: նոյներով
+- features:
+    case: instrumental
+    number: singular
+  expected: նոյնով
+- features:
+    case: nominative
+    number: plural
+  expected: նոյնը
+- features:
+    case: nominative
+    number: singular
+  expected: նոյնը
+---
+lemma: ոմն
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: ոմանցից
+- features:
+    case: accusative
+    number: plural
+  expected: ոմանց
+- features:
+    case: dative
+    number: plural
+  expected: ոմանց
+- features:
+    case: genitive
+    number: plural
+  expected: ոմանց
+- features:
+    case: instrumental
+    number: plural
+  expected: ոմանցով
+- features:
+    case: locative
+    number: plural
+  expected: ոմանցում
+- features:
+    case: nominative
+    number: plural
+  expected: ոմանք
+- features:
+    case: nominative
+    number: singular
+  expected: ոմն
+---
+lemma: ով
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: ովքեր
+- features:
+    case: ablative
+    number: singular
+  expected: ուց
+- features:
+    case: accusative
+    number: plural
+  expected: ովքեր
+- features:
+    case: accusative
+    number: singular
+  expected: ում
+- features:
+    case: dative
+    number: plural
+  expected: ովքեր
+- features:
+    case: dative
+    number: singular
+  expected: ում
+- features:
+    case: genitive
+    number: plural
+  expected: ովքեր
+- features:
+    case: genitive
+    number: singular
+  expected: ում
+- features:
+    case: instrumental
+    number: plural
+  expected: ովքեր
+- features:
+    case: instrumental
+    number: singular
+  expected: ով
+- features:
+    case: locative
+    number: plural
+  expected: ովքեր
+- features:
+    case: locative
+    number: singular
+  expected: ում
+- features:
+    case: nominative
+    number: plural
+  expected: ովքեր
+- features:
+    case: nominative
+    number: singular
+  expected: ով
+---
+lemma: որ
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: որոնցից
+- features:
+    case: ablative
+    number: singular
+  expected: որից
+- features:
+    case: accusative
+    number: plural
+  expected: որոնք
+- features:
+    case: accusative
+    number: singular
+  expected: որը
+- features:
+    case: dative
+    number: plural
+  expected: որոնց
+- features:
+    case: dative
+    number: singular
+  expected: որի
+- features:
+    case: genitive
+    number: plural
+  expected: որոնց
+- features:
+    case: genitive
+    number: singular
+  expected: որի
+- features:
+    case: instrumental
+    number: plural
+  expected: որոնցով
+- features:
+    case: instrumental
+    number: singular
+  expected: որով
+- features:
+    case: locative
+    number: plural
+  expected: որոնցում
+- features:
+    case: locative
+    number: singular
+  expected: որում
+- features:
+    case: nominative
+    number: plural
+  expected: որոնք
+- features:
+    case: nominative
+    number: singular
+  expected: որ
+---
+lemma: սա
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: սրանցից
+- features:
+    case: ablative
+    number: singular
+  expected: սրանից
+- features:
+    case: dative
+    number: plural
+  expected: սրանց
+- features:
+    case: dative
+    number: singular
+  expected: սրան
+- features:
+    case: genitive
+    number: plural
+  expected: սրանց
+- features:
+    case: genitive
+    number: singular
+  expected: սրա
+- features:
+    case: instrumental
+    number: plural
+  expected: սրանցով
+- features:
+    case: instrumental
+    number: singular
+  expected: սրանով
+- features:
+    case: locative
+    number: plural
+  expected: սրանցում
+- features:
+    case: locative
+    number: singular
+  expected: սրանում
+- features:
+    case: nominative
+    number: plural
+  expected: սրանք
+- features:
+    case: nominative
+    number: singular
+  expected: սա
+---
+lemma: քու
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: գրքերէդ
+- features:
+    case: accusative
+    number: plural
+  expected: գրքերդ
+- features:
+    case: dative
+    number: plural
+  expected: գրքերուդ
+- features:
+    case: genitive
+    number: plural
+  expected: գրքերուդ
+- features:
+    case: instrumental
+    number: plural
+  expected: գրքեր ո վգ
+- features:
+    case: nominative
+    number: plural
+  expected: գրքերդ

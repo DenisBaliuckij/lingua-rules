@@ -1,0 +1,2386 @@
+lemma: ABi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: yeyem
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: yaicer
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: yeyeM
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: yaim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: yait
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: yai
+---
+lemma: ai
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    voice: middle
+  expected: paskemntär
+- features:
+    number: plural
+    person: third
+    voice: middle
+  expected: aikentär
+- features:
+    number: singular
+    person: first
+    voice: middle
+  expected: aikemar
+- features:
+    number: singular
+    person: second
+    voice: middle
+  expected: aistar
+- features:
+    number: singular
+    person: third
+    voice: middle
+  expected: aistär
+- features:
+    verb_form: gerund
+  expected: aisalle
+- features:
+    verb_form: participle
+  expected: aiseñca
+---
+lemma: aks
+category: verbs
+cases:
+- features:
+    gender: masculine
+    verb_form: participle
+  expected: aksaskemane
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: active
+  expected: aksascer
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: active
+  expected: aksaskeM
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: active
+  expected: aksaskau-me
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: active
+  expected: aksasto
+---
+lemma: auks
+category: verbs
+cases:
+- features:
+    gender: masculine
+    verb_form: participle
+  expected: aksismaM
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: active
+  expected: aksisam
+- features:
+    verb_form: infinitive
+  expected: aksissi
+---
+lemma: aun
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: preterite
+  expected: auntsante
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+    voice: active
+  expected: aunasta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: auntsate
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+    voice: active
+  expected: aunar
+---
+lemma: cäukä
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+  expected: caukamte
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: preterite
+  expected: caukatär
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: preterite
+  expected: caukante
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: caukamai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: caukatai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: caukate
+---
+lemma: i
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+    voice: active
+  expected: yacer
+- features:
+    number: singular
+    person: first
+    voice: active
+  expected: yam
+- features:
+    number: singular
+    person: second
+    voice: active
+  expected: yat
+- features:
+    number: singular
+    person: third
+    voice: active
+  expected: yaM
+---
+lemma: keri
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: kekéru
+- features:
+    mood: subjunctive
+    number: singular
+  expected: keri
+- features:
+    number: singular
+    tense: present
+  expected: keri
+- features:
+    number: singular
+    tense: preterite
+  expected: keriyä
+---
+lemma: klautkô
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: käckläutkä
+- features:
+    number: singular
+    tense: present
+  expected: klautkô
+- features:
+    number: singular
+    tense: preterite
+  expected: kläutkä
+---
+lemma: klyaus
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+    voice: active
+  expected: klyausäm
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+    voice: middle
+  expected: klyausämte
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: preterite
+    voice: active
+  expected: klyausâs
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: preterite
+    voice: middle
+  expected: klyausät
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: preterite
+    voice: active
+  expected: klyausäre
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: preterite
+    voice: middle
+  expected: klyausänte
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+    voice: active
+  expected: klyausâwa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+    voice: middle
+  expected: klyausämai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+    voice: active
+  expected: klyausästa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+    voice: middle
+  expected: klyausätai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+    voice: active
+  expected: klyausa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+    voice: middle
+  expected: klyausäte
+---
+lemma: klyeus’ä
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: keklyéusu
+- features:
+    mood: subjunctive
+    number: singular
+  expected: klyeus’ä
+- features:
+    number: singular
+    tense: present
+  expected: klyeus’ä
+- features:
+    number: singular
+    tense: preterite
+  expected: klyäusä
+---
+lemma: koloktär
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: middle
+  expected: kolokntär
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: middle
+  expected: koloktär
+- features:
+    verb_form: participle
+    voice: middle
+  expected: kolokmane
+---
+lemma: kum
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: rinäsmaM
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: active
+  expected: klyosäMsamäs
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: active
+  expected: klyosäMseñc
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: middle
+  expected: tskäMsantär
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: active
+  expected: kumsam
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: middle
+  expected: tsäknäsmar
+- features:
+    verb_form: infinitive
+  expected: rinässi
+---
+lemma: kwipennä
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: kekwipénnu
+- features:
+    mood: subjunctive
+    number: singular
+  expected: kwipennä
+- features:
+    number: singular
+    tense: present
+  expected: kwipennä
+- features:
+    number: singular
+    tense: preterite
+  expected: kwipénnâ
+---
+lemma: kälp
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+    voice: active
+  expected: kälpäm
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+    voice: middle
+  expected: kälpämte
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: preterite
+    voice: active
+  expected: kälpäs
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: preterite
+    voice: middle
+  expected: kälpät
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: preterite
+    voice: active
+  expected: kälpäre
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: preterite
+    voice: middle
+  expected: kälpänte
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+    voice: active
+  expected: kälpäwa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+    voice: middle
+  expected: kälpämai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+    voice: active
+  expected: kälpästa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+    voice: middle
+  expected: kälpätai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+    voice: active
+  expected: kalpa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+    voice: middle
+  expected: kälpäte
+---
+lemma: kälpäskau
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kälpäskem
+- features:
+    number: plural
+    person: second
+  expected: kälpäscer
+- features:
+    number: plural
+    person: third
+  expected: kalpäskem
+- features:
+    number: singular
+    person: first
+  expected: kâlpâskau
+- features:
+    number: singular
+    person: second
+  expected: kälpäst
+- features:
+    number: singular
+    person: third
+  expected: kälpässäm
+---
+lemma: käm
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kmem
+- features:
+    number: plural
+    person: third
+  expected: kameM
+- features:
+    number: singular
+    person: third
+  expected: sem
+- features:
+    verb_form: past_participle
+  expected: kekamu
+---
+lemma: kärs
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    voice: active
+  expected: kärsye-ñ
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    voice: active
+  expected: kärsi-ñ
+---
+lemma: kärsanoym
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+    voice: active
+  expected: kärsanoyem
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: kärsanoycer
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: active
+  expected: kärsanoyem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: kärsanoym
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: kärsanoyt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: kärsanoy
+---
+lemma: kärsoym
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    voice: active
+  expected: kärsoyem
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    voice: active
+  expected: kärsoycer
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    voice: active
+  expected: kärsoyem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    voice: active
+  expected: kärsoym
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    voice: active
+  expected: kärsoyt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    voice: active
+  expected: karsoy
+---
+lemma: käskännä
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: käsko
+- features:
+    mood: subjunctive
+    number: singular
+  expected: käskäZkäskä
+- features:
+    number: singular
+    tense: present
+  expected: käskännä
+---
+lemma: kätk
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: active
+  expected: kätta$käM
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: kätta$käM
+---
+lemma: kätkäsk’ä
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: kätkässu
+- features:
+    mood: subjunctive
+    number: singular
+  expected: kätkäsk’ä
+- features:
+    number: singular
+    tense: present
+  expected: kätkäsk’ä
+- features:
+    number: singular
+    tense: preterite
+  expected: kätkässä
+---
+lemma: kättänkä
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: kätko
+- features:
+    mood: subjunctive
+    number: singular
+  expected: kätkä-Zkätkä
+- features:
+    number: singular
+    tense: present
+  expected: kättänkä
+---
+lemma: käuinä
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: käkäutä
+- features:
+    mood: subjunctive
+    number: singular
+  expected: käutä
+- features:
+    number: singular
+    tense: present
+  expected: käuinä
+- features:
+    number: singular
+    tense: preterite
+  expected: käutä
+---
+lemma: läk
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+  expected: lyakämte
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+    voice: active
+  expected: lyakäm
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: preterite
+  expected: lyakät
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: preterite
+    voice: active
+  expected: lyakäs
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: preterite
+  expected: lyakänte
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: preterite
+    voice: active
+  expected: lyakäre
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: lyakämai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+    voice: active
+  expected: lyakäwa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: lyakätai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+    voice: active
+  expected: lyakâsta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: lyakäte
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+    voice: active
+  expected: lyâka
+---
+lemma: läkau
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: läkam
+- features:
+    number: singular
+    person: first
+  expected: läkau
+- features:
+    number: singular
+    person: third
+  expected: läkam
+---
+lemma: läkäsk’ä
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: leläkässu
+- features:
+    mood: subjunctive
+    number: singular
+  expected: läkäsk’ä
+- features:
+    number: singular
+    tense: present
+  expected: läkäsk’ä
+- features:
+    number: singular
+    tense: preterite
+  expected: läkässä
+---
+lemma: länt
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    voice: active
+  expected: läntsamäs
+- features:
+    number: plural
+    person: third
+    voice: active
+  expected: läntseñc
+- features:
+    number: singular
+    person: first
+    voice: active
+  expected: läntsam
+---
+lemma: miwä
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: singular
+  expected: mäiwä
+- features:
+    number: singular
+    tense: present
+  expected: miwä
+- features:
+    number: singular
+    tense: preterite
+  expected: mäiwä
+---
+lemma: mäkä
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: mäko
+- features:
+    mood: subjunctive
+    number: singular
+  expected: mäkä
+- features:
+    number: singular
+    tense: present
+  expected: mäkä
+- features:
+    number: singular
+    tense: preterite
+  expected: mäkä
+---
+lemma: mäntnä
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: mämäntä
+- features:
+    mood: subjunctive
+    number: singular
+  expected: mäntä
+- features:
+    number: singular
+    tense: present
+  expected: mäntnä
+- features:
+    number: singular
+    tense: preterite
+  expected: mäntä
+---
+lemma: märs(
+category: verbs
+cases:
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: marsoym
+- features:
+    mood: optative
+    number: singular
+    person: third
+    voice: middle
+  expected: marsoytär
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: marsat
+- features:
+    verb_form: infinitive
+  expected: marsatsi
+---
+lemma: nek
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    voice: active
+  expected: maitam
+- features:
+    number: plural
+    person: first
+    voice: middle
+  expected: e$ksamte
+- features:
+    number: plural
+    person: second
+    voice: active
+  expected: maitas
+- features:
+    number: plural
+    person: third
+    voice: active
+  expected: maitar
+- features:
+    number: plural
+    person: third
+    voice: middle
+  expected: e$sante
+- features:
+    number: singular
+    person: first
+    voice: active
+  expected: nekwa
+- features:
+    number: singular
+    person: first
+    voice: middle
+  expected: e$ksamai
+- features:
+    number: singular
+    person: second
+    voice: active
+  expected: nekasta
+- features:
+    number: singular
+    person: second
+    voice: middle
+  expected: e$satai
+- features:
+    number: singular
+    person: third
+    voice: active
+  expected: neksa
+- features:
+    number: singular
+    person: third
+    voice: middle
+  expected: e$ksate
+- features:
+    verb_form: participle
+  expected: e$ku
+---
+lemma: nes
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+    voice: active
+  expected: nescer
+- features:
+    number: plural
+    person: third
+    voice: active
+  expected: nesäM
+- features:
+    number: singular
+    person: first
+    voice: active
+  expected: nesau
+- features:
+    number: singular
+    person: second
+    voice: active
+  expected: nest
+- features:
+    number: singular
+    person: third
+    voice: active
+  expected: nesäM
+---
+lemma: nkémar
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nkémtâr
+- features:
+    number: plural
+    person: second
+  expected: nkétâr
+- features:
+    number: plural
+    person: third
+  expected: nkéntâr
+- features:
+    number: singular
+    person: first
+  expected: nkémar
+- features:
+    number: singular
+    person: second
+  expected: nkétâr
+- features:
+    number: singular
+    person: third
+  expected: nkétâr
+---
+lemma: näk
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+  expected: neksate
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: néksante
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+    voice: active
+  expected: nekàr
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+    voice: active
+  expected: nekwa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+    voice: active
+  expected: nekasta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: néksate
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+    voice: active
+  expected: néksa
+- features:
+    tense: preterite
+    verb_form: participle
+  expected: neneku
+---
+lemma: pa
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+    voice: middle
+  expected: pasantär
+- features:
+    verb_form: infinitive
+  expected: passi
+- features:
+    verb_form: participle
+  expected: pasmaM
+---
+lemma: pautkau
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: putkaM
+- features:
+    verb_form: infinitive
+  expected: putkatsi
+---
+lemma: pik
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+    voice: active
+  expected: paikâm
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+    voice: middle
+  expected: paikämte
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: preterite
+    voice: active
+  expected: paikâs
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: preterite
+    voice: middle
+  expected: paikät
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: preterite
+    voice: active
+  expected: paikäre
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: preterite
+    voice: middle
+  expected: paikänte
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+    voice: active
+  expected: paikâwa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+    voice: middle
+  expected: paikâmai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+    voice: active
+  expected: paikâst
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+    voice: middle
+  expected: paikâtai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+    voice: active
+  expected: paika
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+    voice: middle
+  expected: paikâte
+---
+lemma: pinkä
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: papäikä
+- features:
+    mood: subjunctive
+    number: singular
+  expected: päikä
+- features:
+    number: singular
+    tense: present
+  expected: pinkä
+- features:
+    number: singular
+    tense: preterite
+  expected: päikä
+---
+lemma: piyä
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: päpäyä
+- features:
+    mood: subjunctive
+    number: singular
+  expected: päyä
+- features:
+    number: singular
+    tense: present
+  expected: piyä
+- features:
+    number: singular
+    tense: preterite
+  expected: päyä
+---
+lemma: plänk
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+    voice: active
+  expected: plyenkam
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+    voice: active
+  expected: plyenksa
+---
+lemma: prek
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+    voice: active
+  expected: prekseM
+- features:
+    number: singular
+    person: first
+    voice: active
+  expected: preksau
+---
+lemma: putk
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: active
+  expected: putta$keM
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: putta$gaM
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: middle
+  expected: putta$ktär
+---
+lemma: pälsknä
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: pâlskô
+- features:
+    mood: subjunctive
+    number: singular
+  expected: pläskä-Zpälskä
+- features:
+    number: singular
+    tense: present
+  expected: pälsknä
+- features:
+    number: singular
+    tense: preterite
+  expected: pälskä
+---
+lemma: pärk
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: pàrksamte
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: pàrksat
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: pàrksante
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: pàrksamai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: pàrksatai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: pàrksate
+- features:
+    number: singular
+    person: first
+    voice: middle
+  expected: pärksamai
+- features:
+    number: singular
+    person: second
+    voice: middle
+  expected: pärksatai
+- features:
+    number: singular
+    person: third
+    voice: middle
+  expected: pärksate
+- features:
+    tense: preterite
+    verb_form: participle
+  expected: pepârku
+---
+lemma: rutka
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: middle
+  expected: rutta$kemar
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: rautkaM
+- features:
+    verb_form: infinitive
+  expected: rutkatsi
+---
+lemma: räk’ä
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: räräkä
+- features:
+    number: singular
+    tense: present
+  expected: räk’ä
+- features:
+    number: singular
+    tense: preterite
+  expected: räkä
+---
+lemma: sruka
+category: verbs
+cases:
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: srukoy
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: sraukau
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: sraukaM
+- features:
+    verb_form: gerund
+  expected: srukalle
+---
+lemma: sruké
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: sruko
+- features:
+    mood: subjunctive
+    number: singular
+  expected: srauka-Zsruka
+- features:
+    number: singular
+    tense: present
+  expected: sruké
+- features:
+    number: singular
+    tense: preterite
+  expected: srukä
+---
+lemma: stäm
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+    voice: active
+  expected: scmäm
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: preterite
+    voice: active
+  expected: stamäre
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+    voice: active
+  expected: stamäre
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+    voice: active
+  expected: scmâsta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+    voice: active
+  expected: stamâis
+- features:
+    tense: preterite
+    verb_form: participle
+  expected: stmau
+---
+lemma: stäm(
+category: verbs
+cases:
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: stämoM
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: stamoym
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: stamoy
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: stamaM
+- features:
+    verb_form: infinitive
+  expected: stamatsi
+---
+lemma: swäsäss
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+    voice: active
+  expected: swäsässawa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+    voice: active
+  expected: swäsässasta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+    voice: active
+  expected: swäsässa
+---
+lemma: sälka
+category: verbs
+cases:
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: salkoyne
+- features:
+    mood: optative
+    number: singular
+    person: third
+    voice: middle
+  expected: sälkoytär
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    voice: middle
+  expected: sälkantär
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    voice: middle
+  expected: salkamar
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: salkaM
+- features:
+    verb_form: infinitive
+  expected: salkatsi
+---
+lemma: sälpä
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: sälpo
+- features:
+    mood: subjunctive
+    number: singular
+  expected: sälpä
+- features:
+    number: singular
+    tense: present
+  expected: sälpä
+- features:
+    number: singular
+    tense: preterite
+  expected: sälpä
+---
+lemma: tsop?
+category: verbs
+cases:
+- features:
+    number: singular
+    person: third
+    voice: active
+  expected: tsopaM-ne
+- features:
+    number: singular
+    person: third
+    voice: middle
+  expected: tsoptär
+---
+lemma: tswärässä
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: tswärässamai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: tswärässatai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: tswärässate
+---
+lemma: tsä$ka
+category: verbs
+cases:
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: tsä$kon-me
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: tsa$kaM
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: tsa$kau
+- features:
+    verb_form: gerund
+  expected: tsa$kalyana
+- features:
+    verb_form: infinitive
+  expected: tsa$katsi
+---
+lemma: täm
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: tänmaskemane
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+  expected: temtsamte
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: preterite
+  expected: temtsante
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: active
+  expected: lnaskem
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: active
+  expected: tanmäskeM
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: active
+  expected: tanmäskau
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: middle
+  expected: rinastar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: temtsamai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: active
+  expected: tanmäst
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: temtsate
+---
+lemma: tärk
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: tärkämte
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: täkät
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: tärkänte
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: tärkämai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+    voice: middle
+  expected: tärkämte
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: tärkätai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+    voice: middle
+  expected: tärkät
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: tärkäte
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+    voice: middle
+  expected: tärkänte
+- features:
+    tense: preterite
+    verb_form: participle
+  expected: tärkäu
+---
+lemma: tärkau
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tàrkam
+- features:
+    number: plural
+    person: second
+  expected: tärkacer
+- features:
+    number: plural
+    person: third
+  expected: tärkam
+- features:
+    number: singular
+    person: first
+  expected: tärkau
+- features:
+    number: singular
+    person: second
+  expected: tärkat
+- features:
+    number: singular
+    person: third
+  expected: tärkam
+---
+lemma: tärknä
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: tärko
+- features:
+    mood: subjunctive
+    number: singular
+  expected: tärkä-Ztärkä
+- features:
+    number: singular
+    tense: present
+  expected: tärknä
+---
+lemma: täs
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: preterite
+  expected: tässänte
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+    voice: active
+  expected: tessa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: tässäte
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+    voice: active
+  expected: tesar
+---
+lemma: winäsk’ä
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: wewinässu
+- features:
+    mood: subjunctive
+    number: singular
+  expected: winäsk’ä
+- features:
+    number: singular
+    tense: present
+  expected: winäsk’ä
+- features:
+    number: singular
+    tense: preterite
+  expected: winässä
+---
+lemma: wsiyâ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+    voice: active
+  expected: wsiyawa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+    voice: active
+  expected: wsiyasta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+    voice: active
+  expected: wstya
+---
+lemma: wäskännäZe
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: wäwäskä
+- features:
+    mood: subjunctive
+    number: singular
+  expected: waskä
+- features:
+    number: singular
+    tense: present
+  expected: wäskännäZe
+- features:
+    number: singular
+    tense: preterite
+  expected: wäskä
+---
+lemma: yam
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    voice: active
+  expected: wälmäs
+- features:
+    number: plural
+    person: second
+    voice: middle
+  expected: yamtsac
+- features:
+    number: plural
+    person: third
+    voice: active
+  expected: yamär
+- features:
+    number: singular
+    person: first
+    voice: active
+  expected: yamwa
+- features:
+    number: singular
+    person: third
+    voice: active
+  expected: yamäs
+- features:
+    verb_form: participle
+  expected: yamu
+---
+lemma: yarn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+    voice: active
+  expected: yamassam
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: preterite
+    voice: active
+  expected: yamassas
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: preterite
+    voice: active
+  expected: yamassare
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+    voice: active
+  expected: yamassamai
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+    voice: active
+  expected: yamassatai
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+    voice: active
+  expected: yamassate
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+    voice: active
+  expected: yamassawa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+    voice: active
+  expected: yamassasta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+    voice: active
+  expected: yamassa
+---
+lemma: yok
+category: verbs
+cases:
+- features:
+    number: singular
+    person: second
+    voice: active
+  expected: yokt
+- features:
+    number: singular
+    person: third
+    voice: active
+  expected: yokäM
+---
+lemma: yom
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: päknasmaM
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: active
+  expected: yomnaseñc
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: middle
+  expected: päknasantär
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: middle
+  expected: ynasmar
+- features:
+    verb_form: infinitive
+  expected: yärassi
+---
+lemma: yäm
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: yänmaskemane
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: active
+  expected: yänmascer
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: active
+  expected: yänmaskeM
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: middle
+  expected: päknaskentär
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: active
+  expected: yänmaskau
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: middle
+  expected: päknastar
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: middle
+  expected: päknastär
+---
+lemma: yämä
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: future
+    voice: active
+  expected: yämämä
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: future
+    voice: passive
+  expected: yämämtär
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: future
+    voice: active
+  expected: yämäcer
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: future
+    voice: passive
+  expected: yämätär
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: future
+    voice: active
+  expected: yämän
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: future
+    voice: passive
+  expected: yämäntär
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: future
+    voice: active
+  expected: yämäu
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: future
+    voice: passive
+  expected: yämämär
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+    voice: active
+  expected: yämätä
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+    voice: passive
+  expected: yämätär
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: future
+    voice: active
+  expected: yämän
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+  expected: yämätär
+---
+lemma: yätkä
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: preterite
+    voice: active
+  expected: yätkam
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: preterite
+    voice: active
+  expected: yätkas
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: preterite
+    voice: active
+  expected: yätkare
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+    voice: active
+  expected: yätkawa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+    voice: active
+  expected: yätkasta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+    voice: active
+  expected: yâtka
+---
+lemma: äkläsk- ’ä
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    verb_form: participle
+  expected: äklu
+- features:
+    mood: subjunctive
+    number: singular
+  expected: äkli
+- features:
+    number: singular
+    tense: preterite
+  expected: äkliyä

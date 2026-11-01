@@ -1,0 +1,95 @@
+lemma: alia
+category: nouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: allan
+- features:
+    case: nominative
+    number: singular
+  expected: alia
+---
+lemma: dl
+category: nouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: dlartl
+- features:
+    case: accusative
+    number: plural
+  expected: dlarin
+- features:
+    case: accusative
+    number: singular
+  expected: dl
+- features:
+    case: dative
+    number: singular
+  expected: dl
+- features:
+    case: genitive
+    number: singular
+  expected: dl
+- features:
+    case: locative
+    number: singular
+  expected: dl
+- features:
+    case: nominative
+    number: plural
+  expected: dlar
+- features:
+    case: nominative
+    number: singular
+  expected: dl
+- features:
+    case: vocative
+    number: singular
+  expected: dlayb
+---
+lemma: dlj
+category: nouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: dlar
+- features:
+    definiteness: definite
+    number: singular
+  expected: dtas
+- features:
+    definiteness: indefinite
+    number: singular
+  expected: dlj
+---
+lemma: mukkd
+category: nouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: mukkarti
+- features:
+    case: ablative
+    number: singular
+  expected: mukkantl
+- features:
+    case: accusative
+    number: plural
+  expected: mukkarin
+- features:
+    case: accusative
+    number: singular
+  expected: mukkon
+- features:
+    case: nominative
+    number: plural
+  expected: mukkar
+- features:
+    case: nominative
+    number: singular
+  expected: mukkd

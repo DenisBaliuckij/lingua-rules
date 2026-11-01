@@ -1,0 +1,27 @@
+lemma: ⵙⵏⵉ
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ⵏⵙⵏⵉ
+- features:
+    number: plural
+    person: second
+  expected: ⵜⵙⵏⵉⵎ
+- features:
+    number: plural
+    person: third
+  expected: ⵙⵏⵉⵏ
+- features:
+    number: singular
+    person: first
+  expected: ⵙⵏⵉⵖ
+- features:
+    number: singular
+    person: second
+  expected: ⵜⵙⵏⵉⴷ
+- features:
+    number: singular
+    person: third
+  expected: ⵉⵙⵏⵉ

@@ -1,0 +1,548 @@
+lemma: amba:ti
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: amba:ri
+- features:
+    number: plural
+    person: third
+  expected: amba:ri
+- features:
+    number: singular
+    person: second
+  expected: amba:ti
+- features:
+    number: singular
+    person: third
+  expected: amba:ti
+---
+lemma: e:vasi
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: e:van
+- features:
+    number: singular
+  expected: e:vasi
+---
+lemma: edi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: evaa
+- features:
+    case: accusative
+    number: singular
+  expected: edanai
+- features:
+    case: dative
+    number: plural
+  expected: evanaki
+- features:
+    case: dative
+    number: singular
+  expected: edanaki
+- features:
+    case: genitive
+    number: plural
+  expected: gva
+- features:
+    case: genitive
+    number: singular
+  expected: edani
+- features:
+    case: nominative
+    number: plural
+  expected: evi
+- features:
+    case: nominative
+    number: singular
+  expected: edi
+---
+lemma: ena
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+  expected: imbinaki
+- features:
+    case: dative
+    number: singular
+  expected: enaataki
+- features:
+    case: genitive
+    number: plural
+  expected: ivaska
+- features:
+    case: genitive
+    number: singular
+  expected: imbinani
+- features:
+    case: nominative
+    number: plural
+  expected: enai
+- features:
+    case: nominative
+    number: singular
+  expected: ena
+- features:
+    case: oblique
+    number: plural
+  expected: imbinaa
+- features:
+    case: oblique
+    number: singular
+  expected: enaa
+---
+lemma: evasi
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    gender: feminine
+    number: plural
+    person: third
+  expected: evasika
+- features:
+    case: accusative
+    number: plural
+  expected: evarai
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: evara?a
+- features:
+    case: accusative
+    number: singular
+  expected: evanai
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: evana?a
+- features:
+    case: dative
+    number: plural
+  expected: evaraki
+- features:
+    case: dative
+    number: singular
+  expected: evanaki
+- features:
+    case: genitive
+    number: plural
+  expected: evari
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: evara
+- features:
+    case: genitive
+    number: singular
+  expected: evani
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: evaQ.a
+- features:
+    case: nominative
+    number: plural
+  expected: evari
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: evagn
+- features:
+    case: nominative
+    number: singular
+  expected: evasi
+- features:
+    number: plural
+    person: third
+  expected: evari
+- features:
+    number: singular
+    person: third
+  expected: evasi
+---
+lemma: i:vasi
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    gender: feminine
+    number: plural
+  expected: i:vasika
+- features:
+    number: plural
+  expected: i:vasi
+- features:
+    number: singular
+  expected: i:vasi
+---
+lemma: idi
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+  expected: eva?i ta:J)ati
+- features:
+    case: ablative
+    number: plural
+  expected: evasikata:nati
+- features:
+    case: ablative
+    number: singular
+  expected: eda.t
+- features:
+    case: accusative
+    number: dual
+  expected: eva?ini
+- features:
+    case: accusative
+    number: plural
+  expected: evasika?i
+- features:
+    case: accusative
+    number: singular
+  expected: eda.tii? i
+- features:
+    case: dative
+    number: dual
+  expected: eva?Tki
+- features:
+    case: dative
+    number: plural
+  expected: evasikaki
+- features:
+    case: dative
+    number: singular
+  expected: eda.t
+- features:
+    case: genitive
+    number: dual
+  expected: evat i
+- features:
+    case: genitive
+    number: plural
+  expected: evasika
+- features:
+    case: genitive
+    number: singular
+  expected: eda.t
+- features:
+    case: instrumental
+    number: dual
+  expected: eva? i tole
+- features:
+    case: instrumental
+    number: plural
+  expected: evasikatole
+- features:
+    case: instrumental
+    number: singular
+  expected: edatJitole
+- features:
+    case: locative
+    number: dual
+  expected: eva? ita:t
+- features:
+    case: locative
+    number: plural
+  expected: evasikata:Qa
+- features:
+    case: locative
+    number: singular
+  expected: edanita:na
+- features:
+    case: nominative
+    number: dual
+  expected: ivi
+- features:
+    case: nominative
+    number: plural
+  expected: ivasika
+- features:
+    case: nominative
+    number: singular
+  expected: idi
+---
+lemma: imbinaki
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+  expected: imbaaraki
+- features:
+    case: dative
+    number: singular
+  expected: imbinanaki
+- features:
+    case: nominative
+    number: singular
+  expected: imbinaki
+- features:
+    case: oblique
+    number: plural
+  expected: imbaarai
+- features:
+    case: oblique
+    number: singular
+  expected: imbinani
+---
+lemma: imbinigattai
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+  expected: imbinigattaskaki
+- features:
+    case: dative
+    number: singular
+  expected: imbinigattanaki
+- features:
+    case: genitive
+    number: plural
+  expected: imbinigattaska
+- features:
+    case: genitive
+    number: singular
+  expected: imbinigattani
+- features:
+    case: nominative
+    number: plural
+  expected: imbinigattaska
+- features:
+    case: nominative
+    number: singular
+  expected: imbinigattai
+- features:
+    case: oblique
+    number: plural
+  expected: imbinigattaskani
+- features:
+    case: oblique
+    number: singular
+  expected: imbinigattani
+---
+lemma: ivasi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: ivarai
+- features:
+    case: accusative
+    number: singular
+  expected: ivanai
+- features:
+    case: dative
+    number: plural
+  expected: ivaraki
+- features:
+    case: dative
+    number: singular
+  expected: ivanaki
+- features:
+    case: genitive
+    number: plural
+  expected: ivari
+- features:
+    case: genitive
+    number: singular
+  expected: ivani
+- features:
+    case: nominative
+    number: plural
+  expected: ivari
+- features:
+    case: nominative
+    number: singular
+  expected: ivasi
+---
+lemma: m:nu
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: m:nu
+---
+lemma: na:nu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ma:ngo
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: na:ngo
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: rna
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: na
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ma:ro
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: na:nu
+- features:
+    number: plural
+    person: first
+  expected: ma:ro
+- features:
+    number: singular
+    person: first
+  expected: na:nu
+---
+lemma: roosi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: rondaa
+- features:
+    case: dative
+    number: singular
+  expected: rondanaki
+- features:
+    case: genitive
+    number: singular
+  expected: rondani
+- features:
+    case: nominative
+    number: singular
+  expected: roosi
+---
+lemma: sari zana
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: zanangani
+- features:
+    case: accusative
+    number: singular
+  expected: sari zanati
+- features:
+    case: dative
+    number: plural
+  expected: zanangaki
+- features:
+    case: dative
+    number: singular
+  expected: sari zanaki
+- features:
+    case: genitive
+    number: plural
+  expected: zananga
+- features:
+    case: genitive
+    number: singular
+  expected: sari zanati
+- features:
+    case: nominative
+    number: plural
+  expected: zananga
+- features:
+    case: nominative
+    number: singular
+  expected: sari zana
+---
+lemma: ta:nu
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: ta:mmaho?
+- features:
+    case: ablative
+    number: singular
+  expected: ta:naho?oti
+- features:
+    case: dative
+    number: plural
+  expected: ra:mgo
+- features:
+    case: dative
+    number: singular
+  expected: ta:ngo
+- features:
+    case: genitive
+    number: plural
+  expected: ta:mba
+- features:
+    case: genitive
+    number: singular
+  expected: ta:na
+- features:
+    case: instrumental
+    number: plural
+  expected: ta:mmatole
+- features:
+    case: instrumental
+    number: singular
+  expected: ta:natole
+- features:
+    case: nominative
+    number: plural
+  expected: ta:mba
+- features:
+    case: nominative
+    number: singular
+  expected: ta:nu
+- features:
+    number: plural
+    person: third
+  expected: tammu
+- features:
+    number: singular
+    person: third
+  expected: ta:nu
+---
+lemma: u:vasi
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    gender: feminine
+    number: plural
+  expected: u:vasika
+- features:
+    number: plural
+  expected: u:vari
+- features:
+    number: singular
+  expected: u:vasi

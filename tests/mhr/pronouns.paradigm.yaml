@@ -1,0 +1,143 @@
+lemma: ме
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: мемнам
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: мыланна
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: мемнан
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ме
+---
+lemma: мый
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: мыйым
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: мыланем
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: мыйын
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: мый
+---
+lemma: нуно
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: нуным
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: нунылан
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: нунын
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: нуно
+---
+lemma: те
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: тендам
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: тыланда
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: тендан
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: те
+---
+lemma: тудо
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: тудым
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: тудлан
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: тудын
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: тудо
+---
+lemma: тый
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: тыйым
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: тыланет
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: тыйын
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: тый

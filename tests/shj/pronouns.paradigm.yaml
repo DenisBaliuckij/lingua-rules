@@ -1,0 +1,37 @@
+lemma: nyangzang
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+    possessor_person: third
+  expected: nyanginyginya
+- features:
+    animacy: inanimate
+    number: singular
+    possessor_person: third
+  expected: nyangzinya
+- features:
+    number: plural
+    possessor_person: first
+  expected: nyanginygang
+- features:
+    number: plural
+    possessor_person: second
+  expected: nyanginygägi
+- features:
+    number: plural
+    possessor_person: third
+  expected: nyanginygäma
+- features:
+    number: singular
+    possessor_person: first
+  expected: nyangzang
+- features:
+    number: singular
+    possessor_person: second
+  expected: nyangzägi
+- features:
+    number: singular
+    possessor_person: third
+  expected: nyangzäma

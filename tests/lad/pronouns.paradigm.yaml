@@ -1,0 +1,371 @@
+lemma: algun
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: algunas
+- features:
+    gender: feminine
+    number: singular
+  expected: alguna
+- features:
+    gender: masculine
+    number: plural
+  expected: algunos
+- features:
+    gender: masculine
+    number: singular
+  expected: algun
+- features:
+    gender: neuter
+    number: singular
+  expected: algo
+---
+lemma: bastante
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: plural
+  expected: bastantes
+- features:
+    gender: masculine
+    number: singular
+  expected: bastante
+---
+lemma: cualquier
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: cualesquiera
+- features:
+    gender: feminine
+    number: singular
+  expected: cualquiera
+- features:
+    gender: masculine
+    number: plural
+  expected: cualesquiera
+- features:
+    gender: masculine
+    number: singular
+  expected: cualquier
+---
+lemma: demasiado
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: demasiada
+- features:
+    gender: feminine
+    number: singular
+  expected: demasiada
+- features:
+    gender: masculine
+    number: plural
+  expected: demasiado
+- features:
+    gender: masculine
+    number: singular
+  expected: demasiado
+- features:
+    gender: neuter
+    number: singular
+  expected: demasiado
+---
+lemma: demás
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: plural
+  expected: demás
+- features:
+    gender: masculine
+    number: singular
+  expected: demás
+---
+lemma: mismo
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: mismas
+- features:
+    gender: feminine
+    number: singular
+  expected: misma
+- features:
+    gender: masculine
+    number: plural
+  expected: mismos
+- features:
+    gender: masculine
+    number: singular
+  expected: mismo
+- features:
+    gender: neuter
+    number: singular
+  expected: misma
+---
+lemma: muncho
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: munchas
+- features:
+    gender: feminine
+    number: singular
+  expected: muncha
+- features:
+    gender: masculine
+    number: plural
+  expected: munchos
+- features:
+    gender: masculine
+    number: singular
+  expected: muncho
+- features:
+    gender: neuter
+    number: singular
+  expected: muncho
+---
+lemma: ningun
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: ningunas
+- features:
+    gender: feminine
+    number: singular
+  expected: ninguna
+- features:
+    gender: masculine
+    number: plural
+  expected: ningunos
+- features:
+    gender: masculine
+    number: singular
+  expected: ningun
+---
+lemma: otro
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: otras
+- features:
+    gender: feminine
+    number: singular
+  expected: otra
+- features:
+    gender: masculine
+    number: plural
+  expected: otros
+- features:
+    gender: masculine
+    number: singular
+  expected: otro
+- features:
+    gender: neuter
+    number: singular
+  expected: otro
+---
+lemma: poko
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: pokas
+- features:
+    gender: feminine
+    number: singular
+  expected: poka
+- features:
+    gender: masculine
+    number: plural
+  expected: pokos
+- features:
+    gender: masculine
+    number: singular
+  expected: poko
+- features:
+    gender: neuter
+    number: singular
+  expected: poko
+---
+lemma: quienquiera
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: plural
+  expected: quienesquiera
+- features:
+    gender: masculine
+    number: singular
+  expected: quienquiera
+---
+lemma: tal
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: plural
+  expected: tales
+- features:
+    gender: masculine
+    number: singular
+  expected: tal
+---
+lemma: tan
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: tantas
+- features:
+    gender: feminine
+    number: singular
+  expected: tanta
+- features:
+    gender: masculine
+    number: plural
+  expected: tantos
+- features:
+    gender: masculine
+    number: singular
+  expected: tan
+- features:
+    gender: neuter
+    number: singular
+  expected: tanto
+---
+lemma: todo
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: todas
+- features:
+    gender: feminine
+    number: singular
+  expected: toda
+- features:
+    gender: masculine
+    number: plural
+  expected: todos
+- features:
+    gender: masculine
+    number: singular
+  expected: todo
+- features:
+    gender: neuter
+    number: singular
+  expected: todo
+---
+lemma: un
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: unas
+- features:
+    gender: feminine
+    number: singular
+  expected: una
+- features:
+    gender: masculine
+    number: plural
+  expected: unos
+- features:
+    gender: masculine
+    number: singular
+  expected: un
+- features:
+    gender: neuter
+    number: singular
+  expected: uno
+---
+lemma: yo
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: mozotras
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: vozotras
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: eyas
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: eya
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: mozòs
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: vozòs
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: eyos
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: él
+- features:
+    number: plural
+    person: first
+  expected: mos
+- features:
+    number: plural
+    person: second
+  expected: vos
+- features:
+    number: plural
+    person: third
+  expected: se
+- features:
+    number: singular
+    person: first
+  expected: yo
+- features:
+    number: singular
+    person: second
+  expected: te
+- features:
+    number: singular
+    person: third
+  expected: se

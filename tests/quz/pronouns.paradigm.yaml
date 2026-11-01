@@ -1,0 +1,881 @@
+lemma: cam
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: camraycu
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: camcunacta
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: camta
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: camcunapac
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: campac
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: camcunap
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: campa
+- features:
+    case: vocative
+    number: singular
+    person: second
+  expected: camya
+- features:
+    number: plural
+    person: second
+  expected: camcuna
+- features:
+    number: singular
+    person: second
+  expected: cam
+---
+lemma: ima
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: imay
+- features:
+    number: singular
+    person: second
+  expected: imayki
+- features:
+    number: singular
+    person: third
+  expected: iman
+---
+lemma: kai
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: kaikunapi
+- features:
+    case: ablative
+    number: singular
+  expected: kaipi
+- features:
+    case: accusative
+    number: plural
+  expected: kaikunata
+- features:
+    case: accusative
+    number: singular
+  expected: kaita
+- features:
+    case: adessive
+    number: plural
+  expected: kaikuna patapi
+- features:
+    case: adessive
+    number: singular
+  expected: kai patapi
+- features:
+    case: comitative
+    number: plural
+  expected: kaikunahuan
+- features:
+    case: comitative
+    number: plural
+    polarity: negative
+  expected: mana kaikunahuan
+- features:
+    case: comitative
+    number: singular
+  expected: kaihuan
+- features:
+    case: comitative
+    number: singular
+    polarity: negative
+  expected: mana kaihuan
+- features:
+    case: dative
+    number: plural
+  expected: kaikunapaj
+- features:
+    case: dative
+    number: singular
+  expected: kaipaj
+- features:
+    case: genitive
+    number: plural
+  expected: kaikunapaj
+- features:
+    case: genitive
+    number: singular
+  expected: kaipa
+- features:
+    case: nominative
+    number: plural
+  expected: kaikuna
+- features:
+    case: nominative
+    number: singular
+  expected: kai
+---
+lemma: kan
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: kanmanta
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: kanta
+- features:
+    case: adessive
+    number: singular
+    person: second
+  expected: kancama
+- features:
+    case: allative
+    number: singular
+    person: second
+  expected: kanman
+- features:
+    case: comitative
+    number: singular
+    person: second
+  expected: kanhuan
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: kanpaj
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: kanpaj
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: kanpi
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: kan
+- features:
+    case: translative
+    number: singular
+    person: second
+  expected: kanninta
+- features:
+    number: singular
+    person: second
+  expected: kanraicu
+---
+lemma: maycan
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: maycanniy
+- features:
+    number: singular
+    person: second
+  expected: maycanniyki
+- features:
+    number: singular
+    person: third
+  expected: maycannin
+---
+lemma: pai
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: paikunapi
+- features:
+    case: ablative
+    number: singular
+  expected: paipi
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: paimanta
+- features:
+    case: accusative
+    number: plural
+  expected: paikunata
+- features:
+    case: accusative
+    number: singular
+  expected: paita
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: paita
+- features:
+    case: adessive
+    number: plural
+  expected: paikuna patapi
+- features:
+    case: adessive
+    number: singular
+  expected: pai patapi
+- features:
+    case: adessive
+    number: singular
+    person: third
+  expected: paicama
+- features:
+    case: allative
+    number: singular
+    person: third
+  expected: paiman
+- features:
+    case: comitative
+    number: plural
+  expected: paikunahuan
+- features:
+    case: comitative
+    number: plural
+    polarity: negative
+  expected: mana paikunahuan
+- features:
+    case: comitative
+    number: singular
+  expected: paihuan
+- features:
+    case: comitative
+    number: singular
+    person: third
+  expected: paihuan
+- features:
+    case: comitative
+    number: singular
+    polarity: negative
+  expected: mana paihuan
+- features:
+    case: dative
+    number: plural
+  expected: paikunapaj
+- features:
+    case: dative
+    number: singular
+  expected: paipaj
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: paipaj
+- features:
+    case: genitive
+    number: plural
+  expected: paikunaj
+- features:
+    case: genitive
+    number: singular
+  expected: paipa
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: paipa
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: paipi
+- features:
+    case: nominative
+    number: plural
+  expected: paikuna
+- features:
+    case: nominative
+    number: singular
+  expected: pai
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: pai
+- features:
+    case: translative
+    number: singular
+    person: third
+  expected: paininta
+- features:
+    number: singular
+    person: third
+  expected: pairaicu
+---
+lemma: paikunaj
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: paikunajpata
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: paikunajta
+- features:
+    case: genitive
+    number: plural
+  expected: paikunaj kajkunajpa
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: paikunajpa
+- features:
+    case: genitive
+    number: singular
+  expected: paikunaj kajpa
+- features:
+    number: plural
+    person: third
+  expected: paikunaj
+---
+lemma: paipa
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: paipata
+- features:
+    case: genitive
+    number: plural
+  expected: paipa kajkunajpa
+- features:
+    case: genitive
+    number: singular
+  expected: paipa kajpa
+- features:
+    number: singular
+    person: third
+  expected: paipa
+---
+lemma: pi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: pinchic
+- features:
+    number: plural
+    person: second
+  expected: piykichic
+- features:
+    number: plural
+    person: third
+  expected: pincu
+- features:
+    number: singular
+    person: first
+  expected: piy
+- features:
+    number: singular
+    person: second
+  expected: piyki
+- features:
+    number: singular
+    person: third
+  expected: pin
+---
+lemma: qama
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: qampata
+- features:
+    number: singular
+    person: second
+  expected: qampa
+---
+lemma: qampa
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: qampa kajkunajpa
+- features:
+    case: genitive
+    number: singular
+  expected: qampa kajpa
+---
+lemma: qan
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: qankunapi
+- features:
+    case: ablative
+    number: singular
+  expected: qampi
+- features:
+    case: accusative
+    number: plural
+  expected: qankunata
+- features:
+    case: accusative
+    number: singular
+  expected: qanta
+- features:
+    case: adessive
+    number: plural
+  expected: qankuna patapi
+- features:
+    case: adessive
+    number: singular
+  expected: qan patapi
+- features:
+    case: comitative
+    number: plural
+  expected: qankunahuan
+- features:
+    case: comitative
+    number: plural
+    polarity: negative
+  expected: mana qankunahuan
+- features:
+    case: comitative
+    number: singular
+  expected: qanhuan
+- features:
+    case: comitative
+    number: singular
+    polarity: negative
+  expected: mana qanhuan
+- features:
+    case: dative
+    number: plural
+  expected: qankunapaj
+- features:
+    case: dative
+    number: singular
+  expected: qampaj
+- features:
+    case: genitive
+    number: plural
+  expected: qankunaj
+- features:
+    case: genitive
+    number: singular
+  expected: qampa
+- features:
+    case: nominative
+    number: plural
+  expected: qankuna
+- features:
+    case: nominative
+    number: singular
+  expected: qan
+- features:
+    case: vocative
+    number: plural
+  expected: qankuna
+- features:
+    case: vocative
+    number: singular
+  expected: qan
+---
+lemma: qankunaj
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: qankunajpata
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: qankunajta
+- features:
+    case: genitive
+    number: plural
+  expected: qankunaj kajkunajpa
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: qankunajpa
+- features:
+    case: genitive
+    number: singular
+  expected: qankunaj kajpa
+- features:
+    number: plural
+    person: second
+  expected: qankunaj
+---
+lemma: ñoca
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: ñocanchic
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: ñocaraycu
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ñocanchicta
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ñocacta
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: ñocanchicpac
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: ñocapac
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: ñocanchicpa
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ñocap
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: ñocapi
+- features:
+    number: plural
+    person: first
+  expected: ñocanchic
+- features:
+    number: singular
+    person: first
+  expected: ñoca
+---
+lemma: ñoka
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: ñoka-nchis-manta
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: ñokamanta
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ñoka-nchis-ta
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ñokata
+- features:
+    case: adessive
+    number: plural
+    person: first
+  expected: ñoka-nchis-cama
+- features:
+    case: adessive
+    number: singular
+    person: first
+  expected: ñokacama
+- features:
+    case: allative
+    number: plural
+    person: first
+  expected: ñoka-nchis-man
+- features:
+    case: allative
+    number: singular
+    person: first
+  expected: ñokaman
+- features:
+    case: comitative
+    number: plural
+    person: first
+  expected: ñoka-nchis-huan
+- features:
+    case: comitative
+    number: singular
+    person: first
+  expected: ñokahuan
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: ñoka-nchis-paj
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: ñokapaj
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: ñoka-nchis-pa
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ñokaj
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: ñoka-nchis-pi
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: ñokapi
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ñokanchis
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ño ka
+- features:
+    case: translative
+    number: plural
+    person: first
+  expected: ñoka-nchis-ninta
+- features:
+    case: translative
+    number: singular
+    person: first
+  expected: ñokanta
+- features:
+    number: plural
+    person: first
+  expected: ñoka-nchis-raicu
+- features:
+    number: singular
+    person: first
+  expected: ñokaraicu
+---
+lemma: ñoqa
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: noqajpata
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: noqajta
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: noqajpa
+- features:
+    number: singular
+    person: first
+  expected: noqaj
+---
+lemma: ñoqaikuj
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: noqaikuj kajkunapi
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: noqaikujpata
+- features:
+    case: ablative
+    number: singular
+  expected: ñoqaikuj kajpi
+- features:
+    case: accusative
+    number: plural
+  expected: noqaikuj kajkunata
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: noqaikujta
+- features:
+    case: accusative
+    number: singular
+  expected: noqaikuj kajta
+- features:
+    case: dative
+    number: plural
+  expected: noqaikuj kajkunapaj
+- features:
+    case: dative
+    number: singular
+  expected: noqaikuj kajpaj
+- features:
+    case: genitive
+    number: plural
+  expected: ñoqaikuj kajkunajpa
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: noqaikujpa
+- features:
+    case: genitive
+    number: singular
+  expected: ñoqaikuj kajpa
+- features:
+    number: plural
+    person: first
+  expected: noqaikuj
+---
+lemma: ñoqaj
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: ñoqaj kajkunapi
+- features:
+    case: ablative
+    number: singular
+  expected: ñoqaj kajpi
+- features:
+    case: accusative
+    number: plural
+  expected: ñoqaj kajkunata
+- features:
+    case: accusative
+    number: singular
+  expected: ñoqaj kajta
+- features:
+    case: dative
+    number: plural
+  expected: ñoqaj kajkunapaj
+- features:
+    case: dative
+    number: singular
+  expected: ñoqaj kajpaj
+- features:
+    case: genitive
+    number: plural
+  expected: ñoqaj kajkunajpa
+- features:
+    case: genitive
+    number: singular
+  expected: ñoqaj kajpa
+---
+lemma: ñoqanchij
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: noqanchijpata
+- features:
+    number: plural
+    person: first
+  expected: noqanchijpa
+---
+lemma: ñoqanchijpa
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: noqanchijpa kajkunapi
+- features:
+    case: ablative
+    number: singular
+  expected: noqanchijpa kajpi
+- features:
+    case: accusative
+    number: plural
+  expected: ñoqanchijpa kajkunata
+- features:
+    case: accusative
+    number: singular
+  expected: ñoqanchijpa kajta
+- features:
+    case: dative
+    number: plural
+  expected: ñoqanchijpa kajkunapaj
+- features:
+    case: dative
+    number: singular
+  expected: noqanchijpa kajpaj
+- features:
+    case: genitive
+    number: plural
+  expected: noqanchijpa kajkunajpa
+- features:
+    case: genitive
+    number: singular
+  expected: noqanchijpa kajpa

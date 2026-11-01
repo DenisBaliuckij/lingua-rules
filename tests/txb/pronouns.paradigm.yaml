@@ -1,0 +1,323 @@
+lemma: allek
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: allonkna
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: alyok
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: alyenkäm
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: alyek
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: alyenkämts
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: alyekepi
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: allortk
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: alyäk
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: alyaik
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: allek
+---
+lemma: has
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: has
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: hi
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: has
+---
+lemma: kuse
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: kuce
+- features:
+    case: nominative
+  expected: kse
+---
+lemma: makce
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: makcem
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: mäkcemts
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: makci
+---
+lemma: mäksu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: mäktom
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: mäktä u
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: mäkcem
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: mäkceu
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: mäktoynasL
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: mäkcenasL
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: mäkcpi
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: mäktom
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: mäksäu
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: mäkcai
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: mäksu
+---
+lemma: po
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: common
+    number: singular
+  expected: po
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: ponta
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: pontäm
+- features:
+    case: genitive
+    gender: common
+    number: singular
+  expected: ponte
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: pontamts
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: pontamts
+- features:
+    case: nominative
+    gender: common
+    number: singular
+  expected: po
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: ponta
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: pone
+---
+lemma: sah-ahm
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: sah-ahm
+- features:
+    case: genitive
+  expected: sah
+---
+lemma: su
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tai
+- features:
+    number: plural
+    person: first
+  expected: caiE
+- features:
+    number: plural
+    person: second
+  expected: caimp
+- features:
+    number: singular
+    person: first
+  expected: su
+- features:
+    number: singular
+    person: second
+  expected: se
+- features:
+    number: singular
+    person: third
+  expected: sem
+---
+lemma: wene
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: wene
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: wenaisäh
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: wene
+---
+lemma: wes
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: wesA'c
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: wesäh^
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: wes
+---
+lemma: yene
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: yene
+- features:
+    case: genitive
+    number: dual
+    person: second
+  expected: yenaisäh
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: yene
+---
+lemma: 'yes'
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: yesA'c
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: yesähA
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: 'yes'

@@ -1,0 +1,647 @@
+lemma: nʹi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    person: second
+  expected: nʹon°
+- features:
+    person: third
+  expected: nʹī
+- features:
+    verb_form: participle
+  expected: nʹinʹa
+---
+lemma: ta
+category: verbs
+cases:
+- features:
+    mood: imperative
+    person: second
+  expected: taq
+- features:
+    mood: indicative
+    person: third
+    tense: future
+  expected: tətə°
+- features:
+    person: third
+  expected: ta°
+- features:
+    verb_form: participle
+  expected: tada
+---
+lemma: te
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: tey°-dʹih
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tey°-daq
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ted°q
+---
+lemma: to
+category: verbs
+cases:
+- features:
+    mood: imperative
+    person: second
+  expected: tuq
+- features:
+    mood: indicative
+    person: third
+    tense: future
+  expected: tūtə°
+- features:
+    person: third
+  expected: to°
+- features:
+    verb_form: participle
+  expected: tona
+---
+lemma: xada
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: xadaə-dʹih
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: xadaə-daq
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: xadaq
+---
+lemma: xəya
+category: verbs
+cases:
+- features:
+    mood: imperative
+    person: second
+  expected: xanʹ°q
+- features:
+    mood: indicative
+    person: third
+    tense: future
+  expected: xan°tə°
+- features:
+    person: third
+  expected: xəya
+- features:
+    verb_form: participle
+  expected: xǣna
+---
+lemma: ŋa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    person: second
+  expected: ŋaq
+- features:
+    mood: indicative
+    person: third
+    tense: future
+  expected: ŋǣŋu
+- features:
+    person: third
+  expected: ŋa
+- features:
+    verb_form: participle
+  expected: ŋǣda
+---
+lemma: илесь
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: илева
+- features:
+    number: plural
+    person: second
+  expected: иледа
+- features:
+    number: plural
+    person: third
+  expected: иле
+- features:
+    number: singular
+    person: first
+  expected: иледм
+- features:
+    number: singular
+    person: second
+  expected: илен
+- features:
+    number: singular
+    person: third
+  expected: иле
+---
+lemma: манзарась
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: манзаради
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: манзараяха
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: манзарада
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: манзарая
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: манзара
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: манзарая
+---
+lemma: масана
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: масаныди
+- features:
+    number: singular
+    person: second
+  expected: масанын
+- features:
+    number: singular
+    person: third
+  expected: масаны
+---
+lemma: массъ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: масыни
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: масыди
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: масыхъС
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: маСына
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: масыд
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: масын
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: масы
+---
+lemma: подерцъ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: подерӈаминзь
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: подерӈаринзь
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: подерӈадинзь
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: подерӈаваць
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: подерӈараць
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: подерӈадонзь
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: подерӈаваць
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: подерӈарась
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: подерӈадась
+- features:
+    number: dual
+    person: first
+  expected: подерӈами
+- features:
+    number: dual
+    person: second
+  expected: подерӈари
+- features:
+    number: dual
+    person: third
+  expected: подерӈади
+- features:
+    number: plural
+    person: first
+  expected: подерӈава
+- features:
+    number: plural
+    person: second
+  expected: подерӈара
+- features:
+    number: plural
+    person: third
+  expected: подерӈадо
+- features:
+    number: singular
+    person: first
+  expected: подерӈав
+- features:
+    number: singular
+    person: second
+  expected: подерӈар
+- features:
+    number: singular
+    person: third
+  expected: подерӈада
+---
+lemma: толасъ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: толари
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: толамди
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: толара
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: толамдо
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: толад
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: толамда
+---
+lemma: тёресъ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: тёрейни
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: тёрейди
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: тёреиха
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: тёреяд
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: тёреян
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: тёрей
+---
+lemma: уамзъ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ӈамаминзь
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: ӈамаринзь
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: ӈамадинзь
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ӈамаваць
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ӈамараць
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ӈамадонзь
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ӈамавась
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ӈамарась
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ӈамадась
+- features:
+    number: dual
+    person: first
+  expected: ӈамами
+- features:
+    number: dual
+    person: second
+  expected: ӈамари
+- features:
+    number: dual
+    person: third
+  expected: ӈамади
+- features:
+    number: plural
+    person: first
+  expected: ӈамава
+- features:
+    number: plural
+    person: second
+  expected: ӈамара
+- features:
+    number: plural
+    person: third
+  expected: ӈамадо
+- features:
+    number: singular
+    person: first
+  expected: ӈамав
+- features:
+    number: singular
+    person: second
+  expected: ӈамар
+- features:
+    number: singular
+    person: third
+  expected: ӈамада
+---
+lemma: хадасъ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: хадаминзь
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: хадаринзь
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: хададинзь
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: хадаваць
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: хадараць
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: хададонзь
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: хадавась
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: хадарась
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: хададась
+- features:
+    number: dual
+    person: first
+  expected: хадами
+- features:
+    number: dual
+    person: second
+  expected: хадари
+- features:
+    number: dual
+    person: third
+  expected: хадади
+- features:
+    number: plural
+    person: first
+  expected: хадава
+- features:
+    number: plural
+    person: second
+  expected: хадара
+- features:
+    number: plural
+    person: third
+  expected: хададо
+- features:
+    number: singular
+    person: first
+  expected: хадав
+- features:
+    number: singular
+    person: second
+  expected: хадар
+- features:
+    number: singular
+    person: third
+  expected: хадада
+---
+lemma: янгго
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: янггуди
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: янггува
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: янггудаць
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: янггуда
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: янггуць
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: янггу

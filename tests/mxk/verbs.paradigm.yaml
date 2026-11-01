@@ -1,0 +1,514 @@
+lemma: aludk-tsei
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: aludk-its
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: aluäk-ind
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: aludk-ats
+- features:
+    verb_form: infinitive
+  expected: aluäk-ts
+---
+lemma: aluäk-tset
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tsetsetsa
+- features:
+    number: dual
+    person: second
+  expected: tsewetsa
+- features:
+    number: dual
+    person: third
+  expected: tsembetsa
+- features:
+    number: plural
+    person: first
+  expected: tseno
+- features:
+    number: plural
+    person: second
+  expected: tsembe
+- features:
+    number: singular
+    person: first
+  expected: aluak-tsetso
+- features:
+    number: singular
+    person: second
+  expected: tseko
+- features:
+    number: singular
+    person: third
+  expected: tsemo
+---
+lemma: kat
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: katsetsa
+- features:
+    number: dual
+    person: second
+  expected: kawetsa
+- features:
+    number: dual
+    person: third
+  expected: kambetsa
+- features:
+    number: plural
+    person: first
+  expected: käno
+- features:
+    number: plural
+    person: second
+  expected: kambe
+- features:
+    number: singular
+    person: first
+  expected: kätso
+- features:
+    number: singular
+    person: second
+  expected: käko
+- features:
+    number: singular
+    person: third
+  expected: kämo
+---
+lemma: kiri
+category: verbs
+cases:
+- features:
+    gender: common
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: nga-ria
+- features:
+    gender: common
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ma-ria
+- features:
+    gender: feminine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: i-ria
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wa-ria
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mi-ria
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: ma-niri
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: ma-ria
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: mbo-niri
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: u-ria
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ni-niri
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ni-ria
+- features:
+    gender: neuter
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: mba-ria
+- features:
+    gender: neuter
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: mbo-ria
+- features:
+    gender: neuter
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ngi-ria
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: i-niri
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: u-niri
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: u-ria
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: imbiri
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: i-ria
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: a-mbiri
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: a-niri
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: a-ria
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: tsi-niri
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tsi-ria
+---
+lemma: meme-tse
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: menie-tsinde
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: meme-indet
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+  expected: meme-itet
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: meme-itse
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: meme-undet
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+  expected: meme-utet
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: meme-utse
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: memi-indet
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: meme-indet
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: memä-inde
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: memi-undet
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: memä-undet
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: memi-itse
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: meme-andet
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: meme-atet
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: niem^-atse
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: meme-tsindet
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: meme^sitet
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: meme-tsitse
+- features:
+    verb_form: infinitive
+  expected: meme-tsc
+---
+lemma: ndipemn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: a-ndiper
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: a-tiper
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: a-tsiper
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: tsi-ndiper
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: tsi-tiper
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tsi-tsiper
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ni-ndiper
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: ni-ndiper
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ni-tsiper
+---
+lemma: tserea
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: a-wir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: a-ts
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: a-r
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: tsi-wir
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: tsi-ts
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tsi-r
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ni-wir
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: ni-nd
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ni-r
+---
+lemma: tset
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: ndet
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+  expected: itet
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+  expected: utet

@@ -1,0 +1,515 @@
+lemma: ban
+category: adjectives
+cases:
+- features:
+    degree: comparative
+  expected: baine
+- features:
+    degree: positive
+  expected: ban
+---
+lemma: beag
+category: adjectives
+cases:
+- features:
+    case: dative
+    number: singular
+  expected: beag
+- features:
+    case: genitive
+    number: singular
+  expected: bheag
+- features:
+    case: nominative
+    number: singular
+  expected: beag
+---
+lemma: borb
+category: adjectives
+cases:
+- features:
+    case: dative
+    number: singular
+  expected: borb
+- features:
+    case: genitive
+    number: singular
+  expected: bhuirb
+- features:
+    case: nominative
+    number: singular
+  expected: borb
+- features:
+    case: vocative
+    number: singular
+  expected: bhuirb
+---
+lemma: cinnteach
+category: adjectives
+cases:
+- features:
+    case: dative
+    number: singular
+  expected: cinnteach
+- features:
+    case: genitive
+    number: singular
+  expected: chinntich
+- features:
+    case: nominative
+    number: singular
+  expected: cinnteach
+- features:
+    case: vocative
+    number: singular
+  expected: chinntich
+---
+lemma: crion
+category: adjectives
+cases:
+- features:
+    degree: comparative
+  expected: crine
+- features:
+    degree: positive
+  expected: crion
+---
+lemma: cruinn
+category: adjectives
+cases:
+- features:
+    degree: comparative
+  expected: cruinne
+- features:
+    degree: positive
+  expected: cruinn
+---
+lemma: dall
+category: adjectives
+cases:
+- features:
+    case: dative
+    number: singular
+  expected: daU
+- features:
+    case: genitive
+    number: singular
+  expected: dhoill
+- features:
+    case: nominative
+    number: singular
+  expected: dall
+- features:
+    case: vocative
+    number: singular
+  expected: dhoill
+---
+lemma: daor
+category: adjectives
+cases:
+- features:
+    degree: comparative
+  expected: daoire
+- features:
+    degree: positive
+  expected: daor
+---
+lemma: dearg
+category: adjectives
+cases:
+- features:
+    case: dative
+    number: singular
+  expected: dearg
+- features:
+    case: genitive
+    number: singular
+  expected: dhearg
+- features:
+    case: nominative
+    number: singular
+  expected: dearg
+- features:
+    case: vocative
+    number: singular
+  expected: dheirg
+- features:
+    degree: comparative
+  expected: deirge
+- features:
+    degree: positive
+  expected: dearg
+---
+lemma: deas
+category: adjectives
+cases:
+- features:
+    degree: comparative
+  expected: deise
+- features:
+    degree: positive
+  expected: deas
+---
+lemma: dubh
+category: adjectives
+cases:
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: dhuibh
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: dubh
+- features:
+    case: dative
+    number: plural
+  expected: dubha
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: duibhe
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: dhuibh
+- features:
+    case: genitive
+    number: plural
+  expected: dubha
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: dhubh
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: dubh
+- features:
+    case: nominative
+    number: plural
+  expected: dubha
+- features:
+    case: vocative
+    gender: feminine
+    number: singular
+  expected: dhubh
+- features:
+    case: vocative
+    gender: masculine
+    number: singular
+  expected: dhuibh
+- features:
+    case: vocative
+    number: plural
+  expected: dubha
+---
+lemma: fada
+category: adjectives
+cases:
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: fhada
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: fada
+- features:
+    case: dative
+    number: plural
+  expected: fada
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: fada
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: fhada
+- features:
+    case: genitive
+    number: plural
+  expected: fada
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: fhada
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: fada
+- features:
+    case: nominative
+    number: plural
+  expected: fada
+- features:
+    case: vocative
+    gender: feminine
+    number: singular
+  expected: fhada
+- features:
+    case: vocative
+    gender: masculine
+    number: singular
+  expected: fhada
+- features:
+    case: vocative
+    number: plural
+  expected: fada
+---
+lemma: geal
+category: adjectives
+cases:
+- features:
+    degree: comparative
+  expected: gilead
+- features:
+    degree: positive
+  expected: geal
+---
+lemma: glic
+category: adjectives
+cases:
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: ghlic
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: glic
+- features:
+    case: dative
+    number: plural
+  expected: glice
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: glice
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: ghlic
+- features:
+    case: genitive
+    number: plural
+  expected: glice
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: ghlic
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: glic
+- features:
+    case: nominative
+    number: plural
+  expected: glice
+- features:
+    case: vocative
+    gender: feminine
+    number: singular
+  expected: ghlic
+- features:
+    case: vocative
+    gender: masculine
+    number: singular
+  expected: ghlic
+- features:
+    case: vocative
+    number: plural
+  expected: glice
+---
+lemma: lag
+category: adjectives
+cases:
+- features:
+    degree: comparative
+  expected: laige
+- features:
+    degree: positive
+  expected: lag
+---
+lemma: mo
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: a
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: a
+- features:
+    number: plural
+    person: first
+  expected: ar
+- features:
+    number: plural
+    person: second
+  expected: ur
+- features:
+    number: plural
+    person: third
+  expected: an
+- features:
+    number: singular
+    person: first
+  expected: mo
+- features:
+    number: singular
+    person: second
+  expected: do
+---
+lemma: salach
+category: adjectives
+cases:
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: shalaich
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: salach
+- features:
+    case: dative
+    number: plural
+  expected: salach
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: salaich
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: shalaich
+- features:
+    case: genitive
+    number: plural
+  expected: salach
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: shalach
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: salach
+- features:
+    case: nominative
+    number: plural
+  expected: salach
+- features:
+    case: vocative
+    gender: feminine
+    number: singular
+  expected: shalach
+- features:
+    case: vocative
+    gender: masculine
+    number: singular
+  expected: shalaich
+- features:
+    case: vocative
+    number: plural
+  expected: salach
+---
+lemma: soilleir
+category: adjectives
+cases:
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: shoilleir
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: soilleir
+- features:
+    case: dative
+    number: plural
+  expected: soilleir
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: soilleir
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: shoilleir
+- features:
+    case: genitive
+    number: plural
+  expected: soilleir
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: shoilleir
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: soilleir
+- features:
+    case: nominative
+    number: plural
+  expected: soilleir
+- features:
+    case: vocative
+    gender: feminine
+    number: singular
+  expected: shoilleir
+- features:
+    case: vocative
+    gender: masculine
+    number: singular
+  expected: shoilleir
+- features:
+    case: vocative
+    number: plural
+  expected: soilleir
+---
+lemma: trom
+category: adjectives
+cases:
+- features:
+    degree: comparative
+  expected: truime
+- features:
+    degree: positive
+  expected: trom

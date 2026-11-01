@@ -1,0 +1,621 @@
+lemma: ajri
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: ajri ro
+- features:
+    definiteness: definite
+    number: singular
+  expected: ajri eo
+- features:
+    number: plural
+    person: first
+  expected: ajri rein
+- features:
+    number: plural
+    person: second
+  expected: ajri ran e
+- features:
+    number: plural
+    person: third
+  expected: ajri ran
+- features:
+    number: singular
+    person: first
+  expected: ajri in
+- features:
+    number: singular
+    person: second
+  expected: ajri n e
+- features:
+    number: singular
+    person: third
+  expected: ajri iien
+---
+lemma: e
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    definiteness: indefinite
+    number: plural
+  expected: rs
+- features:
+    animacy: inanimate
+    definiteness: indefinite
+    number: plural
+  expected: ks
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: e
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: e
+- features:
+    case: vocative
+    number: singular
+    person: third
+  expected: e
+- features:
+    definiteness: indefinite
+    number: singular
+  expected: e
+- features:
+    number: singular
+    person: third
+    tense: present
+  expected: ej
+---
+lemma: ef
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    definiteness: indefinite
+    number: plural
+  expected: raf
+- features:
+    animacy: inanimate
+    definiteness: indefinite
+    number: plural
+  expected: kaf
+- features:
+    definiteness: indefinite
+    number: singular
+  expected: ef
+---
+lemma: ek
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: ek koko
+- features:
+    definiteness: definite
+    number: singular
+  expected: ek eo
+- features:
+    number: plural
+    person: first
+  expected: ek kein
+- features:
+    number: plural
+    person: second
+  expected: ek käkan e
+- features:
+    number: plural
+    person: third
+  expected: ek käkan
+- features:
+    number: singular
+    person: first
+  expected: ek e
+- features:
+    number: singular
+    person: second
+  expected: ek n e n e
+- features:
+    number: singular
+    person: third
+  expected: ni en
+---
+lemma: eo
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    definiteness: definite
+    number: plural
+  expected: ro
+- features:
+    animacy: inanimate
+    definiteness: definite
+    number: plural
+  expected: ko
+- features:
+    definiteness: definite
+    number: singular
+  expected: eo
+---
+lemma: er
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: er
+---
+lemma: fe
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    definiteness: indefinite
+    number: plural
+  expected: rafe
+- features:
+    animacy: inanimate
+    definiteness: indefinite
+    number: plural
+  expected: kafe
+- features:
+    definiteness: indefinite
+    number: singular
+  expected: fe
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ec
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: i
+- features:
+    case: vocative
+    number: singular
+    person: first
+  expected: ga
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: kcminaaj
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kohinaaj
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: rcnaaj
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: inaaj
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: kwcnaaj
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: enaaj
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+  expected: kcmin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: kohin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: ren
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: in
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: kwcn
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: en
+- features:
+    number: dual
+    person: first
+    tense: future
+  expected: jeitcn
+- features:
+    number: dual
+    person: first
+    tense: past
+  expected: jaar
+- features:
+    number: plural
+    person: second
+    tense: future
+  expected: kohitcn
+- features:
+    number: plural
+    person: second
+    tense: past
+  expected: kohar
+- features:
+    number: plural
+    person: third
+    tense: future
+  expected: reitcn
+- features:
+    number: plural
+    person: third
+    tense: past
+  expected: raar
+- features:
+    number: singular
+    person: first
+    tense: future
+  expected: itcn
+- features:
+    number: singular
+    person: first
+    tense: past
+  expected: iaar
+- features:
+    number: singular
+    person: first
+    tense: present
+  expected: ij
+- features:
+    number: singular
+    person: second
+    tense: future
+  expected: kwcton
+- features:
+    number: singular
+    person: second
+    tense: past
+  expected: kwaar
+- features:
+    number: singular
+    person: third
+    tense: future
+  expected: eitcn
+- features:
+    number: singular
+    person: third
+    tense: past
+  expected: eaar
+---
+lemma: in
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    definiteness: indefinite
+    number: plural
+  expected: rein
+- features:
+    animacy: inanimate
+    definiteness: indefinite
+    number: plural
+  expected: kein
+- features:
+    definiteness: indefinite
+    number: singular
+  expected: in
+---
+lemma: je
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: kcj
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: je
+- features:
+    case: vocative
+    number: dual
+    person: first
+  expected: kcj
+- features:
+    number: plural
+    person: first
+    tense: present
+  expected: jej
+---
+lemma: jin
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: jeko
+- features:
+    number: plural
+    person: first
+  expected: jekin
+- features:
+    number: plural
+    person: second
+  expected: jekan e
+- features:
+    number: plural
+    person: third
+  expected: jekan
+- features:
+    number: singular
+  expected: jo
+- features:
+    number: singular
+    person: first
+  expected: jin
+- features:
+    number: singular
+    person: second
+  expected: jen e
+- features:
+    number: singular
+    person: third
+  expected: jen
+---
+lemma: kcj
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: first
+  expected: kcj
+---
+lemma: kcm
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: first
+  expected: kcm
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: kcm
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: kcm
+- features:
+    case: vocative
+    number: dual
+    person: first
+  expected: kcm
+- features:
+    number: plural
+    person: first
+    tense: present
+  expected: kcmij
+---
+lemma: koh
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: second
+  expected: koh
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: koh
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: koh
+- features:
+    case: vocative
+    number: plural
+    person: second
+  expected: koh
+- features:
+    number: plural
+    person: second
+    tense: present
+  expected: kohij
+---
+lemma: kwc
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: eok
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: kwc
+- features:
+    case: vocative
+    number: singular
+    person: second
+  expected: kwe
+- features:
+    number: singular
+    person: second
+    tense: present
+  expected: kwcj
+---
+lemma: le
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: lö m a r
+- features:
+    definiteness: definite
+    number: singular
+  expected: le
+- features:
+    number: plural
+    person: first
+  expected: lö m a r e i n
+- features:
+    number: plural
+    person: second
+  expected: lö m a r a n e
+- features:
+    number: plural
+    person: third
+  expected: lö m a r a n
+- features:
+    number: singular
+    person: first
+  expected: le i n
+- features:
+    number: singular
+    person: second
+  expected: lo n e
+- features:
+    number: singular
+    person: third
+  expected: le e n
+---
+lemma: liin
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: lim a r
+- features:
+    definiteness: definite
+    number: singular
+  expected: lio
+- features:
+    number: plural
+    person: first
+  expected: lim a r e i n
+- features:
+    number: plural
+    person: second
+  expected: lim a r a n e
+- features:
+    number: plural
+    person: third
+  expected: lim a r a n
+- features:
+    number: singular
+    person: first
+  expected: liin
+- features:
+    number: singular
+    person: second
+  expected: lien e
+- features:
+    number: singular
+    person: third
+  expected: lien
+---
+lemma: ni
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: ni ko
+- features:
+    definiteness: definite
+    number: singular
+  expected: ni uweo
+- features:
+    number: plural
+    person: first
+  expected: ni kä
+- features:
+    number: plural
+    person: second
+  expected: ni kan e
+- features:
+    number: plural
+    person: third
+  expected: ni kan
+- features:
+    number: singular
+    person: first
+  expected: ni iiö
+- features:
+    number: singular
+    person: second
+  expected: ek n e n e
+- features:
+    number: singular
+    person: third
+  expected: ni en
+---
+lemma: re
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: er
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: re
+- features:
+    case: vocative
+    number: plural
+    person: third
+  expected: er
+- features:
+    number: plural
+    person: third
+    tense: present
+  expected: rej

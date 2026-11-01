@@ -1,0 +1,1661 @@
+lemma: ca
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: canchic
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: cankichic
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: cancu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: cani
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: canki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: can
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: future
+  expected: can-canchic-captin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: future
+  expected: can-caykichic-captin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: future
+  expected: can-cancu-captin
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: future
+  expected: can-cay-captin
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+  expected: can-cayki-captin
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: future
+  expected: can-can-captin
+---
+lemma: cay
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: ca-n-chis
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ca-n-cu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ca-n-y
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: can
+---
+lemma: cuya
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: cuyanchicmancarca
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: cuyaycumancarca
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: cuyancumancarca
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: cuyankimancarca
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: cuyanmancarca
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: cuyasunchic
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: cuyaychic
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: cuyay
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: cuyasun
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: cuyasunchic
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: cuyarcanchic
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: cuyanchic
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: cuyankichic
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: cuyarcankichic
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: cuyankichic
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: cuyanca
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: cuyarcancu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: cuyancu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: cuyasac
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: cuyarcani
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: cuyani
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: cuyanki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: cuyarcanki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: cuyanki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: cuyanca
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: cuyarcan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cuyan
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: cuyanchicman
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: cuyaycuman
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: cuyancuman
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: cuyankiman
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: cuyanman
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: cuyaptinchic
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: cuyaptiycu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: cuyachuncu
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: cuyaptincu
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: cuyapti
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: cuyaptiki
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: cuyachun
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: cuyaptin
+---
+lemma: cuyasca
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: cuyascam
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cuyascam
+- features:
+    polarity: affirmative
+    tense: present
+    verb_form: infinitive
+  expected: cuyascay
+---
+lemma: kani
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: kasunchij
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: kasqanchij
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kanchij
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: karqanchij
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kankichij
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: kasqankichij
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kankichij
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: karqankichij
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: kanqanku
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: kasqanku
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kanku
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: karqanku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: kasaj
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: kasqani
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kani
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: karqani
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: kanki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: kasqanki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kanki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: karqanki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: kanqa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: kasqa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: karqa
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: kanchijman
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: kananchijta
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: kankichijman
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: kanaikichijta
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: kankuman
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: kanankuta
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: kaiman
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: kanaita
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: kankiman
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: kanaikita
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: kanman
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: kananta
+---
+lemma: kaskai
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    case: ablative
+    verb_form: infinitive
+  expected: kaskasqaimanta
+- features:
+    aspect: perfective
+    verb_form: infinitive
+  expected: kaskasqai
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kaskasun
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kaskaichij
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: kaskachunku
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kaskai
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: kaskachun
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: kaskasunchij
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: kaskarqanchij
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: kaskasqanchij
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kaskanchij
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kaskankichij
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: kaskarqankichij
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: kaskasqankichij
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kaskankichij
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: kaskanqanku
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: kaskarqanku
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: kaskasqanku
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kaskanku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: kaskasaj
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: kaskarqani
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: kaskasqani
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kaskani
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: kaskanki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: kaskarqanki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: kaskasqanki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kaskanki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: kaskanqa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: kaskaj
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: kaskarqa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: kaskasqa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kaskan
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: kaskananchijta
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: kaskanaikichijta
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: kaskanankuta
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: kaskanaita
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: kaskanaikita
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: kaskananta
+- features:
+    tense: future
+    verb_form: infinitive
+  expected: kaskanai
+- features:
+    verb_form: gerund
+  expected: kaskaspa
+- features:
+    verb_form: infinitive
+  expected: kaskai
+- features:
+    verb_form: participle
+    voice: active
+  expected: kaskaj
+---
+lemma: koy
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: konquichis
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+  expected: korkanquichis
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: pluperfect
+  expected: koskanquichis
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: konquichis
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: konkancu
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+  expected: korkancu
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: pluperfect
+  expected: koskacu
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: koncu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: kosun
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: korkanchis
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: koskanchis
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: konchis
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kosajcu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: korkaicu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: koskcácu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: koicu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: kosaj
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: korkani
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: koskani
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: koni
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: konqui
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: korkanqui
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: koskanqui
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: konqui
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: konka
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: korka
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: koska
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kon
+- features:
+    mood: potential
+    number: dual
+    person: first
+  expected: konquichisman
+- features:
+    mood: potential
+    number: dual
+    person: second
+  expected: konsuman
+- features:
+    mood: potential
+    number: plural
+    person: first
+  expected: konman
+- features:
+    mood: potential
+    number: plural
+    person: second
+  expected: konchisman
+- features:
+    mood: potential
+    number: plural
+    person: third
+  expected: koshuan
+- features:
+    mood: potential
+    number: singular
+    person: first
+  expected: koiman
+- features:
+    mood: potential
+    number: singular
+    person: second
+  expected: konquiman
+- features:
+    mood: potential
+    number: singular
+    person: third
+  expected: kohuaj
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+  expected: kojtiyquichis
+- features:
+    mood: subjunctive
+    number: dual
+    person: third
+  expected: kojtincu
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: kojtinchis
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: kojtiycu
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: kojtiy
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: kojtiyqui
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: koftin
+- features:
+    verb_form: gerund
+  expected: kospa
+- features:
+    verb_form: infinitive
+  expected: koy
+- features:
+    verb_form: participle
+  expected: koj
+---
+lemma: munai
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: past
+  expected: munanchijman
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: past
+  expected: munankichijman
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: munankuman
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: munaiman
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: past
+  expected: munankiman
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: munanman
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+  expected: munasqa
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: munananchijta
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: munanaikuta
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: munanankuta
+---
+lemma: puriy
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: purinquichis
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+  expected: purirkanquichis
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: pluperfect
+  expected: puriskanquichis
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: purinquichis
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: purinkacu
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+  expected: purirkancu
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: pluperfect
+  expected: puriskacu
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: purincu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: purisun
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: purirkanchis
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: puriskanchis
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: purinchis
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: purisajcu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: purirkaicu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: puriskaicu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: puriycu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: purisaj
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: purirkarú
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: puriskani
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: purini
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: purinqui
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: purirkanqui
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: puriskanqui
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: purinqui
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: purinka
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: purirka
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: puriska
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: purin
+- features:
+    mood: potential
+    number: dual
+    person: first
+  expected: puriycu-man
+- features:
+    mood: potential
+    number: dual
+    person: second
+  expected: purincu-man
+- features:
+    mood: potential
+    number: plural
+    person: first
+  expected: purin-man
+- features:
+    mood: potential
+    number: plural
+    person: second
+  expected: purinchis-man
+- features:
+    mood: potential
+    number: plural
+    person: third
+  expected: purishuan
+- features:
+    mood: potential
+    number: singular
+    person: first
+  expected: puriyman
+- features:
+    mood: potential
+    number: singular
+    person: second
+  expected: purinqui-man
+- features:
+    mood: potential
+    number: singular
+    person: third
+  expected: purihuaj
+- features:
+    mood: subjunctive
+    number: dual
+    person: third
+  expected: purijtincu
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: purijtinchis
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: purijtiycu
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: purijtiy
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: purijtiyqui
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: puritin
+- features:
+    verb_form: gerund
+  expected: purispa
+- features:
+    verb_form: infinitive
+  expected: puriy
+- features:
+    verb_form: participle
+  expected: purij
+---
+lemma: puñui
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: puñusqai
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: puñusun
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: puñuichij
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: puñuchunku
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: puñui
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: puñuchun
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: puñusun
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: puñurqanchij
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: puñusqanchij
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: puñunchij
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: puñunkichij
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: puñurqankichij
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: puñusqankichij
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: puñunkichij
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: puñunqanku
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: puñurqanku
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: puñusqanku
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: puñunku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: puñusaj
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: puñurqani
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: puñusqani
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: puñuni
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: puñunki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: puñurqanki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: puñusqanki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: puñunki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: puñunqa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: puñuj
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: puñurqa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: puñusqa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: puñun
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: puñunaita
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: puñunaikita
+- features:
+    verb_form: converb
+  expected: puñunai
+- features:
+    verb_form: gerund
+  expected: puñuspa
+- features:
+    verb_form: infinitive
+  expected: puñui
+- features:
+    verb_form: participle
+    voice: active
+  expected: puñuj
+- features:
+    verb_form: participle
+    voice: passive
+  expected: puñusqa
+---
+lemma: puñuna
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: puñunanchij
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: puñunanchij
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: puñunaikichij
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: puñunanku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: puñunai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: puñunaiki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: puñunan
+- features:
+    verb_form: infinitive
+  expected: puñuna
+---
+lemma: rikuy
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ricuska-n
+- features:
+    verb_form: infinitive
+  expected: ricuska

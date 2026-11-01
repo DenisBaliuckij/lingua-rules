@@ -1,0 +1,1389 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: aːr
+- features:
+    gender: feminine
+    number: plural
+  expected: aːd
+- features:
+    gender: masculine
+    number: plural
+  expected: aːs
+- features:
+    number: singular
+  expected: abɽaː
+---
+lemma: argah
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: argah
+---
+lemma: ds
+category: pronouns
+cases:
+- features:
+    case: ablative
+    gender: common
+    number: plural
+  expected: drti
+- features:
+    case: ablative
+    gender: feminine
+    number: singular
+  expected: dditl
+- features:
+    case: ablative
+    gender: masculine
+    number: singular
+  expected: dsti
+- features:
+    case: ablative
+    gender: neuter
+    number: plural
+  expected: abranti
+- features:
+    case: ablative
+    gender: neuter
+    number: singular
+  expected: dditl
+- features:
+    case: accusative
+    gender: common
+    number: plural
+  expected: drin
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: ddin
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: dain
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: abran
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: ddin
+- features:
+    case: dative
+    gender: common
+    number: plural
+  expected: drge
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: ddiye
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: as ge
+- features:
+    case: dative
+    gender: neuter
+    number: plural
+  expected: abrdge
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: ddiye
+- features:
+    case: genitive
+    gender: common
+    number: plural
+  expected: drgahi
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: ddigahiy
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: ds gahi
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: abrdgahiy
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: ddigahiy
+- features:
+    case: instrumental
+    gender: common
+    number: plural
+  expected: dr trl tru
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: ddi M
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: dstri
+- features:
+    case: instrumental
+    gender: neuter
+    number: plural
+  expected: abran tri
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: ddi M
+- features:
+    case: locative
+    gender: common
+    number: plural
+  expected: dr nu
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: ddi nu
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: da nu
+- features:
+    case: locative
+    gender: neuter
+    number: plural
+  expected: abrd nu
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: d nu
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: dd
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: ds
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: they
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: dd
+---
+lemma: dsgahi
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: dsgahi
+---
+lemma: emhai
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: emhaintt
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: emhain
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: emhai ge
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: emhai gahi
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: emhain trl
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: emhai nu
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: what
+- features:
+    number: plural
+    person: first
+  expected: emhai
+---
+lemma: en
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: em tl
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: erig tl
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: eman
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: erigm
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: emd
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: erigd
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: emhai
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: en'ghai
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: em tri
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: erigtrl
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: em nu
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: erig nu
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: em
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: en
+---
+lemma: endr
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: endran
+- features:
+    case: dative
+  expected: endr g$
+- features:
+    case: genitive
+  expected: endr gahi
+- features:
+    case: instrumental
+  expected: endrtl
+- features:
+    case: locative
+  expected: endr nu
+- features:
+    case: nominative
+  expected: enclr
+---
+lemma: endr'ddim
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: endr'amti
+- features:
+    case: accusative
+  expected: endr'dnim
+- features:
+    case: dative
+  expected: endr'amge
+- features:
+    case: genitive
+  expected: endr'am gahi
+- features:
+    case: locative
+  expected: endr'am nu
+- features:
+    case: nominative
+  expected: endr'ddim
+---
+lemma: endraʔam
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: endraʔam tiː
+- features:
+    case: accusative
+  expected: endranim
+- features:
+    case: dative
+  expected: endraʔam ge
+- features:
+    case: genitive
+  expected: endraʔam gahi
+- features:
+    case: locative
+  expected: endraʔam nuː
+- features:
+    case: nominative
+  expected: endraʔam
+---
+lemma: endrd
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: endr an
+- features:
+    case: dative
+  expected: endrd ge
+- features:
+    case: genitive
+  expected: endrd gahi
+- features:
+    case: instrumental
+  expected: endrdti
+- features:
+    case: locative
+  expected: endrd nu
+- features:
+    case: nominative
+  expected: endrd
+---
+lemma: enghai
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: enghaintl
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: enghai ge
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ertghai gahi
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: enghain
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: enghai nu
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: enghai
+---
+lemma: erighai
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: erighai
+---
+lemma: eːm
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: emhay tiː
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: em-an
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: em-aː
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: em-hay
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: emhay tiː
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: em-nuː
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: eːm
+---
+lemma: eːn
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: eŋg-tiː
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: eŋghay tiː
+- features:
+    case: accusative
+  expected: eŋgg-an
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: eŋgg-an
+- features:
+    case: dative
+  expected: eŋgg-aː
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: eŋgg-aː
+- features:
+    case: genitive
+  expected: eŋg-hay
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: eŋg-hay
+- features:
+    case: instrumental
+  expected: eŋg-tiː
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: eŋghay tiː
+- features:
+    case: locative
+  expected: eŋg-nuː
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: eŋg-nuː
+- features:
+    case: nominative
+  expected: eːn
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: eːn
+---
+lemma: hu
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: huːr
+- features:
+    gender: feminine
+    number: plural
+  expected: huːd
+- features:
+    gender: masculine
+    number: plural
+  expected: huːs
+- features:
+    number: singular
+  expected: hubɽaː
+---
+lemma: hubrd
+category: pronouns
+cases:
+- features:
+    case: ablative
+    gender: neuter
+    number: plural
+  expected: hubranti
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: hubran
+- features:
+    case: dative
+    gender: neuter
+    number: plural
+  expected: jmbrdge
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: hubrdgahi
+- features:
+    case: instrumental
+    gender: neuter
+    number: plural
+  expected: hubran trl
+- features:
+    case: locative
+    gender: neuter
+    number: plural
+  expected: hubrd nu
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: hubrd
+---
+lemma: hur
+category: pronouns
+cases:
+- features:
+    case: ablative
+    gender: masculine
+    number: plural
+  expected: hurtt
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: hurin
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: hur ge
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: hurgahi
+- features:
+    case: instrumental
+    gender: masculine
+    number: plural
+  expected: hurtri
+- features:
+    case: locative
+    gender: masculine
+    number: plural
+  expected: hur nu
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: hur
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: iːr
+- features:
+    gender: feminine
+    number: plural
+  expected: iːd
+- features:
+    gender: masculine
+    number: plural
+  expected: iːs
+- features:
+    number: singular
+  expected: isɽaː
+---
+lemma: namhai
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: namhainti
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: namhain
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: namhai ge
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: namhai gahi
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: namhain in
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: namhai n&
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: namhai
+---
+lemma: narcghai
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: narcghainti
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nanghain
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: nanghai ge t
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: nanghai gahi
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: namhain in
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: nanghai nu
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: narcghai
+---
+lemma: naːm
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: namhay tiː
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nam-an
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: nam-aː
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: nam-hay
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: namhay tiː
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: nam-nuː
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: naːm
+---
+lemma: ne
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: nekan
+- features:
+    case: dative
+  expected: nekdge
+- features:
+    case: genitive
+  expected: nekhai
+- features:
+    case: instrumental
+  expected: nekantl
+- features:
+    case: locative
+  expected: nek nu
+- features:
+    case: nominative
+  expected: ne
+---
+lemma: neː
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: neːkʰay tiː
+- features:
+    case: accusative
+  expected: neːk-an
+- features:
+    case: dative
+  expected: neːk-aːge
+- features:
+    case: genitive
+  expected: neːkʰay
+- features:
+    case: locative
+  expected: neːkʰay nuː
+- features:
+    case: nominative
+  expected: neː
+---
+lemma: nik'im
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: nik'im tru
+- features:
+    case: accusative
+  expected: nik'im an
+- features:
+    case: dative
+  expected: nik'im ge
+- features:
+    case: genitive
+  expected: nik'im gahi
+- features:
+    case: nominative
+  expected: nlk'im
+---
+lemma: nimhai
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: nimhai
+---
+lemma: nimhat
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: nimhaintt
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: nlmhain
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: nimhai ge
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: nimhai gahi
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: nimhai aft
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: nimhat
+---
+lemma: nin
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: ningtl
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: ningan
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: nirigd
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: nmghni
+- features:
+    case: instrumental
+    number: singular
+    person: second
+  expected: ning tri
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: ning nu
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: nin
+---
+lemma: ninghai
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: ninghai
+---
+lemma: nittghai
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: nirtghain
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: ninghai ge
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: ninghai gahi
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: ninghai nu t
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: nittghai
+---
+lemma: niːm
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: nimhay tiː
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: nim-an
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: nim-aː
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: nim-hay
+- features:
+    case: instrumental
+    number: plural
+    person: second
+  expected: nimhay tiː
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: nim-nuː
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: niːm
+---
+lemma: niːn
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: niŋghay tiː
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: niŋgg-an
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: niŋgg-aː
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: niŋg-hay
+- features:
+    case: instrumental
+    number: singular
+    person: second
+  expected: niŋghay tiː
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: niŋg-nuː
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: niːn
+---
+lemma: ntk'aw
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: nek'anti
+- features:
+    case: dative
+  expected: nek'am ge
+- features:
+    case: nominative
+  expected: nek'am
+---
+lemma: taːm
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: tamhay tiː
+- features:
+    case: accusative
+    number: plural
+  expected: tam-an
+- features:
+    case: dative
+    number: plural
+  expected: tam-aː
+- features:
+    case: genitive
+    number: plural
+  expected: tam-hay
+- features:
+    case: instrumental
+    number: plural
+  expected: tamhay tiː
+- features:
+    case: locative
+    number: plural
+  expected: tamhay nuː
+- features:
+    case: nominative
+    number: plural
+  expected: taːm
+---
+lemma: taːn
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: taŋghay tiː
+- features:
+    case: accusative
+    number: singular
+  expected: taŋgg-an
+- features:
+    case: dative
+    number: singular
+  expected: taŋgg-aː
+- features:
+    case: genitive
+    number: singular
+  expected: taŋg-hay
+- features:
+    case: instrumental
+    number: singular
+  expected: taŋghay tiː
+- features:
+    case: locative
+    number: singular
+  expected: taŋghay nuː
+- features:
+    case: nominative
+    number: singular
+  expected: taːn
+---
+lemma: tdn
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: tamti
+- features:
+    case: ablative
+    number: singular
+  expected: taiiganti
+- features:
+    case: accusative
+    number: plural
+  expected: taman
+- features:
+    case: accusative
+    number: singular
+  expected: tarigan
+- features:
+    case: dative
+    number: plural
+  expected: tamdge tamd
+- features:
+    case: dative
+    number: singular
+  expected: tangdge tangd
+- features:
+    case: genitive
+    number: plural
+  expected: tdmhai
+- features:
+    case: genitive
+    number: singular
+  expected: tanghai
+- features:
+    case: locative
+    number: plural
+  expected: tdm nu
+- features:
+    case: locative
+    number: singular
+  expected: tang nu
+- features:
+    case: nominative
+    number: plural
+  expected: tdtn
+- features:
+    case: nominative
+    number: singular
+  expected: tdn
+---
+lemma: ts
+category: pronouns
+cases:
+- features:
+    case: ablative
+    gender: feminine
+    number: plural
+  expected: from these
+- features:
+    case: ablative
+    gender: feminine
+    number: singular
+  expected: dti
+- features:
+    case: ablative
+    gender: masculine
+    number: plural
+  expected: wtl
+- features:
+    case: ablative
+    gender: masculine
+    number: singular
+  expected: uti
+- features:
+    case: ablative
+    gender: neuter
+    number: plural
+  expected: ibrantt
+- features:
+    case: ablative
+    gender: neuter
+    number: singular
+  expected: dti
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: these
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: idin
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: irin
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: fsm
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: iftrn
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: idin
+- features:
+    case: dative
+    gender: feminine
+    number: plural
+  expected: to these
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: idige
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: irge
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: ts ge
+- features:
+    case: dative
+    gender: neuter
+    number: plural
+  expected: ibrage
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: idige
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: of these
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: idigahi
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: irgahi
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: ts gahi
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: ibragahij
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: idigahi
+- features:
+    case: instrumental
+    gender: feminine
+    number: plural
+  expected: through
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: idtri
+- features:
+    case: instrumental
+    gender: masculine
+    number: plural
+  expected: ir trf
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: is tfri
+- features:
+    case: instrumental
+    gender: neuter
+    number: plural
+  expected: ibran tri
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: idtri
+- features:
+    case: locative
+    gender: feminine
+    number: plural
+  expected: in these
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: idnu
+- features:
+    case: locative
+    gender: masculine
+    number: plural
+  expected: tr nu
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: is nu
+- features:
+    case: locative
+    gender: neuter
+    number: plural
+  expected: ibrd nu
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: inu
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: these
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: id
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: ir
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: ts
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: these
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: id

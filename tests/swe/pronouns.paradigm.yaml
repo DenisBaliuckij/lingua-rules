@@ -1,0 +1,422 @@
+lemma: de
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: de
+---
+lemma: den
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: den
+- features:
+    case: genitive
+    gender: neuter
+  expected: dess
+- features:
+    case: genitive
+    number: plural
+  expected: deras
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: dess
+- features:
+    case: nominative
+    gender: common
+  expected: den
+- features:
+    case: nominative
+    gender: neuter
+  expected: det
+- features:
+    case: nominative
+    number: plural
+  expected: de
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: den
+- features:
+    gender: common
+    number: singular
+    person: third
+  expected: den
+---
+lemma: denna
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: common
+  expected: denna
+- features:
+    case: nominative
+    gender: neuter
+  expected: detta
+- features:
+    case: nominative
+    number: plural
+  expected: dessa
+---
+lemma: densamma
+category: pronouns
+cases:
+- features:
+    gender: common
+  expected: densamma
+- features:
+    gender: neuter
+  expected: detsamma
+- features:
+    number: plural
+  expected: desamma
+---
+lemma: det
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: det
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: dess
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: det
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: det
+---
+lemma: du
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: dig
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: dig
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: du
+---
+lemma: en
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: common
+  expected: en
+- features:
+    case: nominative
+    gender: neuter
+  expected: ett
+---
+lemma: få
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: få
+---
+lemma: han
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+  expected: honom
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: honom
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: hans
+- features:
+    case: nominative
+    gender: masculine
+  expected: han
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: han
+- features:
+    gender: masculine
+  expected: hans
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: han
+---
+lemma: hon
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+  expected: henne
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: henne
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: hennes
+- features:
+    case: nominative
+    gender: feminine
+  expected: hon
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: hon
+- features:
+    gender: feminine
+  expected: hennes
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: hon
+---
+lemma: jag
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: oSS
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: er
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: mig
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: dig
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: mig
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: vi
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: ni
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: jag
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: du
+- features:
+    gender: common
+    number: singular
+    person: third
+  expected: den
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: det
+- features:
+    number: plural
+    person: first
+  expected: vår
+- features:
+    number: plural
+    person: second
+  expected: er
+- features:
+    number: plural
+    person: third
+  expected: de
+- features:
+    number: singular
+    person: first
+  expected: min
+- features:
+    number: singular
+    person: second
+  expected: din
+- features:
+    number: singular
+    person: third
+  expected: han
+---
+lemma: man
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: man
+---
+lemma: mången
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: common
+  expected: mången
+- features:
+    case: nominative
+    gender: neuter
+  expected: månget
+- features:
+    case: nominative
+    number: plural
+  expected: många
+---
+lemma: någon
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: common
+  expected: någon
+- features:
+    case: nominative
+    gender: neuter
+  expected: något
+- features:
+    case: nominative
+    number: plural
+  expected: några
+---
+lemma: samma
+category: pronouns
+cases:
+- features:
+    gender: common
+  expected: samma
+- features:
+    gender: neuter
+  expected: samma
+- features:
+    number: plural
+  expected: samma
+---
+lemma: sig
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: sig
+---
+lemma: sin
+category: pronouns
+cases:
+- features:
+    gender: masculine
+  expected: sin
+- features:
+    gender: neuter
+  expected: sitt
+- features:
+    number: plural
+  expected: sina
+---
+lemma: sådan
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: common
+  expected: sådan
+---
+lemma: tusen
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: tusen
+---
+lemma: två
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: två
+---
+lemma: vad
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: vad
+---
+lemma: vem
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: vem
+---
+lemma: vilken
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: common
+  expected: vilken
+- features:
+    case: nominative
+    gender: neuter
+  expected: vilket
+- features:
+    case: nominative
+    number: plural
+  expected: vilka

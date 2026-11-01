@@ -1,0 +1,235 @@
+lemma: animal
+category: nouns
+cases:
+- features:
+    definiteness: indefinite
+    gender: feminine
+    number: plural
+  expected: animals
+- features:
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+  expected: animal
+---
+lemma: ar
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: niai
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: psai
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: pnav
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ar
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: •!]av
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: nar
+---
+lemma: king
+category: nouns
+cases:
+- features:
+    definiteness: indefinite
+    gender: masculine
+    number: plural
+  expected: kings
+- features:
+    definiteness: indefinite
+    gender: masculine
+    number: singular
+  expected: king
+---
+lemma: nrn
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: kinrn
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: pariDTl
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: pnprn
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nrn
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: ^nvn
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: nrii
+---
+lemma: חיון
+category: nouns
+cases:
+- features:
+    definiteness: construct
+    number: plural
+  expected: חיות
+- features:
+    definiteness: definite
+    number: plural
+  expected: החיות
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: חיון
+- features:
+    definiteness: indefinite
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: חיותנא
+- features:
+    definiteness: indefinite
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: חיותכון
+- features:
+    definiteness: indefinite
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: חיותהון
+- features:
+    definiteness: indefinite
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: חיותי
+- features:
+    definiteness: indefinite
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: חיותך
+- features:
+    definiteness: indefinite
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: חיותה
+---
+lemma: חלא
+category: nouns
+cases:
+- features:
+    definiteness: construct
+    number: singular
+  expected: FTTH
+- features:
+    definiteness: definite
+    number: singular
+  expected: חיותא
+- features:
+    number: singular
+  expected: חלא
+---
+lemma: עדן
+category: nouns
+cases:
+- features:
+    definiteness: construct
+    number: plural
+  expected: עדל
+- features:
+    definiteness: construct
+    number: singular
+  expected: עדן
+- features:
+    definiteness: definite
+    number: plural
+  expected: עדמא
+- features:
+    definiteness: definite
+    number: singular
+  expected: עדנא
+- features:
+    number: plural
+  expected: JW
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: עדננא
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: עמיך
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: ?מהון
+- features:
+    number: singular
+  expected: ?דן
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: עדני
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: ?הד
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: עמה
+---
+lemma: •rirn
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: •rirn
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: nnrn
+---
+lemma: ••ai
+category: nouns
+cases:
+- features:
+    noun_class: class_1
+    possessor_number: singular
+    possessor_person: third
+  expected: n^ai
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ••ai
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ••niai

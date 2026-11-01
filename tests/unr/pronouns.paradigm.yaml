@@ -1,0 +1,667 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: first
+  expected: aling
+- features:
+    animacy: animate
+    number: dual
+    person: second
+  expected: aben
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: aking
+- features:
+    animacy: animate
+    number: plural
+    person: first
+  expected: ale
+- features:
+    animacy: animate
+    number: plural
+    person: second
+  expected: ape
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: ako
+- features:
+    animacy: animate
+    number: singular
+    person: first
+  expected: aing
+- features:
+    animacy: animate
+    number: singular
+    person: second
+  expected: am
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: ae
+- features:
+    animacy: inanimate
+    number: dual
+    person: first
+  expected: abu
+- features:
+    animacy: inanimate
+    number: singular
+    person: first
+  expected: alang
+- features:
+    animacy: inanimate
+    number: singular
+    person: second
+  expected: a
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: a
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: alinga?
+- features:
+    case: genitive
+    number: dual
+    person: second
+  expected: abena
+- features:
+    case: genitive
+    number: dual
+    person: third
+  expected: akinga
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: alea
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: apea
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: akoa
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: ama
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: aea
+---
+lemma: aing
+category: pronouns
+cases:
+- features:
+    case: locative
+  expected: alang
+---
+lemma: am
+category: pronouns
+cases:
+- features:
+    case: instrumental
+  expected: ape
+- features:
+    case: locative
+  expected: aben
+---
+lemma: cikani ’?
+category: pronouns
+cases:
+- features:
+    case: instrumental
+  expected: cikanko?
+- features:
+    case: locative
+  expected: cikanking?
+---
+lemma: cikani’a ?
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: cikankoa ?
+- features:
+    case: genitive
+    number: singular
+  expected: cikani’a ?
+---
+lemma: cilekan!a?
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: cilekankoa?
+- features:
+    case: genitive
+    number: singular
+  expected: cilekan!a?
+---
+lemma: cilekani’t
+category: pronouns
+cases:
+- features:
+    case: instrumental
+  expected: cilekanko?
+- features:
+    case: locative
+  expected: cilekanking?
+---
+lemma: en
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+  expected: inking
+- features:
+    animacy: animate
+    number: plural
+  expected: inku
+- features:
+    animacy: animate
+    number: singular
+  expected: ini
+- features:
+    animacy: inanimate
+  expected: ena
+---
+lemma: eta'king
+category: pronouns
+cases:
+- features:
+    case: locative
+  expected: etaко
+---
+lemma: eta’ni’a
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: dual
+  expected: eta’kinga
+- features:
+    case: genitive
+    number: plural
+  expected: eta’koa
+- features:
+    case: genitive
+    number: singular
+  expected: eta’ni’a
+---
+lemma: han
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+  expected: hanking
+- features:
+    animacy: animate
+    number: plural
+  expected: hanko
+- features:
+    animacy: animate
+    number: singular
+  expected: hani
+- features:
+    animacy: inanimate
+  expected: hana
+---
+lemma: hani
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: dual
+  expected: hanking-a
+- features:
+    case: genitive
+    number: plural
+  expected: hanko-a
+- features:
+    case: genitive
+    number: singular
+  expected: hania
+- features:
+    case: instrumental
+  expected: hanko
+- features:
+    case: locative
+  expected: hanking
+---
+lemma: ilo
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: kine
+- features:
+    gender: feminine
+    number: singular
+  expected: ina
+- features:
+    gender: masculine
+    number: plural
+  expected: kilo
+- features:
+    gender: masculine
+    number: singular
+  expected: ilo
+---
+lemma: ini
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: dual
+  expected: inking-a
+- features:
+    case: genitive
+    number: plural
+  expected: inku-a
+- features:
+    case: genitive
+    number: singular
+  expected: inia
+- features:
+    case: instrumental
+  expected: inku
+- features:
+    case: locative
+  expected: inking
+---
+lemma: jae
+category: pronouns
+cases:
+- features:
+    case: instrumental
+  expected: j ako
+- features:
+    case: locative
+  expected: jaking
+---
+lemma: jaea
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: dual
+  expected: jakinga
+- features:
+    case: genitive
+    number: plural
+  expected: jakoa
+- features:
+    case: genitive
+    number: singular
+  expected: jaea
+---
+lemma: jani
+category: pronouns
+cases:
+- features:
+    case: instrumental
+  expected: janko
+- features:
+    case: locative
+  expected: ranking
+---
+lemma: jania
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: dual
+  expected: jankinga
+- features:
+    case: genitive
+    number: plural
+  expected: jankoa
+- features:
+    case: genitive
+    number: singular
+  expected: jania
+---
+lemma: jetae
+category: pronouns
+cases:
+- features:
+    case: instrumental
+  expected: jet^ko
+- features:
+    case: locative
+  expected: jetaking
+---
+lemma: jetaea
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: dual
+  expected: jetakinga
+- features:
+    case: genitive
+    number: plural
+  expected: jetakoa
+- features:
+    case: genitive
+    number: singular
+  expected: jetaea
+---
+lemma: jetani f
+category: pronouns
+cases:
+- features:
+    case: instrumental
+  expected: jetanko
+- features:
+    case: locative
+  expected: jetanking
+---
+lemma: jetani’a
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: dual
+  expected: jetankinga
+- features:
+    case: genitive
+    number: plural
+  expected: jetankoa
+- features:
+    case: genitive
+    number: singular
+  expected: jetani’a
+---
+lemma: laŋ
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: naŋ
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: laŋ
+---
+lemma: lio
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: künää
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: nio
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: külä
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: lio
+---
+lemma: lit
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: kunik
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: nit
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: kulik
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: lit
+---
+lemma: lo
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: kune
+- features:
+    gender: feminine
+    number: singular
+  expected: na
+- features:
+    gender: masculine
+    number: plural
+  expected: kulo
+- features:
+    gender: masculine
+    number: singular
+  expected: lo
+---
+lemma: lu
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: kunu
+- features:
+    gender: feminine
+    number: singular
+  expected: nu
+- features:
+    gender: masculine
+    number: plural
+  expected: kulu
+- features:
+    gender: masculine
+    number: singular
+  expected: lu
+---
+lemma: luka
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: nuka
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: luka
+---
+lemma: luŋ
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: kunu
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: nuŋ
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: kuluŋ
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: luŋ
+---
+lemma: lükä
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: nükä
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: lükä
+---
+lemma: ne
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+  expected: niking
+- features:
+    animacy: animate
+    number: plural
+  expected: niku
+- features:
+    animacy: animate
+    number: singular
+  expected: ni
+- features:
+    animacy: inanimate
+  expected: nea
+---
+lemma: ni
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: dual
+  expected: niking-a
+- features:
+    case: genitive
+    number: plural
+  expected: niku-a
+- features:
+    case: genitive
+    number: singular
+  expected: nia
+- features:
+    case: instrumental
+  expected: niku
+- features:
+    case: locative
+  expected: niking
+---
+lemma: okoe
+category: pronouns
+cases:
+- features:
+    case: instrumental
+  expected: okoko
+- features:
+    case: locative
+  expected: okoking
+---
+lemma: okoe?
+category: pronouns
+cases:
+- features:
+    case: instrumental
+  expected: okoteko?
+- features:
+    case: locative
+  expected: okoteking?
+---
+lemma: okoea
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: dual
+  expected: okokinga
+- features:
+    case: genitive
+    number: plural
+  expected: okokoa
+- features:
+    case: genitive
+    number: singular
+  expected: okoea
+---
+lemma: okoeaТ
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: dual
+  expected: okotekinga ?
+- features:
+    case: genitive
+    number: plural
+  expected: okotekoa?
+- features:
+    case: genitive
+    number: singular
+  expected: okoeaТ
+---
+lemma: okoni’ ?
+category: pronouns
+cases:
+- features:
+    case: instrumental
+  expected: okonko?
+- features:
+    case: locative
+  expected: okonking?
+---
+lemma: okoni’a ?
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+  expected: okonkoa?
+- features:
+    case: genitive
+    number: singular
+  expected: okoni’a ?

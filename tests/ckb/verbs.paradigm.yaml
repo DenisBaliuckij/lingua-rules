@@ -1,0 +1,3397 @@
+lemma: birdin
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: bîban
+- features:
+    mood: imperative
+    number: singular
+  expected: bîbara
+---
+lemma: bîn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+    voice: passive
+  expected: bînrâyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+    voice: passive
+  expected: bînrâbûyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: passive
+  expected: dábînreyn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+    voice: passive
+  expected: bînrân
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+    voice: passive
+  expected: bînrâbûn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: passive
+  expected: dábînren
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+    voice: passive
+  expected: bînrân
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+    voice: passive
+  expected: bînrâbûn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: passive
+  expected: dábînren
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+    voice: passive
+  expected: bînrâm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+    voice: passive
+  expected: bînrâbûm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: passive
+  expected: dábînrem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+    voice: passive
+  expected: bînrây
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+    voice: passive
+  expected: bînrâbûy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: passive
+  expected: dábînrey
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+    voice: passive
+  expected: bînrâ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+    voice: passive
+  expected: bînrâbû
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+  expected: dábînre
+---
+lemma: bînrîn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: passive
+  expected: bînrâwin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: passive
+  expected: bînrâwîn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: passive
+  expected: bînrâwin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: passive
+  expected: bînrâwim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: passive
+  expected: bînrâwî
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+  expected: bînrâwa
+---
+lemma: bûn
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: bîbin
+- features:
+    mood: imperative
+    number: singular
+  expected: bîba
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: bûyn
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: bûn
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: bûn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: nábûm
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: bibûyn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: nábûy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: bibûn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: nábû
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: bibûn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: bûm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: bibûm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: bûy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: bibûy
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: bû
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: bibû
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: bîn
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: bin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: bin
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: bim
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: bî
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: be
+---
+lemma: chûn
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    person: first
+    tense: past
+  expected: dachûm
+- features:
+    mood: imperative
+    number: plural
+  expected: bîchin
+- features:
+    mood: imperative
+    number: singular
+  expected: bîcha
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: chûbûyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: dáchîn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: nâchîn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: chûbûn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: dáchin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: nâchin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: chûbûn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: dáchin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: nâchin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: chûbûm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: dáchim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: nâchim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: conditional_tense
+  expected: bichûmâya
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: chûm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: chûwim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: chûbûm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: achim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: chûbûy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: dáchî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: nâchî
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: chûbû
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: dáche
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: nâche
+- features:
+    mood: indicative
+    person: first
+    tense: conditional_tense
+  expected: chûbâm
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: chûbîn
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: náchîn
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: bíchîn
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: chûbin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: náchin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: bíchin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: chûbin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: náchin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: bíchin
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: chûbim
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: náchim
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: chûbim
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: bíchim
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: chûbî
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: náchî
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: bíchî
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: chûbe
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: náche
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: bíche
+- features:
+    verb_form: infinitive
+  expected: chûn
+---
+lemma: dibîn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+    voice: passive
+  expected: dabînrem
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: perfect
+    voice: passive
+  expected: bînrâwim
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+    voice: passive
+  expected: bînrâbûm
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+    voice: passive
+  expected: nâbînrem
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: perfect
+    voice: passive
+  expected: nábînrâwim
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: pluperfect
+    voice: passive
+  expected: nábînrâbûm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+    voice: passive
+  expected: dabînreyn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: perfect
+    voice: passive
+  expected: bînrâwîn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+    voice: passive
+  expected: bînrâbûyn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+    voice: passive
+  expected: nâbînreyn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: perfect
+    voice: passive
+  expected: nábînrâwîn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: pluperfect
+    voice: passive
+  expected: nábînrâbûyn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+    voice: passive
+  expected: dabînren
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: perfect
+    voice: passive
+  expected: bînrâwin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+    voice: passive
+  expected: bînrâbûn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+    voice: passive
+  expected: nâbînren
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+    voice: passive
+  expected: nábînrâwin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: pluperfect
+    voice: passive
+  expected: nábînrâbûn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+    voice: passive
+  expected: dabînrem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+    voice: passive
+  expected: bînrâwim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+    voice: passive
+  expected: bînrâbûm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+    voice: passive
+  expected: nâbînrem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+    voice: passive
+  expected: nábînrâwim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: pluperfect
+    voice: passive
+  expected: nábînrâbûm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+    voice: passive
+  expected: dabînrey
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+    voice: passive
+  expected: bînrâwî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+    voice: passive
+  expected: bînrâbûy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+    voice: passive
+  expected: nâbînrey
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+    voice: passive
+  expected: nábînrâwî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: pluperfect
+    voice: passive
+  expected: nábînrâbûy
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+    voice: passive
+  expected: dabînre
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+    voice: passive
+  expected: bînrâwa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+    voice: passive
+  expected: bînrâbû
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+    voice: passive
+  expected: nâbînre
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+    voice: passive
+  expected: nábînrâwa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: pluperfect
+    voice: passive
+  expected: nábînrâbû
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+    voice: passive
+  expected: bînrâbim
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+    voice: passive
+  expected: bíbînrem
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+    voice: passive
+  expected: nábînrem
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+    voice: passive
+  expected: bînrâbîn
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+    voice: passive
+  expected: bíbînreyn
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+    voice: passive
+  expected: nábînreyn
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+    voice: passive
+  expected: bînrâbin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+    voice: passive
+  expected: bíbînren
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+    voice: passive
+  expected: nábînren
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+    voice: passive
+  expected: bînrâbim
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+    voice: passive
+  expected: bíbînrem
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+    voice: passive
+  expected: nábînrem
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+    voice: passive
+  expected: bînrâbî
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+    voice: passive
+  expected: bíbînrey
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+    voice: passive
+  expected: nábînrey
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+    voice: passive
+  expected: bînrâbi
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+    voice: passive
+  expected: bíbînre
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+    voice: passive
+  expected: nábînre
+---
+lemma: dozînawa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: dozîwatawa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: dozîwatawa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: dozîwatawa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: dozîwatawa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: dozîwatawa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: dozîwatawa
+---
+lemma: dâ-nîshtin
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: dâ-nîshin
+- features:
+    mood: imperative
+    number: singular
+  expected: dâ-nîsha
+---
+lemma: dân
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: bîdan
+- features:
+    mood: imperative
+    number: singular
+  expected: bídara
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: dâbûmân
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: dâbûtân
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: dâbûyân
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: dâbûm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: dâbût
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: dâbûy
+---
+lemma: dîtin
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: dîtmânî
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: dîtibûmân
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+    voice: active
+  expected: námândîtî
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: dîttânim
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: dîtibûtân
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+    voice: active
+  expected: nátândîtîm
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: dîtyânim
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: dîtibûyân
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+    voice: active
+  expected: náyândîtîm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: dîtimî
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: dîtibûm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+    voice: active
+  expected: námîtî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: dîtitim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: dîtibût
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+    voice: active
+  expected: nátîtîm
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: dîtimî
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: dîtibûy
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+    voice: active
+  expected: náyîtîm
+---
+lemma: gayîn
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: dágayîyn
+- features:
+    aspect: habitual
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: dágayîn
+- features:
+    aspect: habitual
+    mood: indicative
+    number: dual
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: dágayîn
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: dágayîm
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: dágayîy
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: dágayî
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: gayîyn
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: gayîn
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: gayîn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: nágayîm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: nágayîy
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: nágayî
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: gayîm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: gayîy
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: gayî
+---
+lemma: gařân
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: dágařeyn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: dágařen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: dágařen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dágařem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dágařey
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dágaře
+---
+lemma: gařânawa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: dágařeynawa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: dágařenawa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: dákanawa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dágařemawa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dágařeytawa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dágařetawa
+---
+lemma: gwe-girtin
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: gwe-girin
+- features:
+    mood: imperative
+    number: singular
+  expected: gwe-gira
+---
+lemma: hatin
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: past
+  expected: hâtibâyn
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: past
+  expected: bíhâtinâya
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: bíhâtinâya
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: bíhâtimâya
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: past
+  expected: hâtibây
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: hâtibân
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: hâtibûyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: pluperfect
+  expected: náhâtibûyn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: hâtibûn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: pluperfect
+  expected: náhâtibûn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: hâtibûn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: pluperfect
+  expected: náhâtibûn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: hâtibûm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: pluperfect
+  expected: náhâtibûm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: hâtibûy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: pluperfect
+  expected: náhâtibûy
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: hâtibû
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: pluperfect
+  expected: náhâtibû
+---
+lemma: henân
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: benîn
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: benin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: benin
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: benim
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: benî
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: bene
+---
+lemma: hâtin
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: dáhâtîn
+- features:
+    aspect: habitual
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: dáhâtin
+- features:
+    aspect: habitual
+    mood: indicative
+    number: dual
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: dáhâtin
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: dáhâtim
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: dáhâtî
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: dáhât
+- features:
+    mood: imperative
+    number: plural
+  expected: wárin
+- features:
+    mood: imperative
+    number: singular
+  expected: wára
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: hâtîn
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: hâtin
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: hâtin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: náhâtim
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: náhâtî
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: náhât
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: hâtim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: hâtî
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: hât
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: hâtibîn
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: hâtibin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: hâtibin
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: hâtibim
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: hâtibî
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: hâtibe
+---
+lemma: hâtîn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: hâtûyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: náhâtûyn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: hâtûn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: náhâtûn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: hâtûn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: náhâtûn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: hâtûm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: náhâtûm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: hâtûy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: náhâtûy
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: hâtûa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: náhâtûa
+---
+lemma: hâtînawa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: hâtûynawa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: hâtûnawa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: hâtûnawa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: hâtûmawa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: hâtûytawa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: hâtûatawa
+---
+lemma: kawtin
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: dákawîn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: nâkawîn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: dákawin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: nádakawîn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: dákawin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: nádakawîn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: dákawim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: nâkawim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: dákawî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: nádakawim
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: dákawe
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: nádakawim
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: bíkawîn
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: nákawîn
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: bíkawin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: nákawîn
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: bíkawin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: nákawîn
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: bíkawim
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: nákawim
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: bíkawî
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: nákawim
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: bíkawe
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: nákawim
+---
+lemma: kewtin
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: bíkawtibâyn
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: bíkawtinâya
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: bíkawtinâya
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: bíkawtimâya
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+    tense: pluperfect
+  expected: nákawtimâya
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: bíkawtibây
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+    tense: pluperfect
+  expected: nákawtibâyn
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: bíkawtibâ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: kawtibûyn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: kawtibûn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: kawtibûn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: kawtibûm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: pluperfect
+  expected: nákawtibûm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: kawtibûy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: pluperfect
+  expected: nákawtibûyn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: kawtibû
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: kawtibîn
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: kawtibin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: kawtibin
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: kawtibim
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: nákawtibim
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: kawtibî
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: nákawtibîn
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: kawtibe
+---
+lemma: khistin
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: bîkhan
+- features:
+    mood: imperative
+    number: singular
+  expected: bîkhara
+---
+lemma: khwârdin
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: khwârdûa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: námânkhwârdûa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: khwârdûa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: nátânkhwârdûa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: khwârdûa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: náyânkhwârdûa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: khwârdûa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: námkhwârdûa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: khwârdûa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: nátkhwârdûa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: khwârdûa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: náykhwârdûa
+---
+lemma: kirdinawa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: kirdûatawa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: dákaynawa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: kirdûatawa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: dákanawa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: kirdûatawa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: dákanawa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: kirdûatawa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dákamawa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: kirdûatawa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dákaytawa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: kirdûatawa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dákâtawa
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: bíkaynawa
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: bíkanawa
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: bíkanawa
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: bíkamawa
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: bíkaytawa
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: bíkâtawa
+---
+lemma: křîn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: křîwa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: námânkřîwa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: křîwa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: nátânkřîwa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: křîwa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: náyânkřîwa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: křîwa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: námkřîwa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: křîwa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: nátkřîwa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: křîwa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: náykřîwa
+---
+lemma: mân
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: mâyn
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: mân
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: mân
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: námâm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: námây
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: námâ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: mâm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: mây
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: mâ
+---
+lemma: mâwîn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: mâwîn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: námâwîn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: mâwin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: námâwin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: mâwin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: námâwin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: mâwim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: námâwim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: mâwî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: námâwî
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: mâwa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: námâwa
+---
+lemma: mâwînawa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: mâwînawa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: mâwinawa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: mâwinawa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: mâwimawa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: mâwîtawa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: mâwatawa
+---
+lemma: ner
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+    voice: passive
+  expected: nerrâyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+    voice: passive
+  expected: nerrâbûyn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: passive
+  expected: dánerreyn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+    voice: passive
+  expected: nerrân
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+    voice: passive
+  expected: nerrâbûn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: passive
+  expected: dánerren
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+    voice: passive
+  expected: nerrân
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+    voice: passive
+  expected: nerrâbûn
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: passive
+  expected: dánerren
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+    voice: passive
+  expected: nerrâm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+    voice: passive
+  expected: nerrâbûm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: passive
+  expected: dánerrem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+    voice: passive
+  expected: nerrây
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+    voice: passive
+  expected: nerrâbûy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: passive
+  expected: dánerreyt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+    voice: passive
+  expected: nerrâ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+    voice: passive
+  expected: nerrâbû
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+  expected: dánerre
+---
+lemma: nûsîn
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: bímânnûsîâya
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: past
+  expected: bínûsîâya
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: bítânnûsîâya
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: past
+  expected: bínûsîâya
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: bíyânnûsîâya
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: past
+  expected: bínûsîâya
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: bímnûsîâya
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+    tense: pluperfect
+  expected: námnûsîâya
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: bínûsîâya
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: bítnûsîâya
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+    tense: pluperfect
+  expected: námânnûsîâya
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: past
+  expected: bínûsîâya
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: bíynûsîâya
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: bínûsîâya
+- features:
+    mood: imperative
+    number: plural
+  expected: bînûsin
+- features:
+    mood: imperative
+    number: singular
+  expected: bînûsa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: nûsibûmân
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: dánûsîn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: nânûsîn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: nûsibûtân
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: dánûsin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: nânûsin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: nûsibûyân
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: dánûsin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: nânûsin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: nûsibûm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: dánûsim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: pluperfect
+  expected: námnûsibû
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: nânûsim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: nûsibût
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: dánûsî
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: pluperfect
+  expected: námânnûsibû
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: nânûsî
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: nûsîbûy
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: dánûse
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: nânûse
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: nûsîbetmân
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: bínûsîn
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: nánûsîn
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: nûsîbettân
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: bínûsin
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: nánûsîn
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: nûsîbetyân
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: bínûsin
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: nánûsîn
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: nûsîbetim
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: bínûsim
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: námnûsîbet
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: nánûsim
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: nûsîbetit
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: bínûsî
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: námânnûsîbet
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: nánûsim
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: nûsîbetî
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: bínûse
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: nánûsim
+---
+lemma: tawâw-kirdin
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: tawâw-kan
+- features:
+    mood: imperative
+    number: singular
+  expected: tawâw-ka
+---
+lemma: wis-bûn
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: wis-bin
+- features:
+    mood: imperative
+    number: singular
+  expected: wis-ba

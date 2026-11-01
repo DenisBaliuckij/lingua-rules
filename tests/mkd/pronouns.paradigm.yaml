@@ -1,0 +1,486 @@
+lemma: jac
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: n roa
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: m roi
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: raa
+- features:
+    number: plural
+    person: first
+  expected: iSi pi
+- features:
+    number: plural
+    person: second
+  expected: sue
+- features:
+    number: plural
+    person: third
+  expected: twe
+- features:
+    number: singular
+    person: first
+  expected: jac
+- features:
+    number: singular
+    person: second
+  expected: tM
+---
+lemma: moj
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: plural
+  expected: hHBHM
+- features:
+    gender: feminine
+    number: plural
+  expected: hama
+- features:
+    gender: feminine
+    number: singular
+  expected: mOJA
+- features:
+    gender: masculine
+    number: plural
+  expected: ham
+- features:
+    gender: masculine
+    number: singular
+  expected: mOJ
+- features:
+    gender: neuter
+    number: plural
+  expected: haaie
+- features:
+    gender: neuter
+    number: singular
+  expected: moe
+- features:
+    number: plural
+  expected: mOH
+---
+lemma: oboj
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: oBaa
+- features:
+    gender: masculine
+    number: singular
+  expected: oBOJ
+- features:
+    number: plural
+  expected: oBMC
+---
+lemma: ohoj
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: oHO]
+- features:
+    gender: neuter
+    number: singular
+  expected: oHa
+- features:
+    number: plural
+  expected: oHne
+---
+lemma: toj
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: raa
+- features:
+    gender: masculine
+    number: singular
+  expected: tO]
+- features:
+    gender: neuter
+    number: singular
+  expected: roa
+- features:
+    number: plural
+  expected: rue
+---
+lemma: вие
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: вас
+- features:
+    case: dative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: вам
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: вие
+---
+lemma: кой би бил
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: која би била
+- features:
+    gender: masculine
+    number: singular
+  expected: кого би бил
+- features:
+    gender: neuter
+    number: singular
+  expected: кое би било
+- features:
+    number: plural
+  expected: кои би биле
+---
+lemma: кой да е
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: која да е
+- features:
+    gender: masculine
+    number: singular
+  expected: кого да е
+- features:
+    gender: neuter
+    number: singular
+  expected: кое да е
+- features:
+    number: plural
+  expected: кои да се
+---
+lemma: кой-и-да-е
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: која-и-да-е
+- features:
+    gender: masculine
+    number: singular
+  expected: кого-и-да-е
+- features:
+    gender: neuter
+    number: singular
+  expected: кое-и-да-е
+- features:
+    number: plural
+  expected: кои-и-да-е
+---
+lemma: некој
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: некоја
+- features:
+    gender: masculine
+    number: singular
+  expected: некого
+- features:
+    gender: neuter
+    number: singular
+  expected: некое
+- features:
+    number: plural
+  expected: некои
+---
+lemma: ние
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: нас
+- features:
+    case: dative
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: нам
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ние
+---
+lemma: никој
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: никоја
+- features:
+    gender: masculine
+    number: singular
+  expected: никого
+- features:
+    gender: neuter
+    number: singular
+  expected: никое
+- features:
+    number: plural
+  expected: никои
+---
+lemma: себе
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: себе
+- features:
+    case: dative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: себе
+---
+lemma: секој
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: секоја
+- features:
+    gender: masculine
+    number: singular
+  expected: секого
+- features:
+    gender: neuter
+    number: singular
+  expected: секое
+- features:
+    number: plural
+  expected: секои
+---
+lemma: сите
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: ситата
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: ситов
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: ситото
+- features:
+    case: accusative
+    number: plural
+  expected: сите
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: ситата
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: ситов
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: ситото
+- features:
+    case: dative
+    number: plural
+  expected: сите
+- features:
+    gender: feminine
+    number: singular
+  expected: ситата
+- features:
+    gender: masculine
+    number: singular
+  expected: ситиот
+- features:
+    gender: neuter
+    number: singular
+  expected: ситото
+- features:
+    number: plural
+  expected: сите
+---
+lemma: таа
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: неа
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: нејзе
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: таа
+---
+lemma: ти
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: тебе
+- features:
+    case: dative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: тебе
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ти
+---
+lemma: тие
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: нив
+- features:
+    case: dative
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: ним
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: тие
+---
+lemma: тоа
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: него
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: нему
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+    person: third
+  expected: тоа
+---
+lemma: тој
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: него
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: нему
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: тој
+---
+lemma: јас
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: мене
+- features:
+    case: dative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: мене
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: јас

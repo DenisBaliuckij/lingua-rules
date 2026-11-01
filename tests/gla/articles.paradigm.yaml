@@ -1,0 +1,60 @@
+lemma: an
+category: articles
+cases:
+- features:
+    case: dative
+    gender: common
+    number: plural
+  expected: na
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: an
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: an
+- features:
+    case: dative
+    number: plural
+  expected: na
+- features:
+    case: genitive
+    gender: common
+    number: plural
+  expected: nan
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: na
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: an
+- features:
+    case: genitive
+    number: plural
+  expected: nan
+- features:
+    case: nominative
+    gender: common
+    number: plural
+  expected: na
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: an
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: ann
+- features:
+    case: nominative
+    number: plural
+  expected: na

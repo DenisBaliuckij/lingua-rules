@@ -1,0 +1,673 @@
+lemma: em
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: ēink
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: enk
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: ēik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ek
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: ēin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: en
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: ēi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: ēir
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: es
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: ēr
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ē
+---
+lemma: gnal
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: future
+  expected: gnank
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: gnayink
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: future
+  expected: gnak
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: gnayik
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: future
+  expected: gnan
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: gnayin
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: future
+  expected: gnam
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: gnayi
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+  expected: gnas
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: gnayir
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: future
+  expected: gna
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: gnar
+---
+lemma: gr
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: grel
+- features:
+    aspect: perfective
+    verb_form: participle
+    voice: active
+  expected: groł
+---
+lemma: unem
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: uneink
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: unenk
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: uneik
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: unek
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: unein
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: unen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: unei
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: unem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: uneir
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: unes
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: uner
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: uni
+---
+lemma: ըլլալ
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: ըլլայինք
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: ըլլանք
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: ըլլայիք
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: ըլլաք
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: ըլլային
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: ըլլան
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: ըլլայի
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: ըլլամ
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: ըլլայիր
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: ըլլաս
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: ըլլար
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: ըլլայ
+- features:
+    tense: future
+    verb_form: participle
+  expected: ըլլալու
+- features:
+    verb_form: infinitive
+  expected: ըլլալ
+- features:
+    verb_form: verbal_noun
+  expected: ըլլալու
+---
+lemma: լսել
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: լսեցինք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: լսեցիք
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: լսեցին
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: լսեցի
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: լսեցիր
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: լսեց
+---
+lemma: խօսիլ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: խօսեցանք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: խօսեցաք
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: խօսեցան
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: խօսեցալ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: խօսեցար
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: խօսեցաւ
+---
+lemma: կարդալ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: կարդացինք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: կարդացիք
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: կարդացին
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: կարդացի
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: կարդացիր
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: կարդաց
+---
+lemma: կենալ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: կեցէ՛ք
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: կեցի՛ր
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: կեցանք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: կեցաք
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: կեցան
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: կեցայ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: կեցար
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: կեցաւ
+- features:
+    verb_form: infinitive
+  expected: կենալ
+- features:
+    verb_form: participle
+  expected: կենալու
+- features:
+    verb_form: past_participle
+  expected: կեցած
+- features:
+    verb_form: present_participle
+  expected: կեցող
+---
+lemma: նստիլ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: նստեցէ՛ք
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: նիստ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: նստանք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: նստաք
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: նստան
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: նստայ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: նստար
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: նստաւ
+- features:
+    verb_form: infinitive
+  expected: նստիլ
+---
+lemma: ունիմ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: ունեցանք
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: ունէինք
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ունինք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: ունեցաք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: ունէիք
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ունիք
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: ունեցան
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: ունէին
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ունին
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: ունեցայ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: ունէի
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ունիմ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: ունեցար
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: ունէիր
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ունիս
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: ունեցաւ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: ունէր
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ունի

@@ -1,0 +1,356 @@
+lemma: I
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: I
+---
+lemma: de
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: de
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: dem
+- features:
+    formality: formal
+    number: plural
+    person: second
+  expected: de
+- features:
+    formality: formal
+    number: singular
+    person: second
+  expected: de
+- features:
+    gender: common
+    number: singular
+  expected: deres
+- features:
+    gender: neuter
+    number: singular
+  expected: deres
+- features:
+    number: plural
+  expected: deres
+- features:
+    number: plural
+    person: second
+  expected: de
+- features:
+    number: plural
+    person: third
+  expected: de
+- features:
+    number: singular
+    person: second
+  expected: de
+---
+lemma: den
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: common
+    number: singular
+    person: third
+  expected: den
+- features:
+    case: oblique
+    gender: common
+    number: singular
+    person: third
+  expected: den
+- features:
+    gender: common
+    number: singular
+  expected: sin
+- features:
+    gender: neuter
+    number: singular
+  expected: sit
+- features:
+    number: plural
+  expected: sine
+- features:
+    number: singular
+    person: third
+  expected: den
+---
+lemma: dens
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: singular
+    person: third
+  expected: dens
+---
+lemma: deres
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: deres
+---
+lemma: det
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+    person: third
+  expected: det
+- features:
+    case: oblique
+    gender: neuter
+    number: singular
+    person: third
+  expected: det
+- features:
+    number: singular
+    person: third
+  expected: det
+---
+lemma: dets
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: dets
+---
+lemma: din
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: din
+---
+lemma: du
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: i
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: du
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: jer
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: dig
+- features:
+    formality: informal
+    number: plural
+    person: second
+  expected: i
+- features:
+    formality: informal
+    number: singular
+    person: second
+  expected: du
+- features:
+    number: singular
+    person: second
+  expected: du
+---
+lemma: eder
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: eder
+---
+lemma: han
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: han
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+    person: third
+  expected: ham
+- features:
+    number: singular
+    person: third
+  expected: han
+---
+lemma: hans
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: hans
+---
+lemma: hendes
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: hendes
+---
+lemma: hun
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: hun
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+    person: third
+  expected: hende
+- features:
+    gender: common
+    number: singular
+  expected: sin
+- features:
+    gender: neuter
+    number: singular
+  expected: sit
+- features:
+    number: plural
+  expected: sine
+- features:
+    number: singular
+    person: third
+  expected: hun
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: singular
+  expected: jeres
+- features:
+    gender: neuter
+    number: singular
+  expected: jeres
+- features:
+    number: plural
+  expected: jeres
+---
+lemma: jeg
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: vi
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: jeg
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: os
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: mig
+- features:
+    number: singular
+    person: first
+  expected: jeg
+---
+lemma: jeres
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: jeres
+---
+lemma: min
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: min
+---
+lemma: sin
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: sin
+---
+lemma: vi
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: singular
+  expected: vores
+- features:
+    gender: neuter
+    number: singular
+  expected: vores
+- features:
+    number: plural
+  expected: vores
+- features:
+    number: plural
+    person: first
+  expected: vi
+---
+lemma: vor
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: vor
+---
+lemma: vores
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: vores

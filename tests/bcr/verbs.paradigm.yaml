@@ -1,0 +1,371 @@
+lemma: O
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+  expected: is
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+  expected: in
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+  expected: yi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+  expected: is
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+  expected: in
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+  expected: yi
+---
+lemma: d-D-ts’´ƒ
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: dits’´ƒ
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+    polarity: negative
+  expected: wedists’´q
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: dits’´ƒ
+---
+lemma: d´stGes
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+    voice: active
+  expected: ny´d´tGes
+- features:
+    number: plural
+    person: first
+    voice: active
+  expected: nts’´y´Ges
+- features:
+    number: plural
+    person: second
+    voice: active
+  expected: s´xwGes
+- features:
+    number: plural
+    person: third
+    voice: active
+  expected: h´b´sGes
+- features:
+    number: singular
+    person: first
+    voice: active
+  expected: s´Ges
+- features:
+    number: singular
+    person: second
+    voice: active
+  expected: senGes
+- features:
+    number: singular
+    person: third
+    voice: active
+  expected: h´sGes
+- features:
+    voice: active
+  expected: c’´sGes
+---
+lemma: h-ne
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+  expected: h´ne
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+  expected: weeneh
+- features:
+    number: singular
+    person: third
+  expected: hEne
+---
+lemma: l-q’´t
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+  expected: h´lq’´t
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+  expected: welq’´t
+---
+lemma: li
+category: verbs
+cases:
+- features:
+    aspect: perfective
+  expected: inli
+- features:
+    aspect: perfective
+    voice: active
+  expected: s´li
+---
+lemma: n-z´n
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: wenisz´n
+- features:
+    person: first
+    polarity: negative
+  expected: wenid´dz´n
+- features:
+    person: second
+    polarity: negative
+  expected: weninz´n
+- features:
+    person: third
+    polarity: negative
+  expected: weniz´n
+---
+lemma: n´#D-g´t
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: n´tg´t
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+    polarity: negative
+  expected: n´westg´t
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: nitg´t
+---
+lemma: o-d
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+  expected: y´t’´y
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+  expected: weyit’´ç
+- features:
+    number: singular
+    person: third
+  expected: yit’´y
+---
+lemma: o-ts´ƒ
+category: verbs
+cases:
+- features:
+    person: first
+    polarity: negative
+  expected: biweyid´ts´X
+- features:
+    person: second
+    polarity: negative
+  expected: biweyints´X
+- features:
+    person: third
+    polarity: negative
+  expected: yiweyits´X
+---
+lemma: o-u-tan
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+  expected: yuntan
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+  expected: weyutan
+- features:
+    number: singular
+    person: third
+  expected: yuntan
+---
+lemma: p+e#n-l-g´t
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: wewenig´lg´t
+- features:
+    person: first
+    polarity: negative
+  expected: wewenid´lg´t
+- features:
+    person: second
+    polarity: negative
+  expected: wewenilg´t
+- features:
+    person: third
+    polarity: negative
+  expected: wewenilg´t
+---
+lemma: p+qa
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+  expected: y´qa
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+  expected: y´qa
+- features:
+    number: singular
+    person: third
+  expected: y´qa
+---
+lemma: t-ƒ´s
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: t´ƒ´s
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+    polarity: negative
+  expected: wet´sƒ´ts
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: tEnƒ´s
+---
+lemma: w´s
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: h´w´s
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+    polarity: negative
+  expected: wesw´ts
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: iw´s
+---
+lemma: yi
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    polarity: affirmative
+  expected: yi
+- features:
+    aspect: imperfective
+    polarity: affirmative
+    tense: future
+  expected: yi
+- features:
+    aspect: imperfective
+    polarity: negative
+  expected: yil
+- features:
+    aspect: imperfective
+    polarity: negative
+    tense: future
+  expected: yi
+- features:
+    aspect: perfective
+    polarity: affirmative
+  expected: yi
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: future
+  expected: yi
+- features:
+    aspect: perfective
+    polarity: negative
+  expected: yi
+- features:
+    aspect: perfective
+    polarity: negative
+    tense: future
+  expected: yi

@@ -1,0 +1,1707 @@
+lemma: an?
+category: verbs
+cases:
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: an?i
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: wan?
+- features:
+    gender: common
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: an?N
+- features:
+    gender: common
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: nan?
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: ana?i
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: nari?
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: rianan
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: pnana
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: para
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: lana
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: anari
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: nan?
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: ana
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: an?
+---
+lemma: ana
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: anan
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: ?na
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+    voice: passive
+  expected: ana
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+    voice: reflexive
+  expected: •anapn
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: nanan
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: active
+  expected: nana
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: passive
+  expected: nana
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: reflexive
+  expected: nanpnn
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: anann
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: anan
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: anan
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: reflexive
+  expected: anann
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: nanpn
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+  expected: nan?
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+  expected: nana
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: reflexive
+  expected: nanppn
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+    voice: active
+  expected: )m
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+    voice: passive
+  expected: lyna
+- features:
+    gender: feminine
+    number: singular
+    verb_form: participle
+    voice: active
+  expected: nana
+- features:
+    gender: feminine
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: na^na
+- features:
+    gender: masculine
+    mood: imperative
+    number: plural
+    person: second
+  expected: lanan
+- features:
+    gender: masculine
+    mood: imperative
+    number: plural
+    person: second
+    voice: active
+  expected: lana
+- features:
+    gender: masculine
+    mood: imperative
+    number: plural
+    person: second
+    voice: passive
+  expected: lana
+- features:
+    gender: masculine
+    mood: imperative
+    number: plural
+    person: second
+    voice: reflexive
+  expected: lanann
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: anan
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: ana
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+    voice: passive
+  expected: ana
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+    voice: reflexive
+  expected: anann
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: papann
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: pa^an
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: panan
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: reflexive
+  expected: panpnn
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: pnanan
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+  expected: pnana
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: passive
+  expected: pnana
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: reflexive
+  expected: pnanpnn
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: panan
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: pana
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: pa??
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: reflexive
+  expected: pappn
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: lanan
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: active
+  expected: '!iana'
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: passive
+  expected: lana
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: reflexive
+  expected: lanapn
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: anann
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: anan
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: passive
+  expected: anan
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: reflexive
+  expected: anann
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: nanaN
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: active
+  expected: nana
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: passive
+  expected: panan
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: reflexive
+  expected: panpnn
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: anan
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: ana
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: passive
+  expected: ana
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: reflexive
+  expected: anan
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: anps
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+  expected: ana
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+  expected: anan
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: reflexive
+  expected: anann
+- features:
+    gender: masculine
+    number: plural
+    verb_form: participle
+    voice: active
+  expected: fana
+- features:
+    gender: masculine
+    number: plural
+    verb_form: participle
+    voice: passive
+  expected: pyna
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+    voice: active
+  expected: ana
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: a^na
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: anam
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: anai
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: anaj
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: reflexive
+  expected: anan?
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: xiana
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: active
+  expected: ??na
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: passive
+  expected: xiana
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: reflexive
+  expected: xjawnn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: jinana
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: lana
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: an^n^?
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: anas
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: passive
+  expected: anas
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: reflexive
+  expected: ananx
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: nana
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+  expected: nana
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: passive
+  expected: nana
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: reflexive
+  expected: nappnn
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: nana
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: ana
+- features:
+    verb_form: infinitive
+  expected: nan?D
+- features:
+    verb_form: infinitive
+    voice: active
+  expected: anai?
+- features:
+    verb_form: infinitive
+    voice: passive
+  expected: nana
+- features:
+    verb_form: infinitive
+    voice: reflexive
+  expected: nanann
+---
+lemma: anann
+category: verbs
+cases:
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: anan?
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: nianann
+- features:
+    gender: common
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: ananx
+- features:
+    gender: common
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: nanann
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: panann
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: pnanann
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: panan?
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: lanann
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: anann
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: nanann
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: anan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: anann
+---
+lemma: anp
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: niani?
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: iwanj?
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: lanj?
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: nanj?
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: nanp
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: anp
+---
+lemma: tto
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: jTriS
+- features:
+    gender: feminine
+    number: singular
+  expected: hTriS
+- features:
+    gender: masculine
+    number: plural
+  expected: f?'''^?
+- features:
+    gender: masculine
+    number: singular
+  expected: tTO
+---
+lemma: בנה
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ??י
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נבנה
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: בנינא
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תבנוץ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אבנה
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: בנית
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תבנה
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: בנית
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ובנה
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: בנה
+- features:
+    number: singular
+    verb_form: participle
+    voice: active
+  expected: בנה
+- features:
+    verb_form: infinitive
+  expected: מבנא
+---
+lemma: דגלי
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ?דגלה
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: דגליו
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: דגלי
+- features:
+    number: singular
+    verb_form: participle
+    voice: active
+  expected: מדגלא
+- features:
+    verb_form: infinitive
+  expected: הגלד
+---
+lemma: הקטל
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: הקטלי
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יקטלן
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: הקטל
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: הקטלת
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+    voice: active
+  expected: מדקטלן
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+    voice: passive
+  expected: מהקטלן
+- features:
+    gender: feminine
+    number: singular
+    verb_form: participle
+    voice: active
+  expected: מהקטלא
+- features:
+    gender: feminine
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: מהקטלא
+- features:
+    gender: masculine
+    mood: imperative
+    number: plural
+    person: second
+  expected: הקטלו
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: הקטל
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נקטל
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: הקטלנא
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: הקטלון
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: הקטלתון
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: נקטלון
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: הקטלו
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אקטל
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: הקטלת
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: הקטל
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: דקטלה
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: נקטל
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: הקטל
+- features:
+    gender: masculine
+    number: plural
+    verb_form: participle
+    voice: active
+  expected: מהקטלין
+- features:
+    gender: masculine
+    number: plural
+    verb_form: participle
+    voice: passive
+  expected: טהקטלין
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+    voice: active
+  expected: מדקטל
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: מהקטל
+- features:
+    verb_form: infinitive
+  expected: דקטלה
+---
+lemma: התקטל
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: התקטלי
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יתקטלן
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: תתקטל
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: התקבלת
+- features:
+    gender: feminine
+    number: singular
+    verb_form: participle
+  expected: מתקטלא
+- features:
+    gender: masculine
+    mood: imperative
+    number: plural
+    person: second
+  expected: התקטלו
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: התקטל
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ינהקטל
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: התקטלנא
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תתקטלון
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: התקטלתק
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יתקטלון
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: מתקטא
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אתקטל
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: התרגלת
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תתקטל
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: התקטלה
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יהקטל
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: התקטל
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+  expected: מתקטל
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: התקטלי
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: התקטל
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נתקטל
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: התקטלנא
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תתקטלון
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: התקטלתון
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יתקטלון
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: התקפלו
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אתלטל
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: התקטלת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תתקטל
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: התקפלת
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יתקטל
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: התקטל
+- features:
+    number: singular
+    verb_form: participle
+  expected: מתקפל
+- features:
+    verb_form: infinitive
+  expected: חתקטלח
+---
+lemma: לסמי
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: ססמון
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יסמא
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: לתמי
+- features:
+    number: singular
+    verb_form: participle
+  expected: מסמא
+---
+lemma: צלי
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: צלי
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: צליר
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: צלית
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: צלית
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: צל
+- features:
+    number: plural
+    verb_form: participle
+    voice: active
+  expected: מצלין
+- features:
+    number: singular
+    verb_form: participle
+    voice: active
+  expected: מצלא
+- features:
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: מצליא
+---
+lemma: קהל
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: קהלנא
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: קטלתון
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: קהלו
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: קטלת
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: קטלת
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: קהל
+---
+lemma: קום
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: קום
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: נקום
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: מקומון
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יקומן
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: קמו
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אקום
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: תקום
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: קמת
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יקום
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: קם
+- features:
+    number: plural
+    verb_form: participle
+    voice: active
+  expected: קאמין
+- features:
+    number: singular
+    verb_form: participle
+    voice: active
+  expected: קאם
+- features:
+    verb_form: infinitive
+  expected: ?קם
+---
+lemma: קטל
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: קטלי
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יקטלן
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+    voice: active
+  expected: מקטלן
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+    voice: passive
+  expected: מקטלן
+- features:
+    gender: feminine
+    number: singular
+    verb_form: participle
+    voice: active
+  expected: מקטלא
+- features:
+    gender: feminine
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: מקטלא
+- features:
+    gender: masculine
+    mood: imperative
+    number: plural
+    person: second
+  expected: קטלו
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: קטל
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ?קטל
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: תקטלון
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: יקטלון
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: קטלו
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: אקטל
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: קטלת
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: הקטל
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: קטלת
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: יקטל
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: קטל
+- features:
+    gender: masculine
+    number: plural
+    verb_form: participle
+    voice: active
+  expected: מקטלין
+- features:
+    gender: masculine
+    number: plural
+    verb_form: participle
+    voice: passive
+  expected: מקטלין
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+    voice: active
+  expected: מקטל
+- features:
+    gender: masculine
+    number: singular
+    verb_form: participle
+    voice: passive
+  expected: מקטל
+- features:
+    verb_form: infinitive
+  expected: קטלה

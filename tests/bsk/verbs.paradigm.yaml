@@ -1,0 +1,903 @@
+lemma: ba
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: bivm
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bi.n
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bi
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: bi
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bom
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: bo
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: barn
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: bam
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: bavn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: bam
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: baln
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: bam
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: baw
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: baiyam
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ba
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: barn
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ba
+---
+lemma: be
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bom
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: bo
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bam
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: bai
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: bam
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: baan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: bam
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: baan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: bam
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: baan
+- features:
+    mood: indicative
+    number: plural
+    tense: past
+  expected: biyom
+- features:
+    mood: indicative
+    number: plural
+    tense: present
+  expected: biyo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: bam
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ba
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: bam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ba
+- features:
+    mood: indicative
+    number: singular
+    tense: past
+  expected: bim
+- features:
+    mood: indicative
+    number: singular
+    tense: present
+  expected: bi
+---
+lemma: di.e.yas
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+    verb_form: participle
+  expected: di.sm
+- features:
+    gender: neuter
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: di.e
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: di.e.n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: di.e
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: di.e
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: di.e.Eam
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: di.e
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: di.evam
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: di.e
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: di.e
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: di.e.mi
+- features:
+    verb_form: past_participle
+    voice: active
+  expected: di.en
+---
+lemma: girmín
+category: verbs
+cases:
+- features:
+    gender: common
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: girmíibilá
+- features:
+    gender: common
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: girmíibí
+- features:
+    gender: feminine
+    mood: conditional
+    number: singular
+    person: third
+  expected: girmíimce
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: girmíibié
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: girmínumo
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: girmínubó
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: girmíibó
+- features:
+    gender: masculine
+    mood: conditional
+    number: singular
+    person: third
+  expected: girmíimce
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: girmíibáan
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: girmínimi
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: girmínái
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: girmíibái
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: girmíyance
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: girmíimce
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: girmíimce
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: girmíyamce
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: girmíimce
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: girmínin
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: girmín
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: girmínuman
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: girmínáan
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: girmíyabáan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: girmínuman
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: girmínáan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: girmíibáan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: girmínimie
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: girmínáan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: girmínam
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: girmínabáa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: girmíyabáa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: girmínuma
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: girmínáa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: girmíibáa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: girmínimi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: girmínibí
+---
+lemma: gudelja
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: gudelja
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: gud
+---
+lemma: i e
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    verb_form: participle
+  expected: $eEvma
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: t?jeEam
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: ije
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ijeEam
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: ijevyam
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: be
+---
+lemma: jú
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: dumóobó
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: díibái
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: diméebáan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: damáabáan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: dúubáan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: dáayabáa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: dukóobáa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: díibí
+---
+lemma: man
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: manúbó
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: manúbái
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: manúbáan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: manúbáan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: manúbáan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: manáabáa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: manúbáa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: maníbí
+---
+lemma: mané
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: maníin
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: mané
+---
+lemma: maní
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: manúbóm
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: manúbám
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: manúbám
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: manúbám
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: manúbám
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: manáabáyam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: manúbám
+---
+lemma: midelja
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: midelja
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: midsljubo
+---
+lemma: ní
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: díim
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: numóo
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: núu
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: níi
+- features:
+    gender: neuter
+    number: plural
+    person: third
+  expected: níi
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: níi
+- features:
+    number: plural
+    person: first
+  expected: nimée
+- features:
+    number: plural
+    person: second
+  expected: namáa
+- features:
+    number: singular
+    person: first
+  expected: náa
+- features:
+    number: singular
+    person: second
+  expected: nukóo
+---
+lemma: šé
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: šé
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: šébó
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: šé
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: šébái
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: šé
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: šébáan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: šé
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: šébáan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: šé
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: šébáan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: šéyam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: šé
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: šébáa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: šé
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: šébí
