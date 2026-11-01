@@ -1,0 +1,14 @@
+% rules/ru/pronouns.lp
+% Russian personal pronouns (features: case, number). The lemma is the
+% nominative. Third-person forms after prepositions take н- (к нему, с ней); the
+% prepositional case is always used with a preposition and is listed with н-.
+% Every form is listed.
+
+form("я", "case=nominative;number=singular", "я"). form("я", "case=genitive;number=singular", "меня"). form("я", "case=dative;number=singular", "мне"). form("я", "case=accusative;number=singular", "меня"). form("я", "case=instrumental;number=singular", "мной"). form("я", "case=prepositional;number=singular", "мне").
+form("ты", "case=nominative;number=singular", "ты"). form("ты", "case=genitive;number=singular", "тебя"). form("ты", "case=dative;number=singular", "тебе"). form("ты", "case=accusative;number=singular", "тебя"). form("ты", "case=instrumental;number=singular", "тобой"). form("ты", "case=prepositional;number=singular", "тебе").
+form("он", "case=nominative;number=singular", "он"). form("он", "case=genitive;number=singular", "его"). form("он", "case=dative;number=singular", "ему"). form("он", "case=accusative;number=singular", "его"). form("он", "case=instrumental;number=singular", "им"). form("он", "case=prepositional;number=singular", "нём").
+form("она", "case=nominative;number=singular", "она"). form("она", "case=genitive;number=singular", "её"). form("она", "case=dative;number=singular", "ей"). form("она", "case=accusative;number=singular", "её"). form("она", "case=instrumental;number=singular", "ей"). form("она", "case=prepositional;number=singular", "ней").
+form("оно", "case=nominative;number=singular", "оно"). form("оно", "case=genitive;number=singular", "его"). form("оно", "case=dative;number=singular", "ему"). form("оно", "case=accusative;number=singular", "его"). form("оно", "case=instrumental;number=singular", "им"). form("оно", "case=prepositional;number=singular", "нём").
+form("мы", "case=nominative;number=plural", "мы"). form("мы", "case=genitive;number=plural", "нас"). form("мы", "case=dative;number=plural", "нам"). form("мы", "case=accusative;number=plural", "нас"). form("мы", "case=instrumental;number=plural", "нами"). form("мы", "case=prepositional;number=plural", "нас").
+form("вы", "case=nominative;number=plural", "вы"). form("вы", "case=genitive;number=plural", "вас"). form("вы", "case=dative;number=plural", "вам"). form("вы", "case=accusative;number=plural", "вас"). form("вы", "case=instrumental;number=plural", "вами"). form("вы", "case=prepositional;number=plural", "вас").
+form("они", "case=nominative;number=plural", "они"). form("они", "case=genitive;number=plural", "их"). form("они", "case=dative;number=plural", "им"). form("они", "case=accusative;number=plural", "их"). form("они", "case=instrumental;number=plural", "ими"). form("они", "case=prepositional;number=plural", "них").
