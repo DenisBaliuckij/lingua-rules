@@ -1,0 +1,103 @@
+lemma: jau
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: ellas
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ella
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: els
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: el
+- features:
+    number: plural
+    person: first
+  expected: nus
+- features:
+    number: plural
+    person: second
+  expected: vus
+- features:
+    number: plural
+    person: third
+  expected: i
+- features:
+    number: singular
+    person: first
+  expected: jau
+- features:
+    number: singular
+    person: second
+  expected: ti
+- features:
+    number: singular
+    person: third
+  expected: i
+---
+lemma: ma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ans
+- features:
+    number: plural
+    person: second
+  expected: as
+- features:
+    number: plural
+    person: third
+  expected: sa
+- features:
+    number: singular
+    person: first
+  expected: ma
+- features:
+    number: singular
+    person: second
+  expected: ta
+- features:
+    number: singular
+    person: third
+  expected: sa
+---
+lemma: mai
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nus
+- features:
+    number: plural
+    person: second
+  expected: vus
+- features:
+    number: plural
+    person: third
+  expected: sai
+- features:
+    number: singular
+    person: first
+  expected: mai
+- features:
+    number: singular
+    person: second
+  expected: tai
+- features:
+    number: singular
+    person: third
+  expected: sai

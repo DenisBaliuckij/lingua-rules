@@ -1,0 +1,151 @@
+lemma: dh‰
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: dh‰se
+- features:
+    case: ablative
+    number: singular
+  expected: dh‰se
+- features:
+    case: dative
+    number: plural
+  expected: dh˙t‰-ru
+- features:
+    case: dative
+    number: singular
+  expected: dho-ru
+- features:
+    case: genitive
+    number: plural
+  expected: dh˙t‰-t˙
+- features:
+    case: genitive
+    number: singular
+  expected: dh‰t˙
+- features:
+    case: instrumental
+    number: plural
+  expected: dh˙t‰-j˙
+- features:
+    case: instrumental
+    number: singular
+  expected: dh‰j˙
+- features:
+    case: nominative
+    number: plural
+  expected: dh‰tye
+- features:
+    case: nominative
+    number: singular
+  expected: dh‰
+---
+lemma: gye
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: i-se
+- features:
+    case: ablative
+    number: singular
+  expected: gyi-se
+- features:
+    case: dative
+    number: plural
+  expected: i-nu
+- features:
+    case: dative
+    number: singular
+  expected: gyi-ru
+- features:
+    case: genitive
+    number: plural
+  expected: in-t˙
+- features:
+    case: genitive
+    number: singular
+  expected: gyi-t˙
+- features:
+    case: instrumental
+    number: plural
+  expected: in-j˙
+- features:
+    case: instrumental
+    number: singular
+  expected: gyej˙
+- features:
+    case: nominative
+    number: plural
+  expected: in
+- features:
+    case: nominative
+    number: singular
+  expected: gye
+---
+lemma: gye i:n
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: in i:n
+- features:
+    number: plural
+    person: third
+  expected: dh‰tye is
+- features:
+    number: singular
+    person: first
+  expected: gye i:n
+- features:
+    number: singular
+    person: third
+  expected: dh‰ i:n
+---
+lemma: g˙n
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: g
+- features:
+    case: ablative
+    number: singular
+  expected: g‰-se
+- features:
+    case: dative
+    number: plural
+  expected: g
+- features:
+    case: dative
+    number: singular
+  expected: g‰-ru
+- features:
+    case: genitive
+    number: plural
+  expected: g‰-t˙
+- features:
+    case: genitive
+    number: singular
+  expected: g‰-t˙
+- features:
+    case: instrumental
+    number: plural
+  expected: g
+- features:
+    case: instrumental
+    number: singular
+  expected: g˙nj˙
+- features:
+    case: nominative
+    number: plural
+  expected: g
+- features:
+    case: nominative
+    number: singular
+  expected: g˙n

@@ -1,0 +1,141 @@
+lemma: agun
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: agung talung
+- features:
+    number: plural
+    person: second
+  expected: agung daliing
+- features:
+    number: plural
+    person: third
+  expected: agung laou
+- features:
+    number: singular
+    person: first
+  expected: tlaou agung
+- features:
+    number: singular
+    person: second
+  expected: dahou agung
+- features:
+    number: singular
+    person: third
+  expected: laouagnng
+---
+lemma: di
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: itil
+- features:
+    number: plural
+    person: second
+  expected: dalung
+- features:
+    number: plural
+    person: third
+  expected: ltha
+- features:
+    number: singular
+    person: first
+  expected: di
+- features:
+    number: singular
+    person: second
+  expected: dung
+- features:
+    number: singular
+    person: third
+  expected: iI
+---
+lemma: giang
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: itilgiou
+- features:
+    number: plural
+    person: third
+  expected: lthagiou
+- features:
+    number: singular
+    person: first
+  expected: giang
+- features:
+    number: singular
+    person: second
+  expected: dungiou
+---
+lemma: gwuda
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: gwuda taking
+- features:
+    number: plural
+    person: second
+  expected: gwuda dalung
+- features:
+    number: plural
+    person: third
+  expected: gwuda Itha
+---
+lemma: laha
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: laou
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: lagiou
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: laha
+---
+lemma: ltlia
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: watallias
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: ltliagiou
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: ltlia
+---
+lemma: tlaou
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: tlaou
+- features:
+    number: singular
+    person: second
+  expected: laou

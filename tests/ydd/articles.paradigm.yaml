@@ -1,0 +1,60 @@
+lemma: der
+category: articles
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: di
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: dem
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: dos
+- features:
+    case: accusative
+    number: plural
+  expected: di
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: der
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: dem
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: dem
+- features:
+    case: dative
+    number: plural
+  expected: di
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: di
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: der
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: dos
+- features:
+    case: nominative
+    number: plural
+  expected: di

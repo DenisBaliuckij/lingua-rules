@@ -1,0 +1,89 @@
+lemma: anú
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ís
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: úsuk
+- features:
+    number: plural
+    person: first
+  expected: nanú
+- features:
+    number: plural
+    person: second
+  expected: isín
+- features:
+    number: plural
+    person: third
+  expected: úsun
+- features:
+    number: singular
+    person: first
+  expected: anú
+- features:
+    number: singular
+    person: second
+  expected: atú
+---
+lemma: is
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: tet
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+    person: third
+  expected: tet
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: is
+---
+lemma: yoo
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: tet
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: kaa
+- features:
+    number: plural
+    person: first
+  expected: nee
+- features:
+    number: plural
+    person: second
+  expected: sin
+- features:
+    number: plural
+    person: third
+  expected: ken
+- features:
+    number: singular
+    person: first
+  expected: yoo
+- features:
+    number: singular
+    person: second
+  expected: koo

@@ -1,0 +1,1076 @@
+lemma: bi
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: min-duk
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: mine-ve
+- features:
+    case: allative
+    number: singular
+    person: first
+  expected: min-dule
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: min-du
+- features:
+    case: elative
+    number: singular
+    person: first
+  expected: min-ngit
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: min-di
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: bi
+- features:
+    number: singular
+    person: first
+  expected: min-tyki
+---
+lemma: bu
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: mun-dufc
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: mune-ve
+- features:
+    case: allative
+    number: plural
+    person: first
+  expected: mun-dule
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: mun-du
+- features:
+    case: elative
+    number: plural
+    person: first
+  expected: mM-hgit
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: mun-di
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: mun-tyki
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: bu
+- features:
+    number: plural
+    person: first
+  expected: mun-duli
+---
+lemma: eku-r?
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: ekur-duk?
+- features:
+    case: accusative
+    definiteness: definite
+  expected: ekur-va?
+- features:
+    case: accusative
+    definiteness: indefinite
+  expected: ekur-a?
+- features:
+    case: adessive
+  expected: ekur-ikla?
+- features:
+    case: allative
+  expected: ekur-dula?
+- features:
+    case: allative
+    definiteness: definite
+  expected: ekur-ikli?
+- features:
+    case: comitative
+  expected: ekur-duli?
+- features:
+    case: dative
+  expected: ekur-du?
+- features:
+    case: elative
+  expected: ekur-git?
+- features:
+    case: instrumental
+  expected: ekur-di?
+- features:
+    case: locative
+  expected: ekur-tyki?
+- features:
+    case: nominative
+  expected: eku-r?
+---
+lemma: ekun?
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: ekunduk?
+- features:
+    case: accusative
+    definiteness: definite
+  expected: ekunma?
+- features:
+    case: accusative
+    definiteness: indefinite
+  expected: ekuna?
+- features:
+    case: adessive
+  expected: ekunikla?
+- features:
+    case: allative
+  expected: ekundula?
+- features:
+    case: allative
+    definiteness: definite
+  expected: ekunikli?
+- features:
+    case: comitative
+  expected: ekunduli?
+- features:
+    case: dative
+  expected: ekundu?
+- features:
+    case: elative
+  expected: ekunngit?
+- features:
+    case: instrumental
+  expected: ekundi?
+- features:
+    case: locative
+  expected: ekuntyki?
+- features:
+    case: nominative
+  expected: ekun?
+---
+lemma: ir?
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: iduk?
+- features:
+    case: accusative
+    definiteness: definite
+  expected: ire-ve?
+- features:
+    case: accusative
+    definiteness: indefinite
+  expected: ire?
+- features:
+    case: adessive
+  expected: irikle?
+- features:
+    case: allative
+  expected: ile?
+- features:
+    case: allative
+    definiteness: definite
+  expected: irikli?
+- features:
+    case: comitative
+  expected: iIi?
+- features:
+    case: dative
+  expected: idu?
+- features:
+    case: elative
+  expected: irgit?
+- features:
+    case: instrumental
+  expected: iri-t?
+- features:
+    case: locative
+  expected: irtyki?
+- features:
+    case: nominative
+  expected: ir?
+---
+lemma: me:nmi
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: me:r-duk-ver
+- features:
+    case: ablative
+    number: singular
+  expected: me:n-duk-vi
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: me:n-duk-iv
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: me:n-duk-is
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: me:n-duk-in
+- features:
+    case: accusative
+    number: plural
+  expected: me:r-du-ver
+- features:
+    case: accusative
+    number: singular
+  expected: me:n-du-vi
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: me:n-me-v
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: me:n-me-s
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: me:n-me-n
+- features:
+    case: allative
+    number: plural
+  expected: me:r-dule-ver
+- features:
+    case: allative
+    number: singular
+  expected: me:n-dule-vi
+- features:
+    case: allative
+    number: singular
+    person: first
+  expected: me:n-dule-v
+- features:
+    case: allative
+    number: singular
+    person: second
+  expected: me:n-dule-s
+- features:
+    case: allative
+    number: singular
+    person: third
+  expected: me:n-dule-n
+- features:
+    case: dative
+    number: plural
+  expected: me:r-di-ver
+- features:
+    case: dative
+    number: singular
+  expected: me:n-di-vi
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: me:n-du-v
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: me:n-du-s
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: me:n-du-n
+- features:
+    case: elative
+    number: plural
+  expected: me:r-git-ver
+- features:
+    case: elative
+    number: singular
+  expected: me:n-ngit-vi
+- features:
+    case: elative
+    number: singular
+    person: first
+  expected: me:n-ngid-iv
+- features:
+    case: elative
+    number: singular
+    person: second
+  expected: me:n-ngid-is
+- features:
+    case: elative
+    number: singular
+    person: third
+  expected: me:n-ngid-in
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: me:n-di-v
+- features:
+    case: instrumental
+    number: singular
+    person: second
+  expected: me:n-di-s
+- features:
+    case: instrumental
+    number: singular
+    person: third
+  expected: me:n-di-n
+- features:
+    case: locative
+    number: plural
+  expected: me:r-tyki-ver
+- features:
+    case: locative
+    number: singular
+  expected: me:n-tyki-vi
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: me:n-tyki-v
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: me:n-tyki-s
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: me:n-tyki-n
+- features:
+    case: nominative
+    number: plural
+  expected: me:rver
+- features:
+    case: nominative
+    number: singular
+  expected: me:nmi
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: me:nmi
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: me:nni
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: me:nin
+- features:
+    number: plural
+  expected: me:r-duli-ver
+- features:
+    number: singular
+  expected: me:n-duli-vi
+- features:
+    number: singular
+    person: first
+  expected: me:n-duli-v
+- features:
+    number: singular
+    person: second
+  expected: me:n-duli-s
+- features:
+    number: singular
+    person: third
+  expected: me:n-duli-n
+---
+lemma: me:rvun
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: me:r-duk-vun
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: me:r-duk-sun
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: me:r-duk-tyn
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: me:r-ve-vun
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: me:r-ve-sun
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: me:r-ve-tyn
+- features:
+    case: allative
+    number: plural
+    person: first
+  expected: me:r-dule-vun
+- features:
+    case: allative
+    number: plural
+    person: second
+  expected: me:r-dule-sun
+- features:
+    case: allative
+    number: plural
+    person: third
+  expected: me:r-dule-tyn
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: me:r-du-vun
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: me:r-du-sun
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: me:r-du-tyn
+- features:
+    case: elative
+    number: plural
+    person: first
+  expected: me:r-gid-ivun
+- features:
+    case: elative
+    number: plural
+    person: second
+  expected: me:r-gid-isun
+- features:
+    case: elative
+    number: plural
+    person: third
+  expected: me:r-gid-ityn
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: me:r-di-vun
+- features:
+    case: instrumental
+    number: plural
+    person: second
+  expected: me:r-di-sun
+- features:
+    case: instrumental
+    number: plural
+    person: third
+  expected: me:r-di-tyn
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: me:r-tyki-vun
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: me:r-tyki-sun
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: me:r-tyki-tyn
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: me:rvun
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: me:rsun
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: me:rtyn
+- features:
+    number: plural
+    person: first
+  expected: me:r-duli-vun
+- features:
+    number: plural
+    person: second
+  expected: me:r-duli-sun
+- features:
+    number: plural
+    person: third
+  expected: me:r-duli-tyn
+---
+lemma: menngi
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+  expected: menngi duk-ver
+- features:
+    case: ablative
+    number: singular
+  expected: menngi duk-vi
+- features:
+    case: accusative
+    number: dual
+  expected: menngi vex
+- features:
+    case: accusative
+    number: singular
+  expected: menngi vi
+- features:
+    case: allative
+    number: dual
+  expected: menngi le-ver
+- features:
+    case: allative
+    number: singular
+  expected: menngi le-vi
+- features:
+    case: dative
+    number: dual
+  expected: menngi du-ver
+- features:
+    case: dative
+    number: singular
+  expected: menngi du-vi
+- features:
+    case: elative
+    number: dual
+  expected: menngi git-ver
+- features:
+    case: elative
+    number: singular
+  expected: menngi git-vi
+- features:
+    case: genitive
+    number: dual
+  expected: menngi je-ver
+- features:
+    case: genitive
+    number: singular
+  expected: menngi je-vi
+- features:
+    case: instrumental
+    number: dual
+  expected: menngi t-ver
+- features:
+    case: instrumental
+    number: singular
+  expected: menngi t-vi
+- features:
+    case: locative
+    number: dual
+  expected: menngi tki-ver
+- features:
+    case: locative
+    number: singular
+  expected: menngi tki-vi
+- features:
+    case: partitive
+    number: dual
+  expected: menngi li-ver
+- features:
+    case: partitive
+    number: singular
+  expected: menngi li-vi
+---
+lemma: menngiver
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: meŋgi-duk-ver
+- features:
+    case: accusative
+  expected: meŋgiver
+- features:
+    case: allative
+  expected: meŋgi-le-ver
+- features:
+    case: dative
+  expected: meŋgi-du-ver
+- features:
+    case: elative
+  expected: meŋgi-git-ver
+- features:
+    case: instrumental
+  expected: meŋgi-t-ver
+- features:
+    case: locative
+  expected: meŋgi-tki-ver
+- features:
+    case: partitive
+  expected: meŋgi-je-ver
+- features:
+    case: prepositional
+  expected: meŋgi-li-ver
+---
+lemma: mil
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: mit-tuk
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: mit-yt
+- features:
+    case: allative
+    number: plural
+    person: first
+  expected: mit-tule
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: ftlit-tu
+- features:
+    case: elative
+    number: plural
+    person: first
+  expected: mit
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: mit-it
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: mit-tyki
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: mil
+- features:
+    number: plural
+    person: first
+  expected: mit-tuli
+---
+lemma: minngi
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: mi-ngi-duk
+- features:
+    case: accusative
+  expected: mi-ngi-ve
+- features:
+    case: allative
+  expected: mi-ngi-le
+- features:
+    case: dative
+  expected: mi-ngi-du
+- features:
+    case: elative
+  expected: mi-ngi-git
+- features:
+    case: instrumental
+  expected: mi-ngi-t
+- features:
+    case: locative
+  expected: mi-ngi-tki
+- features:
+    case: nominative
+  expected: mingi
+- features:
+    case: partitive
+  expected: mi-ngi-je
+- features:
+    case: prepositional
+  expected: mi-ngi-li
+---
+lemma: mit
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: mittuk
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: mit-ve I mit-pe
+- features:
+    case: allative
+    number: plural
+    person: first
+  expected: mittule
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: mittu
+- features:
+    case: elative
+    number: plural
+    person: first
+  expected: mitkit
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: mitit
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: mit
+- features:
+    number: plural
+    person: first
+  expected: mittyki
+---
+lemma: ngi-l?
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: ngi-l-duk?
+- features:
+    case: allative
+  expected: ngi-l-dule?
+- features:
+    case: allative
+    definiteness: definite
+  expected: ngi-l-ikli?
+- features:
+    case: comitative
+  expected: ngi-l-duli?
+- features:
+    case: dative
+  expected: ngi-l-du?
+- features:
+    case: elative
+  expected: ngi-l-git?
+- features:
+    case: instrumental
+  expected: ngi-l-di?
+- features:
+    case: locative
+  expected: ngi-l-tyki?
+- features:
+    case: nominative
+  expected: ngi-l?
+---
+lemma: ngi?
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: ngiduk?
+- features:
+    case: accusative
+    definiteness: definite
+  expected: ngive?
+- features:
+    case: accusative
+    definiteness: indefinite
+  expected: ngije?
+- features:
+    case: adessive
+  expected: ngikle?
+- features:
+    case: allative
+  expected: ngile?
+- features:
+    case: allative
+    definiteness: definite
+  expected: ngikli?
+- features:
+    case: comitative
+  expected: ngili?
+- features:
+    case: dative
+  expected: ngidu?
+- features:
+    case: elative
+  expected: ngigit?
+- features:
+    case: instrumental
+  expected: ngit?
+- features:
+    case: locative
+  expected: ngitki?
+- features:
+    case: nominative
+  expected: ngi?
+---
+lemma: nungan
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: nungan-duk-in
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: nungan-ma-n
+- features:
+    case: allative
+    number: singular
+    person: third
+  expected: nungan-dula-n
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: nungan-du-n
+- features:
+    case: elative
+    number: singular
+    person: third
+  expected: nungan-ngid-in
+- features:
+    case: instrumental
+    number: singular
+    person: third
+  expected: nungan-di-n
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: nungan
+- features:
+    number: singular
+    person: third
+  expected: nungan-tyki-n
+---
+lemma: nungarngityn
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: nuŋaŋgi-duk-tyn
+- features:
+    case: accusative
+  expected: nuŋaŋgi-va-tyn
+- features:
+    case: allative
+  expected: nuŋaŋgi-la-tyn
+- features:
+    case: dative
+  expected: nuŋaŋgi-du-tyn
+- features:
+    case: elative
+  expected: nuŋaŋgi-gid-i-tyn
+- features:
+    case: instrumental
+  expected: nuŋaŋgi-di-tyn
+- features:
+    case: locative
+  expected: nuŋaŋgi-tki-tyn
+- features:
+    case: nominative
+  expected: nuŋa-ŋi-tyn
+- features:
+    case: partitive
+  expected: nuŋaŋgi-ja-tyn
+- features:
+    case: prepositional
+  expected: nuŋaŋgi-li-tyn
+---
+lemma: nungartyn
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: nungar-duk-tyn
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: nungar-va-tyn
+- features:
+    case: allative
+    number: plural
+    person: third
+  expected: nungar-dula-tyn
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: nungar-du-tyn
+- features:
+    case: elative
+    number: plural
+    person: third
+  expected: nungar-gidi-tyn
+- features:
+    case: instrumental
+    number: plural
+    person: third
+  expected: nungar-di-tyn
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: nungar-tyki-tyn
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: nungartyn
+- features:
+    number: plural
+    person: third
+  expected: nungar-duli-tyn
+---
+lemma: si
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: sin-duk
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: sine-ve I sine
+- features:
+    case: allative
+    number: singular
+    person: second
+  expected: sin-dule
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: sin-du
+- features:
+    case: elative
+    number: singular
+    person: second
+  expected: sin-ngit
+- features:
+    case: instrumental
+    number: singular
+    person: second
+  expected: sin-di
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: si
+- features:
+    number: singular
+    person: second
+  expected: sin-tyki
+---
+lemma: su
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: sun-duk
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: sune-ve
+- features:
+    case: allative
+    number: plural
+    person: second
+  expected: sun-dule
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: sun-du
+- features:
+    case: elative
+    number: plural
+    person: second
+  expected: sun-ngit
+- features:
+    case: instrumental
+    number: plural
+    person: second
+  expected: sun-di
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: sun-tyki
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: su
+- features:
+    number: plural
+    person: second
+  expected: sun-duli

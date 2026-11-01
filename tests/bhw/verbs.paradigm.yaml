@@ -1,0 +1,362 @@
+lemma: baber
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: skobaber
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: nbaber
+- features:
+    number: dual
+    person: first
+  expected: kubaber
+- features:
+    number: dual
+    person: second
+  expected: mubaber
+- features:
+    number: dual
+    person: third
+  expected: subaber
+- features:
+    number: plural
+    person: first
+  expected: kobaber
+- features:
+    number: plural
+    person: second
+  expected: mkobaber
+- features:
+    number: singular
+    person: first
+  expected: yababer
+- features:
+    number: singular
+    person: second
+  expected: baber
+- features:
+    number: singular
+    person: third
+  expected: b-y-aber
+---
+lemma: fnak
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: nafnak
+- features:
+    number: singular
+    person: first
+  expected: yafnak
+---
+lemma: iso
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: siiso
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: naiso
+- features:
+    number: dual
+    person: first
+  expected: kuiso
+- features:
+    number: dual
+    person: second
+  expected: muiso
+- features:
+    number: dual
+    person: third
+  expected: suiiso
+- features:
+    number: plural
+    person: first
+  expected: koiso
+- features:
+    number: plural
+    person: second
+  expected: mkoiso
+- features:
+    number: plural
+    person: third
+  expected: skoiso
+- features:
+    number: singular
+    person: first
+  expected: ayaiso
+- features:
+    number: singular
+    person: second
+  expected: auiso
+- features:
+    number: singular
+    person: third
+  expected: iiso
+---
+lemma: kaber
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: skokaber
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: nkaber
+- features:
+    number: dual
+    person: first
+  expected: kukaber
+- features:
+    number: dual
+    person: second
+  expected: mukaber
+- features:
+    number: dual
+    person: third
+  expected: sukaber
+- features:
+    number: plural
+    person: first
+  expected: kokaber
+- features:
+    number: plural
+    person: second
+  expected: mkokaber
+- features:
+    number: singular
+    person: first
+  expected: yakaber
+- features:
+    number: singular
+    person: second
+  expected: k-w-aber
+- features:
+    number: singular
+    person: third
+  expected: k-y-aber
+---
+lemma: kuru-si-ku
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: kuru-sui-ri
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: kuru-skoi-ri
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: kuru-ri-ri
+- features:
+    animacy: inanimate
+    number: dual
+    person: first
+  expected: kuru-si-nu
+- features:
+    animacy: inanimate
+    number: dual
+    person: second
+  expected: kuru-si-mu
+- features:
+    animacy: inanimate
+    number: plural
+    person: first
+  expected: kuru-si-nko
+- features:
+    animacy: inanimate
+    number: plural
+    person: second
+  expected: kuru-si-mko
+- features:
+    animacy: inanimate
+    number: singular
+    person: first
+  expected: kuru-si-ku
+- features:
+    animacy: inanimate
+    number: singular
+    person: second
+  expected: kuru-ri-saw
+---
+lemma: mam
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: skomam
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: nmam
+- features:
+    number: dual
+    person: first
+  expected: kumam
+- features:
+    number: dual
+    person: second
+  expected: mumam
+- features:
+    number: dual
+    person: third
+  expected: sumam
+- features:
+    number: plural
+    person: first
+  expected: komam
+- features:
+    number: plural
+    person: second
+  expected: mkomam
+- features:
+    number: singular
+    person: first
+  expected: yamam
+- features:
+    number: singular
+    person: second
+  expected: mam
+- features:
+    number: singular
+    person: third
+  expected: m-y-am
+---
+lemma: ra
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: skora
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: nra
+- features:
+    number: dual
+    person: first
+  expected: kura
+- features:
+    number: dual
+    person: second
+  expected: mura
+- features:
+    number: dual
+    person: third
+  expected: sura
+- features:
+    number: plural
+    person: first
+  expected: kora
+- features:
+    number: plural
+    person: second
+  expected: mkora
+- features:
+    number: singular
+    person: first
+  expected: yara
+- features:
+    number: singular
+    person: second
+  expected: r-w-a
+- features:
+    number: singular
+    person: third
+  expected: r-y-a
+---
+lemma: ro
+category: verbs
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: skoro
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: nro
+- features:
+    number: dual
+    person: first
+  expected: kuro
+- features:
+    number: dual
+    person: second
+  expected: muro
+- features:
+    number: dual
+    person: third
+  expected: suro
+- features:
+    number: plural
+    person: first
+  expected: koro
+- features:
+    number: plural
+    person: second
+  expected: mkoro
+- features:
+    number: singular
+    person: first
+  expected: yaro
+- features:
+    number: singular
+    person: second
+  expected: rw
+- features:
+    number: singular
+    person: third
+  expected: ry
+---
+lemma: swarepen
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: naswarepen
+- features:
+    number: plural
+    person: first
+  expected: nkoswarepen
+- features:
+    number: singular
+    person: first
+  expected: yaswarepen
+- features:
+    number: singular
+    person: third
+  expected: iswarepen

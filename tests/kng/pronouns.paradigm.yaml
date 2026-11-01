@@ -1,0 +1,155 @@
+lemma: ame
+category: pronouns
+cases:
+- features:
+    noun_class: class_1
+    number: plural
+  expected: ame
+- features:
+    noun_class: class_1
+    number: singular
+  expected: uame
+- features:
+    noun_class: class_2
+    number: plural
+  expected: miame
+- features:
+    noun_class: class_2
+    number: singular
+  expected: uame
+- features:
+    noun_class: class_3
+    number: plural
+  expected: iame
+- features:
+    noun_class: class_3
+    number: singular
+  expected: kiame
+- features:
+    noun_class: class_4
+    number: plural
+  expected: mame
+- features:
+    noun_class: class_4
+    number: singular
+  expected: diame
+- features:
+    number: plural
+    person: first
+  expected: £tu
+- features:
+    number: plural
+    person: second
+  expected: nu
+- features:
+    number: plural
+    person: third
+  expected: au
+- features:
+    number: singular
+    person: first
+  expected: ame
+- features:
+    number: singular
+    person: second
+  expected: aku
+- features:
+    number: singular
+    person: third
+  expected: andi
+---
+lemma: diau
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: mau
+- features:
+    number: singular
+    person: third
+  expected: diau
+---
+lemma: kiaw
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: iaw
+- features:
+    number: singular
+    person: third
+  expected: kiaw
+---
+lemma: kuau
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: mau
+- features:
+    number: singular
+    person: third
+  expected: kuau
+---
+lemma: luau
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: tuau
+- features:
+    number: singular
+    person: third
+  expected: luau
+---
+lemma: uau
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: mau
+- features:
+    number: singular
+    person: third
+  expected: uau
+---
+lemma: uuu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: uau
+- features:
+    number: singular
+    person: third
+  expected: uuu
+---
+lemma: vau
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: mau
+- features:
+    number: singular
+    person: third
+  expected: vau
+---
+lemma: ¿au
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: zau
+- features:
+    number: singular
+    person: third
+  expected: ¿au

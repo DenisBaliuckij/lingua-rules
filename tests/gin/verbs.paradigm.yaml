@@ -1,0 +1,193 @@
+lemma: goì
+category: verbs
+cases:
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: iči
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: present
+  expected: goì
+- features:
+    mood: indicative
+    polarity: negative
+    tense: future
+  expected: iči-me
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: gom
+---
+lemma: iň’i- ‘go
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    polarity: affirmative
+    verb_form: participle
+  expected: iň’i-ň’os
+- features:
+    aspect: habitual
+    polarity: negative
+    verb_form: participle
+  expected: iň’i-me-ň’os
+- features:
+    aspect: imperfective
+    polarity: affirmative
+    tense: future
+  expected: iň’-as
+- features:
+    aspect: imperfective
+    polarity: affirmative
+    verb_form: converb
+  expected: iň’-a-če
+- features:
+    aspect: imperfective
+    polarity: negative
+    tense: present
+  expected: iň’i-me
+- features:
+    aspect: imperfective
+    polarity: negative
+    verb_form: converb
+  expected: iň’i-meň
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: future
+  expected: iň’-an
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: past
+  expected: iň’i-š
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: present
+  expected: iň’i-yo
+- features:
+    aspect: perfective
+    polarity: affirmative
+    verb_form: converb
+  expected: iň’i-ň
+- features:
+    aspect: perfective
+    polarity: affirmative
+    verb_form: participle
+  expected: iň’i-š
+- features:
+    aspect: perfective
+    polarity: negative
+    tense: future
+  expected: iň’-amin
+- features:
+    aspect: perfective
+    polarity: negative
+    tense: past
+  expected: iň’i-šme
+- features:
+    aspect: perfective
+    polarity: negative
+    verb_form: converb
+  expected: iň’i-mez)
+- features:
+    aspect: perfective
+    polarity: negative
+    verb_form: participle
+  expected: iň’i-šme
+- features:
+    evidentiality: indirect
+    polarity: affirmative
+    tense: past
+  expected: iň’i-n
+- features:
+    mood: conditional
+    polarity: affirmative
+    verb_form: converb
+  expected: iň’i-yo
+- features:
+    mood: conditional
+    polarity: negative
+    verb_form: converb
+  expected: iň’i-yome
+- features:
+    mood: optative
+    polarity: affirmative
+    verb_form: converb
+  expected: iň’i-on
+- features:
+    mood: optative
+    polarity: negative
+    verb_form: converb
+  expected: iň’i-yon-me
+- features:
+    polarity: affirmative
+    tense: past
+    verb_form: participle
+  expected: iň’i-yoru
+- features:
+    polarity: affirmative
+    verb_form: infinitive
+  expected: iň’-a
+- features:
+    polarity: affirmative
+    verb_form: participle
+  expected: iň’i-ya
+- features:
+    polarity: affirmative
+    verb_form: verbal_noun
+  expected: iň’-anu
+- features:
+    polarity: negative
+    tense: past
+    verb_form: participle
+  expected: iň’i-yomeru
+- features:
+    polarity: negative
+    verb_form: participle
+  expected: iň’i-yame
+---
+lemma: iƛ’i- ‘go
+category: verbs
+cases:
+- features:
+    evidentiality: indirect
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: iƛ’i-n
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: iƛ’-an
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: iƛ’i-š
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: present
+  expected: iƛ’i
+- features:
+    mood: indicative
+    polarity: negative
+    tense: future
+  expected: iƛ’-amin
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: iƛ’i-šme
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: iƛ’i-me

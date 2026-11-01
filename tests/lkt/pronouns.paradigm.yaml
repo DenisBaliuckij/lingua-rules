@@ -1,0 +1,303 @@
+lemma: bla
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: u ya
+- features:
+    number: dual
+    person: second
+  expected: u ya
+- features:
+    number: plural
+    person: first
+  expected: u ya pi
+- features:
+    number: plural
+    person: second
+  expected: la p i
+- features:
+    number: plural
+    person: third
+  expected: ya p i
+- features:
+    number: singular
+    person: first
+  expected: bla
+- features:
+    number: singular
+    person: second
+  expected: la
+- features:
+    number: singular
+    person: third
+  expected: ya
+---
+lemma: blu
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: u yu
+- features:
+    number: plural
+    person: second
+  expected: u yu pi
+- features:
+    number: plural
+    person: third
+  expected: lu pi
+- features:
+    number: singular
+    person: first
+  expected: blu
+- features:
+    number: singular
+    person: second
+  expected: lu
+- features:
+    number: singular
+    person: third
+  expected: yu
+---
+lemma: he
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: he
+---
+lemma: hena
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: hena
+---
+lemma: ka
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: ka
+---
+lemma: kana
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: kana
+---
+lemma: le
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: le
+---
+lemma: lena
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: lena
+---
+lemma: ma
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: u
+- features:
+    number: plural
+    person: first
+  expected: u p i
+- features:
+    number: plural
+    person: second
+  expected: ni p i
+- features:
+    number: plural
+    person: third
+  expected: pi
+- features:
+    number: singular
+    person: first
+  expected: ma
+- features:
+    number: singular
+    person: second
+  expected: ni
+- features:
+    number: singular
+    person: third
+  expected: her
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: uki ?
+- features:
+    number: plural
+    person: second
+  expected: ni ?
+- features:
+    number: plural
+    person: third
+  expected: hena i ?
+- features:
+    number: singular
+    person: first
+  expected: mi ?
+- features:
+    number: singular
+    person: second
+  expected: ni ?
+- features:
+    number: singular
+    person: third
+  expected: he i ?
+---
+lemma: mi feya
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: u k i feya
+- features:
+    number: plural
+    person: first
+  expected: uki feyap i
+- features:
+    number: plural
+    person: second
+  expected: nifeyap i
+- features:
+    number: plural
+    person: third
+  expected: hena i feyp ia
+- features:
+    number: singular
+    person: first
+  expected: mi feya
+- features:
+    number: singular
+    person: second
+  expected: ni feya
+- features:
+    number: singular
+    person: third
+  expected: he i feya
+---
+lemma: mis
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: uki ?
+- features:
+    number: plural
+    person: second
+  expected: ni ?
+- features:
+    number: plural
+    person: third
+  expected: hena i ?
+- features:
+    number: singular
+    person: first
+  expected: mi ?
+- features:
+    number: singular
+    person: second
+  expected: ni ?
+- features:
+    number: singular
+    person: third
+  expected: he i ?
+---
+lemma: mis'eya
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: uki 'eya
+- features:
+    number: plural
+    person: second
+  expected: ni 'eya
+- features:
+    number: plural
+    person: third
+  expected: hena i ’eya
+- features:
+    number: singular
+    person: first
+  expected: mi 'eya
+- features:
+    number: singular
+    person: second
+  expected: ni 'eya
+- features:
+    number: singular
+    person: third
+  expected: he i 'eya
+---
+lemma: miye
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: u k iye
+- features:
+    number: plural
+    person: second
+  expected: u k iyep i
+- features:
+    number: plural
+    person: third
+  expected: eyei
+- features:
+    number: singular
+    person: first
+  expected: miye
+- features:
+    number: singular
+    person: second
+  expected: niye
+---
+lemma: wa
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: u
+- features:
+    number: plural
+    person: third
+  expected: p i
+- features:
+    number: singular
+    person: first
+  expected: wa
+- features:
+    number: singular
+    person: second
+  expected: ya

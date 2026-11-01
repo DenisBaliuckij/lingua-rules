@@ -1,0 +1,432 @@
+lemma: dis
+category: nouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: dis
+- features:
+    number: plural
+  expected: mis
+---
+lemma: dzam
+category: nouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: dzam
+- features:
+    number: plural
+  expected: mam
+---
+lemma: dzat
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: byat
+- features:
+    number: singular
+  expected: dzat
+---
+lemma: fa
+category: nouns
+cases:
+- features:
+    gender: neuter
+    number: plural
+  expected: mefa
+- features:
+    gender: neuter
+    number: singular
+  expected: fa
+---
+lemma: ka
+category: nouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: beka
+- features:
+    gender: feminine
+    number: singular
+  expected: ka
+---
+lemma: kus
+category: nouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: nkus
+- features:
+    number: plural
+  expected: minkus
+---
+lemma: lÿ
+category: nouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: alÿ
+- features:
+    number: plural
+  expected: melÿ
+---
+lemma: mininga
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: bininga
+- features:
+    number: singular
+  expected: mininga
+---
+lemma: mot
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: bot
+- features:
+    number: singular
+  expected: mot
+---
+lemma: mvam
+category: nouns
+cases:
+- features:
+    gender: masculine
+    number: plural
+  expected: bemvam
+- features:
+    gender: masculine
+    number: singular
+  expected: mvam
+---
+lemma: mvbe
+category: nouns
+cases:
+- features:
+    noun_class: class_1
+    number: plural
+  expected: mvdm
+- features:
+    noun_class: class_5
+    number: singular
+  expected: mvbe
+---
+lemma: mvoe
+category: nouns
+cases:
+- features:
+    gender: masculine
+    number: plural
+  expected: bermvoe
+- features:
+    gender: masculine
+    number: singular
+  expected: mvoe
+---
+lemma: mûn
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: bôn
+- features:
+    number: singular
+  expected: mûn
+---
+lemma: mûngo
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: bôngô
+- features:
+    number: singular
+  expected: mûngo
+---
+lemma: nana
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: benana
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: nana
+---
+lemma: nda
+category: nouns
+cases:
+- features:
+    gender: neuter
+    number: plural
+  expected: menda
+- features:
+    gender: neuter
+    number: singular
+  expected: nda
+---
+lemma: ndbm
+category: nouns
+cases:
+- features:
+    noun_class: class_1
+    number: plural
+  expected: hendbm
+- features:
+    noun_class: class_9
+    number: singular
+  expected: ndbm
+---
+lemma: ndom
+category: nouns
+cases:
+- features:
+    gender: masculine
+    number: plural
+  expected: bendom
+- features:
+    gender: masculine
+    number: singular
+  expected: ndom
+---
+lemma: ndzin
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: bedzin
+- features:
+    number: singular
+  expected: ndzin
+---
+lemma: ndzoe
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: bedzoe
+- features:
+    number: singular
+  expected: ndzoe
+---
+lemma: ndä
+category: nouns
+cases:
+- features:
+    noun_class: class_3
+    number: plural
+  expected: mendä
+- features:
+    noun_class: class_5
+    number: singular
+  expected: ndä
+---
+lemma: ngañ
+category: nouns
+cases:
+- features:
+    gender: neuter
+    number: plural
+  expected: mengan
+- features:
+    gender: neuter
+    number: singular
+  expected: ngañ
+---
+lemma: ngon
+category: nouns
+cases:
+- features:
+    noun_class: class_1
+    number: plural
+  expected: hengon
+- features:
+    noun_class: class_5
+    number: singular
+  expected: ngon
+---
+lemma: ngôm
+category: nouns
+cases:
+- features:
+    gender: neuter
+    number: plural
+  expected: mengôm
+- features:
+    gender: neuter
+    number: singular
+  expected: ngôm
+---
+lemma: ngôn
+category: nouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: bengôn
+- features:
+    gender: feminine
+    number: singular
+  expected: ngôn
+---
+lemma: nna
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: bena
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: nna
+---
+lemma: nnyia
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: benyia
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: nnyia
+---
+lemma: nnyoa
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: benyoa
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: nnyoa
+---
+lemma: nti
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: beti
+- features:
+    number: singular
+  expected: nti
+---
+lemma: onûn
+category: nouns
+cases:
+- features:
+    gender: neuter
+    number: plural
+  expected: anûn
+- features:
+    gender: neuter
+    number: singular
+  expected: onûn
+- features:
+    number: plural
+  expected: anûn
+- features:
+    number: singular
+  expected: onûn
+---
+lemma: oyem
+category: nouns
+cases:
+- features:
+    gender: neuter
+    number: plural
+  expected: ayerni
+- features:
+    gender: neuter
+    number: singular
+  expected: oyem
+---
+lemma: sem
+category: nouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: besem
+- features:
+    number: plural
+  expected: besem
+---
+lemma: son
+category: nouns
+cases:
+- features:
+    noun_class: class_3
+    number: plural
+  expected: meson
+- features:
+    noun_class: class_5
+    number: singular
+  expected: son
+---
+lemma: tara
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: betara
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: tara
+---
+lemma: zen
+category: nouns
+cases:
+- features:
+    gender: neuter
+    number: plural
+  expected: mezen
+- features:
+    gender: neuter
+    number: singular
+  expected: zen
+- features:
+    noun_class: class_3
+    number: plural
+  expected: mezen
+- features:
+    noun_class: class_5
+    number: singular
+  expected: zen
+---
+lemma: zê
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: zé
+- features:
+    number: singular
+  expected: zê

@@ -1,0 +1,67 @@
+lemma: hibak
+category: verbs
+cases:
+- features:
+    aspect: habitual
+  expected: abahita
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: past
+  expected: labak
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: habaha
+- features:
+    verb_form: infinitive
+  expected: hibak
+---
+lemma: hiruk
+category: verbs
+cases:
+- features:
+    aspect: habitual
+  expected: eiruhuta
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: past
+  expected: leiruk
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: eiruhu
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: heiruk
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: eiruk
+- features:
+    mood: imperative
+    number: plural
+  expected: iruhu
+- features:
+    mood: imperative
+    number: singular
+  expected: iruho
+- features:
+    verb_form: infinitive
+  expected: hiruk
+---
+lemma: itaningo
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: itaningo
+- features:
+    mood: imperative
+    number: singular
+  expected: itaningo

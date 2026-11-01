@@ -1,0 +1,39 @@
+lemma: ago
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: égi
+- features:
+    animacy: animate
+    number: singular
+  expected: ago
+- features:
+    animacy: inanimate
+    number: plural
+  expected: éni
+- features:
+    animacy: inanimate
+    number: singular
+  expected: é’i
+---
+lemma: ode
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: gode
+- features:
+    animacy: animate
+    number: singular
+  expected: ode
+- features:
+    animacy: inanimate
+    number: plural
+  expected: node
+- features:
+    animacy: inanimate
+    number: singular
+  expected: ode

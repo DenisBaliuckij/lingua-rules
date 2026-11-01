@@ -1,0 +1,145 @@
+lemma: ʕārān
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: ʕārānkən
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: ʕārānsən
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: ʕārānša
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ʕārānsa
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: ʕārānku
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: ʕārānhu
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: ʕārānka
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ʕārānha
+- features:
+    number: plural
+    person: first
+  expected: ʕārānyən
+- features:
+    number: singular
+    person: first
+  expected: ʕārānya
+---
+lemma: ḏeh
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: ḏīyəh
+- features:
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: ḏenǝmǝh
+- features:
+    definiteness: definite
+    number: plural
+  expected: yǝlanəməh
+- features:
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+  expected: ḏih
+- features:
+    definiteness: indefinite
+    gender: masculine
+    number: singular
+  expected: ḏeh
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: yǝla
+---
+lemma: ḥāz
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: ḥāzhi
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: ḥāzkən
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: ḥāzsən
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: ḥāzš
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ḥāzəs
+- features:
+    gender: masculine
+    number: dual
+    person: second
+  expected: ḥāzki
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: ḥāzku
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: ḥāzho
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: ḥāzk
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ḥāzəh
+- features:
+    number: plural
+    person: first
+  expected: ḥāzən
+- features:
+    number: singular
+    person: first
+  expected: ḥāzi

@@ -1,0 +1,131 @@
+lemma: hoiti
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hohoi
+- features:
+    number: plural
+    person: third
+  expected: hosie
+- features:
+    number: singular
+    person: first
+  expected: hoiti
+- features:
+    number: singular
+    person: second
+  expected: hoi
+- features:
+    number: singular
+    person: third
+  expected: honyie
+---
+lemma: huliti
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hule iceja
+- features:
+    number: singular
+    person: first
+  expected: huliti
+- features:
+    number: singular
+    person: second
+  expected: hulino
+- features:
+    number: singular
+    person: third
+  expected: hulenyi
+---
+lemma: hunaiti
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: huna iceja
+- features:
+    number: singular
+    person: first
+  expected: hunaiti
+- features:
+    number: singular
+    person: second
+  expected: hunaino
+- features:
+    number: singular
+    person: third
+  expected: hunanyi
+---
+lemma: inang
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: hunang
+- features:
+    gender: feminine
+    number: singular
+  expected: inang
+- features:
+    gender: masculine
+    number: plural
+  expected: hulong
+- features:
+    gender: masculine
+    number: singular
+  expected: ileng
+---
+lemma: lenyi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: le iceja
+- features:
+    number: singular
+    person: first
+  expected: lenyi
+- features:
+    number: singular
+    person: third
+  expected: lenyin
+---
+lemma: nee
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: ine
+- features:
+    gender: feminine
+    number: singular
+  expected: nee
+- features:
+    gender: masculine
+    number: plural
+  expected: ile
+- features:
+    gender: masculine
+    number: singular
+  expected: lee
+---
+lemma: nyie
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: nyie
+- features:
+    gender: masculine
+    number: singular
+  expected: lie

@@ -1,0 +1,1435 @@
+lemma: ik
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: tíkóni
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: míkóni
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: ɓíkóni
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: níkóni
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: wíkóni
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: íkóni
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: takikó
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: negative
+  expected: tákíki
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: makikó
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: negative
+  expected: mákíki
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: ɓakikó
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    polarity: negative
+  expected: ɓákíki
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: nakikó
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+  expected: nákíki
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: wakikó
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+  expected: wákíki
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: ø-kikó
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    polarity: negative
+  expected: ø-kíki
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ta
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: tákɛ́gʊ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: má
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: mákɛ́gʊ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: ɓá
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: ɓákɛ́gʊ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: na
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: nákɛ́gʊ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: wa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: wákɛ́gʊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: a
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: ø-kɛ́gʊ
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: tíki
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+  expected: takikoníto
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: míki
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+  expected: makikoníto
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: ɓíki
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: níki
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+  expected: nakikoníto
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: wíki
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+  expected: wakikoníto
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: ø-íki
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+  expected: ø-kikoníto
+---
+lemma: kúmb
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    polarity: negative
+  expected: takakúmboní
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: mukúmbóni
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: mákakúmboní
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: mukúmbó
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: wakakúmboní
+---
+lemma: ngbʊ́t
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: tangbʊ́ta
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: tángbʊ́tá
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: future
+  expected: tákángbʊ́tɩgʊ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: tákángbʊ́tágʊ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tángbʊ́ta
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: mángbʊ́ta
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: mángbʊ́tá
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: future
+  expected: mákángbʊ́tɩgʊ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: mákángbʊ́tágʊ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mángbʊ́ta
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: ɓángbʊ́ta
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ɓángbʊ́tá
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: future
+  expected: ɓákángbʊ́tɩgʊ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: ɓákángbʊ́tágʊ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ɓángbʊ́ta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: nángbʊ́tá
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: nákángbʊ́tágʊ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nángbʊ́ta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: wangbʊ́ta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: wángbʊ́tá
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: future
+  expected: wákángbʊ́tɩgʊ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: wákángbʊ́tágʊ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: wángbʊ́ta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: angbʊ́ta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ángbʊ́tá
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: future
+  expected: kángbʊ́tɩgʊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: kángbʊ́tágʊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ángbʊ́ta
+---
+lemma: pɩk
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: takapɩká
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: negative
+  expected: tákópikí
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: makapɩká
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: negative
+  expected: mákópikí
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: ɓakapɩká
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: ɓa-ka-pɩk-á
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    polarity: negative
+  expected: ɓákópikí
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: ɓá-kó-pik-í
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: nakapɩká
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: na-ka-pɩk-á
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+  expected: nákópikí
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: ná-kó-pik-í
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: wakapɩká
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+  expected: wákópikí
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: kapɩká
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    polarity: negative
+  expected: kópikí
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: tapɩka
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: tápɩká
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: future
+  expected: tákápɩkɩgʊ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: tákápɩkágʊ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tápɩka
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: mápɩka
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: mápɩká
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: future
+  expected: mákápɩkɩgʊ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: mákápɩkágʊ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mápɩka
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: ɓá-pɩk-a
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ɓá-pɩk-a
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: ɓó-pik-í
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: future
+  expected: ɓá-ká-pɩk-ɩ-gʊ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: ɓá-ká-pɩk-á-gʊ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: ɓá-kó-pik-í-gʊ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ɓápɩka
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: na-ná-pɩk-á
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: na-pɩk-a
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: ná-pɩk-a
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: no-pik-í
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: ná-ká-pɩk-ɩ-gʊ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: ná-ká-pɩk-á-gʊ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: ná-kó-pik-í-gʊ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nápɩka
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: wapɩka
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: wápɩká
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: future
+  expected: wákápɩkɩgʊ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: wákápɩkágʊ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: wápɩka
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: apɩka
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ápɩká
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: future
+  expected: kápɩkɩgʊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: kápɩkágʊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ápɩka
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+  expected: ɓa-ko-pik
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+  expected: na-ko-pik
+---
+lemma: pʊn
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tápunóní
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mápunóní
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ɓápunóní
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nápunóní
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: wápunóní
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ápunóní
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: tápuníni
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    polarity: negative
+  expected: takapunoní
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: ǔpunóni
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: mákǔpunoní
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: ʌ̌pʌná
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: wakǔpunoní
+---
+lemma: sil
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tósilóní
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mósilóní
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ɓósilóní
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nósilóní
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: wósilóní
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ósilóní
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: nakosiló
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+  expected: nákósilí
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: wakosiló
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+  expected: wákósilí
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: kosiló
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    polarity: negative
+  expected: kósilí
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tósilo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mósilo
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ɓósilo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nósilo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: wósilo
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ósilo
+---
+lemma: viʔ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: táviʔíni
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    polarity: negative
+  expected: takaviʔoní
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: muviʔóni
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: mákaviʔoní
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: muviʔó
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: wakaviʔoní
+---
+lemma: yúkum
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: noyúkúmi
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: nákóyúkúmígʊ
+---
+lemma: yǔkum
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: noyúkumo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: nákóyúkumigʊ
+---
+lemma: ɓin
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tóɓínóní
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: móɓínóní
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ɓóɓínóní
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nóɓínó
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: wóɓínóní
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: óɓínóní
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: nakoɓínó
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: nákóɓínigʊ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: nákóɓínígʊ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: noɓíno
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nóɓínǒ
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: nóɓíní
+---
+lemma: ɓín
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: takoɓínó
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: negative
+  expected: tákóɓíní
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: makoɓínó
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    polarity: negative
+  expected: mákóɓíní
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: ɓakoɓínó
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    polarity: negative
+  expected: ɓákóɓíní
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: nakoɓínó
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+  expected: nákóɓíní
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: wakoɓínó
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    polarity: negative
+  expected: wákóɓíní
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: koɓínó
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    polarity: negative
+  expected: kóɓíní
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tóɓíno
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: móɓíno
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ɓóɓíno
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: nóɓínó
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: nákóɓínágʊ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nóɓíno
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: woɓíno
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: wóɓínó
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: future
+  expected: wákóɓínigʊ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: wákóɓínágʊ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: wóɓíno
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: oɓíno
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: óɓínó
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: future
+  expected: kóɓínigʊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: kóɓínágʊ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: óɓíno
+---
+lemma: ɗik
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: ná-kó-ɗikít-í
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: ná-kó-ɗikít-í-gʊ
+---
+lemma: ɗɩkɩt
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: nanáɗɩkɩta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: naɗɩkɩta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: náɗɩkɩta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: nákáɗɩkɩtɩ-gʊ

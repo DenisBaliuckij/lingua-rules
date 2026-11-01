@@ -1,0 +1,674 @@
+lemma: ai
+category: pronouns
+cases:
+- features:
+    case: ablative
+    gender: masculine
+    number: plural
+  expected: asish
+- features:
+    case: ablative
+    gender: masculine
+    number: singular
+  expected: atij
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: ata
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: atë
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: atyre
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: atij
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: ata
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: ai
+---
+lemma: ajo
+category: pronouns
+cases:
+- features:
+    case: ablative
+    gender: feminine
+    number: plural
+  expected: asosh
+- features:
+    case: ablative
+    gender: feminine
+    number: singular
+  expected: asaj
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: ato
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: atë
+- features:
+    case: dative
+    gender: feminine
+    number: plural
+  expected: atyre
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: asaj
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: ato
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: ajo
+---
+lemma: ame
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: amendar
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: tumendar
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: lendar
+- features:
+    case: ablative
+    number: plural
+    person: third
+    voice: reflexive
+  expected: pendar
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: amen
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: tumen
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: len
+- features:
+    case: accusative
+    number: plural
+    person: third
+    voice: reflexive
+  expected: pen
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: amenge
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: tumenge
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: lenge
+- features:
+    case: dative
+    number: plural
+    person: third
+    voice: reflexive
+  expected: penge
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: amáro
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: tumáro
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: lengo
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: amenca
+- features:
+    case: instrumental
+    number: plural
+    person: second
+  expected: tumenca
+- features:
+    case: instrumental
+    number: plural
+    person: third
+  expected: lenca
+- features:
+    case: instrumental
+    number: plural
+    person: third
+    voice: reflexive
+  expected: penca
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: amende
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: tumende
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: lende
+- features:
+    case: locative
+    number: plural
+    person: third
+    voice: reflexive
+  expected: pende
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ame
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: tume
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: voun
+- features:
+    case: nominative
+    number: plural
+    person: third
+    voice: reflexive
+  expected: pe
+---
+lemma: i cili
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: të cilat
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: të cilën
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: të cilët
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: të cilin
+- features:
+    case: dative
+    gender: feminine
+    number: plural
+  expected: të cilave
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: të cilës
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: të cilëve
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: të cilit
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: i të cilave
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: i të cilës
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: i të cilëve
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: i të cilit
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: të cilat
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: e cila
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: të cilët
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: i cili
+---
+lemma: im
+category: pronouns
+cases:
+- features:
+    case: ablative
+    gender: feminine
+    number: plural
+  expected: të mia
+- features:
+    case: ablative
+    gender: feminine
+    number: singular
+  expected: sime
+- features:
+    case: ablative
+    gender: masculine
+    number: plural
+  expected: të mi
+- features:
+    case: ablative
+    gender: masculine
+    number: singular
+  expected: tim
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: e mia
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: time
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: e mi
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: tim
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: të mia
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: sime
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: të mi
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: tim
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: e mia
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: ime
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: e mi
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: im
+---
+lemma: me
+category: pronouns
+cases:
+- features:
+    case: ablative
+    gender: feminine
+    number: singular
+    person: third
+  expected: latar
+- features:
+    case: ablative
+    gender: masculine
+    number: singular
+    person: third
+  expected: lestar
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: mandar
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: tutar
+- features:
+    case: ablative
+    number: singular
+    person: third
+    voice: reflexive
+  expected: pestar
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: la
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: les
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: man
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: tut
+- features:
+    case: accusative
+    number: singular
+    person: third
+    voice: reflexive
+  expected: pes
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+    person: third
+  expected: lake
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+    person: third
+  expected: leske
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: mange
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: tuke
+- features:
+    case: dative
+    number: singular
+    person: third
+    voice: reflexive
+  expected: peske
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+    person: third
+  expected: lako
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+    person: third
+  expected: lesko
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: muro
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: ťo
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+    person: third
+  expected: lasa
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+    person: third
+  expected: lesa
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: manca
+- features:
+    case: instrumental
+    number: singular
+    person: second
+  expected: tusa
+- features:
+    case: instrumental
+    number: singular
+    person: third
+    voice: reflexive
+  expected: pesa
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+    person: third
+  expected: late
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+    person: third
+  expected: leste
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: mande
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: tute
+- features:
+    case: locative
+    number: singular
+    person: third
+    voice: reflexive
+  expected: peste
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: vou
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: vou
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: me
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: tu
+- features:
+    case: nominative
+    number: singular
+    person: third
+    voice: reflexive
+  expected: pe
+---
+lemma: unë
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: na
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: ju
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: i
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: më
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: të
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: e
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: na
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: ju
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: u
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: më
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: të
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: i
+- features:
+    number: plural
+    person: first
+  expected: na
+- features:
+    number: plural
+    person: second
+  expected: ju
+- features:
+    number: singular
+    person: first
+  expected: unë
+- features:
+    number: singular
+    person: second
+  expected: ti

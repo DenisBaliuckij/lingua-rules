@@ -1,0 +1,167 @@
+lemma: al’khütakh
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: dual
+  expected: alkhütach
+- features:
+    case: dative
+    number: plural
+  expected: al’khütanin
+- features:
+    case: dative
+    number: singular
+  expected: al’khütaman
+- features:
+    case: genitive
+    number: dual
+  expected: alkhütach
+- features:
+    case: genitive
+    number: plural
+  expected: al’khütan
+- features:
+    case: genitive
+    number: singular
+  expected: al’khütam
+- features:
+    case: nominative
+    number: dual
+  expected: alkhütach
+- features:
+    case: nominative
+    number: plural
+  expected: al’khütan
+- features:
+    case: nominative
+    number: singular
+  expected: al’khütakh
+---
+lemma: daman
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: dual
+  expected: amakuch ikin
+- features:
+    case: dative
+    number: plural
+  expected: amakunin
+- features:
+    case: dative
+    number: singular
+  expected: amdndn
+- features:
+    case: nominative
+    number: dual
+  expected: amdkuch
+- features:
+    case: nominative
+    number: plural
+  expected: amdkun
+- features:
+    case: nominative
+    number: singular
+  expected: dman
+---
+lemma: igim
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+  expected: imang
+- features:
+    case: dative
+    number: singular
+  expected: igim
+---
+lemma: inaga
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: inaqamdix
+- features:
+    number: plural
+    person: first
+  expected: inaqamas
+- features:
+    number: plural
+    person: second
+  expected: inaqamehix
+- features:
+    number: plural
+    person: third
+  expected: inaqamchix
+- features:
+    number: singular
+    person: first
+  expected: inaqang
+- features:
+    number: singular
+    person: second
+  expected: inaqamis
+- features:
+    number: singular
+    person: third
+  expected: inaqaam
+---
+lemma: kin
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: singular
+  expected: kinan
+- features:
+    case: nominative
+    number: singular
+  expected: kin
+---
+lemma: usÜ
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: usdiganin
+- features:
+    case: accusative
+    number: singular
+  expected: dsulkh
+- features:
+    case: dative
+    number: dual
+  expected: usikik
+- features:
+    case: dative
+    number: plural
+  expected: usdiganin
+- features:
+    case: dative
+    number: singular
+  expected: usügan ngan
+- features:
+    case: genitive
+    number: plural
+  expected: usdn usüngin
+- features:
+    case: genitive
+    number: singular
+  expected: usigan
+- features:
+    case: nominative
+    number: dual
+  expected: usikik
+- features:
+    case: nominative
+    number: plural
+  expected: usdn usüngin
+- features:
+    case: nominative
+    number: singular
+  expected: us

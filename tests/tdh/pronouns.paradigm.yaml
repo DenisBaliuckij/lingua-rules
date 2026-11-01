@@ -1,0 +1,99 @@
+lemma: ama
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: a
+- features:
+    number: singular
+    person: second
+  expected: i
+- features:
+    number: singular
+    person: third
+  expected: u
+---
+lemma: gana
+category: pronouns
+cases:
+- features:
+    formality: formal
+    number: singular
+    person: second
+  expected: gani
+- features:
+    number: dual
+    person: second
+  expected: gatsi
+- features:
+    number: plural
+    person: second
+  expected: ganimim
+- features:
+    number: singular
+    person: second
+  expected: gana
+---
+lemma: go
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: gutsuku
+- features:
+    number: plural
+    person: first
+  expected: gutsi
+- features:
+    number: singular
+    person: first
+  expected: go
+---
+lemma: gu
+category: pronouns
+cases:
+- features:
+    formality: formal
+    number: singular
+    person: third
+  expected: gumi
+- features:
+    number: dual
+    person: third
+  expected: gutsi
+- features:
+    number: plural
+    person: third
+  expected: gumimim
+- features:
+    number: singular
+    person: third
+  expected: gu
+---
+lemma: meo
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: meocit
+- features:
+    number: plural
+  expected: meomi
+- features:
+    number: singular
+  expected: meo
+---
+lemma: oram
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: orci.p
+- features:
+    number: plural
+  expected: ormiJII
+- features:
+    number: singular
+  expected: oram

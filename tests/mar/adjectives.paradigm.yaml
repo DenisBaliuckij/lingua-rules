@@ -1,0 +1,39 @@
+lemma: असा
+category: adjectives
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: असे
+- features:
+    case: nominative
+    number: singular
+  expected: अशा•
+---
+lemma: चांगला
+category: adjectives
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: चांगले
+- features:
+    case: nominative
+    number: singular
+  expected: चांगल्या
+- features:
+    case: oblique
+    number: plural
+  expected: चांगल्यां
+---
+lemma: वाईट
+category: adjectives
+cases:
+- features:
+    case: nominative
+    number: singular
+  expected: वाईटा
+- features:
+    case: oblique
+    number: plural
+  expected: वाइटां

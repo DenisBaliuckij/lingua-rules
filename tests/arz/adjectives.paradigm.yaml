@@ -1,0 +1,74 @@
+lemma: kibiir
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: kbiira
+- features:
+    gender: masculine
+    number: singular
+  expected: kibiir
+---
+lemma: kitaar
+category: adjectives
+cases:
+- features:
+    gender: common
+    number: plural
+  expected: kutaar
+- features:
+    gender: feminine
+    number: singular
+  expected: kitiira
+---
+lemma: kuwayyis
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: kuwayylsa
+- features:
+    gender: masculine
+    number: singular
+  expected: kuwayyis
+- features:
+    number: plural
+  expected: kuwayyisiin
+- features:
+    number: singular
+  expected: kuwayyis
+---
+lemma: masri
+category: adjectives
+cases:
+- features:
+    gender: common
+    number: dual
+  expected: masriyyiin
+- features:
+    gender: common
+    number: plural
+  expected: masrlyyiin
+- features:
+    gender: feminine
+    number: singular
+  expected: masriyya
+- features:
+    gender: masculine
+    number: singular
+  expected: masri
+- features:
+    number: plural
+  expected: masriyylin
+---
+lemma: taani
+category: adjectives
+cases:
+- features:
+    gender: feminine
+  expected: tanya
+- features:
+    gender: masculine
+  expected: taani

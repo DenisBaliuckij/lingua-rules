@@ -1,0 +1,909 @@
+lemma: I
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: מיך
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: מיר
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: איך
+- features:
+    number: singular
+    person: first
+  expected: מינעם
+---
+lemma: al
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: aly
+- features:
+    case: accusative
+    number: singular
+  expected: ale
+- features:
+    case: dative
+    number: plural
+  expected: aly
+- features:
+    case: dative
+    number: singular
+  expected: alyim
+- features:
+    case: genitive
+    number: plural
+  expected: alymyns
+- features:
+    case: nominative
+    number: plural
+  expected: aly
+- features:
+    case: nominative
+    number: singular
+  expected: ale
+---
+lemma: diier
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: dii
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: diim
+- features:
+    case: accusative
+    number: plural
+  expected: dii diiy
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: diier
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: dim
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: dim
+- features:
+    case: dative
+    number: plural
+  expected: dii diiy
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: dii
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: diier
+- features:
+    case: nominative
+    number: plural
+  expected: dii diiy
+- features:
+    gender: feminine
+    number: singular
+  expected: diier
+- features:
+    gender: masculine
+    number: singular
+  expected: dim
+- features:
+    gender: neuter
+    number: singular
+  expected: diim
+- features:
+    number: plural
+  expected: dii diiy
+---
+lemma: du
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: דיך
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: דיר
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: דו
+- features:
+    number: singular
+    person: second
+  expected: דינעם
+---
+lemma: emetser
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: emetsn
+- features:
+    case: dative
+  expected: emetsn
+- features:
+    case: genitive
+  expected: emetsns
+- features:
+    case: nominative
+  expected: emetser
+---
+lemma: er
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: עם
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+    person: third
+  expected: אים
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: ער
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: זינעם
+---
+lemma: es
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+    person: third
+  expected: עס
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+    person: third
+  expected: אים
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+    person: third
+  expected: עס
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: דינעם
+---
+lemma: hers a kind
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: hers a kind
+- features:
+    case: dative
+    number: singular
+  expected: hern a kind
+- features:
+    case: genitive
+    number: singular
+  expected: hern a kinds
+- features:
+    case: nominative
+    number: singular
+  expected: hers a kind
+---
+lemma: iirer
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: iirs
+- features:
+    case: accusative
+    number: singular
+  expected: iim
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: iirer
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: iim
+- features:
+    case: nominative
+    number: singular
+  expected: iirer
+- features:
+    gender: feminine
+    number: singular
+  expected: iirer
+- features:
+    gender: neuter
+    number: singular
+  expected: iim
+- features:
+    number: plural
+  expected: iiry
+- features:
+    number: singular
+  expected: iirn
+---
+lemma: iirer zjjn
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: iirn a zjjn
+- features:
+    case: dative
+    number: singular
+  expected: iirn a zjjn
+- features:
+    case: genitive
+    number: singular
+  expected: hrn a zjjns
+- features:
+    case: nominative
+    number: singular
+  expected: iirer zjjn
+---
+lemma: iiry a toxter
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: iiry a toxter
+- features:
+    case: dative
+    number: singular
+  expected: iirer a toxter
+- features:
+    case: genitive
+    number: singular
+  expected: iirer a toxters
+- features:
+    case: nominative
+    number: singular
+  expected: iiry a toxter
+---
+lemma: ikh
+category: pronouns
+cases:
+- features:
+    case: accusative
+    formality: formal
+    number: singular
+    person: second
+  expected: aykh
+- features:
+    case: accusative
+    formality: informal
+    number: singular
+    person: second
+  expected: dikh
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: zi
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: im
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+    person: third
+  expected: es
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: undz
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: aykh
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: zey
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: mikh
+- features:
+    case: dative
+    formality: formal
+    number: singular
+    person: second
+  expected: aykh
+- features:
+    case: dative
+    formality: informal
+    number: singular
+    person: second
+  expected: dir
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+    person: third
+  expected: ir
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+    person: third
+  expected: im
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+    person: third
+  expected: im
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: undz
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: aykh
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: zey
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: mir
+- features:
+    case: nominative
+    formality: formal
+    number: singular
+    person: second
+  expected: ir
+- features:
+    case: nominative
+    formality: informal
+    number: singular
+    person: second
+  expected: du
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: zi
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: er
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+    person: third
+  expected: es
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: mir
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: ir
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: zey
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ikh
+---
+lemma: ir
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: עונעס
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: עונעס
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: איר
+- features:
+    number: plural
+    person: second
+  expected: אייערעם
+---
+lemma: jndzerer
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: jndzerer
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: aaerer
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: zaierer
+---
+lemma: jndzers
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: jndzers
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: aaers
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: zaiers
+---
+lemma: jndzert
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: jndzert
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: zaiert
+---
+lemma: keyner
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: keynem
+- features:
+    case: dative
+  expected: keynem
+- features:
+    case: genitive
+  expected: keynems
+- features:
+    case: nominative
+  expected: keyner
+---
+lemma: mayn
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: maany
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: maanym
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: maanc
+- features:
+    case: accusative
+    number: plural
+  expected: maany
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: maanym
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: maanym
+- features:
+    case: dative
+    number: plural
+  expected: maany
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: maanym
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: maanym
+- features:
+    case: genitive
+    number: plural
+  expected: maany
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: maany
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: maone
+- features:
+    case: nominative
+    number: plural
+  expected: maany
+---
+lemma: mir
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: אונעס
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: aax
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: zai
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: אונעס
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: aax
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: zai
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: מיר
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: aax
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: zai
+- features:
+    number: plural
+    person: first
+  expected: אונדזערעם
+---
+lemma: my
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: her
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: his
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: its
+- features:
+    number: singular
+    person: first
+  expected: my
+- features:
+    number: singular
+    person: second
+  expected: your
+---
+lemma: ver
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: vemen
+- features:
+    case: dative
+  expected: vemen
+- features:
+    case: genitive
+  expected: vemens
+- features:
+    case: nominative
+  expected: ver
+---
+lemma: yederer
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: yedere
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: yedem
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: yederer
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: yedem
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: yederers
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: yedems
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: yedere
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: yederer
+---
+lemma: yener
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: yene
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: yenem
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: yens
+- features:
+    case: accusative
+    number: plural
+  expected: yene
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: yener
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: yenem
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: yenem
+- features:
+    case: dative
+    number: plural
+  expected: yene
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: yeners
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: yenems
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: yene
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: yener
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: yens
+- features:
+    case: nominative
+    number: plural
+  expected: yene
+---
+lemma: zex
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: zex
+- features:
+    number: plural
+    person: second
+  expected: zex
+- features:
+    number: plural
+    person: third
+  expected: zex
+- features:
+    number: singular
+    person: first
+  expected: zex
+- features:
+    number: singular
+    person: second
+  expected: zex
+- features:
+    number: singular
+    person: third
+  expected: zex
+---
+lemma: zi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: איר
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: זיי
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+    person: third
+  expected: איר
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: זיי
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: זי
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: זיי
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: אינעם
+- features:
+    number: plural
+    person: third
+  expected: זייערעם

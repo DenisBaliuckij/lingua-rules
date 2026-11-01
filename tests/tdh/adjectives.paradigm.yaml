@@ -1,0 +1,39 @@
+lemma: a
+category: adjectives
+cases:
+- features:
+    number: dual
+    person: first
+  expected: aci
+- features:
+    number: dual
+    person: second
+  expected: ici
+- features:
+    number: dual
+    person: third
+  expected: uci
+- features:
+    number: plural
+    person: first
+  expected: iki
+- features:
+    number: plural
+    person: second
+  expected: ini
+- features:
+    number: plural
+    person: third
+  expected: uni
+- features:
+    number: singular
+    person: first
+  expected: a
+- features:
+    number: singular
+    person: second
+  expected: i
+- features:
+    number: singular
+    person: third
+  expected: u

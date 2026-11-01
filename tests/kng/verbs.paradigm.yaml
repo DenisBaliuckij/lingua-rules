@@ -1,0 +1,1551 @@
+lemma: kala
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tuakala
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tukala
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: luakala
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nukala
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: bakala
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bekala
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: iakala
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nkala
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: uakala
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ukala
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: oukala
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: okata
+---
+lemma: kenda
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: tukenda
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: lukenda
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kenda
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: tukenda
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: tuakenda
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: tukendele
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: tuakendele
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tukenda
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: tuakenda
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: lukenda
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: luakenda
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: lukendele
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: luakendele
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lukenda
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: luakenda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: bekenda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: bakenda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: bakendele
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: bakendele
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bekenda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: bakenda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: nkenda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: lakenda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: nkendele
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: lakendele
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nkenda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: takenda
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ukenda
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: uakenda
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: ukendele
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: uakendele
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ukenda
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: uakenda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: okenda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: oakenda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: okendele
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: oakendele
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: okenda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: oakenda
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: tuakenda
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: tukenda
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: luakenda
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: lukenda
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: bakenda
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: bekenda
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: lakenda
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: nkenda
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: uakenda
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: ukenda
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: oakenda
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: okenda
+---
+lemma: ku-tala
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: reflexive
+  expected: tu-a-ku-tala
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: reflexive
+  expected: l'u-a—-ii-tala
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+    voice: reflexive
+  expected: tu-a-ii-tadidi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: reflexive
+  expected: tu-ku-tala
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: reflexive
+  expected: lu-a-ku-tala
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: reflexive
+  expected: lu-a-ii-tala
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+    voice: reflexive
+  expected: lu-a-i-tadidi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: reflexive
+  expected: lu-ku-tala
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: reflexive
+  expected: b'a-ku-tala
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: reflexive
+  expected: d'a-ii-tala
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+    voice: reflexive
+  expected: b'a-ii-tadid
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: reflexive
+  expected: be-ku-tala
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+    voice: reflexive
+  expected: i-ku-tala
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: reflexive
+  expected: il-a-kutala
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: reflexive
+  expected: j—a-wi-tala
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+    voice: reflexive
+  expected: i-a—ü-tadidi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: reflexive
+  expected: i-ku-tala
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+    voice: reflexive
+  expected: u-kuztala
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: reflexive
+  expected: u-a-kutala
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: reflexive
+  expected: u-a-u-tala
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: reflexive
+  expected: u-ku-tala
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: reflexive
+  expected: o-a-kutala
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: reflexive
+  expected: o-a-u-tala
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+    voice: reflexive
+  expected: o-a-ii-tadidi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: reflexive
+  expected: o-ku-tala
+---
+lemma: ku-tu-tala
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: tu-a-ku-tu-tala
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: tu-a-tu-tala
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: t'u-a—ii-tadidi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tu-ku-tu-tala
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: lu-a-ku-tu-tala
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: lu-a-tu-tala
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: lu-a-tu-tadidi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lu-ku-tu-tala
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: b'-a-ku-tu-tata
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: b'a-tu-tala
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: b'a-tu-tadidi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: be-ku-tu-tala
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: i-a-ku-tu-tala
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: i]-a-tu-tala
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: l-a-tu-tadidi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: i-ku-tu-tala
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: u-a-ku-tu-tala
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: u-a-tu-tala
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: u-a-tu-tadidi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: u-ku-tu-tala
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: o-a-ku-tu-tala
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: o-a-tu-tala
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: o-a-tu-tadidi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: o-ku-tu-tala
+---
+lemma: kuenda
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: tuenda
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: luenda
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: uenda
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: tukuenda
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: tuakuenda
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tukuenda
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: tuaienda
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: lukuenda
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: luakuenda
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lukuenda
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: luatenda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: bekuenda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: d'akuenda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bekuenda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: b'aienda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: nhuenda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: lakuenda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nkuenda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: laienda
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ukuenda
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: uakuenda
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ukuenda
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: uaienda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: okuenda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: oakuenda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: okuenda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: oaienda
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: tuarenda
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: tuenda
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: luaienda
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: luenda
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: d'aienda
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: brenda
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: laienda
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: lenda
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: uaienda
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: uenda
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: outenda
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: oenda
+---
+lemma: sona
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: tuasona
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tusona
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: luasona
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lusona
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: basona
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: besona
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: lasona
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nsona
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: uasona
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: usona
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: oasona
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: osona
+---
+lemma: tala
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: tu-ku-n-tala
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: tu-a-ku-n-tala
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: tu—a—-n-tala
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: tu-a-n-tadidi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tu-ku-n-tala
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: lu-ku-n-tala
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: lu-a-ku-n-tala
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: lu-n-tadidi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: lu-a—n—tadidi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lu-ku-n-tala
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: be-ku-n-tala
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: d'a-ku-n-tala
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: b'a-n-tala
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: b'a-n-tadidi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: be-ku-n-tala
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: i-ku-n-tala
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: j-a-ku-n-tala
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: i-a-n-tala
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: i-a-n-tadidi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: i-ku-n-tala
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: u-ku-n-tala
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: u-a-ku-n-tala
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: u-a-n-tala
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: u—a-n-tadidi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: u-ku-n-tala
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: o-ku-n-tala
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: o-a-ku-n-tala
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: o-a-n-tala
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: o-a-n-tadidi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: o-ku-n-tala
+---
+lemma: tota
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tutota
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lutota
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: betota
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ntota
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: utota
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: otota
+---
+lemma: tuma
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: nutuma
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: lutuma
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tuma
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: tutuma
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: tuatuma
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: tutumini
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: tuatumini
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tutuma
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: tuatuma
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: lutuma
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: luatuma
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: lutumini
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: luatumint
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: betuma
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: luatuma
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: betuma
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: patuma
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: batumini
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: batumini
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: betuma
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: batuma
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ntuma
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: latuma
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: ntumini
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: jatumini
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ntuma
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: tatuma
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: utuma
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: uatuma
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: utumini
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: uatumini
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: utuma
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: uatuma
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: otuma
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: oatuma
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: otumini
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: oatumini
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: otuma
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: oatuma
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: puatuma
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: utuma
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: luatuma
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: lutuma
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: batuma
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: betuma
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: tatuma
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: ntuma
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: uatuma
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: utuma
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: oatuma
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: otuma

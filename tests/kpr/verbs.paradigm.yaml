@@ -1,0 +1,1539 @@
+lemma: anumb-e
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: anumb-er-ena
+- features:
+    aspect: perfective
+    tense: past
+  expected: anumb-e-teni
+- features:
+    mood: imperative
+  expected: anumb-e
+---
+lemma: b-u
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: ere-rur-ena
+- features:
+    aspect: perfective
+    tense: past
+  expected: b-eni
+- features:
+    mood: imperative
+  expected: b-u
+---
+lemma: bund-e
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: bund-e-teni
+- features:
+    mood: imperative
+  expected: bund-e
+---
+lemma: d-u
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: dudur-er-ena
+- features:
+    aspect: perfective
+    tense: past
+  expected: du-r-eni
+- features:
+    mood: imperative
+  expected: d-u
+---
+lemma: dav-e
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: dav-e-teni
+- features:
+    mood: imperative
+  expected: dav-e
+---
+lemma: dimb-u
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: dimb-eni
+- features:
+    mood: imperative
+  expected: dimb-u
+---
+lemma: e
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: evu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: e
+---
+lemma: fu
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: re-fena
+- features:
+    aspect: perfective
+    tense: past
+  expected: oj-eni
+- features:
+    mood: imperative
+  expected: fu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: fera
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: feva
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: fena
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: fesa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: fira
+- features:
+    number: plural
+    person: first
+  expected: oj-era
+- features:
+    number: plural
+    person: second
+  expected: oj-eva
+- features:
+    number: singular
+    person: first
+  expected: oj-ena
+- features:
+    number: singular
+    person: second
+  expected: oj-esa
+- features:
+    number: singular
+    person: third
+  expected: oj-ira
+---
+lemma: g-i
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: ere-gos-ena
+- features:
+    aspect: perfective
+    tense: past
+  expected: g-eni
+- features:
+    mood: imperative
+  expected: g-i
+---
+lemma: gef-ur-eono
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: gef-ur-eoro
+- features:
+    number: plural
+    person: second
+  expected: gef-ur-eovo
+- features:
+    number: singular
+    person: first
+  expected: gef-ur-eono
+- features:
+    number: singular
+    person: second
+  expected: gef-ur-easo
+- features:
+    number: singular
+    person: third
+  expected: gef-ur-eari
+---
+lemma: gefu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: gefumutari
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: gefumutavu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: gefumutani
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: gefumutasi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gefumuta
+---
+lemma: gefur
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: gefuraeteri
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: gemb-eore
+- features:
+    number: plural
+    person: second
+  expected: gefuraetevu
+- features:
+    number: singular
+    person: first
+  expected: gefuraeteni
+- features:
+    number: singular
+    person: second
+  expected: gefuraetesi
+- features:
+    number: singular
+    person: third
+  expected: gefuraeti
+- features:
+    person: first
+  expected: gemb-one
+- features:
+    person: first
+    polarity: negative
+  expected: gemb-eone
+- features:
+    person: second
+  expected: gemb-ase
+- features:
+    person: second
+    polarity: negative
+  expected: gemb-eose
+- features:
+    person: third
+  expected: gemb-are
+- features:
+    person: third
+    polarity: negative
+  expected: gemb-eure
+---
+lemma: gemb-u
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: gemb-eni
+- features:
+    mood: imperative
+  expected: gemb-u
+---
+lemma: gembu
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+  expected: gemburaera
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+  expected: gemburaeva
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+  expected: gemburaena
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+  expected: gemburaesa
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+  expected: gemburaira
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: gef-ur-arera
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: gef-ur-areva
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: gef-ur-arena
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: gef-ur-aresa
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: gef-ur-arira
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: gembcieteri
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: gembcietevu
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: gembcieteni
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: gembcietesi
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: gembcieti
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: gembuvu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: gembu
+---
+lemma: gernbu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: gernberi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: gernbevu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: gernbeni
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: gernbesi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gernbira
+---
+lemma: gi
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+  expected: giraera
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+  expected: giraeva
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+  expected: giraena
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+  expected: giraesa
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+  expected: giraira
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: gosu-r-ur-arera
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: gosu-r-ur-areva
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: gosu-r-ur-arena
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: gosu-r-ur-aresa
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: gosu-r-ur-arira
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: gcieteri
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: gcietevu
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: gcieteni
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: gcietesi
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: gcieti
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: gz-vu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: gi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: geri
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: gevu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: geni
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: gesi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gfra
+---
+lemma: gosu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: gosumutari
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: gosumutavu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: gosumutani
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: gosumutasi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gosumuta
+- features:
+    number: plural
+    person: first
+  expected: gosu-r-ur-aeteri
+- features:
+    number: plural
+    person: second
+  expected: gosu-r-ur-aetevu
+- features:
+    number: singular
+    person: first
+  expected: gosu-r-ur-aeteni
+- features:
+    number: singular
+    person: second
+  expected: gosu-r-ur-aetesi
+- features:
+    number: singular
+    person: third
+  expected: gosu-r-ur-aeti
+---
+lemma: gosu-r-ur-eono
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: gosu-r-ur-eoro
+- features:
+    number: plural
+    person: second
+  expected: gosu-r-ur-eovo
+- features:
+    number: singular
+    person: first
+  expected: gosu-r-ur-eono
+- features:
+    number: singular
+    person: second
+  expected: gosu-r-ur-easo
+- features:
+    number: singular
+    person: third
+  expected: gosu-r-ur-eari
+---
+lemma: gov-e
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: gov-e-teni
+- features:
+    mood: imperative
+  expected: gov-e
+---
+lemma: i
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: er-ena
+- features:
+    aspect: perfective
+    tense: past
+  expected: a-ena
+- features:
+    mood: imperative
+  expected: y-asP
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: era
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: eva
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ena
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: esa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ira
+- features:
+    number: plural
+    person: first
+  expected: a-era
+- features:
+    number: plural
+    person: second
+  expected: a-eva
+- features:
+    number: singular
+    person: first
+  expected: a-ena
+- features:
+    number: singular
+    person: second
+  expected: a-esa
+- features:
+    number: singular
+    person: third
+  expected: a-ira
+---
+lemma: ir-i
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: ir-ena
+- features:
+    aspect: perfective
+    tense: past
+  expected: ir-ani
+- features:
+    mood: imperative
+  expected: ir-i
+---
+lemma: iri
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: iriari
+- features:
+    number: plural
+    person: second
+  expected: iriavu
+- features:
+    number: singular
+    person: first
+  expected: iriani
+- features:
+    number: singular
+    person: second
+  expected: iriasi
+- features:
+    number: singular
+    person: third
+  expected: irei
+---
+lemma: it-i
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: itut-er-ena
+- features:
+    aspect: perfective
+    tense: past
+  expected: it-eni
+- features:
+    mood: imperative
+  expected: it-i
+---
+lemma: mind-i
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: mind-eni
+- features:
+    mood: imperative
+  expected: mind-i
+---
+lemma: s-e
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: s-e-teni
+- features:
+    mood: imperative
+  expected: s-e
+---
+lemma: sand-i
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: sandud-er-ena
+- features:
+    aspect: perfective
+    tense: past
+  expected: sand-eni
+- features:
+    mood: imperative
+  expected: sand-i
+---
+lemma: say
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: seoro
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: seovo
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: seono
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: seaso
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: seari
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: saoro
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: re-s-era
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: saovo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: re-s-eva
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: saono
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: re-s-ena
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: saso
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: sari
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: re-s-ira
+- features:
+    number: plural
+    person: first
+  expected: sarera
+- features:
+    number: plural
+    person: second
+  expected: sareva
+- features:
+    number: singular
+    person: first
+  expected: sarena
+- features:
+    number: singular
+    person: second
+  expected: saresa
+- features:
+    number: singular
+    person: third
+  expected: sarira
+---
+lemma: se
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+  expected: seraera
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+  expected: seraeva
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+  expected: seraena
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+  expected: seraesa
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+  expected: seraira
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: si-r-ur-arera
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: si-r-ur-areva
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: si-r-ur-arena
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: si-r-ur-aresa
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: si-r-ur-arira
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: scieteri
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: scietevu
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: scieteni
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: scietesi
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: scieti
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: sevu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: se
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: seleri
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: setevu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: seteni
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: selesi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: setira
+---
+lemma: see
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: g-eoro
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: g-eovo
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: g-eono
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: g-easo
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: g-eari
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: g-aoro
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ere-gos-era
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: g-aovo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ere-gos-eva
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: g-aono
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ere-gos-ena
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: g-aso
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ere-gos-esa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: g-ari
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ere-gos-ira
+- features:
+    number: plural
+    person: first
+  expected: g-arera
+- features:
+    number: plural
+    person: second
+  expected: g-areva
+- features:
+    number: singular
+    person: first
+  expected: g-arena
+- features:
+    number: singular
+    person: second
+  expected: g-aresa
+- features:
+    number: singular
+    person: third
+  expected: g-arira
+---
+lemma: si
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: simutari
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: simutavu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: simutani
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: simutasi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: simuta
+- features:
+    number: plural
+    person: first
+  expected: si-r-ur-aeteri
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: seore
+- features:
+    number: plural
+    person: second
+  expected: si-r-ur-aetevu
+- features:
+    number: singular
+    person: first
+  expected: si-r-ur-aeteni
+- features:
+    number: singular
+    person: second
+  expected: si-r-ur-aetesi
+- features:
+    number: singular
+    person: third
+  expected: si-r-ur-aeti
+- features:
+    person: first
+  expected: saone
+- features:
+    person: first
+    polarity: negative
+  expected: seone
+- features:
+    person: second
+  expected: sase
+- features:
+    person: second
+    polarity: negative
+  expected: seose
+- features:
+    person: third
+  expected: sare
+- features:
+    person: third
+    polarity: negative
+  expected: seure
+---
+lemma: si-r-ur-eono
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: si-r-ur-eoro
+- features:
+    number: plural
+    person: second
+  expected: si-r-ur-eovo
+- features:
+    number: singular
+    person: first
+  expected: si-r-ur-eono
+- features:
+    number: singular
+    person: second
+  expected: si-r-ur-easo
+- features:
+    number: singular
+    person: third
+  expected: si-r-ur-eari
+---
+lemma: sumb-u
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: sumb-eni
+- features:
+    mood: imperative
+  expected: sumb-u
+---
+lemma: ter-e
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: teter-er-ena
+- features:
+    aspect: perfective
+    tense: past
+  expected: ter-e-teni
+- features:
+    mood: imperative
+  expected: ter-e
+---
+lemma: tere
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+  expected: tereraera
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+  expected: tereraeva
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+  expected: tereraena
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+  expected: tereraesa
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+  expected: tereraira
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: teter-ur-arera
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: teter-ur-areva
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: teter-ur-arena
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: teter-ur-aresa
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: teter-ur-arira
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: tercieteri
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: tercietevu
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: tercieteni
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: tercietesi
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: tercieti
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: terevu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tere
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tereteri
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tereteni
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: teretesi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: terelira
+---
+lemma: teter
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: teter-ur-aeteri
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: ter-eore
+- features:
+    number: plural
+    person: second
+  expected: teter-ur-aetevu
+- features:
+    number: singular
+    person: first
+  expected: teter-ur-aeteni
+- features:
+    number: singular
+    person: second
+  expected: teter-ur-aetesi
+- features:
+    number: singular
+    person: third
+  expected: teter-ur-aeti
+- features:
+    person: first
+  expected: ter-one
+- features:
+    person: first
+    polarity: negative
+  expected: ter-eone
+- features:
+    person: second
+  expected: ter-ase
+- features:
+    person: second
+    polarity: negative
+  expected: ter-eose
+- features:
+    person: third
+  expected: ter-are
+- features:
+    person: third
+    polarity: negative
+  expected: ter-eure
+---
+lemma: teter-ur-eono
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: teter-ur-eoro
+- features:
+    number: plural
+    person: second
+  expected: teter-ur-eovo
+- features:
+    number: singular
+    person: first
+  expected: teter-ur-eono
+- features:
+    number: singular
+    person: second
+  expected: teter-ur-easo
+- features:
+    number: singular
+    person: third
+  expected: teter-ur-eari
+---
+lemma: teteru
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: teterumutari
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: teterumutavu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: teterumutani
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: teterumutasi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: teterumuta

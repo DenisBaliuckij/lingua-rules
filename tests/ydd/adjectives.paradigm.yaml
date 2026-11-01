@@ -1,0 +1,354 @@
+lemma: alt
+category: adjectives
+cases:
+- features:
+    degree: positive
+  expected: alt
+- features:
+    degree: superlative
+  expected: ihst
+---
+lemma: am
+category: adjectives
+cases:
+- features:
+    degree: comparative
+  expected: siner
+- features:
+    degree: positive
+  expected: am
+- features:
+    degree: superlative
+  expected: unct
+---
+lemma: brait
+category: adjectives
+cases:
+- features:
+    degree: comparative
+  expected: braittr
+- features:
+    degree: positive
+  expected: brait
+- features:
+    degree: superlative
+  expected: braitst
+---
+lemma: erger
+category: adjectives
+cases:
+- features:
+    degree: comparative
+  expected: erger
+- features:
+    degree: superlative
+  expected: ergst
+---
+lemma: gjt
+category: adjectives
+cases:
+- features:
+    case: accusative
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: גוסע
+- features:
+    case: accusative
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+  expected: גום
+- features:
+    case: accusative
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: gjty
+- features:
+    case: accusative
+    number: singular
+  expected: גוסע
+- features:
+    case: dative
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: גוסן
+- features:
+    case: dative
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+  expected: גום
+- features:
+    case: dative
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: gjtn
+- features:
+    case: dative
+    number: singular
+  expected: גוטער
+- features:
+    case: genitive
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: גוטן
+- features:
+    case: genitive
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+  expected: גום
+- features:
+    case: genitive
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: gjtn
+- features:
+    case: genitive
+    number: singular
+  expected: גוםער
+- features:
+    case: nominative
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: נוטע
+- features:
+    case: nominative
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+  expected: גוס
+- features:
+    case: nominative
+    definiteness: indefinite
+    gender: neuter
+    number: singular
+  expected: gjty
+- features:
+    case: nominative
+    number: plural
+  expected: נוסע
+- features:
+    case: nominative
+    number: singular
+  expected: גוטער
+- features:
+    degree: comparative
+  expected: beser
+- features:
+    degree: positive
+  expected: gjt
+- features:
+    degree: superlative
+  expected: best
+---
+lemma: grois
+category: adjectives
+cases:
+- features:
+    degree: comparative
+  expected: greser
+- features:
+    degree: positive
+  expected: grois
+- features:
+    degree: superlative
+  expected: grist
+---
+lemma: gut
+category: adjectives
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: gute
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: gutn
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: gute
+- features:
+    case: accusative
+    number: plural
+  expected: gute
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: guter
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: gutn
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: gutn
+- features:
+    case: dative
+    number: plural
+  expected: gute
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: gute
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: guter
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: gute
+- features:
+    case: nominative
+    number: plural
+  expected: gute
+---
+lemma: hoix
+category: adjectives
+cases:
+- features:
+    degree: comparative
+  expected: hixtr
+- features:
+    degree: positive
+  expected: hoix
+---
+lemma: i k
+category: adjectives
+cases:
+- features:
+    case: accusative
+  expected: slafern
+- features:
+    case: accusative
+    definiteness: definite
+    gender: neuter
+  expected: slafery
+- features:
+    case: accusative
+    definiteness: indefinite
+    gender: feminine
+  expected: ‫שלאפער‬
+- features:
+    case: accusative
+    definiteness: indefinite
+    gender: neuter
+  expected: slafer
+- features:
+    case: dative
+  expected: slafern
+- features:
+    case: dative
+    definiteness: definite
+    gender: neuter
+  expected: slafern
+- features:
+    case: dative
+    definiteness: indefinite
+    gender: feminine
+  expected: slaferer
+- features:
+    case: dative
+    definiteness: indefinite
+    gender: neuter
+  expected: slafer
+- features:
+    case: nominative
+  expected: slaferer
+- features:
+    case: nominative
+    definiteness: definite
+    gender: neuter
+  expected: slafery
+- features:
+    case: nominative
+    definiteness: indefinite
+    gender: feminine
+  expected: slafery
+- features:
+    case: nominative
+    definiteness: indefinite
+    gender: neuter
+  expected: slafer
+- features:
+    definiteness: definite
+    gender: neuter
+  expected: slafern
+- features:
+    definiteness: indefinite
+    gender: feminine
+  expected: slaferer
+- features:
+    definiteness: indefinite
+    gender: neuter
+  expected: slafer
+---
+lemma: klam
+category: adjectives
+cases:
+- features:
+    degree: positive
+  expected: klam
+- features:
+    degree: superlative
+  expected: klenct
+---
+lemma: starker
+category: adjectives
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: starkn
+- features:
+    case: genitive
+    number: plural
+  expected: starkns
+- features:
+    case: genitive
+    number: singular
+  expected: starkn
+- features:
+    case: nominative
+    number: singular
+  expected: starker
+---
+lemma: xuuiyv
+category: adjectives
+cases:
+- features:
+    degree: positive
+  expected: xuuiyv
+- features:
+    degree: superlative
+  expected: xeiiyvst
+---
+lemma: ziis
+category: adjectives
+cases:
+- features:
+    degree: comparative
+  expected: ziiser
+- features:
+    degree: positive
+  expected: ziis

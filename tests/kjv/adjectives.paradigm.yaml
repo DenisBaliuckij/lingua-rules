@@ -1,0 +1,676 @@
+lemma: mlad
+category: adjectives
+cases:
+- features:
+    animacy: inanimate
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: mlade
+- features:
+    animacy: inanimate
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: mlad
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: mlade
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: mladu
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: mlad
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: mlada
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: mlad
+- features:
+    case: dative
+    gender: feminine
+    number: plural
+  expected: mladim
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: mladõj
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: mladim
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: mladu
+- features:
+    case: dative
+    gender: neuter
+    number: plural
+  expected: mladim
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: mladu
+- features:
+    case: dative
+    number: plural
+  expected: mladim
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: mladih
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: mladē
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: mladih
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: mlada
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: mladih
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: mlada
+- features:
+    case: genitive
+    number: plural
+  expected: mladih
+- features:
+    case: instrumental
+    gender: feminine
+    number: dual
+  expected: mladima
+- features:
+    case: instrumental
+    gender: feminine
+    number: plural
+  expected: mladimi
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: mladom
+- features:
+    case: instrumental
+    gender: masculine
+    number: dual
+  expected: mladima
+- features:
+    case: instrumental
+    gender: masculine
+    number: plural
+  expected: mladimi
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: mladim
+- features:
+    case: instrumental
+    gender: neuter
+    number: dual
+  expected: mladima
+- features:
+    case: instrumental
+    gender: neuter
+    number: plural
+  expected: mladimi
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: mladim
+- features:
+    case: instrumental
+    number: plural
+  expected: mladimi
+- features:
+    case: locative
+    gender: feminine
+    number: plural
+  expected: mladih
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: mladõj
+- features:
+    case: locative
+    gender: masculine
+    number: plural
+  expected: mladih
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: mladu
+- features:
+    case: locative
+    gender: neuter
+    number: plural
+  expected: mladih
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: mladu
+- features:
+    case: locative
+    number: plural
+  expected: mladin
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: mlade
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: mlada
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: mladi
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: mlad
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: mlada
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: mlad
+- features:
+    case: vocative
+    gender: feminine
+    number: plural
+  expected: mlade
+- features:
+    case: vocative
+    gender: feminine
+    number: singular
+  expected: mlada
+- features:
+    case: vocative
+    gender: masculine
+    number: plural
+  expected: mladi
+- features:
+    case: vocative
+    gender: masculine
+    number: singular
+  expected: mlada
+- features:
+    case: vocative
+    gender: neuter
+    number: plural
+  expected: mlada
+- features:
+    case: vocative
+    gender: neuter
+    number: singular
+  expected: mlad
+- features:
+    number: dual
+  expected: mladima
+---
+lemma: vas
+category: adjectives
+cases:
+- features:
+    animacy: animate
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: vas
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: sve
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: suu
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: sve
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: sua
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: sve
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: svoj
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: svemu
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: svemu
+- features:
+    case: dative
+    number: plural
+  expected: svim
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: sve
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: svega
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: svega
+- features:
+    case: genitive
+    number: plural
+  expected: svih
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: svom
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: svim
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: svim
+- features:
+    case: instrumental
+    number: plural
+  expected: svimi
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: svoj
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: svem
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: svem
+- features:
+    case: locative
+    number: plural
+  expected: svih
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: sve
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: sva
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: svi
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: vas
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: sva
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: sve
+- features:
+    case: vocative
+    gender: feminine
+    number: plural
+  expected: sve
+- features:
+    case: vocative
+    gender: masculine
+    number: plural
+  expected: svi
+- features:
+    case: vocative
+    gender: masculine
+    number: singular
+  expected: vas
+- features:
+    case: vocative
+    gender: neuter
+    number: plural
+  expected: sva
+---
+lemma: vruć
+category: adjectives
+cases:
+- features:
+    animacy: animate
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: vrući
+- features:
+    animacy: inanimate
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: vruće
+- features:
+    animacy: inanimate
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: vruć
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: vruće
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: vruću
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: vrućē
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+  expected: vruća
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: vruće
+- features:
+    case: dative
+    gender: feminine
+    number: plural
+  expected: vrućim
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: vrućoj
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: vrućim
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: vrućēmu
+- features:
+    case: dative
+    gender: neuter
+    number: plural
+  expected: vrućim
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: vruću
+- features:
+    case: dative
+    number: plural
+  expected: vrućim
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+  expected: vrućih
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: vruće
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: vrućih
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: vruća
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+  expected: vrućih
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: vruća
+- features:
+    case: genitive
+    number: plural
+  expected: vrućih
+- features:
+    case: instrumental
+    gender: feminine
+    number: dual
+  expected: vrućima
+- features:
+    case: instrumental
+    gender: feminine
+    number: plural
+  expected: vrućimi
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: vrućom
+- features:
+    case: instrumental
+    gender: masculine
+    number: dual
+  expected: vrućima
+- features:
+    case: instrumental
+    gender: masculine
+    number: plural
+  expected: vrućimi
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: vrućim
+- features:
+    case: instrumental
+    gender: neuter
+    number: dual
+  expected: vrućima
+- features:
+    case: instrumental
+    gender: neuter
+    number: plural
+  expected: vrućimi
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: vrućim
+- features:
+    case: instrumental
+    number: plural
+  expected: vrućimi
+- features:
+    case: locative
+    gender: feminine
+    number: plural
+  expected: vrućih
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: vvuć-oj
+- features:
+    case: locative
+    gender: masculine
+    number: plural
+  expected: vrućih
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: vruću
+- features:
+    case: locative
+    gender: neuter
+    number: plural
+  expected: vrućih
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: vrućU
+- features:
+    case: locative
+    number: plural
+  expected: vrućih
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: vruće
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: vruća
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: vrući
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: vruć
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+  expected: vruća
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: vruće
+- features:
+    case: vocative
+    gender: feminine
+    number: plural
+  expected: vruće
+- features:
+    case: vocative
+    gender: feminine
+    number: singular
+  expected: vruća
+- features:
+    case: vocative
+    gender: masculine
+    number: plural
+  expected: vrući
+- features:
+    case: vocative
+    gender: masculine
+    number: singular
+  expected: vruća
+- features:
+    case: vocative
+    gender: neuter
+    number: plural
+  expected: vruća
+- features:
+    case: vocative
+    gender: neuter
+    number: singular
+  expected: vruće
+- features:
+    number: dual
+  expected: vrućima

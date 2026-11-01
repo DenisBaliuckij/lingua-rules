@@ -1,0 +1,33 @@
+lemma: ítpadam
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ítlam
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ítalam
+- features:
+    number: plural
+    person: first
+  expected: ítda
+- features:
+    number: plural
+    person: second
+  expected: ítka
+- features:
+    number: plural
+    person: third
+  expected: íta
+- features:
+    number: singular
+    person: first
+  expected: ítpadam
+- features:
+    number: singular
+    person: second
+  expected: ítkum

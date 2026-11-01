@@ -1,0 +1,554 @@
+lemma: N
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: bɪ ̄
+- features:
+    number: plural
+    person: second
+  expected: bɛ̄n
+- features:
+    number: plural
+    person: third
+  expected: bɔ̋
+- features:
+    number: singular
+    person: first
+  expected: N
+- features:
+    number: singular
+    person: second
+  expected: à
+- features:
+    number: singular
+    person: third
+  expected: wù
+---
+lemma: bī
+category: pronouns
+cases:
+- features:
+    case: comitative
+    noun_class: class_7
+    number: plural
+    person: third
+  expected: bǐ
+- features:
+    case: comitative
+    noun_class: class_8
+    number: plural
+    person: third
+  expected: bǐ
+- features:
+    case: comitative
+    noun_class: class_8
+    number: singular
+    person: third
+  expected: bǐ
+- features:
+    case: locative
+    noun_class: class_7
+    number: plural
+    person: third
+  expected: bí
+- features:
+    case: locative
+    noun_class: class_8
+    number: plural
+    person: third
+  expected: bí
+- features:
+    case: locative
+    noun_class: class_8
+    number: singular
+    person: third
+  expected: bí
+- features:
+    noun_class: class_7
+    number: plural
+    person: third
+  expected: bī
+- features:
+    noun_class: class_8
+    number: plural
+    person: third
+  expected: bī
+- features:
+    noun_class: class_8
+    number: singular
+    person: third
+  expected: bī
+---
+lemma: bɔ̋
+category: pronouns
+cases:
+- features:
+    case: comitative
+    noun_class: class_1
+    number: plural
+    person: third
+  expected: bɔ̌
+- features:
+    case: comitative
+    noun_class: class_2
+    number: plural
+    person: third
+  expected: bɔ̌
+- features:
+    case: locative
+    noun_class: class_1
+    number: plural
+    person: third
+  expected: bɔ̌
+- features:
+    case: locative
+    noun_class: class_2
+    number: plural
+    person: third
+  expected: bɔ̌
+- features:
+    noun_class: class_1
+    number: plural
+    person: third
+  expected: bɔ̋
+- features:
+    noun_class: class_2
+    number: plural
+    person: third
+  expected: bɔ̋
+---
+lemma: bɛ̄n
+category: pronouns
+cases:
+- features:
+    case: comitative
+    number: plural
+    person: second
+  expected: bɛ̄n
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: bɛ́n
+- features:
+    number: plural
+    person: second
+  expected: bɛ̄n
+---
+lemma: bɪ̄
+category: pronouns
+cases:
+- features:
+    case: comitative
+    number: plural
+    person: first
+  expected: bɪ̄
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: bɪ́
+- features:
+    number: plural
+    person: first
+  expected: bɪ̄
+---
+lemma: fī
+category: pronouns
+cases:
+- features:
+    case: comitative
+    noun_class: class_18
+    number: singular
+    person: third
+  expected: fǐ
+- features:
+    case: comitative
+    number: singular
+    person: third
+  expected: fǐ
+- features:
+    case: locative
+    noun_class: class_18
+    number: singular
+    person: third
+  expected: fí
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: fí
+- features:
+    noun_class: class_18
+    number: singular
+    person: third
+  expected: fī
+- features:
+    number: singular
+    person: third
+  expected: fī
+---
+lemma: kī
+category: pronouns
+cases:
+- features:
+    case: comitative
+    noun_class: class_3
+    number: plural
+    person: third
+  expected: kǐ
+- features:
+    case: comitative
+    noun_class: class_7
+    number: plural
+    person: third
+  expected: kǐ
+- features:
+    case: comitative
+    noun_class: class_7
+    number: singular
+    person: third
+  expected: kǐ
+- features:
+    case: comitative
+    noun_class: class_8
+    number: singular
+    person: third
+  expected: kǐ
+- features:
+    case: locative
+    noun_class: class_3
+    number: plural
+    person: third
+  expected: kí
+- features:
+    case: locative
+    noun_class: class_7
+    number: plural
+    person: third
+  expected: kí
+- features:
+    case: locative
+    noun_class: class_7
+    number: singular
+    person: third
+  expected: kí
+- features:
+    case: locative
+    noun_class: class_8
+    number: singular
+    person: third
+  expected: kí
+- features:
+    noun_class: class_3
+    number: plural
+    person: third
+  expected: kī
+- features:
+    noun_class: class_7
+    number: plural
+    person: third
+  expected: kī
+- features:
+    noun_class: class_7
+    number: singular
+    person: third
+  expected: kī
+- features:
+    noun_class: class_8
+    number: singular
+    person: third
+  expected: kī
+---
+lemma: mū
+category: pronouns
+cases:
+- features:
+    case: comitative
+    noun_class: class_18
+    number: plural
+    person: third
+  expected: mǔ
+- features:
+    case: comitative
+    noun_class: class_6
+    number: singular
+    person: third
+  expected: mǔ
+- features:
+    case: comitative
+    number: plural
+    person: third
+  expected: mǔ
+- features:
+    case: locative
+    noun_class: class_18
+    number: plural
+    person: third
+  expected: mú
+- features:
+    case: locative
+    noun_class: class_6
+    number: singular
+    person: third
+  expected: mú
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: mú
+- features:
+    noun_class: class_18
+    number: plural
+    person: third
+  expected: mū
+- features:
+    noun_class: class_6
+    number: singular
+    person: third
+  expected: mū
+- features:
+    number: plural
+    person: third
+  expected: mū
+---
+lemma: mɨ̄
+category: pronouns
+cases:
+- features:
+    case: comitative
+    number: singular
+    person: first
+  expected: bɪ̄
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: mɨ̄
+- features:
+    number: singular
+    person: first
+  expected: mɨ̄
+---
+lemma: wà
+category: pronouns
+cases:
+- features:
+    case: comitative
+    number: singular
+    person: second
+  expected: bɛ̄n
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: wà
+- features:
+    number: singular
+    person: second
+  expected: wà
+---
+lemma: wù
+category: pronouns
+cases:
+- features:
+    case: comitative
+    noun_class: class_1
+    number: singular
+    person: third
+  expected: wù
+- features:
+    case: comitative
+    noun_class: class_2
+    number: singular
+    person: third
+  expected: wù
+- features:
+    case: locative
+    noun_class: class_1
+    number: singular
+    person: third
+  expected: wú
+- features:
+    case: locative
+    noun_class: class_2
+    number: singular
+    person: third
+  expected: wú
+- features:
+    noun_class: class_1
+    number: singular
+    person: third
+  expected: wù
+- features:
+    noun_class: class_2
+    number: singular
+    person: third
+  expected: wù
+---
+lemma: wū
+category: pronouns
+cases:
+- features:
+    case: comitative
+    noun_class: class_10
+    number: singular
+    person: third
+  expected: wǔ
+- features:
+    case: comitative
+    noun_class: class_3
+    number: singular
+    person: third
+  expected: wǔ
+- features:
+    case: comitative
+    noun_class: class_7
+    number: singular
+    person: third
+  expected: wǔ
+- features:
+    case: locative
+    noun_class: class_10
+    number: singular
+    person: third
+  expected: wú
+- features:
+    case: locative
+    noun_class: class_3
+    number: singular
+    person: third
+  expected: wú
+- features:
+    case: locative
+    noun_class: class_7
+    number: singular
+    person: third
+  expected: wú
+- features:
+    noun_class: class_10
+    number: singular
+    person: third
+  expected: wū
+- features:
+    noun_class: class_3
+    number: singular
+    person: third
+  expected: wū
+- features:
+    noun_class: class_7
+    number: singular
+    person: third
+  expected: wū
+---
+lemma: yì
+category: pronouns
+cases:
+- features:
+    case: comitative
+    noun_class: class_10
+    number: singular
+    person: third
+  expected: yì
+- features:
+    case: comitative
+    noun_class: class_9
+    number: singular
+    person: third
+  expected: yì
+- features:
+    case: locative
+    noun_class: class_10
+    number: singular
+    person: third
+  expected: yí
+- features:
+    case: locative
+    noun_class: class_9
+    number: singular
+    person: third
+  expected: yí
+- features:
+    noun_class: class_10
+    number: singular
+    person: third
+  expected: yì
+- features:
+    noun_class: class_9
+    number: singular
+    person: third
+  expected: yì
+---
+lemma: yī
+category: pronouns
+cases:
+- features:
+    case: comitative
+    noun_class: class_10
+    number: plural
+    person: third
+  expected: yǐ
+- features:
+    case: comitative
+    noun_class: class_10
+    number: singular
+    person: third
+  expected: yǐ
+- features:
+    case: comitative
+    noun_class: class_3
+    number: plural
+    person: third
+  expected: yǐ
+- features:
+    case: comitative
+    noun_class: class_9
+    number: plural
+    person: third
+  expected: yǐ
+- features:
+    case: locative
+    noun_class: class_10
+    number: plural
+    person: third
+  expected: yí
+- features:
+    case: locative
+    noun_class: class_10
+    number: singular
+    person: third
+  expected: yí
+- features:
+    case: locative
+    noun_class: class_3
+    number: plural
+    person: third
+  expected: yí
+- features:
+    case: locative
+    noun_class: class_9
+    number: plural
+    person: third
+  expected: yí
+- features:
+    noun_class: class_10
+    number: plural
+    person: third
+  expected: yī
+- features:
+    noun_class: class_10
+    number: singular
+    person: third
+  expected: yī
+- features:
+    noun_class: class_3
+    number: plural
+    person: third
+  expected: yī
+- features:
+    noun_class: class_9
+    number: plural
+    person: third
+  expected: yī

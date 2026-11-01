@@ -1,0 +1,68 @@
+lemma: ta
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: me
+- features:
+    number: plural
+    person: second
+  expected: ma
+- features:
+    number: singular
+    person: first
+  expected: ta
+- features:
+    number: singular
+    person: second
+  expected: wa
+- features:
+    person: third
+  expected: na
+---
+lemma: taj
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mej
+- features:
+    number: plural
+    person: second
+  expected: maj
+- features:
+    number: singular
+    person: first
+  expected: taj
+- features:
+    number: singular
+    person: second
+  expected: waj
+- features:
+    person: third
+  expected: naj
+---
+lemma: tejæ
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mejæ
+- features:
+    number: plural
+    person: second
+  expected: məjæ
+- features:
+    number: singular
+    person: first
+  expected: tejæ
+- features:
+    number: singular
+    person: second
+  expected: wejæ
+- features:
+    person: third
+  expected: nejæ
