@@ -1,0 +1,133 @@
+lemma: "@ûù¸ \e ñ"
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+  expected: "@û¸ \e Vûeê"
+- features:
+    case: accusative
+    number: dual
+  expected: "@û¸ \e"
+- features:
+    case: genitive
+    number: dual
+  expected: "@û¸ \e e"
+- features:
+    case: instrumental
+    number: dual
+  expected: "@û¸ \e \e"
+- features:
+    case: locative
+    number: dual
+  expected: "@û¸ \e Vûùe"
+- features:
+    case: nominative
+    number: dual
+  expected: "@ûù¸ \e ñ"
+---
+lemma: cêñ
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: ùcû Vûeê
+- features:
+    case: accusative
+    number: singular
+  expected: ùcûùZ
+- features:
+    case: genitive
+    number: singular
+  expected: ùcûe
+- features:
+    case: instrumental
+    number: singular
+  expected: "ùcû \e"
+- features:
+    case: locative
+    number: singular
+  expected: ùcû Vûùe
+- features:
+    case: nominative
+    number: singular
+  expected: cêñ
+---
+lemma: jê^þ
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: jê^ûPþ ù^wþùf
+- features:
+    case: comitative
+    number: singular
+    person: third
+  expected: jê^ûPþ ù^wþ
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: jê^ûPþ Kûù
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: jê^ûù·
+- features:
+    case: instrumental
+    number: singular
+    person: third
+  expected: jê^ûPþ aûjêñKþùf
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: jê^þ
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: jê^ûùK
+---
+lemma: jê^þ \êASû^þ
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: third
+  expected: jê^þ \êASû^þ ù· ù^wþùf
+- features:
+    case: comitative
+    number: dual
+    person: third
+  expected: jê^þ \êASû^þ ù· ù^wþ
+- features:
+    case: dative
+    number: dual
+    person: third
+  expected: jê^þ \êASû^þ ù· Kûù
+- features:
+    case: genitive
+    number: dual
+    person: third
+  expected: jê^þ \êASû^þ ù·
+- features:
+    case: instrumental
+    number: dual
+    person: third
+  expected: jê^þ \êASû^þ ùPû aûjêñKþùf
+- features:
+    case: nominative
+    number: dual
+    person: third
+  expected: jê^þ \êASû^þ
+- features:
+    case: oblique
+    number: dual
+    person: third
+  expected: jê^þ \êASû^þùK

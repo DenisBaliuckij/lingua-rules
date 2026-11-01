@@ -1,0 +1,47 @@
+lemma: akaβ
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ja-i-akaβ
+- features:
+    number: plural
+    person: second
+  expected: pe-i-akaβ
+- features:
+    number: singular
+    person: first
+  expected: aiakaβ
+- features:
+    number: singular
+    person: second
+  expected: ere-i-akaβ
+---
+lemma: bebé
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ia-bebé-ne
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: pe-bebé-ne
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: a-bebé-ne
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ere-bebé-ne

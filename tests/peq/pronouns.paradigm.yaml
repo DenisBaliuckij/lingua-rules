@@ -1,0 +1,101 @@
+lemma: ham:an
+category: pronouns
+cases:
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+    person: third
+  expected: ham:ada
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ham:an
+---
+lemma: ham:u
+category: pronouns
+cases:
+- features:
+    case: oblique
+    gender: masculine
+    number: plural
+    person: third
+  expected: ham:uhča
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+    person: third
+  expected: ham:uba
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: ham:uhča
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ham:u
+---
+lemma: ʔa:ma
+category: pronouns
+cases:
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: ʔa:maya
+- features:
+    number: plural
+    person: second
+  expected: ʔa:maya
+- features:
+    number: singular
+    person: second
+  expected: ʔa:ma
+---
+lemma: ʔa:ʔa
+category: pronouns
+cases:
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: ʔay:a
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: ʔaw:i
+- features:
+    number: plural
+    person: first
+  expected: ʔa:ya
+- features:
+    number: singular
+    person: first
+  expected: ʔa:ʔa
+---
+lemma: ʔat:i
+category: pronouns
+cases:
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: ʔat:i:čo
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: ʔat:i
+- features:
+    number: plural
+    person: third
+  expected: ʔat:iyey
+- features:
+    number: singular
+    person: third
+  expected: ʔat:i

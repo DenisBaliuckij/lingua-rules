@@ -1,0 +1,64 @@
+lemma: mì
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: lè
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: ù
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: n.̀ŋ
+- features:
+    number: plural
+    person: first
+  expected: ɓì
+- features:
+    number: plural
+    person: second
+  expected: ɓə̄
+- features:
+    number: singular
+    person: first
+  expected: mì
+- features:
+    number: singular
+    person: second
+  expected: à
+---
+lemma: àm
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: àvə̀ì
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: àvòù
+- features:
+    number: plural
+    person: first
+  expected: àɓì
+- features:
+    number: plural
+    person: second
+  expected: àɓə̄
+- features:
+    number: singular
+    person: first
+  expected: àm
+- features:
+    number: singular
+    person: second
+  expected: àmə̄

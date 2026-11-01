@@ -1,0 +1,128 @@
+lemma: mudie
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    evidentiality: direct
+  expected: mudiemuu
+- features:
+    aspect: imperfective
+    mood: indicative
+    person: first
+    tense: present
+  expected: mudiem
+- features:
+    aspect: imperfective
+    mood: indicative
+    person: third
+    tense: present
+  expected: mudien
+- features:
+    aspect: perfective
+    evidentiality: direct
+  expected: mudienu
+- features:
+    mood: indicative
+    person: first
+    tense: present
+  expected: mudienu
+- features:
+    mood: indicative
+    person: third
+    tense: present
+  expected: mudieni
+---
+lemma: sou
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    evidentiality: indirect
+  expected: soujianu
+- features:
+    aspect: perfective
+    evidentiality: direct
+  expected: soujiu
+- features:
+    aspect: perfective
+    mood: indicative
+    person: third
+    tense: present
+  expected: soujia
+- features:
+    mood: indicative
+    person: first
+    tense: present
+  expected: soujii
+---
+lemma: wa
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+  expected: weiu
+- features:
+    evidentiality: indirect
+  expected: wanu
+---
+lemma: you
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    evidentiality: direct
+  expected: youniu
+- features:
+    aspect: imperfective
+    evidentiality: indirect
+  expected: younanu
+- features:
+    aspect: imperfective
+    mood: indicative
+    person: first
+    tense: present
+  expected: younii
+- features:
+    aspect: imperfective
+    mood: indicative
+    person: third
+    tense: present
+  expected: youna
+- features:
+    aspect: perfective
+    evidentiality: direct
+  expected: youwuu
+- features:
+    aspect: perfective
+    evidentiality: indirect
+  expected: youjianu
+- features:
+    aspect: perfective
+    mood: indicative
+    person: first
+    tense: present
+  expected: youwa
+- features:
+    aspect: perfective
+    mood: indicative
+    person: third
+    tense: present
+  expected: youjia
+- features:
+    evidentiality: direct
+    tense: future
+  expected: youguniu
+- features:
+    evidentiality: indirect
+    tense: future
+  expected: yougunanu
+- features:
+    mood: indicative
+    person: first
+    tense: future
+  expected: yougunii
+- features:
+    mood: indicative
+    person: third
+    tense: future
+  expected: youguna

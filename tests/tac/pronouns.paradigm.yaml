@@ -1,0 +1,67 @@
+lemma: nihuara
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tamuje nihuara
+- features:
+    number: plural
+    person: second
+  expected: yemi nihuara
+- features:
+    number: plural
+    person: third
+  expected: aboni nihuara
+- features:
+    number: singular
+    person: first
+  expected: nije nihuara
+- features:
+    number: singular
+    person: second
+  expected: muje nihuara
+- features:
+    number: singular
+    person: third
+  expected: binoy nihuara
+---
+lemma: nije
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tamuje
+- features:
+    number: plural
+    person: third
+  expected: aboni
+- features:
+    number: singular
+    person: first
+  expected: nije
+- features:
+    number: singular
+    person: second
+  expected: muje
+---
+lemma: tami
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tamuje tami
+- features:
+    number: plural
+    person: second
+  expected: yemi mi
+- features:
+    number: singular
+    person: first
+  expected: tami
+- features:
+    number: singular
+    person: second
+  expected: mi

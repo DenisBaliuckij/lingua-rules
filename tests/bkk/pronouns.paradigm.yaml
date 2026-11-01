@@ -1,0 +1,108 @@
+lemma: ba
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ba
+- features:
+    number: plural
+    person: first
+  expected: bas
+---
+lemma: ci
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: ci
+- features:
+    number: plural
+    person: second
+  expected: cis
+---
+lemma: homo
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: hamo
+- features:
+    gender: masculine
+    number: singular
+  expected: homo
+---
+lemma: ma
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: mo
+- features:
+    number: singular
+    person: first
+  expected: mas
+---
+lemma: mo
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: sa
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: so
+- features:
+    number: plural
+    person: first
+  expected: ba
+- features:
+    number: plural
+    person: second
+  expected: ci
+- features:
+    number: singular
+    person: first
+  expected: mo
+- features:
+    number: singular
+    person: second
+  expected: '!i'
+---
+lemma: pho
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: pha
+- features:
+    gender: masculine
+    number: singular
+  expected: pho
+- features:
+    number: plural
+  expected: phe
+---
+lemma: tu
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: tu
+- features:
+    number: singular
+    person: second
+  expected: tis

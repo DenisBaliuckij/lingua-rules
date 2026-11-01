@@ -1,0 +1,31 @@
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: dira
+- features:
+    number: plural
+    person: third
+  expected: diat
+- features:
+    number: singular
+    person: third
+  expected: i
+---
+lemma: ma
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: sira
+- features:
+    number: plural
+    person: third
+  expected: siat
+- features:
+    number: singular
+    person: third
+  expected: ma

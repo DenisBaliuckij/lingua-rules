@@ -1,0 +1,23 @@
+lemma: ja
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: am
+- features:
+    number: plural
+    person: second
+  expected: e
+- features:
+    number: plural
+    person: third
+  expected: ir
+- features:
+    number: singular
+    person: first
+  expected: it
+- features:
+    number: singular
+    person: third
+  expected: i

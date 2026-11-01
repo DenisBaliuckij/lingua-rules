@@ -1,0 +1,126 @@
+lemma: abó
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: abós
+- features:
+    number: singular
+    person: second
+  expected: abó
+---
+lemma: ami
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: anos
+- features:
+    number: singular
+    person: first
+  expected: ami
+---
+lemma: bu
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: u
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: bu
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: bos
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: bo
+- features:
+    number: plural
+    person: second
+  expected: bo
+- features:
+    number: singular
+    person: second
+  expected: bo
+---
+lemma: el
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: élis
+- features:
+    number: singular
+    person: third
+  expected: el
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: i
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: elis
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: el
+- features:
+    number: plural
+    person: third
+  expected: elis
+- features:
+    number: singular
+    person: third
+  expected: e
+---
+lemma: n
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nos
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: n
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: nos
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: mi
+- features:
+    number: plural
+    person: first
+  expected: 'no'
+- features:
+    number: singular
+    person: first
+  expected: 'no'

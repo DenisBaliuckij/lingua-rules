@@ -1,0 +1,50 @@
+lemma: a
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: atuqai
+- features:
+    aspect: imperfective
+    verb_form: participle
+  expected: a'ai
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: aqsan
+- features:
+    gender: feminine
+  expected: aji'ai
+- features:
+    mood: conditional
+    verb_form: converb
+  expected: abasu
+- features:
+    mood: optative
+  expected: asuqai
+- features:
+    number: plural
+  expected: aqu.n
+- features:
+    tense: future
+    verb_form: participle
+  expected: aqu
+- features:
+    voice: passive
+  expected: a.qda
+---
+lemma: bü
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: büjü
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: büksen
+- features:
+    gender: feminine
+  expected: büligi

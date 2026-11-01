@@ -1,0 +1,49 @@
+lemma: bn
+category: nouns
+cases:
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+    person: third
+    possessor_number: singular
+  expected: bini
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+    person: third
+    possessor_number: singular
+  expected: bannom
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+    person: third
+    possessor_number: singular
+  expected: bini
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+    person: third
+    possessor_number: singular
+  expected: binom
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+    possessor_number: singular
+  expected: bino
+- features:
+    number: plural
+  expected: banim
+- features:
+    number: singular
+  expected: bN
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: bene

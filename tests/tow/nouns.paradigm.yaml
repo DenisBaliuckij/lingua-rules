@@ -1,0 +1,51 @@
+lemma: ?Q-?e
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: q-’e
+- features:
+    number: plural
+  expected: ?Q-’e
+- features:
+    number: singular
+  expected: ?Q-?e
+---
+lemma: bela
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: belie-s
+- features:
+    number: plural
+  expected: bela
+- features:
+    number: singular
+  expected: bela
+---
+lemma: pa?
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: pa?s
+- features:
+    number: plural
+  expected: pa?s
+- features:
+    number: singular
+  expected: pa?
+---
+lemma: pq-s
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: pQ-S
+- features:
+    number: plural
+  expected: pQ
+- features:
+    number: singular
+  expected: pQ-S

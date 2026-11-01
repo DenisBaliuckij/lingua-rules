@@ -1,0 +1,92 @@
+lemma: ne
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: naro
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: nato
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ni
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ne
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: niní
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ø-ne-yara
+---
+lemma: u
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: uro
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: uto
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: uyi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: u
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: uní
+---
+lemma: woso
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: wosaro
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: wosato
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: wosi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: woso
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: wosoní

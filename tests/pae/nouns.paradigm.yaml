@@ -1,0 +1,63 @@
+lemma: bozo
+category: nouns
+cases:
+- features:
+    noun_class: class_1
+    number: singular
+  expected: obozo
+- features:
+    noun_class: class_2
+    number: plural
+  expected: babozo
+---
+lemma: digba-ke
+category: nouns
+cases:
+- features:
+    noun_class: class_7
+    number: singular
+  expected: e-digba-ke
+- features:
+    noun_class: class_8
+    number: plural
+  expected: he-digba
+---
+lemma: mama
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: ba-mama-'ba-'bu
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: mamame
+---
+lemma: mbelo
+category: nouns
+cases:
+- features:
+    noun_class: class_3
+    number: singular
+  expected: mbelo
+- features:
+    noun_class: class_4
+    number: plural
+  expected: mbelome
+---
+lemma: nkala
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: ba-kala-'ba-ko
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: nkalame

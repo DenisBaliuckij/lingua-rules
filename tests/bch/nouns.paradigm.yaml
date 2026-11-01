@@ -1,0 +1,27 @@
+lemma: mata
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: matamai
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: matami
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: matad
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: matag
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: matam
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: imata

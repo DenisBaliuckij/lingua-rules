@@ -1,0 +1,75 @@
+lemma: bi so
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: bi yen
+- features:
+    number: plural
+    person: third
+  expected: bi wa
+- features:
+    number: singular
+    person: first
+  expected: bi so
+- features:
+    number: singular
+    person: third
+  expected: bi
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yen
+- features:
+    number: plural
+    person: second
+  expected: ɗon
+- features:
+    number: plural
+    person: third
+  expected: wa
+- features:
+    number: singular
+    person: first
+  expected: mi
+- features:
+    number: singular
+    person: second
+  expected: fu
+- features:
+    number: singular
+    person: third
+  expected: ɗ
+---
+lemma: so
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yen
+- features:
+    number: plural
+    person: second
+  expected: ɗ
+- features:
+    number: plural
+    person: third
+  expected: wa
+- features:
+    number: singular
+    person: first
+  expected: so
+- features:
+    number: singular
+    person: second
+  expected: ɗ
+- features:
+    number: singular
+    person: third
+  expected: ɗ

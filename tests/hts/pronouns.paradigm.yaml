@@ -1,0 +1,42 @@
+lemma: ono
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: onebee
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: onoko
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: teko
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: boko
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: unibii
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: te
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: bami
+- features:
+    number: singular
+    person: first
+  expected: ono
