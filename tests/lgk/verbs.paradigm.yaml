@@ -1,0 +1,111 @@
+lemma: vu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    noun_class: class_1
+    number: dual
+    person: first
+  expected: nir-uݡ
+- features:
+    mood: indicative
+    noun_class: class_2
+    number: dual
+    person: second
+  expected: nar-uݡ
+- features:
+    mood: indicative
+    noun_class: class_3
+    number: dual
+    person: third
+  expected: kar-uݡ
+- features:
+    mood: indicative
+    noun_class: class_4
+    number: dual
+    person: third
+  expected: ar-uݡ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: nit-uݡ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: nat-uݡ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: kat-uݡ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: ni-ȕu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: ku-ȕu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: i-ȕu
+- features:
+    mood: subjunctive
+    noun_class: class_1
+    number: dual
+    person: first
+  expected: nibr-uݡ
+- features:
+    mood: subjunctive
+    noun_class: class_2
+    number: dual
+    person: second
+  expected: nabr-uݡ
+- features:
+    mood: subjunctive
+    noun_class: class_3
+    number: dual
+    person: third
+  expected: kabr-uݡ
+- features:
+    mood: subjunctive
+    noun_class: class_4
+    number: dual
+    person: third
+  expected: abr-uݡ
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: nimt-uݡ
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: namt-uݡ
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: kamt-uݡ
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: nim-ɂu
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: kum-ɂu
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: im-ɂu

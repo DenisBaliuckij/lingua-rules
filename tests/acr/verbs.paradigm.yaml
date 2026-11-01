@@ -1,0 +1,67 @@
+lemma: chapanik
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kojchapanik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kixchapanik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kinchapnik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kachapanik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kachapanik
+---
+lemma: warik
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: xojwarik
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: xixwarik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: xinwarik
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: xatwarik
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: xwarik

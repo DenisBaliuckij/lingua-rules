@@ -1,0 +1,124 @@
+lemma: ngarr
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: ngarrkulu
+- features:
+    case: direct
+    number: dual
+    person: first
+  expected: ngarr
+- features:
+    number: dual
+    person: first
+  expected: ngarrku
+---
+lemma: ngarr-PROM
+category: pronouns
+cases:
+- features:
+    case: direct
+    number: dual
+    person: first
+  expected: ngarr-PROM
+---
+lemma: ngarritj
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: ngarrkulu
+- features:
+    case: direct
+    number: dual
+    person: first
+  expected: ngarritj
+- features:
+    number: dual
+    person: first
+  expected: ngarrku
+---
+lemma: ngarrku
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ngarrku
+---
+lemma: ngarrkulu
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: ngarrkulu
+---
+lemma: ngayi
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: ngapala
+- features:
+    case: direct
+    number: singular
+    person: first
+  expected: ngayi
+- features:
+    number: singular
+    person: first
+  expected: ngabu
+---
+lemma: ngidjiye
+category: pronouns
+cases:
+- features:
+    case: direct
+    number: singular
+    person: third
+  expected: ngidjiye
+---
+lemma: nguku
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: ngukulorndo
+- features:
+    case: direct
+    number: singular
+    person: second
+  expected: nguku
+- features:
+    number: singular
+    person: second
+  expected: ngukulorndo
+---
+lemma: ngutju-Iorndo
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: ngutju-Iorndo
+---
+lemma: ngutjuyu
+category: pronouns
+cases:
+- features:
+    case: direct
+    number: singular
+    person: third
+  expected: ngutjuyu

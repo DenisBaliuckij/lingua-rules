@@ -1,0 +1,25 @@
+lemma: smoq-a
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: smoq-ta
+- features:
+    gender: masculine
+    number: singular
+  expected: smoq-a
+- features:
+    number: plural
+  expected: smoq-e
+---
+lemma: zor-a
+category: adjectives
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: zor-a
+- features:
+    number: plural
+  expected: zor-e

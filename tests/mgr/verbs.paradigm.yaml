@@ -1,0 +1,293 @@
+lemma: lya
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: yaliile
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: waliile
+- features:
+    number: singular
+    tense: present
+  expected: lya
+---
+lemma: tukana
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: i-a-tu-kanang-a
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: u-a-tu-kanang-a
+- features:
+    verb_form: infinitive
+  expected: tu-kan-a
+---
+lemma: ukucina
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: i-a-la-cin-a
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: yacinanga
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: i-a-kaa-cin-a
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: a-la-cin-a
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wacinanga
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: a-kaa-cin-a
+- features:
+    verb_form: infinitive
+  expected: ukucina
+---
+lemma: ukufunya
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: yalafunya
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: alafunya
+- features:
+    verb_form: infinitive
+  expected: ukufunya
+---
+lemma: ukufwa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: yalafwa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: alafwa
+- features:
+    verb_form: infinitive
+  expected: ukufwa
+---
+lemma: ukulya
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: yalyanga
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: walyanga
+- features:
+    verb_form: infinitive
+  expected: ukulya
+---
+lemma: ukupyela
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: yalapyela
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: alapyela
+- features:
+    verb_form: infinitive
+  expected: ukupyela
+---
+lemma: ukuvwa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: yaluvwa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: aluvwa
+- features:
+    verb_form: infinitive
+  expected: ukuvwa
+---
+lemma: ukuvwanga
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: i-a-la-vu-ang-a
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: yavwanganga
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: i-a-kaa-vu-ang-a
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: a-la-vu-ang-a
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wavwanganga
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: a-kaa-vu-ang-a
+- features:
+    verb_form: infinitive
+  expected: ukuvwanga
+---
+lemma: ukwiiya
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: yiyanga
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wiyanga
+- features:
+    verb_form: infinitive
+  expected: ukwiiya
+---
+lemma: vwanga
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: i-a-vu-angang-a
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: u-a-vu-angang-a
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: yavwanzile
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wavwanzile
+- features:
+    number: singular
+    tense: present
+  expected: vwanga
+- features:
+    verb_form: infinitive
+  expected: vu-ang-a

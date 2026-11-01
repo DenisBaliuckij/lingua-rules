@@ -1,0 +1,97 @@
+lemma: av
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: ava
+- features:
+    gender: masculine
+    number: singular
+  expected: ave
+- features:
+    gender: neuter
+    number: singular
+  expected: atu
+- features:
+    number: plural
+    person: third
+  expected: avaaRu
+---
+lemma: iv
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: iva
+- features:
+    gender: masculine
+    number: singular
+  expected: ive
+- features:
+    gender: neuter
+    number: singular
+  expected: itu
+- features:
+    number: plural
+    person: third
+  expected: ivaaRu
+---
+lemma: ivaanu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: avaana
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+    person: third
+  expected: avaanooda
+- features:
+    case: genitive
+    definiteness: indefinite
+    gender: masculine
+    number: singular
+    person: third
+  expected: ivaana
+- features:
+    definiteness: definite
+    gender: masculine
+    number: singular
+    person: third
+  expected: avaanu
+- features:
+    definiteness: indefinite
+    gender: masculine
+    number: singular
+    person: third
+  expected: ivaanu
+---
+lemma: nimma
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: nimmana
+- features:
+    case: comitative
+    number: plural
+    person: second
+  expected: nimmoda
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: nimmaaku
+- features:
+    number: plural
+    person: second
+  expected: nimma

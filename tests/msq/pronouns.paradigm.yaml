@@ -1,0 +1,159 @@
+lemma: 'no'
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nyi
+- features:
+    number: dual
+    person: second
+  expected: zi
+- features:
+    number: dual
+    person: third
+  expected: re
+- features:
+    number: plural
+    person: first
+  expected: nya
+- features:
+    number: plural
+    person: second
+  expected: za
+- features:
+    number: plural
+    person: third
+  expected: ra
+- features:
+    number: singular
+    person: first
+  expected: 'no'
+- features:
+    number: singular
+    person: second
+  expected: zo
+- features:
+    number: singular
+    person: third
+  expected: i
+---
+lemma: ny
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nyin
+- features:
+    number: dual
+    person: second
+  expected: un
+- features:
+    number: dual
+    person: third
+  expected: le
+- features:
+    number: plural
+    person: first
+  expected: nya
+- features:
+    number: plural
+    person: second
+  expected: a
+- features:
+    number: plural
+    person: third
+  expected: la
+- features:
+    number: singular
+    person: first
+  expected: ny
+- features:
+    number: singular
+    person: second
+  expected: m
+- features:
+    number: singular
+    person: third
+  expected: n
+---
+lemma: rô
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nyin
+- features:
+    number: dual
+    person: second
+  expected: zuun
+- features:
+    number: dual
+    person: third
+  expected: re
+- features:
+    number: plural
+    person: first
+  expected: nya
+- features:
+    number: plural
+    person: second
+  expected: za
+- features:
+    number: plural
+    person: third
+  expected: ra
+- features:
+    number: singular
+    person: first
+  expected: rô
+- features:
+    number: singular
+    person: second
+  expected: zo
+- features:
+    number: singular
+    person: third
+  expected: i
+---
+lemma: tô
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: cin
+- features:
+    number: dual
+    person: second
+  expected: ciun
+- features:
+    number: dual
+    person: third
+  expected: te
+- features:
+    number: plural
+    person: first
+  expected: câ
+- features:
+    number: plural
+    person: second
+  expected: caa
+- features:
+    number: plural
+    person: third
+  expected: ta
+- features:
+    number: singular
+    person: first
+  expected: tô
+- features:
+    number: singular
+    person: second
+  expected: co
+- features:
+    number: singular
+    person: third
+  expected: ni

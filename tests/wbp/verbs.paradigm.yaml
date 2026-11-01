@@ -1,0 +1,112 @@
+lemma: nga-rni
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: present
+  expected: nga-rni
+- features:
+    verb_form: converb
+  expected: nga-rni-nja-rla
+- features:
+    verb_form: infinitive
+  expected: nga-rni-nja
+---
+lemma: nyunji
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: nyunju-rnu
+- features:
+    aspect: perfective
+    tense: past
+  expected: nyunjirni
+- features:
+    mood: imperative
+  expected: nyunjika
+---
+lemma: paka-rni
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: present
+  expected: paka-rni
+- features:
+    verb_form: converb
+  expected: paka-rni-nja-rla
+- features:
+    verb_form: infinitive
+  expected: paka-rnl-nja
+---
+lemma: pirri-kiji
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: pirri-k
+- features:
+    aspect: perfective
+    tense: past
+  expected: pirri-kiji-rni
+---
+lemma: wangka-mi
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: present
+  expected: wangka-mi
+- features:
+    verb_form: converb
+  expected: wangka-nja-rla
+- features:
+    verb_form: infinitive
+  expected: wangka-nja
+---
+lemma: ya-ni
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: present
+  expected: ya-ni
+- features:
+    verb_form: converb
+  expected: ya-ni-nja-rla
+- features:
+    verb_form: infinitive
+  expected: ya-ni-nja
+---
+lemma: yirra
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: yirrarnu
+- features:
+    aspect: perfective
+    tense: past
+  expected: yirrarni
+- features:
+    mood: imperative
+  expected: yirraka
+---
+lemma: yurrpa
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: yurrparnu
+- features:
+    aspect: perfective
+    tense: past
+  expected: yurrparni
+- features:
+    mood: imperative
+  expected: yurrpaka

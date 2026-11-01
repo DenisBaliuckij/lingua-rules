@@ -1,0 +1,72 @@
+lemma: apui
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    tense: future
+  expected: mampaapui-ak
+- features:
+    number: singular
+    person: first
+    tense: past
+  expected: lapui-ko
+- features:
+    number: singular
+    person: first
+    tense: present
+  expected: manapui-ak
+---
+lemma: datok
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    tense: future
+  expected: pinadatok-ko
+- features:
+    number: singular
+    person: first
+    tense: past
+  expected: mandatok-ak
+- features:
+    number: singular
+    person: first
+    tense: present
+  expected: nandatok-ak
+---
+lemma: gnara-ak
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: gnara-ak
+- features:
+    number: singular
+    person: second
+  expected: gnara-ka
+- features:
+    number: singular
+    person: third
+  expected: guara-to
+---
+lemma: sudat
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    tense: future
+  expected: nanpasudat-ak
+- features:
+    number: singular
+    person: first
+    tense: past
+  expected: mansudat-ak
+- features:
+    number: singular
+    person: first
+    tense: present
+  expected: nansudat-ak

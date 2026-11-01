@@ -1,0 +1,98 @@
+lemma: kitem
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nitemindn
+- features:
+    number: plural
+    person: second
+  expected: kiteminaw
+- features:
+    number: singular
+    person: first
+  expected: nitem
+- features:
+    number: singular
+    person: second
+  expected: kitem
+- features:
+    number: singular
+    person: third
+  expected: otema
+---
+lemma: maskisin
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nimaskisinindn
+- features:
+    number: plural
+    person: second
+  expected: kimaskisininaw
+- features:
+    number: plural
+    person: third
+  expected: omaskisiniwdw
+- features:
+    number: singular
+    person: first
+  expected: nimaskisin
+- features:
+    number: singular
+    person: second
+  expected: kimaskisin
+- features:
+    number: singular
+    person: third
+  expected: omaskisin
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: ni-maskisin-inan
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: ki-maskisin-iwa-w
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nimaskisin
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: kimaskisin
+---
+lemma: teh
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: nitehenan
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: kitehenaw
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: otehewaw
+- features:
+    possessor_number: singular
+  expected: miteh
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: niteh
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: kiteh
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: oteh

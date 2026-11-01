@@ -1,0 +1,26 @@
+lemma: ni
+category: pronouns
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: kari
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: ari
+- features:
+    number: dual
+    person: first
+  expected: niri
+- features:
+    person: first
+  expected: ni
+- features:
+    person: second
+  expected: ku
+- features:
+    person: third
+  expected: i

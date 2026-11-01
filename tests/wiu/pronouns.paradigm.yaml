@@ -1,0 +1,111 @@
+lemma: anu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: to n e
+- features:
+    number: plural
+    person: second
+  expected: k in i
+- features:
+    number: plural
+    person: third
+  expected: k in i
+- features:
+    number: singular
+    person: first
+  expected: anu
+- features:
+    number: singular
+    person: second
+  expected: neke
+- features:
+    number: singular
+    person: third
+  expected: one
+---
+lemma: ne
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: te
+- features:
+    number: plural
+    person: second
+  expected: te
+- features:
+    number: plural
+    person: third
+  expected: te
+- features:
+    number: singular
+    person: first
+  expected: n e
+- features:
+    number: singular
+    person: second
+  expected: me
+- features:
+    number: singular
+    person: third
+  expected: me
+---
+lemma: 'no'
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: to ta
+- features:
+    number: dual
+    person: second
+  expected: k it a
+- features:
+    number: dual
+    person: third
+  expected: k it a
+- features:
+    number: plural
+    person: first
+  expected: to to
+- features:
+    number: plural
+    person: second
+  expected: kiw i
+- features:
+    number: plural
+    person: third
+  expected: k in i
+- features:
+    number: singular
+    person: first
+  expected: 'no'
+- features:
+    number: singular
+    person: second
+  expected: ne
+- features:
+    number: singular
+    person: third
+  expected: one
+---
+lemma: u
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: i
+- features:
+    number: plural
+    person: third
+  expected: jL
+- features:
+    number: singular
+    person: first
+  expected: u

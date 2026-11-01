@@ -1,0 +1,243 @@
+lemma: i
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+  expected: ik-ra-sb-ke
+- features:
+    case: dative
+    number: singular
+  expected: ik-ra-ke
+- features:
+    case: genitive
+    number: plural
+  expected: ik-ra
+- features:
+    case: genitive
+    number: singular
+  expected: ik-ra
+- features:
+    case: locative
+    number: plural
+  expected: ik-ra-sb-me
+- features:
+    case: locative
+    number: singular
+  expected: ik-ra-me
+- features:
+    case: nominative
+    number: plural
+  expected: i
+- features:
+    case: nominative
+    number: singular
+  expected: i
+- features:
+    number: plural
+  expected: i sb
+- features:
+    number: singular
+  expected: i
+---
+lemma: ke
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: singular
+  expected: ke-ke
+- features:
+    case: genitive
+    number: singular
+  expected: kek-r
+- features:
+    case: locative
+    number: plural
+  expected: ke-ke-me
+- features:
+    case: locative
+    number: singular
+  expected: keme
+- features:
+    case: nominative
+    number: plural
+  expected: ke-ke
+- features:
+    case: nominative
+    number: singular
+  expected: ke
+---
+lemma: kn
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+  expected: kn-kn-ke
+- features:
+    case: dative
+    number: singular
+  expected: knke
+- features:
+    case: genitive
+    number: plural
+  expected: kn-kn-ke
+- features:
+    case: genitive
+    number: singular
+  expected: knke
+- features:
+    case: locative
+    number: plural
+  expected: kn- kn-me
+- features:
+    case: locative
+    number: singular
+  expected: knme
+- features:
+    case: nominative
+    number: plural
+  expected: kn-kn
+- features:
+    case: nominative
+    number: singular
+  expected: kn
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+  expected: ham-r
+- features:
+    case: dative
+    number: singular
+  expected: me-ke
+- features:
+    case: genitive
+    number: plural
+  expected: ham-r
+- features:
+    case: genitive
+    number: singular
+  expected: me-r
+- features:
+    case: locative
+    number: plural
+  expected: ham-r-se
+- features:
+    case: locative
+    number: singular
+  expected: me-r-se
+- features:
+    case: nominative
+    number: plural
+  expected: hame
+- features:
+    case: nominative
+    number: singular
+  expected: mi
+- features:
+    number: plural
+    person: first
+  expected: hame
+- features:
+    number: plural
+    person: second
+  expected: tahe
+- features:
+    number: plural
+    person: third
+  expected: unen
+- features:
+    number: singular
+    person: first
+  expected: mi
+- features:
+    number: singular
+    person: second
+  expected: ti
+- features:
+    number: singular
+    person: third
+  expected: u
+---
+lemma: ti
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+  expected: tahe-ke
+- features:
+    case: dative
+    number: singular
+  expected: tike
+- features:
+    case: genitive
+    number: plural
+  expected: tahe-r
+- features:
+    case: genitive
+    number: singular
+  expected: te-r
+- features:
+    case: locative
+    number: plural
+  expected: tahe-r-se
+- features:
+    case: locative
+    number: singular
+  expected: te-r-se
+- features:
+    case: nominative
+    number: plural
+  expected: tahe
+- features:
+    case: nominative
+    number: singular
+  expected: ti
+---
+lemma: u
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+  expected: unen-ke
+- features:
+    case: dative
+    number: singular
+  expected: uk-ra-ke
+- features:
+    case: genitive
+    number: plural
+  expected: unen
+- features:
+    case: genitive
+    number: singular
+  expected: uk-r
+- features:
+    case: locative
+    number: plural
+  expected: unen-se
+- features:
+    case: locative
+    number: singular
+  expected: uk-r-se
+- features:
+    case: nominative
+    number: plural
+  expected: unen
+- features:
+    case: nominative
+    number: singular
+  expected: u
+- features:
+    number: plural
+  expected: u sb
+- features:
+    number: singular
+  expected: u

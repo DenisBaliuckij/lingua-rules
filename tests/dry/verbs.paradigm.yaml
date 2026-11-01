@@ -1,0 +1,39 @@
+lemma: i-t
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: it-ir
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: it-u
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: it-t
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: it-m
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: it-s
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: it

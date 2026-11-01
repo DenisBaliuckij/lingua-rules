@@ -1,0 +1,67 @@
+lemma: child
+category: nouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: temrau
+- features:
+    number: dual
+    person: second
+  expected: tetnirau
+- features:
+    number: singular
+    person: first
+  expected: narek
+- features:
+    number: singular
+    person: second
+  expected: naram
+- features:
+    number: singular
+    person: third
+  expected: teni
+---
+lemma: rem
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: remetaha
+- features:
+    number: plural
+    person: second
+  expected: rememyaha
+- features:
+    number: plural
+    person: third
+  expected: remenraha
+- features:
+    number: singular
+    person: first
+  expected: tara
+- features:
+    number: singular
+    person: second
+  expected: rematn
+- features:
+    number: singular
+    person: third
+  expected: remení
+---
+lemma: yama
+category: nouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: kana
+- features:
+    number: singular
+    person: second
+  expected: ri'nam
+- features:
+    number: singular
+    person: third
+  expected: re'ra

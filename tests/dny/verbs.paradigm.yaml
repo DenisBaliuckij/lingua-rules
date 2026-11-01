@@ -1,0 +1,17 @@
+lemma: wele
+category: verbs
+cases:
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: le-we
+- features:
+    number: singular
+    person: third
+  expected: wele
+- features:
+    number: singular
+    person: third
+    tense: past
+  expected: wewa

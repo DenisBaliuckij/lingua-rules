@@ -1,0 +1,145 @@
+lemma: kombo
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bokombo-ko
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: komboko
+---
+lemma: linga
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: talingi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tokolinga
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: bolingi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: bokolinga
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: balongi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bakolinga
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nalingi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nakolinga
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: olingi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: okolinga
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: alingi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: akolinga
+---
+lemma: loba
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: lobani
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: loba
+---
+lemma: sumba
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bosumba
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: sumba
+---
+lemma: teke
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: botekeke
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tekeke
+---
+lemma: ya
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: boyaka
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: yaka

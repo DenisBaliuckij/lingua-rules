@@ -1,0 +1,55 @@
+lemma: jal
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: ya-rr-i-jal-in
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nga-n-jal-in
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mi-n-jal-in
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: i-n-jal-in
+---
+lemma: jid
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: ya-rr-jid-in
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nga-jid-in
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mi-jid-in
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: i-jid-in

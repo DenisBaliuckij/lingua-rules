@@ -1,0 +1,168 @@
+lemma: ito
+category: pronouns
+cases:
+- features:
+    case: genitive
+    person: third
+  expected: no nito
+- features:
+    case: locative
+    person: third
+  expected: do jito
+- features:
+    case: oblique
+    person: third
+  expected: so sito
+---
+lemma: jiaken
+category: pronouns
+cases:
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: jiamen
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: jiaken
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: jia
+---
+lemma: ko
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: namen
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: nio
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: da
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ko
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: mo
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: na
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: namen
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: kamo
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: sia
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ko
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ka
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ya
+---
+lemma: niaken
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: niamen
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: niaken
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: nia
+---
+lemma: ori
+category: pronouns
+cases:
+- features:
+    case: genitive
+    person: second
+  expected: no nang
+- features:
+    case: locative
+    person: second
+  expected: do dang
+- features:
+    case: oblique
+    person: second
+  expected: so sang
+---
+lemma: ya
+category: pronouns
+cases:
+- features:
+    case: genitive
+    person: first
+  expected: no nia
+- features:
+    case: locative
+    person: first
+  expected: do jia
+- features:
+    case: oblique
+    person: first
+  expected: so sia
+---
+lemma: yaken
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: yamen
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: yaken
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: iya

@@ -1,0 +1,54 @@
+lemma: irt
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: irly
+- features:
+    number: singular
+  expected: irt
+---
+lemma: pr
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: prwy
+- features:
+    number: plural
+  expected: prw
+- features:
+    number: singular
+  expected: pr
+---
+lemma: sn
+category: nouns
+cases:
+- features:
+    gender: masculine
+    number: dual
+  expected: snwy
+- features:
+    gender: masculine
+    number: plural
+  expected: snw
+- features:
+    gender: masculine
+    number: singular
+  expected: sn
+---
+lemma: snt
+category: nouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+  expected: snly
+- features:
+    gender: feminine
+    number: plural
+  expected: snwt
+- features:
+    gender: feminine
+    number: singular
+  expected: snt

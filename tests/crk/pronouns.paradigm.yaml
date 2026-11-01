@@ -1,0 +1,46 @@
+lemma: ewakwa
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: ewakwe
+- features:
+    number: singular
+    person: third
+  expected: ewakwa
+---
+lemma: kikway
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: kikway
+- features:
+    number: plural
+    person: third
+  expected: kikwayak
+- features:
+    number: singular
+    person: third
+  expected: kikwaya
+---
+lemma: taniwa
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: tdniwe
+- features:
+    number: plural
+    person: third
+  expected: taniwehkdk
+- features:
+    number: singular
+    person: third
+  expected: taniwa

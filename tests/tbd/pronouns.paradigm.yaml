@@ -1,0 +1,83 @@
+lemma: nao
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nu'u
+- features:
+    number: plural
+    person: second
+  expected: ofe
+- features:
+    number: plural
+    person: third
+  expected: erahe
+- features:
+    number: singular
+    person: first
+  expected: nao
+- features:
+    number: singular
+    person: second
+  expected: ao
+- features:
+    number: singular
+    person: third
+  expected: em
+---
+lemma: naro
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nuro
+- features:
+    number: plural
+    person: second
+  expected: oforo
+- features:
+    number: plural
+    person: third
+  expected: erahoro
+- features:
+    number: singular
+    person: first
+  expected: naro
+- features:
+    number: singular
+    person: second
+  expected: aro
+- features:
+    number: singular
+    person: third
+  expected: eraro
+---
+lemma: novere
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nuvere
+- features:
+    number: plural
+    person: second
+  expected: ofevere
+- features:
+    number: plural
+    person: third
+  expected: erahevere
+- features:
+    number: singular
+    person: first
+  expected: novere
+- features:
+    number: singular
+    person: second
+  expected: overe
+- features:
+    number: singular
+    person: third
+  expected: eravere
