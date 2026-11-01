@@ -1,0 +1,67 @@
+lemma: bo
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: bko
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: bo
+- features:
+    number: plural
+    person: first
+  expected: lije
+- features:
+    number: plural
+    person: second
+  expected: ni
+- features:
+    number: plural
+    person: third
+  expected: ni
+- features:
+    number: singular
+    person: first
+  expected: ze
+- features:
+    number: singular
+    person: second
+  expected: d
+---
+lemma: yi
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ni
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: bo
+- features:
+    number: plural
+    person: first
+  expected: ye
+- features:
+    number: plural
+    person: second
+  expected: ni
+- features:
+    number: plural
+    person: third
+  expected: ni
+- features:
+    number: singular
+    person: first
+  expected: yi
+- features:
+    number: singular
+    person: second
+  expected: yi

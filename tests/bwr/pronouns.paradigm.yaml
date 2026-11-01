@@ -1,0 +1,111 @@
+lemma: arna
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: aryeru
+- features:
+    number: plural
+    person: second
+  expected: argiri
+- features:
+    number: plural
+    person: third
+  expected: arda
+- features:
+    number: singular
+    person: first
+  expected: arna
+- features:
+    number: singular
+    person: second
+  expected: arnga
+- features:
+    number: singular
+    person: third
+  expected: arni
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yeru
+- features:
+    number: plural
+    person: second
+  expected: giri
+- features:
+    number: plural
+    person: third
+  expected: da
+- features:
+    number: singular
+    person: first
+  expected: i
+- features:
+    number: singular
+    person: second
+  expected: ga
+- features:
+    number: singular
+    person: third
+  expected: ri
+---
+lemma: iya
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yeru
+- features:
+    number: plural
+    person: second
+  expected: giri
+- features:
+    number: plural
+    person: third
+  expected: da
+- features:
+    number: singular
+    person: first
+  expected: iya
+- features:
+    number: singular
+    person: second
+  expected: ga
+- features:
+    number: singular
+    person: third
+  expected: tsa
+---
+lemma: ra
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yeru
+- features:
+    number: plural
+    person: second
+  expected: giri
+- features:
+    number: plural
+    person: third
+  expected: cla
+- features:
+    number: singular
+    person: first
+  expected: ra
+- features:
+    number: singular
+    person: second
+  expected: nga
+- features:
+    number: singular
+    person: third
+  expected: ni

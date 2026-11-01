@@ -1,0 +1,27 @@
+lemma: a-da
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: wawada
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ata
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: arasda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ada

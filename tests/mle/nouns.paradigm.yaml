@@ -1,0 +1,45 @@
+lemma: kudi
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: kudiugw
+- features:
+    number: singular
+  expected: kudi
+---
+lemma: na
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: na:-v@ti
+- features:
+    number: plural
+  expected: na:gw
+- features:
+    number: singular
+  expected: na
+---
+lemma: pa:t
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: pat-@gw
+- features:
+    number: singular
+  expected: pa:t
+---
+lemma: ñan
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: ñ@di
+- features:
+    number: plural
+  expected: ñanugw
+- features:
+    number: singular
+  expected: ñan

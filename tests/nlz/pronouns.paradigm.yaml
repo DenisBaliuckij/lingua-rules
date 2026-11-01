@@ -1,0 +1,19 @@
+lemma: ja
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ja
+- features:
+    number: singular
+    person: second
+  expected: jä la
+---
+lemma: ni
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ni

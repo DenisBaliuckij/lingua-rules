@@ -1,0 +1,50 @@
+lemma: aite
+category: articles
+cases:
+- features:
+    definiteness: indefinite
+  expected: aite
+---
+lemma: aro
+category: articles
+cases:
+- features:
+    number: plural
+  expected: ror
+- features:
+    number: singular
+  expected: aro
+---
+lemma: le
+category: articles
+cases:
+- features:
+    definiteness: definite
+  expected: le
+---
+lemma: nele
+category: articles
+cases:
+- features:
+    number: plural
+  expected: neler
+- features:
+    number: singular
+  expected: nele
+---
+lemma: noro
+category: articles
+cases:
+- features:
+    number: plural
+  expected: noror
+- features:
+    number: singular
+  expected: noro
+---
+lemma: te
+category: articles
+cases:
+- features:
+    definiteness: indefinite
+  expected: te

@@ -1,0 +1,55 @@
+lemma: adu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: adi:k
+- features:
+    number: plural
+    person: second
+  expected: idi:ki
+- features:
+    number: plural
+    person: third
+  expected: atyian
+- features:
+    number: singular
+    person: first
+  expected: adu
+- features:
+    number: singular
+    person: second
+  expected: idi:k
+- features:
+    number: singular
+    person: third
+  expected: ityian
+---
+lemma: wa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tyowa
+- features:
+    number: plural
+    person: second
+  expected: idi:ki nowa
+- features:
+    number: plural
+    person: third
+  expected: mawa
+- features:
+    number: singular
+    person: first
+  expected: atya
+- features:
+    number: singular
+    person: second
+  expected: idi:k nowa
+- features:
+    number: singular
+    person: third
+  expected: awa

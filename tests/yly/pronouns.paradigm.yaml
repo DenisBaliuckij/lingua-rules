@@ -1,0 +1,44 @@
+lemma: nao
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ave
+- features:
+    number: dual
+    person: third
+  expected: le
+- features:
+    number: plural
+    person: first
+  expected: ava
+- features:
+    number: plural
+    person: second
+  expected: ac
+- features:
+    number: plural
+    person: third
+  expected: la
+- features:
+    number: singular
+    person: first
+  expected: nao
+- features:
+    number: singular
+    person: second
+  expected: yo
+- features:
+    number: singular
+    person: third
+  expected: yer
+- features:
+    person: first
+  expected: aven
+- features:
+    person: second
+  expected: ôn
+- features:
+    person: third
+  expected: len

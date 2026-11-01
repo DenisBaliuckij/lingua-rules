@@ -1,0 +1,128 @@
+lemma: ili
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: ila
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: elet
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: el
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: eli
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: telid
+- features:
+    tense: present
+    verb_form: participle
+  expected: ilan
+---
+lemma: illan
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: plural
+    person: second
+  expected: ilimet
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: tellamet
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: ellanet
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: tella
+- features:
+    gender: masculine
+    mood: imperative
+    number: plural
+    person: second
+  expected: ilit
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: tellam
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: ellan
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: illa
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ili
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: nella
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: elli
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: tellid
+- features:
+    tense: past
+    verb_form: participle
+  expected: illan
+- features:
+    tense: present
+    verb_form: participle
+  expected: illan
+- features:
+    verb_form: verbal_noun
+  expected: tilawt

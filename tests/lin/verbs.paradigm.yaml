@@ -1,0 +1,39 @@
+lemma: zala
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tozali
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: bozali
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: bazali
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nazali
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ozali
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: azali

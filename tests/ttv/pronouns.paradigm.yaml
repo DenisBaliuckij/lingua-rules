@@ -1,0 +1,83 @@
+lemma: eyo
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: eyoru
+- features:
+    number: dual
+    person: second
+  expected: eworu
+- features:
+    number: dual
+    person: third
+  expected: earu
+- features:
+    number: plural
+    person: first
+  expected: eyoya
+- features:
+    number: plural
+    person: second
+  expected: eawa
+- features:
+    number: plural
+    person: third
+  expected: eala
+- features:
+    number: singular
+    person: first
+  expected: eyo
+- features:
+    number: singular
+    person: second
+  expected: eoi
+- features:
+    number: singular
+    person: third
+  expected: ei
+---
+lemma: yo
+category: pronouns
+cases:
+- features:
+    case: oblique
+    person: third
+  expected: wei
+- features:
+    number: dual
+    person: first
+  expected: yoru
+- features:
+    number: dual
+    person: second
+  expected: woru
+- features:
+    number: dual
+    person: third
+  expected: aru
+- features:
+    number: plural
+    person: first
+  expected: yoto
+- features:
+    number: plural
+    person: second
+  expected: woto
+- features:
+    number: plural
+    person: third
+  expected: ato
+- features:
+    number: singular
+    person: first
+  expected: yo
+- features:
+    number: singular
+    person: second
+  expected: oi
+- features:
+    number: singular
+    person: third
+  expected: i

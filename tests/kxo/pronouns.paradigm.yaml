@@ -1,0 +1,55 @@
+lemma: aj
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ajte
+- features:
+    number: plural
+    person: second
+  expected: mite
+- features:
+    number: plural
+    person: third
+  expected: ojte
+- features:
+    number: singular
+    person: first
+  expected: aj
+- features:
+    number: singular
+    person: second
+  expected: mi
+- features:
+    number: singular
+    person: third
+  expected: oj
+---
+lemma: nɨa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: jato
+- features:
+    number: plural
+    person: second
+  expected: pjato
+- features:
+    number: plural
+    person: third
+  expected: ojoto
+- features:
+    number: singular
+    person: first
+  expected: nɨa
+- features:
+    number: singular
+    person: second
+  expected: pja
+- features:
+    number: singular
+    person: third
+  expected: ojo

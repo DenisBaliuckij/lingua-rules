@@ -1,0 +1,39 @@
+lemma: ngo
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: raem
+- features:
+    number: dual
+    person: second
+  expected: raom
+- features:
+    number: dual
+    person: third
+  expected: rastn
+- features:
+    number: plural
+    person: first
+  expected: rast
+- features:
+    number: plural
+    person: second
+  expected: ngam
+- features:
+    number: plural
+    person: third
+  expected: glsin
+- features:
+    number: singular
+    person: first
+  expected: ngo
+- features:
+    number: singular
+    person: second
+  expected: nga
+- features:
+    number: singular
+    person: third
+  expected: ngon

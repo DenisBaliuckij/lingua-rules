@@ -1,0 +1,59 @@
+lemma: ida
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: darua
+- features:
+    number: singular
+    person: first
+  expected: ida
+- features:
+    person: first
+  expected: datol
+---
+lemma: kam̋am
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kam̋arua
+- features:
+    number: singular
+    person: first
+  expected: kam̋am
+- features:
+    person: first
+  expected: kam̋atol
+---
+lemma: nna
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: rarua
+- features:
+    number: singular
+    person: third
+  expected: nna
+- features:
+    person: third
+  expected: ratol
+---
+lemma: nno
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: kamruo
+- features:
+    number: singular
+    person: second
+  expected: nno
+- features:
+    person: second
+  expected: kamtol

@@ -1,0 +1,99 @@
+lemma: ka
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: naka
+- features:
+    number: singular
+    person: second
+  expected: ka
+---
+lemma: kha
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: khena
+- features:
+    number: singular
+    person: third
+  expected: kha
+---
+lemma: kho
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: kheno
+- features:
+    number: plural
+    person: third
+  expected: khunu
+- features:
+    number: singular
+    person: third
+  expected: kho
+---
+lemma: ko
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: nako
+- features:
+    number: plural
+    person: second
+  expected: inu
+- features:
+    number: singular
+    person: second
+  expected: ko
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kena
+- features:
+    number: dual
+    person: second
+  expected: naka
+- features:
+    number: dual
+    person: third
+  expected: khena
+- features:
+    number: singular
+    person: first
+  expected: na
+- features:
+    number: singular
+    person: second
+  expected: ka
+- features:
+    number: singular
+    person: third
+  expected: kha
+---
+lemma: 'no'
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: keno
+- features:
+    number: plural
+    person: first
+  expected: inu
+- features:
+    number: singular
+    person: first
+  expected: 'no'

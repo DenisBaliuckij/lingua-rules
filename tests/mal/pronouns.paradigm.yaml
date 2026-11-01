@@ -1,0 +1,92 @@
+lemma: aam
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: aam
+---
+lemma: aavay
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: aavay
+---
+lemma: aavukal
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: aavukal
+---
+lemma: avan
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    gender: neuter
+    number: plural
+  expected: iva
+- features:
+    gender: feminine
+    number: plural
+  expected: ivary
+- features:
+    gender: feminine
+    number: singular
+  expected: ivaL
+- features:
+    gender: masculine
+    number: plural
+  expected: ivary
+- features:
+    gender: masculine
+    number: singular
+  expected: ivan
+---
+lemma: naam
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: naam
+---
+lemma: naan
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: naan
+- features:
+    number: singular
+    person: first
+  expected: naan
+---
+lemma: nee
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: nee
+---
+lemma: neengal
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: neengal
+---
+lemma: neey
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: neey

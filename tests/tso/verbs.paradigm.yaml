@@ -1,0 +1,119 @@
+lemma: huma
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: hitaluma
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: hilumile
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: haluma
+- features:
+    number: plural
+    person: first
+    polarity: negative
+    tense: future
+  expected: ahingataluma
+- features:
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: ahilumanga
+- features:
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: ahilumi
+---
+lemma: ja
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: hitaja
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: hijile
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: haja
+- features:
+    number: plural
+    person: first
+    polarity: negative
+    tense: future
+  expected: ahingataja
+- features:
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: ahijanga
+- features:
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: ahiji
+---
+lemma: svifa
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: svitafa
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: svifile
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: svafa
+- features:
+    number: plural
+    person: third
+    polarity: negative
+    tense: future
+  expected: asvingatafa
+- features:
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: asvifanga
+- features:
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: asvifi

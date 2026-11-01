@@ -1,0 +1,48 @@
+lemma: apm
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: antie
+- features:
+    number: dual
+    person: second
+  expected: yipmuie
+- features:
+    number: dual
+    person: third
+  expected: tuwie
+- features:
+    number: plural
+    person: first
+  expected: ant
+- features:
+    number: plural
+    person: second
+  expected: yipm
+- features:
+    number: plural
+    person: third
+  expected: ti
+- features:
+    number: singular
+    person: first
+  expected: apm
+- features:
+    number: singular
+    person: second
+  expected: yikn
+- features:
+    number: singular
+    person: third
+  expected: kil
+- features:
+    person: first
+  expected: antarko
+- features:
+    person: second
+  expected: yipmarko
+- features:
+    person: third
+  expected: tuarko

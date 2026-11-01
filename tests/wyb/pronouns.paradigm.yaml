@@ -1,0 +1,47 @@
+lemma: minjaN
+category: pronouns
+cases:
+- features:
+    case: absolutive
+  expected: minjaN
+- features:
+    case: dative
+  expected: minjaQ-gu
+- features:
+    case: ergative
+  expected: minjalu
+- features:
+    case: locative
+  expected: minjala
+---
+lemma: qa:ndi
+category: pronouns
+cases:
+- features:
+    case: absolutive
+  expected: qa:ndi
+- features:
+    case: dative
+  expected: qa
+- features:
+    case: ergative
+  expected: qa
+- features:
+    case: locative
+  expected: qa
+---
+lemma: wanhdha
+category: pronouns
+cases:
+- features:
+    case: absolutive
+  expected: wanhdha
+- features:
+    case: dative
+  expected: wanhdhagu
+- features:
+    case: ergative
+  expected: wanhdhalu
+- features:
+    case: locative
+  expected: wanhdhala
