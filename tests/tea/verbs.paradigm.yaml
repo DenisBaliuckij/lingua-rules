@@ -1,0 +1,107 @@
+lemma: ciib
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: ˀaciib
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: kəˀaciib
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: wɛciib
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: ˀɛciib
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: ɲɔciib
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: ˀunciib
+- features:
+    mood: indicative
+    number: singular
+  expected: rəciib
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: ˀiciib
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: haciib
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: naciib
+- features:
+    number: dual
+    person: first
+  expected: ˀamciib
+- features:
+    number: dual
+    person: second
+  expected: kəˀamciib
+- features:
+    number: dual
+    person: third
+  expected: wɛmciib
+- features:
+    number: plural
+    person: first
+  expected: ˀɛmciib
+- features:
+    number: plural
+    person: second
+  expected: ɲɔmciib
+- features:
+    number: plural
+    person: third
+  expected: muciib
+- features:
+    number: singular
+  expected: rumciib
+- features:
+    number: singular
+    person: first
+  expected: ˀimciib
+- features:
+    number: singular
+    person: second
+  expected: hamciib
+- features:
+    number: singular
+    person: third
+  expected: namciib
+---
+lemma: mɔɔj
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    voice: active
+  expected: trɛjmɔɔj
+- features:
+    aspect: perfective
+    voice: active
+  expected: tɛrmɔɔj
+- features:
+    verb_form: verbal_noun
+    voice: active
+  expected: trɛnmɔɔj

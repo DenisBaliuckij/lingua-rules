@@ -1,0 +1,118 @@
+lemma: bò
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: bó
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: ʔórì-yà
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: bò∅
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: ʔórì-∅
+---
+lemma: dǎ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    polarity: negative
+  expected: dǎ:-ndà-yⁿ
+- features:
+    mood: imperative
+    number: singular
+    polarity: negative
+  expected: dǎ:-ndà
+---
+lemma: kà:yá
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    polarity: negative
+  expected: kà:yá-ndà-yⁿ
+- features:
+    mood: imperative
+    number: singular
+    polarity: negative
+  expected: kà:yándà
+---
+lemma: pára-gè
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: párá-gè
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: párá-gá-l-gà
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: pàrá-gè-∅
+---
+lemma: pò:lá
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    polarity: negative
+  expected: pò:lá-ndà-yⁿ
+- features:
+    mood: imperative
+    number: singular
+    polarity: negative
+  expected: pò:lá-ndà-yⁿ
+---
+lemma: sìgá
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    polarity: negative
+  expected: sìgá-ndà-yⁿ
+- features:
+    mood: imperative
+    number: singular
+    polarity: negative
+  expected: sìgándà
+---
+lemma: ʔègá
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    polarity: negative
+  expected: ʔègá-ndà-yⁿ
+- features:
+    mood: imperative
+    number: singular
+    polarity: negative
+  expected: ʔègándà

@@ -1,0 +1,59 @@
+lemma: kanê
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ikanê
+- features:
+    number: singular
+    person: third
+  expected: kanê
+---
+lemma: karê
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+  expected: gar
+- features:
+    number: plural
+    person: third
+  expected: ar
+- features:
+    number: singular
+    person: third
+  expected: karê
+---
+lemma: kum
+category: verbs
+cases:
+- features:
+    number: singular
+    person: second
+  expected: amã
+- features:
+    number: singular
+    person: third
+  expected: kum
+---
+lemma: tẽ
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+  expected: gar
+- features:
+    number: plural
+    person: third
+  expected: ar
+- features:
+    number: singular
+    person: second
+  expected: ga
+- features:
+    number: singular
+    person: third
+  expected: tẽ

@@ -1,0 +1,148 @@
+lemma: ha
+category: verbs
+cases:
+- features:
+    aspect: habitual
+  expected: hafa
+- features:
+    aspect: imperfective
+  expected: halie
+- features:
+    aspect: perfective
+    mood: conditional
+  expected: ha-ha
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: ha
+- features:
+    aspect: progressive
+  expected: haqo
+- features:
+    aspect: progressive
+    mood: imperative
+  expected: haqwo
+- features:
+    mood: imperative
+  expected: ha!
+---
+lemma: haqa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: hmaqeyli
+- features:
+    number: plural
+    person: second
+  expected: haqasi
+- features:
+    number: plural
+    person: third
+  expected: hnyaqili
+- features:
+    number: singular
+    person: first
+  expected: haqa
+---
+lemma: ley
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ley
+- features:
+    number: singular
+    person: first
+  expected: ley
+---
+lemma: qa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: nyu
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: qu
+- features:
+    number: plural
+  expected: ji
+- features:
+    number: plural
+    person: first
+  expected: nu
+- features:
+    number: plural
+    person: second
+  expected: pung
+- features:
+    number: plural
+    person: third
+  expected: nyu
+- features:
+    number: singular
+    person: first
+  expected: pung
+- features:
+    number: singular
+    person: second
+  expected: mu
+- features:
+    number: singular
+    person: third
+  expected: qa
+---
+lemma: qai
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: lu
+- features:
+    number: plural
+    person: first
+  expected: qdi
+- features:
+    number: plural
+    person: second
+  expected: qai
+- features:
+    number: plural
+    person: third
+  expected: si
+- features:
+    number: singular
+    person: first
+  expected: qai
+- features:
+    number: singular
+    person: second
+  expected: qbi
+- features:
+    number: singular
+    person: third
+  expected: pi
+---
+lemma: ungwa
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ungwa
+- features:
+    number: plural
+    person: third
+  expected: ungwa
+- features:
+    number: singular
+    person: first
+  expected: ungwa

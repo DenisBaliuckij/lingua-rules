@@ -1,0 +1,320 @@
+lemma: ngali
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ngalinya
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngali
+- features:
+    number: dual
+    person: first
+  expected: ngalimpa
+---
+lemma: ngana
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nganampa
+---
+lemma: nganana
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nganananya
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nganana
+---
+lemma: ngayu
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ngayuku
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: ngayula
+- features:
+    number: dual
+    person: first
+  expected: ngali-nku
+- features:
+    number: plural
+    person: first
+  expected: nganana-nku
+- features:
+    number: singular
+    person: first
+  expected: ngayulu-na-tju
+---
+lemma: ngayu-lu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ngayu-nya
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ngayu-lu
+---
+lemma: ngayulu
+category: pronouns
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: ngali
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: ngayulu
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: ngali
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: ngayulu
+- features:
+    number: dual
+    person: first
+  expected: ngali
+- features:
+    number: plural
+    person: first
+  expected: nganana
+- features:
+    number: singular
+    person: first
+  expected: ngayulu
+---
+lemma: nyan?a
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+  expected: nyanga-ku
+- features:
+    case: locative
+    number: singular
+  expected: nyan?angl(
+- features:
+    number: singular
+  expected: nyan?an?ku
+---
+lemma: nyuntu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: nyuntunya
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: nyuntumpa
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: nyuntula
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: nyuntu
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: nyupali
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: nyuntu
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: nyupali
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: nyuntu
+- features:
+    number: dual
+    person: second
+  expected: nyupali
+- features:
+    number: plural
+    person: second
+  expected: nyura
+- features:
+    number: singular
+    person: second
+  expected: nyuntu
+---
+lemma: nyupali
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: nyupalimpa
+---
+lemma: nyupall
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: nyupali-nya
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: nyupall
+---
+lemma: nyura
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: nyuranya
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: nyura
+- features:
+    number: plural
+    person: second
+  expected: nyurampa
+---
+lemma: palu
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: palumpa
+---
+lemma: palu-ru
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: palu-nya
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: palu-ru
+---
+lemma: paluru
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: valu-mva
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: valu-la
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: paluru
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: paluru
+- features:
+    number: dual
+    person: third
+  expected: paluru
+- features:
+    number: plural
+    person: third
+  expected: paluru
+- features:
+    number: singular
+    person: third
+  expected: paluru
+---
+lemma: pula
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: third
+  expected: pulanya
+- features:
+    case: nominative
+    number: dual
+    person: third
+  expected: pula
+- features:
+    number: dual
+    person: third
+  expected: pulampa
+---
+lemma: tjana
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: tjananya
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: tjana
+- features:
+    number: plural
+    person: third
+  expected: tjanampa

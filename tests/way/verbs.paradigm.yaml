@@ -1,0 +1,241 @@
+lemma: apei
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: h-ape-si-i
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: h-ape-te-i
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: apel-te-k
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: apeita
+---
+lemma: ene
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: h-ene-i
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: h-ene-te-i
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ene-te-k
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: enek
+---
+lemma: epi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: h-epii-i
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: h-epi-te-i
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: epi-te-k
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: epike
+---
+lemma: ipanarjma
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: s-ipananma-i
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: s-ipannarjma-te-i
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ipanarjma-te-k
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: s-ipanarjma-ta
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ipanarjmak
+---
+lemma: ka
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: menke
+- features:
+    evidentiality: indirect
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kutke
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: wi'ka
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mika
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: nika
+---
+lemma: mek
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: menmgk
+- features:
+    evidentiality: indirect
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kunmek
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: umek
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mumek
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: numek
+---
+lemma: onam
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: onam-te-k
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: onamke
+---
+lemma: t-i
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: kut-i-te-i
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: t-i-te-k
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: t-'i-ke
+---
+lemma: tek
+category: verbs
+cases:
+- features:
+    evidentiality: direct
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: menteja
+- features:
+    evidentiality: indirect
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kuptem
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: witem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mi'tem
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: n'l'tem

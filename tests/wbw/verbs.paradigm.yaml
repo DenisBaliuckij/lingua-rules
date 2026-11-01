@@ -1,0 +1,143 @@
+lemma: avayang
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: turavayang
+- features:
+    number: dual
+    person: second
+  expected: muravayang
+- features:
+    number: dual
+    person: third
+  expected: huravayang
+- features:
+    number: plural
+    person: first
+  expected: matavayang
+- features:
+    number: plural
+    person: second
+  expected: metavayang
+- features:
+    number: plural
+    person: third
+  expected: hetavayang
+---
+lemma: ena
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: turena
+- features:
+    number: dual
+    person: second
+  expected: murena
+- features:
+    number: dual
+    person: third
+  expected: hurena
+- features:
+    number: plural
+    person: first
+  expected: matena
+- features:
+    number: plural
+    person: second
+  expected: metena
+- features:
+    number: plural
+    person: third
+  expected: hetena
+- features:
+    number: singular
+    person: first
+  expected: yena
+---
+lemma: ha
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tu-sa
+- features:
+    number: dual
+    person: second
+  expected: mu-sa
+- features:
+    number: dual
+    person: third
+  expected: hu-sa
+- features:
+    number: plural
+    person: first
+  expected: ma-sa
+- features:
+    number: plural
+    person: second
+  expected: me-sa
+- features:
+    number: plural
+    person: third
+  expected: he-sa
+---
+lemma: kavio
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tungkavio
+- features:
+    number: dual
+    person: second
+  expected: mungkavio
+- features:
+    number: dual
+    person: third
+  expected: hungkavio
+- features:
+    number: plural
+    person: first
+  expected: mangkavio
+- features:
+    number: plural
+    person: second
+  expected: mengkavio
+- features:
+    number: plural
+    person: third
+  expected: hengkavio
+---
+lemma: ra
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tun-da
+- features:
+    number: dual
+    person: second
+  expected: mun-da
+- features:
+    number: dual
+    person: third
+  expected: hun-da
+- features:
+    number: plural
+    person: first
+  expected: man-da
+- features:
+    number: plural
+    person: second
+  expected: men-da
+- features:
+    number: plural
+    person: third
+  expected: hen-da

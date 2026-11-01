@@ -1,0 +1,265 @@
+lemma: ?ale
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: ?ales
+- features:
+    gender: feminine
+    number: singular
+    person: second
+    polarity: negative
+  expected: TileSo
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: Palet
+- features:
+    gender: masculine
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: ?alex
+- features:
+    gender: masculine
+    number: singular
+    person: second
+    polarity: negative
+  expected: Tileho
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: ?ale
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    polarity: negative
+  expected: Tileyi
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: ?alen
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: Tıleno
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: ?alohum
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: ?alom
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: ?alox
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: ?ileno
+---
+lemma: ?ille
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+    polarity: negative
+  expected: Yılll)eso
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    polarity: negative
+  expected: Aılll)etu
+- features:
+    gender: masculine
+    number: singular
+    person: second
+    polarity: negative
+  expected: ?ılll)eho
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    polarity: negative
+  expected: Yıll)
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: ?ıll)ohumo
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: Yılll)ohu
+---
+lemma: bäl
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    gender: masculine
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: tablanäho
+- features:
+    aspect: imperfective
+    gender: masculine
+    number: singular
+    person: second
+    polarity: negative
+  expected: ?atbolu
+- features:
+    aspect: imperfective
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: yablanähu
+- features:
+    aspect: imperfective
+    number: singular
+    person: first
+    polarity: negative
+  expected: ?albalu
+- features:
+    aspect: perfective
+    gender: masculine
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: bax
+- features:
+    aspect: perfective
+    gender: masculine
+    number: singular
+    person: second
+    polarity: negative
+  expected: ?albaho
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: bax
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+    polarity: negative
+  expected: ?albähu
+---
+lemma: neql
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: tinegiläles
+- features:
+    aspect: imperfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+  expected: yätnegil
+- features:
+    aspect: imperfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: tonegalälet
+- features:
+    aspect: imperfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+  expected: yätnegal
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: tonegalälex
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+  expected: yätnegal
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: yanegoläl
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+  expected: yäynegal
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: yoneglonäl
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+  expected: yälneqlon
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: yonegolälox
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: yälneqgal

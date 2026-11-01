@@ -1,0 +1,35 @@
+lemma: mì
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ŋ́
+- features:
+    number: singular
+    person: first
+  expected: ŋ̀
+---
+lemma: ò
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: á
+- features:
+    number: singular
+    person: second
+  expected: à
+---
+lemma: ǎwⁿ
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: vERB-ye
+- features:
+    number: singular
+    person: third
+  expected: vERB

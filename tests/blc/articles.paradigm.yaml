@@ -1,0 +1,101 @@
+lemma: ta
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: ?il
+- features:
+    gender: masculine
+    number: singular
+  expected: ta
+- features:
+    number: plural
+  expected: tu
+---
+lemma: tax
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: ?ila?il
+- features:
+    gender: masculine
+    number: singular
+  expected: tax
+- features:
+    number: plural
+  expected: taxw
+---
+lemma: tayx
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: ayx
+- features:
+    gender: masculine
+    number: singular
+  expected: tayx
+---
+lemma: ti
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: ci
+- features:
+    gender: masculine
+    number: singular
+  expected: ti
+- features:
+    number: plural
+  expected: wa
+---
+lemma: ts-c
+category: articles
+cases:
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: t-c
+- features:
+    definiteness: definite
+    number: plural
+  expected: ø-ts
+- features:
+    definiteness: definite
+    number: singular
+  expected: ts-c
+- features:
+    definiteness: indefinite
+    gender: feminine
+    number: singular
+  expected: t-i-c
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: ø-ts-i
+- features:
+    definiteness: indefinite
+    number: singular
+  expected: ts-i-c
+---
+lemma: tx
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: cx
+- features:
+    gender: masculine
+    number: singular
+  expected: tx
+- features:
+    number: plural
+  expected: c

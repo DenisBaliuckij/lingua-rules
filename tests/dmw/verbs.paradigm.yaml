@@ -1,0 +1,35 @@
+lemma: ba
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: imperative
+  expected: barra-ny
+- features:
+    aspect: imperfective
+    mood: potential
+  expected: barru-ny
+- features:
+    aspect: imperfective
+    mood: subjunctive
+  expected: barra-ny
+- features:
+    aspect: imperfective
+    tense: past
+  expected: barni-ny
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: ba-rra-ra
+- features:
+    aspect: perfective
+    mood: potential
+  expected: ba-rru-ru
+- features:
+    aspect: perfective
+    mood: subjunctive
+  expected: ba-rrala-rra
+- features:
+    aspect: perfective
+    tense: past
+  expected: ba-rnirra-ra

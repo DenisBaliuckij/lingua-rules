@@ -1,0 +1,83 @@
+lemma: in
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: eme
+- features:
+    number: plural
+    person: second
+  expected: e
+- features:
+    number: plural
+    person: third
+  expected: be
+- features:
+    number: singular
+    person: first
+  expected: in
+- features:
+    number: singular
+    person: second
+  expected: u
+- features:
+    number: singular
+    person: third
+  expected: wo
+---
+lemma: inkei
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: emekei
+- features:
+    number: plural
+    person: second
+  expected: ekei
+- features:
+    number: plural
+    person: third
+  expected: bekei
+- features:
+    number: singular
+    person: first
+  expected: inkei
+- features:
+    number: singular
+    person: second
+  expected: ukei
+- features:
+    number: singular
+    person: third
+  expected: wokei
+---
+lemma: mɔn
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: emeke
+- features:
+    number: plural
+    person: second
+  expected: eke
+- features:
+    number: plural
+    person: third
+  expected: beke
+- features:
+    number: singular
+    person: first
+  expected: mɔn
+- features:
+    number: singular
+    person: second
+  expected: uke
+- features:
+    number: singular
+    person: third
+  expected: woke

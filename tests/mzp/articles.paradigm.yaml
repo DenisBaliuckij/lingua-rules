@@ -1,0 +1,92 @@
+lemma: as
+category: articles
+cases:
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: as
+---
+lemma: i-knes
+category: articles
+cases:
+- features:
+    gender: feminine
+  expected: i-knes
+---
+lemma: is
+category: articles
+cases:
+- features:
+    case: oblique
+    number: plural
+  expected: nis
+- features:
+    number: plural
+  expected: is
+---
+lemma: kis
+category: articles
+cases:
+- features:
+    case: oblique
+    number: plural
+  expected: nkis
+- features:
+    number: plural
+  expected: kis
+---
+lemma: kos
+category: articles
+cases:
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: kos
+---
+lemma: os
+category: articles
+cases:
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: os
+---
+lemma: us
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: singular
+    tense: past
+  expected: kinos
+- features:
+    gender: feminine
+    number: singular
+    tense: present
+  expected: i’nes
+- features:
+    gender: masculine
+    number: singular
+    tense: present
+  expected: us
+- features:
+    gender: neuter
+    number: singular
+    tense: past
+  expected: kos
+- features:
+    gender: neuter
+    number: singular
+    tense: present
+  expected: as
+- features:
+    number: plural
+    tense: past
+  expected: kis
+- features:
+    number: plural
+    tense: present
+  expected: is

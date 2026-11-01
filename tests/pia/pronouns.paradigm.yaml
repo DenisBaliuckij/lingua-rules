@@ -1,0 +1,190 @@
+lemma: a n 't'io
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: a t't'io
+- features:
+    number: singular
+    person: first
+  expected: a n 't'io
+- features:
+    number: singular
+    person: second
+  expected: a p 't'io
+---
+lemma: aan
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: aat
+- features:
+    number: plural
+    person: second
+  expected: aap
+- features:
+    number: plural
+    person: third
+  expected: higam
+- features:
+    number: singular
+    person: first
+  expected: aan
+- features:
+    number: singular
+    person: second
+  expected: aap
+- features:
+    number: singular
+    person: third
+  expected: hig
+---
+lemma: aani
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: aatim
+- features:
+    number: plural
+    person: second
+  expected: aapim
+- features:
+    number: singular
+    person: first
+  expected: aani
+- features:
+    number: singular
+    person: second
+  expected: aapi
+---
+lemma: an
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: at
+- features:
+    number: plural
+    person: second
+  expected: apimu
+- features:
+    number: plural
+    person: third
+  expected: hugama
+- features:
+    number: singular
+    person: first
+  expected: an
+- features:
+    number: singular
+    person: second
+  expected: ap
+- features:
+    number: singular
+    person: third
+  expected: hugai
+---
+lemma: chich
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: chich
+---
+lemma: ik
+category: pronouns
+cases:
+- features:
+    degree: comparative
+  expected: idi
+- features:
+    degree: elative_degree
+  expected: amdara
+- features:
+    degree: positive
+  expected: ik
+- features:
+    degree: superlative
+  expected: amdah
+---
+lemma: in
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: hékem
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: hek
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: as
+- features:
+    number: plural
+    person: first
+  expected: ich
+- features:
+    number: plural
+    person: second
+  expected: mem
+- features:
+    number: singular
+    person: first
+  expected: in
+- features:
+    number: singular
+    person: second
+  expected: am
+- features:
+    number: singular
+    person: third
+  expected: a
+---
+lemma: la
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: aat
+- features:
+    number: plural
+    person: second
+  expected: aapem
+- features:
+    number: plural
+    person: third
+  expected: hékem
+- features:
+    number: singular
+    person: first
+  expected: la
+---
+lemma: nin
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: nin
+- features:
+    number: singular
+    person: second
+  expected: am
+- features:
+    number: singular
+    person: third
+  expected: hékem

@@ -1,0 +1,59 @@
+lemma: go bola
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: future
+  expected: bola
+- features:
+    aspect: perfective
+    tense: future
+  expected: bola
+- features:
+    number: plural
+    tense: past
+  expected: bola
+- features:
+    number: singular
+    person: second
+    tense: past
+  expected: bola
+- features:
+    number: singular
+    person: third
+    tense: past
+  expected: bola
+- features:
+    number: singular
+    tense: present
+  expected: bola
+---
+lemma: go hu.e
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: future
+  expected: hu.e
+- features:
+    aspect: perfective
+    tense: future
+  expected: hu.é
+- features:
+    number: plural
+    tense: past
+  expected: hu.e
+- features:
+    number: singular
+    person: second
+    tense: past
+  expected: hu.é
+- features:
+    number: singular
+    person: third
+    tense: past
+  expected: hu.é
+- features:
+    number: singular
+    tense: present
+  expected: hu.e

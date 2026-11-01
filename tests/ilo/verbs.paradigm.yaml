@@ -1,0 +1,64 @@
+lemma: agaramid
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: nagaramid
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: agaramid
+---
+lemma: annugút
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: annugátEe
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: annugútEtn
+---
+lemma: súrat
+category: verbs
+cases:
+- features:
+    aspect: perfective
+  expected: mANgisúrat
+- features:
+    aspect: perfective
+    case: instrumental
+  expected: pANGisúrat
+- features:
+    aspect: perfective
+    case: locative
+    tense: past
+  expected: nACAPAG¿?¿ra¿an
+- features:
+    aspect: perfective
+    mood: conditional
+  expected: panffistlrat
+- features:
+    aspect: perfective
+    polarity: negative
+    tense: past
+  expected: piNAGPASirra
+- features:
+    aspect: perfective
+    tense: past
+  expected: lÜAKGisiírat
+- features:
+    aspect: perfective
+    verb_form: verbal_noun
+  expected: mANANGWzíraí

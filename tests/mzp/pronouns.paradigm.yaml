@@ -1,0 +1,211 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: a
+---
+lemma: a'ko
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: a'ko
+---
+lemma: as
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: as
+---
+lemma: asko
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: asko
+---
+lemma: i-j bi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: i-j bi
+---
+lemma: i-j i
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: i-j i
+---
+lemma: i-kne
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: i-kne
+---
+lemma: i-sne
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: i-sne
+---
+lemma: kuro
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: singular
+  expected: koro
+- features:
+    number: plural
+  expected: kiro
+- features:
+    number: singular
+  expected: kuro
+---
+lemma: u
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+  expected: ay
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+    tense: past
+  expected: oso
+- features:
+    definiteness: definite
+    gender: neuter
+    number: singular
+    tense: present
+  expected: koro
+- features:
+    definiteness: definite
+    number: plural
+  expected: i
+- features:
+    definiteness: definite
+    number: plural
+    tense: past
+  expected: iso
+- features:
+    definiteness: definite
+    number: plural
+    tense: present
+  expected: kiro
+- features:
+    definiteness: definite
+    number: singular
+  expected: u
+- features:
+    definiteness: definite
+    number: singular
+    tense: past
+  expected: uso
+- features:
+    definiteness: definite
+    number: singular
+    tense: present
+  expected: kuro
+- features:
+    gender: feminine
+    number: singular
+  expected: ne
+- features:
+    gender: masculine
+    number: singular
+  expected: u
+- features:
+    gender: neuter
+    number: singular
+  expected: a
+- features:
+    number: plural
+  expected: i
+---
+lemma: usko
+category: pronouns
+cases:
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+    person: third
+  expected: nusko
+- features:
+    case: oblique
+    gender: neuter
+    number: singular
+    person: third
+  expected: n-asko
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: n-isko
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: usko
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: asko
+- features:
+    number: plural
+    person: third
+  expected: isko
+---
+lemma: uso
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: singular
+  expected: oso
+- features:
+    number: plural
+  expected: iso
+- features:
+    number: singular
+  expected: uso
+---
+lemma: u’ko
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+  expected: u’ko
+- features:
+    gender: neuter
+    number: singular
+  expected: a’ko
+- features:
+    number: plural
+  expected: i’ko

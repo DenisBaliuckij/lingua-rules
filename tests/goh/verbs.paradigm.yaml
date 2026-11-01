@@ -1,0 +1,47 @@
+lemma: adennen
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: denita
+- features:
+    verb_form: infinitive
+  expected: adennen
+- features:
+    verb_form: past_participle
+  expected: gidenit
+---
+lemma: frummen
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: frumita
+- features:
+    verb_form: infinitive
+  expected: frummen
+- features:
+    verb_form: past_participle
+  expected: gifrumit
+---
+lemma: nerien
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: nerita
+- features:
+    verb_form: infinitive
+  expected: nerien
+- features:
+    verb_form: past_participle
+  expected: ginerit

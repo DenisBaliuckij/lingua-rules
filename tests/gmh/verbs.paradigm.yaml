@@ -1,0 +1,480 @@
+lemma: gan
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    verb_form: participle
+  expected: gdnde
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: gdt
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ganc
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: gdn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: gdt
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: gdni
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: gdn
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: gdst
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: g^i
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: gen
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: get
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: gen
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: ge
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: gest
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: ge
+---
+lemma: kumen
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: komen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: komen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: komel
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: koment
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kume
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kumst
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kumt
+---
+lemma: loben
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: lobet
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: lobe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: loben
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lobet
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: lobent
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: lobe
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: lobest
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: lobet
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: loben
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: lobet
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: loben
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: lobe
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: lobest
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: lobe
+- features:
+    verb_form: present_participle
+  expected: lobende
+---
+lemma: miden
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: midet!
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: mil!
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: miden
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: midet
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: mident
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: midet
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: midet
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: miden
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: midet
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: miden
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: mide
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: midest
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: mide
+---
+lemma: neman
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: neniames
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nemet
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nemant
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: nenitm
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: nemct
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: nemen
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: nevie
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: ner
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: neme
+---
+lemma: nemen
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: nemet!
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nemen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: nemet
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nement
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nime
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nimest
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: nemen
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: nemet
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: nemen
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: neme
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: nemest
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: neme
+---
+lemma: stan
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: slant
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: stdn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: stdt
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: stdnt
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: stn
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: stdst
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: stdt
