@@ -1,0 +1,79 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: a
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: i
+- features:
+    number: singular
+    person: third
+  expected: i
+---
+lemma: ki
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: ki
+---
+lemma: kə
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: kə
+---
+lemma: mə
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mə
+- features:
+    number: singular
+    person: first
+  expected: mə
+- features:
+    number: singular
+    person: second
+  expected: u
+- features:
+    number: singular
+    person: third
+  expected: a
+---
+lemma: sə
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: sə
+- features:
+    number: plural
+    person: second
+  expected: nə
+- features:
+    number: plural
+    person: third
+  expected: və
+---
+lemma: və
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: və

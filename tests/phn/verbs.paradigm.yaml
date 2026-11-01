@@ -1,0 +1,29 @@
+lemma: yp
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: byp
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: yp
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: dyp
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: nbyp

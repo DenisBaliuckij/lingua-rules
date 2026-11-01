@@ -1,0 +1,39 @@
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: olto
+- features:
+    number: plural
+    person: first
+  expected: olio
+- features:
+    number: singular
+    person: first
+  expected: na
+---
+lemma: nu
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: elo
+- features:
+    number: plural
+    person: second
+  expected: eno
+- features:
+    number: singular
+    person: second
+  expected: nu
+---
+lemma: yu
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: yu

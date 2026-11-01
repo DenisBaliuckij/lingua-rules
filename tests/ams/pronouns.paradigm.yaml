@@ -1,0 +1,63 @@
+lemma: naa
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: naattəə
+- features:
+    number: plural
+    person: second
+  expected: naakja
+- features:
+    number: singular
+    person: second
+  expected: naan
+---
+lemma: ura
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: urattəə
+- features:
+    number: plural
+    person: second
+  expected: urakja
+- features:
+    number: singular
+    person: second
+  expected: uraØ
+---
+lemma: waa
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: waattəə
+- features:
+    number: plural
+    person: first
+  expected: waakja
+- features:
+    number: singular
+    person: first
+  expected: waan
+---
+lemma: wan
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: wattəə
+- features:
+    number: plural
+    person: first
+  expected: waakja
+- features:
+    number: singular
+    person: first
+  expected: wan

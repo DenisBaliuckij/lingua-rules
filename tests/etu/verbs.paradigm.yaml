@@ -1,0 +1,39 @@
+lemma: gb
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ègb
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: àgb
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ágb
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: gb
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ògb
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: àgb

@@ -1,0 +1,85 @@
+lemma: hasa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: hasamo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: hasaha
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: hasantu
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: hasamu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: hasasu
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: hasaii
+---
+lemma: sochchham
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: sochchhimo
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: sochchhihii
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: sochchhimu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: sochchhittha
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: sochchhinti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: sochchhimi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: sochchhisi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: sochchhii

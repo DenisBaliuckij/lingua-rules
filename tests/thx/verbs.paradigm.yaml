@@ -1,0 +1,35 @@
+lemma: amare
+category: verbs
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: amando
+- features:
+    case: accusative
+    number: singular
+  expected: amandum
+- features:
+    case: genitive
+    number: singular
+  expected: amandi
+- features:
+    verb_form: participle
+    voice: active
+  expected: amans
+- features:
+    verb_form: participle
+    voice: passive
+  expected: amatus
+---
+lemma: docere
+category: verbs
+cases:
+- features:
+    verb_form: participle
+    voice: active
+  expected: docens
+- features:
+    verb_form: participle
+    voice: passive
+  expected: doctus

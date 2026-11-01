@@ -1,0 +1,65 @@
+lemma: yek
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: owo bwiou
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: owo
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: okoklkwakwi
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: omombwiom
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: omom
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: enan
+- features:
+    number: dual
+    person: first
+  expected: ohwak
+- features:
+    number: dual
+    person: second
+  expected: bwiepu
+- features:
+    number: dual
+    person: third
+  expected: echechbwiech
+- features:
+    number: plural
+    person: first
+  expected: apak
+- features:
+    number: plural
+    person: second
+  expected: ipak
+- features:
+    number: plural
+    person: third
+  expected: echechlchachi
+- features:
+    number: singular
+    person: first
+  expected: yek
+- features:
+    number: singular
+    person: second
+  expected: nyak

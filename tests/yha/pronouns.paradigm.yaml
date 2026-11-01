@@ -1,0 +1,67 @@
+lemma: ku³²²
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hɔ⁴⁵ku³²²
+- features:
+    number: singular
+    person: first
+  expected: ku³²²
+---
+lemma: ku³²²ha³³qu³³
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hɔ⁴⁵ku³²² ha³³qu³³
+- features:
+    number: singular
+    person: first
+  expected: ku³²²ha³³qu³³
+---
+lemma: kə⁵⁵
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: hɔ⁴⁵kə⁵⁵
+- features:
+    number: singular
+    person: third
+  expected: kə⁵⁵
+---
+lemma: kə⁵⁵ ha³³qu³³
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: hɔ⁴⁵ kə⁵⁵ ha³³qu³³
+- features:
+    number: singular
+    person: third
+  expected: kə⁵⁵ ha³³qu³³
+---
+lemma: mə³¹
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: mə³¹
+---
+lemma: mə³¹ha³³qu³³
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: hɔ⁴⁵ʨhu³³
+- features:
+    number: singular
+    person: second
+  expected: mə³¹ha³³qu³³

@@ -1,0 +1,55 @@
+lemma: keke
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: kekninrar
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: kekmir
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: keknir
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: kekangw
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: kekam
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: kekany
+---
+lemma: lime
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: limninrar
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: limmir
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: limnir
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: limangw
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: limam
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: limany

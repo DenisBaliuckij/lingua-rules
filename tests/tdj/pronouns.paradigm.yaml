@@ -1,0 +1,75 @@
+lemma: siami
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: siami
+---
+lemma: sia’u
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: siita
+- features:
+    number: plural
+    person: second
+  expected: simiu
+- features:
+    number: plural
+    person: third
+  expected: sisia
+- features:
+    number: singular
+    person: first
+  expected: sia’u
+- features:
+    number: singular
+    person: second
+  expected: sio
+- features:
+    number: singular
+    person: third
+  expected: siia
+---
+lemma: siia
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: siia
+---
+lemma: siita
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: siita
+---
+lemma: simiu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: simiu
+---
+lemma: sio
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: sio
+---
+lemma: sisia
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: sisia
