@@ -1,0 +1,40 @@
+lemma: da
+category: articles
+cases:
+- features:
+    gender: common
+    number: singular
+  expected: da
+- features:
+    gender: feminine
+    number: plural
+  expected: la
+---
+lemma: die
+category: articles
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: dzEl
+- features:
+    gender: feminine
+    number: singular
+    tense: present
+  expected: dzits
+- features:
+    gender: masculine
+    number: singular
+  expected: dEl
+- features:
+    gender: masculine
+    number: singular
+    tense: present
+  expected: die
+- features:
+    number: plural
+  expected: dElk
+- features:
+    number: plural
+    tense: present
+  expected: dzik

@@ -1,0 +1,31 @@
+lemma: au
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tāua
+- features:
+    number: dual
+    person: second
+  expected: kōrua
+- features:
+    number: dual
+    person: third
+  expected: rāua
+- features:
+    number: plural
+    person: first
+  expected: tātou
+- features:
+    number: singular
+    person: first
+  expected: au
+- features:
+    number: singular
+    person: second
+  expected: koe
+- features:
+    number: singular
+    person: third
+  expected: ia

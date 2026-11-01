@@ -1,0 +1,106 @@
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: uru
+- features:
+    number: plural
+    person: third
+  expected: ea
+- features:
+    number: singular
+    person: third
+  expected: i
+- features:
+    person: third
+  expected: itoru
+---
+lemma: nan-ai
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: nan-suru
+- features:
+    number: plural
+  expected: nan-sa
+- features:
+    number: singular
+  expected: nan-i
+---
+lemma: nin-ai
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: nin-suru
+- features:
+    number: plural
+  expected: nin-sa
+- features:
+    number: singular
+  expected: nin-i
+---
+lemma: turu
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: turu
+- features:
+    person: first
+  expected: totoru
+---
+lemma: wan-ai
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: wan-suru
+- features:
+    number: plural
+  expected: wan-sa
+- features:
+    number: singular
+  expected: wan-i
+---
+lemma: wau
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: muru
+- features:
+    number: plural
+    person: second
+  expected: mea
+- features:
+    number: singular
+    person: second
+  expected: wau
+- features:
+    person: second
+  expected: muntoru
+---
+lemma: yau
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: auru
+- features:
+    number: plural
+    person: first
+  expected: amea
+- features:
+    number: singular
+    person: first
+  expected: yau
+- features:
+    person: first
+  expected: antoru

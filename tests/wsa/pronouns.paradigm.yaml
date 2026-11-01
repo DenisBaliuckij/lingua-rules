@@ -1,0 +1,51 @@
+lemma: iwi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: amui
+- features:
+    number: dual
+    person: second
+  expected: mui
+- features:
+    number: dual
+    person: third
+  expected: tui
+- features:
+    number: plural
+    person: first
+  expected: ami
+- features:
+    number: plural
+    person: second
+  expected: mi
+- features:
+    number: plural
+    person: third
+  expected: ti
+- features:
+    number: singular
+    person: first
+  expected: iwi
+- features:
+    number: singular
+    person: second
+  expected: awi
+- features:
+    number: singular
+    person: third
+  expected: yi
+---
+lemma: kui
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kui
+- features:
+    number: plural
+    person: first
+  expected: ki

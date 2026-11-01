@@ -1,0 +1,39 @@
+lemma: iau
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: thaua
+- features:
+    number: dual
+    person: second
+  expected: khoulua
+- features:
+    number: dual
+    person: third
+  expected: lhaua
+- features:
+    number: plural
+    person: first
+  expected: thatou
+- features:
+    number: plural
+    person: second
+  expected: khoutou
+- features:
+    number: plural
+    person: third
+  expected: lhatou
+- features:
+    number: singular
+    person: first
+  expected: iau
+- features:
+    number: singular
+    person: second
+  expected: koe
+- features:
+    number: singular
+    person: third
+  expected: ia

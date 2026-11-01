@@ -1,0 +1,176 @@
+lemma: i˥si˧
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: n-i˩si˩
+- features:
+    number: plural
+    person: first
+  expected: j-i˩si˧
+- features:
+    number: plural
+    person: third
+  expected: di˥si˧
+- features:
+    number: singular
+    person: first
+  expected: m-si˥˧
+- features:
+    number: singular
+    person: second
+  expected: si˥˧
+- features:
+    number: singular
+    person: third
+  expected: si˩
+- features:
+    verb_form: infinitive
+  expected: si˩
+---
+lemma: i˧la˧
+category: verbs
+cases:
+- features:
+    mood: indicative
+  expected: n-i˩la˧
+- features:
+    number: plural
+    person: first
+  expected: j-i˩la˧
+- features:
+    number: plural
+    person: third
+  expected: d-i˥la˧
+- features:
+    number: singular
+    person: first
+  expected: mi˧la˧
+- features:
+    number: singular
+    person: second
+  expected: i˧la˧
+- features:
+    number: singular
+    person: third
+  expected: i˩la˧
+---
+lemma: la˧
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: t-i˥la˧
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: t-i˥la˧
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: t-i˥la˧
+---
+lemma: nõ˧
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nõ˧
+- features:
+    number: plural
+    person: second
+  expected: nõ˧
+- features:
+    number: plural
+    person: third
+  expected: nõ˥˧
+- features:
+    number: singular
+    person: first
+  expected: nõ˧
+- features:
+    number: singular
+    person: second
+  expected: nõ˧
+- features:
+    number: singular
+    person: third
+  expected: nõ˧
+---
+lemma: tɔl˥
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: tɔl˥
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tɔl˥
+---
+lemma: u˥la˧
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: tu˥la˧
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: t-u˧la˧
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: t-u˧la˧
+---
+lemma: u˥ru˧
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: tu˥ru˧
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: tu˥ru˧
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: tu˥ru˧
+---
+lemma: u˧nda˧
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: t-u˥nda˧
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: tu˧nda˧
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: tu˧nda˧

@@ -1,0 +1,167 @@
+lemma: dar
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    tense: past
+  expected: imegé
+- features:
+    aspect: habitual
+    tense: present
+  expected: dmeggltl
+- features:
+    aspect: perfective
+  expected: megéha
+- features:
+    evidentiality: indirect
+    mood: indicative
+    tense: future
+  expected: imemítI
+- features:
+    evidentiality: indirect
+    mood: indicative
+    tense: present
+  expected: menítl
+- features:
+    mood: indicative
+    person: first
+    polarity: affirmative
+  expected: m(siª
+- features:
+    mood: indicative
+    person: third
+    polarity: affirmative
+  expected: manª
+- features:
+    mood: indicative
+    person: third
+    polarity: negative
+  expected: kfw
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: m
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: imá
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: present
+  expected: m
+- features:
+    tense: past
+    voice: passive
+  expected: imená-LU
+- features:
+    tense: present
+    voice: passive
+  expected: megé-Lü
+- features:
+    verb_form: infinitive
+  expected: memí
+---
+lemma: ir
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: menem
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: shkU
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: menem
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: menem
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: shkÚ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: kaimí
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: menéo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: má
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: kamína
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: mánem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: mége
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ménem
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: m
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: kamí

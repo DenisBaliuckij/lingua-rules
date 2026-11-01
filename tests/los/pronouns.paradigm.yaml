@@ -1,0 +1,48 @@
+lemma: yo
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: u
+- features:
+    number: dual
+    person: second
+  expected: ow
+- features:
+    number: dual
+    person: third
+  expected: su ?u
+- features:
+    number: plural
+    person: first
+  expected: uweh
+- features:
+    number: plural
+    person: second
+  expected: hah
+- features:
+    number: plural
+    person: third
+  expected: seh
+- features:
+    number: singular
+    person: first
+  expected: yo
+- features:
+    number: singular
+    person: second
+  expected: wow
+- features:
+    number: singular
+    person: third
+  expected: iy
+- features:
+    person: first
+  expected: uto
+- features:
+    person: second
+  expected: etow
+- features:
+    person: third
+  expected: hetow

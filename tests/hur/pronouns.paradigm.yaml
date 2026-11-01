@@ -1,0 +1,53 @@
+lemma: køƒé÷
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    gender: common
+    number: singular
+  expected: køƒé÷
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: kø®é÷
+- features:
+    definiteness: definite
+    number: plural
+  expected: køƒél
+---
+lemma: tƒé÷
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    gender: common
+    number: singular
+  expected: tƒé÷
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: ƒé÷
+---
+lemma: ˚øí
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    gender: common
+    number: singular
+  expected: ˚øí
+---
+lemma: √á
+category: pronouns
+cases:
+- features:
+    gender: common
+  expected: t
+- features:
+    gender: feminine
+  expected: ƒ
+- features:
+    number: plural
+  expected: t

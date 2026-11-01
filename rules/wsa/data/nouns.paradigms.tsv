@@ -1,0 +1,24 @@
+class	features	strip_front	prefix	strip	ending	source	note
+set_i	number=plural;person=first	1	kev	0	ro	doc 29631 p. 35	bera -> keveraro
+set_i	number=plural;person=second	1	mev	0	ro	doc 29631 p. 35	bera -> meveraro
+set_i	number=plural;person=third	1	tev	0	ro	doc 29631 p. 35	bera -> teveraro
+set_i	number=singular;person=first	1	ev	0	ro	doc 29631 p. 35	bera -> everaro
+set_i	number=singular;person=second	1	av	0	ro	doc 29631 p. 35	bera -> averaro
+set_i	number=singular;person=third	0		0	ro	doc 29631 p. 35	bera -> beraro
+mena_type	definiteness=definite;number=dual	0		0	-kaindu-yave	doc 29631 p. 18	mena -> mena-kaindu-yave
+mena_type	definiteness=definite;number=plural	0		0	-na-yave	doc 29631 p. 18	mena -> mena-na-yave
+mena_type	definiteness=definite;number=singular	0		0	-yave-ro	doc 29631 p. 18	mena -> mena-yave-ro
+mena_type	definiteness=indefinite;number=dual	0		0	kaindu	doc 29631 p. 18	mena -> menakaindu
+mena_type	definiteness=indefinite;number=plural	0		0	na	doc 29631 p. 18	mena -> menana
+mena_type	definiteness=indefinite;number=singular	0		0	ro	doc 29631 p. 18	mena -> menaro
+set_ii	number=plural;person=first	0	ki	0	ro	doc 29631 p. 35	wa -> kiwaro
+set_ii	number=plural;person=second	0	mi	0	ro	doc 29631 p. 35	wa -> miwaro
+set_ii	number=plural;person=third	0	ti	0	ro	doc 29631 p. 35	wa -> tiwaro
+set_ii	number=singular;person=first	0	e	0	ro	doc 29631 p. 35	wa -> ewaro
+set_ii	number=singular;person=second	0	a	0	ro	doc 29631 p. 35	wa -> awaro
+set_ii	number=singular;person=third	0	i	0	ro	doc 29631 p. 35	wa -> iwaro
+suan_type	definiteness=definite;number=plural	0		0	ani	doc 29631 p. 18	suan -> suanani
+suan_type	definiteness=definite;number=singular	0		0	i	doc 29631 p. 18	suan -> suani
+suan_type	definiteness=indefinite;number=dual	0		0	gkaindu	doc 29631 p. 18	suan -> suangkaindu
+suan_type	definiteness=indefinite;number=plural	0		0	ao	doc 29631 p. 18	suan -> suanao
+suan_type	definiteness=indefinite;number=singular	0		0	do	doc 29631 p. 18	suan -> suando

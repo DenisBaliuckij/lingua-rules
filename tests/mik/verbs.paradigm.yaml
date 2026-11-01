@@ -1,0 +1,31 @@
+lemma: hi:c
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hic-om-Uka
+- features:
+    number: singular
+    person: first
+  expected: hic-om-li
+- features:
+    number: singular
+    person: second
+  expected: hic-om-i-ck-a
+---
+lemma: hopa:n
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hopa-s-n-iIk-owa
+- features:
+    number: singular
+    person: first
+  expected: hoplun-i-lv-wa
+- features:
+    number: singular
+    person: second
+  expected: hopa:n-i-ck-owa

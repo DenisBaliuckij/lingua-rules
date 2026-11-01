@@ -1,0 +1,47 @@
+lemma: e$ya^
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: e$yi$ge$se@
+- features:
+    number: plural
+    person: second
+  expected: e$yi$ge$¯u@
+- features:
+    number: plural
+    person: third
+  expected: e$yi$ge$bwç@
+- features:
+    number: singular
+    person: first
+  expected: e$ya^
+- features:
+    number: singular
+    person: second
+  expected: e$dZyE&
+- features:
+    number: singular
+    person: third
+  expected: e$dZi&
+---
+lemma: m$me$
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: e$se@
+- features:
+    number: plural
+    person: second
+  expected: e$¯u@
+- features:
+    number: plural
+    person: third
+  expected: e$bwç@
+- features:
+    number: singular
+    person: first
+  expected: m$me$

@@ -1,0 +1,19 @@
+lemma: neto
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: neli
+- features:
+    number: plural
+    person: first
+  expected: nei
+- features:
+    number: singular
+    person: first
+  expected: neto
+- features:
+    number: singular
+    person: second
+  expected: eto

@@ -1,0 +1,301 @@
+lemma: eg
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: meg
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: maer
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: min
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: eg
+---
+lemma: hann
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: hann
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+    person: third
+  expected: hansara
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: hann
+---
+lemma: hon
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: hana
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+    person: third
+  expected: henni
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+    person: third
+  expected: hennara
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: hon
+---
+lemma: seg
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+    voice: reflexive
+  expected: seg
+- features:
+    case: dative
+    number: singular
+    person: third
+    voice: reflexive
+  expected: saer
+- features:
+    case: genitive
+    number: singular
+    person: third
+    voice: reflexive
+  expected: sin
+- features:
+    case: nominative
+    number: singular
+    person: third
+    voice: reflexive
+  expected: seg
+---
+lemma: tad
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+    person: third
+  expected: tad
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+    person: third
+  expected: ti
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+    person: third
+  expected: tess
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+    person: third
+  expected: tad
+---
+lemma: taer
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+    person: third
+  expected: taer
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+    person: third
+  expected: taer
+---
+lemma: teir
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+    person: third
+  expected: teir
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+    person: third
+  expected: teimum
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+    person: third
+  expected: teirra
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+    person: third
+  expected: teir
+---
+lemma: tey
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: plural
+    person: third
+  expected: tey
+- features:
+    case: dative
+    gender: neuter
+    number: plural
+    person: third
+  expected: teimum
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+    person: third
+  expected: teirra
+- features:
+    case: nominative
+    gender: neuter
+    number: plural
+    person: third
+  expected: tey
+---
+lemma: tit
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: tykkum
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: tykkum
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: tykkara
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: tit
+---
+lemma: tu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: teg
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: taer
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: tin
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: tu
+---
+lemma: tygum
+category: pronouns
+cases:
+- features:
+    case: accusative
+    formality: formal
+    number: singular
+    person: second
+  expected: tygum
+- features:
+    case: dative
+    formality: formal
+    number: singular
+    person: second
+  expected: tygum
+- features:
+    case: genitive
+    formality: formal
+    number: singular
+    person: second
+  expected: tygara
+- features:
+    case: nominative
+    formality: formal
+    number: singular
+    person: second
+  expected: tygum
+---
+lemma: vit
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: okkum
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: okkum
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: okkara
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: vit

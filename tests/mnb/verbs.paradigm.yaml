@@ -1,0 +1,113 @@
+lemma: kala
+category: verbs
+cases:
+- features:
+    formality: formal
+    number: plural
+    person: second
+  expected: to-kala-amu
+- features:
+    formality: formal
+    number: singular
+    person: second
+  expected: tokala
+- features:
+    number: dual
+    person: first
+  expected: dokala
+- features:
+    number: dual
+    person: second
+  expected: tokala
+- features:
+    number: plural
+    person: first
+  expected: do-kala-amu
+- features:
+    number: plural
+    person: second
+  expected: to-kala-amu
+- features:
+    number: plural
+    person: third
+  expected: dokala
+- features:
+    number: singular
+    person: first
+  expected: akala
+- features:
+    number: singular
+    person: third
+  expected: nokala
+---
+lemma: late
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: delate
+- features:
+    number: dual
+    person: second
+  expected: telate
+- features:
+    number: plural
+    person: first
+  expected: de-late-emu
+- features:
+    number: plural
+    person: second
+  expected: ome-late-emu
+- features:
+    number: plural
+    person: third
+  expected: delate
+- features:
+    number: singular
+    person: first
+  expected: aelate
+- features:
+    number: singular
+    person: second
+  expected: omelate
+- features:
+    number: singular
+    person: third
+  expected: nelate
+---
+lemma: lodo
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: dolodo
+- features:
+    number: dual
+    person: second
+  expected: tolodo
+- features:
+    number: plural
+    person: first
+  expected: do-lodo-omu
+- features:
+    number: plural
+    person: second
+  expected: omo-lodo-omu
+- features:
+    number: plural
+    person: third
+  expected: dolodo
+- features:
+    number: singular
+    person: first
+  expected: aolodo
+- features:
+    number: singular
+    person: second
+  expected: omolodo
+- features:
+    number: singular
+    person: third
+  expected: nolodo

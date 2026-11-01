@@ -1,0 +1,111 @@
+lemma: gaangiu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: gaamami
+- features:
+    number: plural
+    person: second
+  expected: gaamii
+- features:
+    number: singular
+    person: first
+  expected: gaangiu
+---
+lemma: giishe
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: giishe
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: she
+- features:
+    number: plural
+    person: second
+  expected: mi
+- features:
+    number: plural
+    person: third
+  expected: re
+- features:
+    number: singular
+    person: first
+  expected: i
+- features:
+    number: singular
+    person: second
+  expected: mwe
+- features:
+    number: singular
+    person: third
+  expected: le
+---
+lemma: laale
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: kelaale
+- features:
+    definiteness: definite
+    number: singular
+  expected: laale
+---
+lemma: mwuulo
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: kamwuulo
+- features:
+    definiteness: definite
+    number: singular
+  expected: mwuulo
+---
+lemma: we
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: kawe
+- features:
+    definiteness: definite
+    number: singular
+  expected: we
+---
+lemma: yeele
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: kaale
+- features:
+    definiteness: definite
+    number: singular
+  expected: yeele
+---
+lemma: yeiye
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: kaiye
+- features:
+    definiteness: definite
+    number: singular
+  expected: yeiye

@@ -1,0 +1,157 @@
+lemma: a
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: taa
+- features:
+    number: plural
+    person: first
+  expected: mia
+- features:
+    number: plural
+    person: second
+  expected: mia
+- features:
+    number: plural
+    person: third
+  expected: raa
+- features:
+    number: singular
+    person: first
+  expected: ʔua
+- features:
+    number: singular
+    person: second
+  expected: mua
+- features:
+    number: singular
+    person: third
+  expected: naa
+---
+lemma: ema
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tema
+- features:
+    number: plural
+    person: first
+  expected: ʔima
+- features:
+    number: plural
+    person: second
+  expected: ʔima
+- features:
+    number: plural
+    person: third
+  expected: rema
+- features:
+    number: singular
+    person: first
+  expected: ʔuma
+- features:
+    number: singular
+    person: second
+  expected: ʔuma
+- features:
+    number: singular
+    person: third
+  expected: nema
+---
+lemma: eu
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: teu
+- features:
+    number: plural
+    person: first
+  expected: mii
+- features:
+    number: plural
+    person: second
+  expected: mii
+- features:
+    number: plural
+    person: third
+  expected: reu
+- features:
+    number: singular
+    person: first
+  expected: ʔuu
+- features:
+    number: singular
+    person: second
+  expected: muu
+- features:
+    number: singular
+    person: third
+  expected: neu
+---
+lemma: hine
+category: verbs
+cases:
+- features:
+    number: singular
+  expected: nehine
+- features:
+    number: singular
+    person: third
+  expected: nahine
+- features:
+    number: singular
+    voice: passive
+  expected: nene-nehine-ʔ
+---
+lemma: va
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: t-aa
+- features:
+    number: plural
+    person: first
+  expected: m-ia
+- features:
+    number: plural
+    person: second
+  expected: m-ia
+- features:
+    number: plural
+    person: third
+  expected: r-aa
+- features:
+    number: singular
+    person: first
+  expected: ʔ-ua
+- features:
+    number: singular
+    person: second
+  expected: m-ua
+- features:
+    number: singular
+    person: third
+  expected: n-aa
+---
+lemma: ɓue
+category: verbs
+cases:
+- features:
+    number: singular
+  expected: ne-ʔe-ɓue
+- features:
+    number: singular
+    person: first
+  expected: ʔu-ʔu-ɓue
+- features:
+    number: singular
+    voice: passive
+  expected: nene-neʔeɓue-ʔ

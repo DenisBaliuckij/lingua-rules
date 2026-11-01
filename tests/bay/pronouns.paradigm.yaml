@@ -1,0 +1,14 @@
+lemma: nanen
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: singular
+  expected: nanen
+- features:
+    animacy: inanimate
+    number: singular
+  expected: onen
+- features:
+    number: plural
+  expected: dieregen

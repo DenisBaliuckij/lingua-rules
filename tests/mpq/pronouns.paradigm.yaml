@@ -1,0 +1,143 @@
+lemma: anbi
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: third
+  expected: abi
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: anbi
+---
+lemma: mikui
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+    person: second
+  expected: mikui
+- features:
+    case: direct
+    number: plural
+    person: second
+  expected: mitso
+- features:
+    case: ergative
+    number: plural
+    person: second
+  expected: mikui
+---
+lemma: minbi
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: second
+  expected: mibi
+- features:
+    case: direct
+    number: singular
+    person: second
+  expected: mibi
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: minbi
+---
+lemma: nuki
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: dual
+    person: first
+  expected: nuki
+- features:
+    case: direct
+    number: dual
+    person: first
+  expected: nuki
+- features:
+    case: ergative
+    number: dual
+    person: first
+  expected: nuki
+---
+lemma: Ø
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+    person: third
+  expected: Ø
+- features:
+    case: absolutive
+    number: singular
+    person: third
+  expected: Ø
+- features:
+    case: direct
+    number: plural
+    person: third
+  expected: Ø
+- features:
+    case: direct
+    number: singular
+    person: third
+  expected: Ø
+- features:
+    case: ergative
+    number: plural
+    person: third
+  expected: Ø
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: Ø
+---
+lemma: ˆnbi
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: first
+  expected: ˆbi
+- features:
+    case: absolutive
+    number: singular
+    person: second
+  expected: mibi
+- features:
+    case: absolutive
+    number: singular
+    person: third
+  expected: abi
+- features:
+    case: direct
+    number: singular
+    person: first
+  expected: ˆbi
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: ˆnbi
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: minbi
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: anbi

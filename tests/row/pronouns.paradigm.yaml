@@ -1,0 +1,55 @@
+lemma: au
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: au
+---
+lemma: eni
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: ana
+---
+lemma: hai
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hai
+---
+lemma: hei
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ŋgi
+---
+lemma: hita
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ŋgita
+---
+lemma: hoo
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: ŋgo
+---
+lemma: sira
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ara

@@ -1,0 +1,222 @@
+lemma: I
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: me
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: I
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: my
+---
+lemma: gi
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: gi
+---
+lemma: gixai
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: gixai
+---
+lemma: he
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: him
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: he
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: his
+---
+lemma: hi
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: hi
+---
+lemma: hiapioxio
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: hiapioxio
+---
+lemma: it
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+    person: third
+  expected: it
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+    person: third
+  expected: it
+- features:
+    gender: neuter
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: its
+---
+lemma: she
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: her
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: she
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: her
+---
+lemma: they
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: them
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: they
+- features:
+    number: plural
+    person: third
+    possessor_number: plural
+    possessor_person: third
+  expected: their
+---
+lemma: ti
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ti
+---
+lemma: we
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: us
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: we
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: our
+---
+lemma: xi
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: xi
+---
+lemma: xis
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: xis
+---
+lemma: you
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: you
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: you
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: you
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: you
+- features:
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: your
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: your

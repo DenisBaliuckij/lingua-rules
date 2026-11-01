@@ -1,0 +1,31 @@
+lemma: na
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ng-s
+- features:
+    number: dual
+    person: second
+  expected: ng-m
+- features:
+    number: plural
+    person: first
+  expected: n
+- features:
+    number: plural
+    person: second
+  expected: ng-s
+- features:
+    number: singular
+    person: first
+  expected: n
+- features:
+    number: singular
+    person: second
+  expected: ng-y
+- features:
+    number: singular
+    person: third
+  expected: hoso

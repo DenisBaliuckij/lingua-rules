@@ -1,0 +1,69 @@
+lemma: das
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: da:sur
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: da:su
+---
+lemma: mi:s
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: mi:cir
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: mi:c
+---
+lemma: mis
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: misur
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: misu
+---
+lemma: sip
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: sifir
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: sif
+---
+lemma: u:p
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: u:pawr
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: u:paw

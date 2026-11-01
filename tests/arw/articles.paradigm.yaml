@@ -1,0 +1,23 @@
+lemma: li
+category: articles
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: li
+---
+lemma: na
+category: articles
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: na
+---
+lemma: to
+category: articles
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: to

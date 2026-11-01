@@ -1,0 +1,25 @@
+lemma: aini
+category: pronouns
+cases:
+- features:
+    person: first
+  expected: aini
+- features:
+    person: second
+  expected: aitu
+- features:
+    person: third
+  expected: amaitu
+---
+lemma: ini
+category: pronouns
+cases:
+- features:
+    person: first
+  expected: ini
+- features:
+    person: second
+  expected: itu
+- features:
+    person: third
+  expected: maitu

@@ -1,0 +1,157 @@
+lemma: ce?£h
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ce?£h
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ce?£h
+---
+lemma: la
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    tense: present
+  expected: la
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ile
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ala
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ile
+- features:
+    mood: potential
+    number: plural
+    tense: present
+  expected: kala
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: present
+  expected: kile
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: present
+  expected: kala
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: present
+  expected: kile
+---
+lemma: mat
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    tense: present
+  expected: mat
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: met
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: amat
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: imet
+---
+lemma: me
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    tense: present
+  expected: me
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ime
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: eme
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ime
+- features:
+    mood: potential
+    number: plural
+    tense: present
+  expected: keme
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: present
+  expected: kime
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: present
+  expected: keme
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: present
+  expected: kime
+---
+lemma: m£
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: m£
+- features:
+    number: singular
+    person: first
+  expected: im£
+- features:
+    number: singular
+    person: third
+  expected: im£

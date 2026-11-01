@@ -1,0 +1,138 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: second
+  expected: yawa
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: mo
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: a
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: nio
+---
+lemma: ami
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: dual
+    person: first
+  expected: yami
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: amen
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ami
+- features:
+    case: oblique
+    number: dual
+    person: first
+  expected: yamen
+---
+lemma: amo
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+    person: second
+  expected: yamo
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: mi
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: amo
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: nindio
+---
+lemma: ita
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: dual
+    person: first
+  expected: ita
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: ta
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ita
+- features:
+    case: oblique
+    number: dual
+    person: first
+  expected: yaten
+---
+lemma: tanandia
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: third
+  expected: tanandia
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: tanandia
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: nandia
+---
+lemma: tanira
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+    person: third
+  expected: tanira
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: nira
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: tanira
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: nira

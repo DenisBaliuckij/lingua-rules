@@ -1,0 +1,41 @@
+lemma: ap
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: ap se
+- features:
+    case: accusative
+    number: singular
+  expected: apne ko
+- features:
+    case: dative
+    number: singular
+  expected: apne tain
+- features:
+    case: instrumental
+    number: singular
+  expected: ap ne
+- features:
+    case: locative
+    number: singular
+  expected: ap men
+- features:
+    case: nominative
+    number: singular
+  expected: ap
+---
+lemma: m
+category: pronouns
+cases:
+- features:
+    case: direct
+    number: singular
+    person: first
+  expected: a͠ı
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: a͠ı

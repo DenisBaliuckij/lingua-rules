@@ -1,0 +1,19 @@
+lemma: jbo-n
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: jbo-n
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: jbo-g
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: jbo-m
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: jbo-n

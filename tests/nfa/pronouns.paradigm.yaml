@@ -1,0 +1,102 @@
+lemma: ja
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ji
+- features:
+    number: plural
+    person: third
+  expected: ru
+- features:
+    number: singular
+    person: first
+  expected: ja
+- features:
+    number: singular
+    person: third
+  expected: nu
+---
+lemma: k
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ng
+- features:
+    number: plural
+    person: second
+  expected: m
+- features:
+    number: plural
+    person: third
+  expected: r
+- features:
+    number: singular
+    person: first
+  expected: k
+- features:
+    number: singular
+    person: second
+  expected: m
+- features:
+    number: singular
+    person: third
+  expected: n
+---
+lemma: ku
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ti
+- features:
+    number: plural
+    person: second
+  expected: mi
+- features:
+    number: plural
+    person: third
+  expected: ra
+- features:
+    number: singular
+    person: first
+  expected: ku
+- features:
+    number: singular
+    person: second
+  expected: mu
+- features:
+    number: singular
+    person: third
+  expected: na
+---
+lemma: ne’e
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: se’e
+- features:
+    number: singular
+  expected: ne’e
+---
+lemma: nèi
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: sèi
+- features:
+    number: singular
+  expected: nèi
+---
+lemma: èèna
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: èèna
