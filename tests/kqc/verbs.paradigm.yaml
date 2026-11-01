@@ -1,0 +1,72 @@
+lemma: mar
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: ma!
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: marafa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: masifa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: maradi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: madedi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: maradi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: madedi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: maraka
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: mada
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mar
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: masa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: mar

@@ -1,0 +1,100 @@
+lemma: esti
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: estas
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: estas
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: estas
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: estas
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: estas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: estas
+---
+lemma: vidi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: vidas
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: vidas
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vidas
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+    voice: active
+  expected: vidos
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+    voice: active
+  expected: vidis
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: vidas
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: active
+  expected: vidas
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: vidas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: vidas

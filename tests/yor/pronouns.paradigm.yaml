@@ -1,0 +1,75 @@
+lemma: ma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: k
+- features:
+    number: plural
+    person: second
+  expected: e
+- features:
+    number: plural
+    person: third
+  expected: won
+- features:
+    number: singular
+    person: first
+  expected: ma
+- features:
+    number: singular
+    person: second
+  expected: wa
+- features:
+    number: singular
+    person: third
+  expected: k
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: wa
+- features:
+    number: plural
+    person: second
+  expected: yin
+- features:
+    number: plural
+    person: third
+  expected: won
+- features:
+    number: singular
+    person: first
+  expected: mi
+- features:
+    number: singular
+    person: second
+  expected: r§
+- features:
+    number: singular
+    person: third
+  expected: vowel of Verb
+---
+lemma: mo
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: a
+- features:
+    number: plural
+    person: second
+  expected: e
+- features:
+    number: plural
+    person: third
+  expected: won
+- features:
+    number: singular
+    person: first
+  expected: mo

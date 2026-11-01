@@ -1,0 +1,110 @@
+lemma: hlogu
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: hlogutin
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: hlogubun
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: hlogudrin
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: hloguk
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: hlogo-m
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: hlogo-n
+- features:
+    possessor_person: first
+  expected: hlogutu
+- features:
+    possessor_person: second
+  expected: hlogubu
+- features:
+    possessor_person: third
+  expected: hlogudru
+---
+lemma: huu
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: huutin
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: huubun
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: huudrin
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: huuk
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: hoo-m
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: hoo-n
+- features:
+    possessor_person: first
+  expected: huutu
+- features:
+    possessor_person: second
+  expected: huubu
+- features:
+    possessor_person: third
+  expected: huudru
+---
+lemma: nu
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: nutin
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: nubun
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: nudrin
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: nuk
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: no-m
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: no-n
+- features:
+    possessor_person: first
+  expected: nutu
+- features:
+    possessor_person: second
+  expected: nubu
+- features:
+    possessor_person: third
+  expected: nudru

@@ -1,0 +1,23 @@
+lemma: moi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: aza
+- features:
+    number: plural
+    person: second
+  expected: ana
+- features:
+    number: singular
+    person: first
+  expected: mya
+- features:
+    number: singular
+    person: second
+  expected: ana
+- features:
+    number: singular
+    person: third
+  expected: aya

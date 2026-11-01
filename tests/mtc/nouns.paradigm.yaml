@@ -1,0 +1,22 @@
+lemma: lhos
+category: nouns
+cases:
+- features:
+    definiteness: indefinite
+  expected: tolhos
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: lhalhos
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: n’lhos
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: os
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: lhos

@@ -1,0 +1,115 @@
+lemma: ve
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+  expected: eleve
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+  expected: niieve
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+  expected: keve
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+  expected: meve
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+  expected: feve
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+  expected: neve
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: eneve
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: elave
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: nnave
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: kave
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: mave
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: fave
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: b^ve
+- features:
+    mood: imperative
+  expected: ve
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ebave
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: nnave
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: kSbave
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: mave
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: fave
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: bave

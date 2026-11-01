@@ -1,0 +1,43 @@
+lemma: sál-a
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    polarity: negative
+    verb_form: participle
+  expected: ki+ü-tá-ná-sal-a
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: past
+  expected: b-à-sál-a
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: present
+  expected: bá-sál-a
+- features:
+    aspect: perfective
+    polarity: affirmative
+    verb_form: participle
+  expected: w-á-sál-a
+- features:
+    aspect: perfective
+    polarity: negative
+    tense: past
+  expected: b-à+â-sál-a
+- features:
+    aspect: perfective
+    polarity: negative
+    tense: present
+  expected: bá-tà-sál-i
+- features:
+    aspect: progressive
+    polarity: affirmative
+    verb_form: participle
+  expected: ká-tú-sál-a
+- features:
+    aspect: progressive
+    polarity: negative
+    verb_form: participle
+  expected: lqi-tü-tá-sál-i

@@ -1,0 +1,203 @@
+lemma: be
+category: pronouns
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+  expected: bŒm ... wey
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+  expected: 'bi: ... wey'
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: negative
+  expected: bŒs ... wey
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+  expected: 'be: ... wey'
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+  expected: 'bi: ... wey'
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+  expected: bŒ ... wey
+---
+lemma: mí
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+    tense: aorist
+  expected: mŒ
+- features:
+    number: plural
+    person: first
+    tense: future
+  expected: mŒm
+- features:
+    number: plural
+    person: first
+    tense: imperfect
+  expected: m†
+- features:
+    number: plural
+    person: first
+    tense: perfect
+  expected: mÍ
+- features:
+    number: plural
+    person: second
+    tense: aorist
+  expected: kŒ ... -pl
+- features:
+    number: plural
+    person: second
+    tense: future
+  expected: kŒm ... -pl
+- features:
+    number: plural
+    person: second
+    tense: imperfect
+  expected: 'k†: ... -pl'
+- features:
+    number: plural
+    person: second
+    tense: perfect
+  expected: 'kÍ: ... -pl'
+- features:
+    number: plural
+    person: third
+    tense: aorist
+  expected: sŒ
+- features:
+    number: plural
+    person: third
+    tense: future
+  expected: sŒm
+- features:
+    number: plural
+    person: third
+    tense: imperfect
+  expected: s†
+- features:
+    number: plural
+    person: third
+    tense: perfect
+  expected: sÍ
+- features:
+    number: singular
+    person: first
+    tense: aorist
+  expected: a
+- features:
+    number: singular
+    person: first
+    tense: future
+  expected: am
+- features:
+    number: singular
+    person: first
+    tense: imperfect
+  expected: ámí
+- features:
+    number: singular
+    person: first
+    tense: perfect
+  expected: í
+- features:
+    number: singular
+    person: second
+    tense: aorist
+  expected: kŒ
+- features:
+    number: singular
+    person: second
+    tense: future
+  expected: kŒm
+- features:
+    number: singular
+    person: second
+    tense: imperfect
+  expected: kí
+- features:
+    number: singular
+    person: second
+    tense: perfect
+  expected: ká
+- features:
+    number: singular
+    person: third
+    tense: aorist
+  expected: tŒ
+- features:
+    number: singular
+    person: third
+    tense: future
+  expected: tŒm
+- features:
+    number: singular
+    person: third
+    tense: imperfect
+  expected: tí
+- features:
+    number: singular
+    person: third
+    tense: perfect
+  expected: tá
+---
+lemma: ámí
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: 'mi •á: ... wey'
+- features:
+    number: plural
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: 'ki •á: ... wey'
+- features:
+    number: plural
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: 'si •á: ... wey'
+- features:
+    number: singular
+    person: first
+    polarity: negative
+    tense: imperfect
+  expected: 'ámí •á: ... wey'
+- features:
+    number: singular
+    person: second
+    polarity: negative
+    tense: imperfect
+  expected: 'kí •á: ... wey'
+- features:
+    number: singular
+    person: third
+    polarity: negative
+    tense: imperfect
+  expected: 'tí •á: ... wey'

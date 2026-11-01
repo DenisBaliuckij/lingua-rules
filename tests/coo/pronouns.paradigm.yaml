@@ -1,0 +1,27 @@
+lemma: ?Ac
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ?Ams
+- features:
+    number: plural
+    person: second
+  expected: Ap
+- features:
+    number: plural
+    person: third
+  expected: s
+- features:
+    number: singular
+    person: first
+  expected: ?Ac
+- features:
+    number: singular
+    person: second
+  expected: ?An I ?As
+- features:
+    number: singular
+    person: third
+  expected: s

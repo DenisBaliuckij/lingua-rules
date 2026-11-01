@@ -1,0 +1,83 @@
+lemma: ili
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ili
+---
+lemma: li
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: li
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ni
+- features:
+    number: singular
+    person: first
+  expected: mi
+---
+lemma: oni
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: oni
+---
+lemma: si
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ni
+- features:
+    number: singular
+    person: first
+  expected: mi
+- features:
+    number: singular
+    person: second
+  expected: vi
+- features:
+    number: singular
+    person: third
+  expected: si
+---
+lemma: vi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: vi
+- features:
+    number: singular
+    person: second
+  expected: vi
+---
+lemma: ĝi
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: ĝi
+---
+lemma: ŝi
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: ŝi

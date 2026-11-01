@@ -1,0 +1,106 @@
+lemma: k-á:ris
+category: verbs
+cases:
+- features:
+    aspect: habitual
+  expected: ká:ris
+- features:
+    aspect: perfective
+  expected: ió:ri
+- features:
+    tense: future
+  expected: enká:ri
+---
+lemma: katshókwas
+category: verbs
+cases:
+- features:
+    aspect: habitual
+  expected: katshókwas
+- features:
+    aspect: habitual
+    mood: optative
+  expected: akatshó:ko
+- features:
+    aspect: habitual
+    tense: future
+  expected: enkatshó:ko
+- features:
+    aspect: habitual
+    tense: past
+  expected: katshókwaskwe
+- features:
+    tense: past
+  expected: wa'katshó:ko
+---
+lemma: nuhwe?n
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    person: first
+  expected: kenu:we?s
+- features:
+    mood: imperative
+    person: second
+  expected: senu:we?n
+- features:
+    mood: indicative
+    person: first
+  expected: wakenuhwe:?u
+---
+lemma: raráthens
+category: verbs
+cases:
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: karáthens
+- features:
+    number: dual
+    person: first
+  expected: teniráthens
+- features:
+    number: dual
+    person: third
+  expected: niráthens
+- features:
+    number: plural
+    person: first
+  expected: tewaráthens
+- features:
+    number: plural
+    person: third
+  expected: ratiráthens
+- features:
+    number: singular
+    person: first
+  expected: keráthens
+- features:
+    number: singular
+    person: second
+  expected: seráthens
+- features:
+    number: singular
+    person: third
+  expected: raráthens
+---
+lemma: yvtho
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    person: first
+  expected: ky\A:hos
+- features:
+    mood: indicative
+    person: first
+  expected: wakyvthu
+- features:
+    mood: indicative
+    person: first
+    tense: future
+  expected: vkyvtho?

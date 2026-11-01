@@ -1,0 +1,141 @@
+lemma: an
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: an
+---
+lemma: an-hi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: shi-hi
+- features:
+    number: dual
+    person: second
+  expected: shi-hi
+- features:
+    number: dual
+    person: third
+  expected: fri-hi
+- features:
+    number: plural
+    person: first
+  expected: ni-hi
+- features:
+    number: plural
+    person: second
+  expected: ji-hi
+- features:
+    number: plural
+    person: third
+  expected: li-hi
+- features:
+    number: singular
+    person: first
+  expected: an-hi
+- features:
+    number: singular
+    person: second
+  expected: mi-hi
+- features:
+    number: singular
+    person: third
+  expected: si-hi
+---
+lemma: frir
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: frir
+---
+lemma: jir
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: jir
+---
+lemma: kar
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: kap
+- features:
+    number: plural
+  expected: kal
+- features:
+    number: singular
+  expected: kar
+---
+lemma: lar
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: lap
+- features:
+    number: plural
+  expected: lal
+- features:
+    number: singular
+  expected: lar
+---
+lemma: lir
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: lir
+---
+lemma: mir
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: mir
+---
+lemma: nir
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nir
+---
+lemma: nyir
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: nyir
+---
+lemma: shir
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: shir
+- features:
+    number: dual
+    person: second
+  expected: shir
+---
+lemma: sir
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: sir

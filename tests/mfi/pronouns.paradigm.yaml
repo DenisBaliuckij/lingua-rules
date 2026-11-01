@@ -1,0 +1,27 @@
+lemma: rwà
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: myà
+- features:
+    number: plural
+    person: second
+  expected: kùrè
+- features:
+    number: plural
+    person: third
+  expected: tàrè
+- features:
+    number: singular
+    person: first
+  expected: rwà
+- features:
+    number: singular
+    person: second
+  expected: ŋà
+- features:
+    number: singular
+    person: third
+  expected: rà

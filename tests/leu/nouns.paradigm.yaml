@@ -1,0 +1,29 @@
+lemma: lak
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: rafulak
+- features:
+    number: singular
+  expected: lak
+---
+lemma: tefin
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: lutefin
+- features:
+    number: singular
+  expected: tefin
+---
+lemma: vaat
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: rovaat
+- features:
+    number: plural
+  expected: tuvaat

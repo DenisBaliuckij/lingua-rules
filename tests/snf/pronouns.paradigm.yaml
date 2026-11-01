@@ -1,0 +1,31 @@
+lemma: më
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ɗúú
+- features:
+    number: plural
+    person: second
+  expected: ɗuu
+- features:
+    number: singular
+    person: first
+  expected: më
+- features:
+    number: singular
+    person: second
+  expected: fë
+---
+lemma: wada
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: cada
+- features:
+    case: nominative
+    number: singular
+  expected: wada

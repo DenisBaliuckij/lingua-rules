@@ -1,0 +1,41 @@
+lemma: kaɾ
+category: adjectives
+cases:
+- features:
+    number: plural
+  expected: kaɾ-kaɾ
+- features:
+    number: singular
+  expected: kaɾ
+---
+lemma: kɾi
+category: adjectives
+cases:
+- features:
+    number: plural
+  expected: kikɾi
+- features:
+    number: singular
+  expected: kɾi
+---
+lemma: vyɾ
+category: adjectives
+cases:
+- features:
+    number: plural
+  expected: vœɾ-vœɾ
+- features:
+    number: singular
+  expected: vyɾ
+---
+lemma: ð-a-ð
+category: adjectives
+cases:
+- features:
+    definiteness: definite
+    number: dual
+  expected: ð-ɒɾ
+- features:
+    definiteness: definite
+    number: singular
+  expected: ð-a-ð
