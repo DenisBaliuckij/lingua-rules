@@ -1,0 +1,417 @@
+lemma: eu
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: vocês-dois
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nos
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: vocês-muito
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: eles
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: eu
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: você
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ele
+---
+lemma: k•³
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: k•³
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: ain¹k•³
+---
+lemma: k•³sxa³
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: k•³sxa³
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: ain¹k•³sxa³
+---
+lemma: mim
+category: pronouns
+cases:
+- features:
+    case: oblique
+    number: dual
+    person: second
+  expected: vocês-dois
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: nos
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: vocês-muito
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: eles
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: mim
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: você
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: ele
+---
+lemma: nxa²hxa³
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: ain¹nxa³
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nx²ti³nxa³
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: nxa²hxa³
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: nxa³
+---
+lemma: sain¹
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: sain¹
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nyhain¹
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: sain¹sæn¹
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: nxain¹
+---
+lemma: sai¹nxa³
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: sai¹nxa³
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nhyai¹nxa³
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: sain¹sæ¹nxa³
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: nxai¹nxa³
+---
+lemma: san¹
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: ai¹næn¹
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: san¹sæn¹
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: san¹
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: in¹
+---
+lemma: sa³
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: sa²sæn¹
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nhya¹
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: nx²ti³
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: nhyain¹
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: sa³
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: nxa²
+---
+lemma: sxn³
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: ain¹nxãn³
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: san¹sæn¹nxãn³
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: sxn³
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: nxãn³
+---
+lemma: syah³lin¹
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: syah³lin¹
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: syah³lin¹sæn¹
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: ain¹yah³lin¹
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: yah³lin¹
+---
+lemma: syah¹lxan³
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: syah¹lxan³
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: syah³lxan³
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: yah²lxan³
+---
+lemma: sya²hxan³
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: sya²hxan³
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: sya³hin¹sæn¹nxa³
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: ain¹ya²hxan³
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: ya²hxan³
+---
+lemma: sya³hin¹
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: sya³hin¹
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: sya³hin¹sæn¹
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: ain¹ya³hin¹
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: ya³hin¹
+---
+lemma: sãn²nxa³
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: sa²sæ¹nxa³
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nhya¹nxa³
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: nx³ti³xa³
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: nhyai¹nxa³
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: sãn²nxa³
+---
+lemma: sæn¹nxa²ha¹
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: sæn¹nxa²ha¹
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: sæn¹nx²ta¹
+---
+lemma: sæn¹nxa²hxa³
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: sæn¹nxa²hxa³
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: sæn¹nx²ti³nxa³
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: ain¹sæn¹nxa³
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: sæ¹nxa³

@@ -1,0 +1,31 @@
+lemma: naa
+category: articles
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: naa
+---
+lemma: ni
+category: articles
+cases:
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: ni
+---
+lemma: se
+category: articles
+cases:
+- features:
+    definiteness: indefinite
+    number: singular
+  expected: se
+---
+lemma: te
+category: articles
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: te

@@ -1,0 +1,61 @@
+lemma: juy
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: joqqQn
+- features:
+    number: plural
+  expected: jUyQt
+- features:
+    number: singular
+  expected: juy
+---
+lemma: qul
+category: nouns
+cases:
+- features:
+    number: dual
+    possessor_number: singular
+    possessor_person: first
+  expected: qulgylgm
+- features:
+    number: dual
+    possessor_number: singular
+    possessor_person: second
+  expected: qulgylgn
+- features:
+    number: dual
+    possessor_number: singular
+    possessor_person: third
+  expected: qulgygl
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: quligm
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: qulign
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: qulgllg
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: qulgm
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: qul
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: qulp-gl

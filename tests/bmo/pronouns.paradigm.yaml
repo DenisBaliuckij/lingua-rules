@@ -1,0 +1,109 @@
+lemma: mmù
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: pɔ̀gɔ̂
+- features:
+    number: dual
+    person: second
+  expected: pə̌ɨ
+- features:
+    number: dual
+    person: third
+  expected: púgú
+- features:
+    number: plural
+    person: first
+  expected: pìgǐ
+- features:
+    number: plural
+    person: second
+  expected: pə̌ɨ
+- features:
+    number: plural
+    person: third
+  expected: púgú
+- features:
+    number: singular
+    person: first
+  expected: mmù
+- features:
+    number: singular
+    person: second
+  expected: gɔ̀
+- features:
+    number: singular
+    person: third
+  expected: jú
+---
+lemma: Ń
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: pɔ̀ɡɔ̌
+- features:
+    number: dual
+    person: second
+  expected: pə̌ɨ
+- features:
+    number: dual
+    person: third
+  expected: púɡú
+- features:
+    number: plural
+    person: first
+  expected: pìɡǐ
+- features:
+    number: plural
+    person: third
+  expected: pí
+- features:
+    number: singular
+    person: first
+  expected: Ń
+- features:
+    number: singular
+    person: second
+  expected: ɔ̀
+- features:
+    number: singular
+    person: third
+  expected: ɑ̀
+---
+lemma: ɑ́
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: vúɡú
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: ví
+- features:
+    number: dual
+    person: first
+  expected: vɔ́gɔ̌
+- features:
+    number: dual
+    person: second
+  expected: və́ɨ
+- features:
+    number: plural
+    person: first
+  expected: víɡí
+- features:
+    number: singular
+    person: first
+  expected: ɑ́
+- features:
+    number: singular
+    person: second
+  expected: ɡhɔ́

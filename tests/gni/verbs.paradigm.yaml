@@ -1,0 +1,75 @@
+lemma: +bini
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: future
+  expected: +janbini
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: future
+  expected: +nggiddinybini
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: future
+  expected: +nginybini
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+  expected: +jiddinybini
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: +jiddinyboo
+- features:
+    number: plural
+    person: second
+  expected: +nggiddinyboo
+- features:
+    number: plural
+    person: third
+  expected: +biddini
+- features:
+    number: singular
+    person: first
+  expected: +nginyboo
+- features:
+    number: singular
+    person: second
+  expected: +jinboo
+- features:
+    number: singular
+    person: third
+  expected: +binboo
+---
+lemma: ward
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wardngiri
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: wardginggiri
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: wardgiri

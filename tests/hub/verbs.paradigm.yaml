@@ -1,0 +1,67 @@
+lemma: a
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: a-ia-hi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: a-ia-rumɨ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: a-ara-maji
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: a-ia-ha-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: a-ia-mɨ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: a-ia-ji
+---
+lemma: puha
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: puha-ku-ri-ni̱
+- features:
+    number: plural
+    person: second
+  expected: puha-ku-rumi-ni̱
+- features:
+    number: plural
+    person: third
+  expected: puhu-ina-ku-i̱
+- features:
+    number: singular
+    person: first
+  expected: puha-ku-i̱
+- features:
+    number: singular
+    person: second
+  expected: puha-ku-mi-ni̱
+- features:
+    number: singular
+    person: third
+  expected: puha-ku-i̱

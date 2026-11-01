@@ -1,0 +1,56 @@
+class	features	strip_front	prefix	strip	ending	source	note
+ze_type	number=dual;person=first	0		2	satee?e	doc 91174 p. 145	zé -> satee?e
+ze_type	number=dual;person=second	0		2	katee?e	doc 91174 p. 145	zé -> katee?e
+ze_type	number=dual;person=third	0		2	cee?e	doc 91174 p. 145	zé -> cee?e
+ze_type	number=plural;person=first	0		2	satee?esi	doc 91174 p. 145	zé -> satee?esi
+ze_type	number=plural;person=second	0		2	katee?esi	doc 91174 p. 145	zé -> katee?esi
+ze_type	number=plural;person=third	0		2	cee?esi	doc 91174 p. 145	zé -> cee?esi
+ze_type	number=singular;person=first	0		2	sadé	doc 91174 p. 145	zé -> sadé
+ze_type	number=singular;person=second	0		2	kadé	doc 91174 p. 145	zé -> kadé
+ze_type	number=singular;person=third	0		0		doc 91174 p. 145	zé -> zé
+ra_type	number=dual;person=first	0		2	sa?á	doc 91174 p. 146	řá -> sa?á
+ra_type	number=dual;person=second	0		2	kaza?á	doc 91174 p. 146	řá -> kaza?á
+ra_type	number=dual;person=third	0		2	ga?á	doc 91174 p. 146	řá -> ga?á
+ra_type	number=plural;person=first	0		2	sáasi	doc 91174 p. 146	řá -> sáasi
+ra_type	number=plural;person=second	0		2	kacáasi	doc 91174 p. 146	řá -> kacáasi
+ra_type	number=plural;person=third	0		2	lcaasi	doc 91174 p. 146	řá -> lcaasi
+ra_type	number=singular;person=first	0		2	sá	doc 91174 p. 146	řá -> sá
+ra_type	number=singular;person=second	0		2	kazá	doc 91174 p. 146	řá -> kazá
+ra_type	number=singular;person=third	0		2	&á	doc 91174 p. 146	řá -> &á
+sla_type	number=dual;person=first	0		2	kaa?a	doc 91174 p. 145	slá -> skaa?a
+sla_type	number=dual;person=third	0		3	caaa?a	doc 91174 p. 145	slá -> caaa?a
+sla_type	number=plural;person=first	0		2	kai?i	doc 91174 p. 145	slá -> skai?i
+sla_type	number=plural;person=third	0		3	caii?i	doc 91174 p. 145	slá -> caii?i
+sla_type	number=singular;person=first	0		2	íá	doc 91174 p. 145	slá -> síá
+sla_type	number=singular;person=second	0		3	kadá	doc 91174 p. 145	slá -> kadá
+sla_type	number=singular;person=third	0		3	cá	doc 91174 p. 145	slá -> cá
+uyuutha_type	mood=indicative;number=singular;person=first	0	s	2	^A	doc 388484 p. 91	uyuUthA -> suyuUt^A
+uyuutha_type	mood=indicative;number=singular;person=second	0	s	2	^A	doc 388484 p. 91	uyuUthA -> suyuUt^A
+uyuutha_type	mood=indicative;number=singular;person=third	0	k?	0		doc 388484 p. 91	uyuUthA -> k?uyuUthA
+uyuutha_type	number=singular;person=first;polarity=negative	0	sk	2	^A	doc 388484 p. 91	uyuUthA -> skuyuUt^A
+uyuutha_type	number=singular;person=second	0	p	2	^A	doc 388484 p. 91	uyuUthA -> puyuUt^A
+uyuutha_type	number=singular;person=third	0	ty	0		doc 388484 p. 91	uyuUthA -> tyuyuUthA
+slaaci_type	number=dual;person=first	0		5	kaa?aci	doc 91174 p. 145	sláaci -> skaa?aci
+slaaci_type	number=dual;person=third	3	caa'	0		doc 91174 p. 145	sláaci -> caa'aci
+slaaci_type	number=singular;person=first	0		4	caaci	doc 91174 p. 145	sláaci -> slcaaci
+slaaci_type	number=singular;person=second	3	kaza	0		doc 91174 p. 145	sláaci -> kazaaci
+slaaci_type	number=singular;person=third	3	caa	0		doc 91174 p. 145	sláaci -> caaaci
+ukhacan_type	mood=indicative;number=singular;person=first	3	siuk^	1		doc 388484 p. 91	ukhacAn -> siuk^acA
+ukhacan_type	mood=indicative;number=singular;person=second	3	tYuk^	1		doc 388484 p. 91	ukhacAn -> tYuk^acA
+ukhacan_type	mood=indicative;number=singular;person=third	3	ciuk^	1		doc 388484 p. 91	ukhacAn -> ciuk^acA
+ukhacan_type	number=singular;person=third	3	styuk	1		doc 388484 p. 91	ukhacAn -> styukacA
+ci_type	person=first	0		2	si	doc 91174 p. 142	ci -> si
+ci_type	person=second	0		2	si	doc 91174 p. 142	ci -> si
+ci_type	person=third	0		0		doc 91174 p. 142	ci -> ci
+ka_type	person=first	0		2	se	doc 91174 p. 142	ka -> se
+ka_type	person=second	0		2	sa	doc 91174 p. 142	ka -> sa
+ka_type	person=third	0		0		doc 91174 p. 142	ka -> ka
+kacha_type	mood=indicative;number=singular;person=first;tense=past	0	siu	0		doc 388913 p. 174	kacha -> siukacha
+kacha_type	mood=indicative;number=singular;person=second;tense=past	0	sru	0		doc 388913 p. 174	kacha -> srukacha
+kacha_type	mood=indicative;number=singular;person=third;tense=past	0	gu	0		doc 388913 p. 174	kacha -> gukacha
+ku_type	person=first	0		2	se	doc 91174 p. 143	ku -> se
+ku_type	person=second	0		2	su	doc 91174 p. 143	ku -> su
+ku_type	person=third	0		0		doc 91174 p. 143	ku -> ku
+se_type	person=first	0		0		doc 91174 p. 142	sé -> sé
+se_type	person=second	0		2	šá	doc 91174 p. 142	sé -> šá
+se_type	person=third	0		2	zá	doc 91174 p. 142	sé -> zá

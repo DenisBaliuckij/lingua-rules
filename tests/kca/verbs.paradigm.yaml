@@ -1,0 +1,214 @@
+lemma: mən
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: men-l-eməm
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: mən-l-ətən
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: mən-l-əyən
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: men-l-oy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mən-l-əty
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: mən-l-ət
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: men-l-əm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: men--ən
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mənwəl
+- features:
+    number: dual
+    person: first
+  expected: men-əmən
+- features:
+    number: dual
+    person: second
+  expected: men-ətən
+- features:
+    number: dual
+    person: third
+  expected: mənəyən
+- features:
+    number: plural
+    person: first
+  expected: men-oy
+- features:
+    number: plural
+    person: second
+  expected: men-əty
+- features:
+    number: plural
+    person: third
+  expected: mənət
+- features:
+    number: singular
+    person: first
+  expected: men-əm
+- features:
+    number: singular
+    person: second
+  expected: menən
+- features:
+    number: singular
+    person: third
+  expected: mən
+---
+lemma: por
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+    voice: passive
+  expected: porujm
+- features:
+    number: dual
+    person: second
+    voice: passive
+  expected: poruj
+- features:
+    number: plural
+    person: first
+    voice: passive
+  expected: porujoy
+- features:
+    number: plural
+    person: second
+    voice: passive
+  expected: porujt
+- features:
+    number: plural
+    person: third
+    voice: passive
+  expected: porat
+- features:
+    number: singular
+    person: first
+    voice: passive
+  expected: poruj
+- features:
+    number: singular
+    person: second
+    voice: passive
+  expected: porujgn
+- features:
+    number: singular
+    person: third
+    voice: passive
+  expected: porI
+---
+lemma: we
+category: verbs
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: wel-s-im
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: wel-s
+- features:
+    case: accusative
+    number: dual
+    person: third
+  expected: wel-s
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: wel-s-im
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: wel-s
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: wel-s
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: wel-s-im
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: wel-s-in
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: wel-s
+---
+lemma: wel
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: wel-s-uy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: wel-s-tyn
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: wel-s-il

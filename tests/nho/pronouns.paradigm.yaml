@@ -1,0 +1,63 @@
+lemma: nau
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: taaua
+- features:
+    number: dual
+    person: second
+  expected: koorua
+- features:
+    number: dual
+    person: third
+  expected: laaua
+- features:
+    number: plural
+    person: first
+  expected: taatou
+- features:
+    number: plural
+    person: second
+  expected: kootou
+- features:
+    number: plural
+    person: third
+  expected: laatou
+- features:
+    number: singular
+    person: first
+  expected: nau
+- features:
+    number: singular
+    person: second
+  expected: koe
+- features:
+    number: singular
+    person: third
+  expected: ia
+---
+lemma: taaua
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: taaua
+- features:
+    number: dual
+    person: second
+  expected: koorua
+- features:
+    number: dual
+    person: third
+  expected: raaua
+- features:
+    number: plural
+    person: first
+  expected: taatou
+- features:
+    number: plural
+    person: third
+  expected: raatou
