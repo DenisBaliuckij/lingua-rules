@@ -1,0 +1,60 @@
+lemma: gen
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: yakegen
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: nyekegen
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: megen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ydgen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: nyinddgen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: nyegen
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: ydgen
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: nyigen
+- features:
+    polarity: affirmative
+    verb_form: infinitive
+  expected: rpgen

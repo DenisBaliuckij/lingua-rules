@@ -1,0 +1,47 @@
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: naji-ni-mi
+- features:
+    number: plural
+    person: first
+  expected: nanijəmmla
+- features:
+    number: singular
+    person: first
+  expected: na
+---
+lemma: nəŋ
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: n əji-ni-mi
+- features:
+    number: plural
+    person: second
+  expected: nə ni-j əmmla
+- features:
+    number: singular
+    person: second
+  expected: nəŋ
+---
+lemma: əi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: ə cəi -ni-mi
+- features:
+    number: plural
+    person: third
+  expected: əi j əmma
+- features:
+    number: singular
+    person: third
+  expected: əi

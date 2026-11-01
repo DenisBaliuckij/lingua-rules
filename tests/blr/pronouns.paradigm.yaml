@@ -1,0 +1,47 @@
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: pa
+- features:
+    number: plural
+    person: second
+  expected: pɛ
+- features:
+    number: singular
+    person: second
+  expected: mi
+---
+lemma: ʔɤn
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: ka
+- features:
+    number: plural
+    person: third
+  expected: kɛ
+- features:
+    number: singular
+    person: third
+  expected: ʔɤn
+---
+lemma: ʔɯ
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ʔa
+- features:
+    number: plural
+    person: first
+  expected: ʔɛ
+- features:
+    number: singular
+    person: first
+  expected: ʔɯ

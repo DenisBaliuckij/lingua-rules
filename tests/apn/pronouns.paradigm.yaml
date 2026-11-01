@@ -1,0 +1,56 @@
+lemma: pa
+category: pronouns
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: pu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: pa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: ka
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: m
+- features:
+    number: singular
+    person: first
+  expected: pa
+- features:
+    number: singular
+    person: first
+    tense: future
+  expected: paz
+---
+lemma: paj
+category: pronouns
+cases:
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+  expected: puj
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: paj
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: kaj
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: ja

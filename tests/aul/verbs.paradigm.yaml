@@ -1,0 +1,40 @@
+lemma: pen
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+    voice: active
+  expected: antuaruaturpen
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: oronruaorpen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: amuntulmulpen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nepen
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: upen
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tipen

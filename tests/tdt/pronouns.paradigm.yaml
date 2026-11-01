@@ -1,0 +1,52 @@
+lemma: ami
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ami
+---
+lemma: hau
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: hau
+---
+lemma: imi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: imi
+---
+lemma: ita
+category: pronouns
+cases:
+- features:
+    formality: formal
+    number: singular
+    person: second
+  expected: ita
+- features:
+    number: plural
+    person: first
+  expected: ita
+---
+lemma: nia
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: nia
+---
+lemma: sira
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: sira

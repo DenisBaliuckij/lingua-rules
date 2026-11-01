@@ -1,0 +1,59 @@
+lemma: amoro
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: amoro
+---
+lemma: ao
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ao
+---
+lemma: bukuya
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: hukuya
+- features:
+    number: singular
+    person: second
+  expected: bukuya
+---
+lemma: likuya
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: likuya
+---
+lemma: nukuya
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: wakuya
+- features:
+    number: singular
+    person: first
+  expected: nukuya
+---
+lemma: tukuya
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: nhakuya
+- features:
+    number: singular
+    person: third
+  expected: tukuya

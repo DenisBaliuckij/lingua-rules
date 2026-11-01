@@ -1,0 +1,52 @@
+lemma: mMh&m
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: mMh&m
+---
+lemma: m^
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: m^m
+- features:
+    number: plural
+  expected: mMsu
+- features:
+    number: singular
+  expected: m^
+---
+lemma: t%
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: t^m
+- features:
+    number: plural
+  expected: tasu
+- features:
+    number: singular
+  expected: t%
+---
+lemma: t^hlLm
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: t^hlLm
+---
+lemma: yakam
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: yakamsu
+- features:
+    number: plural
+  expected: yakamhSlm
+- features:
+    number: singular
+  expected: yakam

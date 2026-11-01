@@ -1,0 +1,35 @@
+lemma: kema
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kedaima
+- features:
+    number: dual
+    person: second
+  expected: kenadaima
+- features:
+    number: dual
+    person: third
+  expected: mindadaima
+- features:
+    number: plural
+    person: first
+  expected: kesaama
+- features:
+    number: plural
+    person: second
+  expected: kenadawaqa
+- features:
+    number: singular
+    person: first
+  expected: kema
+- features:
+    number: singular
+    person: second
+  expected: ema
+- features:
+    number: singular
+    person: third
+  expected: kwema

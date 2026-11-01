@@ -1,0 +1,31 @@
+lemma: kɛ²⁴
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: kɛ²⁴ɕiɛ⁵³
+- features:
+    definiteness: definite
+    number: singular
+  expected: kɛ²⁴
+---
+lemma: ŋo²¹
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ŋo²¹ŋən³³
+- features:
+    number: plural
+    person: second
+  expected: li²¹ŋən³³
+- features:
+    number: singular
+    person: first
+  expected: ŋo²¹
+- features:
+    number: singular
+    person: second
+  expected: li²¹

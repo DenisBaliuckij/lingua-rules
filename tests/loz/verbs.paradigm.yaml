@@ -1,0 +1,27 @@
+lemma: lek-a
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    polarity: affirmative
+  expected: lek-e-li
+- features:
+    mood: imperative
+    number: plural
+    polarity: negative
+  expected: si-lek-e-li
+- features:
+    mood: imperative
+    number: singular
+    polarity: affirmative
+  expected: lek-a
+- features:
+    mood: imperative
+    number: singular
+    polarity: negative
+  expected: si-lek-i
+- features:
+    polarity: affirmative
+    verb_form: infinitive
+  expected: ku-...-a

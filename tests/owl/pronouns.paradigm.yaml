@@ -1,0 +1,23 @@
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ni
+- features:
+    number: plural
+    person: second
+  expected: hui
+- features:
+    number: singular
+    person: first
+  expected: mi
+- features:
+    number: singular
+    person: second
+  expected: ti
+- features:
+    number: singular
+    person: third
+  expected: em

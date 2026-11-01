@@ -1,0 +1,27 @@
+lemma: el
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: tuatseda
+- features:
+    number: plural
+    person: third
+  expected: tuneda
+- features:
+    number: singular
+    person: third
+  expected: tueda
+---
+lemma: usted
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: metseda
+- features:
+    number: plural
+    person: second
+  expected: micuaneda
