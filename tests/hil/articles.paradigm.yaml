@@ -1,0 +1,33 @@
+lemma: ang
+category: articles
+cases:
+- features:
+    number: singular
+  expected: ang
+---
+lemma: kay
+category: articles
+cases:
+- features:
+    number: plural
+  expected: kanday
+- features:
+    number: singular
+  expected: kay
+---
+lemma: sa
+category: articles
+cases:
+- features:
+    number: singular
+  expected: sa
+---
+lemma: si
+category: articles
+cases:
+- features:
+    number: plural
+  expected: sanday
+- features:
+    number: singular
+  expected: si

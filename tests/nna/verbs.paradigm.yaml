@@ -1,0 +1,162 @@
+lemma: nga
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: nganinyikinyi
+- features:
+    aspect: imperfective
+    tense: present
+  expected: ngana
+- features:
+    aspect: perfective
+    evidentiality: indirect
+    mood: indicative
+    tense: past
+  expected: nganamal
+- features:
+    aspect: perfective
+    tense: future
+  expected: ngaikuliny
+- features:
+    aspect: perfective
+    tense: past
+  expected: nganal
+- features:
+    evidentiality: indirect
+    mood: indicative
+    tense: past
+  expected: nganama
+- features:
+    mood: imperative
+  expected: ngaia
+- features:
+    mood: optative
+  expected: ngananyaku
+- features:
+    mood: potential
+  expected: ngaiku
+---
+lemma: paji
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: paji-lapa-layi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: paji-limi-nyi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: paji-lipi-yi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: paji-lama-rna
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: paji-lama-n
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: pajiikuliny
+---
+lemma: paji-RN 'bite
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: paji-rnikinya-Iayi
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: paji-rnikinya-li
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: paji-rnikinyi-yi
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: paji-rnikinyi-rni
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: paji-rnikinyi-n
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: paji-rnikinyi
+---
+lemma: wani
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: waninkinyi
+- features:
+    aspect: imperfective
+    tense: present
+  expected: waninyi
+- features:
+    aspect: perfective
+    evidentiality: indirect
+    mood: indicative
+    tense: past
+  expected: waninyamal
+- features:
+    aspect: perfective
+    tense: future
+  expected: wantuliny
+- features:
+    aspect: perfective
+    tense: past
+  expected: waninyinyal
+- features:
+    evidentiality: indirect
+    mood: indicative
+    tense: past
+  expected: waninyama
+- features:
+    evidentiality: indirect
+    mood: indicative
+    tense: present
+  expected: waninyaka
+- features:
+    mood: imperative
+  expected: wanta
+- features:
+    mood: optative
+  expected: waninyaku
+- features:
+    mood: potential
+  expected: wantu

@@ -1,0 +1,110 @@
+lemma: ak
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: odi
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: godi
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: go
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: hodi
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ho
+- features:
+    number: dual
+    person: first
+  expected: ǫkni
+- features:
+    number: dual
+    person: second
+  expected: sni
+- features:
+    number: plural
+    person: first
+  expected: ǫgwa
+- features:
+    number: plural
+    person: second
+  expected: swa
+- features:
+    number: singular
+    person: first
+  expected: ak
+- features:
+    number: singular
+    person: second
+  expected: sa
+---
+lemma: k
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: gadi
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: ga
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: gae
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: e
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: hadi
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ha
+- features:
+    number: dual
+    person: first
+  expected: kni
+- features:
+    number: dual
+    person: second
+  expected: sni
+- features:
+    number: plural
+    person: first
+  expected: dwa
+- features:
+    number: plural
+    person: second
+  expected: swa
+- features:
+    number: singular
+    person: first
+  expected: k
+- features:
+    number: singular
+    person: second
+  expected: s

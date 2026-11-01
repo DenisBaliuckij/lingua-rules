@@ -1,0 +1,469 @@
+lemma: bóo
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bómó-né
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ma-ye-bómo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ma-bé-mé-bóo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: me-bóó
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: mé-bómo
+---
+lemma: dzí
+category: verbs
+cases:
+- features:
+    mood: conditional
+    noun_class: class_10
+    number: plural
+    person: third
+  expected: ngé-é-dzíi
+- features:
+    mood: conditional
+    noun_class: class_11
+    number: plural
+    person: third
+  expected: ngé-á
+- features:
+    mood: conditional
+    noun_class: class_1
+    number: plural
+    person: third
+  expected: ngé-bé-dzíi
+- features:
+    mood: conditional
+    noun_class: class_1
+    number: singular
+    person: third
+  expected: ngé-á-dzíi
+- features:
+    mood: conditional
+    noun_class: class_2
+    number: plural
+    person: third
+  expected: ngé-bé-dzíi
+- features:
+    mood: conditional
+    noun_class: class_2
+    number: singular
+    person: third
+  expected: ngé-á-dzíi
+- features:
+    mood: conditional
+    noun_class: class_3
+    number: plural
+    person: third
+  expected: ngé-mí-dzíi
+- features:
+    mood: conditional
+    noun_class: class_3
+    number: singular
+    person: third
+  expected: ngé-ó-dzíi
+- features:
+    mood: conditional
+    noun_class: class_4
+    number: plural
+    person: third
+  expected: ngé-mí-dzíi
+- features:
+    mood: conditional
+    noun_class: class_4
+    number: singular
+    person: third
+  expected: ngé-ó-dzíi
+- features:
+    mood: conditional
+    noun_class: class_5
+    number: plural
+    person: third
+  expected: ngé-mé-dzíi
+- features:
+    mood: conditional
+    noun_class: class_5
+    number: singular
+    person: third
+  expected: ngé-á
+- features:
+    mood: conditional
+    noun_class: class_6
+    number: plural
+    person: third
+  expected: ngé-mé-dzíi
+- features:
+    mood: conditional
+    noun_class: class_6
+    number: singular
+    person: third
+  expected: ngé-á
+- features:
+    mood: conditional
+    noun_class: class_7
+    number: plural
+    person: third
+  expected: ngé-bí-dzíi
+- features:
+    mood: conditional
+    noun_class: class_7
+    number: singular
+    person: third
+  expected: ngé-é-dzíi
+- features:
+    mood: conditional
+    noun_class: class_8
+    number: plural
+    person: third
+  expected: ngé-bí-dzíi
+- features:
+    mood: conditional
+    noun_class: class_8
+    number: singular
+    person: third
+  expected: ngé-é-dzíi
+- features:
+    mood: conditional
+    noun_class: class_9
+    number: plural
+    person: third
+  expected: ngé-é-dzíi
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: ngé-bí-dzíi
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: ngé-mí-dzíi
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: ngé-médzíi
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: ñ-dzá-á
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: dzá-án
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: dzá-á
+- features:
+    mood: indicative
+    noun_class: class_10
+    number: plural
+    tense: future
+  expected: é-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_10
+    number: singular
+    tense: future
+  expected: e-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_11
+    number: plural
+    tense: future
+  expected: e
+- features:
+    mood: indicative
+    noun_class: class_11
+    number: singular
+    tense: future
+  expected: ó-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_1
+    number: plural
+    tense: future
+  expected: bé-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_1
+    number: singular
+    tense: future
+  expected: aa-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_2
+    number: plural
+    tense: future
+  expected: bé-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_2
+    number: singular
+    tense: future
+  expected: aa-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_3
+    number: plural
+    tense: future
+  expected: mí-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_3
+    number: singular
+    tense: future
+  expected: ó-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_4
+    number: plural
+    tense: future
+  expected: mí-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_4
+    number: singular
+    tense: future
+  expected: ó-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_5
+    number: plural
+    tense: future
+  expected: mé-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_5
+    number: singular
+    tense: future
+  expected: á
+- features:
+    mood: indicative
+    noun_class: class_6
+    number: plural
+    tense: future
+  expected: mé-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_6
+    number: singular
+    tense: future
+  expected: á
+- features:
+    mood: indicative
+    noun_class: class_7
+    number: plural
+    tense: future
+  expected: bí-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_7
+    number: singular
+    tense: future
+  expected: é-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_8
+    number: plural
+    tense: future
+  expected: bí-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_8
+    number: singular
+    tense: future
+  expected: é-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_9
+    number: plural
+    tense: future
+  expected: é-ee-dzí
+- features:
+    mood: indicative
+    noun_class: class_9
+    number: singular
+    tense: future
+  expected: e-ee-dzí
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: bí-ee-dzí
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: mí-ee-dzí
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: me-ee-dzí
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: wa-ye-dzí
+- features:
+    mood: subjunctive
+    noun_class: class_10
+    number: plural
+    person: third
+  expected: é-dzi
+- features:
+    mood: subjunctive
+    noun_class: class_10
+    number: singular
+    person: third
+  expected: eé-dzi
+- features:
+    mood: subjunctive
+    noun_class: class_11
+    number: plural
+    person: third
+  expected: á
+- features:
+    mood: subjunctive
+    noun_class: class_1
+    number: plural
+    person: third
+  expected: bé-dzi
+- features:
+    mood: subjunctive
+    noun_class: class_1
+    number: singular
+    person: third
+  expected: aá-dzi
+- features:
+    mood: subjunctive
+    noun_class: class_2
+    number: plural
+    person: third
+  expected: bé-dzi
+- features:
+    mood: subjunctive
+    noun_class: class_2
+    number: singular
+    person: third
+  expected: aá-dzi
+- features:
+    mood: subjunctive
+    noun_class: class_3
+    number: plural
+    person: third
+  expected: mí-dzi
+- features:
+    mood: subjunctive
+    noun_class: class_4
+    number: plural
+    person: third
+  expected: mí-dzi
+- features:
+    mood: subjunctive
+    noun_class: class_5
+    number: plural
+    person: third
+  expected: mé-dzi
+- features:
+    mood: subjunctive
+    noun_class: class_5
+    number: singular
+    person: third
+  expected: á
+- features:
+    mood: subjunctive
+    noun_class: class_6
+    number: plural
+    person: third
+  expected: mé-dzi
+- features:
+    mood: subjunctive
+    noun_class: class_6
+    number: singular
+    person: third
+  expected: á
+- features:
+    mood: subjunctive
+    noun_class: class_7
+    number: plural
+    person: third
+  expected: bí-dzi
+- features:
+    mood: subjunctive
+    noun_class: class_7
+    number: singular
+    person: third
+  expected: é-dzi
+- features:
+    mood: subjunctive
+    noun_class: class_8
+    number: plural
+    person: third
+  expected: bí-dzi
+- features:
+    mood: subjunctive
+    noun_class: class_8
+    number: singular
+    person: third
+  expected: é-dzi
+- features:
+    mood: subjunctive
+    noun_class: class_9
+    number: plural
+    person: third
+  expected: é-dzi
+- features:
+    mood: subjunctive
+    noun_class: class_9
+    number: singular
+    person: third
+  expected: eé-dzi
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: bí-dzi
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: mí-dzi
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: médzí
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: oó-dzi

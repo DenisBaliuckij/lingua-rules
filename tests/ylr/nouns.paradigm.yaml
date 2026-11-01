@@ -1,0 +1,54 @@
+lemma: mantha
+category: nouns
+cases:
+- features:
+    case: dative
+  expected: manthawu
+- features:
+    case: ergative
+  expected: manthaku
+- features:
+    case: locative
+  expected: manthaka
+- features:
+    case: nominative
+  expected: mantha
+---
+lemma: warri
+category: nouns
+cases:
+- features:
+    case: dative
+  expected: warrintha
+- features:
+    case: ergative
+  expected: warrinthu
+- features:
+    case: locative
+  expected: warringka
+- features:
+    case: nominative
+  expected: warri
+---
+lemma: yirri
+category: nouns
+cases:
+- features:
+    case: ablative
+  expected: yirringutangu
+- features:
+    case: ergative
+  expected: yirrinthu
+- features:
+    case: locative
+  expected: yirringuta
+---
+lemma: yuka
+category: nouns
+cases:
+- features:
+    case: ablative
+  expected: yukarlangu
+- features:
+    case: locative
+  expected: yukarla

@@ -1,0 +1,350 @@
+lemma: dire
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: dû’ti
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: dahtih
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: hœdûti
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: dintih
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: dûti
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ditil
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: désîtih
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: dahtil
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: dahtiîh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: hœcati]
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hètîh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: dessi[
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: déssin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: dinti]
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dintih
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: datil
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tîh
+---
+lemma: estcoc
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ediitcoc
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: esitcoc
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: edahtcoc
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ahtcoc
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ehdatcoc
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ehetcoc
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: edestcoc
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: estcoc
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: edintcoc
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: intcoc
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: edatcoc
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: etcoc
+---
+lemma: slin
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ahjin
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: nlin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sîtlin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ahjin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hillin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: deslé]
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: slin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: yinlée
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nlin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ilin
+---
+lemma: séstah
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: dital
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: sita
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sîtah
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: dahtal
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: yahta
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: sahtah
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: hœdatal
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: hîta
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: héstah
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: desta]
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: yesta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: sésthah
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: dintal
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: yinta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sintah
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: datal
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: yita
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: setah

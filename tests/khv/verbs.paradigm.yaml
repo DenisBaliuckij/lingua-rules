@@ -1,0 +1,59 @@
+lemma: gob
+category: verbs
+cases:
+- features:
+    case: locative
+    polarity: negative
+    verb_form: converb
+  expected: gobizaha
+- features:
+    mood: conditional
+    polarity: negative
+    verb_form: converb
+  expected: gobi-Lo
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: gobi
+- features:
+    polarity: negative
+    tense: present
+    verb_form: participle
+  expected: gobiso
+- features:
+    polarity: negative
+    verb_form: converb
+  expected: gobiU
+---
+lemma: gol
+category: verbs
+cases:
+- features:
+    case: locative
+    polarity: affirmative
+    verb_form: converb
+  expected: golzaha
+- features:
+    mood: conditional
+    polarity: affirmative
+    verb_form: converb
+  expected: golLo
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: present
+  expected: goli
+- features:
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: gollu
+- features:
+    polarity: affirmative
+    verb_form: converb
+  expected: golaS’a
+- features:
+    polarity: affirmative
+    verb_form: verbal_noun
+  expected: golnu

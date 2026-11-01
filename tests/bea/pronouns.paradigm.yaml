@@ -1,0 +1,131 @@
+lemma: I
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: I
+---
+lemma: he
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: he
+---
+lemma: herself
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: herself
+---
+lemma: himself
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: himself
+---
+lemma: it
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: it
+---
+lemma: itself
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: itself
+---
+lemma: myself
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: myself
+---
+lemma: oneself
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: oneself
+---
+lemma: ourselves
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ourselves
+---
+lemma: she
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: she
+---
+lemma: themselves
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: themselves
+---
+lemma: they
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: they
+---
+lemma: we
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: we
+---
+lemma: you
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: you
+- features:
+    number: singular
+    person: second
+  expected: you
+---
+lemma: yourself
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: yourself
+---
+lemma: yourselves
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: yourselves

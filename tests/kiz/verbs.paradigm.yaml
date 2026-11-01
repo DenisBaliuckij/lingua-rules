@@ -1,0 +1,203 @@
+lemma: baa
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: baa
+- features:
+    aspect: habitual
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: bee
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: affirmative
+  expected: baa
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: negative
+  expected: bee
+- features:
+    polarity: affirmative
+  expected: baa
+- features:
+    polarity: negative
+  expected: bee
+---
+lemma: cimbOO
+category: verbs
+cases:
+- features:
+    mood: imperative
+    polarity: affirmative
+  expected: cimbu
+- features:
+    verb_form: infinitive
+  expected: cimbOO
+---
+lemma: cimbu
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    tense: present
+  expected: cimbü
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: cimbü
+- features:
+    mood: optative
+  expected: cimbü
+- features:
+    tense: past
+  expected: cimbü
+---
+lemma: diondu
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: diondu
+- features:
+    aspect: habitual
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: dindu
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: affirmative
+  expected: dendu
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: negative
+  expected: dindu
+- features:
+    polarity: affirmative
+  expected: diondu
+- features:
+    polarity: negative
+  expected: diandu
+---
+lemma: kiol
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    tense: present
+  expected: kiäl
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: ökel
+- features:
+    mood: optative
+  expected: kiol
+- features:
+    tense: past
+  expected: kiäl
+---
+lemma: kiolOO
+category: verbs
+cases:
+- features:
+    mood: imperative
+    polarity: affirmative
+  expected: kiol
+- features:
+    verb_form: infinitive
+  expected: kiolOO
+---
+lemma: mal
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mal
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: mal
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: mal
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mal
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: mal
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: mal
+---
+lemma: som
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: soam
+- features:
+    aspect: habitual
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: sem
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: affirmative
+  expected: sem
+- features:
+    aspect: perfective
+    mood: indicative
+    polarity: negative
+  expected: sem
+- features:
+    polarity: affirmative
+  expected: som
+- features:
+    polarity: negative
+  expected: soam

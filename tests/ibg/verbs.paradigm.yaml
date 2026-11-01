@@ -1,0 +1,610 @@
+lemma: ama
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: amábamos
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: amamos
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: amabais
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: amáis
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: amaban
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: aman
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: amaba
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: amé
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: amabas
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: amaste
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: amaba
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: amó
+---
+lemma: ammuan
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: ammuc
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: ammum
+---
+lemma: anduvir
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: future
+  expected: anduviéremos
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: anduviéramos
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: future
+  expected: anduviereis
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: anduvieseis
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: future
+  expected: anduvieren
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: anduvieran
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: future
+  expected: anduviere
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: anduviera
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: future
+  expected: anduvieres
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: anduvieras
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: future
+  expected: anduviere
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: anduviera
+---
+lemma: caber
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: cupierais
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: cupiera
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: cupieras
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: cupiera
+---
+lemma: dar
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future_perfect
+  expected: diéremos
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: diéramos
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future_perfect
+  expected: diereis
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: dierais
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future_perfect
+  expected: dieren
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: dieran
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future_perfect
+  expected: diere
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: diera
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future_perfect
+  expected: dieres
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: dieras
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: diere
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: diera
+---
+lemma: maccálap
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: maecalapae
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: present
+  expected: maccalapa-c
+---
+lemma: maggáyara
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: present
+  expected: maggayama-c
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: magayamca
+---
+lemma: oír
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: oigamos
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: oigan
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: oye
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: oírnos
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: oís
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: oyen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: oigo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: oyes
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: oye
+---
+lemma: subir
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: subiremos
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: subíamos
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: subimos
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: subimos
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: subiréis
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: subíais
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: subís
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: subisteis
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: subían
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: suben
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: subieron
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: subiré
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: subía
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: subo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: subí
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: subirás
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: subías
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: subes
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: subiste
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: subirá
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: subía
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: sube
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: subió
+---
+lemma: temer
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: temiéramos
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: temierais
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: teniera
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: temieras
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: temiera
+---
+lemma: traer
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future_perfect
+  expected: trageres
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+  expected: tragcre
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: tragáramos
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: traigamos
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: tragérais
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: traigáis
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: trageran
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: traigan
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: trageras
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: traigas
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: imperfect
+  expected: tragera
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: traiga

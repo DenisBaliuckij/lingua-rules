@@ -1,0 +1,27 @@
+lemma: na
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nammë
+- features:
+    number: plural
+    person: second
+  expected: nal
+- features:
+    number: plural
+    person: third
+  expected: nat
+- features:
+    number: singular
+    person: first
+  expected: nan
+- features:
+    number: singular
+    person: second
+  expected: nat
+- features:
+    number: singular
+    person: third
+  expected: nas

@@ -1,0 +1,33 @@
+lemma: agen
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: ezen
+- features:
+    number: singular
+  expected: agen
+---
+lemma: akhigbhan
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: dkhiabhan
+- features:
+    number: singular
+  expected: akhigbhan
+---
+lemma: oko
+category: nouns
+cases:
+- features:
+    case: prepositional
+    number: singular
+  expected: okhifo
+- features:
+    number: plural
+  expected: liamio
+- features:
+    number: singular
+  expected: hd

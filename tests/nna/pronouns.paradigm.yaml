@@ -1,0 +1,387 @@
+lemma: jana
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: janinyi
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: janaku
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: jana
+---
+lemma: ngaju
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: dual
+    person: first
+  expected: ngali
+- features:
+    case: absolutive
+    number: plural
+    person: first
+  expected: nganyjurru
+- features:
+    case: absolutive
+    number: singular
+    person: first
+  expected: ngaju
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: ngaliku
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: nganyjurruku
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: ngajuku
+- features:
+    case: ergative
+    number: dual
+    person: first
+  expected: ngalilu
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: nganyjurrulu
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: ngajulu
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: ngalimili
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: nganyjurrumili
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ngajumili
+- features:
+    case: locative
+    number: dual
+    person: first
+  expected: ngalingi
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: nganyjurrungu
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: ngajungu
+---
+lemma: ngalaya
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: ngalayinyi
+- features:
+    case: locative
+    number: dual
+    person: first
+  expected: ngalayaku
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngalaya
+---
+lemma: ngali
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: ngalinyi
+- features:
+    case: locative
+    number: dual
+    person: first
+  expected: ngaliku
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngali
+---
+lemma: ngalinyi
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: ngaliku
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: nganyjurraku
+- features:
+    case: oblique
+    number: dual
+    person: first
+  expected: ngalinyi
+- features:
+    case: oblique
+    number: dual
+    person: second
+  expected: nyumpulinyi
+- features:
+    case: oblique
+    number: dual
+    person: third
+  expected: pulinyi
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: nganyjurrinyi
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: nyurrinyi
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: janinyi
+---
+lemma: nganYJurru
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: nganyjurrinyi
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: nganyjurraku
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nganYJurru
+---
+lemma: nganarna
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: nganinyi
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: nganaku
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nganarna
+---
+lemma: ngani
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: nganlJa
+- features:
+    case: absolutive
+  expected: ngam
+- features:
+    case: dative
+  expected: nganiku
+- features:
+    case: ergative
+  expected: nganilu
+- features:
+    case: locative
+  expected: nganingi
+---
+lemma: nyumpaia
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: nyumpulu
+- features:
+    case: dative
+    number: dual
+    person: second
+  expected: nyumpulinyi
+- features:
+    case: locative
+    number: dual
+    person: second
+  expected: nyumulaku
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: nyumpaia
+---
+lemma: nyuntu
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: dual
+    person: second
+  expected: nyumpala
+- features:
+    case: absolutive
+    number: plural
+    person: second
+  expected: nyurra
+- features:
+    case: absolutive
+    number: singular
+    person: second
+  expected: nyuntu
+- features:
+    case: dative
+    number: dual
+    person: second
+  expected: nyumpalaku
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: nyurraku
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: nyuntuku
+- features:
+    case: ergative
+    number: dual
+    person: second
+  expected: nyumpalalu
+- features:
+    case: ergative
+    number: plural
+    person: second
+  expected: nyurralu
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: nyuntulu
+- features:
+    case: genitive
+    number: dual
+    person: second
+  expected: nyumpalamili
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: nyurramili
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: nyuntumili
+- features:
+    case: locative
+    number: dual
+    person: second
+  expected: nyumpalanga
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: nyurranga
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: nyuntungu
+---
+lemma: nyurra
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: nyurru
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: nyurrinyi
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: nyurraku
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: nyurra
+---
+lemma: pulany
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: third
+  expected: pulu
+- features:
+    case: dative
+    number: dual
+    person: third
+  expected: pulinyi
+- features:
+    case: locative
+    number: dual
+    person: third
+  expected: pulaku
+- features:
+    case: nominative
+    number: dual
+    person: third
+  expected: pulany

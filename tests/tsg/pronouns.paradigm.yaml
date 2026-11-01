@@ -1,0 +1,236 @@
+lemma: aku
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: natu
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: narnu
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: nivu
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: nila
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ku
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: mu
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: niva
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: kita
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: kami
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: kamu
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: sila
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: aku
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ikaw
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: siva
+- features:
+    case: oblique
+    number: dual
+    person: first
+  expected: katu
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: kiimu
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: kanivu
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: kanila
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: kiiku
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: kaymu
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: kaniva
+---
+lemma: ikaw
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ikaw
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: kavmu
+---
+lemma: kami
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: namu
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: kami
+---
+lemma: kamu
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: kamu
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: kanivu
+---
+lemma: kita
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: ta
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: ta
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: kita
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: kita
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: kiitu
+---
+lemma: kita-nivu
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: ta-nilu
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: kita-nivu
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: kiitu'nivu
+---
+lemma: sila
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: nila
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: sila
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: kanila
+---
+lemma: siya
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: niya
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: siya
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: kaniya

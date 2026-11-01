@@ -1,0 +1,127 @@
+lemma: do
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: first
+  expected: do
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: de
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: diyó
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: di-l
+- features:
+    number: singular
+    person: first
+  expected: di-S
+---
+lemma: izzu
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: izzuS
+- features:
+    case: absolutive
+  expected: izzu
+- features:
+    case: ergative
+  expected: izze
+- features:
+    case: genitive
+    number: dual
+  expected: izzuló
+- features:
+    case: genitive
+    number: singular
+  expected: izzó
+- features:
+    case: locative
+  expected: izzul
+---
+lemma: mo
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: second
+  expected: mo
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: me
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: dubó
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: dubu-l
+- features:
+    number: singular
+    person: second
+  expected: dub-S
+---
+lemma: židu
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: židuS
+- features:
+    case: absolutive
+  expected: židu
+- features:
+    case: ergative
+  expected: žide
+- features:
+    case: genitive
+    number: dual
+  expected: židuló
+- features:
+    case: genitive
+    number: singular
+  expected: židó
+- features:
+    case: locative
+  expected: židul
+---
+lemma: žu
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: isu-S
+- features:
+    case: absolutive
+  expected: žu
+- features:
+    case: ergative
+  expected: ise
+- features:
+    case: genitive
+    number: dual
+  expected: isu-ló
+- features:
+    case: genitive
+    number: singular
+  expected: isó
+- features:
+    case: locative
+  expected: isu-l

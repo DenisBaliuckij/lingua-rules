@@ -1,0 +1,499 @@
+lemma: aapo
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: saapo
+- features:
+    number: plural
+    person: second
+  expected: peapo
+- features:
+    number: plural
+    person: third
+  expected: oapo
+- features:
+    number: singular
+    person: first
+  expected: aapo
+- features:
+    number: singular
+    person: second
+  expected: ereapo
+- features:
+    number: singular
+    person: third
+  expected: oapo
+---
+lemma: aha
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: saha
+- features:
+    number: plural
+    person: second
+  expected: peha
+- features:
+    number: plural
+    person: third
+  expected: aha
+- features:
+    number: singular
+    person: first
+  expected: aha
+- features:
+    number: singular
+    person: second
+  expected: ereha
+- features:
+    number: singular
+    person: third
+  expected: aha
+---
+lemma: aken
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: saken
+- features:
+    number: plural
+    person: second
+  expected: peken
+- features:
+    number: plural
+    person: third
+  expected: oken
+- features:
+    number: singular
+    person: first
+  expected: aken
+- features:
+    number: singular
+    person: second
+  expected: ereken
+- features:
+    number: singular
+    person: third
+  expected: oken
+---
+lemma: apokai.ta
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: sereapokaita
+- features:
+    number: plural
+    person: second
+  expected: peseapokaita
+- features:
+    number: plural
+    person: third
+  expected: oapokaita
+- features:
+    number: singular
+    person: first
+  expected: oeapokai.ta
+- features:
+    number: singular
+    person: second
+  expected: eapokai.ta
+- features:
+    number: singular
+    person: third
+  expected: oapokai.ta
+---
+lemma: aron
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: saron
+- features:
+    number: plural
+    person: second
+  expected: peron
+- features:
+    number: plural
+    person: third
+  expected: oeron
+- features:
+    number: singular
+    person: first
+  expected: aron
+- features:
+    number: singular
+    person: second
+  expected: ereron
+- features:
+    number: singular
+    person: third
+  expected: oeron
+---
+lemma: asan
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: sasan
+- features:
+    number: plural
+    person: second
+  expected: pesan
+- features:
+    number: plural
+    person: third
+  expected: 'on'
+- features:
+    number: singular
+    person: first
+  expected: asan
+- features:
+    number: singular
+    person: second
+  expected: eresan
+- features:
+    number: singular
+    person: third
+  expected: 'on'
+---
+lemma: atao
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: sereatao
+- features:
+    number: plural
+    person: second
+  expected: peseatao
+- features:
+    number: plural
+    person: third
+  expected: oatao
+- features:
+    number: singular
+    person: first
+  expected: oeatao
+- features:
+    number: singular
+    person: second
+  expected: eatao
+- features:
+    number: singular
+    person: third
+  expected: oatao
+---
+lemma: ety'arahy
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: nasenety'arahyihi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: senety'arahy
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: nepety'arahyihi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: pety'arahy
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: naity'arahyihi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ity'arahy
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: nasety'arahyihi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: serety'arahy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: nenety'arahyihi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nety'arahy
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: naity'arahyihi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ity'arahy
+---
+lemma: horywete
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: naseneroryweteihi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: senerorywete
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: nepenoryweteihi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: penorywete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: naoryweteihi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: horywete
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: naseroryweteihi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: serorywete
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: neneroryweteihi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nerorywete
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: naoryweteihi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: horywete
+---
+lemma: oeron
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: herota
+- features:
+    number: plural
+    person: second
+  expected: herota
+- features:
+    number: plural
+    person: third
+  expected: herota
+- features:
+    number: singular
+    person: first
+  expected: herota
+- features:
+    number: singular
+    person: second
+  expected: herota
+- features:
+    number: singular
+    person: third
+  expected: herota
+---
+lemma: ohem
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: serehema
+- features:
+    number: plural
+    person: second
+  expected: pesehema
+- features:
+    number: plural
+    person: third
+  expected: ohema
+- features:
+    number: singular
+    person: first
+  expected: oehema
+- features:
+    number: singular
+    person: second
+  expected: ehema
+- features:
+    number: singular
+    person: third
+  expected: ohema
+---
+lemma: osa
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: seresa
+- features:
+    number: plural
+    person: second
+  expected: pesesa
+- features:
+    number: plural
+    person: third
+  expected: osa
+- features:
+    number: singular
+    person: first
+  expected: oesa
+- features:
+    number: singular
+    person: second
+  expected: esa
+- features:
+    number: singular
+    person: third
+  expected: osa
+---
+lemma: osoka
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: isokao
+- features:
+    number: plural
+    person: second
+  expected: isokao
+- features:
+    number: plural
+    person: third
+  expected: isokao
+- features:
+    number: singular
+    person: first
+  expected: isokao
+- features:
+    number: singular
+    person: second
+  expected: isokao
+- features:
+    number: singular
+    person: third
+  expected: isokao
+---
+lemma: osym
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: seresypa
+- features:
+    number: plural
+    person: second
+  expected: pesesypa
+- features:
+    number: plural
+    person: third
+  expected: osypa
+- features:
+    number: singular
+    person: first
+  expected: oesypa
+- features:
+    number: singular
+    person: second
+  expected: esypa
+- features:
+    number: singular
+    person: third
+  expected: osypa

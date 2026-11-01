@@ -1,0 +1,123 @@
+lemma: ari
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ariwlt
+- features:
+    number: dual
+    person: second
+  expected: arl-owot
+- features:
+    number: dual
+    person: third
+  expected: arl-owot
+- features:
+    number: plural
+    person: first
+  expected: ari
+- features:
+    number: plural
+    person: second
+  expected: art
+- features:
+    number: plural
+    person: third
+  expected: ariwl
+- features:
+    number: singular
+    person: first
+  expected: ariwan
+- features:
+    number: singular
+    person: second
+  expected: arl-on
+- features:
+    number: singular
+    person: third
+  expected: arl-op
+---
+lemma: kA
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kA
+- features:
+    number: plural
+    person: first
+  expected: kA"!jAfnil
+- features:
+    number: plural
+    person: second
+  expected: kA•Wit
+- features:
+    number: plural
+    person: third
+  expected: kA•wit
+- features:
+    number: singular
+    person: first
+  expected: kA"@Afn
+- features:
+    number: singular
+    person: second
+  expected: kA•kWi
+- features:
+    number: singular
+    person: third
+  expected: kA"!jAt
+---
+lemma: ka
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ka•!)aarnuk
+- features:
+    number: dual
+    person: second
+  expected: ka•agumuc
+- features:
+    number: dual
+    person: third
+  expected: ka·agumuc
+- features:
+    number: plural
+    person: first
+  expected: ka•agum
+- features:
+    number: plural
+    person: second
+  expected: ka•agi!)
+- features:
+    number: plural
+    person: third
+  expected: ka•agi!)
+- features:
+    number: singular
+    person: first
+  expected: ka•aguk
+- features:
+    number: singular
+    person: second
+  expected: ka·agu!)
+- features:
+    number: singular
+    person: third
+  expected: ka·aguc
+---
+lemma: me
+category: verbs
+cases:
+- features:
+    number: singular
+    person: second
+  expected: me•na
+- features:
+    number: singular
+    person: third
+  expected: me•yu

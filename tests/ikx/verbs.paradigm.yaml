@@ -1,0 +1,201 @@
+lemma: ats
+category: verbs
+cases:
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: atsima
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: atsiti
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: atsáti
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: atsine
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: atsidi
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: atsi
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: atsímí
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: atsítí
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: atsátì
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: atsíí
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: atsídì
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: atsi
+---
+lemma: wàtònì
+category: verbs
+cases:
+- features:
+    case: ablative
+  expected: wàtònùò
+- features:
+    case: accusative
+  expected: wàtònìà
+- features:
+    case: comitative
+  expected: wàtònùò
+- features:
+    case: dative
+  expected: wàtònìè
+- features:
+    case: genitive
+  expected: wàtònìè
+- features:
+    case: instrumental
+  expected: wàtònò
+- features:
+    case: nominative
+  expected: wàtònà
+- features:
+    case: oblique
+  expected: wàtònì
+---
+lemma: wɛ́dɔ̀nì
+category: verbs
+cases:
+- features:
+    case: ablative
+  expected: wɛ́dɔ̀nʉ̀ɔ̀
+- features:
+    case: accusative
+  expected: wɛ́dɔ̀nìà
+- features:
+    case: comitative
+  expected: wɛ́dɔ̀nʉ̀ɔ̀
+- features:
+    case: dative
+  expected: wɛ́dɔ̀nìɛ̀
+- features:
+    case: genitive
+  expected: wɛ́dɔ̀nìɛ̀
+- features:
+    case: instrumental
+  expected: wɛ́dɔ̀nɔ̀
+- features:
+    case: nominative
+  expected: wɛ́dɔ̀nà
+- features:
+    case: oblique
+  expected: wɛ́dɔ̀nì
+---
+lemma: àts
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: atsésím
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: atsésítᵃ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: atsésátᵃ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: atsésí
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: atsésîdᵃ
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: atsés
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: atsímákᵃ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: atsítákᵃ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: atsátàkᵃ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: atsíàkᵃ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: atsídàkᵃ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: atsákᵃ

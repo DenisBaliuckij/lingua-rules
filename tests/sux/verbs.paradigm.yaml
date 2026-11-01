@@ -1,0 +1,413 @@
+lemma: copula
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: menden
+- features:
+    number: plural
+    person: second
+  expected: menzen
+- features:
+    number: plural
+    person: third
+  expected: meš
+- features:
+    number: singular
+    person: first
+  expected: men
+- features:
+    number: singular
+    person: second
+  expected: men
+- features:
+    number: singular
+    person: third
+  expected: am
+---
+lemma: danbīl
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+  expected: danbīli
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+  expected: danbīl
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+  expected: tē-dbīl-na
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+  expected: nē-dbīl
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+  expected: danbīla
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+  expected: danbīl
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: adanbīl
+---
+lemma: ilammad
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+  expected: talammadā
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+  expected: ilammadā
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+  expected: talammadī
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+  expected: ilammad
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+  expected: ilammadā
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+  expected: talammadā
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+  expected: ilammadū
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+  expected: talammad
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+  expected: ilammad
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: nilammad
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: alammad
+---
+lemma: lākkdm
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+  expected: td-lākkdm-dmt
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+  expected: lākkdmdnt
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+  expected: ti-lākkdtn-dd
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+  expected: û-lâkkdm
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+  expected: lākkdmdn
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+  expected: ti-lākkdm-dd
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+  expected: ilākkdm
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: nd-lâkkdm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: lākkem-dġ
+---
+lemma: nagara
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: tangara
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: langara
+- features:
+    gender: feminine
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: tangarā
+- features:
+    gender: feminine
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: yangarā
+- features:
+    gender: masculine
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+  expected: tangari
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: tangaro
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: langaro
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: tangar
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: langar
+- features:
+    gender: masculine
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: imperfect
+  expected: tangari
+- features:
+    gender: masculine
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: imperfect
+  expected: tangaru
+- features:
+    gender: masculine
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: imperfect
+  expected: yangaru
+- features:
+    gender: masculine
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: imperfect
+  expected: tdngar
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: angar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: tangar
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: imperfect
+  expected: angar
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: tangar
+---
+lemma: parās'u
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: ušparras
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: ušparris
+---
+lemma: qtl má f ' l
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: yšqtl
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: šqtl
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: yšqtl
+---
+lemma: zi.g
+category: verbs
+cases:
+- features:
+    animacy: animate
+    aspect: imperfective
+    number: plural
+    person: third
+  expected: zi-zi-da-ne-ne
+- features:
+    animacy: animate
+    aspect: imperfective
+    number: singular
+    person: second
+  expected: zi-zi-da-zu-ne
+- features:
+    animacy: animate
+    aspect: imperfective
+    number: singular
+    person: third
+  expected: zi-zi-da-né
+- features:
+    animacy: animate
+    aspect: perfective
+    number: plural
+    person: third
+  expected: zi-ga-ne-ne
+- features:
+    animacy: animate
+    aspect: perfective
+    number: singular
+    person: second
+  expected: zi-ga-zu-ne
+- features:
+    animacy: animate
+    aspect: perfective
+    number: singular
+    person: third
+  expected: zi-ga-né
+- features:
+    animacy: inanimate
+    aspect: imperfective
+    number: singular
+    person: third
+  expected: zi-zi-da-bé
+- features:
+    animacy: inanimate
+    aspect: perfective
+    number: singular
+    person: third
+  expected: zi-ga-bé

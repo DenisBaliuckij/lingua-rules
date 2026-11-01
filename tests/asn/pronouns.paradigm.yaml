@@ -1,0 +1,83 @@
+lemma: ene
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: pehe
+- features:
+    number: singular
+    person: second
+  expected: ene
+---
+lemma: ice
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: cane
+- features:
+    number: singular
+    person: first
+  expected: ice
+---
+lemma: ise
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: sane
+- features:
+    number: plural
+    person: second
+  expected: pehe
+- features:
+    number: plural
+    person: third
+  expected: a'e
+- features:
+    number: singular
+    person: first
+  expected: ise
+- features:
+    number: singular
+    person: second
+  expected: ene
+- features:
+    number: singular
+    person: third
+  expected: a'e
+---
+lemma: seresoope
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: seresoope
+- features:
+    number: plural
+    person: second
+  expected: pesesoope
+- features:
+    number: plural
+    person: third
+  expected: osoope
+---
+lemma: seresowehe
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: seresowehe
+- features:
+    number: plural
+    person: second
+  expected: pesesowehe
+- features:
+    number: plural
+    person: third
+  expected: osowehe

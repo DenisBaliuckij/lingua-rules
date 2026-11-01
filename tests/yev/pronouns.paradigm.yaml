@@ -1,0 +1,45 @@
+lemma: hem
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hebi
+- features:
+    number: singular
+    person: first
+  expected: hem
+---
+lemma: te
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: te
+- features:
+    number: plural
+    person: third
+  expected: ti
+---
+lemma: ten
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ten
+---
+lemma: ye
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: yem
+- features:
+    number: singular
+    person: second
+  expected: ye

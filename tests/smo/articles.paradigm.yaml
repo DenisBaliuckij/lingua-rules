@@ -1,0 +1,79 @@
+lemma: lale
+category: articles
+cases:
+- features:
+    number: plural
+  expected: lae
+- features:
+    number: singular
+  expected: lale
+---
+lemma: le
+category: articles
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: le
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: ni
+- features:
+    definiteness: indefinite
+    number: singular
+  expected: se
+---
+lemma: lea
+category: articles
+cases:
+- features:
+    number: plural
+  expected: ia
+- features:
+    number: singular
+  expected: lea
+---
+lemma: lela
+category: articles
+cases:
+- features:
+    number: plural
+  expected: ila
+- features:
+    number: singular
+  expected: lela
+---
+lemma: lele
+category: articles
+cases:
+- features:
+    number: singular
+  expected: lele
+---
+lemma: lena
+category: articles
+cases:
+- features:
+    number: plural
+  expected: na
+- features:
+    number: singular
+  expected: lena
+---
+lemma: lenaie
+category: articles
+cases:
+- features:
+    number: singular
+  expected: lenaie
+---
+lemma: lenei
+category: articles
+cases:
+- features:
+    number: plural
+  expected: nei
+- features:
+    number: singular
+  expected: lenei

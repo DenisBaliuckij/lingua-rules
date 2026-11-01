@@ -1,0 +1,787 @@
+lemma: aphad
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: aphannem
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: aphannegir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: aphanner
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: aphannen
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: aphanneg
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: aphant
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: aphad
+---
+lemma: carfa
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: carfiel
+- features:
+    number: plural
+    tense: past
+  expected: agramp
+- features:
+    number: singular
+    tense: past
+  expected: agarfant
+- features:
+    tense: past
+    verb_form: participle
+  expected: crammen
+---
+lemma: dar
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: derim
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: derigir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: derir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: derin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: derig
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dâr
+---
+lemma: deg
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: adhangem
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: adhanger
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: adhangen
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: adhanc
+---
+lemma: ertha
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: erthatham
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: erthathagir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: erthathar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: erthathon
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: erthathog
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: erthatha
+---
+lemma: gala
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: góliel
+- features:
+    number: singular
+    tense: past
+  expected: aul
+- features:
+    tense: past
+    verb_form: participle
+  expected: olen
+---
+lemma: gonathra
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: genethriel
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: gonathro
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+    voice: active
+  expected: gonathrannen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+    voice: active
+  expected: gonathrannen
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+    voice: active
+  expected: gonathratha
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+    voice: active
+  expected: gonathrant
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: gonathra
+- features:
+    tense: present
+    verb_form: participle
+  expected: gonathrol
+- features:
+    verb_form: infinitive
+  expected: gonathro
+---
+lemma: gonod
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: gonúdiel
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: gonodo
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+    voice: active
+  expected: gononnen
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+    voice: active
+  expected: gonont
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: gonod
+- features:
+    tense: present
+    verb_form: participle
+  expected: gonodel
+---
+lemma: govad
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: govódiel
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: govado
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+    voice: active
+  expected: govannen
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+    voice: active
+  expected: govant
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: govad
+- features:
+    tense: present
+    verb_form: participle
+  expected: govadel
+---
+lemma: gwa
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: gwóiel
+- features:
+    number: plural
+    tense: past
+  expected: anu
+- features:
+    number: singular
+    tense: past
+  expected: awn
+- features:
+    tense: past
+    verb_form: participle
+  expected: anwen
+---
+lemma: lacha
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: lachatham
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: lacham
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: lachathagir
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: lachagir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: lachathar
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: lachar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: lachathon
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: lachon
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: lachathog
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: lachog
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: lachatha
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: lacha
+---
+lemma: linna
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: linnenc
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: linnelir
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: linnatham
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: linnem
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: linnathagir
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: linnegir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: linnathar
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: linner
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: linnathon
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: linnen
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: linnathog
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: linneg
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: linnatha
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: linnant
+---
+lemma: maetha
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: maethannenc
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: maethannelir
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: maethannem
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: maethannegir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: maethanner
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: maethannen
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: maethanneg
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: maethant
+---
+lemma: muda
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: mudassenc
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: mudasselir
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: mudassem
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mudassegir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: mudasser
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: mudassen
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mudasseg
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: mudas
+---
+lemma: ped
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: pedim
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: pedilir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: pedir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: pedin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: pedil
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pêd
+---
+lemma: pede
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: peditham
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: pedithagir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: pedithar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: pedithon
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: pedithog
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: peditha
+---
+lemma: sav
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: sóviel
+- features:
+    number: singular
+    tense: past
+  expected: aw
+- features:
+    tense: past
+    verb_form: participle
+  expected: awen
+---
+lemma: tele
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: telitham
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: telithagir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: telithar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: telithon
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: telithog
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: telitha
+---
+lemma: tol
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: telim
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: teligir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: telir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: telin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: telig
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tôl

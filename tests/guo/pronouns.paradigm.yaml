@@ -1,0 +1,45 @@
+lemma: ampon
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ampow
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ampon
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: ampox
+- features:
+    number: plural
+    person: third
+  expected: ampi
+---
+lemma: japon
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: japow
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: japon
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: japox
+- features:
+    number: plural
+    person: third
+  expected: japi

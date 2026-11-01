@@ -1,0 +1,613 @@
+lemma: a²jåm³
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: o³ca²jåm³jåm³
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: o³ca²jåm³jåm³
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: e²pa²jåm³
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: e³pa²jåm³
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: o²a³jåm²
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: o³a³jåm³
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: e³ca²jåm³
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: a³jåm³
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ja²jåm³
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: o³a²jåm³
+---
+lemma: a³jåm³jåm³
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: o³ca²jåm³jåm³
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: e³pa²jåm³
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: o³a³jåm³
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: a³jåm³
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: o³a²jåm³
+---
+lemma: cø¿³'i²
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ka³cø¿³cø¿³'i²
+- features:
+    number: singular
+  expected: cø¿³'i²
+---
+lemma: dop³dom³
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: o³ce²sop³
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: e³pe²sop³
+---
+lemma: dot³
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: o³ce²sot³
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: o³ce²so³sot³
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: e²pe³sot³
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: e³pe³sot³
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: o²jot³
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: o³jot³
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: e³ce²sot³
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: e³jot³
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: je²e³dot²
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: o³so²dot³
+---
+lemma: do²jot³
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: o³ce³to²jot³
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: e³pe³to²jot³
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: o³to³jot³
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: e³to³jot³
+---
+lemma: do³don³
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: o³ce²sot³
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: e³pe³sot³
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: o³jot³
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: e³jot³
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: o³so²dot³
+---
+lemma: e²'em²
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: o³ce²'e³
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: e³pe²'e³
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: e³ce²'e³
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: je²'e³
+---
+lemma: i³'uk²'u¿²
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: o³ce³ju²'uk³
+- features:
+    number: plural
+    person: second
+  expected: e³pe³ju²'uk³
+- features:
+    number: singular
+    person: first
+  expected: o³ju³'uk²
+- features:
+    number: singular
+    person: second
+  expected: e³ju³'uk²
+---
+lemma: i³mu²pik³u²pi¿²
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: future
+  expected: ¿u²pik³
+- features:
+    aspect: perfective
+    tense: past
+  expected: i³mu²pik³'i²
+- features:
+    aspect: perfective
+    tense: present
+  expected: i³mu²pik³u²pi¿³
+- features:
+    aspect: perfective
+    tense: present
+    voice: reflexive
+  expected: je³we³mu²pik³u²pi¿³
+- features:
+    verb_form: infinitive
+  expected: i³mu²pi¿³
+---
+lemma: je³ka¸pik²pi¿²
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    evidentiality: indirect
+    tense: future
+  expected: je²e³ka¸pik²
+- features:
+    aspect: perfective
+    evidentiality: indirect
+    tense: present
+  expected: ce³ka¸pik²
+- features:
+    aspect: perfective
+    tense: future
+  expected: je³ka¸pi¿²
+- features:
+    aspect: perfective
+    tense: past
+  expected: je³ka¸pik²pi¿²
+- features:
+    aspect: perfective
+    tense: present
+  expected: ka¸pik²pi¿²
+- features:
+    aspect: progressive
+    evidentiality: direct
+    tense: past
+  expected: ka¸pik²'i³
+- features:
+    verb_form: infinitive
+  expected: je³ka¸pi¿²
+---
+lemma: je³ku²kum²
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: o³ce²ku³
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: e³pe²ku³
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: o³je³ku²
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: e³je³ku²
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: o³e²ku³
+---
+lemma: ju²
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: o²ce²ju³
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: o³ce²ju³
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: e²pe²ju³
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: e³pe³ju³
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: o²ju³
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: o³ju³
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: e³ce²ju³
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: e³ju³
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: je²e³ju²
+---
+lemma: kop²
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    evidentiality: indirect
+    tense: future
+  expected: je²e³kop²
+- features:
+    aspect: perfective
+    evidentiality: indirect
+    tense: present
+  expected: ce³kop²
+- features:
+    aspect: perfective
+    tense: future
+  expected: kom²
+- features:
+    aspect: perfective
+    tense: past
+  expected: kom²
+- features:
+    aspect: perfective
+    tense: present
+  expected: kop²kom²
+- features:
+    aspect: progressive
+    evidentiality: direct
+    tense: past
+  expected: kop³'i²
+- features:
+    verb_form: infinitive
+  expected: kom²
+---
+lemma: mø¿³'i²
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ka³mø¿³mø¿³'i²
+- features:
+    number: singular
+  expected: mø¿³'i²
+---
+lemma: no³mu³wã²
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: o³ce³to²mu³wã²
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: e³pe³to²mu³wã²
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: o³to³mu³wã²
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: e³to³wu³wã²
+---
+lemma: po³'i²
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ka³po³po³'i²
+- features:
+    number: singular
+  expected: po³'i²
+---
+lemma: to²jot³jon³
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: future
+  expected: je²to²jot³
+- features:
+    aspect: perfective
+    tense: past
+  expected: to²jot³'i²
+- features:
+    aspect: perfective
+    tense: present
+  expected: to²jot³jon³
+- features:
+    aspect: perfective
+    tense: present
+    voice: reflexive
+  expected: je³we³do²jot³jon³
+- features:
+    verb_form: infinitive
+  expected: to²jon³
+---
+lemma: to³ro³'i²
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ka³to³ro³ro³'i²
+- features:
+    number: singular
+  expected: to³ro³'i²
+---
+lemma: xik³'i²
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ka³xik³xik³'i²
+- features:
+    number: singular
+  expected: xik³'i²
+---
+lemma: ya³'æ²jo²
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: o³ce²ya³'æ²jo²j'o²
+- features:
+    number: plural
+    person: second
+  expected: e³pe³ya³'æ²jo²jo²
+- features:
+    number: singular
+    person: first
+  expected: o³ya³'æ²jo²jo²
+- features:
+    number: singular
+    person: second
+  expected: e³ya³'æ²jo²jo²
+---
+lemma: ya³juy¸
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: o³ce³ya²juy¸
+- features:
+    number: plural
+    person: second
+  expected: e³pe³ya³juy¸
+- features:
+    number: singular
+    person: first
+  expected: o³ya¸juy¸
+- features:
+    number: singular
+    person: second
+  expected: e³ya¸juy¸

@@ -1,0 +1,584 @@
+lemma: b
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    gender: feminine
+    tense: perfect
+  expected: b-e-č
+- features:
+    aspect: perfective
+    gender: masculine
+    tense: perfect
+  expected: bik
+- features:
+    aspect: perfective
+    number: plural
+    tense: perfect
+  expected: b-e-nč
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: b-e-č-am
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: b-e-č-ē
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: b-e-č
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: b-i-k-am
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: b-i-k-ē
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: b-i-k
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: b-e-č-aman
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: beman
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: b-e-č-e
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: beda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: b-e-nč
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ben
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: bē
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: bet
+---
+lemma: dam
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+  expected: dameVi
+- features:
+    gender: masculine
+    verb_form: participle
+  expected: damaVā
+---
+lemma: e
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+  expected: ei-k-en
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+  expected: eVi
+- features:
+    gender: masculine
+    verb_form: participle
+  expected: eVā
+---
+lemma: g
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: gečam
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: gec̄ē
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: geč
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: gikam
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: gikē
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: gik
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+  expected: gečaman
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: geče
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: genč
+---
+lemma: ka
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+  expected: k-ei-k-en
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+  expected: kaVi
+- features:
+    gender: masculine
+    verb_form: participle
+  expected: kaVā
+---
+lemma: ni
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    gender: feminine
+    tense: perfect
+  expected: ne-te-č
+- features:
+    aspect: perfective
+    gender: masculine
+    tense: perfect
+  expected: ni-ti-k
+- features:
+    aspect: perfective
+    number: plural
+    tense: perfect
+  expected: ne-te-nč
+---
+lemma: nē
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    gender: feminine
+    tense: perfect
+  expected: nē-te-č
+- features:
+    aspect: perfective
+    gender: masculine
+    tense: perfect
+  expected: nē-ti-k
+- features:
+    aspect: perfective
+    number: plural
+    tense: perfect
+  expected: nē-te-nč
+---
+lemma: pa
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    gender: feminine
+    tense: perfect
+  expected: pa-te-č
+- features:
+    aspect: perfective
+    gender: masculine
+    tense: perfect
+  expected: pa-ti-k
+- features:
+    aspect: perfective
+    number: plural
+    tense: perfect
+  expected: pa-te-nč
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: paaman
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: paeda
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: paan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: paam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: paē
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: paet
+---
+lemma: pol
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    gender: feminine
+    tense: perfect
+  expected: pol-e-č
+- features:
+    aspect: perfective
+    gender: masculine
+    tense: perfect
+  expected: pol-i-k
+- features:
+    aspect: perfective
+    number: plural
+    tense: perfect
+  expected: pol-e-nč
+---
+lemma: t
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: teman
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: te
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: ten
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: tem
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: tē
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: te
+---
+lemma: tap
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+  expected: tapeVi
+- features:
+    gender: masculine
+    verb_form: participle
+  expected: tapaVā
+---
+lemma: tost
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+  expected: tosteVi
+- features:
+    gender: masculine
+    verb_form: participle
+  expected: tostaVā
+---
+lemma: unǰ
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+  expected: unǰeVi
+- features:
+    gender: masculine
+    verb_form: participle
+  expected: unǰaVā
+---
+lemma: ā
+category: verbs
+cases:
+- features:
+    animacy: animate
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: āen
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: šen
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ši
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ā-č-am
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ā-č-ē
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ā-e-č
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: as
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ā-k-am
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ā-k-ē
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ā-i-k
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ās
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ā-č-aman
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: āaman
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ā-č-e
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: āe
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ā-e-nč
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: āam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: āē
+---
+lemma: šār
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+  expected: šār.-eVi
+- features:
+    gender: masculine
+    verb_form: participle
+  expected: šār.-aVā
+---
+lemma: ǰe
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    verb_form: participle
+  expected: ǰeVi
+- features:
+    gender: masculine
+    verb_form: participle
+  expected: ǰeVā

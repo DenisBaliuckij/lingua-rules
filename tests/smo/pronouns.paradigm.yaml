@@ -1,0 +1,393 @@
+lemma: a'u
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: e a'u
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ia te a'u
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: iTU)a'u
+- features:
+    number: singular
+    person: second
+  expected: e
+- features:
+    number: singular
+    person: third
+  expected: na
+---
+lemma: au
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: i taua
+- features:
+    number: plural
+    person: first
+  expected: i tatou
+- features:
+    number: singular
+    person: first
+  expected: au
+---
+lemma: i latou
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: matou
+- features:
+    number: plural
+    person: second
+  expected: tou
+- features:
+    number: plural
+    person: third
+  expected: lEtou
+---
+lemma: i maUm
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: e i matou
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ia te i mdUm
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: mo i matou
+---
+lemma: i mdua
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: first
+  expected: e i mdua
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ia te i mdua
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: mo i mdua
+---
+lemma: i tdtou
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: e i tdtou
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ia te i tdtou
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: mo i tdtou
+---
+lemma: i tdua
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: first
+  expected: e i tdua
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ia te i tdua
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: tru) i tdua
+---
+lemma: ia
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: i laua
+- features:
+    number: plural
+  expected: ia
+- features:
+    number: plural
+    person: third
+  expected: i latou
+- features:
+    number: singular
+    person: third
+  expected: ia
+---
+lemma: ie
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: ie
+---
+lemma: latou
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+    person: third
+  expected: la
+---
+lemma: le
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: i e
+- features:
+    case: accusative
+    number: singular
+  expected: i le
+- features:
+    case: dative
+    number: plural
+  expected: i e
+- features:
+    case: dative
+    number: singular
+  expected: i le
+- features:
+    case: genitive
+    number: plural
+  expected: a e
+- features:
+    case: genitive
+    number: singular
+  expected: a le
+---
+lemma: lo'u
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: lo ta
+- features:
+    number: dual
+    person: second
+  expected: lo lua
+- features:
+    number: dual
+    person: third
+  expected: lo la
+- features:
+    number: plural
+    person: first
+  expected: lo tatou
+- features:
+    number: plural
+    person: second
+  expected: lo tou
+- features:
+    number: plural
+    person: third
+  expected: lo latou
+- features:
+    number: singular
+    person: first
+  expected: lo'u
+- features:
+    number: singular
+    person: second
+  expected: lou
+- features:
+    number: singular
+    person: third
+  expected: lona
+---
+lemma: lona
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: i e ona
+- features:
+    case: accusative
+    number: singular
+  expected: i le lona
+- features:
+    case: dative
+    number: plural
+  expected: i e ona
+- features:
+    case: dative
+    number: singular
+  expected: i le lona
+- features:
+    case: genitive
+    number: plural
+  expected: a e ona
+- features:
+    case: genitive
+    number: singular
+  expected: a le lona
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: na
+---
+lemma: naZaua
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: naZaua
+---
+lemma: nei
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: nei
+---
+lemma: oe
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: le 'oe
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: ia te oe
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: mo 'oc
+- features:
+    number: dual
+    person: second
+  expected: i oulua
+- features:
+    number: plural
+    person: second
+  expected: i outou
+- features:
+    number: singular
+    person: second
+  expected: oe
+---
+lemma: ouiou
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: e 'outou
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: ia te 'outou
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: „^ 'outou
+---
+lemma: oulua
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: second
+  expected: e 'oulua
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: ia te 'oulua
+- features:
+    case: dative
+    number: dual
+    person: second
+  expected: mo 'oulua
+---
+lemma: se
+category: pronouns
+cases:
+- features:
+    definiteness: indefinite
+    number: singular
+  expected: se
+---
+lemma: ta
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ta
+---
+lemma: to
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: to
+---
+lemma: tou
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+    person: second
+  expected: la
+- features:
+    definiteness: indefinite
+    number: plural
+    person: second
+  expected: sa

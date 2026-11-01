@@ -1,0 +1,195 @@
+lemma: O
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: ndu
+- features:
+    case: nominative
+  expected: O
+---
+lemma: a
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: ndä
+- features:
+    case: nominative
+  expected: a
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ng
+- features:
+    number: plural
+    person: second
+  expected: la
+- features:
+    number: plural
+    person: third
+  expected: a
+- features:
+    number: singular
+    person: first
+  expected: i
+- features:
+    number: singular
+    person: second
+  expected: a
+---
+lemma: la
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: μη
+- features:
+    case: nominative
+  expected: la
+---
+lemma: le
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: leg
+- features:
+    case: nominative
+  expected: le
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ming
+- features:
+    number: plural
+    person: second
+  expected: mila
+- features:
+    number: plural
+    person: third
+  expected: ma
+- features:
+    number: singular
+    person: first
+  expected: mi
+- features:
+    number: singular
+    person: second
+  expected: ma
+- features:
+    number: singular
+    person: third
+  expected: mbo
+---
+lemma: mä
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: mäq
+- features:
+    case: nominative
+  expected: mä
+---
+lemma: te
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: teng
+- features:
+    number: plural
+    person: second
+  expected: tela
+- features:
+    number: plural
+    person: third
+  expected: tä
+- features:
+    number: singular
+    person: first
+  expected: ti
+- features:
+    number: singular
+    person: second
+  expected: tä
+- features:
+    number: singular
+    person: third
+  expected: to
+---
+lemma: ti
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: teng
+- features:
+    number: plural
+    person: second
+  expected: tela
+- features:
+    number: plural
+    person: third
+  expected: ta
+- features:
+    number: singular
+    person: first
+  expected: ti
+- features:
+    number: singular
+    person: second
+  expected: ta
+- features:
+    number: singular
+    person: third
+  expected: to
+---
+lemma: ya
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: naa
+- features:
+    number: plural
+    person: second
+  expected: nya
+- features:
+    number: plural
+    person: third
+  expected: nda
+- features:
+    number: singular
+    person: first
+  expected: ya
+- features:
+    number: singular
+    person: second
+  expected: num
+- features:
+    number: singular
+    person: third
+  expected: ndu
+---
+lemma: ΰ
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: mug
+- features:
+    case: nominative
+  expected: ΰ

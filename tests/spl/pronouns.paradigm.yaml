@@ -1,0 +1,35 @@
+lemma: naek
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nenak
+- features:
+    number: singular
+    person: first
+  expected: naek
+---
+lemma: yahak
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: yahak
+- features:
+    number: plural
+    person: third
+  expected: yahak
+- features:
+    number: singular
+    person: third
+  expected: yahak
+---
+lemma: yetak
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: yetak

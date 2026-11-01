@@ -1,0 +1,504 @@
+lemma: ayt
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: aytagar
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ayt
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: aytdibis
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: aytdiger
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: aytdi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: aytar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: aytdim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: aytdig
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: aytdi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: aytar
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: aytagay
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: aytsin
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: aytayin
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: aytsin
+---
+lemma: bil
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: biliger
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bil
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: bildibis
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: bilerbis
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: bildiger
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: bildi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: biler
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: bildim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: bildig
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: bildi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: biler
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: biligey
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: bilzin
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: bileyin
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: bilzin
+---
+lemma: gel
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: geliger
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: gel
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: geldibis
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: geldiger
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: geldi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: geler
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: geldim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: geldig
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: geldi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: geler
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: geligey
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: gelzin
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: geleyin
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: gelzin
+---
+lemma: iit
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: iitsebis
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: iitserjger
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: iitse
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: iitsem
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: iitserj
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: iitse
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: iitibis
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: iiterbis
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: iitirjger
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: iitersiler
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: iitiler
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: itim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: itir)
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: iiti
+---
+lemma: sokta
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: soktagar
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: sokta
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: soktadibis
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: soktadiger
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: soktadi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: soktaar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: soktadim
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: soktadig
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: soktadi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: soktaar
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: soktagay
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: soktazin
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: soktayin
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: soktazin
+---
+lemma: ula
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: ulasabis
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: ulasa
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: ulasam
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: ulasar)
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: ulasa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: uladibis
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: uladiqar
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: uladilar
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ulaar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: uladim
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ulaarmem
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: uladir)
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ulaarsen
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: uladi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ulaar
