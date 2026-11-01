@@ -1,0 +1,113 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: a
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: +ga
+- features:
+    number: singular
+    person: third
+    voice: reflexive
+  expected: +jere
+---
+lemma: au
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: au
+- features:
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: +ga
+- features:
+    number: plural
+    person: second
+    voice: reflexive
+  expected: +jere
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: i
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: +ga
+- features:
+    number: singular
+    person: second
+    voice: reflexive
+  expected: +jere
+---
+lemma: n
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: n
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: +ga
+- features:
+    number: singular
+    person: first
+    voice: reflexive
+  expected: +jere
+---
+lemma: u
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: u
+- features:
+    number: plural
+    person: third
+    possessor_number: plural
+    possessor_person: third
+  expected: +ga
+- features:
+    number: plural
+    person: third
+    voice: reflexive
+  expected: +jere
+---
+lemma: ãu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ãu
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: +ga
+- features:
+    number: plural
+    person: first
+    voice: reflexive
+  expected: +jere

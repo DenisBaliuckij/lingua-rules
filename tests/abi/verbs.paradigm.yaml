@@ -1,0 +1,67 @@
+lemma: met
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: f^tfnf
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nMfnr
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: met
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: fetf
+---
+lemma: moco
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: roco
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: focont
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: noconi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: moco
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: foco
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: noco

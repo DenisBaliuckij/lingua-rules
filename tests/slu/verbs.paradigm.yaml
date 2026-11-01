@@ -1,0 +1,33 @@
+lemma: ?oral
+category: verbs
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: i?ora
+- features:
+    number: plural
+    person: third
+  expected: ra?ora
+- features:
+    number: singular
+    person: first
+  expected: ku?ora
+---
+lemma: tenwl
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: itenW
+- features:
+    number: plural
+    person: third
+  expected: ratenW
+- features:
+    number: singular
+    person: first
+  expected: kutenW

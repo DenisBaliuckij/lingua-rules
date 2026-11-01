@@ -1,0 +1,36 @@
+lemma: EbO
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: wa-d-EbO
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: ∅EbO
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ÎEbO
+---
+lemma: kOrU
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: wakOrU
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: akOrU
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ikOrU
+- features:
+    possessor_number: singular
+    possessor_person: third
+    voice: reflexive
+  expected: îakOrU

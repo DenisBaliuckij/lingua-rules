@@ -1,0 +1,17 @@
+lemma: ib'-e
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: k-ib'-e-tik
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: k-ib'-e
+- features:
+    number: singular
+    possessor_person: third
+  expected: ib'-e

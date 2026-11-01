@@ -1,0 +1,47 @@
+lemma: ndrao
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ndraga
+- features:
+    number: plural
+    person: third
+  expected: ira
+- features:
+    number: singular
+    person: first
+  expected: ndrao
+- features:
+    number: singular
+    person: second
+  expected: ndraugö
+---
+lemma: ya
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ya'ita
+- features:
+    number: plural
+    person: second
+  expected: ya'ami
+- features:
+    number: plural
+    person: third
+  expected: ya'ira
+- features:
+    number: singular
+    person: first
+  expected: ya
+- features:
+    number: singular
+    person: second
+  expected: ya'ugö
+- features:
+    number: singular
+    person: third
+  expected: ya'ia

@@ -1,0 +1,83 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tzi
+- features:
+    number: plural
+    person: first
+  expected: haw
+- features:
+    number: singular
+    person: first
+  expected: a
+---
+lemma: ha
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: hanqi
+- features:
+    number: plural
+    person: third
+  expected: harai
+- features:
+    number: singular
+    person: third
+  expected: ha
+---
+lemma: haw
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tzi
+- features:
+    number: plural
+    person: first
+  expected: haw
+---
+lemma: jai
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: jairai
+- features:
+    number: singular
+    person: third
+  expected: jai
+---
+lemma: nyai
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: nyaitzi
+- features:
+    number: singular
+    person: second
+  expected: nyai
+---
+lemma: ta
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: tanqi
+- features:
+    number: plural
+    person: third
+  expected: tarai
+- features:
+    number: singular
+    person: third
+  expected: ta

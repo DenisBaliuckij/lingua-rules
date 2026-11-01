@@ -1,0 +1,67 @@
+lemma: eṭey
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: eṭeyla
+- features:
+    number: singular
+    person: third
+  expected: eṭey
+---
+lemma: jo
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tye:ko
+- features:
+    number: dual
+    person: second
+  expected: na:ko
+- features:
+    number: dual
+    person: third
+  expected: hiṭkel
+- features:
+    number: plural
+    person: first
+  expected: ingi
+- features:
+    number: plural
+    person: second
+  expected: la
+- features:
+    number: plural
+    person: third
+  expected: eṭla
+- features:
+    number: singular
+    person: first
+  expected: jo
+- features:
+    number: singular
+    person: second
+  expected: ne
+- features:
+    number: singular
+    person: third
+  expected: eṭey
+---
+lemma: ne
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: na:ko
+- features:
+    number: plural
+    person: second
+  expected: la
+- features:
+    number: singular
+    person: second
+  expected: ne

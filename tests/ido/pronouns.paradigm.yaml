@@ -1,0 +1,67 @@
+lemma: irga
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: irgo
+- features:
+    case: nominative
+    number: plural
+  expected: irgi
+- features:
+    case: nominative
+    number: singular
+  expected: irgu
+- features:
+    degree: positive
+  expected: irga
+---
+lemma: kelka
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: kelko
+- features:
+    case: nominative
+    number: plural
+  expected: kelki
+- features:
+    case: nominative
+    number: singular
+  expected: kelku
+- features:
+    degree: positive
+  expected: kelka
+---
+lemma: poka
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: poko
+- features:
+    degree: positive
+  expected: poka
+---
+lemma: ula
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: ulo
+- features:
+    case: nominative
+    number: plural
+  expected: uli
+- features:
+    case: nominative
+    number: singular
+  expected: ulu
+- features:
+    degree: positive
+  expected: ula

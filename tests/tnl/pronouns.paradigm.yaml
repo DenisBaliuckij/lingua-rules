@@ -1,0 +1,37 @@
+lemma: kalau
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kathel
+- features:
+    number: dual
+    person: second
+  expected: kamilau
+- features:
+    number: plural
+    person: first
+  expected: kamar
+- features:
+    number: plural
+    person: second
+  expected: kamiar
+- features:
+    number: plural
+    person: third
+  expected: ilar
+- features:
+    number: singular
+    person: first
+  expected: kalau
+- features:
+    number: singular
+    person: third
+  expected: ilau
+- features:
+    person: first
+  expected: katar
+- features:
+    person: second
+  expected: kamihel

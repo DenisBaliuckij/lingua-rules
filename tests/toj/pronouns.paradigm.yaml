@@ -1,0 +1,35 @@
+lemma: k
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: haw
+- features:
+    number: singular
+    person: first
+  expected: k
+- features:
+    number: singular
+    person: second
+  expected: tik
+- features:
+    number: singular
+    person: third
+  expected: iTKon
+---
+lemma: 'on'
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: eS
+- features:
+    number: singular
+    person: first
+  expected: 'on'
+- features:
+    number: singular
+    person: third
+  expected: a

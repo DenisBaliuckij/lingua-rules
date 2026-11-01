@@ -1,0 +1,34 @@
+lemma: ca
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: s-ca-w-n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: s-ca-b
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: s'Ca-y-d
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: s-ca-wd-z-ma
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: s-ca-wa-ma

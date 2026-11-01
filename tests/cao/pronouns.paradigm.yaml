@@ -1,0 +1,94 @@
+lemma: ha
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: ø
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: hakí
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ha
+---
+lemma: ma
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: mató
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: matokí
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: ma
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: miá
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: mikí
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: mi
+---
+lemma: 'no'
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nokí
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: nokí
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: 'no'
+---
+lemma: ɨ
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ɨá
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: ɨkí
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ɨ

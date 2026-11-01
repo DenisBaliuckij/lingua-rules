@@ -1,0 +1,71 @@
+lemma: ?in
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tt
+- features:
+    number: plural
+    person: second
+  expected: mp
+- features:
+    number: plural
+    person: third
+  expected: six
+- features:
+    number: singular
+    person: first
+  expected: ?in
+- features:
+    number: singular
+    person: second
+  expected: an
+- features:
+    number: singular
+    person: third
+  expected: s
+---
+lemma: in
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: im
+- features:
+    number: plural
+    person: third
+  expected: islx
+- features:
+    number: singular
+    person: first
+  expected: in
+- features:
+    number: singular
+    person: second
+  expected: ix
+- features:
+    number: singular
+    person: third
+  expected: is
+---
+lemma: kn
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kwu
+- features:
+    number: plural
+    person: third
+  expected: lx
+- features:
+    number: singular
+    person: first
+  expected: kn
+- features:
+    number: singular
+    person: second
+  expected: kw
