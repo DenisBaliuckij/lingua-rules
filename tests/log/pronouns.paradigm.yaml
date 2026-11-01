@@ -1,0 +1,87 @@
+lemma: I
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: me
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: I
+---
+lemma: he
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: him
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: he
+---
+lemma: it
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: its
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: it
+---
+lemma: she
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: she
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: she
+---
+lemma: they
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: their
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: they
+---
+lemma: you
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: you
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: you

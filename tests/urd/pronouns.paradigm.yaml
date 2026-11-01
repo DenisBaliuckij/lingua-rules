@@ -1,0 +1,101 @@
+lemma: تو
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: ریتا
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: ںیہمت
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ت
+- features:
+    case: oblique
+    number: dual
+    person: second
+  expected: اہمترا
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: ںیہمت
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: مت
+---
+lemma: میں
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ریما
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ںیمہ
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: میں
+- features:
+    case: oblique
+    number: dual
+    person: first
+  expected: امہرا
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: ںیمہ
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: مہ
+---
+lemma: وہ
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: dual
+    person: third
+  expected: اےس
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: وہ
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: وہ
+- features:
+    case: oblique
+    number: dual
+    person: third
+  expected: اےس
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: ان اک
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: اس اک

@@ -1,0 +1,33 @@
+lemma: naa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: neo
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: nem(h
+- features:
+    number: singular
+    person: first
+  expected: naanu
+- features:
+    number: singular
+    person: third
+  expected: nantenap(h
+---
+lemma: te
+category: verbs
+cases:
+- features:
+    number: singular
+    person: second
+  expected: tetiq
+- features:
+    number: singular
+    person: third
+  expected: t

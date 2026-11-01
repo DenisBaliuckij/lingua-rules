@@ -1,0 +1,36 @@
+lemma: čič
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: future
+  expected: čičan
+- features:
+    aspect: perfective
+    tense: past
+  expected: čiCLčunu
+- features:
+    aspect: perfective
+    tense: present
+  expected: čičay
+- features:
+    aspect: progressive
+    tense: future
+  expected: čičlan
+- features:
+    aspect: progressive
+    tense: past
+  expected: čiCLčlunu
+- features:
+    aspect: progressive
+    tense: present
+  expected: čičlay
+- features:
+    tense: future
+  expected: čičawan
+- features:
+    tense: past
+  expected: čiCLčawunu
+- features:
+    tense: present
+  expected: čičaway

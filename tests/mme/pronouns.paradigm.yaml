@@ -1,0 +1,79 @@
+lemma: dre
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: drenɛn
+- features:
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: dreni
+- features:
+    number: plural
+    person: third
+    possessor_number: plural
+    possessor_person: third
+  expected: drar
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: drɔk
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: dram
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: dran
+---
+lemma: nme
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: nmenɛn
+- features:
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: nmeni
+- features:
+    number: plural
+    person: third
+    possessor_number: plural
+    possessor_person: third
+  expected: nmar
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: nmag
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: nmam
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: nman

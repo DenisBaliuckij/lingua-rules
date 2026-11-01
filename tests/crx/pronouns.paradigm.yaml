@@ -1,0 +1,75 @@
+lemma: k'usumbe
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: k'usumbene
+- features:
+    number: singular
+  expected: k'usumbe
+---
+lemma: mbe
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: mbene
+- features:
+    number: singular
+  expected: mbe
+---
+lemma: sch'e
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nech'e
+- features:
+    number: plural
+    person: second
+  expected: nohch'e
+- features:
+    number: plural
+    person: third
+  expected: buch'e
+- features:
+    number: singular
+    person: first
+  expected: sch'e
+- features:
+    number: singular
+    person: second
+  expected: nch'e
+- features:
+    number: singular
+    person: third
+  expected: ooch'e
+---
+lemma: sich'oh
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: whenich'oh
+- features:
+    number: plural
+    person: second
+  expected: nohnich'oh
+- features:
+    number: plural
+    person: third
+  expected: diduch'oh
+- features:
+    number: singular
+    person: first
+  expected: sich'oh
+- features:
+    number: singular
+    person: second
+  expected: nyunch'oh
+- features:
+    number: singular
+    person: third
+  expected: dich'oh

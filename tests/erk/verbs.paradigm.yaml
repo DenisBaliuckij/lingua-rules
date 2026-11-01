@@ -1,0 +1,35 @@
+lemma: fra
+category: verbs
+cases:
+- features:
+    number: singular
+    person: second
+  expected: frak
+- features:
+    number: singular
+    person: third
+  expected: fran
+---
+lemma: ma
+category: verbs
+cases:
+- features:
+    number: singular
+    person: second
+  expected: mak
+- features:
+    number: singular
+    person: third
+  expected: man
+---
+lemma: mur
+category: verbs
+cases:
+- features:
+    number: singular
+    person: second
+  expected: muruk
+- features:
+    number: singular
+    person: third
+  expected: murin

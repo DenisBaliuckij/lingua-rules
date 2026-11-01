@@ -1,0 +1,102 @@
+lemma: girnoshk
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: girnoshkedsh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: girnoshk
+---
+lemma: kekionshk
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: kekionshk
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: kekionshk
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: kekionshkedsh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: kekionko
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: kekionshk
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: kekion
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kekionmo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kekionshmo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: kekionko
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: kekionshk
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kekionshmo
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: kekionshk

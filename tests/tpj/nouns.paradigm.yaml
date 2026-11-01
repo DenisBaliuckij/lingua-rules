@@ -1,0 +1,47 @@
+lemma: ayi
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: shi-r-ayi
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: tayi
+---
+lemma: esa
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: shi-r-esa
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ti-r-esa
+---
+lemma: ipoti
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: shipoti
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: tipoti
+---
+lemma: pe
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: shi-r-ape
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: pe

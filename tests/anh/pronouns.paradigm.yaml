@@ -1,0 +1,75 @@
+lemma: ihind
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: aliQind
+- features:
+    number: plural
+    person: second
+  expected: amandir]
+- features:
+    number: plural
+    person: third
+  expected: mbindirj
+- features:
+    number: singular
+    person: first
+  expected: ihind
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hi
+- features:
+    number: plural
+    person: second
+  expected: am
+- features:
+    number: plural
+    person: third
+  expected: mbi
+- features:
+    number: singular
+    person: first
+  expected: mi
+- features:
+    number: singular
+    person: second
+  expected: am
+- features:
+    number: singular
+    person: third
+  expected: mbi
+---
+lemma: yan
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: alirj
+- features:
+    number: plural
+    person: second
+  expected: andig
+- features:
+    number: plural
+    person: third
+  expected: ndirj
+- features:
+    number: singular
+    person: first
+  expected: yan
+- features:
+    number: singular
+    person: second
+  expected: nan
+- features:
+    number: singular
+    person: third
+  expected: ndin

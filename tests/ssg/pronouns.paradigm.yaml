@@ -1,0 +1,43 @@
+lemma: amili
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: amili
+- features:
+    number: plural
+    person: first
+  expected: amite
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: lalu
+- features:
+    number: plural
+    person: third
+  expected: lato
+- features:
+    number: singular
+    person: third
+  expected: i
+---
+lemma: nga
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kalu
+- features:
+    number: plural
+    person: first
+  expected: kako
+- features:
+    number: singular
+    person: first
+  expected: nga

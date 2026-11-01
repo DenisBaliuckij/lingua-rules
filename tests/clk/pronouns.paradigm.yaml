@@ -1,0 +1,43 @@
+lemma: ngáyà
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: īnyīyà
+- features:
+    number: plural
+    person: second
+  expected: ēnēyà
+- features:
+    number: plural
+    person: third
+  expected: āyà hrũ̀ jī ēnēyà
+- features:
+    number: singular
+    person: first
+  expected: ngáyà
+- features:
+    number: singular
+    person: second
+  expected: nyúyà
+- features:
+    number: singular
+    person: third
+  expected: nyúyà
+---
+lemma: ngācì
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ngācì
+- features:
+    number: singular
+    person: second
+  expected: nyūcì
+- features:
+    number: singular
+    person: third
+  expected: āyācì

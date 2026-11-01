@@ -1,0 +1,44 @@
+lemma: qa
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: qali-dra
+- features:
+    number: plural
+    person: first
+  expected: qayana
+- features:
+    number: singular
+    person: first
+  expected: qani
+---
+lemma: warana
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: warapundfu
+- features:
+    case: absolutive
+  expected: warana
+- features:
+    case: allative
+  expected: warapu
+---
+lemma: yin
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: yu Ia
+- features:
+    number: plural
+    person: second
+  expected: yura
+- features:
+    number: singular
+    person: second
+  expected: yina

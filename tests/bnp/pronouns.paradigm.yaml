@@ -1,0 +1,56 @@
+lemma: ia
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: rua
+- features:
+    number: plural
+    person: third
+  expected: ria
+- features:
+    number: singular
+    person: third
+  expected: ia
+- features:
+    person: third
+  expected: tou
+---
+lemma: iau
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: maria
+- features:
+    number: plural
+    person: first
+  expected: mia
+- features:
+    number: singular
+    person: first
+  expected: iau
+- features:
+    person: first
+  expected: mateu
+---
+lemma: ioe
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: marua
+- features:
+    number: plural
+    person: second
+  expected: mua
+- features:
+    number: singular
+    person: second
+  expected: ioe
+- features:
+    person: second
+  expected: matou

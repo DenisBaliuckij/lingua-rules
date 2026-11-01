@@ -1,0 +1,27 @@
+lemma: yo
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mótro
+- features:
+    number: plural
+    person: second
+  expected: tédi
+- features:
+    number: plural
+    person: third
+  expected: lótro
+- features:
+    number: singular
+    person: first
+  expected: yo
+- features:
+    number: singular
+    person: second
+  expected: bo
+- features:
+    number: singular
+    person: third
+  expected: éle

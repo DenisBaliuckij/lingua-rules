@@ -1,0 +1,27 @@
+lemma: do
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: do
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: do
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: do
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: do

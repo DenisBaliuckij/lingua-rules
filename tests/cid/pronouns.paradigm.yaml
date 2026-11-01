@@ -1,0 +1,75 @@
+lemma: mamqʰetot
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: mamqʰetot
+---
+lemma: načʰitot
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: načʰitot
+---
+lemma: nout
+category: pronouns
+cases:
+- features:
+    evidentiality: direct
+    number: dual
+    person: first
+  expected: noutowa
+- features:
+    number: singular
+    person: first
+  expected: nout
+- features:
+    number: singular
+    person: second
+  expected: mamut
+- features:
+    number: singular
+    person: third
+  expected: hamut
+---
+lemma: noˀ-ot
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: na-čʰi-t-ot
+- features:
+    number: plural
+    person: second
+  expected: mam-qʰe-t-ot
+- features:
+    number: singular
+    person: first
+  expected: noˀ-ot
+- features:
+    number: singular
+    person: second
+  expected: mam-ot
+- features:
+    person: third
+  expected: pʰaˀm-ot
+---
+lemma: noˀot
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: pʰaˀmot
+- features:
+    number: singular
+    person: first
+  expected: noˀot
+- features:
+    number: singular
+    person: second
+  expected: mamot

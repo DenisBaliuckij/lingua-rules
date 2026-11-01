@@ -1,0 +1,91 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ni
+- features:
+    number: singular
+    person: first
+  expected: a
+---
+lemma: ang
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: ijurong
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: iju
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: erong
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: iyә
+- features:
+    number: plural
+    person: first
+  expected: ning
+- features:
+    number: plural
+    person: second
+  expected: narong
+- features:
+    number: singular
+    person: first
+  expected: ang
+- features:
+    number: singular
+    person: second
+  expected: nang
+---
+lemma: iju
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: ijurong
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: iju
+---
+lemma: iyә
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: erong
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: iyә
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: narong
+- features:
+    number: singular
+    person: second
+  expected: na

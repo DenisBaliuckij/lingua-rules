@@ -1,0 +1,24 @@
+lemma: sindi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: sindiya
+- features:
+    number: dual
+    person: second
+  expected: si nim-a
+- features:
+    number: dual
+    person: third
+  expected: si naandi-ya
+- features:
+    person: first
+  expected: sindiyal
+- features:
+    person: second
+  expected: si nim-tal
+- features:
+    person: third
+  expected: si naandi-yal

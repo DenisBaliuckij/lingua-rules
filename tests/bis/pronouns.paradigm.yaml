@@ -1,0 +1,56 @@
+lemma: hem
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: tufala
+- features:
+    number: plural
+    person: third
+  expected: ol
+- features:
+    number: singular
+    person: third
+  expected: hem
+- features:
+    person: third
+  expected: trifala
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: yumitu
+- features:
+    number: plural
+    person: first
+  expected: yumi
+- features:
+    number: singular
+    person: first
+  expected: mi
+- features:
+    person: first
+  expected: yumitrifala
+---
+lemma: yu
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: yutufala
+- features:
+    number: plural
+    person: second
+  expected: yufala
+- features:
+    number: singular
+    person: second
+  expected: yu
+- features:
+    person: second
+  expected: yutrifala

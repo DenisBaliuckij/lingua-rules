@@ -1,0 +1,49 @@
+lemma: 他 tā
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: tā-men
+- features:
+    number: singular
+  expected: tā
+---
+lemma: 你 nǐ
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: nǐ-men
+- features:
+    number: singular
+  expected: nǐ
+---
+lemma: 我 wǒ
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: wǒ-men
+- features:
+    number: singular
+  expected: wǒ
+---
+lemma: 這 zhè
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: zhè-xie
+- features:
+    number: singular
+  expected: zhè
+---
+lemma: 那 nà
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: nà-xie
+- features:
+    number: singular
+  expected: nà

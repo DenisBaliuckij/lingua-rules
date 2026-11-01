@@ -1,0 +1,27 @@
+lemma: ga
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: téma
+- features:
+    number: plural
+    person: second
+  expected: tûnu
+- features:
+    number: plural
+    person: third
+  expected: wâra
+- features:
+    number: singular
+    person: first
+  expected: ga
+- features:
+    number: singular
+    person: second
+  expected: na
+- features:
+    number: singular
+    person: third
+  expected: tins

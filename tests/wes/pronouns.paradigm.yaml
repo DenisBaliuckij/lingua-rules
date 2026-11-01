@@ -1,0 +1,103 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: wi
+- features:
+    number: plural
+    person: second
+  expected: wuna
+- features:
+    number: plural
+    person: third
+  expected: dem
+- features:
+    number: singular
+    person: first
+  expected: a
+- features:
+    number: singular
+    person: second
+  expected: yu
+- features:
+    number: singular
+    person: third
+  expected: i
+---
+lemma: dem
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: dem
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: dem
+- features:
+    number: singular
+    person: third
+  expected: i
+---
+lemma: ma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: wi
+- features:
+    number: singular
+    person: first
+  expected: ma
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: mi
+---
+lemma: wi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: wi
+---
+lemma: wuna
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: wuna
+---
+lemma: ya
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: wuna
+- features:
+    number: singular
+    person: second
+  expected: ya
+---
+lemma: yu
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: yu

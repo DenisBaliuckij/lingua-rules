@@ -1,0 +1,55 @@
+lemma: ma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ya
+- features:
+    number: plural
+    person: second
+  expected: yi
+- features:
+    number: plural
+    person: third
+  expected: uo
+- features:
+    number: singular
+    person: first
+  expected: ma
+- features:
+    number: singular
+    person: second
+  expected: mu
+- features:
+    number: singular
+    person: third
+  expected: ani
+---
+lemma: naa-ma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: naa-ya
+- features:
+    number: plural
+    person: second
+  expected: naa-yi
+- features:
+    number: plural
+    person: third
+  expected: naa-uo
+- features:
+    number: singular
+    person: first
+  expected: naa-ma
+- features:
+    number: singular
+    person: second
+  expected: naa-mu
+- features:
+    number: singular
+    person: third
+  expected: naa-ani
