@@ -1,0 +1,35 @@
+lemma: he
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: he
+---
+lemma: ji
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: ji
+---
+lemma: keh
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: deh
+- features:
+    number: singular
+    person: third
+  expected: keh
+---
+lemma: ye
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ye

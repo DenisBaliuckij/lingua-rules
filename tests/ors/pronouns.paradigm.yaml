@@ -1,0 +1,35 @@
+lemma: am
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kita
+- features:
+    number: singular
+    person: first
+  expected: am
+---
+lemma: ay
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ay
+- features:
+    number: singular
+    person: second
+  expected: ay
+---
+lemma: ɲa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ɲa
+- features:
+    number: singular
+    person: third
+  expected: ɲa

@@ -1,0 +1,31 @@
+lemma: kei
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: kei
+- features:
+    number: singular
+    person: second
+  expected: naŋ
+- features:
+    number: singular
+    person: third
+  expected: anih
+---
+lemma: keini
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: keini
+- features:
+    number: plural
+    person: second
+  expected: naŋni
+- features:
+    number: plural
+    person: third
+  expected: annih

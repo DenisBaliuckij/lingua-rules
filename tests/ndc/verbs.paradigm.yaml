@@ -1,0 +1,39 @@
+lemma: ri
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tiri
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: vari
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vari
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ndiri
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: uri
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ari

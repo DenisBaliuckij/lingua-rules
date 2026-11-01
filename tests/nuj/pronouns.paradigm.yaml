@@ -1,0 +1,27 @@
+lemma: ese
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: efe
+- features:
+    number: plural
+    person: second
+  expected: enywe
+- features:
+    number: plural
+    person: third
+  expected: bo
+- features:
+    number: singular
+    person: first
+  expected: ese
+- features:
+    number: singular
+    person: second
+  expected: ewe
+- features:
+    number: singular
+    person: third
+  expected: ye

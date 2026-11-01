@@ -1,0 +1,47 @@
+lemma: nǐ
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: nǐ de
+---
+lemma: nǐmen
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: nǐmen de
+---
+lemma: tā
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: tā de
+---
+lemma: tāmen
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: tāmen de
+---
+lemma: wǒ
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: wǒ de
+---
+lemma: wǒmen
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: wǒmen de

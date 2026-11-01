@@ -1,0 +1,37 @@
+lemma: la
+category: pronouns
+cases:
+- features:
+    gender: neuter
+  expected: la
+---
+lemma: ma
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+  expected: ma
+---
+lemma: 'no'
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+  expected: 'no'
+---
+lemma: nuna
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: nun'zine
+- features:
+    number: singular
+  expected: nuna?
+---
+lemma: nune
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: nune

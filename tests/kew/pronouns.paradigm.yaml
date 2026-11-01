@@ -1,0 +1,35 @@
+lemma: nl
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: saa
+- features:
+    number: dual
+    person: second
+  expected: nipi
+- features:
+    number: plural
+    person: first
+  expected: nfaa
+- features:
+    number: plural
+    person: second
+  expected: nimi
+- features:
+    number: plural
+    person: third
+  expected: nimu
+- features:
+    number: singular
+    person: first
+  expected: nl
+- features:
+    number: singular
+    person: second
+  expected: ne
+- features:
+    number: singular
+    person: third
+  expected: nipu
