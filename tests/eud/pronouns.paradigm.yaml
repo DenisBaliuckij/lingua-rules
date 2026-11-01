@@ -1,0 +1,91 @@
+lemma: amet
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: amet
+---
+lemma: amét
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: améde
+- features:
+    case: comitative
+    number: plural
+  expected: améma
+- features:
+    case: dative
+    number: plural
+  expected: ame
+- features:
+    case: genitive
+    number: plural
+  expected: ame
+- features:
+    case: nominative
+    number: plural
+  expected: amét
+---
+lemma: emét
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: emét
+---
+lemma: id
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: aréde
+- features:
+    case: comitative
+    number: singular
+  expected: arema
+- features:
+    case: dative
+    number: singular
+  expected: ia
+- features:
+    case: genitive
+    number: singular
+  expected: ide
+- features:
+    case: nominative
+    number: singular
+  expected: id
+- features:
+    number: singular
+    person: third
+  expected: id
+---
+lemma: nap
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: nap
+---
+lemma: nee
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: nee
+---
+lemma: tamide
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tamide

@@ -1,0 +1,36 @@
+lemma: are
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: are ra
+- features:
+    number: singular
+  expected: are
+---
+lemma: dore
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: dore
+---
+lemma: kore
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: kore ra
+- features:
+    number: singular
+  expected: kore
+---
+lemma: sore
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: sore ra
+- features:
+    number: singular
+  expected: sore

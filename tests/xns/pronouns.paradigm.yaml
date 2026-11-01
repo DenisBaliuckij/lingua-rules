@@ -1,0 +1,43 @@
+lemma: du
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: dugaː
+- features:
+    number: singular
+    person: third
+  expected: du
+---
+lemma: gu
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: gu
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: aŋ
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: aka
+---
+lemma: nu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: nugaː
+- features:
+    number: singular
+    person: third
+  expected: nu

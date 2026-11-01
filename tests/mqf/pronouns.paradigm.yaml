@@ -1,0 +1,220 @@
+lemma: du
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: dikh
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: dir
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: du
+---
+lemma: er
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: im
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+    person: third
+  expected: im
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: er
+---
+lemma: es
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+    person: third
+  expected: es
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+    person: third
+  expected: im
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+    person: third
+  expected: es
+---
+lemma: ikh
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: mikh
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: mir
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ikh
+---
+lemma: ir
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: aykh
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: aykh
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: ir
+---
+lemma: mir
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: undz
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: undz
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: mir
+---
+lemma: sa
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: na
+- features:
+    gender: feminine
+    number: singular
+  expected: na
+- features:
+    gender: masculine
+    number: plural
+  expected: nu
+- features:
+    gender: masculine
+    number: singular
+  expected: nu
+---
+lemma: ul
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: tu
+- features:
+    gender: feminine
+    number: singular
+  expected: la
+- features:
+    gender: masculine
+    number: plural
+  expected: tu
+- features:
+    gender: masculine
+    number: singular
+  expected: lu
+---
+lemma: za
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: lu
+- features:
+    gender: feminine
+    number: singular
+  expected: na
+- features:
+    gender: masculine
+    number: plural
+  expected: tu
+- features:
+    gender: masculine
+    number: singular
+  expected: nu
+---
+lemma: zey
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: zey
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: zey
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: zey
+---
+lemma: zi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: zi
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+    person: third
+  expected: ir
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: zi

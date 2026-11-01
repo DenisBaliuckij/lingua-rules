@@ -1,0 +1,155 @@
+lemma: a:-w-E
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: a:-w-u
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: as-w-ali
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: a:-w-e
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: as-w-a
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: a:-w-ari
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: a:-w-E
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: a:-w-a
+---
+lemma: a:-y-eri
+category: verbs
+cases:
+- features:
+    animacy: animate
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: a:-t-eri
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: a:-t-a
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: a:-t-ni
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: a:-t-ali
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: a:-t-e
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: a:-t-a
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: a:-t-ari
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: a:-t-E
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: a:-t-a
+---
+lemma: aswontu
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    polarity: affirmative
+    tense: present
+  expected: aswontu
+- features:
+    mood: conditional
+    polarity: affirmative
+    tense: present
+  expected: aswoli
+- features:
+    mood: conditional
+    polarity: negative
+    tense: present
+  expected: aswotri
+- features:
+    mood: optative
+    polarity: affirmative
+    tense: present
+  expected: aswodu
+- features:
+    polarity: negative
+    tense: present
+  expected: aswantis

@@ -1,0 +1,309 @@
+lemma: ken
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ken
+- features:
+    number: singular
+    person: second
+  expected: ken
+---
+lemma: nem
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ne-ta-ŋ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ne-u-ta-ŋ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: ne-ta-ŋ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ne-u-ta-ŋ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ne-ta-ʃ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ne-u-ta-ʃ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ne-ta-k
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ne-u-ta-k
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ne-ta-n
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ne-u-ta-n
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: neta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ne-u-ta
+---
+lemma: to
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: hoʃ-ta-ŋ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tot-ke-ŋ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tot-ki-ŋ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: hoʃ-ta-ŋ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: tot-ke-ŋ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: toŋ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: hoʃ-ta-ʃ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tot-k
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: toʃ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: hoʃ-ta-k
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tot-ke-k
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tot-k
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: hoʃ-ta-n
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: tot-ke-n
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ton
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: hoʃ-ta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tot-k
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: to
+---
+lemma: tuŋ-am
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: plural
+  expected: tuŋ-n-e
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+  expected: tuŋ-t-e
+- features:
+    gender: masculine
+    mood: imperative
+    number: plural
+  expected: tuŋ-n
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+  expected: tuŋ-t-u
+---
+lemma: tuʃ-jaː-m
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+  expected: tuʃ-jaː-ve
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+  expected: tuʃ-jaː-u
+---
+lemma: ʣaː-m
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: plural
+  expected: ʣaː-ŋ-e
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+  expected: ʣaː-je
+- features:
+    gender: masculine
+    mood: imperative
+    number: plural
+  expected: ʣaː-ŋ
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+  expected: ʣaː-u
+---
+lemma: ʦʰaː-m
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: plural
+  expected: ʦʰaː-ŋ-e
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+  expected: ʦʰaː-e
+- features:
+    gender: masculine
+    mood: imperative
+    number: plural
+  expected: ʦʰaː-ŋ
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+  expected: ʦʰaː
+---
+lemma: ʧi-m
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: plural
+  expected: ʧi-ŋ-e
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+  expected: ʧi-e
+- features:
+    gender: masculine
+    mood: imperative
+    number: plural
+  expected: ʧi-ŋ
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+  expected: ʧi-u

@@ -1,0 +1,107 @@
+lemma: kaˈli³f
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: kaˈlif‑in
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: kaˈlif‑im
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: kaˈlif‑in
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: kaˈli³f‑ig
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: kaˈli³f‑im
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: kaˈlif
+---
+lemma: taˈbyu¹²
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: taˈbyu‑n
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: taˈbyu‑m
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: taˈbyu‑n
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: taˈbyu¹²‑g
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: taˈbyu¹²‑m
+---
+lemma: təbu¹²
+category: nouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: təbu¹²‑m
+- features:
+    number: plural
+    person: second
+  expected: təbu¹²‑m
+- features:
+    number: plural
+    person: third
+  expected: təbu
+- features:
+    number: singular
+    person: first
+  expected: təbu¹²‑g
+- features:
+    number: singular
+    person: second
+  expected: təbu¹²‑m
+- features:
+    number: singular
+    person: third
+  expected: təbu
+---
+lemma: wo³w
+category: nouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: wo³‑m
+- features:
+    number: plural
+    person: second
+  expected: wo³‑m
+- features:
+    number: plural
+    person: third
+  expected: wow
+- features:
+    number: singular
+    person: first
+  expected: wo³‑g
+- features:
+    number: singular
+    person: second
+  expected: wo³‑m
+- features:
+    number: singular
+    person: third
+  expected: wow

@@ -1,0 +1,121 @@
+lemma: tul
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ntulon
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+  expected: ntusonuk
+- features:
+    number: plural
+    person: first
+    possessor_number: singular
+  expected: ntusok
+- features:
+    number: plural
+    person: second
+  expected: ktuluwa
+- features:
+    number: plural
+    person: second
+    possessor_number: plural
+  expected: ktusuwak
+- features:
+    number: plural
+    person: second
+    possessor_number: singular
+  expected: ktusok
+- features:
+    number: plural
+    person: third
+  expected: tuluwa
+- features:
+    number: plural
+    person: third
+    possessor_number: plural
+  expected: tusuwtl
+- features:
+    number: plural
+    person: third
+    possessor_number: singular
+  expected: tus
+- features:
+    number: singular
+    person: first
+  expected: ntul
+- features:
+    number: singular
+    person: first
+    possessor_number: plural
+  expected: ntulonul
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+  expected: ntulol
+- features:
+    number: singular
+    person: second
+  expected: ktul
+- features:
+    number: singular
+    person: second
+    possessor_number: plural
+  expected: ktuluwal
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+  expected: ktulol
+- features:
+    number: singular
+    person: third
+  expected: tul
+- features:
+    number: singular
+    person: third
+    possessor_number: plural
+  expected: tuluwal
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+  expected: tulol
+---
+lemma: tus
+category: nouns
+cases:
+- features:
+    number: singular
+    person: first
+    possessor_number: plural
+  expected: ntuson
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+  expected: ntus
+- features:
+    number: singular
+    person: second
+    possessor_number: plural
+  expected: ktusuwa
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+  expected: ktus
+- features:
+    number: singular
+    person: third
+    possessor_number: plural
+  expected: tlisuwal
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+  expected: tusol

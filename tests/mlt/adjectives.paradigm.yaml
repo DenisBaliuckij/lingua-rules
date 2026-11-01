@@ -1,0 +1,39 @@
+lemma: dak
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: dawk
+- features:
+    gender: feminine
+    number: singular
+  expected: dik
+- features:
+    gender: masculine
+    number: plural
+  expected: dawk
+- features:
+    gender: masculine
+    number: singular
+  expected: dak
+---
+lemma: dan
+category: adjectives
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: dawn
+- features:
+    gender: feminine
+    number: singular
+  expected: din
+- features:
+    gender: masculine
+    number: plural
+  expected: dawn
+- features:
+    gender: masculine
+    number: singular
+  expected: dan

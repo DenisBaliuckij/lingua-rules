@@ -1,0 +1,59 @@
+lemma: aa
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: yaisen
+- features:
+    number: plural
+    person: first
+  expected: an
+- features:
+    number: singular
+    person: first
+  expected: aa
+---
+lemma: ai
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: yaisen
+- features:
+    number: plural
+    person: third
+  expected: ei
+- features:
+    number: singular
+    person: third
+  expected: ai
+---
+lemma: aiti
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: yaisen
+- features:
+    number: plural
+    person: first
+  expected: aiti
+---
+lemma: ee
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: yaisen
+- features:
+    number: plural
+    person: second
+  expected: en
+- features:
+    number: singular
+    person: second
+  expected: ee

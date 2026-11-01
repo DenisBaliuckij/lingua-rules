@@ -1,0 +1,183 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: that
+---
+lemma: a:d
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: adiŋ
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+    person: third
+  expected: awe
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+    person: third
+  expected: a:dne
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+    person: third
+  expected: awe
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+    person: third
+  expected: a:dne
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: a:w
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: a:d
+- features:
+    gender: neuter
+    number: plural
+    person: third
+  expected: a:w
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: a:d
+- features:
+    number: singular
+  expected: that
+---
+lemma: a:l
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: yonder
+---
+lemma: a:n
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: amuŋ
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: anuŋ
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: a:me
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: a:ne
+- features:
+    number: plural
+    person: first
+  expected: a:m
+- features:
+    number: singular
+    person: first
+  expected: a:n
+---
+lemma: ailᴐk
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: ailᴐkuŋ
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: ailᴐkne
+- features:
+    number: plural
+    person: third
+  expected: ailᴐk
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: this
+---
+lemma: id
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+    person: third
+  expected: idiŋ
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+    person: third
+  expected: idine
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: id
+- features:
+    number: singular
+  expected: this
+---
+lemma: in
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: imuŋ
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: inuŋ
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: ime
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: ine
+- features:
+    number: plural
+    person: second
+  expected: im
+- features:
+    number: singular
+    person: second
+  expected: in

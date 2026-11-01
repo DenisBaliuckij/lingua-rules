@@ -1,0 +1,32 @@
+lemma: amu³
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: amu³
+- features:
+    number: dual
+    person: second
+  expected: məlu³
+- features:
+    number: dual
+    person: third
+  expected: həlu³
+- features:
+    number: plural
+    person: first
+  expected: am
+- features:
+    number: singular
+    person: first
+  expected: atu³
+- features:
+    person: first
+  expected: amtu³l
+- features:
+    person: second
+  expected: mətu³
+- features:
+    person: third
+  expected: hətu³l

@@ -1,0 +1,39 @@
+lemma: get
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kam
+- features:
+    number: plural
+    person: second
+  expected: gem
+- features:
+    number: plural
+    person: third
+  expected: air
+---
+lemma: sog
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: seraru
+- features:
+    number: plural
+    person: third
+  expected: ser
+- features:
+    number: singular
+    person: first
+  expected: sog
+- features:
+    number: singular
+    person: second
+  expected: sam
+- features:
+    number: singular
+    person: third
+  expected: sen

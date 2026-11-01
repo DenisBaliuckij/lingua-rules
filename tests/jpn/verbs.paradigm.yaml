@@ -1,0 +1,85 @@
+lemma: arau
+category: verbs
+cases:
+- features:
+    formality: formal
+    mood: indicative
+    tense: present
+  expected: araemasu
+- features:
+    mood: conditional
+    tense: present
+  expected: araeba
+- features:
+    mood: imperative
+    polarity: affirmative
+  expected: arare
+---
+lemma: manabu
+category: verbs
+cases:
+- features:
+    formality: formal
+    mood: indicative
+    tense: present
+  expected: manabimasu
+- features:
+    mood: conditional
+    tense: present
+  expected: manabeba
+- features:
+    mood: imperative
+    polarity: affirmative
+  expected: manabe
+---
+lemma: matsu
+category: verbs
+cases:
+- features:
+    formality: formal
+    mood: indicative
+    tense: present
+  expected: machimashimasu
+- features:
+    mood: imperative
+    polarity: affirmative
+  expected: matete
+---
+lemma: nomu
+category: verbs
+cases:
+- features:
+    formality: formal
+    mood: indicative
+    tense: present
+  expected: nomimasu
+- features:
+    mood: conditional
+    tense: present
+  expected: nomeba
+- features:
+    mood: imperative
+    polarity: affirmative
+  expected: nome
+---
+lemma: yuku
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    polarity: negative
+  expected: yukazaru
+- features:
+    mood: indicative
+    polarity: negative
+    tense: future
+  expected: yukazaramu
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: yukazariki
+- features:
+    mood: optative
+    polarity: negative
+  expected: yukazarubeshi

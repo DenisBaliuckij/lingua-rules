@@ -1,0 +1,329 @@
+lemma: bimohwal
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: bimohw
+- features:
+    mood: subjunctive
+  expected: bimohwalahg
+---
+lemma: biw
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: biw
+- features:
+    mood: subjunctive
+  expected: bihw
+---
+lemma: darił
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: dař
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: dařit
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: darihyak
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: darťhyam
+---
+lemma: gagwa’w
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    voice: passive
+  expected: gagwa’wiladak
+- features:
+    number: singular
+    person: first
+    voice: passive
+  expected: gagwa’wil
+- features:
+    number: singular
+    person: second
+    voice: passive
+  expected: gagwa’wilot
+- features:
+    number: singular
+    person: third
+    voice: passive
+  expected: gagwa’war
+---
+lemma: haskipil
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: haskáp
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: haskápat
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: haskápahgak
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: haskápahgam
+---
+lemma: hitokws
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: hftokwsa
+- features:
+    mood: subjunctive
+  expected: hitokwsahg
+---
+lemma: hutw
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: hutwa
+- features:
+    mood: subjunctive
+  expected: hutwahg
+---
+lemma: hutwił
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: hutwá
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: hutwát
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: hutwáhgak
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: hutwáhgam
+---
+lemma: hutwohwal
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: hutwohw
+- features:
+    mood: subjunctive
+  expected: hutwohwalahg
+---
+lemma: kamar
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: kámar
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: kámarat
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: kámarahgak
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: kámarahgam
+---
+lemma: khukšonu
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: khukšonu
+- features:
+    mood: subjunctive
+  expected: khukšonuhw
+---
+lemma: kitanab
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: kitáhnaba
+- features:
+    mood: subjunctive
+  expected: kitanahm
+---
+lemma: lag
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: láhgi
+- features:
+    mood: subjunctive
+  expected: lagihy
+---
+lemma: ligił
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: lďgit
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: lágihyak
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: lágihyam
+---
+lemma: thahlabil
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: tháhlabil
+- features:
+    mood: subjunctive
+  expected: thahlabilahg
+---
+lemma: thalim
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: thahlim
+- features:
+    mood: subjunctive
+  expected: thalihm
+---
+lemma: tohl
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: tohla
+- features:
+    mood: subjunctive
+  expected: tolahg
+---
+lemma: tsanakw
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    voice: passive
+  expected: tsanagw-irodak
+- features:
+    number: singular
+    person: first
+    voice: passive
+  expected: tsa'nagw-!r
+- features:
+    number: singular
+    person: second
+    voice: passive
+  expected: tsanagw-irot
+---
+lemma: tu
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: tu
+- features:
+    mood: subjunctive
+  expected: tuhw
+---
+lemma: tóditkadił
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: tóditkadahgak
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: tóditkadahgam
+---
+lemma: vaL
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    voice: passive
+  expected: va'L-ilodak
+- features:
+    number: singular
+    person: first
+    voice: passive
+  expected: va'L-il
+- features:
+    number: singular
+    person: second
+    voice: passive
+  expected: va'L-ilot
+- features:
+    number: singular
+    person: third
+    voice: passive
+  expected: va'L-im
+---
+lemma: waptił
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: wáptihyak
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: wáptihyam

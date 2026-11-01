@@ -1,0 +1,227 @@
+lemma: audir
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: audi!
+- features:
+    verb_form: infinitive
+  expected: audir
+- features:
+    verb_form: past_participle
+  expected: audite
+- features:
+    verb_form: present_participle
+  expected: audiente
+---
+lemma: cantar
+category: verbs
+cases:
+- features:
+    mood: conditional
+    tense: past
+  expected: cantarea
+- features:
+    tense: future
+  expected: cantara
+- features:
+    tense: past
+  expected: cantava
+- features:
+    tense: present
+  expected: canta
+- features:
+    verb_form: infinitive
+  expected: cantar
+- features:
+    verb_form: past_participle
+  expected: cantate
+- features:
+    verb_form: present_participle
+  expected: cantante
+---
+lemma: crear
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: crea!
+- features:
+    verb_form: infinitive
+  expected: crear
+- features:
+    verb_form: past_participle
+  expected: create
+- features:
+    verb_form: present_participle
+  expected: creante
+---
+lemma: esser
+category: verbs
+cases:
+- features:
+    mood: conditional
+  expected: esserea
+- features:
+    mood: imperative
+  expected: esse
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: conditional_tense
+  expected: esserea
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: essera
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: esseva
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: es
+- features:
+    tense: future
+  expected: essera
+- features:
+    tense: imperfect
+  expected: era
+- features:
+    tense: past
+  expected: esseva
+- features:
+    tense: present
+  expected: esse
+---
+lemma: ir
+category: verbs
+cases:
+- features:
+    mood: conditional
+  expected: irea
+- features:
+    tense: future
+  expected: ira
+- features:
+    tense: past
+  expected: iva
+- features:
+    tense: present
+  expected: va
+- features:
+    verb_form: gerund
+  expected: iiente
+- features:
+    verb_form: infinitive
+  expected: ir
+- features:
+    verb_form: participle
+  expected: ite
+---
+lemma: sortir
+category: verbs
+cases:
+- features:
+    mood: conditional
+    tense: past
+  expected: sortirea
+- features:
+    tense: future
+  expected: sortira
+- features:
+    tense: past
+  expected: sortiva
+- features:
+    tense: present
+  expected: sorti
+- features:
+    verb_form: infinitive
+  expected: sortir
+- features:
+    verb_form: past_participle
+  expected: sortite
+- features:
+    verb_form: present_participle
+  expected: sortiente
+---
+lemma: vader
+category: verbs
+cases:
+- features:
+    mood: conditional
+  expected: vaderea
+- features:
+    tense: future
+  expected: vadera
+- features:
+    tense: past
+  expected: vadeva
+- features:
+    tense: present
+  expected: va
+- features:
+    verb_form: gerund
+  expected: vadente
+- features:
+    verb_form: infinitive
+  expected: vader
+- features:
+    verb_form: participle
+  expected: vadite
+---
+lemma: vider
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: vide!
+- features:
+    verb_form: infinitive
+  expected: vider
+- features:
+    verb_form: past_participle
+  expected: vidite
+- features:
+    verb_form: present_participle
+  expected: vidente
+---
+lemma: voler
+category: verbs
+cases:
+- features:
+    mood: conditional
+    tense: past
+  expected: volerea
+- features:
+    tense: future
+  expected: volera
+- features:
+    tense: past
+  expected: voleva
+- features:
+    tense: present
+  expected: vole
+- features:
+    verb_form: infinitive
+  expected: voler
+- features:
+    verb_form: past_participle
+  expected: volite
+- features:
+    verb_form: present_participle
+  expected: volente

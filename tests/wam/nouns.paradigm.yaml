@@ -1,0 +1,73 @@
+lemma: anum
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: anumwuk
+- features:
+    number: singular
+  expected: anumway
+---
+lemma: masq
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: masquk
+- features:
+    number: singular
+  expected: masqay
+---
+lemma: meequn
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: meequnuk
+- features:
+    number: singular
+  expected: meequnay
+---
+lemma: seet
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: kuseetuntnash
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: kuseetuwOwash
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: third
+  expected: wuseetuwOwash
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: wuseetash
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: nuseetun
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: kuseetuw
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: wuseetuw
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: wuseet

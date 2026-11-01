@@ -1,0 +1,87 @@
+lemma: iyey
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: iyey
+---
+lemma: keq
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+  expected: keqseyal
+- features:
+    animacy: inanimate
+    number: singular
+  expected: keq
+---
+lemma: kotok
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: kotokik
+---
+lemma: nit
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: plural
+  expected: nfhtol
+- features:
+    animacy: inanimate
+    number: singular
+  expected: nit
+---
+lemma: not
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: nt:ktok
+- features:
+    animacy: animate
+    number: singular
+  expected: not
+---
+lemma: wen
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: wenik
+- features:
+    animacy: animate
+    number: singular
+  expected: wen
+---
+lemma: wot
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    case: oblique
+    number: singular
+  expected: yiJt
+- features:
+    animacy: animate
+    number: plural
+  expected: yuktok
+- features:
+    animacy: animate
+    number: singular
+  expected: wot
+---
+lemma: yilt
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: singular
+  expected: yilt

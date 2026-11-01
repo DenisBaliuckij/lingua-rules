@@ -1,0 +1,27 @@
+lemma: né yee
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ené twee
+- features:
+    number: plural
+    person: second
+  expected: ené mwee
+- features:
+    number: plural
+    person: third
+  expected: ené bee
+- features:
+    number: singular
+    person: first
+  expected: né yee
+- features:
+    number: singular
+    person: second
+  expected: ené wee
+- features:
+    number: singular
+    person: third
+  expected: ené ywee

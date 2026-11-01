@@ -1,0 +1,625 @@
+lemma: liph
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: liphiyin
+- features:
+    mood: imperative
+    number: dual
+    person: first
+    polarity: negative
+  expected: liphu
+- features:
+    mood: imperative
+    number: dual
+    person: second
+    polarity: affirmative
+  expected: liphiyeq
+- features:
+    mood: imperative
+    number: dual
+    person: second
+    polarity: negative
+  expected: liphuleq
+- features:
+    mood: imperative
+    number: dual
+    person: third
+    polarity: affirmative
+  expected: liphiyek
+- features:
+    mood: imperative
+    number: dual
+    person: third
+    polarity: negative
+  expected: liphulek
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: liphulciyan
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    polarity: negative
+  expected: liphukewan
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: liphuk
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    polarity: negative
+  expected: liphil
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: liphusk
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: liphat
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: negative
+  expected: liphiht
+- features:
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: liphiql
+- features:
+    number: dual
+    person: first
+    polarity: negative
+  expected: kloliphulon
+- features:
+    number: dual
+    person: second
+    polarity: affirmative
+  expected: liphinel
+- features:
+    number: dual
+    person: second
+    polarity: negative
+  expected: ktaliphuloniya
+- features:
+    number: dual
+    person: third
+    polarity: affirmative
+  expected: kloliphinen
+- features:
+    number: dual
+    person: third
+    polarity: negative
+  expected: ktoliphulonen
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: ntoliphuken
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: ntaliphukewan
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: liphanl
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: liphulihc
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: kloliphan
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: liphukulihc
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: liphinl
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: toliphukun
+---
+lemma: lipt
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: lipt!
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    polarity: negative
+  expected: liptuhkocl
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: liptuc
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: liptuc
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: liptasic
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: negative
+  expected: liptasic
+- features:
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: liplasu
+- features:
+    number: dual
+    person: first
+    polarity: negative
+  expected: liplasiw
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: ntoliplun
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: nlolipluwon
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: kloliplun
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: klolipluwon
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: loliplun
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: tolipluwon
+---
+lemma: ol
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: alec
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    polarity: negative
+  expected: alec
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: alec
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: alec
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: ole
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: otew
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: otetul
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+  expected: otewiyil
+---
+lemma: oliph
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: ktoliphi
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: negative
+  expected: ktoliphul
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+  expected: kloliphipa
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: negative
+  expected: kloliphulpa
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: affirmative
+  expected: ktoliphulpon
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: negative
+  expected: ktoliphihpon
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: ntolipha
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: ntoliphoq
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: ktolipha
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+  expected: kloliphoq
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: toliphal
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+  expected: loliphukul
+---
+lemma: olipt
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: ntoliptun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: ntoliptuwon
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: ktoliptun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+  expected: ktoliptuwon
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: toliplun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+  expected: toliptuwon
+---
+lemma: op
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: opinl
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    polarity: negative
+  expected: opihkocl
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: opic
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: opic
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: opilic
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: negative
+  expected: opilic
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: opuwol
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: negative
+  expected: opiwiyyil
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+  expected: opuwok
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: negative
+  expected: opiwiyyik
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: affirmative
+  expected: opultuwok
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: negative
+  expected: opultiwiyik
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: ntop
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: ntopiw
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: klop
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+  expected: ktopiw
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: opu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+  expected: opiww
+- features:
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: opihtic
+- features:
+    number: dual
+    person: first
+    polarity: negative
+  expected: opihtic
+- features:
+    number: dual
+    person: second
+    polarity: affirmative
+  expected: opullihtic
+- features:
+    number: dual
+    person: second
+    polarity: negative
+  expected: opultihtic
+- features:
+    number: dual
+    person: third
+    polarity: affirmative
+  expected: lopultiniya
+- features:
+    number: dual
+    person: third
+    polarity: negative
+  expected: lopultiwoniya
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: nlopin
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: nlopiwon
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: klopin
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: ktopiwon
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: lapin
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: lopiwon
+---
+lemma: ot
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: ole
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: otew
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: ole
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: olew
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: loliplun
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: tolipluwon
+---
+lemma: tihfniya
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ntihinen
+- features:
+    number: plural
+    person: second
+  expected: ktihfniya
+- features:
+    number: plural
+    person: third
+  expected: tihfniya
+- features:
+    number: singular
+    person: second
+  expected: ktihin

@@ -1,0 +1,101 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    noun_class: class_1
+    number: plural
+    person: third
+  expected: yaque
+- features:
+    animacy: animate
+    noun_class: class_1
+    number: singular
+    person: third
+  expected: në
+- features:
+    animacy: animate
+    noun_class: class_2
+    number: plural
+    person: third
+  expected: jë
+- features:
+    animacy: animate
+    noun_class: class_2
+    number: singular
+    person: third
+  expected: bi
+- features:
+    animacy: animate
+    noun_class: class_3
+    number: plural
+    person: third
+  expected: jacabi
+- features:
+    animacy: animate
+    noun_class: class_3
+    number: singular
+    person: third
+  expected: ba
+- features:
+    animacy: animate
+    noun_class: class_4
+    number: plural
+    person: third
+  expected: jabi
+- features:
+    animacy: animate
+    noun_class: class_4
+    number: singular
+    person: third
+  expected: dan
+- features:
+    animacy: animate
+    noun_class: class_5
+    number: plural
+    person: third
+  expected: yacaba
+- features:
+    animacy: animate
+    noun_class: class_6
+    number: plural
+    person: third
+  expected: jaba
+- features:
+    animacy: animate
+    noun_class: class_7
+    number: plural
+    person: third
+  expected: yacadan
+- features:
+    animacy: animate
+    noun_class: class_8
+    number: plural
+    person: third
+  expected: jadan
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: yacan
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: n
+- features:
+    number: plural
+    person: first
+  expected: ndo
+- features:
+    number: plural
+    person: second
+  expected: ro
+- features:
+    number: singular
+    person: first
+  expected: a
+- features:
+    number: singular
+    person: second
+  expected: lo

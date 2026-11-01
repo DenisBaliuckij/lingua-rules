@@ -1,0 +1,333 @@
+lemma: alatj
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: alatj-ba-m
+- features:
+    aspect: perfective
+    tense: perfect
+  expected: alatj-bi-ny
+---
+lemma: ambulding
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: past
+  expected: ambulding-ma-rri
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: ambulding-ma-m
+- features:
+    aspect: perfective
+    tense: perfect
+  expected: ambulding-mi-ny
+- features:
+    mood: optative
+  expected: ambuldingmi
+---
+lemma: anbalk
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: past
+  expected: anbalk-ba-rri
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: anbalk-ba-m
+- features:
+    aspect: perfective
+    tense: perfect
+  expected: anbalk-bi-ny
+- features:
+    mood: optative
+  expected: anbalkbi
+---
+lemma: anbiny
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: past
+  expected: anbiny-ma-rri
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: anbiny-ma-m
+- features:
+    aspect: perfective
+    tense: perfect
+  expected: anbiny-mi-ny
+- features:
+    mood: optative
+  expected: anbinymi
+---
+lemma: igu-gi
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: jigi-jigu-ngi
+- features:
+    number: singular
+    person: first
+  expected: igu-gi
+- features:
+    number: singular
+    person: second
+  expected: w-igu-ngi
+- features:
+    number: singular
+    person: third
+  expected: igu-ngan
+- features:
+    tense: future
+  expected: in-yugu-k
+---
+lemma: ilk
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: past
+  expected: ilk-ba-rri
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: ilk-ba-m
+- features:
+    aspect: perfective
+    tense: perfect
+  expected: ilk-bi-ny
+- features:
+    mood: optative
+  expected: ilkbi
+---
+lemma: ima
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: y-ima-ngi
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: past
+  expected: imangi
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: y-ima-gi
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: imangan
+- features:
+    aspect: perfective
+    tense: perfect
+  expected: imagi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: jumu-k
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: y-in-imu-k
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: y-ima-ngan
+- features:
+    mood: optative
+  expected: imu-k
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: rr-w-imu-k
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: rr-w-ima-ngi
+---
+lemma: ing
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: past
+  expected: ing-ma-rri
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: ing-ma-m
+- features:
+    aspect: perfective
+    tense: perfect
+  expected: ing-mi-ny
+- features:
+    mood: optative
+  expected: ingmi
+---
+lemma: ingang
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: perfect
+  expected: ingang-mi-ny
+- features:
+    mood: optative
+  expected: ingangmi
+---
+lemma: iyuldarri
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: iyuldarri
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wiyuldarri
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: iyuldarra-yan
+- features:
+    mood: indicative
+    tense: future
+  expected: inuldarri
+---
+lemma: iyulkga
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: past
+  expected: iyulkgarri
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: iyulkgam
+---
+lemma: jiyuk
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: past
+  expected: jiyuk-ba-rri
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: jiyuk-ba-m
+---
+lemma: lula-rri
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: lula-rri
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: a-Iula-rri
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: lula-yan
+- features:
+    mood: indicative
+    tense: future
+  expected: in-bilula
+---
+lemma: mitjba
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: past
+  expected: matjba-ngi
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: mitjbangan
+- features:
+    aspect: perfective
+    tense: perfect
+  expected: mitjbagi
+---
+lemma: ni
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: past
+  expected: ningi
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: ningan
+- features:
+    aspect: perfective
+    tense: perfect
+  expected: nigi
+- features:
+    mood: optative
+  expected: niyuk

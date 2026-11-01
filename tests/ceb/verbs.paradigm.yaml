@@ -1,0 +1,100 @@
+lemma: bunal
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: ma-bunal-i
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: future
+    voice: active
+  expected: makabunal
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+    voice: active
+  expected: nakabunal
+- features:
+    aspect: perfective
+    tense: future
+  expected: bunalan
+- features:
+    aspect: perfective
+    tense: future
+    voice: active
+  expected: ma-munal
+- features:
+    aspect: perfective
+    tense: future
+    voice: passive
+  expected: bunalon
+- features:
+    aspect: perfective
+    tense: past
+  expected: gi-bunal-an
+- features:
+    aspect: perfective
+    tense: past
+    voice: active
+  expected: nibunal
+- features:
+    aspect: perfective
+    tense: past
+    voice: passive
+  expected: gibunal
+- features:
+    aspect: progressive
+    mood: imperative
+  expected: pa-ga-bunal-i
+- features:
+    aspect: progressive
+    mood: imperative
+    voice: active
+  expected: pagbunal
+- features:
+    aspect: progressive
+    mood: imperative
+    voice: passive
+  expected: pa-ga-bunal-a
+- features:
+    aspect: progressive
+    tense: future
+  expected: pa-ga-bunal-an
+- features:
+    aspect: progressive
+    tense: future
+    voice: active
+  expected: ma-munal
+- features:
+    aspect: progressive
+    tense: future
+    voice: passive
+  expected: pa-ga-bunal-on
+- features:
+    aspect: progressive
+    tense: past
+  expected: gina-bunal-an
+- features:
+    aspect: progressive
+    tense: past
+    voice: active
+  expected: na-munal
+- features:
+    aspect: progressive
+    tense: past
+    voice: passive
+  expected: gipangbunal
+- features:
+    mood: imperative
+  expected: bunali
+- features:
+    mood: imperative
+    voice: active
+  expected: pagbunal
+- features:
+    mood: imperative
+    voice: passive
+  expected: bunala

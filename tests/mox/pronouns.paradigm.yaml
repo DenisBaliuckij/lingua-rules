@@ -1,0 +1,107 @@
+lemma: personal pronoun
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ayuk
+- features:
+    number: plural
+    person: third
+  expected: nik
+- features:
+    number: singular
+    person: first
+  expected: tak
+- features:
+    number: singular
+    person: second
+  expected: ak
+- features:
+    number: singular
+    person: third
+  expected: wok
+---
+lemma: te
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yery
+- features:
+    number: plural
+    person: second
+  expected: ary
+- features:
+    number: plural
+    person: third
+  expected: ni
+- features:
+    number: singular
+    person: first
+  expected: te
+- features:
+    number: singular
+    person: second
+  expected: ay
+- features:
+    number: singular
+    person: third
+  expected: wo
+---
+lemma: teb
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yerebu
+- features:
+    number: plural
+    person: second
+  expected: arebu
+- features:
+    number: plural
+    person: third
+  expected: nib
+- features:
+    number: singular
+    person: first
+  expected: teb
+- features:
+    number: singular
+    person: second
+  expected: ab
+- features:
+    number: singular
+    person: third
+  expected: wob
+---
+lemma: to
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yeru
+- features:
+    number: plural
+    person: second
+  expected: arebu
+- features:
+    number: plural
+    person: third
+  expected: ninu
+- features:
+    number: singular
+    person: first
+  expected: to
+- features:
+    number: singular
+    person: second
+  expected: ayu
+- features:
+    number: singular
+    person: third
+  expected: wowu

@@ -1,0 +1,137 @@
+lemma: andar
+category: verbs
+cases:
+- features:
+    aspect: habitual
+  expected: rdaro
+- features:
+    aspect: perfective
+  expected: udaro
+- features:
+    aspect: perfective
+    tense: future
+  expected: huadaro
+- features:
+    mood: potential
+  expected: taro
+---
+lemma: dar
+category: verbs
+cases:
+- features:
+    aspect: habitual
+  expected: runro
+- features:
+    aspect: perfective
+  expected: bënro
+---
+lemma: ir
+category: verbs
+cases:
+- features:
+    aspect: habitual
+  expected: rioro
+- features:
+    aspect: imperfective
+    tense: future
+  expected: huayoro
+- features:
+    aspect: perfective
+  expected: uyoro
+- features:
+    mood: potential
+  expected: tzioro
+---
+lemma: morir
+category: verbs
+cases:
+- features:
+    aspect: habitual
+  expected: ratiro
+- features:
+    aspect: perfective
+  expected: gutiro
+- features:
+    aspect: perfective
+    tense: future
+  expected: huatiro
+- features:
+    mood: potential
+  expected: gatiro
+---
+lemma: oír
+category: verbs
+cases:
+- features:
+    aspect: habitual
+  expected: rero
+- features:
+    aspect: perfective
+  expected: bero
+- features:
+    aspect: perfective
+    tense: future
+  expected: huero
+- features:
+    mood: potential
+  expected: guero
+---
+lemma: raoro
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: ulegao
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: huaole
+- features:
+    mood: imperative
+    number: singular
+  expected: udao
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: huaolo
+---
+lemma: resbalar
+category: verbs
+cases:
+- features:
+    aspect: habitual
+  expected: rdyilaro
+- features:
+    aspect: perfective
+  expected: udyilaro
+- features:
+    aspect: perfective
+    tense: future
+  expected: huadyilaro
+- features:
+    mood: potential
+  expected: chilaro
+---
+lemma: robar
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    voice: active
+  expected: rbalro
+- features:
+    mood: potential
+    voice: active
+  expected: cuanro
+- features:
+    tense: future
+    voice: active
+  expected: huabanro
+- features:
+    voice: active
+  expected: ulanro

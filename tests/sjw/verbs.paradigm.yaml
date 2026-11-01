@@ -1,0 +1,69 @@
+lemma: hkawehgee
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ni-tkawehgee-pe
+- features:
+    number: plural
+    person: second
+  expected: ki-tkawehgee-pwa
+- features:
+    number: plural
+    person: third
+  expected: $-tkawehgee-ki
+- features:
+    number: singular
+    person: first
+  expected: ni-tkawehge
+- features:
+    number: singular
+    person: second
+  expected: ki-tkawehge
+- features:
+    number: singular
+    person: third
+  expected: $-hkawehge
+---
+lemma: kkil
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kkil-ehl-ko
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kkilil
+---
+lemma: kkito
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kkitoko
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kkitolo
+---
+lemma: mkaweeleta
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: mkaweeletamoko
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: mkaweeletano

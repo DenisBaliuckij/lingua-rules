@@ -1,0 +1,137 @@
+lemma: maa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: lu+maa
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: telu+maa
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: amaa
+---
+lemma: mai
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: luu+mai
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: telu+nai
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: amai
+- features:
+    mood: potential
+    number: dual
+    person: first
+  expected: lo+na+amai
+- features:
+    mood: potential
+    number: dual
+    person: second
+  expected: mulu+na+amai
+- features:
+    mood: potential
+    number: dual
+    person: third
+  expected: lu+na+amai
+- features:
+    mood: potential
+    number: plural
+    person: first
+  expected: to+na+amai
+- features:
+    mood: potential
+    number: plural
+    person: second
+  expected: vo+na+amai
+- features:
+    mood: potential
+    number: plural
+    person: third
+  expected: ma+na+amai
+- features:
+    mood: potential
+    number: singular
+    person: first
+  expected: na+na+amai
+- features:
+    mood: potential
+    number: singular
+    person: second
+  expected: ko+na+amai
+- features:
+    mood: potential
+    number: singular
+    person: third
+  expected: na+amai
+- features:
+    number: dual
+    person: first
+  expected: lo+va+amai
+- features:
+    number: dual
+    person: second
+  expected: mulu+va+amai
+- features:
+    number: dual
+    person: third
+  expected: lu+va+amai
+- features:
+    number: plural
+    person: first
+  expected: to+va+amai
+- features:
+    number: plural
+    person: second
+  expected: ro+va+amai
+- features:
+    number: plural
+    person: third
+  expected: ma+va+amai
+- features:
+    number: singular
+    person: first
+  expected: ma+amai
+- features:
+    number: singular
+    person: second
+  expected: ko+va+amai
+- features:
+    number: singular
+    person: third
+  expected: va+amai
+---
+lemma: miitaa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: lu+miitaa
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: telu+miitaa
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: amiitaa

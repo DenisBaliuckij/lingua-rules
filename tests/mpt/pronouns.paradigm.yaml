@@ -1,0 +1,214 @@
+lemma: né
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: first
+  expected: níb
+- features:
+    number: plural
+    person: first
+  expected: níbó
+- features:
+    number: plural
+    person: second
+  expected: íbó
+- features:
+    number: plural
+    person: third
+  expected: í
+- features:
+    number: singular
+    person: first
+  expected: né
+- features:
+    number: singular
+    person: second
+  expected: kébó
+- features:
+    number: singular
+    person: third
+  expected: é
+---
+lemma: néta
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: níta
+- features:
+    number: plural
+    person: second
+  expected: íbta
+- features:
+    number: plural
+    person: third
+  expected: íta
+- features:
+    number: singular
+    person: first
+  expected: néta
+- features:
+    number: singular
+    person: second
+  expected: kébta
+- features:
+    number: singular
+    person: third
+  expected: éta
+---
+lemma: nē
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: ōbo
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ō
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: kēbo
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ē
+- features:
+    noun_class: class_1
+    number: plural
+    person: first
+  expected: nī
+- features:
+    noun_class: class_2
+    number: plural
+    person: first
+  expected: nībo
+- features:
+    number: plural
+    person: second
+  expected: ībo
+- features:
+    number: plural
+    person: third
+  expected: ī
+- features:
+    number: singular
+    person: first
+  expected: nē
+---
+lemma: nēta
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: ōbta
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ōta
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: kēbta
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ēta
+- features:
+    noun_class: class_1
+    number: plural
+    person: first
+  expected: nīta
+- features:
+    noun_class: class_2
+    number: plural
+    person: first
+  expected: nībta
+- features:
+    number: plural
+    person: second
+  expected: ībta
+- features:
+    number: plural
+    person: third
+  expected: īta
+- features:
+    number: singular
+    person: first
+  expected: nēta
+---
+lemma: é
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: plural
+    person: third
+  expected: ó
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: é
+- features:
+    number: plural
+    person: third
+  expected: ó
+- features:
+    number: singular
+    person: third
+  expected: é
+---
+lemma: éta
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: óta
+- features:
+    number: singular
+    person: third
+  expected: éta
+---
+lemma: ē
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: plural
+    person: third
+  expected: ō
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: ē
+---
+lemma: ēle
+category: pronouns
+cases:
+- features:
+    gender: neuter
+    number: plural
+    person: third
+  expected: ōlo
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: ēle

@@ -1,0 +1,79 @@
+lemma: hina
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: nihi
+- features:
+    animacy: animate
+    number: singular
+  expected: hina
+- features:
+    animacy: inanimate
+    number: singular
+  expected: hini
+---
+lemma: niila
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: niilape
+- features:
+    number: plural
+    person: second
+  expected: kiilape
+- features:
+    number: plural
+    person: third
+  expected: wiilawaw
+- features:
+    number: singular
+    person: first
+  expected: niila
+- features:
+    number: singular
+    person: second
+  expected: kiila
+- features:
+    number: singular
+    person: third
+  expected: wiila
+---
+lemma: niiya
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: niiya
+- features:
+    number: singular
+    person: second
+  expected: kiiya
+- features:
+    number: singular
+    person: third
+  expected: wiiya
+---
+lemma: yaama
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: yo'koma
+- features:
+    animacy: animate
+    number: singular
+  expected: yaama
+- features:
+    animacy: inanimate
+    number: plural
+  expected: yo'loma
+- features:
+    animacy: inanimate
+    number: singular
+  expected: yooma

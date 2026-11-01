@@ -1,0 +1,595 @@
+lemma: bula
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: second
+  expected: bulanat
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: bulananl
+- features:
+    case: ergative
+    number: dual
+    person: second
+  expected: bulak
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: bula
+---
+lemma: da
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+  expected: bulanatja
+- features:
+    case: ablative
+    number: plural
+  expected: daJanatja
+- features:
+    case: ablative
+    number: singular
+  expected: nilinatja
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: nilinatja
+- features:
+    case: accusative
+    number: plural
+  expected: damnananldamnanak
+- features:
+    case: accusative
+    number: singular
+  expected: nilenanlnilenak
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: nilinanlnilinak
+- features:
+    case: ergative
+    number: dual
+  expected: damuluk
+- features:
+    case: ergative
+    number: plural
+  expected: damnak
+- features:
+    case: ergative
+    number: singular
+  expected: daluk
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: daluk
+- features:
+    case: nominative
+    number: dual
+  expected: damulu
+- features:
+    case: nominative
+    number: plural
+  expected: damna
+- features:
+    case: nominative
+    number: singular
+  expected: da
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: da
+- features:
+    number: dual
+  expected: damalinya
+- features:
+    number: plural
+  expected: damnan
+- features:
+    number: singular
+  expected: dinin
+---
+lemma: damna
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: dalanatja
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: damnanan
+- features:
+    case: ergative
+    number: plural
+    person: third
+  expected: damnak
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: damna
+---
+lemma: damulu
+category: pronouns
+cases:
+- features:
+    case: ergative
+    number: dual
+    person: third
+  expected: dumuluk
+- features:
+    case: nominative
+    number: dual
+    person: third
+  expected: damulu
+---
+lemma: ingala
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: first
+  expected: ngalanat
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ngalanan
+- features:
+    case: allative
+    number: dual
+    person: first
+  expected: ngalanak
+- features:
+    case: comitative
+    number: dual
+    person: first
+  expected: ngalarruk
+- features:
+    case: ergative
+    number: dual
+    person: first
+  expected: ngalak
+- features:
+    case: ergative
+    number: dual
+    person: first
+    voice: reflexive
+  expected: ngalakngu
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: ngalan
+- features:
+    case: locative
+    number: dual
+    person: first
+  expected: ngalanarruk
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngala
+- features:
+    case: nominative
+    number: dual
+    person: first
+    voice: reflexive
+  expected: ngalangu
+- features:
+    number: dual
+    person: first
+  expected: ngalagiya
+---
+lemma: minha
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: minha
+---
+lemma: minhak
+category: pronouns
+cases:
+- features:
+    case: allative
+  expected: minhak
+---
+lemma: minhalda
+category: pronouns
+cases:
+- features:
+    case: comitative
+  expected: minhalda
+---
+lemma: nga
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: first
+  expected: ngalngunat
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: nyundanat
+- features:
+    case: ablative
+    number: singular
+  expected: nyanat
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: nyanat
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ngaJngunanlngalngunak
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nyundananlnyundanak
+- features:
+    case: accusative
+    number: singular
+  expected: nganinlnyanuk
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: nganinlnyanuk
+- features:
+    case: ergative
+    number: dual
+    person: first
+  expected: ngaJnginak
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: nyuwandak
+- features:
+    case: ergative
+    number: singular
+  expected: ngatha
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: ngatha
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngaJngin
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nyana
+- features:
+    case: nominative
+    number: singular
+  expected: nga
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: nga
+- features:
+    number: dual
+    person: first
+  expected: ngaJngun
+- features:
+    number: plural
+    person: first
+  expected: nyanan
+- features:
+    number: singular
+  expected: ngini
+---
+lemma: ngala
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: first
+  expected: ngalanat
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ngalanan
+- features:
+    case: ergative
+    number: dual
+    person: first
+  expected: ngalak
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngala
+---
+lemma: ngalngin
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: first
+  expected: ngalngunat
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ngalngunanl
+- features:
+    case: ergative
+    number: dual
+    person: first
+  expected: ngalnginak
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngalngin
+---
+lemma: ngandanak
+category: pronouns
+cases:
+- features:
+    case: allative
+  expected: ngandanak
+---
+lemma: ngandi
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: ngandi
+---
+lemma: ngandibula
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: ngandibula
+---
+lemma: ngandin
+category: pronouns
+cases:
+- features:
+    case: genitive
+  expected: ngandin
+---
+lemma: ngandinarrak
+category: pronouns
+cases:
+- features:
+    case: comitative
+  expected: ngandinarrak
+---
+lemma: ngandinat
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: ngandinat
+---
+lemma: ngandinhur
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: ngandinhur
+---
+lemma: ngandung
+category: pronouns
+cases:
+- features:
+    case: ergative
+  expected: ngandung
+---
+lemma: ngina
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: ngunat
+- features:
+    case: ablative
+    number: dual
+  expected: bulanat
+- features:
+    case: ablative
+    number: plural
+  expected: nhurranat
+- features:
+    case: ablative
+    number: singular
+  expected: ngunat
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: ngunat
+- features:
+    case: accusative
+  expected: ngununlngunuk
+- features:
+    case: accusative
+    number: dual
+  expected: bulananlbalanak
+- features:
+    case: accusative
+    number: plural
+  expected: nhurrananlnhurranak
+- features:
+    case: accusative
+    number: singular
+  expected: ngununlngunuk
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: ngunun
+- features:
+    case: ergative
+  expected: nginak
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: nginak
+- features:
+    case: nominative
+  expected: ngina
+- features:
+    case: nominative
+    number: singular
+  expected: ngina. nyana
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ngina
+- features:
+    number: singular
+  expected: nguni
+---
+lemma: nhurra
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: nhurranat
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: nhurrananl
+- features:
+    case: ergative
+    number: plural
+    person: second
+  expected: nhurrak
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: nhurra
+---
+lemma: nyana
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: nyananat
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nyanananl
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: nyanak
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nyana
+---
+lemma: nyu wanda
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: nyundanat
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nyundananl
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: nyuwandak
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nyu wanda
+---
+lemma: wamingawir
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: wamingawir
+---
+lemma: wanhak
+category: pronouns
+cases:
+- features:
+    case: allative
+  expected: wanhak
+---
+lemma: wanhal
+category: pronouns
+cases:
+- features:
+    case: locative
+  expected: wanhal
+---
+lemma: wanhalaman
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: wanhalaman
+---
+lemma: wanhin
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: wanhin
+---
+lemma: yugalam
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: yugalam

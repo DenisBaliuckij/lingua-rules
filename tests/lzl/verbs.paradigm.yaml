@@ -1,0 +1,680 @@
+lemma: ilung
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: ralung
+- features:
+    mood: imperative
+    polarity: negative
+  expected: rësalungsi
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: tralung
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: khralung
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: ralung
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tëtilung
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: khëtilung
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: atilung
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: nalung
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: khilung
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: ilung
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: past
+  expected: tralung
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: past
+  expected: kralung
+- features:
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: past
+  expected: bralung
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: tëtilung
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: këtilung
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: bëtilung
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: balung
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: kalung
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: balung
+- features:
+    number: dual
+    person: first
+    polarity: negative
+  expected: tërsalungsi
+- features:
+    number: dual
+    person: second
+    polarity: negative
+  expected: khërsalungsi
+- features:
+    number: dual
+    person: third
+    polarity: negative
+  expected: rësalungsi
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: mëjalungsi
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: khëjalungsi
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: ajalungsi
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: nësalungsi
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: khësalungsi
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: salungsi
+---
+lemma: khan
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: raan
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: traan
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: khraan
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: raan
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tëtkhan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: khëtkhan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: atkhan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: naan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: khëkhan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: khan
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: past
+  expected: traan
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: past
+  expected: kraan
+- features:
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: past
+  expected: braan
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: tëtkhan
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: këtkhan
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: bëtkhan
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: baan
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: kaan
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: baan
+---
+lemma: khël
+category: verbs
+cases:
+- features:
+    mood: imperative
+    polarity: negative
+  expected: rësëkhëlsi
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: tërkhël
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: khërkhël
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: rëkhël
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tëtkhël
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: khëtkhël
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: atkhël
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: nëkhël
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: khëkhël
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: økhël
+- features:
+    number: dual
+    person: first
+    polarity: negative
+  expected: tërsëkhëlsi
+- features:
+    number: dual
+    person: second
+    polarity: negative
+  expected: khërsëkhëlsi
+- features:
+    number: dual
+    person: third
+    polarity: negative
+  expected: rësëkhëlsi
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: tëjëkhëlsi
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: khëjëkhëlsi
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: ajëkhëlsi
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: nësëkhëlsi
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: khësëkhëlsi
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: sëkhëlsi
+---
+lemma: luolu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: tërluolu
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: khërluolu
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: rëluolu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tëtluolu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: khëtluolu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: atluolu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: nëluolu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: khëluolu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: øluolu
+---
+lemma: utbu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: trutbu
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: khrutbu
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: rutbu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tëtutbu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: khëtutbu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: atutbu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: nutbu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: khutbu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: øutbu
+---
+lemma: var
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: travar
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: khravar
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: ravar
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tëtvar
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: khëtvar
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: atvar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: navar
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: khëvar
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: var
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: past
+  expected: travar
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: past
+  expected: kravar
+- features:
+    mood: subjunctive
+    number: dual
+    person: third
+    tense: past
+  expected: bravar
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: tëtvar
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: këtvar
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: bëtvar
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: bavar
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: kavar
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: bavar
+---
+lemma: ve
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: reve
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: treve
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: khreve
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: reve
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tëtve
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: khëtve
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: atve
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: neve
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: khëve
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: ve
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+  expected: treve
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+  expected: kreve
+- features:
+    mood: subjunctive
+    number: dual
+    person: third
+  expected: breve
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: tëtve
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: këtve
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: bëtve
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: beve
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: keve
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: beve

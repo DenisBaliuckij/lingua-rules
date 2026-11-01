@@ -1,0 +1,424 @@
+lemma: gana
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: ganagu
+- features:
+    case: allative
+  expected: ganagu
+- features:
+    case: locative
+  expected: garangi
+- features:
+    case: nominative
+  expected: gana
+---
+lemma: mana
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: mana
+---
+lemma: moo
+category: pronouns
+cases:
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: malu
+- features:
+    number: singular
+    person: third
+  expected: moo
+---
+lemma: ngai
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: ngaungu
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ngaina
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: ngaina
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: ngaindu
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ngai
+- features:
+    number: plural
+    person: first
+  expected: ngai
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: ngairi
+---
+lemma: ngam
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: first
+  expected: ngambongu
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ngama
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: ngama
+- features:
+    case: ergative
+    number: dual
+    person: first
+  expected: ngambu
+- features:
+    case: locative
+    number: dual
+    person: first
+  expected: ngambangi
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngam
+- features:
+    number: dual
+    person: first
+  expected: ngam
+- features:
+    number: dual
+    person: first
+    possessor_person: first
+  expected: ngamgari
+---
+lemma: ngam ngin
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ngam ngin
+---
+lemma: ngam yoo
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ngam yoo
+---
+lemma: ngee
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: ngiangu
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: nganya
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: nganya
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: ngadju
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: ngiangi
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ngee
+- features:
+    number: singular
+    person: first
+  expected: ngee
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: ngaari
+---
+lemma: ngin
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: nginbangu
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: ngina
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: ngindu
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: nginbangi
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ngin
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: ngindu
+- features:
+    number: singular
+    person: second
+  expected: ngin
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: ngin.gari
+---
+lemma: nginbom
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: nginbamungu
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: nginbom
+- features:
+    number: plural
+    person: second
+  expected: nginbom
+---
+lemma: ngoom
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: second
+  expected: ngombongu
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: ngooma
+- features:
+    case: ergative
+    number: dual
+    person: second
+  expected: ngombu
+- features:
+    case: locative
+    number: dual
+    person: second
+  expected: ngombongi
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: ngoom
+- features:
+    case: oblique
+    number: dual
+    person: second
+  expected: ngombu
+- features:
+    number: dual
+    person: second
+  expected: ngoom
+- features:
+    number: dual
+    person: second
+    possessor_person: second
+  expected: ngoomgori
+---
+lemma: ngoom yoo
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: ngoom yoo
+---
+lemma: wandja
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: wandjangu
+- features:
+    case: genitive
+  expected: wandjari
+- features:
+    case: nominative
+  expected: wandja
+---
+lemma: yau
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: yaubongu
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: yaunga
+- features:
+    case: ergative
+    number: plural
+    person: third
+  expected: yau
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: yau
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: yau
+- features:
+    number: plural
+    person: third
+  expected: yau
+- features:
+    number: plural
+    person: third
+    possessor_number: plural
+    possessor_person: third
+  expected: yaungari
+---
+lemma: yoo
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: yoongu
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: yoonga
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: yalu
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: yoongi
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: yoo
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: yalu
+- features:
+    number: singular
+    person: third
+  expected: yoo
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: yoori
+---
+lemma: yoom
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: third
+  expected: yombongu
+- features:
+    case: accusative
+    number: dual
+    person: third
+  expected: yooma
+- features:
+    case: ergative
+    number: dual
+    person: third
+  expected: yombu
+- features:
+    case: nominative
+    number: dual
+    person: third
+  expected: yoom
+- features:
+    case: oblique
+    number: dual
+    person: third
+  expected: yombu
+- features:
+    number: dual
+    person: third
+  expected: yoom
+- features:
+    number: dual
+    person: third
+    possessor_person: third
+  expected: yoomgori

@@ -1,0 +1,37 @@
+lemma: adlangan
+category: nouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: w-adlalingan
+- features:
+    number: singular
+    person: second
+  expected: ladlangan
+- features:
+    number: singular
+    person: third
+  expected: wadlangan
+---
+lemma: arluk
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+  expected: nga-j-arluk
+- features:
+    number: singular
+  expected: arluk
+---
+lemma: w-adlangan
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: w-adlalingan
+- features:
+    number: singular
+  expected: w-adlangan

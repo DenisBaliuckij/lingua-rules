@@ -1,0 +1,171 @@
+lemma: farlirn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: farlirn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: farlirt
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: farlirn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: farlir
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: farlirst
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: farlirt
+- features:
+    verb_form: infinitive
+  expected: farlirn
+---
+lemma: hobn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: hobn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: hot
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hobn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: hob
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: host
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: hot
+- features:
+    verb_form: infinitive
+  expected: hobn
+---
+lemma: koyfn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: koyfn
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: koyft
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: koyfn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: koyf
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: koyfst
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: koyft
+- features:
+    verb_form: infinitive
+  expected: koyfn
+---
+lemma: zayn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: zenen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: zent
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: zenen
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: bist
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: iz
+- features:
+    verb_form: infinitive
+  expected: zayn

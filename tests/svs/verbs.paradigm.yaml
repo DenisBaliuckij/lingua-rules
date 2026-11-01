@@ -1,0 +1,303 @@
+lemma: bola
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: bomeminyi
+- features:
+    number: dual
+    person: second
+  expected: bope
+- features:
+    number: dual
+    person: third
+  expected: bote
+- features:
+    number: plural
+    person: first
+  expected: bomeminyi
+- features:
+    number: plural
+    person: second
+  expected: bome
+- features:
+    number: plural
+    person: third
+  expected: bote
+- features:
+    number: singular
+    person: first
+  expected: bonye
+- features:
+    number: singular
+    person: second
+  expected: bone
+- features:
+    number: singular
+    person: third
+  expected: bola
+---
+lemma: kuvi-li
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: kuvi-ghi
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: kuvi-li
+- features:
+    number: dual
+    person: first
+    possessor_person: first
+  expected: kuvi-minyi
+- features:
+    number: dual
+    person: second
+  expected: kuvi-pi
+- features:
+    number: dual
+    person: third
+  expected: kuvi-ti
+- features:
+    number: plural
+    person: first
+    possessor_person: first
+  expected: kuvi-minyi
+- features:
+    number: plural
+    person: second
+  expected: kuvi-mi
+- features:
+    number: plural
+    person: third
+  expected: kuvi-mi
+- features:
+    number: singular
+    person: first
+  expected: kuvi-nyi
+- features:
+    number: singular
+    person: second
+  expected: kuvi-ni
+---
+lemma: l-au
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: k-au
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: l-au
+- features:
+    number: dual
+    person: first
+    possessor_person: first
+  expected: ny-au
+- features:
+    number: dual
+    person: second
+  expected: p-au
+- features:
+    number: dual
+    person: third
+  expected: t-au
+- features:
+    number: plural
+    person: first
+    possessor_person: first
+  expected: ny-au
+- features:
+    number: plural
+    person: second
+  expected: m-au
+- features:
+    number: plural
+    person: third
+  expected: z-au
+- features:
+    number: singular
+    person: first
+  expected: ny-au
+- features:
+    number: singular
+    person: second
+  expected: n-au
+---
+lemma: l-ave-li
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: k-ave-ghi
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: l-ave-li
+- features:
+    number: dual
+    person: first
+    possessor_person: first
+  expected: ny-ave-minyi
+- features:
+    number: dual
+    person: second
+  expected: p-ave-pi
+- features:
+    number: dual
+    person: third
+  expected: t-ave-ti
+- features:
+    number: plural
+    person: first
+    possessor_person: first
+  expected: ny-ave-minyi
+- features:
+    number: plural
+    person: second
+  expected: m-ave-mi
+- features:
+    number: plural
+    person: third
+  expected: z-ave-mi
+- features:
+    number: singular
+    person: first
+  expected: ny-ave-nyi
+- features:
+    number: singular
+    person: second
+  expected: n-ave-ni
+---
+lemma: pala
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: pameminyi
+- features:
+    number: dual
+    person: second
+  expected: pape
+- features:
+    number: dual
+    person: third
+  expected: pate
+- features:
+    number: plural
+    person: first
+  expected: pameminyi
+- features:
+    number: plural
+    person: second
+  expected: pame
+- features:
+    number: plural
+    person: third
+  expected: pate
+- features:
+    number: singular
+    person: first
+  expected: panye
+- features:
+    number: singular
+    person: second
+  expected: pane
+- features:
+    number: singular
+    person: third
+  expected: pala
+---
+lemma: sala
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: sameminyi
+- features:
+    number: dual
+    person: second
+  expected: sape
+- features:
+    number: dual
+    person: third
+  expected: sate
+- features:
+    number: plural
+    person: first
+  expected: sameminyi
+- features:
+    number: plural
+    person: second
+  expected: same
+- features:
+    number: plural
+    person: third
+  expected: sate
+- features:
+    number: singular
+    person: first
+  expected: sanye
+- features:
+    number: singular
+    person: second
+  expected: sane
+- features:
+    number: singular
+    person: third
+  expected: sala
+---
+lemma: solo
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: someminyi
+- features:
+    number: dual
+    person: second
+  expected: sope
+- features:
+    number: dual
+    person: third
+  expected: sote
+- features:
+    number: plural
+    person: first
+  expected: someminyi
+- features:
+    number: plural
+    person: second
+  expected: some
+- features:
+    number: plural
+    person: third
+  expected: sote
+- features:
+    number: singular
+    person: first
+  expected: sonye
+- features:
+    number: singular
+    person: second
+  expected: sone
+- features:
+    number: singular
+    person: third
+  expected: solo

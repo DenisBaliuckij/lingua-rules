@@ -1,0 +1,541 @@
+lemma: giil
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: giili
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tagiili
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tagiil
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: giil
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tagiil
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yagiil
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: giilu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nagiilu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tagiilu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yagiilu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nagiil
+---
+lemma: gul
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: gulti
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: galat
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: gulta
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gal
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: gulna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: gultu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: galo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: gulta
+---
+lemma: lga
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: yalgu
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: talgi
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: talga
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: yalgu
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: talga
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: yalga
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: nalgu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: talgu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: nalga
+---
+lemma: midda
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: yimiddu
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: timiddi
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: timidda
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: yimiddu
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: timidda
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: yimidda
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: nimiddu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: timiddu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: nimidda
+---
+lemma: saglab
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: saglabo
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: saglabti
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: saglabat
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: saglabo
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: saglabta
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: saglab
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: saglabna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: saglabtu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: saglabta
+---
+lemma: saglib
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: tisaglibi
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: tisaglib
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: nisaglibu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: tisaglibu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: nisaglib
+---
+lemma: sir
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: szri
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tiszri
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tiszr
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: sir
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tiszr
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yiszr
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: szru
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: niszru
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tiszru
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yiszru
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: niszr
+---
+lemma: sirib
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: siribti
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: siribat
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: siribta
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: sirib
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: siribna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: siribtu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: siribo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: siribt
+---
+lemma: wisil
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: wisilti
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wisilat
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: wisilta
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wisil
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: wisilna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: wisiltu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: wisilo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: wisilt
