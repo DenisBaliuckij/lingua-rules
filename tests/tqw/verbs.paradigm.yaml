@@ -1,0 +1,226 @@
+lemma: da-yaxa
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: da'yaxa-nec'e-ne-ga'ak
+- features:
+    number: dual
+    person: third
+  expected: da'yaxa-nec'e-l-ga'ak
+- features:
+    number: plural
+    person: first
+  expected: da'yax
+- features:
+    number: plural
+    person: second
+  expected: da'yax
+- features:
+    number: singular
+    person: first
+  expected: da'yaxa-c-ga'ak
+- features:
+    number: singular
+    person: third
+  expected: da'yaxa-l-ga'ak
+---
+lemma: ya'dje
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: ya'dje-nec'e'-gen
+- features:
+    number: dual
+    person: third
+  expected: ya'dje-nec'e'-gwa
+- features:
+    number: plural
+    person: first
+  expected: ya'dj
+- features:
+    number: plural
+    person: second
+  expected: ya'dj
+- features:
+    number: plural
+    person: third
+  expected: ya'dje'ngwa
+- features:
+    number: singular
+    person: first
+  expected: ya'dje'-gwa-nec
+---
+lemma: yagba
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: yagba-nec'e-u
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: yagb
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: yagbau
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: yagba-nec'-'ei-no
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: yagba-nec'e-''-ga-^
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: yagb
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: yagb
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: yagb-ei-no
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: yagba-'-ga
+- features:
+    number: dual
+    person: first
+  expected: yaghanec'ecek
+- features:
+    number: dual
+    person: second
+  expected: yagba-nec'e-ne-k
+- features:
+    number: dual
+    person: third
+  expected: yagba-nec^e--k
+- features:
+    number: plural
+    person: first
+  expected: yagbo'c'ecek
+- features:
+    number: plural
+    person: second
+  expected: yagb
+- features:
+    number: plural
+    person: third
+  expected: yagban
+- features:
+    number: singular
+    person: first
+  expected: yagbacek
+- features:
+    number: singular
+    person: second
+  expected: yagbanek
+- features:
+    number: singular
+    person: third
+  expected: yaghak
+---
+lemma: yakapa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: yakpaʔnesʔa·nʔes
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: yakpanesʔa·ney
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: yakpanesʔeynoʔ
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: yakpanesʔeʔkaʔ
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: yakpanesʔaʔa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: yakpo·sʔa·nʔes
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: yakpo·sʔa·ney
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: yakpo·sʔeynoʔ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: yakpo·sʔeʔkaʔ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: yakpaʔa·nʔes
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: yakpaʔa·nʔey
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: yakpeynoʔ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: yakpaʔkaʔ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: yakpaʔa

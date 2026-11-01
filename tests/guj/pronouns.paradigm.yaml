@@ -1,0 +1,364 @@
+lemma: ap
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: dp-no
+---
+lemma: apane
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: dpandmdn
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: dpanne
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: apane
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: dpandtM
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: dpano
+- features:
+    number: plural
+    person: first
+  expected: apane
+---
+lemma: hun
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: mdrdthl
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: mane
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: mane
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+    person: first
+  expected: mdr
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+    person: first
+  expected: im
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: men
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: mdrdmdn
+- features:
+    case: prepositional
+    number: singular
+    person: first
+  expected: mdre
+- features:
+    number: singular
+    person: first
+  expected: hun
+---
+lemma: tame
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: tamdrdtht
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: tamne
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: tamne
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+    person: second
+  expected: i
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+    person: second
+  expected: tamdr
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+    person: second
+  expected: n
+- features:
+    case: instrumental
+    number: plural
+    person: second
+  expected: tome
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: tamdrdmdTi
+- features:
+    case: prepositional
+    number: plural
+    person: second
+  expected: tamdre
+- features:
+    number: plural
+    person: second
+  expected: tame
+---
+lemma: te
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: third
+  expected: tethl
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: tene
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: tene
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+    person: third
+  expected: nl
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+    person: third
+  expected: teno
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+    person: third
+  expected: nun
+- features:
+    case: instrumental
+    number: singular
+    person: third
+  expected: tene
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: temdn
+- features:
+    case: prepositional
+    number: singular
+    person: third
+  expected: tene
+- features:
+    number: singular
+    person: third
+  expected: te
+---
+lemma: teo
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: teomdn
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: teone
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: teone
+- features:
+    case: genitive
+    gender: feminine
+    number: plural
+    person: third
+  expected: temno
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+    person: third
+  expected: teono
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+    person: third
+  expected: temno
+- features:
+    case: instrumental
+    number: plural
+    person: third
+  expected: teoe
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: temnamau
+- features:
+    case: prepositional
+    number: plural
+    person: third
+  expected: teone
+- features:
+    number: plural
+    person: third
+  expected: teo
+---
+lemma: twe
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: tdrdthl
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: tone
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: tone
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+    person: second
+  expected: u
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+    person: second
+  expected: tHr
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+    person: second
+  expected: ww
+- features:
+    case: instrumental
+    number: singular
+    person: second
+  expected: ten
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: tdrdmdn
+- features:
+    case: prepositional
+    number: singular
+    person: second
+  expected: tare
+- features:
+    number: singular
+    person: second
+  expected: tWE
+---
+lemma: ylwie
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: amdrdthi
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: amne
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: amne
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+    person: first
+  expected: amdr
+- features:
+    case: genitive
+    gender: neuter
+    number: plural
+    person: first
+  expected: zw
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: awe
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: amdrdmdn
+- features:
+    case: prepositional
+    number: plural
+    person: first
+  expected: amdre
+- features:
+    number: plural
+    person: first
+  expected: ylwie

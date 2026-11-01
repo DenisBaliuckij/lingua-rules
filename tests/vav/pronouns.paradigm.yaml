@@ -1,0 +1,105 @@
+lemma: hoː
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: he
+- features:
+    gender: feminine
+    number: singular
+  expected: hiː
+- features:
+    gender: masculine
+    number: plural
+  expected: he
+- features:
+    gender: masculine
+    number: singular
+  expected: hoː
+- features:
+    gender: neuter
+    number: plural
+  expected: hĩː
+- features:
+    gender: neuter
+    number: singular
+  expected: hẽ
+---
+lemma: mĩː
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: te
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: tiː
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: te
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: toː
+- features:
+    gender: neuter
+    number: plural
+    person: third
+  expected: tĩː
+- features:
+    gender: neuter
+    number: singular
+    person: third
+  expected: tẽ
+- features:
+    number: plural
+    person: first
+  expected: aple
+- features:
+    number: plural
+    person: second
+  expected: tumĩː
+- features:
+    number: singular
+    person: first
+  expected: ma
+- features:
+    number: singular
+    person: second
+  expected: tũ
+---
+lemma: toː
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+  expected: te
+- features:
+    gender: feminine
+    number: singular
+  expected: tiː
+- features:
+    gender: masculine
+    number: plural
+  expected: te
+- features:
+    gender: masculine
+    number: singular
+  expected: toː
+- features:
+    gender: neuter
+    number: plural
+  expected: tĩː
+- features:
+    gender: neuter
+    number: singular
+  expected: tẽ

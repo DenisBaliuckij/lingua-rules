@@ -1,0 +1,27 @@
+lemma: mì
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yó
+- features:
+    number: plural
+    person: second
+  expected: wó
+- features:
+    number: plural
+    person: third
+  expected: wó
+- features:
+    number: singular
+    person: first
+  expected: yó
+- features:
+    number: singular
+    person: second
+  expected: wó
+- features:
+    number: singular
+    person: third
+  expected: wó

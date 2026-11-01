@@ -1,0 +1,589 @@
+lemma: kuchaira
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: munochaira
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vanochaira
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mwakachaira
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: anochaira
+---
+lemma: kudzidzisa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: munodzidzisa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vanodzidzisa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mwakadzidzisa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wakadzidzisa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: anodzidzisa
+---
+lemma: kuenda
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: enda!
+- features:
+    mood: imperative
+    number: singular
+    polarity: affirmative
+  expected: enda!
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: munoenda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ndichaenda
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: uchaenda
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mwakaenda
+---
+lemma: kufambira
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vanofambira
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: anofambira
+---
+lemma: kugara
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vanogara
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: uchagara
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: anogara
+---
+lemma: kunyora
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vanonyora
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: anonyora
+---
+lemma: kupedza
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: pedzai
+- features:
+    mood: imperative
+    number: plural
+    polarity: affirmative
+  expected: pedzai
+- features:
+    mood: imperative
+    number: singular
+  expected: pedza
+- features:
+    mood: imperative
+    number: singular
+    polarity: affirmative
+  expected: pedza
+---
+lemma: kupetesa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: munopetesa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mwakapetesa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: anopetesa
+---
+lemma: kupinda
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: pindai
+- features:
+    mood: imperative
+    number: plural
+    polarity: affirmative
+  expected: pindai
+- features:
+    mood: imperative
+    number: singular
+  expected: pinda!
+- features:
+    mood: imperative
+    number: singular
+    polarity: affirmative
+  expected: pinda!
+---
+lemma: kurapa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vanorapa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: anorapa
+---
+lemma: kurera
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: rerai
+- features:
+    mood: imperative
+    number: plural
+    polarity: affirmative
+  expected: rerai
+- features:
+    mood: imperative
+    number: singular
+  expected: rera
+- features:
+    mood: imperative
+    number: singular
+    polarity: affirmative
+  expected: rera
+---
+lemma: kurima
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: munorima
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vanorima
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ucharima
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mwakarima
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: anorima
+---
+lemma: kurimisa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: munorimisa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vanorimisa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mwakarimisa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: anorimisa
+---
+lemma: kusanda
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: munosanda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ndichasanda
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: uchasand
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mwakasanda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wakasanda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: anosanda
+---
+lemma: kusvika
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: muchasvika
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ndichasvika
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: uchasvika
+---
+lemma: kutamba
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: tamba
+- features:
+    mood: imperative
+    number: singular
+    polarity: affirmative
+  expected: tamba
+---
+lemma: kutaura
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: taurai
+- features:
+    mood: imperative
+    number: plural
+    polarity: affirmative
+  expected: taurai
+- features:
+    mood: imperative
+    number: singular
+  expected: taura!
+- features:
+    mood: imperative
+    number: singular
+    polarity: affirmative
+  expected: taura!
+---
+lemma: kutenga
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: tenga!
+- features:
+    mood: imperative
+    number: singular
+    polarity: affirmative
+  expected: tenga!
+---
+lemma: kutengesa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: tengesai
+- features:
+    mood: imperative
+    number: plural
+    polarity: affirmative
+  expected: tengesai
+- features:
+    mood: imperative
+    number: singular
+  expected: tengesa
+- features:
+    mood: imperative
+    number: singular
+    polarity: affirmative
+  expected: tengesa
+---
+lemma: kuuya
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+  expected: uyai!
+- features:
+    mood: imperative
+    number: singular
+    polarity: affirmative
+  expected: uyai!
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: tichauya
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: muchauya'rini?
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: munouya
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: uchauya
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mwakauya
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wakauya
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: anouya
+---
+lemma: kuvaka
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: munovaka
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vanovaka
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ndichavaka
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: uchavaka
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mwakavaka
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: wakavaka
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: anovaka
+---
+lemma: kuverenga
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: verengai
+- features:
+    mood: imperative
+    number: plural
+    polarity: affirmative
+  expected: verengai
+- features:
+    mood: imperative
+    number: singular
+  expected: verenga!
+- features:
+    mood: imperative
+    number: singular
+    polarity: affirmative
+  expected: verenga!
+---
+lemma: kuweza
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: vanoweza
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: anoweza

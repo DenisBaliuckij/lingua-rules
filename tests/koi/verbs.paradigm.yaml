@@ -1,0 +1,64 @@
+lemma: в'двны
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: эм-ось
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: эм-дсь
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: эм-дсь
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: эм
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: эм
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: эм
+---
+lemma: мунны
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: мунгм
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: мунl
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: мунt'c

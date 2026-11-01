@@ -1,0 +1,555 @@
+lemma: a:rvur
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: a:rvum
+- features:
+    number: plural
+    person: second
+  expected: a:rvir
+---
+lemma: an
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: an-n-u
+- features:
+    aspect: habitual
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: an-n-ur
+- features:
+    aspect: habitual
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: run-n-ur
+- features:
+    aspect: habitual
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: an-u-ur
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: an-n-al
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: an-n-ir
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: an-n-an
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: an-n-i
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: a-t-anke
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: anj
+- features:
+    mood: conditional
+  expected: a-t-ke
+- features:
+    mood: conditional
+    polarity: negative
+  expected: an
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: a-t-om
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: n-t-ir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: a-t-run
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: a-t-i
+- features:
+    polarity: negative
+    verb_form: converb
+  expected: an-v-anlte
+- features:
+    polarity: negative
+    verb_form: participle
+  expected: anva
+- features:
+    tense: past
+    verb_form: converb
+  expected: a-t-ake
+- features:
+    tense: present
+    verb_form: converb
+  expected: anne
+- features:
+    verb_form: infinitive
+  expected: qa:-y
+---
+lemma: da
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: present
+  expected: an-e-la
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: present
+  expected: an-e-ri
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: present
+  expected: an-e-r
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: present
+  expected: an-e-n
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: present
+  expected: an-e-r
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: da:-t-om
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: da:-y-k-ir
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: da:-t-ir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: da:-t
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: da:-t-an
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: da:-t-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: da:-t
+---
+lemma: da:y
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: da:-y-n-oma
+- features:
+    number: singular
+    person: first
+  expected: da:y-n-ona
+- features:
+    number: singular
+    person: second
+  expected: da:-y-n-oni
+- features:
+    number: singular
+    person: third
+  expected: da:yn
+---
+lemma: eyvur
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: eyvum
+- features:
+    number: plural
+    person: second
+  expected: eyvir
+---
+lemma: kars
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: knrs-n-u
+- features:
+    aspect: habitual
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kars-n-ur
+- features:
+    aspect: habitual
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kars-n-ur•
+- features:
+    aspect: habitual
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kars-n-ur
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kars-n-oo
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kars-n-ir
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kars-n-an
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kars-n-i
+- features:
+    aspect: imperfective
+    verb_form: participle
+  expected: kars
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: kars-t-anke
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: karsi
+- features:
+    mood: conditional
+  expected: karske
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: present
+  expected: kars-e-la
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: present
+  expected: kars-e-ri
+- features:
+    mood: conditional
+    number: plural
+    person: third
+    tense: present
+  expected: kars-e-r
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: kars-e-na
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: present
+  expected: kars-e-n
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: present
+  expected: kars-e-r
+- features:
+    mood: conditional
+    polarity: negative
+  expected: kars
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: kars-a-k-aJ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kars-t-nl
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: kars-ik-ir•
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kars-it-ir
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kars-it-a
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kars-it-an
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: karn-t-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kars-it-a
+- features:
+    mood: potential
+  expected: kars-a-na
+- features:
+    polarity: negative
+    verb_form: converb
+  expected: kars-v-anke
+- features:
+    polarity: negative
+    verb_form: participle
+  expected: karsva
+- features:
+    tense: past
+    verb_form: converb
+  expected: kars-t-ake
+- features:
+    tense: present
+    verb_form: converb
+  expected: karsne
+- features:
+    verb_form: infinitive
+  expected: karsa
+---
+lemma: man
+category: verbs
+cases:
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: mant
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: man-t-om
+---
+lemma: min
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: minde
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: minde
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: '!!dn-de-r'
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: min-de-r
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: min-de-m
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mih-de-ri
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: min-de-n
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: min-de-ni
+---
+lemma: mu:vur
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: mu:vum
+- features:
+    number: plural
+    person: second
+  expected: mu:vir
+---
+lemma: na:l.vur
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: na:lvum
+- features:
+    number: plural
+    person: second
+  expected: na:lvir
+---
+lemma: vata
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: vata-n-oma
+- features:
+    number: plural
+    person: second
+  expected: vatan
+- features:
+    number: plural
+    person: third
+  expected: vatar
+- features:
+    number: singular
+    person: first
+  expected: vata-n-ona
+- features:
+    number: singular
+    person: second
+  expected: vata-n-oni
+- features:
+    number: singular
+    person: third
+  expected: vatar

@@ -1,0 +1,119 @@
+lemma: ez
+category: pronouns
+cases:
+- features:
+    case: direct
+    gender: feminine
+    number: singular
+    person: third
+  expected: a
+- features:
+    case: direct
+    number: plural
+    person: first
+  expected: ma
+- features:
+    case: direct
+    number: plural
+    person: second
+  expected: iiima
+- features:
+    case: direct
+    number: plural
+    person: third
+  expected: e
+- features:
+    case: direct
+    number: singular
+    person: first
+  expected: ez
+- features:
+    case: direct
+    number: singular
+    person: second
+  expected: ii
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+    person: third
+  expected: a)
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+    person: third
+  expected: ey
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: ma
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: sima
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: mi
+---
+lemma: 'no'
+category: pronouns
+cases:
+- features:
+    case: direct
+    gender: feminine
+    number: singular
+  expected: na
+- features:
+    case: direct
+    number: plural
+  expected: ne
+- features:
+    case: oblique
+    definiteness: construct
+    gender: feminine
+    number: singular
+  expected: na
+- features:
+    case: oblique
+    definiteness: construct
+    gender: masculine
+    number: singular
+  expected: ne
+- features:
+    case: oblique
+    definiteness: construct
+    number: plural
+  expected: ne
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+  expected: nay
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+  expected: ney
+- features:
+    case: oblique
+    number: plural
+  expected: nTna
+- features:
+    definiteness: construct
+    gender: feminine
+    number: singular
+  expected: na
+- features:
+    definiteness: construct
+    gender: masculine
+    number: singular
+  expected: 'no'
+- features:
+    definiteness: construct
+    number: plural
+  expected: ne

@@ -1,0 +1,385 @@
+lemma: céj
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: c’ú
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: céj
+- features:
+    case: accusative
+    gender: neuter
+    number: singular
+  expected: cé
+- features:
+    case: accusative
+    number: plural
+  expected: c’í
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+  expected: c’ij
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: c’omú
+- features:
+    case: dative
+    gender: neuter
+    number: singular
+  expected: c’ij
+- features:
+    case: dative
+    number: plural
+  expected: cým
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: c’ijéji
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: c’óhó
+- features:
+    case: genitive
+    gender: neuter
+    number: singular
+  expected: c’ijéji
+- features:
+    case: genitive
+    number: plural
+  expected: cýx
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+  expected: c’ijéju
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+  expected: cým
+- features:
+    case: instrumental
+    gender: neuter
+    number: singular
+  expected: c’ijéju
+- features:
+    case: instrumental
+    number: plural
+  expected: cýmy
+- features:
+    case: locative
+    gender: feminine
+    number: singular
+  expected: c’ij
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+  expected: c’ómu
+- features:
+    case: locative
+    gender: neuter
+    number: singular
+  expected: c’ij
+- features:
+    case: locative
+    number: plural
+  expected: cýx
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: c’á
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: céj
+- features:
+    case: nominative
+    gender: neuter
+    number: singular
+  expected: cé
+- features:
+    case: nominative
+    number: plural
+  expected: ts’í
+---
+lemma: ja
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: méné
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: mení
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: méné
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: mnóju
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: mení
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ja
+---
+lemma: my
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nas
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: vas
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: jíx
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: nam
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: vam
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: jim
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: nas
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: vas
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: jíx
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: námy
+- features:
+    case: instrumental
+    number: plural
+    person: second
+  expected: vámy
+- features:
+    case: instrumental
+    number: plural
+    person: third
+  expected: nýmy
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: nas
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: vas
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: nyx
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: my
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: vy
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: voný
+---
+lemma: skíl’ky
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: skíl’ky
+- features:
+    case: dative
+  expected: skil’kóm
+- features:
+    case: genitive
+  expected: skíl’kóx
+- features:
+    case: instrumental
+  expected: skil’komá
+- features:
+    case: locative
+  expected: na skil’kóx
+- features:
+    case: nominative
+  expected: skíl’ky
+---
+lemma: ty
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: tébé
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: tobí
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: tébé
+- features:
+    case: instrumental
+    number: singular
+    person: second
+  expected: tobóju
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: tobí
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ty
+---
+lemma: vin
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: johó
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+    person: third
+  expected: jomú
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+    person: third
+  expected: johó
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+    person: third
+  expected: nym
+- features:
+    case: locative
+    gender: masculine
+    number: singular
+    person: third
+  expected: n’ómu
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: vin
+---
+lemma: xto
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: kóhó
+- features:
+    case: dative
+  expected: komú
+- features:
+    case: genitive
+  expected: kóhó
+- features:
+    case: instrumental
+  expected: kym
+- features:
+    case: locative
+  expected: kómu
+- features:
+    case: nominative
+  expected: xtó
+---
+lemma: ščo
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: ščo
+- features:
+    case: dative
+  expected: čomú
+- features:
+    case: genitive
+  expected: čóhó
+- features:
+    case: instrumental
+  expected: čym
+- features:
+    case: locative
+  expected: čómu
+- features:
+    case: nominative
+  expected: ščo

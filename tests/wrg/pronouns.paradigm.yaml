@@ -1,0 +1,143 @@
+lemma: hola
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: dual
+    person: third
+  expected: hola-yi-d-go
+- features:
+    case: locative
+    number: dual
+    person: third
+  expected: hola-yi-da
+---
+lemma: jana
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: jana-yi-d-go
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: jana-yi-da
+---
+lemma: ngali
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: ngali-yi-d-go
+- features:
+    case: locative
+    number: dual
+    person: first
+  expected: ngali-yi-da
+---
+lemma: ngana
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: ngana-yi-d-go
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: ngana-yi-da
+---
+lemma: ngana-ngo
+category: pronouns
+cases:
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: ngana-ngo-n-ji-n-da
+---
+lemma: ngaygo
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: ngaygowo
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: ngaygongga
+---
+lemma: nyongo
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: nyongo-yi-d-go
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: nyongo-yi-da
+---
+lemma: nyorzgo
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: nyongo-wo
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: nyorzgongga
+---
+lemma: yino
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: yinowo
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: yinongga
+---
+lemma: yobala
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: dual
+    person: second
+  expected: yohala-yi-d-go
+- features:
+    case: locative
+    number: dual
+    person: second
+  expected: yobala-yi-da
+---
+lemma: yorra
+category: pronouns
+cases:
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: yorra-yi-da

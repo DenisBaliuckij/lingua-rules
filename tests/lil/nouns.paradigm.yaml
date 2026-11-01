@@ -1,0 +1,23 @@
+lemma: tmixw
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: tm(xw-lap
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: tmixwi
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ntmixw
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: tmixwsu
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: tmixws

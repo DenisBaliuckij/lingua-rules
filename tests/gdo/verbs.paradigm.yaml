@@ -1,0 +1,325 @@
+lemma: a:wX
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    polarity: affirmative
+  expected: a:wXida
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: a:wX-i-su
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: a:wXa
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: present
+  expected: a:wXata
+- features:
+    mood: indicative
+    polarity: negative
+    tense: future
+  expected: a:wX-i-ci
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: a:wXici
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: a:wXe:ci
+- features:
+    mood: optative
+    polarity: affirmative
+  expected: a:wXa-bc
+- features:
+    mood: optative
+    polarity: negative
+  expected: a:wXa-ci-be
+- features:
+    polarity: affirmative
+    tense: future
+    verb_form: participle
+  expected: a:wX-i-Li-bu
+- features:
+    polarity: affirmative
+    tense: past
+    verb_form: converb
+  expected: a:wXa
+- features:
+    polarity: affirmative
+    tense: past
+    verb_form: participle
+  expected: a:wXa-bu
+- features:
+    polarity: affirmative
+    tense: present
+    verb_form: converb
+  expected: a:wX-at-a
+- features:
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: a:wX-ata-bU
+- features:
+    polarity: affirmative
+    verb_form: infinitive
+  expected: a:wXi
+- features:
+    polarity: affirmative
+    verb_form: verbal_noun
+  expected: a:wXir
+- features:
+    polarity: negative
+  expected: a:wXa:c'i
+- features:
+    polarity: negative
+    tense: future
+    verb_form: participle
+  expected: a:wX-i-Li-bu:-c'i-bu
+- features:
+    polarity: negative
+    tense: past
+    verb_form: converb
+  expected: a:wX-ic'-a
+- features:
+    polarity: negative
+    tense: past
+    verb_form: participle
+  expected: a:wX-ic'i-bu
+- features:
+    polarity: negative
+    tense: present
+    verb_form: converb
+  expected: a:wXibaRu
+- features:
+    polarity: negative
+    verb_form: verbal_noun
+  expected: a:wX-iC'-ir
+---
+lemma: bit
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    polarity: affirmative
+  expected: bit'-ida
+- features:
+    mood: imperative
+    polarity: affirmative
+  expected: bit'-i
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: bit'-i-su
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: bit'i
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: present
+  expected: bit'-ata
+- features:
+    mood: indicative
+    polarity: negative
+    tense: future
+  expected: bit'-i-ci
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: bit'-ici
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: bit'-e:Ci
+- features:
+    mood: optative
+    polarity: affirmative
+  expected: bit'i-be
+- features:
+    mood: optative
+    polarity: negative
+  expected: bit'-ici-be
+- features:
+    polarity: affirmative
+    tense: future
+    verb_form: participle
+  expected: bit'-i-Li-bu
+- features:
+    polarity: affirmative
+    tense: past
+    verb_form: converb
+  expected: bit'-u
+- features:
+    polarity: affirmative
+    tense: past
+    verb_form: participle
+  expected: bit'i-bu
+- features:
+    polarity: affirmative
+    tense: present
+    verb_form: converb
+  expected: bit'-at-a
+- features:
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: bit'-ata-bu
+- features:
+    polarity: affirmative
+    verb_form: infinitive
+  expected: bit'-i
+- features:
+    polarity: affirmative
+    verb_form: verbal_noun
+  expected: bit'-ir
+- features:
+    polarity: negative
+  expected: bit'-a:C'i
+- features:
+    polarity: negative
+    tense: future
+    verb_form: participle
+  expected: bit'-i-Li-bu:-c'i-bu
+- features:
+    polarity: negative
+    tense: past
+    verb_form: participle
+  expected: bit'-ic'i-bu
+- features:
+    polarity: negative
+    tense: present
+    verb_form: converb
+  expected: bit'-ibaRu
+- features:
+    polarity: negative
+    verb_form: verbal_noun
+  expected: bit'-ic'-ir
+---
+lemma: ik
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: past
+  expected: ik.-an-da
+- features:
+    aspect: perfective
+    polarity: negative
+    tense: past
+  expected: ik
+- features:
+    aspect: progressive
+    polarity: affirmative
+    tense: present
+  expected: ik.-ant-a-da
+- features:
+    aspect: progressive
+    polarity: negative
+    tense: present
+  expected: ik-umaRu-da
+- features:
+    polarity: affirmative
+    tense: future
+  expected: ik-un-Li-bu-da
+- features:
+    polarity: affirmative
+    tense: past
+  expected: ik.a-mu-da
+- features:
+    polarity: negative
+    tense: future
+  expected: ik-un-Li-bu-?uci
+- features:
+    polarity: negative
+    tense: past
+  expected: ik-tinc'i-bu-da
+---
+lemma: rum
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    polarity: affirmative
+    tense: past
+  expected: rum-u-da
+- features:
+    aspect: perfective
+    polarity: negative
+    tense: past
+  expected: rum-ic'-a-da
+- features:
+    aspect: progressive
+    polarity: affirmative
+    tense: present
+  expected: rum-at-a-da
+- features:
+    aspect: progressive
+    polarity: negative
+    tense: present
+  expected: rum-ibaRu-da
+- features:
+    polarity: affirmative
+    tense: future
+  expected: rum-i-Li-bu-da
+- features:
+    polarity: affirmative
+    tense: past
+  expected: rumi-bu-da
+- features:
+    polarity: negative
+    tense: future
+  expected: rum-i-Li-bU-?uci
+- features:
+    polarity: negative
+    tense: past
+  expected: rumi-ic'i-bu-da
+---
+lemma: rumi
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    verb_form: converb
+  expected: rum-at-a
+- features:
+    aspect: imperfective
+    verb_form: participle
+  expected: rum-ata-bu
+- features:
+    aspect: perfective
+    verb_form: converb
+  expected: rumu
+- features:
+    aspect: perfective
+    verb_form: participle
+  expected: rumibu
+- features:
+    aspect: progressive
+    mood: indicative
+    tense: present
+  expected: rum-at-a-da
+- features:
+    mood: indicative
+    tense: future
+  expected: rum-i-li-bu-da
+- features:
+    mood: indicative
+    tense: perfect
+  expected: rum-u-da

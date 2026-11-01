@@ -1,0 +1,451 @@
+lemma: xt
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: ko-mo-p-t-i-t
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: ko-mo-xt-i-t
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: ko-mo-xt-es
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: ko-mo-p-t-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: ko-mo-xt-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: ko-mo-xt-u
+- features:
+    number: plural
+    person: first
+  expected: mo-p-t-a-t
+- features:
+    number: plural
+    person: second
+  expected: mo-xt-a-t
+- features:
+    number: plural
+    person: third
+  expected: mo-xt-a-n
+- features:
+    number: singular
+    person: first
+  expected: mo-p-t-a
+- features:
+    number: singular
+    person: second
+  expected: mo-xt-a
+- features:
+    number: singular
+    person: third
+  expected: mo-xt-a-s
+---
+lemma: ç’ar
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: mi-ç’ar-u-nan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: gi-ç’ar-u-nan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: u-ç’ar-u-nan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: mi-ç’ar-u-n
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: gi-ç’ar-u-n
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: u-ç’ar-u-n
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: past
+  expected: p-ç’ar-at’i-t
+- features:
+    mood: optative
+    number: plural
+    person: second
+    tense: past
+  expected: ç’ar-at’i-t
+- features:
+    mood: optative
+    number: plural
+    person: third
+    tense: past
+  expected: ç’arat’es
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: past
+  expected: p-ç’ar-at’i
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: past
+  expected: ç’arat’i
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: past
+  expected: ç’arat’u
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: p-ç’ar-um-t’a-t
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: ç’ar-um-t’a-t
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: ç’ar-um-t’a-n
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: p-ç’ar-um-t’a
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: ç’ar-um-t’a
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: ç’ar-um-t’a-s
+---
+lemma: ç’arum
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: p-ç’ar-um-t’i-t
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: p-ç’ar-um-t
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: ç’ar-um-t’i-t
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ç’ar-um-t
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+  expected: ç’ar-um-t’es
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ç’ar-um-an
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: p-ç’ar-um-t’i
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: p-ç’ar-um
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: ç’ar-um-t’i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ç’arum
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: ç’ar-um-t’u
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ç’ar-um-s
+---
+lemma: être
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: b-ore-t
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: re-t
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: re-nan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: b-ore
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: re
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: re-n
+---
+lemma: ღურ
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    evidentiality: indirect
+    tense: pluperfect
+  expected: ნოღურუედუ
+- features:
+    aspect: perfective
+    evidentiality: indirect
+    tense: present
+  expected: ნოღურუე
+- features:
+    aspect: perfective
+    tense: future
+  expected: დოღურუდუ
+- features:
+    aspect: perfective
+    tense: past
+  expected: ღურედუ
+- features:
+    aspect: perfective
+    tense: present
+  expected: ღურე
+- features:
+    aspect: progressive
+    tense: past
+  expected: ღურუდუ
+- features:
+    aspect: progressive
+    tense: present
+  expected: ღურუ
+- features:
+    mood: conditional
+    tense: future
+  expected: დოღურუდუკო
+- features:
+    mood: conditional
+    tense: present
+  expected: ღურუდუკო
+- features:
+    mood: subjunctive
+    tense: future
+  expected: დოღურუდას
+- features:
+    mood: subjunctive
+    tense: present
+  expected: ღურუდას
+---
+lemma: ჭარ
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    evidentiality: indirect
+    tense: pluperfect
+  expected: ნოჭარუედუ
+- features:
+    aspect: perfective
+    evidentiality: indirect
+    tense: present
+  expected: ნოჭარუე
+- features:
+    aspect: perfective
+    tense: future
+  expected: დოჭარუნდუ
+- features:
+    aspect: perfective
+    tense: past
+  expected: უჭარუდუ
+- features:
+    aspect: perfective
+    tense: present
+  expected: უჭარუ
+- features:
+    aspect: progressive
+    tense: past
+  expected: ჭარუნდუ
+- features:
+    aspect: progressive
+    tense: present
+  expected: ჭარუნს
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: future
+  expected: დო-პ-ჭარ-უნ-დ-ი
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: future
+  expected: დო-ჭარ-უნ-დ-ი
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: future
+  expected: დო-ჭარ-უნ-დ-უ
+- features:
+    mood: conditional
+    tense: future
+  expected: დოჭარუნდუკო
+- features:
+    mood: conditional
+    tense: present
+  expected: ჭარუნდუკო
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: დო-პ-ჭარ-უნ-ქ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: პ-ჭარ-უნ-დ-ი
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: პ-ჭარ-უნ-ქ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: დო-ჭარ-უნ-ქ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ჭარ-უნ-დ-ი
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ჭარ-უნ-ქ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: დო-ჭარ-უნ-ს
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ჭარ-უნ-დ-უ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ჭარ-უნ-ს
+- features:
+    mood: subjunctive
+    tense: future
+  expected: დოჭარუნდას
+- features:
+    mood: subjunctive
+    tense: present
+  expected: ჭარუნდას

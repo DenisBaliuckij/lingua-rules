@@ -1,0 +1,35 @@
+lemma: yarmi
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: '%mi'
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: '%rmu'
+---
+lemma: yusrub
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: second
+  expected: uSrbi
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: second
+  expected: ?usrub
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ?uSrbu

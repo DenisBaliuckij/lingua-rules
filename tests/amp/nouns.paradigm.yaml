@@ -1,0 +1,17 @@
+lemma: yira
+category: nouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: yirat
+- features:
+    gender: masculine
+    number: singular
+  expected: yirar
+- features:
+    number: dual
+  expected: yiraf
+- features:
+    number: plural
+  expected: yiram

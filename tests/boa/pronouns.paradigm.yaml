@@ -1,0 +1,232 @@
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: i
+---
+lemma: mɛ
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mɛ
+---
+lemma: mɯ
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: mɯ
+---
+lemma: ti
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: ti
+---
+lemma: tʰa
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: tʰa
+---
+lemma: í-kpà
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: í-kpà-ːkʰɯ̀
+- features:
+    number: plural
+  expected: í-kpà-ˀhɨ ̀
+- features:
+    number: singular
+  expected: í-kpà
+---
+lemma: í-ɲɛ̀
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: í-ɲɛ̀-ːkʰɯ̀
+- features:
+    number: plural
+  expected: í-ɲɛ̀-ˀhɨ ̀
+- features:
+    number: singular
+  expected: í-ɲɛ̀
+---
+lemma: í-ʔʲàːmɨ ̀
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: í-ʔʲàːmɨ ́-kʰɯ̀
+- features:
+    number: plural
+  expected: í-ʔʲàːmɨ ́-hɨ ̀
+- features:
+    number: singular
+  expected: í-ʔʲàːmɨ ̀
+---
+lemma: ɛ̀ː-kpà
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: ɛ́-kpà-ːkʰɯ̀
+- features:
+    number: plural
+  expected: ɛ́-kpà-ˀhɨ ̀
+- features:
+    number: singular
+  expected: ɛ̀ː-kpà
+---
+lemma: ɛ̀ː-nɛ̀
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: ɛ́-nɛ̀-ːkʰɯ̀
+- features:
+    number: plural
+  expected: ɛ́-nɛ̀-ˀhɨ ̀
+- features:
+    number: singular
+  expected: ɛ̀ː-nɛ̀
+---
+lemma: ɛ́-ʔàːmɨ ̀
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: ɛ́-ʔàːmɨ ́-kʰɯ̀
+- features:
+    number: plural
+  expected: ɛ́-ʔàːmɨ ́-hɨ ̀
+- features:
+    number: singular
+  expected: ɛ́-ʔàːmɨ ̀
+---
+lemma: ɛ́ˀ-kpà
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: ɛ́ˀ-kpá-ːkʰɯ̀
+- features:
+    number: plural
+  expected: ɛ́ˀ-kpá-ˀhɨ ̀
+- features:
+    number: singular
+  expected: ɛ́ˀ-kpà
+---
+lemma: ɛ́ˀ-nɛ̀
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: ɛ́ˀ-nɛ́-ːkʰɯ̀
+- features:
+    number: plural
+  expected: ɛ́ˀ-nɛ́-ˀhɨ ̀
+- features:
+    number: singular
+  expected: ɛ́ˀ-nɛ̀
+---
+lemma: ɛ́ˀ-ʔáːmɨ ̀
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: ɛ́ˀ-ʔáːmɨ ́-kʰɯ̀
+- features:
+    number: plural
+  expected: ɛ́ˀ-ʔáːmɨ ́-hɨ ̀
+- features:
+    number: singular
+  expected: ɛ́ˀ-ʔáːmɨ ̀
+---
+lemma: ʦʰa
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: dual
+  expected: ʦʰá-nɛ̀-ːkʰɯ̀
+- features:
+    animacy: inanimate
+    number: plural
+  expected: ʦʰá-nɛ̀-ˀhɨ ̀
+- features:
+    animacy: inanimate
+    number: singular
+  expected: ʦʰà-nɛ̀
+---
+lemma: ʦʰi
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: dual
+  expected: ʦʰí-ɲɛ̀-ːkʰɯ̀
+- features:
+    animacy: inanimate
+    number: plural
+  expected: ʦʰí-ɲɛ̀-ˀhɨ ̀
+- features:
+    animacy: inanimate
+    number: singular
+  expected: ʦʰì-ːɲɛ̀
+---
+lemma: ʦʰà-ːpʰì
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+  expected: ʦʰà-ːtʰɛ́-pʰɨ ̀
+- features:
+    gender: feminine
+    number: singular
+  expected: ʦʰá-ːpʰì-ʧɛ̀
+- features:
+    gender: masculine
+    number: dual
+  expected: ʦʰà-ːtʰɛ́-ʦʰì
+- features:
+    gender: masculine
+    number: plural
+  expected: ʦʰà-ːtʰɛ̀
+- features:
+    gender: masculine
+    number: singular
+  expected: ʦʰà-ːpʰì
+---
+lemma: ʦʰì-ˣpʰì
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: ʦʰí-ˣpʰì-ʧɛ̀
+- features:
+    gender: masculine
+    number: dual
+  expected: ʦʰí-ˣtʲʰɛ̀-ʦʰì
+- features:
+    gender: masculine
+    number: plural
+  expected: ʦʰì-ˣtʲʰɛ̀
+- features:
+    gender: masculine
+    number: singular
+  expected: ʦʰì-ˣpʰì

@@ -1,0 +1,193 @@
+lemma: pročytáty
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: pročytájemo
+- features:
+    number: plural
+    tense: past
+  expected: pročytály
+---
+lemma: čytáty
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: čytátymemo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: čytájemo
+- features:
+    number: plural
+    tense: past
+  expected: čytály
+---
+lemma: дати
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: дамо
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: дасте
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: дадуть
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: дам
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: даш
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: дасть
+---
+lemma: кричати
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: кричимо
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: кричите
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: кричать
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: кричу
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: кричиш
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: кричить
+---
+lemma: нести
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: несемо
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: несете
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: несуть
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: несу
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: несеш
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: несе
+---
+lemma: їсти
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: їмо
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: їсте
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: їдять
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: їм
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: їш
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: їсть

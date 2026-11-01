@@ -1,0 +1,234 @@
+lemma: TJo
+category: pronouns
+cases:
+- features:
+    noun_class: class_5
+    number: plural
+    person: third
+  expected: Awo
+- features:
+    noun_class: class_5
+    number: singular
+    person: third
+  expected: TJo
+---
+lemma: icho
+category: pronouns
+cases:
+- features:
+    noun_class: class_4
+    number: singular
+    person: third
+  expected: icho
+---
+lemma: iko
+category: pronouns
+cases:
+- features:
+    noun_class: class_6
+    number: plural
+    person: third
+  expected: awo
+- features:
+    noun_class: class_6
+    number: singular
+    person: third
+  expected: iko
+- features:
+    noun_class: class_7
+    number: plural
+    person: third
+  expected: ito
+- features:
+    noun_class: class_7
+    number: singular
+    person: third
+  expected: iko
+---
+lemma: ine
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ife
+- features:
+    number: singular
+    person: first
+  expected: ine
+---
+lemma: int
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: we
+- features:
+    number: plural
+    person: second
+  expected: we
+- features:
+    number: singular
+    person: first
+  expected: int
+- features:
+    number: singular
+    person: second
+  expected: we
+- features:
+    number: singular
+    person: third
+  expected: lyo
+---
+lemma: iwe
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: inu
+- features:
+    number: singular
+    person: second
+  expected: iwe
+---
+lemma: lio
+category: pronouns
+cases:
+- features:
+    noun_class: class_2
+    number: plural
+    person: third
+  expected: iyo
+- features:
+    noun_class: class_2
+    number: singular
+    person: third
+  expected: lio
+---
+lemma: lye
+category: pronouns
+cases:
+- features:
+    noun_class: class_1
+    number: plural
+    person: third
+  expected: awo
+- features:
+    noun_class: class_1
+    number: singular
+    person: third
+  expected: lye
+---
+lemma: lyo
+category: pronouns
+cases:
+- features:
+    noun_class: class_3
+    number: plural
+    person: third
+  expected: izo
+- features:
+    noun_class: class_3
+    number: singular
+    person: third
+  expected: lyo
+---
+lemma: ndi
+category: pronouns
+cases:
+- features:
+    formality: formal
+    number: singular
+    person: second
+  expected: mu
+- features:
+    formality: informal
+    number: singular
+    person: second
+  expected: u
+- features:
+    number: plural
+    person: first
+  expected: ti
+- features:
+    number: plural
+    person: second
+  expected: leant!
+- features:
+    number: plural
+    person: third
+  expected: a
+- features:
+    number: singular
+    person: first
+  expected: ndi
+- features:
+    number: singular
+    person: second
+  expected: ndIW'e
+- features:
+    number: singular
+    person: third
+  expected: a
+---
+lemma: yemwe
+category: pronouns
+cases:
+- features:
+    noun_class: class_1
+    number: plural
+  expected: omwe
+- features:
+    noun_class: class_1
+    number: singular
+  expected: yemwe
+- features:
+    noun_class: class_2
+    number: plural
+  expected: yomwe
+- features:
+    noun_class: class_2
+    number: singular
+  expected: womwe
+- features:
+    noun_class: class_3
+    number: plural
+  expected: zomwe
+- features:
+    noun_class: class_3
+    number: singular
+  expected: yomwe
+- features:
+    noun_class: class_4
+    number: plural
+  expected: zomwe
+- features:
+    noun_class: class_4
+    number: singular
+  expected: chomwe
+- features:
+    noun_class: class_5
+    number: plural
+  expected: omwe
+- features:
+    noun_class: class_5
+    number: singular
+  expected: womwe
+- features:
+    noun_class: class_6
+    number: plural
+  expected: omwe
+- features:
+    noun_class: class_6
+    number: singular
+  expected: komwe
+- features:
+    noun_class: class_7
+    number: plural
+  expected: tomwe
+- features:
+    noun_class: class_7
+    number: singular
+  expected: komwe

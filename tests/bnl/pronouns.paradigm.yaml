@@ -1,0 +1,161 @@
+lemma: I
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: I
+- features:
+    number: singular
+    person: first
+  expected: I
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: my
+---
+lemma: he
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: he
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: him
+- features:
+    gender: masculine
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: his
+- features:
+    number: singular
+    person: third
+  expected: he
+---
+lemma: it
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: it
+- features:
+    number: singular
+    person: third
+  expected: it
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: its
+---
+lemma: she
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: she
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: her
+- features:
+    gender: feminine
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: hers
+- features:
+    number: singular
+    person: third
+  expected: she
+---
+lemma: they
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: they
+- features:
+    number: plural
+    person: third
+  expected: they
+- features:
+    number: plural
+    person: third
+    possessor_number: plural
+    possessor_person: third
+  expected: their
+---
+lemma: we
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: we
+- features:
+    number: plural
+    person: first
+  expected: we
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: our
+---
+lemma: who
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: who
+- features:
+    number: singular
+    person: third
+  expected: who
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: whose
+---
+lemma: you
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: you
+- features:
+    number: singular
+    person: second
+  expected: you
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: your

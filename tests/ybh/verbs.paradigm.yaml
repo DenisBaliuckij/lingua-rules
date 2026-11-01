@@ -1,0 +1,294 @@
+lemma: chimma
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+    polarity: affirmative
+  expected: chimdacu
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: chimdanum
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: chimdaŋ
+---
+lemma: copula
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: nciŋan
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: ncin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: siŋan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: sin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ŋan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: gan
+---
+lemma: kheʔma
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: kheciŋ
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    polarity: negative
+    tense: present
+  expected: ŋkheciŋanna
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: kheciga
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    polarity: negative
+    tense: present
+  expected: ŋkheciganna
+- features:
+    mood: subjunctive
+    number: dual
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: kheci
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: kheiŋ
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: kheiŋ
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: ŋkheiŋan
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: ŋkheiŋanna
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: kheiga
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: kheiga
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: ŋkheigan
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: ŋkheiganna
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: ŋkhe
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: kheʔŋa
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: ŋkheʔŋanna
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: kheka
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: ŋkhekanna
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: khe
+- features:
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: khemeŋciŋha
+- features:
+    number: dual
+    person: first
+    polarity: negative
+  expected: ŋkhemenciŋanha
+- features:
+    number: dual
+    person: second
+    polarity: affirmative
+  expected: khemecigha
+- features:
+    number: dual
+    person: second
+    polarity: negative
+  expected: ŋkhemenciganha
+- features:
+    number: dual
+    person: third
+    polarity: affirmative
+  expected: khemeciha
+- features:
+    number: dual
+    person: third
+    polarity: negative
+  expected: ŋkhemencinha
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: kheiwaŋha
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: ŋkheiwaŋanha
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: kheiwagha
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: ŋkheiwaganha
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: ŋkheme
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: ŋkhemen
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: khemeŋna
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: ŋkhemeʔŋanna
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: khemekana
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: ŋkhemekanna
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: khemeʔna
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: ŋkhemenna

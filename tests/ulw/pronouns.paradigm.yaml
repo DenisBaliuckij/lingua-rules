@@ -1,0 +1,473 @@
+lemma: ambin
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: ambinji
+---
+lemma: ambla
+category: pronouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+  expected: amblanji
+---
+lemma: ambï
+category: pronouns
+cases:
+- features:
+    number: singular
+    possessor_number: singular
+  expected: ambïnji
+---
+lemma: an
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: an
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: anji
+---
+lemma: anda
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: andin
+- features:
+    number: singular
+  expected: anda
+---
+lemma: min
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: dual
+    person: third
+  expected: min
+- features:
+    number: dual
+    person: third
+    possessor_person: third
+  expected: minji
+---
+lemma: mï
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: mï
+- features:
+    number: dual
+    person: third
+  expected: min
+- features:
+    number: plural
+    person: third
+  expected: ndï
+- features:
+    number: singular
+    person: third
+  expected: mï
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: manji
+---
+lemma: nawa
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nganawa
+- features:
+    number: dual
+    person: second
+  expected: ngunawa
+- features:
+    number: dual
+    person: third
+  expected: minawa
+- features:
+    number: plural
+    person: first
+  expected: anawa
+- features:
+    number: plural
+    person: second
+  expected: unawa
+- features:
+    number: plural
+    person: third
+  expected: ndawa
+- features:
+    number: singular
+    person: first
+  expected: nawa
+- features:
+    number: singular
+    person: second
+  expected: wawa
+- features:
+    number: singular
+    person: third
+  expected: mawa
+---
+lemma: ndï
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: ndï
+- features:
+    number: plural
+    person: third
+    possessor_number: plural
+    possessor_person: third
+  expected: ndïnji
+---
+lemma: nga
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: ngin
+- features:
+    number: plural
+  expected: ngala
+- features:
+    number: singular
+  expected: nga
+---
+lemma: ngan
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngan
+- features:
+    number: dual
+    person: first
+    possessor_person: first
+  expected: nganji
+---
+lemma: ngun
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: ngun
+- features:
+    number: dual
+    person: second
+    possessor_person: second
+  expected: ngunji
+---
+lemma: ngunan
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngunan
+- features:
+    number: dual
+    person: first
+    possessor_person: first
+  expected: ngunanji
+---
+lemma: nuwe
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nganwe
+- features:
+    number: dual
+    person: second
+  expected: ngunwe
+- features:
+    number: dual
+    person: third
+  expected: minwe
+- features:
+    number: plural
+    person: first
+  expected: anwe
+- features:
+    number: plural
+    person: second
+  expected: unwe
+- features:
+    number: plural
+    person: third
+  expected: nduwe
+- features:
+    number: singular
+    person: first
+  expected: nuwe
+- features:
+    number: singular
+    person: second
+  expected: uwe
+- features:
+    number: singular
+    person: third
+  expected: mawe
+---
+lemma: nï
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: nï
+- features:
+    evidentiality: direct
+    number: dual
+    person: first
+  expected: ngan
+- features:
+    evidentiality: direct
+    number: plural
+    person: first
+  expected: an
+- features:
+    number: dual
+    person: first
+  expected: ngan
+- features:
+    number: dual
+    person: second
+  expected: ngun
+- features:
+    number: dual
+    person: third
+  expected: min
+- features:
+    number: plural
+    person: first
+  expected: an
+- features:
+    number: plural
+    person: second
+  expected: un
+- features:
+    number: plural
+    person: third
+  expected: ndï
+- features:
+    number: singular
+    person: first
+  expected: nï
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: nïnji
+- features:
+    number: singular
+    person: second
+  expected: u
+- features:
+    number: singular
+    person: third
+  expected: mï
+---
+lemma: nïnji
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: ambinji
+- features:
+    number: dual
+    person: first
+  expected: nganji
+- features:
+    number: dual
+    person: second
+  expected: ngunji
+- features:
+    number: dual
+    person: third
+  expected: minji
+- features:
+    number: plural
+  expected: amblanji
+- features:
+    number: plural
+    person: first
+  expected: anji
+- features:
+    number: plural
+    person: second
+  expected: unji
+- features:
+    number: plural
+    person: third
+  expected: ndïnji
+- features:
+    number: singular
+  expected: ambïnji
+- features:
+    number: singular
+    person: first
+  expected: nïnji
+- features:
+    number: singular
+    person: second
+  expected: unji
+- features:
+    number: singular
+    person: third
+  expected: manji
+---
+lemma: nɨ
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ᵑɡunan
+- features:
+    number: dual
+    person: second
+  expected: ᵑɡun
+- features:
+    number: dual
+    person: third
+  expected: min
+- features:
+    number: plural
+    person: first
+  expected: unan
+- features:
+    number: plural
+    person: second
+  expected: un
+- features:
+    number: plural
+    person: third
+  expected: dɨ
+- features:
+    number: singular
+    person: first
+  expected: nɨ
+- features:
+    number: singular
+    person: second
+  expected: u
+- features:
+    number: singular
+    person: third
+  expected: mɨ
+---
+lemma: u
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: u
+- features:
+    number: dual
+    person: second
+  expected: ngun
+- features:
+    number: plural
+    person: second
+  expected: un
+- features:
+    number: singular
+    person: second
+  expected: u
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: unji
+---
+lemma: un
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: un
+- features:
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: unji
+---
+lemma: unan
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: unan
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: unanji
+---
+lemma: ungusuwa
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: ngungusuwa
+- features:
+    number: dual
+    person: third
+  expected: mingusuwa
+- features:
+    number: plural
+    person: second
+  expected: ungusuwa
+- features:
+    number: plural
+    person: third
+  expected: ndïngusuwa
+- features:
+    number: singular
+    person: second
+  expected: ungusuwa
+- features:
+    number: singular
+    person: third
+  expected: mangusuwa

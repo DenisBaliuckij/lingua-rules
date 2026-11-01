@@ -1,0 +1,57 @@
+lemma: i
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: ua
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: atúa
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: i
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: asi
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: ana
+---
+lemma: ia
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: ua
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: atúa
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: ia
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: sia
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: ana

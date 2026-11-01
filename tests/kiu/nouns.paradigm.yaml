@@ -1,0 +1,99 @@
+lemma: ban
+category: nouns
+cases:
+- features:
+    case: direct
+    number: plural
+  expected: banf
+- features:
+    case: direct
+    number: singular
+  expected: ban
+- features:
+    case: oblique
+    number: plural
+  expected: banan
+- features:
+    case: oblique
+    number: singular
+  expected: banf
+---
+lemma: deve
+category: nouns
+cases:
+- features:
+    case: direct
+    number: plural
+  expected: devey
+- features:
+    case: direct
+    number: singular
+  expected: deve
+- features:
+    case: oblique
+    number: plural
+  expected: dey-an
+- features:
+    case: oblique
+    number: singular
+  expected: devf
+---
+lemma: keynek
+category: nouns
+cases:
+- features:
+    case: direct
+    number: plural
+  expected: keynekf
+- features:
+    case: direct
+    number: singular
+  expected: keynek
+- features:
+    case: oblique
+    number: plural
+  expected: keynekan
+- features:
+    case: oblique
+    number: singular
+  expected: keynek
+---
+lemma: meseta
+category: nouns
+cases:
+- features:
+    case: direct
+    number: plural
+  expected: meset-e-y
+- features:
+    case: direct
+    number: singular
+  expected: meseta
+- features:
+    case: oblique
+    number: plural
+  expected: mesel-an
+- features:
+    case: oblique
+    number: singular
+  expected: meseta
+---
+lemma: wa
+category: nouns
+cases:
+- features:
+    case: direct
+    number: plural
+  expected: way
+- features:
+    case: direct
+    number: singular
+  expected: wa
+- features:
+    case: oblique
+    number: plural
+  expected: wa-y-an
+- features:
+    case: oblique
+    number: singular
+  expected: war

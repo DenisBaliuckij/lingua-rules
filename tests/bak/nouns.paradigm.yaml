@@ -1,0 +1,403 @@
+lemma: lat
+category: nouns
+cases:
+- features:
+    case: nominative
+    number: singular
+  expected: lat
+- features:
+    case: nominative
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: latab'itil
+- features:
+    case: nominative
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: lalaG'itil
+- features:
+    case: nominative
+    number: singular
+    possessor_number: plural
+    possessor_person: third
+  expected: ladl
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: lataml
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: latfJl
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: latahil
+---
+lemma: бала
+category: nouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: балаларҙан
+- features:
+    case: ablative
+    number: singular
+  expected: баладан
+- features:
+    case: ablative
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: балабыҙҙан
+- features:
+    case: ablative
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: балағыҙҙан
+- features:
+    case: ablative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: баламдан
+- features:
+    case: ablative
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: балаңдан
+- features:
+    case: ablative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: балаһынан
+- features:
+    case: accusative
+    number: plural
+  expected: балаларҙы
+- features:
+    case: accusative
+    number: singular
+  expected: баланы
+- features:
+    case: accusative
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: балабыҙҙы
+- features:
+    case: accusative
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: балағыҙҙы
+- features:
+    case: accusative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: баламды
+- features:
+    case: accusative
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: балаңды
+- features:
+    case: accusative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: балаһын
+- features:
+    case: dative
+    number: plural
+  expected: балаларға
+- features:
+    case: dative
+    number: singular
+  expected: балаға
+- features:
+    case: dative
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: балабыҙға
+- features:
+    case: dative
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: балағыҙға
+- features:
+    case: dative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: баламаға
+- features:
+    case: dative
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: балаңға
+- features:
+    case: dative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: балаһына
+- features:
+    case: genitive
+    number: plural
+  expected: балаларҙың
+- features:
+    case: genitive
+    number: singular
+  expected: баланың
+- features:
+    case: genitive
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: балабыҙҙың
+- features:
+    case: genitive
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: балағыҙҙың
+- features:
+    case: genitive
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: баламдың
+- features:
+    case: genitive
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: балаңдың
+- features:
+    case: genitive
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: балаһының
+- features:
+    case: locative
+    number: plural
+  expected: балаларҙа
+- features:
+    case: locative
+    number: singular
+  expected: балада
+- features:
+    case: locative
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: балабыҙҙа
+- features:
+    case: locative
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: балағыҙҙа
+- features:
+    case: locative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: баламда
+- features:
+    case: locative
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: балаңда
+- features:
+    case: locative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: балаһында
+- features:
+    case: nominative
+    number: plural
+  expected: балалар
+- features:
+    case: nominative
+    number: singular
+  expected: бала
+- features:
+    case: nominative
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: балабыҙ
+- features:
+    case: nominative
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: балағыҙ
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: балам
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: балаң
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: балаһы
+---
+lemma: еҫ
+category: nouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: еҫтәрҙән
+- features:
+    case: ablative
+    number: singular
+  expected: еҫтән
+- features:
+    case: accusative
+    number: plural
+  expected: еҫтәрҙе
+- features:
+    case: accusative
+    number: singular
+  expected: еҫте
+- features:
+    case: accusative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: еҫте
+- features:
+    case: dative
+    number: plural
+  expected: еҫтәргә
+- features:
+    case: dative
+    number: singular
+  expected: еҫкә
+- features:
+    case: dative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: еҫкә
+- features:
+    case: genitive
+    number: plural
+  expected: еҫтәрҙең
+- features:
+    case: genitive
+    number: singular
+  expected: еҫтең
+- features:
+    case: genitive
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: еҫтең
+- features:
+    case: locative
+    number: plural
+  expected: еҫтәрҙә
+- features:
+    case: locative
+    number: singular
+  expected: еҫтә
+- features:
+    case: nominative
+    number: plural
+  expected: еҫтәр
+- features:
+    case: nominative
+    number: singular
+  expected: еҫ
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: еҫте
+---
+lemma: кеше
+category: nouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: кешеләрҙән
+- features:
+    case: ablative
+    number: singular
+  expected: кешедән
+- features:
+    case: accusative
+    number: plural
+  expected: кешеләрҙе
+- features:
+    case: accusative
+    number: singular
+  expected: кешене
+- features:
+    case: dative
+    number: plural
+  expected: кешеләргә
+- features:
+    case: dative
+    number: singular
+  expected: кешегә
+- features:
+    case: genitive
+    number: plural
+  expected: кешеләрҙең
+- features:
+    case: genitive
+    number: singular
+  expected: кешенең
+- features:
+    case: locative
+    number: plural
+  expected: кешеләрҙә
+- features:
+    case: locative
+    number: singular
+  expected: кешедә
+- features:
+    case: nominative
+    number: plural
+  expected: кешеләр
+- features:
+    case: nominative
+    number: singular
+  expected: кеше

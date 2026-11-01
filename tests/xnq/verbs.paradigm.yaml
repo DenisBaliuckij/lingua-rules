@@ -1,0 +1,61 @@
+lemma: gega
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    person: third
+    tense: past
+  expected: agegitai
+- features:
+    aspect: perfective
+    mood: indicative
+    person: third
+    tense: past
+  expected: agegite
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: taagegi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: timwakagegi
+- features:
+    mood: indicative
+    person: third
+    tense: present
+  expected: agega
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: mwakagegai
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: mwakagegi
+- features:
+    mood: subjunctive
+    person: third
+  expected: agegi
+- features:
+    person: third
+  expected: akagega
+---
+lemma: ugega
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: akagega
+- features:
+    aspect: perfective
+    tense: present
+  expected: agega

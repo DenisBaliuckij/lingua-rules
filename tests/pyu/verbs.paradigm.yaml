@@ -1,0 +1,338 @@
+lemma: alepe
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: alalepe
+- features:
+    aspect: perfective
+  expected: alepe
+- features:
+    mood: imperative
+  expected: kalepe
+- features:
+    mood: optative
+    tense: future
+  expected: alepeqa
+- features:
+    tense: future
+  expected: kalalepe
+---
+lemma: aremeng
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: aremeng
+- features:
+    mood: imperative
+  expected: karemeng
+---
+lemma: deki
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: ma-Deki
+- features:
+    aspect: progressive
+    mood: indicative
+  expected: ma-Da-Deki
+- features:
+    mood: imperative
+  expected: ka-Deki
+---
+lemma: dirus
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+    polarity: negative
+    voice: active
+  expected: da-dirus-an
+- features:
+    mood: imperative
+    number: dual
+    person: first
+    voice: active
+  expected: dirusan
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+    voice: active
+  expected: da-dirus-i
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: dirusi
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: negative
+    voice: active
+  expected: da-dirus-i
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    voice: active
+  expected: dirusu
+- features:
+    mood: imperative
+    polarity: negative
+    voice: active
+  expected: dadirus
+- features:
+    mood: imperative
+    voice: active
+  expected: dirus
+- features:
+    mood: imperative
+    voice: middle
+  expected: dirusi
+- features:
+    mood: imperative
+    voice: passive
+  expected: dirusu
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: negative
+    voice: active
+  expected: dirusan
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    voice: active
+  expected: dirusanay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    voice: active
+  expected: dirusi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    voice: active
+  expected: dirusay
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    voice: active
+  expected: dirusi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    voice: active
+  expected: dirusaw
+- features:
+    mood: indicative
+    polarity: negative
+    voice: active
+  expected: dirus
+- features:
+    mood: indicative
+    voice: active
+  expected: dirus
+---
+lemma: inaba
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: inaba
+- features:
+    mood: imperative
+  expected: kainaba
+---
+lemma: kudung
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: kuaqaiung
+- features:
+    aspect: perfective
+  expected: kuaiung
+- features:
+    tense: future
+  expected: kakuaiung
+---
+lemma: madeki
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: madadeki
+- features:
+    aspect: perfective
+  expected: madeki
+- features:
+    mood: imperative
+  expected: kadeki
+- features:
+    mood: optative
+    tense: future
+  expected: madekia
+- features:
+    tense: future
+  expected: kadadeki
+---
+lemma: matengadaw
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: matatengadaw
+- features:
+    aspect: perfective
+  expected: matengadaw
+- features:
+    mood: imperative
+  expected: katengadaw
+- features:
+    mood: optative
+    tense: future
+  expected: matengadaw
+- features:
+    tense: future
+  expected: katatengadaw
+---
+lemma: mdiai
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: mddiai
+- features:
+    aspect: perfective
+  expected: maiiai
+- features:
+    mood: imperative
+  expected: kaiiai
+- features:
+    tense: future
+  expected: kaiaiiai
+---
+lemma: rengay
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: marengay
+- features:
+    aspect: progressive
+    mood: indicative
+  expected: ma-ra-rengay
+- features:
+    mood: imperative
+  expected: rengay
+---
+lemma: re’ani
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: mare’ani
+- features:
+    mood: imperative
+  expected: re’ani
+---
+lemma: ruwa
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: maruwa
+- features:
+    aspect: progressive
+    mood: indicative
+  expected: ma-ra-ruwa
+- features:
+    mood: imperative
+  expected: karuwa
+---
+lemma: saeru
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: saeru
+- features:
+    mood: imperative
+  expected: kasaeru
+---
+lemma: takaw
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: conditional
+  expected: ta-Takaw-i
+- features:
+    aspect: perfective
+    mood: conditional
+    voice: active
+  expected: taTakaw
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: takawaw
+- features:
+    aspect: perfective
+    mood: indicative
+    voice: active
+  expected: takaw
+- features:
+    aspect: progressive
+    mood: indicative
+  expected: ta-Takaw-aw
+- features:
+    aspect: progressive
+    mood: indicative
+    voice: active
+  expected: taTakaw
+- features:
+    mood: indicative
+  expected: ta-Ta-Takaw-aw
+- features:
+    mood: indicative
+    voice: active
+  expected: ta-Ta-Takaw
+---
+lemma: tangis
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: ma-Tangis
+- features:
+    aspect: progressive
+    mood: indicative
+  expected: ma-Ta-Tangis
+- features:
+    mood: imperative
+  expected: ka-Tangis

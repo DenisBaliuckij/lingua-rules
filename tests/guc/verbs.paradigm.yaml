@@ -1,0 +1,379 @@
+lemma: achajawaa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: jachajaa
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: püchajaa
+---
+lemma: apütaa
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: japüta
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: püpüta
+---
+lemma: ayonnajaa
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ayonnajüshii
+- features:
+    number: singular
+  expected: ayonnajüshi
+---
+lemma: a’lakajawaa
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: a’lakajaashii
+- features:
+    number: singular
+  expected: a’lakajaashi
+---
+lemma: a’yatawaa
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: ma’yataainsalii
+- features:
+    number: singular
+  expected: ma’yataainsai
+---
+lemma: chajaa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: wachajaaichi
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: wachajaaichipa
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: wachajaain
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: jachajaaichi
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: jachajaaichipa
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: jachajaain
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: nachajaaichi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: nachajaaichipa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: nachajaain
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: nüchajaaichi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nüchajaaichipa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nüchajaain
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: püchajaaichi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: püchajaaichipa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: püchajaain
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: tachajaaichi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: süchajaain
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tachajaain
+---
+lemma: maa
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: müinjana
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: müinjachi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: meena
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: muushii
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: muushii
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: meechi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: muushi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: muushi
+---
+lemma: nnojoluu
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    gender: feminine
+    mood: indicative
+    tense: future
+  expected: nnojoluirü
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    tense: future
+  expected: nnojoliina
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: future
+  expected: nnojoliichi
+- features:
+    aspect: perfective
+    gender: feminine
+    mood: indicative
+    tense: future
+  expected: nnojoluinjatü
+- features:
+    aspect: perfective
+    gender: feminine
+    tense: past
+  expected: nnojotsü
+- features:
+    aspect: perfective
+    gender: feminine
+    tense: present
+  expected: nnojotsü
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    tense: future
+  expected: nnojolinjana
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: future
+  expected: nnojolinjachi
+- features:
+    aspect: perfective
+    number: plural
+    tense: past
+  expected: nnojoishii
+- features:
+    aspect: perfective
+    number: plural
+    tense: present
+  expected: nnojoishii
+- features:
+    aspect: perfective
+    tense: past
+  expected: nnojoishi
+- features:
+    aspect: perfective
+    tense: present
+  expected: nnojoishi
+- features:
+    gender: feminine
+    mood: indicative
+    tense: future
+  expected: nnojoleerü
+- features:
+    mood: indicative
+    number: plural
+    tense: future
+  expected: nnojoleena
+- features:
+    mood: indicative
+    tense: future
+  expected: nnojoleechi
+---
+lemma: pütüin
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: wapütüin
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: japütüin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: napütüin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: nüpütüichi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nüpütüichipa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nüpütüin
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: püpütüichi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: püpütüichipa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: püpütüin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: tapütüichi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: süpütüin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tapütüin

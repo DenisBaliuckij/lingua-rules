@@ -1,0 +1,87 @@
+lemma: ale
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: ale
+- features:
+    aspect: perfective
+  expected: alep
+---
+lemma: kï
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: ke
+- features:
+    aspect: perfective
+  expected: kap
+- features:
+    mood: conditional
+  expected: kïta
+- features:
+    mood: imperative
+  expected: kïn
+---
+lemma: li
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: liwe
+- features:
+    aspect: perfective
+  expected: liyu
+- features:
+    mood: conditional
+  expected: liyunda
+---
+lemma: lo
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: le
+- features:
+    aspect: perfective
+  expected: lop
+- features:
+    mood: imperative
+  expected: lun
+---
+lemma: na
+category: verbs
+cases:
+- features:
+    aspect: perfective
+  expected: nan
+- features:
+    mood: imperative
+  expected: nan
+---
+lemma: ta
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: t
+- features:
+    aspect: perfective
+  expected: tap
+- features:
+    mood: conditional
+  expected: tata
+- features:
+    mood: imperative
+  expected: tan
+---
+lemma: tï
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: te
+- features:
+    aspect: perfective
+  expected: tïn

@@ -1,0 +1,83 @@
+lemma: enyau
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: enogkoh
+- features:
+    number: plural
+    person: second
+  expected: enogkmi
+- features:
+    number: plural
+    person: third
+  expected: eniror
+- features:
+    number: singular
+    person: first
+  expected: enyau
+- features:
+    number: singular
+    person: second
+  expected: enogkik
+- features:
+    number: singular
+    person: third
+  expected: eni
+---
+lemma: horug
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: horet
+- features:
+    number: plural
+    person: second
+  expected: hormi
+- features:
+    number: plural
+    person: third
+  expected: ihend
+- features:
+    number: singular
+    person: first
+  expected: horug
+- features:
+    number: singular
+    person: second
+  expected: horom
+- features:
+    number: singular
+    person: third
+  expected: ihen
+---
+lemma: irag
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: irat
+- features:
+    number: plural
+    person: second
+  expected: irami
+- features:
+    number: plural
+    person: third
+  expected: irand
+- features:
+    number: singular
+    person: first
+  expected: irag
+- features:
+    number: singular
+    person: second
+  expected: iram
+- features:
+    number: singular
+    person: third
+  expected: iran

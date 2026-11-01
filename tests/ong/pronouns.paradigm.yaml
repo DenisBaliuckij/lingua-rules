@@ -1,0 +1,559 @@
+lemma: ie
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: te
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ie
+- features:
+    number: plural
+    person: third
+  expected: pe
+---
+lemma: kl
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ku
+- features:
+    number: plural
+    person: first
+  expected: ku
+- features:
+    number: singular
+    person: first
+  expected: kl
+---
+lemma: ne
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: me
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ne
+---
+lemma: nele
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+  expected: neme
+- features:
+    gender: feminine
+    number: singular
+  expected: nenpe
+- features:
+    gender: masculine
+    number: plural
+  expected: nemple
+- features:
+    gender: masculine
+    number: singular
+  expected: nele
+---
+lemma: tef kulefe
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tef kulefe
+---
+lemma: tef kumefe
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tef kumefe
+---
+lemma: tef kunefe
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tef kunefe
+---
+lemma: tef kupefe
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tef kupefe
+---
+lemma: tef kutefe
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tef kutefe
+---
+lemma: tef lei fe
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: dual
+    person: second
+  expected: tef lei fe
+- features:
+    number: plural
+    person: second
+  expected: tef lei fe
+---
+lemma: tef lei kl
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: tef lei kl
+---
+lemma: tef lei ye
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: tef lei ye
+---
+lemma: tef lel el
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: tef lel el
+---
+lemma: tef lel fe
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: second
+  expected: tef lel fe
+---
+lemma: tef lel pe
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: tef lel pe
+- features:
+    number: plural
+    person: third
+  expected: tef lel pe
+---
+lemma: tef lene
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: tef lene
+---
+lemma: tef lenke
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: tef lenke
+---
+lemma: tef lou ku
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tef lou ku
+---
+lemma: tef mei fe
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: second
+  expected: tef mei fe
+- features:
+    number: plural
+    person: second
+  expected: tef mei fe
+---
+lemma: tef mel el
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: tef mel el
+---
+lemma: tef mel fe
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: dual
+    person: second
+  expected: tef mel fe
+---
+lemma: tef mel ki
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: tef mel ki
+---
+lemma: tef mel pe
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: tef mel pe
+- features:
+    number: plural
+    person: third
+  expected: tef mel pe
+---
+lemma: tef mel ye
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: tef mel ye
+---
+lemma: tef mene
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: tef mene
+---
+lemma: tef menke
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: tef menke
+---
+lemma: tef mou ku
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tef mou ku
+---
+lemma: tef nei fe
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: second
+  expected: tef nei fe
+- features:
+    gender: masculine
+    number: dual
+    person: second
+  expected: tef nei fe
+---
+lemma: tef nei ki
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: tef nei ki
+---
+lemma: tef nei ye
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: tef nei ye
+---
+lemma: tef nel el
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: tef nel el
+---
+lemma: tef nel fe
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: tef nel fe
+---
+lemma: tef nel pe
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: tef nel pe
+- features:
+    number: plural
+    person: third
+  expected: tef nel pe
+---
+lemma: tef nene
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: tef nene
+---
+lemma: tef nenke
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: tef nenke
+---
+lemma: tef nou ku
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tef nou ku
+---
+lemma: tef pei fe
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: second
+  expected: tef pei fe
+- features:
+    gender: masculine
+    number: dual
+    person: second
+  expected: tef pei fe
+---
+lemma: tef pei ki
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: tef pei ki
+---
+lemma: tef pei ye
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: tef pei ye
+---
+lemma: tef pel el
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: tef pel el
+---
+lemma: tef pel fe
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: tef pel fe
+---
+lemma: tef pel pe
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: tef pel pe
+- features:
+    number: plural
+    person: third
+  expected: tef pel pe
+---
+lemma: tef pene
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: tef pene
+---
+lemma: tef penke
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: tef penke
+---
+lemma: tef pou ku
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tef pou ku
+---
+lemma: tef tei fe
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: second
+  expected: tef tei fe
+- features:
+    gender: masculine
+    number: dual
+    person: second
+  expected: tef tei fe
+---
+lemma: tef tel el
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: tef tel el
+---
+lemma: tef tel fe
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: tef tel fe
+---
+lemma: tef tel ki
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: tef tel ki
+---
+lemma: tef tel pe
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: tef tel pe
+- features:
+    number: plural
+    person: third
+  expected: tef tel pe
+---
+lemma: tef tel ye
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: tef tel ye
+---
+lemma: tef tene
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: tef tene
+---
+lemma: tef tenke
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: tef tenke
+---
+lemma: tef tou ku
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tef tou ku
+---
+lemma: ye
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: second
+  expected: i fe roum
+- features:
+    gender: masculine
+    number: dual
+    person: second
+  expected: i fe roungke
+- features:
+    number: plural
+    person: second
+  expected: i fe
+- features:
+    number: singular
+    person: second
+  expected: ye

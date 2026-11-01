@@ -1,0 +1,531 @@
+lemma: ho
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: mi-huho
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: mi-bir-ho
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: huho
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: birho
+---
+lemma: hoyo
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: a-b-hoyo
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: future
+  expected: dab-bi-hoyo
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: a-Ø-hoyo
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: future
+  expected: dab-a-hoyo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: mihoyo
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: mi-bir-hoyo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: hoyo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: birhoyo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: a-n-hoyo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: future
+  expected: dam-ni-hoyo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: a-m-hoyo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: future
+  expected: dam-mi-hoyo
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: a-n-hoyo
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: future
+  expected: dam-ni-hoyo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: ga-n-hoyo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: dab-ga-hoyo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: a-k-hoyo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: future
+  expected: dab-gi-hoyo
+---
+lemma: s’it
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: s’itbi
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: s’ita
+- features:
+    number: plural
+    person: first
+  expected: s’itni
+- features:
+    number: plural
+    person: second
+  expected: s’itmi
+- features:
+    number: plural
+    person: third
+  expected: s’itni
+- features:
+    number: singular
+    person: first
+  expected: s’itni
+- features:
+    number: singular
+    person: second
+  expected: s’itki
+---
+lemma: t’op
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ma-b-t’op
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ma-∅-t’op
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: mi-t’op’at’op
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: t’op’at’op
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ma-n-t’op
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ma-m-t’op
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ma-n-t’op
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ma-n-t’op
+---
+lemma: ωa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: conditional
+    number: singular
+    person: third
+  expected: ama-b-Ωa
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+    person: third
+  expected: ab-a-ΩiΩa
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ma-b-Ωa
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: hil-bF-Ωa
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: hap-yil-bi-Ωa
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ma-b-Ωa
+- features:
+    gender: masculine
+    mood: conditional
+    number: singular
+    person: third
+  expected: ama-Ø-Ωa
+- features:
+    gender: masculine
+    mood: imperative
+    number: singular
+    person: third
+  expected: hal-a-ΩiΩa
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ma-Ø-Ωa
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: hil-a-Ωa
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: perfect
+  expected: hal-yil-a-Ωa
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ma-∅-Ωa
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: ama-n-Ωa
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: ama-m-Ωa
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: ama-n-Ωa
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: g-ama-n-Ωa
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: ama-k-Ωa
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: man-a-ΩiΩa
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: am-a-ΩiΩa
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: mi-ΩaΩa
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: mi-bir-Ωa
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: an-a-ΩiΩa
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: gan-a-ΩiΩa
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ag-a-ΩiΩa
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: ωaΩa
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: bir-Ωa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: ma-n-Ωa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: hil-lF-Ωa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ma-n-Ωa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: ma-m-Ωa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: hil-mi-Ωa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ma-m-Ωa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ma-n-Ωa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: hil-li-Ωa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ma-n-Ωa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: ma-n-Ωa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: hil-ga-Ωa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: perfect
+  expected: ga-yil-ni-Ωa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: ab-ni-Ωa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: ma-k-Ωa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: hil-gi-Ωa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: perfect
+  expected: ik-yil-gi-Ωa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: ik-ab-gi-zala-Ωa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ma-k-Ωa

@@ -1,0 +1,41 @@
+lemma: leta
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: letenu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: leta
+---
+lemma: tala
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: talenu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tala
+---
+lemma: ya
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: yenuna
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: yaku

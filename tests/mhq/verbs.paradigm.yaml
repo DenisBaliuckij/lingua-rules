@@ -1,0 +1,193 @@
+lemma: a
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: na:'xawec
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: da:'xawe'-cinitoc
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wa:'xawec
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: da:'xawec
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: a:'xawec
+---
+lemma: e'pe
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: e'tec
+- features:
+    number: dual
+    person: second
+  expected: e'tanitoc
+- features:
+    number: plural
+    person: first
+  expected: e'hec
+- features:
+    number: plural
+    person: second
+  expected: e'hekere^c
+- features:
+    number: singular
+    person: first
+  expected: e'pec
+- features:
+    number: singular
+    person: second
+  expected: de'heroc
+---
+lemma: e'reh
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: e'rerehoc
+- features:
+    number: dual
+    person: second
+  expected: e'rarahinitoc
+- features:
+    number: plural
+    person: first
+  expected: e'rehoc
+- features:
+    number: plural
+    person: second
+  expected: e'rehkere'c
+- features:
+    number: singular
+    person: first
+  expected: e'werehoc
+- features:
+    number: singular
+    person: second
+  expected: de'rehoc
+---
+lemma: kina
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wakina'roc
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dakina'roc
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kina'roc
+---
+lemma: kixe
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: wakixe:'roc
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dakixe:'roc
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kixe:'roc
+---
+lemma: tad
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ni'tax^i'c
+- features:
+    number: dual
+    person: second
+  expected: ni'taci'nitoc
+- features:
+    number: plural
+    person: first
+  expected: taci'c
+- features:
+    number: plural
+    person: second
+  expected: taci'kerec
+- features:
+    number: singular
+    person: first
+  expected: ptaci'c
+- features:
+    number: singular
+    person: second
+  expected: nu'taci'^c
+---
+lemma: éehee
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: réeheero’sh
+- features:
+    number: plural
+    person: first
+  expected: réeheeanito’sh
+- features:
+    number: plural
+    person: second
+  expected: éetaanito’sh
+- features:
+    number: plural
+    person: third
+  expected: éeheekere’sh
+- features:
+    number: singular
+    person: first
+  expected: éepe’sh
+- features:
+    number: singular
+    person: second
+  expected: éete’sh
+- features:
+    number: singular
+    person: third
+  expected: éeheero’sh
