@@ -1,0 +1,103 @@
+lemma: ed'ba
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: aned'bi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ned'ba
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: ated'bam
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: thed'bam
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ed'ban
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ad'ed'bak
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ed'hak
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ated'bad
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: thed'bad
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ad'id'ba
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: id'ba
+---
+lemma: lama
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: nama
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: taman
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: aman
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: amek
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: iama

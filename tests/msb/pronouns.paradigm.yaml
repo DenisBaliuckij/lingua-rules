@@ -1,0 +1,56 @@
+lemma: ako
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: first
+  expected: ako
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: ákon
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ákon
+---
+lemma: sinda
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+    person: third
+  expected: sinda
+- features:
+    case: ergative
+    number: plural
+    person: third
+  expected: índa
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: índa
+---
+lemma: siya
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: third
+  expected: siya
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: íya
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: íya

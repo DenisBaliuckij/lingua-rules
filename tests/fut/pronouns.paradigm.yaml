@@ -1,0 +1,48 @@
+lemma: ki
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ki akitaua
+- features:
+    number: dual
+    person: second
+  expected: ki akorua
+- features:
+    number: dual
+    person: third
+  expected: ki akiraua
+- features:
+    number: plural
+    person: first
+  expected: ki akitea
+- features:
+    number: plural
+    person: second
+  expected: ki akoua
+- features:
+    number: plural
+    person: third
+  expected: ki akirea
+- features:
+    number: singular
+    person: first
+  expected: ki atavau
+- features:
+    number: singular
+    person: second
+  expected: ki atakoe
+- features:
+    number: singular
+    person: third
+  expected: ki ateia
+- features:
+    person: first
+  expected: ki akitatou
+- features:
+    person: second
+  expected: ki akoutou
+- features:
+    person: third
+  expected: ki akiratou

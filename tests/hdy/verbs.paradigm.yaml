@@ -1,0 +1,255 @@
+lemma: mass
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: massinaamrno
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: massaammo
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: massitaatto
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: massaakko
+- features:
+    gender: common
+    number: singular
+    person: third
+  expected: massakkeeln
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: massinoorrnno
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: massinummo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+  expected: massitakkarno
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: massoommo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: massurnmo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: massitootto
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: massititto
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: massookko
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: massukko
+- features:
+    number: plural
+    person: first
+  expected: massinooln
+- features:
+    number: plural
+    person: second
+  expected: massiteebele
+---
+lemma: massa
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: massakkeena
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: masseena
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: massiteena
+---
+lemma: massoommulla
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: massoolla
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: massitarnulla
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: massakkamulla
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: massoommulla
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: massinoommulla
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: massitoolla
+---
+lemma: massoorrnnane
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+  expected: massoohane
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+  expected: massitamane
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+  expected: massakkamane
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: massoorrnnane
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: massinoommane
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: massitoohane
+---
+lemma: massurrnnane
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+  expected: massukkane
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+  expected: massitolane
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+  expected: massakkolane
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: massurrnnane
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: massinurrnnane
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: massittane

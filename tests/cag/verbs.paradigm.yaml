@@ -1,0 +1,326 @@
+lemma: cfiy-iy
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ja’yii-cfiy-iy
+- features:
+    number: singular
+    person: second
+  expected: lht’aa-cfiy-iy
+- features:
+    number: singular
+    person: third
+  expected: t’a-cfiy-iy
+- features:
+    person: first
+  expected: sht’a-cfiy-iy
+---
+lemma: cjon-jan
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ja’yii-cjon-jan
+- features:
+    number: singular
+    person: second
+  expected: lht’aa-cjon-jan
+- features:
+    number: singular
+    person: third
+  expected: t’a-cjon-jan
+- features:
+    person: first
+  expected: sht’a-cjon-jan
+---
+lemma: ftu-i
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ja’yi-ftu-i
+- features:
+    number: singular
+    person: second
+  expected: lht’a-ftu-i
+- features:
+    number: singular
+    person: third
+  expected: t’a-ftuu-i
+- features:
+    person: first
+  expected: sht’a-ftuu-i
+---
+lemma: ts'aclai
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: jayi-ts’aclai
+- features:
+    number: singular
+    person: second
+  expected: lhta-ts’aclai
+- features:
+    number: singular
+    person: third
+  expected: tts’aclaai
+- features:
+    person: first
+  expected: shta-ts’aclaai
+---
+lemma: ts'ai
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: jayi-ts’ai
+- features:
+    number: singular
+    person: second
+  expected: lhta-ts’ai
+- features:
+    number: singular
+    person: third
+  expected: ta-ts’aai
+- features:
+    person: first
+  expected: shta-ts’aai
+---
+lemma: y-i+
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: shn-aôv
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: first
+    polarity: negative
+  expected: shnô’v-a
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: j-aôv
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: a
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: ve
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+  expected: v’e-‘a
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: n-aôv
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+  expected: n-ô’v-a
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: shn-aôv
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    polarity: negative
+  expected: shn-aôv
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: j-aôv
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: y-i
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: lh-aôv
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+  expected: ve
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: y-i
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+  expected: n-aôv
+---
+lemma: y-ich
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: shn-ôc
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: first
+    polarity: negative
+  expected: shnôc-a
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: j-ôc
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: y-ich-a
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: mô
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+  expected: m’a
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: n-ôc
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+  expected: n-ôc-a
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: shn-ôc
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    polarity: negative
+  expected: shn-ôc
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: j-ôc
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: y-ich
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: lh-ôc
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+  expected: mô
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: y-ich
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+  expected: n-ôc

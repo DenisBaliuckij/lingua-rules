@@ -1,0 +1,40 @@
+lemma: aɔ
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: c-aá-t
+- features:
+    mood: imperative
+  expected: aɽɪ́k
+---
+lemma: ɔtʊ́ɔ
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+    voice: active
+  expected: c-ɔtʊ́a̤tʊ́ɛ
+- features:
+    mood: imperative
+  expected: ɔtʊ́i
+- features:
+    voice: active
+  expected: c-atʊ́ɔ
+---
+lemma: ɔtʊ́ɔt
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+    voice: active
+  expected: c-ɔtʊ́a̤tʊ́ɛ
+- features:
+    mood: imperative
+  expected: ɔtʊ́ɔtʊ́ɛ
+- features:
+    voice: active
+  expected: c-atʊ́ɔt

@@ -1,0 +1,47 @@
+lemma: nina
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: nini
+- features:
+    case: comitative
+    number: plural
+    person: second
+  expected: nani
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: kuni
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: nina
+---
+lemma: wena
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: guwe
+- features:
+    case: comitative
+    number: singular
+    person: second
+  expected: nawe
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: kuwe
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: wenai

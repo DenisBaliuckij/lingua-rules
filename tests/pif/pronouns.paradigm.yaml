@@ -1,0 +1,51 @@
+lemma: mae
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+  expected: mae
+---
+lemma: ngaei
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ngaei
+- features:
+    number: singular
+    person: second
+  expected: kaelkaewae
+- features:
+    number: singular
+    person: third
+  expected: ae
+---
+lemma: rehi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: rehs
+- features:
+    number: singular
+    person: first
+  expected: rehi
+- features:
+    number: singular
+    person: second
+  expected: rehmw
+- features:
+    number: singular
+    person: third
+  expected: rehn
+- features:
+    person: first
+  expected: rehsa
+- features:
+    person: second
+  expected: rehmwa
+- features:
+    person: third
+  expected: rehra

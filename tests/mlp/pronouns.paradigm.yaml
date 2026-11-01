@@ -1,0 +1,133 @@
+lemma: go
+category: pronouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: gigo
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: gigo
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: gigo
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: igo
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: nigo
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ago
+---
+lemma: ka
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: kag
+- features:
+    number: singular
+  expected: ka
+---
+lemma: mo
+category: pronouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: gimo
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: gimo
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: gimo
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: imo
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: nimo
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: amo
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: nagan
+- features:
+    number: singular
+  expected: na
+---
+lemma: naga
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: naga naga
+- features:
+    number: singular
+  expected: naga
+---
+lemma: naza
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: nagza
+- features:
+    number: singular
+  expected: naza
+---
+lemma: nog
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: gingan
+- features:
+    number: singular
+  expected: nog
+---
+lemma: ya
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: i
+- features:
+    number: plural
+    person: second
+  expected: ne
+- features:
+    number: plural
+    person: third
+  expected: in
+- features:
+    number: singular
+    person: first
+  expected: ya
+- features:
+    number: singular
+    person: second
+  expected: ni
+- features:
+    number: singular
+    person: third
+  expected: in

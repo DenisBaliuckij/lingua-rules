@@ -1,0 +1,214 @@
+lemma: hàà
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: hàànì
+- features:
+    gender: masculine
+    number: plural
+  expected: hààz
+- features:
+    gender: masculine
+    number: singular
+  expected: hààz
+---
+lemma: nata
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: natara
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: naŋ̀
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: nataka
+- features:
+    number: singular
+    person: first
+  expected: nata
+---
+lemma: náta
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nátara
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: náŋ̀
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: nátaka
+- features:
+    number: plural
+    person: first
+  expected: náta
+---
+lemma: n̩na
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: n̩nya
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: n̩na
+---
+lemma: yeta
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: yetara
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: yekǹ
+- features:
+    case: instrumental
+    number: singular
+    person: second
+  expected: yetaka
+- features:
+    number: singular
+    person: second
+  expected: yeta
+---
+lemma: yī
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: yīnì
+- features:
+    gender: masculine
+    number: plural
+  expected: yīz
+- features:
+    gender: masculine
+    number: singular
+  expected: yīz
+---
+lemma: áz
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+    person: third
+  expected: ás-əra
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+    person: third
+  expected: ás-kǹ
+- features:
+    case: instrumental
+    gender: masculine
+    number: singular
+    person: third
+  expected: ás-ka
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: áz
+---
+lemma: ítí
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: ítíra
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: ítíkǹ
+- features:
+    case: instrumental
+    number: plural
+    person: second
+  expected: ítíka
+- features:
+    number: plural
+    person: second
+  expected: ítí
+---
+lemma: íʃì
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: íʃìra
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: íʃìkǹ
+- features:
+    case: instrumental
+    number: plural
+    person: third
+  expected: íʃìka
+- features:
+    number: plural
+    person: third
+  expected: íʃì
+---
+lemma: íʒ
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: íʃ-əra
+- features:
+    case: dative
+    gender: feminine
+    number: singular
+    person: third
+  expected: íʃ-kǹ
+- features:
+    case: instrumental
+    gender: feminine
+    number: singular
+    person: third
+  expected: íʃ-ka
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: íʒ

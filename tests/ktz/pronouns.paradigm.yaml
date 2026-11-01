@@ -1,0 +1,113 @@
+lemma: ha
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: sà
+- features:
+    number: plural
+    person: third
+  expected: sìǃá
+- features:
+    number: singular
+    person: third
+  expected: ha
+---
+lemma: hì
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: they two
+- features:
+    number: plural
+  expected: they
+- features:
+    number: singular
+  expected: it
+---
+lemma: ká
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: they two
+- features:
+    number: plural
+  expected: they
+- features:
+    number: singular
+  expected: it
+---
+lemma: mí
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: mtsá
+- features:
+    number: plural
+    person: first
+  expected: mǃá
+- features:
+    number: singular
+    person: first
+  expected: mí
+---
+lemma: à
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: ìtsá
+- features:
+    number: plural
+    person: second
+  expected: ìǃá
+- features:
+    number: singular
+    person: second
+  expected: à
+---
+lemma: ǁ’àhaà
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: ǁ’àsá
+- features:
+    number: plural
+    person: third
+  expected: ǁ’àsìsà
+- features:
+    number: singular
+    person: third
+  expected: ǁ’àhaà
+---
+lemma: ǁ’àhìà
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ǁ’àhìsà
+- features:
+    number: singular
+    person: third
+  expected: ǁ’àhìà
+---
+lemma: ǁ’àkáà
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ǁ’àkásà
+- features:
+    number: singular
+    person: third
+  expected: ǁ’àkáà

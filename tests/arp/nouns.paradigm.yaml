@@ -1,0 +1,79 @@
+lemma: hotfl
+category: nouns
+cases:
+- features:
+    animacy: animate
+    case: oblique
+    number: plural
+  expected: hotiiwo?
+- features:
+    animacy: animate
+    case: oblique
+    number: singular
+  expected: hotiiw
+- features:
+    animacy: animate
+    number: singular
+  expected: hotfl
+---
+lemma: naiibiiclwan
+category: nouns
+cases:
+- features:
+    case: vocative
+  expected: naiibiiclwan
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: hibicilblihiinan
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: niibuicibiihii
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: hiibaiibiihii
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: hibiiclwahan
+---
+lemma: nasiihii 'a
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: hasiihiiaehin
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: hasahiiaA
+---
+lemma: nata
+category: nouns
+cases:
+- features:
+    case: vocative
+  expected: nata
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: hatanihin
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: hitanehinan
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: natane
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: hatane
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: hitanan

@@ -1,0 +1,62 @@
+lemma: la
+category: articles
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: plural
+  expected: las
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: la
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: las
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: la
+---
+lemma: lo
+category: articles
+cases:
+- features:
+    case: accusative
+    gender: masculine
+    number: plural
+  expected: los
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: lo
+- features:
+    case: dative
+    gender: masculine
+    number: plural
+  expected: als
+- features:
+    case: dative
+    gender: masculine
+    number: singular
+  expected: al
+- features:
+    case: genitive
+    gender: masculine
+    number: plural
+  expected: dels
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: los
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: del

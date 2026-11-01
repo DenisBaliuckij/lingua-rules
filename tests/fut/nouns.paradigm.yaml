@@ -1,0 +1,98 @@
+lemma: fugona
+category: nouns
+cases:
+- features:
+    number: singular
+    possessor_person: first
+  expected: fungoku
+- features:
+    number: singular
+    possessor_person: second
+  expected: fungou
+- features:
+    number: singular
+    possessor_person: third
+  expected: fungona
+---
+lemma: jina
+category: nouns
+cases:
+- features:
+    number: singular
+    possessor_person: first
+  expected: nana
+- features:
+    number: singular
+    possessor_person: second
+  expected: jinau
+- features:
+    number: singular
+    possessor_person: third
+  expected: jinana
+---
+lemma: tamana
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: tata
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: tamau
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: tamana
+- features:
+    possessor_person: first
+  expected: tamanotaua
+---
+lemma: tamupuna
+category: nouns
+cases:
+- features:
+    number: singular
+    possessor_person: first
+  expected: tamupuku
+- features:
+    number: singular
+    possessor_person: second
+  expected: tamupu
+- features:
+    number: singular
+    possessor_person: third
+  expected: tamupuna
+---
+lemma: to jina
+category: nouns
+cases:
+- features:
+    number: singular
+    possessor_person: first
+  expected: tojinau
+- features:
+    number: singular
+    possessor_person: second
+  expected: tojinau
+- features:
+    number: singular
+    possessor_person: third
+  expected: tojinana
+---
+lemma: tupuna
+category: nouns
+cases:
+- features:
+    number: singular
+    possessor_person: first
+  expected: pua
+- features:
+    number: singular
+    possessor_person: second
+  expected: tupu
+- features:
+    number: singular
+    possessor_person: third
+  expected: tupuna

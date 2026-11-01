@@ -1,0 +1,34 @@
+lemma: e
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: e
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: gitdru
+- features:
+    number: plural
+    person: first
+  expected: git
+- features:
+    number: singular
+    person: first
+  expected: na
+- features:
+    person: first
+  expected: gitntl
+---
+lemma: ong
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: ong

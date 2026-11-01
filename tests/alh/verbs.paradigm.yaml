@@ -1,0 +1,136 @@
+lemma: apu
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: apuwun
+- features:
+    aspect: perfective
+    mood: subjunctive
+    tense: present
+  expected: apina
+- features:
+    aspect: progressive
+    mood: indicative
+    tense: past
+  expected: apaia
+- features:
+    aspect: progressive
+    mood: indicative
+    tense: present
+  expected: apili
+- features:
+    aspect: progressive
+    mood: subjunctive
+    tense: future
+  expected: apudur
+- features:
+    mood: indicative
+    tense: future
+  expected: api
+---
+lemma: ba
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: ban
+- features:
+    aspect: progressive
+    mood: indicative
+    tense: past
+  expected: bala
+- features:
+    aspect: progressive
+    mood: indicative
+    tense: present
+  expected: beli
+- features:
+    aspect: progressive
+    mood: subjunctive
+    tense: future
+  expected: bayar
+- features:
+    aspect: progressive
+    mood: subjunctive
+    tense: present
+  expected: beyiri
+- features:
+    mood: indicative
+    tense: future
+  expected: bia
+---
+lemma: be
+category: verbs
+cases:
+- features:
+    mood: indicative
+    tense: future
+  expected: ni
+- features:
+    mood: indicative
+    tense: past
+  expected: ri
+- features:
+    mood: indicative
+    tense: present
+  expected: e-ni
+- features:
+    mood: subjunctive
+    tense: future
+  expected: ni-dir
+- features:
+    mood: subjunctive
+    tense: present
+  expected: ni-difi
+---
+lemma: go
+category: verbs
+cases:
+- features:
+    mood: indicative
+    tense: future
+  expected: wina
+- features:
+    mood: indicative
+    tense: past
+  expected: wuta-la
+- features:
+    mood: indicative
+    tense: present
+  expected: a-\a
+- features:
+    mood: subjunctive
+    tense: future
+  expected: i-d
+- features:
+    mood: subjunctive
+    tense: present
+  expected: i-diri
+---
+lemma: tjata
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: tjatan
+- features:
+    aspect: perfective
+    mood: subjunctive
+    tense: present
+  expected: tjatina
+- features:
+    aspect: progressive
+    mood: subjunctive
+    tense: future
+  expected: tjatayaf
+- features:
+    mood: indicative
+    tense: future
+  expected: tjata

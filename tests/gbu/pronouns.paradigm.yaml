@@ -1,0 +1,110 @@
+lemma: gaduwa
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: maneegaduwa
+- features:
+    number: singular
+    person: first
+  expected: ngadj-gaaduwa
+- features:
+    number: singular
+    person: second
+  expected: nginjaagaduwa
+---
+lemma: naarri
+category: pronouns
+cases:
+- features:
+    noun_class: class_1
+  expected: naarri
+- features:
+    number: singular
+  expected: nanggaarri
+- features:
+    number: singular
+    person: first
+  expected: naarri
+- features:
+    number: singular
+    person: second
+  expected: njinaarri
+- features:
+    number: singular
+    person: third
+  expected: namaarri
+---
+lemma: namaarri
+category: pronouns
+cases:
+- features:
+    noun_class: class_3
+  expected: namaarri
+---
+lemma: nanggaarri
+category: pronouns
+cases:
+- features:
+    noun_class: class_4
+  expected: nanggaarri
+---
+lemma: njinaarri
+category: pronouns
+cases:
+- features:
+    noun_class: class_2
+  expected: njinaarri
+---
+lemma: ru
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ngoyoo-ro
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: nowoo-ro
+- features:
+    number: dual
+    person: second
+  expected: maneerraru
+- features:
+    number: singular
+    person: first
+  expected: ngaaru
+- features:
+    number: singular
+    person: second
+  expected: nginjaaru
+---
+lemma: yirri
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: ngoyooyirri
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: nowooyirri
+- features:
+    number: dual
+    person: second
+  expected: maneeyirri
+- features:
+    number: singular
+    person: first
+  expected: ngaayirri
+- features:
+    number: singular
+    person: second
+  expected: nginjaayirri

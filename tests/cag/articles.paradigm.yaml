@@ -1,0 +1,43 @@
+lemma: na
+category: articles
+cases:
+- features:
+    animacy: animate
+    evidentiality: direct
+    number: plural
+  expected: napi
+- features:
+    animacy: animate
+    evidentiality: indirect
+    number: plural
+  expected: ca-pi
+- features:
+    animacy: inanimate
+    evidentiality: direct
+    number: plural
+  expected: nava
+- features:
+    animacy: inanimate
+    evidentiality: indirect
+    number: plural
+  expected: ca-va
+- features:
+    evidentiality: direct
+    gender: feminine
+    number: singular
+  expected: lha
+- features:
+    evidentiality: direct
+    gender: masculine
+    number: singular
+  expected: na
+- features:
+    evidentiality: indirect
+    gender: feminine
+    number: singular
+  expected: lh-ca
+- features:
+    evidentiality: indirect
+    gender: masculine
+    number: singular
+  expected: ca

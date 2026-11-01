@@ -1,0 +1,317 @@
+lemma: amar
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: amareinos
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: amareys
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: amaram
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: amarey
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: amaras
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: amarà
+---
+lemma: aprazer
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: aprouve
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: aprazte
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: aprazlhe
+- features:
+    verb_form: infinitive
+  expected: aprazer
+---
+lemma: dizer
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: disse
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: digo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dizes
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: diz
+- features:
+    verb_form: infinitive
+  expected: dizer
+- features:
+    verb_form: participle
+  expected: dito
+---
+lemma: poder
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: pude
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: posso
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: podes
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: pode
+- features:
+    verb_form: infinitive
+  expected: poder
+---
+lemma: querer
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: quiz
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: quero
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: queres
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: quer
+- features:
+    verb_form: infinitive
+  expected: querer
+- features:
+    verb_form: participle
+  expected: querido
+---
+lemma: saber
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: sei
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sabes
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: soube
+- features:
+    verb_form: infinitive
+  expected: saber
+- features:
+    verb_form: participle
+  expected: sabido
+---
+lemma: saeksi
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: saeksi
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: saeksi
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: saeksi
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: saeksi
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: saeksi
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: saeksi
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: saeksi
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: saeksi
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: saeksi
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: saeksi
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: saeksi
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: saeksi
+---
+lemma: ter
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tenho
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tens
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tive
+- features:
+    verb_form: infinitive
+  expected: ter
+- features:
+    verb_form: participle
+  expected: tido
+---
+lemma: trazer
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: trouxe
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: trago
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: trazes
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: traz
+- features:
+    verb_form: infinitive
+  expected: trazer
+- features:
+    verb_form: participle
+  expected: trazido

@@ -1,0 +1,211 @@
+lemma: nganyi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ngalunha
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: nganunha
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: nganha
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: ngathu
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: ngalungga
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: nganungga
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ngakani
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngaldra
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ngandra
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: nganyi
+---
+lemma: nhani
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: nhanha
+- features:
+    case: ergative
+    gender: feminine
+    number: singular
+  expected: nhandra
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: nhanggani
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: nhani
+---
+lemma: nhinggi
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: nhinggiyinguda
+- features:
+    case: dative
+  expected: nhinggiyingadi
+- features:
+    case: nominative
+  expected: nhinggiyi
+---
+lemma: nhunu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: common
+    number: singular
+  expected: yinha
+- features:
+    case: ergative
+    gender: common
+    number: singular
+  expected: nhulu
+- features:
+    case: genitive
+    gender: common
+    number: singular
+  expected: nhimggani
+- features:
+    case: nominative
+    gender: common
+    number: singular
+  expected: nhunu
+---
+lemma: pula
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+  expected: pulhu
+- features:
+    case: genitive
+    number: dual
+  expected: pulgani
+- features:
+    case: nominative
+    number: dual
+  expected: pula
+---
+lemma: thana
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: thanha
+- features:
+    case: genitive
+    number: plural
+  expected: thanngani
+- features:
+    case: locative
+    number: plural
+  expected: thannganiyi
+- features:
+    case: nominative
+    number: plural
+  expected: thana
+---
+lemma: wara
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: waranginguda
+- features:
+    case: absolutive
+  expected: wara
+- features:
+    case: dative
+  expected: warangingadi
+- features:
+    case: genitive
+  expected: warangi
+- features:
+    case: locative
+  expected: warangiyi
+---
+lemma: yidla
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: yidlanguda
+- features:
+    case: dative
+  expected: yilakadi
+- features:
+    case: locative
+  expected: yidlayi
+---
+lemma: yini
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: yina
+- features:
+    case: genitive
+    number: dual
+    person: second
+  expected: yulgani
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: yunngani
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: yinggani
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: yini

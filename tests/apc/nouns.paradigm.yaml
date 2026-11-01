@@ -1,0 +1,35 @@
+lemma: alf
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: alfēn
+- features:
+    number: singular
+  expected: alf
+---
+lemma: أب
+category: nouns
+cases:
+- features:
+    case: accusative
+  expected: أبا
+- features:
+    case: genitive
+  expected: أبي
+- features:
+    case: nominative
+  expected: أبو
+---
+lemma: أخ
+category: nouns
+cases:
+- features:
+    case: accusative
+  expected: أخا
+- features:
+    case: genitive
+  expected: أخي
+- features:
+    case: nominative
+  expected: أخو

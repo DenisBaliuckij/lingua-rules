@@ -1,0 +1,151 @@
+lemma: im£
+category: pronouns
+cases:
+- features:
+    case: ergative
+    number: plural
+    person: second
+  expected: im£em
+- features:
+    number: plural
+    person: second
+  expected: im£
+---
+lemma: inSe
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: yourselves
+- features:
+    number: singular
+    person: first
+  expected: inSe
+- features:
+    number: singular
+    person: second
+  expected: imSe
+- features:
+    number: singular
+    person: third
+  expected: ipnSe
+---
+lemma: ip£
+category: pronouns
+cases:
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: ipnlm
+- features:
+    number: singular
+    person: third
+  expected: ip£
+---
+lemma: kii
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: kinix
+- features:
+    case: accusative
+    number: plural
+  expected: kinmene
+- features:
+    case: accusative
+    number: singular
+  expected: kinye
+- features:
+    case: allative
+    number: singular
+  expected: kipx
+- features:
+    case: comitative
+    number: singular
+  expected: kinyiin
+- features:
+    case: dative
+    number: plural
+  expected: kin m a 'yayn
+- features:
+    case: dative
+    number: singular
+  expected: kin'yayn
+- features:
+    case: ergative
+    number: plural
+  expected: kinmem
+- features:
+    case: ergative
+    number: singular
+  expected: kinm
+- features:
+    case: instrumental
+    number: singular
+  expected: kinki
+- features:
+    case: locative
+    number: plural
+  expected: kinieme
+- features:
+    case: locative
+    number: singular
+  expected: kine
+- features:
+    case: nominative
+    number: plural
+  expected: kiime
+- features:
+    case: nominative
+    number: singular
+  expected: kii
+- features:
+    case: translative
+    number: singular
+  expected: kinwece t
+- features:
+    number: singular
+  expected: kiimet
+---
+lemma: lim
+category: pronouns
+cases:
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: imlm
+- features:
+    number: singular
+    person: second
+  expected: lim
+---
+lemma: lin
+category: pronouns
+cases:
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: linim
+- features:
+    number: singular
+    person: first
+  expected: lin
+---
+lemma: nfiun
+category: pronouns
+cases:
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: nuunim
+- features:
+    number: plural
+    person: first
+  expected: nfiun

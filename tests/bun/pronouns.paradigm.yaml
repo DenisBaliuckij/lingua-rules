@@ -1,0 +1,173 @@
+lemma: W
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: AS
+- features:
+    number: singular
+    person: third
+  expected: W
+---
+lemma: a
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: mi
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: mi
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: a
+---
+lemma: lsg
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hi
+- features:
+    number: singular
+    person: first
+  expected: mi
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hi
+- features:
+    number: plural
+    person: second
+  expected: 'no'
+- features:
+    number: singular
+    person: first
+  expected: mi
+---
+lemma: mɔ
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: hɔm
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: mɔ
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: mɔ
+---
+lemma: wɔ
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: wɔ
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: wɔ
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: wɔ
+---
+lemma: ya
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yi
+- features:
+    number: plural
+    person: second
+  expected: hi
+- features:
+    number: singular
+    person: first
+  expected: ya
+- features:
+    number: singular
+    person: second
+  expected: moj
+---
+lemma: yì
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: yi
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: yi
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: yì
+---
+lemma: ŋà
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: ŋà
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: ŋà
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: ŋà
+---
+lemma: ŋá
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: ŋá
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: ŋá
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: ŋá

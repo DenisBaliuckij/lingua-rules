@@ -1,0 +1,19 @@
+% rules/arp/nouns.lp
+% Arapaho nouns: generated from grammars in the DocumentCatalog (tools/grammar_rules; LLM-
+% extracted paradigms, classes induced from them). Review before relying on it.
+%
+% Sources (document id in the DocumentCatalog):
+%   doc 794183: Arapaho V: Noun (1965), pages 7, 10
+%   doc 794184: Arapaho Dialects (1916), pages 51
+%
+% Classes (noun_class/2 in data/nouns.lexicon.tsv, affixes in data/nouns.paradigms.tsv):
+%   nata_type                    nata
+%   naiibiiclwan_type            naiibiiclwan
+%   division_1_set_b             hotfl — grammar: "Division 1, Set b"
+% Irregular (listed in data/nouns.exceptions.tsv): nasiihii 'a
+%
+% Not covered: anything the selected grammar pages do not show as a full paradigm;
+% a class is only as complete as the forms the grammar printed for its members.
+
+form(L, Key, @affix(L, Front, Prefix, Strip, Ending)) :- input_lemma(L),
+    noun_class(L, Class), paradigm_affix(Class, Key, Front, Prefix, Strip, Ending), not irregular(L).

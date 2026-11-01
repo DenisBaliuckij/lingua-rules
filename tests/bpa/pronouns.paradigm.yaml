@@ -1,0 +1,45 @@
+lemma: nye
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kenma
+- features:
+    number: dual
+    person: second
+  expected: kama
+- features:
+    number: dual
+    person: third
+  expected: nya
+- features:
+    number: plural
+    person: first
+  expected: kinyem
+- features:
+    number: plural
+    person: second
+  expected: kimim
+- features:
+    number: plural
+    person: third
+  expected: nyoo
+- features:
+    number: singular
+    person: first
+  expected: nye
+- features:
+    number: singular
+    person: second
+  expected: ngok
+- features:
+    number: singular
+    person: third
+  expected: nge
+- features:
+    person: first
+  expected: kinyemsi
+- features:
+    person: second
+  expected: kamsi

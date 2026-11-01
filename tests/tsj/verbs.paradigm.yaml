@@ -1,0 +1,130 @@
+lemma: cf.ibe 'to write
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: cf.i
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: cf.idu
+- features:
+    verb_form: infinitive
+  expected: cf.ibe
+---
+lemma: di
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: future
+  expected: di-n-cho-le
+- features:
+    aspect: imperfective
+    tense: past
+  expected: di-n-cho-wa
+- features:
+    aspect: imperfective
+    tense: present
+  expected: di-n-ca
+- features:
+    aspect: perfective
+    tense: future
+  expected: dile
+- features:
+    aspect: perfective
+    tense: past
+  expected: diwa
+- features:
+    aspect: perfective
+    tense: present
+  expected: di-wa-ca
+- features:
+    tense: present
+  expected: di-le-ca
+---
+lemma: dile 'to go
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: didu
+- features:
+    verb_form: infinitive
+  expected: dile
+---
+lemma: kebe 'to send
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ke
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: kedu
+- features:
+    verb_form: infinitive
+  expected: kebe
+---
+lemma: kele 'to give birth
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: kedu
+- features:
+    verb_form: infinitive
+  expected: kele
+---
+lemma: pha
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: phayo
+- features:
+    mood: subjunctive
+  expected: phadu
+- features:
+    verb_form: converb
+  expected: phapi
+- features:
+    verb_form: infinitive
+  expected: phale
+- features:
+    verb_form: participle
+  expected: phawa
+---
+lemma: yek
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: yekt
+- features:
+    mood: subjunctive
+  expected: yektu
+- features:
+    verb_form: converb
+  expected: yekpi
+- features:
+    verb_form: infinitive
+  expected: yekpe
+- features:
+    verb_form: participle
+  expected: yekpa

@@ -1,0 +1,79 @@
+lemma: arkadita
+category: pronouns
+cases:
+- features:
+    case: genitive
+  expected: arkadita
+---
+lemma: kadita
+category: pronouns
+cases:
+- features:
+    case: genitive
+  expected: kadita
+- features:
+    case: oblique
+  expected: kada
+---
+lemma: nakul
+category: pronouns
+cases:
+- features:
+    case: allative
+  expected: nakultuwur
+- features:
+    case: elative
+  expected: nakultuyunu
+- features:
+    case: genitive
+  expected: nakulla
+- features:
+    case: nominative
+  expected: nakul
+- features:
+    case: oblique
+  expected: nakultu
+---
+lemma: nida
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: amp da
+- features:
+    gender: masculine
+    number: singular
+  expected: nida
+---
+lemma: nulikid
+category: pronouns
+cases:
+- features:
+    case: genitive
+  expected: mdikida
+- features:
+    case: nominative
+  expected: nulikid
+- features:
+    case: oblique
+  expected: nullikiri
+---
+lemma: nulu
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: adulu
+- features:
+    gender: masculine
+    number: singular
+  expected: nulu
+---
+lemma: yilujiki
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: yilujiki

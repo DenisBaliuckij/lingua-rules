@@ -1,0 +1,146 @@
+lemma: ae
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: aika
+- features:
+    number: plural
+    person: second
+  expected: akana
+- features:
+    number: plural
+    person: third
+  expected: ake
+- features:
+    number: singular
+    person: first
+  expected: ae
+- features:
+    number: singular
+    person: second
+  expected: ane
+- features:
+    number: singular
+    person: third
+  expected: are
+---
+lemma: au
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ara
+- features:
+    number: plural
+    person: second
+  expected: amii
+- features:
+    number: plural
+    person: third
+  expected: aia
+- features:
+    number: singular
+    person: first
+  expected: au
+- features:
+    number: singular
+    person: second
+  expected: am
+- features:
+    number: singular
+    person: third
+  expected: ana
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ti
+- features:
+    number: plural
+    person: second
+  expected: kam
+- features:
+    number: plural
+    person: third
+  expected: a
+- features:
+    number: singular
+    person: first
+  expected: i
+- features:
+    number: singular
+    person: second
+  expected: ko
+- features:
+    number: singular
+    person: third
+  expected: e
+---
+lemma: naakai
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: naakai
+---
+lemma: neiei
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: neiei
+---
+lemma: ngai
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ngaira
+- features:
+    number: plural
+    person: second
+  expected: ngkamii
+- features:
+    number: plural
+    person: third
+  expected: ngaiia
+- features:
+    number: singular
+    person: first
+  expected: ngai
+- features:
+    number: singular
+    person: second
+  expected: ngkoe
+- features:
+    number: singular
+    person: third
+  expected: ngaia
+---
+lemma: teuaaei
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    gender: masculine
+    number: singular
+  expected: teuaaei
+---
+lemma: uaakai
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    gender: masculine
+    number: plural
+  expected: uaakai

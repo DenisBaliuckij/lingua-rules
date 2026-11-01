@@ -1,0 +1,433 @@
+lemma: a kap-In
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kapt-an
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kapt-it
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kapt-allt
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kapt-un
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kapta-ay
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kapla
+- features:
+    aspect: perfective
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: bi-kapt-en-it
+- features:
+    aspect: perfective
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: bi-kapt-en-un
+- features:
+    aspect: perfective
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: bi-kapt-en-ay
+- features:
+    aspect: perfective
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: bi-kapt-en
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kap-it
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kap
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kapt-at-an
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kapt-at-it
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kapt-at-ant
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kapt-at-un
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kapt-at-ay
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kapt-at
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: present
+  expected: kap-at-en
+- features:
+    mood: optative
+    number: plural
+    person: second
+    tense: present
+  expected: leap-at-it
+- features:
+    mood: optative
+    number: plural
+    person: third
+    tense: present
+  expected: kap-at-ant
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: present
+  expected: kap-at-un
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+  expected: leap-al-ay
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+  expected: kap-at
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: kap-an
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: kap-it
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: kap-ant
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: leap-in
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: kap-ay
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: kap-it
+---
+lemma: kap-In
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kapt-an
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kapt-it
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kapt-ant
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kapt-un
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kapt-ay
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kapt-@
+- features:
+    aspect: perfective
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+  expected: bi-kapt-en-an
+- features:
+    aspect: perfective
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: past
+  expected: bi-kapt-en-it
+- features:
+    aspect: perfective
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: bi-kapt-en-ant
+- features:
+    aspect: perfective
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: bi-kapt-en-un
+- features:
+    aspect: perfective
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: bi-kapt-en-ay
+- features:
+    aspect: perfective
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: bi-kapt-en-@
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: bi-kap-it
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bi-kap-@
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kaptag-at-an
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kap-an
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kaptag-at-it
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kap-it
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kaptag-at-ant
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kap-ant
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kaptag-at-un
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kap-In
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kaptag-at-ay
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kap-ay
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kaptag-at-@
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kap-ft
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: present
+  expected: bi-kap-iit-an
+- features:
+    mood: optative
+    number: plural
+    person: second
+    tense: present
+  expected: bi-kap-iit-it
+- features:
+    mood: optative
+    number: plural
+    person: third
+    tense: present
+  expected: bi-kap-iit-ant
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: present
+  expected: bi-kap-iit-un
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+  expected: bi-kap-iit-ay
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+  expected: bi-kap-iit-@
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: hi-kap-an
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: bi-kap-it
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: bi-kap-ant
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: bi-kap-In
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: bi-kap-ay
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: bi-kap-It

@@ -1,0 +1,65 @@
+lemma: bau
+category: articles
+cases:
+- features:
+    noun_class: class_1
+    number: plural
+  expected: bau
+- features:
+    noun_class: class_2
+    number: plural
+  expected: bau
+- features:
+    number: plural
+  expected: bau
+---
+lemma: e
+category: articles
+cases:
+- features:
+    noun_class: class_2
+    number: singular
+  expected: nau
+- features:
+    number: singular
+  expected: e
+---
+lemma: mena
+category: articles
+cases:
+- features:
+    number: dual
+  expected: mena
+- features:
+    number: plural
+  expected: mamena
+---
+lemma: pei
+category: articles
+cases:
+- features:
+    number: singular
+  expected: pei
+---
+lemma: si
+category: articles
+cases:
+- features:
+    noun_class: class_1
+    number: plural
+  expected: ani
+- features:
+    noun_class: class_1
+    number: singular
+  expected: si
+- features:
+    noun_class: class_2
+    number: plural
+  expected: ani
+- features:
+    noun_class: class_2
+    number: singular
+  expected: sau
+- features:
+    number: plural
+  expected: ani

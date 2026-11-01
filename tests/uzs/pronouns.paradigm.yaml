@@ -1,0 +1,319 @@
+lemma: men
+category: pronouns
+cases:
+- features:
+    case: genitive
+  expected: mening
+---
+lemma: sen
+category: pronouns
+cases:
+- features:
+    case: genitive
+  expected: sening
+---
+lemma: биз
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: биздан
+- features:
+    case: accusative
+  expected: бизни
+- features:
+    case: dative
+  expected: бизга
+- features:
+    case: genitive
+  expected: бизнинг
+- features:
+    case: locative
+  expected: бизда
+- features:
+    case: nominative
+  expected: биз
+---
+lemma: бу
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: бундан
+- features:
+    case: accusative
+    number: singular
+  expected: буни
+- features:
+    case: dative
+    number: singular
+  expected: бунга
+- features:
+    case: genitive
+    number: singular
+  expected: бунинг
+- features:
+    case: locative
+    number: singular
+  expected: бунда
+- features:
+    case: nominative
+    number: singular
+  expected: бу
+---
+lemma: ким
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: кимдан
+- features:
+    case: accusative
+  expected: кимни
+- features:
+    case: dative
+  expected: кимга
+- features:
+    case: genitive
+  expected: кимнинг
+- features:
+    case: locative
+  expected: кимда
+---
+lemma: мен
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: мендан
+- features:
+    case: accusative
+  expected: мени
+- features:
+    case: dative
+  expected: менга
+- features:
+    case: genitive
+  expected: менинг
+- features:
+    case: locative
+  expected: менда
+- features:
+    case: nominative
+  expected: мен
+---
+lemma: нима
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: нимадан
+- features:
+    case: accusative
+  expected: нимани
+- features:
+    case: dative
+  expected: нимага
+- features:
+    case: genitive
+  expected: ниманинг
+- features:
+    case: locative
+  expected: нимада
+---
+lemma: сен
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: сендан
+- features:
+    case: accusative
+  expected: сени
+- features:
+    case: dative
+  expected: сет а
+- features:
+    case: genitive
+  expected: сенинг
+- features:
+    case: locative
+  expected: сенда
+- features:
+    case: nominative
+  expected: сен
+---
+lemma: сиз
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: сиздан
+- features:
+    case: accusative
+  expected: сизни
+- features:
+    case: dative
+  expected: сизга
+- features:
+    case: genitive
+  expected: сизнинг
+- features:
+    case: locative
+  expected: сизда
+- features:
+    case: nominative
+  expected: сиз
+---
+lemma: у
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: ундан
+- features:
+    case: ablative
+    number: singular
+  expected: ундан
+- features:
+    case: accusative
+  expected: уни
+- features:
+    case: accusative
+    number: singular
+  expected: уни
+- features:
+    case: dative
+  expected: ута
+- features:
+    case: dative
+    number: singular
+  expected: унга
+- features:
+    case: genitive
+  expected: унинг
+- features:
+    case: genitive
+    number: singular
+  expected: унинг
+- features:
+    case: locative
+  expected: унда
+- features:
+    case: locative
+    number: singular
+  expected: унда
+- features:
+    case: nominative
+  expected: у
+- features:
+    case: nominative
+    number: singular
+  expected: у
+---
+lemma: узим
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: узимиз
+- features:
+    number: plural
+    person: second
+  expected: узингиз
+- features:
+    number: plural
+    person: third
+  expected: узлари
+- features:
+    number: singular
+    person: first
+  expected: узим
+- features:
+    number: singular
+    person: second
+  expected: уз инг
+- features:
+    number: singular
+    person: third
+  expected: узи
+---
+lemma: улар
+category: pronouns
+cases:
+- features:
+    case: ablative
+  expected: улардан
+- features:
+    case: accusative
+  expected: уларни
+- features:
+    case: dative
+  expected: уларга
+- features:
+    case: genitive
+  expected: уларнинг
+- features:
+    case: locative
+  expected: уларда
+- features:
+    case: nominative
+  expected: улар
+---
+lemma: уша
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: уш андан
+- features:
+    case: accusative
+    number: singular
+  expected: ушани
+- features:
+    case: dative
+    number: singular
+  expected: ушат а
+- features:
+    case: genitive
+    number: singular
+  expected: ушанинг
+- features:
+    case: locative
+    number: singular
+  expected: уш анда
+- features:
+    case: nominative
+    number: singular
+  expected: уша
+---
+lemma: шу
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: шундан
+- features:
+    case: accusative
+    number: singular
+  expected: шуни
+- features:
+    case: dative
+    number: singular
+  expected: шунга
+- features:
+    case: genitive
+    number: singular
+  expected: шунинг
+- features:
+    case: locative
+    number: singular
+  expected: шунда
+- features:
+    case: nominative
+    number: singular
+  expected: шу

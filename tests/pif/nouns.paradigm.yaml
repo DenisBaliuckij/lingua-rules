@@ -1,0 +1,122 @@
+lemma: adiaei
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: adisahsi
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: adirahsi
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: adiaei
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: adimw
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: adiae
+- features:
+    possessor_person: first
+  expected: adiaes
+- features:
+    possessor_person: second
+  expected: adimwa
+- features:
+    possessor_person: third
+  expected: adira
+---
+lemma: isahi
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: isahi
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: isahmw
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: isahn
+- features:
+    possessor_person: first
+  expected: isahs
+- features:
+    possessor_person: second
+  expected: isahmwa
+- features:
+    possessor_person: third
+  expected: isahra
+---
+lemma: moangaei
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: moangaesahsi
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: moangaerahsi
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: moangaei
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: moangae
+- features:
+    possessor_person: first
+  expected: moangaes
+- features:
+    possessor_person: third
+  expected: moangaera
+---
+lemma: ngenengeniaei
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ngenengeniaei
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ngenengenin
+- features:
+    possessor_person: first
+  expected: ngenengenis
+- features:
+    possessor_person: third
+  expected: ngenengenira
+---
+lemma: paehi
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: paehi
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: paeh
+- features:
+    possessor_person: first
+  expected: paehs
+- features:
+    possessor_person: second
+  expected: paehmwa
+- features:
+    possessor_person: third
+  expected: paehra

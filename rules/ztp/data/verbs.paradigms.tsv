@@ -1,0 +1,20 @@
+class	features	strip_front	prefix	strip	ending	source	note
+w_prefix	number=plural;person=first	0	nhw	0		doc 7364 p. 163	kíkê -> nhwkíkê
+w_prefix	number=singular;person=first	0	n	0		doc 7364 p. 163	kíkê -> nkíkê
+w_prefix	number=singular;person=third	0	w	0		doc 7364 p. 163	kíkê -> wkíkê
+otherwise_regular	number=plural;person=first	0	nhw	0		doc 7364 p. 163	kíndô -> nhwkíndô
+otherwise_regular	number=singular;person=first	0	n	0		doc 7364 p. 163	kíndô -> nkíndô
+otherwise_regular	number=singular;person=third	0		0		doc 7364 p. 163	kíndô -> kíndô
+no_tone_change	number=plural;person=first	0	ngw	0		doc 7364 p. 163	lènyîzh -> ngwlènyîzh
+no_tone_change	number=singular;person=first	0	nd	0		doc 7364 p. 163	lènyîzh -> ndlènyîzh
+no_tone_change	number=singular;person=third	0		0		doc 7364 p. 163	lènyîzh -> lènyîzh
+dyud_type	aspect=habitual;person=third	0	n	0	-é	doc 7364 p. 141	dyûd -> ndyûd-é
+dyud_type	person=third	0		0	é	doc 7364 p. 141	dyûd -> dyûdé
+class_b	aspect=habitual	0		2	ndyâ	doc 7364 p. 151	lâ -> ndyâ
+class_b	aspect=perfective;voice=active	0	ngw	0		doc 7364 p. 151	lâ -> ngwlâ
+class_b_2	aspect=habitual	0		3	yîth	doc 7364 p. 151	nîth -> nyîth
+class_b_2	aspect=perfective;voice=active	0		3	hwnîth	doc 7364 p. 151	nîth -> nhwnîth
+class_b_3	aspect=habitual	1	nty	0		doc 7364 p. 151	tìd -> ntyìd
+class_b_3	aspect=perfective;voice=active	0	nhw	0		doc 7364 p. 151	tìd -> nhwtìd
+yin_type	aspect=habitual;person=third	0	nd	0		doc 7364 p. 141	yîn -> ndyîn
+yin_type	person=third	0		2	ín	doc 7364 p. 141	yîn -> yín

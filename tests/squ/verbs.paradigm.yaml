@@ -1,0 +1,51 @@
+lemma: na^C'a'u-at
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: na^C'a'u-at-at
+- features:
+    number: plural
+    person: second
+  expected: na^S'a'u-at-aiap
+- features:
+    number: plural
+    person: third
+  expected: na^C'a'u-at-as-uit
+- features:
+    number: singular
+    person: first
+  expected: na^C'a'u-at-c
+- features:
+    number: singular
+    person: third
+  expected: na^C'a'u-at
+---
+lemma: s'a'u-at
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: na^S'a'u-at-as
+- features:
+    number: plural
+    person: second
+  expected: na^S'a'u-at-as
+- features:
+    number: plural
+    person: third
+  expected: s-CVy-at-c-as-uit
+- features:
+    number: singular
+    person: first
+  expected: ò-n^ò'a'u-at-umi
+- features:
+    number: singular
+    person: second
+  expected: na^S'a'u-at-as
+- features:
+    number: singular
+    person: third
+  expected: na^S'a'u-at-as
