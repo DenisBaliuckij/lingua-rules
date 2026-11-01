@@ -1,0 +1,143 @@
+lemma: псалъэ
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: present
+  expected: сыпсалъэмэ
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: present
+  expected: упсалъэмэ
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: present
+  expected: псалъэмэ
+---
+lemma: псэлъэн
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: future
+  expected: сыпсэлъэнумэ
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    tense: past
+  expected: сыпсэлъамэ
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: future
+  expected: упсэлъэнумэ
+- features:
+    mood: conditional
+    number: singular
+    person: second
+    tense: past
+  expected: упсэлъамэ
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: future
+  expected: псэлъэнумэ
+- features:
+    mood: conditional
+    number: singular
+    person: third
+    tense: past
+  expected: псэлъамэ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: сыпсэлъэнущ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: сыпсэлъащ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: сопсалъэ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: упсэлъэнущ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: упсэлъащ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: упсэлъэнщ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: псэлъэнущ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: псэлъащ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: мэпсалъэ
+---
+lemma: іуэ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: докІуэ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: фокІуэ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: сокІуэ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: уокІуэ

@@ -1,0 +1,19 @@
+lemma: e
+category: articles
+cases:
+- features:
+    number: plural
+  expected: ka
+- features:
+    number: singular
+  expected: e
+---
+lemma: ∅
+category: articles
+cases:
+- features:
+    number: plural
+  expected: kahO
+- features:
+    number: singular
+  expected: ∅

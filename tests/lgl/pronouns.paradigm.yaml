@@ -1,0 +1,48 @@
+lemma: gora
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: gora
+- features:
+    person: first
+  expected: golu
+---
+lemma: lau
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: mera
+- features:
+    number: plural
+    person: first
+  expected: ami
+- features:
+    number: singular
+    person: first
+  expected: lau
+- features:
+    person: first
+  expected: meulu
+---
+lemma: lia
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: daro
+- features:
+    number: plural
+    person: third
+  expected: gera
+- features:
+    number: singular
+    person: third
+  expected: lia
+- features:
+    person: third
+  expected: daulu

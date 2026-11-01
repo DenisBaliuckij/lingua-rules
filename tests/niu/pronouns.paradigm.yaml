@@ -1,0 +1,58 @@
+lemma: au
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    case: genitive
+    number: singular
+    person: third
+  expected: ana
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: laura
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: lautolu
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: ia
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: aku
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: au
+- features:
+    number: dual
+    person: first
+  expected: maua
+- features:
+    number: dual
+    person: second
+  expected: mua
+- features:
+    number: plural
+    person: first
+  expected: mautolu
+- features:
+    number: plural
+    person: second
+  expected: mutolu
+- features:
+    number: singular
+    person: first
+  expected: au
+- features:
+    number: singular
+    person: second
+  expected: koe

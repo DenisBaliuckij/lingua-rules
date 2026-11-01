@@ -1,0 +1,48 @@
+lemma: ena
+category: articles
+cases:
+- features:
+    number: plural
+  expected: ena
+---
+lemma: fei
+category: articles
+cases:
+- features:
+    animacy: inanimate
+    definiteness: definite
+    number: singular
+  expected: fei
+- features:
+    definiteness: definite
+    number: plural
+  expected: ei
+---
+lemma: feni
+category: articles
+cases:
+- features:
+    animacy: inanimate
+    number: singular
+  expected: feni
+---
+lemma: mei
+category: articles
+cases:
+- features:
+    animacy: animate
+    definiteness: definite
+    number: singular
+  expected: mei
+- features:
+    definiteness: definite
+    number: plural
+  expected: ei
+---
+lemma: meni
+category: articles
+cases:
+- features:
+    animacy: animate
+    number: singular
+  expected: meni

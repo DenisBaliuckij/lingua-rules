@@ -1,0 +1,128 @@
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: uru
+- features:
+    number: plural
+    person: third
+  expected: ip
+- features:
+    number: singular
+    person: third
+  expected: i
+- features:
+    person: third
+  expected: itë
+---
+lemma: nga
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: toru
+- features:
+    number: plural
+    person: first
+  expected: tarap
+- features:
+    number: singular
+    person: first
+  expected: nga
+- features:
+    person: first
+  expected: tatë
+---
+lemma: tang
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tatap
+- features:
+    number: singular
+    person: first
+  expected: tang
+- features:
+    person: first
+  expected: tatatë
+---
+lemma: tei
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: taru
+- features:
+    number: plural
+    person: second
+  expected: tap
+- features:
+    number: singular
+    person: second
+  expected: tei
+- features:
+    person: second
+  expected: tatë
+---
+lemma: to
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tëru
+- features:
+    number: plural
+    person: first
+  expected: tëp
+- features:
+    number: singular
+    person: first
+  expected: to
+- features:
+    person: first
+  expected: tëtë
+---
+lemma: të
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: talaru
+- features:
+    number: plural
+    person: third
+  expected: talap
+- features:
+    number: singular
+    person: third
+  expected: të
+- features:
+    person: third
+  expected: talarë
+---
+lemma: ö
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: aru
+- features:
+    number: plural
+    person: second
+  expected: ap
+- features:
+    number: singular
+    person: second
+  expected: ö
+- features:
+    person: second
+  expected: atë

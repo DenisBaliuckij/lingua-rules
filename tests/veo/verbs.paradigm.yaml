@@ -1,0 +1,30 @@
+lemma: we
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: pišwe
+- features:
+    number: dual
+    person: third
+  expected: tšišwe
+- features:
+    number: plural
+    person: second
+  expected: piwe
+- features:
+    number: plural
+    person: third
+  expected: tsiwe
+- features:
+    number: singular
+    person: second
+  expected: pwe
+- features:
+    number: singular
+    person: third
+  expected: tswe
+- features:
+    person: third
+  expected: tsamwe

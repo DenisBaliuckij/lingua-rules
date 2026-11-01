@@ -1,0 +1,31 @@
+lemma: ah
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ahixai
+- features:
+    number: singular
+    person: first
+  expected: ah
+- features:
+    number: singular
+    person: second
+  expected: eah
+---
+lemma: heaci
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: heaci
+- features:
+    number: singular
+    person: second
+  expected: hetlaci
+- features:
+    number: singular
+    person: third
+  expected: hecii

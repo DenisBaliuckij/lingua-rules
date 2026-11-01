@@ -1,0 +1,141 @@
+lemma: D
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: past
+  expected: Ag°SU
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: present
+  expected: ag
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    polarity: negative
+    tense: past
+  expected: ag'men’du
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: past
+  expected: äg'su
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: present
+  expected: agru
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: agran
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: past
+  expected: äg'si
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: agrt
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: ay'men’in
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: ay'sin
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: agin
+---
+lemma: K
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: past
+  expected: ag’sun
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: present
+  expected: agrun
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: past
+  expected: Agsum
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: present
+  expected: agrum
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+  expected: äg'san
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: gran
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: agrın
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+  expected: ag'sin
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: ägin
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+  expected: ag"sın
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: agin

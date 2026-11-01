@@ -1,0 +1,66 @@
+lemma: ah
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ah
+---
+lemma: cih
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: cih
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: i
+- features:
+    case: dative
+  expected: ina
+- features:
+    case: genitive
+  expected: ini
+- features:
+    definiteness: definite
+  expected: ibe
+- features:
+    number: plural
+  expected: iroh
+- features:
+    number: singular
+  expected: i
+---
+lemma: ka-kai
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: ka-kai
+---
+lemma: u
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: u
+- features:
+    case: dative
+  expected: una
+- features:
+    case: genitive
+  expected: uni
+- features:
+    definiteness: definite
+  expected: ube
+- features:
+    number: plural
+  expected: uroh
+- features:
+    number: singular
+  expected: u

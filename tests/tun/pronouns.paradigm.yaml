@@ -1,0 +1,35 @@
+lemma: i'ma
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: inima
+- features:
+    number: dual
+    person: second
+  expected: winima
+- features:
+    number: dual
+    person: third
+  expected: unima
+- features:
+    number: plural
+    person: first
+  expected: inima
+- features:
+    number: plural
+    person: second
+  expected: winima
+- features:
+    number: plural
+    person: third
+  expected: sarma
+- features:
+    number: singular
+    person: first
+  expected: ima
+- features:
+    number: singular
+    person: second
+  expected: ma

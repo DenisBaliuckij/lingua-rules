@@ -1,0 +1,66 @@
+lemma: müN
+category: verbs
+cases:
+- features:
+    number: dual
+  expected: nə̀k
+- features:
+    number: plural
+    person: first
+  expected: mə̀y
+- features:
+    number: plural
+    person: second
+  expected: nə̀k
+- features:
+    number: plural
+    person: third
+  expected: tàw
+- features:
+    number: singular
+    person: first
+  expected: mǖng
+- features:
+    number: singular
+    person: second
+  expected: mǜn
+- features:
+    number: singular
+    person: third
+  expected: mǜn
+---
+lemma: thé
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: yə̀hə́ʔ
+- features:
+    number: dual
+    person: third
+  expected: ə̀yə̀
+- features:
+    number: plural
+    person: first
+  expected: yə̀ʔ
+- features:
+    number: plural
+    person: second
+  expected: chə̀yə̀ʔ
+- features:
+    number: plural
+    person: third
+  expected: yə̀
+- features:
+    number: singular
+    person: first
+  expected: yəʔə̄
+- features:
+    number: singular
+    person: second
+  expected: cə̀yə̄
+- features:
+    number: singular
+    person: third
+  expected: yə̀

@@ -1,0 +1,47 @@
+lemma: ia
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: lagua
+- features:
+    number: plural
+    person: third
+  expected: ro 'odu
+- features:
+    number: singular
+    person: third
+  expected: ia
+---
+lemma: yau
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: agua
+- features:
+    number: plural
+    person: first
+  expected: hai 'odu
+- features:
+    number: singular
+    person: first
+  expected: yau
+---
+lemma: yoi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: hamugua
+- features:
+    number: plural
+    person: second
+  expected: hamu 'odu
+- features:
+    number: singular
+    person: second
+  expected: yoi

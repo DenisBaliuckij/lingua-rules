@@ -1,0 +1,51 @@
+lemma: nu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: nunam
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: nurum
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: nurak
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: nuab
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: nulum
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: nuak
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: nun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: nulam

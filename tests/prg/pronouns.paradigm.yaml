@@ -1,0 +1,95 @@
+lemma: mais
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: maians
+- features:
+    case: accusative
+    number: singular
+  expected: maian
+- features:
+    case: dative
+    number: plural
+  expected: swaimans
+- features:
+    case: dative
+    number: singular
+  expected: mai`smu
+- features:
+    case: genitive
+    number: singular
+  expected: maisei
+- features:
+    case: nominative
+    number: singular
+  expected: mais
+---
+lemma: noûs
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: noûsons
+- features:
+    case: dative
+    number: singular
+  expected: noûsesmu
+- features:
+    case: genitive
+    number: plural
+  expected: noûson
+- features:
+    case: nominative
+    number: singular
+  expected: ioûs
+---
+lemma: swais
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: swaians
+- features:
+    case: accusative
+    number: singular
+  expected: swaian
+- features:
+    case: dative
+    number: plural
+  expected: swaimans
+- features:
+    case: dative
+    number: singular
+  expected: swaiasmu
+- features:
+    case: genitive
+    number: singular
+  expected: swaisei
+- features:
+    case: nominative
+    number: singular
+  expected: swais
+---
+lemma: twais
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: twaian
+- features:
+    case: dative
+    number: singular
+  expected: twaismu
+- features:
+    case: genitive
+    number: singular
+  expected: twaisei
+- features:
+    case: nominative
+    number: singular
+  expected: twais

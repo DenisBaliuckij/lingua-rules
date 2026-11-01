@@ -1,0 +1,111 @@
+lemma: ka
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kata
+- features:
+    number: plural
+    person: second
+  expected: kamiu
+- features:
+    number: plural
+    person: third
+  expected: kala
+- features:
+    number: singular
+    person: first
+  expected: kau
+- features:
+    number: singular
+    person: second
+  expected: ko-ma
+- features:
+    number: singular
+    person: third
+  expected: kana
+---
+lemma: kle
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kie-ta
+- features:
+    number: plural
+    person: second
+  expected: kia-miu
+- features:
+    number: plural
+    person: third
+  expected: kie-la
+- features:
+    number: singular
+    person: first
+  expected: kia-u
+- features:
+    number: singular
+    person: second
+  expected: kio-ma
+- features:
+    number: singular
+    person: third
+  expected: kie-na
+---
+lemma: ma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mata
+- features:
+    number: plural
+    person: second
+  expected: mamiu
+- features:
+    number: plural
+    person: third
+  expected: mala
+- features:
+    number: singular
+    person: first
+  expected: mau
+- features:
+    number: singular
+    person: second
+  expected: moma
+- features:
+    number: singular
+    person: third
+  expected: mana
+---
+lemma: sa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: sata
+- features:
+    number: plural
+    person: second
+  expected: samiu
+- features:
+    number: plural
+    person: third
+  expected: sala
+- features:
+    number: singular
+    person: first
+  expected: sau
+- features:
+    number: singular
+    person: second
+  expected: so-ma
+- features:
+    number: singular
+    person: third
+  expected: sana
