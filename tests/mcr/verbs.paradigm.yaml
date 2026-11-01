@@ -1,0 +1,487 @@
+lemma: l`
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: third
+  expected: l`
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+  expected: l`
+- features:
+    number: dual
+    person: first
+  expected: ldpd
+- features:
+    number: dual
+    person: second
+  expected: l`xpd
+- features:
+    number: dual
+    person: third
+  expected: l`
+- features:
+    number: plural
+    person: first
+  expected: ldpd
+- features:
+    number: plural
+    person: second
+  expected: l`opd
+- features:
+    number: plural
+    person: third
+  expected: l`
+- features:
+    number: singular
+    person: first
+  expected: l`lpd
+- features:
+    number: singular
+    person: second
+  expected: l`spd
+- features:
+    number: singular
+    person: third
+  expected: ldspd
+---
+lemma: ma
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ìl`jtdd
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: ìldptd
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: ìl`jhxh
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: ìldphmx
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ìl`j«ptd
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ìldpt
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ìl`jtvh
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ìldp
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ìl`j«pd
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ìldp
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ìldm
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ìl`j«pd
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ìldph
+- features:
+    aspect: perfective
+    number: dual
+    person: first
+  expected: ldptdÌd
+- features:
+    aspect: perfective
+    number: dual
+    person: second
+  expected: ldphÌxh
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+  expected: ldÌptd
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: ldptÌvh
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: ldÌpd
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: ldÌpd
+- features:
+    number: dual
+    person: first
+  expected: ìld
+- features:
+    number: dual
+    person: second
+  expected: (Ìl`mx
+- features:
+    number: plural
+    person: first
+  expected: ìldm
+- features:
+    number: plural
+    person: third
+  expected: (Ìl`ot
+- features:
+    number: singular
+    person: first
+  expected: ìl`l
+- features:
+    number: singular
+    person: second
+  expected: ìl`
+- features:
+    number: singular
+    person: third
+  expected: ìld
+---
+lemma: s
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: s`xh
+- features:
+    number: dual
+    person: second
+  expected: rhxh
+- features:
+    number: dual
+    person: third
+  expected: rhxh
+- features:
+    number: plural
+    person: first
+  expected: s`mh
+- features:
+    number: plural
+    person: second
+  expected: sohxh
+- features:
+    number: plural
+    person: third
+  expected: sohxh
+- features:
+    number: singular
+    person: first
+  expected: slh
+- features:
+    number: singular
+    person: third
+  expected: s«pd
+---
+lemma: t
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: ìsjtdd
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: ìsptd
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: ìsjhxh
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: ìsphmx
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ìsj«ptd
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ìspt
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ìsjtvh
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ìsp
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ìsj«pd
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ìsp
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ìsm
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ìsj«pd
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ìsph
+- features:
+    aspect: perfective
+    number: dual
+    person: first
+  expected: sptdÌd
+- features:
+    aspect: perfective
+    number: dual
+    person: second
+  expected: sphÌxh
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+  expected: ìsptd
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: sptÌvh
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: ìspd
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: ìspd
+- features:
+    number: dual
+    person: first
+  expected: sdmx
+- features:
+    number: dual
+    person: second
+  expected: rhmx
+- features:
+    number: plural
+    person: first
+  expected: s`m
+- features:
+    number: plural
+    person: third
+  expected: som
+- features:
+    number: singular
+    person: first
+  expected: sl
+- features:
+    number: singular
+    person: second
+  expected: sm
+- features:
+    number: singular
+    person: third
+  expected: s«m
+---
+lemma: v
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: vdmxtdd
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: vhmxhxh
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: v
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: v`mhptd
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: tomtvh
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: v
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tlmhpd
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: tsm
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: v«mhpd
+- features:
+    number: dual
+    person: first
+  expected: v`
+- features:
+    number: dual
+    person: second
+  expected: vhmx
+- features:
+    number: dual
+    person: third
+  expected: vhmx
+- features:
+    number: plural
+    person: first
+  expected: v`m
+- features:
+    number: plural
+    person: second
+  expected: tot
+- features:
+    number: plural
+    person: third
+  expected: tot
+- features:
+    number: singular
+    person: first
+  expected: tl
+- features:
+    number: singular
+    person: second
+  expected: t
+- features:
+    number: singular
+    person: third
+  expected: v

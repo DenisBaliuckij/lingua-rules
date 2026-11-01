@@ -1,0 +1,166 @@
+lemma: buma
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: bumali
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: bumay
+---
+lemma: dha-li
+category: verbs
+cases:
+- features:
+    case: ablative
+  expected: dha-li
+- features:
+    case: accusative
+  expected: dha-li
+- features:
+    case: comitative
+  expected: dha-li
+- features:
+    case: dative
+  expected: dha-li
+- features:
+    case: ergative
+  expected: dha-li
+- features:
+    case: locative
+  expected: dha-li
+- features:
+    case: nominative
+  expected: dha-li
+- features:
+    mood: imperative
+  expected: dha-lda-ya
+- features:
+    mood: subjunctive
+  expected: dha-lda-ndaay
+- features:
+    tense: future
+  expected: dha-lda-y
+- features:
+    tense: past
+  expected: dha-lda-nhi
+- features:
+    tense: present
+  expected: dha-lda-nha
+---
+lemma: dur
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+    voice: active
+  expected: duni
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: duna
+- features:
+    tense: future
+    voice: active
+  expected: duri
+---
+lemma: gaa-gi
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: gaa-gi.la-ya
+- features:
+    mood: subjunctive
+  expected: gaa-gi.la-ndaay
+- features:
+    tense: future
+  expected: gaa-gi.la-y
+- features:
+    tense: past
+  expected: gaa-gi.la-nhi
+- features:
+    tense: present
+  expected: gaa-gi.la-nha
+---
+lemma: wu:r
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+    voice: active
+  expected: wu:ni
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: wu:na
+- features:
+    tense: future
+    voice: active
+  expected: wu:ri
+---
+lemma: wuu-rri
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: wuu-dha-ya
+- features:
+    mood: subjunctive
+  expected: wuu-dha-ndaay
+- features:
+    tense: future
+  expected: wuu-dha-y
+- features:
+    tense: past
+  expected: wuu-dha-nhi
+- features:
+    tense: present
+  expected: wuu-dha-nha
+---
+lemma: yana-y
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: yana-y.la-ya
+- features:
+    mood: subjunctive
+  expected: yana-y.la-ndaay
+- features:
+    tense: future
+  expected: yana-y.la-y
+- features:
+    tense: past
+  expected: yana-y.la-nhi
+- features:
+    tense: present
+  expected: yana-y.la-nha
+---
+lemma: šilayr
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+    voice: active
+  expected: šilayši
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: šilayna
+- features:
+    tense: future
+    voice: active
+  expected: šilayri

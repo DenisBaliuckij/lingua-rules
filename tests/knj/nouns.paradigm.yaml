@@ -1,0 +1,31 @@
+lemma: sat
+category: nouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: jesat
+- features:
+    number: singular
+    person: first
+  expected: kusat
+---
+lemma: si
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kusi
+- features:
+    number: singular
+    person: first
+  expected: jinsi’an
+- features:
+    number: singular
+    person: second
+  expected: jasi
+- features:
+    number: singular
+    person: third
+  expected: ssi

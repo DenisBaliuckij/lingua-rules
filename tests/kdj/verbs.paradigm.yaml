@@ -1,0 +1,453 @@
+lemma: a-raakau
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: i-ki-rai
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: i-ki-rai
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: i-rai
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: i-rai
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: a-rai
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: è-rai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: a-rai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: a-rai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: è-rai
+---
+lemma: a-yakau
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: i-ki-ya
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: i-ki-ya
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: i-ya
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: i-ya
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: a-yai
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: a-yai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: i-yai
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: i-yai
+---
+lemma: bàp
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kibàp
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kibàp
+---
+lemma: duk
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ki-duk-i
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: i-duk-ete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: a-duk-ete
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: a-duk-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: i-duk-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: a-duk-i
+---
+lemma: iep
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tô-Iep
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tô-Iep
+---
+lemma: kèr
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tô-kèr-a
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tôkèr
+---
+lemma: lèm
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ki-Ièm-i
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: i-Ièm-ete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: è-Ièm-ete
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: a-Ièm-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: i-Ièm-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: è-Ièm-i
+---
+lemma: màt
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: a-too-màt-a
+- features:
+    number: plural
+    person: second
+  expected: to-mat-a
+- features:
+    number: plural
+    person: third
+  expected: tô-mat-a
+- features:
+    number: singular
+    person: first
+  expected: a-tôo-màt
+- features:
+    number: singular
+    person: second
+  expected: tomàt
+- features:
+    number: singular
+    person: third
+  expected: tomàt
+---
+lemma: mùj
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: èè-mùj-a
+- features:
+    number: plural
+    person: second
+  expected: ld-mùj-a
+- features:
+    number: plural
+    person: third
+  expected: ld-mùj-a
+- features:
+    number: singular
+    person: first
+  expected: èèmùj
+- features:
+    number: singular
+    person: second
+  expected: kimùj
+- features:
+    number: singular
+    person: third
+  expected: kimùj
+---
+lemma: nyam
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kinyam
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: i-nyam-a
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: a-nyam-a
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: anyam
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: inyam
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: anyam
+---
+lemma: pim
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ki-pim-i
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: i-pim-ete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: è-pim-ete
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: è-pim-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: i-pim-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: è-pim-i
+---
+lemma: tèm
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kitèm
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kitèm
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kitèm
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ki-tèm-i
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: i-tèm-a
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: i-tèm-ete
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: è-tèm-a
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: i-tèm-ete
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ètèm
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: è-tèm-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: itèm
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: i-tèm-i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ètèm
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: i-tèm-i

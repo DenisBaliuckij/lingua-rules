@@ -1,0 +1,285 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ar ]
+- features:
+    number: dual
+    person: second
+  expected: amwar
+- features:
+    number: dual
+    person: third
+  expected: ũrõr
+- features:
+    number: plural
+    person: first
+  expected: añ
+- features:
+    number: plural
+    person: second
+  expected: amwa
+- features:
+    number: plural
+    person: third
+  expected: re ro
+- features:
+    number: singular
+    person: first
+  expected: a
+- features:
+    number: singular
+    person: second
+  expected: wo
+- features:
+    number: singular
+    person: third
+  expected: e
+- features:
+    person: first
+  expected: eij eiy
+- features:
+    person: second
+  expected: amwei
+- features:
+    person: third
+  expected: arei
+---
+lemma: ama
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ama
+---
+lemma: amunuwe
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: etunuwe
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: amunuwe
+- features:
+    number: singular
+    person: second
+  expected: unuwe
+---
+lemma: amwa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: amwa
+---
+lemma: amwar
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: amwar
+---
+lemma: amwei
+category: pronouns
+cases:
+- features:
+    person: second
+  expected: amwei
+---
+lemma: ar
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ar ]
+---
+lemma: arei
+category: pronouns
+cases:
+- features:
+    person: third
+  expected: arei
+---
+lemma: añ
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: añ
+---
+lemma: bune
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    definiteness: definite
+    number: plural
+  expected: bune
+---
+lemma: e
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: e
+---
+lemma: ea
+category: pronouns
+cases:
+- features:
+    evidentiality: direct
+    number: dual
+    person: first
+  expected: eamar
+- features:
+    evidentiality: direct
+    person: first
+  expected: eamei
+- features:
+    evidentiality: indirect
+    number: dual
+    person: first
+  expected: eadar
+- features:
+    evidentiality: indirect
+    person: first
+  expected: eadei
+- features:
+    number: dual
+    person: second
+  expected: eamũrõr
+- features:
+    number: dual
+    person: third
+  expected: earõr
+- features:
+    number: plural
+    person: first
+  expected: eama
+- features:
+    number: plural
+    person: second
+  expected: eamiã
+- features:
+    number: plural
+    person: third
+  expected: eara
+- features:
+    number: singular
+    person: first
+  expected: ea
+- features:
+    number: singular
+    person: second
+  expected: eam
+- features:
+    number: singular
+    person: third
+  expected: ean
+- features:
+    person: second
+  expected: eamiei
+- features:
+    person: third
+  expected: earei
+---
+lemma: eij
+category: pronouns
+cases:
+- features:
+    person: first
+  expected: eij eiy
+---
+lemma: eitune
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    gender: feminine
+    number: singular
+  expected: eitune
+---
+lemma: mar
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: mar
+---
+lemma: mei
+category: pronouns
+cases:
+- features:
+    person: first
+  expected: mei
+---
+lemma: re
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: re ro
+---
+lemma: wanga
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: warar
+- features:
+    number: dual
+    person: second
+  expected: wamuror
+- features:
+    number: dual
+    person: third
+  expected: wongaror
+- features:
+    number: plural
+    person: first
+  expected: wama
+- features:
+    number: plural
+    person: second
+  expected: wamie
+- features:
+    number: plural
+    person: third
+  expected: wangara
+- features:
+    number: singular
+    person: first
+  expected: wanga
+- features:
+    person: first
+  expected: wareiy
+- features:
+    person: second
+  expected: wamieiy
+- features:
+    person: third
+  expected: wangareiy
+---
+lemma: wo
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: wo

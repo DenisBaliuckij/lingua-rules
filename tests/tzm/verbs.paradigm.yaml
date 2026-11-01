@@ -1,0 +1,902 @@
+lemma: amz
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: tumnt
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: umznt
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: tumz
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: tumzm
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: umzn
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: yum
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: numz
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: umzy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: tumzd
+---
+lemma: awd
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+    polarity: affirmative
+  expected: aw
+- features:
+    mood: imperative
+    number: dual
+    person: second
+    polarity: negative
+  expected: adurt:awdnt
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: awdm
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: adurt:awdm
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: awd
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: adurt:awd
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: i:at:awdrri
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: ultitoawri
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: i:ant:awdn
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: ui:int:awdn
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: iat:awlx
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: ui:it:awdx
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: ui:int:awd
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: iayt
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: ui:iyt:at
+---
+lemma: awn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: adiqawn
+- features:
+    mood: indicative
+    tense: future
+  expected: id:adiqawn
+---
+lemma: bda
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: adbdant
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: bdant
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: atobda
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: tbda
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: adbdan
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: bdan
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: adibda
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ibda
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: an:bda
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: nbda
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: at:bdam
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: tbdam
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: adbdix
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: bdix
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: at:bdit
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: tbdit
+---
+lemma: bry
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: an:bry
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: nbry
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: negative
+    tense: future
+  expected: urnbr
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: negative
+    tense: past
+  expected: urnbriy
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: atobrim
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: tbrirn
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: negative
+    tense: future
+  expected: urtbr:im
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: negative
+    tense: past
+  expected: urtbrim
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: adbrin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: brin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: future
+  expected: urbr:in
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: urbriyn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: adbrix
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: brix
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: urbr:ix
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: urbrix
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: et:brit
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: tbrit
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: future
+  expected: urtbr:it
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: urtbrit
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: adibriy
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ibry
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: future
+  expected: uribr:y
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: uribriy
+---
+lemma: dawa
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: tdawant
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: dawant
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: tdawa
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: tdawam
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: dawan
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: idawa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: ndawa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: daway
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: tdawad
+---
+lemma: f:r
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: tf:r
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: f:ry
+---
+lemma: frh
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: tfrhnt
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: frhnt
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: tfrh
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: tfrhm
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: frhin
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ifrh
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: nfrh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: frhy
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: tfrhd
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: mi
+- features:
+    person: second
+    polarity: affirmative
+  expected: at
+- features:
+    person: third
+    polarity: affirmative
+  expected: ad
+---
+lemma: fs:r
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: tfs:r
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: fs:ry
+---
+lemma: hadr
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: thadr
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: hadry
+---
+lemma: mqawan
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: first
+  expected: mqawanntay
+- features:
+    gender: masculine
+    number: plural
+    person: first
+  expected: mqawanatay
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: mqawanay
+---
+lemma: qawn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: past
+  expected: isqawn
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: urasdicawn
+- features:
+    polarity: affirmative
+    tense: past
+  expected: isimawn
+- features:
+    polarity: negative
+    tense: past
+  expected: isurivawn
+---
+lemma: s
+category: verbs
+cases:
+- features:
+    mood: indicative
+    polarity: negative
+    tense: future
+  expected: urit
+- features:
+    mood: indicative
+    tense: future
+  expected: id:aciimsqawan
+---
+lemma: sal
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: tsal
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: saly
+---
+lemma: svawan
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: daysq'awan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: urdaysqawan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: dadismawan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: urdaciisvawan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: casdisqawan
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: urdasciisqawan
+---
+lemma: t:m'%awan
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: dayt:mq
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: urdayt:mvawan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: dadiot:mmawan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: urdadit:mqawan
+---
+lemma: t:qawan
+category: verbs
+cases:
+- features:
+    mood: indicative
+    polarity: affirmative
+    tense: future
+  expected: ladissqawn
+- features:
+    mood: indicative
+    polarity: negative
+    tense: future
+  expected: urdisq'awan
+- features:
+    mood: indicative
+    tense: future
+  expected: icd:acisqawr
+---
+lemma: t:u'awan
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: dayt:uqawan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: urdayt:uqawan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: isdasdit:uqawan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: isurdasdit:uqawan
+---
+lemma: xtar
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: txtar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: xtary

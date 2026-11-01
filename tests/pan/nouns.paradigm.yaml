@@ -1,0 +1,51 @@
+lemma: kuri
+category: nouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: kurig
+- features:
+    case: nominative
+    number: singular
+  expected: kuri
+- features:
+    case: oblique
+    number: plural
+  expected: kurig
+- features:
+    case: oblique
+    number: singular
+  expected: kuri
+---
+lemma: munda
+category: nouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: monde
+- features:
+    case: oblique
+    number: singular
+  expected: monde
+---
+lemma: tObi
+category: nouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: tObi
+- features:
+    case: nominative
+    number: singular
+  expected: tObi
+- features:
+    case: oblique
+    number: plural
+  expected: tbbirt
+- features:
+    case: oblique
+    number: singular
+  expected: tObi

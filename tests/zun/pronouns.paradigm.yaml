@@ -1,0 +1,179 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: third
+  expected: aS
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: awan
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: an
+- features:
+    number: plural
+    person: third
+    possessor_number: plural
+    possessor_person: third
+  expected: •Vwan
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: a'ni
+---
+lemma: ho
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: horn
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: hon
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: hon
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: hoVa'wan
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: homma
+---
+lemma: ho^
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ho'na
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ho'na
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: horn
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: ho nan
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: hona-wan
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: homan
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: ho'na
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: hd'na'wa
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: homa
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: hon
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: hon
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ho^
+---
+lemma: i horn
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: i horn
+---
+lemma: ltom
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: t.tou
+- features:
+    number: singular
+    person: first
+  expected: ltom
+- features:
+    number: singular
+    person: second
+  expected: dom
+---
+lemma: to
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: to?na?
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: torn
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: ton
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: ton
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: tomma

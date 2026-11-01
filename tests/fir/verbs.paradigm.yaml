@@ -1,0 +1,569 @@
+lemma: brûke
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: brûkten
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: brûke
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: brûkten
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: brûke
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: brûkten
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: brûke
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: brûkte
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: brûk
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: brûktest
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: brûkst
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: brûkte
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: brûkt
+---
+lemma: fleane
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: fleagen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: fleane
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: fleagen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: fleane
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: fleagen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: fleane
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: fleach
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: fleachst
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: fleach
+---
+lemma: harkje
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: harken
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: harkje
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: harken
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: harkje
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: harken
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: harkje
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: harke
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: harkje
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: harkest
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: harkest
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: harke
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: harket
+---
+lemma: hearre
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: hearden
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: hearre
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: hearden
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: hearre
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: hearden
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: hearre
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: hearde
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: hear
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: heardest
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: hearst
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: hearde
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: heart
+---
+lemma: kinne
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: koene
+- features:
+    number: plural
+    person: first
+  expected: kinne
+- features:
+    number: singular
+  expected: koest
+- features:
+    number: singular
+    person: first
+  expected: kin
+- features:
+    number: singular
+    person: second
+  expected: kinst
+- features:
+    number: singular
+    person: third
+  expected: kin
+---
+lemma: komme
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: komme
+- features:
+    number: singular
+    person: first
+  expected: kom
+- features:
+    number: singular
+    person: second
+  expected: komst
+- features:
+    number: singular
+    person: third
+  expected: komt
+---
+lemma: lizze
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: lei
+- features:
+    number: singular
+    person: second
+  expected: leine
+---
+lemma: moatte
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: moatte
+- features:
+    number: singular
+    person: first
+  expected: moat
+- features:
+    number: singular
+    person: second
+  expected: moatst
+- features:
+    number: singular
+    person: third
+  expected: moat
+---
+lemma: rinne
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: rûnen
+- features:
+    number: plural
+    person: first
+  expected: rinne
+- features:
+    number: singular
+  expected: rûn
+- features:
+    number: singular
+    person: first
+  expected: rin
+- features:
+    number: singular
+    person: second
+  expected: rinst
+- features:
+    number: singular
+    person: third
+  expected: rint
+---
+lemma: sille
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: soene
+- features:
+    number: plural
+    person: first
+  expected: sille
+- features:
+    number: singular
+    person: first
+  expected: sil
+- features:
+    number: singular
+    person: second
+  expected: silst
+- features:
+    number: singular
+    person: third
+  expected: sil
+---
+lemma: sjen
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: seagen
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sjogge
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: seagen
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: sjogge
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: seagen
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: sjogge
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: sjoch
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sjochst
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: sjocht
+---
+lemma: stean
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: stiene
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: steane
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: stiene
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: steane
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: stiene
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: steane
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: stie
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: stean
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: stiest
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: stiest
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: stie
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: stiet
+---
+lemma: wolle
+category: verbs
+cases:
+- features:
+    number: plural
+  expected: woene
+- features:
+    number: plural
+    person: first
+  expected: wolle
+- features:
+    number: singular
+    person: first
+  expected: wol
+- features:
+    number: singular
+    person: second
+  expected: wolst
+- features:
+    number: singular
+    person: third
+  expected: wol

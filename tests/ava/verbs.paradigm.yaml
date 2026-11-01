@@ -1,0 +1,62 @@
+lemma: c’al-ize
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: c’al-ula
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: aorist
+  expected: c’al-ana
+- features:
+    mood: indicative
+    tense: future
+  expected: c’al-ila
+- features:
+    verb_form: infinitive
+  expected: c’al-ize
+---
+lemma: w-ač’-ine
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: w-ač’-una
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: aorist
+  expected: w-ač’-ana
+- features:
+    mood: indicative
+    tense: future
+  expected: w-ač’-ina
+- features:
+    verb_form: infinitive
+  expected: w-ač’-ine
+---
+lemma: ɬa-ze
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: ɬa-la
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: aorist
+  expected: ɬa-na
+- features:
+    mood: indicative
+    tense: future
+  expected: ɬa-la
+- features:
+    verb_form: infinitive
+  expected: ɬa-ze

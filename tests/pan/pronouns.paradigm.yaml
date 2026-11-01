@@ -1,0 +1,35 @@
+lemma: dar
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: ਜੇਰਿਆਂਲੂ
+- features:
+    case: instrumental
+    number: plural
+  expected: afania
+- features:
+    case: nominative
+    number: plural
+  expected: hA
+- features:
+    case: nominative
+    number: singular
+  expected: t
+---
+lemma: mere
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: mere
+---
+lemma: tera
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: tera

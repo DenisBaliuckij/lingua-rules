@@ -1,0 +1,367 @@
+lemma: ako
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: ko
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: akin
+- features:
+    case: genitive
+  expected: akin
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ko
+- features:
+    case: nominative
+  expected: ako
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ako
+- features:
+    number: singular
+    person: first
+  expected: ako
+---
+lemma: alin
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: sa alfn
+- features:
+    case: accusative
+    number: singular
+  expected: sa alfn
+- features:
+    case: dative
+    number: singular
+  expected: sa alfn
+- features:
+    case: genitive
+    number: singular
+  expected: sa alfn
+- features:
+    case: nominative
+    number: singular
+  expected: alfn
+---
+lemma: alinalin
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: sa alínalín
+- features:
+    case: accusative
+    number: plural
+  expected: sa alínalín
+- features:
+    case: dative
+    number: plural
+  expected: sa alínalín
+- features:
+    case: genitive
+    number: plural
+  expected: sa alínalín
+- features:
+    case: nominative
+    number: plural
+  expected: alínalín
+---
+lemma: ano
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: sa ano
+- features:
+    case: accusative
+    number: singular
+  expected: sa ano
+- features:
+    case: dative
+    number: singular
+  expected: sa ano
+- features:
+    case: genitive
+    number: singular
+  expected: saanó
+- features:
+    case: nominative
+    number: singular
+  expected: ano
+---
+lemma: ikaw
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: ka
+- features:
+    case: nominative
+  expected: ikaw
+- features:
+    number: plural
+    person: second
+  expected: kayo
+- features:
+    number: singular
+    person: second
+  expected: ikaw
+---
+lemma: ire
+category: pronouns
+cases:
+- features:
+    case: genitive
+  expected: nire
+- features:
+    case: locative
+  expected: dine
+- features:
+    case: nominative
+  expected: ire
+---
+lemma: ito
+category: pronouns
+cases:
+- features:
+    case: genitive
+  expected: nito
+- features:
+    case: locative
+  expected: dito
+- features:
+    case: nominative
+  expected: ito
+---
+lemma: itó
+category: pronouns
+cases:
+- features:
+    case: dative
+  expected: ditosa
+- features:
+    case: genitive
+  expected: dito sa
+- features:
+    case: nominative
+  expected: itó
+---
+lemma: iyan
+category: pronouns
+cases:
+- features:
+    case: genitive
+  expected: niyan
+- features:
+    case: locative
+  expected: diyan
+- features:
+    case: nominative
+  expected: iyan
+---
+lemma: iyon
+category: pronouns
+cases:
+- features:
+    case: genitive
+  expected: niyon
+- features:
+    case: locative
+  expected: doon
+- features:
+    case: nominative
+  expected: iyon
+---
+lemma: kami
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: amin
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: namin
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: kami
+- features:
+    number: plural
+    person: first
+  expected: kami
+---
+lemma: kata
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: nita
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: kanita
+- features:
+    case: genitive
+  expected: kanita
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: nita
+- features:
+    case: nominative
+  expected: kata
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: kata
+---
+lemma: kayo
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: inyo
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: ninyo
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: kayo
+---
+lemma: sila
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: kanila
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: nila
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: sila
+- features:
+    number: plural
+    person: third
+  expected: sila
+---
+lemma: sino
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: kanino
+- features:
+    case: accusative
+    number: singular
+  expected: kanino
+- features:
+    case: dative
+    number: singular
+  expected: kanino
+- features:
+    case: genitive
+    number: singular
+  expected: kanino
+- features:
+    case: nominative
+    number: singular
+  expected: sino
+---
+lemma: sinosino
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: kaníkanino
+- features:
+    case: accusative
+    number: plural
+  expected: kaníkanino
+- features:
+    case: dative
+    number: plural
+  expected: kaníkanino
+- features:
+    case: genitive
+    number: plural
+  expected: kaníkanino
+- features:
+    case: nominative
+    number: plural
+  expected: sinosino
+---
+lemma: siya
+category: pronouns
+cases:
+- features:
+    case: accusative
+  expected: niya
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: kaniya
+- features:
+    case: genitive
+  expected: kaniya
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: niya
+- features:
+    case: nominative
+  expected: siya
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: siya
+- features:
+    number: singular
+    person: third
+  expected: siya
+---
+lemma: tayo
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tayo

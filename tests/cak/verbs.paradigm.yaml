@@ -1,0 +1,762 @@
+lemma: aho
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tékaho
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: skaho
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tiuaho
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: aivaho
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: técaho
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: xeaho
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tivaho
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: aivaho
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tavaho
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: zauho
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tiraho
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: xraho
+---
+lemma: atin
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: x-ojatin
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: y-ixatin
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: x-e’atin
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: y-inatin
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: x-atatin
+---
+lemma: atm
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+    person: first
+  expected: yojatin
+- features:
+    aspect: imperfective
+    number: plural
+    person: second
+  expected: yixatin
+- features:
+    aspect: imperfective
+    number: plural
+    person: third
+  expected: ye’atin
+- features:
+    aspect: imperfective
+    number: singular
+    person: first
+  expected: yinatin
+- features:
+    aspect: imperfective
+    number: singular
+    person: second
+  expected: yatatin
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+  expected: natm
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+  expected: xojatin
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+  expected: xixatin
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: xe’atin
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: xmatm
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: xatatin
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: xatin
+---
+lemma: be
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: xohbe
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: aiabe
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: xebe
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: aibe
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: catbe
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: abe
+---
+lemma: etz'an
+category: verbs
+cases:
+- features:
+    mood: potential
+    number: plural
+    person: first
+    tense: future
+  expected: xkojetz’an
+- features:
+    mood: potential
+    number: plural
+    person: second
+    tense: future
+  expected: xkixetz’an
+- features:
+    mood: potential
+    number: plural
+    person: third
+    tense: future
+  expected: xke’etz’an
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: future
+  expected: xkinetz’an
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: future
+  expected: jtkatetz’an
+---
+lemma: kiq'i
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: yqjkiq’i
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: iixkiq’i
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yekiq’i
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: j^inkiq’i
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: iatkiq’i
+---
+lemma: kito
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+    person: first
+  expected: yojkito
+- features:
+    aspect: imperfective
+    number: plural
+    person: second
+  expected: yixkito
+- features:
+    aspect: imperfective
+    number: plural
+    person: third
+  expected: yekito
+- features:
+    aspect: imperfective
+    number: singular
+    person: first
+  expected: yinkito
+- features:
+    aspect: imperfective
+    number: singular
+    person: second
+  expected: yatkito
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+  expected: nkito
+---
+lemma: näq
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    voice: active
+  expected: oj-xojkinäq
+- features:
+    number: plural
+    person: second
+    voice: active
+  expected: ix-xixkinäq
+- features:
+    number: plural
+    person: third
+    voice: active
+  expected: in-xinkmäq
+- features:
+    number: singular
+    person: first
+    voice: active
+  expected: nu-xennaq
+- features:
+    number: singular
+    person: second
+    voice: active
+  expected: at-xatkinäq
+- features:
+    number: singular
+    person: third
+    voice: active
+  expected: ru-xeranäq
+---
+lemma: oír
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    polarity: negative
+  expected: m
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: m
+- features:
+    mood: imperative
+    number: plural
+    person: third
+    polarity: negative
+  expected: m
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    polarity: negative
+  expected: miu
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: mau
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: negative
+  expected: mar
+---
+lemma: pe
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: cohpe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kohpe
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: aiape
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: quixpe
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: wepe
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: quepe
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: wipe
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: quipe
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: wate
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: catpe
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: pe
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tipe
+---
+lemma: q'ax
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: j'ojq’ax
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: xixq’ax
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: seq’ax
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: jiq’ax
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: jaq’ax
+---
+lemma: qo
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: catqohe
+- features:
+    tense: future
+    verb_form: participle
+  expected: qoriel
+---
+lemma: quicot
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kohquicot
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: quixquicot
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: quiquicot
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: catquicot
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tiquicot
+---
+lemma: q’etej
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+  expected: xojkiq’etej
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: xekiq’etej
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: xatkiq’etej
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: xkiq’etej
+---
+lemma: ruk'ül
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: xojruk’ül
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: yixruk’ül
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: jieruk’ül
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: yiruk’ül
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: xaruk’ül
+---
+lemma: va
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: xohva
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: lILVA
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: weva
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: xiva
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: catva
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: ava
+---
+lemma: vah
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kohvah
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: quixvah
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: quevah
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: quivah
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: catvah
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tivah
+---
+lemma: wär
+category: verbs
+cases:
+- features:
+    mood: potential
+    number: plural
+    person: first
+    tense: future
+  expected: xk-oiwär
+- features:
+    mood: potential
+    number: plural
+    person: second
+    tense: future
+  expected: xk-ixwär
+- features:
+    mood: potential
+    number: plural
+    person: third
+    tense: future
+  expected: xk-ewär
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: future
+  expected: xk-iCnWär
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: future
+  expected: xk-awär
+---
+lemma: íl
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    voice: active
+  expected: q-xeqíl
+- features:
+    number: singular
+    person: first
+    voice: active
+  expected: w-xew'íl
+- features:
+    number: singular
+    person: second
+    voice: active
+  expected: aw-xe’awíl
+- features:
+    number: singular
+    person: third
+    voice: active
+  expected: r-xeril

@@ -1,0 +1,401 @@
+lemma: ayt
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: aytabız
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: aytmaybız
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: aytasız
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: aytmaysız
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: aytadıla
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: aytamaydıla
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: aytama
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: aytmayma
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: aytasa
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: aytmaysa
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: aytadı
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: aytmaydı
+---
+lemma: bil
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: billikbiz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: billiksiz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: billikdile
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: billikme
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: billikse
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: billikdi
+---
+lemma: caşa
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: caşarbız
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: caşamabız
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: caşarsız
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: caşamazsız
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: caşarla
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: caşamazla
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: caşarma
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: caşamam
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: caşarsa
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: caşamazsa
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: caşar
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: caşamaz
+---
+lemma: et
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: etüwçübüz
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: etmewçübüz
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: etüwçüsüz
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: etmewçüsüz
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: etüwçüdüle
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: etmewçüdüle
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: etüwçüme
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: etmewçüdü
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: etüwçüse
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: etmewçüse
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: etüwçüdü
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: etmewçüdü
+---
+lemma: kel
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: kelibbiz
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: kelibdile
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: kelibme
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: kelibdi
+---
+lemma: kör
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: kördük
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: körmedik
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: kördügüz
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: körmedigiz
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: kördüle
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: körmedile
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: kördüm
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: körmedim
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: kördüñ
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: körmediñ
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: kördü
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: körmedi
+---
+lemma: ḳaç
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: ḳaçayıḳ
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    polarity: negative
+  expected: ḳaçmayıḳ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: ḳaçıġız
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: ḳaçmaġız
+- features:
+    mood: imperative
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: ḳaçsınla
+- features:
+    mood: imperative
+    number: plural
+    person: third
+    polarity: negative
+  expected: ḳaçmasınla
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: ḳaçayım
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    polarity: negative
+  expected: ḳaçmayım
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: ḳaç
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: ḳaçma
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: ḳaçsın
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: negative
+  expected: ḳaçmasın

@@ -1,0 +1,85 @@
+lemma: bùs
+category: adjectives
+cases:
+- features:
+    number: plural
+    person: first
+  expected: iki-bùs-ak
+- features:
+    number: plural
+    person: second
+  expected: i-bùs-ak
+- features:
+    number: plural
+    person: third
+  expected: i-bùs-ak
+- features:
+    number: singular
+    person: first
+  expected: èbùs
+- features:
+    number: singular
+    person: second
+  expected: ibùs
+- features:
+    number: singular
+    person: third
+  expected: ibùs
+---
+lemma: dwar
+category: adjectives
+cases:
+- features:
+    number: plural
+  expected: è-dwar-ak
+- features:
+    number: singular
+  expected: èdwar
+---
+lemma: jok
+category: adjectives
+cases:
+- features:
+    number: plural
+  expected: è-jok-ak
+- features:
+    number: singular
+  expected: èjok
+---
+lemma: os
+category: adjectives
+cases:
+- features:
+    number: plural
+    person: first
+  expected: iki-os-ok
+- features:
+    number: plural
+    person: second
+  expected: i-os-ok
+- features:
+    number: plural
+    person: third
+  expected: è-os-ok
+- features:
+    number: singular
+    person: first
+  expected: aos
+- features:
+    number: singular
+    person: second
+  expected: ios
+- features:
+    number: singular
+    person: third
+  expected: èos
+---
+lemma: rèng
+category: adjectives
+cases:
+- features:
+    number: plural
+  expected: è-rèng-ak
+- features:
+    number: singular
+  expected: èrèng

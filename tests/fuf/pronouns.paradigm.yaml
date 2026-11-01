@@ -1,0 +1,222 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: ma
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: a
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: an
+- features:
+    number: singular
+    person: second
+  expected: a
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: maa
+---
+lemma: en
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: en
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: en
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: enen
+- features:
+    number: plural
+    person: first
+  expected: en
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: men
+---
+lemma: kun
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: kunkun
+---
+lemma: mba
+category: pronouns
+cases:
+- features:
+    case: oblique
+  expected: mba
+---
+lemma: men
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: men
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: men
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: menen
+- features:
+    number: plural
+    person: first
+  expected: men
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: amen
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: lan
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: mi
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: min
+- features:
+    number: plural
+    person: first
+  expected: en
+- features:
+    number: plural
+    person: second
+  expected: 'on'
+- features:
+    number: plural
+    person: third
+  expected: åe
+- features:
+    number: singular
+    person: first
+  expected: mi
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: an
+- features:
+    number: singular
+    person: second
+  expected: ma
+- features:
+    number: singular
+    person: third
+  expected: mo
+---
+lemma: 'on'
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: 'on'
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: 'on'
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: onon
+- features:
+    number: plural
+    person: second
+  expected: 'on'
+- features:
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: mon
+---
+lemma: åe
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: åe
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: åe
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: kanåe
+- features:
+    number: plural
+    person: third
+    possessor_number: plural
+    possessor_person: third
+  expected: maååe
+---
+lemma: ɓe
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: ɓe
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: ɓe
+- features:
+    number: plural
+    person: third
+  expected: ɓe

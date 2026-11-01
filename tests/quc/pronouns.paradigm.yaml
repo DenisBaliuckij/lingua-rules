@@ -1,0 +1,27 @@
+lemma: iib
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: qiib
+- features:
+    number: plural
+    person: second
+  expected: iwiib
+- features:
+    number: plural
+    person: third
+  expected: kiib
+- features:
+    number: singular
+    person: first
+  expected: wiib
+- features:
+    number: singular
+    person: second
+  expected: awiib
+- features:
+    number: singular
+    person: third
+  expected: riib

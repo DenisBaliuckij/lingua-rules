@@ -1,0 +1,130 @@
+lemma: imshis
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+  expected: mii:shia
+- features:
+    gender: masculine
+    number: singular
+  expected: mi:shi
+---
+lemma: ktib
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ktibt
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ktib
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ktibna
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ktibtu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ktibt
+---
+lemma: leq
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: lgaa-t
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: lgaa
+---
+lemma: qra
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: qri:t
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: qra:t
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: qra
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: qri:na
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: qri:tu
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: qra:w
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: qri:t
+---
+lemma: sriy
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: sriyt
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: sriyt

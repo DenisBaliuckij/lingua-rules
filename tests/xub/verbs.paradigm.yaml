@@ -1,0 +1,709 @@
+lemma: argu
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ergooo
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ergooo
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ergooo
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ergooi
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ergooi
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ergooa
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ergna
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ergna:iyo
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ergna
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ergna:iyo
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ergna
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ergna:iyo
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ergna:i
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ergna:iyiya
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ergna:i
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ergna:i
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ergna:a
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ergna:a
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+  expected: ergoyiya
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+  expected: ergoiyo
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+  expected: ergoiyo
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+  expected: ergoiyiya
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+  expected: ergoi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+  expected: ergoia
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: argisilo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: argilo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: argiso
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: argiya
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: argisilo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: argilo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: argiso
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: argiyo
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: argisilo
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: argilo
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: argiso
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: argiyo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: argisili
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: argili
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: argisi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: argiya
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: argisili
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: argili
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: argisi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: argwi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: argisila
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: argila
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: argiso
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: argwa
+---
+lemma: go
+category: verbs
+cases:
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: pogo
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: pogay
+---
+lemma: kil
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+  expected: kijna:g
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+  expected: kijna:d
+---
+lemma: nili
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+  expected: niljna:g
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+  expected: niljna:d
+---
+lemma: ya:ri
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: yartooo
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: yartooo
+- features:
+    aspect: habitual
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: yartooo
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: yartooi
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: yartooi
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: yartooa
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+  expected: yartna:g
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: yartna
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: yartna:iyo
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: yartna
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: yartna:iyo
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: yartna
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yartna:iyo
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+  expected: yartna:d
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: yartna:i
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: yartna:iyiya
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: yartna:i
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: yartna:i
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: yartna:a
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yartna:a
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+  expected: yartoiyiya
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+  expected: yartoiyo
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: third
+  expected: yartoiyo
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+  expected: yartoiyiya
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+  expected: yartoi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+  expected: yartoia
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: yartilo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: yarplo
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: yarto
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: yarpiya
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: yartilo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: yarplo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: yarto
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: yarpiyo
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: yartilo
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: yarplo
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: yarto
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yarpiyo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: yartili
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: yarpli
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: yarti
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: yarpiya
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: past
+  expected: yartili
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: yarpli
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: yarti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: yarpi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: past
+  expected: yartila
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: yarpla
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: yarta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yarpa
+---
+lemma: yari
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: future
+  expected: yarpa
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: yarta

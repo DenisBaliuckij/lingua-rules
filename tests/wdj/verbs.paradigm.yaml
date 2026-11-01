@@ -1,0 +1,915 @@
+lemma: bhr
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+    voice: active
+  expected: bkarava
+- features:
+    mood: imperative
+    number: dual
+    person: first
+    voice: middle
+  expected: bharavahai
+- features:
+    mood: imperative
+    number: dual
+    person: second
+    voice: active
+  expected: bharatam
+- features:
+    mood: imperative
+    number: dual
+    person: second
+    voice: middle
+  expected: bharethiim
+- features:
+    mood: imperative
+    number: dual
+    person: third
+    voice: active
+  expected: bharatam
+- features:
+    mood: imperative
+    number: dual
+    person: third
+    voice: middle
+  expected: bharetihn
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    voice: active
+  expected: bhariima
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    voice: middle
+  expected: bhariimahai
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    voice: active
+  expected: bharata
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    voice: middle
+  expected: bharadhvam
+- features:
+    mood: imperative
+    number: plural
+    person: third
+    voice: active
+  expected: bharantu
+- features:
+    mood: imperative
+    number: plural
+    person: third
+    voice: middle
+  expected: bharantam
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    voice: middle
+  expected: bharai
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    voice: active
+  expected: mara
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    voice: middle
+  expected: bharosva
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    voice: active
+  expected: bharatu
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    voice: middle
+  expected: hharatam
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: aorist
+    voice: active
+  expected: abhrir§va
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: aorist
+    voice: middle
+  expected: abhnvahi
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+    voice: active
+  expected: bhari§yiival
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+    voice: middle
+  expected: bhari§yiivahe
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+    voice: active
+  expected: abhariiva
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: imperfect
+    voice: middle
+  expected: abhariivahi
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+    voice: active
+  expected: babhrva
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+    voice: middle
+  expected: babhrvahe
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+    voice: active
+  expected: bhariival
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+    voice: middle
+  expected: bhariivahe
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: aorist
+    voice: active
+  expected: abhar§tam
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: aorist
+    voice: middle
+  expected: abhr§atham
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+    voice: middle
+  expected: bhari
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: active
+  expected: abharatam
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: imperfect
+    voice: middle
+  expected: abharethiim
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+    voice: active
+  expected: babhrthul
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+    voice: middle
+  expected: babhrathe
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+    voice: active
+  expected: bharatha
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+    voice: middle
+  expected: bharethe
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: aorist
+    voice: active
+  expected: abhar§ta
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: aorist
+    voice: middle
+  expected: abhnatam
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+    voice: active
+  expected: bhari§yatal
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+    voice: middle
+  expected: bharifyete
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: active
+  expected: abharatiirn
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: imperfect
+    voice: middle
+  expected: abharetiim
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+    voice: active
+  expected: babhrtul
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+    voice: middle
+  expected: babhrate
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+    voice: active
+  expected: bharatal
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+    voice: middle
+  expected: bharete
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+    voice: active
+  expected: abhi'ir§ma
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+    voice: middle
+  expected: abhr§mahi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+    voice: middle
+  expected: bhariwiimahe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+  expected: abhariima
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+    voice: middle
+  expected: abhariirnahi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: active
+  expected: babhrma
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+    voice: middle
+  expected: babhrmahe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: active
+  expected: bha
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: middle
+  expected: bhariimahe
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+  expected: abhar?(rim
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+    voice: middle
+  expected: abhrg
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+    voice: active
+  expected: bhari
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+    voice: middle
+  expected: bhari'flJadhve
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: active
+  expected: abharata
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: imperfect
+    voice: middle
+  expected: abharadhvam
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+  expected: babhiira
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+    voice: middle
+  expected: babkrdhve
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: active
+  expected: bharatha
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    voice: middle
+  expected: bharadhve
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+  expected: abharljul
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+    voice: middle
+  expected: abhrljata
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+    voice: active
+  expected: bhari
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+    voice: middle
+  expected: bhari§yante
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+  expected: abharan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: imperfect
+    voice: middle
+  expected: abharanta
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: active
+  expected: babhrul
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+    voice: middle
+  expected: babhrire
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: active
+  expected: bharanti
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+    voice: middle
+  expected: bharante
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+    voice: active
+  expected: abluir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+    voice: middle
+  expected: abhr
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+    voice: active
+  expected: bhari§yiimi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+    voice: middle
+  expected: bhari§ye
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: active
+  expected: abhara
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+    voice: middle
+  expected: abhare
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+  expected: babMra
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+    voice: middle
+  expected: babhre
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: active
+  expected: bhariimi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: middle
+  expected: bhare
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+  expected: abhiirfi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+    voice: active
+  expected: bhari§yasi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+    voice: middle
+  expected: bhari§yase
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: active
+  expected: abharal
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+    voice: middle
+  expected: abharathiil
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: active
+  expected: babhrtha
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+    voice: middle
+  expected: babhrfe
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: active
+  expected: bharasi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+    voice: middle
+  expected: bharase
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+  expected: abharfi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+    voice: middle
+  expected: abhr
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+    voice: active
+  expected: bhari§yati
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+    voice: middle
+  expected: bhari§yate
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+  expected: abharat
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+    voice: middle
+  expected: abharata
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+  expected: babhara
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+    voice: middle
+  expected: babhre
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: bharati
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: middle
+  expected: bharate
+- features:
+    mood: optative
+    number: dual
+    person: first
+    tense: present
+    voice: active
+  expected: bhareva
+- features:
+    mood: optative
+    number: dual
+    person: first
+    tense: present
+    voice: middle
+  expected: bharevahi
+- features:
+    mood: optative
+    number: dual
+    person: second
+    tense: present
+    voice: active
+  expected: bharetam
+- features:
+    mood: optative
+    number: dual
+    person: second
+    tense: present
+    voice: middle
+  expected: bhareyiithiim
+- features:
+    mood: optative
+    number: dual
+    person: third
+    tense: present
+    voice: active
+  expected: bharetiim
+- features:
+    mood: optative
+    number: dual
+    person: third
+    tense: present
+    voice: middle
+  expected: bhareyiitiirn
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: present
+    voice: active
+  expected: bharema
+- features:
+    mood: optative
+    number: plural
+    person: first
+    tense: present
+    voice: middle
+  expected: bharemahi
+- features:
+    mood: optative
+    number: plural
+    person: second
+    tense: present
+    voice: active
+  expected: bhareta
+- features:
+    mood: optative
+    number: plural
+    person: second
+    tense: present
+    voice: middle
+  expected: bharedhvam
+- features:
+    mood: optative
+    number: plural
+    person: third
+    tense: present
+    voice: middle
+  expected: bhareran
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: present
+    voice: active
+  expected: bhareyam
+- features:
+    mood: optative
+    number: singular
+    person: first
+    tense: present
+    voice: middle
+  expected: bhareya
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+    voice: active
+  expected: bharel
+- features:
+    mood: optative
+    number: singular
+    person: second
+    tense: present
+    voice: middle
+  expected: bharethiil
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: bhnret
+- features:
+    mood: optative
+    number: singular
+    person: third
+    tense: present
+    voice: middle
+  expected: bhareta
+---
+lemma: kha 'to eat
+category: verbs
+cases:
+- features:
+    mood: imperative
+    person: second
+  expected: kha
+- features:
+    mood: imperative
+    person: third
+  expected: khaok
+- features:
+    mood: indicative
+    person: first
+    tense: future
+  expected: khaill
+- features:
+    mood: indicative
+    person: first
+    tense: past
+  expected: khaIo
+- features:
+    mood: indicative
+    person: first
+    tense: perfect
+  expected: khaiso
+- features:
+    mood: indicative
+    person: first
+    tense: pluperfect
+  expected: khaisilo
+- features:
+    mood: indicative
+    person: first
+    tense: present
+  expected: khaO
+- features:
+    mood: indicative
+    person: second
+    tense: future
+  expected: khabi
+- features:
+    mood: indicative
+    person: second
+    tense: past
+  expected: khali
+- features:
+    mood: indicative
+    person: second
+    tense: perfect
+  expected: khaiso
+- features:
+    mood: indicative
+    person: second
+    tense: pluperfect
+  expected: khaisili
+- features:
+    mood: indicative
+    person: second
+    tense: present
+  expected: kha
+- features:
+    mood: indicative
+    person: third
+    tense: future
+  expected: khabo
+- features:
+    mood: indicative
+    person: third
+    tense: past
+  expected: khaIe
+- features:
+    mood: indicative
+    person: third
+    tense: perfect
+  expected: khaise
+- features:
+    mood: indicative
+    person: third
+    tense: present
+  expected: khai

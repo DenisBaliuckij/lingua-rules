@@ -1,0 +1,62 @@
+lemma: sanë
+category: nouns
+cases:
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: anë
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: asanë
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: yanë
+---
+lemma: uchireemato
+category: nouns
+cases:
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: anaochiremáton
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: wïchireamáto
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: ochiremëton
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: i-chiremáto-n
+---
+lemma: vataapono
+category: nouns
+cases:
+- features:
+    number: plural
+    tense: past
+  expected: vataapo-toj-koon-mpuo
+- features:
+    number: plural
+    tense: present
+  expected: vataapo-toj-ko
+- features:
+    number: singular
+    tense: past
+  expected: vataapo-toopo-mpo
+- features:
+    number: singular
+    tense: present
+  expected: vataapotoopo

@@ -1,0 +1,1563 @@
+lemma: apaSana
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: apasasqayku
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: apasasunchej
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: apasankichej
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: apasanku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: apasasaj
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: apasanki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: apasanka
+---
+lemma: apamu
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: apamuSUN
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: apamuYCHEJ
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: apamuCHUNKU
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: apamuY
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: apamuCHUN
+---
+lemma: jamu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: jamusqanchej
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: jamusqankichej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: jamusqayku
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: sunchej
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: jamusqanku
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: nkichej
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: jamusqani
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: saj
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: pluperfect
+  expected: jamusqanki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: nki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: nqa
+---
+lemma: jamu-y
+category: verbs
+cases:
+- features:
+    mood: potential
+    number: plural
+    person: first
+  expected: jamu–yku-man
+- features:
+    mood: potential
+    number: plural
+    person: second
+  expected: jamu–wajchej
+- features:
+    mood: potential
+    number: plural
+    person: third
+  expected: jamu–nku–man
+- features:
+    mood: potential
+    number: singular
+    person: second
+  expected: jamu–waj
+- features:
+    mood: potential
+    number: singular
+    person: third
+  expected: jamu–y–man
+---
+lemma: muna
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: munaqyku
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: negative
+    tense: past
+  expected: manarqanichu
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: munaqnkichej
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: negative
+    tense: past
+  expected: manarqankichej
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: munarqa
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: negative
+    tense: past
+  expected: manarqanchu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: munaqni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: past
+  expected: manarqanichu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: munaqnki
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: past
+  expected: manarqankichej
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: munarqa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: past
+  expected: manarqanchu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: munarqa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: munaqnki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: munarqa
+---
+lemma: niy
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: nisqayku
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: nisusqanku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: pluperfect
+  expected: nisqayki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: imperfect
+  expected: nisoj
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: pluperfect
+  expected: nisusqa
+---
+lemma: parla
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+    verb_form: participle
+  expected: parlaWASQA
+- features:
+    aspect: perfective
+    mood: indicative
+    person: first
+    tense: past
+    verb_form: participle
+  expected: parlaSQA
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+    verb_form: participle
+  expected: parlaJTINCHEJ
+- features:
+    aspect: progressive
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+    verb_form: participle
+  expected: parlaJTIYKU
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    verb_form: participle
+  expected: parlaJTIYKICHEJ
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+    verb_form: participle
+  expected: parlaJTINKU
+- features:
+    aspect: progressive
+    mood: indicative
+    person: first
+    tense: present
+    verb_form: participle
+  expected: parlaJTIY
+- features:
+    aspect: progressive
+    mood: indicative
+    person: second
+    tense: present
+    verb_form: participle
+  expected: parlaJTIYKI
+- features:
+    aspect: progressive
+    mood: indicative
+    person: third
+    tense: present
+    verb_form: participle
+  expected: parlaJTIN
+- features:
+    mood: conditional
+    number: dual
+    person: first
+    tense: present
+  expected: parlaSUNMAN
+- features:
+    mood: conditional
+    number: dual
+    person: second
+    tense: present
+  expected: parlaYKUMAN
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    tense: present
+  expected: parlaWAJCHEJ
+- features:
+    mood: conditional
+    number: plural
+    person: second
+    tense: present
+  expected: parlaNKUMAN
+- features:
+    mood: conditional
+    person: first
+    tense: present
+  expected: parlaYMAN
+- features:
+    mood: conditional
+    person: second
+    tense: present
+  expected: parlaWAJ
+- features:
+    mood: conditional
+    person: third
+    tense: present
+  expected: parlaNMAN
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: parlaWAYCHEJ
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: parlaWACHUNKU
+- features:
+    mood: imperative
+    person: second
+  expected: parlaWAY
+- features:
+    mood: imperative
+    person: third
+  expected: parlaWACHUN
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: parlaWANKlCHEJ
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: parlaWARQANKICHEJ
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: pluperfect
+  expected: parlaSQANCHEJ
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: parlaWANKlCHEJ
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+    verb_form: converb
+  expected: parlaWAJ
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+    verb_form: converb
+  expected: parlaSOJ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: parlanchej
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: parlaSQAYKICHEJ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: parlaRQAYKICHEJ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: parlaSQANKICHEJ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: parlankichej
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: parlaWANQANKU
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: parlaWARQANKU
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: parlaSQANKU
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: parlaWANKU
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: parlaJ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: parlaSQA
+- features:
+    mood: indicative
+    person: first
+    tense: present
+    verb_form: converb
+  expected: parlaJ
+- features:
+    mood: indicative
+    person: second
+    tense: future
+  expected: parlaWANKI
+- features:
+    mood: indicative
+    person: second
+    tense: past
+  expected: parlaWARQANKI
+- features:
+    mood: indicative
+    person: second
+    tense: pluperfect
+  expected: parlaSQANl
+- features:
+    mood: indicative
+    person: second
+    tense: present
+  expected: parlaWANKI
+- features:
+    mood: indicative
+    person: third
+    tense: future
+  expected: parlaWANQA
+- features:
+    mood: indicative
+    person: third
+    tense: imperfect
+  expected: parlaWAJ
+- features:
+    mood: indicative
+    person: third
+    tense: past
+  expected: parlaWARQA
+- features:
+    mood: indicative
+    person: third
+    tense: pluperfect
+  expected: parlaSQANKI
+- features:
+    mood: indicative
+    person: third
+    tense: present
+  expected: parlaWAN
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+    tense: present
+  expected: parlaNANCHEJ
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+    tense: present
+  expected: parlaNAYKU
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: parlaNAYKICHEJ
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: parlaNANKU
+- features:
+    mood: subjunctive
+    person: first
+    tense: present
+  expected: parlaNAY
+- features:
+    mood: subjunctive
+    person: second
+    tense: present
+  expected: parlaNAYKI
+- features:
+    mood: subjunctive
+    person: third
+    tense: present
+  expected: parlaNAN
+---
+lemma: parlani
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: parlayku
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: parlawayku
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: parlawayku
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: parlanchej
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: parlawanchej
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: parlawayku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: parlani
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: parlanki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: parlan
+---
+lemma: parlarqani
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+  expected: parlarqayku
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+  expected: parlawarqayku
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+  expected: parlawarqanchej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: parlarqanchej
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: parlawarqanchej
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: parlawarqayku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: parlarqani
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: parlarqanki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: parlarqa
+---
+lemma: parlarqayki
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+  expected: parlarqaykichej
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+  expected: parlawarqayku
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+  expected: parlawarqanchej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: parlarqankichej
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: parlawarqankichej
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: parlawarqanku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: parlarqayki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: parlawarqanki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: parlawarqa
+---
+lemma: parlasaj
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: parlasqayku
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: parlawasqayku
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: parlawasunchej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: parlasunchej
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: parlawasunchej
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: parlawasqayku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: parlasaj
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: parlanki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: parlanqa
+---
+lemma: parlasonqa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: parlasonqachej
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: parlawasqayku
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: parlawasunchej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: parlasonqanku
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: parlawasunqanku
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: parlawasqayku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: parlasonqa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: parlawasunqa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: parlawasqayku
+---
+lemma: parlasorqa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: perfect
+  expected: parlasorqachej
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: perfect
+  expected: parlawasorqayku
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: perfect
+  expected: parlawarqanchej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: perfect
+  expected: parlasorqanku
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: perfect
+  expected: parlawasorqanku
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: perfect
+  expected: parlawarqayku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: perfect
+  expected: parlasorqa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: perfect
+  expected: parlawasorqa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: perfect
+  expected: parlawarqayku
+---
+lemma: parlasqani
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: pluperfect
+  expected: parlasqayku
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: pluperfect
+  expected: parlawasqayku
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: pluperfect
+  expected: parlawasqanchej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: parlasqanchej
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: parlawasqanchej
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: parlawasqayku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: parlasqani
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: parlasqanki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: parlasqa
+---
+lemma: parlasqayki
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: parlasqaykichej
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: pluperfect
+  expected: parlasqaykichej
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: parlawasqayku
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: pluperfect
+  expected: parlawasqayku
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: parlawasunchej
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: pluperfect
+  expected: parlawasqanchej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: parlankichej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: parlasqankichej
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: parlawankichej
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: parlawasqankichej
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: parlanqanku
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: parlawasqanku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: parlasqayki
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: parlasqayki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: parlawanki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: parlawasqanki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: parlawanqa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: parlawasqa
+---
+lemma: parlasunki
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: parlasunkichej
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: parlawayku
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: parlawayku
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: parlasunku
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: parlawasunku
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: parlawanku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: parlasunki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: parlawasunki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: parlawayku
+---
+lemma: parlasusqa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: pluperfect
+  expected: parlasusqachej
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: pluperfect
+  expected: parlawasusqayku
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: pluperfect
+  expected: parlawasqanchej
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: parlasusqanku
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: pluperfect
+  expected: parlawasusqanku
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: pluperfect
+  expected: parlawasqayku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: pluperfect
+  expected: parlasusqa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: pluperfect
+  expected: parlawasusqa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: pluperfect
+  expected: parlawasqayku
+---
+lemma: parlay
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: parlaYCHEJ
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: parlaY
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: parlaSUNCHEJ
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: parlaRQANCHEJ
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: parlaNCHEJ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: parlaSQAYKU
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: parlaRQAYKU
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: parlaYKU
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: parlaNKlCHEJ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: parlaRQANKICHEJ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: parlaNKlCHEJ
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: parlaNQANKU
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: parlaRQANKU
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: parlaNKU
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: parlaSAJ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: parlaRQANI
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: parlaNI
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: parlaNKI
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: parlaRQANKI
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: parlaNKI
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: parlaNQA
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: parlaRQA
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: parlaN
+- features:
+    mood: optative
+    number: dual
+    person: first
+  expected: parlaSUN
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: parlaCHUNKU
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: parlaCHUN
+---
+lemma: parlayki
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: parlaykichej
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: parlawayku
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: parlawayku
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: parlankichej
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: parlawankichej
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: parlawanku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: parlayki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: parlawanki
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: parlawan
+---
+lemma: wajya
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: wajyasqnqa
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: wajyasqnqanku
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: wajyasqayki
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: wajyasqayku
+---
+lemma: yachaka
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: yachaka–na–nchej
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: yachaka–na–ykichej
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: yachaka–na–nku
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: yachaka–na–y
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: yachaka–na–yku
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: yachaka–na–n

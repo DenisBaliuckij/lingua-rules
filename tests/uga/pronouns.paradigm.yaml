@@ -1,0 +1,167 @@
+lemma: an
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: common
+    number: dual
+    person: first
+  expected: atm
+- features:
+    case: nominative
+    gender: common
+    number: plural
+    person: first
+  expected: hm
+- features:
+    case: nominative
+    gender: common
+    number: singular
+    person: first
+  expected: an
+- features:
+    gender: common
+    number: dual
+    person: first
+  expected: hmt
+- features:
+    gender: common
+    number: singular
+    person: first
+  expected: an
+---
+lemma: at
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: common
+    number: dual
+    person: second
+  expected: atm
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+    person: second
+  expected: atn
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: second
+  expected: at
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+    person: second
+  expected: atm
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: second
+  expected: at
+- features:
+    gender: common
+    number: dual
+    person: second
+  expected: hmt
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: atti
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: atta
+---
+lemma: d
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+  expected: data
+- features:
+    case: accusative
+    gender: masculine
+    number: singular
+  expected: dä
+- features:
+    case: genitive
+    gender: feminine
+    number: singular
+  expected: däti
+- features:
+    case: genitive
+    gender: masculine
+    number: singular
+  expected: di
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: dätu
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: dütu
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: dü
+- features:
+    case: oblique
+    gender: masculine
+    number: plural
+  expected: düti
+---
+lemma: ™nk
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: ™t
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: hy
+- features:
+    gender: masculine
+    number: dual
+    person: second
+  expected: ™tm
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: hm
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: ™tm
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: ™t
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: hw
+- features:
+    number: singular
+    person: first
+  expected: ™nk

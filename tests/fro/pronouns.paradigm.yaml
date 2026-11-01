@@ -1,0 +1,517 @@
+lemma: ce
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+  expected: ce
+- features:
+    case: oblique
+    number: singular
+  expected: ce
+---
+lemma: cel
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: cil
+- features:
+    case: nominative
+    number: singular
+  expected: cel
+- features:
+    case: oblique
+    number: plural
+  expected: cels
+- features:
+    case: oblique
+    number: singular
+  expected: cele
+---
+lemma: cele
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: celes
+- features:
+    case: nominative
+    number: singular
+  expected: cele
+- features:
+    case: oblique
+    number: plural
+  expected: celes
+- features:
+    case: oblique
+    number: singular
+  expected: cele
+---
+lemma: cest
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: cist
+- features:
+    case: nominative
+    number: singular
+  expected: cist
+- features:
+    case: oblique
+    number: plural
+  expected: cez
+- features:
+    case: oblique
+    number: singular
+  expected: cest
+---
+lemma: ceste
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: cestes
+- features:
+    case: nominative
+    number: singular
+  expected: cist
+- features:
+    case: oblique
+    number: plural
+  expected: cez
+- features:
+    case: oblique
+    number: singular
+  expected: cest
+---
+lemma: ele
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ele
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: li
+---
+lemma: il
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: il
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: il
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: lor
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: lui
+---
+lemma: lor
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: lor
+- features:
+    case: nominative
+    number: singular
+  expected: lor
+- features:
+    case: oblique
+    number: plural
+  expected: lor
+- features:
+    case: oblique
+    number: singular
+  expected: lor
+---
+lemma: mes
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: mes
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: ma
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: mi
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: mes
+- features:
+    case: oblique
+    gender: feminine
+    number: plural
+  expected: mes
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+  expected: ma
+- features:
+    case: oblique
+    gender: masculine
+    number: plural
+  expected: mes
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+  expected: mon
+---
+lemma: miens
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: moies
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: moie
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: mien
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: miens
+- features:
+    case: oblique
+    gender: feminine
+    number: plural
+  expected: moies
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+  expected: moie
+- features:
+    case: oblique
+    gender: masculine
+    number: plural
+  expected: miens
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+  expected: mien
+---
+lemma: nos
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nos
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: nos
+---
+lemma: nostre
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: nostres
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: nostre
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: nostre
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: nostre
+- features:
+    case: oblique
+    gender: feminine
+    number: plural
+  expected: nostres
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+  expected: nostre
+- features:
+    case: oblique
+    gender: masculine
+    number: plural
+  expected: nostres
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+  expected: nostre
+---
+lemma: ses
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: ses
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: sa
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: si
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: ses
+- features:
+    case: oblique
+    gender: feminine
+    number: plural
+  expected: ses
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+  expected: sa
+- features:
+    case: oblique
+    gender: masculine
+    number: plural
+  expected: ses
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+  expected: son
+---
+lemma: soi
+category: pronouns
+cases:
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: soi
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: soi
+---
+lemma: suens
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: suen
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: suens
+- features:
+    case: oblique
+    gender: masculine
+    number: plural
+  expected: suens
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+  expected: suen
+---
+lemma: tes
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: tes
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: ta
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: ti
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: tes
+- features:
+    case: oblique
+    gender: feminine
+    number: plural
+  expected: tes
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+  expected: ta
+- features:
+    case: oblique
+    gender: masculine
+    number: plural
+  expected: tes
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+  expected: ton
+---
+lemma: tu
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: tu
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: toite
+---
+lemma: tuens
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: tuen
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: tuens
+- features:
+    case: oblique
+    gender: masculine
+    number: plural
+  expected: tuens
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+  expected: tuen
+---
+lemma: vos
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: vos
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: vos
+---
+lemma: vostre
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+  expected: vostres
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+  expected: vostre
+- features:
+    case: nominative
+    gender: masculine
+    number: plural
+  expected: vostre
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+  expected: vostre
+- features:
+    case: oblique
+    gender: feminine
+    number: plural
+  expected: vostres
+- features:
+    case: oblique
+    gender: feminine
+    number: singular
+  expected: vostre
+- features:
+    case: oblique
+    gender: masculine
+    number: plural
+  expected: vostres
+- features:
+    case: oblique
+    gender: masculine
+    number: singular
+  expected: vostre
