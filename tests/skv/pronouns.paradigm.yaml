@@ -1,0 +1,65 @@
+lemma: ne
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: pe
+- features:
+    number: plural
+    person: first
+  expected: ne
+- features:
+    number: plural
+    person: second
+  expected: e
+- features:
+    number: plural
+    person: third
+  expected: te
+- features:
+    number: singular
+    person: first
+  expected: ne
+- features:
+    number: singular
+    person: second
+  expected: me
+- features:
+    number: singular
+    person: third
+  expected: ke
+---
+lemma: nì
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: pe
+- features:
+    number: plural
+    person: first
+  expected: ne
+- features:
+    number: plural
+    person: second
+  expected: e
+- features:
+    number: plural
+    person: third
+  expected: te
+- features:
+    number: singular
+    person: first
+  expected: nì
+- features:
+    number: singular
+    person: second
+  expected: mè
+- features:
+    number: singular
+    person: third
+  expected: ke

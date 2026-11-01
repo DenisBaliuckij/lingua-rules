@@ -1,0 +1,241 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: l'sa
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: mt'sa
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: tse'kato
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: i
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: mi
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: t
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: si
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: mt'Si
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: tse'kati
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: a
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: mi
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: tse'pi
+---
+lemma: ah
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: i
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ah
+---
+lemma: ceko:ti
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: ceko:to
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: ceko:ti
+---
+lemma: ime
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: dual
+    person: first
+  expected: i'saka
+- features:
+    definiteness: definite
+    number: dual
+    person: second
+  expected: mi'saka
+- features:
+    definiteness: definite
+    number: dual
+    person: third
+  expected: me'saka
+- features:
+    definiteness: definite
+    number: plural
+    person: first
+  expected: i'sa
+- features:
+    definiteness: definite
+    number: plural
+    person: second
+  expected: mi'sa
+- features:
+    definiteness: definite
+    number: plural
+    person: third
+  expected: me'sa
+- features:
+    definiteness: definite
+    number: singular
+    person: first
+  expected: i
+- features:
+    definiteness: definite
+    number: singular
+    person: second
+  expected: mi
+- features:
+    definiteness: definite
+    number: singular
+    person: third
+  expected: te
+- features:
+    definiteness: indefinite
+    number: dual
+    person: first
+  expected: isa'kame
+- features:
+    definiteness: indefinite
+    number: dual
+    person: second
+  expected: mi'sakamc
+- features:
+    definiteness: indefinite
+    number: dual
+    person: third
+  expected: me'sakame
+- features:
+    definiteness: indefinite
+    number: plural
+    person: first
+  expected: i'same
+- features:
+    definiteness: indefinite
+    number: plural
+    person: second
+  expected: mi'same
+- features:
+    definiteness: indefinite
+    number: plural
+    person: third
+  expected: me'sa
+- features:
+    definiteness: indefinite
+    number: singular
+    person: first
+  expected: ime
+- features:
+    definiteness: indefinite
+    number: singular
+    person: second
+  expected: mi'me
+- features:
+    definiteness: indefinite
+    number: singular
+    person: third
+  expected: te'me
+---
+lemma: isi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: isa
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: isi
+---
+lemma: misi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: misa
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: misi
+---
+lemma: miʔ
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: mi
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: miʔ
+---
+lemma: te
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: te
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: cephi

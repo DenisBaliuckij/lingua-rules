@@ -1,0 +1,39 @@
+lemma: ha³³ tʰi⁵⁴+CLF
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: ha³³ tʰi⁵⁴ki⁵⁴
+- features:
+    definiteness: definite
+    number: singular
+  expected: ha³³ tʰi⁵⁴+CLF
+---
+lemma: o³³ tʰi⁵⁴+CLF
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: o³³ tʰi⁵⁴ki⁵⁴
+- features:
+    definiteness: definite
+    number: singular
+  expected: o³³ tʰi⁵⁴+CLF
+---
+lemma: ŋa³³
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ŋa³³
+- features:
+    number: singular
+    person: second
+  expected: nu³³
+- features:
+    number: singular
+    person: third
+  expected: tʰjɛ³³

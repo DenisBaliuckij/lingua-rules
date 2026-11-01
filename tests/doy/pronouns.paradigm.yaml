@@ -1,0 +1,91 @@
+lemma: mí yíró
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: bán yíró
+- features:
+    number: plural
+    person: third
+  expected: bán yíró
+- features:
+    number: singular
+    person: first
+  expected: mí yíró
+- features:
+    number: singular
+    person: second
+  expected: ó yíró
+---
+lemma: míà
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: míà
+- features:
+    number: singular
+    person: second
+  expected: fù ̃ á
+- features:
+    number: singular
+    person: third
+  expected: mùà
+---
+lemma: mɪ́
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ání
+- features:
+    number: plural
+    person: second
+  expected: bán
+- features:
+    number: plural
+    person: third
+  expected: bán
+- features:
+    number: singular
+    person: first
+  expected: mɪ́
+- features:
+    number: singular
+    person: second
+  expected: wó
+- features:
+    number: singular
+    person: third
+  expected: mú
+---
+lemma: é
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: á
+- features:
+    number: plural
+    person: second
+  expected: bì
+- features:
+    number: plural
+    person: third
+  expected: bì
+- features:
+    number: singular
+    person: first
+  expected: é
+- features:
+    number: singular
+    person: second
+  expected: ó
+- features:
+    number: singular
+    person: third
+  expected: è

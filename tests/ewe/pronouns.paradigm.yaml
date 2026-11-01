@@ -1,0 +1,118 @@
+lemma: me
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mie
+- features:
+    number: plural
+    person: second
+  expected: mie
+- features:
+    number: plural
+    person: third
+  expected: mO
+- features:
+    number: singular
+    person: first
+  expected: me
+- features:
+    number: singular
+    person: second
+  expected: e
+- features:
+    number: singular
+    person: third
+  expected: é
+---
+lemma: nye
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mi
+- features:
+    number: plural
+    person: second
+  expected: mi
+- features:
+    number: plural
+    person: third
+  expected: wó
+- features:
+    number: singular
+    person: first
+  expected: nye
+- features:
+    number: singular
+    person: second
+  expected: wo
+- features:
+    number: singular
+    person: third
+  expected: s
+---
+lemma: nyè
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: m la
+- features:
+    number: plural
+    person: second
+  expected: mia
+- features:
+    number: plural
+    person: third
+  expected: wó
+- features:
+    number: singular
+    person: first
+  expected: nyè
+- features:
+    number: singular
+    person: second
+  expected: wo
+- features:
+    number: singular
+    person: third
+  expected: éya
+---
+lemma: ra
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mi
+- features:
+    number: plural
+    person: second
+  expected: mi
+- features:
+    number: plural
+    person: third
+  expected: wóné
+- features:
+    number: singular
+    person: first
+  expected: ra
+- features:
+    number: singular
+    person: second
+  expected: wo
+- features:
+    number: singular
+    person: third
+  expected: ne
+---
+lemma: si
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: si

@@ -1,0 +1,74 @@
+lemma: bo
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    evidentiality: indirect
+    voice: active
+  expected: bo:-n-e
+- features:
+    aspect: imperfective
+    mood: imperative
+    voice: active
+  expected: bo:-n-i
+- features:
+    aspect: imperfective
+    voice: active
+  expected: bo:-n-mo
+- features:
+    aspect: perfective
+    evidentiality: indirect
+    voice: active
+  expected: bo:-hel
+- features:
+    aspect: perfective
+    mood: imperative
+    voice: active
+  expected: bo
+- features:
+    aspect: perfective
+    polarity: negative
+    voice: active
+  expected: b^:-mo
+- features:
+    aspect: perfective
+    tense: future
+    voice: active
+  expected: bo:-to
+- features:
+    aspect: perfective
+    voice: active
+  expected: bo
+---
+lemma: ha:ni
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: ha:ni
+- features:
+    aspect: imperfective
+    tense: future
+  expected: ha:ni:-to
+---
+lemma: so:ho:gi
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: so:ho:gi
+- features:
+    aspect: imperfective
+    tense: future
+  expected: so:ho:gi:-t
+---
+lemma: yotki
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: yotki
+- features:
+    aspect: imperfective
+    tense: future
+  expected: yotki:-t

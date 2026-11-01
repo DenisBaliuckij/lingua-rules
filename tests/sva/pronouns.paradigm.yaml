@@ -1,0 +1,47 @@
+lemma: ala
+category: pronouns
+cases:
+- features:
+    case: adessive
+    number: singular
+  expected: am-n-ær-d
+- features:
+    case: dative
+    number: singular
+  expected: am-i-s
+- features:
+    case: ergative
+    number: singular
+  expected: am-n-e:m
+- features:
+    case: genitive
+    number: singular
+  expected: am-n-e:m-i£
+- features:
+    case: instrumental
+    number: singular
+  expected: am-n
+- features:
+    case: nominative
+    number: singular
+  expected: ala
+---
+lemma: i-£gu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: gu-£gw-e:j
+- features:
+    number: plural
+    person: second
+  expected: i-sgw-e:j
+- features:
+    number: singular
+    person: first
+  expected: mi£gwi
+- features:
+    number: singular
+    person: second
+  expected: i-sgwi

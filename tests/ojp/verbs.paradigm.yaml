@@ -1,0 +1,114 @@
+lemma: aru
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: ara
+- features:
+    mood: imperative
+  expected: are
+- features:
+    mood: indicative
+    tense: past
+  expected: are
+- features:
+    mood: indicative
+    tense: present
+  expected: ari
+- features:
+    mood: subjunctive
+    verb_form: converb
+  expected: ari
+- features:
+    verb_form: participle
+  expected: aru
+---
+lemma: kuru
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: ko
+- features:
+    mood: imperative
+  expected: ko
+- features:
+    mood: indicative
+    tense: past
+  expected: kure
+- features:
+    mood: indicative
+    tense: present
+  expected: ku
+- features:
+    mood: subjunctive
+    verb_form: converb
+  expected: kyi
+- features:
+    verb_form: participle
+  expected: kuru
+---
+lemma: suru
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: se
+- features:
+    mood: imperative
+  expected: seyo
+- features:
+    mood: indicative
+    tense: past
+  expected: sure
+- features:
+    mood: indicative
+    tense: present
+  expected: su
+- features:
+    mood: subjunctive
+    verb_form: converb
+  expected: si
+- features:
+    verb_form: participle
+  expected: sura
+---
+lemma: tadasi
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: tadasiku
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: tadasi
+- features:
+    mood: conditional
+  expected: tadasikere
+- features:
+    verb_form: converb
+  expected: tadasiku
+- features:
+    verb_form: participle
+  expected: tadasiki
+---
+lemma: takasi
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: takaku
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: takasi
+- features:
+    mood: conditional
+  expected: takakere
+- features:
+    verb_form: converb
+  expected: takaku
+- features:
+    verb_form: participle
+  expected: takaki

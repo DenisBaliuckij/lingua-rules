@@ -1,0 +1,75 @@
+lemma: paltuk
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    number: plural
+    person: third
+    tense: present
+  expected: paltuk
+- features:
+    aspect: progressive
+    number: singular
+    person: third
+    tense: present
+  expected: paltuk
+- features:
+    number: plural
+    person: first
+    tense: future
+  expected: palûhûk
+- features:
+    number: plural
+    person: first
+    tense: past
+  expected: palehe
+- features:
+    number: plural
+    person: second
+    tense: future
+  expected: palûhûp
+- features:
+    number: plural
+    person: second
+    tense: past
+  expected: palehep
+- features:
+    number: plural
+    person: third
+    tense: future
+  expected: palûhûp
+- features:
+    number: plural
+    person: third
+    tense: past
+  expected: palehesa
+- features:
+    number: singular
+    person: first
+    tense: future
+  expected: palûhûk
+- features:
+    number: singular
+    person: first
+    tense: past
+  expected: palîhî
+- features:
+    number: singular
+    person: second
+    tense: future
+  expected: palûhûn
+- features:
+    number: singular
+    person: second
+    tense: past
+  expected: palehen
+- features:
+    number: singular
+    person: third
+    tense: future
+  expected: palûhû
+- features:
+    number: singular
+    person: third
+    tense: past
+  expected: palehek

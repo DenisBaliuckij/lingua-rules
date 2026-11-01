@@ -1,0 +1,213 @@
+lemma: ap
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ap
+- features:
+    number: singular
+    person: second
+  expected: up
+- features:
+    number: singular
+    person: third
+  expected: paina
+---
+lemma: ap-ta
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: au-pas-matain
+- features:
+    number: dual
+    person: second
+  expected: u-pas-matain
+- features:
+    number: dual
+    person: third
+  expected: uspa-pas-matain
+- features:
+    number: plural
+    person: first
+  expected: aumatain
+- features:
+    number: plural
+    person: second
+  expected: umatain
+- features:
+    number: plural
+    person: third
+  expected: uspa-tuspa-matain
+- features:
+    number: singular
+    person: first
+  expected: ap-ta
+- features:
+    number: singular
+    person: second
+  expected: up-matain
+- features:
+    number: singular
+    person: third
+  expected: paina-matain
+---
+lemma: au
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: au
+- features:
+    number: plural
+    person: second
+  expected: u
+- features:
+    number: plural
+    person: third
+  expected: uspa
+---
+lemma: au-pas
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: au-pas
+- features:
+    number: dual
+    person: second
+  expected: u-pas
+- features:
+    number: dual
+    person: third
+  expected: uspa-pas
+---
+lemma: aupas
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: aupas
+- features:
+    number: dual
+    person: second
+  expected: upas
+- features:
+    number: dual
+    person: third
+  expected: uspapas
+---
+lemma: min-waza
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: min-waza
+---
+lemma: mm
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: m m -a
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: mm
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: nawa
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: au
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: na
+- features:
+    number: singular
+    person: first
+  expected: na
+- features:
+    number: singular
+    person: second
+  expected: nu
+- features:
+    number: singular
+    person: third
+  expected: us
+---
+lemma: nu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: nuwa
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: u
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: nu
+---
+lemma: shi
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: shi
+---
+lemma: shi-waza
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: shi-waza
+---
+lemma: us
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: usa
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: uspa
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: us

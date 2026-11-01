@@ -1,0 +1,120 @@
+lemma: khiru
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: khjatan
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: present
+  expected: khjan
+- features:
+    aspect: perfective
+    tense: past
+    verb_form: participle
+  expected: khjataru
+- features:
+    aspect: perfective
+    tense: present
+    verb_form: participle
+  expected: khjaru
+- features:
+    mood: imperative
+  expected: khiri
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: khiranutan
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: khiranun
+- features:
+    mood: indicative
+    tense: past
+  expected: khitan
+- features:
+    mood: indicative
+    tense: present
+  expected: khirun
+- features:
+    polarity: negative
+    tense: past
+    verb_form: participle
+  expected: khiranutaru
+- features:
+    polarity: negative
+    tense: present
+    verb_form: participle
+  expected: khiranu
+- features:
+    tense: past
+    verb_form: participle
+  expected: khitaru
+- features:
+    tense: present
+    verb_form: participle
+  expected: khiru
+---
+lemma: thaga-an
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: conditional
+    tense: present
+  expected: thagar-ja
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: thaga-n
+- features:
+    aspect: imperfective
+    tense: present
+  expected: thaga-nu
+- features:
+    aspect: imperfective
+    tense: present
+    verb_form: converb
+  expected: thagar-u-ba
+- features:
+    aspect: imperfective
+    tense: present
+    verb_form: participle
+  expected: thaga-ru
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: thaga-ta-n
+- features:
+    aspect: perfective
+    tense: past
+    verb_form: participle
+  expected: thaga-ta-ru
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: thaga-minu-ta-n
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: thaga-minu-n
+- features:
+    polarity: negative
+    tense: past
+    verb_form: participle
+  expected: thaga-minu-ta-ru
+- features:
+    polarity: negative
+    tense: present
+    verb_form: participle
+  expected: thaga-minu

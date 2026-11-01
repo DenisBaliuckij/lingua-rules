@@ -1,0 +1,272 @@
+lemma: koonemah
+category: verbs
+cases:
+- features:
+    mood: potential
+    number: plural
+    person: first
+    tense: imperfect
+  expected: koonemahnedahgeahyahmin
+- features:
+    mood: potential
+    number: plural
+    person: first
+    tense: present
+  expected: koonemahnedahahyahmin
+- features:
+    mood: potential
+    number: plural
+    person: second
+    tense: present
+  expected: koonemahkedahahyaum
+- features:
+    mood: potential
+    number: plural
+    person: third
+    tense: present
+  expected: koonemahdahahyahwug
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: imperfect
+  expected: koonemahnedahgeahyah
+- features:
+    mood: potential
+    number: singular
+    person: first
+    tense: present
+  expected: koonemahnedahahyah
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: imperfect
+  expected: koonemahkedahgeahyah
+- features:
+    mood: potential
+    number: singular
+    person: second
+    tense: present
+  expected: koonemahkedahahyah
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: imperfect
+  expected: koonemahtahgeahyah
+- features:
+    mood: potential
+    number: singular
+    person: third
+    tense: present
+  expected: koonemahdahahyah
+---
+lemma: zhahwane
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    voice: passive
+  expected: chezhahwanemegoong
+- features:
+    aspect: perfective
+    voice: passive
+  expected: chegezhahwanemegoong
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+    voice: passive
+  expected: negahzhahwanemegoomin
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future_perfect
+    voice: passive
+  expected: negahgezhahwanemegoomin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+    voice: passive
+  expected: tahzhahwanemahwug
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+    voice: passive
+  expected: negahzhahwanemegoo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future_perfect
+    voice: passive
+  expected: negahgezhahwanemegoo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+    voice: passive
+  expected: kegahzhahwanemegoo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future_perfect
+    voice: passive
+  expected: kegahgezhahwanemegoo
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+  expected: tazhahwanemah
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future_perfect
+    voice: passive
+  expected: tahgezhahwanemah
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: past
+    voice: passive
+  expected: zhahwanemegooyaiggoobun
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: past
+    voice: passive
+  expected: zhahwanemegooyonggebun
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: zhahwanemegooyaun
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: past
+    voice: passive
+  expected: zhahwanemindwahbun
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: zhahwanemegooyun
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: past
+    voice: passive
+  expected: zhahwanemegooyonggebun
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: zhahwanemind
+- features:
+    verb_form: past_participle
+    voice: passive
+  expected: zhahwanemind
+- features:
+    verb_form: present_participle
+    voice: passive
+  expected: zhahwanemegoong
+---
+lemma: zhahwanemahbun
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: nezhahwanemegoomenahbun
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kezhahwanemegoomwahbun
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: zhahwanemahbahneeg
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nezhahwanemegoonahbun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kezhahwanemegoonahbun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: zhahwanemahbun
+---
+lemma: zhawanega
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nezhahwanegamin
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kezhahwanegaim
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: zhahwanegawug
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nezhahwanega
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kezhahwanega
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: zhawanega

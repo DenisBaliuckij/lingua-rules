@@ -1,0 +1,325 @@
+lemma: dk'^n
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tc'-dk^n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kup'-d'k^n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: dku'n-ilc
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tcin-d'k^n
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ku'-d'k'^n
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: dk^n
+---
+lemma: gwitc
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tcgwitc
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kup-gwi'tc
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: gwi'tc-ilc
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tcin-gnn'tc
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ku-gwi'tc
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: gwitc
+---
+lemma: hm-xil
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tc'-in-xi't
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kup^-in-xi'l
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: hin-xi'l-ilc
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tcm-m-xi't
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ku-n-xi'l
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: n-xi't
+---
+lemma: nitc
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tc-ni'tc-Em
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kup-ni'tc-Em
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tcm-ni'tc-Em
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ku-ni'tc-Em
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ni'tc-Em
+---
+lemma: t'ap-stcdnt
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kup-td-t'ap-stcd'nt
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: t'a-ihp-stcd'nt
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tcin-(dp-stcd'nt
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ku-t'ap-stcd'nt
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: t'ap-stcd'nt
+---
+lemma: x^dt'-p
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tcm-x'^d't'-p
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tcirits-x^dfp
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ku^-x'^dt'-p
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ku'Hs-x^d'fp
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: x'^dt'-p
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dts-x^d'fp
+---
+lemma: xds
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: u-tc-xd's
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: u-kup-xd's
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: u-tcin-xd's
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: u-ku-xd's
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: u-xd's
+---
+lemma: xds-t
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tc-xds-t
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kup-xd's-t
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: xd's-t-dc
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: a^s-ya's^t^c
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tcin-xd's-t
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tcirits-xd'st
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ku^-xd's-t
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ku'Hs-xd'st
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: xds-t
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dts-xd'st

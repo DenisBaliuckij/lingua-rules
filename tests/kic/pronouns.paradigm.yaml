@@ -1,0 +1,103 @@
+lemma: iin
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: iineeke
+- features:
+    animacy: animate
+    number: singular
+  expected: iinaaka
+- features:
+    animacy: inanimate
+    number: singular
+  expected: iine
+---
+lemma: iini
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: iinieeke
+- features:
+    animacy: animate
+    number: singular
+  expected: iinia
+- features:
+    animacy: inanimate
+    number: plural
+  expected: iinieene
+- features:
+    animacy: inanimate
+    number: singular
+  expected: iinie
+---
+lemma: kotak
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: kotaki
+- features:
+    animacy: animate
+    number: singular
+  expected: kotaka
+- features:
+    animacy: inanimate
+    number: plural
+  expected: kotakani
+- features:
+    animacy: inanimate
+    number: singular
+  expected: kotaki
+---
+lemma: maa
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: maeeke
+- features:
+    animacy: animate
+    number: singular
+  expected: maaaka
+- features:
+    animacy: inanimate
+    number: singular
+  expected: maae
+---
+lemma: man
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: maahaki
+- features:
+    animacy: animate
+    number: singular
+  expected: mana
+- features:
+    animacy: inanimate
+    number: singular
+  expected: mani
+---
+lemma: n
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: iiniki
+- features:
+    animacy: animate
+    number: singular
+  expected: ina
+- features:
+    animacy: inanimate
+    number: singular
+  expected: iini

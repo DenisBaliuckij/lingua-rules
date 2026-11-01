@@ -1,0 +1,133 @@
+lemma: Inyam-I
+category: pronouns
+cases:
+- features:
+    gender: feminine
+  expected: nyamarni
+- features:
+    gender: masculine
+  expected: nyama
+- features:
+    gender: neuter
+  expected: nyambala
+- features:
+    noun_class: class_15
+  expected: nyambala
+---
+lemma: acc
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: ngarn
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: niyi
+- features:
+    number: dual
+    person: first
+  expected: mindak
+- features:
+    number: dual
+    person: second
+  expected: kunyak
+- features:
+    number: dual
+    person: third
+  expected: wunyak
+- features:
+    number: plural
+    person: first
+  expected: ngurrak
+- features:
+    number: plural
+    person: second
+  expected: kurrak
+- features:
+    number: plural
+    person: third
+  expected: wurrak
+- features:
+    number: singular
+    person: first
+  expected: ngarr
+- features:
+    number: singular
+    person: second
+  expected: ngaank
+---
+lemma: ingin-j
+category: pronouns
+cases:
+- features:
+    gender: feminine
+  expected: ngina
+- features:
+    gender: masculine
+  expected: nginda
+- features:
+    gender: neuter
+  expected: ngini
+- features:
+    noun_class: class_15
+  expected: ngima
+---
+lemma: inyin-j
+category: pronouns
+cases:
+- features:
+    gender: feminine
+  expected: nyina
+- features:
+    gender: masculine
+  expected: nyinda
+- features:
+    gender: neuter
+  expected: nyini
+- features:
+    noun_class: class_15
+  expected: nyima
+---
+lemma: ngaya
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: nginyiyila
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ngurrawala
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ngaya
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: nyama
+- features:
+    number: dual
+    person: first
+  expected: nginyiyila
+- features:
+    number: plural
+    person: first
+  expected: ngurrawala
+- features:
+    number: singular
+    person: first
+  expected: ngaya
+- features:
+    number: singular
+    person: second
+  expected: nyama

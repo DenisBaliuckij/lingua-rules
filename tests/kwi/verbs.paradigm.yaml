@@ -1,0 +1,91 @@
+lemma: pana
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: panaois
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: panartarw
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: panas
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: pananizi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: panartis
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: panay
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: panatizi
+---
+lemma: uz
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: uzanis
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: uzataw
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: uzis
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: uzantzi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: uzatis
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: uzi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: uzattzi
