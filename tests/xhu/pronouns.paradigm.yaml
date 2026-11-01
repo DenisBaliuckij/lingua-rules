@@ -1,0 +1,62 @@
+lemma: anni
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+  expected: anni
+---
+lemma: fe
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: second
+  expected: fe
+---
+lemma: ište
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: first
+  expected: ište
+---
+lemma: tta
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tilla
+- features:
+    number: plural
+    person: second
+  expected: ppa
+- features:
+    number: plural
+    person: third
+  expected: lla
+- features:
+    number: singular
+    person: first
+  expected: tta
+- features:
+    number: singular
+    person: second
+  expected: mma
+- features:
+    number: singular
+    person: third
+  expected: nna
+---
+lemma: šattilla
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+    person: first
+  expected: šattilla

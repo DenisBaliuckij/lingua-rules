@@ -1,0 +1,28 @@
+lemma: V
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: V⸗i⸗ž
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: V⸗i⸗ž
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: V⸗
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: V⸗a
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: V⸗

@@ -1,0 +1,103 @@
+lemma: a-ni
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ci-ni
+- features:
+    number: plural
+    person: second
+  expected: naŋ-ni
+- features:
+    number: plural
+    person: third
+  expected: braŋ-ni
+- features:
+    number: singular
+    person: first
+  expected: a-ni
+- features:
+    number: singular
+    person: second
+  expected: in-ni
+- features:
+    number: singular
+    person: third
+  expected: bin-ni
+---
+lemma: aŋ
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: bɔ-rɔk
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: bɔ
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: kɔ-rɔk
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: kɔ
+- features:
+    number: plural
+    person: first
+  expected: cuŋ
+- features:
+    number: plural
+    person: second
+  expected: naŋ
+- features:
+    number: plural
+    person: third
+  expected: braŋ
+- features:
+    number: singular
+    person: first
+  expected: aŋ
+- features:
+    number: singular
+    person: second
+  expected: nuŋ
+- features:
+    number: singular
+    person: third
+  expected: bo
+---
+lemma: aŋ-no
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: cuŋ-no
+- features:
+    number: plural
+    person: second
+  expected: naŋ.no
+- features:
+    number: plural
+    person: third
+  expected: braŋ-no
+- features:
+    number: singular
+    person: first
+  expected: aŋ-no
+- features:
+    number: singular
+    person: second
+  expected: in-no
+- features:
+    number: singular
+    person: third
+  expected: bo-no

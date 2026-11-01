@@ -1,0 +1,37 @@
+lemma: nena
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: neni
+- features:
+    gender: masculine
+    number: singular
+    person: first
+  expected: nena
+---
+lemma: ya
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: dual
+    person: third
+  expected: yei
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: rere
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: yei
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: ya

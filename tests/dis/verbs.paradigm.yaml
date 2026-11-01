@@ -1,0 +1,22 @@
+lemma: khalái
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: khalái
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: khalaithung
+- features:
+    verb_form: infinitive
+  expected: khaláima
+- features:
+    verb_form: past_participle
+  expected: khaláidada
+- features:
+    verb_form: present_participle
+  expected: khalilihi

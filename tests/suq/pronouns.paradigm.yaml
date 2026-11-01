@@ -1,0 +1,55 @@
+lemma: ape
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: age
+- features:
+    number: plural
+    person: second
+  expected: ige
+- features:
+    number: plural
+    person: third
+  expected: yo
+- features:
+    number: singular
+    person: first
+  expected: ape
+- features:
+    number: singular
+    person: second
+  expected: ipe
+- features:
+    number: singular
+    person: third
+  expected: 'no'
+---
+lemma: ena
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: ena
+---
+lemma: eygo
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: eygo
+---
+lemma: gena
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: gena
+---
+lemma: kona
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: kona

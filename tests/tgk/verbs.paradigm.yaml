@@ -1,0 +1,139 @@
+lemma: budan
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: bas-ad
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: na-bas-id
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bas!
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: bas-ad
+---
+lemma: raftan
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: mi-raft-im
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: mi-raft-id
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: mi-raft-and
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: mi-raft-am
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: mi-raft-i
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: mi-raft
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mi-rafl-ad
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: raftim
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: raftid
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: raftand
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: raftam
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: rafti
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: raft
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: raft
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: mi-raft
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: raft

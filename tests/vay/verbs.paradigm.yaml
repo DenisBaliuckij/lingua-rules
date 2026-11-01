@@ -1,0 +1,45 @@
+lemma: amar
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: amaré
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: amaba
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: amo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: amé
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: future
+  expected: amare
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: imperfect
+  expected: amara
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: ame

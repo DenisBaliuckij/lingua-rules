@@ -1,0 +1,47 @@
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ku
+- features:
+    number: plural
+    person: first
+  expected: mpa
+- features:
+    number: plural
+    person: second
+  expected: kame
+- features:
+    number: singular
+    person: first
+  expected: i
+- features:
+    number: singular
+    person: second
+  expected: a-t&
+---
+lemma: wa
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ku
+- features:
+    number: plural
+    person: first
+  expected: mpa
+- features:
+    number: plural
+    person: second
+  expected: kame
+- features:
+    number: singular
+    person: first
+  expected: wa
+- features:
+    number: singular
+    person: second
+  expected: ka

@@ -1,0 +1,115 @@
+lemma: di ̱¹
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: di ̱¹
+---
+lemma: nii³
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: nii³
+---
+lemma: no³
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: dual
+    person: third
+  expected: ro̱j¹ no³
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: nij³ no³
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: no³
+---
+lemma: ro̱¹
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ro̱¹
+---
+lemma: so̱¹
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: ro̱j¹ so̱j¹³
+- features:
+    number: plural
+    person: second
+  expected: soj³
+- features:
+    number: singular
+    person: second
+  expected: so̱¹
+---
+lemma: so³
+category: pronouns
+cases:
+- features:
+    gender: masculine
+    number: dual
+    person: third
+  expected: ro̱j¹ so³
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: nij³ so³
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: so³
+---
+lemma: xo³
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: dual
+    person: third
+  expected: ro̱j¹ xo³
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: nij³ xo³
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: xo³
+---
+lemma: yo³
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: dual
+    person: third
+  expected: ro̱j¹ yo³
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: nij³ yo³
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: yo³

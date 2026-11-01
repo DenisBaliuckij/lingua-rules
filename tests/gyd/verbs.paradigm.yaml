@@ -1,0 +1,65 @@
+lemma: kaɳaca
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: present
+  expected: kaɳacia
+- features:
+    mood: imperative
+  expected: kaɳaca
+- features:
+    mood: optative
+  expected: kaɳaɲara
+- features:
+    mood: potential
+  expected: kaɳacuː
+- features:
+    mood: potential
+    polarity: negative
+  expected: kaɳanaŋkuː
+- features:
+    tense: past
+  expected: kaɳacara
+---
+lemma: palat ̪a
+category: verbs
+cases:
+- features:
+    mood: optative
+  expected: palan̪ara
+- features:
+    mood: potential
+  expected: palata
+- features:
+    mood: potential
+    polarity: negative
+  expected: palanaŋkuː
+---
+lemma: pati
+category: verbs
+cases:
+- features:
+    mood: optative
+  expected: patiɲara
+- features:
+    mood: potential
+  expected: patita
+- features:
+    mood: potential
+    polarity: negative
+  expected: patinaŋkuː
+---
+lemma: puɻu
+category: verbs
+cases:
+- features:
+    mood: optative
+  expected: puɻun̪ara
+- features:
+    mood: potential
+  expected: puɻuta
+- features:
+    mood: potential
+    polarity: negative
+  expected: puɻunaŋkuː

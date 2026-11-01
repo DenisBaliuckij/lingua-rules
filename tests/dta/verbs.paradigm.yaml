@@ -1,0 +1,190 @@
+lemma: jau
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ue-$asan-ba
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: u%+a:san-ta
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: u+-%arsan-bi
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: u+-+arb-Ji
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ue+a:b-sul
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: jau-san-ta
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: jau-bai-ta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: jau-san-bi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: jau-bai-Ji
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: jau-san-J
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: jau-bai-Ji
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: jau-san-sul
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: jau-bai-sul
+---
+lemma: mart
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: mart-gui-baa
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: mart-gui-taa
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: mart-gui-sul
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: mart-gui-by
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: mart-gui-sh
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: martgui
+---
+lemma: yau
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: yau-bei-baa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: yau-bei-taa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: yau-bei-sul
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: yau-bei-by
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: yau-bei-sh
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: yaubei
+- features:
+    number: plural
+    person: first
+    verb_form: participle
+  expected: yau-sem-baa
+- features:
+    number: plural
+    person: second
+    verb_form: participle
+  expected: yau-sen-taa
+- features:
+    number: plural
+    person: third
+    verb_form: participle
+  expected: yau-sen-sul
+- features:
+    number: singular
+    person: first
+    verb_form: participle
+  expected: yau-sem-by
+- features:
+    number: singular
+    person: second
+    verb_form: participle
+  expected: yau-sen-sh
+- features:
+    number: singular
+    person: third
+    verb_form: participle
+  expected: yauseng

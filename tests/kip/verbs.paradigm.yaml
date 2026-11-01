@@ -1,0 +1,54 @@
+lemma: V
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: ci-n-ke
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ci-ke
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ni-ke
+- features:
+    number: dual
+    person: first
+  expected: gi-n-V-ni-T
+- features:
+    number: dual
+    person: second
+  expected: ji-n-V-na-T
+- features:
+    number: dual
+    person: third
+  expected: V-na-T-ni
+- features:
+    number: plural
+    person: first
+  expected: ge-V-ni-T
+- features:
+    number: plural
+    person: second
+  expected: je-V-na-T
+- features:
+    number: plural
+    person: third
+  expected: V-na-T-r˙
+- features:
+    number: singular
+    person: first
+  expected: ≥a-V-ni-T
+- features:
+    number: singular
+    person: second
+  expected: n˙-V-na-T
+- features:
+    number: singular
+    person: third
+  expected: V-na-T

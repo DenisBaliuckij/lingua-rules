@@ -1,0 +1,245 @@
+lemma: H
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mu
+- features:
+    number: plural
+    person: second
+  expected: wu
+- features:
+    number: plural
+    person: third
+  expected: ti
+- features:
+    number: singular
+    person: first
+  expected: H
+- features:
+    number: singular
+    person: second
+  expected: x
+- features:
+    number: singular
+    person: third
+  expected: L
+---
+lemma: m
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mu
+- features:
+    number: plural
+    person: second
+  expected: wu
+- features:
+    number: plural
+    person: third
+  expected: ti
+- features:
+    number: singular
+    person: first
+  expected: m
+- features:
+    number: singular
+    person: second
+  expected: i
+- features:
+    number: singular
+    person: third
+  expected: ngi
+---
+lemma: ngaa
+category: pronouns
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: ngaa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: ngaa
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: maa
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: maa
+- features:
+    number: plural
+    person: second
+  expected: waa
+- features:
+    number: plural
+    person: third
+  expected: taa
+- features:
+    number: singular
+    person: second
+  expected: yaa
+- features:
+    number: singular
+    person: third
+  expected: aa
+---
+lemma: nge
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: muye
+- features:
+    number: plural
+    person: second
+  expected: wuye
+- features:
+    number: plural
+    person: third
+  expected: tiye
+- features:
+    number: singular
+    person: first
+  expected: nge
+- features:
+    number: singular
+    person: second
+  expected: iye
+- features:
+    number: singular
+    person: third
+  expected: la
+---
+lemma: ngi
+category: pronouns
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: ngi
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: mu
+- features:
+    number: plural
+    person: second
+  expected: wu
+- features:
+    number: plural
+    person: third
+  expected: ti
+- features:
+    number: singular
+    person: second
+  expected: yi
+- features:
+    number: singular
+    person: third
+  expected: i
+---
+lemma: ngoo
+category: pronouns
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: ngoo
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: moo
+- features:
+    number: plural
+    person: second
+  expected: woo
+- features:
+    number: plural
+    person: third
+  expected: too
+- features:
+    number: singular
+    person: second
+  expected: yoo
+---
+lemma: nya
+category: pronouns
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: nya
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: muya
+- features:
+    number: plural
+    person: second
+  expected: wuya
+- features:
+    number: plural
+    person: third
+  expected: tia
+- features:
+    number: singular
+    person: second
+  expected: ya
+- features:
+    number: singular
+    person: third
+  expected: aa
+---
+lemma: nyalaa
+category: pronouns
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: nyalaa
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: malaa
+- features:
+    number: plural
+    person: second
+  expected: walaa
+- features:
+    number: plural
+    person: third
+  expected: talaa
+- features:
+    number: singular
+    person: second
+  expected: yalaa
+- features:
+    number: singular
+    person: third
+  expected: alaa

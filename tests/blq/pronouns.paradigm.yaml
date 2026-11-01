@@ -1,0 +1,48 @@
+lemma: ta
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tarau
+- features:
+    number: dual
+    person: second
+  expected: tau
+- features:
+    number: dual
+    person: third
+  expected: tau
+- features:
+    number: plural
+    person: first
+  expected: tararap
+- features:
+    number: plural
+    person: second
+  expected: tap
+- features:
+    number: plural
+    person: third
+  expected: taip
+- features:
+    number: singular
+    person: first
+  expected: tang
+- features:
+    number: singular
+    person: second
+  expected: tao
+- features:
+    number: singular
+    person: third
+  expected: tai
+- features:
+    person: first
+  expected: tararê
+- features:
+    person: second
+  expected: tarê
+- features:
+    person: third
+  expected: tairê

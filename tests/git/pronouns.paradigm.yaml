@@ -1,0 +1,159 @@
+lemma: as 'nii'y
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: as 'nuu'm
+- features:
+    number: plural
+    person: second
+  expected: as 'nisi'm
+- features:
+    number: plural
+    person: third
+  expected: as 'nidiit
+- features:
+    number: singular
+    person: first
+  expected: as 'nii'y
+- features:
+    number: singular
+    person: second
+  expected: as 'niin
+- features:
+    number: singular
+    person: third
+  expected: as 'nit
+---
+lemma: asun
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: as dipust
+- features:
+    number: singular
+    person: first
+  expected: asun
+- features:
+    number: singular
+    person: second
+  expected: as dipun
+- features:
+    number: singular
+    person: third
+  expected: asust
+---
+lemma: dipun
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: dipun
+---
+lemma: dipust
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: dipust
+---
+lemma: loo'y
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: loo'm
+- features:
+    number: plural
+    person: second
+  expected: loosi'm
+- features:
+    number: plural
+    person: third
+  expected: loodiit
+- features:
+    number: singular
+    person: first
+  expected: loo'y
+- features:
+    number: singular
+    person: second
+  expected: loon
+- features:
+    number: singular
+    person: third
+  expected: loot
+---
+lemma: ni
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: dip
+- features:
+    number: plural
+    person: second
+  expected: sim
+- features:
+    number: plural
+    person: third
+  expected: diit
+- features:
+    number: singular
+    person: first
+  expected: ni
+- features:
+    number: singular
+    person: second
+  expected: mi
+- features:
+    number: singular
+    person: third
+  expected: t
+---
+lemma: nii'y
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: nisi'm
+- features:
+    number: plural
+    person: third
+  expected: nidiit
+- features:
+    number: singular
+    person: first
+  expected: nii'y
+- features:
+    number: singular
+    person: second
+  expected: niin
+- features:
+    number: singular
+    person: third
+  expected: nit
+---
+lemma: tun
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: tun
+---
+lemma: tust
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: tust

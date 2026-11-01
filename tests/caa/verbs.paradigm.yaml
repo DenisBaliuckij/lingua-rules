@@ -1,0 +1,289 @@
+lemma: achpa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: achpen
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: achpet
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: achpa
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: ka’chpa
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: ixachpa
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: a’chpo’b
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: a’nchpa
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: ya’chpa
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: a’chpa
+---
+lemma: ch’ujy
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ch’ujyo’n
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kach’ujya
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ch’ujyo’x
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ixch’ujya
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ch’ujyob
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ach’ujyob
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ch’ujye’n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: inch’ujya
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ch’ujye’t
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ich’ujya
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ch’ujya
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ach’ujya
+---
+lemma: ch’uy
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kach’uyi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ich’uye’n
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: uch’uye’no’b
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ch’uyme’n
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ch’uyme’t
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ch’uyma
+---
+lemma: taryo
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: taryo’n
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: taryo’x
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: taryo’b
+---
+lemma: tz’na
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ujtz’no’n
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kawujtz’na
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: ujtz’no’x
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ixwujtz’na
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: ujtzn’ob
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: awujtz’nob
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ujtz’ne’n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: u’ntz’na
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ujtz’ne’t
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: iwujtz’na
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ujtz’na
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: awujtz’na
+---
+lemma: usr
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ko’sre
+- features:
+    number: plural
+    person: second
+  expected: yu’sre
+- features:
+    number: plural
+    person: third
+  expected: uyusryob
+- features:
+    number: singular
+    person: first
+  expected: u’nsre
+- features:
+    number: singular
+    person: third
+  expected: uyusre

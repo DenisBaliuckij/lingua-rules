@@ -1,0 +1,75 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: a
+---
+lemma: be
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: be
+---
+lemma: ie
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: ie
+---
+lemma: ie'pa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ie'pa
+---
+lemma: sa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: sa
+---
+lemma: se
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: se
+---
+lemma: ye
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: se
+- features:
+    number: plural
+    person: second
+  expected: a
+- features:
+    number: plural
+    person: third
+  expected: ie’pa
+- features:
+    number: singular
+    person: first
+  expected: ye
+- features:
+    number: singular
+    person: second
+  expected: be
+- features:
+    number: singular
+    person: third
+  expected: ie

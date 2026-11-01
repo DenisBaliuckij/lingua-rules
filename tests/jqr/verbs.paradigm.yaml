@@ -1,0 +1,35 @@
+lemma: jas
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: jasa.tna
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: jas.ushtma
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: jas.ushtp"a
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: jas.mama
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: jas.utma
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: jas.utp"a

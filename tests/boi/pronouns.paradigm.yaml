@@ -1,0 +1,79 @@
+lemma: heʼ
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: heʼwun
+- features:
+    number: singular
+  expected: heʼ
+---
+lemma: hoʼ
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: hoʼwun
+- features:
+    number: singular
+  expected: hoʼ
+---
+lemma: kam
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: kamwun
+- features:
+    number: singular
+  expected: kam
+---
+lemma: kikš
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: kikšwun
+- features:
+    number: plural
+    person: third
+  expected: kikšwun
+- features:
+    number: singular
+  expected: kikš
+- features:
+    number: singular
+    person: third
+  expected: kikš
+---
+lemma: noʼ
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kiškɨʼ
+- features:
+    number: plural
+    person: first
+  expected: kiykɨʼ
+- features:
+    number: singular
+    person: first
+  expected: noʼ
+---
+lemma: piʼ
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: piškɨʼ
+- features:
+    number: plural
+    person: second
+  expected: piykɨʼ
+- features:
+    number: singular
+    person: second
+  expected: piʼ

@@ -1,0 +1,56 @@
+lemma: karri
+category: verbs
+cases:
+- features:
+    mood: indicative
+    person: third
+    tense: future
+  expected: karriØ
+- features:
+    mood: indicative
+    person: third
+    tense: past
+  expected: kayi-rnta
+- features:
+    mood: indicative
+    person: third
+    tense: present
+  expected: karrirri
+- features:
+    mood: optative
+    person: third
+  expected: karriyirnta
+- features:
+    person: third
+  expected: karrimpi
+---
+lemma: ya
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: yanangka-yan
+- features:
+    aspect: perfective
+    tense: past
+  expected: yaa-nu
+- features:
+    mood: imperative
+  expected: yarra
+- features:
+    mood: indicative
+    polarity: negative
+    tense: past
+  expected: yaa-nmarnta
+- features:
+    mood: indicative
+    polarity: negative
+    tense: present
+  expected: yanangka-yanma
+- features:
+    mood: optative
+  expected: yaa-nmara
+- features:
+    tense: future
+  expected: yaa-n

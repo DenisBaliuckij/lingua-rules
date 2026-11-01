@@ -1,0 +1,225 @@
+lemma: au
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: first
+  expected: au
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: ia au
+---
+lemma: aē-ni
+category: pronouns
+cases:
+- features:
+    person: first
+  expected: aē-ni
+- features:
+    person: second
+  expected: aē-nā
+- features:
+    person: third
+  expected: aē age
+---
+lemma: ina
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: third
+  expected: ina
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: ia ia
+---
+lemma: ke
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: second
+  expected: ke
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: ia koe
+---
+lemma: kita
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: first
+  expected: kita
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: ia kita
+---
+lemma: ko-'enī
+category: pronouns
+cases:
+- features:
+    person: first
+  expected: ko-'enī
+- features:
+    person: second
+  expected: ko-'enā
+---
+lemma: kolua
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: dual
+    person: second
+  expected: kolua
+- features:
+    case: ergative
+    number: dual
+    person: second
+  expected: ia kolua
+---
+lemma: kotou
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+    person: second
+  expected: kotou
+- features:
+    case: ergative
+    number: plural
+    person: second
+  expected: ia koutou
+---
+lemma: ma
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: dual
+    person: first
+  expected: ma
+---
+lemma: matou
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+    person: first
+  expected: matou
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: ia mātou
+---
+lemma: nā
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: dual
+    person: third
+  expected: nā
+- features:
+    case: ergative
+    number: dual
+    person: third
+  expected: ia nāua
+---
+lemma: nātou
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+    person: third
+  expected: nātou
+- features:
+    case: ergative
+    number: plural
+    person: third
+  expected: ia nātou
+---
+lemma: ta
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: dual
+    person: first
+  expected: ta
+- features:
+    case: ergative
+    number: dual
+    person: first
+  expected: ia tāua
+---
+lemma: ta‘a ‘aku
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ta‘a ‘amā
+- features:
+    number: dual
+    person: second
+  expected: ta‘a ‘alua
+- features:
+    number: dual
+    person: third
+  expected: ta‘a ‘anā
+- features:
+    number: plural
+    person: first
+  expected: ta‘a ‘amatou
+- features:
+    number: plural
+    person: second
+  expected: ta‘a ‘akotou
+- features:
+    number: plural
+    person: third
+  expected: ta‘a ‘anatou
+- features:
+    number: singular
+    person: first
+  expected: ta‘a ‘aku
+- features:
+    number: singular
+    person: second
+  expected: ta‘a ‘au
+- features:
+    number: singular
+    person: third
+  expected: ta‘a ‘ana
+---
+lemma: tou
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+    person: first
+  expected: tou
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: ia tātou

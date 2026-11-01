@@ -1,0 +1,19 @@
+lemma: æmama
+category: nouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: wamama
+- features:
+    number: singular
+    person: first
+  expected: ææmama
+- features:
+    number: singular
+    person: second
+  expected: aimama
+- features:
+    number: singular
+    person: third
+  expected: æmama

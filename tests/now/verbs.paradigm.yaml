@@ -1,0 +1,139 @@
+lemma: rima
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: tu-ci-ríma
+- features:
+    aspect: habitual
+    number: plural
+    person: first
+    polarity: negative
+  expected: ti-tú-ci-rima
+- features:
+    aspect: habitual
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: n-ci-ríma
+- features:
+    aspect: habitual
+    number: singular
+    person: first
+    polarity: negative
+  expected: tí-n-ci-rima
+- features:
+    aspect: perfective
+    mood: conditional
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: tu-káá-rim-ire
+- features:
+    aspect: perfective
+    mood: conditional
+    number: plural
+    person: first
+    polarity: negative
+  expected: tí-tw-a-ku-rim-ire
+- features:
+    aspect: perfective
+    mood: conditional
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: n-káá-rim-ire
+- features:
+    aspect: perfective
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+  expected: tí-n-ku-rim-ire
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: tu-cáá-rima
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: ti-tú-cáá-rima
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: n-cáá-rima
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: tí-n-cáá-rima
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: tu-káá-rima
+- features:
+    mood: conditional
+    number: plural
+    person: first
+    polarity: negative
+  expected: tí-tw-a-ku-rima
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: n-káá-rima
+- features:
+    mood: conditional
+    number: singular
+    person: first
+    polarity: negative
+  expected: tí-n-ku-rima
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: tu-ri-ríma
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: future
+  expected: ti-tu-rí-rima
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: n-di-ríma
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: ti-n-dí-rima

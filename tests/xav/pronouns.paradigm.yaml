@@ -1,0 +1,121 @@
+lemma: mahã
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: mahawi
+- features:
+    case: locative
+    number: singular
+  expected: mahã
+- features:
+    number: singular
+  expected: mame
+---
+lemma: wa
+category: pronouns
+cases:
+- features:
+    case: dative
+    formality: formal
+    number: singular
+    person: second
+  expected: aasima
+- features:
+    case: dative
+    formality: informal
+    number: singular
+    person: second
+  expected: asima
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: wasima
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: ĩĩsima
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: sima
+- features:
+    case: instrumental
+    formality: formal
+    number: singular
+    person: second
+  expected: aasina
+- features:
+    case: instrumental
+    formality: informal
+    number: singular
+    person: second
+  expected: asina
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: wasina
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: ĩĩsina
+- features:
+    case: instrumental
+    number: singular
+    person: third
+  expected: sina
+- features:
+    case: locative
+    formality: formal
+    number: singular
+    person: second
+  expected: aasiãma
+- features:
+    case: locative
+    formality: informal
+    number: singular
+    person: second
+  expected: asiãma
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: wasiãma
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: ĩĩsiãma
+- features:
+    case: locative
+    number: singular
+    person: third
+  expected: siãma
+- features:
+    formality: formal
+    number: singular
+    person: second
+  expected: aasiré
+- features:
+    formality: informal
+    number: singular
+    person: second
+  expected: asiré
+- features:
+    number: plural
+    person: first
+  expected: wasiré
+- features:
+    number: singular
+    person: first
+  expected: ĩĩsiré
+- features:
+    number: singular
+    person: third
+  expected: siré

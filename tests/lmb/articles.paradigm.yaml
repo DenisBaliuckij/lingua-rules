@@ -1,0 +1,39 @@
+lemma: al
+category: articles
+cases:
+- features:
+    number: singular
+  expected: al
+---
+lemma: i
+category: articles
+cases:
+- features:
+    number: dual
+  expected: iarau
+- features:
+    number: plural
+  expected: iadu
+- features:
+    number: singular
+  expected: i
+---
+lemma: ia
+category: articles
+cases:
+- features:
+    number: dual
+  expected: iarau
+- features:
+    number: plural
+  expected: iadu
+- features:
+    number: singular
+  expected: ia
+---
+lemma: Ø
+category: articles
+cases:
+- features:
+    number: singular
+  expected: Ø

@@ -1,0 +1,32 @@
+lemma: ha
+category: verbs
+cases:
+- features:
+    aspect: perfective
+  expected: hi
+- features:
+    aspect: progressive
+  expected: ha
+- features:
+    tense: perfect
+  expected: hu
+---
+lemma: na
+category: verbs
+cases:
+- features:
+    aspect: perfective
+  expected: ni
+- features:
+    aspect: progressive
+  expected: na
+---
+lemma: wa
+category: verbs
+cases:
+- features:
+    aspect: perfective
+  expected: wi
+- features:
+    aspect: progressive
+  expected: wa

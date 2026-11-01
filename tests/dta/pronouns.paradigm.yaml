@@ -1,0 +1,180 @@
+lemma: bied
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: biednii
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: bied
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: bioden
+---
+lemma: bii
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: namii
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: namd
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: maanii
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: minii
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: baa
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: bii
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: maan
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: nam
+---
+lemma: en
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: ed
+- features:
+    case: nominative
+    number: singular
+  expected: en
+- features:
+    case: oblique
+    number: plural
+  expected: eden
+- features:
+    case: oblique
+    number: singular
+  expected: enen
+---
+lemma: ing
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: yamii
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: yamd
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: aanii
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: inii
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: aang
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ing
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: aan
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: yam
+---
+lemma: shii
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: shamii
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: shamd
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: taanii
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: shinii
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: shii
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: sham
+---
+lemma: ter
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: ted
+- features:
+    case: nominative
+    number: singular
+  expected: ter
+- features:
+    case: oblique
+    number: plural
+  expected: teden
+- features:
+    case: oblique
+    number: singular
+  expected: teren
