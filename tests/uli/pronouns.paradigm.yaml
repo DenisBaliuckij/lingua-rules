@@ -1,0 +1,51 @@
+lemma: re
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: re
+---
+lemma: si
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: si
+---
+lemma: xa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: xa
+- features:
+    number: plural
+    person: second
+  expected: xa
+---
+lemma: xo
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: xo
+---
+lemma: ye
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: ye
+---
+lemma: yi
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: yi

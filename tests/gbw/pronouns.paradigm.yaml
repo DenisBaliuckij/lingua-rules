@@ -1,0 +1,22 @@
+lemma: ne
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nelit
+- features:
+    number: singular
+    person: first
+  expected: nelit
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: ne
+- features:
+    number: singular
+    person: first
+    possessor_person: first
+  expected: neli

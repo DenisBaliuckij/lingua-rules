@@ -1,0 +1,39 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: a
+---
+lemma: he
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: se
+- features:
+    number: singular
+    person: second
+  expected: he
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yi
+- features:
+    number: singular
+    person: first
+  expected: mi
+---
+lemma: wo
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: wo

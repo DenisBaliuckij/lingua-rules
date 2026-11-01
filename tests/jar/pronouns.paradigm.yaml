@@ -1,0 +1,40 @@
+lemma: hi
+category: pronouns
+cases:
+- features:
+    person: third
+  expected: hi
+---
+lemma: ma
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: ŋa
+- features:
+    number: singular
+    person: third
+  expected: hiwa
+---
+lemma: mi
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: ŋi
+- features:
+    number: singular
+    person: third
+  expected: hi
+- features:
+    person: first
+  expected: mi
+---
+lemma: ŋi
+category: pronouns
+cases:
+- features:
+    person: second
+  expected: ŋi

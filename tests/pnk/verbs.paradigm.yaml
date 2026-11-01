@@ -1,0 +1,39 @@
+lemma: satÿku
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: bisatÿku
+- features:
+    number: plural
+    person: second
+  expected: esatÿku
+- features:
+    number: singular
+    person: first
+  expected: nÿsatÿku
+- features:
+    number: singular
+    person: second
+  expected: pisatÿku
+---
+lemma: yuiku
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: biyuiku
+- features:
+    number: plural
+    person: second
+  expected: eyuiku
+- features:
+    number: singular
+    person: first
+  expected: niyuiku
+- features:
+    number: singular
+    person: second
+  expected: piyuiku

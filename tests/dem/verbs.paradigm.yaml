@@ -1,0 +1,27 @@
+lemma: mtw.f
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mtw.n
+- features:
+    number: plural
+    person: second
+  expected: mtw.sn
+- features:
+    number: plural
+    person: third
+  expected: mtw.w
+- features:
+    number: singular
+    person: first
+  expected: mtwj
+- features:
+    number: singular
+    person: second
+  expected: mtw.k
+- features:
+    number: singular
+    person: third
+  expected: mtw.f

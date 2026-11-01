@@ -1,0 +1,31 @@
+lemma: li
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: li
+---
+lemma: mwen
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: mwen
+---
+lemma: nou
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nou
+---
+lemma: yo
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: yo

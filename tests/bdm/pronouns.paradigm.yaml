@@ -1,0 +1,27 @@
+lemma: dau
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: dannai
+- features:
+    number: plural
+    person: second
+  expected: doggoi
+- features:
+    number: plural
+    person: third
+  expected: damn
+- features:
+    number: singular
+    person: first
+  expected: dau
+- features:
+    number: singular
+    person: second
+  expected: na
+- features:
+    number: singular
+    person: third
+  expected: dan
