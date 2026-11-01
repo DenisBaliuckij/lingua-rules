@@ -1,0 +1,71 @@
+lemma: ihi
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: ihi
+---
+lemma: ine
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ine
+---
+lemma: oko
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: oko
+---
+lemma: ta
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: tatuma
+- features:
+    definiteness: definite
+    number: singular
+  expected: ta
+---
+lemma: tai
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: tai
+---
+lemma: tama
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: tamahatuma
+- features:
+    definiteness: definite
+    number: singular
+  expected: tamaha
+---
+lemma: tatuma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: tatuma
+---
+lemma: yatu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: yatu

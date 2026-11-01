@@ -1,0 +1,63 @@
+lemma: ay date
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: ay danugwoy
+- features:
+    number: plural
+    person: third
+  expected: ay dadugwoy
+- features:
+    number: singular
+    person: third
+  expected: ay datugwoy
+---
+lemma: date
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: danugwoy
+- features:
+    number: plural
+    person: third
+  expected: dadugwoy
+- features:
+    number: singular
+    person: third
+  expected: datugwoy
+---
+lemma: ete
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: ay nugwoy
+- features:
+    number: plural
+    person: third
+  expected: ay dugwoy
+- features:
+    number: singular
+    person: third
+  expected: ay tugwoy
+---
+lemma: te
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: nugwcy
+- features:
+    number: plural
+    person: third
+  expected: dugwoy
+- features:
+    number: singular
+    person: third
+  expected: tugwoy

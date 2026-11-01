@@ -1,0 +1,47 @@
+lemma: ine
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ifwe
+- features:
+    number: plural
+    person: second
+  expected: imwe
+- features:
+    number: plural
+    person: third
+  expected: ba
+- features:
+    number: singular
+    person: first
+  expected: ine
+- features:
+    number: singular
+    person: second
+  expected: iwe
+- features:
+    number: singular
+    person: third
+  expected: uyu
+---
+lemma: neebo
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: fweebo
+- features:
+    number: plural
+    person: second
+  expected: mweebo
+- features:
+    number: singular
+    person: first
+  expected: neebo
+- features:
+    number: singular
+    person: second
+  expected: weebo

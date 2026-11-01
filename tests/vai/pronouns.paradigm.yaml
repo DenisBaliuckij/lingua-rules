@@ -1,0 +1,51 @@
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mua
+- features:
+    number: plural
+    person: second
+  expected: woa
+- features:
+    number: plural
+    person: third
+  expected: anua
+- features:
+    number: singular
+    person: first
+  expected: na
+- features:
+    number: singular
+    person: second
+  expected: ya
+- features:
+    number: singular
+    person: third
+  expected: aa
+---
+lemma: na'a
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: wo'a
+- features:
+    number: plural
+    person: third
+  expected: anu'a
+- features:
+    number: singular
+    person: first
+  expected: na'a
+- features:
+    number: singular
+    person: second
+  expected: ya'a
+- features:
+    number: singular
+    person: third
+  expected: a'a

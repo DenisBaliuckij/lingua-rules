@@ -1,0 +1,73 @@
+lemma: naa
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: bô-a-naa
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: mìnaa
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: bãnaa
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: ø-a-naa
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: ãnaa
+---
+lemma: nya
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: bô-aka-nya
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: mì-kaa-nya
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: bã-kaa-nya
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: akanya
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: ø-aka-nya
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: ã-kaa-nya

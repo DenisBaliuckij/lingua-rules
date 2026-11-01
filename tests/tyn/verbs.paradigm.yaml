@@ -1,0 +1,63 @@
+lemma: kha
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: aiEoni
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: khadefo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: khano
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ainoni
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: khano
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: aiEi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: khade
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kha
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: aini
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kha

@@ -1,0 +1,23 @@
+lemma: he
+category: articles
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: he
+---
+lemma: ηίί
+category: articles
+cases:
+- features:
+    definiteness: indefinite
+    number: plural
+  expected: ηίί
+---
+lemma: ηαα
+category: articles
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: ηαα

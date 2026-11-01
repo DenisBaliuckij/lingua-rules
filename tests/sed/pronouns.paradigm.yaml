@@ -1,0 +1,35 @@
+lemma: ay
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: bey
+- features:
+    number: singular
+    person: second
+  expected: ay
+---
+lemma: bu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: bu
+- features:
+    number: singular
+    person: third
+  expected: bu
+---
+lemma: hey
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: bon
+- features:
+    number: singular
+    person: first
+  expected: hey

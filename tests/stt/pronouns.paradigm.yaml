@@ -1,0 +1,35 @@
+lemma: hej
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: ɡ-ʔɛj
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: ʔɛj
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: ɡə-mɛj
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: mɛj
+- features:
+    number: plural
+    person: first
+  expected: bəːn
+- features:
+    number: singular
+    person: first
+  expected: hej
+- features:
+    number: singular
+    person: third
+  expected: paŋ

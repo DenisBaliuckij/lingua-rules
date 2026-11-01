@@ -1,0 +1,23 @@
+lemma: at\au
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kaaua
+- features:
+    number: singular
+    person: first
+  expected: at\au
+---
+lemma: maaua
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: maaua
+- features:
+    number: plural
+    person: first
+  expected: maakou

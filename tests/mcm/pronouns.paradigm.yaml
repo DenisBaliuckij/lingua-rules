@@ -1,0 +1,27 @@
+lemma: yo
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nu
+- features:
+    number: plural
+    person: second
+  expected: bolotu
+- features:
+    number: plural
+    person: third
+  expected: olotu
+- features:
+    number: singular
+    person: first
+  expected: yo
+- features:
+    number: singular
+    person: second
+  expected: bo
+- features:
+    number: singular
+    person: third
+  expected: e

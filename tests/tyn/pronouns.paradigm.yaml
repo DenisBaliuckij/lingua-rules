@@ -1,0 +1,23 @@
+lemma: nu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nagu
+- features:
+    number: plural
+    person: second
+  expected: age
+- features:
+    number: singular
+    person: first
+  expected: nu
+- features:
+    number: singular
+    person: second
+  expected: gu
+- features:
+    number: singular
+    person: third
+  expected: khe

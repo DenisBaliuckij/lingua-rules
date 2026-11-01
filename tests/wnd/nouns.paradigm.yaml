@@ -1,0 +1,59 @@
+lemma: '!ali'
+category: nouns
+cases:
+- features:
+    possessor_person: first
+  expected: '!ali'
+- features:
+    possessor_person: third
+  expected: daga
+---
+lemma: llŋall
+category: nouns
+cases:
+- features:
+    possessor_person: first
+  expected: llŋall
+- features:
+    possessor_person: third
+  expected: bujin
+---
+lemma: ndaga
+category: nouns
+cases:
+- features:
+    possessor_person: first
+  expected: ndaga
+- features:
+    possessor_person: third
+  expected: daga
+---
+lemma: ni-ŋaga
+category: nouns
+cases:
+- features:
+    possessor_person: first
+  expected: ni-ŋaga
+- features:
+    possessor_person: third
+  expected: raga
+---
+lemma: nl-walQa
+category: nouns
+cases:
+- features:
+    possessor_person: first
+  expected: nl-walQa
+- features:
+    possessor_person: third
+  expected: walŋa
+---
+lemma: nlJa
+category: nouns
+cases:
+- features:
+    possessor_person: first
+  expected: nlJa
+- features:
+    possessor_person: third
+  expected: jama

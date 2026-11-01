@@ -1,0 +1,60 @@
+lemma: de
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: le
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: de
+- features:
+    number: dual
+    person: third
+  expected: ber
+- features:
+    number: plural
+    person: third
+  expected: di
+---
+lemma: meni
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: nyeni
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: meni
+- features:
+    number: dual
+    person: second
+  expected: beni
+- features:
+    number: plural
+    person: second
+  expected: guni
+---
+lemma: wuni
+category: pronouns
+cases:
+- features:
+    noun_class: class_1
+    number: plural
+    person: first
+  expected: nani
+- features:
+    number: dual
+    person: first
+  expected: ani
+- features:
+    number: singular
+    person: first
+  expected: wuni

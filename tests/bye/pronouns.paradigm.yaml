@@ -1,0 +1,63 @@
+lemma: arpa
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: arpau
+- features:
+    number: plural
+    person: third
+  expected: arpam
+- features:
+    number: singular
+    person: third
+  expected: arpa
+---
+lemma: ri
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: rau
+- features:
+    number: plural
+    person: third
+  expected: ram
+- features:
+    number: singular
+    person: third
+  expected: ri
+---
+lemma: wan
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nan
+- features:
+    number: plural
+    person: first
+  expected: nam
+- features:
+    number: singular
+    person: first
+  expected: wan
+---
+lemma: yin
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: yintyin
+- features:
+    number: plural
+    person: second
+  expected: yim
+- features:
+    number: singular
+    person: second
+  expected: yin

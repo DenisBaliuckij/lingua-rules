@@ -1,0 +1,73 @@
+lemma: cu
+category: pronouns
+cases:
+- features:
+    evidentiality: direct
+    number: plural
+    person: third
+  expected: cuni
+- features:
+    number: singular
+    person: third
+  expected: cu
+---
+lemma: e
+category: pronouns
+cases:
+- features:
+    evidentiality: direct
+    number: plural
+    person: second
+  expected: e:ni
+- features:
+    number: singular
+    person: second
+  expected: e
+---
+lemma: rhaŋ
+category: pronouns
+cases:
+- features:
+    evidentiality: direct
+    number: plural
+    person: second
+  expected: rhaŋni
+- features:
+    number: singular
+    person: second
+  expected: rhaŋ
+---
+lemma: the
+category: pronouns
+cases:
+- features:
+    evidentiality: direct
+    number: plural
+    person: third
+  expected: theni
+- features:
+    number: singular
+    person: third
+  expected: the
+---
+lemma: yhaŋ
+category: pronouns
+cases:
+- features:
+    evidentiality: direct
+    number: plural
+    person: first
+  expected: yhaŋ
+---
+lemma: ŋa
+category: pronouns
+cases:
+- features:
+    evidentiality: direct
+    number: plural
+    person: first
+  expected: ŋani
+- features:
+    number: singular
+    person: first
+  expected: ŋa

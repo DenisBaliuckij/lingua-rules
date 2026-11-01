@@ -1,0 +1,31 @@
+lemma: si
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: widja
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: dja
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: siwawidja
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ma
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sindja

@@ -1,0 +1,27 @@
+lemma: aga
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ehu
+- features:
+    number: plural
+    person: second
+  expected: enyu
+- features:
+    number: plural
+    person: third
+  expected: awa
+- features:
+    number: singular
+    person: first
+  expected: aga
+- features:
+    number: singular
+    person: second
+  expected: awo
+- features:
+    number: singular
+    person: third
+  expected: aye

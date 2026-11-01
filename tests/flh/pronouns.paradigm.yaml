@@ -1,0 +1,75 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: e
+- features:
+    number: singular
+    person: first
+  expected: a
+---
+lemma: bwo-ri
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: e-ri
+- features:
+    number: plural
+    person: second
+  expected: de-ri
+- features:
+    number: plural
+    person: third
+  expected: wo-ri
+- features:
+    number: singular
+    person: first
+  expected: bwo-ri
+- features:
+    number: singular
+    person: second
+  expected: dwo-ri
+---
+lemma: du
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: de
+- features:
+    number: singular
+    person: second
+  expected: du
+---
+lemma: ke
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: e-jè
+- features:
+    number: plural
+    person: second
+  expected: de-jè
+- features:
+    number: singular
+    person: first
+  expected: ke
+- features:
+    number: singular
+    person: second
+  expected: dia
+---
+lemma: wo
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: wo

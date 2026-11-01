@@ -1,0 +1,67 @@
+lemma: ?a?
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ?a?
+- features:
+    number: plural
+    person: first
+  expected: ?i?
+- features:
+    number: singular
+    person: first
+  expected: ?a?
+---
+lemma: h?
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: swa
+- features:
+    number: plural
+    person: second
+  expected: p
+- features:
+    number: singular
+    person: second
+  expected: h?
+---
+lemma: ka
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: ka
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: na
+---
+lemma: pa
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: pa
+---
+lemma: sna
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: sna
+- features:
+    number: plural
+    person: third
+  expected: n

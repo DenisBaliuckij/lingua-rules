@@ -1,0 +1,100 @@
+lemma: bi
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: manie
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: minii
+- features:
+    case: nominative
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: manie
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: bi
+- features:
+    case: oblique
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: man
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: nama
+---
+lemma: ci
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: first
+  expected: bidenie
+- features:
+    case: genitive
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: tanie
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: cinii
+- features:
+    case: nominative
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: first
+  expected: bide
+- features:
+    case: nominative
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: ta
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ci
+- features:
+    case: oblique
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: first
+  expected: biden
+- features:
+    case: oblique
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: tan
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: cima

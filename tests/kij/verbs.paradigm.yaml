@@ -1,0 +1,31 @@
+lemma: paisewa
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tapaisewa
+- features:
+    number: plural
+    person: first
+  expected: ta-paisewa-si
+- features:
+    number: plural
+    person: second
+  expected: ku-paisewa-si
+- features:
+    number: plural
+    person: third
+  expected: i-paisewa-si
+- features:
+    number: singular
+    person: first
+  expected: apaisewa
+- features:
+    number: singular
+    person: second
+  expected: kupaisewa
+- features:
+    number: singular
+    person: third
+  expected: ipaisewa

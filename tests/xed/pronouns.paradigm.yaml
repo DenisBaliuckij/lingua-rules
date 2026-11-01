@@ -1,0 +1,53 @@
+lemma: da
+category: pronouns
+cases:
+- features:
+    evidentiality: direct
+    number: dual
+    person: first
+  expected: mu
+- features:
+    evidentiality: indirect
+    number: dual
+    person: first
+  expected: qni
+- features:
+    number: plural
+    person: second
+  expected: ghuni
+- features:
+    number: plural
+    person: third
+  expected: tan
+- features:
+    number: singular
+    person: first
+  expected: da
+- features:
+    number: singular
+    person: second
+  expected: ghä
+---
+lemma: su-s
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: susu
+- features:
+    number: plural
+    person: first
+  expected: susä-mu
+- features:
+    number: plural
+    person: second
+  expected: susä-kuni
+- features:
+    number: plural
+    person: third
+  expected: susä
+- features:
+    number: singular
+    person: second
+  expected: susä-kä

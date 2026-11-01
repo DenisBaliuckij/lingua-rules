@@ -1,0 +1,81 @@
+lemma: bi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: namäg
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: mini
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: maanr
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: bii
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: man
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: nad
+---
+lemma: bidan
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: bid
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: bidn
+---
+lemma: ci
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: camäg
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: cini
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: taa
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: cii
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: tan
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: cam
