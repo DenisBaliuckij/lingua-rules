@@ -1,0 +1,47 @@
+lemma: bbusi-bbusi
+category: nouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: bbusugbbusug
+- features:
+    number: singular
+    person: second
+  expected: bbusumbbusum
+- features:
+    number: singular
+    person: third
+  expected: bbusinbbusin
+---
+lemma: naxo
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: naxog
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: naxom
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: naxon
+---
+lemma: tinvavi
+category: nouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: tugvavin
+- features:
+    number: singular
+    person: second
+  expected: tinvavim
+- features:
+    number: singular
+    person: third
+  expected: tinvavin

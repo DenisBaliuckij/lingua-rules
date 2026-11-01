@@ -1,0 +1,305 @@
+lemma: cop wox
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: cop wox
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: cop wox
+- features:
+    number: plural
+    person: third
+    possessor_number: plural
+    possessor_person: third
+  expected: cop
+---
+lemma: cy
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: third
+  expected: cyx
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: cyx
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: cy
+- features:
+    case: nominative
+    mood: indicative
+    number: singular
+    person: third
+  expected: cyp cyx
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: cy
+- features:
+    number: singular
+    person: third
+    possessor_number: singular
+    possessor_person: third
+  expected: cyp
+---
+lemma: cyp nyit
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: third
+  expected: cyp nyit
+- features:
+    case: nominative
+    number: dual
+    person: third
+  expected: cyp nyit
+- features:
+    number: dual
+    person: third
+    possessor_person: third
+  expected: cyp nyit
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: first
+  expected: ix
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ix
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: i
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: it it
+- features:
+    number: singular
+    person: first
+  expected: i
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: it
+---
+lemma: ip nyit
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ip nyit
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ip nyit
+- features:
+    number: dual
+    person: first
+  expected: ip nyit
+- features:
+    number: dual
+    person: first
+    possessor_person: first
+  expected: ip nyit
+---
+lemma: ne
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: second
+  expected: nex
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: nex
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: ne
+- features:
+    case: nominative
+    mood: indicative
+    number: singular
+    person: second
+  expected: nit nit
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ne
+- features:
+    number: singular
+    person: second
+    possessor_number: singular
+    possessor_person: second
+  expected: nit
+---
+lemma: nep nyit
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: nep nyit
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: nep nyit
+- features:
+    number: dual
+    person: second
+    possessor_person: second
+  expected: nep nyit
+---
+lemma: nga
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: first
+  expected: ngax
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ngax
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: nga
+- features:
+    case: nominative
+    mood: indicative
+    number: singular
+    person: first
+  expected: ngat ngat
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: nga
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: ngat
+---
+lemma: ngap nyit
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ngap nyit
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngap nyit
+- features:
+    number: dual
+    person: first
+    possessor_person: first
+  expected: ngap nyit
+---
+lemma: ngop wox
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ngop wox
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ngop wox
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: ngop
+---
+lemma: nop wox
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: nop wox
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: nop wox
+- features:
+    number: plural
+    person: second
+    possessor_number: plural
+    possessor_person: second
+  expected: nop
+---
+lemma: op
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: op
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: op
+- features:
+    number: plural
+    person: first
+  expected: op
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+    possessor_person: first
+  expected: op

@@ -1,0 +1,355 @@
+lemma: n
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: ma`
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: mk`
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: ml`
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: mv`
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: m`
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: mdm`
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: mnno`md
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: mdkdo`md
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: mnnohmd
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: mdkdohmd
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: mnnohmd
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: mdkdohmd
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: mnnl`md
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: mdkdl`md
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: mnnlhmd
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: mdkdlhmd
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: mnnlhmd
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: mdkdlhmd
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: mnonvd
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: mdkdvd
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: mnodmd
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mdkdmd
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: mnnld
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mdkdld
+- features:
+    number: dual
+    person: first
+  expected: m`
+- features:
+    number: dual
+    person: second
+  expected: m`ohmd
+- features:
+    number: dual
+    person: third
+  expected: m`ohmd
+- features:
+    number: plural
+    person: first
+  expected: m`l`md
+- features:
+    number: plural
+    person: second
+  expected: m`lhmd
+- features:
+    number: plural
+    person: third
+  expected: m`lhmd
+- features:
+    number: singular
+    person: first
+  expected: m`vd
+- features:
+    number: singular
+    person: second
+  expected: m`dmd
+- features:
+    number: singular
+    person: third
+  expected: m`ld
+---
+lemma: pi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: oha`
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: ohk`
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: ohl`
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: ohv`
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: oh`
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: ohm`
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: ohno`md
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: ohkho`md
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: ohnohmd
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: ohkhohmd
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: ohnohmd
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: ohkhohmd
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ohnl`md
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ohkhl`md
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: ohnlhmd
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ohkhlhmd
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: ohnlhmd
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ohkhlhmd
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: ohonvd
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ohkhvd
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: ohodmd
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ohkhmd
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ohnld
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ohkhld
+- features:
+    number: dual
+    person: first
+  expected: oh`
+- features:
+    number: dual
+    person: second
+  expected: oh`ohmd
+- features:
+    number: dual
+    person: third
+  expected: oh`ohmd
+- features:
+    number: plural
+    person: first
+  expected: oh`l`md
+- features:
+    number: plural
+    person: second
+  expected: oh`lhmd
+- features:
+    number: plural
+    person: third
+  expected: oh`lhmd
+- features:
+    number: singular
+    person: first
+  expected: oh`vd
+- features:
+    number: singular
+    person: second
+  expected: oh`dmd
+- features:
+    number: singular
+    person: third
+  expected: oh`ld

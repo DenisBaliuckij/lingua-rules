@@ -1,0 +1,55 @@
+lemma: jiwasa
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: jiwasa
+- features:
+    number: plural
+    person: first
+  expected: jiwasaNAKA
+---
+lemma: juma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: jumaNAKA
+- features:
+    number: singular
+    person: second
+  expected: juma
+---
+lemma: jupa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: jupaNAKA
+- features:
+    number: singular
+    person: third
+  expected: jupa
+---
+lemma: naya
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: naNAKA
+- features:
+    number: plural
+    person: second
+  expected: jumaNAKA
+- features:
+    number: plural
+    person: third
+  expected: jupaNAKA
+- features:
+    number: singular
+    person: first
+  expected: naya

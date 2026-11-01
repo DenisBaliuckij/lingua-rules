@@ -1,0 +1,221 @@
+lemma: gir
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: rrubgir
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: murbgir
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: rubgir
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: rrebgir
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: mum
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: rebgir
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: begir
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: bugir
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: bigir
+---
+lemma: gom
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: rrubgom
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: murbgom
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: rugom
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: mombgom
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: mum
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: bogom
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: bubgom
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: bigom
+---
+lemma: ke-i
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: rru-m-e-kei
+- features:
+    number: dual
+    person: second
+  expected: mur-m-e-kei
+- features:
+    number: dual
+    person: third
+  expected: ru-m-e-kei
+- features:
+    number: plural
+    person: first
+  expected: mem-m-e-kei
+- features:
+    number: plural
+    person: second
+  expected: mum-m-e-kei
+- features:
+    number: plural
+    person: third
+  expected: re-m-e-kei
+- features:
+    number: singular
+    person: first
+  expected: m-e-kei
+- features:
+    number: singular
+    person: second
+  expected: m-u-kei
+- features:
+    number: singular
+    person: third
+  expected: m-i-kei
+---
+lemma: re
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: rrubre
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: murbre
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: rubre
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: rrebre
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: mum
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: bere
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: bure
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: bire
+---
+lemma: tu
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: rrubtu
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: murbtu
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: rubtu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: mombtu
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: mum
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: botu
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: butu
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: bitu

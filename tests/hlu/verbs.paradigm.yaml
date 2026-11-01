@@ -1,0 +1,70 @@
+lemma: izi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: third
+    voice: active
+  expected: iziyantu
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    voice: active
+  expected: izitu
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    voice: middle
+  expected: iziyaru
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: active
+  expected: iziyamin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+    voice: active
+  expected: iziyanta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: active
+  expected: iziwi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+    voice: active
+  expected: iziha
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: active
+  expected: iziti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+    voice: middle
+  expected: iziyati
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+    voice: active
+  expected: izita

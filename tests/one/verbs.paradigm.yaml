@@ -1,0 +1,80 @@
+lemma: khahsy
+category: verbs
+cases:
+- features:
+    aspect: perfective
+  expected: kháhsyus
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: kháhsyi
+---
+lemma: thal
+category: verbs
+cases:
+- features:
+    aspect: perfective
+  expected: thálha÷
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: thal
+---
+lemma: ítsyaks eat fish subjective
+category: verbs
+cases:
+- features:
+    animacy: inanimate
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: k§tsyaks
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: yaknítsyaks
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: snítsyaks
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: yakw§tsyaks
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: sw§tsyaks
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kunítsyaks
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kítsyaks
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sítsyaks
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: l§tsyaks

@@ -1,0 +1,185 @@
+lemma: kuri
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: kurira
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: kuriem
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: kurimi
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: kurire
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: kurira
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: kurik
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: kurim
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: kuria
+---
+lemma: liu- + lia
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: liu-ra-lia
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: liu-em-lia
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: liu-mi-lia
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: liu-re-lia
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: liu-ra-lia
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: liu-k-lia
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: liu-m-lia
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: liu-a-lia
+---
+lemma: poki-a
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: pokpoki-a
+- features:
+    number: singular
+  expected: poki-a
+---
+lemma: sasa
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: rasasa
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: lemsasa
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: limisasa
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: resasa
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: rasasa
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: leksasa
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: lemsasa
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: lasasa
+---
+lemma: tivu
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: first
+  expected: tivura
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: tivuem
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: tivumi
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: tivure
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: first
+  expected: tivura
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: tivuge
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: tivum
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: tivua

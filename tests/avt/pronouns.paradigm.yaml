@@ -1,0 +1,292 @@
+lemma: hfra-kes
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: hfra-kses
+- features:
+    number: dual
+    person: second
+  expected: hfra-s
+- features:
+    number: dual
+    person: third
+  expected: hfra-kses
+- features:
+    number: plural
+    person: first
+  expected: hfra-s
+- features:
+    number: plural
+    person: second
+  expected: hfra-s
+- features:
+    number: plural
+    person: third
+  expected: hfra-s
+- features:
+    number: singular
+    person: first
+  expected: hfra-kes
+- features:
+    number: singular
+    person: second
+  expected: hfra-kes
+- features:
+    number: singular
+    person: third
+  expected: hfra-kes
+---
+lemma: hi
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: hawfr
+- features:
+    number: dual
+    person: second
+  expected: yi
+- features:
+    number: dual
+    person: third
+  expected: hfrakt t
+- features:
+    number: plural
+    person: first
+  expected: haiu
+- features:
+    number: plural
+    person: second
+  expected: yi
+- features:
+    number: plural
+    person: third
+  expected: hfr
+- features:
+    number: singular
+    person: first
+  expected: hi
+- features:
+    number: singular
+    person: second
+  expected: ti
+- features:
+    number: singular
+    person: third
+  expected: hfrak
+---
+lemma: ik
+category: pronouns
+cases:
+- features:
+    number: dual
+  expected: it
+- features:
+    number: plural
+  expected: im
+- features:
+    number: singular
+  expected: ik
+---
+lemma: k-ai
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: k-awfr
+- features:
+    number: dual
+    person: second
+  expected: k-i
+- features:
+    number: dual
+    person: third
+  expected: k-frakft
+- features:
+    number: plural
+    person: first
+  expected: k-aiu
+- features:
+    number: plural
+    person: second
+  expected: k-i
+- features:
+    number: plural
+    person: third
+  expected: k-fr
+- features:
+    number: singular
+    person: first
+  expected: k-ai
+- features:
+    number: singular
+    person: second
+  expected: k-it
+- features:
+    number: singular
+    person: third
+  expected: k-hak
+---
+lemma: m-ai
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: m-awfr
+- features:
+    number: dual
+    person: second
+  expected: m-i
+- features:
+    number: dual
+    person: third
+  expected: m-frakft
+- features:
+    number: plural
+    person: first
+  expected: m-aiu
+- features:
+    number: plural
+    person: second
+  expected: m-i
+- features:
+    number: plural
+    person: third
+  expected: m-fr
+- features:
+    number: singular
+    person: first
+  expected: m-ai
+- features:
+    number: singular
+    person: second
+  expected: m-it
+- features:
+    number: singular
+    person: third
+  expected: m-hak
+---
+lemma: n-ai
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: n-awfr
+- features:
+    number: dual
+    person: second
+  expected: n-i
+- features:
+    number: dual
+    person: third
+  expected: n-frakft
+- features:
+    number: plural
+    person: first
+  expected: n-aiu
+- features:
+    number: plural
+    person: second
+  expected: n-i
+- features:
+    number: plural
+    person: third
+  expected: n-fr
+- features:
+    number: singular
+    person: first
+  expected: n-ai
+- features:
+    number: singular
+    person: second
+  expected: n-it
+- features:
+    number: singular
+    person: third
+  expected: n-frak
+---
+lemma: p-ai
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: p-awfr
+- features:
+    number: dual
+    person: second
+  expected: p-i
+- features:
+    number: dual
+    person: third
+  expected: p-frakft
+- features:
+    number: plural
+    person: first
+  expected: p-aiu
+- features:
+    number: plural
+    person: second
+  expected: p-i
+- features:
+    number: plural
+    person: third
+  expected: p-fr
+- features:
+    number: singular
+    person: first
+  expected: p-ai
+- features:
+    number: singular
+    person: second
+  expected: p-it
+- features:
+    number: singular
+    person: third
+  expected: p-frak
+---
+lemma: t-ai
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: t-awfr
+- features:
+    number: dual
+    person: second
+  expected: t-i
+- features:
+    number: dual
+    person: third
+  expected: t-frakft
+- features:
+    number: plural
+    person: first
+  expected: t-aiu
+- features:
+    number: plural
+    person: second
+  expected: t-i
+- features:
+    number: plural
+    person: third
+  expected: t-fr
+- features:
+    number: singular
+    person: first
+  expected: t-ai
+- features:
+    number: singular
+    person: second
+  expected: t-it
+- features:
+    number: singular
+    person: third
+  expected: t-frak

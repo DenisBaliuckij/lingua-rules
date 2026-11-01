@@ -1,0 +1,171 @@
+lemma: dza
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: dzase
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: dzane
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: dzawo
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: dza-ta-sa
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: dzasa
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: dza-ta-si
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: dzasi
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: dza-ta-sa
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: dzase
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: dzan-ta-ya
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: dzaya
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: jan-ta-ni
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: dzani
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: dzam-ta-me
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: dzame
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: dzatʌŋ
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: dzaŋa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: dzap-ti
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: dzai
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: dzap-ta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: dzawa
+- features:
+    number: dual
+    person: first
+    voice: active
+  expected: dza-sa-mi
+- features:
+    number: dual
+    person: second
+    voice: active
+  expected: dza-si-mi
+- features:
+    number: dual
+    person: third
+    voice: active
+  expected: dza-se-mi
+- features:
+    number: plural
+    person: first
+    voice: active
+  expected: dza-ya-mi
+- features:
+    number: plural
+    person: second
+    voice: active
+  expected: dza-ni-mi
+- features:
+    number: plural
+    person: third
+    voice: active
+  expected: dza-me-mi
+- features:
+    number: singular
+    person: first
+    voice: active
+  expected: dza-ŋa-mi
+- features:
+    number: singular
+    person: second
+    voice: active
+  expected: dza-i-mi
+- features:
+    number: singular
+    person: third
+    voice: active
+  expected: ja-wa-mi

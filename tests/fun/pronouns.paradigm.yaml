@@ -1,0 +1,37 @@
+lemma: i
+category: pronouns
+cases:
+- features:
+    definiteness: indefinite
+    number: singular
+    person: first
+  expected: iksa
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: iksasa
+- features:
+    number: plural
+    person: first
+  expected: ya
+- features:
+    number: plural
+    person: second
+  expected: wa
+- features:
+    number: plural
+    person: third
+  expected: tha
+- features:
+    number: singular
+    person: first
+  expected: i
+- features:
+    number: singular
+    person: second
+  expected: a
+- features:
+    number: singular
+    person: third
+  expected: ta

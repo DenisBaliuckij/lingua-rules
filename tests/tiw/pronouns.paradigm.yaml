@@ -1,0 +1,51 @@
+lemma: aramukamini
+category: pronouns
+cases:
+- features:
+    gender: feminine
+  expected: aramukamu^a
+- features:
+    gender: masculine
+  expected: aramukamini
+- features:
+    number: plural
+  expected: aramukamuwi
+---
+lemma: aramukuwani
+category: pronouns
+cases:
+- features:
+    gender: feminine
+  expected: aramukuwatja
+- features:
+    gender: masculine
+  expected: aramukuwani
+- features:
+    number: plural
+  expected: aramukuwapi
+---
+lemma: karakamini
+category: pronouns
+cases:
+- features:
+    gender: feminine
+  expected: karakamupa
+- features:
+    gender: masculine
+  expected: karakamini
+- features:
+    number: plural
+  expected: karakamuwi
+---
+lemma: karakuwani
+category: pronouns
+cases:
+- features:
+    gender: feminine
+  expected: karakuwaija
+- features:
+    gender: masculine
+  expected: karakuwani
+- features:
+    number: plural
+  expected: karakuwapi

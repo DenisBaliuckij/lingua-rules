@@ -1,0 +1,161 @@
+lemma: efina
+category: nouns
+cases:
+- features:
+    number: singular
+  expected: mefina
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: edefina
+---
+lemma: egak
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: yegak
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: miegak
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: yiegak
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: iegak
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: diegak
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: biegak
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: øegak
+---
+lemma: ew-era
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ed-ew-era
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: ey-ew-era
+---
+lemma: ew-esa
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ed-ew-esa
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: ey-ew-esa
+---
+lemma: ewisa
+category: nouns
+cases:
+- features:
+    number: singular
+  expected: mewisa
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: edewisa
+---
+lemma: m-ahina
+category: nouns
+cases:
+- features:
+    number: singular
+  expected: ma-hina
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ed-ahina
+---
+lemma: m-ohena
+category: nouns
+cases:
+- features:
+    number: singular
+  expected: ma-ohena
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ed-ohena
+---
+lemma: osum
+category: nouns
+cases:
+- features:
+    number: dual
+  expected: yosum
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: miosum
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: yiosum
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: iosum
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: diosum
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: biosum
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: øosum
+---
+lemma: otk-era
+category: nouns
+cases:
+- features:
+    person: first
+    possessor_number: plural
+  expected: mi-otk-era
+- features:
+    person: second
+    possessor_number: plural
+  expected: yi-otk-era
+- features:
+    person: third
+    possessor_number: plural
+  expected: i-otk-era
+---
+lemma: otk-esa
+category: nouns
+cases:
+- features:
+    person: first
+    possessor_number: plural
+  expected: mi-otk-esa
+- features:
+    person: second
+    possessor_number: plural
+  expected: yi-otk-esa
+- features:
+    person: third
+    possessor_number: plural
+  expected: i-otk-esa

@@ -1,0 +1,97 @@
+lemma: cegi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: cegi
+---
+lemma: emage
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: emage
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: pa
+- features:
+    number: plural
+    person: second
+  expected: ta
+- features:
+    number: plural
+    person: third
+  expected: e
+- features:
+    number: singular
+    person: first
+  expected: i
+- features:
+    number: singular
+    person: second
+  expected: a
+- features:
+    number: singular
+    person: third
+  expected: u
+---
+lemma: imi
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ema
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: pudumi
+- features:
+    number: plural
+    person: first
+  expected: pagi
+- features:
+    number: plural
+    person: second
+  expected: tagi
+- features:
+    number: plural
+    person: third
+  expected: ema-ge
+- features:
+    number: singular
+    person: first
+  expected: imi
+- features:
+    number: singular
+    person: second
+  expected: aki
+- features:
+    number: singular
+    person: third
+  expected: ema
+---
+lemma: pagi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: pagi
+---
+lemma: tagi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: tagi

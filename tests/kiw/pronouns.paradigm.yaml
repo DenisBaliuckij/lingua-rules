@@ -1,0 +1,65 @@
+lemma: mo
+category: pronouns
+cases:
+- features:
+    noun_class: class_1
+    number: plural
+    person: first
+  expected: nimoibi
+- features:
+    noun_class: class_2
+    number: plural
+    person: first
+  expected: nimo
+- features:
+    number: dual
+    person: first
+  expected: nimoiti
+- features:
+    number: singular
+    person: first
+  expected: mo
+---
+lemma: nu
+category: pronouns
+cases:
+- features:
+    noun_class: class_1
+    number: plural
+    person: third
+  expected: nibi
+- features:
+    noun_class: class_2
+    number: plural
+    person: third
+  expected: ni
+- features:
+    number: dual
+    person: third
+  expected: niti
+- features:
+    number: singular
+    person: third
+  expected: nu
+---
+lemma: ro
+category: pronouns
+cases:
+- features:
+    noun_class: class_1
+    number: plural
+    person: second
+  expected: riobi
+- features:
+    noun_class: class_2
+    number: plural
+    person: second
+  expected: rio
+- features:
+    number: dual
+    person: second
+  expected: rioti
+- features:
+    number: singular
+    person: second
+  expected: ro

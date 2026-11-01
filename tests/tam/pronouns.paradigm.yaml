@@ -1,0 +1,148 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: plural
+  expected: avar
+- features:
+    gender: feminine
+    number: singular
+  expected: aval
+- features:
+    gender: masculine
+    number: singular
+  expected: avan
+- features:
+    gender: neuter
+    number: plural
+  expected: avei
+- features:
+    gender: neuter
+    number: singular
+  expected: adu
+---
+lemma: atu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: atukal
+- features:
+    number: singular
+    person: third
+  expected: atu
+---
+lemma: avan
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: avanukal
+- features:
+    number: singular
+    person: third
+  expected: avan
+---
+lemma: h
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: plural
+  expected: hi
+- features:
+    gender: feminine
+    number: singular
+  expected: hc^c
+- features:
+    gender: masculine
+    number: singular
+  expected: hic
+- features:
+    gender: neuter
+    number: plural
+  expected: hc^c
+- features:
+    gender: neuter
+    number: singular
+  expected: hic
+---
+lemma: i
+category: pronouns
+cases:
+- features:
+    gender: common
+    number: plural
+  expected: ivar
+- features:
+    gender: feminine
+    number: singular
+  expected: ivaḷ
+- features:
+    gender: masculine
+    number: singular
+  expected: ivan
+- features:
+    gender: neuter
+    number: plural
+  expected: ivei
+- features:
+    gender: neuter
+    number: singular
+  expected: idu
+---
+lemma: itu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: itukal
+- features:
+    number: singular
+    person: third
+  expected: itu
+---
+lemma: naan
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: naan A mam
+- features:
+    number: singular
+    person: first
+  expected: naan
+---
+lemma: ni
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: ni
+---
+lemma: nii
+category: pronouns
+cases:
+- features:
+    formality: formal
+    number: plural
+    person: second
+  expected: niiru
+- features:
+    number: singular
+    person: second
+  expected: nii
+---
+lemma: nân
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: nân

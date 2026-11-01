@@ -1,0 +1,39 @@
+lemma: dan
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: aman
+- features:
+    number: dual
+    person: second
+  expected: yan
+- features:
+    number: dual
+    person: third
+  expected: lan
+- features:
+    number: plural
+    person: first
+  expected: emen
+- features:
+    number: plural
+    person: second
+  expected: yen
+- features:
+    number: plural
+    person: third
+  expected: len
+- features:
+    number: singular
+    person: first
+  expected: dan
+- features:
+    number: singular
+    person: second
+  expected: ban
+- features:
+    number: singular
+    person: third
+  expected: en

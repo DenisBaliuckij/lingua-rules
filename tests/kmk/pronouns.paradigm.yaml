@@ -1,0 +1,188 @@
+lemma: dida
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: da
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: dida
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: kan dida
+- features:
+    number: plural
+    person: third
+  expected: dida
+---
+lemma: dikami
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: kami
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: dikami
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: kan dikami
+- features:
+    number: plural
+    person: first
+  expected: dikami
+---
+lemma: dikayu
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: kayu
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: dikayu
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: kan dikayu
+- features:
+    number: plural
+    person: second
+  expected: dikayu
+---
+lemma: dita
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: ta
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: ta
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: dita
+- features:
+    case: oblique
+    number: dual
+    person: first
+  expected: ta
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: kan dita
+- features:
+    number: dual
+    person: first
+  expected: dita
+---
+lemma: ditaku
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: taku
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ditaku
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: kan ditaku
+- features:
+    number: plural
+    person: first
+  expected: ditaku
+---
+lemma: sakon
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ak
+- features:
+    number: singular
+    person: first
+  expected: sakon
+---
+lemma: sika
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: ka
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: sika
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: kan sika
+- features:
+    number: singular
+    person: second
+  expected: sika
+---
+lemma: sikon
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: sikon
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: kan sikon
+---
+lemma: siya
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: siya
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: kan siya

@@ -1,0 +1,67 @@
+lemma: ngruwar
+category: adjectives
+cases:
+- features:
+    case: accusative
+  expected: ngnrwar
+- features:
+    case: dative
+  expected: ngruntungar
+- features:
+    case: genitive
+  expected: ngruntungar
+- features:
+    case: nominative
+  expected: ngruvar
+- features:
+    case: vocative
+  expected: ngrirvrun
+---
+lemma: nunkeri
+category: adjectives
+cases:
+- features:
+    case: dative
+    number: dual
+  expected: nunggerungengul
+- features:
+    case: dative
+    number: plural
+  expected: nunggerungar
+- features:
+    case: dative
+    number: singular
+  expected: nunggurungai
+- features:
+    case: genitive
+    number: dual
+  expected: nunggerengul
+- features:
+    case: genitive
+    number: plural
+  expected: nungeran
+- features:
+    case: genitive
+    number: singular
+  expected: nunggurald
+- features:
+    case: nominative
+    number: dual
+  expected: nunggerengk
+- features:
+    case: nominative
+    number: plural
+  expected: nunkerar
+- features:
+    case: nominative
+    number: singular
+  expected: nunkeri
+- features:
+    number: dual
+  expected: nunggerengul
+- features:
+    number: plural
+  expected: nunggerar
+- features:
+    number: singular
+  expected: nungguril

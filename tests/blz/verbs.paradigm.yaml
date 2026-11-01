@@ -1,0 +1,130 @@
+lemma: guas
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+  expected: moguas
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: noguas
+- features:
+    verb_form: gerund
+  expected: poguas
+---
+lemma: ili
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    voice: active
+  expected: mingili
+- features:
+    aspect: imperfective
+    mood: subjunctive
+    voice: passive
+  expected: ilion
+- features:
+    aspect: perfective
+    case: locative
+    mood: indicative
+    voice: active
+  expected: ning-ili-an
+- features:
+    aspect: perfective
+    mood: indicative
+    voice: active
+  expected: ningili
+- features:
+    aspect: perfective
+    mood: indicative
+    voice: passive
+  expected: ni'ili
+- features:
+    case: locative
+    verb_form: gerund
+    voice: active
+  expected: ping-ili-an
+- features:
+    verb_form: gerund
+    voice: active
+  expected: pingili
+---
+lemma: lawu
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+  expected: malawu
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: nalawu
+- features:
+    verb_form: gerund
+  expected: palawu
+---
+lemma: pate
+category: verbs
+cases:
+- features:
+    aspect: perfective
+  expected: na-ma-pa-pate-i-an
+- features:
+    aspect: perfective
+    voice: active
+  expected: na-ma-pa-pate-i
+- features:
+    aspect: perfective
+    voice: passive
+  expected: ni-pa-pate-i
+- features:
+    verb_form: gerund
+  expected: pa-ma-pa-pate-i-an
+- features:
+    verb_form: gerund
+    voice: active
+  expected: pa-ma-pa-pate-i
+- features:
+    verb_form: gerund
+    voice: passive
+  expected: pa-pate-i
+- features:
+    voice: active
+  expected: ma-ma-pa-pate-i
+- features:
+    voice: passive
+  expected: pa-pate-i-on
+---
+lemma: soop
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+  expected: minsoop
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: ninsoop
+- features:
+    verb_form: gerund
+  expected: pinsoop
+---
+lemma: taka
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+  expected: taka
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: notaka
+- features:
+    verb_form: gerund
+  expected: taka

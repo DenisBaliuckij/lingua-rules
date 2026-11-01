@@ -1,0 +1,155 @@
+lemma: ?a.da
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ?a.da:-?a.pe
+- features:
+    number: singular
+    person: third
+  expected: ?a.da
+- features:
+    person: third
+  expected: ?a.da:-?a.jia
+---
+lemma: ?a.ki
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ?a.he
+- features:
+    number: singular
+    person: first
+  expected: ?a.ki
+- features:
+    person: first
+  expected: ?a.jiag
+---
+lemma: ?a.maj
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ?a.da:-?i.pe
+- features:
+    number: singular
+    person: second
+  expected: ?a.maj
+- features:
+    person: second
+  expected: ?a.da:-?i.jia
+---
+lemma: ?g.ki
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ?g.he
+- features:
+    number: singular
+    person: first
+  expected: ?g.ki
+---
+lemma: ?n.da
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ?n.da:-?a.pe
+- features:
+    number: singular
+    person: third
+  expected: ?n.da
+- features:
+    person: third
+  expected: ?n.do:-?a.jia
+---
+lemma: da
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ?a.pe
+- features:
+    number: singular
+    person: third
+  expected: da
+- features:
+    person: third
+  expected: ?ajia
+---
+lemma: dç˘
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: dç˘
+---
+lemma: ki
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hr
+- features:
+    number: singular
+    person: first
+  expected: ki
+- features:
+    person: first
+  expected: jiag
+---
+lemma: kˆ˘
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hE˘
+- features:
+    number: singular
+    person: first
+  expected: kˆ˘
+- features:
+    number: singular
+    person: second
+  expected: maj
+- features:
+    number: singular
+    person: third
+  expected: dç˘
+- features:
+    person: first
+  expected: ¯aN
+---
+lemma: maj
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ?i.pe
+- features:
+    number: singular
+    person: second
+  expected: maj
+- features:
+    person: second
+  expected: ?i.jia
+---
+lemma: na˘j
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: na˘j

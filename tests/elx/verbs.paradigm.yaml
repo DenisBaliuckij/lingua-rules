@@ -1,0 +1,313 @@
+lemma: hutta
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: huttahu
+- features:
+    number: plural
+    person: second
+  expected: huttaht
+- features:
+    number: plural
+    person: third
+  expected: huttahS
+- features:
+    number: singular
+    person: first
+  expected: huttah
+- features:
+    number: singular
+    person: second
+  expected: huttat
+- features:
+    number: singular
+    person: third
+  expected: huttas
+---
+lemma: me
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: h-me-eS
+- features:
+    number: singular
+    person: first
+  expected: h-me-en
+---
+lemma: parasum
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: niptaras
+- features:
+    number: singular
+    person: first
+  expected: aptaras
+- features:
+    number: singular
+    person: second
+  expected: taptaras
+- features:
+    number: singular
+    person: third
+  expected: iptaras
+---
+lemma: pariisum
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: niparras
+- features:
+    number: plural
+    person: second
+  expected: taparrasa
+- features:
+    number: plural
+    person: third
+  expected: iparrasii
+- features:
+    number: singular
+    person: first
+  expected: aparras
+- features:
+    number: singular
+    person: second
+  expected: taparras
+- features:
+    number: singular
+    person: third
+  expected: iparras
+---
+lemma: sgm
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: sġm-n
+- features:
+    number: plural
+    person: second
+  expected: sġm-tn
+- features:
+    number: plural
+    person: third
+  expected: sġm-sn
+- features:
+    number: singular
+    person: first
+  expected: sġm-i
+- features:
+    number: singular
+    person: second
+  expected: sġm-k
+- features:
+    number: singular
+    person: third
+  expected: sġm-f
+---
+lemma: spras
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+  expected: supris
+- features:
+    mood: imperative
+    number: plural
+  expected: suprisii
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: nusapris
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nusapras
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: usapris
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: usapras
+---
+lemma: stapris
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: imperative
+    number: singular
+  expected: saprisl
+- features:
+    mood: imperative
+    number: plural
+  expected: saprisa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: nusapris
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nustapris
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: usapris
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ustapris
+---
+lemma: to enter
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+  expected: k
+- features:
+    aspect: imperfective
+    number: singular
+  expected: k
+- features:
+    aspect: perfective
+    number: plural
+  expected: su
+- features:
+    aspect: perfective
+    number: singular
+  expected: ku
+---
+lemma: to go
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+  expected: sUs
+- features:
+    aspect: imperfective
+    number: singular
+  expected: du
+- features:
+    aspect: perfective
+    number: plural
+  expected: er
+- features:
+    aspect: perfective
+    number: singular
+  expected: gin
+---
+lemma: to kill
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+  expected: ugsp
+- features:
+    aspect: imperfective
+    number: singular
+  expected: ugS
+- features:
+    aspect: perfective
+    number: plural
+  expected: ugsp
+---
+lemma: to live
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+  expected: sex
+- features:
+    aspect: imperfective
+    number: singular
+  expected: til
+- features:
+    aspect: perfective
+    number: plural
+  expected: sex
+- features:
+    aspect: perfective
+    number: singular
+  expected: til
+---
+lemma: to sit
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+  expected: durun
+- features:
+    aspect: perfective
+    number: plural
+  expected: durun
+- features:
+    aspect: perfective
+    number: singular
+  expected: tuS
+---
+lemma: to speak
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+  expected: e
+- features:
+    aspect: imperfective
+    number: singular
+  expected: e
+- features:
+    aspect: perfective
+    number: plural
+  expected: e
+---
+lemma: to stand
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+  expected: sUg
+- features:
+    aspect: imperfective
+    number: singular
+  expected: gub
+- features:
+    aspect: perfective
+    number: singular
+  expected: gub

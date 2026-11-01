@@ -1,0 +1,169 @@
+lemma: apa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: mu-ru-apa
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: muapa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: ijan-tu-apa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ^am-p-apa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: yan-tu-apa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: pam-p-apa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: pu-ru-apa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wapa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tja-ru-apa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tjuapa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: jluapa
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nam-p-apa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: juapa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: awapa
+---
+lemma: kauimi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: mu-ja-kajimi
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: mu-ja-kajimi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tjan-ta-ja-kajimi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tja-ja-kauimi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: pan-ta-ja-kajimi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: rjam-pa-ja-kauinii
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: pu-ua-kauimi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: wu-ja-kauimi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: fja-ja-kauimi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: ti-i-kauimi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nam-pa-ja-kajimi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ji-i-kauimi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: a-ja-kauimi

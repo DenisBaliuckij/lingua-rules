@@ -1,0 +1,270 @@
+lemma: bound pronoun
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: singular
+    person: first
+  expected: yu
+- features:
+    case: absolutive
+    number: singular
+    person: third
+  expected: pu
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: nja
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: pu
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: nja
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: pu
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: yu
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: yu
+---
+lemma: ngali
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+  expected: ngalina
+- features:
+    case: accusative
+    number: plural
+  expected: ngarrana
+- features:
+    case: genitive
+    number: dual
+  expected: ngalika
+- features:
+    case: genitive
+    number: plural
+  expected: nganaka
+- features:
+    case: nominative
+    number: dual
+  expected: ngali
+- features:
+    case: nominative
+    number: plural
+  expected: ngana
+---
+lemma: nganha
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: nganha
+---
+lemma: nganhu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: nganhu
+---
+lemma: nganthi
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: nganthi
+---
+lemma: ngathu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ngali-na
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ngarra-na
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: nganha
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: ngali-nguRa
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: ngarra-nguRa
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: ngaa-nguRa
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: ngathungku
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: ngali-ka
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: ngarra-ka
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: nganthi
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngali
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ngana
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ngathu
+---
+lemma: ngunha
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: ngunha
+---
+lemma: nhumpu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: nhumpu
+- features:
+    case: ergative
+    number: singular
+    person: third
+  expected: nhumpu
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: nh umpu
+---
+lemma: nja
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: second
+  expected: na
+- features:
+    number: singular
+    person: third
+  expected: punh
+---
+lemma: panga
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: panga
+---
+lemma: pangu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: pangu
+---
+lemma: punga
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: punga
+---
+lemma: thika
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: thika
+---
+lemma: yintu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: panga
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: ngin tu-ngku
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: yintu

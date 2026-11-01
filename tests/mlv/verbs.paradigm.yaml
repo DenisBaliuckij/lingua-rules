@@ -1,0 +1,235 @@
+lemma: aniva
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: eaniva
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: eaniva
+---
+lemma: be
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: t-en
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: m-en
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: r-en
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: w-en
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: w-en
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: d-en
+---
+lemma: eat
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: t-in
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: m-in
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: r-in
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: w-in
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: w-in
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: o-an
+---
+lemma: ika
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: eika
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: e-'-ika
+---
+lemma: run
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: te-frafm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: e-fraf
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: re-frof
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: yo-raf
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: u-rof
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: e-raf
+---
+lemma: sac
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: kokusac
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: kakusac
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: kusac
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: koklisac
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kaklisac
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: yococsac
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kocsac
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: cocsac
+---
+lemma: take
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: tit
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: m-it
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: r-it
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: w-it
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: w-it
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: y-it
+---
+lemma: vau
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: evau
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: e-va-vau

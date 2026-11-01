@@ -1,0 +1,121 @@
+lemma: go
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ti
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: mi
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: ra
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: go
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: mo
+- features:
+    number: plural
+    person: first
+  expected: kame
+- features:
+    number: singular
+    person: first
+  expected: go
+---
+lemma: go'é
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: ra'é
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: go'é
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: mo'é
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: na'é
+- features:
+    number: singular
+    person: first
+  expected: go'ē
+- features:
+    number: singular
+    person: second
+  expected: mo'ē
+---
+lemma: go'ē
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: tité'ē
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: ra'ē
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: go'ē
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: mo'ē
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: na'ē
+---
+lemma: ina
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ra
+- features:
+    number: singular
+    person: third
+  expected: ina
+---
+lemma: mo
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: mio
+- features:
+    number: singular
+    person: second
+  expected: mo

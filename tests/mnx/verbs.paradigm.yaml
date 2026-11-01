@@ -1,0 +1,119 @@
+lemma: ahan 'to cut
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: am-ahan
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: y-ahan
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: z-ahan
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: em-ahan
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: y-ahan
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: l-ahan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: d-ahan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: b-ahan
+---
+lemma: areba
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: arebama
+- features:
+    number: dual
+    person: second
+  expected: arebeja
+- features:
+    number: dual
+    person: third
+  expected: arebera
+- features:
+    number: plural
+    person: first
+  expected: arebem
+- features:
+    number: plural
+    person: second
+  expected: arebej
+- features:
+    number: plural
+    person: third
+  expected: areber
+- features:
+    number: singular
+    person: first
+  expected: arebet
+- features:
+    number: singular
+    person: second
+  expected: arebep
+- features:
+    number: singular
+    person: third
+  expected: areben
+---
+lemma: eija
+category: verbs
+cases:
+- features:
+    number: dual
+    person: second
+  expected: eijiyan
+- features:
+    number: dual
+    person: third
+  expected: eijera
+- features:
+    number: plural
+    person: first
+  expected: eijemen
+- features:
+    number: plural
+    person: second
+  expected: eijiyen
+- features:
+    number: plural
+    person: third
+  expected: eijer
+- features:
+    number: singular
+    person: first
+  expected: eijet
+- features:
+    number: singular
+    person: second
+  expected: eijep
+- features:
+    number: singular
+    person: third
+  expected: eijen

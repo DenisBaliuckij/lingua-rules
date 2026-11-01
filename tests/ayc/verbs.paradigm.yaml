@@ -1,0 +1,78 @@
+lemma: kusisiña
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: kusisiña
+- features:
+    verb_form: infinitive
+    voice: passive
+  expected: kusisiTÄña
+- features:
+    verb_form: participle
+    voice: passive
+  expected: kusisiTA
+---
+lemma: luraña
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: luraña
+- features:
+    verb_form: infinitive
+    voice: passive
+  expected: luraTÄña
+- features:
+    verb_form: participle
+    voice: passive
+  expected: luraTA
+---
+lemma: sara
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: sara
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: sara.m
+---
+lemma: usuña
+category: verbs
+cases:
+- features:
+    verb_form: infinitive
+  expected: usuña
+- features:
+    verb_form: infinitive
+    voice: passive
+  expected: usuTÄña
+- features:
+    verb_form: participle
+    voice: passive
+  expected: usuTA
+---
+lemma: yatichirïña
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: yatichirÏtanwa
+- features:
+    number: singular
+    person: first
+  expected: yatichirÏtwa
+- features:
+    number: singular
+    person: second
+  expected: yatichirÏtawa
+- features:
+    number: singular
+    person: third
+  expected: yatichirIwa

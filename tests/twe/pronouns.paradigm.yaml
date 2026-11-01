@@ -1,0 +1,55 @@
+lemma: man
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ni-man x
+- features:
+    number: plural
+    person: second
+  expected: yi-man x
+- features:
+    number: plural
+    person: third
+  expected: i-man x
+---
+lemma: na'an
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: iman
+- features:
+    number: singular
+    person: first
+  expected: na’an
+- features:
+    number: singular
+    person: second
+  expected: ha’an
+- features:
+    number: singular
+    person: third
+  expected: ga’an
+---
+lemma: qai
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: niqai
+- features:
+    number: plural
+    person: second
+  expected: yiqai
+- features:
+    number: plural
+    person: third
+  expected: iqai
+- features:
+    number: singular
+    person: third
+  expected: aqai

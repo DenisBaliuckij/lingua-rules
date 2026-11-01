@@ -1,0 +1,261 @@
+lemma: a
+category: verbs
+cases:
+- features:
+    tense: future
+    voice: active
+  expected: akvp
+- features:
+    tense: future
+    voice: reflexive
+  expected: akhakvp
+---
+lemma: ha
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nevky
+- features:
+    number: plural
+    person: first
+    possessor_number: plural
+  expected: nisvky
+- features:
+    number: plural
+    person: second
+  expected: hevky
+- features:
+    number: plural
+    person: second
+    possessor_number: plural
+  expected: hisevky
+- features:
+    number: plural
+    person: third
+  expected: hvky
+- features:
+    number: plural
+    person: third
+    possessor_number: plural
+  expected: isvky
+- features:
+    number: singular
+    person: first
+  expected: neeikho
+- features:
+    number: singular
+    person: first
+    possessor_number: plural
+  expected: nisikho
+- features:
+    number: singular
+    person: second
+  expected: heeikho
+- features:
+    number: singular
+    person: second
+    possessor_number: plural
+  expected: hisikho
+- features:
+    number: singular
+    person: third
+  expected: heikho
+- features:
+    number: singular
+    person: third
+    possessor_number: plural
+  expected: isikho
+- features:
+    tense: future
+    voice: active
+  expected: hvkvp
+- features:
+    tense: future
+    voice: reflexive
+  expected: hakhakvp
+---
+lemma: hei
+category: verbs
+cases:
+- features:
+    number: plural
+    tense: future
+    voice: active
+  expected: hokeinmo
+- features:
+    number: plural
+    tense: future
+    voice: reflexive
+  expected: hakhokeinmo
+- features:
+    number: singular
+    tense: future
+    voice: active
+  expected: hekeinmo
+- features:
+    number: singular
+    tense: future
+    voice: reflexive
+  expected: hakhekeinmo
+- features:
+    tense: future
+    voice: active
+  expected: hvkvp
+- features:
+    tense: future
+    voice: reflexive
+  expected: hakhakvp
+---
+lemma: i
+category: verbs
+cases:
+- features:
+    tense: future
+    voice: active
+  expected: vkvp
+- features:
+    tense: future
+    voice: reflexive
+  expected: ikhvkvp
+---
+lemma: jak
+category: verbs
+cases:
+- features:
+    tense: future
+    voice: active
+  expected: jathvp
+- features:
+    tense: future
+    voice: reflexive
+  expected: jakhhvp
+- features:
+    verb_form: gerund
+    voice: active
+  expected: jasu
+- features:
+    verb_form: gerund
+    voice: reflexive
+  expected: jakha
+---
+lemma: jap
+category: verbs
+cases:
+- features:
+    tense: future
+    voice: active
+  expected: japhvp
+- features:
+    tense: future
+    voice: reflexive
+  expected: jakhhvp
+- features:
+    verb_form: gerund
+    voice: active
+  expected: japu
+- features:
+    verb_form: gerund
+    voice: reflexive
+  expected: jakha
+---
+lemma: keil
+category: verbs
+cases:
+- features:
+    tense: future
+    voice: active
+  expected: kelhvp
+- features:
+    tense: future
+    voice: reflexive
+  expected: keilvkvp
+- features:
+    verb_form: gerund
+    voice: active
+  expected: kelu
+- features:
+    verb_form: gerund
+    voice: reflexive
+  expected: keila
+---
+lemma: pal
+category: verbs
+cases:
+- features:
+    tense: future
+    voice: active
+  expected: palhvp
+- features:
+    tense: future
+    voice: reflexive
+  expected: palvkvp
+- features:
+    verb_form: gerund
+    voice: active
+  expected: palu
+- features:
+    verb_form: gerund
+    voice: reflexive
+  expected: pala
+---
+lemma: wat
+category: verbs
+cases:
+- features:
+    number: plural
+    tense: future
+    voice: active
+  expected: wasukunmo
+- features:
+    number: plural
+    tense: future
+    voice: reflexive
+  expected: watokeinmo
+- features:
+    number: singular
+    tense: future
+    voice: active
+  expected: wasikinmo
+- features:
+    number: singular
+    tense: future
+    voice: reflexive
+  expected: watekeinmo
+- features:
+    tense: future
+    voice: active
+  expected: wathvp
+- features:
+    tense: future
+    voice: reflexive
+  expected: watvkvp
+- features:
+    verb_form: gerund
+    voice: active
+  expected: wasu
+- features:
+    verb_form: gerund
+    voice: reflexive
+  expected: wata
+---
+lemma: yk
+category: verbs
+cases:
+- features:
+    tense: future
+    voice: active
+  expected: ythvp
+- features:
+    tense: future
+    voice: reflexive
+  expected: ikhvkvp
+- features:
+    verb_form: gerund
+    voice: active
+  expected: isu
+- features:
+    verb_form: gerund
+    voice: reflexive
+  expected: ikha
