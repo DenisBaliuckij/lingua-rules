@@ -1,0 +1,156 @@
+lemma: isio
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: disio
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: isio
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: isio
+- features:
+    number: singular
+    person: third
+  expected: isio
+---
+lemma: ko
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: nu
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: ko
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: dia
+- features:
+    number: singular
+    person: second
+  expected: ya
+---
+lemma: oku
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ku
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: oku
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: doho
+- features:
+    number: singular
+    person: first
+  expected: yoho
+---
+lemma: toko
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: toko
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: toko
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: toko
+---
+lemma: yahay
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: dahə
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: yahay
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: dahə
+- features:
+    number: plural
+    person: first
+  expected: yahə
+---
+lemma: yokow
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: dokow
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: yokow
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: yokow
+- features:
+    number: plural
+    person: second
+  expected: yokow
+---
+lemma: yolo
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: diolo
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: yolo
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: yolo
+- features:
+    number: plural
+    person: third
+  expected: yolo

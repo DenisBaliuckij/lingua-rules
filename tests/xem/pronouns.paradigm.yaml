@@ -1,0 +1,23 @@
+lemma: ngéh
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: dat ngéh
+- features:
+    number: singular
+    person: third
+  expected: ngéh
+---
+lemma: odeap
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: odeap idu
+- features:
+    number: plural
+    person: first
+  expected: odeap

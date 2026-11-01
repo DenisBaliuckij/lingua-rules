@@ -1,0 +1,55 @@
+lemma: a
+category: articles
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: ada
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: ami
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: ad
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: ag
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: am
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: aea
+---
+lemma: le
+category: articles
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: leda
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: lemi
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: led
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: leg
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: lem
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: ele

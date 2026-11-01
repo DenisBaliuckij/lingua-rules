@@ -1,0 +1,89 @@
+lemma: em-ɨ
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: em-i
+- features:
+    mood: indicative
+    tense: future
+  expected: em
+- features:
+    mood: indicative
+    tense: present
+  expected: em-a
+---
+lemma: iʧ
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: iʧadui
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: iʧi
+---
+lemma: iʧ-ɨ
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: iʧ-i
+- features:
+    mood: indicative
+    tense: future
+  expected: iʧ
+- features:
+    mood: indicative
+    tense: present
+  expected: iʧ-a
+---
+lemma: me
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: mehatʰɨ
+- features:
+    number: singular
+    person: first
+  expected: metakʷɨ
+- features:
+    number: singular
+    person: second
+  expected: mekɨbatʰɨ
+---
+lemma: omukʷat-ɨ
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: omukʷat-i
+- features:
+    mood: indicative
+    tense: future
+  expected: omukʷat
+- features:
+    mood: indicative
+    tense: present
+  expected: omukʷat-a
+---
+lemma: ˀdo
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: ˀdobadui
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ˀdobi

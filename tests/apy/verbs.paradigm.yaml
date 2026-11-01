@@ -1,0 +1,133 @@
+lemma: a
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: seta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: a
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ma
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: na
+---
+lemma: ake-ne
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: set-ake-ne
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: ake-ne
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: m-ake-ne
+---
+lemma: ase
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: setase
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ase
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: mase
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: m-ana
+---
+lemma: yka-ne
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: s-yka-ne
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: yka-ne
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: m-yka-ne
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: k-yka-ne
+---
+lemma: yka-no
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: imperfect
+  expected: s-yka-no
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: imperfect
+  expected: yka-no
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: imperfect
+  expected: m-yka-no
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: imperfect
+  expected: n-yka-no

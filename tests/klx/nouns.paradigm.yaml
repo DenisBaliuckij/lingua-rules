@@ -1,0 +1,103 @@
+lemma: biyala
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: biyabiyala
+- features:
+    number: singular
+  expected: biyala
+---
+lemma: di
+category: nouns
+cases:
+- features:
+    number: plural
+    possessor_number: plural
+    possessor_person: second
+  expected: yamiyavodi
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: yagwavodi
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: yamwavodi
+- features:
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: yanavodi
+- features:
+    number: singular
+    possessor_number: plural
+    possessor_person: second
+  expected: yamidi
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: yagudi
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: yamudi
+- features:
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: yanadi
+---
+lemma: guwa
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: guwaguwa
+- features:
+    number: singular
+  expected: guwa
+---
+lemma: gwamana
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: buyabuyama
+- features:
+    number: singular
+  expected: gwamana
+---
+lemma: mwata
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: mwatamwata
+- features:
+    number: singular
+  expected: mwata
+---
+lemma: takula
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: takutakula
+- features:
+    number: singular
+  expected: takula
+---
+lemma: vavine
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: vevine
+- features:
+    number: singular
+  expected: vavine

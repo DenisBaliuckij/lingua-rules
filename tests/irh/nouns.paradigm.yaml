@@ -1,0 +1,47 @@
+lemma: den
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: amden
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: eden
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: irden
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: aden
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: iden
+---
+lemma: drbon
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: it-drbon-og
+- features:
+    number: plural
+    person: second
+  expected: e-drbon-om
+- features:
+    number: plural
+    person: third
+  expected: ir-drbun
+- features:
+    number: singular
+    person: first
+  expected: a-drbon-og
+- features:
+    number: singular
+    person: third
+  expected: i-drbun

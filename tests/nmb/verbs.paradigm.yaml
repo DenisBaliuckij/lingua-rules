@@ -1,0 +1,39 @@
+lemma: lëk
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: të-r-lëk
+- features:
+    number: dual
+    person: second
+  expected: pë-r-lëk
+- features:
+    number: dual
+    person: third
+  expected: apë-r-lëk
+- features:
+    number: plural
+    person: first
+  expected: të-v-lëk
+- features:
+    number: plural
+    person: second
+  expected: pë-v-lëk
+- features:
+    number: plural
+    person: third
+  expected: apë-v-lëk
+- features:
+    number: singular
+    person: first
+  expected: të-Ø-lëk
+- features:
+    number: singular
+    person: second
+  expected: pë-Ø-lëk
+- features:
+    number: singular
+    person: third
+  expected: ipë-Ø-lëk

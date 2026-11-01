@@ -1,0 +1,72 @@
+lemma: a
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: eina
+- features:
+    number: singular
+    person: second
+  expected: a cha
+- features:
+    number: singular
+    person: third
+  expected: a
+---
+lemma: ei
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ei
+- features:
+    number: singular
+    person: second
+  expected: ei cha
+- features:
+    number: singular
+    person: third
+  expected: ei
+---
+lemma: kei
+category: pronouns
+cases:
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: ano
+- features:
+    number: plural
+    person: first
+  expected: keimo
+- features:
+    number: singular
+    person: first
+  expected: kei
+- features:
+    number: singular
+    person: second
+  expected: na
+- features:
+    number: singular
+    person: third
+  expected: ano
+---
+lemma: na
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: eina V chi
+- features:
+    number: singular
+    person: second
+  expected: na cha
+- features:
+    number: singular
+    person: third
+  expected: na

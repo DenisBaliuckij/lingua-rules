@@ -1,0 +1,48 @@
+lemma: a
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: hni
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: aK
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: hflK
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: aq
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: mnq
+---
+lemma: ccuTn
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: a.—CCUTTT
+- features:
+    number: singular
+    person: first
+  expected: al-CO)Tn
+- features:
+    number: singular
+    person: second
+  expected: tpA-CCUTTT
+- features:
+    number: singular
+    person: third
+  expected: aK-COlTn

@@ -1,0 +1,137 @@
+lemma: hai-ne
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: hai-tao
+- features:
+    number: singular
+  expected: hai-ne
+---
+lemma: ho-ne
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: ho-tao
+- features:
+    number: singular
+  expected: ho-ne
+---
+lemma: ni
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: nitao
+- features:
+    number: singular
+    person: second
+  expected: ni
+---
+lemma: ni-la
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ni-tao-la
+- features:
+    number: singular
+    person: second
+  expected: ni-la
+---
+lemma: ni-vәi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: ni-tao-vәi
+- features:
+    number: singular
+    person: second
+  expected: ni-vәi
+---
+lemma: pu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: putao
+- features:
+    number: singular
+    person: third
+  expected: pu
+---
+lemma: pu-la
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: pu-tao-la
+- features:
+    number: singular
+    person: third
+  expected: pu-la
+---
+lemma: pu-vәi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: pu-tao-vәi
+- features:
+    number: singular
+    person: third
+  expected: pu-vәi
+---
+lemma: thao
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: thao-thao
+- features:
+    number: singular
+  expected: thao
+---
+lemma: ʑi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ʑitao
+- features:
+    number: singular
+    person: first
+  expected: ʑi
+---
+lemma: ʑi-la
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ʑi-tao-la
+- features:
+    number: singular
+    person: first
+  expected: ʑi-la
+---
+lemma: ә-vәi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ʑi-tao-vәi
+- features:
+    number: singular
+    person: first
+  expected: ә-vәi

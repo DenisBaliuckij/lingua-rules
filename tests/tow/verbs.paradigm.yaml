@@ -1,0 +1,31 @@
+lemma: pae-y
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    voice: active
+  expected: paepae
+- features:
+    aspect: imperfective
+    voice: passive
+  expected: paeyasa
+- features:
+    aspect: perfective
+    voice: active
+  expected: pae
+- features:
+    aspect: perfective
+    voice: passive
+  expected: pae’ye
+- features:
+    mood: imperative
+    voice: active
+  expected: paelae
+- features:
+    mood: potential
+    voice: active
+  expected: pae
+- features:
+    mood: potential
+    voice: passive
+  expected: paeye

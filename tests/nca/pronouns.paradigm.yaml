@@ -1,0 +1,27 @@
+lemma: 'no'
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nore
+- features:
+    number: dual
+    person: second
+  expected: yari
+- features:
+    number: dual
+    person: third
+  expected: ene
+- features:
+    number: plural
+    person: second
+  expected: ye
+- features:
+    number: singular
+    person: first
+  expected: 'no'
+- features:
+    number: singular
+    person: second
+  expected: ke

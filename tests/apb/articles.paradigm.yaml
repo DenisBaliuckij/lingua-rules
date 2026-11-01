@@ -1,0 +1,16 @@
+lemma: a
+category: articles
+cases:
+- features:
+    number: singular
+  expected: a
+---
+lemma: nga
+category: articles
+cases:
+- features:
+    number: plural
+  expected: mui
+- features:
+    number: singular
+  expected: nga

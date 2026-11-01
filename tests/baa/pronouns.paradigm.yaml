@@ -1,0 +1,95 @@
+lemma: naqu
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: naqu
+- features:
+    number: singular
+    person: second
+  expected: namu
+- features:
+    number: singular
+    person: third
+  expected: nai
+---
+lemma: qu
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: dim
+- features:
+    number: dual
+    person: second
+  expected: miburu
+- features:
+    number: dual
+    person: third
+  expected: diru
+- features:
+    number: plural
+    person: first
+  expected: dia
+- features:
+    number: plural
+    person: second
+  expected: mina
+- features:
+    number: plural
+    person: third
+  expected: dira
+- features:
+    number: singular
+    person: first
+  expected: qu
+- features:
+    number: singular
+    person: second
+  expected: mu
+- features:
+    number: singular
+    person: third
+  expected: iye
+---
+lemma: ra
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: zituru
+- features:
+    number: dual
+    person: second
+  expected: raburu
+- features:
+    number: dual
+    person: third
+  expected: ziru
+- features:
+    number: plural
+    person: first
+  expected: zita
+- features:
+    number: plural
+    person: second
+  expected: ramu
+- features:
+    number: plural
+    person: third
+  expected: zira
+- features:
+    number: singular
+    person: first
+  expected: ra
+- features:
+    number: singular
+    person: second
+  expected: re
+- features:
+    number: singular
+    person: third
+  expected: goi

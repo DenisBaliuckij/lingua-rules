@@ -1,0 +1,90 @@
+lemma: afu
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: anī
+- features:
+    number: singular
+    person: second
+  expected: afu
+---
+lemma: ame
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: atī
+- features:
+    number: plural
+    person: second
+  expected: anī
+- features:
+    number: plural
+    person: third
+  expected: abā
+- features:
+    number: singular
+    person: first
+  expected: ame
+- features:
+    number: singular
+    person: second
+  expected: afu
+- features:
+    number: singular
+    person: third
+  expected: awū
+- features:
+    person: third
+  expected: ayī
+---
+lemma: awū
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: abā
+- features:
+    number: singular
+    person: third
+  expected: awū
+---
+lemma: ayī
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: third
+  expected: ayī
+---
+lemma: m
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: tī
+- features:
+    number: plural
+    person: second
+  expected: nī
+- features:
+    number: plural
+    person: third
+  expected: ā
+- features:
+    number: singular
+    person: first
+  expected: m
+- features:
+    number: singular
+    person: second
+  expected: u
+- features:
+    number: singular
+    person: third
+  expected: wū

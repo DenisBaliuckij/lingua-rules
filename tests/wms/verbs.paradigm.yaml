@@ -1,0 +1,167 @@
+lemma: en
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: andevamava
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: andelevambo
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: andenamat
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: andelembo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: andepmalep
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: andemat
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: andetmbo
+---
+lemma: kekhet
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: ande-t-eva-kekhet
+- features:
+    mood: conditional
+    number: plural
+    person: third
+  expected: ande-t-e-kekhet
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: ande-t-ep-kekhet
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: ande-t-kekhet
+---
+lemma: ko
+category: verbs
+cases:
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: ka-va
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: ka-p
+---
+lemma: ndat
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ndatkendeva
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ndatkende
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ndatkendep
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ndatke
+---
+lemma: takhimo
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: future
+  expected: takhimovakhetoi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: takhimokndeva
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: takhimoknde
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: future
+  expected: takhimonakhetoi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: takhimovepndoi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: takhimokndep
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: takhimokhe
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: future
+  expected: takhimokhetoi

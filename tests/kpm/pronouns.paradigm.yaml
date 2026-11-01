@@ -1,0 +1,97 @@
+lemma: ?a
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: hi
+- features:
+    number: plural
+    person: first
+  expected: bol hi
+- features:
+    number: singular
+    person: first
+  expected: ?a
+---
+lemma: bɔl hɛ
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: bɔl hɛ
+---
+lemma: khay
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: bol khay
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: khay
+---
+lemma: kʰaj
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: bɔl kʰaj
+- features:
+    number: singular
+    person: third
+  expected: kʰaj
+---
+lemma: me
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: second
+  expected: bol ?ay
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: ?ay
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: bol me
+- features:
+    gender: masculine
+    number: singular
+    person: second
+  expected: me
+---
+lemma: ɗi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: bɔl ɗi
+- features:
+    number: singular
+    person: second
+  expected: ɗi
+---
+lemma: ʔaɲ
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: bɔl hi
+- features:
+    number: singular
+    person: first
+  expected: ʔaɲ

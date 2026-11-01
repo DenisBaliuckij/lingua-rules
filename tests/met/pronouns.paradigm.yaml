@@ -1,0 +1,48 @@
+lemma: nga
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: tam
+- features:
+    number: dual
+    person: second
+  expected: tang
+- features:
+    number: dual
+    person: third
+  expected: tang
+- features:
+    number: plural
+    person: first
+  expected: am
+- features:
+    number: plural
+    person: second
+  expected: ang
+- features:
+    number: plural
+    person: third
+  expected: ding
+- features:
+    number: singular
+    person: first
+  expected: nga
+- features:
+    number: singular
+    person: second
+  expected: ung
+- features:
+    number: singular
+    person: third
+  expected: ina
+- features:
+    person: first
+  expected: tum
+- features:
+    person: second
+  expected: tung
+- features:
+    person: third
+  expected: tung

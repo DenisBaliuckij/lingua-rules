@@ -1,0 +1,75 @@
+lemma: amba
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: amaŋ
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: amam
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: amba
+---
+lemma: awha
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: awhaŋ
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: awham
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: awha
+---
+lemma: nê
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: neŋ
+- features:
+    number: plural
+    person: second
+  expected: nem
+- features:
+    number: plural
+    person: third
+  expected: si
+- features:
+    number: singular
+    person: first
+  expected: neŋ
+- features:
+    number: singular
+    person: second
+  expected: nem
+- features:
+    number: singular
+    person: third
+  expected: ndê
+---
+lemma: waheŋ
+category: nouns
+cases:
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: waheŋ
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: wahem
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: waheŋ

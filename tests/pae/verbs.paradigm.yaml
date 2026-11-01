@@ -1,0 +1,61 @@
+lemma: geneye
+category: verbs
+cases:
+- features:
+    mood: indicative
+    person: third
+  expected: agena
+- features:
+    mood: indicative
+    person: third
+    tense: present
+  expected: agena
+- features:
+    mood: subjunctive
+    person: third
+  expected: agene
+---
+lemma: pupeye
+category: verbs
+cases:
+- features:
+    mood: indicative
+    person: third
+  expected: apupa
+- features:
+    mood: indicative
+    person: third
+    tense: future
+  expected: apupa
+- features:
+    mood: indicative
+    person: third
+    tense: past
+  expected: apupi
+- features:
+    mood: indicative
+    person: third
+    tense: present
+  expected: apupa
+- features:
+    mood: subjunctive
+    person: third
+  expected: apupi
+---
+lemma: wokeye
+category: verbs
+cases:
+- features:
+    mood: indicative
+    person: third
+    tense: future
+  expected: awoko
+- features:
+    mood: indicative
+    person: third
+    tense: past
+  expected: awokf
+- features:
+    mood: subjunctive
+    person: third
+  expected: awoke

@@ -1,0 +1,45 @@
+lemma: anti
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ana
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: anti
+---
+lemma: iʃa
+category: pronouns
+cases:
+- features:
+    case: nominative
+    gender: masculine
+    number: singular
+    person: third
+  expected: iʃa
+---
+lemma: iʃeenna
+category: pronouns
+cases:
+- features:
+    case: accusative
+    gender: feminine
+    number: singular
+    person: third
+  expected: iʃeeta
+- features:
+    case: nominative
+    gender: feminine
+    number: plural
+    person: third
+  expected: iʃoonna
+- features:
+    case: nominative
+    gender: feminine
+    number: singular
+    person: third
+  expected: iʃeenna

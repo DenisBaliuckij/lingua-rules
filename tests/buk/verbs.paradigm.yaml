@@ -1,0 +1,53 @@
+lemma: kuc
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: taŋkuc
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: aŋkuc
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: aŋkuc
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: sêŋkuc
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: kakuc
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: kêkuc
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: kêkuc
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: waŋkuc
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: êmkuc
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: êŋkuc

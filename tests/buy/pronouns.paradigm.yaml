@@ -1,0 +1,31 @@
+lemma: moa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: second
+  expected: se
+- features:
+    number: singular
+    person: second
+  expected: moa
+---
+lemma: okra
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: okra
+---
+lemma: woa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: ngha
+- features:
+    number: singular
+    person: third
+  expected: woa

@@ -1,0 +1,25 @@
+lemma: niru
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    verb_form: participle
+  expected: niisa
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: niibo
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: niibo
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: niima
+- features:
+    tense: past
+  expected: niili
