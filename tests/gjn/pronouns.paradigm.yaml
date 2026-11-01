@@ -1,0 +1,143 @@
+lemma: N
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: bo
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: e
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: a
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: kl
+- features:
+    number: plural
+    person: first
+  expected: aN
+- features:
+    number: plural
+    person: second
+  expected: be
+- features:
+    number: singular
+    person: first
+  expected: N
+- features:
+    number: singular
+    person: second
+  expected: fo
+---
+lemma: fo
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: bo
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: e
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: a
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: kl
+- features:
+    number: plural
+    person: first
+  expected: bnye
+- features:
+    number: plural
+    person: second
+  expected: benye
+- features:
+    number: singular
+    person: second
+  expected: fo
+---
+lemma: ma
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: anye
+- features:
+    number: plural
+    person: second
+  expected: menye
+- features:
+    number: plural
+    person: third
+  expected: bo-mo
+- features:
+    number: singular
+    person: first
+  expected: ma
+- features:
+    number: singular
+    person: second
+  expected: fo
+- features:
+    number: singular
+    person: third
+  expected: m
+---
+lemma: me
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+    person: third
+  expected: ba
+- features:
+    animacy: animate
+    number: singular
+    person: third
+  expected: e
+- features:
+    animacy: inanimate
+    number: plural
+    person: third
+  expected: a
+- features:
+    animacy: inanimate
+    number: singular
+    person: third
+  expected: kl
+- features:
+    number: plural
+    person: first
+  expected: bnye
+- features:
+    number: plural
+    person: second
+  expected: benye
+- features:
+    number: singular
+    person: first
+  expected: me
+- features:
+    number: singular
+    person: second
+  expected: fe

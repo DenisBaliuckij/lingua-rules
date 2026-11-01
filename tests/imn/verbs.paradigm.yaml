@@ -1,0 +1,55 @@
+lemma: ai
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: i-abt-ai-h
+- features:
+    number: dual
+    person: second
+  expected: i-abt-Zi-h
+- features:
+    number: dual
+    person: third
+  expected: i-abt-i
+- features:
+    number: plural
+    person: first
+  expected: i-ab-ai-h
+- features:
+    number: plural
+    person: second
+  expected: leg-ab-Zi-h
+- features:
+    number: singular
+    person: first
+  expected: fa-ai-h
+- features:
+    number: singular
+    person: third
+  expected: legi
+---
+lemma: ia
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: iabt
+- features:
+    number: dual
+    person: second
+  expected: iZbt
+- features:
+    number: plural
+    person: second
+  expected: ibb
+- features:
+    number: singular
+    person: first
+  expected: fia
+- features:
+    number: singular
+    person: second
+  expected: f-i&

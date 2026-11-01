@@ -1,0 +1,95 @@
+lemma: ana
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: naka
+- features:
+    number: plural
+    person: first
+  expected: napa
+- features:
+    number: singular
+    person: first
+  expected: ana
+---
+lemma: naho
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: nakaho
+- features:
+    number: plural
+    person: first
+  expected: napaho
+- features:
+    number: singular
+    person: first
+  expected: naho
+---
+lemma: niho
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: nipeho
+- features:
+    number: plural
+    person: second
+  expected: nikeho
+- features:
+    number: singular
+    person: second
+  expected: niho
+---
+lemma: nii
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: nipe
+- features:
+    number: plural
+    person: second
+  expected: nike
+- features:
+    number: singular
+    person: second
+  expected: nii
+---
+lemma: 'no'
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: nopo
+- features:
+    number: plural
+    person: third
+  expected: noko
+- features:
+    number: singular
+    person: third
+  expected: 'no'
+---
+lemma: noho
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: nopoho
+- features:
+    number: plural
+    person: third
+  expected: nokoho
+- features:
+    number: singular
+    person: third
+  expected: noho

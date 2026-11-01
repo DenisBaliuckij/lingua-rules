@@ -1,0 +1,31 @@
+lemma: ahaka
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: nahaka
+- features:
+    number: singular
+    person: second
+  expected: kehaka
+- features:
+    number: singular
+    person: third
+  expected: wahaka
+---
+lemma: ehak
+category: pronouns
+cases:
+- features:
+    number: singular
+    person: first
+  expected: nehak
+- features:
+    number: singular
+    person: second
+  expected: kehak
+- features:
+    number: singular
+    person: third
+  expected: wehaka

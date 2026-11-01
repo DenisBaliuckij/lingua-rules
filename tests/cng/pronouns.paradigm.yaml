@@ -1,0 +1,69 @@
+lemma: qå
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: t˚i-zzi
+- features:
+    number: plural
+    person: first
+  expected: t˚i-le
+- features:
+    number: singular
+    person: first
+  expected: qå
+---
+lemma: the
+category: pronouns
+cases:
+- features:
+    case: locative
+  expected: thå
+- features:
+    number: dual
+    person: third
+  expected: thi-zzi
+- features:
+    number: plural
+  expected: thåhå
+- features:
+    number: plural
+    person: third
+  expected: them-le
+- features:
+    number: singular
+  expected: the
+- features:
+    number: singular
+    person: third
+  expected: the
+---
+lemma: tse
+category: pronouns
+cases:
+- features:
+    case: locative
+  expected: tså
+- features:
+    number: plural
+  expected: tsåhå
+- features:
+    number: singular
+  expected: tse
+---
+lemma: ÷
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: ÷i-zzi
+- features:
+    number: plural
+    person: second
+  expected: ÷i-le
+- features:
+    number: singular
+    person: second
+  expected: ÷

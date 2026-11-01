@@ -1,0 +1,28 @@
+lemma: kurmu
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: kurasi
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: kurusi
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kurani
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: kuruni
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kuru

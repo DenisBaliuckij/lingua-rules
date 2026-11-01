@@ -1,0 +1,87 @@
+lemma: magcasala
+category: verbs
+cases:
+- features:
+    mood: imperative
+    voice: passive
+  expected: ipagcasala
+- features:
+    tense: future
+    voice: passive
+  expected: lpagcacasala
+- features:
+    tense: present
+    voice: passive
+  expected: jpinagcacasala
+---
+lemma: magcaútang
+category: verbs
+cases:
+- features:
+    tense: future
+    voice: active
+  expected: magcacaútang
+- features:
+    tense: past
+    voice: active
+  expected: nagcautang
+- features:
+    tense: present
+    voice: active
+  expected: nagcacautang
+---
+lemma: manliblíb
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: perfect
+    voice: active
+  expected: nanliblib
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: perfect
+    voice: passive
+  expected: pinanliblib
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: perfect
+    voice: reflexive
+  expected: ipinanlibJib
+- features:
+    mood: imperative
+    voice: passive
+  expected: panliblibon
+- features:
+    mood: indicative
+    tense: future
+    voice: active
+  expected: manliliblib
+- features:
+    mood: indicative
+    tense: future
+    voice: passive
+  expected: paoliliblibon
+- features:
+    mood: indicative
+    tense: future
+    voice: reflexive
+  expected: ipanliliblíb
+- features:
+    mood: indicative
+    tense: present
+    voice: active
+  expected: nanliliblib
+- features:
+    mood: indicative
+    tense: present
+    voice: passive
+  expected: pinanliliblib
+- features:
+    mood: indicative
+    tense: present
+    voice: reflexive
+  expected: ipinanliliblib

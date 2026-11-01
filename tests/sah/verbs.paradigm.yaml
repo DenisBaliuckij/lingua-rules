@@ -1,0 +1,33 @@
+lemma: suox
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: suoxput
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: suoxxut
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: suoxtar
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: suoxpun
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: suoxxun
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: suox

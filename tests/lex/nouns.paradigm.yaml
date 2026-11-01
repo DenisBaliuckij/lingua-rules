@@ -1,0 +1,27 @@
+lemma: roma
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: it-rom-ni
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: mi-rom-mi
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: r-rom-ni
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: a-ro'm-u
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: rommu
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: romni
