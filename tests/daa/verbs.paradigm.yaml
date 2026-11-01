@@ -1,0 +1,725 @@
+lemma: a.:cfe
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+  expected: a:cfa
+- features:
+    mood: imperative
+    number: singular
+  expected: a:cfu
+- features:
+    verb_form: infinitive
+  expected: a.:cfe
+---
+lemma: a:c
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    tense: past
+  expected: a.:cfaw
+- features:
+    aspect: progressive
+    verb_form: infinitive
+  expected: a:tguwe
+---
+lemma: a:cf:(te
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: a:cfiga
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: a:cf[:te
+---
+lemma: a:cfe
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: a:d·e
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: a.:tt:C
+- features:
+    mood: imperative
+    number: plural
+  expected: a:cfo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: a:cfu
+- features:
+    verb_form: infinitive
+  expected: a:cfe
+---
+lemma: a:pe
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: a:pe
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: a:t
+- features:
+    verb_form: infinitive
+  expected: a:pe
+---
+lemma: alge
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: alge
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: algftr
+- features:
+    verb_form: infinitive
+  expected: alge
+---
+lemma: amUe
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: amllo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: amal
+---
+lemma: ams
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    tense: past
+  expected: am.saw
+- features:
+    aspect: progressive
+    verb_form: infinitive
+  expected: amslguwe
+---
+lemma: amse
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: amse
+- features:
+    verb_form: infinitive
+  expected: amse
+---
+lemma: ann
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    tense: past
+  expected: annaw
+- features:
+    aspect: progressive
+    verb_form: infinitive
+  expected: armfguwe
+---
+lemma: anne
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: anne
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: annt
+- features:
+    verb_form: infinitive
+  expected: anne
+---
+lemma: arme
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: armo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: aram
+---
+lemma: ba:ge
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+  expected: ba:ga
+- features:
+    mood: imperative
+    number: singular
+  expected: ba:gu
+- features:
+    verb_form: infinitive
+  expected: ba:ge
+---
+lemma: bire
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: bire
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: birt
+- features:
+    mood: imperative
+    number: plural
+  expected: biro
+- features:
+    verb_form: infinitive
+  expected: bire
+---
+lemma: bo:be
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: bo:be
+- features:
+    mood: imperative
+    number: plural
+  expected: bo:bo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bo:bu
+- features:
+    verb_form: infinitive
+  expected: bo:be
+---
+lemma: bo:de
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+  expected: boyat
+- features:
+    mood: imperative
+    number: singular
+  expected: bo:du
+- features:
+    verb_form: infinitive
+  expected: bo:de
+---
+lemma: bor
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    tense: past
+  expected: boraw
+- features:
+    aspect: progressive
+    verb_form: infinitive
+  expected: borguwe
+---
+lemma: bore
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: bore
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: bortf
+- features:
+    verb_form: infinitive
+  expected: bore
+---
+lemma: bugum
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    tense: past
+  expected: bugumaw
+- features:
+    aspect: progressive
+    verb_form: infinitive
+  expected: bugumguwe
+---
+lemma: bugume
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: bugume
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: bugumt
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bugam
+- features:
+    verb_form: infinitive
+  expected: bugume
+---
+lemma: ca:le
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+  expected: ca:la
+- features:
+    mood: imperative
+    number: singular
+  expected: ca:hi
+- features:
+    verb_form: infinitive
+  expected: ca:le
+---
+lemma: cf€
+category: verbs
+cases:
+- features:
+    aspect: progressive
+  expected: d.'€:wa.w
+- features:
+    mood: imperative
+    number: plural
+  expected: cfawo
+- features:
+    verb_form: infinitive
+  expected: cf€
+---
+lemma: de
+category: verbs
+cases:
+- features:
+    aspect: progressive
+  expected: ds:waw
+- features:
+    mood: imperative
+    number: plural
+  expected: dawo
+- features:
+    verb_form: infinitive
+  expected: de
+---
+lemma: dlmse
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: dlmso
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: dlmas
+---
+lemma: du:fe
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+  expected: du:fa
+- features:
+    mood: imperative
+    number: singular
+  expected: du:fu
+- features:
+    verb_form: infinitive
+  expected: du:fe
+---
+lemma: fa
+category: verbs
+cases:
+- features:
+    aspect: progressive
+  expected: ls:waw
+- features:
+    mood: imperative
+    number: plural
+  expected: lawo
+- features:
+    verb_form: infinitive
+  expected: fa
+---
+lemma: ga.:re
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: ga:re
+- features:
+    verb_form: infinitive
+  expected: ga.:re
+---
+lemma: ga:r
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    tense: past
+  expected: ga:raw
+- features:
+    aspect: progressive
+    verb_form: infinitive
+  expected: ga:rg-uwe
+---
+lemma: ga:rlnte
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    number: plural
+    person: first
+    verb_form: infinitive
+  expected: ga:ri'nt(
+- features:
+    aspect: progressive
+    number: singular
+    person: third
+    verb_form: infinitive
+  expected: ga:rguwlnte
+---
+lemma: gac
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    tense: past
+  expected: gacfaw
+- features:
+    aspect: progressive
+    verb_form: infinitive
+  expected: gatguwe
+---
+lemma: gacfe
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: gacfe
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: gatt
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: gacfu
+- features:
+    verb_form: infinitive
+  expected: gacfe
+---
+lemma: ja:we
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: jii:wo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ja:wu
+---
+lemma: jeklcfe
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: jEklcfe
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: jeklttf
+- features:
+    verb_form: infinitive
+  expected: jeklcfe
+---
+lemma: kabHe
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: kablle
+- features:
+    verb_form: infinitive
+  expected: kabHe
+---
+lemma: kabll
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    tense: past
+  expected: kabilaw
+- features:
+    aspect: progressive
+    verb_form: infinitive
+  expected: kabllguwe
+---
+lemma: kokicfe
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: kokrct·e
+- features:
+    mood: imperative
+    number: plural
+  expected: kokicfo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kokat
+- features:
+    verb_form: infinitive
+  expected: kokicfe
+---
+lemma: la:le
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+  expected: layal
+- features:
+    mood: imperative
+    number: singular
+  expected: la:lu
+- features:
+    verb_form: infinitive
+  expected: la:le
+---
+lemma: ne
+category: verbs
+cases:
+- features:
+    aspect: progressive
+  expected: ng:waw
+- features:
+    mood: imperative
+    number: plural
+  expected: nawo
+- features:
+    verb_form: infinitive
+  expected: ne
+---
+lemma: rawte
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+  expected: rawto
+- features:
+    mood: imperative
+    number: singular
+  expected: rawat
+- features:
+    tense: past
+  expected: rawte
+- features:
+    tense: present
+  expected: rawtaw
+- features:
+    verb_form: infinitive
+  expected: rawte
+---
+lemma: sa:le
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+  expected: sa:la
+- features:
+    mood: imperative
+    number: singular
+  expected: sa:hi
+- features:
+    verb_form: infinitive
+  expected: sa:le
+---
+lemma: saycfe
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    tense: past
+  expected: sayd.Yti
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: sayat
+- features:
+    verb_form: infinitive
+  expected: saycfe
+---
+lemma: saycfl
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    tense: past
+  expected: sayd
+- features:
+    aspect: progressive
+    tense: past
+  expected: saycfaw
+- features:
+    aspect: progressive
+    verb_form: infinitive
+  expected: saydlguwe
+---
+lemma: slc
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    tense: past
+  expected: slcfaw
+- features:
+    aspect: progressive
+    verb_form: infinitive
+  expected: sltguwe
+---
+lemma: sloe
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: slcfe
+- features:
+    verb_form: infinitive
+  expected: sloe
+---
+lemma: ss
+category: verbs
+cases:
+- features:
+    aspect: progressive
+  expected: se:waw
+- features:
+    mood: imperative
+    number: plural
+  expected: sawo
+- features:
+    verb_form: infinitive
+  expected: ss
+---
+lemma: te
+category: verbs
+cases:
+- features:
+    aspect: progressive
+  expected: te:waw
+- features:
+    mood: imperative
+    number: plural
+  expected: tawo
+- features:
+    verb_form: infinitive
+  expected: te
+---
+lemma: wa:we
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: wa:wo
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: wa:wa
+---
+lemma: ws
+category: verbs
+cases:
+- features:
+    aspect: progressive
+  expected: ws:waw
+- features:
+    mood: imperative
+    number: plural
+  expected: wawo
+- features:
+    verb_form: infinitive
+  expected: ws

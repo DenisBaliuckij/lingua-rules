@@ -1,0 +1,98 @@
+lemma: ni
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: niyawun
+- features:
+    number: plural
+    person: second
+  expected: giyaw
+- features:
+    number: plural
+    person: third
+  expected: nagumaw
+- features:
+    number: singular
+    person: first
+  expected: ni
+- features:
+    number: singular
+    person: second
+  expected: gi
+- features:
+    number: singular
+    person: third
+  expected: nagum
+---
+lemma: nuhug
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: nuhugun
+- features:
+    number: plural
+    person: second
+  expected: guhuguw
+- features:
+    number: plural
+    person: third
+  expected: wohuguw
+- features:
+    number: singular
+    person: first
+  expected: nuhug
+- features:
+    number: singular
+    person: second
+  expected: guhug
+- features:
+    number: singular
+    person: third
+  expected: wohug
+---
+lemma: tiwan
+category: pronouns
+cases:
+- features:
+    animacy: animate
+    number: plural
+  expected: wanjug
+- features:
+    animacy: animate
+    number: singular
+  expected: tiwan
+- features:
+    animacy: inanimate
+    number: plural
+  expected: jagwanx
+- features:
+    animacy: inanimate
+    number: singular
+  expected: jagwan
+---
+lemma: yo
+category: pronouns
+cases:
+- features:
+    animacy: animate
+  expected: yoh
+- features:
+    animacy: animate
+    number: plural
+  expected: nig
+- features:
+    animacy: animate
+    number: singular
+  expected: yo
+- features:
+    animacy: inanimate
+    number: plural
+  expected: yog
+- features:
+    animacy: inanimate
+    number: singular
+  expected: yow

@@ -1,0 +1,408 @@
+lemma: chad-anu
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: chad-ij
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: chad-ij-u
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: chadinda-u
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: chadlnda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: chadlnduse
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: chadlnd-e
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: chadlndo
+---
+lemma: halia
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: halanda-si
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: halanda-u
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: halandu-se
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: haland-e
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: halando
+---
+lemma: hose
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: huyase
+- features:
+    number: singular
+    person: first
+  expected: hoase
+---
+lemma: hundasu
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: hundosa-va
+- features:
+    number: plural
+    person: second
+  expected: hundosa-ne
+- features:
+    number: plural
+    person: third
+  expected: hundeu
+- features:
+    number: singular
+    person: first
+  expected: hundasue
+- features:
+    number: singular
+    person: second
+  expected: hundusu-se
+- features:
+    number: singular
+    person: third
+  expected: hundo-me
+---
+lemma: hundisa
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: hundisae
+- features:
+    number: singular
+    person: second
+  expected: hundltsa-se
+---
+lemma: hundu-se
+category: verbs
+cases:
+- features:
+    gender: feminine
+    number: singular
+    person: first
+  expected: hundia-se
+- features:
+    gender: feminine
+    number: singular
+    person: second
+  expected: hundi-a
+- features:
+    number: singular
+    person: first
+  expected: hundu-se
+- features:
+    number: singular
+    person: second
+  expected: hund-e
+- features:
+    number: singular
+    person: third
+  expected: hundo
+---
+lemma: thi
+category: verbs
+cases:
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: thiusi
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: thiu
+- features:
+    gender: feminine
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: thiu
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: thiase
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: thia
+- features:
+    gender: feminine
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: thi
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: first
+    tense: aorist
+  expected: thiasi
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: second
+    tense: aorist
+  expected: thia-u
+- features:
+    gender: masculine
+    mood: indicative
+    number: plural
+    person: third
+    tense: aorist
+  expected: thia
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: first
+    tense: aorist
+  expected: thiuse
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: second
+    tense: aorist
+  expected: thie
+- features:
+    gender: masculine
+    mood: indicative
+    number: singular
+    person: third
+    tense: aorist
+  expected: thio
+---
+lemma: thiase
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: thlsase
+- features:
+    number: singular
+    person: second
+  expected: thiame
+- features:
+    number: singular
+    person: third
+  expected: thiame
+---
+lemma: thiasu
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: thiosa-va
+- features:
+    number: plural
+    person: second
+  expected: thie-ne
+- features:
+    number: plural
+    person: third
+  expected: thiu-va
+- features:
+    number: singular
+    person: first
+  expected: thiasue
+- features:
+    number: singular
+    person: second
+  expected: thio-me
+- features:
+    number: singular
+    person: third
+  expected: thiame
+---
+lemma: thind
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: thxndasi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: thinda-u
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: thlnda
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: thinduse
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: thlnde
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: thindo
+---
+lemma: سٽهڻ
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: سٽهندين
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: سٽهندين
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: سٽهندين
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: سٽهنديسن
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: سٽهنديسن
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: سٽهنديسن
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: سٽهنديس
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: سٽهنديس
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: سٽهنديس
+---
+lemma: ہون
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ہوٺاں
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ہوٺي
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ہوٺو

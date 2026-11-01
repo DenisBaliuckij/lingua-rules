@@ -1,0 +1,487 @@
+lemma: ^
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+  expected: ^' ""' ^^'^"^ ^^^
+- features:
+    case: genitive
+    number: dual
+  expected: '?'
+- features:
+    case: instrumental
+    number: dual
+  expected: ^'-".y^ "«»)
+- features:
+    case: nominative
+    number: dual
+  expected: ^
+- features:
+    case: vocative
+    number: dual
+  expected: ^ ''''"^ ^ y"^ ^^'"•
+---
+lemma: a-nyi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: d-nyirn
+- features:
+    case: dative
+    number: dual
+    person: second
+  expected: d-nyi led
+- features:
+    case: nominative
+    number: dual
+    person: second
+  expected: a-nyi
+---
+lemma: do
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+  expected: a-widom
+- features:
+    case: accusative
+    number: plural
+  expected: yu do mum
+- features:
+    case: accusative
+    number: singular
+  expected: hu dom
+- features:
+    case: nominative
+    number: dual
+  expected: a-nyi do
+- features:
+    case: nominative
+    number: plural
+  expected: dyu do
+- features:
+    case: nominative
+    number: singular
+  expected: hu do
+---
+lemma: go
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: ka-su nun
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ka-sutn
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: ka-su Jed
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: ka-su
+- features:
+    case: instrumental
+    number: singular
+    person: first
+  expected: go nun
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: go
+---
+lemma: ha-do su
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: ha-do su nun
+- features:
+    case: accusative
+    number: singular
+  expected: ha-do sum
+- features:
+    case: dative
+    number: singular
+  expected: ha-do su hu
+- features:
+    case: genitive
+    number: singular
+  expected: ha-do su sa
+- features:
+    case: instrumental
+    number: singular
+  expected: ha-do su nun
+- features:
+    case: nominative
+    number: singular
+  expected: ha-do su
+---
+lemma: ha-nyi do su
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: dual
+  expected: ha-nyi do su sa
+- features:
+    case: nominative
+    number: dual
+  expected: ha-nyi do su
+---
+lemma: ha-yu do su
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+  expected: ha-yu do sum
+- features:
+    case: nominative
+    number: plural
+  expected: ha-yu do su
+---
+lemma: ho
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: hi nun
+- features:
+    case: accusative
+    number: singular
+  expected: hv mum
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: ho Jed
+- features:
+    case: genitive
+    number: singular
+  expected: hi) sa
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: ho sa
+- features:
+    case: instrumental
+    number: singular
+    person: second
+  expected: w
+- features:
+    case: nominative
+    number: singular
+  expected: ho
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: lio
+- features:
+    case: vocative
+    number: singular
+  expected: ^'^^'^^
+- features:
+    case: vocative
+    number: singular
+    person: second
+  expected: ho
+---
+lemma: hu
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+  expected: hun^i nun
+- features:
+    case: ablative
+    number: plural
+  expected: huyu nun
+- features:
+    case: ablative
+    number: singular
+  expected: hu nun
+- features:
+    case: accusative
+    number: dual
+  expected: hunyum
+- features:
+    case: accusative
+    number: plural
+  expected: huyum
+- features:
+    case: accusative
+    number: singular
+  expected: hum
+- features:
+    case: dative
+    number: dual
+  expected: hunyi hi
+- features:
+    case: dative
+    number: plural
+  expected: huyit hi
+- features:
+    case: dative
+    number: singular
+  expected: ka
+- features:
+    case: genitive
+    number: dual
+  expected: hunyi sa
+- features:
+    case: genitive
+    number: plural
+  expected: huyu sa
+- features:
+    case: genitive
+    number: singular
+  expected: hu sa
+- features:
+    case: instrumental
+    number: dual
+  expected: hu'nyim
+- features:
+    case: instrumental
+    number: plural
+  expected: huyu nun
+- features:
+    case: instrumental
+    number: singular
+  expected: hu nun
+- features:
+    case: nominative
+    number: dual
+  expected: hunyi
+- features:
+    case: nominative
+    number: plural
+  expected: huyu
+- features:
+    case: nominative
+    number: singular
+  expected: hu
+---
+lemma: ka-do
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: ka-do nun
+- features:
+    case: accusative
+    number: singular
+  expected: ka-dom
+- features:
+    case: dative
+    number: singular
+  expected: lea-do led
+- features:
+    case: genitive
+    number: singular
+  expected: ka-do sa
+- features:
+    case: instrumental
+    number: singular
+  expected: ka-do nun
+- features:
+    case: nominative
+    number: singular
+  expected: ka-do
+---
+lemma: ka-nyi
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: dual
+    person: first
+  expected: ka-nyi nun
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ka-nyhn
+- features:
+    case: dative
+    number: dual
+    person: first
+  expected: ka-nyi Jed
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: jca.nyi sa
+- features:
+    case: instrumental
+    number: dual
+    person: first
+  expected: ka-ngi nun
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: feka-nyi
+---
+lemma: ka-nyi do
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: dual
+  expected: ka-nyi do led
+- features:
+    case: genitive
+    number: dual
+  expected: ka-nyi do sa
+- features:
+    case: instrumental
+    number: dual
+  expected: ka-nyi do nun
+- features:
+    case: nominative
+    number: dual
+  expected: ka-nyi do
+---
+lemma: ka-su
+category: pronouns
+cases:
+- features:
+    case: instrumental
+    number: singular
+  expected: ka su nun
+- features:
+    case: nominative
+    number: singular
+  expected: ka-su
+---
+lemma: ka-yu
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: ka-yu nun
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ka-yiirn
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: ka-yu Jca
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: ka-yu sa
+- features:
+    case: instrumental
+    number: plural
+    person: first
+  expected: ka-yu nun
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ica-yu
+---
+lemma: lea su sa
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+  expected: lea su sa nun
+- features:
+    case: accusative
+    number: singular
+  expected: lea su sa mum
+- features:
+    case: dative
+    number: singular
+  expected: lea su sa lea
+- features:
+    case: genitive
+    number: singular
+  expected: lea su sa
+---
+lemma: ma
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: yaMni
+- features:
+    number: plural
+    person: first
+  expected: yaMdugu
+- features:
+    number: singular
+    person: first
+  expected: ma
+---
+lemma: owii
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: ^ui-yii do su
+---
+lemma: te
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: third
+  expected: teMi
+- features:
+    number: plural
+    person: third
+  expected: tedugu
+- features:
+    number: singular
+    person: third
+  expected: te
+---
+lemma: ye
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: yeMi
+- features:
+    number: plural
+    person: second
+  expected: yedugu
+- features:
+    number: singular
+    person: second
+  expected: ye

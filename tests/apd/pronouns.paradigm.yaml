@@ -1,0 +1,27 @@
+lemma: min
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: minːa
+- features:
+    number: plural
+    person: second
+  expected: minːukum
+- features:
+    number: plural
+    person: third
+  expected: minːum
+- features:
+    number: singular
+    person: first
+  expected: minːi
+- features:
+    number: singular
+    person: second
+  expected: minːak
+- features:
+    number: singular
+    person: third
+  expected: minːu

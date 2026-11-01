@@ -1,0 +1,784 @@
+lemma: bi
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bi
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: negative
+    tense: present
+  expected: f
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: bin
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: bi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: bin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bi
+- features:
+    tense: past
+    verb_form: participle
+    voice: active
+  expected: bie
+---
+lemma: bijeg
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: bijege
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: bijsnar
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: bij
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: bijeg
+---
+lemma: de
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: de:ini
+- features:
+    mood: imperative
+    number: dual
+    person: first
+    polarity: negative
+  expected: a
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: de
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    polarity: negative
+  expected: r
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: dedi
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: a
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: de!
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: deig
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: dein
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: dedun
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: dedi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: dedunun
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: dedin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: deu!!
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+    voice: passive
+  expected: dea-iun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: de
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: passive
+  expected: deal
+- features:
+    tense: past
+    verb_form: participle
+  expected: de
+---
+lemma: elv
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: irde
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ile
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: irdon
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: irde
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: endilo
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: elv
+---
+lemma: jeg
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: jege
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: jegidC)n
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: jsgide
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: jegC)n
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: jeg
+---
+lemma: kilvu
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kildowe
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kil
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kild
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kildvu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kilvwvn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kilvu
+---
+lemma: leu
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: lswini
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: lswon
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: leu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: lsv
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: leu
+---
+lemma: lu
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: aX:tui
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: iu
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: iu
+- features:
+    tense: past
+    verb_form: participle
+    voice: active
+  expected: luali
+---
+lemma: nuf'ag
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: nUfudage
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: nUfage
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: nu:fu.dagon
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: nufudag
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nUf'ag
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nuf'ag
+---
+lemma: nyig
+category: verbs
+cases:
+- features:
+    aspect: habitual
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: nyigeroin
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nyiggQ
+- features:
+    aspect: habitual
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nyigidero
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: nyigini
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: nyigi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: nyig!
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: nyigyn
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: nyig
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: nyigynun
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: nyigidin
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: nyigidumm
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: nyigidi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: nyigida
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nyigyn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nyig
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: nyigida
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: nyigynun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: nyigin
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: nyigida
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: nyigidun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: nyigidi
+---
+lemma: nyigi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+    voice: passive
+  expected: nyigeinun
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: nyigidali
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+    voice: passive
+  expected: nyigein
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+    voice: passive
+  expected: nyigideinun
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+    voice: passive
+  expected: nyigidein
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: nyigidalou
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+    voice: passive
+  expected: nyigeiun
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nyigidi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+    voice: passive
+  expected: nyigei
+- features:
+    tense: past
+    verb_form: participle
+  expected: nyigi
+---
+lemma: tali
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: taleni
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tali
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: talunun
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: taldun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: talun
+---
+lemma: te
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: teds
+- features:
+    mood: imperative
+    number: plural
+    person: second
+    polarity: negative
+  expected: tsndar
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: te
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: teanar
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tedon
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tede
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: te
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: te
+---
+lemma: tile
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tilide
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tile
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tilidvn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: til::m
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tile
+---
+lemma: twie
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: twie
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: twidon
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: twide
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: twi:::m
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: twie
+---
+lemma: twil
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: twdli
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: twilunun
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: twilin
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: twildun
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: twilda
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tvilun
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: twil

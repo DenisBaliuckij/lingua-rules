@@ -1,0 +1,681 @@
+lemma: chȩmiis
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: chiliis
+- features:
+    aspect: imperfective
+    tense: present
+  expected: chȩmiis
+---
+lemma: kma
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: kila
+- features:
+    aspect: perfective
+    tense: present
+  expected: kma
+---
+lemma: kolii
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: killii
+- features:
+    aspect: perfective
+    tense: present
+  expected: kolii
+---
+lemma: lmuut
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: liluut
+- features:
+    aspect: imperfective
+    tense: present
+  expected: lmuut
+---
+lemma: me
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: dȩme
+- features:
+    number: singular
+    person: first
+  expected: kȩme
+- features:
+    number: singular
+    person: second
+  expected: chome
+- features:
+    number: singular
+    person: third
+  expected: lȩme
+---
+lemma: mo
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: dȩbo
+- features:
+    number: singular
+    person: first
+  expected: kbo
+- features:
+    number: singular
+    person: second
+  expected: chobo
+- features:
+    number: singular
+    person: third
+  expected: lȩbo
+---
+lemma: mȩdȩnge
+category: verbs
+cases:
+- features:
+    animacy: animate
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mȩdȩngȩltȩrir
+- features:
+    animacy: inanimate
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mȩdȩnge
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mȩdȩngȩlkak
+---
+lemma: mȩlai
+category: verbs
+cases:
+- features:
+    animacy: animate
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ngoititȩrir
+- features:
+    animacy: inanimate
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ngmai
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ngoikak
+---
+lemma: mȩngiis
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: kmiis
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: kiisii
+---
+lemma: mȩngimd
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: kuimd
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: kimdii
+---
+lemma: mȩngȩlebȩd
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: cholebȩd
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: cholȩbȩdii
+---
+lemma: mȩngȩsbrebȩr
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: chosbrebȩr
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: chosbȩrbȩrii
+---
+lemma: oba
+category: verbs
+cases:
+- features:
+    animacy: animate
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: obȩtȩrir
+- features:
+    animacy: inanimate
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: olab
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: obȩkak
+---
+lemma: ollangȩl
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+  expected: olȩngȩlii
+- features:
+    aspect: imperfective
+    tense: past
+  expected: ulȩllanȩl
+- features:
+    aspect: imperfective
+    tense: present
+  expected: ollangȩl
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: olangȩl
+---
+lemma: olluut
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+  expected: ullutii
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: oluut
+---
+lemma: olsebȩk
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+  expected: osȩbȩkii
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: osebȩk
+---
+lemma: olȩchiis
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: ullȩchiis
+- features:
+    aspect: imperfective
+    tense: present
+  expected: olȩchiis
+---
+lemma: olȩkar
+category: verbs
+cases:
+- features:
+    animacy: animate
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ulȩkȩrngȩtȩrír
+- features:
+    animacy: inanimate
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ulȩkár
+- features:
+    aspect: imperfective
+    tense: past
+  expected: ullȩkar
+- features:
+    aspect: imperfective
+    tense: present
+  expected: olȩkar
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: ulȩkȩrngák
+---
+lemma: omes
+category: verbs
+cases:
+- features:
+    animacy: animate
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mȩstȩrir
+- features:
+    animacy: inanimate
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mes
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: mȩsȩkak
+---
+lemma: omȩka
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: milȩka
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: mȩkȩlii
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: milȩkȩlii
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: mȩka
+---
+lemma: omȩkcharm
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: milȩkcharm
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: mȩkchȩrmii
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: milȩkchȩrmii
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: mȩkcharm
+---
+lemma: omȩkdakt
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: milȩkdakt
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: mȩkdȩktii
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: milȩkdȩktii
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: mȩkdakt
+---
+lemma: omȩkdȩchor
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: ulȩmȩkdȩchor
+- features:
+    aspect: imperfective
+    tense: present
+  expected: omȩkdȩchor
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: milkȩdȩchor
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: mȩkȩdȩchȩrur
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: milkȩdȩchȩrur
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: mȩkȩdȩchor
+---
+lemma: omȩkikiongȩl
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: milkikiongȩl
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: mȩkikingȩlii
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: milkikingȩlii
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: mȩkikiongȩl
+---
+lemma: omȩkoad
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: milkoad
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: mȩkodir
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: mȩkoad
+---
+lemma: omȩngamȩch
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: ulȩmȩngamȩch
+- features:
+    aspect: imperfective
+    tense: present
+  expected: omȩngamȩch
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: milȩngamȩch
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: mȩngȩmȩchii
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: milȩngȩmȩchii
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: mȩngamȩch
+---
+lemma: omȩngim
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: ulȩmȩngim
+- features:
+    aspect: imperfective
+    tense: present
+  expected: omȩngim
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: milȩngim
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: mȩngȩlmii
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: milȩngȩlmii
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: mȩngim
+---
+lemma: orrebȩt
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+  expected: orȩbȩtii
+- features:
+    aspect: imperfective
+    tense: past
+  expected: ulȩrrebȩt
+- features:
+    aspect: imperfective
+    tense: present
+  expected: orrebȩt
+- features:
+    aspect: perfective
+    mood: indicative
+  expected: orebȩt
+---
+lemma: ruebȩt
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: rirebȩt
+- features:
+    aspect: imperfective
+    tense: present
+  expected: ruebȩt
+---
+lemma: rullii
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: rirȩllii
+- features:
+    aspect: perfective
+    tense: present
+  expected: rullii
+---
+lemma: rȩmos
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: riros
+- features:
+    aspect: imperfective
+    tense: present
+  expected: rȩmos
+---
+lemma: rȩmurt
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: rirurt
+- features:
+    aspect: imperfective
+    tense: present
+  expected: rȩmurt
+---
+lemma: rȩmuul
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: riruul
+- features:
+    aspect: perfective
+    tense: present
+  expected: rȩmuul
+---
+lemma: sosȩbii
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: silsȩbii
+- features:
+    aspect: perfective
+    tense: present
+  expected: sosȩbii
+---
+lemma: suebȩk
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: silebȩk
+- features:
+    aspect: imperfective
+    tense: present
+  expected: suebȩk
+---
+lemma: suesȩb
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: past
+  expected: silesȩb
+- features:
+    aspect: perfective
+    tense: present
+  expected: suesȩb
+---
+lemma: tuobȩd
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: past
+  expected: tilobȩd
+- features:
+    aspect: imperfective
+    tense: present
+  expected: tuobȩd

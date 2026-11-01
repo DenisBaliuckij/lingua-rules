@@ -1,0 +1,148 @@
+lemma: KòG
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: ùKCñcû^u Vûeê?
+- features:
+    case: dative
+    number: singular
+  expected: PZê[ðú
+- features:
+    case: instrumental
+    number: plural
+  expected: ùKCñcû^u \ßûeû?
+- features:
+    case: instrumental
+    number: singular
+  expected: ZéZúdû
+- features:
+    case: locative
+    number: plural
+  expected: ùKCñcû^u Vûùe?
+- features:
+    case: locative
+    number: singular
+  expected: i¯cú
+- features:
+    case: nominative
+    number: plural
+  expected: ùKCñcûù^?
+- features:
+    number: plural
+  expected: ùKCñcû^uê?
+- features:
+    number: singular
+  expected: \ßòZúdû
+---
+lemma: dnu
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: md-i
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: nd-i
+---
+lemma: e
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: aru
+---
+lemma: e-rif
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: e-icaskdni-toti
+- features:
+    case: ablative
+    number: singular
+  expected: e-rdni-tdtiy
+- features:
+    case: accusative
+    number: plural
+  expected: e-waskdni
+- features:
+    case: accusative
+    number: singular
+  expected: e-rdnif
+- features:
+    case: comitative
+    number: plural
+  expected: e-tcaskdm'-ki
+- features:
+    case: comitative
+    number: singular
+  expected: e-rdm'-kiy
+- features:
+    case: dative
+    number: singular
+  expected: e-rdni-kt
+- features:
+    case: genitive
+    number: plural
+  expected: e-waskdni
+- features:
+    case: genitive
+    number: singular
+  expected: e-rdni
+- features:
+    case: nominative
+    number: plural
+  expected: e-waska
+- features:
+    case: nominative
+    number: singular
+  expected: e-rif
+---
+lemma: eri
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: era-n-di
+---
+lemma: evanju
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: eva-n-di
+---
+lemma: evii
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: eva-n-di
+---
+lemma: inu
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: m-i
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: n-i

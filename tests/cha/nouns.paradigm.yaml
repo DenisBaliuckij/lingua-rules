@@ -1,0 +1,135 @@
+lemma: haga
+category: nouns
+cases:
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: hagata
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: haganmiyo
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: haganniha
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: hagaho
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: hagamo
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: hagana
+---
+lemma: lahi
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: lalahi
+- features:
+    number: singular
+  expected: lahi
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: lahita
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: lahiltmiyo
+- features:
+    possessor_number: plural
+    possessor_person: third
+  expected: lahinniha
+- features:
+    possessor_number: singular
+    possessor_person: first
+  expected: lahiho
+- features:
+    possessor_number: singular
+    possessor_person: second
+  expected: lahimo
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: lahina
+---
+lemma: palao'an
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: famalao'an
+- features:
+    number: singular
+  expected: palao'an
+---
+lemma: pale
+category: nouns
+cases:
+- features:
+    number: plural
+  expected: mamale
+- features:
+    number: singular
+  expected: pale
+---
+lemma: tataho
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+    tense: present
+  expected: tatata
+- features:
+    number: plural
+    person: second
+  expected: tatanmiyo
+- features:
+    number: singular
+    person: first
+  expected: tataho
+- features:
+    number: singular
+    person: second
+  expected: tata'mo
+- features:
+    number: singular
+    person: third
+  expected: tatafia
+---
+lemma: tembko
+category: nouns
+cases:
+- features:
+    number: plural
+    person: first
+    tense: present
+  expected: tembta
+- features:
+    number: plural
+    person: second
+  expected: temonmiyo
+- features:
+    number: plural
+    person: third
+  expected: temonfiiha
+- features:
+    number: singular
+    person: first
+  expected: tembko
+- features:
+    number: singular
+    person: second
+  expected: tembmo
+- features:
+    number: singular
+    person: third
+  expected: tembfia

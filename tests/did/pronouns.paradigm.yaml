@@ -1,0 +1,23 @@
+lemma: mera
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mewa
+- features:
+    number: plural
+    person: third
+  expected: megi
+- features:
+    number: singular
+    person: first
+  expected: mera
+- features:
+    number: singular
+    person: second
+  expected: meri
+- features:
+    number: singular
+    person: third
+  expected: mere

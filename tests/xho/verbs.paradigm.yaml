@@ -1,0 +1,719 @@
+lemma: ba
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: sibe
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: perfect
+    verb_form: participle
+  expected: sibe
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: nibe
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: perfect
+    verb_form: participle
+  expected: nibe
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: babe
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: perfect
+    verb_form: participle
+  expected: bebe
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: ndibe
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+    verb_form: participle
+  expected: ndibe
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+  expected: ube
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: perfect
+    verb_form: participle
+  expected: ube
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+  expected: ube
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: perfect
+    verb_form: participle
+  expected: ebe
+---
+lemma: kuteta
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: masitete
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: manitete
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: mabatete
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: manditete
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: mautete
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: makatete
+---
+lemma: nga
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: singa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: singa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: asinge
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+    verb_form: participle
+  expected: singe
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: ninga
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: ninga
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: aninge
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+    verb_form: participle
+  expected: ninge
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: banga
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: benga
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: abange
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+    verb_form: participle
+  expected: benge
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ndinga
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: ndinga
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: andinge
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+    verb_form: participle
+  expected: ndinge
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: unga
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: unga
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: akunge
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+    verb_form: participle
+  expected: unge
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: anga
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: enga
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: akange
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+    verb_form: participle
+  expected: enge
+---
+lemma: teta
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: besingatetile
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: beningatetile
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: bebengatetile
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: bendingatetile
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+  expected: ubungatetile
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+  expected: ebengatetile
+- features:
+    mood: imperative
+    number: plural
+  expected: tetani
+- features:
+    mood: imperative
+    number: singular
+  expected: teta
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: siyateta
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: niyateta
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: bayateta
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ndivateta
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: uyateta
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: uyateta
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+    verb_form: present_participle
+  expected: siteta
+- features:
+    number: plural
+    person: first
+    polarity: negative
+    verb_form: present_participle
+  expected: singateti
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+    verb_form: present_participle
+  expected: niteta
+- features:
+    number: plural
+    person: second
+    polarity: negative
+    verb_form: present_participle
+  expected: ningateti
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+    verb_form: present_participle
+  expected: beteta
+- features:
+    number: plural
+    person: third
+    polarity: negative
+    verb_form: present_participle
+  expected: bengateti
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+    verb_form: present_participle
+  expected: nditeta
+- features:
+    number: singular
+    person: first
+    polarity: negative
+    verb_form: present_participle
+  expected: ndingateti
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+    verb_form: present_participle
+  expected: uteta
+- features:
+    number: singular
+    person: second
+    polarity: negative
+    verb_form: present_participle
+  expected: ungateti
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+    verb_form: present_participle
+  expected: eteta
+- features:
+    number: singular
+    person: third
+    polarity: negative
+    verb_form: present_participle
+  expected: engateti
+- features:
+    polarity: affirmative
+    verb_form: infinitive
+  expected: ukuteta
+- features:
+    polarity: negative
+    verb_form: infinitive
+  expected: ukungateti
+---
+lemma: ya
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: aorist
+  expected: saye
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: siya
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: siya
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: asiyi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+    verb_form: participle
+  expected: singayi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: aorist
+  expected: naye
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: niya
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: niya
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: aniyi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+    verb_form: participle
+  expected: ningayi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: aorist
+  expected: baye
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: baya
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: beya
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: abayi
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+    verb_form: participle
+  expected: bengayi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: aorist
+  expected: ndaye
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: ndiya
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: ndiya
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: andiyi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+    verb_form: participle
+  expected: ndingayi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: aorist
+  expected: waye
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: uya
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: uya
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: akuyi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+    verb_form: participle
+  expected: ungayi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: aorist
+  expected: waye
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: uya
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+    verb_form: participle
+  expected: eva
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: akeyi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+    verb_form: participle
+  expected: engayi

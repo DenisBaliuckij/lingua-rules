@@ -1,0 +1,306 @@
+lemma: aba
+category: pronouns
+cases:
+- features:
+    case: comitative
+    definiteness: definite
+    number: plural
+  expected: naba
+- features:
+    case: comitative
+    definiteness: definite
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: ngangaba
+- features:
+    case: dative
+    definiteness: definite
+    number: plural
+  expected: kwaba
+- features:
+    case: dative
+    definiteness: definite
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: wakwaba
+- features:
+    case: dative
+    definiteness: definite
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: ngakwaba
+- features:
+    case: dative
+    definiteness: definite
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: wangakwaba
+- features:
+    case: instrumental
+    definiteness: definite
+    number: plural
+  expected: ngaba
+- features:
+    definiteness: definite
+    number: plural
+  expected: aba
+- features:
+    definiteness: definite
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: waba
+---
+lemma: eli
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: la
+- features:
+    definiteness: definite
+    number: singular
+  expected: eli
+---
+lemma: esi
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: ezi
+- features:
+    definiteness: definite
+    number: singular
+  expected: esi
+---
+lemma: le
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: ezi
+- features:
+    definiteness: definite
+    number: singular
+  expected: le
+---
+lemma: lezi
+category: pronouns
+cases:
+- features:
+    case: comitative
+    definiteness: definite
+    number: plural
+  expected: nezi
+- features:
+    case: comitative
+    definiteness: definite
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: ngangezi
+- features:
+    case: dative
+    definiteness: definite
+    number: plural
+  expected: kwezi
+- features:
+    case: dative
+    definiteness: definite
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: wakwezi
+- features:
+    case: dative
+    definiteness: definite
+    number: plural
+    possessor_number: singular
+    possessor_person: second
+  expected: ngakwezi
+- features:
+    case: dative
+    definiteness: definite
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: wangakwezi
+- features:
+    case: instrumental
+    definiteness: definite
+    number: plural
+  expected: ngezi
+- features:
+    definiteness: definite
+    number: plural
+  expected: lezi
+- features:
+    definiteness: definite
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: wezi
+---
+lemma: lo
+category: pronouns
+cases:
+- features:
+    case: comitative
+    definiteness: definite
+    number: singular
+  expected: nalo
+- features:
+    case: comitative
+    definiteness: definite
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: ngangalo
+- features:
+    case: dative
+    definiteness: definite
+    number: singular
+  expected: kulo
+- features:
+    case: dative
+    definiteness: definite
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: wakulo
+- features:
+    case: dative
+    definiteness: definite
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: ngakulo
+- features:
+    case: dative
+    definiteness: definite
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: wangakulo
+- features:
+    case: instrumental
+    definiteness: definite
+    number: singular
+  expected: ngalo
+- features:
+    case: locative
+    definiteness: definite
+    number: singular
+  expected: kwalo
+- features:
+    case: locative
+    definiteness: definite
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: wakwalo
+- features:
+    case: locative
+    definiteness: definite
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: ngakwalo
+- features:
+    case: locative
+    definiteness: definite
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: wangakwalo
+- features:
+    definiteness: definite
+    number: plural
+  expected: aba
+- features:
+    definiteness: definite
+    number: singular
+  expected: lo
+- features:
+    definiteness: definite
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: walo
+---
+lemma: lobu
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: lobu
+---
+lemma: oku
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: singular
+  expected: oku
+---
+lemma: olu
+category: pronouns
+cases:
+- features:
+    case: comitative
+    definiteness: definite
+    number: singular
+  expected: nolu
+- features:
+    case: dative
+    definiteness: definite
+    number: singular
+  expected: kwolu
+- features:
+    case: dative
+    definiteness: definite
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: wakwolu
+- features:
+    case: dative
+    definiteness: definite
+    number: singular
+    possessor_number: singular
+    possessor_person: second
+  expected: ngakwolu
+- features:
+    case: dative
+    definiteness: definite
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: wangakwolu
+- features:
+    case: instrumental
+    definiteness: definite
+    number: singular
+  expected: ngol u
+- features:
+    definiteness: definite
+    number: plural
+  expected: ezi
+- features:
+    definiteness: definite
+    number: singular
+  expected: olu
+- features:
+    definiteness: definite
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: wolu

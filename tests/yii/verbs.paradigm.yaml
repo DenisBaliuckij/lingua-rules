@@ -1,0 +1,147 @@
+lemma: bada-x
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: present
+  expected: bad
+- features:
+    mood: imperative
+  expected: bad^ar
+---
+lemma: baga-l
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: baga:d
+- features:
+    tense: past
+  expected: baga:a]ijm
+- features:
+    tense: present
+  expected: baga:a]iy
+- features:
+    verb_form: converb
+  expected: baga:d
+---
+lemma: bayga-x
+category: verbs
+cases:
+- features:
+    aspect: progressive
+  expected: bayga.jiy
+- features:
+    aspect: progressive
+    case: comitative
+  expected: baygairiyal
+- features:
+    case: comitative
+    tense: past
+  expected: baygairiyad
+- features:
+    mood: imperative
+  expected: bayga^maya
+- features:
+    tense: past
+  expected: bayga^mayad
+- features:
+    tense: present
+  expected: bayga^mayal
+---
+lemma: binarrja-l
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: present
+  expected: bina:rrjal
+- features:
+    mood: imperative
+  expected: binairrja
+- features:
+    tense: past
+  expected: binarrjalpu
+---
+lemma: buga-n
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: buga:d
+- features:
+    tense: past
+  expected: bugaidjijm
+- features:
+    tense: present
+  expected: bugaifyy
+- features:
+    verb_form: converb
+  expected: buga:q]ina
+---
+lemma: gali-n
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: galin
+- features:
+    tense: past
+  expected: gali'-Ji
+- features:
+    tense: present
+  expected: galiiyal
+---
+lemma: mad
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: madjindaya
+- features:
+    tense: past
+  expected: madjindayad
+- features:
+    tense: present
+  expected: madjindayal
+---
+lemma: madjinda-n
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: present
+  expected: madjimdarj
+- features:
+    mood: imperative
+  expected: mad
+- features:
+    tense: past
+  expected: madjindajiu
+---
+lemma: wawa-l
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    tense: present
+  expected: wawal
+- features:
+    aspect: progressive
+  expected: wawadiy
+- features:
+    mood: imperative
+  expected: wawa
+- features:
+    tense: past
+  expected: wawad
+---
+lemma: wuyaba-n
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: wuyabafy:ji
+- features:
+    verb_form: converb
+  expected: wuyabad

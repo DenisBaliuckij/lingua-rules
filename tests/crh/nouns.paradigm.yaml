@@ -1,0 +1,575 @@
+lemma: bala
+category: nouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: bala-lar-dan
+- features:
+    case: ablative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: bala-mwz-dan
+- features:
+    case: ablative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: bala-sm-ndan
+- features:
+    case: ablative
+    number: singular
+  expected: baladan
+- features:
+    case: ablative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: bala-m-dan
+- features:
+    case: ablative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: bala-sm-ndan
+- features:
+    case: accusative
+    number: plural
+  expected: bala-lar-nw
+- features:
+    case: accusative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: bala-mwz-mn
+- features:
+    case: accusative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: bala-sm-nm
+- features:
+    case: accusative
+    number: singular
+  expected: balanw
+- features:
+    case: accusative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: bala-m-nm
+- features:
+    case: accusative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: bala-sw-nw
+- features:
+    case: dative
+    number: plural
+  expected: bala-lar-ya
+- features:
+    case: dative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: bala-mwz-ya
+- features:
+    case: dative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: bala-sm-na
+- features:
+    case: dative
+    number: singular
+  expected: balaya
+- features:
+    case: dative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: bala-m-a
+- features:
+    case: dative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: bala-sw-na
+- features:
+    case: genitive
+    number: plural
+  expected: bala-lar-nUIIJ
+- features:
+    case: genitive
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: bala-mwz-nmn
+- features:
+    case: genitive
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: bala-sm-nmn
+- features:
+    case: genitive
+    number: singular
+  expected: balanUIIJ
+- features:
+    case: genitive
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: bala-m-nUIIJ
+- features:
+    case: genitive
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: bala-sm-nUIIJ
+- features:
+    case: locative
+    number: plural
+  expected: bala-lar-da
+- features:
+    case: locative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: bala-mwz-da
+- features:
+    case: locative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: bala-sm-nda
+- features:
+    case: locative
+    number: singular
+  expected: balada
+- features:
+    case: locative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: bala-m-da
+- features:
+    case: locative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: bala-sw-nda
+- features:
+    case: nominative
+    number: plural
+  expected: balalar
+- features:
+    case: nominative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: balamwz
+- features:
+    case: nominative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: balasm
+- features:
+    case: nominative
+    number: singular
+  expected: bala
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: balam
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: balasw
+---
+lemma: dost
+category: nouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: dost-lar-dan
+- features:
+    case: ablative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: dost-umwz-dan
+- features:
+    case: ablative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: dost-u-ndan
+- features:
+    case: ablative
+    number: singular
+  expected: dosttan
+- features:
+    case: ablative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: dost-um-dan
+- features:
+    case: ablative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: dost-u-ndan
+- features:
+    case: accusative
+    number: plural
+  expected: dost-lar-nw
+- features:
+    case: accusative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: dost-umwz-nm
+- features:
+    case: accusative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: dost-u-nm
+- features:
+    case: accusative
+    number: singular
+  expected: dostnw
+- features:
+    case: accusative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: dost-um-nw
+- features:
+    case: accusative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: dost-u-nw
+- features:
+    case: dative
+    number: plural
+  expected: dost-lar-ya
+- features:
+    case: dative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: dost-umwz-ya
+- features:
+    case: dative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: dost-u-na
+- features:
+    case: dative
+    number: singular
+  expected: dostqa
+- features:
+    case: dative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: dost-um-a
+- features:
+    case: dative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: dost-u-na
+- features:
+    case: genitive
+    number: plural
+  expected: dost-lar-nUIIJ
+- features:
+    case: genitive
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: dost-umwz-nmn
+- features:
+    case: genitive
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: dost-u-nWIJ
+- features:
+    case: genitive
+    number: singular
+  expected: dostnUIIJ
+- features:
+    case: genitive
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: dost-um-nUIIJ
+- features:
+    case: genitive
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: dost-u-nUIIJ
+- features:
+    case: locative
+    number: plural
+  expected: dost-lar-da
+- features:
+    case: locative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: dost-umwz-da
+- features:
+    case: locative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: dost-u-nda
+- features:
+    case: locative
+    number: singular
+  expected: dostta
+- features:
+    case: locative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: dost-um-da
+- features:
+    case: locative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: dost-u-nda
+- features:
+    case: nominative
+    number: plural
+  expected: dostlar
+- features:
+    case: nominative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: dostmwz
+- features:
+    case: nominative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: dostu
+- features:
+    case: nominative
+    number: singular
+  expected: dost
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: dostum
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: dostu
+---
+lemma: ev
+category: nouns
+cases:
+- features:
+    case: ablative
+    number: plural
+  expected: ev-ler-den
+- features:
+    case: ablative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: ev-imiz-den
+- features:
+    case: ablative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: ev-i-nden
+- features:
+    case: ablative
+    number: singular
+  expected: evden
+- features:
+    case: ablative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: ev-im-den
+- features:
+    case: ablative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: ev-i-nden
+- features:
+    case: accusative
+    number: plural
+  expected: ev-ler-ni
+- features:
+    case: accusative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: ev-imiz-ni
+- features:
+    case: accusative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: ev-i-ni
+- features:
+    case: accusative
+    number: singular
+  expected: evni
+- features:
+    case: accusative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: ev-im-ni
+- features:
+    case: dative
+    number: plural
+  expected: ev-ler-ge
+- features:
+    case: dative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: ev-imiz-ge
+- features:
+    case: dative
+    number: singular
+  expected: evge
+- features:
+    case: dative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: ev-im-e
+- features:
+    case: dative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: ev-i-ne
+- features:
+    case: genitive
+    number: plural
+  expected: ev-ler-nil]
+- features:
+    case: genitive
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: ev-imiz-nirJ
+- features:
+    case: genitive
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: ev-i-nirJ
+- features:
+    case: genitive
+    number: singular
+  expected: evnil]
+- features:
+    case: genitive
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: ev-im-nil]
+- features:
+    case: genitive
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: ev-i-nil]
+- features:
+    case: locative
+    number: plural
+  expected: ev-ler-de
+- features:
+    case: locative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: ev-imiz-de
+- features:
+    case: locative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: ev-i-nde
+- features:
+    case: locative
+    number: singular
+  expected: evde
+- features:
+    case: locative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: ev-im-de
+- features:
+    case: locative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: ev-i-nde
+- features:
+    case: nominative
+    number: plural
+  expected: evler
+- features:
+    case: nominative
+    number: plural
+    possessor_number: singular
+    possessor_person: first
+  expected: evmiz
+- features:
+    case: nominative
+    number: plural
+    possessor_number: singular
+    possessor_person: third
+  expected: evi
+- features:
+    case: nominative
+    number: singular
+  expected: ev
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: first
+  expected: evim
+- features:
+    case: nominative
+    number: singular
+    possessor_number: singular
+    possessor_person: third
+  expected: evi

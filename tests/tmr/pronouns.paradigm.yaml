@@ -1,0 +1,40 @@
+lemma: אנא
+category: pronouns
+cases:
+- features:
+    gender: feminine
+    number: plural
+    person: third
+  expected: אינהי
+- features:
+    gender: feminine
+    number: singular
+    person: third
+  expected: איהי
+- features:
+    gender: masculine
+    number: plural
+    person: second
+  expected: אתו
+- features:
+    gender: masculine
+    number: plural
+    person: third
+  expected: אינהו
+- features:
+    gender: masculine
+    number: singular
+    person: third
+  expected: איהו
+- features:
+    number: plural
+    person: first
+  expected: אנו
+- features:
+    number: singular
+    person: first
+  expected: אנא
+- features:
+    number: singular
+    person: second
+  expected: את

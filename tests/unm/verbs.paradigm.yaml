@@ -1,0 +1,355 @@
+lemma: akowil
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+  expected: lna-akowahmanal
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+  expected: lb-akowahmwal
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: lnaakowil
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+  expected: lwa-akowiwal
+---
+lemma: anbl
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+  expected: ntanblo-hum
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+  expected: ktanblo-hum
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+  expected: anblo-wbk
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+  expected: ktanblc'rwi
+---
+lemma: lanbl
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ntanbluh-l-na
+- features:
+    number: plural
+    person: second
+  expected: ktanbluh-mo
+- features:
+    number: singular
+    person: first
+  expected: ntank
+- features:
+    number: singular
+    person: second
+  expected: ktank
+- features:
+    number: singular
+    person: third
+  expected: anbl
+---
+lemma: lm
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: bm
+- features:
+    number: plural
+    person: first
+  expected: n
+- features:
+    number: plural
+    person: second
+  expected: bm
+- features:
+    number: plural
+    person: third
+  expected: m
+- features:
+    number: singular
+    person: first
+  expected: n
+- features:
+    number: singular
+    person: second
+  expected: bm
+- features:
+    number: singular
+    person: third
+  expected: m
+---
+lemma: lp
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: pw
+- features:
+    number: dual
+    person: first
+  expected: kp
+- features:
+    number: plural
+    person: first
+  expected: mp
+- features:
+    number: plural
+    person: second
+  expected: kp
+- features:
+    number: plural
+    person: third
+  expected: p
+- features:
+    number: singular
+    person: first
+  expected: mpe·nam
+- features:
+    number: singular
+    person: second
+  expected: kp
+- features:
+    number: singular
+    person: third
+  expected: p
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: p
+---
+lemma: lpa
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: mpah-l-na
+- features:
+    number: plural
+    person: second
+  expected: kpah-mo
+- features:
+    number: singular
+    person: first
+  expected: mpa
+- features:
+    number: singular
+    person: second
+  expected: kpa
+- features:
+    number: singular
+    person: third
+  expected: pe·w
+---
+lemma: lw
+category: verbs
+cases:
+- features:
+    number: plural
+    person: first
+  expected: no·mhum-l-na
+- features:
+    number: plural
+    person: second
+  expected: ko·mhUmo
+- features:
+    number: singular
+    person: third
+  expected: fun
+---
+lemma: lw::ll::lt
+category: verbs
+cases:
+- features:
+    number: plural
+    person: third
+  expected: w::ll
+- features:
+    number: singular
+    person: third
+  expected: w::ll
+---
+lemma: m
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: mw
+- features:
+    number: dual
+    person: first
+  expected: bm
+- features:
+    number: plural
+    person: first
+  expected: n
+- features:
+    number: plural
+    person: second
+  expected: bm
+- features:
+    number: plural
+    person: third
+  expected: mw
+- features:
+    number: singular
+    person: first
+  expected: n
+- features:
+    number: singular
+    person: second
+  expected: bm
+- features:
+    number: singular
+    person: third
+  expected: mw
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: m
+---
+lemma: pa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+  expected: mpa·hUm
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+  expected: kpa·hum:l
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+  expected: pe·bk
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: mpa·i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+  expected: kpa·i
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+  expected: pe·i
+---
+lemma: w
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: negative
+  expected: lk
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+  expected: ln
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: ln
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+  expected: lk
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+  expected: lw
+---
+lemma: wYI
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: negative
+  expected: lb-Ow
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+  expected: ln
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+  expected: lb-Ow
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+  expected: ln
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+  expected: lb-Owll

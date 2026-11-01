@@ -1,0 +1,511 @@
+lemma: ajt
+category: verbs
+cases:
+- features:
+    mood: optative
+    number: plural
+    person: first
+  expected: ajt-qajdm-q
+- features:
+    mood: optative
+    number: plural
+    person: second
+  expected: ajt-qajdm-IJmz
+- features:
+    mood: optative
+    number: plural
+    person: third
+  expected: ajt-qajdm-lar
+- features:
+    mood: optative
+    number: singular
+    person: first
+  expected: ajt-qajdm-m
+- features:
+    mood: optative
+    number: singular
+    person: second
+  expected: ajt-qajdm-IJ
+- features:
+    mood: optative
+    number: singular
+    person: third
+  expected: ajtqajdm
+- features:
+    number: plural
+    person: first
+  expected: ajt-malm-mmz
+- features:
+    number: plural
+    person: second
+  expected: ajt-malm-smz
+- features:
+    number: plural
+    person: third
+  expected: ajtmalm
+- features:
+    number: singular
+    person: first
+  expected: ajt-malm-m
+- features:
+    number: singular
+    person: third
+  expected: ajtmalm
+---
+lemma: al
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: al-ma-mmz
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: al-dm-q
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: al-a-mmz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: al-maz-smz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: al-dm-IJmz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: al-a-smz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: almaz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: aldm
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: ala
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: al-ma-m
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: al-dm-m
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: al-a-m
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: al-maz-sWIJ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: al-dm-IJ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: al-a-sUIIJ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: almaz
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: aldm
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: ala
+---
+lemma: ele
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: ele-j-miz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: ele-j-siz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: elej
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: ele-j-im
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: ele-j-siiJ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: elej
+---
+lemma: et
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: etejik
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: etii]iz
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: et-sin-ler
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: etejim
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: et
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: etsin
+---
+lemma: ol
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: edi-miz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: edi-l)iz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: edi-ler
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: edi-m
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: edi
+---
+lemma: sev
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: sev-me-miz
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sev-er-miz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: sev-mez-siz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: sev-er-siz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: sevmez
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: sever
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: sev-me-m
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: sev-er-im
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: sev-mez-sir]
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sev-er-sir]
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: sevmez
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: sever
+---
+lemma: sora
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: sora-j-mmz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: sora-j-smz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: soni.-j
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: soni.-j-unn
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: sora-j-sUIIJ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: soraj
+---
+lemma: tyf
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: tyJ-ti-k
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: tyJ-e-miz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: tyJ-ti-IJiz
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: tyJ-e-siz
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: tyJ-ti
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: tyJ-e
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: tyJ-ti-m
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: tyJ-e-m
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: tyJ-ti-IJ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: tyJ-e-siiJ
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: tyJ-ti
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: tyJ-e
+---
+lemma: unut
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: unutajwq
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: unutUIIJWZ
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: unut-swn-lar
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: unutajwm
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: unut
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: unutswn

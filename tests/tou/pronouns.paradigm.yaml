@@ -1,0 +1,162 @@
+lemma: I
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: me
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: my
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: I
+---
+lemma: he
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: hira
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: his
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: he
+---
+lemma: it
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: it
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: it
+---
+lemma: she
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: her
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: her
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: she
+---
+lemma: they
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: ihem
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: their
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: they
+---
+lemma: thou
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: thee
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: thy
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: thou
+---
+lemma: we
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: us
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: our
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: we
+---
+lemma: who
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+  expected: whom
+- features:
+    case: genitive
+    number: singular
+  expected: whose
+- features:
+    case: nominative
+    number: singular
+  expected: who
+---
+lemma: ye
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: you
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: your
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: ye

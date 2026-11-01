@@ -1,0 +1,115 @@
+lemma: ŋöl
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ŋag
+- features:
+    number: plural
+    person: second
+  expected: el
+- features:
+    number: plural
+    person: third
+  expected: ém
+- features:
+    number: singular
+    person: first
+  expected: ŋöl
+- features:
+    number: singular
+    person: second
+  expected: aw
+- features:
+    number: singular
+    person: third
+  expected: éw
+---
+lemma: ŋəl
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: ŋaki
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: alwaki
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: emaki
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ŋəlaki
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: awaki
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: ebaki
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: ŋak
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: alwak
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: emak
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ŋəlak
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: awak
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: ebak
+- features:
+    number: plural
+    person: first
+  expected: ŋag
+- features:
+    number: plural
+    person: second
+  expected: al
+- features:
+    number: plural
+    person: third
+  expected: em
+- features:
+    number: singular
+    person: first
+  expected: ŋəl
+- features:
+    number: singular
+    person: second
+  expected: au
+- features:
+    number: singular
+    person: third
+  expected: eu

@@ -1,0 +1,107 @@
+lemma: ak
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kȩdȩ
+- features:
+    number: plural
+    person: second
+  expected: kom
+- features:
+    number: plural
+    person: third
+  expected: tȩ
+- features:
+    number: singular
+    person: first
+  expected: ak
+- features:
+    number: singular
+    person: second
+  expected: kȩ
+- features:
+    number: singular
+    person: third
+  expected: ng
+---
+lemma: ngilȩcha
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: tirilȩcha
+- features:
+    definiteness: definite
+    number: singular
+  expected: ngilȩcha
+---
+lemma: ngka
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: tirka
+- features:
+    definiteness: definite
+    number: singular
+  expected: ngka
+- features:
+    number: plural
+    person: third
+  expected: aika
+- features:
+    number: singular
+    person: third
+  expected: ngka
+---
+lemma: ngke
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: tirke
+- features:
+    definiteness: definite
+    number: singular
+  expected: ngke
+---
+lemma: se
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: aike
+- features:
+    definiteness: definite
+    number: singular
+  expected: se
+---
+lemma: tia
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: aika
+- features:
+    definiteness: definite
+    number: singular
+  expected: tia
+---
+lemma: tilȩcha
+category: pronouns
+cases:
+- features:
+    definiteness: definite
+    number: plural
+  expected: ailȩcha
+- features:
+    definiteness: definite
+    number: singular
+  expected: tilȩcha

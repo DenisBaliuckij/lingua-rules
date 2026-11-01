@@ -1,0 +1,100 @@
+lemma: lik
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: ica-nyum
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: hu-yim
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: ka-sum
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: ka-yum
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: hum
+---
+lemma: ni
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: nila
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: nila
+---
+lemma: ryu
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: ica-yumryumIcon
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: ha-sumryumIcon
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: ryuo
+- features:
+    mood: imperative
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: humryumIcon
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future_perfect
+  expected: shopu
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: imperfect
+  expected: sho
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: perfect
+  expected: ryupit
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: bampit

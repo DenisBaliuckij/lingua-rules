@@ -1,0 +1,405 @@
+lemma: aÓn
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: singular
+    person: second
+  expected: pínaÓ
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+  expected: pintít
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: pit
+---
+lemma: laÓ÷tsín
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+    person: third
+  expected: talaÓ÷tsín
+- features:
+    aspect: imperfective
+    number: singular
+    person: first
+  expected: iklaÓ÷tsín
+- features:
+    aspect: imperfective
+    number: singular
+    person: second
+  expected: laÓ÷tsínaÓ
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+  expected: laÓ÷tsín
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+  expected: iklaÓ÷tsíuw
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+  expected: laÓ÷tsintít
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: talaÓ÷tsí¬
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: iklaÓ÷tsí¬
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: láÓ÷tsiÔ
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: laÓ÷tsí¬
+---
+lemma: min
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: singular
+    person: second
+  expected: tánaÓ
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+  expected: tatít
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: taÓt
+---
+lemma: paß
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+    person: third
+  expected: tapáßa
+- features:
+    aspect: imperfective
+    number: singular
+    person: first
+  expected: ikpáßa
+- features:
+    aspect: imperfective
+    number: singular
+    person: second
+  expected: páßa
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+  expected: páßa
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+  expected: ikpáßwiÔ
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+  expected: paßtít
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: tapáßliÔ
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: ikpáßliÔ
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: páßtiÔ
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: páßliÔ
+---
+lemma: taßtú
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+    person: third
+  expected: tataßtú
+- features:
+    aspect: imperfective
+    number: singular
+    person: first
+  expected: iktaßtú
+- features:
+    aspect: imperfective
+    number: singular
+    person: second
+  expected: taßtúyaÓ
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+  expected: taßtú
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+  expected: iktaßtúw
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+  expected: taßtutít
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: tataßtú¬
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: iktaßtú¬
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: táßtu
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: taßtú¬
+- features:
+    number: plural
+    person: third
+    tense: future
+  expected: natataßtú
+- features:
+    number: plural
+    person: third
+    tense: past
+  expected: ißtataßtú
+- features:
+    number: plural
+    person: third
+    tense: present
+  expected: tataßtú
+- features:
+    number: singular
+    person: first
+    tense: future
+  expected: naiktaßtú
+- features:
+    number: singular
+    person: first
+    tense: past
+  expected: ßaktaßtú
+- features:
+    number: singular
+    person: first
+    tense: present
+  expected: iktaßtú
+- features:
+    number: singular
+    person: second
+    tense: future
+  expected: nataßtúyaÓ
+- features:
+    number: singular
+    person: second
+    tense: past
+  expected: ißtaßtúyaÓ
+- features:
+    number: singular
+    person: second
+    tense: present
+  expected: taßtúyaÓ
+- features:
+    number: singular
+    person: third
+    tense: future
+  expected: nataßtú
+- features:
+    number: singular
+    person: third
+    tense: past
+  expected: ißtaßtú
+- features:
+    number: singular
+    person: third
+    tense: present
+  expected: taßtú
+---
+lemma: tuks
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: tukskán
+- features:
+    aspect: imperfective
+    number: singular
+    person: second
+  expected: túksaÓ
+- features:
+    aspect: perfective
+  expected: túkskaÓ
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: túkstiÔ
+- features:
+    number: plural
+    person: first
+  expected: iktúkswiÔ
+- features:
+    number: plural
+    person: second
+  expected: tukstít
+- features:
+    number: plural
+    person: third
+  expected: kintatúksliÔ
+- features:
+    number: singular
+    person: first
+  expected: kintukskán
+- features:
+    number: singular
+    person: second
+  expected: tukskánaÓ
+- features:
+    number: singular
+    person: third
+  expected: tukskán
+---
+lemma: tßaÓn
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    number: plural
+    person: third
+  expected: tatßáÓn
+- features:
+    aspect: imperfective
+    number: singular
+    person: first
+  expected: iktßáÓn
+- features:
+    aspect: imperfective
+    number: singular
+    person: second
+  expected: tßáÓnaÓ
+- features:
+    aspect: imperfective
+    number: singular
+    person: third
+  expected: tßáÓn
+- features:
+    aspect: perfective
+    number: plural
+    person: first
+  expected: iktßáÓnwiÔ
+- features:
+    aspect: perfective
+    number: plural
+    person: second
+  expected: tßaÓntít
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+  expected: tatßáÓnliÔ
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+  expected: iktßáÓnliÔ
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+  expected: tßáÓntiÔ
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+  expected: tßáÓnliÔ
+---
+lemma: wakáÓ¬
+category: verbs
+cases:
+- features:
+    number: singular
+    person: first
+  expected: ikwakáÓ¬
+- features:
+    number: singular
+    person: second
+  expected: wakáÓ¬
+---
+lemma: √laÓ÷tsín
+category: verbs
+cases:
+- features:
+    aspect: perfective
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: kintalaÓ÷tsí¬
+- features:
+    aspect: perfective
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: iklaÓ÷tsín
+- features:
+    aspect: perfective
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: kiláÓ÷tsiÔ
+- features:
+    aspect: perfective
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: past
+    voice: active
+  expected: kilaÓ÷tsí¬

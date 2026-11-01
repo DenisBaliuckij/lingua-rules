@@ -1,0 +1,275 @@
+lemma: biz
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: first
+  expected: bizden
+- features:
+    case: accusative
+    number: plural
+    person: first
+  expected: bizni
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: bizge
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: bizim
+- features:
+    case: locative
+    number: plural
+    person: first
+  expected: bizde
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: biz
+---
+lemma: bu
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: bular
+- features:
+    number: singular
+  expected: bu
+---
+lemma: bytyn
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: bytyn
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: bytynimiz
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: bytyniliz
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: bytyni
+---
+lemma: ep
+category: pronouns
+cases:
+- features:
+    number: singular
+  expected: ep
+- features:
+    possessor_number: plural
+    possessor_person: first
+  expected: epimiz
+- features:
+    possessor_number: plural
+    possessor_person: second
+  expected: epiliz
+- features:
+    possessor_number: singular
+    possessor_person: third
+  expected: epis
+---
+lemma: fu
+category: pronouns
+cases:
+- features:
+    number: plural
+  expected: fular
+- features:
+    number: singular
+  expected: fu
+---
+lemma: kendi
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: kendimiz
+- features:
+    number: plural
+    person: second
+  expected: kendiIJiz
+- features:
+    number: plural
+    person: third
+  expected: kendi-ler-i
+- features:
+    number: singular
+    person: first
+  expected: kendim
+- features:
+    number: singular
+    person: second
+  expected: kendiIJ
+- features:
+    number: singular
+    person: third
+  expected: kendi!kendi-si
+---
+lemma: men
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: first
+  expected: menden
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: meni
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: maya
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: menim
+- features:
+    case: locative
+    number: singular
+    person: first
+  expected: mende
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: men
+- features:
+    number: plural
+    person: first
+  expected: biz-im-k:i
+- features:
+    number: plural
+    person: second
+  expected: siz-ii]-k:i
+- features:
+    number: singular
+    person: first
+  expected: men-im-k:i
+- features:
+    number: singular
+    person: second
+  expected: sen-il.J-k:i
+- features:
+    number: singular
+    person: third
+  expected: on-llll)-k:i
+---
+lemma: olar
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: third
+  expected: olardan
+- features:
+    case: accusative
+    number: plural
+    person: third
+  expected: olarni
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: olarya
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: olarnim
+- features:
+    case: locative
+    number: plural
+    person: third
+  expected: olarda
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: olar
+---
+lemma: sen
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: singular
+    person: second
+  expected: senden
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: seni
+- features:
+    case: dative
+    number: singular
+    person: second
+  expected: saya
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: senim
+- features:
+    case: locative
+    number: singular
+    person: second
+  expected: sende
+- features:
+    case: nominative
+    number: singular
+    person: second
+  expected: sen
+---
+lemma: siz
+category: pronouns
+cases:
+- features:
+    case: ablative
+    number: plural
+    person: second
+  expected: sizden
+- features:
+    case: accusative
+    number: plural
+    person: second
+  expected: sizni
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: sizge
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: sizim
+- features:
+    case: locative
+    number: plural
+    person: second
+  expected: sizde
+- features:
+    case: nominative
+    number: plural
+    person: second
+  expected: siz

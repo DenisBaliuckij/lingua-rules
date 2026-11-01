@@ -1,0 +1,93 @@
+lemma: ass!
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+    person: first
+  expected: assanS
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: asadS
+- features:
+    number: plural
+    person: first
+  expected: ass!
+---
+lemma: e
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+    person: third
+  expected: inhanB
+- features:
+    case: dative
+    number: singular
+    person: third
+  expected: isntl
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: lnhada
+- features:
+    number: plural
+    person: third
+  expected: e
+- features:
+    number: singular
+    person: third
+  expected: e
+---
+lemma: me
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: menu
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: m§ra
+- features:
+    number: singular
+    person: first
+  expected: me
+---
+lemma: tu
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: t§r£
+- features:
+    number: singular
+    person: second
+  expected: tu
+---
+lemma: tuss?
+category: pronouns
+cases:
+- features:
+    case: dative
+    number: plural
+    person: second
+  expected: tusanu
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: tusada
+- features:
+    number: plural
+    person: second
+  expected: tuss?

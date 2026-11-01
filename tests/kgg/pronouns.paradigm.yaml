@@ -1,0 +1,121 @@
+lemma: gina
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: third
+  expected: ginda
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: ginayi
+- features:
+    number: dual
+    person: third
+  expected: gina dzi≥a
+- features:
+    number: plural
+    person: third
+  expected: gina da
+- features:
+    number: singular
+    person: third
+  expected: gina
+---
+lemma: nok
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: second
+  expected: no÷-da
+- features:
+    case: genitive
+    number: dual
+    person: second
+  expected: nig-i
+- features:
+    number: dual
+    person: second
+  expected: nok dzi≥a
+- features:
+    number: plural
+    person: second
+  expected: nok da
+---
+lemma: nu
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: second
+  expected: n˙n-da
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: ni-yi
+- features:
+    number: singular
+    person: second
+  expected: nu
+---
+lemma: tok
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: to÷-da
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: tig-i
+- features:
+    number: dual
+    person: first
+  expected: tok dzi≥a
+- features:
+    number: plural
+    person: first
+  expected: tok da
+---
+lemma: tsi
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: t˙n-da
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: tsiyi
+- features:
+    number: plural
+    person: first
+  expected: tigi
+- features:
+    number: plural
+    person: second
+  expected: ?nigi
+- features:
+    number: singular
+    person: first
+  expected: tsiyi
+- features:
+    number: singular
+    person: second
+  expected: ni-yi
+- features:
+    number: singular
+    person: third
+  expected: gina-yi

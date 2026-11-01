@@ -1,0 +1,83 @@
+lemma: ca
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ҳа
+- features:
+    number: plural
+    person: second
+  expected: шәа
+- features:
+    number: plural
+    person: third
+  expected: да
+- features:
+    number: singular
+    person: first
+  expected: ca
+- features:
+    number: singular
+    person: second
+  expected: ya
+- features:
+    number: singular
+    person: third
+  expected: иа
+---
+lemma: sa
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: sOa
+- features:
+    number: plural
+    person: second
+  expected: sOart
+- features:
+    number: plural
+    person: third
+  expected: dara
+- features:
+    number: singular
+    person: first
+  expected: sa
+- features:
+    number: singular
+    person: second
+  expected: wa
+- features:
+    number: singular
+    person: third
+  expected: ya
+---
+lemma: ари
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: арҭ
+- features:
+    number: plural
+    person: second
+  expected: анҭ
+- features:
+    number: plural
+    person: third
+  expected: урҭ
+- features:
+    number: singular
+    person: first
+  expected: ари
+- features:
+    number: singular
+    person: second
+  expected: ани
+- features:
+    number: singular
+    person: third
+  expected: уи

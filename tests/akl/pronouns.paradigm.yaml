@@ -1,0 +1,302 @@
+lemma: acó
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: x\con
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: acó
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: sa acón
+---
+lemma: aka
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: third
+  expected: inuria
+- features:
+    number: singular
+    person: first
+  expected: aka
+- features:
+    number: singular
+    person: second
+  expected: ikw
+- features:
+    number: singular
+    person: third
+  expected: inuiw
+---
+lemma: aku
+category: pronouns
+cases:
+- features:
+    number: plural
+    person: first
+  expected: ru ?-atun nga
+- features:
+    number: plural
+    person: second
+  expected: ru ?-£nyu nga
+- features:
+    number: plural
+    person: third
+  expected: ru ?-anda nga
+- features:
+    number: singular
+    person: first
+  expected: ru ?-aku-n nga
+- features:
+    number: singular
+    person: second
+  expected: ru ?-£mu nga
+- features:
+    number: singular
+    person: third
+  expected: ru ?-ana nga
+---
+lemma: aké
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: kita
+- features:
+    number: singular
+    person: first
+  expected: aké
+- features:
+    number: singular
+    person: second
+  expected: kamé
+- features:
+    number: singular
+    person: third
+  expected: sarla
+---
+lemma: ano?
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: ano?
+- features:
+    case: oblique
+  expected: sa ano?
+---
+lemma: camí
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: amun
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: camí
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: sa amun
+---
+lemma: hain?
+category: pronouns
+cases:
+- features:
+    case: oblique
+  expected: hain?
+---
+lemma: sanda
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: plural
+    person: third
+  expected: nanda
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: sanda
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: sa anda
+---
+lemma: silá
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+    person: third
+  expected: silá
+- features:
+    case: oblique
+    number: plural
+    person: third
+  expected: sa ila
+---
+lemma: sin
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: sin
+- features:
+    case: oblique
+  expected: cay sin
+- features:
+    definiteness: indefinite
+    number: plural
+    person: first
+  expected: sinamon
+- features:
+    definiteness: indefinite
+    number: plural
+    person: second
+  expected: sinanday
+- features:
+    definiteness: indefinite
+    number: plural
+    person: third
+  expected: simanda ku
+- features:
+    definiteness: indefinite
+    number: singular
+    person: first
+  expected: sinakon
+- features:
+    definiteness: indefinite
+    number: singular
+    person: second
+  expected: sinay
+- features:
+    definiteness: indefinite
+    number: singular
+    person: third
+  expected: sinana ku
+- features:
+    number: plural
+    person: first
+    voice: active
+  expected: sinanion
+- features:
+    number: plural
+    person: first
+    voice: passive
+  expected: kunanion
+- features:
+    number: plural
+    person: second
+    voice: active
+  expected: sininyo
+- features:
+    number: plural
+    person: second
+    voice: passive
+  expected: kuninyo
+- features:
+    number: plural
+    person: third
+    voice: active
+  expected: sinanda
+- features:
+    number: plural
+    person: third
+    voice: passive
+  expected: kunanda
+- features:
+    number: singular
+    person: first
+    voice: active
+  expected: sinakon
+- features:
+    number: singular
+    person: first
+    voice: passive
+  expected: kunakon
+- features:
+    number: singular
+    person: second
+    voice: active
+  expected: sinimo
+- features:
+    number: singular
+    person: second
+    voice: passive
+  expected: kunimo
+- features:
+    number: singular
+    person: third
+    voice: active
+  expected: sinana
+- features:
+    number: singular
+    person: third
+    voice: passive
+  expected: kunana
+---
+lemma: siya
+category: pronouns
+cases:
+- features:
+    case: genitive
+    number: singular
+    person: third
+  expected: lya
+- features:
+    case: nominative
+    number: singular
+    person: third
+  expected: siya
+- features:
+    case: oblique
+    number: singular
+    person: third
+  expected: sa iya
+---
+lemma: ta
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: ta
+---
+lemma: yadto
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: yadto
+- features:
+    case: oblique
+  expected: sadto
+---
+lemma: yana
+category: pronouns
+cases:
+- features:
+    case: nominative
+  expected: yana
+- features:
+    case: oblique
+  expected: sana

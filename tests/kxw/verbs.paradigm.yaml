@@ -1,0 +1,562 @@
+lemma: baha
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    tense: present
+  expected: baholu
+- features:
+    aspect: progressive
+    tense: present
+  expected: baholu
+- features:
+    tense: future
+  expected: bahale
+- features:
+    tense: past
+  expected: bahai
+- features:
+    verb_form: infinitive
+  expected: baha
+---
+lemma: bese
+category: verbs
+cases:
+- features:
+    tense: past
+  expected: besei
+- features:
+    verb_form: infinitive
+  expected: bese
+---
+lemma: bigi
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    tense: present
+  expected: bigili
+- features:
+    tense: future
+  expected: bigile
+---
+lemma: dege
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: degei
+- features:
+    aspect: imperfective
+    mood: conditional
+    tense: future
+  expected: dege-l-i-gi
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: dege
+---
+lemma: du
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    tense: present
+  expected: dulu
+- features:
+    tense: future
+  expected: dulo
+---
+lemma: dugu
+category: verbs
+cases:
+- features:
+    tense: future
+    voice: active
+  expected: duguɪ
+- features:
+    tense: present
+    voice: active
+  expected: dugu
+- features:
+    verb_form: infinitive
+  expected: dugu
+---
+lemma: duwo
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: duwo∅
+- features:
+    aspect: imperfective
+    mood: conditional
+    tense: future
+  expected: duwo-l-i
+- features:
+    tense: past
+  expected: duwe-i
+---
+lemma: fiya
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    tense: present
+  expected: fiyolu
+- features:
+    aspect: progressive
+    tense: present
+  expected: fiyolu
+- features:
+    tense: future
+  expected: fiyale
+- features:
+    tense: past
+  expected: fiyei
+- features:
+    verb_form: infinitive
+  expected: fiya
+---
+lemma: fo
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: fo
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: fo-l-ø
+- features:
+    tense: past
+  expected: fou
+---
+lemma: folo
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: folou
+- features:
+    aspect: imperfective
+    mood: conditional
+    tense: future
+  expected: fou-l-u-gi
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: folo
+---
+lemma: goso
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: gosou
+- features:
+    aspect: imperfective
+    mood: conditional
+    tense: future
+  expected: gosou-l-u-gi
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: gosol
+---
+lemma: hebe
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    mood: indicative
+    tense: present
+  expected: hebeli
+- features:
+    aspect: progressive
+    tense: present
+  expected: hebeli
+- features:
+    tense: future
+  expected: hebele
+- features:
+    tense: past
+  expected: hebei
+- features:
+    verb_form: infinitive
+  expected: hebe
+---
+lemma: igi-se
+category: verbs
+cases:
+- features:
+    tense: future
+    voice: active
+  expected: igi-sɛ-ɪ
+- features:
+    tense: present
+    voice: active
+  expected: igi-sɛ-i
+---
+lemma: mõ
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: mõ
+- features:
+    aspect: imperfective
+    mood: conditional
+    tense: future
+  expected: mo-l-õ-gi
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: malæ
+- features:
+    tense: past
+  expected: mô-û
+---
+lemma: næ
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: nô-û
+- features:
+    aspect: imperfective
+    mood: conditional
+    tense: future
+  expected: no-l-û-gi
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: nalæ
+---
+lemma: nê
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: nêî
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: ne-l-ê
+---
+lemma: sa
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: so-u
+- features:
+    aspect: imperfective
+    mood: conditional
+    tense: future
+  expected: so-l-u-gi
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: sa
+- features:
+    tense: future
+    voice: active
+  expected: sɑ-ɪ
+- features:
+    tense: present
+    voice: active
+  expected: sɛ-u
+---
+lemma: sa-gi
+category: verbs
+cases:
+- features:
+    tense: future
+    voice: active
+  expected: sɑ-gi-ɪ
+- features:
+    tense: present
+    voice: active
+  expected: sɑ-gi
+---
+lemma: sabiya
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: sabiyo-u
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: sabiya
+---
+lemma: sese-gu
+category: verbs
+cases:
+- features:
+    tense: future
+    voice: active
+  expected: sɛsɛ-gu-ɪ
+- features:
+    tense: present
+    voice: active
+  expected: sɛsɛ-gu
+---
+lemma: si
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: si
+- features:
+    aspect: imperfective
+    mood: conditional
+    tense: future
+  expected: si-l-i-gi
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: si-l-e
+- features:
+    tense: past
+  expected: si
+---
+lemma: sia
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: su
+- features:
+    aspect: imperfective
+    mood: conditional
+    tense: future
+  expected: su-l-u-gi
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: su-l
+- features:
+    tense: past
+  expected: sie-i
+---
+lemma: suwa
+category: verbs
+cases:
+- features:
+    mood: indicative
+    tense: past
+  expected: suwei
+- features:
+    verb_form: infinitive
+  expected: suwa
+---
+lemma: tafala
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: tafala∅
+- features:
+    aspect: imperfective
+    mood: conditional
+    tense: future
+  expected: tafala-l-i
+- features:
+    aspect: progressive
+    mood: imperative
+  expected: tafala-l-i
+- features:
+    mood: indicative
+    tense: future
+  expected: tafala-l-e
+- features:
+    mood: indicative
+    tense: past
+  expected: tefele-i
+- features:
+    mood: indicative
+    tense: present
+  expected: tafala
+- features:
+    tense: past
+  expected: tefele-i
+- features:
+    verb_form: infinitive
+  expected: tafala
+---
+lemma: taga
+category: verbs
+cases:
+- features:
+    aspect: progressive
+    tense: present
+  expected: tagali
+- features:
+    tense: future
+  expected: tagale
+- features:
+    tense: future
+    voice: active
+  expected: tagaɪ
+- features:
+    tense: past
+  expected: tagai
+- features:
+    tense: present
+    voice: active
+  expected: tɑgɑ-i
+---
+lemma: tawa
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: tawai
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: tawa-l-e
+---
+lemma: tia
+category: verbs
+cases:
+- features:
+    mood: indicative
+    tense: past
+  expected: tiei
+- features:
+    tense: future
+    voice: active
+  expected: tiɑ-ɪ
+- features:
+    tense: present
+    voice: active
+  expected: tiɛ-u
+- features:
+    verb_form: infinitive
+  expected: tia
+---
+lemma: tila
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: tila∅
+- features:
+    aspect: imperfective
+    mood: conditional
+    tense: future
+  expected: tila-l-i
+- features:
+    tense: past
+  expected: tile-i
+---
+lemma: tobø
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: tobø
+- features:
+    aspect: imperfective
+    mood: conditional
+    tense: future
+  expected: tobo-l-ø-gi
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: tobo-l-ø
+- features:
+    aspect: progressive
+    tense: present
+  expected: tobolø
+- features:
+    tense: future
+  expected: tobolø
+- features:
+    tense: future
+    voice: active
+  expected: tobo-ɪ
+- features:
+    tense: past
+  expected: tobou
+- features:
+    tense: present
+    voice: active
+  expected: tobo
+---
+lemma: togo
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: togou
+- features:
+    aspect: imperfective
+    mood: conditional
+    tense: future
+  expected: togou-l-u-gi
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: togol
+- features:
+    aspect: progressive
+    tense: present
+  expected: togoulu
+- features:
+    tense: future
+  expected: togolo
+---
+lemma: wo
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: wou
+- features:
+    aspect: imperfective
+    mood: conditional
+    tense: future
+  expected: wou-l-u-gi
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: wala
+- features:
+    tense: past
+  expected: we-i
+---
+lemma: yodu
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+  expected: yodu
+- features:
+    aspect: imperfective
+    mood: indicative
+    tense: present
+  expected: yodul
+- features:
+    tense: past
+  expected: yodu

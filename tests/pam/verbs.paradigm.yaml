@@ -1,0 +1,514 @@
+lemma: acertar
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: acierten
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: acierta
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: aciertan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: acierto
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: aciertas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: acierta
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: acierten
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: acierte
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: aciertes
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: acierta
+---
+lemma: am-a
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: am-emos
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: am-ad
+---
+lemma: am-are
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: am-aremos
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: am-areis
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: am-aran
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: am-are
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: am-ards
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: am-ara
+---
+lemma: am-e
+category: verbs
+cases:
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: am-emos
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: am-eis
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: am-en
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: am-e
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: am-es
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: am-e
+---
+lemma: batbat
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: mefewatbat
+- features:
+    aspect: perfective
+    tense: present
+  expected: afanwatbat
+---
+lemma: conducir
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: preterite
+  expected: condujimos
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: preterite
+  expected: condujisteis
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: preterite
+  expected: condujeron
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: conduzco
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: preterite
+  expected: conduje
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: preterite
+  expected: condujiste
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: preterite
+  expected: condujo
+---
+lemma: contar
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: cuenta
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: cuentan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: cuentas
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: cuenta
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: cuenta
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: cuenta
+---
+lemma: cutang
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: mengtang
+- features:
+    aspect: perfective
+    tense: present
+  expected: man§utang
+---
+lemma: gaga
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: menga
+- features:
+    aspect: perfective
+    tense: present
+  expected: mangag
+---
+lemma: nacer
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: nacamos
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: nacen
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: naca
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: nazco
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: nazcamos
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: nazcáis
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: nazcan
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: nazca
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: nazcas
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+    tense: present
+  expected: nazca
+---
+lemma: partir
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: partid
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: partan
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: parte
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: parta
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: partiremos
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: pluperfect
+  expected: partido
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: partireis
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: partiran
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: partiras
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: partird
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: partamos
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+    tense: present
+  expected: partan
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+    tense: present
+  expected: parta
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+    tense: present
+  expected: partas
+---
+lemma: pasiag
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: meferaasiag
+- features:
+    aspect: perfective
+    tense: present
+  expected: vamasiag
+---
+lemma: querer
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: quiere
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: querremos
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: querreis
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: querran
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: querre
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: querras
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: querra
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+    tense: present
+  expected: queramos
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+    tense: present
+  expected: querdis
+---
+lemma: tugtug
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: menwgtug
+- features:
+    aspect: perfective
+    tense: present
+  expected: afanugtug
+---
+lemma: uangis
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: mengilis
+- features:
+    aspect: perfective
+    tense: present
+  expected: afanu&ngis

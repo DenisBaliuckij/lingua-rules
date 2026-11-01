@@ -1,0 +1,1142 @@
+lemma: die
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+    polarity: negative
+  expected: erekugle
+- features:
+    number: dual
+    person: second
+    polarity: affirmative
+  expected: eure
+- features:
+    number: dual
+    person: second
+    polarity: negative
+  expected: erekiupe
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: ol
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: erekune
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: orume
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: erekurume
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: etne
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: erekitne
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: orume
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: erekurume
+---
+lemma: dindinagla
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: dindinambugla
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: dindinambira
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: dindinagll
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: dindina
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: dindinagla
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: dindinamba
+---
+lemma: dindinalka
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: dindinambulka
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: dindinambirika
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: dirtdinalkwa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: dindinamga
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: dindinalka
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: dindinatnga
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: dindinambuga
+---
+lemma: ere
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: ougl
+- features:
+    number: dual
+    person: first
+    polarity: negative
+  expected: erekugl
+- features:
+    number: dual
+    person: second
+    polarity: affirmative
+  expected: eure
+- features:
+    number: dual
+    person: second
+    polarity: negative
+  expected: ereki
+- features:
+    number: dual
+    person: third
+    polarity: affirmative
+  expected: erimbe
+- features:
+    number: dual
+    person: third
+    polarity: negative
+  expected: erekirimbe
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: oun
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: erekGn
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: erimbe
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: eimbo
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: erekirimbo
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: etn
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: erekitn
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: eran
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: erekiran
+---
+lemma: kan
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: kanambulka
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: kambulka
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: negative
+    tense: future
+  expected: kankirambulka
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: negative
+    tense: present
+  expected: kankulka
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: kanambirika
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: kambirika
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: negative
+    tense: future
+  expected: kankirambirika
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: negative
+    tense: present
+  expected: kankiurika
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: kankirambuga
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: kanŋgwa
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: negative
+    tense: future
+  expected: kankirambuga
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    polarity: negative
+    tense: present
+  expected: kankurukwa
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: kanamga
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: kamga
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: future
+  expected: kankiramga
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: negative
+    tense: present
+  expected: kankunga
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: kanalkwa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: kaniŋgwa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: future
+  expected: kankiralkwa
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: negative
+    tense: present
+  expected: kankirikwa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: kankirambuga
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: kanŋgwa
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: future
+  expected: kankirambuga
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    polarity: negative
+    tense: present
+  expected: kankurukwa
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: kanalka
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: kaniŋga
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: kankiralka
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: present
+  expected: kankirika
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: kanatnga
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: kanga
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: future
+  expected: khnkiranga
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: negative
+    tense: present
+  expected: kankitnga
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: future
+  expected: kanambuga
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: kanŋgwa
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: negative
+    tense: present
+  expected: kankurukwa
+- features:
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: kambugle
+- features:
+    number: dual
+    person: first
+    polarity: negative
+  expected: kankugle
+- features:
+    number: dual
+    person: second
+    polarity: affirmative
+  expected: kambire
+- features:
+    number: dual
+    person: second
+    polarity: negative
+  expected: kankiure
+- features:
+    number: dual
+    person: third
+    polarity: affirmative
+  expected: kanme
+- features:
+    number: dual
+    person: third
+    polarity: negative
+  expected: kankirime
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: kamune
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: kankune
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: kanme
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: kankirime
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: kanme
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: kankurume
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: kanie
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: kankirie
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: kane
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: kankitne
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: kanme
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: kankurume
+---
+lemma: kanagla
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: kanambugla
+- features:
+    number: dual
+    person: first
+    polarity: negative
+  expected: kankirambugla
+- features:
+    number: dual
+    person: second
+    polarity: affirmative
+  expected: kanambira
+- features:
+    number: dual
+    person: second
+    polarity: negative
+  expected: kankirambira
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: kanamuna
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: kankiramuna
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: kanaglima
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: kankifaglima
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: kanagla
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: kankiragla
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: kankiratnaJ
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: kanamba
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: kankiramba
+---
+lemma: kanagle
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: kanambugle
+- features:
+    number: dual
+    person: first
+    polarity: negative
+  expected: kankira
+- features:
+    number: dual
+    person: second
+    polarity: affirmative
+  expected: kanambire
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: kanemune
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: kankiramune
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: kanaglime
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: kanagle
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: kankiragle
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: kanatne
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: kankiratne
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: kanambe
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: kankirambe
+---
+lemma: kandinaglendi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: kandinambuglendi
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: kandinambirendi
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: kandinaglimendi
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: karidinamunendi
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: kandinaglimendi
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: kandinaglendi
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: kandinatnendi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: kandinambendi
+---
+lemma: kangande
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: kambulkande
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: kanambirikande
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: kambirikande
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: kanamungande
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: kamungand
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: kanaglimkande
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: kanatngande
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: kanalkande
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: kangande
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: future
+  expected: kanatngande
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    polarity: affirmative
+    tense: present
+  expected: kanuDgande
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    polarity: affirmative
+    tense: present
+  expected: kaniQgwande
+---
+lemma: kera' l - ker
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: kambulkera
+- features:
+    number: dual
+    person: first
+    polarity: negative
+  expected: kankulkera
+- features:
+    number: dual
+    person: second
+    polarity: affirmative
+  expected: kambirikera
+- features:
+    number: dual
+    person: second
+    polarity: negative
+  expected: kankiurukera
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: kamrJera
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: kankungera
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: kc.niTJgera
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: kankirikera
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: kaniQ.gera
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: kankirikera
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: kangera
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: kankitngera
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: kanulJgera
+---
+lemma: mogl
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: mougle
+- features:
+    number: dual
+    person: first
+    polarity: negative
+  expected: molkugle
+- features:
+    number: dual
+    person: second
+    polarity: negative
+  expected: molkiure
+- features:
+    number: dual
+    person: third
+    polarity: affirmative
+  expected: meglime
+- features:
+    number: dual
+    person: third
+    polarity: negative
+  expected: molkirime
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: moune
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: molkune
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: meglime
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: molkirime
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: moglume
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: molkurume
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: mole
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: molkirie
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: motne
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: mol-kltne
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: moglume
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: molkurume
+---
+lemma: pi
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+    polarity: affirmative
+  expected: pugle
+- features:
+    number: dual
+    person: first
+    polarity: negative
+  expected: pirikugle
+- features:
+    number: dual
+    person: second
+    polarity: affirmative
+  expected: piure
+- features:
+    number: dual
+    person: second
+    polarity: negative
+  expected: pirikiure
+- features:
+    number: dual
+    person: third
+    polarity: affirmative
+  expected: pirime
+- features:
+    number: dual
+    person: third
+    polarity: negative
+  expected: p
+- features:
+    number: plural
+    person: first
+    polarity: affirmative
+  expected: pune
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: p
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: pirime
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: pirikiri
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: purume
+- features:
+    number: plural
+    person: third
+    polarity: negative
+  expected: pirikurume
+- features:
+    number: singular
+    person: first
+    polarity: affirmative
+  expected: pirie
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: pirikirie
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: ptne
+- features:
+    number: singular
+    person: second
+    polarity: negative
+  expected: pirikitne
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: purume
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: pirikurume
+---
+lemma: piri
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+    polarity: negative
+  expected: pirikugl
+- features:
+    number: dual
+    person: second
+    polarity: affirmative
+  expected: pitn
+- features:
+    number: dual
+    person: second
+    polarity: negative
+  expected: pirikiure
+- features:
+    number: dual
+    person: third
+    polarity: affirmative
+  expected: piure
+- features:
+    number: dual
+    person: third
+    polarity: negative
+  expected: pirikirimbe
+- features:
+    number: plural
+    person: first
+    polarity: negative
+  expected: pir
+- features:
+    number: plural
+    person: second
+    polarity: affirmative
+  expected: pirimbe
+- features:
+    number: plural
+    person: second
+    polarity: negative
+  expected: pirikirimbe
+- features:
+    number: plural
+    person: third
+    polarity: affirmative
+  expected: pirimbe
+- features:
+    number: singular
+    person: first
+    polarity: negative
+  expected: pirikire
+- features:
+    number: singular
+    person: second
+    polarity: affirmative
+  expected: pirimbo
+- features:
+    number: singular
+    person: third
+    polarity: affirmative
+  expected: pirah
+- features:
+    number: singular
+    person: third
+    polarity: negative
+  expected: pirikiran

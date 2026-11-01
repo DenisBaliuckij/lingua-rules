@@ -1,0 +1,732 @@
+lemma: atog
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: umdtog
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: aatog
+- features:
+    aspect: progressive
+    tense: present
+  expected: umaatog
+- features:
+    verb_form: infinitive
+  expected: atog
+---
+lemma: chUle
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: chumUle
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: chuchule
+- features:
+    aspect: progressive
+    tense: present
+  expected: chumuchu!e
+- features:
+    verb_form: infinitive
+  expected: chUle
+---
+lemma: chaijino
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: chumaijino
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: chachaijino
+- features:
+    aspect: progressive
+    tense: present
+  expected: chumachaijino
+- features:
+    verb_form: infinitive
+  expected: chaijino
+---
+lemma: chamo
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+    polarity: negative
+  expected: chdta
+- features:
+    mood: imperative
+    number: dual
+    person: second
+    polarity: negative
+  expected: chdmiyo
+- features:
+    mood: imperative
+    number: dual
+    person: third
+    polarity: negative
+  expected: chafiiha
+- features:
+    mood: imperative
+    number: plural
+    person: first
+    polarity: negative
+  expected: chdmame
+- features:
+    mood: imperative
+    number: singular
+    person: first
+    polarity: negative
+  expected: chaho
+- features:
+    mood: imperative
+    number: singular
+    person: second
+    polarity: negative
+  expected: chdmo
+---
+lemma: fafiule
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: mafiufiule
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: fafiufiule
+- features:
+    verb_form: infinitive
+  expected: mafiule
+---
+lemma: faldgo
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: maldlago
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: faldlago
+---
+lemma: fambkat
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: mambmokat
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: fambmokat
+---
+lemma: fanaitai
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: mannaitai
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: fananaitai
+- features:
+    verb_form: infinitive
+  expected: manaitai
+---
+lemma: fanlii
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: manlilti
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: fanlilii
+- features:
+    verb_form: infinitive
+  expected: manlii
+---
+lemma: fanlilii
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: utafanlilii
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: infanlilii
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: enfanlilH
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: utafanmanlilii
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: ltifanmanlilti
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: etifanmanlilit
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: hufanlilti
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: unfanlilii
+- features:
+    aspect: imperfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ufanlilii
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: utafanlii
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: infanlti
+- features:
+    aspect: perfective
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: enfanlii
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: utafanmanlii
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: itifanmanlH
+- features:
+    aspect: perfective
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: etifanmanlii
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: hufanlii
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: unfanlii
+- features:
+    aspect: perfective
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ufanlH
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: manmanlilti
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: manmanlilti
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: manmanlilii
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: manmanlilii
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: manmanlilii
+- features:
+    aspect: progressive
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: manmanlilii
+---
+lemma: fanuge
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: manunuge
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: fanulluge
+- features:
+    verb_form: infinitive
+  expected: manuge
+---
+lemma: fatachong
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: matatachong
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: fatatachong
+- features:
+    verb_form: infinitive
+  expected: matachong
+---
+lemma: fato
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: ma.fato
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: fa.fato
+- features:
+    verb_form: infinitive
+  expected: mato
+---
+lemma: hanao
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: humanao
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: hahanao
+- features:
+    aspect: progressive
+    tense: present
+  expected: humahanao
+- features:
+    verb_form: infinitive
+  expected: hanao
+---
+lemma: hdlom
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: humdlom
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: hahalom
+- features:
+    aspect: progressive
+    tense: present
+  expected: humahalom
+- features:
+    verb_form: infinitive
+  expected: hdlom
+---
+lemma: huyong
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: humuyong
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: huhuyong
+- features:
+    aspect: progressive
+    tense: present
+  expected: humuhuyong
+- features:
+    verb_form: infinitive
+  expected: huyong
+---
+lemma: kano
+category: verbs
+cases:
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: takakano
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: takakano
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: kakano
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: uhakakano
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: kakano
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: ukakano
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: utakano
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: kinananbta
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: kinanbnota
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: inkiino
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: kinanomame
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: kinanomlimame
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: enkiino
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: past
+  expected: kinanomiyo
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: present
+  expected: kinanomimiyo
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: uhakano
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: past
+  expected: kinanofiiha
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: present
+  expected: kinanofiiiliha
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: hukano
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: past
+  expected: kinanbho
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: present
+  expected: kinanbnoho
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: unkano
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: past
+  expected: kinanbmo
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: present
+  expected: kinanbnomo
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: ukano
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: past
+  expected: kinanbfla
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: present
+  expected: kinanbnofia
+---
+lemma: nafigo
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: numafigo
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: nanafigo
+- features:
+    aspect: progressive
+    tense: present
+  expected: numanafigo
+- features:
+    verb_form: infinitive
+  expected: nafigo
+---
+lemma: pine
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: ujine
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: past
+  expected: pine
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: present
+  expected: pine
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: ujine
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: past
+  expected: pine
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: present
+  expected: pine
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: ujine
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: past
+  expected: pine
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: present
+  expected: pine
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: ujine
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: past
+  expected: pine
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: present
+  expected: pine
+---
+lemma: saga
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: sumaga
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: sasaga
+- features:
+    aspect: progressive
+    tense: present
+  expected: sumasaga
+- features:
+    verb_form: infinitive
+  expected: saga
+---
+lemma: ugung
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: umugung
+- features:
+    aspect: perfective
+    mood: imperative
+  expected: uugung
+- features:
+    aspect: progressive
+    tense: present
+  expected: umuugung
+- features:
+    verb_form: infinitive
+  expected: ugung

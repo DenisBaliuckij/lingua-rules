@@ -1,0 +1,798 @@
+lemma: amu
+category: verbs
+cases:
+- features:
+    mood: conditional
+    number: dual
+    person: first
+  expected: amuliu
+- features:
+    mood: conditional
+    number: dual
+    person: second
+  expected: amulmu
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: amuliiñ
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: amulmün
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: amuli
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: amulmi
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: amule
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: amuyu
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: amumu
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: amuyiñ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: amumün
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: amuchi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: amunge
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: amupe
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: amuyu
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: amuymu
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: amuyngu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: amuyiñ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: amuymün
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: amuyngün
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: amun
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: amuymi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: amuy
+---
+lemma: kon
+category: verbs
+cases:
+- features:
+    aspect: habitual
+  expected: konkey
+- features:
+    aspect: perfective
+  expected: koni
+- features:
+    aspect: progressive
+  expected: konküley
+- features:
+    mood: conditional
+    number: dual
+    person: first
+  expected: konliu
+- features:
+    mood: conditional
+    number: dual
+    person: second
+  expected: konülmu
+- features:
+    mood: conditional
+    number: plural
+    person: first
+  expected: konliiñ
+- features:
+    mood: conditional
+    number: plural
+    person: second
+  expected: konülmün
+- features:
+    mood: conditional
+    number: singular
+    person: first
+  expected: konli
+- features:
+    mood: conditional
+    number: singular
+    person: second
+  expected: konülmi
+- features:
+    mood: conditional
+    number: singular
+    person: third
+  expected: konle
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: konyu
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: konmu
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: konyiñ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: konmün
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: konchi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: konnge
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: konpe
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: kon-i-y-u
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: konayu
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: kon-i-m-u
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: konaymu
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: kon-i-ng-u
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: konayngu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: kon-i-yi-ñ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: konaiñ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: kon-i-m-ün
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: konaymün
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: kon-i-ng-ün
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: konayngün
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: konün
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: konan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: kon-i-m-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: konaymi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: koni
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: konay
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+  expected: kon-l-iy-u
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+  expected: kon-ül-m-u
+- features:
+    mood: subjunctive
+    number: dual
+    person: third
+  expected: kon-l-e
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: kon-l-iy-i-ñ
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: kon-ül-m-ün
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: kon-l-e
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: kon-l-i
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: kon-ül-m-i
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: kon-l-e
+---
+lemma: konn
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: conditional_tense
+  expected: konafdn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: future
+  expected: kondn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: past
+  expected: konfdn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: affirmative
+    tense: present
+  expected: konn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: conditional_tense
+  expected: konlaiafh
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: future
+  expected: konlaikn
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    polarity: negative
+    tense: past
+  expected: konlafh
+---
+lemma: leli
+category: verbs
+cases:
+- features:
+    mood: conditional
+    person: first
+    tense: present
+  expected: lelielyu
+- features:
+    mood: imperative
+    person: second
+    polarity: negative
+  expected: lelien
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: leliafiyu
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: leliafimu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: leliafiyiñ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: leliafimün
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: leliafiñ
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: leliafimi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: leliafi
+- features:
+    mood: indicative
+    person: first
+    tense: present
+  expected: lelieyu
+---
+lemma: mütrüm
+category: verbs
+cases:
+- features:
+    mood: conditional
+    person: first
+    tense: present
+  expected: mütrümelyu
+- features:
+    mood: imperative
+    person: second
+    polarity: negative
+  expected: mütrümen
+- features:
+    mood: indicative
+    person: first
+    tense: present
+  expected: mütrümeyu
+---
+lemma: nien
+category: verbs
+cases:
+- features:
+    number: dual
+    person: first
+  expected: niiiyu
+- features:
+    number: dual
+    person: second
+  expected: niiimu
+- features:
+    number: plural
+    person: third
+  expected: nie'iyn
+- features:
+    number: singular
+    person: first
+  expected: nic'rz
+---
+lemma: pi
+category: verbs
+cases:
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: pi-y-u
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: piayu
+- features:
+    mood: indicative
+    number: dual
+    person: second
+  expected: pi-m-u
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: piaymu
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: pi-ng-u
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: piayngu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: pi-i-ñ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: piaiñ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: pi-m-ün
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: piaymün
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: pi-ng-ün
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: piayngün
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: pin
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: pian
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: pi-m-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: piaymi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: pi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: piay
+---
+lemma: tripa
+category: verbs
+cases:
+- features:
+    aspect: habitual
+  expected: tripakey
+- features:
+    aspect: perfective
+  expected: tripay
+- features:
+    aspect: progressive
+  expected: tripaley
+- features:
+    mood: imperative
+    number: dual
+    person: first
+  expected: tripa-y-u
+- features:
+    mood: imperative
+    number: dual
+    person: second
+  expected: tripa-m-u
+- features:
+    mood: imperative
+    number: dual
+    person: third
+  expected: tripape
+- features:
+    mood: imperative
+    number: plural
+    person: first
+  expected: tripa-i-ñ
+- features:
+    mood: imperative
+    number: plural
+    person: second
+  expected: tripa-m-ün
+- features:
+    mood: imperative
+    number: plural
+    person: third
+  expected: tripape
+- features:
+    mood: imperative
+    number: singular
+    person: first
+  expected: tripachi
+- features:
+    mood: imperative
+    number: singular
+    person: second
+  expected: tripange
+- features:
+    mood: imperative
+    number: singular
+    person: third
+  expected: tripape
+- features:
+    mood: indicative
+    number: dual
+    person: first
+  expected: tripa-y-u
+- features:
+    mood: indicative
+    number: dual
+    person: first
+    tense: future
+  expected: tripayayu
+- features:
+    mood: indicative
+    number: dual
+    person: second
+    tense: future
+  expected: tripayaymu
+- features:
+    mood: indicative
+    number: dual
+    person: third
+  expected: tripa-y-ng-u
+- features:
+    mood: indicative
+    number: dual
+    person: third
+    tense: future
+  expected: tripayayngu
+- features:
+    mood: indicative
+    number: plural
+    person: first
+  expected: tripa-i-ñ
+- features:
+    mood: indicative
+    number: plural
+    person: first
+    tense: future
+  expected: tripayaiñ
+- features:
+    mood: indicative
+    number: plural
+    person: second
+  expected: tripa-y-m-ün
+- features:
+    mood: indicative
+    number: plural
+    person: second
+    tense: future
+  expected: tripayaymün
+- features:
+    mood: indicative
+    number: plural
+    person: third
+  expected: tripa-y-ng-ün
+- features:
+    mood: indicative
+    number: plural
+    person: third
+    tense: future
+  expected: tripayayngün
+- features:
+    mood: indicative
+    number: singular
+    person: first
+  expected: tripan
+- features:
+    mood: indicative
+    number: singular
+    person: first
+    tense: future
+  expected: tripayan
+- features:
+    mood: indicative
+    number: singular
+    person: second
+  expected: tripa-y-m-i
+- features:
+    mood: indicative
+    number: singular
+    person: second
+    tense: future
+  expected: tripayaymi
+- features:
+    mood: indicative
+    number: singular
+    person: third
+  expected: tripay
+- features:
+    mood: indicative
+    number: singular
+    person: third
+    tense: future
+  expected: tripayay
+- features:
+    mood: subjunctive
+    number: dual
+    person: first
+  expected: tripa-l-iy-u
+- features:
+    mood: subjunctive
+    number: dual
+    person: second
+  expected: tripa-l-m-u
+- features:
+    mood: subjunctive
+    number: dual
+    person: third
+  expected: tripa-l-e
+- features:
+    mood: subjunctive
+    number: plural
+    person: first
+  expected: tripa-l-iy-i-ñ
+- features:
+    mood: subjunctive
+    number: plural
+    person: second
+  expected: tripa-l-m-ün
+- features:
+    mood: subjunctive
+    number: plural
+    person: third
+  expected: tripa-l-e
+- features:
+    mood: subjunctive
+    number: singular
+    person: first
+  expected: tripa-l-i
+- features:
+    mood: subjunctive
+    number: singular
+    person: second
+  expected: tripa-l-m-i
+- features:
+    mood: subjunctive
+    number: singular
+    person: third
+  expected: tripa-l-e

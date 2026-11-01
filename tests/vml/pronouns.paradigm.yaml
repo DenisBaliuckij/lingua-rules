@@ -1,0 +1,39 @@
+lemma: ngatha
+category: pronouns
+cases:
+- features:
+    case: accusative
+    number: dual
+    person: first
+  expected: ngalinha
+- features:
+    case: accusative
+    number: singular
+    person: first
+  expected: ngathanha
+- features:
+    case: dative
+    number: singular
+    person: first
+  expected: ngathangu
+- features:
+    case: nominative
+    number: dual
+    person: first
+  expected: ngali
+- features:
+    case: nominative
+    number: plural
+    person: first
+  expected: nganharra
+- features:
+    case: nominative
+    number: singular
+    person: first
+  expected: ngatha
+- features:
+    number: singular
+    person: first
+    possessor_number: singular
+    possessor_person: first
+  expected: ngathangura
