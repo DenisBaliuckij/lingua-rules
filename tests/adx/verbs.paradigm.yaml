@@ -1,0 +1,127 @@
+lemma: $
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: $
+- features:
+    mood: imperative
+  expected: '#R'
+- features:
+    tense: future
+  expected: $
+- features:
+    tense: past
+  expected: $
+- features:
+    tense: present
+  expected: $
+---
+lemma: $r
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: '#R'
+- features:
+    tense: future
+  expected: $R
+- features:
+    tense: past
+  expected: $R
+- features:
+    tense: present
+  expected: $R
+---
+lemma: $r?
+category: verbs
+cases:
+- features:
+    tense: future
+  expected: $R?
+- features:
+    tense: past
+  expected: $R?
+- features:
+    tense: present
+  expected: $R?
+---
+lemma: R
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: R
+- features:
+    aspect: perfective
+    tense: past
+  expected: R?
+- features:
+    mood: imperative
+  expected: R
+- features:
+    mood: imperative
+    polarity: affirmative
+  expected: R
+- features:
+    tense: future
+  expected: R
+- features:
+    tense: past
+  expected: R
+- features:
+    tense: present
+  expected: R
+---
+lemma: ir
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: iR
+- features:
+    aspect: perfective
+    tense: past
+  expected: ?R%
+- features:
+    mood: imperative
+  expected: ?R%
+- features:
+    tense: future
+  expected: iR
+- features:
+    tense: past
+  expected: ?R%
+- features:
+    tense: present
+  expected: iR
+---
+lemma: r%
+category: verbs
+cases:
+- features:
+    mood: imperative
+  expected: r%?
+- features:
+    tense: future
+  expected: '%'
+- features:
+    tense: past
+  expected: '%?'
+- features:
+    tense: present
+  expected: r%
+---
+lemma: va
+category: verbs
+cases:
+- features:
+    aspect: imperfective
+    tense: present
+  expected: vA
+- features:
+    mood: imperative
+  expected: uA?
