@@ -1,0 +1,249 @@
+lemma: $
+category: pronouns
+cases:
+- features:
+    case: nominative
+    number: plural
+  expected: $
+---
+lemma: $a-$
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: dual
+    person: first
+  expected: $A-$
+- features:
+    case: ergative
+    number: dual
+    person: first
+  expected: $A-$?
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: $A-$A
+- features:
+    case: oblique
+    number: dual
+    person: first
+  expected: $A-$
+---
+lemma: '%'
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+    person: first
+  expected: '%A-(:R'
+- features:
+    case: absolutive
+    number: singular
+    person: first
+  expected: '%'
+- features:
+    case: ergative
+    number: singular
+    person: first
+  expected: '%?'
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: '%A-(:R-$A'
+- features:
+    case: genitive
+    number: singular
+    person: first
+  expected: '%A'
+- features:
+    case: oblique
+    number: singular
+    person: first
+  expected: '%'
+- features:
+    number: dual
+    person: first
+  expected: '%J.-$A?'
+- features:
+    number: singular
+    person: first
+  expected: '%'
+---
+lemma: '%a'
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: plural
+    person: first
+  expected: '%A-(:R'
+- features:
+    case: ergative
+    number: plural
+    person: first
+  expected: '%A-(R?'
+- features:
+    case: genitive
+    number: plural
+    person: first
+  expected: '%A-(R'
+- features:
+    case: oblique
+    number: plural
+    person: first
+  expected: '%A-(:R'
+- features:
+    number: dual
+    person: first
+  expected: '%A-$A-$'
+- features:
+    number: plural
+    person: first
+  expected: '%A-(:R'
+- features:
+    number: singular
+    person: first
+  expected: '%'
+---
+lemma: '%a-$a-$'
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: dual
+    person: first
+  expected: '%A-$A-$'
+- features:
+    case: ergative
+    number: dual
+    person: first
+  expected: '%A-$A-$?'
+- features:
+    case: genitive
+    number: dual
+    person: first
+  expected: '%A-$A-$A'
+- features:
+    case: oblique
+    number: dual
+    person: first
+  expected: '%A-$A-$'
+---
+lemma: '%j.-$a?'
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: first
+  expected: '%J.-$A?'
+---
+lemma: hr
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: dual
+    person: second
+  expected: hR-$A-$
+- features:
+    case: absolutive
+    number: plural
+    person: second
+  expected: hR-(:R
+- features:
+    case: absolutive
+    number: singular
+    person: second
+  expected: hR
+- features:
+    case: ergative
+    number: dual
+    person: second
+  expected: hR-$A-$?
+- features:
+    case: ergative
+    number: plural
+    person: second
+  expected: hR-(R?
+- features:
+    case: ergative
+    number: singular
+    person: second
+  expected: hR?
+- features:
+    case: genitive
+    number: dual
+    person: second
+  expected: hR-$A-$A
+- features:
+    case: genitive
+    number: plural
+    person: second
+  expected: hR-(:R-$A
+- features:
+    case: genitive
+    number: singular
+    person: second
+  expected: hR
+- features:
+    case: oblique
+    number: dual
+    person: second
+  expected: hR-$A-$
+- features:
+    case: oblique
+    number: plural
+    person: second
+  expected: hR-(:R
+- features:
+    case: oblique
+    number: singular
+    person: second
+  expected: hR
+- features:
+    number: dual
+    person: second
+  expected: hR-$A-$
+- features:
+    number: plural
+    person: second
+  expected: hR-(:R
+- features:
+    number: singular
+    person: second
+  expected: hR
+---
+lemma: hr-$a-$
+category: pronouns
+cases:
+- features:
+    case: absolutive
+    number: dual
+    person: second
+  expected: hR-$A-$
+- features:
+    case: ergative
+    number: dual
+    person: second
+  expected: hR-$A-$?
+- features:
+    case: genitive
+    number: dual
+    person: second
+  expected: hR-$A-$A
+- features:
+    case: oblique
+    number: dual
+    person: second
+  expected: hR-$A-$
+---
+lemma: hr.-$a?
+category: pronouns
+cases:
+- features:
+    number: dual
+    person: second
+  expected: hR.-$A?

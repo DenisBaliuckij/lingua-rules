@@ -1,0 +1,32 @@
+class	features	strip	ending	source	note
+r_type	aspect=imperfective;tense=present	0		doc 40835 p. 279	R -> R
+r_type	aspect=perfective;tense=past	0	?	doc 40835 p. 279	R -> R?
+r_type	mood=imperative	0		doc 40835 p. 279	R -> R
+r_type	mood=imperative;polarity=affirmative	0		doc 103550 p. 247	R -> R
+r_type	tense=future	0		doc 103550 p. 220	R -> R
+r_type	tense=past	0		doc 103550 p. 220	R -> R
+r_type	tense=present	0		doc 103550 p. 220	R -> R
+ir_type	aspect=imperfective;tense=present	1	R	doc 40835 p. 279	ir -> iR
+ir_type	aspect=perfective;tense=past	2	?R%	doc 40835 p. 279	ir -> ?R%
+ir_type	mood=imperative	2	?R%	doc 103550 p. 219	ir -> ?R%
+ir_type	tense=future	1	R	doc 103550 p. 219	ir -> iR
+ir_type	tense=past	2	?R%	doc 103550 p. 219	ir -> ?R%
+ir_type	tense=present	1	R	doc 103550 p. 219	ir -> iR
+class_type	aspect=imperfective;tense=present	0		doc 40835 p. 279	$ -> $
+class_type	mood=imperative	1	#R	doc 40835 p. 279	$ -> #R
+class_type	tense=future	0		doc 103550 p. 220	$ -> $
+class_type	tense=past	0		doc 103550 p. 220	$ -> $
+class_type	tense=present	0		doc 103550 p. 220	$ -> $
+r_type_2	mood=imperative	2	#R	doc 103550 p. 219	$r -> #R
+r_type_2	tense=future	1	R	doc 103550 p. 219	$r -> $R
+r_type_2	tense=past	1	R	doc 103550 p. 219	$r -> $R
+r_type_2	tense=present	1	R	doc 103550 p. 219	$r -> $R
+r_type_3	mood=imperative	0	?	doc 103550 p. 219	r% -> r%?
+r_type_3	tense=future	2	%	doc 103550 p. 219	r% -> %
+r_type_3	tense=past	2	%?	doc 103550 p. 219	r% -> %?
+r_type_3	tense=present	0		doc 103550 p. 219	r% -> r%
+r_type_4	tense=future	2	R?	doc 103550 p. 220	$r? -> $R?
+r_type_4	tense=past	2	R?	doc 103550 p. 220	$r? -> $R?
+r_type_4	tense=present	2	R?	doc 103550 p. 220	$r? -> $R?
+va_type	aspect=imperfective;tense=present	1	A	doc 40835 p. 279	va -> vA
+va_type	mood=imperative	2	uA?	doc 40835 p. 279	va -> uA?
